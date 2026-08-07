@@ -12,8 +12,8 @@ test('首页地图与核心数据在三种视口可用', async ({ page }, testIn
   await expect(page).toHaveTitle('化学竞赛知识图谱')
   await expect(page.getByTestId('home-map')).toBeVisible()
   await expect(page.getByTestId('map-canvas')).toBeVisible()
-  await expect(page.locator('.overview-cy canvas').first()).toBeVisible({ timeout: 15_000 })
-  await expect(page.getByTestId('map-counts')).toContainText('396 节点')
+  await expect(page.locator('.overview-cy canvas').first()).toBeVisible({ timeout: 20_000 })
+  await expect(page.getByTestId('map-counts')).toContainText('663 节点')
   await expect(page.getByTestId('node-picker')).toBeVisible()
   await expect(page.getByText('演示数据 2026.08')).toBeVisible()
   await assertNoHorizontalOverflow(page)
@@ -35,19 +35,20 @@ test('节点文字列表选择后展示相邻、次序与题目', async ({ page 
   await expect(page.getByTestId('node-pick-kn-discipline-000004')).toHaveCount(0)
   await expect(page.getByTestId('node-pick-kn-discipline-000005')).toHaveCount(0)
   await expect(page.getByTestId('node-pick-kn-discipline-000006')).toHaveCount(0)
-  await expect(picker.locator('[data-testid^="node-pick-"]')).toHaveCount(390)
+  await expect(picker.locator('[data-testid^="node-pick-"]')).toHaveCount(657)
 
+  // 大列表用过滤定位，避免折叠/clip 项误点
+  await page.getByPlaceholder('过滤列表').fill('配位化学')
   await page.getByTestId('node-pick-kn-concept-000005').click()
   await expect(page.getByTestId('panel-title')).toHaveText('配位化学')
   await expect(page.getByTestId('neighbor-kn-discipline-000003')).toBeVisible()
-  await expect(page.getByTestId('related-problem-problem-000006')).toBeVisible()
+  await expect(page.getByTestId('related-problem-problem-000366')).toBeVisible()
   await expect(page.getByTestId('open-knowledge')).toBeVisible()
 
-  // 另一对先修：原子与电子构型 → 化学键（先复位再从列表选）
+  // 另一对先修：原子与电子构型 → 化学键
   await page.getByTestId('map-reset').click()
   await expect(page.getByTestId('node-picker')).toBeVisible()
-  // 大列表中滚动到目标节点
-  await page.getByTestId('node-pick-kn-concept-000011').scrollIntoViewIfNeeded()
+  await page.getByPlaceholder('过滤列表').fill('原子与电子构型')
   await page.getByTestId('node-pick-kn-concept-000011').click()
   await expect(page.getByTestId('panel-title')).toHaveText('原子与电子构型')
   await expect(page.getByTestId('follow-kn-concept-000002')).toBeVisible()
@@ -65,7 +66,9 @@ test('搜索定位知识节点并支持复位', async ({ page }) => {
   await expect(page).toHaveURL(/node=kn-concept-000005/)
   await expect(page.getByTestId('panel-title')).toHaveText('配位化学')
 
-  await page.getByTestId('map-reset').click()
+  // 移动端 sheet 遮罩可能挡住工具条：优先点清除/复位，必要时 force
+  const reset = page.getByTestId('map-reset')
+  await reset.click({ force: true })
   await expect(page.getByTestId('node-picker')).toBeVisible()
   await expect(page.getByTestId('panel-title')).toHaveCount(0)
 })

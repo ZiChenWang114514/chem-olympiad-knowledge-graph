@@ -1,4 +1,4 @@
-import { forwardRef, useState, type CSSProperties } from 'react'
+import { forwardRef, useEffect, useState, type CSSProperties } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import type { AppData } from '../lib/data'
 import { displayProblemTitle, examStageLabel } from '../lib/format'
@@ -22,12 +22,20 @@ type Props = {
   compact?: boolean
 }
 
+const RELATED_PREVIEW = 6
+
 export const Inspector = forwardRef<HTMLElement, Props>(function Inspector(
   { data, selected, onSelect, onClear, compact = false },
   ref,
 ) {
   const navigate = useNavigate()
   const [pickerFilter, setPickerFilter] = useState('')
+  const [showAllRelated, setShowAllRelated] = useState(false)
+
+  useEffect(() => {
+    setShowAllRelated(false)
+  }, [selected?.id])
+
   const relationName = (id: string) => {
     const rel = data.taxonomy.relations.find(r => r.id === id || r.predicate === id || r.name === id)
     return relationLabel(id, rel?.name)
@@ -36,6 +44,7 @@ export const Inspector = forwardRef<HTMLElement, Props>(function Inspector(
   const prereq = selected ? getPrerequisites(selected.id, data.graph.edges, data.graph.nodes) : []
   const follow = selected ? getFollowOns(selected.id, data.graph.edges, data.graph.nodes) : []
   const related = selected ? getRelatedProblems(selected.id, data.problems) : []
+  const relatedShown = showAllRelated ? related : related.slice(0, RELATED_PREVIEW)
   const accent = selected ? disciplineColor(data.taxonomy.disciplines, selected.discipline) : undefined
 
   return (
@@ -44,6 +53,8 @@ export const Inspector = forwardRef<HTMLElement, Props>(function Inspector(
       ref={ref}
       data-testid="map-panel"
     >
+      <div className="sheet-handle" aria-hidden="true" />
+
       {selected ? (
         <>
           <div className="panel-head" style={{ '--panel-accent': accent } as CSSProperties}>
@@ -59,6 +70,9 @@ export const Inspector = forwardRef<HTMLElement, Props>(function Inspector(
                   ?.name || selected.discipline}
               </span>
               <span className="panel-meta-pill">{nodeTypeLabel(selected.type)}</span>
+              {typeof selected.importance === 'number' ? (
+                <span className="panel-meta-pill is-soft">重要度 {selected.importance}/5</span>
+              ) : null}
             </p>
           </div>
 
@@ -132,21 +146,32 @@ export const Inspector = forwardRef<HTMLElement, Props>(function Inspector(
                 相关历年题目 <small>{related.length}</small>
               </h3>
               {related.length ? (
-                <ul className="problem-mini-list">
-                  {related.map(problem => {
-                    const exam = data.exams.find(e => e.id === problem.examId)
-                    return (
-                      <li key={problem.id}>
-                        <Link to={`/exams/${problem.id}`} data-testid={`related-problem-${problem.id}`}>
-                          <b>
-                            {exam?.year} · {exam ? examStageLabel(exam.stage) : ''} · {problem.number}
-                          </b>
-                          <span>{displayProblemTitle(problem.title)}</span>
-                        </Link>
-                      </li>
-                    )
-                  })}
-                </ul>
+                <>
+                  <ul className="problem-mini-list">
+                    {relatedShown.map(problem => {
+                      const exam = data.exams.find(e => e.id === problem.examId)
+                      return (
+                        <li key={problem.id}>
+                          <Link to={`/exams/${problem.id}`} data-testid={`related-problem-${problem.id}`}>
+                            <b>
+                              {exam?.year} · {exam ? examStageLabel(exam.stage) : ''} · {problem.number}
+                            </b>
+                            <span>{displayProblemTitle(problem.title)}</span>
+                          </Link>
+                        </li>
+                      )
+                    })}
+                  </ul>
+                  {related.length > RELATED_PREVIEW ? (
+                    <button
+                      type="button"
+                      className="node-picker-more"
+                      onClick={() => setShowAllRelated(v => !v)}
+                    >
+                      {showAllRelated ? '收起题目列表' : `查看全部 ${related.length} 题`}
+                    </button>
+                  ) : null}
+                </>
               ) : (
                 <p className="muted" data-testid="problems-pending">
                   该节点尚无公开的节点级题目映射，待标注。
@@ -177,7 +202,7 @@ export const Inspector = forwardRef<HTMLElement, Props>(function Inspector(
                 type="search"
                 value={pickerFilter}
                 onChange={e => setPickerFilter(e.target.value)}
-                placeholder="过滤列表…"
+                placeholder="过滤列表…（支持名称）"
                 autoComplete="off"
               />
             </label>

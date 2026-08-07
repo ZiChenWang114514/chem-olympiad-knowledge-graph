@@ -12,7 +12,7 @@ export function MapWorkspace({ data, mode }: { data: AppData; mode: Mode }) {
   const selectedId = searchParams.get('node')
   const selected = data.graph.nodes.find(n => n.id === selectedId) || null
   const skipScrollRef = useRef(true)
-  const [legendOpen, setLegendOpen] = useState(mode === 'expanded')
+  const [legendOpen, setLegendOpen] = useState(false)
 
   const onSelect = (id: string | null) => {
     if (id) setSearchParams({ node: id }, { replace: true })
@@ -37,6 +37,20 @@ export function MapWorkspace({ data, mode }: { data: AppData; mode: Mode }) {
     }
   }, [selectedId, reduceMotion])
 
+  // Esc clears selection when workspace focused
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape' && selectedId) {
+        const t = e.target as HTMLElement | null
+        if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return
+        onSelect(null)
+      }
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selectedId])
+
   const title = mode === 'expanded' ? '知识图谱' : null
 
   return (
@@ -47,7 +61,7 @@ export function MapWorkspace({ data, mode }: { data: AppData; mode: Mode }) {
       {title ? (
         <div className="workspace-page-title">
           <h1>{title}</h1>
-          <p>从学科进入具体节点；关系同时提供图形与检查器。</p>
+          <p>学科团簇布局 · 点选查看邻域与学习次序 · 双击打开知识页</p>
         </div>
       ) : null}
 
@@ -55,7 +69,7 @@ export function MapWorkspace({ data, mode }: { data: AppData; mode: Mode }) {
         <div className="map-toolbar-row">
           <p className="map-hint">
             {mode === 'expanded'
-              ? '点选节点查看邻域与学习次序；双击打开知识页。'
+              ? '学科团簇视图；缩放显示标签，Esc 清除选中。'
               : '点节点查看相邻知识、相关题目与学习次序。'}
           </p>
           <div className="map-toolbar-actions">
@@ -64,7 +78,7 @@ export function MapWorkspace({ data, mode }: { data: AppData; mode: Mode }) {
             </span>
             <button
               type="button"
-              className="toolbar-btn"
+              className={`toolbar-btn${legendOpen ? ' is-active' : ''}`}
               onClick={() => setLegendOpen(v => !v)}
               aria-expanded={legendOpen}
             >
@@ -79,7 +93,10 @@ export function MapWorkspace({ data, mode }: { data: AppData; mode: Mode }) {
               复位视图
             </button>
             {mode === 'overview' ? (
-              <Link className="toolbar-link" to={selectedId ? `/graph?node=${encodeURIComponent(selectedId)}` : '/graph'}>
+              <Link
+                className="toolbar-link"
+                to={selectedId ? `/graph?node=${encodeURIComponent(selectedId)}` : '/graph'}
+              >
                 完整图谱
               </Link>
             ) : (
@@ -109,7 +126,15 @@ export function MapWorkspace({ data, mode }: { data: AppData; mode: Mode }) {
             data-testid="map-canvas"
             aria-label={mode === 'expanded' ? '化学知识关系图' : '化学知识网络总览'}
           />
+          {!selected ? (
+            <div className="map-stage-hint" aria-hidden="true">
+              <span>滚轮缩放 · 拖拽平移 · 点击选中</span>
+            </div>
+          ) : null}
         </div>
+        {selected ? (
+          <button type="button" className="sheet-backdrop" aria-label="关闭检查器" onClick={() => onSelect(null)} />
+        ) : null}
         <Inspector
           ref={panelRef}
           data={data}

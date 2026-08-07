@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import type { AppData } from '../lib/data'
 import type { GraphNode } from '../types'
 import { buildCyStyle, defaultLayoutOptions } from './cyStyle'
+import { buildClusterPositions, shouldUseClusterLayout } from './layoutCluster'
 
 function isCompactViewport() {
   return typeof window !== 'undefined' && window.matchMedia('(max-width: 800px)').matches
@@ -30,9 +31,26 @@ export function applySelection(cy: Core, nodeId: string | null, reduceMotion: bo
   const node = cy.getElementById(nodeId)
   if (node.empty()) return
   const eles = node.closedNeighborhood()
-  const padding = isCompactViewport() ? 28 : 56
+  const padding = isCompactViewport() ? 36 : 72
   if (reduceMotion) cy.fit(eles, padding)
-  else cy.animate({ fit: { eles, padding } }, { duration: 320 })
+  else cy.animate({ fit: { eles, padding } }, { duration: 340 })
+}
+
+function applyLabelVisibility(cy: Core, nodeCount: number, selectedId?: string | null) {
+  const z = cy.zoom()
+  const threshold = nodeCount > 200 ? 1.05 : nodeCount > 120 ? 0.9 : 0.7
+  cy.batch(() => {
+    cy.nodes().forEach(n => {
+      const isDisc = n.data('type') === 'discipline'
+      const show =
+        isDisc ||
+        z >= threshold ||
+        n.id() === selectedId ||
+        n.hasClass('neighbor-node') ||
+        n.hasClass('map-selected')
+      n.style('text-opacity', show ? 1 : 0)
+    })
+  })
 }
 
 type Options = {
@@ -47,6 +65,8 @@ export function useCytoscape({ data, selectedId = null, onSelect, expanded = fal
   const cyRef = useRef<Core | null>(null)
   const onSelectRef = useRef(onSelect)
   onSelectRef.current = onSelect
+  const selectedRef = useRef(selectedId)
+  selectedRef.current = selectedId
   const navigate = useNavigate()
   const reduceMotion =
     typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches
@@ -54,17 +74,44 @@ export function useCytoscape({ data, selectedId = null, onSelect, expanded = fal
   useEffect(() => {
     if (!container.current) return
     const compact = isCompactViewport()
+    const nodeCount = data.graph.nodes.length
+    const useCluster = shouldUseClusterLayout(nodeCount)
+
+    const positions = useCluster
+      ? buildClusterPositions(data.graph.nodes, data.graph.edges, data.taxonomy.disciplines, {
+          compact,
+          expanded,
+        })
+      : null
+
+    const degree = new Map<string, number>()
+    for (const e of data.graph.edges) {
+      degree.set(e.source, (degree.get(e.source) || 0) + 1)
+      degree.set(e.target, (degree.get(e.target) || 0) + 1)
+    }
+
     const cy = cytoscape({
       container: container.current,
       elements: [
-        ...data.graph.nodes.map(node => ({ data: { ...node } })),
+        ...data.graph.nodes.map(node => ({
+          data: {
+            ...node,
+            isolate: node.type !== 'discipline' && (degree.get(node.id) || 0) === 0 ? 1 : 0,
+          },
+          ...(positions ? { position: positions.get(node.id) } : {}),
+        })),
         ...data.graph.edges.map(edge => ({ data: { ...edge } })),
       ],
-      style: buildCyStyle(data) as cytoscape.StylesheetStyle[],
-      layout: defaultLayoutOptions(compact, expanded, data.graph.nodes.length),
-      minZoom: 0.22,
-      maxZoom: 2.8,
-      wheelSensitivity: 0.18,
+      style: buildCyStyle(data, nodeCount) as cytoscape.StylesheetStyle[],
+      layout: useCluster
+        ? { name: 'preset', fit: true, padding: compact ? 28 : expanded ? 48 : 40 }
+        : defaultLayoutOptions(compact, expanded, nodeCount),
+      minZoom: 0.15,
+      maxZoom: 3.2,
+      wheelSensitivity: 0.16,
+      textureOnViewport: nodeCount > 200,
+      hideEdgesOnViewport: nodeCount > 400,
+      pixelRatio: typeof window !== 'undefined' ? Math.min(window.devicePixelRatio || 1, 2) : 1,
     })
     cyRef.current = cy
 
@@ -78,31 +125,38 @@ export function useCytoscape({ data, selectedId = null, onSelect, expanded = fal
       const id = event.target.id()
       if (id) navigate(`/knowledge/${id}`)
     }
+    const onMouseOver = (event: EventObject) => {
+      event.target.addClass('is-hover')
+    }
+    const onMouseOut = (event: EventObject) => {
+      event.target.removeClass('is-hover')
+    }
+    const onZoom = () => applyLabelVisibility(cy, nodeCount, selectedRef.current)
 
     cy.on('tap', 'node', onTapNode)
     cy.on('tap', onTapBackground)
     cy.on('dbltap', 'node', onDblTap)
+    cy.on('mouseover', 'node', onMouseOver)
+    cy.on('mouseout', 'node', onMouseOut)
+    cy.on('zoom', onZoom)
+    applyLabelVisibility(cy, nodeCount, selectedRef.current)
 
-    // Zoom-aware labels: hide non-discipline labels when zoomed out (large graphs)
-    const updateLabels = () => {
-      const z = cy.zoom()
-      const threshold = data.graph.nodes.length > 120 ? 0.85 : 0.7
-      cy.batch(() => {
-        cy.nodes().forEach(n => {
-          const isDisc = n.data('type') === 'discipline'
-          const show = isDisc || z >= threshold || n.hasClass('map-selected') || n.hasClass('neighbor-node')
-          n.style('text-opacity', show ? 1 : 0)
-        })
-      })
-    }
-    cy.on('zoom', updateLabels)
-    updateLabels()
+    const ro =
+      typeof ResizeObserver !== 'undefined'
+        ? new ResizeObserver(() => {
+            cy.resize()
+          })
+        : null
+    if (ro && container.current) ro.observe(container.current)
 
     return () => {
+      ro?.disconnect()
       cy.removeListener('tap', 'node', onTapNode)
       cy.removeListener('tap', onTapBackground)
       cy.removeListener('dbltap', 'node', onDblTap)
-      cy.removeListener('zoom', updateLabels)
+      cy.removeListener('mouseover', 'node', onMouseOver)
+      cy.removeListener('mouseout', 'node', onMouseOut)
+      cy.removeListener('zoom', onZoom)
       cyRef.current = null
       cy.destroy()
     }
@@ -112,31 +166,19 @@ export function useCytoscape({ data, selectedId = null, onSelect, expanded = fal
     const cy = cyRef.current
     if (!cy) return
     applySelection(cy, selectedId, reduceMotion)
-    const z = cy.zoom()
-    const threshold = data.graph.nodes.length > 120 ? 0.85 : 0.7
-    cy.batch(() => {
-      cy.nodes().forEach(n => {
-        const isDisc = n.data('type') === 'discipline'
-        const show =
-          isDisc ||
-          z >= threshold ||
-          n.id() === selectedId ||
-          n.hasClass('neighbor-node') ||
-          n.hasClass('map-selected')
-        n.style('text-opacity', show ? 1 : 0)
-      })
-    })
+    applyLabelVisibility(cy, data.graph.nodes.length, selectedId)
   }, [selectedId, reduceMotion, data])
 
   const resetView = () => {
     onSelectRef.current(null)
     const cy = cyRef.current
     if (!cy) return
-    cy.elements().removeClass('faded neighbor-node neighbor-edge map-selected')
+    cy.elements().removeClass('faded neighbor-node neighbor-edge map-selected is-hover')
     cy.nodes().unselect()
-    const padding = isCompactViewport() ? 28 : 48
+    const padding = isCompactViewport() ? 28 : 44
     if (reduceMotion) cy.fit(undefined, padding)
-    else cy.animate({ fit: { eles: cy.elements(), padding } }, { duration: 260 })
+    else cy.animate({ fit: { eles: cy.elements(), padding } }, { duration: 280 })
+    applyLabelVisibility(cy, data.graph.nodes.length, null)
   }
 
   const focusNeighborhood = () => {

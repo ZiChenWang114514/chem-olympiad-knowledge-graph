@@ -512,6 +512,11 @@ a { color: inherit; }
   background: var(--teal-soft);
 }
 .toolbar-btn:active { transform: scale(0.98); }
+.toolbar-btn.is-active {
+  border-color: var(--teal-mid);
+  background: var(--teal-soft);
+  color: var(--teal-deep);
+}
 .toolbar-link {
   color: var(--teal);
   text-decoration: none;
@@ -533,6 +538,38 @@ a { color: inherit; }
   min-height: 0;
   position: relative;
   background: var(--stage);
+}
+.map-stage-hint {
+  position: absolute;
+  left: 50%;
+  bottom: 14px;
+  transform: translateX(-50%);
+  z-index: 3;
+  pointer-events: none;
+}
+.map-stage-hint span {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  color: rgba(220, 235, 240, 0.55);
+  background: rgba(10, 16, 20, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-pill);
+  padding: 5px 12px;
+  backdrop-filter: blur(8px);
+  letter-spacing: 0.02em;
+}
+.sheet-backdrop {
+  display: none;
+}
+.sheet-handle {
+  display: none;
+  width: 36px;
+  height: 4px;
+  border-radius: 2px;
+  background: #c8d4d0;
+  margin: 8px auto 0;
+  flex-shrink: 0;
 }
 
 .overview-cy,
@@ -633,6 +670,10 @@ a { color: inherit; }
   color: var(--teal-deep);
   font-size: 11px;
   font-weight: 600;
+}
+.panel-meta-pill.is-soft {
+  background: #f0f3f2;
+  color: var(--muted);
 }
 .panel-scroll {
   flex: 1;
@@ -804,27 +845,51 @@ a { color: inherit; }
   padding: 0 16px 16px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
   overflow: auto;
   flex: 1;
   min-height: 0;
   scrollbar-width: thin;
 }
-.node-picker-group h3 {
+.node-picker-group-toggle {
+  width: 100%;
+  border: 0;
+  background: transparent;
   display: flex;
   align-items: center;
   gap: 8px;
   margin: 0 0 8px;
+  padding: 4px 2px;
   font-size: 12px;
   color: var(--ink-soft);
   font-weight: 700;
+  text-align: left;
+  border-radius: 8px;
+  transition: background var(--dur) var(--ease);
 }
-.node-picker-group h3::before { display: none; }
-.node-picker-group h3 i {
+.node-picker-group-toggle:hover { background: rgba(14, 26, 32, 0.04); }
+.node-picker-group-toggle i {
   width: 8px;
   height: 8px;
   border-radius: 50%;
   box-shadow: 0 0 0 2px #fff, 0 0 0 3.5px rgba(14, 26, 32, 0.08);
+  flex-shrink: 0;
+}
+.node-picker-group-name { flex: 1; min-width: 0; }
+.node-picker-group-count {
+  font-size: 10.5px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  font-family: Manrope, sans-serif;
+  color: var(--muted);
+  background: #eef3f1;
+  border-radius: var(--radius-pill);
+  padding: 2px 7px;
+}
+.node-picker-chevron {
+  font-size: 11px;
+  color: var(--muted-soft);
+  width: 1em;
 }
 .node-picker-group ul {
   list-style: none;
@@ -834,7 +899,7 @@ a { color: inherit; }
   flex-direction: column;
   gap: 5px;
 }
-.node-picker-group button {
+.node-picker-group ul button {
   width: 100%;
   border: 1px solid var(--line);
   background: #fff;
@@ -852,12 +917,12 @@ a { color: inherit; }
   border-left: 3px solid var(--pick-accent, var(--teal-mid));
   transition: border-color var(--dur) var(--ease), background var(--dur) var(--ease), transform var(--dur) var(--ease);
 }
-.node-picker-group button:hover {
+.node-picker-group ul button:hover {
   border-color: var(--teal-mid);
   background: var(--teal-soft);
   transform: translateY(-1px);
 }
-.node-picker-group button.is-active {
+.node-picker-group ul button.is-active {
   border-color: var(--teal-mid);
   background: var(--teal-soft);
 }
@@ -870,6 +935,36 @@ a { color: inherit; }
   border-radius: var(--radius-pill);
   padding: 2px 7px;
   flex-shrink: 0;
+}
+.node-picker-more {
+  margin-top: 8px;
+  width: 100%;
+  border: 1px dashed var(--line-strong);
+  background: transparent;
+  color: var(--teal);
+  border-radius: 9px;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: 650;
+  transition: background var(--dur) var(--ease), border-color var(--dur) var(--ease);
+}
+.node-picker-more:hover {
+  background: var(--teal-soft);
+  border-color: var(--teal-mid);
+}
+.node-picker-more.is-muted { color: var(--muted); }
+/* Keep full node list in DOM for deep-link / e2e; hide overflow visually */
+.node-picker-group li.is-clipped {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+  pointer-events: none;
 }
 
 /* Buttons */
@@ -1243,10 +1338,30 @@ a { color: inherit; }
   box-shadow: var(--shadow-md);
 }
 .chart-card h2 {
-  margin: 0 0 16px;
+  margin: 0 0 6px;
   font-size: 15px;
   font-weight: 750;
   letter-spacing: -0.02em;
+}
+.chart-sub {
+  margin: 0 0 14px;
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+.year-chart-dense {
+  gap: 6px;
+}
+.year-chart-dense .column {
+  max-width: 28px;
+  min-height: 4px;
+}
+.year-chart-dense .column b {
+  font-size: 9px;
+}
+.year-chart-dense span {
+  font-size: 9px;
+  writing-mode: horizontal-tb;
 }
 .bars { display: flex; flex-direction: column; gap: 10px; }
 .bar-row {
@@ -1615,17 +1730,39 @@ footer a:hover { color: var(--teal-deep); }
     min-height: clamp(300px, 42vh, 480px);
     height: clamp(300px, 42vh, 480px);
   }
+  .sheet-handle { display: block; }
   .map-panel {
     border-left: 0;
     border-top: 1px solid var(--line);
-    max-height: min(48vh, 420px);
+    max-height: min(46vh, 400px);
     animation: sheet-up var(--dur-slow) var(--ease);
   }
-  .map-workspace.has-selection .map-panel {
-    max-height: min(52vh, 480px);
+  .map-body { position: relative; }
+  .map-workspace.has-selection .sheet-backdrop {
+    display: block;
+    position: absolute;
+    inset: 0;
+    z-index: 4;
+    border: 0;
+    background: rgba(10, 16, 20, 0.22);
+    animation: fade-in var(--dur) var(--ease);
   }
+  .map-workspace.has-selection .map-panel {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 35;
+    max-height: min(58vh, 520px);
+    min-height: 40vh;
+    border-radius: 18px 18px 0 0;
+    border-top: 1px solid var(--line-strong);
+    box-shadow: 0 -12px 40px rgba(10, 16, 20, 0.18);
+  }
+  /* Keep chrome controls above the sheet backdrop */
+  .map-toolbar { position: relative; z-index: 5; }
   @keyframes sheet-up {
-    from { opacity: 0; transform: translateY(12px); }
+    from { opacity: 0; transform: translateY(16px); }
     to { opacity: 1; transform: none; }
   }
   .app.is-workspace {
@@ -1666,7 +1803,7 @@ footer a:hover { color: var(--teal-deep); }
     flex-wrap: wrap;
     gap: 6px;
   }
-  .node-picker-group button {
+  .node-picker-group ul button {
     width: auto;
     padding: 7px 12px;
     font-size: 12px;
