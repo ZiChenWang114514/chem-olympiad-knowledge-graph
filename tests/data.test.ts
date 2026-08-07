@@ -1,14 +1,11 @@
+import { readdirSync, readFileSync } from 'node:fs'
+import { join } from 'node:path'
 import { describe, expect, it } from 'vitest'
 import manifest from '../public/data/manifest.json'
 import taxonomy from '../public/data/taxonomy.json'
 import graph from '../public/data/graph/all.json'
 import statistics from '../public/data/statistics.json'
 import searchIndex from '../public/data/search-index.json'
-import exam2006 from '../public/data/exams/2006.json'
-import exam2021 from '../public/data/exams/2021.json'
-import exam2022 from '../public/data/exams/2022.json'
-import exam2024 from '../public/data/exams/2024.json'
-import exam2025 from '../public/data/exams/2025.json'
 import {
   getFollowOns,
   getNeighbors,
@@ -17,13 +14,13 @@ import {
 } from '../src/lib/graph'
 import type { GraphEdge, GraphNode, Problem } from '../src/types'
 
-const problems = [
-  ...exam2006.items,
-  ...exam2021.items,
-  ...exam2022.items,
-  ...exam2024.items,
-  ...exam2025.items,
-] as Problem[]
+const examDir = join(__dirname, '../public/data/exams')
+const problems = readdirSync(examDir)
+  .filter(name => /^\d{4}\.json$/.test(name))
+  .flatMap(name => {
+    const payload = JSON.parse(readFileSync(join(examDir, name), 'utf8')) as { items: Problem[] }
+    return payload.items
+  })
 const nodes = graph.nodes as GraphNode[]
 const edges = graph.edges as GraphEdge[]
 
@@ -108,7 +105,9 @@ describe('图谱查询纯函数', () => {
 
   it('相关题目仅依据 nodeIds', () => {
     const related = getRelatedProblems('kn-concept-000005', problems)
-    expect(related.map(p => p.id)).toEqual(['problem-000006'])
+    expect(related.length).toBeGreaterThan(0)
+    expect(related.map(p => p.id)).toContain('problem-000006')
+    expect(related.every(p => Array.isArray(p.nodeIds) && p.nodeIds.includes('kn-concept-000005'))).toBe(true)
     const redox = getRelatedProblems('kn-method-000004', problems)
     expect(redox.some(p => p.id === 'problem-000008')).toBe(true)
   })

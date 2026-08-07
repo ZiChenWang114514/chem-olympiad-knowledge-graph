@@ -13,7 +13,7 @@ test('首页地图与核心数据在三种视口可用', async ({ page }, testIn
   await expect(page.getByTestId('home-map')).toBeVisible()
   await expect(page.getByTestId('map-canvas')).toBeVisible()
   await expect(page.locator('.overview-cy canvas').first()).toBeVisible({ timeout: 15_000 })
-  await expect(page.getByTestId('map-counts')).toContainText('22 节点')
+  await expect(page.getByTestId('map-counts')).toContainText('396 节点')
   await expect(page.getByTestId('node-picker')).toBeVisible()
   await expect(page.getByText('演示数据 2026.08')).toBeVisible()
   await assertNoHorizontalOverflow(page)
@@ -35,7 +35,7 @@ test('节点文字列表选择后展示相邻、次序与题目', async ({ page 
   await expect(page.getByTestId('node-pick-kn-discipline-000004')).toHaveCount(0)
   await expect(page.getByTestId('node-pick-kn-discipline-000005')).toHaveCount(0)
   await expect(page.getByTestId('node-pick-kn-discipline-000006')).toHaveCount(0)
-  await expect(picker.locator('[data-testid^="node-pick-"]')).toHaveCount(16)
+  await expect(picker.locator('[data-testid^="node-pick-"]')).toHaveCount(390)
 
   await page.getByTestId('node-pick-kn-concept-000005').click()
   await expect(page.getByTestId('panel-title')).toHaveText('配位化学')
@@ -46,6 +46,8 @@ test('节点文字列表选择后展示相邻、次序与题目', async ({ page 
   // 另一对先修：原子与电子构型 → 化学键（先复位再从列表选）
   await page.getByTestId('map-reset').click()
   await expect(page.getByTestId('node-picker')).toBeVisible()
+  // 大列表中滚动到目标节点
+  await page.getByTestId('node-pick-kn-concept-000011').scrollIntoViewIfNeeded()
   await page.getByTestId('node-pick-kn-concept-000011').click()
   await expect(page.getByTestId('panel-title')).toHaveText('原子与电子构型')
   await expect(page.getByTestId('follow-kn-concept-000002')).toBeVisible()
@@ -72,8 +74,8 @@ test('真题档案可以筛选并打开元数据记录', async ({ page }) => {
   await page.goto('./#/exams')
   await expect(page.getByRole('heading', { name: '真题档案' })).toBeVisible()
   await page.getByLabel('筛选题目').fill('钙钛矿')
-  await expect(page.getByText(/Q6 · 钙钛矿及衍生结构/)).toBeVisible()
-  await page.getByText(/Q6 · 钙钛矿及衍生结构/).click()
+  await expect(page.getByText(/Q6 · 钙钛矿衍生结构/)).toBeVisible()
+  await page.getByText(/Q6 · 钙钛矿衍生结构/).click()
   await expect(page.getByText('题文暂不公开')).toBeVisible()
   await expect(page.getByRole('link', { name: /钙钛矿结构/ })).toBeVisible()
 })

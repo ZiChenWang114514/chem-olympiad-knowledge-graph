@@ -33,7 +33,11 @@ export function ExamDetail({ data }: { data: AppData }) {
           </h1>
           <p>
             {problem.disciplines
-              .map(discipline => data.taxonomy.disciplines.find(item => item.id === discipline || item.name === discipline)?.name || discipline)
+              .map(
+                discipline =>
+                  data.taxonomy.disciplines.find(item => item.id === discipline || item.name === discipline)?.name ||
+                  discipline,
+              )
               .join(' / ')}{' '}
             · 难度 {problem.difficulty}/5
           </p>
@@ -45,13 +49,15 @@ export function ExamDetail({ data }: { data: AppData }) {
         {problem.summary} 来源：{exam.sourceLabel || problem.sourceLabel || '未标注'}。
       </Notice>
       <section className="detail-columns">
-        <article>
+        <article className="article">
           <h2>知识映射</h2>
           {mappedNodes.length ? (
             <div className="mapping-box">
               {mappedNodes.map(node => (
                 <Link to={`/knowledge/${node.id}`} key={node.id}>
-                  <span style={{ background: disciplineColor(data.taxonomy.disciplines, node.discipline) }}>{node.label.slice(0, 1)}</span>
+                  <span style={{ background: disciplineColor(data.taxonomy.disciplines, node.discipline) }}>
+                    {node.label.slice(0, 1)}
+                  </span>
                   <b>{node.label}</b>
                   <small>{nodeTypeLabel(node.type)}</small>
                 </Link>
@@ -60,6 +66,11 @@ export function ExamDetail({ data }: { data: AppData }) {
           ) : (
             <p className="muted">该题尚无公开的节点级知识映射，待标注。</p>
           )}
+          {mappedNodes[0] ? (
+            <Link className="btn-primary" to={`/?node=${encodeURIComponent(mappedNodes[0].id)}`} style={{ marginTop: 16 }}>
+              在图谱中查看首个映射
+            </Link>
+          ) : null}
         </article>
         <aside className="source-card">
           <h3>来源记录</h3>

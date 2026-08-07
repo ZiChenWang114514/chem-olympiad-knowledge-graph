@@ -1,3 +1,4 @@
+import type { CSSProperties } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import type { AppData } from '../lib/data'
 import { displayProblemTitle } from '../lib/format'
@@ -20,14 +21,20 @@ export function Knowledge({ data }: { data: AppData }) {
   const linked = getRelatedProblems(node.id, data.problems)
   const discName =
     data.taxonomy.disciplines.find(d => d.id === node.discipline || d.name === node.discipline)?.name || node.discipline
+  const accent = disciplineColor(data.taxonomy.disciplines, node.discipline)
 
   return (
     <>
-      <Link to="/graph" className="back">
-        ← 返回知识图谱
-      </Link>
-      <section className="knowledge-head">
-        <span className="topic-icon large" style={{ background: disciplineColor(data.taxonomy.disciplines, node.discipline) }}>
+      <div className="detail-nav">
+        <Link to={`/?node=${encodeURIComponent(node.id)}`} className="back">
+          ← 在图谱中定位
+        </Link>
+        <Link to="/graph" className="back subtle">
+          完整图谱
+        </Link>
+      </div>
+      <section className="knowledge-head" style={{ '--panel-accent': accent } as CSSProperties}>
+        <span className="topic-icon large" style={{ background: accent }}>
           {node.label.slice(0, 1)}
         </span>
         <div>
@@ -81,6 +88,9 @@ export function Knowledge({ data }: { data: AppData }) {
               )
             })}
           </ul>
+          <Link className="btn-primary full" to={`/?node=${encodeURIComponent(node.id)}`}>
+            返回图谱并选中
+          </Link>
           <h3>学习提示</h3>
           <p className="muted">先阅读相邻节点，再回看题目中的综合考查关系。</p>
         </aside>

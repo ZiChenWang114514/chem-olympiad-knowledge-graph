@@ -1,7 +1,8 @@
-import { useMemo, useRef, useState, type FormEvent, type KeyboardEvent, type ReactNode } from 'react'
+import { useEffect, useMemo, useRef, useState, type FormEvent, type KeyboardEvent, type ReactNode } from 'react'
 import MiniSearch from 'minisearch'
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom'
 import type { AppData } from '../lib/data'
+import { CommandPalette } from './CommandPalette'
 
 const nav = [
   { to: '/', label: '总览' },
@@ -13,10 +14,15 @@ const nav = [
 
 type SearchHit = { id: string; kind: string; title: string; subtitle?: string }
 
+function isMac() {
+  return typeof navigator !== 'undefined' && /Mac|iPhone|iPad/.test(navigator.platform)
+}
+
 export function Shell({ children, data }: { children: ReactNode; data: AppData }) {
   const [query, setQuery] = useState('')
   const [open, setOpen] = useState(false)
   const [active, setActive] = useState(0)
+  const [paletteOpen, setPaletteOpen] = useState(false)
   const navigate = useNavigate()
   const location = useLocation()
   const formRef = useRef<HTMLFormElement>(null)
@@ -33,6 +39,17 @@ export function Shell({ children, data }: { children: ReactNode; data: AppData }
     return (search.search(q, { prefix: true, fuzzy: 0.2 }) as unknown as SearchHit[]).slice(0, 6)
   }, [query, search])
 
+  useEffect(() => {
+    const onKey = (e: globalThis.KeyboardEvent) => {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+        e.preventDefault()
+        setPaletteOpen(true)
+      }
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [])
+
   const goHit = (hit: SearchHit) => {
     setOpen(false)
     setQuery('')
@@ -41,17 +58,21 @@ export function Shell({ children, data }: { children: ReactNode; data: AppData }
       navigate(`/exams/${hit.id}`)
       return
     }
-    if (location.pathname === '/' || location.pathname === '') {
-      navigate(`/?node=${encodeURIComponent(hit.id)}`)
+    const onMap = location.pathname === '/' || location.pathname === '' || location.pathname === '/graph'
+    if (onMap) {
+      navigate({ pathname: location.pathname || '/', search: `?node=${encodeURIComponent(hit.id)}` })
       return
     }
-    navigate(`/knowledge/${hit.id}`)
+    navigate(`/?node=${encodeURIComponent(hit.id)}`)
   }
 
   const submit = (event: FormEvent) => {
     event.preventDefault()
     const q = query.trim()
-    if (!q) return
+    if (!q) {
+      setPaletteOpen(true)
+      return
+    }
     if (suggestions[active]) {
       goHit(suggestions[active])
       return
@@ -82,34 +103,36 @@ export function Shell({ children, data }: { children: ReactNode; data: AppData }
   }
 
   const isHome = location.pathname === '/' || location.pathname === ''
+  const isGraph = location.pathname === '/graph'
+  const isWorkspace = isHome || isGraph
+  const shortcut = isMac() ? '⌘K' : 'Ctrl K'
 
   return (
-    <div className="app">
+    <div className={`app${isWorkspace ? ' is-workspace' : ''}`}>
       <a className="skip-link" href="#main-content">
         跳到主要内容
       </a>
-      <header className="topbar">
-        <div className="topbar-primary">
-          <Link to="/" className="brand" aria-label="化学竞赛知识图谱">
-            <span className="brand-mark" aria-hidden="true">
-              <svg viewBox="0 0 32 32" width="22" height="22" fill="none">
-                <circle cx="11" cy="12" r="3.2" fill="currentColor" opacity="0.95" />
-                <circle cx="21" cy="12" r="3.2" fill="currentColor" opacity="0.95" />
-                <circle cx="16" cy="21" r="3.2" fill="currentColor" opacity="0.95" />
-                <path d="M13.2 13.6 L14.8 18.2 M18.8 13.6 L17.2 18.2 M14.2 12 H17.8" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
-              </svg>
-            </span>
-            <span className="brand-text">
-              <span className="brand-kicker">化学竞赛</span>
-              <b>知识图谱</b>
-            </span>
-          </Link>
-          <div className="top-actions">
-            <span className="version" title={data.statistics.note}>
-              演示数据 2026.08
-            </span>
-          </div>
-        </div>
+      <header className="command-bar">
+        <Link to="/" className="brand" aria-label="化学竞赛知识图谱">
+          <span className="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" width="20" height="20" fill="none">
+              <circle cx="11" cy="12" r="3.2" fill="currentColor" opacity="0.95" />
+              <circle cx="21" cy="12" r="3.2" fill="currentColor" opacity="0.95" />
+              <circle cx="16" cy="21" r="3.2" fill="currentColor" opacity="0.95" />
+              <path
+                d="M13.2 13.6 L14.8 18.2 M18.8 13.6 L17.2 18.2 M14.2 12 H17.8"
+                stroke="currentColor"
+                strokeWidth="1.6"
+                strokeLinecap="round"
+              />
+            </svg>
+          </span>
+          <span className="brand-text">
+            <span className="brand-kicker">化学竞赛</span>
+            <b>知识图谱</b>
+          </span>
+        </Link>
+
         <form className="search" ref={formRef} onSubmit={submit} role="search">
           <span className="search-glyph" aria-hidden="true">
             ⌕
@@ -133,8 +156,14 @@ export function Shell({ children, data }: { children: ReactNode; data: AppData }
             placeholder="搜索知识点、题目或年份"
             autoComplete="off"
           />
-          <button type="submit" className="search-submit">
-            搜索
+          <button
+            type="button"
+            className="search-shortcut"
+            onMouseDown={e => e.preventDefault()}
+            onClick={() => setPaletteOpen(true)}
+            title="打开命令面板"
+          >
+            {shortcut}
           </button>
           {open && suggestions.length > 0 && (
             <ul id="search-suggestions" className="search-suggestions" role="listbox">
@@ -160,24 +189,42 @@ export function Shell({ children, data }: { children: ReactNode; data: AppData }
             </ul>
           )}
         </form>
-      </header>
-      <nav className="nav" aria-label="主导航">
-        {nav.map(item => (
-          <NavLink key={item.to} to={item.to} end={item.to === '/'} className={({ isActive }) => (isActive ? 'active' : '')}>
-            {item.label}
-          </NavLink>
-        ))}
-      </nav>
-      <main id="main-content" className={isHome ? 'content home-content' : 'content'}>
-        {children}
-      </main>
-      <footer>
-        <span>化学竞赛知识图谱</span>
-        <span>
-          {data.statistics.totalExams} 组考试 · {data.statistics.totalProblems} 条题目元数据 · 演示数据，映射待核验
+
+        <nav className="nav" aria-label="主导航">
+          {nav.map(item => (
+            <NavLink
+              key={item.to}
+              to={item.to}
+              end={item.to === '/'}
+              className={({ isActive }) => (isActive ? 'active' : '')}
+            >
+              {item.label}
+            </NavLink>
+          ))}
+        </nav>
+
+        <span className="version" title={data.statistics.note}>
+          演示数据 2026.08
         </span>
-        <Link to="/about">查看资料说明</Link>
-      </footer>
+      </header>
+
+      <main id="main-content" className={isWorkspace ? 'content home-content' : 'content'}>
+        <div className="page-enter" key={location.pathname}>
+          {children}
+        </div>
+      </main>
+
+      {!isWorkspace && (
+        <footer>
+          <span>化学竞赛知识图谱</span>
+          <span>
+            {data.statistics.totalExams} 组考试 · {data.statistics.totalProblems} 条题目元数据 · 演示数据，映射待核验
+          </span>
+          <Link to="/about">查看资料说明</Link>
+        </footer>
+      )}
+
+      <CommandPalette data={data} open={paletteOpen} onClose={() => setPaletteOpen(false)} initialQuery={query} />
     </div>
   )
 }

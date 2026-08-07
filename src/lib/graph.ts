@@ -84,9 +84,9 @@ export function relationLabel(relation: string, taxonomyName?: string): string {
 }
 
 export function nodeSize(node: GraphNode): number {
-  if (node.type === 'discipline') return 52
+  if (node.type === 'discipline') return 48
   const importance = node.importance ?? 3
-  return Math.min(36, Math.max(26, 24 + importance * 2))
+  return Math.min(32, Math.max(18, 16 + importance * 2.2))
 }
 
 export function groupNodesByDiscipline(nodes: GraphNode[], disciplines: Discipline[]) {
