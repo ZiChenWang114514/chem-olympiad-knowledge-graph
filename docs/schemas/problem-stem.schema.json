@@ -1,0 +1,151 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://zichenwang114514.github.io/chem-olympiad-knowledge-graph/schemas/problem-stem.schema.json",
+  "title": "ProblemStem",
+  "description": "公开站题干结构化文档 schemaVersion=1。见 docs/problem-stem-format.md。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "problemId", "rightsState", "language", "title", "number", "source"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "problemId": { "type": "string", "pattern": "^problem-[0-9]{6}$" },
+    "rightsState": { "enum": ["stem_public", "stem_demo", "fulltext_authorized"] },
+    "language": { "type": "string", "minLength": 2 },
+    "title": { "type": "string", "minLength": 1 },
+    "number": { "type": "string", "minLength": 1 },
+    "examYear": { "type": "integer", "minimum": 1980, "maximum": 2100 },
+    "examStage": { "enum": ["preliminary", "final"] },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceLabel", "transcriptionMethod"],
+      "properties": {
+        "sourceDocumentId": { "type": "string" },
+        "sourceLabel": { "type": "string", "minLength": 1 },
+        "page": { "type": "integer", "minimum": 0 },
+        "transcriptionMethod": { "enum": ["manual", "ocr_reviewed", "synthetic_demo"] },
+        "transcribedAt": { "type": "string" }
+      }
+    },
+    "blocks": { "type": "array", "items": { "$ref": "#/$defs/stemBlock" } },
+    "parts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "label", "blocks"],
+        "properties": {
+          "id": { "type": "string" },
+          "label": { "type": "string" },
+          "score": { "type": "number" },
+          "blocks": { "type": "array", "items": { "$ref": "#/$defs/stemBlock" }, "minItems": 1 }
+        }
+      }
+    },
+    "provenanceNote": { "type": "string" },
+    "renderingHints": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "mhchem": { "type": "boolean" },
+        "katexTrust": { "type": "boolean" }
+      }
+    }
+  },
+  "anyOf": [
+    { "required": ["blocks"], "properties": { "blocks": { "minItems": 1 } } },
+    { "required": ["parts"], "properties": { "parts": { "minItems": 1 } } }
+  ],
+  "$defs": {
+    "stemBlock": {
+      "type": "object",
+      "required": ["type"],
+      "oneOf": [
+        {
+          "properties": {
+            "type": { "const": "paragraph" },
+            "text": { "type": "string" }
+          },
+          "required": ["type", "text"],
+          "additionalProperties": false
+        },
+        {
+          "properties": {
+            "type": { "const": "formula" },
+            "latex": { "type": "string" },
+            "display": { "type": "boolean" }
+          },
+          "required": ["type", "latex"],
+          "additionalProperties": false
+        },
+        {
+          "properties": {
+            "type": { "const": "chem" },
+            "latex": { "type": "string" },
+            "display": { "type": "boolean" }
+          },
+          "required": ["type", "latex"],
+          "additionalProperties": false
+        },
+        {
+          "properties": {
+            "type": { "const": "heading" },
+            "level": { "type": "integer", "minimum": 2, "maximum": 4 },
+            "text": { "type": "string" }
+          },
+          "required": ["type", "level", "text"],
+          "additionalProperties": false
+        },
+        {
+          "properties": {
+            "type": { "const": "list" },
+            "ordered": { "type": "boolean" },
+            "items": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+          },
+          "required": ["type", "items"],
+          "additionalProperties": false
+        },
+        {
+          "properties": {
+            "type": { "const": "subpart" },
+            "label": { "type": "string" },
+            "prompt": { "type": "string" },
+            "blocks": { "type": "array", "items": { "$ref": "#/$defs/stemBlock" } }
+          },
+          "required": ["type", "label", "blocks"],
+          "additionalProperties": false
+        },
+        {
+          "properties": {
+            "type": { "const": "figure" },
+            "src": { "type": "string" },
+            "alt": { "type": "string" },
+            "caption": { "type": "string" },
+            "assetId": { "type": "string" }
+          },
+          "required": ["type", "alt"],
+          "additionalProperties": false
+        },
+        {
+          "properties": {
+            "type": { "const": "table" },
+            "caption": { "type": "string" },
+            "headers": { "type": "array", "items": { "type": "string" } },
+            "rows": { "type": "array", "items": { "type": "array", "items": { "type": "string" } } }
+          },
+          "required": ["type", "headers", "rows"],
+          "additionalProperties": false
+        },
+        {
+          "properties": {
+            "type": { "const": "callout" },
+            "tone": { "enum": ["info", "warn"] },
+            "text": { "type": "string" }
+          },
+          "required": ["type", "text"],
+          "additionalProperties": false
+        }
+      ]
+    }
+  }
+}

@@ -23,7 +23,10 @@ export function About() {
       <div className="about-grid">
         <article className="article">
           <h2>公开内容</h2>
-          <p>网站发布考试年份、题号、主题、知识映射和来源索引等元数据。未经授权的题目原文、答案、扫描件和内部文件不会发布。</p>
+          <p>
+            网站发布考试年份、题号、主题、知识映射和来源索引等元数据。答案、评分细则、扫描件与内部文件不会发布。在版权允许时，部分题目可提供<strong>结构化题干</strong>（非 PDF 原文），格式见仓库{' '}
+            <code>docs/problem-stem-format.md</code>。
+          </p>
           <h2>知识标注</h2>
           <p>题目录入按“考试—整题—小问—知识节点—关系”组织。新节点进入人工审核队列；每条映射保留来源文件、页码和审核状态。</p>
           <FormulaBlock />
@@ -41,8 +44,13 @@ export function About() {
             </div>
             <div>
               <i className="dot blue" />
-              <b>fulltext_authorized</b>
-              <span>取得授权后可展示全文</span>
+              <b>fulltext_authorized / stem_public</b>
+              <span>授权后可发布结构化题干</span>
+            </div>
+            <div>
+              <i className="dot amber" />
+              <b>stem_demo</b>
+              <span>演示排版样例（界面会标注）</span>
             </div>
           </div>
         </article>

@@ -19,9 +19,11 @@ function ProblemCard({ problem, exam, data }: { problem: Problem; exam: AppData[
       <span className="problem-main">
         <b>
           {problem.number} · {displayProblemTitle(problem.title)}
+          {problem.hasStem ? <span className="content-pill sm">题干</span> : null}
         </b>
         <span>
           {discNames} · {problem.mappingCount} 个知识映射
+          {problem.hasStem ? ' · 可阅题干' : ''}
         </span>
       </span>
       <DifficultyDots value={problem.difficulty} />

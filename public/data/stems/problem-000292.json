@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000292",
+  "rightsState": "stem_demo",
+  "language": "zh-CN",
+  "title": "钛铁矿提取金属钛",
+  "number": "1",
+  "examYear": 2006,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000001",
+    "sourceLabel": "2006-20-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "synthetic_demo",
+    "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "演示题干：按公开元数据主题编写的结构化样例，用于渲染与流程验证。",
+  "renderingHints": { "mhchem": true },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "warn",
+      "text": "演示内容。正式卷面请以授权审定题干替换本文件。"
+    },
+    {
+      "type": "paragraph",
+      "text": "钛铁矿是提取金属钛的重要矿物原料之一。工业上常采用还原、氯化与金属热还原等步骤获得海绵钛。本题关注流程中的关键化学反应与热力学可行性判断（演示级叙述）。"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "流程示意"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "碳热还原：将钛铁矿中的铁氧化物优先还原，富集含钛相",
+        "氯化：在适宜条件下生成四氯化钛等中间体",
+        "镁热还原（Kroll 相关思路）：由四氯化钛还原得到金属钛"
+      ]
+    },
+    {
+      "type": "chem",
+      "latex": "TiCl4 + 2Mg -> Ti + 2MgCl2",
+      "display": true
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-demo-000292-1",
+      "label": "(1)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出上述镁热还原的离子/分子反应式，并指出氧化剂与还原剂。"
+        }
+      ]
+    },
+    {
+      "id": "part-demo-000292-2",
+      "label": "(2)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "从热力学角度说明：为何该还原通常需要在惰性气氛与高温条件下进行（定性即可）？"
+        },
+        {
+          "type": "formula",
+          "latex": "\\Delta G = \\Delta H - T\\Delta S",
+          "display": true
+        }
+      ]
+    },
+    {
+      "id": "part-demo-000292-3",
+      "label": "(3)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "若氯化步骤产生的四氯化钛含水，可能发生水解。请写出一种合理的水解示意反应，并说明对后续还原的影响。"
+        },
+        {
+          "type": "chem",
+          "latex": "TiCl4 + 2H2O -> TiO2 + 4HCl",
+          "display": true
+        }
+      ]
+    }
+  ]
+}

@@ -4,10 +4,12 @@ import { fileURLToPath } from 'node:url'
 
 const rootUrl = new URL('../public/data/', import.meta.url)
 const root = fileURLToPath(rootUrl)
-const forbidden = [/\.pdf$/i, /(^|[\\/])(?:answer|score|solution|ocr|internal)(?:[^a-z]|$)/i, /D:\\\\|C:\\\\|\\\\Users\\\\/i, /题文全文|参考答案全文|评分细则/]
+const forbidden = [/\.pdf$/i, /(^|[\\/])(?:answer|score|solution|ocr|internal)(?:[^a-z]|$)/i, /D:\\\\|C:\\\\|\\\\Users\\\\/i, /参考答案全文|评分细则/]
 const forbiddenKey = /(?:sha256|checksum|digest|hash)/i
 const summaryValue = /^(?:[a-f0-9]{32}|[a-f0-9]{40}|[a-f0-9]{64})$/i
-const protectedContent = /(?:题文全文|参考答案全文|评分细则|(?:full|answer|solution|score|ocr)\s*(?:text|content)|protected\s+content)/i
+// 答案/评分类禁止；结构化题干（stems/）允许。禁止未结构化「题文全文」字段名式表述出现在非 stem 语境时仍靠字段审计。
+const protectedContent = /(?:参考答案全文|评分细则|(?:answer|solution|score)\s*(?:text|content)|protected\s+content)/i
+const forbiddenStemKeys = /^(?:answer|answerText|solution|solutionText|solutionSteps|rubric|scoreDetail|ocrRaw|fullText|rawPdfPath|internalPath)$/i
 
 async function files(dir) {
   const out = []
@@ -28,6 +30,7 @@ function inspect(value, path = '$') {
   }
   for (const [key, child] of Object.entries(value)) {
     if (forbiddenKey.test(key)) throw new Error(`禁止摘要字段：${path}.${key}`)
+    if (forbiddenStemKeys.test(key)) throw new Error(`禁止答案/未结构化全文字段：${path}.${key}`)
     inspect(child, `${path}.${key}`)
   }
 }

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "problemId": "problem-000011",
+      "path": "data/stems/problem-000011.json",
+      "rightsState": "stem_demo",
+      "title": "钙钛矿衍生结构"
+    },
+    {
+      "problemId": "problem-000292",
+      "path": "data/stems/problem-000292.json",
+      "rightsState": "stem_demo",
+      "title": "钛铁矿提取金属钛"
+    }
+  ]
+}

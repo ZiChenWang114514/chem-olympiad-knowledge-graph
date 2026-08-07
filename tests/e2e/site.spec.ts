@@ -79,6 +79,15 @@ test('真题档案可以筛选并打开元数据记录', async ({ page }) => {
   await page.getByLabel('筛选题目').fill('钙钛矿')
   await expect(page.getByText(/Q6 · 钙钛矿衍生结构/)).toBeVisible()
   await page.getByText(/Q6 · 钙钛矿衍生结构/).click()
-  await expect(page.getByText('题文暂不公开')).toBeVisible()
+  // 有结构化题干时渲染题干；无题干时显示「题文暂不公开」
+  await expect(page.getByTestId('problem-stem').or(page.getByTestId('stem-unavailable'))).toBeVisible()
   await expect(page.getByRole('link', { name: /钙钛矿结构/ })).toBeVisible()
+})
+
+test('有题干的题目详情可渲染结构化题干', async ({ page }) => {
+  await page.goto('./#/exams/problem-000011')
+  await expect(page.getByTestId('problem-stem')).toBeVisible({ timeout: 15_000 })
+  await expect(page.getByText('演示排版')).toBeVisible()
+  await expect(page.getByText(/理想立方钙钛矿/)).toBeVisible()
+  await expect(page.getByText('(1)')).toBeVisible()
 })

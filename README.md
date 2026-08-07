@@ -1,6 +1,6 @@
 # 化学竞赛知识图谱（公开站）
 
-React + TypeScript + Vite + Cytoscape.js 的静态知识图谱。站点读取 `public/data` 中版本化 JSON，默认只发布考试元数据、知识节点和关系，不包含未获授权的题目全文、答案或内部文件。
+React + TypeScript + Vite + Cytoscape.js 的静态知识图谱。站点读取 `public/data` 中版本化 JSON，默认发布考试元数据、知识节点和关系；**答案与评分永不发布**。在版权允许时，可额外发布结构化题干（`public/data/stems/`），详情页按需加载并用 KaTeX 渲染。格式标准见 `docs/problem-stem-format.md`。
 
 ## 本地运行
 

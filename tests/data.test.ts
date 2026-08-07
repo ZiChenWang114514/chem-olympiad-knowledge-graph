@@ -29,7 +29,24 @@ describe('公开数据完整性', () => {
     expect(manifest.dataVersion).toBeTruthy()
     expect(manifest.schemaVersion).toBe(2)
     expect(Number.isInteger(manifest.releaseSequence)).toBe(true)
-    expect(manifest.rightsPolicy).toBe('metadata_public')
+    expect(manifest.rightsPolicy).toMatch(/^metadata_public/)
+  })
+
+  it('题干索引与文件一致且绑定已有题目', () => {
+    const stemIndex = JSON.parse(
+      require('node:fs').readFileSync(require('node:path').join(__dirname, '../public/data/stems/index.json'), 'utf8'),
+    ) as { items: { problemId: string; path: string }[] }
+    const problemIds = new Set(problems.map(p => p.id))
+    for (const item of stemIndex.items) {
+      expect(problemIds.has(item.problemId)).toBe(true)
+      const abs = require('node:path').join(__dirname, '../public', item.path)
+      expect(require('node:fs').existsSync(abs)).toBe(true)
+      const stem = JSON.parse(require('node:fs').readFileSync(abs, 'utf8'))
+      expect(stem.problemId).toBe(item.problemId)
+      expect(stem.schemaVersion).toBe(1)
+      expect(['stem_demo', 'stem_public', 'fulltext_authorized']).toContain(stem.rightsState)
+      expect(stem.answer || stem.solution || stem.answerText).toBeFalsy()
+    }
   })
 
   it('知识节点与关系引用均存在', () => {

@@ -18,6 +18,61 @@ export type Problem = {
   sourceLabel?: string
   sourceVersion?: string
   page?: number
+  /** 是否有可加载题干（由 stems/index 填充，非年包必填字段） */
+  hasStem?: boolean
+}
+
+/** 题干块模型 — 规范见 docs/problem-stem-format.md */
+export type StemBlock =
+  | { type: 'paragraph'; text: string }
+  | { type: 'formula'; latex: string; display?: boolean }
+  | { type: 'chem'; latex: string; display?: boolean }
+  | { type: 'heading'; level: 2 | 3 | 4; text: string }
+  | { type: 'list'; ordered?: boolean; items: string[] }
+  | { type: 'subpart'; label: string; prompt?: string; blocks: StemBlock[] }
+  | { type: 'figure'; src?: string; alt: string; caption?: string; assetId?: string }
+  | { type: 'table'; caption?: string; headers: string[]; rows: string[][] }
+  | { type: 'callout'; tone?: 'info' | 'warn'; text: string }
+
+export type StemPart = {
+  id: string
+  label: string
+  score?: number
+  blocks: StemBlock[]
+}
+
+export type ProblemStem = {
+  schemaVersion: 1
+  problemId: string
+  rightsState: 'stem_public' | 'stem_demo' | 'fulltext_authorized'
+  language: string
+  title: string
+  number: string
+  examYear?: number
+  examStage?: string
+  source: {
+    sourceDocumentId?: string
+    sourceLabel: string
+    page?: number
+    transcriptionMethod: 'manual' | 'ocr_reviewed' | 'synthetic_demo'
+    transcribedAt?: string
+  }
+  blocks?: StemBlock[]
+  parts?: StemPart[]
+  provenanceNote?: string
+  renderingHints?: { mhchem?: boolean; katexTrust?: boolean }
+}
+
+export type StemIndexItem = {
+  problemId: string
+  path: string
+  rightsState: ProblemStem['rightsState']
+  title?: string
+}
+
+export type StemIndex = {
+  schemaVersion: 1
+  items: StemIndexItem[]
 }
 export type Exam = {
   id: string

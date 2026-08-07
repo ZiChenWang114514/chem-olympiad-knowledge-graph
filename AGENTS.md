@@ -19,7 +19,7 @@
 }
 ```
 
-仅发布来源明确允许公开的字段；原始文件路径、题文全文、答案、评分细则、OCR 原文和内部审核备注不得进入 `public/data`、搜索索引或界面。
+仅发布来源明确允许公开的字段；原始文件路径、**未授权**题文、答案、评分细则、OCR 未审校原文和内部审核备注不得进入 `public/data`、搜索索引或界面。
 
 允许：
 
@@ -32,6 +32,27 @@
 ```json
 {"source_sha256":"...","file_digest":"...","id":"md5(source_filename)","label":"SHA-256: ..."}
 ```
+
+### 1.1 结构化题干（Problem Stem）— 可选公开层
+
+在**版权与审校通过**的前提下，可为单题发布结构化题干，供详情页渲染（KaTeX / mhchem）。规范全文：
+
+- `docs/problem-stem-format.md`（内容标准与流程）
+- `docs/schemas/problem-stem.schema.json`（机器可读 schema）
+
+**允许的题干权利状态：** `stem_public` · `stem_demo` · `fulltext_authorized`（仅导出题干子集）  
+**禁止写入题干文件：** 答案、评分细则、解题步骤、内部路径、摘要校验字段。
+
+**落盘位置：**
+
+```text
+public/data/stems/index.json
+public/data/stems/problem-XXXXXX.json
+public/data/stems/assets/*   # 可选插图
+```
+
+元数据年包（`exams/{year}.json`）**不内嵌**大段题干；前端按 `stems/index.json` 按需加载。  
+`stem_demo` 仅用于渲染演示，界面必须标注「演示排版」。
 
 ## 2. 公开业务 ID
 
