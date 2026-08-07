@@ -5,3 +5,8 @@ playwright-report/
 *.tsbuildinfo
 vite.config.js
 vite.config.d.ts
+
+_probe/
+_probe-shots.mjs
+src/styles/_legacy-backup.css
+

@@ -1,1 +1,14 @@
-{"disciplines":[{"id":"无机化学","name":"无机化学","color":"#5575b8"},{"id":"有机化学","name":"有机化学","color":"#5575b8"},{"id":"物理化学","name":"物理化学","color":"#5575b8"},{"id":"分析化学","name":"分析化学","color":"#5575b8"},{"id":"结构化学","name":"结构化学","color":"#5575b8"},{"id":"实验化学","name":"实验化学","color":"#5575b8"}],"relations":[{"id":"relation-type-000001","name":"prerequisite","predicate":"prerequisite"},{"id":"relation-type-000002","name":"belongs_to","predicate":"belongs_to"}]}
+{
+  "disciplines": [
+    { "id": "无机化学", "name": "无机化学", "color": "#2c7a7b" },
+    { "id": "有机化学", "name": "有机化学", "color": "#a15c9f" },
+    { "id": "物理化学", "name": "物理化学", "color": "#d36b4b" },
+    { "id": "分析化学", "name": "分析化学", "color": "#bc8a2f" },
+    { "id": "结构化学", "name": "结构化学", "color": "#5575b8" },
+    { "id": "实验化学", "name": "实验化学", "color": "#5b8c5a" }
+  ],
+  "relations": [
+    { "id": "relation-type-000001", "name": "先修于", "predicate": "prerequisite" },
+    { "id": "relation-type-000002", "name": "属于", "predicate": "belongs_to" }
+  ]
+}

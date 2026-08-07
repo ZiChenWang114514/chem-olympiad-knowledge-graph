@@ -6,6 +6,31 @@ export type NeighborItem = {
   other: GraphNode
 }
 
+/** 学科色兜底：taxonomy 缺色时仍保持六色可辨 */
+const DISCIPLINE_PALETTE: Record<string, string> = {
+  物理化学: '#d36b4b',
+  无机化学: '#2c7a7b',
+  有机化学: '#a15c9f',
+  分析化学: '#bc8a2f',
+  结构化学: '#5575b8',
+  实验化学: '#5b8c5a',
+  physical: '#d36b4b',
+  inorganic: '#2c7a7b',
+  organic: '#a15c9f',
+  analytical: '#bc8a2f',
+  structural: '#5575b8',
+  experiment: '#5b8c5a',
+}
+
+const RELATION_LABELS: Record<string, string> = {
+  prerequisite: '先修于',
+  belongs_to: '属于',
+  belongs: '属于',
+  applied_in: '用于解释',
+  examined_with: '综合考查',
+  confused_with: '容易混淆',
+}
+
 /** prerequisite 约定：source 先修于 target（应先学 source，再学 target） */
 export function getNeighbors(nodeId: string, edges: GraphEdge[], nodes: GraphNode[]): NeighborItem[] {
   const byId = new Map(nodes.map(n => [n.id, n]))
@@ -49,14 +74,19 @@ export function hasNodeMappings(problem: Problem): boolean {
 export function nodeTypeLabel(type: string): string {
   if (type === 'discipline') return '学科'
   if (type === 'method') return '方法'
-  if (type === 'skill') return '技能'
+  if (type === 'skill' || type === 'lab_skill') return '技能'
   return '概念'
 }
 
+export function relationLabel(relation: string, taxonomyName?: string): string {
+  if (taxonomyName && !/^[a-z_]+$/i.test(taxonomyName)) return taxonomyName
+  return RELATION_LABELS[relation] || taxonomyName || relation
+}
+
 export function nodeSize(node: GraphNode): number {
-  if (node.type === 'discipline') return 46
+  if (node.type === 'discipline') return 52
   const importance = node.importance ?? 3
-  return Math.min(38, Math.max(28, 26 + importance * 2))
+  return Math.min(36, Math.max(26, 24 + importance * 2))
 }
 
 export function groupNodesByDiscipline(nodes: GraphNode[], disciplines: Discipline[]) {
@@ -64,14 +94,14 @@ export function groupNodesByDiscipline(nodes: GraphNode[], disciplines: Discipli
   const groups = disciplines.map(d => ({
     discipline: d,
     nodes: nodes
-      .filter(n => n.discipline === d.id)
+      .filter(n => n.discipline === d.id || n.discipline === d.name)
       .sort((a, b) => {
         if (a.type === 'discipline' && b.type !== 'discipline') return -1
         if (b.type === 'discipline' && a.type !== 'discipline') return 1
         return (b.importance || 0) - (a.importance || 0) || a.label.localeCompare(b.label, 'zh')
       }),
   }))
-  const known = new Set(order)
+  const known = new Set([...order, ...disciplines.map(d => d.name)])
   const rest = nodes.filter(n => !known.has(n.discipline))
   if (rest.length) {
     groups.push({
@@ -83,5 +113,8 @@ export function groupNodesByDiscipline(nodes: GraphNode[], disciplines: Discipli
 }
 
 export function disciplineColor(disciplines: Discipline[], disciplineId: string): string {
-  return disciplines.find(d => d.id === disciplineId)?.color || '#5575b8'
+  const found = disciplines.find(d => d.id === disciplineId || d.name === disciplineId)
+  if (found?.color && found.color.toLowerCase() !== '#5575b8') return found.color
+  return DISCIPLINE_PALETTE[disciplineId] || found?.color || DISCIPLINE_PALETTE[found?.name || ''] || '#5575b8'
 }
+

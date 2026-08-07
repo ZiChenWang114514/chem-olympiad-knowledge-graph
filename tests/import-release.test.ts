@@ -6,7 +6,7 @@ import { describe, expect, it } from 'vitest'
 
 function fixture() {
   const root=mkdtempSync(join(tmpdir(),'chem-release-')); mkdirSync(join(root,'exams')); mkdirSync(join(root,'graph'))
-  writeFileSync(join(root,'manifest.json'),JSON.stringify({dataVersion:'fixture-1',schemaVersion:'private-2'}))
+  writeFileSync(join(root,'manifest.json'),JSON.stringify({dataVersion:'fixture-1',schemaVersion:'private-2',releaseSequence:1}))
   writeFileSync(join(root,'taxonomy.json'),JSON.stringify({disciplines:[{id:'physical',name:'物理化学',color:'#d36b4b'}],relations:[{id:'belongs',name:'属于'}]}))
   writeFileSync(join(root,'exams','index.json'),JSON.stringify({items:[{id:'exam-000001',year:2025,stage:'初赛',title:'演示考试',problemCount:1,rightsState:'metadata_public'}]}))
   writeFileSync(join(root,'exams','2025.json'),JSON.stringify({items:[{id:'problem-000001',examId:'exam-000001',number:'Q1',title:'演示题',disciplines:['kn-discipline-000002'],difficulty:2,mappingCount:1,rightsState:'metadata_public',summary:'演示关系'}]}))
@@ -16,7 +16,7 @@ function fixture() {
 
 function realSnakeFixture() {
   const root=mkdtempSync(join(tmpdir(),'chem-real-release-')); mkdirSync(join(root,'exams','prelim'),{recursive:true}); mkdirSync(join(root,'graph'))
-  writeFileSync(join(root,'manifest.json'),JSON.stringify({data_version:'real-1',schema_version:1,generated_at:'2026-01-01T00:00:00Z',files:{},record_counts:{exams:1,problems:1,parts:1,nodes:1,edges:1,mappings:1}}))
+  writeFileSync(join(root,'manifest.json'),JSON.stringify({data_version:'real-1',schema_version:1,generated_at:'2026-01-01T00:00:00Z',release_sequence:1,files:{},record_counts:{exams:1,problems:1,parts:1,nodes:1,edges:1,mappings:1}}))
   writeFileSync(join(root,'taxonomy.json'),JSON.stringify({nodes:[{id:'kn-concept-000001',name:'化学平衡',aliases_json:'["平衡"]',discipline:'kn-discipline-000002',node_type:'concept',description:'关系待公开'}],edges:[{id:'rel-000001',source_node_id:'kn-concept-000001',target_node_id:'kn-concept-000001',relation_type:'self',explanation:'demo',evidence_reference:'problem-000001'}]}))
   writeFileSync(join(root,'exams','prelim','2025-exam-1.json'),JSON.stringify({exam:{id:'exam-000001',year:2025,session_number:1,stage:'初赛',session_label:'全国统一场',exam_type:'theory',rights_state:'metadata_public',source_status:'verified',source_document_id:'source-000001',source_version:'2025',source_label:'正式来源'},problems:[{id:'problem-000001',exam_id:'exam-000001',number:'Q1',title:'平衡关系',topic_summary:'演示元数据',total_score:10,rights_state:'metadata_public',source_document_id:'source-000001',source_version:'2025',source_label:'正式来源',source_page:1}],parts:[{id:'part-000001',problem_id:'problem-000001',parent_id:null,kind:'subquestion',label:'(1)',sort_order:1,rights_state:'metadata_public'}],mappings:[{id:'mapping-000001',target_kind:'problem',target_id:'problem-000001',knowledge_node_id:'kn-concept-000001',importance:1,evidence_page:1,evidence_note:'待复核'}]}))
   writeFileSync(join(root,'graph','physical.json'),JSON.stringify({nodes:[{id:'kn-concept-000001',name:'化学平衡',discipline:'kn-discipline-000002',node_type:'concept'}],edges:[{id:'rel-000001',source_node_id:'kn-concept-000001',target_node_id:'kn-concept-000001',relation_type:'self'}]}))
