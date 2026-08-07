@@ -99,12 +99,12 @@ describe('图谱查询纯函数', () => {
   it('相关题目仅依据 nodeIds', () => {
     const related = getRelatedProblems('kn-concept-000007', problems)
     expect(related.map(p => p.id).sort()).toEqual(['problem-000001', 'problem-000006'].sort())
-    const crystal = getRelatedProblems('kn-concept-000012', problems)
+    const crystal = getRelatedProblems('kn-method-000002', problems)
     expect(crystal.some(p => p.id === 'problem-000004')).toBe(true)
   })
 
   it('配位化学先修与后续方向正确', () => {
-    expect(getPrerequisites('kn-concept-000012', edges, nodes).map(n => n.id)).toContain('kn-concept-000011')
-    expect(getFollowOns('kn-concept-000011', edges, nodes).map(n => n.id)).toContain('kn-concept-000012')
+    expect(getPrerequisites('kn-method-000002', edges, nodes).map(n => n.id)).toContain('kn-concept-000011')
+    expect(getFollowOns('kn-concept-000011', edges, nodes).map(n => n.id)).toContain('kn-method-000002')
   })
 })

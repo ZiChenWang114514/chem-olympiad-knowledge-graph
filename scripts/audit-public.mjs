@@ -7,6 +7,7 @@ const root = fileURLToPath(rootUrl)
 const forbidden = [/\.pdf$/i, /(^|[\\/])(?:answer|score|solution|ocr|internal)(?:[^a-z]|$)/i, /D:\\\\|C:\\\\|\\\\Users\\\\/i, /题文全文|参考答案全文|评分细则/]
 const forbiddenKey = /(?:sha256|checksum|digest|hash)/i
 const summaryValue = /^(?:[a-f0-9]{32}|[a-f0-9]{40}|[a-f0-9]{64})$/i
+const protectedContent = /(?:题文全文|参考答案全文|评分细则|(?:full|answer|solution|score|ocr)\s*(?:text|content)|protected\s+content)/i
 
 async function files(dir) {
   const out = []
@@ -22,6 +23,7 @@ function inspect(value, path = '$') {
   if (Array.isArray(value)) return value.forEach((item, index) => inspect(item, `${path}[${index}]`))
   if (!value || typeof value !== 'object') {
     if (typeof value === 'string' && summaryValue.test(value)) throw new Error(`禁止摘要式值：${path}`)
+    if (typeof value === 'string' && protectedContent.test(value)) throw new Error(`受限内容：${path}`)
     return
   }
   for (const [key, child] of Object.entries(value)) {

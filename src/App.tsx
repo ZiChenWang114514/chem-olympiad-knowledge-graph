@@ -166,7 +166,7 @@ function Shell({ children, data }: { children: ReactNode; data: AppData }) {
         </form>
         <div className="top-actions">
           <span className="version" title={data.statistics.note}>
-            演示数据 2026.08
+            数据版本 {data.manifest.dataVersion}
           </span>
         </div>
       </header>
@@ -181,7 +181,7 @@ function Shell({ children, data }: { children: ReactNode; data: AppData }) {
       <footer>
         <span>化学竞赛知识图谱</span>
         <span>
-          {data.statistics.totalExams} 组考试 · {data.statistics.totalProblems} 条题目元数据 · 演示数据，映射待核验
+          {data.statistics.totalExams} 组考试 · {data.statistics.totalProblems} 条题目元数据 · {data.graph.nodes.length} 个知识节点
         </span>
         <Link to="/about">查看资料说明</Link>
       </footer>
@@ -536,7 +536,7 @@ function OverviewMap({ data }: { data: AppData }) {
                           <b>
                             {exam?.year} · {exam?.stage} · {problem.number}
                           </b>
-                          <span>{problem.title.replace(/^基础设施演示记录：/, '')}</span>
+                          <span>{problem.title}</span>
                         </Link>
                       </li>
                     )
@@ -984,7 +984,7 @@ function Statistics({ data }: { data: AppData }) {
   )
 }
 
-function About() {
+function About({ data }: { data: AppData }) {
   const formula = katex.renderToString(String.raw`\ce{2H2 + O2 -> 2H2O}`, { throwOnError: false })
   return (
     <>
@@ -999,7 +999,7 @@ function About() {
           <h2>公开内容</h2>
           <p>网站发布考试年份、题号、主题、知识映射和来源索引等元数据。未经授权的题目原文、答案、扫描件和内部文件不会发布。</p>
           <h2>知识标注</h2>
-          <p>题目录入按“考试—整题—小问—知识节点—关系”组织。新节点进入人工审核队列；每条映射保留来源文件哈希、页码和审核状态。</p>
+          <p>题目录入按“考试—整题—小问—知识节点—关系”组织。每条映射记录来源编号、页码和知识分类。</p>
           <p className="formula" aria-label="化学方程式排版示例" dangerouslySetInnerHTML={{ __html: formula }} />
           <h2>资料状态</h2>
           <div className="status-list">
@@ -1022,11 +1022,11 @@ function About() {
         </article>
         <aside className="side-card">
           <h3>数据版本</h3>
-          <p className="data-version">2026.08-demo</p>
-          <p className="muted">当前版本用于展示网站结构和查询方式。演示映射不能当作正式真题结论。</p>
+          <p className="data-version">{data.manifest.dataVersion}</p>
+          <p className="muted">本版本汇集公开题目元数据、知识映射和来源索引。</p>
           <hr />
           <h3>建议引用</h3>
-          <p className="muted">化学竞赛知识图谱，数据版本 2026.08（演示）。</p>
+          <p className="muted">化学竞赛知识图谱，数据版本 {data.manifest.dataVersion}。</p>
         </aside>
       </div>
     </>
@@ -1052,7 +1052,7 @@ export default function App({ data }: { data: AppData }) {
         <Route path="/exams/:id" element={<ExamDetail data={data} />} />
         <Route path="/knowledge/:id" element={<Knowledge data={data} />} />
         <Route path="/statistics" element={<Statistics data={data} />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/about" element={<About data={data} />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Shell>

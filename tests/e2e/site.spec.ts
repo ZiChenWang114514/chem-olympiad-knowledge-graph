@@ -39,12 +39,12 @@ test('节点文字列表选择后展示相邻、次序与题目', async ({ page 
 
   await page.getByTestId('node-pick-kn-concept-000011').click()
   await expect(page.getByTestId('panel-title')).toHaveText('配位化学')
-  await expect(page.getByTestId('neighbor-kn-concept-000012')).toBeVisible()
-  await expect(page.getByTestId('follow-kn-concept-000012')).toBeVisible()
+  await expect(page.getByTestId('neighbor-kn-method-000002')).toBeVisible()
+  await expect(page.getByTestId('follow-kn-method-000002')).toBeVisible()
   await expect(page.getByTestId('related-problem-problem-000004')).toBeVisible()
   await expect(page.getByTestId('open-knowledge')).toBeVisible()
 
-  await page.getByTestId('follow-kn-concept-000012').click()
+  await page.getByTestId('follow-kn-method-000002').click()
   await expect(page.getByTestId('panel-title')).toHaveText('晶体场理论')
   await expect(page.getByTestId('prereq-kn-concept-000011')).toBeVisible()
 })

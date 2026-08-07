@@ -31,9 +31,9 @@ export type Exam = {
   sourceLabel: string
   sourceVersion?: string
   page?: number
-  syntheticDemo?: boolean
 }
-export type GraphData = { nodes: GraphNode[]; edges: GraphEdge[]; syntheticDemo?: boolean }
+export type GraphData = { nodes: GraphNode[]; edges: GraphEdge[] }
+export type Manifest = { dataVersion: string; schemaVersion: number; generatedAt: string; releaseSequence: number }
 export type Stats = {
   totalExams: number
   totalProblems: number
