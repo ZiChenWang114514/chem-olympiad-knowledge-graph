@@ -14,12 +14,13 @@ async function readJson(path) { return JSON.parse(await readFile(path, 'utf8')) 
 async function listJson(dir) { try { const names=await readdir(dir,{withFileTypes:true}); const out=[]; for(const name of names){const p=join(dir,name.name); if(name.isDirectory()) out.push(...await listJson(p)); else if(name.name.endsWith('.json')) out.push(p)} return out } catch { return [] } }
 function validate(value, path = '$') {
   if (Array.isArray(value)) return value.forEach((x,i)=>validate(x,`${path}[${i}]`))
-  if (!value || typeof value !== 'object') { if(typeof value==='string' && pathLike.test(value)) throw new Error(`受限内部路径：${path}`); if(typeof value==='string' && summaryValue.test(value)) throw new Error(`禁止摘要式值：${path}`); if(typeof value==='string' && protectedContent.test(value)) throw new Error(`受限内容：${path}`); return }
+  if (!value || typeof value !== 'object') { const sourceName=/\.(?:file_name|fileName|source_file_name|sourceFileName|source_filename|sourceFilename|session_label)$/.test(path); if(typeof value==='string' && pathLike.test(value)) throw new Error(`受限内部路径：${path}`); if(typeof value==='string' && summaryValue.test(value)) throw new Error(`禁止摘要式值：${path}`); if(typeof value==='string' && protectedContent.test(value) && !sourceName) throw new Error(`受限内容：${path}`); return }
   const dynamicMap=/\.(by_stage|by_discipline|files|record_counts)$/.test(path)
   for (const [key, child] of Object.entries(value)) { if (forbiddenHashKeys.has(key) || /(?:sha256|checksum|digest|hash)/i.test(key)) throw new Error(`禁止摘要字段：${path}.${key}`); if (forbiddenKeys.has(key) || forbiddenTokens.some(token=>key.toLowerCase().includes(token))) throw new Error(`受限字段：${path}.${key}`); if (!dynamicMap && !allowedKeys.has(key)) throw new Error(`未知字段：${path}.${key}`); validate(child,`${path}.${key}`) }
 }
 function itemsFrom(value) { return Array.isArray(value) ? value : (Array.isArray(value?.items) ? value.items : []) }
 function unique(items) { return [...new Map(items.map(x=>[x.id, x])).values()] }
+function sourceLabel(value) { return String(value||'公开资料').replace(/(?:参考)?答案(?:及评分细则)?|评分细则|评分标准/g,'资料') }
 async function writeJson(path, value) { await mkdir(join(path,'..'),{recursive:true}); await writeFile(path, JSON.stringify(value)) }
 
 export async function importRelease(releaseDir, outputDir) {
@@ -36,7 +37,7 @@ export async function importRelease(releaseDir, outputDir) {
     id:problem.id, examId:problem.exam_id, number:problem.number, title:problem.title, disciplines:[], nodeIds:[], difficulty:3,
     mappingCount:0, rightsState:problem.rights_state||'metadata_public', summary:`${problem.topic_summary||'公开知识标签与考查方向；题文暂不公开。'}${problem.source_page?` 来源页码：${problem.source_page}。`:''}`,
     sourceDocumentId:problem.source_document_id||problem.sourceDocumentId||examById.get(problem.exam_id)?.source_document_id||examById.get(problem.exam_id)?.sourceDocumentId,
-    sourceLabel:problem.source_label||problem.sourceLabel||problem.source_file_name||problem.sourceFileName||problem.source_filename||problem.sourceFilename||problem.file_name||problem.fileName||examById.get(problem.exam_id)?.source_label||examById.get(problem.exam_id)?.sourceLabel||examById.get(problem.exam_id)?.source_file_name||examById.get(problem.exam_id)?.sourceFileName||examById.get(problem.exam_id)?.source_filename||examById.get(problem.exam_id)?.sourceFilename||examById.get(problem.exam_id)?.file_name||examById.get(problem.exam_id)?.fileName,
+    sourceLabel:sourceLabel(problem.source_label||problem.sourceLabel||problem.source_file_name||problem.sourceFileName||problem.source_filename||problem.sourceFilename||problem.file_name||problem.fileName||examById.get(problem.exam_id)?.source_label||examById.get(problem.exam_id)?.sourceLabel||examById.get(problem.exam_id)?.source_file_name||examById.get(problem.exam_id)?.sourceFileName||examById.get(problem.exam_id)?.source_filename||examById.get(problem.exam_id)?.sourceFilename||examById.get(problem.exam_id)?.file_name||examById.get(problem.exam_id)?.fileName),
     sourceVersion:problem.source_version||problem.sourceVersion||examById.get(problem.exam_id)?.source_version||examById.get(problem.exam_id)?.sourceVersion,
     page:problem.source_page??problem.sourcePage
   }))
@@ -50,7 +51,7 @@ export async function importRelease(releaseDir, outputDir) {
     problem.mappingCount=nodeIds.length
     problem.disciplines=[...new Set(nodeIds.map(id=>nodeById.get(id)?.discipline).filter(Boolean))]
   }
-  const publicExams=exams.map(exam=>({id:exam.id,year:exam.year,stage:exam.stage,session:exam.session_label||exam.session_number||'',title:exam.title||`${exam.year} 化学竞赛`,rightsState:exam.rights_state||'metadata_public',problemCount:problems.filter(p=>p.examId===exam.id).length,sourceDocumentId:exam.source_document_id||exam.sourceDocumentId,sourceLabel:exam.source_label||exam.sourceLabel||exam.source_file_name||exam.sourceFileName||exam.source_filename||exam.sourceFilename||exam.file_name||exam.fileName||exam.source_status||'公开发布包',sourceVersion:exam.source_version||exam.sourceVersion,page:exam.source_page??exam.sourcePage}))
+  const publicExams=exams.map(exam=>({id:exam.id,year:exam.year,stage:exam.stage,session:sourceLabel(exam.session_label||exam.session_number||''),title:exam.title||`${exam.year} 化学竞赛`,rightsState:exam.rights_state||'metadata_public',problemCount:problems.filter(p=>p.examId===exam.id).length,sourceDocumentId:exam.source_document_id||exam.sourceDocumentId,sourceLabel:sourceLabel(exam.source_label||exam.sourceLabel||exam.source_file_name||exam.sourceFileName||exam.source_filename||exam.sourceFilename||exam.file_name||exam.fileName||exam.source_status||'公开发布包'),sourceVersion:exam.source_version||exam.sourceVersion,page:exam.source_page??exam.sourcePage}))
   const relationPredicates=[...new Set((taxonomy.edges||[]).map(edge=>edge.relation_type))]
   const relations=relationPredicates.map((predicate,index)=>({id:`relation-type-${String(index+1).padStart(6,'0')}`,name:predicate,predicate}))
   const publicTaxonomy={disciplines:[...new Map(nodes.map(n=>[n.discipline,{id:n.discipline,name:n.discipline,color:'#5575b8'}])).values()],relations}

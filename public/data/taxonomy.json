@@ -1,14 +1,1 @@
-{
-  "disciplines": [
-    { "id": "无机化学", "name": "无机化学", "color": "#2c7a7b" },
-    { "id": "有机化学", "name": "有机化学", "color": "#a15c9f" },
-    { "id": "物理化学", "name": "物理化学", "color": "#d36b4b" },
-    { "id": "分析化学", "name": "分析化学", "color": "#bc8a2f" },
-    { "id": "结构化学", "name": "结构化学", "color": "#5575b8" },
-    { "id": "实验化学", "name": "实验化学", "color": "#5b8c5a" }
-  ],
-  "relations": [
-    { "id": "relation-type-000001", "name": "先修于", "predicate": "prerequisite" },
-    { "id": "relation-type-000002", "name": "属于", "predicate": "belongs_to" }
-  ]
-}
+{"disciplines":[{"id":"无机化学","name":"无机化学","color":"#5575b8"},{"id":"有机化学","name":"有机化学","color":"#5575b8"},{"id":"物理化学","name":"物理化学","color":"#5575b8"},{"id":"分析化学","name":"分析化学","color":"#5575b8"},{"id":"结构化学","name":"结构化学","color":"#5575b8"},{"id":"实验化学","name":"实验化学","color":"#5575b8"},{"id":"配位化学","name":"配位化学","color":"#5575b8"},{"id":"材料化学","name":"材料化学","color":"#5575b8"},{"id":"有机金属化学","name":"有机金属化学","color":"#5575b8"},{"id":"高分子化学","name":"高分子化学","color":"#5575b8"},{"id":"电化学","name":"电化学","color":"#5575b8"},{"id":"核化学","name":"核化学","color":"#5575b8"},{"id":"晶体化学","name":"晶体化学","color":"#5575b8"},{"id":"能源化学","name":"能源化学","color":"#5575b8"},{"id":"生物无机化学","name":"生物无机化学","color":"#5575b8"},{"id":"生物化学","name":"生物化学","color":"#5575b8"},{"id":"主族化学","name":"主族化学","color":"#5575b8"},{"id":"热力学","name":"热力学","color":"#5575b8"},{"id":"实验技能","name":"实验技能","color":"#5575b8"},{"id":"纳米材料","name":"纳米材料","color":"#5575b8"},{"id":"生物物理化学","name":"生物物理化学","color":"#5575b8"},{"id":"环境化学","name":"环境化学","color":"#5575b8"},{"id":"光谱化学","name":"光谱化学","color":"#5575b8"},{"id":"有机硅化学","name":"有机硅化学","color":"#5575b8"},{"id":"光化学","name":"光化学","color":"#5575b8"}],"relations":[{"id":"relation-type-000001","name":"prerequisite","predicate":"prerequisite"},{"id":"relation-type-000002","name":"belongs_to","predicate":"belongs_to"},{"id":"relation-type-000003","name":"applies","predicate":"applies"},{"id":"relation-type-000004","name":"derives","predicate":"derives"},{"id":"relation-type-000005","name":"co_assessed","predicate":"co_assessed"}]}
