@@ -1,18 +1,23 @@
 name: Quality checks and deploy Pages
+
 on:
   push:
-    branches: [main]
+    branches:
+      - main
   pull_request:
   workflow_dispatch:
+
 permissions:
   contents: read
   pages: write
   id-token: write
+
 concurrency:
   group: pages
   cancel-in-progress: true
+
 env:
-  NODE_VERSION: 20
+  NODE_VERSION: "20"
 
 jobs:
   schema-check:
@@ -21,7 +26,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-        with: { node-version: ${{ env.NODE_VERSION }}, cache: npm }
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
       - run: npm ci
       - run: npm run check:schema
 
@@ -31,7 +38,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-        with: { node-version: ${{ env.NODE_VERSION }}, cache: npm }
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
       - run: npm ci
       - run: npm test
 
@@ -41,11 +50,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-        with: { node-version: ${{ env.NODE_VERSION }}, cache: npm }
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
       - run: npm ci
       - run: npm run build
       - uses: actions/upload-artifact@v4
-        with: { name: site-dist, path: dist }
+        with:
+          name: site-dist
+          path: dist
 
   public-data-audit:
     name: public-data-audit
@@ -53,7 +66,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-        with: { node-version: ${{ env.NODE_VERSION }}, cache: npm }
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
       - run: npm ci
       - run: npm run audit:public
       - run: npm run build
@@ -70,14 +85,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-        with: { node-version: ${{ env.NODE_VERSION }}, cache: npm }
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
       - run: npm ci
       - run: npx playwright install --with-deps chromium
       - run: npm run build
       - run: npm run test:e2e
       - uses: actions/upload-artifact@v4
         if: always()
-        with: { name: playwright-report, path: playwright-report }
+        with:
+          name: playwright-report
+          path: playwright-report
 
   visual-smoke:
     name: visual-smoke
@@ -86,7 +105,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-        with: { node-version: ${{ env.NODE_VERSION }}, cache: npm }
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
       - run: npm ci
       - run: npx playwright install --with-deps chromium
       - run: npm run build
@@ -95,15 +116,24 @@ jobs:
   deploy:
     name: deploy-pages
     if: github.event_name != 'pull_request'
-    needs: [schema-check, unit-test, build, public-data-audit, playwright, visual-smoke]
+    needs:
+      - schema-check
+      - unit-test
+      - build
+      - public-data-audit
+      - playwright
+      - visual-smoke
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/download-artifact@v4
-        with: { name: site-dist, path: dist }
+        with:
+          name: site-dist
+          path: dist
       - uses: actions/upload-pages-artifact@v3
-        with: { path: dist }
+        with:
+          path: dist
       - id: deployment
         uses: actions/deploy-pages@v4
