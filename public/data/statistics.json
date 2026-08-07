@@ -1,1 +1,19 @@
-{"totalExams":3,"totalProblems":8,"totalNodes":12,"disciplineCounts":[{"name":"无机化学","value":3,"color":"#2c7a7b"},{"name":"物理化学","value":3,"color":"#d36b4b"},{"name":"结构化学","value":3,"color":"#5575b8"},{"name":"有机化学","value":2,"color":"#a15c9f"},{"name":"分析化学","value":2,"color":"#bc8a2f"},{"name":"实验化学","value":1,"color":"#5b8c5a"}],"yearCounts":[{"year":2006,"value":3},{"year":2024,"value":2},{"year":2025,"value":3}],"note":"统计基于当前公开示例数据，完整题目资料仍在整理。"}
+{
+  "totalExams": 3,
+  "totalProblems": 8,
+  "totalNodes": 14,
+  "disciplineCounts": [
+    { "name": "无机化学", "value": 3, "color": "#2c7a7b" },
+    { "name": "物理化学", "value": 3, "color": "#d36b4b" },
+    { "name": "结构化学", "value": 3, "color": "#5575b8" },
+    { "name": "有机化学", "value": 2, "color": "#a15c9f" },
+    { "name": "分析化学", "value": 2, "color": "#bc8a2f" },
+    { "name": "实验化学", "value": 1, "color": "#5b8c5a" }
+  ],
+  "yearCounts": [
+    { "year": 2006, "value": 3 },
+    { "year": 2024, "value": 2 },
+    { "year": 2025, "value": 3 }
+  ],
+  "note": "统计基于当前公开演示数据；节点数与 graph/all.json 一致。完整题目与映射仍在整理，不能当作已审核真题结论。"
+}

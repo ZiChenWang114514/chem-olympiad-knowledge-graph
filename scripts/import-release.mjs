@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url'
 const forbiddenKeys = new Set(['fullText', 'answerText', 'solutionText', 'scoreText', 'ocrText', 'rawPdfPath', 'internalPath', 'sourcePath', 'localPath', 'reviewNotes', 'privateNotes'])
 const forbiddenTokens = ['stem', 'answer', 'rubric', 'protected', 'internal_path', 'ocr', 'reviewer', 'review_note']
 const pathLike = /(?:^|[\\/])(?:D:|C:|Users|AppData|Desktop|private|internal)(?:[\\/]|$)/i
-const allowedKeys = new Set(['id','dataVersion','data_version','schemaVersion','schema_version','generatedAt','generated_at','rightsPolicy','rights_state','rightsState','source_status','source_sha256','source_label','files','counts','record_counts','notice','fileHashes','items','disciplines','relations','nodes','edges','exam','problems','parts','mappings','year','stage','session','session_number','session_label','exam_type','title','topic_summary','total_score','source_page','sourcePage','sourceLabel','sourceSha256','examId','exam_id','number','difficulty','mappingCount','problemCount','summary','kind','label','text','type','node_type','discipline','importance','aliases_json','description','source','target','source_node_id','target_node_id','relation','relation_type','explanation','evidence_reference','target_kind','target_id','knowledge_node_id','evidence_page','evidence_note','sort_order','parent_id','problem_id','value','name','color','totalExams','totalProblems','totalNodes','disciplineCounts','yearCounts','syntheticDemo','revision','version','exam_count','problem_count','node_count','mapping_count','by_stage','by_discipline','knowledge_node','aliases'])
+const allowedKeys = new Set(['id','dataVersion','data_version','schemaVersion','schema_version','generatedAt','generated_at','rightsPolicy','rights_state','rightsState','source_status','source_sha256','source_label','files','counts','record_counts','notice','fileHashes','items','disciplines','relations','nodes','edges','exam','problems','parts','mappings','year','stage','session','session_number','session_label','exam_type','title','topic_summary','total_score','source_page','sourcePage','sourceLabel','sourceSha256','examId','exam_id','number','difficulty','mappingCount','problemCount','summary','kind','label','text','type','node_type','discipline','importance','aliases_json','description','source','target','source_node_id','target_node_id','relation','relation_type','explanation','evidence_reference','target_kind','target_id','knowledge_node_id','evidence_page','evidence_note','sort_order','parent_id','problem_id','value','name','color','totalExams','totalProblems','totalNodes','disciplineCounts','yearCounts','syntheticDemo','revision','version','exam_count','problem_count','node_count','mapping_count','by_stage','by_discipline','knowledge_node','aliases','nodeIds','node_ids'])
 
 async function readJson(path) { return JSON.parse(await readFile(path, 'utf8')) }
 async function listJson(dir) { try { const names=await readdir(dir,{withFileTypes:true}); const out=[]; for(const name of names){const p=join(dir,name.name); if(name.isDirectory()) out.push(...await listJson(p)); else if(name.name.endsWith('.json')) out.push(p)} return out } catch { return [] } }
@@ -29,11 +29,17 @@ export async function importRelease(releaseDir, outputDir) {
   const isUnder=(file,dir)=>file.toLowerCase().includes(`${dir.toLowerCase()}${file.includes('\\')?'\\':'/'}`)
   const realExamPayloads=source.filter(x=>isUnder(x.file,'exams')).map(x=>x.value).filter(x=>x.exam && Array.isArray(x.problems))
   const exams=unique(realExamPayloads.map(x=>x.exam)); const problems=realExamPayloads.flatMap(x=>x.problems).map(problem=>({
-    id:problem.id, examId:problem.exam_id, number:problem.number, title:problem.title, disciplines:[], difficulty:3,
+    id:problem.id, examId:problem.exam_id, number:problem.number, title:problem.title, disciplines:[], nodeIds:[], difficulty:3,
     mappingCount:0, rightsState:problem.rights_state||'metadata_public', summary:`${problem.topic_summary||'公开知识标签与考查方向；题文暂不公开。'}${problem.source_page?` 来源页码：${problem.source_page}。`:''}`, sourcePage:problem.source_page
   }))
   const mappings=realExamPayloads.flatMap(x=>x.mappings||[]); const nodes=taxonomy.nodes||[]; const nodeById=new Map(nodes.map(n=>[n.id,n]));
-  for(const problem of problems){const related=mappings.filter(m=>m.target_kind==='problem'&&m.target_id===problem.id); problem.mappingCount=related.length; problem.disciplines=[...new Set(related.map(m=>nodeById.get(m.knowledge_node_id)?.discipline).filter(Boolean))]}
+  for(const problem of problems){
+    const related=mappings.filter(m=>m.target_kind==='problem'&&m.target_id===problem.id)
+    const nodeIds=[...new Set(related.map(m=>m.knowledge_node_id).filter(id=>id && nodeById.has(id)))]
+    problem.nodeIds=nodeIds
+    problem.mappingCount=nodeIds.length
+    problem.disciplines=[...new Set(nodeIds.map(id=>nodeById.get(id)?.discipline).filter(Boolean))]
+  }
   const publicExams=exams.map(exam=>({id:exam.id,year:exam.year,stage:exam.stage,session:exam.session_label||exam.session_number||'',title:exam.title||`${exam.year} 化学竞赛`,rightsState:exam.rights_state||'metadata_public',problemCount:problems.filter(p=>p.examId===exam.id).length,sourceLabel:`${exam.source_label||exam.source_status||'审核发布包'}${exam.source_sha256?` · SHA-256 ${exam.source_sha256.slice(0,12)}`:''}`,sourceSha256:exam.source_sha256,syntheticDemo:false}))
   const relations=[...new Map((taxonomy.edges||[]).map(edge=>[edge.relation_type,{id:edge.relation_type,name:edge.relation_type}])).values()]
   const publicTaxonomy={disciplines:[...new Map(nodes.map(n=>[n.discipline,{id:n.discipline,name:n.discipline,color:'#5575b8'}])).values()],relations}

@@ -1,1 +1,26 @@
-{"items":[{"id":"periodic","kind":"knowledge","title":"元素周期律","subtitle":"无机化学 · 结构化学","text":"周期性 原子结构 主族元素"},{"id":"equilibrium","kind":"knowledge","title":"化学平衡","subtitle":"物理化学","text":"平衡常数 热力学 速率"},{"id":"coordination","kind":"knowledge","title":"配位化学","subtitle":"无机化学","text":"晶体场 电子计数"},{"id":"p-2025-prelim-01","kind":"problem","title":"基础设施演示记录：2025 初赛 Q1 元素周期律与结构推断","subtitle":"题目元数据 · 知识标注待审核","text":"初赛 2025 演示记录"},{"id":"p-2024-final-01","kind":"problem","title":"基础设施演示记录：2024 决赛 Q1 配位化学与晶体场","subtitle":"题目元数据 · 知识标注待审核","text":"决赛 2024 演示记录"}]}
+{
+  "items": [
+    { "id": "inorganic", "kind": "knowledge", "title": "无机化学", "subtitle": "学科", "text": "无机 元素 配位" },
+    { "id": "physical", "kind": "knowledge", "title": "物理化学", "subtitle": "学科", "text": "物理 平衡 热力学" },
+    { "id": "organic", "kind": "knowledge", "title": "有机化学", "subtitle": "学科", "text": "有机 反应 机理" },
+    { "id": "structural", "kind": "knowledge", "title": "结构化学", "subtitle": "学科", "text": "结构 原子 晶体场" },
+    { "id": "analytical", "kind": "knowledge", "title": "分析化学", "subtitle": "学科", "text": "分析 误差" },
+    { "id": "experiment", "kind": "knowledge", "title": "实验化学", "subtitle": "学科", "text": "实验 操作" },
+    { "id": "periodic", "kind": "knowledge", "title": "元素周期律", "subtitle": "无机化学 · 概念", "text": "周期性 主族 元素" },
+    { "id": "atomic", "kind": "knowledge", "title": "原子结构", "subtitle": "结构化学 · 概念", "text": "电子 能级 原子" },
+    { "id": "equilibrium", "kind": "knowledge", "title": "化学平衡", "subtitle": "物理化学 · 概念", "text": "平衡常数 速率 溶液" },
+    { "id": "thermo", "kind": "knowledge", "title": "化学热力学", "subtitle": "物理化学 · 方法", "text": "焓 熵 吉布斯" },
+    { "id": "coordination", "kind": "knowledge", "title": "配位化学", "subtitle": "无机化学 · 概念", "text": "配合物 配体 电子计数" },
+    { "id": "crystal", "kind": "knowledge", "title": "晶体场理论", "subtitle": "结构化学 · 方法", "text": "分裂 配位场" },
+    { "id": "mechanism", "kind": "knowledge", "title": "有机反应机理", "subtitle": "有机化学 · 方法", "text": "反应类型 中间体" },
+    { "id": "error", "kind": "knowledge", "title": "误差分析", "subtitle": "分析化学 · 技能", "text": "误差 实验 精密度" },
+    { "id": "p-2025-prelim-01", "kind": "problem", "title": "2025 初赛 Q1 元素周期律与结构推断", "subtitle": "题目元数据 · 演示", "text": "初赛 2025 元素 结构" },
+    { "id": "p-2025-prelim-02", "kind": "problem", "title": "2025 初赛 Q2 化学平衡与热力学判断", "subtitle": "题目元数据 · 演示", "text": "初赛 2025 平衡 热力学" },
+    { "id": "p-2025-prelim-03", "kind": "problem", "title": "2025 初赛 Q3 有机反应类型识别", "subtitle": "题目元数据 · 演示", "text": "初赛 2025 有机" },
+    { "id": "p-2024-final-01", "kind": "problem", "title": "2024 决赛 Q1 配位化学与晶体场", "subtitle": "题目元数据 · 演示", "text": "决赛 2024 配位 晶体场" },
+    { "id": "p-2024-final-02", "kind": "problem", "title": "2024 决赛 Q2 反应速率与机理线索", "subtitle": "题目元数据 · 演示", "text": "决赛 2024 速率 机理" },
+    { "id": "p-2006-prelim-01", "kind": "problem", "title": "2006 初赛 Q1 原子结构与周期性", "subtitle": "题目元数据 · 演示", "text": "初赛 2006 原子 周期" },
+    { "id": "p-2006-prelim-02", "kind": "problem", "title": "2006 初赛 Q2 溶液平衡概念", "subtitle": "题目元数据 · 演示", "text": "初赛 2006 溶液 平衡" },
+    { "id": "p-2006-prelim-03", "kind": "problem", "title": "2006 初赛 Q3 基础实验与误差", "subtitle": "题目元数据 · 演示", "text": "初赛 2006 实验 误差" }
+  ]
+}
