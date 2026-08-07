@@ -1,4 +1,13 @@
-import { useEffect, useMemo, useRef, useState, type FormEvent, type KeyboardEvent, type ReactNode } from 'react'
+import {
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+  type CSSProperties,
+  type FormEvent,
+  type KeyboardEvent,
+  type ReactNode,
+} from 'react'
 import cytoscape, { type Core, type EventObject } from 'cytoscape'
 import katex from 'katex'
 import MiniSearch from 'minisearch'
@@ -142,7 +151,9 @@ function Shell({ children, data }: { children: ReactNode; data: AppData }) {
                     onMouseDown={event => event.preventDefault()}
                     onClick={() => goHit(hit)}
                   >
-                    <span className="suggest-kind">{hit.kind === 'problem' ? '题目' : '知识'}</span>
+                    <span className={`suggest-kind${hit.kind === 'problem' ? ' is-problem' : ''}`}>
+                      {hit.kind === 'problem' ? '题目' : '知识'}
+                    </span>
                     <span className="suggest-main">
                       <b>{hit.title}</b>
                       {hit.subtitle ? <small>{hit.subtitle}</small> : null}
@@ -218,52 +229,107 @@ function buildCyStyle(data: AppData) {
       selector: 'node',
       style: {
         'background-color': (el: cytoscape.NodeSingular) => colorOf(el.data('discipline')),
+        'background-opacity': 0.96,
         label: 'data(label)',
-        color: '#1a3a48',
-        'font-size': 11,
+        color: '#0f2a36',
+        'font-size': 11.5,
         'font-family': 'Noto Sans SC, sans-serif',
+        'font-weight': 500,
         'text-wrap': 'wrap',
-        'text-max-width': 88,
+        'text-max-width': 92,
         'text-valign': 'bottom',
-        'text-margin-y': 6,
+        'text-margin-y': 7,
+        'text-background-color': '#ffffff',
+        'text-background-opacity': 0.72,
+        'text-background-padding': '2px',
+        'text-background-shape': 'roundrectangle',
         width: (el: cytoscape.NodeSingular) => nodeSize(el.data() as GraphNode),
         height: (el: cytoscape.NodeSingular) => nodeSize(el.data() as GraphNode),
-        'border-width': 2,
-        'border-color': '#ffffff',
+        'border-width': 2.5,
+        'border-color': 'rgba(255,255,255,0.92)',
         'overlay-opacity': 0,
+        'shadow-blur': 12,
+        'shadow-color': 'rgba(15,42,54,0.18)',
+        'shadow-offset-x': 0,
+        'shadow-offset-y': 2,
+        'shadow-opacity': 0.35,
+      },
+    },
+    {
+      selector: 'node[type = "discipline"]',
+      style: {
+        'font-weight': 700,
+        'font-size': 12,
+        'border-width': 3,
+        'border-color': 'rgba(255,255,255,0.95)',
       },
     },
     {
       selector: 'edge',
       style: {
-        width: 1.4,
-        'line-color': '#b7c6c8',
+        width: 1.35,
+        'line-color': '#c2d0d2',
         'target-arrow-shape': 'triangle',
-        'target-arrow-color': '#b7c6c8',
+        'target-arrow-color': '#c2d0d2',
         'curve-style': 'bezier',
-        'arrow-scale': 0.8,
+        'arrow-scale': 0.72,
+        opacity: 0.88,
+      },
+    },
+    {
+      selector: 'edge[relation = "prerequisite"]',
+      style: {
+        width: 1.55,
+        'line-color': '#9eb3b6',
+        'target-arrow-color': '#9eb3b6',
+      },
+    },
+    {
+      selector: 'edge[relation = "belongs"]',
+      style: {
+        width: 1.15,
+        'line-color': '#d0dbdc',
+        'target-arrow-color': '#d0dbdc',
+        'line-style': 'solid',
+        opacity: 0.7,
       },
     },
     {
       selector: 'node.faded, edge.faded',
-      style: { opacity: 0.32 },
+      style: { opacity: 0.2 },
     },
     {
       selector: 'node.neighbor-node',
-      style: { 'border-width': 3, 'border-color': '#0c6470', opacity: 1 },
+      style: {
+        'border-width': 3.5,
+        'border-color': '#0a6b72',
+        opacity: 1,
+        'shadow-blur': 16,
+        'shadow-color': 'rgba(10,107,114,0.28)',
+        'shadow-opacity': 0.55,
+      },
     },
     {
       selector: 'edge.neighbor-edge',
-      style: { width: 2.4, 'line-color': '#5f858c', 'target-arrow-color': '#5f858c', opacity: 1 },
+      style: {
+        width: 2.6,
+        'line-color': '#4f858c',
+        'target-arrow-color': '#4f858c',
+        opacity: 1,
+      },
     },
     {
       selector: 'node.map-selected, node:selected',
       style: {
-        'border-width': 4,
-        'border-color': '#c56a32',
-        'background-blacken': -0.05,
+        'border-width': 4.5,
+        'border-color': '#c45a28',
+        'background-blacken': -0.06,
         opacity: 1,
         'font-weight': 700,
+        'text-background-opacity': 0.88,
+        'shadow-blur': 18,
+        'shadow-color': 'rgba(196,90,40,0.35)',
+        'shadow-opacity': 0.6,
       },
     },
   ]
@@ -294,11 +360,11 @@ function OverviewMap({ data }: { data: AppData }) {
       layout: {
         name: 'cose',
         animate: false,
-        padding: compact ? 24 : 40,
-        nodeRepulsion: () => 7200,
-        idealEdgeLength: () => 92,
-        gravity: 0.9,
-        componentSpacing: compact ? 24 : 48,
+        padding: compact ? 28 : 48,
+        nodeRepulsion: () => 8200,
+        idealEdgeLength: () => 104,
+        gravity: 0.85,
+        componentSpacing: compact ? 32 : 56,
         nestingFactor: 1.2,
       },
       minZoom: 0.35,
@@ -355,7 +421,7 @@ function OverviewMap({ data }: { data: AppData }) {
 
   const selectNode = (id: string) => setSearchParams({ node: id }, { replace: true })
 
-  const relationName = (id: string) => data.taxonomy.relations.find(r => r.id === id)?.name || id
+  const relationName = (id: string) => data.taxonomy.relations.find(r => r.id === id || r.predicate === id)?.name || id
   const neighbors = selected ? getNeighbors(selected.id, data.graph.edges, data.graph.nodes) : []
   const prereq = selected ? getPrerequisites(selected.id, data.graph.edges, data.graph.nodes) : []
   const follow = selected ? getFollowOns(selected.id, data.graph.edges, data.graph.nodes) : []
@@ -394,12 +460,22 @@ function OverviewMap({ data }: { data: AppData }) {
         <aside className="map-panel" ref={panelRef} data-testid="map-panel">
           {selected ? (
             <>
-              <h2 data-testid="panel-title">{selected.label}</h2>
-              <p className="panel-meta">
-                {data.taxonomy.disciplines.find(d => d.id === selected.discipline)?.name || selected.discipline}
-                {' · '}
-                {nodeTypeLabel(selected.type)}
-              </p>
+              <div
+                className="panel-head"
+                style={
+                  {
+                    '--panel-accent': disciplineColor(data.taxonomy.disciplines, selected.discipline),
+                  } as CSSProperties
+                }
+              >
+                <h2 data-testid="panel-title">{selected.label}</h2>
+                <p className="panel-meta">
+                  <span className="panel-meta-pill">
+                    {data.taxonomy.disciplines.find(d => d.id === selected.discipline)?.name || selected.discipline}
+                  </span>
+                  <span className="panel-meta-pill">{nodeTypeLabel(selected.type)}</span>
+                </p>
+              </div>
 
               <h3>相邻知识</h3>
               {neighbors.length ? (
@@ -482,15 +558,24 @@ function OverviewMap({ data }: { data: AppData }) {
               <p className="muted">点图中的节点，或从下方列表选择。列表便于键盘操作。</p>
               <div className="node-picker" data-testid="node-picker">
                 {groups.map(group => (
-                  <div key={group.discipline.id} className="node-picker-group">
+                  <div
+                    key={group.discipline.id}
+                    className="node-picker-group"
+                    style={{ '--pick-accent': group.discipline.color } as CSSProperties}
+                  >
                     <h3>
-                      <i style={{ background: group.discipline.color }} />
+                      <i style={{ background: group.discipline.color, color: group.discipline.color }} />
                       {group.discipline.name}
                     </h3>
                     <ul>
                       {group.nodes.map(node => (
                         <li key={node.id}>
-                          <button type="button" onClick={() => selectNode(node.id)} data-testid={`node-pick-${node.id}`}>
+                          <button
+                            type="button"
+                            onClick={() => selectNode(node.id)}
+                            data-testid={`node-pick-${node.id}`}
+                            style={{ '--pick-accent': group.discipline.color } as CSSProperties}
+                          >
                             {node.label}
                             <small>{nodeTypeLabel(node.type)}</small>
                           </button>
@@ -517,6 +602,7 @@ function GraphView({ data }: { data: AppData }) {
   const graph = useRef<Core | null>(null)
   const [selected, setSelected] = useState<GraphNode | null>(null)
   const navigate = useNavigate()
+  const relationName = (id: string) => data.taxonomy.relations.find(r => r.id === id || r.predicate === id)?.name || id
 
   useEffect(() => {
     if (!container.current) return
@@ -591,7 +677,7 @@ function GraphView({ data }: { data: AppData }) {
               <ul className="relation-list">
                 {neighbors.map(item => (
                   <li key={item.edgeId}>
-                    <span className="relation-type">{data.taxonomy.relations.find(r => r.id === item.relation)?.name || item.relation}</span>
+                    <span className="relation-type">{relationName(item.relation)}</span>
                     <button type="button" onClick={() => setSelected(item.other)}>
                       {item.other.label}
                     </button>
@@ -743,7 +829,7 @@ function Knowledge({ data }: { data: AppData }) {
           <ul className="relation-list">
             {relations.map(item => (
               <li key={item.edgeId}>
-                <span className="relation-type">{data.taxonomy.relations.find(relation => relation.id === item.relation)?.name || item.relation}</span>
+                <span className="relation-type">{data.taxonomy.relations.find(relation => relation.id === item.relation || relation.predicate === item.relation)?.name || item.relation}</span>
                 <Link to={`/knowledge/${item.other.id}`}>{item.other.label}</Link>
               </li>
             ))}
@@ -762,6 +848,10 @@ function ExamDetail({ data }: { data: AppData }) {
   if (!problem) return <NotFound />
   const exam = data.exams.find(item => item.id === problem.examId)!
   const mappedNodes = (problem.nodeIds || []).map(nid => data.graph.nodes.find(n => n.id === nid)).filter((n): n is GraphNode => Boolean(n))
+  const sourceDocumentId = problem.sourceDocumentId || exam.sourceDocumentId
+  const sourceLabel = problem.sourceLabel || exam.sourceLabel
+  const sourceVersion = problem.sourceVersion || exam.sourceVersion
+  const sourcePage = problem.page ?? exam.page
   return (
     <>
       <Link to="/exams" className="back">
@@ -788,7 +878,7 @@ function ExamDetail({ data }: { data: AppData }) {
         <div>
           <b>题文暂不公开</b>
           <br />
-          {problem.summary} 来源：{exam.sourceLabel}。
+          {problem.summary} 来源：{sourceLabel}。
         </div>
       </div>
       <section className="detail-columns">
@@ -816,7 +906,11 @@ function ExamDetail({ data }: { data: AppData }) {
             <dt>题目编号</dt>
             <dd>{problem.id}</dd>
             <dt>资料来源</dt>
-            <dd>{exam.sourceLabel}</dd>
+            <dd>
+              {sourceDocumentId && <>{sourceDocumentId} · </>}{sourceLabel}
+              {sourceVersion && <> · 版本 {sourceVersion}</>}
+              {sourcePage !== undefined && <> · 第 {sourcePage} 页</>}
+            </dd>
             <dt>知识映射</dt>
             <dd>{problem.mappingCount} 个</dd>
           </dl>
@@ -929,7 +1023,7 @@ function About() {
         <aside className="side-card">
           <h3>数据版本</h3>
           <p className="data-version">2026.08-demo</p>
-          <p className="muted">当前版本用于展示网站结构和查询方式。演示映射不能当作已审核真题结论。</p>
+          <p className="muted">当前版本用于展示网站结构和查询方式。演示映射不能当作正式真题结论。</p>
           <hr />
           <h3>建议引用</h3>
           <p className="muted">化学竞赛知识图谱，数据版本 2026.08（演示）。</p>

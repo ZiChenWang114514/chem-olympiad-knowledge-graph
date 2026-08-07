@@ -1,24 +1,24 @@
 {
   "items": [
     {
-      "id": "p-2024-final-01",
-      "examId": "exam-2024-final",
+      "id": "problem-000004",
+      "examId": "exam-000002",
       "number": "Q1",
       "title": "基础设施演示记录：配位化学与晶体场",
-      "disciplines": ["inorganic", "structural"],
-      "nodeIds": ["coordination", "crystal"],
+      "disciplines": ["kn-discipline-000001", "kn-discipline-000004"],
+      "nodeIds": ["kn-concept-000011", "kn-concept-000012"],
       "difficulty": 5,
       "mappingCount": 2,
       "rightsState": "metadata_public",
       "summary": "演示用节点映射，不代表该题真实考查结论；知识标注待来源核验。"
     },
     {
-      "id": "p-2024-final-02",
-      "examId": "exam-2024-final",
+      "id": "problem-000005",
+      "examId": "exam-000002",
       "number": "Q2",
       "title": "基础设施演示记录：反应速率与机理线索",
-      "disciplines": ["physical", "organic"],
-      "nodeIds": ["mechanism", "equilibrium"],
+      "disciplines": ["kn-discipline-000002", "kn-discipline-000003"],
+      "nodeIds": ["kn-concept-000013", "kn-concept-000009"],
       "difficulty": 5,
       "mappingCount": 2,
       "rightsState": "metadata_public",

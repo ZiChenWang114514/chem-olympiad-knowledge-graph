@@ -1,30 +1,24 @@
 {
   "dataVersion": "2026.08.08-demo",
-  "schemaVersion": "1.0.0",
+  "schemaVersion": 2,
   "generatedAt": "2026-08-08T00:00:00+08:00",
+  "releaseSequence": 1,
   "rightsPolicy": "metadata_public",
-  "files": {
-    "taxonomy": "data/taxonomy.json",
-    "exams": "data/exams/index.json",
-    "graph": "data/graph/all.json",
-    "search": "data/search-index.json",
-    "statistics": "data/statistics.json"
-  },
-  "counts": {
+  "files": [
+    { "path": "data/taxonomy.json", "bytes": 833 },
+    { "path": "data/exams/index.json", "bytes": 918 },
+    { "path": "data/exams/2006.json", "bytes": 1457 },
+    { "path": "data/exams/2024.json", "bytes": 1015 },
+    { "path": "data/exams/2025.json", "bytes": 1451 },
+    { "path": "data/graph/all.json", "bytes": 3635 },
+    { "path": "data/search-index.json", "bytes": 3532 },
+    { "path": "data/statistics.json", "bytes": 759 }
+  ],
+  "recordCounts": {
     "exams": 3,
     "problems": 8,
     "knowledgeNodes": 14,
     "knowledgeEdges": 15
   },
-  "notice": "当前为基础设施演示数据：题目主题与节点映射仅用于展示网站结构，不代表已审核的真题知识结论；未包含未获授权的题文、答案或评分材料。",
-  "fileHashes": {
-    "data/taxonomy.json": "c383b2f809fc4e2015304f77efad534f71c40170c354778e268575e03fbbb6b8",
-    "data/exams/index.json": "bb410a0865569db37c8efe3213a4ddd6b93d1735af631f758145b6f814e558a8",
-    "data/exams/2006.json": "de7a5affd7e983a8305d360727ee19c83836c912dc5bbf0411584ce192a44f78",
-    "data/exams/2024.json": "34d9ae25ed4163edbccd6564fc995d98c393a844a0dd456b2c207019898c84f5",
-    "data/exams/2025.json": "32127c77d4e2aff1dc90f90ff5624f5a8cb2b0c41c95714b5651f6614eada703",
-    "data/graph/all.json": "52e564bbceaa122774c5bc236a930a79f3d57cdd6e1ca7f9187152a0e4c3452d",
-    "data/search-index.json": "55a67261d549ce7f9395dbcb520032cb5dab947acfa500ae8535826fdf9e33bd",
-    "data/statistics.json": "df2be41cbc24add0765fe5bd61f8f959179f82f2e6ccffc69995057a78059d68"
-  }
+  "notice": "当前为基础设施演示数据：题目主题与节点映射仅用于展示网站结构，不代表已通过自动检查的真题知识结论；未包含未获授权的题文、答案或评分材料。"
 }

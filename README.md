@@ -21,4 +21,6 @@ npm run import:release -- D:/path/to/release
 
 转换器兼容本地 pipeline exporter 的发布结构（`manifest.json`、`taxonomy.json`、`exams/<stage>/*.json`、`graph/*.json`、`search-index.json`、`statistics.json`），会把 snake_case 字段转换为网页所需的 camelCase 字段。
 
+公开 `manifest.json` 使用 `releaseSequence`、`files`（含文件路径和字节数）与 `recordCounts` 描述发布批次；来源记录使用 `sourceDocumentId`、`sourceLabel`、`sourceVersion` 和页码等可读信息。
+
 生产构建默认使用 `/chem-olympiad-knowledge-graph/` 作为 GitHub Pages base。推送 `main` 后，GitHub Actions 会执行测试、构建、公开数据检查并部署 Pages。

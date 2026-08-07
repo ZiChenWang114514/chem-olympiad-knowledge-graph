@@ -1,4 +1,5 @@
 export type Discipline = { id: string; name: string; color: string }
+export type Relation = { id: string; name: string; predicate: string }
 export type GraphNode = { id: string; label: string; type: string; discipline: string; importance?: number }
 export type GraphEdge = { id: string; source: string; target: string; relation: string }
 export type Problem = {
@@ -13,7 +14,10 @@ export type Problem = {
   mappingCount: number
   rightsState: string
   summary: string
-  sourcePage?: number
+  sourceDocumentId?: string
+  sourceLabel?: string
+  sourceVersion?: string
+  page?: number
 }
 export type Exam = {
   id: string
@@ -23,8 +27,10 @@ export type Exam = {
   title: string
   rightsState: string
   problemCount: number
+  sourceDocumentId?: string
   sourceLabel: string
-  sourceSha256?: string
+  sourceVersion?: string
+  page?: number
   syntheticDemo?: boolean
 }
 export type GraphData = { nodes: GraphNode[]; edges: GraphEdge[]; syntheticDemo?: boolean }

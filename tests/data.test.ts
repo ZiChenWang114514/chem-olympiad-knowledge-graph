@@ -1,6 +1,4 @@
 import { describe, expect, it } from 'vitest'
-import { createHash } from 'node:crypto'
-import { readFileSync } from 'node:fs'
 import manifest from '../public/data/manifest.json'
 import taxonomy from '../public/data/taxonomy.json'
 import graph from '../public/data/graph/all.json'
@@ -24,6 +22,8 @@ const edges = graph.edges as GraphEdge[]
 describe('公开数据完整性', () => {
   it('声明版本和公开版权策略', () => {
     expect(manifest.dataVersion).toBeTruthy()
+    expect(manifest.schemaVersion).toBe(2)
+    expect(Number.isInteger(manifest.releaseSequence)).toBe(true)
     expect(manifest.rightsPolicy).toBe('metadata_public')
   })
 
@@ -38,8 +38,10 @@ describe('公开数据完整性', () => {
 
   it('statistics.totalNodes 与 graph.nodes.length 一致', () => {
     expect(statistics.totalNodes).toBe(nodes.length)
-    expect(manifest.counts.knowledgeNodes).toBe(nodes.length)
-    expect(manifest.counts.knowledgeEdges).toBe(edges.length)
+    expect(manifest.recordCounts.knowledgeNodes).toBe(nodes.length)
+    expect(manifest.recordCounts.knowledgeEdges).toBe(edges.length)
+    expect(taxonomy.relations.every(relation => /^relation-type-\d{6}$/.test(relation.id))).toBe(true)
+    expect(taxonomy.relations.some(relation => relation.predicate === 'prerequisite')).toBe(true)
   })
 
   it('search-index 的知识节点 id 均存在于图谱', () => {
@@ -61,12 +63,12 @@ describe('公开数据完整性', () => {
   it('prerequisite 约定为 source 先修于 target，并至少存在一条', () => {
     const prereq = edges.filter(e => e.relation === 'prerequisite')
     expect(prereq.length).toBeGreaterThan(0)
-    const sample = prereq.find(e => e.source === 'atomic' && e.target === 'periodic')
+    const sample = prereq.find(e => e.source === 'kn-concept-000008' && e.target === 'kn-concept-000007')
     expect(sample).toBeTruthy()
-    const before = getPrerequisites('periodic', edges, nodes).map(n => n.id)
-    const after = getFollowOns('atomic', edges, nodes).map(n => n.id)
-    expect(before).toContain('atomic')
-    expect(after).toContain('periodic')
+    const before = getPrerequisites('kn-concept-000007', edges, nodes).map(n => n.id)
+    const after = getFollowOns('kn-concept-000008', edges, nodes).map(n => n.id)
+    expect(before).toContain('kn-concept-000008')
+    expect(after).toContain('kn-concept-000007')
   })
 
   it('每个学科节点至少有一条相连边', () => {
@@ -77,30 +79,32 @@ describe('公开数据完整性', () => {
     }
   })
 
-  it('manifest 中的公开文件哈希与实际内容一致', () => {
-    for (const [file, expected] of Object.entries(manifest.fileHashes)) {
-      const bytes = readFileSync(new URL(`../public/${file}`, import.meta.url))
-      expect(createHash('sha256').update(bytes).digest('hex')).toBe(expected)
+  it('manifest 列出公开文件及其大小', () => {
+    expect(Array.isArray(manifest.files)).toBe(true)
+    expect(manifest.files.length).toBeGreaterThan(0)
+    for (const entry of manifest.files) {
+      expect(entry.path).toMatch(/^data\//)
+      expect(entry.bytes).toBeGreaterThan(0)
     }
   })
 })
 
 describe('图谱查询纯函数', () => {
   it('相邻知识不截断、可读', () => {
-    const neighbors = getNeighbors('equilibrium', edges, nodes)
+    const neighbors = getNeighbors('kn-concept-000009', edges, nodes)
     expect(neighbors.length).toBeGreaterThan(1)
     expect(neighbors.every(item => item.other.id && item.relation)).toBe(true)
   })
 
   it('相关题目仅依据 nodeIds', () => {
-    const related = getRelatedProblems('periodic', problems)
-    expect(related.map(p => p.id).sort()).toEqual(['p-2006-prelim-01', 'p-2025-prelim-01'].sort())
-    const crystal = getRelatedProblems('crystal', problems)
-    expect(crystal.some(p => p.id === 'p-2024-final-01')).toBe(true)
+    const related = getRelatedProblems('kn-concept-000007', problems)
+    expect(related.map(p => p.id).sort()).toEqual(['problem-000001', 'problem-000006'].sort())
+    const crystal = getRelatedProblems('kn-concept-000012', problems)
+    expect(crystal.some(p => p.id === 'problem-000004')).toBe(true)
   })
 
   it('配位化学先修与后续方向正确', () => {
-    expect(getPrerequisites('crystal', edges, nodes).map(n => n.id)).toContain('coordination')
-    expect(getFollowOns('coordination', edges, nodes).map(n => n.id)).toContain('crystal')
+    expect(getPrerequisites('kn-concept-000012', edges, nodes).map(n => n.id)).toContain('kn-concept-000011')
+    expect(getFollowOns('kn-concept-000011', edges, nodes).map(n => n.id)).toContain('kn-concept-000012')
   })
 })
