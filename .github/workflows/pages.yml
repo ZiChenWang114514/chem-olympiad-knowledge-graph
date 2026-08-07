@@ -1,0 +1,109 @@
+name: Quality checks and deploy Pages
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+env:
+  NODE_VERSION: 20
+
+jobs:
+  schema-check:
+    name: schema-check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: ${{ env.NODE_VERSION }}, cache: npm }
+      - run: npm ci
+      - run: npm run check:schema
+
+  unit-test:
+    name: unit-test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: ${{ env.NODE_VERSION }}, cache: npm }
+      - run: npm ci
+      - run: npm test
+
+  build:
+    name: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: ${{ env.NODE_VERSION }}, cache: npm }
+      - run: npm ci
+      - run: npm run build
+      - uses: actions/upload-artifact@v4
+        with: { name: site-dist, path: dist }
+
+  public-data-audit:
+    name: public-data-audit
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: ${{ env.NODE_VERSION }}, cache: npm }
+      - run: npm ci
+      - run: npm run audit:public
+      - run: npm run build
+      - name: Audit generated site for restricted material
+        shell: bash
+        run: |
+          ! find dist -type f \( -iname '*.pdf' -o -iname '*answer*' -o -iname '*score*' -o -iname '*solution*' \) | grep .
+          ! grep -RIlE 'D:\\\\|C:\\\\|\\\\Users\\\\|"(fullText|answerText|solutionText|scoreText)"' dist | grep .
+
+  playwright:
+    name: playwright
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: ${{ env.NODE_VERSION }}, cache: npm }
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npm run build
+      - run: npm run test:e2e
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: playwright-report, path: playwright-report }
+
+  visual-smoke:
+    name: visual-smoke
+    needs: playwright
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: ${{ env.NODE_VERSION }}, cache: npm }
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npm run build
+      - run: npm run test:e2e -- --project=desktop-wide --project=desktop-compact --project=mobile
+
+  deploy:
+    name: deploy-pages
+    if: github.event_name != 'pull_request'
+    needs: [schema-check, unit-test, build, public-data-audit, playwright, visual-smoke]
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/download-artifact@v4
+        with: { name: site-dist, path: dist }
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: dist }
+      - id: deployment
+        uses: actions/deploy-pages@v4
