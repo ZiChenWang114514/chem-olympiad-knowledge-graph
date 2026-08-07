@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000170",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "锂电池六氟磷酸盐",
+  "number": "2",
+  "examYear": 2022,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000059",
+    "sourceLabel": "2022-36-CChO-chusai-2.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2022-36-CChO-chusai-2/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "电解质是电池的重要组份之⼀。锂离⼦电池中，最常⽤的电解质为锂盐X。X中阴离⼦为正⼋⾯体构型，其组成元素均为短周期元素。X的合成⽅法之⼀如下：具有三⻆锥形分⼦结构的化合物A与化合物B发⽣复分解反应，⽣成C和HCl，C与⻩绿⾊⽓体D按照1:1的⽐例反应⽣成 $\\mathbf { E } ,$ ，E具有数种异构体。E进⼀步与B反应，获得具有三⻆双锥结构的F和HCl，F和LiF反应得到 $\\mathbf { X } _ { \\circ }$"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000170-01",
+      "label": "2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出A\\~F以及X的化学式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000170-02",
+      "label": "2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出E的异构体数⽬并画出所有异构体的结构。"
+        }
+      ]
+    }
+  ]
+}

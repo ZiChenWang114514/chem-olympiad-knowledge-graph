@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000044",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "铁钼催化剂EDTA分析",
+  "number": "4",
+  "examYear": 2017,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000012",
+    "sourceLabel": "2017-31-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2017-31-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000044-01",
+      "label": "4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "$\\mathrm { Z n ^ { 2 + } }$ 标准溶液的配制：称取0.3289 g⾦属 $Z \\mathrm { n }$ ，溶解后转移⾄250 mL的容量瓶，定容。EDTA溶液的标定：⽤移液管取25.00 mL 上述 $\\mathrm { Z n ^ { 2 + } }$ 标准溶液，以⼆甲酚橙作指⽰剂，⽤EDTA标准溶液滴⾄终点，消耗20.24 mL。计算 $\\mathrm { Z n ^ { 2 + } }$ 标准溶液和 EDTA 标准溶液的浓度。"
+        }
+      ]
+    },
+    {
+      "id": "part-000044-02",
+      "label": "4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "实验误差⽤标准差表⽰。对�次测量结果作加减和乘除运算，运算结果(�)的误差为 ${ \\boldsymbol { \\Delta Q } }$ ，其计算公式分别为 $\\Delta Q _ { \\pm } = \\sqrt { \\sum _ { i = 1 } ^ { n } ( \\Delta q _ { i } ) ^ { 2 } } \\mathcal { \\vec { H } } \\mathbb { I } \\Delta Q _ { \\times \\div } = | Q | \\sqrt { \\sum _ { i = 1 } ^ { n } ( \\Delta q _ { i } / q _ { i } ) ^ { 2 } }$ ，其中 $\\boldsymbol { \\cdot } \\Delta \\boldsymbol { q } _ { i }$ 为第�次测量值 $\\cdot q _ { i }$ 的误差。已知分析天平称量的标准差为0.1 mg，移液管、容量瓶和滴定管的标准差均为0.01 mL，忽略其他误差因素，计算4-1中EDTA标准溶液浓度的最⼩标准差。"
+        }
+      ]
+    },
+    {
+      "id": "part-000044-03",
+      "label": "4-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "请计算该催化剂中Fe和Mo的原⼦个数之⽐。"
+        }
+      ]
+    },
+    {
+      "id": "part-000044-04",
+      "label": "4-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "欲在室温下配制1.0 L pH 5.00的醋酸-醋酸钠缓冲溶液，现有11.8 g醋酸钠，请计算需要加⼊醋酸 $( \\rho =$ $1 . 0 5 \\mathrm { g } \\mathrm { m L } ^ { - 1 } )$ 的体积（醋酸在⽔溶液中的 $K _ { a } _ { \\mathrm { ~ } } = 1 . 8 \\times 1 0 ^ { - 5 } )$ 0"
+        }
+      ]
+    }
+  ]
+}

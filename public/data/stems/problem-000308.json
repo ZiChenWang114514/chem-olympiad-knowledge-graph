@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000308",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "过氧化氢醛反应合成",
+  "number": "9",
+  "examYear": 2007,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000038",
+    "sourceLabel": "2007-21-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2007-21-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "为了合成⼀类新药，选择了下列合成路线："
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000308-01",
+      "label": "9-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "请写出A的化学式，画出B、C、D和缩醛G的结构式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000308-02",
+      "label": "9-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "由E⽣成F和F⽣成G的反应分别属于哪类基本有机反应类型。"
+        }
+      ]
+    },
+    {
+      "id": "part-000308-03",
+      "label": "9-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "请画出化合物G的所有光活异构体。"
+        }
+      ]
+    }
+  ]
+}

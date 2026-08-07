@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000283",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "菱锰矿绿色焙烧工艺",
+  "number": "4",
+  "examYear": 2006,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000037",
+    "sourceLabel": "2006-20-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2006-20-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000283-01",
+      "label": "4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出焙烧反应⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000283-02",
+      "label": "4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "其次，将焙烧产物转化为⾼品位的“菱锰矿砂”，写出反应⽅程式："
+        }
+      ]
+    },
+    {
+      "id": "part-000283-03",
+      "label": "4-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "若焙烧温度过⾼或时间过⻓，将导致什么结果？"
+        }
+      ]
+    },
+    {
+      "id": "part-000283-04",
+      "label": "4-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "从物料平衡⻆度看，⽣产过程中是否需要添加 $\\mathrm { | ( N H _ { 4 } ) _ { 2 } S O _ { 4 } ? }$ 说明理由。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000371",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "分子光谱与发光",
+  "number": "6",
+  "examYear": 2010,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000005",
+    "sourceLabel": "2010-24-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2010-24-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000371-01",
+      "label": "6-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "请写出步骤A\\~D所需的试剂及必要的反应条件。"
+        }
+      ]
+    },
+    {
+      "id": "part-000371-02",
+      "label": "6-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出化合物2和4的⽴体结构式（⽤上图所⽰的虚线⼀楔线式表⽰）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000371-03",
+      "label": "6-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "化合物7分⼦中含有⼏个不对称碳原⼦？画出7的椅式构象表达式并标出各不对称碳原⼦的构型（⽤�/�标记）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000371-04",
+      "label": "6-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pallescensin A 的红外光谱表明没有羰基的吸收峰，请画出 Pallescensin A 的⽴体结构式（⽤虚线-楔线式表⽰）并⽤反应机理解释由7转化为Pallescensin A的反应（写出两个关键中间体）。"
+        }
+      ]
+    }
+  ]
+}

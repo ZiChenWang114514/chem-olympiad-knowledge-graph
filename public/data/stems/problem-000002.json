@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000002",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "有机产物异构关系",
+  "number": "Q2",
+  "examYear": 2006,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000037",
+    "sourceLabel": "2006-20-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2006-20-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000002-01",
+      "label": "2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "给出两种产物的系统命名。"
+        }
+      ]
+    },
+    {
+      "id": "part-000002-02",
+      "label": "2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "这两种产物互为下列哪⼀种异构体？A 旋光异构体 B ⽴体异构体 C ⾮对映异构体 D ⼏何异构体"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000314",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "冠醚超分子自组装",
+  "number": "4",
+  "examYear": 2007,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000002",
+    "sourceLabel": "2007-21-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2007-21-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "近期化学家合成了⼀种结构⾮常特殊的超分⼦，其设计思路是，利⽤分⼦⾃我识别与⾃我组装的能⼒，将3个环状化合物套⼊Y型分⼦的⻣架上，再通过化学反应将3个环状化合物的侧链进⾏关环形成第4个环。图⽰如下："
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "4-1 已知化合物A、B的结构分别如下图所⽰，试问：它们通过什么作⽤进⾏⾃我识别与⾃我组装？\n（图：）"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000314-01",
+      "label": "4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在⽤邻苯⼆酚和1,8-⼆氯-3,6-⼆氧杂⾟烷进⾏[2+2]环化合成化合物A中的⼤环冠醚部分时，需⽤到2种⽅法以提⾼成环产率，即⾼度稀释和加⼊⾦属离⼦（模板离⼦）。试说明为什么加⼊模板离⼦会提⾼产率？对Na+、K+、Rb+、Cs+⽽⾔哪种离⼦作模板产率最⾼？为什么？"
+        }
+      ]
+    },
+    {
+      "id": "part-000314-02",
+      "label": "4-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "将超分⼦C转变为D时使⽤的化学反应通常称之为烯烃复分解反应，⽣成D的同时，还⽣成另⼀种化合物 $\\mathbf { E } _ { \\circ }$ 。已知D中的第4个环为三⼗三元环，试问，化合物E是什么？反应过程中每⽣成⼀个D同时⽣成⼏个E？"
+        }
+      ]
+    },
+    {
+      "id": "part-000314-03",
+      "label": "4-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "K是合成化合物A的原料之⼀，以E为主要原料合成K的路线如下，请写出F、G、H、I、J、K所代表的化合物或反应条件。"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\n\\mathrm{E} \\xrightarrow [ \\mathrm{CCl} _ {4} ]{\\mathrm{F}} \\mathrm{G} \\xrightarrow [ \\mathrm{Br} _ {2} ]{\\mathrm{H}} \\frac {(\\mathrm{CH} _ {3}) _ {3} \\mathrm{CONa}}{(\\mathrm{CH} _ {3}) _ {3} \\mathrm{COH}} \\xrightarrow [ \\mathrm{I} ]{\\mathrm{Mg}} \\mathrm{J} \\xrightarrow [ \\mathrm{THF} ]{1 . \\mathrm{G}} \\mathrm{K}\n$$"
+        }
+      ]
+    },
+    {
+      "id": "part-000314-04",
+      "label": "4-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "K也可以⽤如下所⽰的路线合成，写出 $\\mathbf { L } _ { \\mathbf { \\nu } }$ 、M、N、O所代表的化合物。"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\n\\mathrm{L} \\xrightarrow {\\mathrm{H} _ {2} \\mathrm{O}} \\mathrm{M} \\xrightarrow {\\mathrm{NaNH} _ {2}} \\mathrm{N} \\xrightarrow [ 2 . \\mathrm{H} _ {2} \\mathrm{O} ]{1 . \\mathrm{G}} \\mathrm{O} \\xrightarrow [ \\text {Lindlar Pd} ]{\\mathrm{H} _ {2}} \\mathrm{K}\n$$"
+        }
+      ]
+    }
+  ]
+}

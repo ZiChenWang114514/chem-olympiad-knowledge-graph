@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000003",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "硒的提取与反应",
+  "number": "Q1",
+  "examYear": 2021,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000017",
+    "sourceLabel": "2021-35-CChO-juesai-1.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "未能从 MD 可靠切分正文（决赛/2021-35-CChO-juesai-2/full.md）；仅写入元数据标题占位，待人工补全。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "warn",
+      "text": "本题干正文自动切分失败，仅显示题目标题占位。"
+    },
+    {
+      "type": "paragraph",
+      "text": "Q1 · 硒的提取与反应"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000387",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "反应动力学与催化",
+  "number": "5",
+  "examYear": 2011,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000006",
+    "sourceLabel": "2011-25-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2011-25-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "$$\n\\mathrm{CH} _ {3} \\mathrm{COCH} _ {3} \\xrightarrow {k _ {1}} \\mathrm{CH} _ {3} \\cdot + \\mathrm{CH} _ {3} \\mathrm{CO} \\cdot\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\nE _ {a} (1) = 3 5 1 \\mathrm{kJ} \\mathrm{mol} ^ {- 1}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\n\\mathrm{CH} _ {3} \\mathrm{CO} \\cdot \\xrightarrow {k _ {2}} \\mathrm{CH} _ {3} \\cdot + \\mathrm{CO}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\nE _ {a} (2) = 4 2 \\mathrm{kJ} \\mathrm{mol} ^ {- 1}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\n\\mathrm{CH} _ {3} \\cdot + \\mathrm{CH} _ {3} \\mathrm{COCH} _ {3} \\xrightarrow {k _ {3}} \\mathrm{CH} _ {4} + \\mathrm{CH} _ {3} \\mathrm{COCH} _ {2} \\cdot\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\nE _ {a} (3) = 6 3 \\mathrm{kJ} \\mathrm{mol} ^ {- 1}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\n\\mathrm{CH} _ {3} \\mathrm{COCH} _ {2} \\cdot \\xrightarrow {k _ {4}} \\mathrm{CH} _ {3} \\cdot + \\mathrm{CH} _ {2} \\mathrm{CO}\\tag{4}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\nE _ {a} (4) = 2 0 0 \\mathrm{kJ} \\mathrm{mol} ^ {- 1}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\n\\mathrm{CH} _ {3} \\cdot + \\mathrm{CH} _ {3} \\mathrm{COCH} _ {2} \\cdot \\xrightarrow {k _ {5}} \\mathrm{C} _ {2} \\mathrm{H} _ {5} \\mathrm{COCH} _ {3}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\nE _ {a} (5) = 2 1 \\mathrm{kJ} \\mathrm{mol} ^ {- 1}\n$$"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000387-01",
+      "label": "5-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "上述历程是根据两个平⾏反应⽽提出的，请写出反应⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000387-02",
+      "label": "5-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "实验测得1000K下热分解反应对丙酮为⼀级反应，试推出反应的速率⽅程。提⽰：①消耗丙酮的主要基元步骤是反应(3)；②可忽略各基元反应指前因⼦的影响。"
+        }
+      ]
+    },
+    {
+      "id": "part-000387-03",
+      "label": "5-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "根据5-2推出的速率⽅程，计算表观活化能。"
+        }
+      ]
+    },
+    {
+      "id": "part-000387-04",
+      "label": "5-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "分解产物中 $\\mathrm { C H _ { 4 } }$ 可以和⽔蒸⽓反应制备H_{2}："
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\n\\mathrm{CH} _ {4} (\\mathrm{g}) + \\mathrm{H} _ {2} \\mathrm{O} (\\mathrm{g}) \\rightarrow 3 \\mathrm{H} _ {2} (\\mathrm{g}) + \\mathrm{CO} (\\mathrm{g})\n$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "试根据下表数据计算该反应在298K时 $\\Delta _ { r } G _ { m } ^ { \\ominus }$ 和平衡常数 $K ^ { \\ominus }$ ，并指出平衡常数随温度的变化趋势。"
+        },
+        {
+          "type": "paragraph",
+          "text": "相关物质热⼒学数据(298K)"
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
+        }
+      ]
+    }
+  ]
+}

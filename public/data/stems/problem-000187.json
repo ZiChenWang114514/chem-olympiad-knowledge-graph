@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000187",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "α氨基酸α芳基化",
+  "number": "9",
+  "examYear": 2022,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000021",
+    "sourceLabel": "2022-36-CChO-juesai-1.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2022-36-CChO-juesai-2/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000187-01",
+      "label": "9-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出如下反应的关键中间体，并解释形成此主要产物的原因。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000187-02",
+      "label": "9-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出如下反应的关键中间体，解释反应的区域选择性和⽴体选择性。（提⽰：PhI(OAc)_{2}⾸先和I_{2}反应、⽣成不稳定的中间体IOH）"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    }
+  ]
+}

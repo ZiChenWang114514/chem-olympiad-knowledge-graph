@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000440",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "活塞反应器热力学",
+  "number": "2",
+  "examYear": 2014,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000009",
+    "sourceLabel": "2014-28-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2014-28-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "如图所⽰，⽆摩擦、⽆质量的活塞1、2、3和4将反应器隔成甲、 $\\mathbb { Z } _ { \\setminus }$ 、丙和丁4部分，分别进⾏反应："
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\n\\mathrm{A} (\\mathrm{g}) + \\mathrm{B} (\\mathrm{g}) \\rightleftharpoons \\mathrm{C} (\\mathrm{g})\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "起始时物质的量已标在图中。某温度和100 kPa下实现平衡时，各部分的体积分别为 $V _ { \\mathbb { H } }$ 、 $V _ { Z } .$ 、 $V _ { ☉ }$ 和 $V _ {  { \\mathrm { T } } \\circ }$ 。这时若是去掉活塞1或 $^ { 3 , }$ ，均不会引起其它活塞移动。"
+    },
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000440-01",
+      "label": "2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "已知平衡常数�和反应商�，如何判断反应进⾏⽅向？"
+        }
+      ]
+    },
+    {
+      "id": "part-000440-02",
+      "label": "2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "求算 $\\boldsymbol { { \\cdot } } \\boldsymbol { { V } } _ { \\mathbb { H } }$ 与 $V _ { Z } ,$ 之⽐；"
+        }
+      ]
+    },
+    {
+      "id": "part-000440-03",
+      "label": "2-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "求算�值；"
+        }
+      ]
+    },
+    {
+      "id": "part-000440-04",
+      "label": "2-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "去掉活塞2后再次达到平衡时，活塞3向哪个⽅向发⽣了移动？试通过计算加以解释，可以假定反应的 $K ^ { \\ominus }$ 等于 1。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000081",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "有机酸性与反应性",
+  "number": "5",
+  "examYear": 2019,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000014",
+    "sourceLabel": "2019-33-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2019-33-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "在碱性条件下，化合物A和B中有⼀个发⽣消除反应⽣成C。"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000081-01",
+      "label": "5-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "指出发⽣消除反应⽣成C的是哪⼀个化合物。简述理由。"
+        }
+      ]
+    },
+    {
+      "id": "part-000081-02",
+      "label": "5-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在同样的反应条件下，另⼀个化合物发⽣消除反应⽣成D。D可使酸性 $\\mathrm { K M n O } _ { 4 }$ 溶液褪⾊，但不与LiAIH_{4}发⽣反应。画出D的结构简式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000081-03",
+      "label": "5-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出化合物B的优势构象；⽤\\*标记处化合物B中的不对称碳原⼦，并说明�、�构型。"
+        }
+      ]
+    }
+  ]
+}

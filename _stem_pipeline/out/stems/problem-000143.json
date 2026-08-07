@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000143",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "含磷小分子反应",
+  "number": "2",
+  "examYear": 2021,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000017",
+    "sourceLabel": "2021-35-CChO-juesai-1.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2021-35-CChO-juesai-1/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000143-01",
+      "label": "2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出在−35 °C 时，将 $\\mathrm { P H } _ { 3 }$ ⽓体通过⾦属钠的液氨溶液制备 $\\mathrm { N a P H _ { 2 } }$ 的化学反应⽅程式及题中NaPH 与CO反应的化学反应⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000143-02",
+      "label": "2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出化合物X的结构简式（溶剂分⼦⽤dme表⽰）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000143-03",
+      "label": "2-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "2011年Cummins等⼈报道了常温常压下，以⼄醚为溶剂，通过 $\\mathrm { N a [ \\{ B ( C _ { 6 } F _ { 5 } ) _ { 3 } \\} P N b ( N [ N p ] A r ) }$ _{3}]与等摩尔数的 $\\mathrm { C O _ { 2 } }$ 反应制备 $\\mathrm { N a O C P }$ 合成⽅法。写出该制备过程的化学反应⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000143-04",
+      "label": "2-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L $\\mathrm { . i ( d m e ) _ { 2 } O C P }$ 与 $\\mathrm { S O _ { 2 } }$ 反应时，OCP−会发⽣聚合，⽣成 $\\mathrm { [ P _ { 4 } C _ { 4 } O _ { 4 } }$ ]2−，该离⼦包含两个五元环，且含P—P键， $\\mathrm { ^ { 3 1 } P - N M R }$ 表明P原⼦有两种化学环境，画出 $\\mathrm { [ P _ { 4 } C _ { 4 } O _ { 4 } ] }$ 2−的结构简式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000143-05",
+      "label": "2-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "NaOCP 与 $( \\mathrm { i p c } ) _ { 2 } \\mathrm { B C l }$ 反应，得到分⼦式为 $\\mathrm { B _ { 3 } C _ { 3 } P _ { 3 } O _ { 3 } ( i p c ) _ { 6 } }$ 的化合物 $\\mathbf { Y } _ { \\circ }$ 。Y在叔丁醇的作⽤下，转变为化合物Z，Z有三重旋转轴，其31P-NMR测试表明所有P原⼦的化学环境相同。画出Y和Z的结构简式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000143-06",
+      "label": "2-6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "研究发现： $\\mathrm { O C P ^ { - } }$ 与过渡⾦属中⼼配位，会导致碳磷键断裂，⽣成CO分⼦。当⾦属中⼼有富余电⼦时，所⽣成的CO会与⾦属中⼼配位；⽽当⾦属中⼼缺电⼦时，CO会脱离反应体系。"
+        },
+        {
+          "type": "paragraph",
+          "text": "${ \\bf 2 - 6 - 1 } \\left[ \\mathrm { W ( O D i p p ) _ { 4 } } \\right]$ 与NaOCP在⼄⼆醇⼆甲醚(dme)和12-冠-4存在下反应，得到产物 $\\mathbf { Q } _ { \\circ }$ 。写出 $[ \\mathrm { W ( O D i p p ) _ { 4 } } ]$ 中W的氧化数，写出 $\\mathrm { [ W ( O D i p p ) _ { 4 } }$ ]的⼏何构型，画出产物Q中的配阴离⼦的结构简式。"
+        },
+        {
+          "type": "paragraph",
+          "text": "$2 { - } 6 { - } 2 \\left[ \\mathrm { I r C l ( P D I ^ { M e } ) } \\right]$ 在低温下与NaOCP反应，也发⽣了碳磷键断裂，得到了双⾦属双磷化合物 $\\mathbf { R } _ { \\circ }$ 。写出$\\mathrm { [ I r C l ( P D I ^ { M e } ) }$ ]中Ir的价电⼦组态和R的分⼦式（配体⽤缩写）及Ir的位数。"
+        },
+        {
+          "type": "paragraph",
+          "text": "本题涉及的缩写："
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    }
+  ]
+}

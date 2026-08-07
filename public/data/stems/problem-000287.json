@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000287",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "氮化铂晶体结构",
+  "number": "8",
+  "examYear": 2006,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000037",
+    "sourceLabel": "2006-20-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2006-20-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000287-01",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "氮化铂的上述四种⽴⽅晶体在结构上有什么共同点？"
+        }
+      ]
+    },
+    {
+      "id": "part-000287-02",
+      "label": "8-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "分别给出上述四种氮化铂结构的化学式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000287-03",
+      "label": "8-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "试在图上挑选⼀个氮原⼦，不添加原⼦，⽤粗线画出所选氮原⼦的配位多⾯体。"
+        }
+      ]
+    },
+    {
+      "id": "part-000287-04",
+      "label": "8-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "请在本题的附图上添加六个氮原⼦（添加的氮请尽可能靠前）。"
+        }
+      ]
+    }
+  ]
+}

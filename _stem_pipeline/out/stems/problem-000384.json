@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000384",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "核反应与元素",
+  "number": "2",
+  "examYear": 2011,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000006",
+    "sourceLabel": "2011-25-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2011-25-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000384-01",
+      "label": "2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "通过计算给出D的化学式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000384-02",
+      "label": "2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "通过计算给出A的化学式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000384-03",
+      "label": "2-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "给出B在硫酸溶液中与草酸反应的离⼦⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000384-04",
+      "label": "2-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "图2⽰出M的⼀种氧化物的晶体结构，写出该氧化物的化学式，简述推理过程。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）\n(a)"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）\n(b)"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）\n(c)\n图2 M的⼀种氧化物的晶体结构"
+        }
+      ]
+    }
+  ]
+}

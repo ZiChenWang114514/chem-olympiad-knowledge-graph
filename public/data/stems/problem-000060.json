@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000060",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "铝氮多面体与肼制备",
+  "number": "2",
+  "examYear": 2018,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000013",
+    "sourceLabel": "2018-32-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2018-32-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000060-01",
+      "label": "2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在⼀定条件下， $\\mathrm { A l M e _ { 3 } }$ 与 $_ \\mathrm { H _ { 2 } N M e }$ 反应⽣成A。A的分⼦式为 $\\mathrm { A l _ { 8 } C _ { 1 6 } N _ { 8 } H _ { 4 8  o } }$ A是多⾯体分⼦，多⾯体的⻣⼲由四边形和六边形构成，分⼦中除⼀条四次反轴外，没有其他独⽴的对称元素。写出⽣成A的化学反应⽅程式，画出A多⾯体⻣⼲的结构，结构中的原⼦⽤元素符号表⽰。"
+        }
+      ]
+    },
+    {
+      "id": "part-000060-02",
+      "label": "2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "最近研究发现，在200GPa压⼒下⽣成分⼦式为 $\\mathrm { N _ { 2 } F _ { 8 } }$ 的 $\\mathbf { B } _ { \\circ }$ 。B中存在N—N键，但2个N原⼦的配位数不同。画出该分⼦的结构，结构中的原⼦⽤元素符号表⽰，不在纸⾯上的化学键⽤楔型键表⽰。"
+        }
+      ]
+    },
+    {
+      "id": "part-000060-03",
+      "label": "2-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "肼的制备⼀般采⽤Raschig反应，即在强碱性溶液中⽤NaOCl氧化 $\\mathrm { N H _ { 3 } }$ 来制取。反应分两步进⾏，第⼀步⽣成含Cl的中间体（⽅程式1），中间体与 $\\mathrm { N H _ { 3 } }$ 进⼀步反应⽣成肼（⽅程式2）。含Cl中间体与⽣成的肼会发⽣副反应（⽅程式3）。有的⼯⼚⽤尿素代替 $\\mathrm { N H _ { 3 } }$ 来⽣产肼，写出⽤尿素⽣产肼的化学反应⽅程式（⽅程式4）。异烟肼（结构如下）可以与银氨溶液发⽣银镜反应，写出化学反应⽅程式（⽅程式5）。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000060-04",
+      "label": "2-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "通过X-射线衍射测定了晶体 $\\mathrm { W } ( \\mathrm { N } _ { 3 } ) .$ 的结构，结果发现， $\\mathrm { W } ( \\mathrm { N } _ { 3 } ) _ { \\epsilon }$ 属于三⽅晶系，其六⽅晶胞参数为： $a \\ =$ $b _ { \\mathbf { \\lambda } } = 9 6 9 . 6 2 \\mathrm { p m }$ 1 $c = 7 2 2 . 2 5 \\mathrm { p m }$ $\\alpha = \\beta = 9 0 ^ { \\circ }$ $\\gamma = 1 2 0 ^ { \\circ } .$ 。已知晶体的密度为 $2 . 6 2 2 \\mathrm { g } { \\cdot } \\mathrm { c m } ^ { - 3 }$ 。该晶体的点阵形式是简单六⽅，通过计算推断结构基元。（阿伏伽德罗常数 $N _ { \\mathrm { A } } = 6 . 0 2 2 \\times 1 0 ^ { 2 3 } \\mathrm { m o l ^ { - 1 } } )$ 第3题（10分）硼成键复杂，形成的化合物多种多样，许多化合物具有独特的结构。"
+        }
+      ]
+    },
+    {
+      "id": "part-000060-05",
+      "label": "3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "迄今为⽌对称性最⾼的封闭笼形硼烷负离⼦（与 $\\mathrm { C } _ { 6 0 }$ 对称性⼀样）与Cs+形成的盐X，可由 $\\mathrm { C s B _ { 3 } H _ { 8 } }$ 来制备。X与 $\\mathrm { H _ { 2 } O _ { 2 } }$ 反应（⽅程式1），B—H键上的H全部被OH取代，转变成另⼀种盐 $\\begin{array} { r l } { \\mathbf { Y } _ { \\circ } } & { { } \\mathrm { B } _ { 3 } \\mathrm { N } _ { 3 } \\mathrm { H } _ { 6 } } \\end{array}$ 在 270 K 与⽔反应，得到产物，其稳定构象是椅式六元环，具有三重旋转轴。Z加热到373K左右发⽣分解（⽅程式2），重新⽣成具有平⾯六元环结构的化合物。"
+        }
+      ]
+    },
+    {
+      "id": "part-000060-06",
+      "label": "3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 写出上述两个反应的⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000060-07",
+      "label": "3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2Y在⽔中的溶解度很⼩，说明原因。"
+        }
+      ]
+    },
+    {
+      "id": "part-000060-08",
+      "label": "3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-3 画出 $\\mathrm { C s B _ { 3 } H _ { 8 } }$ 中负离⼦的结构。"
+        }
+      ]
+    },
+    {
+      "id": "part-000060-09",
+      "label": "3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "封闭笼形碳硼烷 $1 , 7 \\mathrm { { - C _ { 2 } B _ { 6 } H _ { 8 } } }$ （结构如下图）在⼀定条件下，与 $\\mathrm { C o C l _ { 2 } }$ $\\mathrm { N a C _ { 5 } H _ { 5 } }$ 反应，扩笼⽣成了另⼀种笼型分⼦ $\\mathrm { [ C o \\{ ( C _ { 5 } H _ { 5 } ) \\} _ { 2 } ( C _ { 2 } B _ { 6 } H _ { 8 } ) ] }$ ，分⼦中存在⾦属-⾦属键，每个Co的配位原⼦数是10，处于笼⻣⼲上的每个C原⼦是5，都只与1个Co原⼦配位。画出 $\\mathrm { [ C o \\{ ( C _ { 5 } H _ { 5 } ) \\} _ { 2 } ( C _ { 2 } B _ { 6 } H _ { 8 } ) ] }$ 的结构。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    }
+  ]
+}

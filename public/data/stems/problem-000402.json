@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000402",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "核反应与元素",
+  "number": "1",
+  "examYear": 2012,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000007",
+    "sourceLabel": "2012-26-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2012-26-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000402-01",
+      "label": "1-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "铋所在族各元素氢化物按沸点由⾼到低顺序为： $\\big ( \\mathrm { ~  ~ \\rho ~ } \\big ) > \\big ( \\mathrm { ~  ~ \\rho ~ } \\big ) > \\mathrm { { N H } } _ { 3 } > \\big ( \\mathrm { ~  ~ \\rho ~ } \\big ) > \\big ( \\mathrm { ~  ~ \\rho ~ } \\big )$ ，它们的键⻆从⼤到 ⼩顺序为： C"
+        }
+      ]
+    },
+    {
+      "id": "part-000402-02",
+      "label": "1-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "铋的⾼价化合物具有很强的氧化性，酸性介质中可⽤ $\\mathrm { N a B i O _ { 3 } }$ 氧化Mn(II)得到Mn(VII)以鉴定锰。写出该反应的离⼦反应⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000402-03",
+      "label": "1-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "⻧氧化铋作为⼀类新型光化学催化剂，具有较⾼的催化活性和稳定性，近⼏年备受关注。已知 $\\varphi _ { \\mathrm { B i o c l / B i } } ^ { \\ominus }$ $= 0 . 1 7 \\mathrm { V } , \\varphi _ { \\mathrm { B i 0 ^ { + } / B i } } ^ { \\ominus } = 0 . 3 2 \\mathrm { V }$ ，求算BiOCl的溶度积。"
+        }
+      ]
+    },
+    {
+      "id": "part-000402-04",
+      "label": "1-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "213Bi可作为治疗⼩型肿瘤的放疗药剂，与蛋⽩质形成⽣物超分⼦，可在⽬标细胞内特定区域释放α粒⼦。写出213Bi的衰变⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000402-05",
+      "label": "1-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "溶出伏安法⽤于测定⾦属离⼦浓度，其原理是将待测⾦属离⼦还原为单质沉积在电极表⾯的汞膜内⽽达到富集的效果。为了减少污染，可以⽤铋膜代替汞膜，利⽤电解将铋离⼦还原为单质铋沉积在圆柱形电极的底⾯上均匀成膜。设电极直径为3 mm，电流强度为1 mA，电解2 min，计算电极上沉积的铋膜厚度（⼰知铋密度为 $9 . 8 \\mathrm { g c m ^ { 3 } } )$"
+        }
+      ]
+    },
+    {
+      "id": "part-000402-06",
+      "label": "1-6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "使⽤⼆氯甲基铋与甲基⻩原酸钠盐或钾盐 $\\mathrm { { M } ( S _ { 2 } C O M e ) \\left( M = N a , \\right. }$ K)在苯中反应可得到结构如图1.1所⽰的化合物 $\\mathbf { A } _ { \\circ }$"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000402-07",
+      "label": "1-6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 根据图1.1写出化合物A的结构简式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000402-08",
+      "label": "1-6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 写出制备A的化学⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000402-09",
+      "label": "1-6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-3 说明反应不⽤⽔作溶剂的原因。"
+        }
+      ]
+    },
+    {
+      "id": "part-000402-10",
+      "label": "1-6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-4 若⽤ $\\mathrm { L a } ^ { \\mathrm { i } }$ +取代A中的Bi3+产物是否能稳定存在？说明理由（Bi3+和 $\\mathrm { L a ^ { 3 + } }$ +的半径均为117pm）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000402-11",
+      "label": "1-7",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "锗酸铋本质上是复合氧化物，此类氧化物有多种不同组成的晶体。其中有两种属⽴⽅晶系，对空⽓、⽔、⾼能辐射和热稳定，熔点⾼于 ${ } ^ { 9 0 0 } \\ { } ^ { \\circ } \\mathrm { C } ,$ 是重要的光学材料，以下简称B和D。B的晶胞参数 $\\cdot a \\ = 1 0 1 4 . 5 \\ \\mathrm { p m }$ 密度 $d = 9 . 2 2 \\mathrm { g } \\mathrm { c m } ^ { - 3 }$ ，晶胞中有2个Ge原⼦； D的晶胞参数为 $a = 1 0 5 9 . 4 \\mathrm { p m }$ $d = 6 . 9 3 \\mathrm { g c m ^ { - 3 } }$ ，每个O原⼦键连1个Bi和1个 $\\mathrm { G e } _ { \\circ }$ 。根据以上信息推出B和D的化学式（整⽐化合物，须写出推求过程）。"
+        },
+        {
+          "type": "paragraph",
+          "text": "$\\begin{array} { r l } { 1 - 8 } & { { } \\mathrm { B i } ^ { 3 + } } \\end{array}$ 在⽔溶液⾥与 $\\mathrm { O ^ { 2 \\mathrm { - } } }$ 和/或OH−结合形成复杂多样的离⼦。离⼦E是 $\\mathrm { B i ^ { 3 + } } \\mathrm { . }$ 与OH−形成的多核离⼦，离⼦电荷+6，具有与⽴⽅体相同的对称性（忽略H的取向）。E中Bi—Bi的核间距相等（370 pm，对⽐：⾦属铋中Bi—Bi核间距为307和353 pm），Bi—O的核间距也相等。写出E的化学式并画出其⽴体结构图（⽤OH表⽰O—H）。"
+        }
+      ]
+    }
+  ]
+}

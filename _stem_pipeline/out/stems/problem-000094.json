@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000094",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "有机合成与机理",
+  "number": "10",
+  "examYear": 2020,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000054",
+    "sourceLabel": "2020-34-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2020-34-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000094-01",
+      "label": "10-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "请为以下转换提供合理的中间体"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000094-02",
+      "label": "10-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "参照10-1中的转换⽅式，画出以下反应主要产物的结构简式。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000094-03",
+      "label": "10-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "以下反应是天然产物顺式茉莉酮全合成中的⼀步："
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "仔细分析这个反应转换过程三元环的作⽤，并在此基础上完成10-3-1和10-3-2中的反应，画出主要产物的结构简式（不考虑产物的⽴体化学）："
+        }
+      ]
+    },
+    {
+      "id": "part-000094-04",
+      "label": "10-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000094-05",
+      "label": "10-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000094-06",
+      "label": "10-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-3 画出10-3-1转换中中间体的结构简式。"
+        }
+      ]
+    }
+  ]
+}

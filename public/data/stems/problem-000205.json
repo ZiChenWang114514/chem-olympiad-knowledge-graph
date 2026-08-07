@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000205",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "有机化合物基本概念",
+  "number": "8",
+  "examYear": 2023,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000060",
+    "sourceLabel": "2023-37-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2023-37-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "对题⽬8-1⾄8-5所提问题进⾏判断并提供合理解释，对题⽬8-6和8-7则按所给条件和要求解答。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000205-01",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "丙酮和六氟丙酮中哪个分⼦偶极矩更⼤？"
+        }
+      ]
+    },
+    {
+      "id": "part-000205-02",
+      "label": "8-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "2.4-戊⼆酮的烯醇含量在⽔中还是在正⼰烷中⾼？将溶剂⽔换成⼆甲亚砜，2.4-戊⼆酮的 $\\mathsf { p } K _ { a }$ 是降低还是升⾼？"
+        }
+      ]
+    },
+    {
+      "id": "part-000205-03",
+      "label": "8-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "$\\left( 2 \\mathrm { E } , 4 \\mathrm { Z } , 6 \\mathrm { E } \\right)$ -⾟-2,4,6-三烯在光照下关环后两个甲基是顺式的还是反式的？"
+        }
+      ]
+    },
+    {
+      "id": "part-000205-04",
+      "label": "8-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "⼄酸⼄酯、⼄酰氯、N,N-⼆甲基⼄酰胺中哪个化合物α-氢酸性最强?"
+        }
+      ]
+    },
+    {
+      "id": "part-000205-05",
+      "label": "8-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "吡啶和六氢吡啶哪个分⼦偶极矩更⼤？"
+        }
+      ]
+    },
+    {
+      "id": "part-000205-06",
+      "label": "8-6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "2-氟-5-三氟甲基吡啶与⼄醇钠/⼄醇的反应速率要⽐ 2.5-⼆氟吡啶快得多。为什么？"
+        }
+      ]
+    },
+    {
+      "id": "part-000205-07",
+      "label": "8-7",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "下表中列出酰胺化反应中常⽤的⼀些活化试剂。画出RCOOH被以下等量试剂活化后的中间体结构式（接下来与胺反应形成酰胺）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000205-08",
+      "label": "8-7",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 PPh3, CBrCl3 8-7-2 $\\mathrm { C y N = C = N C y }$ 8-7-3 AcO"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    }
+  ]
+}

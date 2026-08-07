@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000049",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "氮化硅碲氢化钠与甲烷制备",
+  "number": "1",
+  "examYear": 2018,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000052",
+    "sourceLabel": "2018-32-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2018-32-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000049-01",
+      "label": "1-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "氮化硅可⽤作LED的基质材料，它可通过等离⼦法⽤ $\\mathrm { S i H _ { 4 } }$ 与氨⽓反应制得。"
+        }
+      ]
+    },
+    {
+      "id": "part-000049-02",
+      "label": "1-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "将擦亮的铜⽚投⼊装有⾜量的浓硫酸的⼤试管中，微热⽚刻，有固体析出但⽆⽓体产⽣，固体为 $\\mathrm { { C u _ { 2 } S } }$ 和另⼀种⽩⾊物质的混合物。"
+        }
+      ]
+    },
+    {
+      "id": "part-000049-03",
+      "label": "1-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在 $5 0 ~ ^ { \\circ } \\mathrm { C }$ ⽔溶液中，单质碲与过量NaBH_{4}反应制备碲氢化钠，反应过程中析出硼砂$\\mathrm { \\small { [ N a _ { 2 } B _ { 4 } O _ { 5 } ( O H ) _ { 4 } { \\cdot } 8 H _ { 2 } O ] } }$"
+        }
+      ]
+    },
+    {
+      "id": "part-000049-04",
+      "label": "1-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "天然⽓的⽆机成因⼗分诱⼈。据称，地幔主成分之⼀的橄榄⽯与⽔和⼆氧化碳反应，可⽣成甲烷。橄榄⽯以 $\\mathrm { M g } _ { 2 } \\mathrm { S i O } _ { 4 }$ 和 $\\mathrm { F e _ { 2 } S i O _ { 4 } }$ 表⽰，反应后变成蛇纹⽯ $\\mathrm { \\small { [ M g _ { 3 } S i _ { 2 } O _ { 5 } ( O H ) } }$ _{4}]和磁铁矿。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000385",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "化学热力学计算",
+  "number": "3",
+  "examYear": 2011,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000006",
+    "sourceLabel": "2011-25-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2011-25-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "（图：）\n图3 容积可变的反应器⽰意图"
+    },
+    {
+      "type": "paragraph",
+      "text": "在恒温、有催化剂条件下，反应器内进⾏如下反应"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\n\\mathrm{N} _ {2} (\\mathrm{g}) + 3 \\mathrm{H} _ {2} (\\mathrm{g}) \\rightleftharpoons 2 \\mathrm{NH} _ {3} (\\mathrm{g})\n$$"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000385-01",
+      "label": "3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "若平衡时，反应器的容积为1.0L，各物质的浓度如下："
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
+        },
+        {
+          "type": "paragraph",
+          "text": "现向平衡体系中注⼊4.0mol $\\mathrm { N } _ { 2 \\mathrm { c } }$ 。试计算反应的平衡常数 $K _ { c }$ 和反应商 $Q _ { c }$ ，并由此判断反应将向什么⽅向进⾏。"
+        }
+      ]
+    },
+    {
+      "id": "part-000385-02",
+      "label": "3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "若平衡时，反应器的容积为 $V ,$ ，各物质的浓度分别为� $\\cdot ( \\mathrm { N } _ { 2 } )$ ， $c \\left( \\mathrm { { H } _ { 2 } } \\right)$ 和 $c ( \\mathrm { N H } _ { 3 } )$ ，现向平衡体系中注⼊体积为��的 $\\mathrm { N } _ { 2 }$ （同温同压）。设此条件下1 mol⽓体的体积为 $V _ { 0 }$ ，试推导出 $Q _ { c }$ 的表达式，并判断反应⽅向。"
+        }
+      ]
+    }
+  ]
+}

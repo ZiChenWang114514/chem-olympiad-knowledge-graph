@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000380",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "有机反应机理",
+  "number": "8",
+  "examYear": 2011,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000042",
+    "sourceLabel": "2011-25-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2011-25-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "由�-紫罗兰酮⽣成B的过程如下所⽰："
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000380-01",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "维⽣素A分⼦的不饱和度为"
+        }
+      ]
+    },
+    {
+      "id": "part-000380-02",
+      "label": "8-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "芳⾹化合物C是�-紫罗兰酮的同分异构体，C经催化氢解⽣成芳⾹化合物D，D的1H-NMR图谱中只有⼀个单峰。画出C的结构简式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000380-03",
+      "label": "8-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出中间体B的结构简式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000380-04",
+      "label": "8-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "以上由�-紫罗兰酮合成中间体B的过程中，⑵、⑶、⑷、⑹步反应分别属于什么反应类型（反应类型表述须具体，例如取代反应必须指明是亲电取代、亲核取代还是⾃由基取代）。"
+        }
+      ]
+    }
+  ]
+}

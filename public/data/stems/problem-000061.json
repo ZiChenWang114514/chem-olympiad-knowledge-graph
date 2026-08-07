@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000061",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "硼氮笼形化合物转化",
+  "number": "3",
+  "examYear": 2018,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000013",
+    "sourceLabel": "2018-32-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "未能从 MD 可靠切分正文（决赛/2018-32-CChO-juesai/full.md）；仅写入元数据标题占位，待人工补全。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "warn",
+      "text": "本题干正文自动切分失败，仅显示题目标题占位。"
+    },
+    {
+      "type": "paragraph",
+      "text": "3 · 硼氮笼形化合物转化"
+    }
+  ]
+}

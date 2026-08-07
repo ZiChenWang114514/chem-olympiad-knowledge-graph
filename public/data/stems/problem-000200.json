@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000200",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "海水锂选择性提取",
+  "number": "3",
+  "examYear": 2023,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000060",
+    "sourceLabel": "2023-37-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2023-37-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "随着锂电池的⼴泛应⽤，锂已成为重要的战略资源，被称为⽩⾊⽯油。据估计，海⽔中锂的总含量为陆地锂总含量的5000倍以上，但海⽔中锂的质量浓度仅为0.1\\~0.2 ppm，从海⽔提取锂⾸先需要对低浓度的Li+进⾏选择性富集，Li+能够嵌⼊某些氧化物并在⼀定条件下脱出，据此可以进⾏Li+的富集。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000200-01",
+      "label": "3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "以 $\\mathrm { L i _ { 2 } C O _ { 3 } }$ 和 $\\mathrm { M n O _ { 2 } }$ 为原料，充分混合后在 $7 2 0 ~ ^ { \\circ } \\mathrm { C }$ 下煅烧3 h，冷⾄室温后即可得到复合氧化物$\\mathrm { L i M n _ { 2 } O _ { 4 } }$ (LMO)。⽤ 1 mol L−1的 HCl 在 $6 0 ~ ^ { \\circ } \\mathrm { C }$ 处理LMO，将其中所有Li+置换后得到HMO，HMO可以和Li+反应再⽣成LMO，然后LMO与酸作⽤脱出Li+从⽽实现Li+富集。如此，可以循环处理。"
+        }
+      ]
+    },
+    {
+      "id": "part-000200-02",
+      "label": "3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 写出合成 $\\mathrm { L i M n _ { 2 } O _ { 4 } }$ 的⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000200-03",
+      "label": "3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 ⽤酸处理LMO时，除离⼦交换反应之外也会发⽣⼀个副反应，该副反应导致固体中Mn的平均氧化态有所升⾼，写出副反应对应的化学⽅程式。这⼀副反应对再⽣后的HMO的富集性能有何影响？"
+        }
+      ]
+    },
+    {
+      "id": "part-000200-04",
+      "label": "3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "利⽤电化学富集也是有效的⽅法之⼀。某电化学系统如图所⽰，其包含两个电池单元，中间区域置有具有⼀维孔道结构的λ- $\\cdot \\mathrm { M n O _ { 2 } }$ ，该孔道可以容纳合适的阳离⼦进出 $\\mathrm { M n O } _ { 2 \\circ }$ 电极通过阳离⼦交换膜与两个电化学池中的对电极隔开，腔室1和2中的电解质分别为0.5M的$\\mathrm { N a } _ { 2 } \\mathrm { S O } _ { 4 }$ 和 0.1 M 的 $\\mathrm { L i O H _ { \\circ } }$ 。该电化学系统的⼯作步骤如下：1）向 $\\mathrm { M n O _ { 2 } }$ 所在腔室通⼊海⽔，启动电源1，使海⽔中的Li+进⼊ $\\mathrm { M n O _ { 2 } }$ 结构⽽形成 $\\mathrm { L i } _ { x } \\mathrm { M n } _ { 2 } \\mathrm { O } _ { 4 } ;$ 2）关闭电源1和海⽔通道，启动电源2，同时向电极2上通⼊空⽓，使 $\\mathrm { L i } _ { x } \\mathrm { M n } _ { 2 } \\mathrm { O } _ { 4 }$ 中的Li+脱出进⼊腔室2。"
+        }
+      ]
+    },
+    {
+      "id": "part-000200-05",
+      "label": "3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 为衡量 $\\mathrm { M n O _ { 2 } }$ 对 Li+的富集效果，将 0.50M 的 LiCl溶液通⼊MnO_{2} (4.8 mg)所在腔室，启动电源1，使电流"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "恒定在5.0mA，累计⼯作325s后发现 $\\mathrm { M n O _ { 2 } }$ 的电极电势快速下降，计算所得 $\\mathrm { L i } _ { x } \\mathrm { M n } _ { 2 } \\mathrm { O } _ { 4 }$ 中的�。3-2-2 写出上述过程中发⽣腔室2中阴极和阳极上的电极反应。"
+        }
+      ]
+    }
+  ]
+}

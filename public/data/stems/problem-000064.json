@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000064",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "炔烃氢卤化区域选择",
+  "number": "6",
+  "examYear": 2018,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000013",
+    "sourceLabel": "2018-32-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2018-32-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "根据如下实验结果："
+    },
+    {
+      "type": "paragraph",
+      "text": "在三氧化⼆铝存在下，1-苯基丙炔与氯化氢反应，主要产物为氯代烯烃A和 $\\mathbf { B } _ { \\mathrm { c } }$"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\n\\left\\langle \\right\\rangle - \\mathrm{C} \\equiv \\mathrm{C} - \\mathrm{CH} _ {3} \\xrightarrow [ \\mathrm{Al} _ {2} \\mathrm{O} _ {3} ]{\\mathrm{HCl}} \\mathbf {A} + \\mathbf {B}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "1-苯基丙炔及产物的含量随时间延⻓⽽变化，达到平衡时A与B的含量之⽐为1:35，如下图所⽰："
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000064-01",
+      "label": "6-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出主要产物A和B的结构简式，指出其⼏何构型（�或�）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000064-02",
+      "label": "6-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出⽣成产物A的中间体，画出其中1，2号碳原⼦形成π键的原⼦轨道重叠⽰意图，解释反应初期主要⽣成A的主要原因。"
+        }
+      ]
+    },
+    {
+      "id": "part-000064-03",
+      "label": "6-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出反应机理，解释随时间延⻓，A的含量减少⽽B的含量增加。"
+        }
+      ]
+    }
+  ]
+}

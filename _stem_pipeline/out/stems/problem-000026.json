@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000026",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "杂化钙钛矿晶体结构",
+  "number": "5",
+  "examYear": 2016,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000011",
+    "sourceLabel": "2016-30-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2016-30-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "近年来，光电材料领域有⼀类有机/⽆机杂化材料获得突破，某该类材料由三种离⼦组成，其晶体的晶胞有4条沿体对⻆线的 $\\lvert C _ { 3 }$ 轴，A为显正⼀价的阳离⼦或基团，其分数坐标为：(0, 0, 0)；B为⾦属 $\\mathrm { P b ^ { 2 + } }$ ， $\\mathrm { S n ^ { 2 + } }$ 等阳离⼦，其分数坐标为：(1/2, 1/2, 1/2)；X 为 Cl−、Br−、I−等⻧素离⼦，分数坐标为：(0, 1/2, 1/2)；(1/2, 0, 1/2)；$( 1 / 2 , 1 / 2 , 0 )$ Q"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000026-01",
+      "label": "5-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "分别以●、⦁和○代表A、B和X离⼦，画出该晶体的正当晶胞。"
+        }
+      ]
+    },
+    {
+      "id": "part-000026-02",
+      "label": "5-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出 A 为 $\\mathrm { C H _ { 3 } N H _ { 3 } } ^ { + }$ 、B为Pb2+、X为I−形成晶体的化学式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000026-03",
+      "label": "5-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "指出A、B、X的配位数，并推断该晶体是否存在分离的配位离⼦。"
+        }
+      ]
+    },
+    {
+      "id": "part-000026-04",
+      "label": "5-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "某该类晶体材料的带隙 $E _ { \\mathrm { g } }$ 为1.55 eV，计算其吸收光的波⻓。"
+        }
+      ]
+    },
+    {
+      "id": "part-000026-05",
+      "label": "5-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "通过改变晶体中的阳离⼦和/或阴离⼦，可能对其光电性能进⾏调节，但是为了使该晶体结构保持稳定，离⼦尺⼨受到限制，即要求填隙离⼦半径与空隙半径⽐ � 在⼀定范围。现有⼀同类晶体，B 位 Pb2+ 半径为 133 pm，X 位 I− 半径为 203 pm，如 � 为 0.9‒1.05，试估算 A 位阳离⼦的半径范围。"
+        }
+      ]
+    },
+    {
+      "id": "part-000026-06",
+      "label": "5-6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "此类有机/⽆机杂化薄膜太阳能电池材料的优异特性源于其⽆机组分和有机组分特性的优异组合，请分别指出各⾃特性所起的作⽤。"
+        }
+      ]
+    }
+  ]
+}

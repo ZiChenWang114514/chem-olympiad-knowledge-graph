@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000434",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "铜硫化物氧化滴定",
+  "number": "7",
+  "examYear": 2014,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000048",
+    "sourceLabel": "2014-28-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2014-28-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "第 7 题（12 分）在 0.7520 g Cu_{2}S、 $\\mathrm { C u S }$ 与惰性杂质的混合样品中加⼊ 100.0 mL 0.1209 mol L−1酸性 $\\mathrm { K M n O _ { 4 } }$ 溶液，加热，硫全部转化为 $\\mathrm { S O _ { 4 } ^ { 2 - } }$ −，滤去不溶杂质。收集滤液⾄250 mL容量瓶中，定容。取25.00 mL溶液，⽤ 0.1000 mol L−1 F $\\mathrm { \\cdot _ { e S O _ { 4 } } }$ 溶液滴定，消耗 $1 5 . 1 0 \\mathrm { m L } _ { \\mathrm { o } }$ 在滴定所得溶液中滴加氨⽔⾄出现沉淀，再加⼊适量$\\mathrm { N H _ { 4 } H F _ { 2 } }$ 溶液(掩蔽 $\\mathrm { F e ^ { 3 + } }$ 和 $\\mathrm { M n ^ { 2 + } }$ )，⾄沉淀溶解后，加⼊约 1 g KI 固体，轻摇使之溶解并反应。⽤ 0.05000 mol$\\mathrm { L ^ { - 1 } N a _ { 2 } S _ { 2 } O _ { 3 } }$ 溶液滴定，消耗 $1 4 . 5 6 \\mathrm { m L } _ { \\circ }$ 写出硫化物溶于酸性⾼锰酸钾溶液的⽅程式，计算混合样品中 $\\mathrm { { C u _ { 2 } S } }$ 和$\\mathrm { C u S }$ 的含量。"
+    }
+  ]
+}

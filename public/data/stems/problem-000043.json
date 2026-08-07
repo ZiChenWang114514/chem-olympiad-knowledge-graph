@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000043",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "混合盐定性分析",
+  "number": "3",
+  "examYear": 2017,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000012",
+    "sourceLabel": "2017-31-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2017-31-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "$$\n\\left(\\mathrm{NH} _ {4}\\right) _ {2} \\mathrm{SO} _ {3} 、 \\mathrm{NaCl} 、 \\mathrm{CaSO} _ {4} 、 \\mathrm{K} _ {2} \\mathrm{CrO} _ {4} 、 \\mathrm{Mg} \\left(\\mathrm{NO} _ {3}\\right) _ {2} 、 \\mathrm{NH} _ {4} \\mathrm{Cl}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "将该混合物置于⽔中，充分反应后离⼼分离得到⽩⾊沉淀和0.1 L⽆⾊溶液。向该溶液中通⼊0.01 mol氨⽓，⽆沉淀⽣成；若将氨⽓换成0.01 mol NaF，则有⽩⾊沉淀⽣成。"
+    },
+    {
+      "type": "paragraph",
+      "text": "试指出该混合物中肯定存在的物质、肯定不存在的物质、不能判断是否存在的物质各有哪些。并对肯定存在的物质简要说明理由。"
+    },
+    {
+      "type": "paragraph",
+      "text": "已知："
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\n\\begin{array}{l l l} K _ {a 1} ^ {\\ominus} (\\mathrm{H} _ {2} \\mathrm{SO} _ {3}) = 1. 3 \\times 1 0 ^ {- 2} & K _ {a 2} ^ {\\ominus} (\\mathrm{H} _ {2} \\mathrm{SO} _ {3}) = 6. 2 \\times 1 0 ^ {- 8} & K _ {b} ^ {\\ominus} (\\mathrm{NH} _ {3} \\cdot \\mathrm{H} _ {2} \\mathrm{O}) = 1. 8 \\times 1 0 ^ {- 5} \\\\ K _ {s p} ^ {\\ominus} (\\mathrm{CaSO} _ {3}) = 6. 8 \\times 1 0 ^ {- 8} & K _ {s p} ^ {\\ominus} (\\mathrm{MgSO} _ {3}) = 3. 2 \\times 1 0 ^ {- 3} & K _ {s p} ^ {\\ominus} (\\mathrm{CaCrO} _ {4}) = 7. 1 \\times 1 0 ^ {- 4} \\\\ K _ {s p} ^ {\\ominus} (\\mathrm{CaF} _ {2}) = 5. 3 \\times 1 0 ^ {- 9} & K _ {s p} ^ {\\ominus} (\\mathrm{MgF} _ {2}) = 5. 2 \\times 1 0 ^ {- 1 1} \\\\ K _ {s p} ^ {\\ominus} [ \\mathrm{Mg(OH)} _ {2} ] = 5. 6 \\times 1 0 ^ {- 1 2} & K _ {s p} ^ {\\ominus} [ \\mathrm{Ca(OH)} _ {2} ] = 5. 5 \\times 1 0 ^ {- 6} \\end{array}\n$$"
+    }
+  ]
+}

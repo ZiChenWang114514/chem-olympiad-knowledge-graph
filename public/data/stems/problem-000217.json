@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000217",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "乙酸正丁酯实验合成",
+  "number": "10",
+  "examYear": 2023,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000025",
+    "sourceLabel": "2023-37-CChO-juesai-1.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2023-37-CChO-juesai-1/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "⼄酸正丁酯是优良的有机溶剂，在⽯油加⼯、制药⼯程等领域均有⼴泛应⽤。在实验室中，⼄酸正丁酯可"
+    },
+    {
+      "type": "paragraph",
+      "text": "通过正丁醇和冰醋酸在强酸催化及加热条件下合成，实验装置如右图所⽰。反应中⽣成的⽔可以与正丁醇或⼄酸正丁酯形成共沸混合物被蒸出。使⽤分⽔器可在反应进⾏的同时分离出⽣成的⽔，并使有机相流回反应瓶中。实验步骤如下：（1）如右图所⽰装配仪器。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000217-01",
+      "label": "(2)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "关闭分⽔器旋塞并在分⽔器带旋塞⼀侧预先加⼊适量的 ① ，再向反应瓶中加⼊5.0 mL (55 mmol)正丁醇、 ② 和 ③ ，加⼊1 粒沸⽯。"
+        }
+      ]
+    },
+    {
+      "id": "part-000217-02",
+      "label": "(3)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "将反应液温度控制在 ④ 并保持15分钟，然后升温⾄回流状态进⾏分⽔。当反应不再有⽔⽣成时，停⽌加热。合并烧瓶和分⽔器中的液体，⽤分液漏⽃将⽔层分出。依次⽤5 mL 10%碳酸钠⽔溶液及5 mL⽔洗涤有机层。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000217-03",
+      "label": "(4)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "有机层⽤⽆⽔硫酸镁⼲燥。常压蒸馏，收集 $1 2 4 { \\sim } 1 2 6 ^ { \\circ } \\mathrm { C }$ 的馏分。"
+        },
+        {
+          "type": "paragraph",
+          "text": "各化合物及相关共沸物常压下的沸点（单位：°C）"
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
+        }
+      ]
+    },
+    {
+      "id": "part-000217-04",
+      "label": "10-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "根据上述实验流程描述，写出图中所⽰实验装置中的三处错误。"
+        }
+      ]
+    },
+    {
+      "id": "part-000217-05",
+      "label": "10-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在上述编号处分别填⼊最合适的选项：①处：A. 正丁醇 B. 冰醋酸 C. ⽔"
+        },
+        {
+          "type": "paragraph",
+          "text": "②处：A. 25 mmol 冰醋酸 B. 50 mmol 冰醋酸 C. 60 mmol 冰醋酸③处：A. 0.05 mL 浓硫酸 B. 1 mL 浓硫酸 C. 0.05 mL 稀硫酸 D. 1 mL 稀硫酸④处：A. $0 ~ ^ { \\circ } \\mathrm { C }$ B. $2 5 ^ { \\circ } \\mathrm { C }$ C. $8 0 ~ ^ { \\circ } \\mathrm { C }$"
+        }
+      ]
+    },
+    {
+      "id": "part-000217-06",
+      "label": "10-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "解释步骤（3）中为何要⽤分⽔器将⽔分出。"
+        }
+      ]
+    }
+  ]
+}

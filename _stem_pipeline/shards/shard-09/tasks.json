@@ -1,0 +1,733 @@
+{
+  "shardId": 9,
+  "problemCount": 61,
+  "papers": 5,
+  "tasks": [
+    {
+      "md": "D:\\打工2\\初赛&决赛\\MinerU_MD\\决赛\\2020-34-CChO-juesai-1\\full.md",
+      "rel": "决赛/2020-34-CChO-juesai-1/full.md",
+      "folder": "2020-34-CChO-juesai-1",
+      "skip": false,
+      "year": 2020,
+      "stage": "final",
+      "problemCount": 17,
+      "problems": [
+        {
+          "id": "problem-000095",
+          "number": "1",
+          "title": "配位化学与氧化态",
+          "examId": "exam-000017",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-1.pdf",
+          "sourceDocumentId": "source-000015",
+          "page": 0
+        },
+        {
+          "id": "problem-000104",
+          "number": "1",
+          "title": "聚合物合成与热力学",
+          "examId": "exam-000018",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-2.pdf",
+          "sourceDocumentId": "source-000016",
+          "page": 0
+        },
+        {
+          "id": "problem-000096",
+          "number": "2",
+          "title": "分光光度分析",
+          "examId": "exam-000017",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-1.pdf",
+          "sourceDocumentId": "source-000015",
+          "page": 0
+        },
+        {
+          "id": "problem-000105",
+          "number": "2",
+          "title": "配位化学与氧化态",
+          "examId": "exam-000018",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-2.pdf",
+          "sourceDocumentId": "source-000016",
+          "page": 0
+        },
+        {
+          "id": "problem-000097",
+          "number": "3",
+          "title": "双氧物种电子与晶体",
+          "examId": "exam-000017",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-1.pdf",
+          "sourceDocumentId": "source-000015",
+          "page": 0
+        },
+        {
+          "id": "problem-000106",
+          "number": "3",
+          "title": "聚合物合成与热力学",
+          "examId": "exam-000018",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-2.pdf",
+          "sourceDocumentId": "source-000016",
+          "page": 0
+        },
+        {
+          "id": "problem-000098",
+          "number": "4",
+          "title": "化学反应与结构综合分析",
+          "examId": "exam-000017",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-1.pdf",
+          "sourceDocumentId": "source-000015",
+          "page": 0
+        },
+        {
+          "id": "problem-000107",
+          "number": "4",
+          "title": "化学反应与结构综合分析",
+          "examId": "exam-000018",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-2.pdf",
+          "sourceDocumentId": "source-000016",
+          "page": 0
+        },
+        {
+          "id": "problem-000099",
+          "number": "5",
+          "title": "化学热力学计算",
+          "examId": "exam-000017",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-1.pdf",
+          "sourceDocumentId": "source-000015",
+          "page": 0
+        },
+        {
+          "id": "problem-000108",
+          "number": "5",
+          "title": "化学反应与结构综合分析",
+          "examId": "exam-000018",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-2.pdf",
+          "sourceDocumentId": "source-000016",
+          "page": 0
+        },
+        {
+          "id": "problem-000100",
+          "number": "6",
+          "title": "氮分子活化与配位",
+          "examId": "exam-000017",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-1.pdf",
+          "sourceDocumentId": "source-000015",
+          "page": 0
+        },
+        {
+          "id": "problem-000109",
+          "number": "6",
+          "title": "化学反应与结构综合分析",
+          "examId": "exam-000018",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-2.pdf",
+          "sourceDocumentId": "source-000016",
+          "page": 0
+        },
+        {
+          "id": "problem-000101",
+          "number": "7",
+          "title": "有机合成与机理",
+          "examId": "exam-000017",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-1.pdf",
+          "sourceDocumentId": "source-000015",
+          "page": 0
+        },
+        {
+          "id": "problem-000110",
+          "number": "7",
+          "title": "有机酸性与反应性",
+          "examId": "exam-000018",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-2.pdf",
+          "sourceDocumentId": "source-000016",
+          "page": 0
+        },
+        {
+          "id": "problem-000102",
+          "number": "8",
+          "title": "有机反应机理",
+          "examId": "exam-000017",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-1.pdf",
+          "sourceDocumentId": "source-000015",
+          "page": 0
+        },
+        {
+          "id": "problem-000111",
+          "number": "8",
+          "title": "有机酸性与反应性",
+          "examId": "exam-000018",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-2.pdf",
+          "sourceDocumentId": "source-000016",
+          "page": 0
+        },
+        {
+          "id": "problem-000103",
+          "number": "9",
+          "title": "化学反应与结构综合分析",
+          "examId": "exam-000017",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-1.pdf",
+          "sourceDocumentId": "source-000015",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "md": "D:\\打工2\\初赛&决赛\\MinerU_MD\\决赛\\2020-34-CChO-juesai-2\\full.md",
+      "rel": "决赛/2020-34-CChO-juesai-2/full.md",
+      "folder": "2020-34-CChO-juesai-2",
+      "skip": false,
+      "year": 2020,
+      "stage": "final",
+      "problemCount": 17,
+      "problems": [
+        {
+          "id": "problem-000095",
+          "number": "1",
+          "title": "配位化学与氧化态",
+          "examId": "exam-000017",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-1.pdf",
+          "sourceDocumentId": "source-000015",
+          "page": 0
+        },
+        {
+          "id": "problem-000104",
+          "number": "1",
+          "title": "聚合物合成与热力学",
+          "examId": "exam-000018",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-2.pdf",
+          "sourceDocumentId": "source-000016",
+          "page": 0
+        },
+        {
+          "id": "problem-000096",
+          "number": "2",
+          "title": "分光光度分析",
+          "examId": "exam-000017",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-1.pdf",
+          "sourceDocumentId": "source-000015",
+          "page": 0
+        },
+        {
+          "id": "problem-000105",
+          "number": "2",
+          "title": "配位化学与氧化态",
+          "examId": "exam-000018",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-2.pdf",
+          "sourceDocumentId": "source-000016",
+          "page": 0
+        },
+        {
+          "id": "problem-000097",
+          "number": "3",
+          "title": "双氧物种电子与晶体",
+          "examId": "exam-000017",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-1.pdf",
+          "sourceDocumentId": "source-000015",
+          "page": 0
+        },
+        {
+          "id": "problem-000106",
+          "number": "3",
+          "title": "聚合物合成与热力学",
+          "examId": "exam-000018",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-2.pdf",
+          "sourceDocumentId": "source-000016",
+          "page": 0
+        },
+        {
+          "id": "problem-000098",
+          "number": "4",
+          "title": "化学反应与结构综合分析",
+          "examId": "exam-000017",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-1.pdf",
+          "sourceDocumentId": "source-000015",
+          "page": 0
+        },
+        {
+          "id": "problem-000107",
+          "number": "4",
+          "title": "化学反应与结构综合分析",
+          "examId": "exam-000018",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-2.pdf",
+          "sourceDocumentId": "source-000016",
+          "page": 0
+        },
+        {
+          "id": "problem-000099",
+          "number": "5",
+          "title": "化学热力学计算",
+          "examId": "exam-000017",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-1.pdf",
+          "sourceDocumentId": "source-000015",
+          "page": 0
+        },
+        {
+          "id": "problem-000108",
+          "number": "5",
+          "title": "化学反应与结构综合分析",
+          "examId": "exam-000018",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-2.pdf",
+          "sourceDocumentId": "source-000016",
+          "page": 0
+        },
+        {
+          "id": "problem-000100",
+          "number": "6",
+          "title": "氮分子活化与配位",
+          "examId": "exam-000017",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-1.pdf",
+          "sourceDocumentId": "source-000015",
+          "page": 0
+        },
+        {
+          "id": "problem-000109",
+          "number": "6",
+          "title": "化学反应与结构综合分析",
+          "examId": "exam-000018",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-2.pdf",
+          "sourceDocumentId": "source-000016",
+          "page": 0
+        },
+        {
+          "id": "problem-000101",
+          "number": "7",
+          "title": "有机合成与机理",
+          "examId": "exam-000017",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-1.pdf",
+          "sourceDocumentId": "source-000015",
+          "page": 0
+        },
+        {
+          "id": "problem-000110",
+          "number": "7",
+          "title": "有机酸性与反应性",
+          "examId": "exam-000018",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-2.pdf",
+          "sourceDocumentId": "source-000016",
+          "page": 0
+        },
+        {
+          "id": "problem-000102",
+          "number": "8",
+          "title": "有机反应机理",
+          "examId": "exam-000017",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-1.pdf",
+          "sourceDocumentId": "source-000015",
+          "page": 0
+        },
+        {
+          "id": "problem-000111",
+          "number": "8",
+          "title": "有机酸性与反应性",
+          "examId": "exam-000018",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-2.pdf",
+          "sourceDocumentId": "source-000016",
+          "page": 0
+        },
+        {
+          "id": "problem-000103",
+          "number": "9",
+          "title": "化学反应与结构综合分析",
+          "examId": "exam-000017",
+          "year": 2020,
+          "stage": "final",
+          "sourceLabel": "2020-34-CChO-juesai-1.pdf",
+          "sourceDocumentId": "source-000015",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "md": "D:\\打工2\\初赛&决赛\\MinerU_MD\\初赛\\2009-23-CChO-chusai\\full.md",
+      "rel": "初赛/2009-23-CChO-chusai/full.md",
+      "folder": "2009-23-CChO-chusai",
+      "skip": false,
+      "year": 2009,
+      "stage": "preliminary",
+      "problemCount": 10,
+      "problems": [
+        {
+          "id": "problem-000337",
+          "number": "1",
+          "title": "路易斯酸碱强弱",
+          "examId": "exam-000036",
+          "year": 2009,
+          "stage": "preliminary",
+          "sourceLabel": "2009-23-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000040",
+          "page": 0
+        },
+        {
+          "id": "problem-000338",
+          "number": "2",
+          "title": "浓盐酸实验用途",
+          "examId": "exam-000036",
+          "year": 2009,
+          "stage": "preliminary",
+          "sourceLabel": "2009-23-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000040",
+          "page": 0
+        },
+        {
+          "id": "problem-000339",
+          "number": "3",
+          "title": "氯气检漏与铬还原",
+          "examId": "exam-000036",
+          "year": 2009,
+          "stage": "preliminary",
+          "sourceLabel": "2009-23-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000040",
+          "page": 0
+        },
+        {
+          "id": "problem-000340",
+          "number": "4",
+          "title": "汽油溴指数库仑分析",
+          "examId": "exam-000036",
+          "year": 2009,
+          "stage": "preliminary",
+          "sourceLabel": "2009-23-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000040",
+          "page": 0
+        },
+        {
+          "id": "problem-000341",
+          "number": "5",
+          "title": "皂化当量滴定",
+          "examId": "exam-000036",
+          "year": 2009,
+          "stage": "preliminary",
+          "sourceLabel": "2009-23-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000040",
+          "page": 0
+        },
+        {
+          "id": "problem-000342",
+          "number": "6",
+          "title": "方解石与氟磷灰石晶胞",
+          "examId": "exam-000036",
+          "year": 2009,
+          "stage": "preliminary",
+          "sourceLabel": "2009-23-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000040",
+          "page": 0
+        },
+        {
+          "id": "problem-000343",
+          "number": "7",
+          "title": "碗形芳香二价阴离子",
+          "examId": "exam-000036",
+          "year": 2009,
+          "stage": "preliminary",
+          "sourceLabel": "2009-23-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000040",
+          "page": 0
+        },
+        {
+          "id": "problem-000344",
+          "number": "8",
+          "title": "含氧芳香酸结构",
+          "examId": "exam-000036",
+          "year": 2009,
+          "stage": "preliminary",
+          "sourceLabel": "2009-23-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000040",
+          "page": 0
+        },
+        {
+          "id": "problem-000345",
+          "number": "9",
+          "title": "有机骨架与杂化分析",
+          "examId": "exam-000036",
+          "year": 2009,
+          "stage": "preliminary",
+          "sourceLabel": "2009-23-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000040",
+          "page": 0
+        },
+        {
+          "id": "problem-000346",
+          "number": "10",
+          "title": "氯菊酯合成路线",
+          "examId": "exam-000036",
+          "year": 2009,
+          "stage": "preliminary",
+          "sourceLabel": "2009-23-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000040",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "md": "D:\\打工2\\初赛&决赛\\MinerU_MD\\决赛\\2016-30-CChO-juesai\\full.md",
+      "rel": "决赛/2016-30-CChO-juesai/full.md",
+      "folder": "2016-30-CChO-juesai",
+      "skip": false,
+      "year": 2016,
+      "stage": "final",
+      "problemCount": 9,
+      "problems": [
+        {
+          "id": "problem-000022",
+          "number": "1",
+          "title": "氢氰酸酸性与汞配合物",
+          "examId": "exam-000009",
+          "year": 2016,
+          "stage": "final",
+          "sourceLabel": "2016-30-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000011",
+          "page": 0
+        },
+        {
+          "id": "problem-000023",
+          "number": "2",
+          "title": "不稳定含氮化合物反应",
+          "examId": "exam-000009",
+          "year": 2016,
+          "stage": "final",
+          "sourceLabel": "2016-30-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000011",
+          "page": 0
+        },
+        {
+          "id": "problem-000024",
+          "number": "3",
+          "title": "金属氧化物分离与分析",
+          "examId": "exam-000009",
+          "year": 2016,
+          "stage": "final",
+          "sourceLabel": "2016-30-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000011",
+          "page": 0
+        },
+        {
+          "id": "problem-000025",
+          "number": "4",
+          "title": "镍钢样吸光光度测定",
+          "examId": "exam-000009",
+          "year": 2016,
+          "stage": "final",
+          "sourceLabel": "2016-30-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000011",
+          "page": 0
+        },
+        {
+          "id": "problem-000026",
+          "number": "5",
+          "title": "杂化钙钛矿晶体结构",
+          "examId": "exam-000009",
+          "year": 2016,
+          "stage": "final",
+          "sourceLabel": "2016-30-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000011",
+          "page": 0
+        },
+        {
+          "id": "problem-000027",
+          "number": "6",
+          "title": "甲醇热力学与制氢",
+          "examId": "exam-000009",
+          "year": 2016,
+          "stage": "final",
+          "sourceLabel": "2016-30-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000011",
+          "page": 0
+        },
+        {
+          "id": "problem-000028",
+          "number": "7",
+          "title": "醇转氯代烃立体机理",
+          "examId": "exam-000009",
+          "year": 2016,
+          "stage": "final",
+          "sourceLabel": "2016-30-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000011",
+          "page": 0
+        },
+        {
+          "id": "problem-000029",
+          "number": "8",
+          "title": "串联反应合成天然产物",
+          "examId": "exam-000009",
+          "year": 2016,
+          "stage": "final",
+          "sourceLabel": "2016-30-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000011",
+          "page": 0
+        },
+        {
+          "id": "problem-000030",
+          "number": "9",
+          "title": "二吡喃酮热裂解合成",
+          "examId": "exam-000009",
+          "year": 2016,
+          "stage": "final",
+          "sourceLabel": "2016-30-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000011",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "md": "D:\\打工2\\初赛&决赛\\MinerU_MD\\决赛\\2019-33-CChO-juesai\\full.md",
+      "rel": "决赛/2019-33-CChO-juesai/full.md",
+      "folder": "2019-33-CChO-juesai",
+      "skip": false,
+      "year": 2019,
+      "stage": "final",
+      "problemCount": 8,
+      "problems": [
+        {
+          "id": "problem-000077",
+          "number": "1",
+          "title": "主族元素与分子对称性",
+          "examId": "exam-000015",
+          "year": 2019,
+          "stage": "final",
+          "sourceLabel": "2019-33-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000014",
+          "page": 0
+        },
+        {
+          "id": "problem-000078",
+          "number": "2",
+          "title": "分光光度分析",
+          "examId": "exam-000015",
+          "year": 2019,
+          "stage": "final",
+          "sourceLabel": "2019-33-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000014",
+          "page": 0
+        },
+        {
+          "id": "problem-000079",
+          "number": "3",
+          "title": "化学反应与结构综合分析",
+          "examId": "exam-000015",
+          "year": 2019,
+          "stage": "final",
+          "sourceLabel": "2019-33-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000014",
+          "page": 0
+        },
+        {
+          "id": "problem-000080",
+          "number": "4",
+          "title": "化学反应与结构综合分析",
+          "examId": "exam-000015",
+          "year": 2019,
+          "stage": "final",
+          "sourceLabel": "2019-33-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000014",
+          "page": 0
+        },
+        {
+          "id": "problem-000081",
+          "number": "5",
+          "title": "有机酸性与反应性",
+          "examId": "exam-000015",
+          "year": 2019,
+          "stage": "final",
+          "sourceLabel": "2019-33-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000014",
+          "page": 0
+        },
+        {
+          "id": "problem-000082",
+          "number": "6",
+          "title": "银硫簇结构与发光",
+          "examId": "exam-000015",
+          "year": 2019,
+          "stage": "final",
+          "sourceLabel": "2019-33-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000014",
+          "page": 0
+        },
+        {
+          "id": "problem-000083",
+          "number": "7",
+          "title": "变压吸附制氧能效",
+          "examId": "exam-000015",
+          "year": 2019,
+          "stage": "final",
+          "sourceLabel": "2019-33-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000014",
+          "page": 0
+        },
+        {
+          "id": "problem-000084",
+          "number": "8",
+          "title": "有机合成与机理",
+          "examId": "exam-000015",
+          "year": 2019,
+          "stage": "final",
+          "sourceLabel": "2019-33-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000014",
+          "page": 0
+        }
+      ]
+    }
+  ]
+}

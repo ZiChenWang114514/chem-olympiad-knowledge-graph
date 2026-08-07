@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000220",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "长春碱天然产物合成",
+  "number": "13",
+  "examYear": 2023,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000025",
+    "sourceLabel": "2023-37-CChO-juesai-1.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2023-37-CChO-juesai-1/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "⻓春碱是从⻓春花中提取的⼀类重要⽣物碱，具有显著的抗癌活性。天然产物 N-"
+    },
+    {
+      "type": "paragraph",
+      "text": "methylaspidospermidine (K)含有⻓春碱的关键⾻架，其合成路线如 $\\mathsf { F } _ { \\circ }$ 。（作答时所有结构不要求画出⽴体化学）"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000220-01",
+      "label": "13-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出B、C、D、E和F的结构。"
+        }
+      ]
+    },
+    {
+      "id": "part-000220-02",
+      "label": "13-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "化合物E转化为F的过程中依次经历中间体E1及E2，分别画出其结构。"
+        }
+      ]
+    },
+    {
+      "id": "part-000220-03",
+      "label": "13-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出下转化为G的过程中最后⼀个中间体F1的结构。"
+        }
+      ]
+    },
+    {
+      "id": "part-000220-04",
+      "label": "13-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出H、I和J的结构。"
+        }
+      ]
+    }
+  ]
+}

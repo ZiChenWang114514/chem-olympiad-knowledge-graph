@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000021",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "生物碱互变与机理",
+  "number": "10",
+  "examYear": 2016,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000050",
+    "sourceLabel": "2016-30-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2016-30-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000021-01",
+      "label": "10-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "以下两种⽣物碱可以在室温下相互转化，在达到平衡态时，两者的⽐例为3:2。画出它们互相转化时中间体A的⽴体结构简式。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000021-02",
+      "label": "10-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出下⾯反应过程中合理的关键反应中间体的结构简式（3个）。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    }
+  ]
+}

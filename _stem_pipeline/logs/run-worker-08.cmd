@@ -1,0 +1,5 @@
+@echo off
+setlocal
+cd /d "D:\ccho-site-public"
+"C:\Users\11234\AppData\Roaming\npm\codex.cmd" -c model="deepseek-v4-flash" -c model_provider="codex_deepseek_proxy" -c model_reasoning_effort="high" -c model_catalog_json="C:\\Users\\11234\\Documents\\Codex\\2026-08-08\\new-chat\\outputs\\codex-deepseek\\runtime\\codex-deepseek-catalog.json" -c model_providers.codex_deepseek_proxy.name="codex-deepseek" -c model_providers.codex_deepseek_proxy.base_url="http://127.0.0.1:11435" -c model_providers.codex_deepseek_proxy.wire_api="responses" -c model_providers.codex_deepseek_proxy.requires_openai_auth=false -c model_providers.codex_deepseek_proxy.stream_idle_timeout_ms=1800000 exec --skip-git-repo-check -C "D:\ccho-site-public" --add-dir "D:\ccho-exams-link" -s danger-full-access --dangerously-bypass-approvals-and-sandbox - < "D:\ccho-site-public\_stem_pipeline\logs\prompt-stdin-08.md"
+exit /b %ERRORLEVEL%

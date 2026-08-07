@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000247",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "光化学反应与重排",
+  "number": "8",
+  "examYear": 2024,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000031",
+    "sourceLabel": "2024年全国中学生化学竞赛决赛试题（第一场）.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2024年全国中学生化学竞赛决赛试题（第一场）/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "光激发能让有机分子发生特殊的化学转化。例如，羰基可被光激发形成双自由基活性中间体，进而诱发碳碳键的断裂。下图所示是最常见的两种转化模式，被称为Norrish-1 型和 Norrish-2 型反应。"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000247-01",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "碳氮双键也可被光激发，发生光诱导化学转化。画出下述反应的关键中间体。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000247-02",
+      "label": "8-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "研究发现，一些A的类似化合物在非光照的常规条件下也能发生重排反应。如下图所示，化合物C和D仅有一个甲基取代的区别，但在甲醇解反应中却分别得到两种不同的产物E和F。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "D"
+        }
+      ]
+    },
+    {
+      "id": "part-000247-03",
+      "label": "8-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 画出 C 到E经历的关键中间体。"
+        }
+      ]
+    },
+    {
+      "id": "part-000247-04",
+      "label": "8-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2画出D到F经历的关键中间体。"
+        }
+      ]
+    },
+    {
+      "id": "part-000247-05",
+      "label": "8-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "哌啶化合物G在光照下可转化为环戊胺H，画出下述反应的关键中间体。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "第38届中国化学奥林匹克（决赛）理论第一场试题 2024年10月26日广州"
+        }
+      ]
+    },
+    {
+      "id": "part-000247-06",
+      "label": "8-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "苯甲酰硅化合物J在光照下并未发生Norrish-1 型断裂，而是生成一种与J化学式相同且含有六电子碳原子的活性中间体，画出该中间体结构。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000247-07",
+      "label": "8-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "下列光反应可生成α-甲基苯乙烯、苯甲醛及化合物K，高分辨质谱显示K的化学式为 $C _ { 1 6 } \\mathrm { H } _ { 1 6 } \\mathrm { O }$ 。画出K的结构，并注明立体化学。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    }
+  ]
+}

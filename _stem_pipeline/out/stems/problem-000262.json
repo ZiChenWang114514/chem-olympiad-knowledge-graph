@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000262",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "聚乙烯亚胺制备",
+  "number": "3",
+  "examYear": 2025,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000063",
+    "sourceLabel": "2025-39-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2025-39-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "3. 有机题要求首先骨架准确，接着键的链接方式即结构准确，然后是立体化学；"
+    }
+  ]
+}

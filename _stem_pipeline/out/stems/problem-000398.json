@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000398",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "电化学与电池",
+  "number": "8",
+  "examYear": 2012,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000046",
+    "sourceLabel": "2012-26-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2012-26-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000398-01",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算在pH分别为4.0和6.0的条件下碳酸—碳酸盐体系中主要物种的浓度。"
+        },
+        {
+          "type": "paragraph",
+          "text": "已知 $\\mathrm { H _ { 2 } C O _ { 3 } }$ 的 $K _ { a _ { 1 } } = 4 . 5 \\times 1 0 ^ { - 7 }$ $K _ { a _ { 2 } } = 4 . 7 \\times 1 0 ^ { - 1 1 }$"
+        }
+      ]
+    },
+    {
+      "id": "part-000398-02",
+      "label": "8-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "图中a和b分别是pH=4.4和6.1的两条直线，分别写出与a和b相对应的轴的物种发⽣转化的⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000398-03",
+      "label": "8-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "分别写出与直线c和d相对应的电极反应，说明其斜率为正或负的原因。"
+        }
+      ]
+    },
+    {
+      "id": "part-000398-04",
+      "label": "8-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在 $\\mathrm { p H } = 4 . 0$ 的缓冲体系中加⼊ $\\mathrm { U C l _ { 3 } } ,$ 写出反应⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000398-05",
+      "label": "8-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在 $\\mathrm { p H } = 8 . 0 { \\sim } 1 2$ 之间，体系中 $\\mathrm { U O _ { 2 } ( C O _ { 3 } ) _ { 3 } } ^ { 4 - }$ −和 $\\mathrm { U } _ { 4 } \\mathrm { O } _ { 9 } ( \\mathrm { s } )$ 能否共存？说明理由； $\\mathrm { U O _ { 2 } ( C O _ { 3 } ) _ { 3 } } ^ { 4 - }$ −和 $\\mathrm { U O } _ { 2 } ( \\mathsf { s } )$ 能否共存？说明理由。"
+        }
+      ]
+    }
+  ]
+}

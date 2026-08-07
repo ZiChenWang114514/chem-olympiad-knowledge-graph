@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000118",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "配位化学与氧化态",
+  "number": "7",
+  "examYear": 2021,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000057",
+    "sourceLabel": "2021-35-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2021-35-CChO-chusai-jiangsu/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "菲啶(Phend)形成的铜配合物因在太阳能转化、发光⼆极管、荧光探针和抗癌荧光等光伏领域的应⽤⽽受到研究⼈员的重视。某实验将 0.089 g 菲啶(Phend)和 0.131 g $\\mathrm { P P h } _ { 3 }$ 的25 mL甲醇溶液室温下搅拌10分钟，然后加⼊含0.049g氯化亚铜的25 mL甲醇溶液，室温搅拌3⼩时得到⻩绿⾊沉淀。过滤，滤液室温下放置10天，随着溶剂的缓慢蒸发，得到0.253 g⻩⾊晶体 $\\mathbf { A } _ { \\circ }$ 。晶体 A 的元素分析结果为(%)：C 68.74 (68.89), H 4.53(4.47), N 2.27 (2.60)，括号内为理论值。晶体结构表明Cu的配位数为4。菲啶的结构⻅图5。"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）\n图5 菲啶结构"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000118-01",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "请通过计算和分析，写出⻩⾊晶体A的化学式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000118-02",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出A的结构，写出形成体的价电⼦构型和杂化⽅式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000118-03",
+      "label": "7-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出A可能的异构体结构。"
+        }
+      ]
+    }
+  ]
+}

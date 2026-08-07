@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000148",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "有机酸性与反应性",
+  "number": "7",
+  "examYear": 2021,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000017",
+    "sourceLabel": "2021-35-CChO-juesai-1.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2021-35-CChO-juesai-1/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000148-01",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "酸碱理论对有机化学的发展具有重要的意义。"
+        }
+      ]
+    },
+    {
+      "id": "part-000148-02",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 苯甲酸衍⽣物的酸性与其取代基的性质紧密相关。如下所⽰，化合物B的 ${ \\mathfrak { o } } K _ { a }$ 值显著⼩于其他三个化合物。对此结果给出合理解释。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000148-03",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 ⼆元羧酸的酸性与⼆个羧基的距离密切相关。例如，草酸的 $\\mathsf { p } K _ { a 1 }$ ⼩于丙⼆酸的 $\\mathsf { p } K _ { a 1 }$ ，邻苯⼆甲酸的 $\\mathcal { K } _ { a \\mathrm { : } }$ /⼩于间苯⼆甲酸的 $\\mathsf { p } K _ { a 1 } \\mathfrak { c }$ 。对此结果给出合理解释。"
+        }
+      ]
+    },
+    {
+      "id": "part-000148-04",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-3 2,6-⼆甲基-4-硝基苯酚的 $\\mathsf { p } K _ { a }$ ⼩于 3,5-⼆甲基-4-硝基苯酚的 $\\mathsf { p } K _ { a }$ ，对此结果给出合理解释。"
+        }
+      ]
+    },
+    {
+      "id": "part-000148-05",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "2015年，英国的科研团队⾸次合成了全顺式的1,2,3,4,5,6-六氟环⼰烷(1)。这是迄今已知极性最⼤的⾮离⼦型有机化合物。1的合成路线如下图所⽰：以肌醇(myo-inositol, 2)为起始原料，通过6步转化合成中间体3，再经过以脱氧氟化和亲核氟化为关键步骤的6步反应制备1。(提⽰：DeoxoFluor是⼀种常⽤的脱氧氟化试剂，可将羟基转化为氟，并⽣成 $\\mathrm { S O F _ { 2 c } }$ 。Et_{3}N·3HF是⼀种常⽤的亲核氟化试剂)"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000148-06",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 1,2,3,4,5,6-六氟环已烷有多少个⽴体异构体（仅需数⽬）？画出其中⼀对对映体的结构简式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000148-07",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 画出化合物4的结构简式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000148-08",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-3 检测表明化合物 1 的 F-NMR 谱图只有−212.8 ppm 和−217.3 ppm 两种信号。画出 1 的稳定构象，并解释它具有⼤极性的原因。"
+        }
+      ]
+    },
+    {
+      "id": "part-000148-09",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-4 简要阐述最后⼀步反应（由8合成1）产率低的主要原因。"
+        }
+      ]
+    }
+  ]
+}

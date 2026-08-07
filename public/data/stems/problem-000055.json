@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000055",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "乙二硫醇双核配合物结构",
+  "number": "7",
+  "examYear": 2018,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000052",
+    "sourceLabel": "2018-32-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2018-32-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000055-01",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出[V_{2}(edt)_{4}]2−的结构（忽略氢原⼦）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000055-02",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出 $[ \\mathbf { M } _ { 2 } ( \\mathrm { e d t } ) .$ _{4}]2− $( \\mathbf { M } = \\mathbf { M } \\mathbf { n }$ , Fe)的结构（忽略氢原⼦）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000055-03",
+      "label": "7-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出 $\\mathrm { [ V _ { 2 } ( e d t ) _ { 4 } ] ^ { 2 - } }$ −中钒的价电⼦组态。磁性测试表明，它显抗磁性，简述原因。"
+        }
+      ]
+    },
+    {
+      "id": "part-000055-04",
+      "label": "7-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "$\\mathrm { [ M n _ { 2 } ( e d t ) _ { 4 } ] ^ { 2 } }$ −可由MnCl_{2}溶液和 $\\mathrm { N a } _ { 2 } ( \\mathrm { e d t } )$ 溶液在空⽓中反应得到，写出反应⽅程式。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000016",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "含氯金属氧化物分析",
+  "number": "5",
+  "examYear": 2016,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000050",
+    "sourceLabel": "2016-30-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2016-30-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "第5题（8分）化学式为 $\\mathbf { M O } _ { x } \\mathrm { C l } _ { y }$ 的物质有氧化性，M为过渡⾦属元素，�和�均为正整数。将2.905g样品溶于⽔，定容⾄ $1 0 0 \\mathrm { m L } _ { \\circ }$ 移取20.00 mL溶液，加⼊稀硝酸和⾜量 $\\mathrm { A g N O _ { 3 } }$ ，分离得到⽩⾊沉淀 $1 . 4 3 6 \\mathrm { g } _ { \\circ }$ 移取溶液20.00 mL，加⼊适量硫酸，以N-邻苯基氨基苯甲酸作指⽰剂，⽤标准硫酸亚铁铵溶液滴⾄终点，消耗3.350 mmol。已知其中阳离⼦以 $\\mathbf { M O } _ { x } ^ { y + }$ 存在，推出该物质的化学式，指出M是哪种元素。写出硫酸亚铁铵溶液滴定 $\\mathbf { M O } _ { x } ^ { y + }$ 的离⼦反应⽅程式。"
+    }
+  ]
+}

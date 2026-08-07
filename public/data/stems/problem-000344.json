@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000344",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "含氧芳香酸结构",
+  "number": "8",
+  "examYear": 2009,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000040",
+    "sourceLabel": "2009-23-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2009-23-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000344-01",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "化合物A是⼀种重要化⼯产品，⽤于⽣产染料、光电材料和治疗疣的药物等。A由第⼀、⼆周期元素组成，⽩⾊晶体，摩尔质量 $1 1 4 . 0 6 \\mathrm { g } \\mathrm { m o l ^ { - 1 } }$ ，熔点 $2 9 3 \\mathrm { ~ } ^ { \\circ } \\mathrm { C }$ ，酸常数 $\\mathrm { . p } K _ { a 1 } = 1 . 5 , \\mathrm { p } K _ { a 2 } = 3 . 4 ;$ ；酸根离⼦ $\\mathbf { A } ^ { 2 - }$ 中同种化学键是等⻓的，存在⼀根四重旋转轴。"
+        }
+      ]
+    },
+    {
+      "id": "part-000344-02",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 画出A的结构简式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000344-03",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 为什么 $\\mathbf { A } ^ { 2 - }$ 离⼦中同种化学键是等⻓的？"
+        }
+      ]
+    },
+    {
+      "id": "part-000344-04",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-3 A2−离⼦有⼏个镜⾯？"
+        }
+      ]
+    },
+    {
+      "id": "part-000344-05",
+      "label": "8-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "顺（反）丁烯⼆酸的四个酸常数为 $1 . 1 7 \\times 1 0 ^ { - 2 }$ ， $9 . 3 \\times 1 0 ^ { - 4 }$ $2 . 9 \\times 1 0 ^ { - 5 }$ 和 $2 . 6 0 \\times 1 0 ^ { - 7 }$ 。指出这些常数分别是哪个酸的⼏级酸常数，并从结构与性质的⻆度简述你做出判断的理由。"
+        }
+      ]
+    },
+    {
+      "id": "part-000344-06",
+      "label": "8-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "氨基磺酸是⼀种重要的⽆机酸，⽤途⼴泛，全球年产量逾40万吨，分⼦量为 $9 7 . 0 9 _ { \\circ }$ 晶体结构测定证实分⼦中有三种化学键，键⻓分别为 102、144 和 176 pm。氨基磺酸易溶于⽔，在⽔中的酸常数 $K _ { a } \\ =$ $1 . 0 1 \\times 1 0 ^ { - 1 }$ ，其酸根离⼦中也有三种键⻓，分别为 100、146 和 167 pm。"
+        }
+      ]
+    },
+    {
+      "id": "part-000344-07",
+      "label": "8-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 计算0.10 M氨基磺酸⽔溶液的 $\\mathrm { p H }$ 值。"
+        }
+      ]
+    },
+    {
+      "id": "part-000344-08",
+      "label": "8-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 从结构与性质的关系解释为什么氨基磺酸是强酸？"
+        }
+      ]
+    },
+    {
+      "id": "part-000344-09",
+      "label": "8-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-3 氨基磺酸可⽤作游泳池消毒剂氯⽔的稳定剂，这是因为氨基磺酸与 $\\mathrm { C l } _ { 2 }$ 的反应产物⼀氯代物能缓慢释放次氯酸。写出形成⼀氯代物以及⼀氯代物与⽔反应的⽅程式。"
+        }
+      ]
+    }
+  ]
+}

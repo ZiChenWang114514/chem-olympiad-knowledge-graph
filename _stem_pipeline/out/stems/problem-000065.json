@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000065",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "荧光探针识别甲醛",
+  "number": "7",
+  "examYear": 2018,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000013",
+    "sourceLabel": "2018-32-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2018-32-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000065-01",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "某些物质吸收光后，电⼦从基态跃迁⾄激发态，⽽由激发跃迁回基态时，以产⽣荧光的形式将能量释放出。研究发现， $\\lambda _ { \\operatorname* { m a x } } = 6 4 5 \\mathrm { n m }$ 的光激发下，化合物1⼏乎不产⽣荧光，但是化合物1与甲醛反应⽣成的化合物2能产⽣很强的荧光。据此，化合物1能够⾼选择性识别甲醛。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000065-02",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 简要解释化合物1⼏乎不产⽣荧光，⽽化合物2能产⽣很强的荧光。"
+        }
+      ]
+    },
+    {
+      "id": "part-000065-03",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 写出化合物1与甲醛反应⽣成化合物2的反应机理。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000065-04",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "化合物1和化合物2分别与(CH_{3})_{3}Al按摩尔⽐1:3投料，发⽣下列反应："
+        }
+      ]
+    },
+    {
+      "id": "part-000065-05",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 写出产物A，B的结构简式，标注B中不对称碳原⼦的绝对构型（�或�）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000065-06",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 写出⽣成A和B的反应机理，解释反应的区域选择性和⽴体选择性。"
+        }
+      ]
+    },
+    {
+      "id": "part-000065-07",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-3 ⽤正⼰烷作溶剂（其他条件相同），A和B的产率很低，并有⼤量原料未反应。解释溶剂对反应过程的影响。"
+        }
+      ]
+    }
+  ]
+}

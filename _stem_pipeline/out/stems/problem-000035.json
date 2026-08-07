@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000035",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "磷硫化合物反应网络",
+  "number": "5",
+  "examYear": 2017,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000051",
+    "sourceLabel": "2017-31-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2017-31-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000035-01",
+      "label": "5-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出A、C到F以及G1和G2的分⼦式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000035-02",
+      "label": "5-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出由⽣产X单质的副产物 $\\mathrm { F e P _ { 2 } }$ 与⻩铁矿反应制备A的⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000035-03",
+      "label": "5-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出B与浓硫酸反应的⽅程式。"
+        }
+      ]
+    }
+  ]
+}

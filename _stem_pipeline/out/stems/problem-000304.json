@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000304",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "氯化苄纯度测定",
+  "number": "5",
+  "examYear": 2007,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000038",
+    "sourceLabel": "2007-21-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2007-21-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000304-01",
+      "label": "5-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出分析过程的反应⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000304-02",
+      "label": "5-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算样品中氯化苄的质量分数(%)。"
+        }
+      ]
+    },
+    {
+      "id": "part-000304-03",
+      "label": "5-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "通常，上述测定结果⾼于样品中氯化苄的实际含量，指出原因。"
+        }
+      ]
+    },
+    {
+      "id": "part-000304-04",
+      "label": "5-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "上述分析⽅法是否适⽤于氯苯的纯度分析？请说明理由。"
+        }
+      ]
+    }
+  ]
+}

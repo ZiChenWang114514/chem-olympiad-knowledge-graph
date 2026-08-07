@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000113",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "双氧物种电子与晶体",
+  "number": "2",
+  "examYear": 2021,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000057",
+    "sourceLabel": "2021-35-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2021-35-CChO-chusai-jiangsu/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000113-01",
+      "label": "2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "请解释为什么在DNA分⼦中，腺嘌呤与胸腺嘧啶含量相等，⻦嘌呤与胞嘧啶含量相等。"
+        },
+        {
+          "type": "paragraph",
+          "text": "A\nC\n（图：）\n腺嘌呤(A)"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）\n⻦嘌呤(G)"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）\n胸腺嘧啶(T)"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）\n图1 碱基结构\n胞嘧啶(C)"
+        }
+      ]
+    },
+    {
+      "id": "part-000113-02",
+      "label": "2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "钾氩定年法可⽤于分析⽕星矿物形成的年代。已知40K衰变时，10.5%为β+衰变⽣成40Ar，89.5 %为β−衰变⽣成 $^ { 4 0 } \\mathrm { C a }$ ，40K的半衰期为12.5亿年。试求40K发⽣β+衰变和β−衰变的速率常数 $\\cdot k _ { 1 }$ 和 $k _ { 2 }$ 。"
+        }
+      ]
+    },
+    {
+      "id": "part-000113-03",
+      "label": "2-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出与 $\\mathrm { N _ { 2 } H _ { 4 } }$ 质⼦总数相同且含有⾮极性键的物质的分⼦式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000113-04",
+      "label": "2-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出分⼦式为 $\\mathrm { C _ { 3 } O _ { 3 } C l _ { 6 } }$ 中所有Cl原⼦等价的物质的结构式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000113-05",
+      "label": "2-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "⼀般化学交联的聚合物难以进⾏⼆次利⽤，但如图2所⽰的A、B、C三种单体共聚后经紫外光照射可以形成交联聚合物，且该交联聚合物能够实现回收热塑加 $\\scriptstyle \\sum _ { 0 }$ 。请简述该交联聚合物可热塑加⼯的基本原理。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）\n图2 三种单体结构"
+        }
+      ]
+    }
+  ]
+}

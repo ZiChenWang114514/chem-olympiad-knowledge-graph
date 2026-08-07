@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000207",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "阴离子传递多组分反应",
+  "number": "10",
+  "examYear": 2023,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000060",
+    "sourceLabel": "2023-37-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2023-37-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "利⽤阴离⼦传递(ARC)的多组分反应可以⾼效构筑复杂分⼦的⻣架体系。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000207-01",
+      "label": "10-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "如下反应步骤是基于ARC的多组分反应（ASG为碳负离⼦稳定基团，E+为亲电试剂），写出此反应关键中间体M、N以及O的结构式。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000207-02",
+      "label": "10-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "根据以上信息，画出下列反应主要产物的结构式（要求⽴体化学）。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000207-03",
+      "label": "10-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "依据以上信息，画出构建如下产物所需三个反应原料的结构式（要求⽴体化学）。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000207-04",
+      "label": "10-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "将ARC策略和羟醛缩合反应相结合，可以⼀锅法⾼效构筑双环⻣架（如下图所⽰）。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000207-05",
+      "label": "10-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 写出中间体P、Q及R的结构式（要求⽴体化学）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000207-06",
+      "label": "10-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 判断S-V中的哪⼀个为此转换的主要产物。"
+        },
+        {
+          "type": "paragraph",
+          "text": "V\n（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "S"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "T"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "U"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000207-07",
+      "label": "10-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "S和T两者之间的关系为：a) 对映异构体；b) 差向异构体；c) ⾮对映异构体。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000388",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "分析化学定量方法",
+  "number": "6",
+  "examYear": 2011,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000006",
+    "sourceLabel": "2011-25-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2011-25-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000388-01",
+      "label": "6-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算混合溶液中甲酸和⼄酸的总量。"
+        }
+      ]
+    },
+    {
+      "id": "part-000388-02",
+      "label": "6-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出氧化还原滴定反应的化学⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000388-03",
+      "label": "6-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算混合酸溶液中甲酸和⼄酸的浓度。"
+        }
+      ]
+    }
+  ]
+}

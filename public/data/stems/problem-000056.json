@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000056",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "亲核取代反应类型",
+  "number": "8",
+  "examYear": 2018,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000052",
+    "sourceLabel": "2018-32-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2018-32-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000056-01",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "以下化合物与⼄胺均可发⽣亲核取代反应，写出亲核取代反应的类型。"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\n\\mathrm{CH} _ {3} \\mathrm{Br}\n$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\n\\mathrm{CH} _ {3} \\mathrm{I}\n$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "A"
+        },
+        {
+          "type": "paragraph",
+          "text": "B"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "C"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "D"
+        },
+        {
+          "type": "paragraph",
+          "text": "E"
+        }
+      ]
+    },
+    {
+      "id": "part-000056-02",
+      "label": "8-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按亲核取代反应进⾏的快慢，对以上化合物（⽤字⺟表⽰）进⾏排序（从快到慢）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000056-03",
+      "label": "8-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "判断下列正离⼦（⽤字⺟表⽰）稳定性的顺序（从稳定到不稳定）。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "F"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "G"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "H"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "I"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "K"
+        }
+      ]
+    }
+  ]
+}

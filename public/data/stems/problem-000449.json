@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000449",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "碱式铬酸铅沉淀",
+  "number": "1",
+  "examYear": 2015,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000049",
+    "sourceLabel": "2015-29-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2015-29-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000449-01",
+      "label": "1-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "将热的硝酸铅溶液滴⼊热的铬酸钾溶液产⽣碱式铬酸铅沉淀 $\\mathrm { P b _ { 2 } ( O H ) _ { 2 } C r O _ { 4 } ] _ { \\circ } }$"
+        }
+      ]
+    },
+    {
+      "id": "part-000449-02",
+      "label": "1-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "向含氰化氢的废⽔中加⼊铁粉和 $\\mathrm { K _ { 2 } C O _ { 3 } }$ 制备⻩⾎盐 $\\mathrm { { K _ { 4 } F e ( C N ) _ { 6 } { \\cdot } 3 H _ { 2 } O ] _ { c } } }$"
+        }
+      ]
+    },
+    {
+      "id": "part-000449-03",
+      "label": "1-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "酸性溶液中，⻩⾎盐⽤ $\\mathrm { K M n O _ { 4 } }$ 处理，被彻底氧化，产⽣ $\\mathrm { N O _ { 3 } } ^ { - }$ −和 $\\mathrm { { C O } _ { 2 \\circ } }$"
+        }
+      ]
+    },
+    {
+      "id": "part-000449-04",
+      "label": "1-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在⽔中， $\\mathrm { A g _ { 2 } S O _ { 4 } }$ 与单质S作⽤，沉淀变为 $\\mathrm { A g } _ { 2 } \\mathrm { S } ,$ ，分离，所得溶液中加碘⽔不褪⾊。"
+        }
+      ]
+    },
+    {
+      "id": "part-000449-05",
+      "label": "2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "实验室现有试剂：盐酸，硝酸，⼄酸，氢氧化钠，氨⽔。从中选择⼀种试剂，分别分离以下各组固体混合物（不要求复原，括号内数据是溶度积），指出溶解的固体。"
+        }
+      ]
+    },
+    {
+      "id": "part-000449-06",
+      "label": "(1)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "$\\mathrm { C a C O _ { 3 } } ( 3 . 4 \\times 1 0 ^ { - 9 }$ )和 $\\mathrm { C a C _ { 2 } O _ { 4 } } \\left( 2 . 3 { \\times } 1 0 ^ { - 9 } \\right)$"
+        }
+      ]
+    },
+    {
+      "id": "part-000449-07",
+      "label": "(2)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "$\\mathrm { B a S O _ { 4 } } \\left( 1 . 1 \\times 1 0 ^ { - 1 0 } \\right)$ )和 $\\mathrm { B a C r O _ { 4 } } \\left( 1 . 1 { \\times } 1 0 ^ { - 1 0 } \\right)$"
+        }
+      ]
+    },
+    {
+      "id": "part-000449-08",
+      "label": "(3)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "$\\mathrm { Z n ( O H ) } _ { 2 } \\left( 3 . 0 { \\times } 1 0 ^ { - 1 7 } \\right)$ 和 $\\mathrm { N i ( O H ) } _ { 2 } \\left( 5 . 5 \\times 1 0 ^ { - 1 6 } \\right)$"
+        }
+      ]
+    },
+    {
+      "id": "part-000449-09",
+      "label": "(4)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "$\\operatorname { A g C l } \\left( 1 . 8 \\times 1 0 ^ { - 1 0 } \\right)$ 和 $\\mathrm { A g I } \\left( 8 . 5 \\times 1 0 ^ { - 1 7 } \\right)$"
+        }
+      ]
+    },
+    {
+      "id": "part-000449-10",
+      "label": "(5)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "$\\mathrm { Z n S } \\left( 2 . 5 { \\times } 1 0 ^ { - 2 2 } \\right)$ 和 $\\mathrm { H g S } \\left( 1 . 6 \\times 1 0 ^ { - 5 2 } \\right)$"
+        }
+      ]
+    },
+    {
+      "id": "part-000449-11",
+      "label": "2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在酸化的KI溶液中通⼊ $S O _ { 2 } ,$ ，观察到溶液变⻩并出现混浊(a)，继续通 $\\mathrm { S O } _ { 2 }$ ，溶液变为⽆⾊(b)，写出与现象a和b相对应所发⽣反应的⽅程式。写出总反应⽅程 $\\operatorname { \\overline { { x } } } \\mathrm { ( c ) }$ ，指出KI在反应中的作⽤。"
+        }
+      ]
+    },
+    {
+      "id": "part-000449-12",
+      "label": "2-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "分⼦量为4000的聚⼄⼆醇有良好的⽔溶性，是⼀种缓泻剂，它不会被消化道吸收，也不会在体内转化，却能使肠道保持⽔分。"
+        }
+      ]
+    },
+    {
+      "id": "part-000449-13",
+      "label": "2-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 以下哪个结构简式代表聚⼄⼆醇？"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "A"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "B"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "C"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "D"
+        }
+      ]
+    },
+    {
+      "id": "part-000449-14",
+      "label": "2-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 聚⼄⼆醇为何能保持肠道⾥的⽔分？"
+        }
+      ]
+    },
+    {
+      "id": "part-000449-15",
+      "label": "2-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-3 聚⼄⼆醇可由环氧⼄烷在酸性条件下聚合⽽成，写出反应式。"
+        }
+      ]
+    }
+  ]
+}

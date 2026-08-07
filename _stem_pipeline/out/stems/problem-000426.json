@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000426",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "含氮有机反应分析",
+  "number": "10",
+  "examYear": 2013,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000008",
+    "sourceLabel": "2013-27-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2013-27-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000426-01",
+      "label": "10-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在下列化学反应中"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "A"
+        },
+        {
+          "type": "paragraph",
+          "text": "C"
+        }
+      ]
+    },
+    {
+      "id": "part-000426-02",
+      "label": "10-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 试剂 $\\mathrm { N H _ { 4 } C l }$ 在反应中的作⽤是 6"
+        }
+      ]
+    },
+    {
+      "id": "part-000426-03",
+      "label": "10-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 画出产物D的稳定的互变异构体结构简 $\\tt { \\overline { { I } } } \\hat { \\zeta } _ { \\mathrm { < } }$"
+        }
+      ]
+    },
+    {
+      "id": "part-000426-04",
+      "label": "10-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-3 产物D中碱性最强的氮原⼦是"
+        }
+      ]
+    },
+    {
+      "id": "part-000426-05",
+      "label": "10-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "下列两个反应在相同条件下发⽣，分别画出两个反应的产物的结构简式。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    }
+  ]
+}

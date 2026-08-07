@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000219",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "金属卡宾热裂解",
+  "number": "12",
+  "examYear": 2023,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000025",
+    "sourceLabel": "2023-37-CChO-juesai-1.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2023-37-CChO-juesai-1/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000219-01",
+      "label": "12-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "化合物A真空热裂解，经卡宾中间体B转化为产物C。画出中间体B的结构。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000219-02",
+      "label": "12-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "⾦属络合物可以在温和条件下促进炔烃的转化反应。在[RuCl_{2}(C_{6}H_{6})PPh_{3}]或 CpRu(PPh_{3})Cl 的存在下，炔烃经由⾦属卡宾中间体D发⽣⽔合反应⽣成醛F（以[Ru]表⽰催化剂）。画出中间体D、E和最终产物F的结构。（若有形式电荷请标明，不考虑⽴体化学）"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000219-03",
+      "label": "12-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "根据以上信息，画出下图中最终产物G的结构。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000219-04",
+      "label": "12-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出以下反应过程中的中间体I和J的结构。（若有形式电荷请标明，不考虑⽴体化学）"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000219-05",
+      "label": "12-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出以下反应过程中的中间体L和M的结构。（若有形式电荷请标明，不考虑⽴体化学）"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000219-06",
+      "label": "12-6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出反应中间体0和P的结构（若有形式电荷请标明，不考虑立体化学），并解释以下反应生成不同环系的原因。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000161",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "锗氮配体团簇结构",
+  "number": "3",
+  "examYear": 2022,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000058",
+    "sourceLabel": "2022-36-CChO-chusai-1.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2022-36-CChO-chusai-2/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "碳化铍 $\\mathrm { ( B e _ { 2 } C ) }$ 可以视为由 $\\mathrm { B e ^ { 2 + } }$ 与 $\\mathrm { C ^ { 4 ^ { - } } }$ 构成的反萤⽯型离⼦晶体。 $\\mathrm { B e _ { 2 } C }$ 的结构中包含独⽴的 $\\mathrm { C ^ { 4 ^ { - } } }$ −阴离⼦，遇⽔时会产⽣ $\\mathrm { C H _ { 4 } }$ 和化合物A。 $\\mathrm { B e _ { 2 } C }$ 也可作碳源⽤于制备⾦属有机化合物， $\\mathrm { B e _ { 2 } C }$ 与 $\\mathrm { H g C l _ { 2 } }$ 的盐酸溶液反应可以得到直线型有机汞化合物B和化合物C（反应1）。C也可以通过化合物A与HCl的反应得到。C和 $\\mathrm { ( P h _ { 4 } P ) C l }$ （氯化四苯基膦）反应所得产物的阴离⼦D为双核离⼦，它由两个以铍离⼦为中⼼的四⾯体共棱连接⽽成。D与 $\\mathrm { ( C H _ { 3 } ) _ { 3 } S i - N _ { 3 } }$ 按1:3计量⽐反应可以得到四核阴离⼦E，副产物为$\\mathrm { ( C H _ { 3 } ) _ { 3 } S i - C l }$ 和Cl−（反应2）。E含有 $\\mathrm { N } _ { 3 }$ −和Cl−两种配体， $\\mathrm { N } _ { 3 } { \\mathrm { \\cdot } }$ −配体只有⼀个N作为配位原⼦。已知E的对称性与甲烷相同。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000161-01",
+      "label": "3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出化合物A\\~C的化学式，画出阴离⼦D和四核配合物E的结构。（提⽰：E中 $\\mathrm { N _ { 3 } } ^ { - }$ 可作为整体⽰出）"
+        }
+      ]
+    },
+    {
+      "id": "part-000161-02",
+      "label": "3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出反应1和反应2的离⼦⽅程式并配平。"
+        }
+      ]
+    }
+  ]
+}

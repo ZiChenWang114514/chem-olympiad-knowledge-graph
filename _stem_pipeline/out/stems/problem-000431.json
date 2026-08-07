@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000431",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "Kevlar聚合反应",
+  "number": "4",
+  "examYear": 2014,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000048",
+    "sourceLabel": "2014-28-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2014-28-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000431-01",
+      "label": "4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出⽤结构简式表达的⽣成链状⾼分⼦的反应式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000431-02",
+      "label": "4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出开夫拉⾼分⼦链间存在的3种主要分⼦间作⽤⼒。"
+        }
+      ]
+    }
+  ]
+}

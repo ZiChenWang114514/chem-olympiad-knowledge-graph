@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000463",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "煤气化制氢热力学",
+  "number": "4",
+  "examYear": 2015,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000010",
+    "sourceLabel": "2015-29-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2015-29-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "氢最有可能成为 21 世纪的主要能源，但氢⽓需要由其他物质来制备，制氢的⽅法之⼀是以煤的转化为基础。基本原理是⽤碳、⽔在⽓化炉中发⽣如下反应："
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\n\\mathrm{C} (\\mathrm{s}) + \\mathrm{H} _ {2} \\mathrm{O} \\rightleftharpoons \\mathrm{CO} (\\mathrm{g}) + \\mathrm{H} _ {2} (\\mathrm{g})\\tag{1}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\n\\mathrm{CO} (\\mathrm{g}) + \\mathrm{H} _ {2} \\mathrm{O} \\rightleftharpoons \\mathrm{CO} _ {2} (\\mathrm{g}) + \\mathrm{H} _ {2} (\\mathrm{g})\\tag{2}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "利⽤CaO吸收产物中的CO_{2}："
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\n\\mathrm{CaO} (\\mathrm{s}) + \\mathrm{CO} _ {2} (\\mathrm{g}) \\rightleftharpoons \\mathrm{CaCO} _ {3} (\\mathrm{s})\\tag{3}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "产物中的 $\\mathrm { H } _ { 2 }$ 与平衡体系中的 $\\mathrm { C } ,$ ，CO， $\\mathrm { C O _ { 2 } }$ 发⽣反应，⽣成CH_{4}："
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\n\\mathrm{C} (\\mathrm{s}) + 2 \\mathrm{H} _ {2} (\\mathrm{g}) \\rightleftharpoons \\mathrm{CH} _ {4} (\\mathrm{g})\\tag{4}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\n\\mathrm{CO} (\\mathrm{g}) + 3 \\mathrm{H} _ {2} (\\mathrm{g}) \\rightleftharpoons \\mathrm{CH} _ {4} (\\mathrm{g}) + \\mathrm{H} _ {2} \\mathrm{O} (\\mathrm{g})\\tag{5}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\n\\mathrm{CO} _ {2} (\\mathrm{g}) + 4 \\mathrm{H} _ {2} (\\mathrm{g}) \\rightleftharpoons \\mathrm{CH} _ {4} (\\mathrm{g}) + 2 \\mathrm{H} _ {2} \\mathrm{O} (\\mathrm{g})\\tag{6}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "将 2 mol C(s)，2 mol $\\mathrm { H _ { 2 } O ( g ) }$ ，2 mol $\\mathrm { C a O } ( s )$ 放⼊⽓化炉，在 $8 5 0 ~ ^ { \\circ } \\mathrm { C }$ 下发⽣反应。"
+    },
+    {
+      "type": "paragraph",
+      "text": "已知850 °C下相关物种的热⼒学参数："
+    },
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000463-01",
+      "label": "4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算⽓化炉总压为 $2 . 5 0 \\times 1 0 ^ { 6 } \\mathrm { P a }$ 时， $\\mathrm { H } _ { 2 }$ 在平衡混合⽓中的摩尔分数。"
+        }
+      ]
+    },
+    {
+      "id": "part-000463-02",
+      "label": "4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算 $8 5 0 ^ { \\circ } \\mathrm { C }$ 从起始原料到平衡产物这⼀过程的热效应。"
+        }
+      ]
+    },
+    {
+      "id": "part-000463-03",
+      "label": "4-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "碳在⾼温下是⼀种优良的还原剂，可⽤于冶炼多种⾦属。试写出 $6 0 0 ^ { \\circ } \\mathrm { C }$ 碳的可能氧化产物的化学式。从热⼒学⻆度说明原因（假设 $6 0 0 ^ { \\circ } \\mathrm { C }$ 反应的熵变、焓变和 $8 5 0 ^ { \\circ } \\mathrm { C }$ 下的熵变、焓变相同）"
+        }
+      ]
+    }
+  ]
+}

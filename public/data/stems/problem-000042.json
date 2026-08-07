@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000042",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "硫化氢沉淀与天平平衡",
+  "number": "2",
+  "examYear": 2017,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000012",
+    "sourceLabel": "2017-31-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2017-31-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "假定本题两杯中的液体体积始终等于1.00 L，且H_{2}S饱和溶液的浓度均等于 $0 . 1 0 0 \\mathrm { m o l } \\mathrm { L } _ { \\mathrm { ~ } \\circ } ^ { - 1 }$ 天平两盘各有⼀盛着 $1 . 0 \\mathrm { { L H _ { 2 } O } }$ 的烧杯，天平平衡。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000042-01",
+      "label": "2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "向左杯中融⼊ $2 . 7 2 \\ : \\mathrm { g } \\ : \\mathrm { Z n C l _ { 2 } }$ ，试通过计算说明，为使天平再次平衡需向右杯中加⼊多少克 $\\mathrm { N a _ { 2 } O _ { 2 } ? }$"
+        }
+      ]
+    },
+    {
+      "id": "part-000042-02",
+      "label": "2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "天平再次平衡后，向左杯中通⼊ $\\mathrm { H } _ { 2 } \\mathrm { S }$ ⽓体，充分反应且使 $\\mathrm { H } _ { 2 } \\mathrm { S }$ 达到饱和。接着向右杯中通⼊ $\\mathrm { H } _ { 2 } \\mathrm { S }$ ⽓体。试通过计算求出当天平第三次平衡时，右杯中溶液的 $\\mathrm { p H } _ { \\cdot }$ o"
+        }
+      ]
+    },
+    {
+      "id": "part-000042-03",
+      "label": "2-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "天平第三次平衡后，向左杯中缓缓通⼊ $\\mathrm { H C l }$ ⽓体。试通过计算求出当杯中的沉淀刚好溶解掉⼀半时，溶液的Cl−浓度。"
+        }
+      ]
+    },
+    {
+      "id": "part-000042-04",
+      "label": "2-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "拟使天平第四次平衡，需向右杯中通⼊多少克HCl⽓体？试通过计算加以说明。"
+        }
+      ]
+    }
+  ]
+}

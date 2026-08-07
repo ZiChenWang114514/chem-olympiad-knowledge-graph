@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000103",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "化学反应与结构综合分析",
+  "number": "9",
+  "examYear": 2020,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000015",
+    "sourceLabel": "2020-34-CChO-juesai-1.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2020-34-CChO-juesai-1/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000103-01",
+      "label": "9-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出下⾯转化中间产物2、3、4和产物5的结构简式。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000103-02",
+      "label": "9-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "上述产物5与化合物6在三氟甲磺酸三甲基硅酯(TMSOTf)存在下作⽤⽣成 $7 _ { \\circ }$ 。画出该反应的关键中间体结构简式。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    }
+  ]
+}

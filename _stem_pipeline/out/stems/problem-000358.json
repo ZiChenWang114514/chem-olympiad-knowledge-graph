@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000358",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "配位化学与电子结构",
+  "number": "4",
+  "examYear": 2010,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000041",
+    "sourceLabel": "2010-24-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "未能从 MD 可靠切分正文（初赛/2010-24-CChO-chusai/full.md）；仅写入元数据标题占位，待人工补全。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "warn",
+      "text": "本题干正文自动切分失败，仅显示题目标题占位。"
+    },
+    {
+      "type": "paragraph",
+      "text": "4 · 配位化学与电子结构"
+    }
+  ]
+}

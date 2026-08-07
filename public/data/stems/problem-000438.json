@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000438",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "异靛蓝合成中间体",
+  "number": "11",
+  "examYear": 2014,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000048",
+    "sourceLabel": "2014-28-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2014-28-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "画出第⼀步反应的关键中间体G（电中性）的结构简式和说明此反应的类型。"
+    },
+    {
+      "type": "paragraph",
+      "text": "但在合成⾮对称的异靛蓝衍⽣物时，却得到3个化合物。"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "画出产物H、I及J的结构简式，并画出⽣成I和J的反应过程。"
+    }
+  ]
+}

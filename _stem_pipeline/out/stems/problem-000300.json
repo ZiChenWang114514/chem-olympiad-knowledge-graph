@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000300",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "硅与超强碳正离子",
+  "number": "1",
+  "examYear": 2007,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000038",
+    "sourceLabel": "2007-21-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2007-21-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000300-01",
+      "label": "1-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "已知反应分两步进⾏，试⽤化学⽅程式表⽰上述溶解过程。"
+        },
+        {
+          "type": "paragraph",
+          "text": "早在上世纪50年代就发现了 $\\mathrm { C H } _ { 5 } { } ^ { + }$ 的存在，⼈们曾提出该离⼦结构的多种假设，然⽽，直⾄1999年，才在低温下获得该离⼦的振动-转动光谱，并由此提出该离⼦的如下结构模型：氢原⼦围绕着碳原⼦快速转动；所有C—H键的键⻓相等。"
+        }
+      ]
+    },
+    {
+      "id": "part-000300-02",
+      "label": "1-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "该离⼦的结构能否⽤经典的共价键理论说明？简述理由。"
+        }
+      ]
+    },
+    {
+      "id": "part-000300-03",
+      "label": "1-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "该离⼦是（ ）。A 质⼦酸 B 路易斯酸 C ⾃由基 D 亲核试剂"
+        },
+        {
+          "type": "paragraph",
+          "text": "2003年5⽉报道，在⽯油中发现了⼀种新的烷烃分⼦，因其结构类似于⾦刚⽯，被称为“分⼦钻⽯”，若能合成，有可能⽤做合成纳⽶材料的理想模板。该分⼦的结构简图如下："
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000300-04",
+      "label": "1-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "该分⼦的分⼦式为 ？1-5 该分⼦有⽆对称中⼼？1-6 该分⼦有⼏种不同级的碳原⼦？1-7 该分⼦有⽆⼿性碳原⼦？1-8 该分⼦有⽆⼿性？"
+        }
+      ]
+    }
+  ]
+}

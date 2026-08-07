@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000046",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "六亚甲基四胺晶体对称性",
+  "number": "6",
+  "examYear": 2017,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000012",
+    "sourceLabel": "2017-31-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2017-31-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "（图：）\n图 6-A"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）\n图 6-B"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000046-01",
+      "label": "6-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出HMTA分⼦的结构图；说明其最⾼对称轴的名称、⽅位和数⽬。"
+        }
+      ]
+    },
+    {
+      "id": "part-000046-02",
+      "label": "6-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 指出HMTA晶体中作周期性重复的最⼩结构单元；说明1个正当晶胞中有多少个这样的结构单元。"
+        }
+      ]
+    },
+    {
+      "id": "part-000046-03",
+      "label": "6-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 写出该晶体最⾼对称轴的名称或记号、⽅向，以及特征对称元素的名称和取向。"
+        }
+      ]
+    },
+    {
+      "id": "part-000046-04",
+      "label": "6-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "晶体的宏观对称性与构成该晶体的分⼦的对称性是否完全相同？从下列物质中选择实例说明：HMTA、$\\mathrm { C O _ { 2 \\times } \\ ( N H _ { 2 } ) _ { 2 } C O _ { \\times } \\ : \\ : F e ( C _ { 5 } H _ { 5 } ) _ { 2 \\times } \\ : \\ : C _ { 6 } H _ { 6 \\times } \\ : \\ : \\ : C _ { 6 0 } }$"
+        }
+      ]
+    },
+    {
+      "id": "part-000046-05",
+      "label": "6-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 指出HMTA晶体的点阵型式：说明该点阵的轴次最⾼的对称轴及其⽅向。"
+        }
+      ]
+    },
+    {
+      "id": "part-000046-06",
+      "label": "6-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 假设图6-A所⽰的正当晶胞中⼼的分⼦取向不同于顶点的分⼦，晶体的点阵型式是什么？"
+        }
+      ]
+    },
+    {
+      "id": "part-000046-07",
+      "label": "6-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-3 计算每个正当晶胞中 $\\mathrm { C - H \\cdots N }$ 氢键的数⽬。"
+        }
+      ]
+    },
+    {
+      "id": "part-000046-08",
+      "label": "6-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-4 从结构化学⻆度简述该晶体格外稳定的原因。"
+        }
+      ]
+    },
+    {
+      "id": "part-000046-09",
+      "label": "6-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算HMTA的晶体的密度 ${ \\bf \\dot { \\rho } } _ { \\circ }$ 。"
+        }
+      ]
+    }
+  ]
+}

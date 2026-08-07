@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000030",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "二吡喃酮热裂解合成",
+  "number": "9",
+  "examYear": 2016,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000011",
+    "sourceLabel": "2016-30-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2016-30-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "2-吡喃酮(N)的衍⽣物⼴泛存在于⾃然界，有强⼼、抑菌等作⽤。化合物L真空热裂解，经中间体M转化为N。M是具有⼀定稳定性和强反应活性的⾮环状分⼦。"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "利⽤该反应原理，起始原料O通过系列反应，成功合成2-吡喃酮衍⽣物 $\\mathbf { T } _ { \\circ } \\ \\mathbf { 0 } \\to \\mathbf { R }$ 的反应具有很好的⽴体选择性。"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\n\\underset {\\left(\\mathrm{C} _ {1 7} \\mathrm{H} _ {1 6} \\mathrm{O} _ {2}\\right)} {\\mathbf {R}} \\xrightarrow [ \\mathrm{DCM/MeOH,rt} ]{\\mathrm{H} _ {2} \\mathrm{O} _ {2} , \\mathrm{NaOH}} \\quad \\mathbf {S} \\xrightarrow [ 6 5 0 ^ {\\circ} \\mathrm{C} ]{\\text {FVT}} \\underset {\\left(\\mathrm{C} _ {1 2} \\mathrm{H} _ {1 0} \\mathrm{O} _ {3}\\right)} {\\mathbf {T}} \\quad \\text {备注：DCM = CH_{2} Cl_{2}}\n$$"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000030-01",
+      "label": "9-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "请写出M及Q、R、S、T的结构简式（如为⽴体选择性反应产物，需表明⽴体化学结构）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000030-02",
+      "label": "9-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "判断化合物N有⽆芳⾹性，并简述理由。"
+        }
+      ]
+    },
+    {
+      "id": "part-000030-03",
+      "label": "9-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "请⽐较化合物N及1,3-环⼰⼆烯作为双烯体发⽣Diels‒Alder反应的相对活性⼤⼩，并简述理由。"
+        }
+      ]
+    },
+    {
+      "id": "part-000030-04",
+      "label": "9-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "请指出在Q→R反应中，PhOH的作⽤。"
+        }
+      ]
+    }
+  ]
+}

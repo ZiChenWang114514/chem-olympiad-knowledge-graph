@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000084",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "有机合成与机理",
+  "number": "8",
+  "examYear": 2019,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000014",
+    "sourceLabel": "2019-33-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2019-33-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "佐⽶曲坦 $\\left( \\mathrm { C _ { 1 6 } H N _ { 2 1 } O _ { 2 } } \\right)$ 是治疗偏头疼的药物，其合成路线如下。画出A、B、C、D和E的结构简式。"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    }
+  ]
+}

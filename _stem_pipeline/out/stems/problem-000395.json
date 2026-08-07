@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000395",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "晶体结构与晶胞",
+  "number": "5",
+  "examYear": 2012,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000046",
+    "sourceLabel": "2012-26-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2012-26-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000395-01",
+      "label": "5-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "推求晶体中草酸分⼦和尿素分⼦的⽐例。"
+        }
+      ]
+    },
+    {
+      "id": "part-000395-02",
+      "label": "5-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出⼀个化学单位的结构，⽰出其中的氢键。"
+        }
+      ]
+    }
+  ]
+}

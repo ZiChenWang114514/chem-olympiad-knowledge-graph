@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000101",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "有机合成与机理",
+  "number": "7",
+  "examYear": 2020,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000015",
+    "sourceLabel": "2020-34-CChO-juesai-1.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2020-34-CChO-juesai-2/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000101-01",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "下⾯3种共轭⼆烯与丙烯腈发⽣Diels-Alder反应速率最快的是 o"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "A"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "B"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "C"
+        }
+      ]
+    },
+    {
+      "id": "part-000101-02",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "下⾯2种内酰胺在碱性条件下⽔解的反应速率较快的是"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "A"
+        },
+        {
+          "type": "paragraph",
+          "text": "B"
+        }
+      ]
+    },
+    {
+      "id": "part-000101-03",
+      "label": "7-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "如下⼆烯烃与间氯过氧苯甲酸(�CPBA)发⽣环氧化反应的主要产物是"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "A"
+        },
+        {
+          "type": "paragraph",
+          "text": "B"
+        }
+      ]
+    },
+    {
+      "id": "part-000101-04",
+      "label": "7-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "下⾯2-苯基丙醛与⼄基格⽒试剂反应，⽣成的主要产物是 0"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000101-05",
+      "label": "7-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "下⾯2种α-羟基酮的合成⽅法（A和B）合理的是"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "⽅法 A："
+        },
+        {
+          "type": "paragraph",
+          "text": "⽅法 B："
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000101-06",
+      "label": "7-6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "下⾯Cope重排反应的主要产物是"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000101-07",
+      "label": "7-7",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "下⾯2种化合物中酸性较强的是 o"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "A"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "B"
+        }
+      ]
+    }
+  ]
+}

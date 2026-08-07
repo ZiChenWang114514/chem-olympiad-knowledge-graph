@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000390",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "化学反应与结构综合分析",
+  "number": "8",
+  "examYear": 2011,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000006",
+    "sourceLabel": "2011-25-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2011-25-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "线："
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000390-01",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出A和C的结构简 $\\updownarrow \\updownarrow _ { \\updownarrow }$"
+        }
+      ]
+    },
+    {
+      "id": "part-000390-02",
+      "label": "8-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出B、D、F和G的结构简式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000390-03",
+      "label": "8-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "给出从中间体E到F的反应机理。"
+        }
+      ]
+    },
+    {
+      "id": "part-000390-04",
+      "label": "8-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "从周环反应的⻆度看，反应中间体G转化为⽬标产物需经过⼀次 迁移，其驱动⼒为 o"
+        }
+      ]
+    }
+  ]
+}

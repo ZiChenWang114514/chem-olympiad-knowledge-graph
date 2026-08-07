@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000453",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "锆钨复合氧化物晶胞",
+  "number": "5",
+  "examYear": 2015,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000049",
+    "sourceLabel": "2015-29-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2015-29-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000453-01",
+      "label": "5-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出晶胞中锆原⼦和钨原⼦的数⽬。"
+        }
+      ]
+    },
+    {
+      "id": "part-000453-02",
+      "label": "5-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出这种复合氧化物的化学式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000453-03",
+      "label": "5-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "晶体中，氧原⼦的化学环境有⼏种？各是什么类型？在⼀个晶胞中各有多少？"
+        }
+      ]
+    },
+    {
+      "id": "part-000453-04",
+      "label": "5-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "已知晶胞参数 $\\dot { a } = 0 . 9 1 6 \\mathrm { n m }$ ，计算该晶体的密度（以 $\\mathrm { g c m ^ { - 3 } }$ 为单位）。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000183",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "氢能源汽车热力学",
+  "number": "5",
+  "examYear": 2022,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000021",
+    "sourceLabel": "2022-36-CChO-juesai-1.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2022-36-CChO-juesai-2/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "碱⼟或稀⼟元素(A)和过渡⾦属(B)可以形成多种合⾦，⼴泛应⽤于催化、储氢等领域。下图给出某合⾦的理想结构沿不同⽅向的投影⽰意图，此结构属六⽅晶系，晶胞参数 $\\displaystyle a = 5 4 0 . 9 \\mathrm { p m } , \\ c = 4 3 0 . 0 \\mathrm { p m }$ 。其中，⼤球为A原⼦，⼩球为B原⼦，圆圈表⽰空位。"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）\n(a)"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）\n(b)"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）\n(c)"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）\n(d)\n图5.1 某合⾦理想结构沿不同⽅向的投影⽰意图（其中，⼤球为A原⼦，⼩球为B原⼦，圆圈表⽰空位。）"
+    },
+    {
+      "type": "paragraph",
+      "text": "(a) 晶胞；(b) 沿�⽅向投影；(c) A 和 B 混合排列层 $\\left( \\mathrm { L } _ { 1 } | \\frac { \\mathbf { \\equiv } } { \\mathbf { z } } \\right)$ ；(d) 全部由B原⼦组成的层 $\\left( \\mathrm { L } _ { 2 } \\overleftrightarrow { \\underline { { \\mathbf { \\Lambda } } } } \\right)$ 5-1 写出该合⾦的组成。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000183-01",
+      "label": "5-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "⼰知原⼦A处在晶胞原点，写出晶胞中所有B原⼦的坐标参数。（排序要求：先按�从⼩到⼤；�相同时，按照�从⼩到⼤；�相同时，按照�从⼩到⼤。)"
+        }
+      ]
+    },
+    {
+      "id": "part-000183-02",
+      "label": "5-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算同⼀层内B原⼦的最短距离和相邻层间B 原⼦的最短距离（单位：pm）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000183-03",
+      "label": "5-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "该合⾦有良好的储氢性能。研究发现，氢原⼦(H)占据如下位置（结构中实际位置与此有所偏离，但计量关系⼀致）； $\\mathrm { L _ { 1 } }$ 层中所有菱形的中⼼ $( \\mathrm { i } \\mathrm { \\vec { E } \\mathcal { H } H _ { R } } )$ $\\mathrm { L } _ { 2 }$ 层中的三⻆形中⼼且只占⼀半 $( \\mathrm { i } \\mathrm { \\vec { E } \\partial \\mathrm { \\partial \\cdot \\partial \\mathrm { J } H _ { T } ) } }$ o"
+        }
+      ]
+    },
+    {
+      "id": "part-000183-04",
+      "label": "5-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 写出晶胞中两种氢原⼦ $\\mathrm { H } _ { \\mathrm { R } }$ 和 $\\mathrm { H } _ { \\mathrm { T } }$ 的数⽬。"
+        }
+      ]
+    },
+    {
+      "id": "part-000183-05",
+      "label": "5-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 将氘化（即⽤D取代H）的样品进⾏中⼦衍射，发现 $\\mathrm { L _ { 1 } }$ 层中⾦属原⼦和氢原⼦位置与上述结构吻合；⽽$\\mathrm { L } _ { 2 }$ 层中氢原⼦的排布完全有序：倘若某⼀层中D占据全部顶点朝上的三⻆形中⼼（记为 $\\mathrm { L } _ { 2 \\Delta } )$ ），则其邻近的 $\\mathrm { L } _ { 2 }$ 层中D占据全部顶点朝下的三⻆形中⼼（记为 $\\operatorname { L } _ { 2 \\nabla } )$ ）。晶体结构按照 $\\therefore \\mathrm { L _ { 1 } L _ { 2 \\Delta } L _ { 1 } L _ { 2 \\nabla } } . .$ 进⾏周期性排列。写出该氘化物的晶胞参数，假设D代不影响A和B原⼦的位置。"
+        }
+      ]
+    }
+  ]
+}

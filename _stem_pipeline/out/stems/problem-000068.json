@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000068",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "核化学反应",
+  "number": "2",
+  "examYear": 2019,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000053",
+    "sourceLabel": "2019-33-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2019-33-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000068-01",
+      "label": "2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "48Ca 轰击 $^ { 2 4 9 } \\mathrm { C f } ,$ ⽣成第118号元素(Og)并放出3个中⼦。写出配平的核反应⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000068-02",
+      "label": "2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "推出⼆元氧化物（稳定物质）中含氧量最⾼的化合物。"
+        }
+      ]
+    },
+    {
+      "id": "part-000068-03",
+      "label": "2-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "9.413 g未知⼆元⽓体化合物含有0.003227 g电⼦，推出该未知物，写出化学式。"
+        }
+      ]
+    }
+  ]
+}

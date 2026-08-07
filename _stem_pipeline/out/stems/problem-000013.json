@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000013",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "棕色环硝酸根鉴定",
+  "number": "2",
+  "examYear": 2016,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000050",
+    "sourceLabel": "2016-30-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2016-30-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000013-01",
+      "label": "2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出形成“棕⾊环”的反应⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000013-02",
+      "label": "2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "推出中⼼离⼦的价电⼦组态、⾃旋态（⾼或低）和氧化态。"
+        }
+      ]
+    },
+    {
+      "id": "part-000013-03",
+      "label": "2-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "棕⾊物质中NO的键⻓与⾃由NO分⼦中N—O键⻓相⽐，变⻓还是变短？简述理由。"
+        }
+      ]
+    }
+  ]
+}

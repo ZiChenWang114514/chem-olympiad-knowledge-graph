@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000072",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "晶体结构与晶胞",
+  "number": "6",
+  "examYear": 2019,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000053",
+    "sourceLabel": "2019-33-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2019-33-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000072-01",
+      "label": "6-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出该晶体的化学式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000072-02",
+      "label": "6-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出位于晶胞顶点和棱上的A原⼦的坐标参数；计算A1‒A2距离。"
+        }
+      ]
+    },
+    {
+      "id": "part-000072-03",
+      "label": "6-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "出所有B原⼦的坐标参数。"
+        }
+      ]
+    },
+    {
+      "id": "part-000072-04",
+      "label": "6-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "若将晶胞中顶⻆和棱上的A⽤另⼀种原⼦C替换，写出所得晶体的化学式。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    }
+  ]
+}

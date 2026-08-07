@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000419",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "潜在储氢化合物组成",
+  "number": "3",
+  "examYear": 2013,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000008",
+    "sourceLabel": "2013-27-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2013-27-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000419-01",
+      "label": "3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "通过计算说明X、Y、Z各是什么元素。"
+        }
+      ]
+    },
+    {
+      "id": "part-000419-02",
+      "label": "3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "下图⽰出 $\\mathbf { X Y Z _ { 6 } }$ 及相关化合物的⽣成与转化的流程图："
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "其中，实线箭头表⽰在⼀定条件的转化过程，虚线仅表⽰分⼦式的关联关系；由A和B制备 $\\mathbf { X Y Z _ { 6 } }$ 的过程中给出了所有的反应物和产物，⽽其他过程仅给出所有反应物及其参与反应的计量系数的例（例如，A → C箭头上的 1/2B 表⽰ $\\mathbf { \\ddot { \\boldsymbol { 2 } } A } + \\mathbf { B } ^ { \\prime \\prime }$ 反应，产物C或者C和其他可能的物质，计量系数未给出）；B和D的结构中均含有正四⾯体构型的负离⼦基团，E、F和G均为六元环结构。根据图中的关系与所述条件，写出化合物A、B、C、D、E、F、G、H和I的化学式；画出D和G的结构简式。"
+        }
+      ]
+    }
+  ]
+}

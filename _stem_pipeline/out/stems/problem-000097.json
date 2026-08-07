@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000097",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "双氧物种电子与晶体",
+  "number": "3",
+  "examYear": 2020,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000015",
+    "sourceLabel": "2020-34-CChO-juesai-1.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2020-34-CChO-juesai-2/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "图中⿊圈部分为："
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000097-01",
+      "label": "3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "MOF-5的晶体结构如上图所⽰，写出MOF-5的化学式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000097-02",
+      "label": "3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "MOF-5具有较⼤的孔洞，制备过程中溶剂分⼦会占据孔洞，已知MOF-X的密度为 $1 . 1 5 3 \\mathrm { g c m ^ { - 3 } } _ { \\mathrm { c } }$"
+        },
+        {
+          "type": "paragraph",
+          "text": "MOF-X的晶胞参数如下： $a = 2 5 6 6 . 9 0 \\mathrm { p m }$ $V = 1 . 6 9 1 3 2 \\times 1 0 ^ { 1 0 } \\mathrm { p m } ^ { 3 }$ ，� =8；含氯量为2.42%。推断⼀个正当晶胞中溶剂分⼦的数⽬与种类。"
+        }
+      ]
+    },
+    {
+      "id": "part-000097-03",
+      "label": "3-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "MOF-5具有可以容纳直径为1510pm球状分⼦的孔洞，孔洞的体积约占晶体总体积的55%；通过加热等⼿段完全除去溶剂分⼦的MOF-5能稳定存在。按照堆积理论这样的结构很不稳定，但实验发现如此⾼孔隙率的MOF-5却能稳定存在，说明原因。"
+        }
+      ]
+    }
+  ]
+}

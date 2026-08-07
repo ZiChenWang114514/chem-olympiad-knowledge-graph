@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000010",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "普鲁士蓝离子传输",
+  "number": "Q2",
+  "examYear": 2025,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000063",
+    "sourceLabel": "2025-39-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2025-39-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "2. 写方程式时，产物错误的不得分；产物正确的要求配平，不配平的不得分；"
+    }
+  ]
+}

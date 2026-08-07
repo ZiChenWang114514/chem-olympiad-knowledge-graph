@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000360",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "晶体结构与晶胞",
+  "number": "6",
+  "examYear": 2010,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000041",
+    "sourceLabel": "2010-24-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2010-24-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000360-01",
+      "label": "6-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出由Q得到X的离⼦⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000360-02",
+      "label": "6-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出X在⽔中的电离⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000360-03",
+      "label": "6-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出X和甲醇在浓硫酸存在下⽣成E的化学⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000360-04",
+      "label": "6-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出E燃烧反应的化学⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000360-05",
+      "label": "6-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出由E和NaH制备Z的化学反应⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000360-06",
+      "label": "6-6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Z在⽔溶液⾥的稳定性与溶液pH有关，pH越⼤越稳定。为什么？"
+        }
+      ]
+    },
+    {
+      "id": "part-000360-07",
+      "label": "6-7",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "近年来，⽤Z和过氧化氢构建⼀种新型碱性电池已成为热⻔的研究课题。该电池放电时，每摩尔Z释放8摩尔电⼦，标准电动势⼤于 $2 \\mathrm { { V } _ { \\circ } }$ 。写出这种电池放电反应的离⼦⽅程式。"
+        }
+      ]
+    }
+  ]
+}

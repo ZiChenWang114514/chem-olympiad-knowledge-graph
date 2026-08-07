@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000199",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "氯化铵铜复盐组成",
+  "number": "2",
+  "examYear": 2023,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000060",
+    "sourceLabel": "2023-37-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2023-37-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "在 $\\mathrm { N H _ { 4 } C l  – C u C l _ { 2 } – H _ { 2 } O }$ 体系中，结晶出⼀种淡蓝⾊的物质A，其组成可表⽰为 $x \\mathrm { N H _ { 4 } C l { \\cdot } C u C l _ { 2 } { \\cdot } } y \\mathrm { H _ { 2 } O _ { \\circ } }$ 称取1.4026 g 晶体A，溶于⽔并在250 mL容量瓶中定容。Cl−分析：移取25.00 mL溶液，加⼊2 滴0.5%荧光⻩的⼄醇溶液和⼀滴稀 NaOH 溶液，再加 2 mL 0.5%淀粉溶液，⽤ 0.1036 mol L−1 $\\mathrm { A g N O _ { 3 } }$ 溶液滴定（反应1）⾄出现粉红⾊，消耗19.52 mL； $\\mathrm { C u ^ { 2 + } }$ 分析：移取 25.00 mL 溶液，加⼊ 1 mol L−1 H $\\mathrm { _ { 2 S O _ { 4 } } }$ 溶液5mL，再加固体 KI 1.5 g，混匀并放置（反应 2），⽤ 0.02864 mol L−1 $\\mathrm { N a _ { 2 } S _ { 2 } O _ { 3 } }$ 溶液滴定（反应3）⾄棕⾊较浅时加⼊2mL0.5%淀粉溶液，继续滴⾄蓝紫⾊恰好消失，消耗17.65 mL。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000199-01",
+      "label": "2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出反应1-3的⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000199-02",
+      "label": "2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "通过计算确定 A 中�和�的值（NH_{4}Cl 式量 53.49， $\\mathrm { C u C l _ { 2 } }$ 式量 134.5）。"
+        }
+      ]
+    }
+  ]
+}

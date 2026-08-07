@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000301",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "羟胺亚硝酸同位素示踪",
+  "number": "2",
+  "examYear": 2007,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000038",
+    "sourceLabel": "2007-21-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2007-21-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "A、B脱⽔都能形成 $\\mathrm { N } _ { 2 } \\mathrm { O } _ { 3 }$ ，由A得到 $\\mathrm { N } ^ { \\ast } \\mathrm { N O }$ 和 $\\mathrm { N N ^ { \\star } O }$ ，⽽由B只得到 $\\mathrm { N N ^ { \\star } O _ { c } }$ 。请分别写出A和B的路易斯结构式。"
+    }
+  ]
+}

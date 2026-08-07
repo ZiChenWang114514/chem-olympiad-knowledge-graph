@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000377",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "晶体结构与晶胞",
+  "number": "5",
+  "examYear": 2011,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000042",
+    "sourceLabel": "2011-25-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2011-25-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000377-01",
+      "label": "5-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A是紫红⾊晶体，分⼦量925.23，抗磁性。它通过 $\\mathrm { R h C l _ { 3 } } { \\cdot } 3 \\mathrm { H _ { 2 } O }$ 和过量三苯膦 $\\left( \\mathrm { P P h } _ { 3 } \\right)$ 的⼄醇溶液回流制得。画出A的⽴体结构。"
+        }
+      ]
+    },
+    {
+      "id": "part-000377-02",
+      "label": "5-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A可能的催化机理如下图所⽰（图中16e表⽰中⼼原⼦周围总共有16个电⼦）："
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "画出 D 的结构式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000377-03",
+      "label": "5-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "确定图中所有配合物的中⼼原⼦的氧化态。"
+        }
+      ]
+    },
+    {
+      "id": "part-000377-04",
+      "label": "5-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "确定A、C、D和E的中⼼离⼦的杂化轨道类型。"
+        }
+      ]
+    },
+    {
+      "id": "part-000377-05",
+      "label": "5-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "⽤配合物的价键理论推测C和E显顺磁性还是抗磁性，说明理由。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000363",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "化学反应与结构综合分析",
+  "number": "9",
+  "examYear": 2010,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000041",
+    "sourceLabel": "2010-24-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2010-24-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000363-01",
+      "label": "9-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出下列转换中A、B、C和D的结构简式（不要求标出⼿性）。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "benzene：苯；reflux：回流；ether：醚"
+        }
+      ]
+    },
+    {
+      "id": "part-000363-02",
+      "label": "9-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出下列两个转换中产物1、2和3的结构简式，并简述在相同条件下反应，对羟基苯甲醛只得到⼀种产物，⽽间羟基苯甲醛却得到两种产物的原因。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "acetone：丙酮"
+        }
+      ]
+    }
+  ]
+}

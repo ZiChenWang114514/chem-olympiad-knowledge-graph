@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000302",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "氯化镁层状晶体",
+  "number": "3",
+  "examYear": 2007,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000038",
+    "sourceLabel": "2007-21-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2007-21-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000302-01",
+      "label": "3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "以□表⽰空层，A、B、C表⽰Cl−离⼦层，a、b、c表⽰ $\\mathrm { M g ^ { 2 + } }$ 离⼦层，给出三⽅层型结构的堆积⽅式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000302-02",
+      "label": "3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算⼀个六⽅晶胞中 $\\mathrm { M g C l _ { 2 } }$ 的单元数。"
+        }
+      ]
+    },
+    {
+      "id": "part-000302-03",
+      "label": "3-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "假定将该晶体中所有⼋⾯体空隙皆填满 $\\mathrm { M g ^ { 2 + } }$ 离⼦，将是哪种晶体结构类型？"
+        }
+      ]
+    }
+  ]
+}

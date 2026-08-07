@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000015",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "固体电解质相变结构",
+  "number": "4",
+  "examYear": 2016,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000050",
+    "sourceLabel": "2016-30-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2016-30-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "（图：）\n高温相"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）\n低温相"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000015-01",
+      "label": "4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "推出这种电解质的化学式，写出�和�的值。"
+        }
+      ]
+    },
+    {
+      "id": "part-000015-02",
+      "label": "4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "温度变化会导致晶体在⽴⽅晶系和四⽅晶系之间转换，上述哪种晶相属于⽴⽅晶系？"
+        }
+      ]
+    },
+    {
+      "id": "part-000015-03",
+      "label": "4-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出负离⼦的堆积⽅式及形成的空隙类型。指出正离⼦占据的空隙类型及占有率。"
+        }
+      ]
+    },
+    {
+      "id": "part-000015-04",
+      "label": "4-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "⾼温相具有良好的离⼦导电性，这源于哪种离⼦的迁移？简述导电性与结构的关系。"
+        }
+      ]
+    }
+  ]
+}

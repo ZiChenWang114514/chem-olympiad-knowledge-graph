@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000052",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "双膜电解与乙酸盐电解",
+  "number": "4",
+  "examYear": 2018,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000052",
+    "sourceLabel": "2018-32-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2018-32-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000052-01",
+      "label": "4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "利⽤双离⼦交换膜电解法可以从含硝酸氨的⼯业废⽔中⽣产硝酸和氨。"
+        }
+      ]
+    },
+    {
+      "id": "part-000052-02",
+      "label": "4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 阳极室得到的是哪种物质？写出阳极半反应⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000052-03",
+      "label": "4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 阴极室得到的是哪种物质？写出阴极半反应及获得相应物质的⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000052-04",
+      "label": "4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "电解⼄酸钠⽔溶液，在阳极收集到X和Y的混合⽓体。⽓体通过新制的澄清⽯灰⽔，X被完全吸收，得到⽩⾊沉淀。纯净的⽓体Y冷却到90.23K，析出⽆⾊晶体，X射线衍射表明，该晶体属⽴⽅晶系，体⼼⽴⽅点阵，晶胞参数� = 530.4 pm，� = 2，密度 $\\rho _ { \\mathrm { \\ell } } = 0 . 6 6 9 \\mathrm { g c m ^ { - 3 } }$ 。继续冷却，晶体转换为单斜晶体， $a = 4 2 2 . 6$ pm， $b = 5 6 2 . 3 \\mathrm { p m }$ $c = 5 8 4 . 5 \\mathrm { p m }$ $\\beta = 9 0 . 4 1 ^ { \\circ } .$"
+        }
+      ]
+    },
+    {
+      "id": "part-000052-05",
+      "label": "4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 写出X的化学式；写出X与⽯灰⽔反应的⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000052-06",
+      "label": "4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 通过计算推出Y的化学式（Y分⼦中存在三次旋转轴）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000052-07",
+      "label": "4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-3 写出点解⼄酸钠⽔溶液时阳极板反应的⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000052-08",
+      "label": "4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-4 写出单斜晶系的晶胞中Y分⼦的数⽬。"
+        }
+      ]
+    },
+    {
+      "id": "part-000052-09",
+      "label": "4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-5 降温过程中晶体转换为对称性较低的单斜晶体，简述原因。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000290",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "磷化硼晶体结构",
+  "number": "11",
+  "examYear": 2006,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000037",
+    "sourceLabel": "2006-20-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2006-20-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000290-01",
+      "label": "11-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出合成磷化硼的化学反应⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000290-02",
+      "label": "11-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "分别画出三溴化硼分⼦和三溴化磷分⼦的结构。"
+        }
+      ]
+    },
+    {
+      "id": "part-000290-03",
+      "label": "11-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "磷化硼晶体中磷原⼦作⽴⽅最密堆积，硼原⼦填⼊四⾯体空隙中。画出磷化硼的正当晶胞⽰意图。"
+        }
+      ]
+    },
+    {
+      "id": "part-000290-04",
+      "label": "11-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "已知磷化硼的晶胞参数 $\\dot { a } = 4 7 8 \\mathrm { p m }$ ，计算晶体中硼原⼦和磷原⼦的核间距。"
+        }
+      ]
+    },
+    {
+      "id": "part-000290-05",
+      "label": "11-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出磷化硼正当晶胞沿着体对⻆线⽅向的投影（⽤实线圆圈表⽰P原⼦的投影，⽤虚线圆圈表⽰B原⼦的投影）。"
+        }
+      ]
+    }
+  ]
+}

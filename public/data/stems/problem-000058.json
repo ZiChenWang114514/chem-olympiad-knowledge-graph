@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000058",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "四π电环化反应",
+  "number": "10",
+  "examYear": 2018,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000052",
+    "sourceLabel": "2018-32-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2018-32-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "根据以上信息，画出下列反应主要产物的结构简式（产物指经后处理得到的化合物）。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000058-01",
+      "label": "10-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000058-02",
+      "label": "10-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000058-03",
+      "label": "10-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000058-04",
+      "label": "10-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "涉及的缩写：�-Pr：正丙基、�-Pr异丙基 提⽰： $\\mathrm { { A l C l } _ { 3 } }$ 和 $\\mathrm { T i C l _ { 4 } }$ 为 Lewis 酸"
+        }
+      ]
+    },
+    {
+      "id": "part-000058-05",
+      "label": "10-5",
+      "blocks": []
+    }
+  ]
+}

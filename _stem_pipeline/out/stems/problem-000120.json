@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000120",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "含磷小分子反应",
+  "number": "9",
+  "examYear": 2021,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000057",
+    "sourceLabel": "2021-35-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2021-35-CChO-chusai-jiangsu/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000120-01",
+      "label": "9-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 已知2-萘酚与碘甲烷和对甲苯磺酸甲酯在碱性条件下反应情况如下，请分析原因。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000120-02",
+      "label": "9-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 请画出以下反应中G和H的结构简式（需画出产物的⽴体结构）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000120-03",
+      "label": "9-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 环戊酮与2-叠氮基⼄醇能够发⽣如下的反应，⽽环戊酮与2-甲氧基⼄基叠氮化物却不发⽣反应，请画出以下转化过程中必定经过的四个关键中间体。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000120-04",
+      "label": "9-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 参照上述转化，画出以下反应主要产物J的结构简式。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    }
+  ]
+}

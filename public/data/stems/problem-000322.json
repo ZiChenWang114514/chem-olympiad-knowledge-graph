@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000322",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "水合碳酸钙晶体",
+  "number": "5",
+  "examYear": 2008,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000039",
+    "sourceLabel": "2008-22-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2008-22-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000322-01",
+      "label": "5-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "通过计算得出这种晶体的化学式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000322-02",
+      "label": "5-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "研究了这种晶体在加压下受热膨胀体积增⼤的情形，并与冰及钙离⼦配位数也是8的⼆⽔合⽯膏晶体(gypsum)作了对⽐，结果如下图所⽰（纵坐标为相对体积）："
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "为什么选取冰和⼆⽔合⽯膏作对⽐？实验结果说明什么？"
+        }
+      ]
+    },
+    {
+      "id": "part-000322-03",
+      "label": "5-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "这种晶体属于哪种类型的晶体？简述理由。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000067",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "配位化学与氧化态",
+  "number": "1",
+  "examYear": 2019,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000053",
+    "sourceLabel": "2019-33-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2019-33-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000067-01",
+      "label": "1-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "利⽤不同的催化剂，⼄烯催化氧化可选择性地⽣成不同产物。产物A可使⽯灰⽔变浑浊。写出与A相对分⼦质量相等的其他所有产物的分⼦式和结构简式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000067-02",
+      "label": "1-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "化合物 $\\mathrm { C s A u C l _ { 3 } }$ 呈抗磁性。每个Cs+周围有12个Cl−离⼦，每个Cl−离⼦周围有5个⾦属离⼦。⾦离⼦处在Cl−围成的配位中⼼（也是对称中⼼）。写出该化合物中Au的氧化态及其对应的配位⼏何构型。"
+        }
+      ]
+    },
+    {
+      "id": "part-000067-03",
+      "label": "1-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "2019年1⽉，嫦娥四号成功在⽉球着陆。探测器上的五星红旗由⼀类特殊的聚酰亚胺制成。以下为某种芳⾹族聚酰亚胺的合成路线："
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "画出A、B、C的结构简式。"
+        }
+      ]
+    }
+  ]
+}

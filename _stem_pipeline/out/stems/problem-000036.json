@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000036",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "钌配合物与钌红结构",
+  "number": "6",
+  "examYear": 2017,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000051",
+    "sourceLabel": "2017-31-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2017-31-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000036-01",
+      "label": "6-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "研究者制得⼀种含混合配体的Ru(II)配合物 $\\mathrm { R u ( b p y ) } _ { n } ( \\mathrm { p h e n } ) _ { 3 - n } ] ( \\mathrm { C l O } _ { 4 } ) _ { 2 }$ （配体结构如下图）。元素分析结果给出C、H、N的质量分数分别为48.38%、3.06%、10.54%。磁性测量表明该配合物呈抗磁性。"
+        }
+      ]
+    },
+    {
+      "id": "part-000036-02",
+      "label": "6-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 推算配合物化学式中的�值。"
+        }
+      ]
+    },
+    {
+      "id": "part-000036-03",
+      "label": "6-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 写出中⼼钌原⼦的杂化轨道类型。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）\nbpy"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）\nphen"
+        }
+      ]
+    },
+    {
+      "id": "part-000036-04",
+      "label": "6-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "利⽤显微镜观察⽣物样品时，常⽤到⼀种被称为“钌红”的染⾊剂。钌红的化学式为"
+        },
+        {
+          "type": "paragraph",
+          "text": "$\\mathrm { [ R u _ { 3 } O _ { 2 } ( N H _ { 3 } ) _ { 1 4 } ] C l _ { 6 } }$ ，由 $\\mathrm { [ R u ( N H _ { 3 } ) _ { 6 } ] C l _ { 3 } }$ 的氨⽔溶液暴露在空⽓中形成。钌红阳离⼦中三个钌原⼦均为6配位且⽆⾦属-⾦属键。"
+        }
+      ]
+    },
+    {
+      "id": "part-000036-05",
+      "label": "6-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 写出⽣成钌红阳离⼦的反应⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000036-06",
+      "label": "6-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 画出钌红阳离⼦的结构式并标出每个钌的氧化态。"
+        }
+      ]
+    },
+    {
+      "id": "part-000036-07",
+      "label": "6-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-3 写出钌红阳离⼦中桥键原⼦的杂化轨道类型。"
+        }
+      ]
+    },
+    {
+      "id": "part-000036-08",
+      "label": "6-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-4 经测定，钌红阳离⼦中Ru—O键⻓为187pm，远⼩于其单键键⻓。对此，研究者解释为：在中⼼原⼦和桥键原⼦间形成了两套由�和�轨道重叠形成的多中⼼π键。画出多中⼼π键的原⼦轨道重叠⽰意图。"
+        }
+      ]
+    }
+  ]
+}

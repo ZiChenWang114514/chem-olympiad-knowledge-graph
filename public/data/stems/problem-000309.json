@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000309",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "氰尿酸氯化消毒剂",
+  "number": "10",
+  "examYear": 2007,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000038",
+    "sourceLabel": "2007-21-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2007-21-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000309-01",
+      "label": "10-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出化合物A的阴离⼦的结构式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000309-02",
+      "label": "10-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出化合物B的结构式并写出它与⽔反应的化学⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000309-03",
+      "label": "10-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "化合物C有⼀个互变异构体，给出C及其互变异构体的结构式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000309-04",
+      "label": "10-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出上述尿素受热发⽣反应的配平⽅程式。"
+        }
+      ]
+    }
+  ]
+}

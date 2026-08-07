@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000296",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "硝酸铵晶型相图",
+  "number": "5",
+  "examYear": 2006,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000001",
+    "sourceLabel": "2006-20-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2006-20-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000296-01",
+      "label": "5-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "若两种晶型平衡共存的温度�和压⼒�呈线性关系，计算三种晶型同时平衡共存的温度和压⼒。"
+        }
+      ]
+    },
+    {
+      "id": "part-000296-02",
+      "label": "5-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "求在三相点由晶型I直接转化为晶型Ⅲ过程的摩尔焓变和摩尔熵变。"
+        }
+      ]
+    },
+    {
+      "id": "part-000296-03",
+      "label": "5-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "根据计算，在 $_ { . } { P - } T$ 坐标图 $( P \\mathbb { H } P ^ { \\ominus }$ 表⽰，�⽤K表⽰）上粗略绘出硝酸铵体系的相图，并标明各相区的相态。"
+        }
+      ]
+    }
+  ]
+}

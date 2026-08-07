@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000299",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "天然产物结构推断",
+  "number": "8",
+  "examYear": 2006,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000001",
+    "sourceLabel": "2006-20-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2006-20-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000299-01",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "化合物 A $\\left( \\mathrm { C _ { 1 0 } H _ { 1 2 } O _ { 3 } } \\right)$ 具有旋光性，能溶于 $\\mathrm { N a H C O _ { 3 } }$ ⽔溶液，并可起碘仿反应。将A加热的化合物B，B⽆旋光性，也能溶于 $\\mathrm { N a H C O _ { 3 } }$ ⽔溶液。B经臭氧化，并在Zn粉和醋酸存在下分解得化合物C和D，C可进⾏碘仿反应。D加强热放出 $\\mathrm { C O _ { 2 } }$ ，并得化合物 $\\mathrm { E \\left( C _ { 7 } H _ { 6 } O \\right) }$ ，E可进⾏银镜反应，试写出A、B、C、D、E的结构式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000299-02",
+      "label": "8-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "根据以下反应路线推导F、G、H、I的结构式。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    }
+  ]
+}

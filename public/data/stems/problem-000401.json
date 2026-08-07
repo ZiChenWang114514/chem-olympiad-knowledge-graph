@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000401",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "化学反应与结构综合分析",
+  "number": "11",
+  "examYear": 2012,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000046",
+    "sourceLabel": "2012-26-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2012-26-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000401-01",
+      "label": "11-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "烯烃羟汞化反应的过程与烯烃的溴化相似。现有如下两个反应："
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\n\\mathrm{CH} _ {2} \\xrightarrow [ 2 . \\mathrm{NaBH} _ {4} , \\mathrm{HO} ^ {-} ]{1 . \\mathrm{Hg(OAc)} _ {2} , \\mathrm{THF/H} _ {2} \\mathrm{O}} \\mathrm{A}\n$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "4-戊烯-1-醇在相同条件下反应的主要产物为B。画出化合物A和B的结构简式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000401-02",
+      "label": "11-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "下列有机化合物中具有芳⾹性的是："
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": ""
+        },
+        {
+          "type": "paragraph",
+          "text": ""
+        },
+        {
+          "type": "paragraph",
+          "text": ""
+        },
+        {
+          "type": "paragraph",
+          "text": "化合物A经过如下两步反应后⽣成化合物D，回答如下问题："
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000401-03",
+      "label": "11-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出物质B的名称。"
+        },
+        {
+          "type": "paragraph",
+          "text": "C"
+        }
+      ]
+    },
+    {
+      "id": "part-000401-04",
+      "label": "11-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "圈出C中来⾃原料A中的氧原⼦。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000401-05",
+      "label": "11-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出物质D的结构简式。"
+        }
+      ]
+    }
+  ]
+}

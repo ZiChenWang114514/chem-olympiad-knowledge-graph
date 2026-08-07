@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000033",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "金属盐热分析与分解",
+  "number": "3",
+  "examYear": 2017,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000051",
+    "sourceLabel": "2017-31-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2017-31-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000033-01",
+      "label": "3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "通过计算，指出M是哪种⾦属，确定A的化学式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000033-02",
+      "label": "3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出A在空⽓中热解的反应⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000033-03",
+      "label": "3-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "通过计算，确定B在 $\\mathrm { N } _ { 2 }$ ⽓氛中失重后的产物及产物的定量组成（⽤摩尔分数表⽰）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000033-04",
+      "label": "3-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出B在氮⽓⽓氛中分解的反应⽅程式。"
+        }
+      ]
+    }
+  ]
+}

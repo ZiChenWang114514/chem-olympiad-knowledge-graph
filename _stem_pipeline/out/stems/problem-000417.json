@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000417",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "氮化物与叠氮化物",
+  "number": "1",
+  "examYear": 2013,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000008",
+    "sourceLabel": "2013-27-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2013-27-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000417-01",
+      "label": "1-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "$\\mathrm { N a N _ { 3 } }$ 受热产⽣⽓体，写出反应⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000417-02",
+      "label": "1-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在⼆元氮化物 $\\mathrm { C a _ { 3 } N _ { 2 } } ,$ 、GaN 和 $\\mathrm { G e _ { 3 } N _ { 4 } }$ 结构中，⾦属与氮采⽤四⾯体配位⽅式，N原⼦只有⼀种化学环境，写出这3种氮化物中N的配位数。"
+        }
+      ]
+    },
+    {
+      "id": "part-000417-03",
+      "label": "1-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "$\\mathrm { P _ { 3 } N _ { 5 } }$ 晶体结构中，P的配位数为4，指出N有⼏种配位⽅式、配位数和不同配位⽅式的N的⽐例。"
+        }
+      ]
+    },
+    {
+      "id": "part-000417-04",
+      "label": "1-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "$\\mathrm { C a } ( \\mathrm { N } _ { 3 } ) _ { 2 }$ _{2}中，Ca 与 $\\mathrm { N _ { 3 } } ^ { - }$ −中两端的N相连接，Ca的配位数为 $^ { 8 , }$ ，指出 $\\mathrm { N _ { 3 } } ^ { - }$ −两端的N与⼏个Ca相连。"
+        }
+      ]
+    }
+  ]
+}

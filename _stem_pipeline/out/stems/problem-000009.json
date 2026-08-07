@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000009",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "砷化学与伪金制备",
+  "number": "Q1",
+  "examYear": 2025,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000063",
+    "sourceLabel": "2025-39-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2025-39-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "1. 计算过程，列出公式后，先代入数值，然后给出答案；代入数值时，可以不写单位，最后在答案后给出单位，常数，如 $R$ 、 $N_{\\mathrm{A}}$ 、 $\\pi$ 等可以用符号代替；"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000452",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "土壤腐殖质重铬酸测定",
+  "number": "4",
+  "examYear": 2015,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000049",
+    "sourceLabel": "2015-29-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2015-29-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000452-01",
+      "label": "4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出在酸性介质中 $\\mathrm { K _ { 2 } C r _ { 2 } O _ { 7 } }$ 将碳氧化为 $\\mathrm { { C O } _ { 2 } }$ 的⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000452-02",
+      "label": "4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出硫酸亚铁铵滴定过程的⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000452-03",
+      "label": "4-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算⼟壤中腐殖质的质量分数。"
+        }
+      ]
+    }
+  ]
+}

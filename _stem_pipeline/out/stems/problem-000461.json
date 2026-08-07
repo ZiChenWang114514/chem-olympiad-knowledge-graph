@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000461",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "银氨配合物电化学",
+  "number": "2",
+  "examYear": 2015,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000010",
+    "sourceLabel": "2015-29-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2015-29-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "将银电极插⼊298 K的 $\\mathrm { 1 . 0 0 0 \\times 1 0 ^ { - 1 } m o l L ^ { - 1 } N H _ { 4 } N O _ { 3 } }$ 和 $1 . 0 0 0 \\times 1 0 ^ { - 3 } \\mathrm { m o l }$ L−1 $\\mathrm { A g N O _ { 3 } }$ 混合溶液中，测得其电极电势 $\\varphi _ { \\mathrm { A g } ^ { + } / \\mathrm { A g } }$ 随溶液pH的变化如下图所⽰："
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "已知氨⽔的解离常数 $K _ { b } _ { \\mathrm { \\Delta } b } _ { \\mathrm { \\Delta } } = 1 . 7 8 0 \\times 1 0 ^ { - 5 }$ ，理想⽓体常数 $R = 8 . 3 1 4 \\mathrm { J } \\mathrm { m o l } ^ { - 1 } \\mathrm { K } ^ { - 1 }$ ，法拉第常数 $F = 9 6 5 0 0 \\mathrm { C }$ $\\mathrm { m o l ^ { - 1 } c }$"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000461-01",
+      "label": "2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算298 K中银电极的标准电极电势 $\\varphi _ { \\mathrm { A g ^ { + } / A g ^ { \\circ } } } ^ { \\ominus }$"
+        }
+      ]
+    },
+    {
+      "id": "part-000461-02",
+      "label": "2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算银氨配合物离⼦的逐级稳定常数 $K _ { 1 } ^ { \\ominus }$ 和 $K _ { 2 } ^ { \\ominus }$"
+        }
+      ]
+    },
+    {
+      "id": "part-000461-03",
+      "label": "2-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "利⽤银离⼦的配合反应设计⼀个原电池，其电池反应⽅程式为："
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\n\\mathrm{Ag} ^ {+} (\\mathrm{aq}) + 2 \\mathrm{NH} _ {3} (\\mathrm{aq}) \\rightarrow \\mathrm{Ag} (\\mathrm{NH} _ {3}) _ {2} ^ {+} (\\mathrm{aq})\n$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "计算该原电池的标准电动势。若未能算出银氨配合物离⼦⼀、⼆级逐级标准稳定常数，可假设都是 $1 . 0 0 \\times 1 0 ^ { 3 } s$ O第3题（12分）"
+        },
+        {
+          "type": "paragraph",
+          "text": "$\\mathrm { C u O }$ 和 $\\mathrm { B a ( N O _ { 3 } ) _ { 2 } }$ 以摩尔⽐ 1:1 混合，加热溶解于稀硝酸中，将获得溶液进⾏喷雾冷冻成⼩颗粒，并低温⼲燥，⼲燥后物质移⼊铂坩埚中，在 $1 . 0 \\times 1 0 ^ { 5 } \\mathrm { P a }$ 的氧⽓中加热⾄ $6 2 0 ^ { \\circ } \\mathrm { C } ,$ ，并保温18⼩时，获得固体物质A和B的混合物，分离得到物质A和 $\\mathbf { B } _ { \\circ }$"
+        },
+        {
+          "type": "paragraph",
+          "text": "元素和结构分析表明，物质A由Ba，Cu，O三种元素组成，Cu原⼦位于由O原⼦构成的四边形的中⼼，四边形通过共棱组成⼀维的铜氧链，Ba 位于链之间。将 1.00 克 A 与⾜量碘化钾混合，在氩⽓⽓氛下滴⼊ 3 M盐酸，直⾄固体完全溶解，得到溶液S（反应式1）。溶液S加⽔稀释，得到⽩⾊固体沉淀C（反应式2）溶液S加⼊少量淀粉，得到蓝⾊溶液，⽤0.100 M硫代硫酸钠溶液滴定，消耗44.54 mL（反应式3）。若A先⽤盐酸溶解（反应式4），再滴⼊碘化钾溶液（反应式5），直接得到含有沉淀C的溶液，该溶液⽤0.100M硫代硫酸钠溶液滴定，消耗26.72 mL。"
+        },
+        {
+          "type": "paragraph",
+          "text": "物质B在20%氧⽓ $+ 8 0 \\%$ 氮⽓混合⽓氛保护下缓慢加热⾄ $8 2 0 ^ { \\circ } \\mathrm { C } .$ ，失重 9.45%（反应式 6），得到物质D，⽽缓慢降温⾄ $4 0 0 ^ { \\circ } \\mathrm { C }$ 后，⼜恢复到原重量。"
+        },
+        {
+          "type": "paragraph",
+          "text": "原⼦量：Ba: 137.33，Cu: 63.55，O: 16.00"
+        }
+      ]
+    },
+    {
+      "id": "part-000461-04",
+      "label": "3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出A，B，C和D的化学式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000461-05",
+      "label": "3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出反应的反应⽅程式（溶液中反应必须⽤离⼦⽅程式表⽰）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000461-06",
+      "label": "3-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在上述滴定实验中，⽤硫代硫酸钠溶液滴定到接近终点时，常加⼊少量KSCN以提⾼测定精确度，阐明原理及必须在接近终点时才加⼊KSCN的理由。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000365",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "元素推断与化学性质",
+  "number": "11",
+  "examYear": 2010,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000041",
+    "sourceLabel": "2010-24-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2010-24-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000365-01",
+      "label": "11-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出A的分⼦式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000365-02",
+      "label": "11-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出A、B和C的结构简式（列出所有可能的答案）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000365-03",
+      "label": "11-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "简述由⼿性化合物B合成C时⼿性能否被保留下来的理由。"
+        }
+      ]
+    }
+  ]
+}

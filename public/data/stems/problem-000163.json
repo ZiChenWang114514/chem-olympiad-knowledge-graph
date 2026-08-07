@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000163",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "绿锈铁化合物转化",
+  "number": "5",
+  "examYear": 2022,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000058",
+    "sourceLabel": "2022-36-CChO-chusai-1.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2022-36-CChO-chusai-2/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "镍在化合物中的常⻅氧化数是+2，但在⼀定条件下，可制得其⾼价化合物。将KCl和 $\\mathrm { N i C l _ { 2 } }$ 按⼀定计量⽐混合与 $\\mathrm { F } _ { 2 }$ 反应， $3 0 0 ^ { \\circ } \\mathrm { C }$ 下得到紫⾊顺磁性晶体A（反应1）， $2 7 5 ^ { \\circ } \\mathrm { C }$ 下得到红⾊抗磁性晶体B（反应2）。A和B中的络离⼦均为正⼋⾯体构型。A和B遇⽔均放出氧⽓，并得到具有⾦红⽯型结构的化合物C（反应3和反应4）。若在真空下处理，A可以稳定到 $4 5 0 ^ { \\circ } \\mathrm { C } ,$ ，⽽B在 $3 5 0 ^ { \\circ } \\mathrm { C }$ 即分解（反应5），放出浅⻩⾊⽓体，固体中检出A和C且⼆者摩尔⽐为2:1。A在液态HF中发⽣歧化（反应6），产物中含B和 $\\mathbf { C } ,$ ，⽽B在液态HF中与⾜量 $\\mathrm { B F _ { 3 } }$ 发⽣反应形成红⾊沉淀（反应7）。B还可与强 Lewis 酸 $\\mathrm { B i F } _ { 5 }$ 混合形成固体推进剂，引发后放出浅⻩⾊⽓体（反应8）。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000163-01",
+      "label": "5-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出A的化学式和磁矩（单位： $\\mu _ { \\mathrm { B } } )$ ）。写出B的化学式及其中镍离⼦价层电⼦组态（要求：⽤$\\mathrm { t _ { 2 g } } ^ { x } \\mathrm { e g } ^ { y }$ ⽅式表⽰，�和�分别代表电⼦数）。（提⽰：A和B中络离⼦的晶体场分裂能近似相等。）5-2 写出反应1\\~8的反应⽅程式并配平。"
+        }
+      ]
+    }
+  ]
+}

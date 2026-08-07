@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000114",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "配位化学与氧化态",
+  "number": "3",
+  "examYear": 2021,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000057",
+    "sourceLabel": "2021-35-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2021-35-CChO-chusai-jiangsu/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "磷的混合⻧化物在药物合成、阻燃等领域有⼴泛应⽤。某磷的混合⻧化物M中磷的质量百分含量为19.49%，其熔、沸点分别为 148.2 K 和 290.2 K，在 $\\mathrm { C H _ { 3 } C N }$ 中的导电能⼒很弱。M很容易转化为⽩⾊固体N，N是共价型离⼦化合物，在 $\\mathrm { C H _ { 3 } C N }$ 中的导电能⼒很强，303 K下升华并部分转化为M。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000114-01",
+      "label": "3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "通过计算和分析，确定M的化学式，并画出M的结构，在图上标注中⼼原⼦的杂化⽅式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000114-02",
+      "label": "3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出N的结构，在图上标注中⼼原⼦的杂化⽅式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000114-03",
+      "label": "3-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出N的阳离⼦中所有的对称元素的种类和数量。"
+        }
+      ]
+    }
+  ]
+}

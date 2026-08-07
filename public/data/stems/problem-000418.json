@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000418",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "光合作用锰氧簇",
+  "number": "2",
+  "examYear": 2013,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000008",
+    "sourceLabel": "2013-27-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2013-27-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "$$\n6 \\mathrm{CO} _ {2} + 6 \\mathrm{H} _ {2} \\mathrm{O} \\rightarrow \\mathrm{C} _ {6} \\mathrm{H} _ {1 2} \\mathrm{O} _ {6} + 6 \\mathrm{O} _ {2}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "实际反应分多步进⾏。其中，⽔的氧化过程是⼀个重要环节，此过程在光系统II（简称PSII）中发⽣，使⽔氧化的活性中⼼是含有4个锰原⼦的配位簇（称为锰氧簇）。初始状态的锰氧簇(S0)在光照下依次失去电⼦变为S1、S2、S3 和 S4 氧化 $\\mathrm { H _ { 2 } O }$ ⽣成 $\\mathrm { O } _ { 2 \\circ }$ 。该过程简⽰如下："
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000418-01",
+      "label": "2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "光合作⽤中，⽔的氧化是⼏个电⼦转移的过程？"
+        }
+      ]
+    },
+    {
+      "id": "part-000418-02",
+      "label": "2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "$2 5 ~ ^ { \\circ } \\mathrm { C } .$ ，标态下，下列电极反应的电极电势分别为"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\n\\begin{array}{l l}\\text {(a) MnO_ {4} ^ {3 - } + 4 H^ {+} + e^ {-} \\rightarrow MnO_ {2} + 2 H_ {2} O}&E ^ {\\ominus} = 2. 9 0 \\mathrm{V}\\\\\\text {(b) MnO_ {2} + 4 H^ {+} + e^ {-} \\rightarrow Mn^ {3 +} + 2 H_ {2} O}&E ^ {\\ominus} = 0. 9 5 \\mathrm{V}\\\\\\text {(c) O_ {2} + 4 H^ {+} + 4 e^ {-} \\rightarrow 2 H_ {2} O}&E ^ {\\ominus} = 1. 2 3 \\mathrm{V}\\end{array}\n$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "计算上述半反应在中性条件下的电极电势。假定 $\\mathrm { M n O _ { 4 } { } ^ { 3 \\cdot } }$ −和Mn3+的浓度均为0.10 mol L−1，氧分压等于其在空⽓中的分压。回答此条件下 $\\mathrm { M n O } _ { 4 } { } ^ { 3 - }$ 和 $\\mathrm { M n O _ { 2 } }$ 能否氧化⽔。"
+        }
+      ]
+    },
+    {
+      "id": "part-000418-03",
+      "label": "2-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在模拟锰氧簇的⼈⼯光合作⽤研究中，研究者注意到如下Mn(III)/Mn(II)体系(25 °C)："
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\nE ^ {\\ominus} = 1. 5 1 \\mathrm{V}\n$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\n\\mathrm{在} [ \\mathrm {H_ {2} P_ {2} O_ {7}} ^ {2 -} ] = 0. 4 0 \\mathrm{mol} \\mathrm{L} ^ {- 1}, [ \\mathrm {Mn(H_ {2} P_ {2} O_ {7}) _ {3}} ^ {3 -} ] = [ \\mathrm {Mn(H_ {2} P_ {2} O_ {7}) _ {2}} ^ {2 -} ] \\text {的溶液中:}\n$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\n\\mathrm{(e)} \\mathrm{Mn} (\\mathrm{H} _ {2} \\mathrm{P} _ {2} \\mathrm{O} _ {7}) _ {3} ^ {3 -} + 2 \\mathrm{H} ^ {+} + \\mathrm{e} ^ {-} \\rightarrow \\mathrm{Mn} (\\mathrm{H} _ {2} \\mathrm{P} _ {2} \\mathrm{O} _ {7}) _ {2} ^ {2 -} + \\mathrm{H} _ {4} \\mathrm{P} _ {2} \\mathrm{O} _ {7} \\quad E = 1. 1 5 \\mathrm{V}\n$$"
+        }
+      ]
+    },
+    {
+      "id": "part-000418-04",
+      "label": "2-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 计算e)中的半反应的标准电极电势。 $\\mathrm { ( H _ { 4 } P _ { 2 } O _ { 7 } }$ 的酸解离解常数： $K _ { a 1 } \\ = 1 . 2 { \\times } 1 0 ^ { - 1 } , K _ { a 2 } \\ = 7 . 9 { \\times } 1 0 ^ { - 3 }$"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\nK _ {a 3} = 2. 0 \\times 1 0 ^ {- 7}, K _ {a 4} = 4. 5 \\times 1 0 ^ {- 1 0})\n$$"
+        }
+      ]
+    },
+    {
+      "id": "part-000418-05",
+      "label": "2-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 计算 $\\mathrm { M n ( H _ { 2 } P _ { 2 } O _ { 7 } ) _ { 2 } } ^ { 2 - }$ −和 $\\mathrm { M n ( H _ { 2 } P _ { 2 } O _ { 7 } ) _ { 3 } } ^ { 3 }$ −的稳定常数之⽐。"
+        }
+      ]
+    }
+  ]
+}

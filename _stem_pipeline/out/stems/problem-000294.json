@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000294",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "无机高分子絮凝剂",
+  "number": "3",
+  "examYear": 2006,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000001",
+    "sourceLabel": "2006-20-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2006-20-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000294-01",
+      "label": "3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "⼤多数⾦属离⼦都能⽣成多核⽔解产物。铁盐溶于⽔后⽣成⽔合铁(Ⅲ)离⼦，当溶液pH升⾼时发⽣⽔解，⾸先⽣成⻩⾊的⽔解产物[ $\\mathrm { F e O H ( H _ { 2 } O _ { 5 } ) ] ^ { 2 } }$ +，写出⽔解反应⽅程式"
+        }
+      ]
+    },
+    {
+      "id": "part-000294-02",
+      "label": "3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "⽔解时发⽣聚合，写出 $\\mathrm { F e O H ( H _ { 2 } O _ { 5 } ) }$ ]2+聚合为⼆聚体（⽤结构式表⽰）的化学反应⽅程式。写出当溶液碱化度 $\\mathrm { ( [ O H ] / [ F e ] ) }$ 为2.0时形成的链状多聚物的结构式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000294-03",
+      "label": "3-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "聚合氯化铝(PAC)通式为 $\\smash { [ ( \\mathrm { A l } _ { 2 } ( \\mathrm { O H } ) _ { n } \\mathrm { C l } _ { 6 - n } ) _ { m } }$ ，是⽆机⾼分⼦絮凝剂，它可⽤软铝矿（主要成分"
+        },
+        {
+          "type": "paragraph",
+          "text": "$\\mathrm { A l _ { 2 } O _ { 3 } { \\cdot } H _ { 2 } O ) }$ 为原料通过酸溶法制备。其主要制备过程是：将经过焙烧的矿粉移⼊反应釜，加⼊适量盐酸溶解；⽤碱调⾼ pH，得到 $\\mathrm { \\small { [ A l ( O H ) _ { 2 } ( H _ { 2 } O ) _ { 4 } ] C l } }$ ；分成两份，将其中⼀份⽤氨⽔中和得到凝胶；将此凝胶溶于另⼀份溶液，pH调⾼⾄4，充分反应，即可制得 $\\mathrm { P A C } _ { \\circ }$ 写出制备过程的化学反应⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000294-04",
+      "label": "3-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "聚合氯化铝(PAC)中存在⼀种三聚体，由三个铝氧⼋⾯体构成，其中三个⼋⾯体共⽤的顶点数为1，每两个⼋⾯体共⽤的顶点数为2。不标原⼦，⽤短线为⼋⾯体的棱，画出这种三聚体的空间构型图。"
+        }
+      ]
+    }
+  ]
+}

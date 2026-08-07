@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000305",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "弱酸两相分配平衡",
+  "number": "6",
+  "examYear": 2007,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000038",
+    "sourceLabel": "2007-21-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2007-21-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000305-01",
+      "label": "6-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算⽔相中各物种的浓度及 $\\mathrm { p H _ { c } }$"
+        }
+      ]
+    },
+    {
+      "id": "part-000305-02",
+      "label": "6-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算化合物HA在苯相中的⼆聚平衡常数。"
+        }
+      ]
+    },
+    {
+      "id": "part-000305-03",
+      "label": "6-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "已知 HA 中有苯环，1.00 g HA 含 $3 . 8 5 \\times 1 0 ^ { 2 1 }$ 个分⼦，给出HA的化学名称。"
+        }
+      ]
+    },
+    {
+      "id": "part-000305-04",
+      "label": "6-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "解释HA在苯中发⽣⼆聚的原因，画出⼆聚体的结构。"
+        }
+      ]
+    }
+  ]
+}

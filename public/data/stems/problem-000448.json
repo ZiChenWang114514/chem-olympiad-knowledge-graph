@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000448",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "喹啉三组分反应",
+  "number": "10",
+  "examYear": 2014,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000009",
+    "sourceLabel": "2014-28-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2014-28-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "喹啉、酰⻧和氰化钾三组分反应是合成喹啉衍⽣物的重要⽅法之⼀。如图所⽰："
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000448-01",
+      "label": "10-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "喹啉、苯甲酰氯、氰化钾反应⽣成中间体 B，B 在⼀定的条件下与⽔反应⽣成喹啉衍⽣物 C、另⼀个有机化合物D和⽆机化合物 $\\mathbf { E } _ { \\circ }$ 。画出B、C和D的结构简式，写出E的分⼦式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000448-02",
+      "label": "10-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "B 与 F 反应⽣成 G，G 在四丁基氰化铵(TBACN)催化下发⽣重排反应⽣成 H。画出 G 的结构简式。写出G重排⽣成H的反应机理（⽤箭头标出电⼦的流向），说明重排反应的驱动⼒。"
+        }
+      ]
+    }
+  ]
+}

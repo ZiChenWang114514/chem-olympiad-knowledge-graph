@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000362",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "分析化学定量方法",
+  "number": "8",
+  "examYear": 2010,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000041",
+    "sourceLabel": "2010-24-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2010-24-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000362-01",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算从阴极放出的氢⽓的体积。"
+        }
+      ]
+    },
+    {
+      "id": "part-000362-02",
+      "label": "8-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算电解所需的时间（以⼩时为单位）。"
+        }
+      ]
+    }
+  ]
+}

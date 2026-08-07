@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000090",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "晶体结构与晶胞",
+  "number": "6",
+  "examYear": 2020,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000054",
+    "sourceLabel": "2020-34-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2020-34-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000090-01",
+      "label": "6-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "通过计算，确定A是哪种元素。"
+        }
+      ]
+    },
+    {
+      "id": "part-000090-02",
+      "label": "6-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出B\\~F的分⼦式(或化学式)。"
+        }
+      ]
+    },
+    {
+      "id": "part-000090-03",
+      "label": "6-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出C分⼦的结构⽰意图。"
+        }
+      ]
+    },
+    {
+      "id": "part-000090-04",
+      "label": "6-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出如下反应⽅程式(要求系数为最简整数⽐)。(1) B与⽔反应；(2) C和A反应⽣成 $\\mathbf { E } _ { \\circ }$"
+        }
+      ]
+    }
+  ]
+}

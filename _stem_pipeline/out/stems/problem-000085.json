@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000085",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "聚合物合成与热力学",
+  "number": "1",
+  "examYear": 2020,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000054",
+    "sourceLabel": "2020-34-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2020-34-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000085-01",
+      "label": "1-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出⼩分⼦ $\\mathrm { C _ { 3 } F _ { 4 } }$ 可能的Lewis结构，标出三个碳原⼦成键时所采⽤的杂化轨道。"
+        }
+      ]
+    },
+    {
+      "id": "part-000085-02",
+      "label": "1-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "现有铝镁合⾦样品⼀份，称取 2.56 g 样品溶于 HCl，产⽣ 2.80 L H_{2} (101.325 kPa, $0 ~ ^ { \\circ } \\mathrm { C } )$ ，通过计算，确定此合⾦组成。"
+        }
+      ]
+    },
+    {
+      "id": "part-000085-03",
+      "label": "1-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "构筑可循环再⽣的聚合物材料是解决⽬前⽩⾊污染的有效途径之⼀。"
+        }
+      ]
+    },
+    {
+      "id": "part-000085-04",
+      "label": "1-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 通常单官能度的单体⽆法参与聚合反应中的链增⻓，但单体A可以与B发⽣反应形成聚合物。画出该聚合物的结构式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000085-05",
+      "label": "1-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 单体A、C、D按物质的量⽐例6:3:2进⾏共聚合，得到的聚合物不能进⾏热加⼯和循环利⽤；但若在共聚合时加⼊⼀定量(\\~10%)的B，得到的聚合物⼜具备了可热加⼯和循环利⽤的性能。简述原因。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "A"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "B"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "C"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "D"
+        }
+      ]
+    }
+  ]
+}

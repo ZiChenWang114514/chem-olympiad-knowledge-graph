@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000245",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "IVB族元素化合物",
+  "number": "6",
+  "examYear": 2024,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000031",
+    "sourceLabel": "2024年全国中学生化学竞赛决赛试题（第一场）.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2024年全国中学生化学竞赛决赛试题（第一场）/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "IVB 族元素包括Ti、Zr、Hf，因其独特晶体结构与催化性能备受关注。"
+    },
+    {
+      "type": "paragraph",
+      "text": "(a)\n（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）\n图 6.1 (a) A 的晶体结构；(b) B 的热重曲线"
+    },
+    {
+      "type": "paragraph",
+      "text": "由Ti、P、O构成的物质A是新一代燃料电池中质子交换膜的候选材料之一其晶胞结构如图6.1a所示。实验室制备A的方法如下：将 $\\mathrm { T i O } _ { 2 }$ 与过量 $\\mathrm { N H } _ { 4 } \\mathrm { H } _ { 2 } \\mathrm { P O } _ { 2 }$ 混合加入到样品管，在惰性气流中升温到 $3 0 0 ~ ^ { \\circ } \\mathrm { C }$ 保持2h，产物中包含一种剧毒易燃气体；将样品冷却到室温，用蒸馏水洗涤后于 $8 0 ~ ^ { \\circ } \\mathbf { C }$ 干燥得到 $\\mathbf { B } ;$ 将于燥后的固体在惰性气流中逐步升温到 $5 0 0 ~ ^ { \\circ } C$ 以上，充分反应后得到物质A。XPS 测得B中Ti的价态为+3，B的热重曲线如图6.1b所示。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000245-01",
+      "label": "6-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 写出 A的化学式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000245-02",
+      "label": "6-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2已知热重曲线中第一阶段释放的物质是水，解释其原因。"
+        }
+      ]
+    },
+    {
+      "id": "part-000245-03",
+      "label": "6-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-3 写出B转化为A的化学方程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000245-04",
+      "label": "6-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-4写出生成B的化学方程式"
+        }
+      ]
+    },
+    {
+      "id": "part-000245-05",
+      "label": "6-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "IVB族元素的配合物参与的有机反应受到了广泛关注，含有金属一杂原子多重键的Ti、Zr的配合物可与烯丙基卤代烃或烯丙基硅醚等化合物发生 $\\mathsf { S } _ { \\mathsf { N } } 2 ^ { \\prime }$ 反应，是一种能实现高区域选择性和立体选择性制备烯丙基化合物的方法。"
+        }
+      ]
+    },
+    {
+      "id": "part-000245-06",
+      "label": "6-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 含 ${ \\bf z } { \\bf r } { = } 0$ 的配合物C可与烯丙基氯代物D发生如下反应"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）\n第9页 共17页"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "第38届中国化学奥林匹克（决赛）理论第一场试题 2024年10月26日 广州"
+        },
+        {
+          "type": "paragraph",
+          "text": "对于C与D生成E过程的机理，人们提出了两种可能的机理，M1和M2为活性中间体"
+        },
+        {
+          "type": "paragraph",
+          "text": "机理1:"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "机理Ⅱ："
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "表6.1不同反应条件下的表观速率常数（283.15K）"
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
+        },
+        {
+          "type": "paragraph",
+          "text": "为研究反应机理，进行了动力学实验，获得的部分数据如表6.1。写出机理Ⅰ和I对应dc(C)/dt的反应速率方程，并结合表中数据判断哪种机理更合理。"
+        }
+      ]
+    },
+    {
+      "id": "part-000245-07",
+      "label": "6-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 对于下列 Zr配合物与烯丙基化合物的反应"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "写出F、G、H、I的结构，其中手性中心的构型与双键的Z、E构型需画出，并画出生成F的关键过渡态结构。"
+        }
+      ]
+    },
+    {
+      "id": "part-000245-08",
+      "label": "6-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "一类Ti配合物与芳基端炔反应可以产生两种产物"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）\n第10页共17页"
+        },
+        {
+          "type": "paragraph",
+          "text": "第38届中国化学奥林匹克（决赛）逻沧第一场试题2024年10月26日广州"
+        },
+        {
+          "type": "paragraph",
+          "text": "采用理论计算的方法对生成这两种产物的路径进行了研究，得到298.15K下ΔG如图6.2所示，其中后缀-H和-D分别表示炔基氢为H和D的情况。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）\n图6.2 理论计算得到的可能的反应路径图"
+        }
+      ]
+    },
+    {
+      "id": "part-000245-09",
+      "label": "6-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 画出 TS-a-H 和 TS-b-H 的结构（不参与反应的配体可用[N]和[B]表示）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000245-10",
+      "label": "6-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 根据图 6.2，计算生成J和K的过程在 298.15 K下的 KIE(k/kp)值。"
+        }
+      ]
+    },
+    {
+      "id": "part-000245-11",
+      "label": "6-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-3 化合物 $\\mathbf { L } \\left( \\mathbf { A } \\mathbf { r } ^ { \\mathsf { F } } { = } \\mathbf { C } _ { 6 } \\mathbf { F } _ { 5 } \\right)$ 在长时间加热后，可发生分子内重排转化为化合物M。已知重排后生成了一个新的C一C键和一个Ti一F键。画出M的结构（不参与反应的配体可用[N]和[B]表示)。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    }
+  ]
+}

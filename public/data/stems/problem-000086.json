@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000086",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "化学反应与结构综合分析",
+  "number": "2",
+  "examYear": 2020,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000054",
+    "sourceLabel": "2020-34-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2020-34-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000086-01",
+      "label": "2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "关于地球的演化，⽬前主要的观点是，原始地球上没有氧⽓，在⽆氧或氧⽓含量很低时，原核⽣物可利⽤⾃然存在的有机质（⽤ $\\mathrm { C H _ { 2 } O }$ 表⽰）和某些⽆机物反应获得能量。例如， $\\mathrm { S O } _ { 4 }$ 2−和 $\\mathrm { M n O _ { 2 } }$ _{2}可分别作为上述过程的氧化剂，前者⽣成⻩⾊浑浊物，⼆者均放出⽆⾊⽆味⽓体。"
+        }
+      ]
+    },
+    {
+      "id": "part-000086-02",
+      "label": "2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 写出 $\\mathrm { S O } _ { 4 } { } ^ { 2 - }$ −参与的释能反应的离⼦⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000086-03",
+      "label": "2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 写出 $\\mathrm { M n O _ { 2 } }$ 参与的释能反应的离⼦⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000086-04",
+      "label": "2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "约27亿年前光合作⽤开始发⽣，随着这⼀过程的进⾏，地球上氧⽓不断积累，经过漫⻓的演变终达到如今的含量。氧⽓的形成和积累，导致地球上⾃然物质的分布发⽣变化。"
+        }
+      ]
+    },
+    {
+      "id": "part-000086-05",
+      "label": "2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 溶解在海洋中的 $\\mathrm { F e ^ { 2 + } }$ 被氧化转变成针铁矿 $\\mathrm { \\dot { \\Omega } a - F e O ( O H ) }$ ⽽沉积，写出离⼦⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000086-06",
+      "label": "2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 与铁的沉积不同，陆地上的 $\\mathrm { M o S } _ { 2 }$ 被氧化⽽导致钼溶于海洋且析出单质硫，写出离⼦⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000086-07",
+      "label": "2-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "2020年8⽉4⽇晚，⻉鲁特港⼝发⽣了举世震惊的⼤爆炸，现场升起红棕⾊蘑菇云，破坏⼒巨⼤。⽬前认定⼤爆炸为该港⼝存储的约2750吨硝酸铵的分解。"
+        },
+        {
+          "type": "paragraph",
+          "text": "另外，亚硝酸铵受热亦发⽣分解甚⾄爆炸，若⼩⼼控制则可⽤在需要充⽓的过程如乒乓球制造之中。"
+        }
+      ]
+    },
+    {
+      "id": "part-000086-08",
+      "label": "2-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 写出硝酸铵分解出红棕⾊⽓体的反应⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000086-09",
+      "label": "2-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 写出亚硝酸铵受热分解⽤于充⽓的反应⽅程式。"
+        }
+      ]
+    }
+  ]
+}

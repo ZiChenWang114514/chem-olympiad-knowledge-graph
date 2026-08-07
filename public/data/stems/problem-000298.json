@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000298",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "聚乙炔液晶材料合成",
+  "number": "7",
+  "examYear": 2006,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000001",
+    "sourceLabel": "2006-20-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2006-20-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000298-01",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "以下是带有液晶结构单元的聚⼄炔⾼分⼦材料的合成路线，请写出A\\~I代表的化学试剂。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000298-02",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "当聚⼄炔分⼦带上药物、氨基酸、糖基等分⼦⽚后，就具有⼀定的⽣物活性。以下是我国化学家近年来合成的⼀些聚⼄炔衍⽣物分⼦的结构式："
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000298-03",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 写出A中⼿性药物⼩分⼦羧酸的结构式并命名。"
+        }
+      ]
+    },
+    {
+      "id": "part-000298-04",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 写出B中氨基酸的结构式式并命名。"
+        }
+      ]
+    },
+    {
+      "id": "part-000298-05",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-3 写出C中糖分⼦的费歇尔投影式，并给出该糖的名称。"
+        }
+      ]
+    }
+  ]
+}

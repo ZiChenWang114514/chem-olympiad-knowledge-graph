@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000295",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "硼氢化钠醇解与晶体",
+  "number": "4",
+  "examYear": 2006,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000001",
+    "sourceLabel": "2006-20-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2006-20-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000295-01",
+      "label": "4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出硼氢化钠与⼄醇反应的化学反应⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000295-02",
+      "label": "4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "根据A中存在的作⽤⼒类型说明A属于何种晶体。"
+        }
+      ]
+    },
+    {
+      "id": "part-000295-03",
+      "label": "4-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出A的⼀维结构⽰意图，确定A的结构基元，抽出⼀维点阵。"
+        }
+      ]
+    },
+    {
+      "id": "part-000295-04",
+      "label": "4-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A中Na的配位数为多少？硼原⼦采取什么杂化？"
+        }
+      ]
+    },
+    {
+      "id": "part-000295-05",
+      "label": "4-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "硼的⼀种同素异构体是由 $\\mathrm { B } _ { 1 2 }$ （以B为顶点的⼆⼗⾯体）单位和单个B原⼦组成的晶体，其晶胞参数为�$= b = 8 7 5 . 6 \\mathrm { p m }$ $c = 5 0 7 . 8 \\mathrm { p m }$ ，晶体密度 $\\rho = 2 . 3 1 0 \\mathrm { g c m } ^ { - 3 } \\circ$ 晶胞沿�、�、�轴的投影图如下："
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000295-06",
+      "label": "4-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 计算晶胞中的原⼦数。"
+        }
+      ]
+    },
+    {
+      "id": "part-000295-07",
+      "label": "4-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 画出晶胞⽰意图。"
+        }
+      ]
+    },
+    {
+      "id": "part-000295-08",
+      "label": "4-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-3 确定晶体的结构基元、点阵型式及特征对称元素。"
+        }
+      ]
+    }
+  ]
+}

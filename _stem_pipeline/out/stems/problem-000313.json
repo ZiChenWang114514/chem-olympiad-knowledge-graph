@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000313",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "硼纤维复合材料分析",
+  "number": "3",
+  "examYear": 2007,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000002",
+    "sourceLabel": "2007-21-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2007-21-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "$$\n2 \\begin{array}{c} \\mathrm{R} \\\\ | \\\\ \\mathrm{H} - \\mathrm{C} - \\mathrm{OH} \\\\ | \\\\ \\mathrm{H} - \\mathrm{C} - \\mathrm{OH} \\\\ | \\\\ \\mathrm{R} \\end{array} + \\mathrm{H} _ {3} \\mathrm{BO} _ {3} \\longrightarrow \\left[ \\begin{array}{c c} \\mathrm{R} & \\mathrm{R} \\\\ | & | \\\\ \\mathrm{H} - \\mathrm{C} - \\mathrm{O} & \\mathrm{O} - \\mathrm{C} - \\mathrm{H} \\\\ | & | \\\\ \\mathrm{H} - \\mathrm{C} - \\mathrm{O} & \\mathrm{B} - \\mathrm{C} - \\mathrm{H} \\\\ | & | \\\\ \\mathrm{R} & \\mathrm{R} \\end{array} \\right] ^ {-} + \\mathrm{H} ^ {+} + 3 \\mathrm{H} _ {2} \\mathrm{O}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "再加⼊适当指⽰剂，⽤NaOH溶液滴定到终点。主要分析流程图如下（图中只列出主要物质，其他少量物质的⼲扰可以不予考虑）。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000313-01",
+      "label": "3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出从A框到B框⽣成 $\\mathrm { H _ { 3 } B O _ { 3 } }$ 的反应⽅程式以及 $\\mathrm { H _ { 3 } B O _ { 3 } }$ 在⽔溶液中的电离⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000313-02",
+      "label": "3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "除去过量酸后的热溶液在冷却⾄室温过程中有时析出⽩⾊鳞⽚状晶体。写出该晶体的化学式并解释为什么晶体呈⽚状。"
+        }
+      ]
+    },
+    {
+      "id": "part-000313-03",
+      "label": "3-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "从C框到D框的滴定操作过程中，是否需要准确地中和 $\\mathrm { H } ^ { + 2 }$ 简述原因。"
+        }
+      ]
+    },
+    {
+      "id": "part-000313-04",
+      "label": "3-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "从原理上分析D框到E框这⼀步操作的⽬的。"
+        }
+      ]
+    },
+    {
+      "id": "part-000313-05",
+      "label": "3-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "如果E框中配合物和 $\\mathrm { N a O H }$ 滴定剂的浓度均为0.10 mol L−1，请估算滴定到化学计量点时的pH，并指出从E框到F框的滴定过程中，应该选⽤哪种指⽰剂？滴定终点的颜⾊是什么？"
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
+        }
+      ]
+    },
+    {
+      "id": "part-000313-06",
+      "label": "3-6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "$V _ { 0 } ,$ 、 $V _ { 1 }$ 和 $\\mathsf { I } V _ { 2 }$ 的单位都为mL， $M _ { \\mathrm { B } }$ 为硼的摩尔质量(g mol−1)，�(NaOH)为 NaOH 溶液的浓度(mol L−1)，请给出被测溶液中硼含量(g L−1)的计算式。"
+        }
+      ]
+    }
+  ]
+}

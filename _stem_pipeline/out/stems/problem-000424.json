@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000424",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "钡氢化物晶体结构",
+  "number": "8",
+  "examYear": 2013,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000008",
+    "sourceLabel": "2013-27-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2013-27-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000424-01",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出⼀个正当晶胞中各离⼦（原⼦）的坐标及结构基元（须指明具体的原⼦或离⼦种类及数⽬）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000424-02",
+      "label": "8-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出⼀个正当晶胞沿�⽅向的投影图，标出坐标⽅向。"
+        }
+      ]
+    },
+    {
+      "id": "part-000424-03",
+      "label": "8-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算该晶体中H原⼦之间的最短距离。"
+        }
+      ]
+    },
+    {
+      "id": "part-000424-04",
+      "label": "8-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "该晶体可看作由H_{2}分⼦填⼊ $\\mathrm { B a ^ { 2 + } }$ 离⼦和H−离⼦组成的多⾯体中⼼⽽形成，说明此多⾯体的连接⽅式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000424-05",
+      "label": "8-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "假设常压脱氢后氢化物的⻣架不变，计算最⼤储氢密度。"
+        }
+      ]
+    }
+  ]
+}

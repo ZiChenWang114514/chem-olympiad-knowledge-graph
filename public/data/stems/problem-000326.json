@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000326",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "烃类同分异构体",
+  "number": "9",
+  "examYear": 2008,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000039",
+    "sourceLabel": "2008-22-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2008-22-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000326-01",
+      "label": "9-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出A、B和C的分⼦式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000326-02",
+      "label": "9-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出 A、B 和 C 的结构简式。"
+        }
+      ]
+    }
+  ]
+}

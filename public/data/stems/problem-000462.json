@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000462",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "钡铜氧化物高温合成",
+  "number": "3",
+  "examYear": 2015,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000010",
+    "sourceLabel": "2015-29-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "未能从 MD 可靠切分正文（决赛/2015-29-CChO-juesai/full.md）；仅写入元数据标题占位，待人工补全。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "warn",
+      "text": "本题干正文自动切分失败，仅显示题目标题占位。"
+    },
+    {
+      "type": "paragraph",
+      "text": "3 · 钡铜氧化物高温合成"
+    }
+  ]
+}

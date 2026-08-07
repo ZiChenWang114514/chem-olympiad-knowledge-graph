@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000416",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "同位素标记反应历程",
+  "number": "9",
+  "examYear": 2013,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000047",
+    "sourceLabel": "2013-27-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2013-27-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000416-01",
+      "label": "9-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "常⽤同位素标记法研究有机反应历程。如利⽤ $^ { 1 8 } \\mathrm { O }$ 标记的甲醇钠研究如下反应，发现最终产物不含 $^ { 1 8 } \\mathrm { O } _ { \\circ }$ 根据实验事实画出中间体的结构简式。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000416-02",
+      "label": "9-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "某同学进⾏如下实验时在碱性条件下得到了两个产物D和 $\\mathbf { E } ,$ ，产率分别为 74.3%和 25.7%。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000416-03",
+      "label": "9-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 画出产物D和E的结构简式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000416-04",
+      "label": "9-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 指明此反应所属的具体反应类型。"
+        }
+      ]
+    },
+    {
+      "id": "part-000416-05",
+      "label": "9-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-3 简述D产率较⾼的原因。"
+        }
+      ]
+    },
+    {
+      "id": "part-000416-06",
+      "label": "9-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-4 简述反应体系加⼊⼆氧六环的原因。"
+        }
+      ]
+    }
+  ]
+}

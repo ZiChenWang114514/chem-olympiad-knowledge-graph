@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000197",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "有机反应综合分析",
+  "number": "10",
+  "examYear": 2022,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000022",
+    "sourceLabel": "2022-36-CChO-juesai-2.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2022-36-CChO-juesai-2/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "依据此信息，回答以下问题："
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000197-01",
+      "label": "10-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "如下光学纯的化合物G在三氟⼄酸中发⽣溶剂解得到外消旋H，写出外消旋化经过的关键中间体。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000197-02",
+      "label": "10-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "如下所⽰反应，在⾃由基引发下，含双环[4.2.0]⻣架的原料可以扩环得到含双环[6.4.0]⻣架的中间产物A，并经多步串联得到中环产物(�)-环⼗⼆-6-烯-1-酮。画出出A的结构式，并画出由原料转化成A的关键中间体。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    }
+  ]
+}

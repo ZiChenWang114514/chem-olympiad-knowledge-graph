@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000435",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "溴化汞氨配合物",
+  "number": "8",
+  "examYear": 2014,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000048",
+    "sourceLabel": "2014-28-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2014-28-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "从A到D的结构中， $\\operatorname { H g } ( \\operatorname { I I } )$ 与N的结合随N上所连氢原⼦的数⽬⽽变化，N均成4个键， $\\mathrm { N { - } H g { - } N }$ 键⻆为180°。A中，Br−作简单⽴⽅堆积，两个⽴⽅体共⽤的⾯中⼼存在⼀个 $\\operatorname { H g } ( \\operatorname { I I } )$ $\\mathrm { N H _ { 3 } }$ 位于⽴⽅体的体$\\therefore E _ { \\circ }$ B 中，Hg(II)与氨基形成⼀维链。C 中存在 $\\operatorname { H g } ( \\operatorname { I I } )$ 与亚氨基形成的按六边形扩展的⼆维结构，Br−位于六边形中⼼。D中， $\\mathrm { ( H g _ { 2 } N ) } ^ { . }$ +形成具有类似 $\\mathrm { S i O _ { 2 } }$ 的三维结构。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000435-01",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出⽣成C和D的⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000435-02",
+      "label": "8-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出A的结构⽰意图 $\\mathrm { ( N H _ { 3 } }$ 以N表⽰）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000435-03",
+      "label": "8-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出 B 中 $\\operatorname { H g } ( \\operatorname { I I } )$ 与氨基（以N表⽰）形成的⼀维链式结构⽰意图。"
+        }
+      ]
+    },
+    {
+      "id": "part-000435-04",
+      "label": "8-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出C中⼆维层的结构⽰意图，写出其组成式。层间还存在哪些物种？给出其⽐例。"
+        }
+      ]
+    },
+    {
+      "id": "part-000435-05",
+      "label": "8-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出 D 中 $\\mathrm { ( H g _ { 2 } N ) }$ +的三维结构⽰意图(⽰出 $\\mathrm { H g }$ 与N的连接⽅式即可)。"
+        }
+      ]
+    },
+    {
+      "id": "part-000435-06",
+      "label": "8-6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "令⼈惊奇的是，组成为 HgNH_{2}F 的化合物并⾮与 $\\mathrm { { H g N H _ { 2 } X ( X = C l , \\Delta \\mathrm { { B r } } } }$ ，I)同构，⽽与D相似，存在三维结构的 $\\mathrm { ( H g 2 N ) _ { \\circ } ^ { + } }$ 写出表达 $\\mathrm { H g N H _ { 2 } F }$ 结构特点的结构简式。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000131",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "化学反应与结构综合分析",
+  "number": "10",
+  "examYear": 2021,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000055",
+    "sourceLabel": "2021-35-CChO-chusai-fujian.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "未能从 MD 可靠切分正文（初赛/2021-35-CChO-chusai/full.md）；仅写入元数据标题占位，待人工补全。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "warn",
+      "text": "本题干正文自动切分失败，仅显示题目标题占位。"
+    },
+    {
+      "type": "paragraph",
+      "text": "10 · 化学反应与结构综合分析"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000038",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "手性与亲核取代",
+  "number": "8",
+  "examYear": 2017,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000051",
+    "sourceLabel": "2017-31-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2017-31-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000038-01",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "判断以下分⼦是否有⼿性。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": ""
+        },
+        {
+          "type": "paragraph",
+          "text": ""
+        },
+        {
+          "type": "paragraph",
+          "text": ""
+        },
+        {
+          "type": "paragraph",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "part-000038-02",
+      "label": "8-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出以下反应所得产物的⽴体结构简式，并写出反应类型 $( \\mathrm { S } _ { \\mathrm { N } } 1$ 或 $\\mathrm { S } _ { \\mathrm { N } } 2 )$ 0"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    }
+  ]
+}

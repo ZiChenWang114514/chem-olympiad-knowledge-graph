@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000080",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "化学反应与结构综合分析",
+  "number": "4",
+  "examYear": 2019,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000014",
+    "sourceLabel": "2019-33-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2019-33-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "制备⽯硫合剂（⼀种常⽤农药）的⽅法如下：先在反应器内加⽔使⽯灰消解，然后加⾜⽔量，在搅拌下把硫磺粉慢慢倒⼊。升温熬煮，使硫发⽣歧化反应。滤去固体渣滓得到粘稠状深棕⾊透明碱性液体成品。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000080-01",
+      "label": "4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出⽣成产品的歧化反应的化学反应⽅程 $\\updownarrow \\updownarrow _ { \\updownarrow }$"
+        }
+      ]
+    },
+    {
+      "id": "part-000080-02",
+      "label": "4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "说明固体渣滓的成分（假定⽔和⽣⽯灰皆为纯品）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000080-03",
+      "label": "4-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出呈现深棕⾊物质的化学式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000080-04",
+      "label": "4-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "通常采⽤下述路线进⾏⽯硫合剂成品中有效活性物种的含量分析。写出A、B和C所代表的物种的化学式。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000080-05",
+      "label": "4-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "我国科技⼯作者⾸创⽤⽯硫合剂提取⻩⾦的新⼯艺，其原理类似于氰化法提⾦，不同的是过程中不需要通⼊空⽓。写出⽯硫合剂浸⾦过程中氧化剂的化学式，指出形成的Au(I)配离⼦中的配位原⼦。"
+        }
+      ]
+    }
+  ]
+}

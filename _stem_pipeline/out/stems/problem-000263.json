@@ -1,0 +1,389 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000263",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "碘量法与碘单质结构",
+  "number": "4",
+  "examYear": 2025,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000063",
+    "sourceLabel": "2025-39-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2025-39-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "1826 年，法国化学家比拉迪尼(H. de la Bellardiere)首次制得碘化钠，并以淀粉为指示剂，将其应用于次氯酸钙的滴定，开创了碘量法的研究与应用。后来，施瓦茨(Schwartz)引入硫代硫酸钠作为滴定剂。1843 年，福尔多斯(Fordos)和盖利斯(Gelis)揭示了两个碘原子可定量氧化两分子硫代硫酸钠，这一反应构成了碘量法的基础。1853 年，本生(Bunsen)对碘量法进行了进一步完善。此后，基于碘单质或其化合物(如 KI、KIO₃ 等)与待测物质之间的氧化还原反应用于定量分析待测物质的含量，这种方法被称为碘量法，是一种经典且实用的化学分析方法，应用日益广泛，在多个领域发挥着重要作用。"
+    },
+    {
+      "type": "paragraph",
+      "text": "4.1 现有未知浓度的 KI 溶液，取 25.00 mL 溶液，用稀 HCl 处理后，再与 10.00 mL 0.05000 mol L $^{-1}$ 的 KIO $_{3}$ 反应(步骤 A)；将所得的溶液煮沸(步骤 B)一段时间后，再加入过量的 KI 溶液反应(步骤 C)；用 0.1008 mol L $^{-1}$ Na $_{2}$ S $_{2}$ O $_{3}$ 溶液滴定至终点，消耗 21.44 mL(步骤 D)。"
+    },
+    {
+      "type": "paragraph",
+      "text": "4.1.1 写出实验过程中涉及的化学反应式。"
+    },
+    {
+      "type": "paragraph",
+      "text": "解答:"
+    },
+    {
+      "type": "paragraph",
+      "text": "$5I^{-} + IO_{3}^{-} + 6H^{+} = 3I_{2} + 3H_{2}O,$ (1 分)"
+    },
+    {
+      "type": "paragraph",
+      "text": "$2S_{2}O_{3}^{2-} + I_{2} = S_{4}O_{6}^{2-} + 2I^{-}$ (1 分)"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "给分原则： $\\mathrm{I}_2$ 写成 $\\mathrm{I}_3^-$ ，只要其他产物正确且配平，就可得满分；没有配平得0分，产物错误得0分。其他答案不得分。"
+    },
+    {
+      "type": "paragraph",
+      "text": "4.1.2 计算 KI 溶液的浓度(提示: 此题要求有效数字)。"
+    },
+    {
+      "type": "paragraph",
+      "text": "解答:"
+    },
+    {
+      "type": "paragraph",
+      "text": "步骤 D 消耗的 $Na_{2}S_{2}O_{3}$ 为： $0.1008 \\times 21.44 = 2.1612 \\, mmol$ ,"
+    },
+    {
+      "type": "paragraph",
+      "text": "对应的 $I_{2}$ 为：1.0806 mmol，因此剩余的 $KIO_{3}$ 为：1.0806/3 = 0.36020 mmol，(1 分)"
+    },
+    {
+      "type": "paragraph",
+      "text": "步骤 A 与 KI 溶液反应的 $KIO_{3}$ 为： $10 \\times 0.05000 - 0.36020 = 0.1398 \\, mmol$ ，(1 分)"
+    },
+    {
+      "type": "paragraph",
+      "text": "因而最初 KI 的物质的量为： $5 \\times 0.1398 = 0.6990 \\, mmol$"
+    },
+    {
+      "type": "paragraph",
+      "text": "KI 溶液的浓度为： $(0.6990/1000)/(25/1000)=0.02796\\ \\text{mol/L}$"
+    },
+    {
+      "type": "paragraph",
+      "text": "给分原则：每个数值正确 1 分；如果有跳步，结果正确得相应步骤对应得满分，错误则不得分；答案为四位有效数字，有效数字错误扣掉答案的 1 分，如果涉及中间过程，中间过程有效数字应大于等于 4 位，如果中间过程有效数字小于 4 位，即使最终答案的有效数字正确，有效数字的 1 分也要扣掉。"
+    },
+    {
+      "type": "paragraph",
+      "text": "最终答案在 0.02794-0.02796 mol/L 均视为正确。"
+    },
+    {
+      "type": "paragraph",
+      "text": "4.1.3 为什么不在步骤 A 之后直接用 $Na_{2}S_{2}O_{3}$ 溶液滴定？"
+    },
+    {
+      "type": "paragraph",
+      "text": "解答:"
+    },
+    {
+      "type": "paragraph",
+      "text": "$KIO_{3}$ 过量，会消耗过多的 $Na_{2}S_{2}O_{3}$ 溶液。（1 分）"
+    },
+    {
+      "type": "paragraph",
+      "text": "给分原则：与该答案原理相同的其他表述也得分，其他答案不得分。"
+    },
+    {
+      "type": "paragraph",
+      "text": "4.1.4 步骤 B 中煮沸的目的是什么？"
+    },
+    {
+      "type": "paragraph",
+      "text": "解答："
+    },
+    {
+      "type": "paragraph",
+      "text": "除去反应体系中的碘。"
+    },
+    {
+      "type": "paragraph",
+      "text": "(1 分)"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "给分原则：其他答案不得分。"
+    },
+    {
+      "type": "paragraph",
+      "text": "4.1.5 碘量法测定中专用的一种锥形瓶叫碘量瓶，在锥形瓶口上使用磨口塞子密封。观察如图所示的碘量瓶，说明使用碘量瓶的好处。"
+    },
+    {
+      "type": "paragraph",
+      "text": "解答:"
+    },
+    {
+      "type": "paragraph",
+      "text": "盖塞子后用水封瓶口(1 分)、减少碘的挥发(1 分)、防止空气氧化(1 分)。"
+    },
+    {
+      "type": "paragraph",
+      "text": "给分原则：共3分，其他答案不得分。只要两点准确即得满分；共3分；答出三点中一个给1分；其他答案不得分。"
+    },
+    {
+      "type": "paragraph",
+      "text": "4.2 碘离子可以与碘分子 $I_{2}$ 结合生成 $I_{3}^{-}$ ; $I_{3}^{-}$ 继续与 $I_{2}$ 结合生成一系列的多碘阴离子(polyiodide anion)，如 $I_{5}^{-}$ 和 $I_{7}^{-}$ 等。这类化合物的共同特征是含有 2 个以上的碘原子，且电荷数较低。它们可以被看作是碘离子与 1 个或多个碘分子结合形成的络合物。"
+    },
+    {
+      "type": "paragraph",
+      "text": "4.2.1 直线形的 $I_{3}^{-}$ 是最简单的多碘阴离子。写出位于中心的碘原子杂化形式。"
+    },
+    {
+      "type": "paragraph",
+      "text": "$sp^{3}d$ 杂化，(1 分)"
+    },
+    {
+      "type": "paragraph",
+      "text": "给分原则:"
+    },
+    {
+      "type": "paragraph",
+      "text": "其他答案不得分。"
+    },
+    {
+      "type": "paragraph",
+      "text": "4.2.2 $\\mathrm{I}_3^-$ 的 I-I 键长为 $2.91\\AA$ ，而 $\\mathrm{I}_2$ 的 I-I 键长为 $2.71\\AA$ ，利用某一个典型的有机反应过渡态解释 $\\mathrm{I}_3^-$ 键长变长的原因。"
+    },
+    {
+      "type": "paragraph",
+      "text": "解答:"
+    },
+    {
+      "type": "paragraph",
+      "text": "这个过程类似于 $S_{N}2$ (1 分)，亲核基团 I 进入 $I_{2}$ 的反键轨道 (1 分)，使 I-I 键变长。"
+    },
+    {
+      "type": "paragraph",
+      "text": "给分原则："
+    },
+    {
+      "type": "paragraph",
+      "text": "第1分需明确写出 $\\mathrm{S_N2}$ ，第2分写出 $\\mathbf{I}_3$ 中键级低于1即可得分，画出 $\\mathrm{S_N2}$ 反应过渡态图也可得1分。"
+    },
+    {
+      "type": "paragraph",
+      "text": "4.2.3 画出 $I_{5}^{-}$ 所有可能的结构式，并标出每一个碘的形式电荷。"
+    },
+    {
+      "type": "paragraph",
+      "text": "解答:"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "每个结构式 1 分，每个形式电荷 1 分，共 4 分"
+    },
+    {
+      "type": "paragraph",
+      "text": "给分原则:"
+    },
+    {
+      "type": "paragraph",
+      "text": "若骨架错误则扣去相应的2分，不要求骨架的角度；其它结构多写一个，扣2分，扣至0分为止。"
+    },
+    {
+      "type": "paragraph",
+      "text": "4.2.4 按相同方法继续加合 $I_{2}$ ，写出 $I_{7}^{-}$ 可能的异构体数目(不考虑顺反异构或构象异构)。\n解答："
+    },
+    {
+      "type": "paragraph",
+      "text": "6 种 (2 分)"
+    },
+    {
+      "type": "paragraph",
+      "text": "给分原则："
+    },
+    {
+      "type": "paragraph",
+      "text": "其他答案不得分"
+    },
+    {
+      "type": "paragraph",
+      "text": "惰性气体在特定条件下可以形成各种化学键，其中以 Xe 形成的化合物最为常见。提示：本题投影图均为一个晶胞，不含晶胞外的原子。"
+    },
+    {
+      "type": "paragraph",
+      "text": "5.1 $\\mathrm{XeF}_x$ 是较早被发现的一类惰性气体化合物，三种 $\\mathrm{XeF}_x$ (A、B 和 C) 的晶胞结构如下图所示，其中大球为 Xe，小球为 F。写出三种晶体的化学组成。"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "A"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）\nB"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）\nC"
+    },
+    {
+      "type": "paragraph",
+      "text": "解答:"
+    },
+    {
+      "type": "paragraph",
+      "text": "A: $XeF_{2}$ B: $XeF_{4}$ C: $XeF_{3}$ 每个 2 分，共 6 分"
+    },
+    {
+      "type": "paragraph",
+      "text": "给分原则："
+    },
+    {
+      "type": "paragraph",
+      "text": "写成晶胞组成（A: $\\mathrm{Xe}_2\\mathrm{F}_4$ ；B: $\\mathrm{Xe}_2\\mathrm{F}_8$ C: $\\mathrm{Xe}_4\\mathrm{F}_{12} / 2\\mathrm{XeF}_2\\cdot 2\\mathrm{XeF}_4$ ）也给满分；其他答案不得分。"
+    },
+    {
+      "type": "paragraph",
+      "text": "5.2 $\\mathrm{XeO}_x$ 化合物具有较强的稳定性，且具有重要的实用价值。下图给出了3种 $\\mathrm{XeO}_x$ 晶体(A、B和C)沿不同方向的投影图，其中浅色球为Xe，深色球为O。"
+    },
+    {
+      "type": "paragraph",
+      "text": "5.2.1 判断这三个化合物中哪一个 $\\mathrm{XeO}_x$ 化合物中 $\\mathrm{Xe}$ 的化合价最高，并写出其所属晶系。解答："
+    },
+    {
+      "type": "paragraph",
+      "text": "B (2 分); 正交晶系 (2 分)"
+    },
+    {
+      "type": "paragraph",
+      "text": "给分原则：其他答案不得分"
+    },
+    {
+      "type": "paragraph",
+      "text": "5.2.2 写出化合物 A 的组成。"
+    },
+    {
+      "type": "paragraph",
+      "text": "解答:"
+    },
+    {
+      "type": "paragraph",
+      "text": "$Xe_{3}O_{2}$ (2 分);"
+    },
+    {
+      "type": "paragraph",
+      "text": "给分原则：写成 $\\mathrm{Xe_6O_4}$ 也得分，其他答案不得分。"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "A"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "B"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）\nC"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "5.3 大气中 Xe 的含量远远低于其它惰性气体。据估计地球上约 99% 初生 Xe 气神奇消失了，人们提出了很多假说。最近的研究发现 Xe 可以被地幔中一种新发现的 $Fe_{x}O_{y}$ 化合物吸收，形成了更为稳定的复合物。"
+    },
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
+    },
+    {
+      "type": "paragraph",
+      "text": "5.3.1 该 $Fe_{x}O_{y}$ 化合物由共顶点的 $FeO_{6}$ 八面体构成，属于简单立方晶系，沿(001)方向的投影如上图 A 所示，写出其组成。"
+    },
+    {
+      "type": "paragraph",
+      "text": "解答:"
+    },
+    {
+      "type": "paragraph",
+      "text": "$FeO_{2}$ (2 分);"
+    },
+    {
+      "type": "paragraph",
+      "text": "给分原则：写成晶胞组成 $Fe_{4}O_{8}$ 也得满分，其他答案不得分。"
+    },
+    {
+      "type": "paragraph",
+      "text": "5.3.2 $Fe_{x}O_{y}$ 吸附 Xe 后晶体转变为菱心六方晶格，其中代表性化合物有 B 和 C。在这两种化合物的晶格中，Xe 吸附在 $Fe_{x}O_{y}$ 的层间或孔道中，其沿不同方向的投影图分别如图 B 和 C 所示。分别确定化合物 B 和 C 中每摩尔 $Fe_{x}O_{y}$ 吸附的 Xe 摩尔数。"
+    },
+    {
+      "type": "paragraph",
+      "text": "解答:"
+    },
+    {
+      "type": "paragraph",
+      "text": "B: 1 mol (2 分); C: 1/3 mol (2 分)"
+    },
+    {
+      "type": "paragraph",
+      "text": "给分原则：其他答案不得分。"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    }
+  ]
+}

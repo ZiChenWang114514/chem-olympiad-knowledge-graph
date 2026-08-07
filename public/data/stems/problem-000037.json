@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000037",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "嵌段共聚物胶束",
+  "number": "7",
+  "examYear": 2017,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000051",
+    "sourceLabel": "2017-31-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2017-31-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000037-01",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "该共聚物的合成⽅法如下：先使单体X与稍过量的单体Y在⽆⽔溶剂中进⾏加成聚合反应，形成中部的聚氨酯链段，随后加⼊过量聚⼄⼆醇单甲醚 $\\mathrm { C H } _ { 3 } ( \\mathrm { O C H } _ { 2 } \\mathrm { C H } _ { 2 } ) _ { n } \\mathrm { O H }$ 进⾏封端。写出单体X与Y的结构式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000037-02",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在氧化或还原条件下⼆硫键可发⽣断裂，采⽤R—S—S—R简式，写出其断键后的氧化产物O和还原产物${ \\bf P } _ { \\circ }$"
+        }
+      ]
+    },
+    {
+      "id": "part-000037-03",
+      "label": "7-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "该嵌段共聚物所形成的胶束可以包载下图中哪种抗癌药物？简述理由。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    }
+  ]
+}

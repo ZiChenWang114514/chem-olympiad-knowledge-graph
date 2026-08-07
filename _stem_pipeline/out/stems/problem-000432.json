@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000432",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "二茂铁合成与晶胞",
+  "number": "5",
+  "examYear": 2014,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000048",
+    "sourceLabel": "2014-28-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2014-28-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000432-01",
+      "label": "5-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出上述制备⼆茂铁的两种反应的⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000432-02",
+      "label": "5-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "通常认为，⼆茂铁分⼦中铁原⼦的配位数为 $^ { 6 , }$ ，如何算得的？"
+        }
+      ]
+    },
+    {
+      "id": "part-000432-03",
+      "label": "5-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "⼆茂铁晶体属于哪种晶体类型？"
+        }
+      ]
+    },
+    {
+      "id": "part-000432-04",
+      "label": "5-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算⼆茂铁晶体的1个正当晶胞中的分⼦数。"
+        }
+      ]
+    }
+  ]
+}

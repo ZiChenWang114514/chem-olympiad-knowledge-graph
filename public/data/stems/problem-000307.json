@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000307",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "有机产物分离与反应类型",
+  "number": "8",
+  "examYear": 2007,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000038",
+    "sourceLabel": "2007-21-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2007-21-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "（图：）\nB\nCl\nC"
+    },
+    {
+      "type": "paragraph",
+      "text": "反应结束后，产物中仍含有未反应的A和B。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000307-01",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "请给出从混合物中分离出C的操作步骤；简述操作步骤的理论依据。"
+        }
+      ]
+    },
+    {
+      "id": "part-000307-02",
+      "label": "8-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "⽣成C的反应属于哪类基本有机反应类型。"
+        }
+      ]
+    }
+  ]
+}

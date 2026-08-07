@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000381",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "化学反应与结构综合分析",
+  "number": "9",
+  "examYear": 2011,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000042",
+    "sourceLabel": "2011-25-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2011-25-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "$$\n\\mathrm{A} + \\mathrm{CH} _ {3} \\mathrm{MgCl} \\longrightarrow \\xrightarrow {\\mathrm{H} _ {2} \\mathrm{O}} \\quad \\mathrm{M} (\\mathrm{C} _ {8} \\mathrm{H} _ {1 2} \\mathrm{O}) \\xrightarrow [ \\Delta ]{\\mathrm{H} _ {2} \\mathrm{SO} _ {4}} \\quad \\mathrm{N} (\\mathrm{C} _ {8} \\mathrm{H} _ {1 0})\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "⽣成物N分⼦中只有3种不同化学环境的氢，它们的数⽬⽐为 $1 { : } 1 { : } 3 _ { \\circ }$"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000381-01",
+      "label": "9-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出化合物A、B、C、D、E、M和N的结构简式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000381-02",
+      "label": "9-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A、B和C互为哪种异构体？（在正确选项的标号前打钩）① 碳架异构体 ② 位置异构体 ③ 官能团异构体 ④ 顺反异构体"
+        }
+      ]
+    },
+    {
+      "id": "part-000381-03",
+      "label": "9-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A能⾃发转化为B和C，为什么？"
+        }
+      ]
+    },
+    {
+      "id": "part-000381-04",
+      "label": "9-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "B和C在室温下反应可得到⼀组旋光异构体L，每个旋光异构体中有 个不对称碳原⼦。"
+        }
+      ]
+    }
+  ]
+}

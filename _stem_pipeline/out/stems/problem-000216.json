@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000216",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "取代基效应与反应速率",
+  "number": "9",
+  "examYear": 2023,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000025",
+    "sourceLabel": "2023-37-CChO-juesai-1.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2023-37-CChO-juesai-2/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "在上个世纪五⼗年代，Corey课题组在全合成�-檀⾹烯(�-Santalene)中⾸先将右旋樟脑(1)的�位溴化，⽣成�-溴樟脑(2)；接着在氯磺酸中溴化转化为3，再利⽤锌粉选择性还原碳基�位溴、最终形成(+)-4。这种制备光学纯化合物(+)-4 的迂回策略是必须的，因为右旋樟脑(1)直接在氯磺酸中溴化则会得到部分外消旋化的 4。"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000216-01",
+      "label": "9-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出从2⽣成3的关键中间体。"
+        }
+      ]
+    },
+    {
+      "id": "part-000216-02",
+      "label": "9-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出从(+)-1 ⽣成(−)-4 的关键中间体。"
+        }
+      ]
+    },
+    {
+      "id": "part-000216-03",
+      "label": "9-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "简要解释为何化合物2在溴化重排过程中没有发⽣外消旋化；⽽(+)-1则发⽣了外消旋化。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000325",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "镁基储氢晶体",
+  "number": "8",
+  "examYear": 2008,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000039",
+    "sourceLabel": "2008-22-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2008-22-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000325-01",
+      "label": "8-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "将上述氢化物与⾦属镍在⼀定条件下⽤球磨机研磨，可制得化学式为 $\\mathrm { M g N i H _ { 4 } }$ 的化合物。X射线衍射分析表明，该化合物的⽴⽅晶胞的⾯⼼和顶点均被镍原⼦占据，所有镁原⼦的配位数都相等。推断镁原⼦在$\\mathrm { M g N i H _ { 4 } }$ 晶胞中的位置（写出推理过程）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000325-02",
+      "label": "8-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "实验测定，上述 $\\mathrm { M g N i H _ { 4 } }$ 晶体的晶胞参数为 646.5 pm，计算该晶体中镁和镍的核间距。已知镁和镍的原⼦半径分别为 159.9 pm 和 124.6 pm。"
+        }
+      ]
+    },
+    {
+      "id": "part-000325-03",
+      "label": "8-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "若以材料中氢的密度与液态氢密度之⽐定义储氢材料的储氢能⼒，计算 $\\mathrm { M g N i H _ { 4 } }$ 的储氢能⼒（假定氢可全部放出；液氢的密度为0.0708 $\\mathrm { g c m ^ { - 3 } } )$"
+        }
+      ]
+    }
+  ]
+}

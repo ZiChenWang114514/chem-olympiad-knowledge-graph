@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000282",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "异构化过程图解",
+  "number": "3",
+  "examYear": 2006,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000037",
+    "sourceLabel": "2006-20-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2006-20-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "（图：）\nA"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）\nB"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）\nC"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）\nD"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000282-01",
+      "label": "3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "图中的纵坐标表⽰ （填⼊物理量，下同）；横坐标表⽰ 0"
+        }
+      ]
+    },
+    {
+      "id": "part-000282-02",
+      "label": "3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "平衡常数�最⼩的图是 C"
+        }
+      ]
+    },
+    {
+      "id": "part-000282-03",
+      "label": "3-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "平衡常数�最⼤的图是"
+        }
+      ]
+    },
+    {
+      "id": "part-000282-04",
+      "label": "3-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "平衡常数� = 1的图是"
+        }
+      ]
+    }
+  ]
+}

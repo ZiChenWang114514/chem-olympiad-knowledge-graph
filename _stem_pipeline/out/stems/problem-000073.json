@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000073",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "钙钛矿衍生结构",
+  "number": "7",
+  "examYear": 2019,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000053",
+    "sourceLabel": "2019-33-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2019-33-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000073-01",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "后续研究发现，Bartlett当时得到的并⾮ $\\mathrm { X e ^ { + } [ P t F _ { 6 } ] ^ { - } }$ −，⽽可能是 $\\mathrm { X e F ^ { + } [ P t _ { 2 } F _ { 1 1 } ] ^ { - } }$ 。"
+        }
+      ]
+    },
+    {
+      "id": "part-000073-02",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 写出 $\\mathrm { X e F ^ { + } [ P t _ { 2 } F _ { 1 1 } ] }$ −中Xe的氧化数。"
+        }
+      ]
+    },
+    {
+      "id": "part-000073-03",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 在 $\\mathrm { [ P t _ { 2 } F _ { 1 1 } ] }$ −结构中，沿轴向有四次轴。画出 $\\mathrm { [ P t _ { 2 } F _ { 1 1 } ] }$ −的结构。"
+        }
+      ]
+    },
+    {
+      "id": "part-000073-04",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "后来，⼤量含 Xe—F 和 $\\mathrm { X e - O }$ 键的化合物被合成出来，如 $\\mathrm { X e O F _ { 2 \\circ } }$ 。根据价层电⼦对互斥理论(VSEPR)，写出 $\\mathrm { X e O F _ { 2 } }$ 的⼏何构型及中⼼原⼦所⽤杂化轨道类型。"
+        }
+      ]
+    },
+    {
+      "id": "part-000073-05",
+      "label": "7-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "1974年合成了第⼀例含 $\\mathrm { X e - N }$ 键的化合物： $\\mathrm { X e F _ { 2 } }$ 和 $\\mathrm { H N } ( \\mathrm { S O _ { 2 } F } ) _ { 2 }$ 在 $0 ~ ^ { \\circ } \\mathrm { C }$ 的⼆氟⼆氯甲烷溶剂中按1:1的计量关系反应，放出HF得到⽩⾊固体产物A。A受热⾄ $7 0 ^ { \\circ } \\mathrm { C }$ 分解，A中的 $\\mathrm { X e }$ ⼀半以 $\\mathrm { X e }$ ⽓放出，其他两种产物与Xe具有相同的计量系数且其中⼀种是常⻅的氙的氟化物。写出A的化学式及其分解的反应⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000073-06",
+      "label": "7-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "1989年，随着超⾼压下Xe单质固体由⽴⽅密堆积变为六⽅密堆积结构并显⽰出⾦属性，Xe的“惰性”帽⼦被彻底摘掉。理论预测，⾼压下Xe可以参与形成更复杂的化合物，如 $\\mathrm { C s ^ { I } X e ^ { I I } A u _ { 3 \\circ } }$ 若 $\\mathrm { C s ^ { I } X e ^ { I I } A u _ { 3 } }$ 采⽤钙钛矿类型的结构，分别写出 $\\mathrm { C s ^ { I } }$ 和 $\\mathrm { X e ^ { I I } }$ 最近邻的⾦原⼦数。"
+        }
+      ]
+    }
+  ]
+}

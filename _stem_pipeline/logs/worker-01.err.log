@@ -1,0 +1,2799 @@
+OpenAI Codex v0.147.0
+--------
+workdir: D:\ccho-site-public
+model: deepseek-v4-flash
+provider: codex_deepseek_proxy
+approval: never
+sandbox: danger-full-access
+reasoning effort: high
+reasoning summaries: none
+session id: 019fde3c-400a-75e2-8b67-440244cd214f
+--------
+user
+# 任务：MinerU MD → ProblemStem JSON（化学竞赛题干）
+
+你是流水线 worker。工作目录是公开站仓库：
+
+`D:\打工2\projects\化学竞赛知识图谱-public`
+
+## 必读规范
+
+1. `docs/problem-stem-format.md`
+2. `docs/schemas/problem-stem.schema.json`
+3. 本 shard 任务文件：`_stem_pipeline/shards/shard-01/tasks.json`（XX 为你的编号）
+
+## 目标
+
+对 tasks.json 中每一份 `full.md`（整卷 MinerU 转写）：
+
+1. 阅读 MD 全文（路径在 task.md）
+2. 按卷面题号切分题目
+3. 与 task.problems[] 中的 `id` / `number` / `title` **对齐**
+4. 为每道题写出 **ProblemStem JSON**
+5. 同时写出该题的 **LaTeX 题干片段**（仅题干，无答案）
+
+## 输出路径（必须）
+
+- Stem：`_stem_pipeline/out/stems/{problemId}.json`
+- LaTeX：`_stem_pipeline/out/latex/{problemId}.tex`
+- 进度：`_stem_pipeline/logs/shard-01-progress.jsonl`（每完成一题一行 JSON）
+
+## Stem 硬性要求
+
+```json
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000xxx",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "与元数据一致或卷面主题",
+  "number": "卷面题号",
+  "examYear": 2006,
+  "examStage": "preliminary|final",
+  "source": {
+    "sourceLabel": "来自元数据 sourceLabel",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "由 MinerU MD 结构化转写；公式已整理为 LaTeX/mhchem。",
+  "renderingHints": { "mhchem": true },
+  "blocks": [],
+  "parts": []
+}
+```
+
+### 转换规则
+
+- MD 中的 `$\mathrm{...}$` / `$$...$$` → `formula` 或 paragraph 内 `$...$`
+- 化学式优先 `chem` 块（mhchem 表达式）
+- 小问 `(1)(2)` / `1-1` / `Q6` 等 → `parts[]`
+- **禁止**写入答案、评分、解析、内部路径
+- **禁止** hash/sha256/md5/checksum/digest 字段
+- 图片：若 MD 有 `![](images/...)`，figure.src 写相对原 MD 目录的说明即可；公开站 assets 可先省略 src，保留 caption/alt 文本描述
+- OCR 乱码尽量根据化学上下文修正；无法确定则保留原文并在 callout 标明「OCR 存疑」
+- 一张试卷多个 exam 对应同一 year-stage 时：按题号顺序匹配 problems 列表；题量不一致时优先匹配 number，剩余题写到 `_stem_pipeline/logs/shard-01-unmatched.md`
+
+## LaTeX 文件
+
+每个 `{problemId}.tex` 仅含题干正文（section 标题 + 内容），使用 `amsmath`/`mhchem` 风格命令即可，不要写 documentclass 全模板。
+
+## 完成标准
+
+1. 本 shard 所有 problems 都有 stem 文件（除非 unmatched 记录原因）
+2. 每个 stem 可被 `JSON.parse`
+3. `schemaVersion===1` 且 `problemId` 文件名一致
+4. 在 progress jsonl 写入 `{problemId, ok:true}` 或 `{problemId, ok:false, error}`
+
+## 工作方式
+
+- 使用 shell 读写文件
+- 可并行处理本 shard 内多卷，但务必写完所有题
+- 不要修改 `public/data`（验收 worker 会统一写入）
+- 完成后在 `_stem_pipeline/logs/shard-01-DONE.txt` 写一行 `OK papers=N problems=M`
+
+现在开始：读取你的 `tasks.json` 并执行。
+
+---
+RUNTIME (ASCII paths):
+- site workdir: D:\ccho-site-public
+- exam MD root: D:\ccho-exams-link\MinerU_MD
+- shard tasks: _stem_pipeline/shards/shard-01/tasks.json
+- stems out: _stem_pipeline/out/stems/{problemId}.json
+- latex out: _stem_pipeline/out/latex/{problemId}.tex
+- done marker: _stem_pipeline/logs/shard-01-DONE.txt
+If tasks.json still lists Chinese absolute paths under D:\鎵撳伐2\..., rewrite them to D:\ccho-exams-link\... when reading.
+codex
+我先读取规范文件与本 shard 任务清单，确认结构后再开始转写。
+exec
+"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "Get-Content -LiteralPath \"D:\\ccho-site-public\\docs\\problem-stem-format.md\" -Encoding UTF8" in D:\ccho-site-public
+exec
+"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "Get-Content -LiteralPath \"D:\\ccho-site-public\\_stem_pipeline\\shards\\shard-01\\tasks.json\" -Encoding UTF8" in D:\ccho-site-public
+exec
+"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "Get-Content -LiteralPath \"D:\\ccho-site-public\\docs\\schemas\\problem-stem.schema.json\" -Encoding UTF8" in D:\ccho-site-public
+ succeeded in 693ms:
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://zichenwang114514.github.io/chem-olympiad-knowledge-graph/schemas/problem-stem.schema.json",
+  "title": "ProblemStem",
+  "description": "公开站题干结构化文档 schemaVersion=1。见 docs/problem-stem-format.md。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "problemId", "rightsState", "language", "title", "number", "source"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "problemId": { "type": "string", "pattern": "^problem-[0-9]{6}$" },
+    "rightsState": { "enum": ["stem_public", "stem_demo", "fulltext_authorized"] },
+    "language": { "type": "string", "minLength": 2 },
+    "title": { "type": "string", "minLength": 1 },
+    "number": { "type": "string", "minLength": 1 },
+    "examYear": { "type": "integer", "minimum": 1980, "maximum": 2100 },
+    "examStage": { "enum": ["preliminary", "final"] },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceLabel", "transcriptionMethod"],
+      "properties": {
+        "sourceDocumentId": { "type": "string" },
+        "sourceLabel": { "type": "string", "minLength": 1 },
+        "page": { "type": "integer", "minimum": 0 },
+        "transcriptionMethod": { "enum": ["manual", "ocr_reviewed", "synthetic_demo"] },
+        "transcribedAt": { "type": "string" }
+      }
+    },
+    "blocks": { "type": "array", "items": { "$ref": "#/$defs/stemBlock" } },
+    "parts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "label", "blocks"],
+        "properties": {
+          "id": { "type": "string" },
+          "label": { "type": "string" },
+          "score": { "type": "number" },
+          "blocks": { "type": "array", "items": { "$ref": "#/$defs/stemBlock" }, "minItems": 1 }
+        }
+      }
+    },
+    "provenanceNote": { "type": "string" },
+    "renderingHints": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "mhchem": { "type": "boolean" },
+        "katexTrust": { "type": "boolean" }
+      }
+    }
+  },
+  "anyOf": [
+    { "required": ["blocks"], "properties": { "blocks": { "minItems": 1 } } },
+    { "required": ["parts"], "properties": { "parts": { "minItems": 1 } } }
+  ],
+  "$defs": {
+    "stemBlock": {
+      "type": "object",
+      "required": ["type"],
+      "oneOf": [
+        {
+          "properties": {
+            "type": { "const": "paragraph" },
+            "text": { "type": "string" }
+          },
+          "required": ["type", "text"],
+          "additionalProperties": false
+        },
+        {
+          "properties": {
+            "type": { "const": "formula" },
+            "latex": { "type": "string" },
+            "display": { "type": "boolean" }
+          },
+          "required": ["type", "latex"],
+          "additionalProperties": false
+        },
+        {
+          "properties": {
+            "type": { "const": "chem" },
+            "latex": { "type": "string" },
+            "display": { "type": "boolean" }
+          },
+          "required": ["type", "latex"],
+          "additionalProperties": false
+        },
+        {
+          "properties": {
+            "type": { "const": "heading" },
+            "level": { "type": "integer", "minimum": 2, "maximum": 4 },
+            "text": { "type": "string" }
+          },
+          "required": ["type", "level", "text"],
+          "additionalProperties": false
+        },
+        {
+          "properties": {
+            "type": { "const": "list" },
+            "ordered": { "type": "boolean" },
+            "items": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+          },
+          "required": ["type", "items"],
+          "additionalProperties": false
+        },
+        {
+          "properties": {
+            "type": { "const": "subpart" },
+            "label": { "type": "string" },
+            "prompt": { "type": "string" },
+            "blocks": { "type": "array", "items": { "$ref": "#/$defs/stemBlock" } }
+          },
+          "required": ["type", "label", "blocks"],
+          "additionalProperties": false
+        },
+        {
+          "properties": {
+            "type": { "const": "figure" },
+            "src": { "type": "string" },
+            "alt": { "type": "string" },
+            "caption": { "type": "string" },
+            "assetId": { "type": "string" }
+          },
+          "required": ["type", "alt"],
+          "additionalProperties": false
+        },
+        {
+          "properties": {
+            "type": { "const": "table" },
+            "caption": { "type": "string" },
+            "headers": { "type": "array", "items": { "type": "string" } },
+            "rows": { "type": "array", "items": { "type": "array", "items": { "type": "string" } } }
+          },
+          "required": ["type", "headers", "rows"],
+          "additionalProperties": false
+        },
+        {
+          "properties": {
+            "type": { "const": "callout" },
+            "tone": { "enum": ["info", "warn"] },
+            "text": { "type": "string" }
+          },
+          "required": ["type", "text"],
+          "additionalProperties": false
+        }
+      ]
+    }
+  }
+}
+
+ succeeded in 705ms:
+# 题目题干（Problem Stem）公开内容格式规范
+
+**版本：** `stem.schemaVersion = 1`  
+**适用范围：** 公开站 `public/data/stems/`、私有仓审后导出、录入/OCR 后结构化转写  
+**目标：** 点开真题档案卡片后，展示**经过审定与排版渲染的题干**（非整卷扫描 PDF、不含答案/评分）。
+
+---
+
+## 1. 总原则
+
+| 原则 | 说明 |
+|------|------|
+| **权限优先** | 仅当来源 `rights_state` 为 `fulltext_authorized`（已获全文授权）或本站明确标记的 `stem_demo`（排版演示）时，才允许发布题干文件。`metadata_public` / `internal_only` **不得**发布题干。 |
+| **只含题干** | 禁止答案、评分细则、解题步骤、阅卷说明、内部审核备注、原始 PDF 路径、OCR 未审校原文。 |
+| **结构化优先** | 不直接塞整段 HTML；使用 **blocks 块模型**，便于 KaTeX/化学式渲染、无障碍与后续编辑。 |
+| **可追溯** | 必须绑定 `problemId`，并记录转写方法、来源页码与审定说明。 |
+| **禁止摘要字段** | 业务层仍禁止 `hash`/`sha256`/`md5`/`checksum`/`digest` 及十六进制摘要值。 |
+
+---
+
+## 2. 端到端流程（如何实现）
+
+```
+原始 PDF / 扫描件
+    │
+    ├─(1) 权限登记：source.rights_state
+    │      · fulltext_authorized → 可进入题干流水线
+    │      · 其它 → 仅元数据
+    │
+    ├─(2) 提取：OCR / PDF 文本层 / 人工录入
+    │
+    ├─(3) 结构化转写 → ProblemStem JSON（本规范）
+    │      · 分段、小问、公式、化学式、图表引用
+    │      · 人工校对（公式、下标、单位、题号）
+    │
+    ├─(4) 审核：内容正确性 + 无答案泄漏 + 版权
+    │
+    ├─(5) 导出到公开包
+    │      public/data/stems/{problemId}.json
+    │      public/data/stems/index.json  （索引）
+    │
+    └─(6) 前端按需 fetch → StemRenderer（KaTeX + mhchem）渲染
+```
+
+**为何必须转化格式？**
+
+| 原始形态 | 问题 | 结构化后 |
+|----------|------|----------|
+| PDF 扫描 | 体积大、无法检索、排版依赖浏览器 PDF | 轻量 JSON + 受控资源 |
+| 纯 OCR 长文 | 公式乱码、无小问结构 | blocks 分公式/段落/小问 |
+| 任意 HTML | XSS、样式污染、难审计 | 白名单 block 类型 |
+| Markdown  alone | 化学式/`\ce{}` 支持不一 | 明确 formula/chem 块 |
+
+---
+
+## 3. 文件布局
+
+```text
+public/data/
+  stems/
+    index.json                 # 可用题干索引（前端先读此文件）
+    problem-000011.json        # 单题题干（一题一文件，按需加载）
+    assets/                    # 可选：题内插图（仅授权图）
+      problem-000011-fig1.webp
+```
+
+**索引 `stems/index.json`：**
+
+```json
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "problemId": "problem-000011",
+      "path": "data/stems/problem-000011.json",
+      "rightsState": "stem_demo",
+      "title": "钙钛矿衍生结构"
+    }
+  ]
+}
+```
+
+**单题文件命名：** 必须与业务 ID 一致：`problem-XXXXXX.json`。
+
+---
+
+## 4. 根对象：`ProblemStem`
+
+| 字段 | 类型 | 必填 | 说明 |
+|------|------|------|------|
+| `schemaVersion` | `1` | ✓ | 固定为 1 |
+| `problemId` | string | ✓ | 如 `problem-000011`，必须与档案元数据一致 |
+| `rightsState` | enum | ✓ | `stem_public` \| `stem_demo` \| `fulltext_authorized` |
+| `language` | string | ✓ | 默认 `zh-CN` |
+| `title` | string | ✓ | 展示题目标题（可与元数据 title 对齐） |
+| `number` | string | ✓ | 卷面题号，如 `Q6`、`1` |
+| `examYear` | number | | 年份，便于页眉 |
+| `examStage` | string | | `preliminary` / `final` |
+| `source` | object | ✓ | 见下表 |
+| `blocks` | StemBlock[] | * | 无小问时的扁平正文 |
+| `parts` | StemPart[] | * | 有小问时使用；与 `blocks` 可并存（blocks 为总述） |
+| `provenanceNote` | string | | 面向读者的说明（如「演示排版，非官方电子卷」） |
+| `renderingHints` | object | | `{ "mhchem": true }` 等 |
+
+\* `blocks` 与 `parts` **至少其一非空**。
+
+### 4.1 `source`
+
+| 字段 | 必填 | 说明 |
+|------|------|------|
+| `sourceDocumentId` | | 如 `source-000057` |
+| `sourceLabel` | ✓ | 可读来源名，如 `2021-35-CChO-chusai.pdf` |
+| `page` | | 题干起始页 |
+| `transcriptionMethod` | ✓ | `manual` \| `ocr_reviewed` \| `synthetic_demo` |
+| `transcribedAt` | | ISO-8601 日期 |
+
+### 4.2 `rightsState` 语义
+
+| 值 | 含义 | 是否允许上线 |
+|----|------|----------------|
+| `stem_demo` | 为展示渲染链路而写的样例/改写题干 | 可（须在 UI 标明演示） |
+| `stem_public` | 已获权公开**题干**（仍无答案） | 可 |
+| `fulltext_authorized` | 来源已登记全文授权，导出题干子集 | 可 |
+
+**永远不得出现在 stem 文件中的字段名（示例）：**  
+`answer`、`answerText`、`solution`、`solutionSteps`、`rubric`、`scoreDetail`、`ocrRaw`、`fullText`（未结构化长文）、内部路径类字段。
+
+---
+
+## 5. 块类型：`StemBlock`
+
+所有块必须有 `type`。未知 `type` 前端应跳过并记日志，不得当作 HTML 注入。
+
+### 5.1 `paragraph`
+
+```json
+{ "type": "paragraph", "text": "已知钙钛矿通式为 $ABX_3$，其中……" }
+```
+
+- `text` 可含行内数学：`$...$` 或 `\(...\)`  
+- **不要**在 paragraph 里写裸 HTML  
+- 化学式优先用独立 `chem` 块或 `$\ce{...}$`（需 mhchem）
+
+### 5.2 `formula`
+
+```json
+{ "type": "formula", "latex": "E = E^\\circ - \\frac{RT}{nF}\\ln Q", "display": true }
+```
+
+- `display: true` → 独立公式行；`false` → 行内（少用，优先 paragraph 行内）
+
+### 5.3 `chem`
+
+```json
+{ "type": "chem", "latex": "CaTiO3 + 4HF -> CaF2 + TiF4 + 2H2O", "display": true }
+```
+
+- 内容为 **mhchem 表达式**（可不写外层 `\ce{}`，渲染器自动包裹）
+
+### 5.4 `heading`
+
+```json
+{ "type": "heading", "level": 3, "text": "数据与条件" }
+```
+
+- `level`：2–4
+
+### 5.5 `list`
+
+```json
+{
+  "type": "list",
+  "ordered": true,
+  "items": [
+    "写出晶体的空间群符号。",
+    "计算理想密堆积下的半径比。"
+  ]
+}
+```
+
+- `items[]` 同 paragraph，可含 `$...$`
+
+### 5.6 `subpart`（嵌套小问，可选）
+
+```json
+{
+  "type": "subpart",
+  "label": "(1)",
+  "prompt": "计算……",
+  "blocks": [
+    { "type": "paragraph", "text": "……" }
+  ]
+}
+```
+
+### 5.7 `figure`
+
+```json
+{
+  "type": "figure",
+  "src": "data/stems/assets/problem-000011-fig1.webp",
+  "alt": "钙钛矿单胞示意图",
+  "caption": "图 1 理想立方钙钛矿结构示意"
+}
+```
+
+- `src` 必须相对站点 `BASE_URL`，且位于 `data/stems/assets/`  
+- 禁止外链未知域名（公开站仅允许同源相对路径）
+
+### 5.8 `table`
+
+```json
+{
+  "type": "table",
+  "caption": "表 1 晶胞参数",
+  "headers": ["参数", "数值"],
+  "rows": [["a / Å", "3.90"], ["Z", "1"]]
+}
+```
+
+- 单元格字符串规则同 paragraph
+
+### 5.9 `callout`
+
+```json
+{ "type": "callout", "tone": "info", "text": "本题配图为示意，不作为精确键长依据。" }
+```
+
+### 5.10 小问容器：`parts[]`（推荐竞赛卷）
+
+```json
+{
+  "id": "part-000001",
+  "label": "(1)",
+  "score": 6,
+  "blocks": [
+    { "type": "paragraph", "text": "……" }
+  ]
+}
+```
+
+- `id` 遵循 `part-` + 六位序号（若已有业务 part id 则复用）  
+- `score` 可选；**不要**放评分细则文字
+
+---
+
+## 6. 完整示例（节选）
+
+见仓库内 `public/data/stems/problem-000011.json`。
+
+---
+
+## 7. 渲染约定（前端）
+
+1. 按 `blocks` 顺序渲染；若有 `parts`，先渲染根级 `blocks`（总述），再按 `parts` 顺序渲染小问标题 + 内部 blocks。  
+2. 数学：KaTeX；化学：`katex` + `mhchem`。  
+3. 渲染失败时显示原始 LaTeX 源码占位，不得空白崩溃。  
+4. `rightsState === 'stem_demo'` 时 UI **必须**显示「演示题干 / 排版样例」提示。  
+5. 无索引项时：保持「题文暂不公开」元数据提示（现有行为）。
+
+---
+
+## 8. 校验清单（发布前）
+
+- [ ] `problemId` 存在于 `exams/*.json`  
+- [ ] `rightsState` 合法且与来源授权一致  
+- [ ] 无答案/评分/内部路径字段  
+- [ ] 公式经 KaTeX 试渲染通过  
+- [ ] 图片仅同源 assets  
+- [ ] 已写入 `stems/index.json`  
+- [ ] `npm run audit:public` 通过  
+
+---
+
+## 9. 与元数据层的关系
+
+| 层 | 路径 | 内容 |
+|----|------|------|
+| 元数据 | `data/exams/{year}.json` | 题号、标题、映射、来源摘要、`rightsState` |
+| 题干 | `data/stems/{id}.json` | 结构化题干 blocks |
+| 索引 | `data/stems/index.json` | 哪些题「有可渲染题干」 |
+
+元数据 **不内嵌** 大段题干，避免年包膨胀；详情页 **按需加载** 题干 JSON。
+
+---
+
+## 10. 私有仓导出约定（摘要）
+
+私有项目在 `fulltext_authorized` 时，可额外生成 `stems/` 目录并入发布包；公开站 `import:release` 仅在字段符合本规范时复制。详见私有仓 `docs/stem-export.md`（若已同步）。
+
+ succeeded in 746ms:
+{
+  "shardId": 1,
+  "problemCount": 59,
+  "papers": 4,
+  "tasks": [
+    {
+      "md": "D:\\打工2\\初赛&决赛\\MinerU_MD\\初赛\\2021-35-CChO-chusai-fujian\\full.md",
+      "rel": "初赛/2021-35-CChO-chusai-fujian/full.md",
+      "folder": "2021-35-CChO-chusai-fujian",
+      "skip": false,
+      "year": 2021,
+      "stage": "preliminary",
+      "problemCount": 30,
+      "problems": [
+        {
+          "id": "problem-000112",
+          "number": "1",
+          "title": "聚合物合成与热力学",
+          "examId": "exam-000007",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000057",
+          "page": 0
+        },
+        {
+          "id": "problem-000122",
+          "number": "1",
+          "title": "有机酸性与反应性",
+          "examId": "exam-000019",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-fujian.pdf",
+          "sourceDocumentId": "source-000055",
+          "page": 0
+        },
+        {
+          "id": "problem-000132",
+          "number": "1",
+          "title": "化学反应与结构综合分析",
+          "examId": "exam-000020",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-jiangsu.pdf",
+          "sourceDocumentId": "source-000056",
+          "page": 0
+        },
+        {
+          "id": "problem-000113",
+          "number": "2",
+          "title": "双氧物种电子与晶体",
+          "examId": "exam-000007",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000057",
+          "page": 0
+        },
+        {
+          "id": "problem-000123",
+          "number": "2",
+          "title": "配位化学与氧化态",
+          "examId": "exam-000019",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-fujian.pdf",
+          "sourceDocumentId": "source-000055",
+          "page": 0
+        },
+        {
+          "id": "problem-000133",
+          "number": "2",
+          "title": "聚合物合成与热力学",
+          "examId": "exam-000020",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-jiangsu.pdf",
+          "sourceDocumentId": "source-000056",
+          "page": 0
+        },
+        {
+          "id": "problem-000114",
+          "number": "3",
+          "title": "配位化学与氧化态",
+          "examId": "exam-000007",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000057",
+          "page": 0
+        },
+        {
+          "id": "problem-000124",
+          "number": "3",
+          "title": "电池材料化学",
+          "examId": "exam-000019",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-fujian.pdf",
+          "sourceDocumentId": "source-000055",
+          "page": 0
+        },
+        {
+          "id": "problem-000134",
+          "number": "3",
+          "title": "氮分子活化与配位",
+          "examId": "exam-000020",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-jiangsu.pdf",
+          "sourceDocumentId": "source-000056",
+          "page": 0
+        },
+        {
+          "id": "problem-000115",
+          "number": "4",
+          "title": "碳氧环与全碳环",
+          "examId": "exam-000007",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000057",
+          "page": 0
+        },
+        {
+          "id": "problem-000125",
+          "number": "4",
+          "title": "晶体结构与晶胞",
+          "examId": "exam-000019",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-fujian.pdf",
+          "sourceDocumentId": "source-000055",
+          "page": 0
+        },
+        {
+          "id": "problem-000135",
+          "number": "4",
+          "title": "配位化学与氧化态",
+          "examId": "exam-000020",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-jiangsu.pdf",
+          "sourceDocumentId": "source-000056",
+          "page": 0
+        },
+        {
+          "id": "problem-000116",
+          "number": "5",
+          "title": "元素推断与化合物",
+          "examId": "exam-000007",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000057",
+          "page": 0
+        },
+        {
+          "id": "problem-000126",
+          "number": "5",
+          "title": "化学反应与结构综合分析",
+          "examId": "exam-000019",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-fujian.pdf",
+          "sourceDocumentId": "source-000055",
+          "page": 0
+        },
+        {
+          "id": "problem-000136",
+          "number": "5",
+          "title": "晶体结构与晶胞",
+          "examId": "exam-000020",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-jiangsu.pdf",
+          "sourceDocumentId": "source-000056",
+          "page": 0
+        },
+        {
+          "id": "problem-000127",
+          "number": "6",
+          "title": "有机酸性与反应性",
+          "examId": "exam-000019",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-fujian.pdf",
+          "sourceDocumentId": "source-000055",
+          "page": 0
+        },
+        {
+          "id": "problem-000137",
+          "number": "6",
+          "title": "化学反应与结构综合分析",
+          "examId": "exam-000020",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-jiangsu.pdf",
+          "sourceDocumentId": "source-000056",
+          "page": 0
+        },
+        {
+          "id": "problem-000118",
+          "number": "7",
+          "title": "配位化学与氧化态",
+          "examId": "exam-000007",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000057",
+          "page": 0
+        },
+        {
+          "id": "problem-000128",
+          "number": "7",
+          "title": "化学反应与结构综合分析",
+          "examId": "exam-000019",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-fujian.pdf",
+          "sourceDocumentId": "source-000055",
+          "page": 0
+        },
+        {
+          "id": "problem-000138",
+          "number": "7",
+          "title": "晶体结构与晶胞",
+          "examId": "exam-000020",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-jiangsu.pdf",
+          "sourceDocumentId": "source-000056",
+          "page": 0
+        },
+        {
+          "id": "problem-000119",
+          "number": "8",
+          "title": "有机酸性与反应性",
+          "examId": "exam-000007",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000057",
+          "page": 0
+        },
+        {
+          "id": "problem-000129",
+          "number": "8",
+          "title": "有机酸性与反应性",
+          "examId": "exam-000019",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-fujian.pdf",
+          "sourceDocumentId": "source-000055",
+          "page": 0
+        },
+        {
+          "id": "problem-000139",
+          "number": "8",
+          "title": "有机酸性与反应性",
+          "examId": "exam-000020",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-jiangsu.pdf",
+          "sourceDocumentId": "source-000056",
+          "page": 0
+        },
+        {
+          "id": "problem-000120",
+          "number": "9",
+          "title": "含磷小分子反应",
+          "examId": "exam-000007",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000057",
+          "page": 0
+        },
+        {
+          "id": "problem-000130",
+          "number": "9",
+          "title": "化学反应与结构综合分析",
+          "examId": "exam-000019",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-fujian.pdf",
+          "sourceDocumentId": "source-000055",
+          "page": 0
+        },
+        {
+          "id": "problem-000140",
+          "number": "9",
+          "title": "化学反应与结构综合分析",
+          "examId": "exam-000020",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-jiangsu.pdf",
+          "sourceDocumentId": "source-000056",
+          "page": 0
+        },
+        {
+          "id": "problem-000121",
+          "number": "10",
+          "title": "酰胺端基效应重排",
+          "examId": "exam-000007",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000057",
+          "page": 0
+        },
+        {
+          "id": "problem-000131",
+          "number": "10",
+          "title": "化学反应与结构综合分析",
+          "examId": "exam-000019",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-fujian.pdf",
+          "sourceDocumentId": "source-000055",
+          "page": 0
+        },
+        {
+          "id": "problem-000141",
+          "number": "10",
+          "title": "酰胺端基效应重排",
+          "examId": "exam-000020",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-jiangsu.pdf",
+          "sourceDocumentId": "source-000056",
+          "page": 0
+        },
+        {
+          "id": "problem-000011",
+          "number": "Q6",
+          "title": "钙钛矿衍生结构",
+          "examId": "exam-000007",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000057",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "md": "D:\\打工2\\初赛&决赛\\MinerU_MD\\初赛\\2012-26-CChO-chusai\\full.md",
+      "rel": "初赛/2012-26-CChO-chusai/full.md",
+      "folder": "2012-26-CChO-chusai",
+      "skip": false,
+      "year": 2012,
+      "stage": "preliminary",
+      "problemCount": 11,
+      "problems": [
+        {
+          "id": "problem-000391",
+          "number": "1",
+          "title": "化学反应与结构综合分析",
+          "examId": "exam-000042",
+          "year": 2012,
+          "stage": "preliminary",
+          "sourceLabel": "2012-26-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000046",
+          "page": 0
+        },
+        {
+          "id": "problem-000392",
+          "number": "2",
+          "title": "元素推断与化学性质",
+          "examId": "exam-000042",
+          "year": 2012,
+          "stage": "preliminary",
+          "sourceLabel": "2012-26-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000046",
+          "page": 0
+        },
+        {
+          "id": "problem-000393",
+          "number": "3",
+          "title": "分析化学定量方法",
+          "examId": "exam-000042",
+          "year": 2012,
+          "stage": "preliminary",
+          "sourceLabel": "2012-26-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000046",
+          "page": 0
+        },
+        {
+          "id": "problem-000394",
+          "number": "4",
+          "title": "晶体结构与晶胞",
+          "examId": "exam-000042",
+          "year": 2012,
+          "stage": "preliminary",
+          "sourceLabel": "2012-26-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000046",
+          "page": 0
+        },
+        {
+          "id": "problem-000395",
+          "number": "5",
+          "title": "晶体结构与晶胞",
+          "examId": "exam-000042",
+          "year": 2012,
+          "stage": "preliminary",
+          "sourceLabel": "2012-26-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000046",
+          "page": 0
+        },
+        {
+          "id": "problem-000396",
+          "number": "6",
+          "title": "晶体结构与晶胞",
+          "examId": "exam-000042",
+          "year": 2012,
+          "stage": "preliminary",
+          "sourceLabel": "2012-26-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000046",
+          "page": 0
+        },
+        {
+          "id": "problem-000397",
+          "number": "7",
+          "title": "配位化学与电子结构",
+          "examId": "exam-000042",
+          "year": 2012,
+          "stage": "preliminary",
+          "sourceLabel": "2012-26-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000046",
+          "page": 0
+        },
+        {
+          "id": "problem-000398",
+          "number": "8",
+          "title": "电化学与电池",
+          "examId": "exam-000042",
+          "year": 2012,
+          "stage": "preliminary",
+          "sourceLabel": "2012-26-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000046",
+          "page": 0
+        },
+        {
+          "id": "problem-000399",
+          "number": "9",
+          "title": "有机药物合成",
+          "examId": "exam-000042",
+          "year": 2012,
+          "stage": "preliminary",
+          "sourceLabel": "2012-26-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000046",
+          "page": 0
+        },
+        {
+          "id": "problem-000400",
+          "number": "10",
+          "title": "有机药物合成",
+          "examId": "exam-000042",
+          "year": 2012,
+          "stage": "preliminary",
+          "sourceLabel": "2012-26-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000046",
+          "page": 0
+        },
+        {
+          "id": "problem-000401",
+          "number": "11",
+          "title": "化学反应与结构综合分析",
+          "examId": "exam-000042",
+          "year": 2012,
+          "stage": "preliminary",
+          "sourceLabel": "2012-26-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000046",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "md": "D:\\打工2\\初赛&决赛\\MinerU_MD\\初赛\\2018-32-CChO-chusai\\full.md",
+      "rel": "初赛/2018-32-CChO-chusai/full.md",
+      "folder": "2018-32-CChO-chusai",
+      "skip": false,
+      "year": 2018,
+      "stage": "preliminary",
+      "problemCount": 10,
+      "problems": [
+        {
+          "id": "problem-000049",
+          "number": "1",
+          "title": "氮化硅碲氢化钠与甲烷制备",
+          "examId": "exam-000012",
+          "year": 2018,
+          "stage": "preliminary",
+          "sourceLabel": "2018-32-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000052",
+          "page": 0
+        },
+        {
+          "id": "problem-000050",
+          "number": "2",
+          "title": "磷氧化物与含硫溶剂结构",
+          "examId": "exam-000012",
+          "year": 2018,
+          "stage": "preliminary",
+          "sourceLabel": "2018-32-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000052",
+          "page": 0
+        },
+        {
+          "id": "problem-000051",
+          "number": "3",
+          "title": "元素发现与硫化物转化",
+          "examId": "exam-000012",
+          "year": 2018,
+          "stage": "preliminary",
+          "sourceLabel": "2018-32-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000052",
+          "page": 0
+        },
+        {
+          "id": "problem-000052",
+          "number": "4",
+          "title": "双膜电解与乙酸盐电解",
+          "examId": "exam-000012",
+          "year": 2018,
+          "stage": "preliminary",
+          "sourceLabel": "2018-32-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000052",
+          "page": 0
+        },
+        {
+          "id": "problem-000053",
+          "number": "5",
+          "title": "同位素丰度与Lu-Hf定年",
+          "examId": "exam-000012",
+          "year": 2018,
+          "stage": "preliminary",
+          "sourceLabel": "2018-32-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000052",
+          "page": 0
+        },
+        {
+          "id": "problem-000054",
+          "number": "6",
+          "title": "碘氢体系多重平衡",
+          "examId": "exam-000012",
+          "year": 2018,
+          "stage": "preliminary",
+          "sourceLabel": "2018-32-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000052",
+          "page": 0
+        },
+        {
+          "id": "problem-000055",
+          "number": "7",
+          "title": "乙二硫醇双核配合物结构",
+          "examId": "exam-000012",
+          "year": 2018,
+          "stage": "preliminary",
+          "sourceLabel": "2018-32-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000052",
+          "page": 0
+        },
+        {
+          "id": "problem-000056",
+          "number": "8",
+          "title": "亲核取代反应类型",
+          "examId": "exam-000012",
+          "year": 2018,
+          "stage": "preliminary",
+          "sourceLabel": "2018-32-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000052",
+          "page": 0
+        },
+        {
+          "id": "problem-000057",
+          "number": "9",
+          "title": "芳基氟化试剂反应机理",
+          "examId": "exam-000012",
+          "year": 2018,
+          "stage": "preliminary",
+          "sourceLabel": "2018-32-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000052",
+          "page": 0
+        },
+        {
+          "id": "problem-000058",
+          "number": "10",
+          "title": "四π电环化反应",
+          "examId": "exam-000012",
+          "year": 2018,
+          "stage": "preliminary",
+          "sourceLabel": "2018-32-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000052",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "md": "D:\\打工2\\初赛&决赛\\MinerU_MD\\决赛\\2008-22-CChO-juesai\\full.md",
+      "rel": "决赛/2008-22-CChO-juesai/full.md",
+      "folder": "2008-22-CChO-juesai",
+      "skip": false,
+      "year": 2008,
+      "stage": "final",
+      "problemCount": 8,
+      "problems": [
+        {
+          "id": "problem-000329",
+          "number": "1",
+          "title": "金矿氰化浸出",
+          "examId": "exam-000035",
+          "year": 2008,
+          "stage": "final",
+          "sourceLabel": "2008-22-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000003",
+          "page": 0
+        },
+        {
+          "id": "problem-000330",
+          "number": "2",
+          "title": "液氨溶剂与金属溶液",
+          "examId": "exam-000035",
+          "year": 2008,
+          "stage": "final",
+          "sourceLabel": "2008-22-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000003",
+          "page": 0
+        },
+        {
+          "id": "problem-000331",
+          "number": "3",
+          "title": "阿司匹林两步滴定",
+          "examId": "exam-000035",
+          "year": 2008,
+          "stage": "final",
+          "sourceLabel": "2008-22-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000003",
+          "page": 0
+        },
+        {
+          "id": "problem-000332",
+          "number": "4",
+          "title": "氮化锂层状晶体",
+          "examId": "exam-000035",
+          "year": 2008,
+          "stage": "final",
+          "sourceLabel": "2008-22-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000003",
+          "page": 0
+        },
+        {
+          "id": "problem-000333",
+          "number": "5",
+          "title": "ATP水解热力学",
+          "examId": "exam-000035",
+          "year": 2008,
+          "stage": "final",
+          "sourceLabel": "2008-22-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000003",
+          "page": 0
+        },
+        {
+          "id": "problem-000334",
+          "number": "6",
+          "title": "卤化氢加成动力学",
+          "examId": "exam-000035",
+          "year": 2008,
+          "stage": "final",
+          "sourceLabel": "2008-22-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000003",
+          "page": 0
+        },
+        {
+          "id": "problem-000335",
+          "number": "7",
+          "title": "碗形多环芳烃合成",
+          "examId": "exam-000035",
+          "year": 2008,
+          "stage": "final",
+          "sourceLabel": "2008-22-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000003",
+          "page": 0
+        },
+        {
+          "id": "problem-000336",
+          "number": "8",
+          "title": "降龙涎醚全合成",
+          "examId": "exam-000035",
+          "year": 2008,
+          "stage": "final",
+          "sourceLabel": "2008-22-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000003",
+          "page": 0
+        }
+      ]
+    }
+  ]
+}
+
+codex
+任务清单已读取：本 shard 共 4 卷、59 题。我先确认 MD 源文件是否存在及体量，再逐卷读取切分。
+流水线转写：4 卷 MD → 59 个 ProblemStem JSON + LaTeX 片段
+  ✓ 读取规范与任务清单（已完成）
+  → 确认 MD 源文件并逐卷读取（2021福建/2012/2018/2008决赛）
+  • 按题号切分并与 problems[] 对齐
+  • 生成 59 个 stem JSON 与 LaTeX 片段
+  • 写 progress jsonl、unmatched 说明与 DONE 标记，校验 JSON
+exec
+"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "Get-ChildItem -LiteralPath \"D:\\ccho-exams-link\\MinerU_MD\" -Recurse -Filter \"full.md\" | Select-Object FullName, Length | Format-Table -AutoSize" in D:\ccho-site-public
+ succeeded in 596ms:
+
+FullName                                                                Length
+--------                                                                ------
+D:\ccho-exams-link\MinerU_MD\决赛\2006-20-CChO-juesai\full.md              12371
+D:\ccho-exams-link\MinerU_MD\决赛\2007-21-CChO-juesai\full.md              20260
+D:\ccho-exams-link\MinerU_MD\决赛\2008-22-CChO-juesai\full.md              18260
+D:\ccho-exams-link\MinerU_MD\决赛\2009-23-CChO-juesai\full.md              17573
+D:\ccho-exams-link\MinerU_MD\决赛\2010-24-CChO-juesai\full.md              12956
+D:\ccho-exams-link\MinerU_MD\决赛\2011-25-CChO-juesai\full.md              12725
+D:\ccho-exams-link\MinerU_MD\决赛\2012-26-CChO-juesai\full.md              15161
+D:\ccho-exams-link\MinerU_MD\决赛\2013-27-CChO-juesai\full.md              14643
+D:\ccho-exams-link\MinerU_MD\决赛\2014-28-CChO-juesai\full.md              17352
+D:\ccho-exams-link\MinerU_MD\决赛\2015-29-CChO-juesai\full.md              14943
+D:\ccho-exams-link\MinerU_MD\决赛\2016-30-CChO-juesai\full.md              13614
+D:\ccho-exams-link\MinerU_MD\决赛\2017-31-CChO-juesai\full.md              17776
+D:\ccho-exams-link\MinerU_MD\决赛\2018-32-CChO-juesai\full.md              12975
+D:\ccho-exams-link\MinerU_MD\决赛\2019-33-CChO-juesai\full.md              10268
+D:\ccho-exams-link\MinerU_MD\决赛\2020-34-CChO-juesai-1\full.md            17768
+D:\ccho-exams-link\MinerU_MD\决赛\2020-34-CChO-juesai-2\full.md            16091
+D:\ccho-exams-link\MinerU_MD\决赛\2021-35-CChO-juesai-1\full.md            21311
+D:\ccho-exams-link\MinerU_MD\决赛\2021-35-CChO-juesai-2\full.md            17263
+D:\ccho-exams-link\MinerU_MD\决赛\2022-36-CChO-juesai-1\full.md            20895
+D:\ccho-exams-link\MinerU_MD\决赛\2022-36-CChO-juesai-2\full.md            20171
+D:\ccho-exams-link\MinerU_MD\决赛\2023-37-CChO-juesai-1\full.md            33400
+D:\ccho-exams-link\MinerU_MD\决赛\2023-37-CChO-juesai-2\full.md            28445
+D:\ccho-exams-link\MinerU_MD\决赛\2024年全国中学生化学竞赛决赛试题（第一场）\full.md          42203
+D:\ccho-exams-link\MinerU_MD\决赛\2024年全国中学生化学竞赛决赛试题（第二场）\full.md          35897
+D:\ccho-exams-link\MinerU_MD\决赛\2025年第39届全国中学生化学竞赛决赛实验试题 (1)\full.md      4239
+D:\ccho-exams-link\MinerU_MD\决赛\2025年第39届全国中学生化学竞赛决赛理论试题答案及评分细则\full.md  79409
+D:\ccho-exams-link\MinerU_MD\初赛\2006-20-CChO-chusai\full.md               8966
+D:\ccho-exams-link\MinerU_MD\初赛\2007-21-CChO-chusai\full.md               9413
+D:\ccho-exams-link\MinerU_MD\初赛\2008-22-CChO-chusai\full.md              13376
+D:\ccho-exams-link\MinerU_MD\初赛\2009-23-CChO-chusai\full.md              10965
+D:\ccho-exams-link\MinerU_MD\初赛\2010-24-CChO-chusai\full.md              11039
+D:\ccho-exams-link\MinerU_MD\初赛\2011-25-CChO-chusai\full.md              11189
+D:\ccho-exams-link\MinerU_MD\初赛\2012-26-CChO-chusai\full.md               9891
+D:\ccho-exams-link\MinerU_MD\初赛\2013-27-CChO-chusai\full.md              10041
+D:\ccho-exams-link\MinerU_MD\初赛\2014-28-CChO-chusai\full.md              10907
+D:\ccho-exams-link\MinerU_MD\初赛\2015-29-CChO-chusai\full.md              11016
+D:\ccho-exams-link\MinerU_MD\初赛\2016-30-CChO-chusai\full.md              11360
+D:\ccho-exams-link\MinerU_MD\初赛\2017-31-CChO-chusai\full.md              11335
+D:\ccho-exams-link\MinerU_MD\初赛\2018-32-CChO-chusai\full.md              12701
+D:\ccho-exams-link\MinerU_MD\初赛\2019-33-CChO-chusai\full.md              12663
+D:\ccho-exams-link\MinerU_MD\初赛\2020-34-CChO-chusai\full.md              14309
+D:\ccho-exams-link\MinerU_MD\初赛\2021-35-CChO-chusai\full.md              14814
+D:\ccho-exams-link\MinerU_MD\初赛\2021-35-CChO-chusai-fujian\full.md       13547
+D:\ccho-exams-link\MinerU_MD\初赛\2021-35-CChO-chusai-jiangsu\full.md      12805
+D:\ccho-exams-link\MinerU_MD\初赛\2022-36-CChO-chusai-1\full.md            15994
+D:\ccho-exams-link\MinerU_MD\初赛\2022-36-CChO-chusai-2\full.md            14882
+D:\ccho-exams-link\MinerU_MD\初赛\2023-37-CChO-chusai\full.md              21282
+D:\ccho-exams-link\MinerU_MD\初赛\2024-38-CChO-chusai\full.md              27127
+D:\ccho-exams-link\MinerU_MD\初赛\2025-39-CChO-chusai\full.md              63096
+
+
+
+codex
+本 shard 涉及 4 卷 MD（2021 福建卷、2012、2018、2008 决赛）。我先查看 shards 目录结构和其他分片如何分配，并读取这 4 个 MD 全文。
+exec
+"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "Get-Content -LiteralPath \"D:\\ccho-exams-link\\MinerU_MD\\初赛\\2021-35-CChO-chusai-fujian\\full.md\" -Encoding UTF8 -Raw" in D:\ccho-site-public
+exec
+"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "Get-ChildItem -LiteralPath \"D:\\ccho-site-public\\_stem_pipeline\" -Recurse | Select-Object FullName | Format-Table -AutoSize; Write-Host \"---EXISTING STEMS---\"; Get-ChildItem -LiteralPath \"D:\\ccho-site-public\\public\\data\\stems\" -ErrorAction SilentlyContinue | Select-Object Name | Format-Table -AutoSize" in D:\ccho-site-public
+ succeeded in 716ms:
+## 第35届中国化学奥林匹克（初赛）试题（福建卷）
+
+## 第1题（23分）氟及其化合物
+
+1-1 德国⼈斯⽡恩哈德是从事玻璃加⼯的⼀名⼯⼈。1670年，他⽆意中将萤⽯与浓硫酸1:1混合在⼀起，结果产⽣了⼀种具有刺激性⽓味的烟雾，他发现这种⽓体能腐蚀玻璃，从⽽研究出⼀种不⽤⾦刚⽯或其他磨料也可以在玻璃上刻蚀图案的⽅法。利⽤这种⽅法，斯⽡恩哈德制成了许多玻璃艺术品，成为有名的玻璃雕刻艺术家。写出上述化学反应⽅程式。
+
+1-2 单质氟的制备是化学史上⼀段悲壮的历史，有多位化学家中毒，甚⾄付出⽣命，但是化学家们不畏艰难、前仆后继。终于，1886年法国化学家莫⽡桑在总结前⼈经验与教训的基础上，在低温下电解熔融的氟化氢钾制得单质氟，这距离氢氟酸的发现已经过去⼀百多年之久。写出电解制备单质氟的反应⽅程式。
+
+1-3 ⼜过了整整⼀百年，化学⽅法制取 $\mathrm { F _ { 2 } }$ 获得成功。其步骤如下：在HF、KF存在下，⽤ $\mathrm { K M n O } _ { 4 }$ 氧化$\mathrm { H _ { 2 } O _ { 2 } }$ ； $\mathrm { S b C l } _ { 5 }$ 和HF反应； $\mathrm { K _ { 2 } M n F _ { 6 } }$ 和 SbF<sub>5</sub>反 $\dot { \textmu } \dot { \textmu }$ 。写出各步的化学反应⽅程式。
+
+1-4 氟单质的反应性⾮常强，可与稀有⽓体氙发⽣反应。已知：
+
+$$
+\begin{array}{l l}\mathrm {Xe(g) + 2 F_ {2} (g)} \rightleftharpoons \mathrm {XeF_ {4} (g)}&K ^ {\ominus} = 1. 0 7 \times 1 0 ^ {8} (5 2 3 \mathrm{K})\\\mathrm {Xe(g) + 3 F_ {2} (g)} \rightleftharpoons \mathrm {XeF_ {6} (g)}&K ^ {\ominus} = 1. 0 1 \times 1 0 ^ {8} (5 2 3 \mathrm{K})\end{array}\quad K ^ {\ominus} = 1. 9 8 \times 1 0 ^ {3} (6 7 3 \mathrm{K})
+$$
+
+${ \mathrm { X e F } } _ { 6 }$ 的⽴⽅晶型中有四聚体单元， $\mathrm { X e }$ 与其中 5 个 F 的键⻓为 184 pm，与第 6 个 F 的键⻓为 223 pm。1-4-1 在满⾜反应速率的前题下，应如何控制温度才有利于 $\mathrm { X e F _ { 6 } }$ 的⽣成。
+
+1-4-2 若在 523 K 下以 Xe 和 $\mathrm { F } _ { 2 }$ 制取 ${ \mathrm { X e F } } _ { 6 } ,$ ，并使产物中 $\mathrm { X e F _ { 6 } / X e F _ { 4 } } > 1 0$ ，计算说明 $\mathrm { F } _ { 2 }$ 的平衡分压⾄少应保持在标准压⼒的多少倍（精确到⼩数点后第⼀位）？
+
+1-4-3 指出 ${ \mathrm { X e F } } _ { 6 }$ ⽓体的分⼦构型。
+
+1-4-4 说明 ${ \mathrm { X e F } } _ { 6 }$ 晶体中存在着什么样的离⼦？画出正离⼦的构型简图。
+
+1-4-5 按照电⼦理论，将 $\mathrm { X e O _ { 2 } F _ { 4 } }$ $\mathrm { X e O _ { 3 } F 2 }$ ${ \mathrm { X e F } } _ { 6 }$ 酸性从⼤到⼩的顺序排列。
+
+1-5 法国科学家盖·吕萨克也曾试图制备氢氟酸。1809年，他把氟化钙与硼酸混和加热，但是却意外地制成了⼀种所谓的“氟酸⽓” $\mathbf { A } _ { \circ }$ 。⽓体A可与ClF发⽣反应，⽣成多⻧阳离⼦B和⼀四⾯体阴离⼦C，写出离⼦反应⽅程式，画出B的结构简图；将A通⼊碳酸钠 溶液也可发⽣反应，写出离⼦反应⽅程式。
+
+1-6 氟与硼可形成⼀系列硼的低⻧化物，如：具有平⾯ $D _ { 2 h }$ 结构的 $\mathrm { { B _ { 2 } F _ { 4 } } }$ 、类似⼄硼烷结构的 $\mathrm { B } _ { 8 } \mathrm { F } _ { 1 2 }$ ，画出$\mathrm { B _ { 2 } F _ { 4 } , \ B _ { 8 } F _ { 1 2 } }$ 的结构简图。
+
+1-7 在 $\mathrm { F e C l _ { 3 } }$ 溶液中加⼊NaF，然后再加⼊ $\mathrm { S n C l _ { 2 } } ,$ 通过计算说明能否发⽣氧化还原反应。(已知$\varphi ^ { \ominus } ( \mathrm { F e ^ { 3 + } } / \mathrm { F e ^ { 2 + } } ) = + 0 . 7 7 \mathrm { \ : V }$ $\varphi ^ { \ominus } ( \mathrm { S n ^ { 4 + } } / \mathrm { S n ^ { 2 + } } ) = + 0 . 1 5 \mathrm { \ V }$ $K _ { \mathrm { f } } \mathrm { [ F e F _ { 6 } ] ^ { 3 - } } = 1 . 0 { \times } 1 0 ^ { 1 6 }$ ，设有关物质的浓度都为1.0 M)。
+
+第2题（12分）过渡⾦属配合物
+
+2-1 1966年⾸次报道了第⼀个四⾯体环戊⼆烯第⼀过渡⾦属羰基簇铁的化合物， $\mathrm { C p _ { 4 } F e _ { 4 } ( C O ) _ { 4 } \left( C p = C _ { 5 } H _ { 5 } \right) }$ 为深绿⾊固体；该簇合物具有对称结构且符合18电⼦规则，红外光谱表明CO的振动频率特别的低，位于$1 6 2 0 \mathrm { c m } ^ { - 1 } .$ 。
+
+2-1-1 指出中⼼原⼦符合18电⼦规则的电⼦来源。
+
+2-1-2 指出中⼼原⼦的杂化轨道。
+
+2-1-3 写出该分⼦的配位化学式并画出该分⼦的空间结构
+
+2-2 直到1979年才合成出第⼆个第⼀过渡⾦属的 $\mathrm { C p _ { 4 } V _ { 4 } ( C O ) _ { \it 4 } }$ 衍⽣物，为⿊⾊固体。
+
+2-2-1 ⽐较 $\mathrm { C p _ { 4 } F e _ { 4 } ( C O ) }$ <sub>4</sub> 和 $\mathrm { C p _ { 4 } V _ { 4 } ( C O ) } .$ <sub>4</sub>的稳定性。
+
+2-2-2 推测 $\mathrm { C p _ { 4 } V _ { 4 } ( C O ) . }$ <sub>4</sub>空间结构是否与 $\mathrm { C p _ { 4 } F e _ { 4 } ( C O ) }$ <sub>4</sub>相同，给出理由。
+
+## 第3题（8分）燃料电池
+
+H<sub>2</sub>(g)，CH<sub>4</sub>(g)， $\mathrm { C H _ { 3 } O H ( l ) }$ 均可作为燃料电池的燃料，其反应式及298.2 K的标准电动势如下：A： $\mathrm { H } _ { 2 } ( \mathrm { g } ) + 0 . 5 \mathrm { O } _ { 2 } ( \mathrm { g } )  \mathrm { H } _ { 2 } \mathrm { O } ( \mathrm { l } )$ $E ^ { \ominus } = 1 . 2 2 9 \mathrm { V }$ B： $\mathrm { C H } _ { 4 } ( \mathrm { g ) + 2 ~ O _ { 2 } ( g )  \mathrm { C O _ { 2 } ( g ) + 2 ~ H _ { 2 } O ( l ) } }$ $E ^ { \ominus } = 1 . 0 5 8 \ : \mathrm { V }$ C： $\mathrm { C H } _ { 3 } \mathrm { O H ( 1 ) } + 1 . 5 \mathrm { O } _ { 2 } ( \mathrm { g } )  \mathrm { C O } _ { 2 } ( \mathrm { g } ) + 2 \mathrm { H } _ { 2 } \mathrm { O } ( 1 )$ $E ^ { \ominus } = 1 . 2 1 2 \mathrm { V }$
+
+3-1 求上述三种燃料电池的⽐能量（能量/质量）。作为⼈造卫星的电源，哪⼀种燃料电池最理想？
+
+3-2 有⼈拟利⽤天然⽓中的甲烷⽣产⽤于燃料电池的 $\mathrm { H } _ { 2 } ( \mathrm { g } )$ 和 $\mathrm { C H _ { 3 } O H ( l ) }$ ,其设想如下D: $\mathrm { C H } _ { 4 } ( \mathrm { g ) + H _ { 2 } O ( l )  C H _ { 3 } O H ( l ) + H _ { 2 } ( g ) }$
+
+3-2-1 请计算上述反应的 $\Delta G ^ { \ominus } \bar { \rlap { / } { \hbar } } \mathbb { I } K ^ { \ominus }$ ，并对该反应⼯艺的可⾏性进⾏初步判断。
+
+3-2-2 为提⾼反应物的转化率，你可采⽤何种措施？(a) 提⾼温度 (b) 改变压⼒ (c) 加⼊惰性⽓体 (d) 采⽤⾼活性催化剂3-2-3 已知 $\Delta _ { \mathrm { f } } H _ { m } ^ { \ominus } [ \mathrm { C H } _ { 4 } ( \mathrm { g } ) ] \ - \ \Delta _ { \mathrm { f } } H _ { m } ^ { \ominus } [ \mathrm { C H } _ { 3 } \mathrm { O H } ( 1 ) ] > 0 ,$ ，则 $\Delta _ { \mathrm { c } } H _ { m } ^ { \ominus } [ \mathrm { C H _ { 4 } ( g ) } ] \ - \ \Delta _ { \mathrm { c } } H _ { m } ^ { \ominus } [ \mathrm { C H _ { 3 } O H ( l ) } ]$ (a) ⼤于零 (b) ⼩于零 (c) 等于零 (d) 不能确定
+
+3-3 设三个燃料电池反应的 $\Delta _ { \mathrm { r } } H _ { m } ^ { \ominus } , \ \Delta _ { \mathrm { r } } S _ { m } ^ { \ominus }$ ，均不随温度变化，则当温度升⾼相同的数值时，对上述三种燃料电池的影响如何？写出定量解析式及定性的排序。
+
+## 第4题（6分）⽴⽅晶系⼆元合⾦
+
+有⼀⽴⽅晶系⼆元合⾦，单胞参数 $\dot { a } = 7 0 3 . 4 \mathrm { p m } _ { \circ }$ 单胞中的⾦属A原⼦与⾦刚⽯中碳原⼦位置相同，原⼦处于密堆积状态。在单胞中有若⼲⾦属B原⼦，每4个B原⼦构成⼀个正四⾯体(B<sub>4</sub>)，已知晶胞中 $\mathrm { { B } } _ { 4 }$ 的位置可看成填充于A原⼦堆积形成的四⾯体孔隙中，沿轴向的单胞投影⽰意图如图所⽰。
+
+![](images/a86001c0f4811f106265af22787f56897605962cc71c546f000afd9d1e6aa88f.jpg)
+
+4-1 写出⼆元合⾦的化学式。
+
+4-2 已知⾦属A和B的原⼦量分别为24.31和53.55，计算合⾦的理论密度。
+
+4-3 晶胞的单位点阵型式。
+
+4-4 实际上，⼤部分该类结构⼆元合⾦的原⼦半径⽐ $r _ { \mathrm { A } } / r _ { \mathrm { B } }$ 处于1.1\~1.4 之间，假设沿单胞⾯对⻆线⽅向上的B原⼦在整个结构紧密接触，计算⾦属B的原⼦半径和 $r _ { \mathrm { A } } / r _ { \mathrm { B } }$ 值。
+
+## 第5题（6分）环⾟四烯及其双负离⼦
+
+环⾟四烯 $\left( \mathrm { C O T } , \mathrm { C _ { 8 } H _ { 8 } } \right)$ 最稳定的结构为船型，与钾作⽤还原可得平⾯结构的环⾟四烯双负离⼦ $\left( \mathrm { C O T ^ { 2 - } } \right)$ )。
+
+5-1 简要解释环⾟四烯与其双负离⼦具有不同稳定构型的原因。
+
+5-2 封闭的圆环中粒⼦的能级为
+
+$$
+E _ {n} = \frac {n ^ {2} h ^ {2}}{8 \pi^ {2} m R ^ {2}}, \qquad n = 0, \pm 1, \pm 2, \pm 3 \dots
+$$
+
+式中�为描述能级的量⼦数，�是圆环的半径。�、ℎ分别为电⼦的质量和Planck常数。若环⾟四烯双负离⼦$\left( \mathrm { C O T ^ { 2 - } } \right)$ 的离域π电⼦可近似描述为圆环中粒⼦，取 $: R = 1 9 0 \mathrm { p m }$ ，试求其电⼦基态跃起到第⼀激发态所吸收光的波⻓。
+
+## 第 6 题（8 分）矿⽯分析
+
+MnO- $\mathrm { { C r } _ { 2 } O _ { 3 } }$ 矿⽯难于被酸分解，通常采⽤熔融法分解试样。称取2.002 g此矿样，⽤ $\mathrm { N a _ { 2 } O _ { 2 } }$ 熔融后，加适量⽔浸取。浸取液经过煮沸，冷却后加硫酸酸化时会析出沉淀。待反应完全后，滤去沉淀物。滤液加⼊50.00 mL 0.1000 M $\mathrm { F e S O _ { 4 } }$ 溶液处理后，采⽤0.01000 M $\mathrm { K M n O _ { 4 } }$ 标准溶液滴定，消耗 $1 8 . 0 4 \mathrm { m L } _ { \circ }$ ⽽沉淀物也在酸性条件下，⽤ 10.00 mL 0.1000 M $\mathrm { F e S O _ { 4 } }$ 溶液处理，再采⽤0.01000 M $\mathrm { K M n O } _ { 4 }$ 标准溶液滴定，消耗8.24$\mathrm { m L }$ o
+
+6-1 写出溶矿反应⽅程式，以及酸化时析出沉淀化合物分⼦式。
+
+6-2 计算矿样中MnO和 $\mathrm { { C r } _ { 2 } O _ { 3 } }$ 的质量分数。
+
+6-3 若在沉淀物分析过程中，改⽤HCl代替 $\mathrm { H _ { 2 } S O _ { 4 } }$ 进⾏酸化，对分析结果是否有影响？为什么？
+
+第7题（5分）光刻胶
+
+化合物E是⼀种负型光致抗蚀剂（⼜称光刻胶），⼤量⽤于印刷制版和电⼦⼯业的光刻技术中。其合成⽅法如下：
+
+$$
+\begin{array}{r l} & \mathrm {HC\equiv CH + A\xrightarrow [ 170\sim200°C ]{(CH_ {3} CO_ {2}) _ {2} Zn} B\xrightarrow [ 聚合 ]{(NH_ {4}) _ {2} S_ {2} O_ {8}} C\xrightarrow [ CH_ {3} OH, 35°C ]{NaOH} D} \\ & \xrightarrow [ \text {pyridine} ]{\mathrm{Ph} \quad \mathrm{O}} \begin{array}{c} \mathrm{O} \\ \mathrm{O-CCCH=CH} _ {2} \mathrm{Ph} \\ \left[ \mathrm{CH} _ {2} - \mathrm{CH} \right] _ {n} \quad \mathrm{E} \end{array} \end{array}
+$$
+
+7-1 ⽤结构简式表⽰A，B， $\mathbf { C } ,$ D的结构。
+
+7-2 光刻制版时，光刻胶E在紫外光照射下⽣成F，溶解度下降。不⻅光的部分不反应，⽤溶剂溶解后得到影像。画出F的结构简式。
+
+## 第8题（8分）酸碱性与结构
+
+8-1 请按酸性从强到弱给以下化合物排序：
+
+![](images/21941c1c44d521a132cdcea5c3d18a29bc1f4f2d7404dafc76082b6ca9715c06.jpg)
+
+A
+
+![](images/603de38c9f7a5a6a4a341b6221aa7278510e06b2044ee73ab4b45017d0520e24.jpg)
+
+B
+
+![](images/91f77169f159231f871466eb7478eb1dbe69110f8729c108cc318280b3930f75.jpg)
+
+C
+
+![](images/b4b865bead255eefd2e3908526a79899632483bdae520712e261bcc28e7c9b53.jpg)
+
+D
+
+![](images/e1ef1ba816fcdf396939f15fd4014a81f72454ddc8f10b72a4de7cff815953e2.jpg)
+
+E
+
+![](images/bc8d17dd54a68cb43fb6753c4a4e5e8cc04b0ea893d8dc5340d343dd9304128c.jpg)
+
+F
+
+![](images/1903eea6ffd48804d7a2a9689dfdb31654e8a549a8f1ec3c86e6d59ee2fee285.jpg)
+
+G
+
+8-2 请分别按碱性从强到弱给下列两组化合物排序：
+
+H
+
+()
+
+![](images/663b6053d178f97d4837f5acb7df6df1fa35b3c9cf33b95ccc70a17dbb4096c5.jpg)
+
+A
+
+![](images/d3d179a677d3f35b246e3d2c11d53f00ec2c90641a4676fbd5988774f5d40b0f.jpg)
+
+B
+
+![](images/8ba3b9aea7be9c6229f16e60667aa5fe06eb6eec553ae2d6af495d6a4fbfce7e.jpg)
+
+C
+
+![](images/bc16e634fbced3161d677e416e65286c58d6efa01a851b7942b1408f31309ddc.jpg)
+
+D
+
+![](images/a6922f7b5ea3c298d2f098b7ed0e1a259b156b22b4f5f6958bd6aa59b29737f5.jpg)
+
+![](images/e6ec51e98475ba99ad030142365fee3d24292b022a08841c71f4f0ef85acfda6.jpg)
+
+第 9 题（14 分）抗肿瘤药 Pelitinib 的合成
+
+9-1 写出上述各步合成反应产物2, 3, 5, 7, 8, 9, 10的结构简式、步骤A, B, C所需的试剂及必要的反应条件。
+
+9-2 化合物4在加热回流条件下与2-氰基-3-⼄氧基丙烯酸⼄酯反应经中间体5a转化为5，化合物5在250°C条件下经6a，6b中间体得到6：
+
+![](images/decc3c77f1b0e3510c740742688a47a29eb2d52c2ee9019e52d5f388846b68d3.jpg)
+
+画出中间体5a，6a，6b的结构简式。
+
+第10题（10分）
+
+以炔烃为原料经下列反应可制备烯烃：
+
+![](images/ce0de670ae00007c7a7862f761660ce645484ea9f8ed8c012140ec8485acdf24.jpg)
+
+10-1 化合物 1 与 $\mathrm { I _ { 2 } / N a O H }$ 反应经历如下过程⽣成5，其中2、3为中间体。画出1\~4的结构式，并解释�-型烯烃为主要产物的原因。
+
+![](images/6ea85c94f8361678d84312545018229123a0d333c568cd3df41b00e2ea6cfc42.jpg)
+
+10-2 画出下列反应中6\~11的结构式。
+
+![](images/c9f8889b034770300a4a47d15520c3332d400d4a3424d16ce2072164769a77b1.jpg)
+
+ succeeded in 774ms:
+
+FullName                                                     
+--------                                                     
+D:\ccho-site-public\_stem_pipeline\logs                      
+D:\ccho-site-public\_stem_pipeline\out                       
+D:\ccho-site-public\_stem_pipeline\prompts                   
+D:\ccho-site-public\_stem_pipeline\shards                    
+D:\ccho-site-public\_stem_pipeline\build-inventory.mjs       
+D:\ccho-site-public\_stem_pipeline\inventory.json            
+D:\ccho-site-public\_stem_pipeline\run-10-workers.ps1        
+D:\ccho-site-public\_stem_pipeline\logs\empty-stdin-00.txt   
+D:\ccho-site-public\_stem_pipeline\logs\empty-stdin-01.txt   
+D:\ccho-site-public\_stem_pipeline\logs\empty-stdin-02.txt   
+D:\ccho-site-public\_stem_pipeline\logs\empty-stdin-03.txt   
+D:\ccho-site-public\_stem_pipeline\logs\empty-stdin-04.txt   
+D:\ccho-site-public\_stem_pipeline\logs\empty-stdin-05.txt   
+D:\ccho-site-public\_stem_pipeline\logs\empty-stdin-06.txt   
+D:\ccho-site-public\_stem_pipeline\logs\empty-stdin-07.txt   
+D:\ccho-site-public\_stem_pipeline\logs\empty-stdin-08.txt   
+D:\ccho-site-public\_stem_pipeline\logs\empty-stdin-09.txt   
+D:\ccho-site-public\_stem_pipeline\logs\prompt-00.md         
+D:\ccho-site-public\_stem_pipeline\logs\prompt-01.md         
+D:\ccho-site-public\_stem_pipeline\logs\prompt-02.md         
+D:\ccho-site-public\_stem_pipeline\logs\prompt-03.md         
+D:\ccho-site-public\_stem_pipeline\logs\prompt-04.md         
+D:\ccho-site-public\_stem_pipeline\logs\prompt-05.md         
+D:\ccho-site-public\_stem_pipeline\logs\prompt-06.md         
+D:\ccho-site-public\_stem_pipeline\logs\prompt-07.md         
+D:\ccho-site-public\_stem_pipeline\logs\prompt-08.md         
+D:\ccho-site-public\_stem_pipeline\logs\prompt-09.md         
+D:\ccho-site-public\_stem_pipeline\logs\prompt-stdin-00.md   
+D:\ccho-site-public\_stem_pipeline\logs\prompt-stdin-01.md   
+D:\ccho-site-public\_stem_pipeline\logs\prompt-stdin-02.md   
+D:\ccho-site-public\_stem_pipeline\logs\prompt-stdin-03.md   
+D:\ccho-site-public\_stem_pipeline\logs\prompt-stdin-04.md   
+D:\ccho-site-public\_stem_pipeline\logs\prompt-stdin-05.md   
+D:\ccho-site-public\_stem_pipeline\logs\prompt-stdin-06.md   
+D:\ccho-site-public\_stem_pipeline\logs\prompt-stdin-07.md   
+D:\ccho-site-public\_stem_pipeline\logs\prompt-stdin-08.md   
+D:\ccho-site-public\_stem_pipeline\logs\prompt-stdin-09.md   
+D:\ccho-site-public\_stem_pipeline\logs\run-worker-00.cmd    
+D:\ccho-site-public\_stem_pipeline\logs\run-worker-01.cmd    
+D:\ccho-site-public\_stem_pipeline\logs\run-worker-02.cmd    
+D:\ccho-site-public\_stem_pipeline\logs\run-worker-03.cmd    
+D:\ccho-site-public\_stem_pipeline\logs\run-worker-04.cmd    
+D:\ccho-site-public\_stem_pipeline\logs\run-worker-05.cmd    
+D:\ccho-site-public\_stem_pipeline\logs\run-worker-06.cmd    
+D:\ccho-site-public\_stem_pipeline\logs\run-worker-07.cmd    
+D:\ccho-site-public\_stem_pipeline\logs\run-worker-08.cmd    
+D:\ccho-site-public\_stem_pipeline\logs\run-worker-09.cmd    
+D:\ccho-site-public\_stem_pipeline\logs\worker-00.err.log    
+D:\ccho-site-public\_stem_pipeline\logs\worker-00.log        
+D:\ccho-site-public\_stem_pipeline\logs\worker-00.pid        
+D:\ccho-site-public\_stem_pipeline\logs\worker-01.err.log    
+D:\ccho-site-public\_stem_pipeline\logs\worker-01.log        
+D:\ccho-site-public\_stem_pipeline\logs\worker-01.pid        
+D:\ccho-site-public\_stem_pipeline\logs\worker-02.err.log    
+D:\ccho-site-public\_stem_pipeline\logs\worker-02.log        
+D:\ccho-site-public\_stem_pipeline\logs\worker-02.pid        
+D:\ccho-site-public\_stem_pipeline\logs\worker-03.err.log    
+D:\ccho-site-public\_stem_pipeline\logs\worker-03.log        
+D:\ccho-site-public\_stem_pipeline\logs\worker-03.pid        
+D:\ccho-site-public\_stem_pipeline\logs\worker-04.err.log    
+D:\ccho-site-public\_stem_pipeline\logs\worker-04.log        
+D:\ccho-site-public\_stem_pipeline\logs\worker-04.pid        
+D:\ccho-site-public\_stem_pipeline\logs\worker-05.err.log    
+D:\ccho-site-public\_stem_pipeline\logs\worker-05.log        
+D:\ccho-site-public\_stem_pipeline\logs\worker-05.pid        
+D:\ccho-site-public\_stem_pipeline\logs\worker-06.err.log    
+D:\ccho-site-public\_stem_pipeline\logs\worker-06.log        
+D:\ccho-site-public\_stem_pipeline\logs\worker-06.pid        
+D:\ccho-site-public\_stem_pipeline\logs\worker-07.err.log    
+D:\ccho-site-public\_stem_pipeline\logs\worker-07.log        
+D:\ccho-site-public\_stem_pipeline\logs\worker-07.pid        
+D:\ccho-site-public\_stem_pipeline\logs\worker-08.err.log    
+D:\ccho-site-public\_stem_pipeline\logs\worker-08.log        
+D:\ccho-site-public\_stem_pipeline\logs\worker-08.pid        
+D:\ccho-site-public\_stem_pipeline\logs\worker-09.err.log    
+D:\ccho-site-public\_stem_pipeline\logs\worker-09.log        
+D:\ccho-site-public\_stem_pipeline\logs\worker-09.pid        
+D:\ccho-site-public\_stem_pipeline\logs\workers.json         
+D:\ccho-site-public\_stem_pipeline\out\latex                 
+D:\ccho-site-public\_stem_pipeline\out\stems                 
+D:\ccho-site-public\_stem_pipeline\prompts\verify-prompt.md  
+D:\ccho-site-public\_stem_pipeline\prompts\worker-prompt.md  
+D:\ccho-site-public\_stem_pipeline\shards\shard-00           
+D:\ccho-site-public\_stem_pipeline\shards\shard-01           
+D:\ccho-site-public\_stem_pipeline\shards\shard-02           
+D:\ccho-site-public\_stem_pipeline\shards\shard-03           
+D:\ccho-site-public\_stem_pipeline\shards\shard-04           
+D:\ccho-site-public\_stem_pipeline\shards\shard-05           
+D:\ccho-site-public\_stem_pipeline\shards\shard-06           
+D:\ccho-site-public\_stem_pipeline\shards\shard-07           
+D:\ccho-site-public\_stem_pipeline\shards\shard-08           
+D:\ccho-site-public\_stem_pipeline\shards\shard-09           
+D:\ccho-site-public\_stem_pipeline\shards\shard-00\tasks.json
+D:\ccho-site-public\_stem_pipeline\shards\shard-01\tasks.json
+D:\ccho-site-public\_stem_pipeline\shards\shard-02\tasks.json
+D:\ccho-site-public\_stem_pipeline\shards\shard-03\tasks.json
+D:\ccho-site-public\_stem_pipeline\shards\shard-04\tasks.json
+D:\ccho-site-public\_stem_pipeline\shards\shard-05\tasks.json
+D:\ccho-site-public\_stem_pipeline\shards\shard-06\tasks.json
+D:\ccho-site-public\_stem_pipeline\shards\shard-07\tasks.json
+D:\ccho-site-public\_stem_pipeline\shards\shard-08\tasks.json
+D:\ccho-site-public\_stem_pipeline\shards\shard-09\tasks.json
+
+
+---EXISTING STEMS---
+
+Name               
+----               
+index.json         
+problem-000011.json
+problem-000292.json
+
+
+
+codex
+2021 福建卷已读完。继续读取其余三卷。
+exec
+"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "Get-Content -LiteralPath \"D:\\ccho-exams-link\\MinerU_MD\\初赛\\2018-32-CChO-chusai\\full.md\" -Encoding UTF8 -Raw" in D:\ccho-site-public
+exec
+"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "Get-Content -LiteralPath \"D:\\ccho-exams-link\\MinerU_MD\\决赛\\2008-22-CChO-juesai\\full.md\" -Encoding UTF8 -Raw" in D:\ccho-site-public
+exec
+"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "Get-Content -LiteralPath \"D:\\ccho-exams-link\\MinerU_MD\\初赛\\2012-26-CChO-chusai\\full.md\" -Encoding UTF8 -Raw" in D:\ccho-site-public
+ succeeded in 512ms:
+# 第32届中国化学奥林匹克（初赛）试题
+
+第1题（8分）根据所给条件按照要求书写化学反应⽅程式（要求系数为最简整数⽐）。
+
+1-1 氮化硅可⽤作LED的基质材料，它可通过等离⼦法⽤ $\mathrm { S i H _ { 4 } }$ 与氨⽓反应制得。
+
+1-2 将擦亮的铜⽚投⼊装有⾜量的浓硫酸的⼤试管中，微热⽚刻，有固体析出但⽆⽓体产⽣，固体为 $\mathrm { { C u _ { 2 } S } }$ 和另⼀种⽩⾊物质的混合物。
+
+1-3 在 $5 0 ~ ^ { \circ } \mathrm { C }$ ⽔溶液中，单质碲与过量NaBH<sub>4</sub>反应制备碲氢化钠，反应过程中析出硼砂$\mathrm { \small { [ N a _ { 2 } B _ { 4 } O _ { 5 } ( O H ) _ { 4 } { \cdot } 8 H _ { 2 } O ] } }$
+
+1-4 天然⽓的⽆机成因⼗分诱⼈。据称，地幔主成分之⼀的橄榄⽯与⽔和⼆氧化碳反应，可⽣成甲烷。橄榄⽯以 $\mathrm { M g } _ { 2 } \mathrm { S i O } _ { 4 }$ 和 $\mathrm { F e _ { 2 } S i O _ { 4 } }$ 表⽰，反应后变成蛇纹⽯ $\mathrm { \small { [ M g _ { 3 } S i _ { 2 } O _ { 5 } ( O H ) } }$ <sub>4</sub>]和磁铁矿。
+
+第 2 题（8 分）
+
+2-1 195K，三氧化⼆磷在⼆氯甲烷中与臭氧反应⽣成 $\mathrm { P _ { 4 } O _ { 1 8 } }$ ，画出 $\mathrm { P _ { 4 } O _ { 1 8 } }$ 分⼦的结构⽰意图。
+
+2-2 $\mathrm { C H _ { 2 } S F _ { 4 } }$ 是⼀种极性溶剂，其分⼦⼏何构型符合价层电⼦对互斥理论(VSEPR)模型。画出 $\mathrm { C H _ { 2 } S F _ { 4 } }$ 的分⼦结构⽰意图（体现合理的成键及⻆度关系）
+
+2-3 2018年⾜球世界⽐赛⽤球使⽤了⽣物基元三元⼄丙橡胶(EPDM)产品Keltan $\operatorname { E c o } _ { \mathsf { c } }$ 。EPDM属三元共聚物，由⼄烯、丙烯、及第三单体经溶液共聚⽽成。
+
+2-3-1EPDM具有优良的耐紫外光、耐臭氧、耐腐蚀等性能。写出下列分⼦中不可⽤于制备EPDM的第三单体（可能多选，答案中含错误选项不得分）
+
+![](images/d01997837bdf0fb89c889f635050d55b9b5fb4c4d4c8e2b7d48be398a476f92f.jpg)
+
+A
+
+![](images/69d0a7fbefc9cd729e07441809cfac00332dffacd11286272b355c82c895dbe5.jpg)
+
+B
+
+![](images/3ce6ab66bac02da6933d0d40c3fb75b875466f9ccc0b8301de7f7bbd8bbafa12.jpg)
+
+![](images/b93acd8dcd6ce59c9252898f314af64e5bc707cc28aa5b459bcdd085537c474c.jpg)
+
+C
+
+![](images/1e4b43511deddee17245e9306aac70230f27372ed54fabedc94f4b9d5261a63e.jpg)
+
+D
+
+E
+
+2-3-2 合成⾼分⼦主要材料分为塑料、纤维和橡胶三⼤类，下列⾼分⼦中与EPDM同为橡胶的是：F 聚⼄烯 G 聚丙烯氰 H 反式聚异戊⼆烯 I 聚异丁烯
+
+第3题（12分）为纪念⻔捷列夫发现元素周期表150周年，国际纯粹和应⽤化学联合会将2019年设为“国际化学元素周期表年”。⻔捷列夫预⾔了多种当时未知的元素，A即为其中⼀种。
+
+将含元素A的硫化物矿在 $\mathrm { N } _ { 2 }$ ⽓氛中 $8 0 0 ~ ^ { \circ } \mathrm { C }$ 处理，分解产物中有A的硫化物B；随后升温⾄ $8 2 5 ~ ^ { \circ } \mathrm { C }$ 并向体系中同⼊氨⽓，得到红⾊化合物C，C溶于发烟硝酸得到⽩⾊沉淀D。经过滤洗涤，D在 $6 0 0 ~ ^ { \circ } \mathrm { C }$ 与$\mathrm { C O C l } _ { 2 }$ 反应，产物冷却后得到液体E，E遇⽔⽣成D，在E的 $6 \mathrm { m o l } \mathrm { L } ^ { - 1 }$ 盐酸溶液中通⼊ $\mathrm { H } _ { 2 } \mathrm { S }$ 得到沉淀 $\mathbf { B } ;$ ；将D溶于NaOH溶液，⽤硝酸调节H+浓度⾄约0.3 mol L−1，加⼊钼酸铵溶液常温下反应产⽣橙⻩⾊沉淀F，F与⼗⼆钼酸结构等同；将D加⼊ $\mathrm { H } _ { 3 } \mathrm { P O } _ { 2 }$ 和 $\mathrm { { \bar { { d } } _ { 3 } P O _ { 3 } } }$ 的混合溶液可得到⻩绿⾊的亚磷酸盐沉淀G，G在碱性溶液中转换为⻩⾊沉淀H，H放置时脱⽔变成I，I也可由D和A的单质在⾼温下反应产⽣，D变为I失重15.3%。
+
+3-1 写出A\~I的化学式。
+
+3-2 写出B与氨⽓反应⽣成C的反应⽅程式。
+
+3-3 写出 D 在 $\mathrm { H } _ { 3 } \mathrm { P O } _ { 2 }$ 和 $\mathrm { H _ { 3 } P O _ { 3 } }$ 中⽣成G的反应⽅程式。
+
+第4题（12分）
+
+4-1 利⽤双离⼦交换膜电解法可以从含硝酸氨的⼯业废⽔中⽣产硝酸和氨。
+
+4-1-1 阳极室得到的是哪种物质？写出阳极半反应⽅程式。
+
+4-1-2 阴极室得到的是哪种物质？写出阴极半反应及获得相应物质的⽅程式。
+
+4-2 电解⼄酸钠⽔溶液，在阳极收集到X和Y的混合⽓体。⽓体通过新制的澄清⽯灰⽔，X被完全吸收，得到⽩⾊沉淀。纯净的⽓体Y冷却到90.23K，析出⽆⾊晶体，X射线衍射表明，该晶体属⽴⽅晶系，体⼼⽴⽅点阵，晶胞参数� = 530.4 pm，� = 2，密度 $\rho _ { \mathrm { \ell } } = 0 . 6 6 9 \mathrm { g c m ^ { - 3 } }$ 。继续冷却，晶体转换为单斜晶体， $a = 4 2 2 . 6$ pm， $b = 5 6 2 . 3 \mathrm { p m }$ $c = 5 8 4 . 5 \mathrm { p m }$ $\beta = 9 0 . 4 1 ^ { \circ } .$
+
+4-2-1 写出X的化学式；写出X与⽯灰⽔反应的⽅程式。
+
+4-2-2 通过计算推出Y的化学式（Y分⼦中存在三次旋转轴）。
+
+4-2-3 写出点解⼄酸钠⽔溶液时阳极板反应的⽅程式。
+
+4-2-4 写出单斜晶系的晶胞中Y分⼦的数⽬。
+
+4-2-5 降温过程中晶体转换为对称性较低的单斜晶体，简述原因。
+
+第5题（10分）元素同位素的类型及其天然丰度不仅决定原⼦量的数值，也是矿物年龄分析、反应机理研究等的重要依据。
+
+5-1 已知 Cl 有两种同位素 35Cl 和 37Cl，⼆者丰度⽐为 0.75:0.25；Rb 有 85Rb 和 87Rb，⼆者丰度⽐为0.72:0.28。
+
+5-1-1 写出⽓态中同位素组成不同的RbCl分⼦。
+
+5-1-2 这些分⼦有⼏种质量数？写出质量数，并给出其⽐例。
+
+5-2 年代测定是地质学的⼀项重要⼯作。Lu-Hf法是上世纪80年代随着等离⼦发射光谱、质⼦谱等技术发展⽽建⽴的⼀种新断代法。Lu有两种天然同位素：176Lu和 $^ { 1 7 7 } \mathrm { L u } _ { \mathrm { o } }$ Hf有六种天然同位素：176Hf、177Hf、178Hf、179Hf、180Hf 和 181Hf。176Lu 发⽣ $\lvert \beta \rvert$ 衰变⽣成176Hf，半衰期为 $3 . 7 1 6 \times 1 0 ^ { 1 0 }$ 年。177Hf为稳定同位素且⽆放射性来源。地质⼯作者获得⼀块岩⽯样品，从该样品的不同部位取得多个样本进⾏分析。其中的两组有效数据如下：样本 1：176Hf 与 177Hf 的⽐值为 0.28630（原⼦⽐，记为 176Hf/177Hf），176Lu/177Hf 为 0.42850。
+
+样本 2：176Hf/177Hf 为 0.28239，176Lu/177Hf 为 0.01470。
+
+（⼀级反应，物种含量�随时间�变化的关系式： $\begin{array} { r } { c = c _ { 0 } e ^ { - k t } \underline { { \mathbb { H } } } \underline { { \hat { \mathbf { \Pi } } } } | \mathrm { l n } \frac { c } { c _ { 0 } } = - k t } \end{array}$ ，其中 $\iota _ { c _ { 0 } }$ 为起始含量）
+
+5-2-1 写出 $^ \mathrm { 1 7 6 } \mathrm { L u }$ 发⽣�衰变的核反应⽅程式（标出核电荷数和质量数）。
+
+5-2-2 计算 $^ { 1 7 6 } \mathrm { L u }$ 衰变反应速率常数�。
+
+5-2-3 计算该岩⽯的年龄。
+
+5-2-4 计算该岩⽯⽣成时 176Hf/177Hf的⽐值。
+
+第 6 题（10 分）将 0.0167 mol I<sub>2</sub>和 0.0167 mol H<sub>2</sub>置于预先抽真空的特制 1 L 密闭容器中，加热 1500 K，体系达到平衡，总压强为4.56 bar (1 bar =100kPa)。体系中存在如下反应关系：
+
+(1) $\mathrm { I } _ { 2 } ( \mathrm { g } )  2 \mathrm { I } ( \mathrm { g } )$ �<sub>&'</sub> = 2.00 bar (2) $\mathrm { I } _ { 2 } ( \mathrm { g } ) + \mathrm { H } _ { 2 } ( \mathrm { g } )  2 \mathrm { H I } ( \mathrm { g } )$ �<sub>&(</sub> (3) HI(g) ⇌ I(g) + H(g) � = 8.0×10−6 (2) $\mathrm { H } _ { 2 } ( \mathrm { g } )  2 \mathrm { H } ( \mathrm { g } )$ �<sub>&\*</sub>
+
+6-1 计算 1500 K 体系中 $\mathrm { I } _ { 2 } ( \mathrm { g } )$ 和 $\mathrm { H } _ { 2 } ( \mathrm { g } )$ 未分解时的分压。 $\left( R \mathrm { ~ = ~ } 8 . 3 1 4 \mathrm { ~ J ~ m o l ^ { - 1 } ~ K ^ { - 1 } } \right)$
+
+6-2 计算1500K平衡体系中除H(g)之外所有物种的分压。
+
+6-3 计算 $K _ { p 2 ^ { \circ } }$ 。
+
+6-4 计算 $K _ { p 4 ^ { \mathsf { c } } }$ 。（若未算出 $K _ { p 2 }$ <sub>(</sub>，可设 $K _ { p 2 } = 1 0 . 0 )$
+
+第7题（10分）蛋⽩质中的巯基可以作为配体。多种酶中存在⾦属-硫簇。在含硫配体的研究中，得到⼀类过渡⾦属离⼦和⼄⼆硫醇离⼦（ $\mathrm { \mathrm { ^ { - } S C H _ { 2 } C H _ { 2 } S ^ { - } } }$ ，简写为edt2−）形成的双核络离⼦ $[ \mathbf { M } _ { 2 } ( \mathrm { e d t } )$ <sub>4</sub>]2− $( \mathbf { M } = \mathrm { V } , \mathrm { M n } , \mathrm { F e } )$ 。它们尽管通式相同，但结构不同。 $[ \mathrm { V } _ { 2 } ( \mathrm { e d t } ) _ { 4 } ] ^ { 2 }$ −中，每个钒原⼦周围有6个硫原⼦配位，通过两个V连线中⼼有三个互相垂直的2次轴；当⾦属为Mn或Fe时，M周围有5个硫原⼦配位，形成四⽅锥形排布， $[ \mathbf { M } _ { 2 } ( \mathrm { e d t } ) _ { 4 } ] ^ { 2 }$ −离⼦有对称中⼼。
+
+7-1 画出[V<sub>2</sub>(edt)<sub>4</sub>]2−的结构（忽略氢原⼦）。
+
+7-2 画出 $[ \mathbf { M } _ { 2 } ( \mathrm { e d t } ) .$ <sub>4</sub>]2− $( \mathbf { M } = \mathbf { M } \mathbf { n }$ , Fe)的结构（忽略氢原⼦）。
+
+7-3 写出 $\mathrm { [ V _ { 2 } ( e d t ) _ { 4 } ] ^ { 2 - } }$ −中钒的价电⼦组态。磁性测试表明，它显抗磁性，简述原因。
+
+7-4 $\mathrm { [ M n _ { 2 } ( e d t ) _ { 4 } ] ^ { 2 } }$ −可由MnCl<sub>2</sub>溶液和 $\mathrm { N a } _ { 2 } ( \mathrm { e d t } )$ 溶液在空⽓中反应得到，写出反应⽅程式。
+
+第8题（11分）
+
+8-1 以下化合物与⼄胺均可发⽣亲核取代反应，写出亲核取代反应的类型。
+
+$$
+\mathrm{CH} _ {3} \mathrm{Br}
+$$
+
+$$
+\mathrm{CH} _ {3} \mathrm{I}
+$$
+
+![](images/9f59610a763e39b003c38ee7832e7c6c089123100c8ef6b4a9ecbb46f63b66dc.jpg)
+
+A
+
+B
+
+![](images/3731732085b741519ad55c5b3fb30102ad3630765e6302e4ae7db6eebbb38921.jpg)
+
+C
+
+![](images/b40734fb8cfd2e38a596b8a0b49df3b7dce515e15c687fd3c3f1fc565b4c4634.jpg)
+
+D
+
+E
+
+8-2 按亲核取代反应进⾏的快慢，对以上化合物（⽤字⺟表⽰）进⾏排序（从快到慢）。
+
+8-3 判断下列正离⼦（⽤字⺟表⽰）稳定性的顺序（从稳定到不稳定）。
+
+![](images/fa4a923751d7158fb9d0b012d0e633bf4a572260c028f882c8d6dcc6dd3573f7.jpg)
+
+F
+
+![](images/40c687a8cb64d8cc2879d629492b4a0f04d9b76045d5e943dfd6e3cf51cecf34.jpg)
+
+G
+
+![](images/76ba94d52bc80caf85ef5fc030091d2c8ac5c301a3fe40e1d86028c07a133bb1.jpg)
+
+H
+
+![](images/19b489a639142b59344c7c478d7c3f7300d170a2eadcbb2e0829524a260bdc88.jpg)
+
+I
+
+![](images/0105a138be8f90247dc53780414f464edb18e41b792812aead9a50c5c405d0e5.jpg)
+
+K
+
+第9题（9分）近年来，我国有机化学家发展了⼀些新型的有机试剂，如氟化试剂CpFluors系列。在这些氟化试剂中，CpFluors-2与醇反应可以⾼产率、⾼选择性的⽣成氟代物：
+
+![](images/f87fd6e3dc65ef79e09abac414b0b8c7b595b4de4749bca802683db8079661c7.jpg)
+
+提⽰：画结构简式时可⽤Ar代替CpFluors-2中的芳⾹取代基。
+
+9-1 简要解释CpFluor-2中C—F键容易断裂的主要原因。
+
+9-2 研究表明，反应体系中存在的痕量⽔可以加快反应进程，画出CpFluor-2与⽔反应所得产物的结构简式。
+
+9-3 画出3-苯基丙醇氟代过程中三个关键中间体的结构简式。
+
+9-4 研究表明，9-3的反应中存在⼀个重要的副产物，其结构简式如下：
+
+![](images/96ede79800dde7af039889b5790b8c51a99a6f064854cc9e14130e5d8a83ce50.jpg)
+
+画出形成该副产物过程中三个关键中间体的结构简式。
+
+第10题（10分）以下正离⼦经过4π电⼦体系的电环化反应形成戊烯正离⼦，该离⼦可以失去质⼦形成共轭烯烃：
+
+![](images/8ac6b6d9e21ef5f0f11e38a771762e82cb15bc2fb565afc8adb7e8280830b524.jpg)
+
+根据以上信息，画出下列反应主要产物的结构简式（产物指经后处理得到的化合物）。
+
+10-1
+
+![](images/c77a8913c5ef167f3e39efbdfc284c0d021bd63ca04170304176db05bcaf43eb.jpg)
+
+10-2
+
+![](images/bb9bd84b4b28539b6b0b2e001ac89481c3c109e56fe6946f39242f6f978cd28a.jpg)
+
+10-3
+
+![](images/aa6c56c444db5a4803214ff0fe2e4e1d7fead21fd2d1f68253863cda8a9d87fa.jpg)
+
+10-4
+
+![](images/b88fa356307079aebfc8a1f8753ccc37e2bcdcc3c53605c0aca47a8ff5bf0a55.jpg)
+
+![](images/fa208753d2e576684bb735b2e4bdb592e971f96e0f46a1951063906c479e1cd7.jpg)
+
+涉及的缩写：�-Pr：正丙基、�-Pr异丙基 提⽰： $\mathrm { { A l C l } _ { 3 } }$ 和 $\mathrm { T i C l _ { 4 } }$ 为 Lewis 酸
+
+10-5
+
+ succeeded in 535ms:
+## 第26届中国化学奥林匹克（初赛）试题
+
+## 第 1 题（7 分）
+
+1-1 向硫酸锌⽔溶液中滴加适当浓度的氨⽔⾄过量，发⽣两步主要反应。简述实验现象并写出两步主要反应的离⼦⽅程式。
+
+1-2 化合物 $[ \mathrm { C u ( P y d c ) ( a m p ) } ] { \cdot } 3 \mathrm { H } _ { 2 } \mathrm { O } ]$ 的组成为 $\mathrm { C _ { 1 1 } H _ { 1 4 } C u N _ { 4 } O _ { 7 } }$ ，热重分析曲线表明，该化合物受热分解发⽣两步失重，第⼀个失重峰在 $2 0 0 { \sim } 2 5 0 \ ^ { \circ } \mathrm { C } ,$ ，失重的质量分数为 $1 5 . 2 \% _ { \textmd { o } }$ 第⼆个失重峰在 $4 0 0 { \sim } 5 0 0 \ ^ { \circ } \mathrm { C }$ ，失重后的固态残渣质量为原化合物质量的 20.0%。Pydc 和 amp 是含有芳环的有机配体。通过计算回答：
+
+1. 第⼀步失重失去的组分。
+
+2. 第⼆步失重后的固态残渣是什么，解释理由。
+
+第2题（7分）A和X是两种常⻅的⾮⾦属元素，其核外电⼦数之和为22，价电⼦数之和为 $1 0 _ { \circ }$ 。在⼀定条件下可⽣成AX、 $\mathbf { A X } _ { 3 }$ （常⻅的Lewis酸）、 $\mathbf { A } _ { 2 } \mathbf { X } _ { 4 }$ 和 $\mathbf { A } _ { 4 } \mathbf { X } _ { 4 }$ ，反应如下：
+
+$$
+\begin{array}{r l}&{\mathbf {A} (\mathrm{s}) + 3 / 2 \mathbf {X} _ {2} (\mathrm{g}) \rightarrow \mathbf {A X} _ {3} (\mathrm{g})}\\&{\mathbf {A X} _ {3} (\mathrm{g}) \xrightarrow {\mathrm{Hg,放电}} \mathbf {A X} (\mathrm{g}) + 2 \mathbf {X} (\mathrm{g})}\\&{2 \mathrm{Hg} + 2 \mathbf {X} (\mathrm{g}) \rightarrow \mathrm{Hg} _ {2} \mathbf {X} _ {2} (\mathrm{g})}\\&{\mathbf {A X} (\mathrm{g}) + \mathbf {A X} _ {3} (\mathrm{g}) \rightarrow \mathbf {A} _ {2} \mathbf {X} _ {4} (\mathrm{g})}\\&{4 \mathbf {A X} (\mathrm{g}) \rightarrow \mathbf {A} _ {4} \mathbf {X} _ {4} (\mathrm{g})}\end{array}
+$$
+
+2-1 指出 A 和 X 各是什么元素。
+
+2-2 ${ \bf A } _ { 4 } { \bf X } _ { 4 }$ 具有4个三重旋转轴，每个A原⼦周围都有4个原⼦，画出 $\mathbf { A } _ { 4 } \mathbf { X } _ { 4 }$ <sub>4</sub>的结构⽰意图。
+
+2-3 写出 $\mathbf { A X } _ { 3 }$ $\mathrm { C H _ { 3 } M g B r }$ 按计量数⽐为 1:3 反应的⽅程式。
+
+2-4 写出 $\mathbf { A } _ { 2 } \mathbf { X } _ { 4 }$ 与⼄醇发⽣醇解反应的⽅程式。
+
+第3题（10分） $\mathrm { C u S O _ { 4 } }$ 溶液与 $\mathrm { K _ { 2 } C _ { 2 } O _ { 4 } }$ 溶液反应，得到⼀种蓝⾊晶体。通过下述实验确定该晶体的组成：
+
+(a) 称取 0.2073 g 样品，放⼊锥形瓶，加⼊ 40 mL 2 M 的 $\mathrm { H _ { 2 } S O _ { 4 } }$ ，微热使样品溶解，加⼊30mL⽔，加热近沸，⽤ 0.02054 M $\mathrm { K M n O } _ { 4 }$ 溶液滴定⾄终点，消耗24.18mL。
+
+(b) 接着将溶液充分加热，使浅紫红⾊变为蓝⾊，冷却后加⼊2gKI固体和适量 ${ \mathrm { N a } } _ { 2 } { \mathrm { C O } } _ { 3 } ,$ ，溶液变为棕⾊并⽣成沉淀。⽤ 0.04826 M 的 $\mathrm { N a _ { 2 } S _ { 2 } O _ { 3 } }$ 溶液滴定，近终点时加⼊淀粉指⽰剂，⾄终点，消耗 $1 2 . 6 9 \mathrm { m L }$ 0
+
+3-1 写出步骤a中滴定反应的⽅程式。
+
+3-2 写出步骤b中溶液由淡紫⾊变为蓝⾊的过程中所发⽣反应的⽅程 $\updownarrow \updownarrow _ { \updownarrow }$
+
+3-3 ⽤反应⽅程式表达KI在步骤b中的作⽤：写出 $\mathrm { N a _ { 2 } S _ { 2 } O _ { 3 } }$ 滴定反应的⽅程式。
+
+3-4 通过计算写出蓝⾊晶体的化学式（原⼦数取整数）。
+
+第4题（5分）1976年中⼦衍射实验证实： $\mathrm { \ t r a n s { \scriptscriptstyle - } [ C o ( e n ) _ { 2 } C l _ { 2 } ] _ { 2 } C l { \cdot } H C l { \cdot } 2 H _ { 2 } O }$ 晶体中只存在3种离⼦： $\mathbf { X } ^ { + }$ 、含钴的A+和Cl−。X+中所有原⼦共⾯，有对称中⼼和3个相互垂直的镜⾯。注：en是⼄⼆胺的缩写符号。
+
+4-1 画出A+及其⽴体异构体的结构简图。
+
+4-2 画出X+的结构图。
+
+第5题（8分）从尿素和草酸的⽔溶液中得到⼀种超分⼦晶体。X射线衍射实验表明，该晶体属于单斜晶系，晶胞参数 $\dot { a } = 5 0 5 . 8 \mathrm { p m }$ $b = 1 2 4 0 \mathrm { p m }$ 9 $c = 6 9 6 . 4 \mathrm { p m }$ $\beta ~ = 9 8 . 1 3 ^ { \circ }$ 。晶体中两种分⼦通过氢键形成⼆维分⼦结构，晶体密度 $d = 1 . 6 1 4 \mathrm { g c m ^ { - 3 } } .$ 0
+
+5-1 推求晶体中草酸分⼦和尿素分⼦的⽐例。
+
+5-2 画出⼀个化学单位的结构，⽰出其中的氢键。
+
+第6题（6分）2,3-吡啶⼆羧酸，俗称喹啉酸，是⼀种中枢神经毒素，阿尔兹海默症、帕⾦森症等都与它有关。常温下喹啉酸呈固态，在 $1 8 5 { \sim } 1 9 0 ~ ^ { \circ } \mathrm { C }$ 下释放 $\mathrm { { C O } _ { 2 } }$ 转化为烟酸。
+
+6-1 晶体中，喹啉酸采取能量最低的构型，画出此构型（碳原⼦上的氢原⼦以及孤对电⼦可不画）。
+
+6-2 喹啉酸在⽔溶液中的 $\mathsf { p } K _ { a _ { 1 } } = 2 . 4 1$ ，写出其⼀级电离的⽅程式（共轭酸碱⽤结构简式表⽰）。
+
+6-3 画出烟酸的结构。
+
+第7题（10分）硼的总浓度≥0.4M的硼酸及其盐的⽔溶液中不仅存在四硼酸根离⼦ $\mathrm { B } _ { 4 } \mathrm { O } _ { 5 } ( \mathrm { O H } ) _ { 4 } { } ^ { 2 - }$ ，还存在电荷为−1的五硼酸根离⼦以及电荷为−1和−2的两种三硼酸根离⼦。这些多硼酸根离⼦和 $\mathrm { B ( O H ) _ { 4 } }$ −缩合⽽成，结构中硼原⼦以 $_ { \mathrm { B - O - B } }$ 的⽅式连接成环。
+
+7-1 上述五硼酸根离⼦中，所有三配位硼原⼦的化学环境完全相同，画出其结构⽰意图（不画孤对电⼦，羟基⽤—OH 表达）
+
+7-2 下图⽰出硼酸-硼酸盐体系在硼的总浓度为0.4 M时，其存在形式与pH的关系。1、2、3、4分别为4种多硼酸根离⼦存在的区域。推出1、2、3、4分别对应的多硼酸根离⼦的化学式。
+
+![](images/809966d694ae92c97c477b6d6200a712f3a0f3e548be412ee241bae1f6e64934.jpg)
+
+注：以 $\mathrm { B } _ { 4 } \mathrm { O } _ { 5 } ( \mathrm { O H } ) _ { 4 } { } ^ { 2 - }$ 为范例，书写其他3种多硼酸根离⼦的化学式；形成这些物种的缩合反应速率⼏乎相同，其排列顺序不受反应速率制约；本体系中缩合反应不改变硼原⼦的配位数。
+
+第8题（16分）右图⽰出在碳酸-碳酸盐体系 $\left( \mathrm { C O _ { 3 } } ^ { 2 \cdot } \right.$ −的分析浓度为 $1 . 0 \times 1 0 ^ { - 2 } \mathrm { M } )$ 中，铀的存在物种及相关电极电势随 pH 的变化关系（E-pH 图，以标准氢电极为参⽐电极）。作为⽐较，虚线⽰出 H+/H<sub>2</sub>和 $\mathrm { O _ { 2 } / H _ { 2 } O }$ 两电对的E-pH关系。
+
+![](images/62bfb2f59ced12b348f9868e695b7a1b225375060f0dd176e8080e466d9a173b.jpg)
+
+8-1 计算在pH分别为4.0和6.0的条件下碳酸—碳酸盐体系中主要物种的浓度。
+
+已知 $\mathrm { H _ { 2 } C O _ { 3 } }$ 的 $K _ { a _ { 1 } } = 4 . 5 \times 1 0 ^ { - 7 }$ $K _ { a _ { 2 } } = 4 . 7 \times 1 0 ^ { - 1 1 }$
+
+8-2 图中a和b分别是pH=4.4和6.1的两条直线，分别写出与a和b相对应的轴的物种发⽣转化的⽅程式。
+
+8-3 分别写出与直线c和d相对应的电极反应，说明其斜率为正或负的原因。
+
+8-4 在 $\mathrm { p H } = 4 . 0$ 的缓冲体系中加⼊ $\mathrm { U C l _ { 3 } } ,$ 写出反应⽅程式。
+
+8-5 在 $\mathrm { p H } = 8 . 0 { \sim } 1 2$ 之间，体系中 $\mathrm { U O _ { 2 } ( C O _ { 3 } ) _ { 3 } } ^ { 4 - }$ −和 $\mathrm { U } _ { 4 } \mathrm { O } _ { 9 } ( \mathrm { s } )$ 能否共存？说明理由； $\mathrm { U O _ { 2 } ( C O _ { 3 } ) _ { 3 } } ^ { 4 - }$ −和 $\mathrm { U O } _ { 2 } ( \mathsf { s } )$ 能否共存？说明理由。
+
+第 9 题（12 分）Knoevenagel 反应是⼀类有⽤的缩合反应。如下图所⽰，丙⼆酸⼆⼄酯与苯甲醛在六氢吡啶催化下⽣成2-苯亚甲基丙⼆酸⼆⼄酯。
+
+![](images/0122873187dec226271739ec63428628b2258344012e5dd107519a51bfe27e61.jpg)
+
+9-1 指出该反应中的亲核试剂。
+
+9-2 简述催化剂六氢吡啶在反应中的具体作⽤。
+
+9-3 化合物A是合成抗痉挛药物D(gabapentin)的前体。根据上述反应式，写出合成A的2个起始原料的结构简式。
+
+$$
+\begin{array}{c} \text {COOCH_ {2} CH_ {3}} \\ \text {COOCH_ {2} CH_ {3}} \end{array}
+$$
+
+9-4 画出由A制备D过程中中间体B、C和产物D的结构简式。
+
+$$
+\mathrm{A} \xrightarrow [ \mathrm{H} _ {2} \mathrm{O} ]{\mathrm{NaCN}} \mathrm{B} \xrightarrow [ \Delta ]{\mathrm{H} _ {2} , \text {cat.}} \mathrm{C} \xrightarrow [ \Delta ]{\mathrm{NaOH} , \mathrm{H} _ {2} \mathrm{O}} \mathrm{D}
+$$
+
+第10题（6分）辣椒的味道主要来⾃辣椒素类化合物。辣椒素F的合成路线如下：
+
+![](images/4066cff5c4217bc8166d54a00148e6ee8c9b204e3dc9248d2d5a02c7be1f14a1.jpg)
+
+画出化合物A、B、C、D、E和F的结构简式。
+
+第 11 题（12 分）
+
+11-1 烯烃羟汞化反应的过程与烯烃的溴化相似。现有如下两个反应：
+
+$$
+\mathrm{CH} _ {2} \xrightarrow [ 2 . \mathrm{NaBH} _ {4} , \mathrm{HO} ^ {-} ]{1 . \mathrm{Hg(OAc)} _ {2} , \mathrm{THF/H} _ {2} \mathrm{O}} \mathrm{A}
+$$
+
+4-戊烯-1-醇在相同条件下反应的主要产物为B。画出化合物A和B的结构简式。
+
+11-2 下列有机化合物中具有芳⾹性的是：
+
+![](images/46cbc6d55ca71c6137bd71cfe1b7f9c9d09daa39f5bc10c3597430b64c57ff36.jpg)
+
+
+
+
+
+
+
+化合物A经过如下两步反应后⽣成化合物D，回答如下问题：
+
+![](images/9eb9cbe2a291fabdfa8b56333cba71dfba5e05c33dedc7c6d7c26e7488249fca.jpg)
+
+11-3 写出物质B的名称。
+
+C
+
+11-4 圈出C中来⾃原料A中的氧原⼦。
+
+![](images/6a754213116717507e6237fc097570d1a6be93df9a023ea13d075effc5c5d87a.jpg)
+
+11-5 画出物质D的结构简式。
+
+ succeeded in 540ms:
+## 第22届中国化学奥林匹克（决赛）试题
+
+(2009 年 1 ⽉ 7 ⽇ 8:00-12:00 西安)
+
+第1题 ⾦在⾃然界中主要以分散的单质形式存在，需要先富集再提炼。富集后的精矿⽤混汞法、氰化法等⼯艺提取⾦。混汞法是使矿浆中的⾦粒与汞⽣成⾦汞⻬。然后蒸去汞得到海绵⾦（⼜称汞⾦）。氰化法是在氧化剂（如空⽓或氧⽓）存在下，⽤可溶性氰化物（如 $\mathrm { N a C N } )$ 溶液浸出矿⽯中的⾦（浸出产物为[ $\mathrm { A u ( C N ) _ { 2 } ] } ^ { \cdot }$ 再⽤置换法或电沉积法从浸出液中回收⾦。
+
+1-1 写出⽤氰化物溶⾦反应和⽤Zn粉置换⾦的化学反应⽅程式。
+
+1-2 已知 $1 E ^ { \ominus } ( \mathrm { O } _ { 2 } / \mathrm { H } _ { 2 } \mathrm { O } ) = 1 . 2 2 9 \mathrm { V }$ $E ^ { \ominus } ( \mathrm { A u ^ { + } / A u } ) = 1 . 6 9 \mathrm { V }$ $K _ { a } ^ { \ominus } ( \mathrm { H C N } ) = 4 . 9 3 \times 1 0 ^ { - }$ −10， $\beta _ { 2 } ( \mathrm { [ A u ( C N ) _ { 2 } ] ^ { - } } ) = 2 . 0 0 \times$ $1 0 ^ { 3 8 }$ ， $F _ { \mathrm { \ell } } = 9 6 4 8 5 \mathrm { J \ V ^ { - 1 } \ m o l ^ { - 1 } \Omega _ { \mathrm { \ell } } }$ 。设配制的NaCN⽔溶液的浓度为 $1 . 0 0 { \times } 1 0 ^ { - 3 } \mathrm { m o l } \mathrm { L } ^ { - 1 }$ 、⽣成的 $\mathrm { \ A u ( C N ) _ { 2 } ] }$ −配离⼦的浓度为 $1 . 0 0 { \times } 1 0 ^ { - 4 } \mathrm { m o l } \mathrm { L } ^ { - }$ 1、空⽓中 $\mathrm { O _ { 2 } }$ 的体积分数为0.210，计算298 K时在空⽓中溶⾦反应的⾃由能变。
+
+1-3 当电极反应中有H+或OH−时，其电极电势�将受pH的影响，�-pH图体现了这种影响。 $E \mathrm { - p H }$ 图上有3种类型的线：电极反应的�与pH有关，为有⼀定斜率的直线；电极反应的�与pH⽆关，是⼀条平⾏于横坐标的直线；⾮氧化还原反应，是⼀条平⾏于纵坐标的直线。
+
+电对的 $E \mathrm { - p H }$ 线的上⽅，是该电对的氧化型的稳定区， $E \mathrm { - p H }$ 线的下⽅，是还原型的稳定区；位于⾼位置线的氧化型易与低位置线的还原型反应；各曲线的交点所处的�和pH，是各电极的氧化型和还原型共存的条件。
+
+下图是氰化法溶⾦过程的 $\mathrm { A u \mathrm { - C N \mathrm { - } H _ { 2 } O } }$ 系统的�-pH图，试借助该图对溶⾦反应和溶⾦的⼯艺条件进⾏讨$i \not \in \Sigma _ { \circ }$
+
+![](images/8daa6045ba397b6c656c26372c37d9cff6ae2af5f389b05317a0a13e5fb4a31f.jpg)
+
+第2题 液氨是⼀种⼴泛使⽤的类⽔溶剂。
+
+2-1 作为溶剂， $\mathrm { N H _ { 3 } }$ 分⼦也能发⽣类似于 $\mathrm { H _ { 2 } O }$ 分⼦的缔合作⽤，说明发⽣这种缔合的原因和⽐较这种缔合作⽤相对于⽔的⼤⼩。
+
+2-2 以液氨作为溶剂最引起化学家兴趣的是它能够溶解⼀些⾦属，如电极电势⼩于2.5V的碱⾦属、部分碱⼟⾦属及镧系元素可溶于液氨，形成蓝⾊的具有异乎寻常性质的亚稳定态溶液，这种溶液具有顺磁性和⾼的导电性，溶液的密度⽐纯溶液的密度⼩。碱⾦属的液氨溶液是可供选择使⽤的强还原剂，⼴泛应⽤于合成⼀些⾮正常氧化态的⾦属配合物和其他化合物。研究发现在⾦属Na的液氨溶液中存在着以下反应：
+
+$$
+\begin{array}{l}\mathrm {Na(s) + NH_ {3} \rightarrow Na(NH_ {3})}\\2 \mathrm {Na(NH_ {3}) \rightleftharpoons Na_ {2} (NH_ {3}) + NH_ {3}}\end{array}\quad K ^ {\ominus} \approx 5 \times 1 0 ^ {3}
+$$
+
+$$
+\begin{array}{l l}\mathrm {Na(NH_ {3}) + NH_ {3} \rightleftharpoons Na^ {+} (NH_ {3}) + e^ {-} (NH_ {3})}&K ^ {\ominus} \approx 1 0 ^ {- 2}\\\mathrm {Na^ {-} (NH_ {3}) + NH_ {3} \rightleftharpoons Na(NH_ {3}) + e^ {-} (NH_ {3})}&K ^ {\ominus} \approx 1 0 ^ {- 3}\\2 \mathrm {e^ {-} (NH_ {3}) \rightleftharpoons e_ {2} ^ {2 - } (NH_ {3}) + NH_ {3}}\end{array}
+$$
+
+⾦属 $\mathrm { N a }$ 在液 $\mathrm { N H _ { 3 } }$ 溶剂中⽣成氨合⾦属 $\mathrm { N a } ( \mathrm { N H } _ { 3 } )$ $\mathrm { N a _ { 2 } ( N H _ { 3 } ) }$ ，氨合阳离⼦ $\cdot \mathrm { N a ^ { + } ( N H _ { 3 } ) }$ ，氨合阴离⼦ $\mathrm { N a ^ { - } ( N H _ { 3 } ) }$ 及氨合电⼦e−(NH<sub>3</sub>)、 $\mathrm { e } _ { 2 } ^ { 2 \mathrm { - } } \mathrm { ( N H _ { 3 } ) }$ 等物种。
+
+试根据以上信息解释碱⾦属液氨溶液的⾼导电性和顺磁性。
+
+出 $\mathrm { | [ P t ( N H _ { 3 } ) _ { 4 } ] B r _ { 2 } }$ 与K在液氨中的反应⽅程式。
+
+2-3 溶剂 $\mathrm { N H _ { 3 } }$ 分⼦⾃动电离形成铵离⼦和氨基离⼦：
+
+$$
+2 \mathrm{NH} _ {3} \rightleftharpoons \mathrm{NH} _ {4} ^ {+} + \mathrm{NH} _ {2} ^ {-} \quad K ^ {\ominus} = [ \mathrm{NH} _ {4} ^ {+} ] \times [ \mathrm{NH} _ {2} ^ {-} ] = 1 0 ^ {- 2 7}
+$$
+
+离⼦积常数 $K ^ { \ominus }$ 虽然⽐ $\mathrm { H _ { 2 } O }$ 的 $K _ { \mathbf { w } } ^ { \ominus }$ ⼩得多，但同样可以建⽴类似于⽔体系中的 $\mathrm { p H }$ 标度。试建⽴这种标度，确定酸性、中性和碱性溶液的 $\mathrm { p H }$ C
+
+2-4 在液氨中的许多反应都类似于⽔中的反应，试写出 $\mathrm { T i C l _ { 4 } , \ Z n ^ { 2 + } }$ 和 $\mathrm { L i _ { 3 } N }$ 在液氨中反应的⽅程式。
+
+2-5 在⽔体系中以标准氢电极为基准建⽴了标准电极电势系统，在液氨体系中同样也以标准氢电极建⽴类似于⽔体系的液氨体系中的标准电极电势系统。试写出标准氢电极的半反应⽅程式及标准电极电势。
+
+2-6 在液氨体系中某些⾦属的标准电极电势跟这些⾦属在⽔溶液的标准电极电势⼗分相近。已知在液氨体系中， $6 \mathrm { N H _ { 4 } ^ { + } + N _ { 2 } + 6 e ^ { - }  8 N H _ { 3 } }$ 的 $E ^ { \ominus } = 0 . 0 4 \mathrm { V } _ { \odot }$ 。试设计⼀个在液氨中实施⽤氢固氮的反应，并预计其反应条件，简述理由。
+
+2-7 液氨作为溶剂在化学分析中⼴泛⽤于⾮⽔滴定，试述哪些不宜于在⽔溶液中滴定的酸碱体系可以在液氨中进⾏。
+
+第3题 复⽅阿司匹林⽚是常⽤的解热镇痛药，其主要成分为⼄酰⽔杨酸。我国药典采⽤酸碱滴定法对其含量进⾏测定。
+
+虽然⼄酰⽔杨酸（相对分⼦质量180.2）含有羧基可⽤NaOH溶液直接滴定，但⽚剂中往往加⼈少量酒⽯酸或柠檬酸稳定剂，制剂⼯艺过程中也可能产⽣⽔解产物（⽔杨酸、醋酸），因此宜采⽤两步滴定法。即先⽤NaOH溶液滴定样品中共存的酸（此时⼄酰⽔杨酸也⽣成钠盐），然后加⼊过量NaOH溶液使⼄酰⽔杨酸钠在碱性条件下定量⽔解，再⽤ $\mathrm { H _ { 2 } S O _ { 4 } }$ 溶液返滴定过量碱。
+
+![](images/40d1e3b5986f356b38247909dc5bde22e351ff03018a780464d5afd86949abaf.jpg)  
+⼄酰⽔杨酸
+
+3-1 写出定量⽔解和滴定过程的反应⽅程式。
+
+3-2 定量⽔解后，若⽔解产物和过量碱浓度均约为 $0 . 1 0 \mathrm { m o l } \mathrm { L } ^ { - 1 }$ $\mathrm { H _ { 2 } S O _ { 4 } }$ 溶液浓度为 $0 . 1 0 0 0 \mathrm { m o l } \mathrm { L } ^ { - 1 }$ ，则第⼆步滴定的化学计量点pH是多少？应选⽤什么指⽰剂？滴定终点颜⾊是什么？若以甲基红作指⽰剂，滴定终点pH为4.4，则⾄少会有多⼤滴定误差？（已知⽔杨酸的离解常数为 $\mathrm { p } K _ { a 1 } = 3 . 0 , \mathrm { p } K _ { a 2 } = 1 3 . 1$ ；醋酸的离解常数为 ${ \sf N } _ { a } = 1 . 8 { \sf \times } 1 0 ^ { - 5 } )$ ）。
+
+3-3 取10⽚复⽅阿司匹林⽚，质量为� (g)。研细后准确称取粉末 $\mathbf { \dot { \tau } } m _ { 1 } \mathbf { \tau } ( \mathbf { g } )$ ，加20mL⽔（加少量⼄醇助剂），振荡溶解，⽤浓度为� (mol L−1)的NaOH溶液滴定，消耗 $: V _ { 1 } ~ ( \mathrm { m L } )$ ，然后加⼈浓度为 $\lvert c _ { 1 }$ 的 NaOH 溶液 $V _ { 2 }$ $( \mathrm { m L } )$ ；再⽤浓度 $c _ { 2 } ( \mathrm { m o l } \mathrm { L } ^ { - 1 } )$ 的 $\mathrm { H _ { 2 } S O _ { 4 } }$ 溶液滴定，消耗 $V _ { 3 } ~ \mathrm { \Omega } ( \mathrm { m L } )$ ，试计算⽚剂中⼄酰⽔杨酸的含量（mg/⽚）。
+
+第4题 ⾦属Li在常温常压下与 $\mathrm { N } _ { 2 }$ ⽓反应⽣成红棕⾊的离⼦化合物α-Li<sub>3</sub>N，该品体有良好的导电性，具有潜在应⽤价值。X射线衍射分析确定，α-Li<sub>3</sub>N晶体是由Li<sub>2</sub>N−平⾯层和⾮密置的Li+层交替叠加⽽成，其中$\mathrm { L i _ { 2 } N ^ { \cdot } }$ −平⾯层中的 $\operatorname { L i } ^ { + }$ 如同六⽅⽯墨层中的C原⼦， $\mathrm { N ^ { 3 ^ { - } } }$ 处在六元环的中⼼，N—N间的距离为 $3 6 4 . 8 \mathrm { p m } _ { \circ }$ ⾮密置层中的 Li+与上下 $\mathrm { L i _ { 2 } N }$ −层中的 $\mathrm { N ^ { 3 ^ { - } } }$ 直线相连，N—Li—N ⻓度为 387.5 pm。已知 $\mathrm { N ^ { 3 } }$ −和 Li+离⼦半径分别为146 pm 和 59 pm。请完成下列问题。（相对原⼦质量：Li 6.94；O 16.00；Ti 47.88）
+
+4-1 分别画出 $\mathrm { L i _ { 2 } N ^ { - } }$ −层的结构，最⼩重复单位以及 $\mathrm { . } \mathrm { a - L i _ { 3 } N }$ 的晶胞。
+
+4-2 确定该晶体的结构基元、点阵型式以及 $\mathrm { N ^ { 3 - } }$ −的Li+离⼦配位数。
+
+4-3 计算 $\mathrm { L i _ { 2 } N }$ −层Li—N中间距离。
+
+4-4 通过计算说明α-Li<sub>3</sub>N晶体导电的原因。假如 $\mathrm { N ^ { 3 - } }$ −作六⽅最密堆积(hcp)，指出Li+离⼦占据空隙类型及占据百分数，回答该结构的 $\mathrm { L i _ { 3 } N }$ 能否导电，简述理由。
+
+4-5 ⾦属Li在⾼温下与 $\mathrm { T i O _ { 2 } }$ 反应可⽣成多种晶型的 $\mathrm { L i T i _ { 2 } O _ { 4 } }$ ，其中尖晶⽯型 $\mathrm { L i T i _ { 2 } O _ { 4 } }$ 为⾯⼼⽴⽅结构。 $\mathrm { O ^ { 2 \mathrm { - } } }$ −作⽴⽅最密堆积 $\left( \mathrm { c c p } \right)$ ，若Li+离⼦有序地占据四⾯体空隙，Ti4+和 $\mathrm { T i ^ { 3 + } }$ 离⼦占据⼋⾯体空隙。已知晶胞参数 $\mathbf { \partial } _ { \cdot } a \mathbf { \ } =$ 840.5 pm，晶体密度 $D = 3 . 7 3 0 \mathrm { g c m ^ { - 3 } }$ 。请分别计算晶胞中所含原⼦数⽬和 $\mathrm { O ^ { 2 - } }$ 离⼦半径的最⼤可能值。若不计其他离⼦，给出以Li+离⼦为顶点的最⼩单位。
+
+第5题 新陈代谢不仅需要酶，⽽且需要能量。糖类是细胞的主要能源物质之⼀，脂肪是⽣物体内储存能量的主要物质。但是，这些有机物中的能量都不能直接被⽣物体利⽤，它们只是在细胞中随着这些有机物逐步氧化分解⽽释放出来，并且储存在⽣物活性体系中⼀种⾮常重要的⾼能磷酸化合物三磷酸腺苷（简称ATP）中才能被⽣物体利⽤。ATP是新陈代谢所需能量的直接来源，它是许多⽣化反应的初级能源。ATP的⽔解是⼀个较强的放能作⽤，在有关酶的催化作⽤下，ATP⽔解转化成⼆磷酸腺苷（简称ADP）和磷酸盐：
+
+$$
+① \mathrm{ATP} + \mathrm{H} _ {2} \mathrm{O} \rightarrow \mathrm{ADP} + \mathrm{Pi} (\text {磷酸盐})
+$$
+
+已知 298.2 K 时该反应： $\Delta _ { \mathrm { r } } G _ { \mathrm { m , 1 } } ^ { \ominus } ( 2 9 8 . 2 ) = - 3 0 . 5 8 \mathrm { ~ k J ~ m o l ^ { - 1 } , ~ } \Delta _ { \mathrm { r } } H _ { \mathrm { m , 1 } } ^ { \ominus } ( 2 9 8 . 2 ) = - 2 0 . 1 0 \mathrm { ~ k J ~ m o l ^ { - 1 } , ~ } \Delta _ { \mathrm { r } } C _ { p } \approx 0 _ { \mathrm { c } } 0 . 1 7 \mathrm { ~ k J ~ m o l ^ { - 1 } ~ } .$ ⽽310.2 K（⼈体温度）时反应：
+
+$$
+② \text {谷氨酸盐} + \mathrm{NH} _ {4} ^ {+} \rightarrow \text {谷氨酰胺} + \mathrm{H} _ {2} \mathrm{O} \quad \Delta_ {\mathrm{r}} G _ {\mathrm{m}, 2} ^ {\ominus} (3 1 0. 2) = 1 5. 7 0 \mathrm{kJ} \mathrm{mol} ^ {- 1}
+$$
+
+5-1 通过计算回答在310.2K，标准状态下，⼈体内能否由下述反应合成⾕氨酰胺？
+
+③ ⾕氨酸盐 + NH<sub>4</sub>+ + ATP +→ ⾕氨酰胺 + ADP + Pi 磷酸盐）
+
+5-2 计算310.2K时反应③的标准平衡常数 $K _ { 3 } ^ { \ominus }$ 。
+
+5-3 ATP消耗后，可通过另外的途径复⽣。在另⼀种酶的催化作⽤下，ADP可以接受能量，同时与⼀个磷酸结合，从⽽转化成 $\mathrm { A T P _ { \circ } }$ 。 例如在糖酵解反应的过程中，如果1 mol葡萄糖完全降解，消耗2 mol ATP，⼜产⽣38 mol ATP。计算在标准状态下，310.2K时，1 mol葡萄糖完全降解过程贮能 $\Delta _ { \mathrm { r } } G$ 是多少？
+
+5-4 许多磷酸酯⽔解是放能反应，ATP⽔解释放的能量不是最⼤的，也不是最⼩的。从热⼒学⻆度说明，为什么许多⽣物代谢过程中有ATP参加。
+
+第6题 有⼈⽤核磁共振研究⻧化氢(HX)对烯烃的⾼加成反应。反应式为： $\mathrm { A + B }  \mathrm { A B }$ ，A 表⽰HCl，B表⽰丙烯，AB表⽰加成产物2-氯丙烷。反应开始时产物的起始浓度 $c _ { 0 } ( \mathrm { A B } ) = 0 _ { }$ C
+
+6-1 对于A为�级，B为�级的反应，在较短时间间隔内 $\Delta t$ ，有：
+
+$$
+c (\mathrm{AB}) / c (\mathrm{A}) = k c ^ {m - 1} (\mathrm{A}) c ^ {n} (\mathrm{B}) \Delta t
+$$
+
+实验发现，上述加成反应的�(AB)/�(B)与�(B)⽆关，在保持�(B)不变的条件下，分别取 $\langle p _ { \mathrm { A } }$ 为 ${ \mathsf { I } } { \mathsf { p } } ^ { \ominus }$ 、 $6 p ^ { \ominus }$ $3 p ^ { \ominus }$ $( p ^ { \ominus } = 1 0 0 \mathrm { { k P a } ) \mathrm { { f } } }$ 时，测得 $c ( \mathrm { A B } ) / c ( \mathrm { A } )$ 值之⽐为 $9 { : } 4 { : } 1 _ { \circ }$ 求该反应各反应物的级数和反应总级数（按理想⽓体处理）。
+
+6-2 以d $c ( \mathrm { A B } ) / \mathrm { d }$ �表⽰该反应速率，写出速率⽅程。
+
+6-3 设 $\mathrm { \bar { \it { c } } } ( \mathrm { A } )$ 为� mol L−1且保持不变， $c _ { 0 } ( \mathrm { B } ) = 1 \mathrm { m o l } \mathrm { L } ^ { - 1 }$ $c _ { 0 } ( \mathrm { A B } ) = 0$ ，写出 $_ { \mathrm { { \tiny ~ \mathscr { C } } } } ( { \mathrm { { B } } } ) = 0 . 2 5 { \mathrm { m o l } } { \mathrm { { L } } } ^ { - }$ 1时反应所需时间的表达式。
+
+6-4 有⼈提出该反应的反应历程为：
+
+$$
+\begin{array}{c} 2 \mathrm{HCl} \xleftarrow [ k _ {- 1} ]{k _ {1}} (\mathrm{HCl}) _ {2} \\ \mathrm{HCl} + \mathrm{C} _ {3} \mathrm{H} _ {6} \xleftarrow [ k _ {- 2} ]{k _ {2}} \mathrm{C} ^ {*} \\ \mathrm{C} ^ {*} + (\mathrm{HCl}) _ {2} \xrightarrow {k _ {3}} \mathrm{CH} _ {3} \mathrm{CHClCH} _ {3} + 2 \mathrm{HCl} \end{array}
+$$
+
+请根据有关假设推导出该反应的速率⽅程，写出表观速率系数的表达式，将速率⽅程与6-2的结论进⾏⽐较，说明什么问题？
+
+6-5 实验测得该反应在 $7 0 ~ ^ { \circ } \mathrm { C }$ 时的表观速率系数为 $1 9 ~ ^ { \circ } \mathrm { C }$ 时的 $1 / 3$ ，试求算该反应的表观活化能 $E _ { \mathrm { a ^ { c } } }$ 。
+
+第7题 近年来，⾮平⾯多环芳烃由于在有机光电材料等⽅⾯的应⽤价值和有机结构⽅⾯的理论意义⽽成为国际上⼀个⼗分活跃的研究领域。⼼环烯(corannulene)和花烯(sumanene)是2种代表性的⾮平⾯多环芳烃，它们实际上是富勒烯C表⾯上2个典型的结构单元，也是碳纳⽶管封端的结构⽚段，具有碗状结构，被称为布基碗。
+
+![](images/74cedb9f53e1fb352070a916dd7f2e5927c25c921a731f7b39965fa1de6c7892.jpg)
+
+7-1 ⼀种合成⼼环烯的路线如下，请指出其中a\~h代表的反应条件和/或化合物。
+
+![](images/36b608eaf57cc40fab347b7253e2656e423d2a9740a3303ba29a1fb4e3db00fb.jpg)
+
+7-2 写出原料A和第⼀个中间产物B的系统名称。
+
+7-3 由C到D的反应中，除⽬标分⼦外，还⽣成2种⼩分⼦副产物，写出它们的结构简式或名称。
+
+7-4 指出最终产物⼼环烯(R=H)及其⼆甲基化物 $\mathrm { ( R = C H _ { 3 } ) }$ 分⼦中的对称元素。
+
+7-5 ⼀种合成花烯的路线如下，请指出其中i和j代表的主要试剂或条件。
+
+![](images/a2a85e071330fe9f0928258ec5735502cc8052c305c477105f32c02556509b07.jpg)
+
+7-6 化合物E的⽴体异构体中，只有⼀种异构体能经过烯交换反应得到F，请指出是哪⼀种？简述理由。
+
+7-7 实验中，H转变为I的反应只得到题给的⼀种⽴体异构体，简述理由。
+
+7-8 花烯G分⼦的碗-碗翻转能垒低：
+
+![](images/e5e585b37b3b3d1f41d64665a898a5d282719b37d1aeacbecaf35cc2daa784d2.jpg)
+
+但I却难以翻转，简述理由。
+
+7-9 最近⽂献报道了I的10,15,20-三甲基取代衍⽣物。请画出该衍⽣物的结构，并指出有⽆⼿性？简述理由。
+
+第8题 ⻰涎⾹与麝⾹、灵猫⾹、海狸⾹并称四⼤动物⾹料，⾃古就是最为稀有和名贵的天然⾹料。天然⻰涎⾹来⾃抹⾹鲸，由于鲸类濒临灭绝，来源极为稀少、国际市价相当于⻩⾦。降⻰涎醚是⻰涎⾹的真正发⾹成分，也是公认的天然⻰诞⾹最佳代⽤品，⽬前⼯业上由⾹紫苏醇经⾹紫苏内酯合成。⾹紫苏醇来源于芳⾹植物⾹紫苏（陕北南泥湾等地已⼤规模种植多年）。
+
+⼀种由⾹紫苏醇合成降⻰涎醚的路线如下：
+
+![](images/0b6fcd6940f18761b7c336a07a93bf693ef44e6b88cdb51a3af5d3a051ecb1ad.jpg)
+
+8-1 ⾹紫苏醇分⼦中有⼏个⼿性碳原⼦？指出侧链上和环内带有羟基的⼿性碳原⼦的构型（⽤�、�表⽰）。
+
+8-2 ⾹紫苏醇经⾼锰酸钾氧化得到⾹紫苏内酯和另⼀副产物E的的混合物，该混合物经⽔解、酸化和成环后，得到同⼀产物⾹紫苏内酯。E的相对分⼦质量为310.43，其组成为C69.64%，H 9.74%，O 20.62%。请写出E的⽴体结构式。
+
+8-3 写出中间产物A和降⻰诞醚的⽴体结构式（⽤楔形线表⽰）。
+
+8-4 写出由中间产物A到降⻰涎醚的最可能反应机理（⽤反应式表⽰）。
+
+8-5 上述合成线中有2个步骤⽤到相转移催化剂，请推荐⼀种合适的相转移催化剂（写出具体化合物，⽤名称或结构式表⽰）。
+
+8-6 使⽤氢化铝锂的缺点除价格昂贵外，还有其他什么不利之处？简述理由。
+
+codex
+四卷 MD 已全部读取。我注意到 task 1（福建卷）的 problems 列表混入了全国卷（exam-000007）和江苏卷（exam-000020）的题——需要先确认其他 shard 是否覆盖这两卷，避免重复或遗漏。同时查看已有的 problem-000011.json 样例作为格式参考。
+exec
+"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "Get-Content -LiteralPath \"D:\\ccho-site-public\\public\\data\\stems\\problem-000011.json\" -Encoding UTF8 -Raw" in D:\ccho-site-public
+exec
+"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'foreach ($s in 0..9) { $f = "D:'"\\ccho-site-public\\_stem_pipeline\\shards\\shard-{0:D2}\\tasks.json\" -f "'$s; Write-Host "=== shard-$s ==="; $j = Get-Content -LiteralPath $f -Encoding UTF8 -Raw | ConvertFrom-Json; foreach ($t in $j.tasks) { Write-Host ("  {0} | {1} | {2} | {3}" -f $t.folder, $t.year, $t.stage, $t.problemCount) } }' in D:\ccho-site-public
+ succeeded in 508ms:
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000011",
+  "rightsState": "stem_demo",
+  "language": "zh-CN",
+  "title": "钙钛矿衍生结构",
+  "number": "Q6",
+  "examYear": 2021,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000057",
+    "sourceLabel": "2021-35-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "synthetic_demo",
+    "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "本页为「题干结构化格式 + 渲染链路」演示样例，依据公开元数据主题改写排版，不作为官方电子卷原文。获得 fulltext_authorized 后可替换为审定题干。",
+  "renderingHints": { "mhchem": true },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "演示题干：用于验证 KaTeX / 化学式 / 小问结构渲染。正式上线须满足 docs/problem-stem-format.md 的授权与审校要求。"
+    },
+    {
+      "type": "paragraph",
+      "text": "理想立方钙钛矿的通式可写作 $ABX_3$。其中 $A$ 位通常为较大阳离子，$B$ 位为较小阳离子，$X$ 为阴离子（常为氧或卤素）。"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "结构背景"
+    },
+    {
+      "type": "paragraph",
+      "text": "在理想结构中，$B$ 与 6 个 $X$ 形成八面体配位，$A$ 位于由 12 个 $X$ 围成的立方八面体空隙。Goldschmidt 容差因子定义为"
+    },
+    {
+      "type": "formula",
+      "latex": "t = \\dfrac{r_A + r_X}{\\sqrt{2}\\,(r_B + r_X)}",
+      "display": true
+    },
+    {
+      "type": "paragraph",
+      "text": "当 $t$ 接近 1 时，立方相较易稳定；偏离时可出现八面体倾斜、正交/四方等衍生结构。"
+    },
+    {
+      "type": "chem",
+      "latex": "CaTiO3",
+      "display": false
+    },
+    {
+      "type": "paragraph",
+      "text": "是矿物钙钛矿的代表组成。杂化/卤化物钙钛矿（如铅卤体系）在光电材料中也常以类似骨架出现，但具体配体与维数可能不同。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-demo-000011-1",
+      "label": "(1)",
+      "score": 4,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出理想立方 $ABX_3$ 中 $B$ 位的配位数，并说明 $A$ 位的典型配位环境。"
+        }
+      ]
+    },
+    {
+      "id": "part-demo-000011-2",
+      "label": "(2)",
+      "score": 6,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "若测得一组半径 $r_A$、$r_B$、$r_X$，请根据容差因子 $t$ 判断更可能出现立方相还是显著八面体倾斜的衍生相，并简述判据。"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "给出 $t$ 的计算式（可直接引用上文）",
+            "给出你采用的经验区间（需自洽说明）"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "part-demo-000011-3",
+      "label": "(3)",
+      "score": 5,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "某衍生结构可视为钙钛矿层沿某一方向切片重组。请从「连接方式 / 维数降低」角度，用 2–4 句说明其与三维 $ABX_3$ 骨架的关系（不必给出具体空间群）。"
+        }
+      ]
+    }
+  ]
+}
+
+
+ succeeded in 602ms:
+=== shard-0 ===
+  2021-35-CChO-chusai | 2021 | preliminary | 30
+  2014-28-CChO-chusai | 2014 | preliminary | 11
+  2017-31-CChO-chusai | 2017 | preliminary | 10
+  2009-23-CChO-juesai | 2009 | final | 8
+  2025年第39届全国中学生化学竞赛决赛实验试题 (1) | 2025 | final | 1
+=== shard-1 ===
+  2021-35-CChO-chusai-fujian | 2021 | preliminary | 30
+  2012-26-CChO-chusai | 2012 | preliminary | 11
+  2018-32-CChO-chusai | 2018 | preliminary | 10
+  2008-22-CChO-juesai | 2008 | final | 8
+=== shard-2 ===
+  2021-35-CChO-chusai-jiangsu | 2021 | preliminary | 30
+  2010-24-CChO-chusai | 2010 | preliminary | 11
+  2019-33-CChO-chusai | 2019 | preliminary | 10
+  2006-20-CChO-juesai | 2006 | final | 8
+=== shard-3 ===
+  2023-37-CChO-juesai-1 | 2023 | final | 22
+  2008-22-CChO-chusai | 2008 | preliminary | 11
+  2024年全国中学生化学竞赛决赛试题（第一场） | 2024 | final | 10
+  2015-29-CChO-juesai | 2015 | final | 9
+  2011-25-CChO-juesai | 2011 | final | 8
+=== shard-4 ===
+  2023-37-CChO-juesai-2 | 2023 | final | 22
+  2007-21-CChO-chusai | 2007 | preliminary | 11
+  2024年全国中学生化学竞赛决赛试题（第二场） | 2024 | final | 10
+  2024-38-CChO-chusai | 2024 | preliminary | 10
+  2007-21-CChO-juesai | 2007 | final | 7
+=== shard-5 ===
+  2022-36-CChO-chusai-1 | 2022 | preliminary | 20
+  2013-27-CChO-juesai | 2013 | final | 11
+  2015-29-CChO-chusai | 2015 | preliminary | 11
+  2023-37-CChO-chusai | 2023 | preliminary | 10
+  2017-31-CChO-juesai | 2017 | final | 8
+=== shard-6 ===
+  2022-36-CChO-chusai-2 | 2022 | preliminary | 20
+  2006-20-CChO-chusai | 2006 | preliminary | 12
+  2014-28-CChO-juesai | 2014 | final | 10
+  2020-34-CChO-chusai | 2020 | preliminary | 10
+  2018-32-CChO-juesai | 2018 | final | 8
+=== shard-7 ===
+  2022-36-CChO-juesai-1 | 2022 | final | 19
+  2021-35-CChO-juesai-2 | 2021 | final | 17
+  2011-25-CChO-chusai | 2011 | preliminary | 10
+  2025-39-CChO-chusai | 2025 | preliminary | 9
+  2010-24-CChO-juesai | 2010 | final | 7
+=== shard-8 ===
+  2022-36-CChO-juesai-2 | 2022 | final | 19
+  2021-35-CChO-juesai-1 | 2021 | final | 17
+  2016-30-CChO-chusai | 2016 | preliminary | 10
+  2013-27-CChO-chusai | 2013 | preliminary | 9
+  2012-26-CChO-juesai | 2012 | final | 6
+=== shard-9 ===
+  2020-34-CChO-juesai-1 | 2020 | final | 17
+  2020-34-CChO-juesai-2 | 2020 | final | 17
+  2009-23-CChO-chusai | 2009 | preliminary | 10
+  2016-30-CChO-juesai | 2016 | final | 9
+  2019-33-CChO-juesai | 2019 | final | 8
+
+codex
+MD 全部读取完成。任务清单显示：本 shard 的 task 1（福建卷）的 problems 列表混入了全国卷（exam-000007）与江苏卷（exam-000020）的题——我需要确认这三卷是否由不同 shard 各自匹配，避免重复或漏做。
+exec
+"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "Get-Content -LiteralPath \"D:\\ccho-site-public\\_stem_pipeline\\logs\\prompt-01.md\" -Encoding UTF8 -TotalCount 30" in D:\ccho-site-public
+exec
+"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'foreach ($s in 0,2) { Write-Host "=== shard-$s 2021 task ==="; $j = Get-Content -LiteralPath ("D:'"\\ccho-site-public\\_stem_pipeline\\shards\\shard-{0:D2}\\tasks.json\" -f "'$s) -Encoding UTF8 -Raw | ConvertFrom-Json; $t = $j.tasks | Where-Object { $_.year -eq 2021 -and $_.stage -eq '"'preliminary' }; foreach ("'$p in $t.problems) { Write-Host ("  {0} {1} {2} {3}" -f $p.id, $p.number, $p.examId, $p.sourceLabel) } }' in D:\ccho-site-public
+ succeeded in 473ms:
+# 任务：MinerU MD → ProblemStem JSON（化学竞赛题干）
+
+你是流水线 worker。工作目录是公开站仓库：
+
+`D:\打工2\projects\化学竞赛知识图谱-public`
+
+## 必读规范
+
+1. `docs/problem-stem-format.md`
+2. `docs/schemas/problem-stem.schema.json`
+3. 本 shard 任务文件：`_stem_pipeline/shards/shard-01/tasks.json`（XX 为你的编号）
+
+## 目标
+
+对 tasks.json 中每一份 `full.md`（整卷 MinerU 转写）：
+
+1. 阅读 MD 全文（路径在 task.md）
+2. 按卷面题号切分题目
+3. 与 task.problems[] 中的 `id` / `number` / `title` **对齐**
+4. 为每道题写出 **ProblemStem JSON**
+5. 同时写出该题的 **LaTeX 题干片段**（仅题干，无答案）
+
+## 输出路径（必须）
+
+- Stem：`_stem_pipeline/out/stems/{problemId}.json`
+- LaTeX：`_stem_pipeline/out/latex/{problemId}.tex`
+- 进度：`_stem_pipeline/logs/shard-01-progress.jsonl`（每完成一题一行 JSON）
+
+## Stem 硬性要求
+
+
+ succeeded in 557ms:
+=== shard-0 2021 task ===
+  problem-000112 1 exam-000007 2021-35-CChO-chusai.pdf
+  problem-000122 1 exam-000019 2021-35-CChO-chusai-fujian.pdf
+  problem-000132 1 exam-000020 2021-35-CChO-chusai-jiangsu.pdf
+  problem-000113 2 exam-000007 2021-35-CChO-chusai.pdf
+  problem-000123 2 exam-000019 2021-35-CChO-chusai-fujian.pdf
+  problem-000133 2 exam-000020 2021-35-CChO-chusai-jiangsu.pdf
+  problem-000114 3 exam-000007 2021-35-CChO-chusai.pdf
+  problem-000124 3 exam-000019 2021-35-CChO-chusai-fujian.pdf
+  problem-000134 3 exam-000020 2021-35-CChO-chusai-jiangsu.pdf
+  problem-000115 4 exam-000007 2021-35-CChO-chusai.pdf
+  problem-000125 4 exam-000019 2021-35-CChO-chusai-fujian.pdf
+  problem-000135 4 exam-000020 2021-35-CChO-chusai-jiangsu.pdf
+  problem-000116 5 exam-000007 2021-35-CChO-chusai.pdf
+  problem-000126 5 exam-000019 2021-35-CChO-chusai-fujian.pdf
+  problem-000136 5 exam-000020 2021-35-CChO-chusai-jiangsu.pdf
+  problem-000127 6 exam-000019 2021-35-CChO-chusai-fujian.pdf
+  problem-000137 6 exam-000020 2021-35-CChO-chusai-jiangsu.pdf
+  problem-000118 7 exam-000007 2021-35-CChO-chusai.pdf
+  problem-000128 7 exam-000019 2021-35-CChO-chusai-fujian.pdf
+  problem-000138 7 exam-000020 2021-35-CChO-chusai-jiangsu.pdf
+  problem-000119 8 exam-000007 2021-35-CChO-chusai.pdf
+  problem-000129 8 exam-000019 2021-35-CChO-chusai-fujian.pdf
+  problem-000139 8 exam-000020 2021-35-CChO-chusai-jiangsu.pdf
+  problem-000120 9 exam-000007 2021-35-CChO-chusai.pdf
+  problem-000130 9 exam-000019 2021-35-CChO-chusai-fujian.pdf
+  problem-000140 9 exam-000020 2021-35-CChO-chusai-jiangsu.pdf
+  problem-000121 10 exam-000007 2021-35-CChO-chusai.pdf
+  problem-000131 10 exam-000019 2021-35-CChO-chusai-fujian.pdf
+  problem-000141 10 exam-000020 2021-35-CChO-chusai-jiangsu.pdf
+  problem-000011 Q6 exam-000007 2021-35-CChO-chusai.pdf
+=== shard-2 2021 task ===
+  problem-000112 1 exam-000007 2021-35-CChO-chusai.pdf
+  problem-000122 1 exam-000019 2021-35-CChO-chusai-fujian.pdf
+  problem-000132 1 exam-000020 2021-35-CChO-chusai-jiangsu.pdf
+  problem-000113 2 exam-000007 2021-35-CChO-chusai.pdf
+  problem-000123 2 exam-000019 2021-35-CChO-chusai-fujian.pdf
+  problem-000133 2 exam-000020 2021-35-CChO-chusai-jiangsu.pdf
+  problem-000114 3 exam-000007 2021-35-CChO-chusai.pdf
+  problem-000124 3 exam-000019 2021-35-CChO-chusai-fujian.pdf
+  problem-000134 3 exam-000020 2021-35-CChO-chusai-jiangsu.pdf
+  problem-000115 4 exam-000007 2021-35-CChO-chusai.pdf
+  problem-000125 4 exam-000019 2021-35-CChO-chusai-fujian.pdf
+  problem-000135 4 exam-000020 2021-35-CChO-chusai-jiangsu.pdf
+  problem-000116 5 exam-000007 2021-35-CChO-chusai.pdf
+  problem-000126 5 exam-000019 2021-35-CChO-chusai-fujian.pdf
+  problem-000136 5 exam-000020 2021-35-CChO-chusai-jiangsu.pdf
+  problem-000127 6 exam-000019 2021-35-CChO-chusai-fujian.pdf
+  problem-000137 6 exam-000020 2021-35-CChO-chusai-jiangsu.pdf
+  problem-000118 7 exam-000007 2021-35-CChO-chusai.pdf
+  problem-000128 7 exam-000019 2021-35-CChO-chusai-fujian.pdf
+  problem-000138 7 exam-000020 2021-35-CChO-chusai-jiangsu.pdf
+  problem-000119 8 exam-000007 2021-35-CChO-chusai.pdf
+  problem-000129 8 exam-000019 2021-35-CChO-chusai-fujian.pdf
+  problem-000139 8 exam-000020 2021-35-CChO-chusai-jiangsu.pdf
+  problem-000120 9 exam-000007 2021-35-CChO-chusai.pdf
+  problem-000130 9 exam-000019 2021-35-CChO-chusai-fujian.pdf
+  problem-000140 9 exam-000020 2021-35-CChO-chusai-jiangsu.pdf
+  problem-000121 10 exam-000007 2021-35-CChO-chusai.pdf
+  problem-000131 10 exam-000019 2021-35-CChO-chusai-fujian.pdf
+  problem-000141 10 exam-000020 2021-35-CChO-chusai-jiangsu.pdf
+  problem-000011 Q6 exam-000007 2021-35-CChO-chusai.pdf
+
+codex
+关键确认：2021 初赛三卷（全国/福建/江苏）被合并进不同 shard 的同一 problems 列表，每个 shard 的 MD 不同。我用 sourceLabel 精确匹配本 shard MD（福建卷），其余卷的题写入 unmatched。先核对 inventory.json 的 exam↔folder 映射。
+exec
+"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '$inv = Get-Content -LiteralPath "D:'"\\ccho-site-public\\_stem_pipeline\\inventory.json\" -Encoding UTF8 -Raw | ConvertFrom-Json; "'$inv.PSObject.Properties | ForEach-Object { $_.Name }; Write-Host "---exams---"; $exams = $inv.exams; $exams | Where-Object { $_.examId -in @('"'exam-000019','exam-000042','exam-000012','exam-000035') } | Select-Object examId, year, stage, sourceLabel, problemCount | Format-Table -AutoSize" in D:\ccho-site-public
+ succeeded in 559ms:
+generatedAt
+mdRoot
+siteRoot
+totalMd
+workPapers
+totalProblems
+uniqueProblemIds
+skipped
+shards
+allTasks
+---exams---
+
+exec
+"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '$inv = Get-Content -LiteralPath "D:'"\\ccho-site-public\\_stem_pipeline\\inventory.json\" -Encoding UTF8 -Raw | ConvertFrom-Json; Write-Host (\"mdRoot: {0}\" -f "'$inv.mdRoot); Write-Host ("siteRoot: {0}" -f $inv.siteRoot); Write-Host ("totalMd: {0}  workPapers: {1}  totalProblems: {2}  uniqueProblemIds: {3}" -f $inv.totalMd, $inv.workPapers, $inv.totalProblems, $inv.uniqueProblemIds); Write-Host "---allTasks count---"; $inv.allTasks.Count; Write-Host "---sample allTasks item---"; $inv.allTasks[0] | ConvertTo-Json -Depth 4' in D:\ccho-site-public
+ succeeded in 517ms:
+mdRoot: D:\打工2\初赛&决赛\MinerU_MD
+siteRoot: D:\打工2\projects\化学竞赛知识图谱-public
+totalMd: 49  workPapers: 48  totalProblems: 602  uniqueProblemIds: 447
+---allTasks count---
+48
+---sample allTasks item---
+{
+    "md":  "D:\\打工2\\初赛\u0026决赛\\MinerU_MD\\决赛\\2006-20-CChO-juesai\\full.md",
+    "rel":  "决赛/2006-20-CChO-juesai/full.md",
+    "folder":  "2006-20-CChO-juesai",
+    "skip":  false,
+    "year":  2006,
+    "stage":  "final",
+    "problemCount":  8,
+    "problems":  [
+                     {
+                         "id":  "problem-000292",
+                         "number":  "1",
+                         "title":  "钛铁矿提取金属钛",
+                         "examId":  "exam-000031",
+                         "year":  2006,
+                         "stage":  "final",
+                         "sourceLabel":  "2006-20-CChO-juesai.pdf",
+                         "sourceDocumentId":  "source-000001",
+                         "page":  0
+                     },
+                     {
+                         "id":  "problem-000293",
+                         "number":  "2",
+                         "title":  "蒙脱石纳米矿物提纯",
+                         "examId":  "exam-000031",
+                         "year":  2006,
+                         "stage":  "final",
+                         "sourceLabel":  "2006-20-CChO-juesai.pdf",
+                         "sourceDocumentId":  "source-000001",
+                         "page":  0
+                     },
+                     {
+                         "id":  "problem-000294",
+                         "number":  "3",
+                         "title":  "无机高分子絮凝剂",
+                         "examId":  "exam-000031",
+                         "year":  2006,
+                         "stage":  "final",
+                         "sourceLabel":  "2006-20-CChO-juesai.pdf",
+                         "sourceDocumentId":  "source-000001",
+                         "page":  0
+                     },
+                     {
+                         "id":  "problem-000295",
+                         "number":  "4",
+                         "title":  "硼氢化钠醇解与晶体",
+                         "examId":  "exam-000031",
+                         "year":  2006,
+                         "stage":  "final",
+                         "sourceLabel":  "2006-20-CChO-juesai.pdf",
+                         "sourceDocumentId":  "source-000001",
+                         "page":  0
+                     },
+                     {
+                         "id":  "problem-000296",
+                         "number":  "5",
+                         "title":  "硝酸铵晶型相图",
+                         "examId":  "exam-000031",
+                         "year":  2006,
+                         "stage":  "final",
+                         "sourceLabel":  "2006-20-CChO-juesai.pdf",
+                         "sourceDocumentId":  "source-000001",
+                         "page":  0
+                     },
+                     {
+                         "id":  "problem-000297",
+                         "number":  "6",
+                         "title":  "二元弱酸滴定分析",
+                         "examId":  "exam-000031",
+                         "year":  2006,
+                         "stage":  "final",
+                         "sourceLabel":  "2006-20-CChO-juesai.pdf",
+                         "sourceDocumentId":  "source-000001",
+                         "page":  0
+                     },
+                     {
+                         "id":  "problem-000298",
+                         "number":  "7",
+                         "title":  "聚乙炔液晶材料合成",
+                         "examId":  "exam-000031",
+                         "year":  2006,
+                         "stage":  "final",
+                         "sourceLabel":  "2006-20-CChO-juesai.pdf",
+                         "sourceDocumentId":  "source-000001",
+                         "page":  0
+                     },
+                     {
+                         "id":  "problem-000299",
+                         "number":  "8",
+                         "title":  "天然产物结构推断",
+                         "examId":  "exam-000031",
+                         "year":  2006,
+                         "stage":  "final",
+                         "sourceLabel":  "2006-20-CChO-juesai.pdf",
+                         "sourceDocumentId":  "source-000001",
+                         "page":  0
+                     }
+                 ]
+}
+
+codex
+任务结构需要进一步确认：shard-03 与 shard-04 分别含 2023 juesai-1 和 juesai-2 卷，但每份 tasks 的 problems 列表可能混入了另一卷的题。我需要核对两个 shard 的 2023/2022/2020 卷 problem 分配，避免重复或漏做。
+exec
+"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '$j3 = Get-Content -LiteralPath "D:'"\\ccho-site-public\\_stem_pipeline\\shards\\shard-03\\tasks.json\" -Encoding UTF8 -Raw | ConvertFrom-Json; "'$t = $j3.tasks[0]; Write-Host ("shard-03 task1: {0} count={1}" -f $t.folder, $t.problemCount); $t.problems | ForEach-Object { "{0} n={1} exam={2} src={3}" -f $_.id, $_.number, $_.examId, $_.sourceLabel }; Write-Host ""; $j4 = Get-Content -LiteralPath "D:'"\\ccho-site-public\\_stem_pipeline\\shards\\shard-04\\tasks.json\" -Encoding UTF8 -Raw | ConvertFrom-Json; "'$t4 = $j4.tasks[0]; Write-Host ("shard-04 task1: {0} count={1}" -f $t4.folder, $t4.problemCount); $t4.problems | ForEach-Object { "{0} n={1} exam={2} src={3}" -f $_.id, $_.number, $_.examId, $_.sourceLabel }' in D:\ccho-site-public
+ succeeded in 785ms:
+shard-03 task1: 2023-37-CChO-juesai-1 count=22
+problem-000208 n=1 exam=exam-000026 src=2023-37-CChO-juesai-1.pdf
+problem-000221 n=1 exam=exam-000027 src=2023-37-CChO-juesai-2.pdf
+problem-000209 n=2 exam=exam-000026 src=2023-37-CChO-juesai-1.pdf
+problem-000222 n=2 exam=exam-000027 src=2023-37-CChO-juesai-2.pdf
+problem-000210 n=3 exam=exam-000026 src=2023-37-CChO-juesai-1.pdf
+problem-000223 n=3 exam=exam-000027 src=2023-37-CChO-juesai-2.pdf
+problem-000211 n=4 exam=exam-000026 src=2023-37-CChO-juesai-1.pdf
+problem-000224 n=4 exam=exam-000027 src=2023-37-CChO-juesai-2.pdf
+problem-000212 n=5 exam=exam-000026 src=2023-37-CChO-juesai-1.pdf
+problem-000225 n=5 exam=exam-000027 src=2023-37-CChO-juesai-2.pdf
+problem-000213 n=6 exam=exam-000026 src=2023-37-CChO-juesai-1.pdf
+problem-000226 n=6 exam=exam-000027 src=2023-37-CChO-juesai-2.pdf
+problem-000214 n=7 exam=exam-000026 src=2023-37-CChO-juesai-1.pdf
+problem-000227 n=7 exam=exam-000027 src=2023-37-CChO-juesai-2.pdf
+problem-000215 n=8 exam=exam-000026 src=2023-37-CChO-juesai-1.pdf
+problem-000228 n=8 exam=exam-000027 src=2023-37-CChO-juesai-2.pdf
+problem-000216 n=9 exam=exam-000026 src=2023-37-CChO-juesai-1.pdf
+problem-000229 n=9 exam=exam-000027 src=2023-37-CChO-juesai-2.pdf
+problem-000217 n=10 exam=exam-000026 src=2023-37-CChO-juesai-1.pdf
+problem-000218 n=11 exam=exam-000026 src=2023-37-CChO-juesai-1.pdf
+problem-000219 n=12 exam=exam-000026 src=2023-37-CChO-juesai-1.pdf
+problem-000220 n=13 exam=exam-000026 src=2023-37-CChO-juesai-1.pdf
+
+shard-04 task1: 2023-37-CChO-juesai-2 count=22
+problem-000208 n=1 exam=exam-000026 src=2023-37-CChO-juesai-1.pdf
+problem-000221 n=1 exam=exam-000027 src=2023-37-CChO-juesai-2.pdf
+problem-000209 n=2 exam=exam-000026 src=2023-37-CChO-juesai-1.pdf
+problem-000222 n=2 exam=exam-000027 src=2023-37-CChO-juesai-2.pdf
+problem-000210 n=3 exam=exam-000026 src=2023-37-CChO-juesai-1.pdf
+problem-000223 n=3 exam=exam-000027 src=2023-37-CChO-juesai-2.pdf
+problem-000211 n=4 exam=exam-000026 src=2023-37-CChO-juesai-1.pdf
+problem-000224 n=4 exam=exam-000027 src=2023-37-CChO-juesai-2.pdf
+problem-000212 n=5 exam=exam-000026 src=2023-37-CChO-juesai-1.pdf
+problem-000225 n=5 exam=exam-000027 src=2023-37-CChO-juesai-2.pdf
+problem-000213 n=6 exam=exam-000026 src=2023-37-CChO-juesai-1.pdf
+problem-000226 n=6 exam=exam-000027 src=2023-37-CChO-juesai-2.pdf
+problem-000214 n=7 exam=exam-000026 src=2023-37-CChO-juesai-1.pdf
+problem-000227 n=7 exam=exam-000027 src=2023-37-CChO-juesai-2.pdf
+problem-000215 n=8 exam=exam-000026 src=2023-37-CChO-juesai-1.pdf
+problem-000228 n=8 exam=exam-000027 src=2023-37-CChO-juesai-2.pdf
+problem-000216 n=9 exam=exam-000026 src=2023-37-CChO-juesai-1.pdf
+problem-000229 n=9 exam=exam-000027 src=2023-37-CChO-juesai-2.pdf
+problem-000217 n=10 exam=exam-000026 src=2023-37-CChO-juesai-1.pdf
+problem-000218 n=11 exam=exam-000026 src=2023-37-CChO-juesai-1.pdf
+problem-000219 n=12 exam=exam-000026 src=2023-37-CChO-juesai-1.pdf
+problem-000220 n=13 exam=exam-000026 src=2023-37-CChO-juesai-1.pdf
+
+codex
+任务结构已确认。本 shard（shard-01）4 卷中，2021 福建卷的 problems 列表混入了全国卷/江苏卷题目（由 shard-00/shard-02 用各自 MD 处理），我将以 `sourceLabel` 精确匹配本卷 MD，其余列入 unmatched。其余 3 卷 problems 与 MD 一一对应。
+确认了 shard 边界：本 shard 实际产出 = 福建卷 10 题 + 2012 卷 11 题 + 2018 卷 10 题 + 2008 决赛 8 题 = 39 个 stem；2021 列表中的全国卷/江苏卷 20 题由其他 shard 的 MD 处理，本 shard 记 unmatched。
+  ✓ 读取规范与任务清单（已完成）
+  ✓ 确认 MD 源文件并逐卷读取（2021福建/2012/2018/2008决赛）
+  → 按题号切分并与 problems[] 对齐（sourceLabel 精确匹配）
+  • 生成 39 个 stem JSON 与 LaTeX 片段
+  • 写 progress jsonl、unmatched 说明与 DONE 标记，校验 JSON
+exec
+"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "New-Item -ItemType Directory -Force -Path \"D:\\ccho-site-public\\_stem_pipeline\\out\\stems\",\"D:\\ccho-site-public\\_stem_pipeline\\out\\latex\",\"D:\\ccho-site-public\\_stem_pipeline\\logs\" | Out-Null; Write-Host \"dirs ready\"; Get-ChildItem -LiteralPath \"D:\\ccho-site-public\\_stem_pipeline\\out\\stems\",\"D:\\ccho-site-public\\_stem_pipeline\\out\\latex\" | Select-Object FullName" in D:\ccho-site-public
+ succeeded in 467ms:
+dirs ready
+
+codex
+任务边界已完全确认：本 shard 实际产出 = 福建卷 10 题 + 2012 初赛 11 题 + 2018 初赛 10 题 + 2008 决赛 8 题 = 39 个 stem（2021 列表中的全国卷/江苏卷题目由 shard-00/shard-02 各自的 MD 处理，本 shard 记 unmatched）。现在开始写生成脚本。
+exec
+"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "@'
+# -*- coding: utf-8 -*-
+\"\"\"shard-01 common writer: ProblemStem JSON + LaTeX + progress\"\"\"
+import json, os, re
+
+BASE = r\"D:\\ccho-site-public\\_stem_pipeline\"
+STEMS = os.path.join(BASE, \"out\", \"stems\")
+LATEX = os.path.join(BASE, \"out\", \"latex\")
+PROGRESS = os.path.join(BASE, \"logs\", \"shard-01-progress.jsonl\")
+
+TRANS = {\"%\": r\"\\%\", \"&\": r\"\\&\", \"#\": r\"\\#\", \"_\": r\"\\_\"}
+
+def esc_text(s):
+    \"\"\"escape latex specials outside inline math "'$...$"""
+    out, buf, in_math = [], [], False
+    for ch in s:
+        if ch == "$":
+            in_math = not in_math
+            buf.append(ch)
+            continue
+        if in_math:
+            buf.append(ch)
+        else:
+            buf.append(TRANS.get(ch, ch))
+    return "".join(buf)
+
+def render_blocks(blocks, indent="  "):
+    lines = []
+    for b in blocks:
+        t = b["type"]
+        if t == "paragraph":
+            lines.append(indent + esc_text(b["text"]))
+        elif t == "formula":
+            if b.get("display", True):
+                lines.append(indent + "$$" + b["latex"] + "$$")
+            else:
+                lines.append(indent + "$" + b["latex"] + "$")
+        elif t == "chem":
+            lines.append(indent + "'"\\\\ce{\" + b[\"latex\"] + \"}\")
+        elif t == \"heading\":
+            lines.append(indent + \"\\\\paragraph{\" + esc_text(b[\"text\"]) + \"}\")
+        elif t == \"list\":
+            env = \"enumerate\" if b.get(\"ordered\", True) else \"itemize\"
+            lines.append(indent + \"\\\\begin{\" + env + \"}\")
+            for it in b[\"items\"]:
+                lines.append(indent + \"  \\\\item \" + esc_text(it))
+            lines.append(indent + \"\\\\end{\" + env + \"}\")
+        elif t == \"subpart\":
+            lines.append(indent + \"\\\\textbf{\" + esc_text(b[\"label\"]) + \"} \" + esc_text(b.get(\"prompt\", \"\")))
+            lines.extend(render_blocks(b.get(\"blocks\", []), indent + \"  \"))
+        elif t == \"figure\":
+            cap = b.get(\"caption\") or b.get(\"alt\", \"\")
+            lines.append(indent + \"\\\\textbf{[配图：%s]}\" % esc_text(cap))
+        elif t == \"table\":
+            lines.append(indent + \"\\\\begin{center}\\\\begin{tabular}{%s}\" % (\"c\" * len(b[\"headers\"])))
+            lines.append(indent + \"  \" + \" & \".join(esc_text(h) for h in b[\"headers\"]) + r\" \\\\\")
+            for row in b[\"rows\"]:
+                lines.append(indent + \"  \" + \" & \".join(esc_text(c) for c in row) + r\" \\\\\")
+            lines.append(indent + \"\\\\end{tabular}\\\\end{center}\")
+        elif t == \"callout\":
+            lines.append(indent + \"\\\\emph{[\" + b.get(\"tone\", \"info\") + \"] \" + esc_text(b[\"text\"]) + \"}\")
+    return lines
+
+def render_latex(problem, headline):
+    lines = []
+    lines.append(\"\\\\section*{\" + esc_text(headline) + \"}\")
+    lines.append(\"\")
+    for blk in problem.get(\"blocks\", []):
+        lines.extend(render_blocks([blk]))
+    if problem.get(\"parts\"):
+        for p in problem[\"parts\"]:
+            lines.append(\"\")
+            lines.append(\"\\\\subsection*{\" + esc_text(p[\"label\"]) + \"}\")
+            lines.extend(render_blocks(p[\"blocks\"]))
+    return \"\\n\".join(lines) + \"\\n\"
+
+def write_problem(problem, headline):
+    pid = problem[\"problemId\"]
+    with open(os.path.join(STEMS, pid + \".json\"), \"w\", encoding=\"utf-8\") as f:
+        json.dump(problem, f, ensure_ascii=False, indent=2)
+    latex = render_latex(problem, headline)
+    with open(os.path.join(LATEX, pid + \".tex\"), \"w\", encoding=\"utf-8\") as f:
+        f.write(latex)
+    with open(PROGRESS, \"a\", encoding=\"utf-8\") as f:
+        f.write(json.dumps({\"problemId\": pid, \"ok\": True}, ensure_ascii=False) + \"\\n\")
+    print(\"wrote \" + pid)
+
+def make_problem(pid, number, title, examYear, examStage, sourceLabel, sourceDocumentId,
+                 blocks, parts, headline):
+    return {
+        \"schemaVersion\": 1,
+        \"problemId\": pid,
+        \"rightsState\": \"stem_public\",
+        \"language\": \"zh-CN\",
+        \"title\": title,
+        \"number\": number,
+        \"examYear\": examYear,
+        \"examStage\": examStage,
+        \"source\": {
+            \"sourceDocumentId\": sourceDocumentId,
+            \"sourceLabel\": sourceLabel,
+            \"page\": 0,
+            \"transcriptionMethod\": \"ocr_reviewed\",
+            \"transcribedAt\": \"2026-08-08\"
+        },
+        \"provenanceNote\": \"由 MinerU MD 结构化转写；公式已整理为 LaTeX/mhchem。\",
+        \"renderingHints\": {\"mhchem\": True},
+        \"blocks\": blocks,
+        \"parts\": parts
+    }
+
+def P(label, text):
+    return {\"type\": \"paragraph\", \"text\": text}
+
+def F(latex, display=True):
+    return {\"type\": \"formula\", \"latex\": latex, \"display\": display}
+
+def C(latex, display=False):
+    return {\"type\": \"chem\", \"latex\": latex, \"display\": display}
+
+def FIG(alt, caption=None):
+    d = {\"type\": \"figure\", \"alt\": alt}
+    if caption:
+        d[\"caption\"] = caption
+    return d
+
+def CAL(text, tone=\"info\"):
+    return {\"type\": \"callout\", \"tone\": tone, \"text\": text}
+
+def SUB(label, prompt, blocks):
+    return {\"type\": \"subpart\", \"label\": label, \"prompt\": prompt, \"blocks\": blocks}
+'@ | Set-Content -LiteralPath \"D:\\ccho-site-public\\_stem_pipeline\\_gen\\common.py\" -Encoding UTF8; Write-Host \"common.py written\"" in D:\ccho-site-public
+ succeeded in 514ms:
+common.py written
+Set-Content : Could not find a part of the path 'D:\ccho-site-public\_stem_pipeline\_gen\common.py'.
+At line:133 char:6
++ '@ | Set-Content -LiteralPath "D:\ccho-site-public\_stem_pipeline\_ge ...
++      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\ccho-site-pu...\_gen\common.py:String) [Set-Content], DirectoryNotFo 
+   undException
+    + FullyQualifiedErrorId : GetContentWriterDirectoryNotFoundError,Microsoft.PowerShell.Commands.SetContentCommand
+ 
+

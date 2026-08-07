@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000091",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "含磷小分子反应",
+  "number": "7",
+  "examYear": 2020,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000054",
+    "sourceLabel": "2020-34-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2020-34-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "作为⼈⼯合成的⼤环配体之⼀，咔咯的合成及其与⾦属离⼦的配位化学备受关注。利⽤咔咯作为反应配体，可实现过渡⾦属离⼦的⾮常规氧化态，制备功能材料，探索新型催化剂，等等。下图(a)给出三（五氟苯基）咔咯分⼦(A)的⽰意图，简写为 $\\mathrm { H } _ { 3 } ( \\mathrm { t p f c } )$ 。它与⾦属离⼦结合时四个氮原⼦均参与配位。室温下，空⽓中，$\\mathrm { C r } ( \\mathrm { C O } ) _ { \\mathfrak { c } }$ 和A在甲苯中回流得到深红⾊晶体B（反应1），B显顺磁性，有效磁矩为 $1 . 7 2 \\ \\mu _ { \\mathrm { B } } ,$ ，其中⾦属离⼦的配位⼏何为四⽅锥；在惰性⽓氛保护下，B与三苯基膦 $\\left( \\mathrm { P P h } _ { 3 } \\right)$ 和三苯基氧膦 $\\mathrm { ( O P P h _ { 3 } ) }$ 按1:1:1在甲苯中反应得到绿⾊晶体C（反应2）；在氩⽓保护下， $\\mathrm { C r C l _ { 2 } }$ 和A在吡啶（简写为 $\\mathrm { p y } )$ ）中反应，得到深绿⾊晶体D（反应3），D中⾦属离⼦为⼋⾯体配位，配位原⼦均为氮原⼦。在⼀定的条件下，B、C和D之间可以发⽣转化（下图b），这⼀过程被认为有可能⽤于 $\\mathrm { O _ { 2 } }$ 的活化或消除。"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）\n(a)"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）\n(b)"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000091-01",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A中的咔咯环是否有芳⾹性？与之对应的π电⼦数是多少？"
+        }
+      ]
+    },
+    {
+      "id": "part-000091-02",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出B、C、D的化学式（要求：配体均⽤简写符号表⽰）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000091-03",
+      "label": "7-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出B、C、D中⾦属离⼦的价电⼦组态（均⽤ $d ^ { n }$ ⽅式表⽰）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000091-04",
+      "label": "7-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出制备B、C、D的反应⽅程式（要求：配体均⽤简写符号，系数为最简整数⽐）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000091-05",
+      "label": "7-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "利⽤电化学处理，B可以得电⼦转化为B−，也可以失去电⼦转化 $\\mathbf { B } _ { \\mathrm { ~ c ~ } } ^ { + }$ 。与预期的磁性相反，B+依然显⽰顺磁性。进⼀步光谱分析发现，与咔咯环配体相关的吸收峰位置发⽣显著了变化。推测⾦属离⼦的价电⼦组态（⽤ $\\lceil d ^ { n }$ ⽅式表⽰），指出磁性与光谱变化的原因。"
+        }
+      ]
+    }
+  ]
+}

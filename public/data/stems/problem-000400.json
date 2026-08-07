@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000400",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "有机药物合成",
+  "number": "10",
+  "examYear": 2012,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000046",
+    "sourceLabel": "2012-26-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2012-26-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "画出化合物A、B、C、D、E和F的结构简式。"
+    }
+  ]
+}

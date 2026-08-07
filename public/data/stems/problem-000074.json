@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000074",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "有机反应机理",
+  "number": "8",
+  "examYear": 2019,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000053",
+    "sourceLabel": "2019-33-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2019-33-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000074-01",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "现有如下待完成的反应："
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\n\\begin{array}{c} \\mathrm{D} _ {\\mathrm{H}} \\\\ \\mathrm{H} _ {3} \\mathrm{C} \\end{array} \\xrightarrow [ \\text {Br} ]{\\text {Br} _ {2}} \\xrightarrow [ h \\nu ]{}\n$$"
+        }
+      ]
+    },
+    {
+      "id": "part-000074-02",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 判断该反应物⼿性中⼼的构型。"
+        }
+      ]
+    },
+    {
+      "id": "part-000074-03",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 画出此单溴化反应所有产物的结构简 $\\tt { \\overline { { I } } } \\hat { \\zeta } _ { \\mathrm { < } }$"
+        }
+      ]
+    },
+    {
+      "id": "part-000074-04",
+      "label": "8-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "变⾊眼镜⽚在阳光下显深⾊，从⽽保护⼈的眼睛；当⼈进⼊室内后，镜⽚逐步转变为⽆⾊透明，有利于在弱光下观察周边事物。⽬前流⾏的⼀种变⾊眼镜的变⾊原理如下："
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "判断上述变⾊过程中反应条件c1和 ${ \\mathrm { c 2 } } .$ ，简述理由。"
+        }
+      ]
+    },
+    {
+      "id": "part-000074-05",
+      "label": "8-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "维⽣素C普遍存在于动植物中，在动物肝脏中以葡萄糖为原料经四步反应合成；⼯业⽣产的⽅式也是以葡萄糖经以下过程合成的："
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000074-06",
+      "label": "8-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 写出反应a和b的具体条件（可以不写溶剂）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000074-07",
+      "label": "8-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 画出 L-⼭梨糖和化合物 C 的 Fischer 投影式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000074-08",
+      "label": "8-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "以下给出四个取代反应，右图为其中某⼀反应的反应势能图："
+        }
+      ]
+    },
+    {
+      "id": "part-000074-09",
+      "label": "(1)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "$\\mathrm { C H _ { 3 } C H _ { 2 } B r + N a O C H _ { 3 }  }$"
+        }
+      ]
+    },
+    {
+      "id": "part-000074-10",
+      "label": "(2)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "$\\mathrm { ( C H _ { 3 } ) _ { 3 } C B r + H O C H _ { 3 }  }$"
+        }
+      ]
+    },
+    {
+      "id": "part-000074-11",
+      "label": "(3)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "$( \\mathrm { C H _ { 3 } } ) _ { 2 } \\mathrm { C H I } + \\mathrm { K B r } $"
+        }
+      ]
+    },
+    {
+      "id": "part-000074-12",
+      "label": "(4)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "$\\mathrm { ( C H _ { 3 } ) _ { 3 } C C l + ( C _ { 6 } H _ { 5 } ) _ { 3 } P  }$"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000074-13",
+      "label": "8-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 指出哪个反应与此反应势能图相符。"
+        }
+      ]
+    },
+    {
+      "id": "part-000074-14",
+      "label": "8-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 画出过渡态E和F的结构式。"
+        }
+      ]
+    }
+  ]
+}

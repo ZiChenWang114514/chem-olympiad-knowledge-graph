@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000335",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "碗形多环芳烃合成",
+  "number": "7",
+  "examYear": 2008,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000003",
+    "sourceLabel": "2008-22-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2008-22-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000335-01",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "⼀种合成⼼环烯的路线如下，请指出其中a\\~h代表的反应条件和/或化合物。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000335-02",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出原料A和第⼀个中间产物B的系统名称。"
+        }
+      ]
+    },
+    {
+      "id": "part-000335-03",
+      "label": "7-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "由C到D的反应中，除⽬标分⼦外，还⽣成2种⼩分⼦副产物，写出它们的结构简式或名称。"
+        }
+      ]
+    },
+    {
+      "id": "part-000335-04",
+      "label": "7-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "指出最终产物⼼环烯(R=H)及其⼆甲基化物 $\\mathrm { ( R = C H _ { 3 } ) }$ 分⼦中的对称元素。"
+        }
+      ]
+    },
+    {
+      "id": "part-000335-05",
+      "label": "7-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "⼀种合成花烯的路线如下，请指出其中i和j代表的主要试剂或条件。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000335-06",
+      "label": "7-6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "化合物E的⽴体异构体中，只有⼀种异构体能经过烯交换反应得到F，请指出是哪⼀种？简述理由。"
+        }
+      ]
+    },
+    {
+      "id": "part-000335-07",
+      "label": "7-7",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "实验中，H转变为I的反应只得到题给的⼀种⽴体异构体，简述理由。"
+        }
+      ]
+    },
+    {
+      "id": "part-000335-08",
+      "label": "7-8",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "花烯G分⼦的碗-碗翻转能垒低："
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "但I却难以翻转，简述理由。"
+        }
+      ]
+    },
+    {
+      "id": "part-000335-09",
+      "label": "7-9",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "最近⽂献报道了I的10,15,20-三甲基取代衍⽣物。请画出该衍⽣物的结构，并指出有⽆⼿性？简述理由。"
+        }
+      ]
+    }
+  ]
+}

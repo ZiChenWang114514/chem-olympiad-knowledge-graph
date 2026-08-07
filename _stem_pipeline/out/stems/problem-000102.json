@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000102",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "有机反应机理",
+  "number": "8",
+  "examYear": 2020,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000015",
+    "sourceLabel": "2020-34-CChO-juesai-1.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2020-34-CChO-juesai-2/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000102-01",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "如下光学纯(�)-对溴苯磺酸酯在75%的1,4-⼆氧六环⽔溶液中与 $\\mathrm { N a N _ { 3 } }$ 反应，得到构型保持产物(�)-2-叠氮⾟烷。画出该反应中间体的结构简式。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000102-02",
+      "label": "8-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "如下光学纯桥环化合物1在酸性条件下与⼄酸酐反应，得到外消旋的酯2。画出该反应关键中间体的结构简式。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000102-03",
+      "label": "8-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "化合物3是⼀种“受阻Lewis酸碱对”，能够在室温下活化氢⽓并形成4；当加热到 $1 5 0 ~ ^ { \\circ } \\mathrm { C }$ 时，4可释放出氢⽓。4与苯甲醛在⼆氯甲烷溶液中反应⽣成5。画出4和5的结构结构简式。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000102-04",
+      "label": "8-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "螺环化合物6与苯甲醛在邻⼆甲苯中加热回流，反应⽣成化合物7和8。画出产物7以及反应中间体的结构简式。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000102-05",
+      "label": "8-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "霉酚酸的全合成关键中间体13的合成路线如下。画出中间产物9、10、11和12的结构简式。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\n\\left(\\mathrm{TBDMS} = t - \\mathrm{BuMe} _ {2} \\mathrm{Si}; n - \\mathrm{BuLi} = n - \\mathrm{C} _ {4} \\mathrm{H} _ {9} \\mathrm{Li}; \\mathrm{DMAP} = 4 - \\text {二甲氨基吡啶}; \\mathrm{Ms} = \\mathrm{MeSO} _ {2}\\right)\n$$"
+        }
+      ]
+    }
+  ]
+}

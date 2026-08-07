@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000150",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "有机合成与机理",
+  "number": "9",
+  "examYear": 2021,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000017",
+    "sourceLabel": "2021-35-CChO-juesai-1.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2021-35-CChO-juesai-1/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "瑞德西⻙(remdesivir)是吉利德公司开发的⼀种新型核酸类抗病毒药物。2021年11⽉，默克公司研发的抗病毒药物莫努匹⻙(molnupiravir)在英国上市。Remdesivir 和 molnupiravir 的抗病毒作⽤机制都是通过阻断RNA聚合酶(RdRp)的合成抑制病毒的复制。"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "近期，我国科学家对remdesivir的合成路线进⾏了重要改进：通过发展⼀种⼿性咪哇类有机⼩分⼦催化剂，解决了remdesivir的磷⼿性中⼼⾼效构建的难题。其中部分合成路线如下："
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000150-01",
+      "label": "9-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "标出remdesivir分⼦结构中1号位碳(C1)和磷的绝对构型。"
+        }
+      ]
+    },
+    {
+      "id": "part-000150-02",
+      "label": "9-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出第⼀步反应中间体4（未经分离提纯，直接⽤于下⼀步反应）和原料5的结构简式，并解释第⼀步反应的作⽤。"
+        }
+      ]
+    },
+    {
+      "id": "part-000150-03",
+      "label": "9-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "本路线所合成的化合物6是⼀对C1位差向异构体的混合物 $( \\beta \\mathrm { { : a } } = 3 \\mathrm { { : 1 } ) }$ ，但化合物7为单⼀构型产物。画出的结构简式，并利⽤反应中间体解释6转化为单⼀构型7的历程。"
+        }
+      ]
+    },
+    {
+      "id": "part-000150-04",
+      "label": "9-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Molnupiravir存在两种互变异构体，可分别模仿胞苷C和尿苷U，导致病毒RNA复制过程的突变率增加。写出 molnupiravir 的另⼀种互变异构体，判断这两种互变异构体分别参与的主要碱基配对⽅式，并画出其⽰意图。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    }
+  ]
+}

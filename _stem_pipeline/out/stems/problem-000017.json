@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000017",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "四氧化二氮二氧化氮平衡",
+  "number": "6",
+  "examYear": 2016,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000050",
+    "sourceLabel": "2016-30-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2016-30-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000017-01",
+      "label": "6-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算295K下体系达平衡时 $\\mathrm { N _ { 2 } O _ { 4 } }$ 和 $\\mathrm { N O _ { 2 } }$ 的分压。"
+        }
+      ]
+    },
+    {
+      "id": "part-000017-02",
+      "label": "6-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "将上述体系温度升⾄315K，计算达平衡时 $\\mathrm { N _ { 2 } O _ { 4 } }$ 和 $\\mathrm { N O _ { 2 } }$ 的分压。"
+        }
+      ]
+    },
+    {
+      "id": "part-000017-03",
+      "label": "6-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算恒压下体系分别在315K和295K达平衡时的体积⽐及物质的量之⽐。"
+        }
+      ]
+    },
+    {
+      "id": "part-000017-04",
+      "label": "6-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "保持恒压条件下，不断升⾼温度，体系中NO_{2}分压最⼤值的理论趋近值是多少（不考虑其他反应）？根据平衡关系式给出证明。"
+        }
+      ]
+    },
+    {
+      "id": "part-000017-05",
+      "label": "6-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "上述体系在保持恒外压的条件下，温度从295K升⾄315K，下列说法正确的是："
+        },
+        {
+          "type": "paragraph",
+          "text": "(a) 平衡向左移动 (b) 平衡不移动 (c) 平衡向右移动 (d) 三者均有可能"
+        }
+      ]
+    },
+    {
+      "id": "part-000017-06",
+      "label": "6-6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "与体系在恒容条件下温度从295K升⾄315K的变化相⽐，恒压下体系温度升⾼，下列说法正确的是(简述理由，不要求计算)："
+        },
+        {
+          "type": "paragraph",
+          "text": "(a) 平衡移动程度更⼤ (b) 平衡移动程度更⼩ (c) 平衡移动程度不变 (d) 三者均有可能第7题（8分）⼄醇在醋酸菌作⽤下被空⽓氧化是制造醋酸的有效⽅法，然⽽这⼀传统过程远远不能满⾜⼯业的需求。⽬前 ⼯业上多采⽤甲醇和⼀氧化碳反应制备醋酸： $\\mathrm { C H _ { 3 } O H + C O  C H _ { 3 } C O O H _ { c } }$ 。第9族元素 $( \\mathrm { C o }$"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rh, Ir)的⼀些配合物是上述反应良好的催化剂。以[Rh(CO)_{2}I_{2}]−为催化剂、以碘甲烷为助催化剂合成⼄酸（Monsanto法）的⽰意图如下："
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000017-07",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在催化循环中，A和碘甲烷发⽣氧化加成反应，变为 $\\mathbf { B } _ { \\circ }$ 。画出B及其⼏何异构体B1的结构⽰意图。"
+        }
+      ]
+    },
+    {
+      "id": "part-000017-08",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "分别写出化合物A和D中铑的氧化态及其周围的电⼦数。"
+        }
+      ]
+    },
+    {
+      "id": "part-000017-09",
+      "label": "7-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出由E⽣成醋酸的反应式（E须⽤结构简式表⽰）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000017-10",
+      "label": "7-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "当将上述醋酸合成过程的催化剂改为 $[ \\mathrm { I r } ( \\mathrm { C O } ) _ { 2 } \\mathrm { I } _ { 2 } ] ^ { \\cdot }$ −，被称作Cativa法。Cativa法催化循环过程与Monsanto法类似，但中间体C和D（中⼼离⼦均为Ir）有差别，原因在于：由B（中⼼离⼦为Ir）变为 $\\mathbf { C } ,$ 发⽣的是CO取代I−的反应；由C到D过程中则发⽣甲基迁移。画出C的⾯式结构⽰意图。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000250",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "铍类化合物键合结构",
+  "number": "1",
+  "examYear": 2024,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000032",
+    "sourceLabel": "2024年全国中学生化学竞赛决赛试题（第二场）.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2024年全国中学生化学竞赛决赛试题（第二场）/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "1. 试卷正文共12页。"
+    }
+  ]
+}

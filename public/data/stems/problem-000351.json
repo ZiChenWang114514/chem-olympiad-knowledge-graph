@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000351",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "超临界水热力学",
+  "number": "5",
+  "examYear": 2009,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000004",
+    "sourceLabel": "2009-23-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2009-23-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000351-01",
+      "label": "5-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出⽔的压强-温度(�-�)相图（⽰意图），标注⽓相、液相、固相和超临界⽔所在的区域。"
+        }
+      ]
+    },
+    {
+      "id": "part-000351-02",
+      "label": "5-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算液态⽔在 $9 0 ^ { \\circ } \\mathrm { C }$ 和 0.1 MPa 时的 $) K _ { \\mathrm { w } } ^ { \\ominus } ( \\Delta _ { \\mathrm { r } } H _ { \\mathrm { m } } ^ { \\ominus }$ 和 $| \\Delta _ { \\mathrm { { r } } } S _ { \\mathrm { { m } } } ^ { \\ominus }$ 可视为常数，相关数据⻅表1）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000351-03",
+      "label": "5-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "有⼈研究了⼄酸⼄酯在23\\~30 MPa、 $2 5 0 { \\sim } 4 0 0 \\ ^ { \\circ } \\mathrm { C }$ 和没有任何其他外加物的条件下的⽔解动⼒学，并提出两种可能的机理。"
+        },
+        {
+          "type": "paragraph",
+          "text": "机理 1："
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\n\\begin{array}{r l} & \\mathrm {CH_ {3} COOH\\xrightarrow [ k _ {- 1} ]{k_ {1}} CH_ {3} COO^ {-} + H^ {+} \\qquad K_ {a}} \\\\ & \\mathrm {H_ {3} C-OC(OC_ {2} H_ {5}) + H^ {+} \\xrightarrow [ k _ {- 2} ]{k_ {2}} \\left[ H_ {3} C-OC(OC_ {2} H_ {5}) \\rightleftharpoons H_ {3} C-OC(OC_ {2} H_ {5})} \\quad K _ {2} \\\\ & \\mathrm {H_ {3} C-OC(OC_ {2} H_ {5}) + 2 H_ {2} O\\xrightarrow [ k _ {3} ]{k _ {3}} \\left[ H_ {3} C-OC(OC_ {2} H_ {5}) \\rightleftharpoons H_ {3} O^-H]} \\\\ & \\left[ \\begin{array}{c} H \\\\ H _ {3} C - \\mathrm{O} - H \\\\ \\mathrm{H} _ {3} C - \\mathrm{O} - H \\\\ \\mathrm{OC} _ {2} \\mathrm{H} _ {5} \\end{array} \\right] \\xrightarrow [ \\text {fast} ]{k _ {4}} H _ {3} C - \\mathrm{O} - H + H _ {3} O ^ {+} \\\\ & \\mathrm {H_ {3} C-OC(OC_ {2} H_ {5})\\xrightarrow [ \\text {fast} ]{k_ {5}} CH_ {3} COOH + C_ {2} H_ {5} OH} \\end{array}\n$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "机理 2："
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "请推测⼄酸⼄酯在超临界温度时的⽔解反应按上述哪种机理进⾏。为什么？"
+        },
+        {
+          "type": "paragraph",
+          "text": "相关热⼒学数据如下："
+        },
+        {
+          "type": "paragraph",
+          "text": "表1 有关物质的标准热⼒学数据(25 °C)\n表2 ⽔和⼄酸在25 MPa及不同温度下的解离常数 ${ \\bf K } _ { \\bf w }$ 和 $\\lvert K _ { \\mathrm { a } }$"
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
+        }
+      ]
+    },
+    {
+      "id": "part-000351-04",
+      "label": "5-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "⼄酸⼄酯(EA)⽔解反应速率可表⽰为："
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\nr = k c _ {\\mathrm{EA}} \\big (c _ {0, \\mathrm{EA}} - c _ {\\mathrm{EA}} \\big) ^ {1 / 2}\n$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "其中�为速率常数， $c _ { 0 , \\mathrm { E A } }$ 为⼄酸⼄酯的初始浓度。请通过推导说明⽔解反应按哪种机理进⾏。"
+        }
+      ]
+    },
+    {
+      "id": "part-000351-05",
+      "label": "5-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "实验表明：近（超）临界⽔中酯类⽔解反应的表观活化能可降到常规条件下的 $1 / 2$ ，⽔解反应速率⼤幅度提⾼。请通过机理1分析原因。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000145",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "化学反应与结构综合分析",
+  "number": "4",
+  "examYear": 2021,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000017",
+    "sourceLabel": "2021-35-CChO-juesai-1.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2021-35-CChO-juesai-1/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）\n图 4-1"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000145-01",
+      "label": "4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "为了调节荧光蛋⽩的吸收光谱，可以对其氨基酸序列进⾏改进。⼀种改进⽅法是将酪氨酸突变为组氨酸，其吸收峰发⽣蓝移。画出对应的发⾊团结构简式（不要求⽴体构型）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000145-02",
+      "label": "4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "另⼀种改进⽅式是引⼊⼀个新的酪氨酸，其侧链残基恰好位于原有的酪氨酸上⽅，结构如图4-2所⽰。该发⾊团吸收峰与绿⾊荧光蛋⽩相⽐发⽣了红移，简述原因。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）\n图 4-2"
+        }
+      ]
+    },
+    {
+      "id": "part-000145-03",
+      "label": "4-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "⼀种红⾊荧光蛋⽩其发⾊团胆绿素经由⾎红素氧化⽽产⽣，同时释放亚铁离⼦。反应过程如图4-3所⽰。给出亚铁离⼦离去的主要原因。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）\n图 4-3"
+        }
+      ]
+    },
+    {
+      "id": "part-000145-04",
+      "label": "4-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "绿⾊荧光蛋⽩在pH=7.40下总电荷数为−7.88，其氨基酸序列中侧链残基带电荷的所有氨基酸种类以及他们的侧链 $) K _ { a }$ 如下图所⽰（可忽略⽔的电离的影响，和形成多肽对侧链 $\\mathsf { p } K _ { a }$ 的影响）。已知绿⾊荧光蛋⽩的氨基酸序列中赖氨酸数⽬为20个，天冬氨酸数⽬为18个，⾕氨酸数⽬为16个，精氨酸数⽬ $\\left( n _ { \\mathrm { R } } \\right)$ ⼩于10个，组氨酸的数⽬ $( n _ { \\mathrm { H } } )$ ⼤于5个，组氨酸和半胱氨酸的数⽬之和 $( n _ { \\mathrm { H } } + n _ { \\mathrm { C } } )$ 为12个。计算 $n _ { \\mathrm { R } } .$ 、 $n _ { \\mathrm { H } } ^ { \\mathrm { } } .$ 和� 值。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）\n图 4-4"
+        }
+      ]
+    }
+  ]
+}

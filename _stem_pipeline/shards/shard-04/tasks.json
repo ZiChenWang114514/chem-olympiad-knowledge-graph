@@ -1,0 +1,722 @@
+{
+  "shardId": 4,
+  "problemCount": 60,
+  "papers": 5,
+  "tasks": [
+    {
+      "md": "D:\\打工2\\初赛&决赛\\MinerU_MD\\决赛\\2023-37-CChO-juesai-2\\full.md",
+      "rel": "决赛/2023-37-CChO-juesai-2/full.md",
+      "folder": "2023-37-CChO-juesai-2",
+      "skip": false,
+      "year": 2023,
+      "stage": "final",
+      "problemCount": 22,
+      "problems": [
+        {
+          "id": "problem-000208",
+          "number": "1",
+          "title": "铜配位化学与超导结构",
+          "examId": "exam-000026",
+          "year": 2023,
+          "stage": "final",
+          "sourceLabel": "2023-37-CChO-juesai-1.pdf",
+          "sourceDocumentId": "source-000025",
+          "page": 0
+        },
+        {
+          "id": "problem-000221",
+          "number": "1",
+          "title": "DNA砖块纳米结构",
+          "examId": "exam-000027",
+          "year": 2023,
+          "stage": "final",
+          "sourceLabel": "2023-37-CChO-juesai-2.pdf",
+          "sourceDocumentId": "source-000026",
+          "page": 0
+        },
+        {
+          "id": "problem-000209",
+          "number": "2",
+          "title": "钪氧化物晶胞计算",
+          "examId": "exam-000026",
+          "year": 2023,
+          "stage": "final",
+          "sourceLabel": "2023-37-CChO-juesai-1.pdf",
+          "sourceDocumentId": "source-000025",
+          "page": 0
+        },
+        {
+          "id": "problem-000222",
+          "number": "2",
+          "title": "过氧化钙制备与性质",
+          "examId": "exam-000027",
+          "year": 2023,
+          "stage": "final",
+          "sourceLabel": "2023-37-CChO-juesai-2.pdf",
+          "sourceDocumentId": "source-000026",
+          "page": 0
+        },
+        {
+          "id": "problem-000210",
+          "number": "3",
+          "title": "硼硅低配位化学",
+          "examId": "exam-000026",
+          "year": 2023,
+          "stage": "final",
+          "sourceLabel": "2023-37-CChO-juesai-1.pdf",
+          "sourceDocumentId": "source-000025",
+          "page": 0
+        },
+        {
+          "id": "problem-000223",
+          "number": "3",
+          "title": "甲酸高温分解动力学",
+          "examId": "exam-000027",
+          "year": 2023,
+          "stage": "final",
+          "sourceLabel": "2023-37-CChO-juesai-2.pdf",
+          "sourceDocumentId": "source-000026",
+          "page": 0
+        },
+        {
+          "id": "problem-000211",
+          "number": "4",
+          "title": "磷同素异形体晶体学",
+          "examId": "exam-000026",
+          "year": 2023,
+          "stage": "final",
+          "sourceLabel": "2023-37-CChO-juesai-1.pdf",
+          "sourceDocumentId": "source-000025",
+          "page": 0
+        },
+        {
+          "id": "problem-000224",
+          "number": "4",
+          "title": "锌碘铜电池电势",
+          "examId": "exam-000027",
+          "year": 2023,
+          "stage": "final",
+          "sourceLabel": "2023-37-CChO-juesai-2.pdf",
+          "sourceDocumentId": "source-000026",
+          "page": 0
+        },
+        {
+          "id": "problem-000212",
+          "number": "5",
+          "title": "甲醛时钟反应动力学",
+          "examId": "exam-000026",
+          "year": 2023,
+          "stage": "final",
+          "sourceLabel": "2023-37-CChO-juesai-1.pdf",
+          "sourceDocumentId": "source-000025",
+          "page": 0
+        },
+        {
+          "id": "problem-000225",
+          "number": "5",
+          "title": "水和冰的晶体结构",
+          "examId": "exam-000027",
+          "year": 2023,
+          "stage": "final",
+          "sourceLabel": "2023-37-CChO-juesai-2.pdf",
+          "sourceDocumentId": "source-000026",
+          "page": 0
+        },
+        {
+          "id": "problem-000213",
+          "number": "6",
+          "title": "冰量热计与燃烧热",
+          "examId": "exam-000026",
+          "year": 2023,
+          "stage": "final",
+          "sourceLabel": "2023-37-CChO-juesai-1.pdf",
+          "sourceDocumentId": "source-000025",
+          "page": 0
+        },
+        {
+          "id": "problem-000226",
+          "number": "6",
+          "title": "量子点尺寸与光学性质",
+          "examId": "exam-000027",
+          "year": 2023,
+          "stage": "final",
+          "sourceLabel": "2023-37-CChO-juesai-2.pdf",
+          "sourceDocumentId": "source-000026",
+          "page": 0
+        },
+        {
+          "id": "problem-000214",
+          "number": "7",
+          "title": "铯碳酸盐分解热力学",
+          "examId": "exam-000026",
+          "year": 2023,
+          "stage": "final",
+          "sourceLabel": "2023-37-CChO-juesai-1.pdf",
+          "sourceDocumentId": "source-000025",
+          "page": 0
+        },
+        {
+          "id": "problem-000227",
+          "number": "7",
+          "title": "有机分子构象与自由基",
+          "examId": "exam-000027",
+          "year": 2023,
+          "stage": "final",
+          "sourceLabel": "2023-37-CChO-juesai-2.pdf",
+          "sourceDocumentId": "source-000026",
+          "page": 0
+        },
+        {
+          "id": "problem-000215",
+          "number": "8",
+          "title": "亚油酸酯自由基氧化",
+          "examId": "exam-000026",
+          "year": 2023,
+          "stage": "final",
+          "sourceLabel": "2023-37-CChO-juesai-1.pdf",
+          "sourceDocumentId": "source-000025",
+          "page": 0
+        },
+        {
+          "id": "problem-000228",
+          "number": "8",
+          "title": "烯丙基二氮烯重排机理",
+          "examId": "exam-000027",
+          "year": 2023,
+          "stage": "final",
+          "sourceLabel": "2023-37-CChO-juesai-2.pdf",
+          "sourceDocumentId": "source-000026",
+          "page": 0
+        },
+        {
+          "id": "problem-000216",
+          "number": "9",
+          "title": "取代基效应与反应速率",
+          "examId": "exam-000026",
+          "year": 2023,
+          "stage": "final",
+          "sourceLabel": "2023-37-CChO-juesai-1.pdf",
+          "sourceDocumentId": "source-000025",
+          "page": 0
+        },
+        {
+          "id": "problem-000229",
+          "number": "9",
+          "title": "樟脑非经典正离子",
+          "examId": "exam-000027",
+          "year": 2023,
+          "stage": "final",
+          "sourceLabel": "2023-37-CChO-juesai-2.pdf",
+          "sourceDocumentId": "source-000026",
+          "page": 0
+        },
+        {
+          "id": "problem-000217",
+          "number": "10",
+          "title": "乙酸正丁酯实验合成",
+          "examId": "exam-000026",
+          "year": 2023,
+          "stage": "final",
+          "sourceLabel": "2023-37-CChO-juesai-1.pdf",
+          "sourceDocumentId": "source-000025",
+          "page": 0
+        },
+        {
+          "id": "problem-000218",
+          "number": "11",
+          "title": "羰基化合物多步反应",
+          "examId": "exam-000026",
+          "year": 2023,
+          "stage": "final",
+          "sourceLabel": "2023-37-CChO-juesai-1.pdf",
+          "sourceDocumentId": "source-000025",
+          "page": 0
+        },
+        {
+          "id": "problem-000219",
+          "number": "12",
+          "title": "金属卡宾热裂解",
+          "examId": "exam-000026",
+          "year": 2023,
+          "stage": "final",
+          "sourceLabel": "2023-37-CChO-juesai-1.pdf",
+          "sourceDocumentId": "source-000025",
+          "page": 0
+        },
+        {
+          "id": "problem-000220",
+          "number": "13",
+          "title": "长春碱天然产物合成",
+          "examId": "exam-000026",
+          "year": 2023,
+          "stage": "final",
+          "sourceLabel": "2023-37-CChO-juesai-1.pdf",
+          "sourceDocumentId": "source-000025",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "md": "D:\\打工2\\初赛&决赛\\MinerU_MD\\初赛\\2007-21-CChO-chusai\\full.md",
+      "rel": "初赛/2007-21-CChO-chusai/full.md",
+      "folder": "2007-21-CChO-chusai",
+      "skip": false,
+      "year": 2007,
+      "stage": "preliminary",
+      "problemCount": 11,
+      "problems": [
+        {
+          "id": "problem-000300",
+          "number": "1",
+          "title": "硅与超强碳正离子",
+          "examId": "exam-000032",
+          "year": 2007,
+          "stage": "preliminary",
+          "sourceLabel": "2007-21-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000038",
+          "page": 0
+        },
+        {
+          "id": "problem-000301",
+          "number": "2",
+          "title": "羟胺亚硝酸同位素示踪",
+          "examId": "exam-000032",
+          "year": 2007,
+          "stage": "preliminary",
+          "sourceLabel": "2007-21-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000038",
+          "page": 0
+        },
+        {
+          "id": "problem-000302",
+          "number": "3",
+          "title": "氯化镁层状晶体",
+          "examId": "exam-000032",
+          "year": 2007,
+          "stage": "preliminary",
+          "sourceLabel": "2007-21-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000038",
+          "page": 0
+        },
+        {
+          "id": "problem-000303",
+          "number": "4",
+          "title": "弱酸钠盐热分析",
+          "examId": "exam-000032",
+          "year": 2007,
+          "stage": "preliminary",
+          "sourceLabel": "2007-21-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000038",
+          "page": 0
+        },
+        {
+          "id": "problem-000304",
+          "number": "5",
+          "title": "氯化苄纯度测定",
+          "examId": "exam-000032",
+          "year": 2007,
+          "stage": "preliminary",
+          "sourceLabel": "2007-21-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000038",
+          "page": 0
+        },
+        {
+          "id": "problem-000305",
+          "number": "6",
+          "title": "弱酸两相分配平衡",
+          "examId": "exam-000032",
+          "year": 2007,
+          "stage": "preliminary",
+          "sourceLabel": "2007-21-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000038",
+          "page": 0
+        },
+        {
+          "id": "problem-000306",
+          "number": "7",
+          "title": "氯酸钾热分解催化",
+          "examId": "exam-000032",
+          "year": 2007,
+          "stage": "preliminary",
+          "sourceLabel": "2007-21-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000038",
+          "page": 0
+        },
+        {
+          "id": "problem-000307",
+          "number": "8",
+          "title": "有机产物分离与反应类型",
+          "examId": "exam-000032",
+          "year": 2007,
+          "stage": "preliminary",
+          "sourceLabel": "2007-21-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000038",
+          "page": 0
+        },
+        {
+          "id": "problem-000308",
+          "number": "9",
+          "title": "过氧化氢醛反应合成",
+          "examId": "exam-000032",
+          "year": 2007,
+          "stage": "preliminary",
+          "sourceLabel": "2007-21-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000038",
+          "page": 0
+        },
+        {
+          "id": "problem-000309",
+          "number": "10",
+          "title": "氰尿酸氯化消毒剂",
+          "examId": "exam-000032",
+          "year": 2007,
+          "stage": "preliminary",
+          "sourceLabel": "2007-21-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000038",
+          "page": 0
+        },
+        {
+          "id": "problem-000310",
+          "number": "11",
+          "title": "石竹烯结构推断",
+          "examId": "exam-000032",
+          "year": 2007,
+          "stage": "preliminary",
+          "sourceLabel": "2007-21-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000038",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "md": "D:\\打工2\\初赛&决赛\\MinerU_MD\\决赛\\2024年全国中学生化学竞赛决赛试题（第二场）\\full.md",
+      "rel": "决赛/2024年全国中学生化学竞赛决赛试题（第二场）/full.md",
+      "folder": "2024年全国中学生化学竞赛决赛试题（第二场）",
+      "skip": false,
+      "year": 2024,
+      "stage": "final",
+      "problemCount": 10,
+      "problems": [
+        {
+          "id": "problem-000250",
+          "number": "1",
+          "title": "铍类化合物键合结构",
+          "examId": "exam-000028",
+          "year": 2024,
+          "stage": "final",
+          "sourceLabel": "2024年全国中学生化学竞赛决赛试题（第二场）.pdf",
+          "sourceDocumentId": "source-000032",
+          "page": 0
+        },
+        {
+          "id": "problem-000251",
+          "number": "2",
+          "title": "硅团簇结构与重排",
+          "examId": "exam-000028",
+          "year": 2024,
+          "stage": "final",
+          "sourceLabel": "2024年全国中学生化学竞赛决赛试题（第二场）.pdf",
+          "sourceDocumentId": "source-000032",
+          "page": 0
+        },
+        {
+          "id": "problem-000252",
+          "number": "3",
+          "title": "氢氘同位素效应",
+          "examId": "exam-000028",
+          "year": 2024,
+          "stage": "final",
+          "sourceLabel": "2024年全国中学生化学竞赛决赛试题（第二场）.pdf",
+          "sourceDocumentId": "source-000032",
+          "page": 0
+        },
+        {
+          "id": "problem-000253",
+          "number": "4",
+          "title": "N-H键活化与金属氢化物",
+          "examId": "exam-000028",
+          "year": 2024,
+          "stage": "final",
+          "sourceLabel": "2024年全国中学生化学竞赛决赛试题（第二场）.pdf",
+          "sourceDocumentId": "source-000032",
+          "page": 0
+        },
+        {
+          "id": "problem-000254",
+          "number": "5",
+          "title": "乙醇代谢电化学",
+          "examId": "exam-000028",
+          "year": 2024,
+          "stage": "final",
+          "sourceLabel": "2024年全国中学生化学竞赛决赛试题（第二场）.pdf",
+          "sourceDocumentId": "source-000032",
+          "page": 0
+        },
+        {
+          "id": "problem-000255",
+          "number": "6",
+          "title": "高压氮气与多氮结构",
+          "examId": "exam-000028",
+          "year": 2024,
+          "stage": "final",
+          "sourceLabel": "2024年全国中学生化学竞赛决赛试题（第二场）.pdf",
+          "sourceDocumentId": "source-000032",
+          "page": 0
+        },
+        {
+          "id": "problem-000256",
+          "number": "7",
+          "title": "钴配合物自旋化学",
+          "examId": "exam-000028",
+          "year": 2024,
+          "stage": "final",
+          "sourceLabel": "2024年全国中学生化学竞赛决赛试题（第二场）.pdf",
+          "sourceDocumentId": "source-000032",
+          "page": 0
+        },
+        {
+          "id": "problem-000257",
+          "number": "8",
+          "title": "有机实验基本操作",
+          "examId": "exam-000028",
+          "year": 2024,
+          "stage": "final",
+          "sourceLabel": "2024年全国中学生化学竞赛决赛试题（第二场）.pdf",
+          "sourceDocumentId": "source-000032",
+          "page": 0
+        },
+        {
+          "id": "problem-000258",
+          "number": "9",
+          "title": "碳正离子反应性",
+          "examId": "exam-000028",
+          "year": 2024,
+          "stage": "final",
+          "sourceLabel": "2024年全国中学生化学竞赛决赛试题（第二场）.pdf",
+          "sourceDocumentId": "source-000032",
+          "page": 0
+        },
+        {
+          "id": "problem-000259",
+          "number": "10",
+          "title": "氮杂环同位素编辑",
+          "examId": "exam-000028",
+          "year": 2024,
+          "stage": "final",
+          "sourceLabel": "2024年全国中学生化学竞赛决赛试题（第二场）.pdf",
+          "sourceDocumentId": "source-000032",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "md": "D:\\打工2\\初赛&决赛\\MinerU_MD\\初赛\\2024-38-CChO-chusai\\full.md",
+      "rel": "初赛/2024-38-CChO-chusai/full.md",
+      "folder": "2024-38-CChO-chusai",
+      "skip": false,
+      "year": 2024,
+      "stage": "preliminary",
+      "problemCount": 10,
+      "problems": [
+        {
+          "id": "problem-000232",
+          "number": "3",
+          "title": "化学键与机械力",
+          "examId": "exam-000005",
+          "year": 2024,
+          "stage": "preliminary",
+          "sourceLabel": "2024-38-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000062",
+          "page": 0
+        },
+        {
+          "id": "problem-000233",
+          "number": "4",
+          "title": "盘状双层胶束电荷",
+          "examId": "exam-000005",
+          "year": 2024,
+          "stage": "preliminary",
+          "sourceLabel": "2024-38-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000062",
+          "page": 0
+        },
+        {
+          "id": "problem-000234",
+          "number": "5",
+          "title": "合金晶体结构与性能",
+          "examId": "exam-000005",
+          "year": 2024,
+          "stage": "preliminary",
+          "sourceLabel": "2024-38-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000062",
+          "page": 0
+        },
+        {
+          "id": "problem-000235",
+          "number": "6",
+          "title": "醋酸亚铬无氧合成",
+          "examId": "exam-000005",
+          "year": 2024,
+          "stage": "preliminary",
+          "sourceLabel": "2024-38-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000062",
+          "page": 0
+        },
+        {
+          "id": "problem-000236",
+          "number": "7",
+          "title": "二氧化碳空气捕集",
+          "examId": "exam-000005",
+          "year": 2024,
+          "stage": "preliminary",
+          "sourceLabel": "2024-38-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000062",
+          "page": 0
+        },
+        {
+          "id": "problem-000237",
+          "number": "8",
+          "title": "有机化合物基本性质",
+          "examId": "exam-000005",
+          "year": 2024,
+          "stage": "preliminary",
+          "sourceLabel": "2024-38-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000062",
+          "page": 0
+        },
+        {
+          "id": "problem-000238",
+          "number": "9",
+          "title": "芳香亲电取代反应",
+          "examId": "exam-000005",
+          "year": 2024,
+          "stage": "preliminary",
+          "sourceLabel": "2024-38-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000062",
+          "page": 0
+        },
+        {
+          "id": "problem-000239",
+          "number": "10",
+          "title": "硫化学与亚砜手性",
+          "examId": "exam-000005",
+          "year": 2024,
+          "stage": "preliminary",
+          "sourceLabel": "2024-38-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000062",
+          "page": 0
+        },
+        {
+          "id": "problem-000007",
+          "number": "Q1",
+          "title": "炼丹线索与热力学平衡",
+          "examId": "exam-000005",
+          "year": 2024,
+          "stage": "preliminary",
+          "sourceLabel": "2024-38-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000062",
+          "page": 0
+        },
+        {
+          "id": "problem-000008",
+          "number": "Q2",
+          "title": "高锰酸钾碘量分析",
+          "examId": "exam-000005",
+          "year": 2024,
+          "stage": "preliminary",
+          "sourceLabel": "2024-38-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000062",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "md": "D:\\打工2\\初赛&决赛\\MinerU_MD\\决赛\\2007-21-CChO-juesai\\full.md",
+      "rel": "决赛/2007-21-CChO-juesai/full.md",
+      "folder": "2007-21-CChO-juesai",
+      "skip": false,
+      "year": 2007,
+      "stage": "final",
+      "problemCount": 7,
+      "problems": [
+        {
+          "id": "problem-000311",
+          "number": "1",
+          "title": "叠氮化合物结构与反应",
+          "examId": "exam-000033",
+          "year": 2007,
+          "stage": "final",
+          "sourceLabel": "2007-21-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000002",
+          "page": 0
+        },
+        {
+          "id": "problem-000312",
+          "number": "2",
+          "title": "高铁酸钾氧化性质",
+          "examId": "exam-000033",
+          "year": 2007,
+          "stage": "final",
+          "sourceLabel": "2007-21-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000002",
+          "page": 0
+        },
+        {
+          "id": "problem-000313",
+          "number": "3",
+          "title": "硼纤维复合材料分析",
+          "examId": "exam-000033",
+          "year": 2007,
+          "stage": "final",
+          "sourceLabel": "2007-21-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000002",
+          "page": 0
+        },
+        {
+          "id": "problem-000314",
+          "number": "4",
+          "title": "冠醚超分子自组装",
+          "examId": "exam-000033",
+          "year": 2007,
+          "stage": "final",
+          "sourceLabel": "2007-21-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000002",
+          "page": 0
+        },
+        {
+          "id": "problem-000315",
+          "number": "5",
+          "title": "荧光探针检测一氧化氮",
+          "examId": "exam-000033",
+          "year": 2007,
+          "stage": "final",
+          "sourceLabel": "2007-21-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000002",
+          "page": 0
+        },
+        {
+          "id": "problem-000316",
+          "number": "6",
+          "title": "氧化铝表面催化",
+          "examId": "exam-000033",
+          "year": 2007,
+          "stage": "final",
+          "sourceLabel": "2007-21-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000002",
+          "page": 0
+        },
+        {
+          "id": "problem-000317",
+          "number": "7",
+          "title": "银席夫碱大环配合物",
+          "examId": "exam-000033",
+          "year": 2007,
+          "stage": "final",
+          "sourceLabel": "2007-21-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000002",
+          "page": 0
+        }
+      ]
+    }
+  ]
+}

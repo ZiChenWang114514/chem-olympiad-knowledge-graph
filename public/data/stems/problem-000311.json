@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000311",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "叠氮化合物结构与反应",
+  "number": "1",
+  "examYear": 2007,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000002",
+    "sourceLabel": "2007-21-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2007-21-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000311-01",
+      "label": "1-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "$\\mathrm { H N } _ { 3 }$ 分⼦的⼏何构型⻅下图（图中键⻓单位为 $1 0 ^ { - 1 0 } \\mathrm { m } )$ 。N—N、N=N 和 $\\mathrm { N } { \\equiv } \\mathrm { N }$ 的共价键键⻓分别为$1 . 4 0 \\times 1 0 ^ { - 1 0 }$ $1 . 2 0 \\times 1 0 ^ { - 1 0 }$ 和 1. $0 9 \\times 1 0 ^ { - 1 0 }$ m，试画出 $\\mathrm { H N } _ { 3 }$ 分⼦的共轭结构式。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000311-02",
+      "label": "1-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "叠氮有机铝化合物是多种叠氮化反应的试剂。在室温下，将⼀定量 $\\mathrm { N a N _ { 3 } }$ 苯和 $\\mathrm { E t _ { 2 } A l C l }$ 混合，剧烈搅拌反应24 h，常压蒸除溶剂，减压蒸馏得到叠氮⼆⼄基铝 $\\mathrm { ( E t _ { 2 } A l N _ { 3 } , }$ 缩写DEAA）。在低温下， $\\mathrm { E t _ { 2 } A l C l }$ 形成稳定的⼆聚体，DEAA则形成稳定的三聚体。在上述聚合体中Al原⼦都是4配位 ,⽽且⼄基的化学环境相同。试画出 $\\mathrm { E t _ { 2 } A l C l }$ ⼆聚体和DEAA三聚体的结构式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000311-03",
+      "label": "1-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "DEAA的饱和蒸⽓压与温度的关系曲线如下图所⽰。试计算如下反应的摩尔焓变。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\n\\frac {1}{T} \\times 1 0 ^ {3} / \\mathrm{K} ^ {- 1}\n$$"
+        }
+      ]
+    },
+    {
+      "id": "part-000311-04",
+      "label": "1-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "取浓度为 0.100 mol $\\mathrm { L } ^ { - 1 } \\mathrm { D E A A }$ 的苯溶液，⽤凝固点下降法测得溶质的平均相对分⼦质量为372（DEAA三聚体的相对分⼦质量为381），试计算 $( \\mathrm { D E A A } ) _ { 3 }$ 在该溶液中的解离率。"
+        }
+      ]
+    },
+    {
+      "id": "part-000311-05",
+      "label": "1-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "叠氮桥配合物不仅表现出多样化的桥联⽅式和聚合结构，在分⼦基磁性材料研究中极具价值。试画出叠氮桥联形成的双核配合物中叠氮根作桥联配体的各种可能⽅式（⽤M表⽰⾦属离⼦）。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000020",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "氨基乙醇酰化选择性",
+  "number": "9",
+  "examYear": 2016,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000050",
+    "sourceLabel": "2016-30-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2016-30-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000020-01",
+      "label": "9-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "氨基⼄醇在盐酸中与⼄酸酐反应如下："
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "当此反应在 $\\mathrm { K _ { 2 } C O _ { 3 } }$ 中进⾏，得到了另⼀个⾮环状的产物B；化合物A在 $\\mathrm { K _ { 2 } C O _ { 3 } }$ 作⽤下也转化为化合物 $\\mathbf { B } _ { \\mathrm { c } }$ 。9-1-1 画出化合物B的结构简式；"
+        }
+      ]
+    },
+    {
+      "id": "part-000020-02",
+      "label": "9-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 为什么在HCl作⽤下，氨基⼄醇与⼄酸酐反应⽣成化合物A；⽽在 $\\mathrm { K _ { 2 } C O _ { 3 } }$ 作⽤下，却⽣成化合物B？9-1-3 为什么化合物A在 $\\mathrm { K _ { 2 } C O _ { 3 } }$ 作⽤下转化为化合物B？"
+        }
+      ]
+    },
+    {
+      "id": "part-000020-03",
+      "label": "9-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "某同学设计如下反应条件，欲制备化合物C。但反应后实际得到其同分异构体E。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000020-04",
+      "label": "9-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 画出重要反应中间体D及产物E的结构简式。"
+        },
+        {
+          "type": "paragraph",
+          "text": "在下⾯的反应中，化合物F与⼆氯亚砜在吡啶-⼄醚溶液中发⽣反应时未能得到氯代产物，⽽是得到了两种含有碳碳双键的同分异构体G和H；没有得到另⼀个同分异构体J。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000020-05",
+      "label": "9-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 画出G、H以及J的结构简式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000020-06",
+      "label": "9-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-3 解释上述反应中得不到产物J的原因。"
+        }
+      ]
+    }
+  ]
+}

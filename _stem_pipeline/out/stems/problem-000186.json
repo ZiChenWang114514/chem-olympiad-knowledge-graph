@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000186",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "烯烃光氧化裂解",
+  "number": "8",
+  "examYear": 2022,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000021",
+    "sourceLabel": "2022-36-CChO-juesai-1.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2022-36-CChO-juesai-2/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "实验⼀：化合物1在 $\\operatorname { C u C l } ( \\operatorname { c o d } )$ _{2}催化下发⽣反应，⾼区域选择性形成产物2，其中2a和2b的⽐例为98:2，产物2a中的双键以反式为主，反式和顺式的⽐例为74:26。"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "实验⼆：该反应在没有Cu(I)参与下，基本上不反应，原料完全回收。"
+    },
+    {
+      "type": "paragraph",
+      "text": "实验三：产物(�)-2a可以在没有Cu(I)参与下，在100 °C下转化为(�)-2a和(�)-2b。然⽽，在同样条件下，"
+    },
+    {
+      "type": "paragraph",
+      "text": "(�)-2a 则保持不变，不会转化为(�)-2a。"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "分析以上信息，回答相关问题:"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000186-01",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "为实验⼀转化为2a的过程提供关键中间体；"
+        }
+      ]
+    },
+    {
+      "id": "part-000186-02",
+      "label": "8-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "为实验三(�)-2a异构化为(�)-2a、形成(�)-2b的过程提供关键中间体；"
+        }
+      ]
+    },
+    {
+      "id": "part-000186-03",
+      "label": "8-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在加热条件下，解释为什么(�)-2a 可以转化为(�)-2a，⽽(�)-2a 不能转化为(�)-2a；"
+        }
+      ]
+    },
+    {
+      "id": "part-000186-04",
+      "label": "8-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在后续的研究过程中，发现除了形成以上四元环外，还可以形成五元杂环 $3 _ { \\circ }$ 。画出形成化合物3的关键中间体（说明：与前⾯重复的⽆需再画）。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    }
+  ]
+}

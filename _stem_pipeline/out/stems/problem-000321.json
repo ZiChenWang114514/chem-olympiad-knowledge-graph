@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000321",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "拟卤素氰化学",
+  "number": "4",
+  "examYear": 2008,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000039",
+    "sourceLabel": "2008-22-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2008-22-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000321-01",
+      "label": "4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "$\\mathrm { H g C l _ { 2 } }$ 和 $\\mathrm { H g ( C N ) _ { 2 } }$ 反应可制得(CN)_{2}，写出反应⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000321-02",
+      "label": "4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出 $\\mathrm { C N ^ { - } }$ $( \\mathrm { C N } ) _ { 2 }$ 的路易斯结构式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000321-03",
+      "label": "4-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出 $\\mathrm { ( C N ) _ { 2 } ( g ) }$ 在 $\\mathrm { O _ { 2 } ( g ) }$ 中燃烧的反应⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000321-04",
+      "label": "4-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "298 K 下，(CN)_{2}(g)的标准摩尔燃烧热为−1095 kJ $\\mathrm { m o l ^ { - 1 } }$ $\\mathrm { C _ { 2 } H _ { 2 } ( g ) }$ 的标准摩尔燃烧热为−1300 kJ $\\mathrm { m o l ^ { - 1 } }$ $\\mathrm { C _ { 2 } H _ { 2 } ( g ) }$ 的标准摩尔⽣成焓为227 kJ $\\mathrm { m o l ^ { - 1 } }$ $\\mathrm { H _ { 2 } O ( l ) }$ 的标准摩尔⽣成焓为-286 kJ $\\mathrm { m o l ^ { - 1 } }$ ，计算 $\\mathrm { ( C N ) _ { 2 } ( g ) }$ 的标准摩尔⽣成焓。"
+        }
+      ]
+    },
+    {
+      "id": "part-000321-05",
+      "label": "4-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "(CN)_{2} 在 $3 0 0 { \\sim } 5 0 0 \\ ^ { \\circ } \\mathrm { C }$ 形成具有⼀维双链结构的聚合物，画出该聚合物的结构。"
+        }
+      ]
+    },
+    {
+      "id": "part-000321-06",
+      "label": "4-6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "电镀⼚向含氰化物的电镀废液中加⼊漂⽩粉以消除有毒的CN-，写出化学⽅程式（漂⽩粉⽤ClO-表⽰）。"
+        }
+      ]
+    }
+  ]
+}

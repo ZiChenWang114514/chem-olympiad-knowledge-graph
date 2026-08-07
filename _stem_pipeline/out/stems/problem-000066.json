@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000066",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "天然产物全合成路线",
+  "number": "8",
+  "examYear": 2018,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000013",
+    "sourceLabel": "2018-32-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2018-32-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "注释：合成路线中的反应条件是指主要条件。"
+    },
+    {
+      "type": "paragraph",
+      "text": "$^ { t } \\mathrm { { B u O H } \\mathrm { { ; } } }$ ：叔丁醇；BnBr：溴化苄；DMF：�,�-⼆甲基甲酰胺；THF：四氢呋喃；DIBAL-H：⼆异丁基氢化"
+    },
+    {
+      "type": "paragraph",
+      "text": "铝；MsCl：甲基磺酰氯；Et_{3}N：三⼄胺；TFA：三氟⼄酸；KHMDS：[(CH_{3})_{3}Si]_{2}NK；AcO-：⼄酸根离⼦；"
+    },
+    {
+      "type": "paragraph",
+      "text": "(Boc)_{2}O："
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "DMP："
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000066-01",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出A、B、C、D、E、F、G的结构简式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000066-02",
+      "label": "8-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "由A到化合物2的第⼀步反应属于哪种反应类型？写出中间产物的结构简式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000066-03",
+      "label": "8-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出由C到化合物3转化的第⼀步反应产物的结构简式。"
+        }
+      ]
+    }
+  ]
+}

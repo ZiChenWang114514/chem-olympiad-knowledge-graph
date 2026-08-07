@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000399",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "有机药物合成",
+  "number": "9",
+  "examYear": 2012,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000046",
+    "sourceLabel": "2012-26-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2012-26-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000399-01",
+      "label": "9-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "指出该反应中的亲核试剂。"
+        }
+      ]
+    },
+    {
+      "id": "part-000399-02",
+      "label": "9-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "简述催化剂六氢吡啶在反应中的具体作⽤。"
+        }
+      ]
+    },
+    {
+      "id": "part-000399-03",
+      "label": "9-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "化合物A是合成抗痉挛药物D(gabapentin)的前体。根据上述反应式，写出合成A的2个起始原料的结构简式。"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\n\\begin{array}{c} \\text {COOCH_ {2} CH_ {3}} \\\\ \\text {COOCH_ {2} CH_ {3}} \\end{array}\n$$"
+        }
+      ]
+    },
+    {
+      "id": "part-000399-04",
+      "label": "9-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出由A制备D过程中中间体B、C和产物D的结构简式。"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\n\\mathrm{A} \\xrightarrow [ \\mathrm{H} _ {2} \\mathrm{O} ]{\\mathrm{NaCN}} \\mathrm{B} \\xrightarrow [ \\Delta ]{\\mathrm{H} _ {2} , \\text {cat.}} \\mathrm{C} \\xrightarrow [ \\Delta ]{\\mathrm{NaOH} , \\mathrm{H} _ {2} \\mathrm{O}} \\mathrm{D}\n$$"
+        }
+      ]
+    }
+  ]
+}

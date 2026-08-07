@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000059",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "铱氧簇异构与氧化还原",
+  "number": "1",
+  "examYear": 2018,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000013",
+    "sourceLabel": "2018-32-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2018-32-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000059-01",
+      "label": "1-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在该系列化合物中， $[ \\mathrm { I r O } _ { 4 } ] ^ { + }$ 有 A、B、C 三种异构体。A ⽆对称中⼼，Ir—O 键的键⻓均为 170.8 pm。B中Ir的配位数为4，氧化态为+7，只有两种Ir—O键，键⻓分别为188.8 pm和168.0 pm。C中只有⼀个镜⾯，也只有两种 Ir—O 键，键⻓分别为 209.6 pm 和 167.9 pm。画出 A，B，C 的结构。"
+        }
+      ]
+    },
+    {
+      "id": "part-000059-02",
+      "label": "1-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "$\\mathrm { I r B r _ { 3 } }$ 与 $\\mathrm { N } _ { 2 } \\mathrm { O } _ { 5 }$ 可在室温下反应，得到⼀紫⾊配合物 $\\mathrm { I r _ { 3 } O ( N O _ { 3 } ) _ { 1 0 } }$ ，同时产⽣⼀红棕⾊的液体单质，并释放出具有顺磁性的⽆⾊⽓体。写出该反应的⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000059-03",
+      "label": "1-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "具有三⽅双锥构型的 $\\mathrm { C r } ( \\mathrm { C O } ) _ { x } ( \\mathrm { N O } ) _ { y }$ 配合物，满⾜18电⼦规则。计算�和�。"
+        }
+      ]
+    }
+  ]
+}

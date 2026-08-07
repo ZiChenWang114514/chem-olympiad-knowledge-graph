@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000427",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "有机反应中间体综合",
+  "number": "11",
+  "examYear": 2013,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000008",
+    "sourceLabel": "2013-27-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2013-27-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000427-01",
+      "label": "11-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出下列反应的中间体结构简式。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000427-02",
+      "label": "11-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出下列两个反应的所有产物的结构简式。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000339",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "氯气检漏与铬还原",
+  "number": "3",
+  "examYear": 2009,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000040",
+    "sourceLabel": "2009-23-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2009-23-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000339-01",
+      "label": "3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "⽤浓氨⽔检查氯⽓管道的漏⽓；"
+        }
+      ]
+    },
+    {
+      "id": "part-000339-02",
+      "label": "3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在酸性介质中⽤锌粒还原 $\\mathrm { { C r _ { 2 } O } } \\mathrm { { \\cdot } }$ _{7}2−离⼦时，溶液颜⾊经绿⾊变成天蓝⾊，放置后溶液⼜变为绿 $\\sharp _ { \\circ }$"
+        }
+      ]
+    }
+  ]
+}

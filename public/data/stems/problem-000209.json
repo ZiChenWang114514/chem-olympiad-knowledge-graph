@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000209",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "钪氧化物晶胞计算",
+  "number": "2",
+  "examYear": 2023,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000025",
+    "sourceLabel": "2023-37-CChO-juesai-1.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2023-37-CChO-juesai-2/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "过氧化钙 $\\left( \\mathrm { C a O _ { 2 } } \\right)$ 微溶于⽔，溶于酸，可作为⽤医⽤防腐剂和消毒剂，也可作为改良剂为农业、园艺和⽣物技术应⽤提供氧⽓。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000209-01",
+      "label": "2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "以下是⼀种实验室制备过氧化钙⽅法的流程图（图2.1）："
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000209-02",
+      "label": "2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 选择步骤①中应当略过量的试剂：（ ） A. 稀盐酸； B. 碳酸钙。"
+        }
+      ]
+    },
+    {
+      "id": "part-000209-03",
+      "label": "2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 解释步骤①中该试剂应当略过量的原因。"
+        }
+      ]
+    },
+    {
+      "id": "part-000209-04",
+      "label": "2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-3 步骤①中煮沸操作的⽬的是什么？"
+        }
+      ]
+    },
+    {
+      "id": "part-000209-05",
+      "label": "2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-4 步骤①中过滤操作的⽬的是什么？"
+        }
+      ]
+    },
+    {
+      "id": "part-000209-06",
+      "label": "2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 写出步骤②中⽣成 $\\mathrm { C a O } _ { 2 } { \\cdot } 8 \\mathrm { H } _ { 2 } \\mathrm { O }$ 的反应⽅程式"
+        }
+      ]
+    },
+    {
+      "id": "part-000209-07",
+      "label": "2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 步骤②中的混和操作，应当选择哪种⽅式为宜？（ ）A. 将氯化钙溶液滴⼊氨⽔-双氧⽔混合液中；B. 将氨⽔-双氧⽔混合液滴⼊氯化钙溶液中。"
+        }
+      ]
+    },
+    {
+      "id": "part-000209-08",
+      "label": "2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-3 解释选择2-2-2中混和⽅式的原因。"
+        }
+      ]
+    },
+    {
+      "id": "part-000209-09",
+      "label": "2-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "可采⽤量⽓法测定过氧化钙的含量。量⽓法实验装置如图 2.2 所⽰。加热⾄ $3 5 0 ~ ^ { \\circ } \\mathrm { C }$ 以上时 $\\mathrm { C a O }$ ，迅速分解⽣成CaO和 $\\mathrm { O } _ { 2 \\mathrm { o } }$ 。采⽤量⽓法可以测定产品中 $\\mathrm { C a O _ { 2 } }$ 的纯度（假设杂质不产⽣⽓体）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000209-10",
+      "label": "2-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 使⽤量⽓管的注意事项中，下列说法正确的是：（ ）A. 使⽤前需要检漏； B. 初始读数时量⽓管与⽔准管液⾯相平；C. 读数时，视线与最低凹液⾯处平⻬； D. 读终体积时，停⽌加热后需⽴即读数；E. 读终体积时，⽓体需先冷却⾄室温； F. 读终体积时，量⽓管与⽔准管液⾯⽆需相平；"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）\n图 2.2 量⽓法装置图"
+        }
+      ]
+    }
+  ]
+}

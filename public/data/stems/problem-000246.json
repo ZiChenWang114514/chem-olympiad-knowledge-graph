@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000246",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "von Richter重排机理",
+  "number": "7",
+  "examYear": 2024,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000031",
+    "sourceLabel": "2024年全国中学生化学竞赛决赛试题（第一场）.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2024年全国中学生化学竞赛决赛试题（第一场）/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "1871年发现的vonRichter重排反应（如下图）是有机机理研究领域中非常有趣的一个反应，其反应机理被反复推倒、重建，历经百年才被逐步证实。"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "早期化学家提出了一系列简单的反应机理，但相继被否定。上世纪50年代，通过一系列实验研究，Bunnett 和Rauhut 提出了如下机理"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）\n第11页 共17页"
+    },
+    {
+      "type": "paragraph",
+      "text": "第38届中国化学奥林匹克（决赛）理论第一场试题 2024年10月26日广州"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000246-01",
+      "label": "7-11960",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "年的实验研究表明，反应的含N产物主要为N2，从而对上述机理提出了质 $\\Nu _ { 2 } ,$ 疑。尽管有人辩解称，上述机理中A水解产生的NH3可被后面解离的 $\\mathrm { N O } _ { 2 } ^ { - }$ 或活性中间体 B 氧化生成 $\\aleph _ { 2 } ,$ 但该机理还是被当年的 $^ { 1 5 } \\mathsf { N }$ 同位素示踪实验所否定。用何种15N同位素试剂可实现上述目的？"
+        }
+      ]
+    },
+    {
+      "id": "part-000246-02",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "目前确立下来 von Richter 重排的部分机理如下"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "其中D和E为稳定的中间体，可由其他途径制备后在相同条件下继续反应得到vonRichter产物，从而有力地证实了该机理。已知D为亚硝基化合物，E可被环戊二烯捕获得到相对分子量为198.1的化合物F。写出D、E和F的结构式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000246-03",
+      "label": "7-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "硝基芳香族化合物BTZ043是潜在的结核病治疗药物。研究表明，BTZ043在亲核试剂作用下产生含亚硝基的中间体可能是其生物活性的关键。"
+        },
+        {
+          "type": "paragraph",
+          "text": "为模拟 BTZ043与酶中半胱氨酸残基的作用，在 $\\tt p H 1 1 \\sim 1 2$ 的乙腈-水溶剂中用Boc-cysteamine（N-Boc 氨基乙硫醇）对 BTZ043 进行处理，并加入1.3-环己二烯捕获反应产生的中间产物，液相色谱-质谱（LC-MS）可检测到两组[M+H]的分子离子峰，m/z值分别为：496.2与353.2。画出G和H的结构式。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000246-04",
+      "label": "7-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "为进一步探讨亲核试剂对 BTZ043的作用，在乙腈-水混合溶剂中用 KCN 处理BTZ043，分离得到两种主要产物J和K，并在过程中产生另一种相对分子量为456.1的物质L。研究表明，生成J和K要经历共同的关键中间体M $( \\mathbf { C } _ { 1 8 } \\mathbf { H } _ { 1 7 } \\mathbf { F } _ { 3 } \\mathbf { N } _ { 4 } 0 _ { 5 } \\mathbf { S } )$ 。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）\n第12页 共17页"
+        },
+        {
+          "type": "paragraph",
+          "text": "第38届中国化学奥林匹克（决赛）理论第一场试题2024年10月26日广州"
+        }
+      ]
+    },
+    {
+      "id": "part-000246-05",
+      "label": "7-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1画出L、M的结构式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000246-06",
+      "label": "7-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2画出产生L过程中的关键中间体。"
+        }
+      ]
+    },
+    {
+      "id": "part-000246-07",
+      "label": "7-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-3 画出由M转化为J过程中的关键中间体。"
+        }
+      ]
+    },
+    {
+      "id": "part-000246-08",
+      "label": "7-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-4 画出由M 转化为 K 过程中的关键中间体。"
+        }
+      ]
+    }
+  ]
+}

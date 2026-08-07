@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000024",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "金属氧化物分离与分析",
+  "number": "3",
+  "examYear": 2016,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000011",
+    "sourceLabel": "2016-30-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2016-30-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "某⾦属M的氧化物A是易挥发的液体，有毒，微溶于⽔。在氯化氢⽓氛中蒸发A的盐酸溶液（含1.000 g的 A）得到 1.584 g 晶体 $\\mathbf { M C l } _ { 3 } { \\cdot } 3 \\mathrm { H } _ { 2 } \\mathrm { O } .$ o"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000024-01",
+      "label": "3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "假定转化反应按化学计量⽐进⾏，通过计算确定A的化学式，并写出⾦属M的价电⼦构型。"
+        },
+        {
+          "type": "paragraph",
+          "text": "从精炼镍的阳极泥提取M的步骤为："
+        }
+      ]
+    },
+    {
+      "id": "part-000024-02",
+      "label": "(1)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "⽤王⽔处理溶解 Pt、Pd 和 Au；"
+        }
+      ]
+    },
+    {
+      "id": "part-000024-03",
+      "label": "(2)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "固体不溶物与碳酸铅共热，然后⽤稀硝酸处理除去可溶物B；"
+        }
+      ]
+    },
+    {
+      "id": "part-000024-04",
+      "label": "(3)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "剩余固体不溶物与硫酸氢钠共熔，⽤⽔浸取除去可溶物 $\\mathrm { c } ;$"
+        }
+      ]
+    },
+    {
+      "id": "part-000024-05",
+      "label": "(4)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "留下的固体不溶物与过氧化钠共熔，⽤⽔浸取，过滤。滤液中含有M的盐D，D为 $\\mathrm { N a _ { 2 } S O _ { 4 } }$ 型电解质，⽆⽔D 中氧含量为30.32%；"
+        }
+      ]
+    },
+    {
+      "id": "part-000024-06",
+      "label": "(5)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "往D溶液中通⼊Cl_{2}，加热，收集 $4 0 – 5 0 ^ { \\circ } \\mathrm { C }$ 的馏分，得到A。A收集在盐酸中，加热得到E的溶液，E中Cl 含量为 67.14%；"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\n\\mathrm{NH} _ {4} \\mathrm{Cl}\n$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\n\\mathbf {F},\n$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\n\\mathbf {M} _ {\\circ}\n$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "已 $\\mathrm { I | \\varphi _ { A } ^ { \\ominus } ( N O _ { 3 } ^ { - } / N O ) = 0 . 9 5 7 \\vee , ~ \\varphi ^ { \\ominus } ( [ P t C l _ { 4 } ] ^ { 2 - } / P t ) = 0 . 7 5 5 \\vee , ~ \\varphi ^ { \\ominus } ( [ P t C l _ { 6 } ] ^ { 2 - } / [ P t C l _ { 4 } ] ^ { 2 - } ) = 0 . 6 8 0 ~ V , }$ ，所有离⼦活度系数为 1.00。"
+        }
+      ]
+    },
+    {
+      "id": "part-000024-07",
+      "label": "3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出步骤(1)中除去Pt的化学反应⽅程式，计算该反应在298 K下的 $K ^ { \\ominus } { } _ { c }$"
+        }
+      ]
+    },
+    {
+      "id": "part-000024-08",
+      "label": "3-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出步骤(2)中除去银的化学反应⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000024-09",
+      "label": "3-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "D、E、F中均只有1个⾦属原⼦，试通过计算确定D、E、F的化学式。"
+        }
+      ]
+    }
+  ]
+}

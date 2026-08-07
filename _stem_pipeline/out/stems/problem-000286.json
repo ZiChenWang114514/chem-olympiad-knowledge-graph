@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000286",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "肼类锅炉除氧剂",
+  "number": "7",
+  "examYear": 2006,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000037",
+    "sourceLabel": "2006-20-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2006-20-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000286-01",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A是⽤碳酸⼆甲酯和⼀⽔合肼在70 °C下合成的，收率80%。画出A的结构式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000286-02",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出合成A的反应⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000286-03",
+      "label": "7-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "低于135 °C时，A直接与溶解氧反应，⽣成三种产物。写出化学⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000286-04",
+      "label": "7-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "⾼于 135 °C 时，A 先发⽣⽔解，⽔解产物再与氧反应。写出化学⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000286-05",
+      "label": "7-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "化合物A能使锅炉壁钝化是基于它能将氧化铁转化为致密的四氧化三铁。写出化学⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000286-06",
+      "label": "7-6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "化合物A与许多⾦属离⼦形成⼋⾯体配合物，例如[Mn(A)_{3}]2+。结构分析证实该配合物中的A和游离态的A相⽐，分⼦中原本等⻓的两个键不再等⻓。画出这种配合物的结构简图（氢原⼦不需画出），讨论异构现象。"
+        }
+      ]
+    }
+  ]
+}

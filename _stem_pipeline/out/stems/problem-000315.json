@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000315",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "荧光探针检测一氧化氮",
+  "number": "5",
+  "examYear": 2007,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000002",
+    "sourceLabel": "2007-21-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2007-21-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "最近，化学家合成了⼀组荧光分⼦ $\\mathrm { ( F L _ { 1 } \\sim F L _ { 5 } ) }$ ，可⽤于⽣物体内NO的实时检测。先将荧光分⼦与 $\\mathrm { C u C l _ { 2 } }$ 制成配合物，当体系中有NO出现时， $\\mathrm { N O }$ 与配合物相互作⽤，从中置换出铜(I)，通过对⽐反应前后体系荧光光谱的变化，即可检测 $\\mathrm { N O } _ { \\circ }$ 原理⽰意如下（FL代表荧光配体）："
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\n\\mathrm{FL} + \\mathrm{Cu(II)} \\rightleftharpoons [ \\mathrm{Cu(II)FL} ] \\xrightarrow {\\mathrm{NO}} \\mathrm{Cu(I)} + \\mathrm{FL-NO}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "合成的荧光配体 $\\mathrm { F L _ { 1 } }$ ⻅右图："
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000315-01",
+      "label": "5-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "已知 $\\mathrm { F L _ { 1 } }$ 与CuCl_{2}⽣成的配合物分⼦式为 $\\mathrm { C _ { 3 0 } H _ { 1 8 } N _ { 2 } O _ { 5 } C l _ { 2 } C u }$ ，其中铜为4配位，试写出该配合物的结构式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000315-02",
+      "label": "5-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "NO与5-1中的配合物作⽤，⽣成分⼦式为 $\\mathrm { C _ { 3 0 } H _ { 1 8 } N _ { 3 } O _ { 6 } C l }$ 的化合物和$\\mathrm { C u C l }$ ，试写出该化合物最可能的结构式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000315-03",
+      "label": "5-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "荧光分⼦ $\\mathrm { F L } _ { 5 } \\left( \\mathrm { C } _ { 3 2 } \\mathrm { H } _ { 2 1 } \\mathrm { N } _ { 2 } \\mathrm { O } _ { 7 } \\mathrm { C l } \\right)$ 的合成路线如下，请写出A、B、C、"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "D、E以及 $\\mathrm { F L } _ { 5 }$ 的结构式。"
+        },
+        {
+          "type": "paragraph",
+          "text": "()"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "()"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    }
+  ]
+}

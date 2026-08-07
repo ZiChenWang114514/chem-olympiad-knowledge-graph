@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000454",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "铝石墨可逆电池",
+  "number": "6",
+  "examYear": 2015,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000049",
+    "sourceLabel": "2015-29-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2015-29-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "墨；电解质为烃基取代咪唑阳离⼦(R+)和 $\\mathrm { { A l C l } _ { 4 } } ^ { - }$ −阴离⼦组成的离⼦液体。电池放电时，在负极附近形成双核配合物。充放电过程中离⼦液体中的阳离⼦始终不变。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000454-01",
+      "label": "6-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出电池放电时，正极、负极以及电池反应⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000454-02",
+      "label": "6-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "该电池所⽤⽯墨按如下⽅法制得：甲烷在⼤量氢⽓存在下热解，所得碳沉积在泡沫状镍模板表⾯。写出甲烷热解反应的⽅程式。采⽤泡沫状镍的作⽤何在？简述理由。"
+        }
+      ]
+    },
+    {
+      "id": "part-000454-03",
+      "label": "6-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出除去制得⽯墨后的镍的反应⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000454-04",
+      "label": "6-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "该电池的电解质是将⽆⽔三氯化铝溶⼊烃代咪唑氯化物离⼦液体中制得，写出⽅程式。"
+        }
+      ]
+    }
+  ]
+}

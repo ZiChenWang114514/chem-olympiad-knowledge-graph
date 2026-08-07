@@ -1,0 +1,62 @@
+﻿[
+    {
+        "Shard":  "00",
+        "Pid":  53420,
+        "Log":  "D:\\ccho-site-public\\_stem_pipeline\\logs\\worker-00.log",
+        "Bat":  "D:\\ccho-site-public\\_stem_pipeline\\logs\\run-worker-00.cmd"
+    },
+    {
+        "Shard":  "01",
+        "Pid":  56792,
+        "Log":  "D:\\ccho-site-public\\_stem_pipeline\\logs\\worker-01.log",
+        "Bat":  "D:\\ccho-site-public\\_stem_pipeline\\logs\\run-worker-01.cmd"
+    },
+    {
+        "Shard":  "02",
+        "Pid":  51580,
+        "Log":  "D:\\ccho-site-public\\_stem_pipeline\\logs\\worker-02.log",
+        "Bat":  "D:\\ccho-site-public\\_stem_pipeline\\logs\\run-worker-02.cmd"
+    },
+    {
+        "Shard":  "03",
+        "Pid":  54456,
+        "Log":  "D:\\ccho-site-public\\_stem_pipeline\\logs\\worker-03.log",
+        "Bat":  "D:\\ccho-site-public\\_stem_pipeline\\logs\\run-worker-03.cmd"
+    },
+    {
+        "Shard":  "04",
+        "Pid":  50880,
+        "Log":  "D:\\ccho-site-public\\_stem_pipeline\\logs\\worker-04.log",
+        "Bat":  "D:\\ccho-site-public\\_stem_pipeline\\logs\\run-worker-04.cmd"
+    },
+    {
+        "Shard":  "05",
+        "Pid":  50272,
+        "Log":  "D:\\ccho-site-public\\_stem_pipeline\\logs\\worker-05.log",
+        "Bat":  "D:\\ccho-site-public\\_stem_pipeline\\logs\\run-worker-05.cmd"
+    },
+    {
+        "Shard":  "06",
+        "Pid":  56104,
+        "Log":  "D:\\ccho-site-public\\_stem_pipeline\\logs\\worker-06.log",
+        "Bat":  "D:\\ccho-site-public\\_stem_pipeline\\logs\\run-worker-06.cmd"
+    },
+    {
+        "Shard":  "07",
+        "Pid":  11532,
+        "Log":  "D:\\ccho-site-public\\_stem_pipeline\\logs\\worker-07.log",
+        "Bat":  "D:\\ccho-site-public\\_stem_pipeline\\logs\\run-worker-07.cmd"
+    },
+    {
+        "Shard":  "08",
+        "Pid":  44260,
+        "Log":  "D:\\ccho-site-public\\_stem_pipeline\\logs\\worker-08.log",
+        "Bat":  "D:\\ccho-site-public\\_stem_pipeline\\logs\\run-worker-08.cmd"
+    },
+    {
+        "Shard":  "09",
+        "Pid":  56760,
+        "Log":  "D:\\ccho-site-public\\_stem_pipeline\\logs\\worker-09.log",
+        "Bat":  "D:\\ccho-site-public\\_stem_pipeline\\logs\\run-worker-09.cmd"
+    }
+]

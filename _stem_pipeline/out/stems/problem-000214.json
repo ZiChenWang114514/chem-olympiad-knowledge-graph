@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000214",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "铯碳酸盐分解热力学",
+  "number": "7",
+  "examYear": 2023,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000025",
+    "sourceLabel": "2023-37-CChO-juesai-1.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2023-37-CChO-juesai-2/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000214-01",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "分别画出三氟甲氧基苯和2-甲氧基吡啶的优势构象。"
+        }
+      ]
+    },
+    {
+      "id": "part-000214-02",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "试⽐较以下两组⾃由基断裂化反应的相对速率（断裂的键已⽤箭头标出），并简要解释你的判断。"
+        }
+      ]
+    },
+    {
+      "id": "part-000214-03",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1"
+        },
+        {
+          "type": "paragraph",
+          "text": "A"
+        },
+        {
+          "type": "paragraph",
+          "text": "B"
+        }
+      ]
+    },
+    {
+      "id": "part-000214-04",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "B"
+        }
+      ]
+    },
+    {
+      "id": "part-000214-05",
+      "label": "7-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "给以下三个化合物的电离势从⾼到低进⾏排序。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": ""
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）\n"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "part-000214-06",
+      "label": "7-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在1H-NMR表征中，H核受屏蔽作⽤影响展现不同的化学位移。屏蔽作⽤随电⼦密度增⼤⽽增⼤，对应H的化学位移 (ppm) 数值则减⼩。"
+        }
+      ]
+    },
+    {
+      "id": "part-000214-07",
+      "label": "7-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 将以下两种化合物中⼼C原⼦所连接H的化学位移从⼤到⼩进⾏排列。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": ""
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "part-000214-08",
+      "label": "7-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 画出以下两个化合物的⽴体结构，并对箭头所指H的化学位移从⼤到⼩进⾏排列。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": ""
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "part-000214-09",
+      "label": "7-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在有机合成中，常需要使⽤⽆⽔溶剂，如四氢呋喃常⽤与⾦属钠混合回流，确定⽆⽔后重蒸即可。以下可⽤于此四氢呋喃/钠体系达致⽆⽔的指⽰剂的有：( )a) ⼆苯酮； b) 苯酚； c) 苯甲醛； d) 苯⼄酮"
+        }
+      ]
+    },
+    {
+      "id": "part-000214-10",
+      "label": "7-6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在有机化合物的提纯⽅法中，蒸馏是常⻅的⽅法。以下可利⽤⽔蒸⽓蒸馏法提纯的化合物有：( )a) ⼄酸⼄酯； b) 硝基苯； c) 苯甲酸⼄酯； d) 苯胺第8题（22分, 13%）杂原⼦参与的ene反应"
+        },
+        {
+          "type": "paragraph",
+          "text": "烯丙基⼆氮烯重排反应 (Allylic Diazene Rearrangement, ADR) 可认为是 ene 反应的逆反应，在脱去氮⽓的同时，发⽣双键的位移。其反应式如下所⽰："
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000214-11",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "若底物结构中有⼿性碳原⼦时，反应具有⽴体选择性。画出中间体A的⽴体结构式，判断主要产物B中⼿性碳原⼦C1和C2的绝对构型及双键的构型。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000214-12",
+      "label": "8-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Retro-ene 反应和 Diels-Alder 反应相结合，可以构筑环状 1,4-⼿性碳原⼦。画出反应主要产物 A、B 以及C的结构，判断D中两个甲基的相互关系，以及硫元素最后的存在形式。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）\n8-3 依据以上信息，完成以下反应："
+        }
+      ]
+    },
+    {
+      "id": "part-000214-13",
+      "label": "8-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    }
+  ]
+}

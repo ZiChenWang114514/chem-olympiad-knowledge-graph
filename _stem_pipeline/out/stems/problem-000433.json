@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000433",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "肌红蛋白氧结合平衡",
+  "number": "6",
+  "examYear": 2014,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000048",
+    "sourceLabel": "2014-28-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2014-28-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "$$\n\\mathrm{Mb} (\\mathrm{aq}) + \\mathrm{O} _ {2} (\\mathrm{g}) \\xleftrightarrow [ k _ {\\mathrm{D}} ] {k _ {\\mathrm{A}}} \\mathrm{MbO} _ {2} (\\mathrm{aq})\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "其中， $k _ { \\mathrm { { A } } }$ 和 $k _ { \\mathrm { D } }$ 分别是正向和逆向反应的速率常数。37 °C反应达平衡时测得的⼀组实验数据如右图所⽰。"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000433-01",
+      "label": "6-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算 $3 7 ^ { \\mathrm { { \\circ C } } }$ 下反应(a)的平衡常数�。"
+        }
+      ]
+    },
+    {
+      "id": "part-000433-02",
+      "label": "6-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "导出平衡时结合度(�)随氧分压变化的表达式。若空⽓中氧分压为20.0 kPa，计算⼈正常呼吸时Mb与氧⽓的最⼤结合度。"
+        }
+      ]
+    },
+    {
+      "id": "part-000433-03",
+      "label": "6-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "研究发现，正向反应速率 $v _ { \\mathrm { f } } = k _ { A } ( \\mathrm { M b } ) P ( \\mathrm { O _ { 2 } } )$ ；逆向反应速率 $v _ { \\mathrm { r } } = k _ { D } ( \\mathrm { M b O _ { 2 } } ) .$ 。已知 $| k _ { D } = 6 0 \\mathrm { s } ^ { - 1 }$ ，计算速率常数 $k _ { A \\circ }$ 。当保持氧分压为20.0kPa，计算结合度达50%所需时间。（提⽰：对于 $v _ { \\mathrm { r } } = k _ { D } ( \\mathrm { M b O _ { 2 } } )$ $\\mathrm { M b O _ { 2 } }$ 分解50%所需时间为 $t = 0 . 6 9 3 / k _ { D } )$"
+        }
+      ]
+    },
+    {
+      "id": "part-000433-04",
+      "label": "6-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mb 含有⼀个 Fe(II)，呈顺磁性，与 $\\mathrm { O _ { 2 } }$ 结合后形成的 $\\mathrm { M b O _ { 2 } }$ 为抗磁性的。 $\\mathrm { M b O _ { 2 } }$ 中的铁周围的配位场可近似为⼋⾯体场。"
+        }
+      ]
+    },
+    {
+      "id": "part-000433-05",
+      "label": "6-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 这⼀过程中Fe(II)的价态是否发⽣改变？简述原因。"
+        }
+      ]
+    },
+    {
+      "id": "part-000433-06",
+      "label": "6-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 写出 $\\mathrm { M b O _ { 2 } }$ 中铁离⼦在⼋⾯体场中的价电⼦排布。"
+        }
+      ]
+    },
+    {
+      "id": "part-000433-07",
+      "label": "6-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-3 结合O_{2}前后铁离⼦的半径不变、变⼤还是变⼩？简述原因。"
+        }
+      ]
+    },
+    {
+      "id": "part-000433-08",
+      "label": "6-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-4 $\\mathrm { O _ { 2 } }$ 分⼦呈顺磁性，它与Mb结合后，价电⼦排布是否发⽣变化？简述原因。"
+        }
+      ]
+    }
+  ]
+}

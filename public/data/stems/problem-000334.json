@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000334",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "卤化氢加成动力学",
+  "number": "6",
+  "examYear": 2008,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000003",
+    "sourceLabel": "2008-22-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2008-22-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000334-01",
+      "label": "6-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "对于A为�级，B为�级的反应，在较短时间间隔内 $\\Delta t$ ，有："
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\nc (\\mathrm{AB}) / c (\\mathrm{A}) = k c ^ {m - 1} (\\mathrm{A}) c ^ {n} (\\mathrm{B}) \\Delta t\n$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "实验发现，上述加成反应的�(AB)/�(B)与�(B)⽆关，在保持�(B)不变的条件下，分别取 $\\langle p _ { \\mathrm { A } }$ 为 ${ \\mathsf { I } } { \\mathsf { p } } ^ { \\ominus }$ 、 $6 p ^ { \\ominus }$ $3 p ^ { \\ominus }$ $( p ^ { \\ominus } = 1 0 0 \\mathrm { { k P a } ) \\mathrm { { f } } }$ 时，测得 $c ( \\mathrm { A B } ) / c ( \\mathrm { A } )$ 值之⽐为 $9 { : } 4 { : } 1 _ { \\circ }$ 求该反应各反应物的级数和反应总级数（按理想⽓体处理）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000334-02",
+      "label": "6-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "以d $c ( \\mathrm { A B } ) / \\mathrm { d }$ �表⽰该反应速率，写出速率⽅程。"
+        }
+      ]
+    },
+    {
+      "id": "part-000334-03",
+      "label": "6-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "设 $\\mathrm { \\bar { \\it { c } } } ( \\mathrm { A } )$ 为� mol L−1且保持不变， $c _ { 0 } ( \\mathrm { B } ) = 1 \\mathrm { m o l } \\mathrm { L } ^ { - 1 }$ $c _ { 0 } ( \\mathrm { A B } ) = 0$ ，写出 $_ { \\mathrm { { \\tiny ~ \\mathscr { C } } } } ( { \\mathrm { { B } } } ) = 0 . 2 5 { \\mathrm { m o l } } { \\mathrm { { L } } } ^ { - }$ 1时反应所需时间的表达式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000334-04",
+      "label": "6-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "有⼈提出该反应的反应历程为："
+        },
+        {
+          "type": "paragraph",
+          "text": "$$\n\\begin{array}{c} 2 \\mathrm{HCl} \\xleftarrow [ k _ {- 1} ]{k _ {1}} (\\mathrm{HCl}) _ {2} \\\\ \\mathrm{HCl} + \\mathrm{C} _ {3} \\mathrm{H} _ {6} \\xleftarrow [ k _ {- 2} ]{k _ {2}} \\mathrm{C} ^ {*} \\\\ \\mathrm{C} ^ {*} + (\\mathrm{HCl}) _ {2} \\xrightarrow {k _ {3}} \\mathrm{CH} _ {3} \\mathrm{CHClCH} _ {3} + 2 \\mathrm{HCl} \\end{array}\n$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "请根据有关假设推导出该反应的速率⽅程，写出表观速率系数的表达式，将速率⽅程与6-2的结论进⾏⽐较，说明什么问题？"
+        }
+      ]
+    },
+    {
+      "id": "part-000334-05",
+      "label": "6-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "实验测得该反应在 $7 0 ~ ^ { \\circ } \\mathrm { C }$ 时的表观速率系数为 $1 9 ~ ^ { \\circ } \\mathrm { C }$ 时的 $1 / 3$ ，试求算该反应的表观活化能 $E _ { \\mathrm { a ^ { c } } }$ 。"
+        }
+      ]
+    }
+  ]
+}

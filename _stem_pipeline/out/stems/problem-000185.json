@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000185",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "卤化氢前体有机反应",
+  "number": "7",
+  "examYear": 2022,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000021",
+    "sourceLabel": "2022-36-CChO-juesai-1.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2022-36-CChO-juesai-2/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "⼀氧化氮是众所周知的明星分⼦，不仅在⽣命体中扮演重要⻆⾊，在⼩分⼦的活化中也起着⾮常重要的作⽤。相关过程多涉及NO与⾦属的配位作⽤。作为配体，随结合的中⼼原⼦得失电⼦的能⼒不同，NO可采⽤阳离⼦(NO+)、中性分⼦(NO)和阴离⼦(NO−)的配位模式。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000185-01",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在⾦属和NO形成的配合物(M-NO)中，有时候很难区分电⼦在中⼼⾦属M和NO配体上的分配状况，基于此，通常采⽤Feltham-Enemark记号来综合表⽰。该表⽰⽅法为： $\\{ \\mathrm { M } ( \\mathrm { N O } ) _ { x } \\} ^ { y }$ ，其中�为NO配体的数⽬，�为中⼼⾦属M的d电⼦数和所有NO配体的反键轨道π\\*中的电⼦数之和，其他配体均不出现在记号中，也⽆需标出配合物的电荷。下⾯给出了两个M-NO配合物（a和b）及其对应的Feltham-Enemark(F-E)记号。"
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
+        },
+        {
+          "type": "paragraph",
+          "text": "7-1-1 写出NO的分⼦轨道表达式（只考虑价层电⼦）。写出NO+、NO和NO−的键级。\n7-1-2 写出(c)和(d)中配合物的 Feltham-Enemark 记号形式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000185-02",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "M-NO类型的配合物可以发⽣氧化还原反应。2019年，研究者⽤⼀种三脚氮杂卡宾配体（⽤TIMENMes表⽰）和 $\\mathrm { F e ^ { 2 + } }$ 形成配合物A（⻅下图），A在⼄腈 $\\mathrm { ( C H _ { 3 } C N ) }$ 溶液中与 $\\mathrm { N O B F _ { 4 } }$ 反应，得到⼀种含有NO的六配位的配合物离⼦B，B中配体也包括⼄腈分⼦。在B的⼄腈溶液中，加⼊⾜量Zn粉，搅拌过夜，得到配合物C，C中不含溶剂分⼦。磁性测量表明，B显抗磁性，C的磁矩为3.84 $\\mu _ { \\mathrm { B o } }$"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000185-03",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 写出B的化学式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000185-04",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 画出B中⾦属离⼦在配位场（假设为正多⾯体）作⽤下的d轨道电⼦排布。"
+        }
+      ]
+    },
+    {
+      "id": "part-000185-05",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-3 写出 C 中阳离⼦的化学式及相应的 Feltham-Enemark 记号。"
+        }
+      ]
+    },
+    {
+      "id": "part-000185-06",
+      "label": "7-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "最近，研究者报道了⼀个⾮⾎红素铁氧配合物P，P与NO反应得到配合物Q，Q在⽆⽔⽆氧条件下稳定，其中， $\\mathrm { F e { - } N { - } O }$ 的键⻆为144.5°，且N—O键的键能⽐预期的⼩。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000185-07",
+      "label": "7-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 实验中所⽤⼲燥NO⽓体是在固体 $\\mathrm { N a N O _ { 2 } }$ 和 $\\mathrm { F e S O _ { 4 } }$ 混合物中加⼊浓硫酸制备的。写出反应⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000185-08",
+      "label": "7-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 分别写出配合物P和Q中铁的氧化数，指出Q中与铁离⼦配位的NO采⽤的是哪种形式配位。"
+        }
+      ]
+    },
+    {
+      "id": "part-000185-09",
+      "label": "7-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-3Q在⼲燥的THF溶液中可存在⼀定时间。但若THF中含⽔，Q与之接触则⽴即释放出 $\\mathrm { N O } _ { \\circ }$ 写出反应⽅程式——-式中反应物不必写Q，只需给出Q中与 $\\mathrm { N } _ { 2 } \\mathrm { O }$ 放出对应的物种。"
+        }
+      ]
+    },
+    {
+      "id": "part-000185-10",
+      "label": "7-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-4 配合物 P 与 $\\mathrm { O _ { 2 } }$ 于 $- 8 0 ~ ^ { \\circ } \\mathrm { C }$ 反应得双核配合物R，将R的溶液加热⾄ $2 3 ~ ^ { \\circ } \\mathrm { C }$ 得O原⼦桥联的双核铁配合物S。若在 $^ { - 1 9 6 } \\ ^ { \\circ } \\mathrm { C }$ 下将R的冷冻溶液光照，得到⼀单核铁配合物T，T能夺取三叔丁基苯酚上的羟基氢。写出配合物R、S和T的结构简式并给出标明中⼼离⼦的氧化态。（含N和含O螯合配体分别⽤ $\\mathrm { L _ { 1 } }$ 和 $\\mathrm { L } _ { 2 }$ 表⽰）"
+        },
+        {
+          "type": "paragraph",
+          "text": "有机题⽬中可能⽤到的缩写：AIBN：偶氮⼆异丁腈；Ar：芳基；;Bu：正丁基；<Bu：叔丁基；cod：环⾟⼆"
+        },
+        {
+          "type": "paragraph",
+          "text": "烯；DCM：⼆氯甲烷；dr：⾮对映异构体⽐例；Et：⼄基；Ph：苯基；Ms：甲磺酰基；Me：甲基。"
+        }
+      ]
+    }
+  ]
+}

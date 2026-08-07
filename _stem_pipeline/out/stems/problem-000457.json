@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000457",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "Coniine霍夫曼消除",
+  "number": "9",
+  "examYear": 2015,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000049",
+    "sourceLabel": "2015-29-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2015-29-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000457-01",
+      "label": "9-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出 4�-(N,N-⼆甲基)-⾟-7-烯-4-胺及其对映体的结构简式；"
+        }
+      ]
+    },
+    {
+      "id": "part-000457-02",
+      "label": "9-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "从Hofmann消除反应的结果可以确定Coniine具有哪些结构特征？并以此结果画出你所推断的coniine所有可能的结构简式。"
+        }
+      ]
+    }
+  ]
+}

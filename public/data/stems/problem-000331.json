@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000331",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "阿司匹林两步滴定",
+  "number": "3",
+  "examYear": 2008,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000003",
+    "sourceLabel": "2008-22-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2008-22-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "虽然⼄酰⽔杨酸（相对分⼦质量180.2）含有羧基可⽤NaOH溶液直接滴定，但⽚剂中往往加⼈少量酒⽯酸或柠檬酸稳定剂，制剂⼯艺过程中也可能产⽣⽔解产物（⽔杨酸、醋酸），因此宜采⽤两步滴定法。即先⽤NaOH溶液滴定样品中共存的酸（此时⼄酰⽔杨酸也⽣成钠盐），然后加⼊过量NaOH溶液使⼄酰⽔杨酸钠在碱性条件下定量⽔解，再⽤ $\\mathrm { H _ { 2 } S O _ { 4 } }$ 溶液返滴定过量碱。"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）\n⼄酰⽔杨酸"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000331-01",
+      "label": "3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出定量⽔解和滴定过程的反应⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000331-02",
+      "label": "3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "定量⽔解后，若⽔解产物和过量碱浓度均约为 $0 . 1 0 \\mathrm { m o l } \\mathrm { L } ^ { - 1 }$ $\\mathrm { H _ { 2 } S O _ { 4 } }$ 溶液浓度为 $0 . 1 0 0 0 \\mathrm { m o l } \\mathrm { L } ^ { - 1 }$ ，则第⼆步滴定的化学计量点pH是多少？应选⽤什么指⽰剂？滴定终点颜⾊是什么？若以甲基红作指⽰剂，滴定终点pH为4.4，则⾄少会有多⼤滴定误差？（已知⽔杨酸的离解常数为 $\\mathrm { p } K _ { a 1 } = 3 . 0 , \\mathrm { p } K _ { a 2 } = 1 3 . 1$ ；醋酸的离解常数为 ${ \\sf N } _ { a } = 1 . 8 { \\sf \\times } 1 0 ^ { - 5 } )$ ）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000331-03",
+      "label": "3-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "取10⽚复⽅阿司匹林⽚，质量为� (g)。研细后准确称取粉末 $\\mathbf { \\dot { \\tau } } m _ { 1 } \\mathbf { \\tau } ( \\mathbf { g } )$ ，加20mL⽔（加少量⼄醇助剂），振荡溶解，⽤浓度为� (mol L−1)的NaOH溶液滴定，消耗 $: V _ { 1 } ~ ( \\mathrm { m L } )$ ，然后加⼈浓度为 $\\lvert c _ { 1 }$ 的 NaOH 溶液 $V _ { 2 }$ $( \\mathrm { m L } )$ ；再⽤浓度 $c _ { 2 } ( \\mathrm { m o l } \\mathrm { L } ^ { - 1 } )$ 的 $\\mathrm { H _ { 2 } S O _ { 4 } }$ 溶液滴定，消耗 $V _ { 3 } ~ \\mathrm { \\Omega } ( \\mathrm { m L } )$ ，试计算⽚剂中⼄酰⽔杨酸的含量（mg/⽚）。"
+        }
+      ]
+    }
+  ]
+}

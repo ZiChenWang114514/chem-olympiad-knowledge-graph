@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000319",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "二氧化氯氧化还原",
+  "number": "2",
+  "examYear": 2008,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000039",
+    "sourceLabel": "2008-22-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2008-22-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000319-01",
+      "label": "2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出X的分⼦式和共轭π键 $( \\pi _ { n } ^ { m } )$ )。"
+        }
+      ]
+    },
+    {
+      "id": "part-000319-02",
+      "label": "2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "分别写出上述⽤草酸还原和⽤氯⽓氧化⽣产X的反应⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000319-03",
+      "label": "2-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出上述X歧化反应的化学⽅程式。"
+        }
+      ]
+    }
+  ]
+}

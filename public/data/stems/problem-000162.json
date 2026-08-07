@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000162",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "二价铬氧化反应机理",
+  "number": "4",
+  "examYear": 2022,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000058",
+    "sourceLabel": "2022-36-CChO-chusai-1.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2022-36-CChO-chusai-2/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "⾦属M与单质碘在⽆⽔醋酸中反应，得到化合物 $\\mathbf { M } \\mathrm { I } _ { n }$ ，提纯⼲燥后测得其熔点为 $1 4 4 . 5 ^ { \\circ } \\mathrm { C } _ { \\circ }$ 为确定 $\\mathbf { M } \\mathrm { I } _ { n }$ 的组成，进⾏以下实验：称取0.6263g $\\mathrm { M I } _ { n } .$ ，置于特制的梨形瓶中，加⼊50 mL 6 M的盐酸，同时加⼊适量 $\\mathrm { C C l } _ { 4 }$ ，⽤0.1000 M的碘酸钾溶液进⾏滴定。随着碘酸钾溶液的加⼊，可观察到 $\\mathrm { C C l } _ { \\downarrow }$ 层呈紫⾊，后逐渐变浅，滴⾄紫⾊褪去为终点，此时 $\\mathrm { C C l _ { 4 } }$ 层呈淡⻩⾊，滴定消耗碘酸钾溶液20.00$\\mathrm { m L } _ { \\mathrm { c } }$ 。在 $\\mathrm { C C l _ { 4 } }$ 中显⻩⾊的物种历史上曾被误认为 $\\mathrm { B r } _ { 2 \\mathsf { c } }$"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000162-01",
+      "label": "4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "依据滴定过程中所观察到的现象，分别写出紫⾊出现（反应1）和紫⾊消失（反应2）所发⽣反应的离⼦⽅程式。写出滴定反应的总离⼦⽅程式（反应3）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000162-02",
+      "label": "4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "通过计算，确定⾦属元素M及其碘化物 $\\mathbf { M } \\mathrm { I } _ { n }$ 的化学式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000162-03",
+      "label": "4-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "将 $\\mathbf { M } \\mathrm { I } _ { n }$ 与(CH_{3})_{3}SI按计量⽐1:2反应，得到⼀种稳定、⽆毒、⾼效的化合物T，T可⽤作染料太阳能电池中的空⽳传输材料。写出T的化学式。"
+        }
+      ]
+    }
+  ]
+}

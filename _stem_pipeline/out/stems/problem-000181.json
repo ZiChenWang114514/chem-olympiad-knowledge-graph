@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000181",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "金属晶体与氧化物结构",
+  "number": "3",
+  "examYear": 2022,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000021",
+    "sourceLabel": "2022-36-CChO-juesai-1.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2022-36-CChO-juesai-2/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "随着仪器和表征⽅法的发展，各种体系特别是复杂体系热⼒学参数的测定⽅法越来越多样化。例如可以利⽤核磁共振(NMR)波谱确定复杂体系的酸解离常数，下⾯给出⼀个例⼦："
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "此为(ATP)H3−与(ATP)4−之间的质⼦解离-结合平衡过程。为书写⽅便，(ATP)H3−简写为 $\\mathrm { H A ^ { 3 - } }$ $\\left( \\mathrm { A T P } \\right) ^ { 4 - }$ 简写为 $\\mathrm { A } ^ { 4 - }$ ，酸解离常数为 $K _ { a } ,$ 。简化表达如下："
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\n\\mathrm{HA} ^ {3 -} \\rightarrow \\mathrm{H} ^ {+} + \\mathrm{A} ^ {4 -}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "随着pH变化，磷的化学环境发⽣变化，NMR中的化学位移随之变化。下图给出γ位31P的化学位移测定值随pH的变化关系。由于溶液中质⼦交换速度很快，实际测得的化学位移 $( \\delta _ { \\mathrm { o b s } } )$ 是质⼦化形式化学位移 $( \\delta _ { \\mathrm { H A } ^ { 3 - } } )$ 和脱质⼦形式化学位移 $\\left( { \\delta _ { { \\tt A } ^ { 4 - } } } \\right)$ 的加权平均值："
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\n\\delta_ {\\mathrm{obs}} = \\delta_ {\\mathrm {HA^ {3 - }}} \\chi_ {\\mathrm {HA^ {3 -}}} + \\delta_ {\\mathrm {A^ {4 - }}} \\chi_ {\\mathrm {A^ {4 - }}}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "式中， $\\chi _ { \\mathrm { H A } ^ { 3 - } } \\Re \\mathrm { H } \\chi _ { \\mathrm { A } ^ { 4 - } }$ 分别表⽰H $\\mathrm { A ^ { 3 - } }$ −和 $\\mathrm { A } ^ { 4 ^ { - } }$ 的⽐例。"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）\npH"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000181-01",
+      "label": "3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出质⼦化形式化学位移 $( \\delta _ { \\mathrm { H A } ^ { 3 - } }$ _{\"})和脱质⼦形式化学位移 $\\left( { \\delta _ { \\mathrm { { A } } ^ { 4 - } } } \\right)$ 的值（要求读到⼩数点后⼀位）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000181-02",
+      "label": "3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "推导出 $\\mathsf { p } K _ { a }$ 的表达式，只可包含pH和所有相关的化学位移参数。"
+        }
+      ]
+    },
+    {
+      "id": "part-000181-03",
+      "label": "3-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "从上图中合理取值，计算酸解离常数 $K _ { a }$ 。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000436",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "芳基取代基反应活性",
+  "number": "9",
+  "examYear": 2014,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000048",
+    "sourceLabel": "2014-28-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2014-28-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000436-01",
+      "label": "9-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在⽅框中按稳定性顺序分别画出由氯甲基苯、对甲氧基氯甲基苯以及对硝基氯甲基苯⽣成的稳定阳离⼦的结构简式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000436-02",
+      "label": "9-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "间硝基溴苯、2,4-⼆硝基溴苯、对硝基溴苯以及 $2 , 4 , 6 -$ 三硝基溴苯在特定条件下均能与HO−反应，在⽅框中按其反应活性顺序分别画出对应化合物的结构简式。"
+        }
+      ]
+    }
+  ]
+}

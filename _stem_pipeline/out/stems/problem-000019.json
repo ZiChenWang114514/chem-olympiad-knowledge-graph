@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000019",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "有机反应路线与异构",
+  "number": "8",
+  "examYear": 2016,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000050",
+    "sourceLabel": "2016-30-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2016-30-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000019-01",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出以下反应过程中化合物A-F的结构简式。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000019-02",
+      "label": "8-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "某同学设计了以下反应，希望能同时保护氨基和羟基。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "请选择最有利于实现该反应的实验条件："
+        },
+        {
+          "type": "paragraph",
+          "text": "a) 反应在浓盐酸与⼄醇(1:3)的混合溶剂中加热进⾏。"
+        },
+        {
+          "type": "paragraph",
+          "text": "b) 反应在过量三⼄胺中加热进⾏。"
+        },
+        {
+          "type": "paragraph",
+          "text": "c) 催化量的三氟化硼作⽤下，反应在⽆⽔⼄醚中进⾏。"
+        },
+        {
+          "type": "paragraph",
+          "text": "d) 反应在回流的甲苯中进⾏。"
+        }
+      ]
+    },
+    {
+      "id": "part-000019-03",
+      "label": "8-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "理论计算表明，甲酸的�和�-型两种异构体存在⼀定的能量差别。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "已知�-型异构体的 $) K _ { \\mathrm { a } } = 3 . 7 7$ ，判断�-型异构体的 $\\mathsf { p } K _ { \\mathsf { a } }$ ："
+        },
+        {
+          "type": "paragraph",
+          "text": "a) > 3.77； b) < 3.77； c) ⽆法判断。"
+        }
+      ]
+    }
+  ]
+}

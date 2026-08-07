@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000039",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "含氮有机合成路线",
+  "number": "9",
+  "examYear": 2017,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000051",
+    "sourceLabel": "2017-31-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2017-31-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "$$\n\\mathrm{N} \\stackrel {\\mid} {\\longrightarrow} \\mathrm{O} \\xrightarrow [ \\mathrm{EtOH} , - 1 5 ^ {\\circ} \\mathrm{C} , 2 \\mathrm{h} ]{\\mathrm{EtONa} , (\\mathrm{COOEt}) _ {2}} \\mathrm{A} \\xrightarrow [ \\mathrm{THF} , 2 0 ^ {\\circ} \\mathrm{C} , 2 5 \\mathrm{min} ]{\\mathrm{LiH} , \\mathrm{HCHO}} \\mathrm{B}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\n\\xrightarrow [ 2 0 ^ {\\circ} \\mathrm{C} , 2 0 \\min ]{\\mathrm{NaHCO} _ {3} , \\mathrm{CH} _ {2} \\mathrm{Cl} _ {2}} \\left[ \\begin{array}{c c c} \\mathbf {C} & \\longrightarrow & \\mathbf {D} \\end{array} \\right] \\longrightarrow \\mathbf {E}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "元素分析结果表明化合物 E 含 C 64.84%、H 8.16%、N 12.60%。化合物 B 不含羟基。"
+    }
+  ]
+}

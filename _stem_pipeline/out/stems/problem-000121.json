@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000121",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "酰胺端基效应重排",
+  "number": "10",
+  "examYear": 2021,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000057",
+    "sourceLabel": "2021-35-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2021-35-CChO-chusai-jiangsu/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000121-01",
+      "label": "10-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 反应溶剂可以影响氮杂环丙烷环化反应的产物。在不同的溶剂中，1-苄基-2-⼄烯基氮杂环丙烷与对甲苯磺酰异氰酸酯反应选择性地得到五元环或七元环的产物。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "画出M、N的结构简式，并画出⽣成N的过程中必定经过的两个关键中间体。"
+        }
+      ]
+    },
+    {
+      "id": "part-000121-02",
+      "label": "10-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 氮杂环丙烷上的取代基可以影响反应的产率和环化产物。(顺)-1-苄基-2-苯基-3-⼄烯基氮杂环丙烷与对甲苯磺酰异氰酸酯只能得到较低产率的五元环产物。请画出该环化产物Y及该转化过程中必定经过的两个关键中间体的结构简式（须画出产物及中间体的⽴体结构，并标明Y⼿性中⼼的⽴体结构）。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000121-03",
+      "label": "10-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "请画出以下反应主要产物Z的结构简式。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000121-04",
+      "label": "10-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "化合物K是⼀种⾼效的清除溶液中有机胺类化合物的试剂。将其加⼊到溶有苄胺的四氢呋喃溶液中充分反应，没有明显沉淀产⽣，然后在350 nm紫外光的照射下，有⽩⾊固体析出。通过检测，溶液中已⽆苄胺。请画出该⽩⾊固体的结构简式，并解释⽩⾊固体析出的原因。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        },
+        {
+          "type": "paragraph",
+          "text": "题⽬中缩写符号说明：Me：甲基；Et：⼄基；Ph：苯基；Ts：对甲苯磺酰基；Bn：苄基；DMF：⼆甲基甲酰胺；r.t.：室温。理想⽓体常数 $R = 8 . 3 1 4 \\mathrm { J } \\mathrm { m o l } ^ { - 1 } \\mathrm { K } ^ { - 1 }$ 1。"
+        }
+      ]
+    }
+  ]
+}

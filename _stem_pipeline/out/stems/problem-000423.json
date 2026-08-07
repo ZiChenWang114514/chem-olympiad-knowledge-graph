@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000423",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "酸碱催化反应速率",
+  "number": "7",
+  "examYear": 2013,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000008",
+    "sourceLabel": "2013-27-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2013-27-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "$k _ { 1 } = 1 . 0 \\times 1 0 ^ { 7 } \\mathrm { m o l ^ { - 1 } L s ^ { - 1 } } , k _ { 2 } = 1 . 0 \\times 1 0 ^ { 2 } \\mathrm { m o l ^ { - 1 } L s ^ { - 1 } } , \\mathsf { p } K _ { a } = 5 . 0 ,$ ，反应决速步骤为中间物 $\\mathbf { H E S ^ { \\ddagger } }$ 和 $\\mathbf { E } \\mathbf { S } ^ { \\ddagger }$ 之⽣成。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000423-01",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "推导表观反应速率常数 $k _ { e x p }$ 的表达式，式中只能含有基元反应的速率常数 ${ \\mathrm { \\tilde { \\mathbf { \\mathit { k } } } } _ { 1 } \\mathrm { \\tilde { \\hbar } } \\mathrm { \\tilde { \\mathbf { \\mathit { k } } } } _ { 2 } }$ 以及氢离⼦浓度[H+]和E的电离平衡常数 $X _ { a }$ 。"
+        }
+      ]
+    },
+    {
+      "id": "part-000423-02",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "推断上述反应属于酸催化还是碱催化。若控制此反应缓慢进⾏，通过计算，判断pH在什么范围， $k _ { e x p }$ 基本不随pH发⽣变化（在1%以内）。"
+        }
+      ]
+    }
+  ]
+}

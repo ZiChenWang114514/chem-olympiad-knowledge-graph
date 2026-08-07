@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000368",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "分析化学定量方法",
+  "number": "3",
+  "examYear": 2010,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000005",
+    "sourceLabel": "2010-24-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2010-24-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000368-01",
+      "label": "3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "该组测定数据符合⼀元线性回归⽅程 $\\vdots y = b x + a $ ，计算该患者每天排出的磷有多少克。"
+        }
+      ]
+    },
+    {
+      "id": "part-000368-02",
+      "label": "3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算该尿液中磷酸盐的浓度(mmol L−1)。"
+        }
+      ]
+    },
+    {
+      "id": "part-000368-03",
+      "label": "3-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出在酸性介质中磷酸盐与钼酸铵⽣成磷钼⻩的离⼦反应⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000368-04",
+      "label": "3-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出⽤4-氨基-3-羟基-1-萘磺酸将磷钼⻩还原为磷钼蓝的反应式（有机物⽤结构式表⽰）。"
+        }
+      ]
+    }
+  ]
+}

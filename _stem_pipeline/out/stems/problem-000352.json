@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000352",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "木犀草素溶解热力学",
+  "number": "6",
+  "examYear": 2009,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000004",
+    "sourceLabel": "2009-23-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2009-23-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000352-01",
+      "label": "6-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "实验测得， $4 0 ~ ^ { \\circ } \\mathrm { C }$ 时⽊犀草素在⼄醇(EtOH)中的溶解度（以物质的量分数计）为 $2 . 6 8 \\times 1 0 ^ { - 3 }$ 。已知$2 0 { \\sim } 6 0 ~ ^ { \\circ } \\mathrm { C }$ ⽊犀草素在⼄醇中的溶解焓为20.28kJ $\\mathrm { m o l ^ { - 1 } s }$ 。请估算 $2 5 ^ { \\circ } \\mathrm { C }$ 时⽊犀草素在⼄醇中的溶解度。"
+        }
+      ]
+    },
+    {
+      "id": "part-000352-02",
+      "label": "6-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "$4 0 ~ ^ { \\circ } \\mathrm { C }$ 时，芦丁和⽊犀草素在⼄醇-⽔混合溶剂中的溶解度曲线如图6.1。根据图⽰，设计提纯⽊犀草素的具体⽅案。"
+        }
+      ]
+    },
+    {
+      "id": "part-000352-03",
+      "label": "6-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "⽊犀草素有α和β两种晶相，在热⼒学上，β相⽐α相稳定。在恒压下，液态、α相和β相的摩尔Gibbs⾃由能 $G _ { \\mathrm { m } }$ 随温度�的变化关系如图6.2所⽰。"
+        }
+      ]
+    },
+    {
+      "id": "part-000352-04",
+      "label": "6-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 请回答哪条线对应α相、β相，说明理由。"
+        }
+      ]
+    },
+    {
+      "id": "part-000352-05",
+      "label": "6-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 在相同温度下，α相和β相哪个熵更⼤？简述理由。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）\n图 6.1"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）\n图 6.2"
+        }
+      ]
+    }
+  ]
+}

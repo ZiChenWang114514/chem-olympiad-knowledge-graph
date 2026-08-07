@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000421",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "脂肪酸钠缔合胶体",
+  "number": "5",
+  "examYear": 2013,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000008",
+    "sourceLabel": "2013-27-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2013-27-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000421-01",
+      "label": "5-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "根据上述事实，你认为McBain的推论是否合理？说明理由。"
+        }
+      ]
+    },
+    {
+      "id": "part-000421-02",
+      "label": "5-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "McBain对脂肪酸钠体系进⾏了量热实验，发现在拐点浓度附近，由拐点前到拐点后体系的标准焓变⼏乎为零，这让他百思不得其解。经过⻓期的研究和思考，他⿎起勇⽓在国际学术会议上宣讲了⾃⼰的研究结果，"
+        },
+        {
+          "type": "paragraph",
+          "text": "认为脂肪酸在拐点浓度后的缔合胶体形成是热⼒学稳定的。当时的会议主席对此勃然⼤怒，没有等报告讲完就以“McBain，胡说！”，将McBain轰下讲台。"
+        },
+        {
+          "type": "paragraph",
+          "text": "假设在脂肪酸盐拐点浓度前、后体系中⽔的结构性质没有变化，结合基础热⼒学和熵的统计意义，简单说明会议主席认为McBain的观点“荒谬”的原因。"
+        }
+      ]
+    },
+    {
+      "id": "part-000421-03",
+      "label": "5-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "然⽽，⼤量研究结果证实了McBain的结论是正确的，原因是“在脂肪酸盐拐点浓度前、后⽔的结构性质没有变化”，这⼀假设是错误。如果认为“脂肪酸盐在拐点浓度前、后对溶剂⽔的结构会产⽣不同的影响”，那么请基于熵的统计意义，推测⽔的结构在拐点浓度前和拐点后哪个更有序，说明理由。"
+        }
+      ]
+    },
+    {
+      "id": "part-000421-04",
+      "label": "5-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "除脂肪酸盐外还有很多物质具有类似的变化规律。这些物质（表⾯活性剂）的分⼦结构具有⼀个共同的特点，都有亲⽔头基和蔬⽔尾链（如下图所⽰）。请给出表⾯活性剂在⽔中形成的“缔合胶体”的结构⽰意图。若表⾯活性剂的分⼦⻓度为1.0nm，估算“缔合胶体”在刚过拐点浓度时的最⼤尺⼨。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    }
+  ]
+}

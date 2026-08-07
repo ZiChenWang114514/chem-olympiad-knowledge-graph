@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000446",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "有机反应产物结构",
+  "number": "8",
+  "examYear": 2014,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000009",
+    "sourceLabel": "2014-28-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2014-28-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "画出反应(a)中A、反应(b)中主产物B、(c)中主要产物C的结构简式。"
+    },
+    {
+      "type": "paragraph",
+      "text": "(b)\n(a)\n（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "(c)\n（图：）"
+    }
+  ]
+}

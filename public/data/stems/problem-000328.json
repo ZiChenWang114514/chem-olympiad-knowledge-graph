@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000328",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "荆芥内酯合成路线",
+  "number": "11",
+  "examYear": 2008,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000039",
+    "sourceLabel": "2008-22-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2008-22-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "$$\n\\mathrm{CHO} \\xrightarrow [ \\text {acetone,0°C} ]{\\mathrm{CrO} _ {3} , \\mathrm{H} _ {2} \\mathrm{SO} _ {4}} \\mathrm{A} \\xrightarrow [ \\Delta ]{\\mathrm{CH} _ {3} \\mathrm{OH} , \\mathrm{H} ^ {+}} \\mathrm{B}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\n\\xrightarrow [ \\text {peroxide} ]{\\mathrm{HBr}} \\mathrm{C} \\xrightarrow [ 2 . \\mathrm{H} ^ {+} , \\Delta ]{1 . \\mathrm{LiOH} , \\mathrm{CH} _ {3} \\mathrm{OH}} \\mathrm{D} \\xrightarrow [ \\mathrm{THF} ]{\\mathrm{LiAlH} _ {4}} \\mathrm{E}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "写出A、B、C、D和E的结构简式（不考虑⽴体异构体）。"
+    }
+  ]
+}

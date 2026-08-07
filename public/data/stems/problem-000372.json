@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000372",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "有机药物合成",
+  "number": "7",
+  "examYear": 2010,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000005",
+    "sourceLabel": "2010-24-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2010-24-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "因此，化合物1是合成Dofetilide的关键中间体，⽂献报道的部分合成路线如下："
+    },
+    {
+      "type": "paragraph",
+      "text": "合成路线(1)："
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "合成路线(2)："
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "合成路线(3)："
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    },
+    {
+      "type": "paragraph",
+      "text": "合成路线(4)："
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000372-01",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出Doferilide及上述合成路线中化合物7，8，10，14的结构式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000372-02",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "请写出上述各合成路线中步骤A\\~L所需的试剂及必要的反应条件。"
+        }
+      ]
+    },
+    {
+      "id": "part-000372-03",
+      "label": "7-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "⽤系统命名法命名化合物3和 ${ \\bf 1 1 } _ { \\tt c }$"
+        }
+      ]
+    },
+    {
+      "id": "part-000372-04",
+      "label": "7-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "以2-(4-硝基苯基)⼄醛为起始原料，使⽤不超过2个碳原⼦的有机物和必要的⽆机试剂，⽤不超过5步反应的⽅法合成化合物13。"
+        }
+      ]
+    }
+  ]
+}

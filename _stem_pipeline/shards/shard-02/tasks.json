@@ -1,0 +1,700 @@
+{
+  "shardId": 2,
+  "problemCount": 59,
+  "papers": 4,
+  "tasks": [
+    {
+      "md": "D:\\打工2\\初赛&决赛\\MinerU_MD\\初赛\\2021-35-CChO-chusai-jiangsu\\full.md",
+      "rel": "初赛/2021-35-CChO-chusai-jiangsu/full.md",
+      "folder": "2021-35-CChO-chusai-jiangsu",
+      "skip": false,
+      "year": 2021,
+      "stage": "preliminary",
+      "problemCount": 30,
+      "problems": [
+        {
+          "id": "problem-000112",
+          "number": "1",
+          "title": "聚合物合成与热力学",
+          "examId": "exam-000007",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000057",
+          "page": 0
+        },
+        {
+          "id": "problem-000122",
+          "number": "1",
+          "title": "有机酸性与反应性",
+          "examId": "exam-000019",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-fujian.pdf",
+          "sourceDocumentId": "source-000055",
+          "page": 0
+        },
+        {
+          "id": "problem-000132",
+          "number": "1",
+          "title": "化学反应与结构综合分析",
+          "examId": "exam-000020",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-jiangsu.pdf",
+          "sourceDocumentId": "source-000056",
+          "page": 0
+        },
+        {
+          "id": "problem-000113",
+          "number": "2",
+          "title": "双氧物种电子与晶体",
+          "examId": "exam-000007",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000057",
+          "page": 0
+        },
+        {
+          "id": "problem-000123",
+          "number": "2",
+          "title": "配位化学与氧化态",
+          "examId": "exam-000019",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-fujian.pdf",
+          "sourceDocumentId": "source-000055",
+          "page": 0
+        },
+        {
+          "id": "problem-000133",
+          "number": "2",
+          "title": "聚合物合成与热力学",
+          "examId": "exam-000020",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-jiangsu.pdf",
+          "sourceDocumentId": "source-000056",
+          "page": 0
+        },
+        {
+          "id": "problem-000114",
+          "number": "3",
+          "title": "配位化学与氧化态",
+          "examId": "exam-000007",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000057",
+          "page": 0
+        },
+        {
+          "id": "problem-000124",
+          "number": "3",
+          "title": "电池材料化学",
+          "examId": "exam-000019",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-fujian.pdf",
+          "sourceDocumentId": "source-000055",
+          "page": 0
+        },
+        {
+          "id": "problem-000134",
+          "number": "3",
+          "title": "氮分子活化与配位",
+          "examId": "exam-000020",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-jiangsu.pdf",
+          "sourceDocumentId": "source-000056",
+          "page": 0
+        },
+        {
+          "id": "problem-000115",
+          "number": "4",
+          "title": "碳氧环与全碳环",
+          "examId": "exam-000007",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000057",
+          "page": 0
+        },
+        {
+          "id": "problem-000125",
+          "number": "4",
+          "title": "晶体结构与晶胞",
+          "examId": "exam-000019",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-fujian.pdf",
+          "sourceDocumentId": "source-000055",
+          "page": 0
+        },
+        {
+          "id": "problem-000135",
+          "number": "4",
+          "title": "配位化学与氧化态",
+          "examId": "exam-000020",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-jiangsu.pdf",
+          "sourceDocumentId": "source-000056",
+          "page": 0
+        },
+        {
+          "id": "problem-000116",
+          "number": "5",
+          "title": "元素推断与化合物",
+          "examId": "exam-000007",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000057",
+          "page": 0
+        },
+        {
+          "id": "problem-000126",
+          "number": "5",
+          "title": "化学反应与结构综合分析",
+          "examId": "exam-000019",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-fujian.pdf",
+          "sourceDocumentId": "source-000055",
+          "page": 0
+        },
+        {
+          "id": "problem-000136",
+          "number": "5",
+          "title": "晶体结构与晶胞",
+          "examId": "exam-000020",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-jiangsu.pdf",
+          "sourceDocumentId": "source-000056",
+          "page": 0
+        },
+        {
+          "id": "problem-000127",
+          "number": "6",
+          "title": "有机酸性与反应性",
+          "examId": "exam-000019",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-fujian.pdf",
+          "sourceDocumentId": "source-000055",
+          "page": 0
+        },
+        {
+          "id": "problem-000137",
+          "number": "6",
+          "title": "化学反应与结构综合分析",
+          "examId": "exam-000020",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-jiangsu.pdf",
+          "sourceDocumentId": "source-000056",
+          "page": 0
+        },
+        {
+          "id": "problem-000118",
+          "number": "7",
+          "title": "配位化学与氧化态",
+          "examId": "exam-000007",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000057",
+          "page": 0
+        },
+        {
+          "id": "problem-000128",
+          "number": "7",
+          "title": "化学反应与结构综合分析",
+          "examId": "exam-000019",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-fujian.pdf",
+          "sourceDocumentId": "source-000055",
+          "page": 0
+        },
+        {
+          "id": "problem-000138",
+          "number": "7",
+          "title": "晶体结构与晶胞",
+          "examId": "exam-000020",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-jiangsu.pdf",
+          "sourceDocumentId": "source-000056",
+          "page": 0
+        },
+        {
+          "id": "problem-000119",
+          "number": "8",
+          "title": "有机酸性与反应性",
+          "examId": "exam-000007",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000057",
+          "page": 0
+        },
+        {
+          "id": "problem-000129",
+          "number": "8",
+          "title": "有机酸性与反应性",
+          "examId": "exam-000019",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-fujian.pdf",
+          "sourceDocumentId": "source-000055",
+          "page": 0
+        },
+        {
+          "id": "problem-000139",
+          "number": "8",
+          "title": "有机酸性与反应性",
+          "examId": "exam-000020",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-jiangsu.pdf",
+          "sourceDocumentId": "source-000056",
+          "page": 0
+        },
+        {
+          "id": "problem-000120",
+          "number": "9",
+          "title": "含磷小分子反应",
+          "examId": "exam-000007",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000057",
+          "page": 0
+        },
+        {
+          "id": "problem-000130",
+          "number": "9",
+          "title": "化学反应与结构综合分析",
+          "examId": "exam-000019",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-fujian.pdf",
+          "sourceDocumentId": "source-000055",
+          "page": 0
+        },
+        {
+          "id": "problem-000140",
+          "number": "9",
+          "title": "化学反应与结构综合分析",
+          "examId": "exam-000020",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-jiangsu.pdf",
+          "sourceDocumentId": "source-000056",
+          "page": 0
+        },
+        {
+          "id": "problem-000121",
+          "number": "10",
+          "title": "酰胺端基效应重排",
+          "examId": "exam-000007",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000057",
+          "page": 0
+        },
+        {
+          "id": "problem-000131",
+          "number": "10",
+          "title": "化学反应与结构综合分析",
+          "examId": "exam-000019",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-fujian.pdf",
+          "sourceDocumentId": "source-000055",
+          "page": 0
+        },
+        {
+          "id": "problem-000141",
+          "number": "10",
+          "title": "酰胺端基效应重排",
+          "examId": "exam-000020",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai-jiangsu.pdf",
+          "sourceDocumentId": "source-000056",
+          "page": 0
+        },
+        {
+          "id": "problem-000011",
+          "number": "Q6",
+          "title": "钙钛矿衍生结构",
+          "examId": "exam-000007",
+          "year": 2021,
+          "stage": "preliminary",
+          "sourceLabel": "2021-35-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000057",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "md": "D:\\打工2\\初赛&决赛\\MinerU_MD\\初赛\\2010-24-CChO-chusai\\full.md",
+      "rel": "初赛/2010-24-CChO-chusai/full.md",
+      "folder": "2010-24-CChO-chusai",
+      "skip": false,
+      "year": 2010,
+      "stage": "preliminary",
+      "problemCount": 11,
+      "problems": [
+        {
+          "id": "problem-000355",
+          "number": "1",
+          "title": "核反应与元素",
+          "examId": "exam-000038",
+          "year": 2010,
+          "stage": "preliminary",
+          "sourceLabel": "2010-24-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000041",
+          "page": 0
+        },
+        {
+          "id": "problem-000356",
+          "number": "2",
+          "title": "化学热力学计算",
+          "examId": "exam-000038",
+          "year": 2010,
+          "stage": "preliminary",
+          "sourceLabel": "2010-24-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000041",
+          "page": 0
+        },
+        {
+          "id": "problem-000357",
+          "number": "3",
+          "title": "晶体结构与晶胞",
+          "examId": "exam-000038",
+          "year": 2010,
+          "stage": "preliminary",
+          "sourceLabel": "2010-24-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000041",
+          "page": 0
+        },
+        {
+          "id": "problem-000358",
+          "number": "4",
+          "title": "配位化学与电子结构",
+          "examId": "exam-000038",
+          "year": 2010,
+          "stage": "preliminary",
+          "sourceLabel": "2010-24-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000041",
+          "page": 0
+        },
+        {
+          "id": "problem-000359",
+          "number": "5",
+          "title": "配位化学与电子结构",
+          "examId": "exam-000038",
+          "year": 2010,
+          "stage": "preliminary",
+          "sourceLabel": "2010-24-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000041",
+          "page": 0
+        },
+        {
+          "id": "problem-000360",
+          "number": "6",
+          "title": "晶体结构与晶胞",
+          "examId": "exam-000038",
+          "year": 2010,
+          "stage": "preliminary",
+          "sourceLabel": "2010-24-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000041",
+          "page": 0
+        },
+        {
+          "id": "problem-000361",
+          "number": "7",
+          "title": "晶体结构与晶胞",
+          "examId": "exam-000038",
+          "year": 2010,
+          "stage": "preliminary",
+          "sourceLabel": "2010-24-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000041",
+          "page": 0
+        },
+        {
+          "id": "problem-000362",
+          "number": "8",
+          "title": "分析化学定量方法",
+          "examId": "exam-000038",
+          "year": 2010,
+          "stage": "preliminary",
+          "sourceLabel": "2010-24-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000041",
+          "page": 0
+        },
+        {
+          "id": "problem-000363",
+          "number": "9",
+          "title": "化学反应与结构综合分析",
+          "examId": "exam-000038",
+          "year": 2010,
+          "stage": "preliminary",
+          "sourceLabel": "2010-24-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000041",
+          "page": 0
+        },
+        {
+          "id": "problem-000364",
+          "number": "10",
+          "title": "化学反应与结构综合分析",
+          "examId": "exam-000038",
+          "year": 2010,
+          "stage": "preliminary",
+          "sourceLabel": "2010-24-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000041",
+          "page": 0
+        },
+        {
+          "id": "problem-000365",
+          "number": "11",
+          "title": "元素推断与化学性质",
+          "examId": "exam-000038",
+          "year": 2010,
+          "stage": "preliminary",
+          "sourceLabel": "2010-24-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000041",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "md": "D:\\打工2\\初赛&决赛\\MinerU_MD\\初赛\\2019-33-CChO-chusai\\full.md",
+      "rel": "初赛/2019-33-CChO-chusai/full.md",
+      "folder": "2019-33-CChO-chusai",
+      "skip": false,
+      "year": 2019,
+      "stage": "preliminary",
+      "problemCount": 10,
+      "problems": [
+        {
+          "id": "problem-000067",
+          "number": "1",
+          "title": "配位化学与氧化态",
+          "examId": "exam-000014",
+          "year": 2019,
+          "stage": "preliminary",
+          "sourceLabel": "2019-33-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000053",
+          "page": 0
+        },
+        {
+          "id": "problem-000068",
+          "number": "2",
+          "title": "核化学反应",
+          "examId": "exam-000014",
+          "year": 2019,
+          "stage": "preliminary",
+          "sourceLabel": "2019-33-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000053",
+          "page": 0
+        },
+        {
+          "id": "problem-000069",
+          "number": "3",
+          "title": "化学热力学计算",
+          "examId": "exam-000014",
+          "year": 2019,
+          "stage": "preliminary",
+          "sourceLabel": "2019-33-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000053",
+          "page": 0
+        },
+        {
+          "id": "problem-000070",
+          "number": "4",
+          "title": "矿物冶金与氧化还原",
+          "examId": "exam-000014",
+          "year": 2019,
+          "stage": "preliminary",
+          "sourceLabel": "2019-33-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000053",
+          "page": 0
+        },
+        {
+          "id": "problem-000071",
+          "number": "5",
+          "title": "配位化学与氧化态",
+          "examId": "exam-000014",
+          "year": 2019,
+          "stage": "preliminary",
+          "sourceLabel": "2019-33-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000053",
+          "page": 0
+        },
+        {
+          "id": "problem-000072",
+          "number": "6",
+          "title": "晶体结构与晶胞",
+          "examId": "exam-000014",
+          "year": 2019,
+          "stage": "preliminary",
+          "sourceLabel": "2019-33-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000053",
+          "page": 0
+        },
+        {
+          "id": "problem-000073",
+          "number": "7",
+          "title": "钙钛矿衍生结构",
+          "examId": "exam-000014",
+          "year": 2019,
+          "stage": "preliminary",
+          "sourceLabel": "2019-33-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000053",
+          "page": 0
+        },
+        {
+          "id": "problem-000074",
+          "number": "8",
+          "title": "有机反应机理",
+          "examId": "exam-000014",
+          "year": 2019,
+          "stage": "preliminary",
+          "sourceLabel": "2019-33-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000053",
+          "page": 0
+        },
+        {
+          "id": "problem-000075",
+          "number": "9",
+          "title": "有机合成与机理",
+          "examId": "exam-000014",
+          "year": 2019,
+          "stage": "preliminary",
+          "sourceLabel": "2019-33-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000053",
+          "page": 0
+        },
+        {
+          "id": "problem-000076",
+          "number": "10",
+          "title": "化学反应与结构综合分析",
+          "examId": "exam-000014",
+          "year": 2019,
+          "stage": "preliminary",
+          "sourceLabel": "2019-33-CChO-chusai.pdf",
+          "sourceDocumentId": "source-000053",
+          "page": 0
+        }
+      ]
+    },
+    {
+      "md": "D:\\打工2\\初赛&决赛\\MinerU_MD\\决赛\\2006-20-CChO-juesai\\full.md",
+      "rel": "决赛/2006-20-CChO-juesai/full.md",
+      "folder": "2006-20-CChO-juesai",
+      "skip": false,
+      "year": 2006,
+      "stage": "final",
+      "problemCount": 8,
+      "problems": [
+        {
+          "id": "problem-000292",
+          "number": "1",
+          "title": "钛铁矿提取金属钛",
+          "examId": "exam-000031",
+          "year": 2006,
+          "stage": "final",
+          "sourceLabel": "2006-20-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000001",
+          "page": 0
+        },
+        {
+          "id": "problem-000293",
+          "number": "2",
+          "title": "蒙脱石纳米矿物提纯",
+          "examId": "exam-000031",
+          "year": 2006,
+          "stage": "final",
+          "sourceLabel": "2006-20-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000001",
+          "page": 0
+        },
+        {
+          "id": "problem-000294",
+          "number": "3",
+          "title": "无机高分子絮凝剂",
+          "examId": "exam-000031",
+          "year": 2006,
+          "stage": "final",
+          "sourceLabel": "2006-20-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000001",
+          "page": 0
+        },
+        {
+          "id": "problem-000295",
+          "number": "4",
+          "title": "硼氢化钠醇解与晶体",
+          "examId": "exam-000031",
+          "year": 2006,
+          "stage": "final",
+          "sourceLabel": "2006-20-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000001",
+          "page": 0
+        },
+        {
+          "id": "problem-000296",
+          "number": "5",
+          "title": "硝酸铵晶型相图",
+          "examId": "exam-000031",
+          "year": 2006,
+          "stage": "final",
+          "sourceLabel": "2006-20-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000001",
+          "page": 0
+        },
+        {
+          "id": "problem-000297",
+          "number": "6",
+          "title": "二元弱酸滴定分析",
+          "examId": "exam-000031",
+          "year": 2006,
+          "stage": "final",
+          "sourceLabel": "2006-20-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000001",
+          "page": 0
+        },
+        {
+          "id": "problem-000298",
+          "number": "7",
+          "title": "聚乙炔液晶材料合成",
+          "examId": "exam-000031",
+          "year": 2006,
+          "stage": "final",
+          "sourceLabel": "2006-20-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000001",
+          "page": 0
+        },
+        {
+          "id": "problem-000299",
+          "number": "8",
+          "title": "天然产物结构推断",
+          "examId": "exam-000031",
+          "year": 2006,
+          "stage": "final",
+          "sourceLabel": "2006-20-CChO-juesai.pdf",
+          "sourceDocumentId": "source-000001",
+          "page": 0
+        }
+      ]
+    }
+  ]
+}

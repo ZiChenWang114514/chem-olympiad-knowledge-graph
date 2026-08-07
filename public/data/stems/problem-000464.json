@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000464",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "MAX相层状晶体结构",
+  "number": "5",
+  "examYear": 2015,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000010",
+    "sourceLabel": "2015-29-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2015-29-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "MAX（M代表过渡⾦属元素，A代表主族元素，X代表碳或氮）相是⼀类备受关注的新型陶瓷材料。由于独特的层状晶体结构，其具有⾃润滑、⾼韧性、可导电等性能，可作为⾼温结构材料、电极材料和化学防腐材料。某MAX相材料含有Ti，Al，N3种原⼦，属六⽅晶系，Ti原⼦的堆积⽅式为…BACBBCABBACBBCAB…，其中A、B、C 都是密置单层。N 原⼦占据所有的正⼋⾯体空隙，⽽Al 原⼦占据⼀半的三棱柱空隙。如果Ti 原⼦层上下同时接触N和Al原⼦，则沿着晶胞�轴⽅向，Al和N原⼦的投影重合。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000464-01",
+      "label": "5-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出该化合物的化学式，及每个正当晶胞中的原⼦种类和个数。"
+        }
+      ]
+    },
+    {
+      "id": "part-000464-02",
+      "label": "5-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "沿着晶胞�轴⽅向，画⼀条同时含有Al和N原⼦的直线，标出直线上的原⼦排列（⽆需考虑原⼦间距离，直线上总原⼦数不少于10个。Al，Ti，N分别⽤○，△，□表⽰）。"
+        }
+      ]
+    },
+    {
+      "id": "part-000464-03",
+      "label": "5-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "已知 Ti，N 原⼦之间的平均键⻓为 210.0 pm，Ti，Al 原⼦之间的平均键⻓为 281.8 pm，估算晶体的理论密度（原⼦量：Ti: 47.87，Al: 26.98，N: 14.01， $N _ { \\mathrm { A } } = 6 . 0 2 { \\times } 1 0 ^ { 2 3 } \\mathrm { m o l ^ { - 1 } } )$ o"
+        }
+      ]
+    },
+    {
+      "id": "part-000464-04",
+      "label": "5-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "晶粒尺⼨会影响上述材料的性质，所以⾼温制备时⼀般通过延⻓保温时间来增加晶粒尺⼨ $\\mathbf { \\rho } _ { \\circ }$ 。判断常温下晶粒⽣⻓过程的熵变、焓变和⾃由能变化的正负，并从化学热⼒学⻆度判断常温下该晶粒⽣⻓过程是否⾃发。"
+        }
+      ]
+    },
+    {
+      "id": "part-000464-05",
+      "label": "5-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "以上描述均针对完美晶体。⼀般情况下，晶粒中会出现缺陷。从热⼒学⻆度证明：对于⾜够⼤的晶体，出现缺陷是⾃发的。"
+        }
+      ]
+    }
+  ]
+}

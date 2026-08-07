@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000297",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "二元弱酸滴定分析",
+  "number": "6",
+  "examYear": 2006,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000001",
+    "sourceLabel": "2006-20-CChO-juesai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（决赛/2006-20-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "步骤⼀：⽤邻苯⼆甲酸氢钾标定氢氧化钠，测得氢氧化钠标准溶液的浓度为0.1055mol L−1。氢氧化钠标准溶液在未密闭的情况放置两天后（溶剂挥发忽略不计），按照下列⽅法测定了氢氧化钠标准溶液吸收的CO 的量：移取25.00 mL该标准碱液⽤0.1152 mol L−1的HCl 滴定⾄酚酞变⾊为终点，消耗HCl 标准溶液22.78$\\mathrm { m L } _ { \\circ }$"
+    },
+    {
+      "type": "paragraph",
+      "text": "步骤⼆：称取纯的有机弱酸(H_{2}B)样品0.1963 ${ \\bf g } _ { \\circ }$ 。将样品定量溶解在50.00mL纯⽔中，选择甲基橙为指⽰剂进⾏滴定。当加⼊新标定的0.0950mol L−1氢氧化钠标准溶液9.21 mL时，发现该法不当，遂停⽌滴定，⽤酸度计测定了停⽌滴定时溶液的 $\\mathrm { p H } = 2 . 8 7 _ { \\mathrm { c } }$ 。已知 $\\mathrm { H _ { 2 } B }$ 的 $\\mathrm { p } K _ { a 1 } = 2 . 8 6 \\mathrm { p } K _ { a 2 } = 5 . 7 0 \\AA$"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000297-01",
+      "label": "6-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按步骤⼀计算放置两天后的氢氧化钠标准溶液每升吸收了多少克 $\\mathrm { { C O } _ { 2 \\circ } }$"
+        }
+      ]
+    },
+    {
+      "id": "part-000297-02",
+      "label": "6-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按步骤⼆估算该⼆元弱酸 $\\mathrm { H _ { 2 } B }$ 的分⼦量。"
+        }
+      ]
+    },
+    {
+      "id": "part-000297-03",
+      "label": "6-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "试设计⼀个正确的测定该弱酸分⼦量的滴定分析⽅法，指明滴定剂，指⽰剂，并计算化学计量点的 $\\mathrm { p H } _ { \\circ }$"
+        }
+      ]
+    },
+    {
+      "id": "part-000297-04",
+      "label": "6-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "若使⽤步骤⼀放置两天后的氢氧化钠标准溶液⽤设计的正确⽅法测定该⼆元弱酸的分⼦量，计算由此引起的相对误差。"
+        }
+      ]
+    }
+  ]
+}

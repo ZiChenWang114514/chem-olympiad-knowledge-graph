@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000455",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "钒配合物键合变化",
+  "number": "7",
+  "examYear": 2015,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000049",
+    "sourceLabel": "2015-29-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2015-29-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000455-01",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在如下反应中，反应前后钒的氧化数和配位数各是多少？N—N键⻓如何变化？"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）"
+        }
+      ]
+    },
+    {
+      "id": "part-000455-02",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "单晶衍射实验证实，配合物 $\\mathrm { [ C r _ { 3 } O ( C H _ { 3 } C O _ { 2 } ) _ { 6 } ( H _ { 2 } O ) _ { 3 } ] C l \\cdot 8 H _ { 2 } O }$ 中，3个铬原⼦的化学环境完全相同，⼄酸根为桥连配体，⽔分⼦为单⻮配体。画出该配合物中阳离⼦的结构⽰意图。"
+        }
+      ]
+    }
+  ]
+}

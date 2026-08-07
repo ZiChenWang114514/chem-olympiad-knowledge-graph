@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000110",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "有机酸性与反应性",
+  "number": "7",
+  "examYear": 2020,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000016",
+    "sourceLabel": "2020-34-CChO-juesai-2.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "未能从 MD 可靠切分正文（决赛/2020-34-CChO-juesai-1/full.md）；仅写入元数据标题占位，待人工补全。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "warn",
+      "text": "本题干正文自动切分失败，仅显示题目标题占位。"
+    },
+    {
+      "type": "paragraph",
+      "text": "7 · 有机酸性与反应性"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000410",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "硫氰酸盐与金配合物",
+  "number": "3",
+  "examYear": 2013,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000047",
+    "sourceLabel": "2013-27-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2013-27-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000410-01",
+      "label": "3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出A的结构式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000410-02",
+      "label": "3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "分别写出合成A的⽅法(2)、(3)中化学反应的⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000410-03",
+      "label": "3-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出B的结构式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000410-04",
+      "label": "3-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出A在硫酸铁存在下溶解⾦的离⼦⽅程 $\\updownarrow \\updownarrow _ { \\updownarrow }$"
+        }
+      ]
+    },
+    {
+      "id": "part-000410-05",
+      "label": "3-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A 和 $\\mathrm { A u ( I ) }$ 形成的配合物中配位原⼦是什么？"
+        }
+      ]
+    },
+    {
+      "id": "part-000410-06",
+      "label": "3-6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在提炼⾦时，A可被氧化成C：2 $\\mathbf { A }  \\mathbf { C } + 2 { \\mathrm e }$ −；C能提⾼⾦的溶解速率。画出C的结构式。写出C和Au反应的⽅程式。"
+        }
+      ]
+    }
+  ]
+}

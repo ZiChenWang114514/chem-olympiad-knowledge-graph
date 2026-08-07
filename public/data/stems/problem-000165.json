@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000165",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "镁铁氢化物晶体结构",
+  "number": "7",
+  "examYear": 2022,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000058",
+    "sourceLabel": "2022-36-CChO-chusai-1.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2022-36-CChO-chusai-2/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "2022年9⽉9⽇，国家航天局、国家原⼦能机构联合发布：我国科学家在嫦娥五号⽉壞样品中发现⼀种新矿物，命名为“嫦娥⽯”，英⽂名称Changesite-(Y)。嫦娥⽯是⼀种磷酸盐矿，属于陨磷钠镁钙⽯(Merrillite)族。"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000165-01",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Merrillite 理想组成为 $\\mathrm { C a _ { 9 } N a M g ( P O _ { 4 } ) } \\div$ _{7}，晶体结构属三⽅晶系，晶胞参数 $\\acute { \\iota } a = 1 . 0 2 9 \\mathrm { n m } , \\ c =$ 3.687 nm。晶胞⽰意图⻅图7.1，其中(b)给出 $\\mathrm { M g ^ { 2 + } }$ +在晶胞中的分布，可以看成沿�⽅向采⽤ABCABC⽅式排布。"
+        }
+      ]
+    },
+    {
+      "id": "part-000165-02",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 写出晶胞中化学式的数⽬。"
+        }
+      ]
+    },
+    {
+      "id": "part-000165-03",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 写出图7.1所⽰晶胞中所有 $\\mathrm { M g ^ { 2 + } }$ +的分数坐标。（注意坐标轴的关系。要求按�值从⼩到⼤排列。）"
+        }
+      ]
+    },
+    {
+      "id": "part-000165-04",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-3 计算 $\\mathrm { M g ^ { 2 + } }$ 离⼦之间的最短距离。"
+        }
+      ]
+    },
+    {
+      "id": "part-000165-05",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "有趣的是，嫦娥⽯中含有稀⼟元素钇，这也是其英⽂名称后缀Y的由来。若Merrillite中所有$\\mathrm { M g ^ { 2 } }$ +均被 $\\mathrm { F e ^ { 2 + } }$ 取代，1/9 的 $\\mathrm { { C a ^ { 2 + } } }$ 被 Y3+取代同时脱除 $\\mathrm { N a ^ { + } }$ 以保持电荷平衡，即为嫦娥⽯，基本晶体结构和晶胞参数保持不变。"
+        }
+      ]
+    },
+    {
+      "id": "part-000165-06",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 写出嫦娥⽯的化学式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000165-07",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 计算嫦娥⽯的密度（单位： $\\mathrm { g c m ^ { - 3 } } )$ C"
+        }
+      ]
+    },
+    {
+      "id": "part-000165-08",
+      "label": "7-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "初步研究表明，嫦娥⽯中含有 $^ { 3 } \\mathrm { H e }$ ， $\\mathrm { F e O } _ { 6 }$ 和 $\\mathrm { P O } _ { 4 }$ 可能是其吸附位置。3He已⽤于中⼦探测，也很可能成为⼈类未来的能源。3He与中⼦作⽤产⽣质⼦和氚，写出核反应⽅程式。"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）\n(a)"
+        },
+        {
+          "type": "paragraph",
+          "text": "（图：）\n(b)\n图 7.1 陨磷钠镁钙⽯(Merrillite)的结构"
+        }
+      ]
+    }
+  ]
+}

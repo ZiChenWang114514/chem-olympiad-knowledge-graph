@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000051",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "元素发现与硫化物转化",
+  "number": "3",
+  "examYear": 2018,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000052",
+    "sourceLabel": "2018-32-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2018-32-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "将含元素A的硫化物矿在 $\\mathrm { N } _ { 2 }$ ⽓氛中 $8 0 0 ~ ^ { \\circ } \\mathrm { C }$ 处理，分解产物中有A的硫化物B；随后升温⾄ $8 2 5 ~ ^ { \\circ } \\mathrm { C }$ 并向体系中同⼊氨⽓，得到红⾊化合物C，C溶于发烟硝酸得到⽩⾊沉淀D。经过滤洗涤，D在 $6 0 0 ~ ^ { \\circ } \\mathrm { C }$ 与$\\mathrm { C O C l } _ { 2 }$ 反应，产物冷却后得到液体E，E遇⽔⽣成D，在E的 $6 \\mathrm { m o l } \\mathrm { L } ^ { - 1 }$ 盐酸溶液中通⼊ $\\mathrm { H } _ { 2 } \\mathrm { S }$ 得到沉淀 $\\mathbf { B } ;$ ；将D溶于NaOH溶液，⽤硝酸调节H+浓度⾄约0.3 mol L−1，加⼊钼酸铵溶液常温下反应产⽣橙⻩⾊沉淀F，F与⼗⼆钼酸结构等同；将D加⼊ $\\mathrm { H } _ { 3 } \\mathrm { P O } _ { 2 }$ 和 $\\mathrm { { \\bar { { d } } _ { 3 } P O _ { 3 } } }$ 的混合溶液可得到⻩绿⾊的亚磷酸盐沉淀G，G在碱性溶液中转换为⻩⾊沉淀H，H放置时脱⽔变成I，I也可由D和A的单质在⾼温下反应产⽣，D变为I失重15.3%。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000051-01",
+      "label": "3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出A\\~I的化学式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000051-02",
+      "label": "3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出B与氨⽓反应⽣成C的反应⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000051-03",
+      "label": "3-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出 D 在 $\\mathrm { H } _ { 3 } \\mathrm { P O } _ { 2 }$ 和 $\\mathrm { H _ { 3 } P O _ { 3 } }$ 中⽣成G的反应⽅程式。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000359",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "配位化学与电子结构",
+  "number": "5",
+  "examYear": 2010,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000041",
+    "sourceLabel": "2010-24-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2010-24-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "下列为分问。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000359-01",
+      "label": "5-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出A、B、C、D、E、F、G和H的化学式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000359-02",
+      "label": "5-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出由E转变为F，F转变为G，G转变为H的离⼦⽅程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000359-03",
+      "label": "5-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A中的⾦属元素M可以形成 $\\mathbf { M O } _ { 2 }$ 和 $\\mathrm { Z n } { \\bf M } _ { 2 } \\mathrm { O } _ { 4 }$ ，它们均为磁性材料，⼴泛⽤于制作磁带和磁盘。分别写出$\\mathbf { M O } _ { 2 }$ 和 $\\mathrm { Z n { \\bf M } _ { 2 } O _ { 4 } }$ 中M的价电⼦组态。"
+        }
+      ]
+    },
+    {
+      "id": "part-000359-04",
+      "label": "5-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A中的⾦属元素M可以形成不同形式的羰基化合物或者羰基阴离⼦，按照18电⼦规则画出"
+        },
+        {
+          "type": "paragraph",
+          "text": "$\\mathrm { N a _ { 2 } [ M _ { 2 } ( C O ) _ { 1 0 } ] }$ ]的阴离⼦结构，指出M的氧化态。"
+        }
+      ]
+    }
+  ]
+}

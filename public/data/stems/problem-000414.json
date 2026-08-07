@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000414",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "有机反应结构推断一",
+  "number": "7",
+  "examYear": 2013,
+  "examStage": "preliminary",
+  "source": {
+    "sourceDocumentId": "source-000047",
+    "sourceLabel": "2013-27-CChO-chusai.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-07"
+  },
+  "provenanceNote": "由 MinerU MD（初赛/2013-27-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "（图：）"
+    }
+  ]
+}
