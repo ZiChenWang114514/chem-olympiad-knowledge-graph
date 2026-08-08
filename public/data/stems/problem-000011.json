@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "problemId": "problem-000011",
-  "rightsState": "stem_public",
+  "rightsState": "stem_demo",
   "language": "zh-CN",
   "title": "钙钛矿衍生结构",
   "number": "Q6",
@@ -11,17 +11,90 @@
     "sourceDocumentId": "source-000057",
     "sourceLabel": "2021-35-CChO-chusai.pdf",
     "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "transcriptionMethod": "synthetic_demo",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "DeepSeek 精修:原 MD 切分失败,题干正文缺失,仅保留题号与标题占位;待人工补全。",
-  "renderingHints": {
-    "mhchem": true
-  },
+  "provenanceNote": "本页为「题干结构化格式 + 渲染链路」演示样例，依据公开元数据主题改写排版，不作为官方电子卷原文。获得 fulltext_authorized 后可替换为审定题干。",
+  "renderingHints": { "mhchem": true },
   "blocks": [
     {
+      "type": "callout",
+      "tone": "info",
+      "text": "演示题干：用于验证 KaTeX / 化学式 / 小问结构渲染。正式上线须满足 docs/problem-stem-format.md 的授权与审校要求。"
+    },
+    {
       "type": "paragraph",
-      "text": "Q6 · 钙钛矿衍生结构(题干原文缺失,待补全)"
+      "text": "理想立方钙钛矿的通式可写作 $ABX_3$。其中 $A$ 位通常为较大阳离子，$B$ 位为较小阳离子，$X$ 为阴离子（常为氧或卤素）。"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "结构背景"
+    },
+    {
+      "type": "paragraph",
+      "text": "在理想结构中，$B$ 与 6 个 $X$ 形成八面体配位，$A$ 位于由 12 个 $X$ 围成的立方八面体空隙。Goldschmidt 容差因子定义为"
+    },
+    {
+      "type": "formula",
+      "latex": "t = \\dfrac{r_A + r_X}{\\sqrt{2}\\,(r_B + r_X)}",
+      "display": true
+    },
+    {
+      "type": "paragraph",
+      "text": "当 $t$ 接近 1 时，立方相较易稳定；偏离时可出现八面体倾斜、正交/四方等衍生结构。"
+    },
+    {
+      "type": "chem",
+      "latex": "CaTiO3",
+      "display": false
+    },
+    {
+      "type": "paragraph",
+      "text": "是矿物钙钛矿的代表组成。杂化/卤化物钙钛矿（如铅卤体系）在光电材料中也常以类似骨架出现，但具体配体与维数可能不同。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-demo-000011-1",
+      "label": "(1)",
+      "score": 4,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出理想立方 $ABX_3$ 中 $B$ 位的配位数，并说明 $A$ 位的典型配位环境。"
+        }
+      ]
+    },
+    {
+      "id": "part-demo-000011-2",
+      "label": "(2)",
+      "score": 6,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "若测得一组半径 $r_A$、$r_B$、$r_X$，请根据容差因子 $t$ 判断更可能出现立方相还是显著八面体倾斜的衍生相，并简述判据。"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "给出 $t$ 的计算式（可直接引用上文）",
+            "给出你采用的经验区间（需自洽说明）"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "part-demo-000011-3",
+      "label": "(3)",
+      "score": 5,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "某衍生结构可视为钙钛矿层沿某一方向切片重组。请从「连接方式 / 维数降低」角度，用 2–4 句说明其与三维 $ABX_3$ 骨架的关系（不必给出具体空间群）。"
+        }
+      ]
     }
   ]
 }
