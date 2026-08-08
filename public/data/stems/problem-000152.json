@@ -10,19 +10,26 @@
   "source": {
     "sourceDocumentId": "source-000018",
     "sourceLabel": "2021-35-CChO-juesai-2.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "DeepSeek 精修:原题干正文缺失,仅保留题目标题占位,待人工补全。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "2 · 晶体结构与晶胞"
+      "text": "第2题 (16分）金属M在473 K下同氯气作用，得到反磁性的红色固体 $\\mathbf { P } _ { \\circ }$ 。P为二聚体，其中M元素的质量百分含量为64.93 %；P溶于盐酸后（反应1），与CsCl反应生成沉淀Q（反应2）。Q遇热分解得到⿊色固体R，R中M元素的质量百分含量为45.12 %。测试表明R呈反磁性，且含有不同化学环境的M。 2-1 推导出M为何种元素。 2-2 画出P的结构式。 2-3 写出反应1的化学反应方程式。 2-4 写出反应2的化学反应方程式。 2-5 随着压强的改变，化合物R中M的配位结构也随之改变如图2-1a所示，M的配位⼏何有沿?方向的拉长的八面体和沿?方向压扁的八面体两种，且数量相等。前者?方向上的M-Cl⾜够长时，可看作平面正方形结构；后者??平面上的M-Cl⾜够长时则看作直线结构。通过计算，推导出体现R结构特征的化学式，指出图2-1a中不同化学环境所对应的M的氧化数。"
+    },
+    {
+      "type": "paragraph",
+      "text": "图2-1 在不同压强下[MCl 6 ]⼏何构型 2-6 金属M与过量的金属Cs在真空350 ºC时反应得到 $\\mathrm { C s M _ { \\circ } }$ 给出反应后直接从反应体系除去过量金属Cs的方法。 2-7 CsM溶于液氨中得到透明⻩色溶液，将溶液浓缩得到无缺陷的深蓝色晶体T。研究表明，晶体T中存在M-M键，T中Cs的质量百分含量为38.31%。将晶体T升温⾄225 K左右，得无缺陷的亮⻩色晶体CsM。分析给出T的化学组成，并解释晶体T为深蓝色的原因。 2-8 CsM通过离⼦交换制得无色的 $\\mathrm { [ N ( C H _ { 3 } ) _ { 4 } ] M }$ ，其晶体结构研究表明，M与氢原⼦H的空间距离小于3Å，解释其原因。结合题2-7中物质颜色的变化分析CsM的成键特征。"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000152-figure-001.jpg",
+      "alt": "problem-000152题目配图第1幅（已按原图查看）"
     }
-  ],
-  "parts": []
+  ]
 }

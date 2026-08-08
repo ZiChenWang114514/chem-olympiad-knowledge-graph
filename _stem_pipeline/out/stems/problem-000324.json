@@ -10,19 +10,50 @@
   "source": {
     "sourceDocumentId": "source-000039",
     "sourceLabel": "2008-22-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2008-22-CChO-chusai/full.md)程序化切分并整理为结构化题干;经 DeepSeek 精修。请以官方纸质/PDF 为准。",
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "figure",
-      "caption": "超四面体 T1、T2、T3 结构示意图",
-      "alt": "图中展示 T1、T2、T3 三种超四面体的结构,原图缺失。"
+      "src": "data/stems/assets/problem-000324-figure-001.jpg",
+      "alt": "化学结构示意图（原图）",
+      "caption": "超四面体 T1、T2、T3 结构示意图"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000324-figure-002.jpg",
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000324-figure-003.jpg",
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000324-figure-004.jpg",
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000324-figure-005.jpg",
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000324-figure-006.jpg",
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     }
   ],
   "parts": [

@@ -10,77 +10,45 @@
   "source": {
     "sourceDocumentId": "source-000041",
     "sourceLabel": "2010-24-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2010-24-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理公式与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000355-01",
-      "label": "1-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "2009年10月合成了第117号元素,从此填满了周期表第七周期所有空格,是元素周期系发展的一个里程碑。117号元素是用249Bk轰击 $^{48}\\mathrm{Ca}$ 靶合成的,总共得到6个117号元素的原子,其中1个原子经6次α衰变得到270Db后发生裂变;5个原子则经6次α衰变得到 $^{281}\\mathrm{Rg}$ 后发生裂变。用元素周期表上的117号元素符号,写出得到117号元素的核反应方程式(在元素符号的左上角和左下角分别标出质量数和原子序数)。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "第 1 题（15 分） 1-1 2009年10月合成了第117号元素，从此填满了周期表第七周期所有空格，是元素周期系发展的一个⾥程碑。117号元素是用249Bk轰击 $^ { 4 8 } \\mathrm { C a }$ 靶合成的，总共得到6个117号元素的原⼦，其中1个原⼦经?次α衰变得到270Db后发生裂变；5个原⼦则经?次α衰变得到 $^ { 2 8 1 } \\mathrm { R g }$ 后发生裂变。用元素周期表上的117号元素符号，写出得到117号元素的核反应方程式（在元素符号的左上角和左下角分别标出质量数和原⼦序数）。 1-2 写出下列结构的中⼼原⼦的杂化轨道类型："
     },
     {
-      "id": "part-000355-02",
-      "label": "1-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出下列结构中中心原子的杂化轨道类型:"
-        },
-        {
-          "type": "figure",
-          "caption": "结构图(原题缺图)",
-          "alt": "待补充的结构图"
-        },
-        {
-          "type": "figure",
-          "caption": "结构图(原题缺图)",
-          "alt": "待补充的结构图"
-        },
-        {
-          "type": "paragraph",
-          "text": "$$[(\\mathrm{C_6H_5})\\mathrm{IF_5}]^-$$"
-        },
-        {
-          "type": "figure",
-          "caption": "结构图(原题缺图)",
-          "alt": "待补充的结构图"
-        },
-        {
-          "type": "paragraph",
-          "text": "$$(\\mathrm{C_6H_5})_2\\mathrm{Xe}$$"
-        },
-        {
-          "type": "paragraph",
-          "text": "$$[\\mathrm{I}(\\mathrm{C_6H_5})_2]^+$$"
-        }
-      ]
+      "type": "paragraph",
+      "text": "$$ [ (\\mathrm{C} _ {6} \\mathrm{H} _ {5}) \\mathrm{IF} _ {5} ] ^ {-} $$"
     },
     {
-      "id": "part-000355-03",
-      "label": "1-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "一氯一溴二(氨基乙酸根)合钴(III)酸根离子有多种异构体,其中之一可用如下简式表示。请依样画出其他所有八面体构型的异构体。"
-        },
-        {
-          "type": "figure",
-          "caption": "结构图(原题缺图)",
-          "alt": "待补充的结构图"
-        }
-      ]
+      "type": "paragraph",
+      "text": "$$ (\\mathrm{C} _ {6} \\mathrm{H} _ {5}) _ {2} \\mathrm{Xe} $$ $$ \\mathrm{I} (\\mathrm{C} _ {6} \\mathrm{H} _ {5}) _ {2} ] ^ {+} $$ 1-3 一氯一溴二(氨基⼄酸根)合钴(III)酸根离⼦有多种异构体，其中之一可用如下简式表示。请依样画出其他所有八面体构型的异构体。"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000355-figure-001.jpg",
+      "alt": "problem-000355题目配图第1幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000355-figure-002.jpg",
+      "alt": "problem-000355题目配图第2幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000355-figure-003.jpg",
+      "alt": "problem-000355题目配图第3幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000355-figure-004.jpg",
+      "alt": "problem-000355题目配图第4幅（已按原图查看）"
     }
   ]
 }

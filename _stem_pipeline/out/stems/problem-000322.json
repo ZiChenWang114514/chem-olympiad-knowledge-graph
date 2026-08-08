@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000039",
     "sourceLabel": "2008-22-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2008-22-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
   },
@@ -39,13 +39,14 @@
           "text": "研究了这种晶体在加压下受热膨胀体积增大的情形,并与冰及钙离子配位数也是8的二水合石膏晶体(gypsum)作了对比,结果如下图所示(纵坐标为相对体积):"
         },
         {
-          "type": "figure",
-          "caption": "相对体积随温度变化示意图",
-          "alt": "缺图:冰、二水合石膏与水合碳酸钙晶体的相对体积对比图"
-        },
-        {
           "type": "paragraph",
           "text": "为什么选取冰和二水合石膏作对比?实验结果说明什么?"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000322-figure-001.jpg",
+          "alt": "晶体结构或分子模型示意图（原图）",
+          "caption": "相对体积随温度变化示意图"
         }
       ]
     },

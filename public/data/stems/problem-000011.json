@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "problemId": "problem-000011",
-  "rightsState": "stem_demo",
+  "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "钙钛矿衍生结构",
   "number": "Q6",
@@ -10,91 +10,36 @@
   "source": {
     "sourceDocumentId": "source-000057",
     "sourceLabel": "2021-35-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "synthetic_demo",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "本页为「题干结构化格式 + 渲染链路」演示样例，依据公开元数据主题改写排版，不作为官方电子卷原文。获得 fulltext_authorized 后可替换为审定题干。",
-  "renderingHints": { "mhchem": true },
+  "renderingHints": {
+    "mhchem": true
+  },
   "blocks": [
     {
-      "type": "callout",
-      "tone": "info",
-      "text": "演示题干：用于验证 KaTeX / 化学式 / 小问结构渲染。正式上线须满足 docs/problem-stem-format.md 的授权与审校要求。"
+      "type": "paragraph",
+      "text": "钙钛矿是常⻅结构类型之一，下图(a)和(b)分别示出其结构的不同表达方式：(a)是钙钛矿的一个晶胞，其中，A位阳离⼦半径较大，通常是碱⼟金属、稀⼟元素的离⼦；B位阳离⼦半径较小，通常是过渡金属离⼦；浅灰色的球是氧离⼦ $\\left( \\mathrm { O } ^ { 2 - } \\right)$ ；(b)给出多面体连接以显示钙钛矿的结构特点，B离⼦处在八面体中⼼。钙钛矿结构可以形成各种衍生结构。例如，可将钙钛矿结构沿垂直于四重轴的平面分开，所得层沿四重轴方向投影均与图(b)中相同,然后将相邻层间沿?, ?方向各平移1/2周期,使正负离⼦相对，连接形成名为Ruddlesden-Popper的系列化合物（简称RP相）；(c)是含有钙钛矿单 $\\begin{array} { r } { \\beta _ { \\mathrm { ~ \\normalfont ~ ~ } } ( n ~ = 1 ) } \\end{array}$ 的RP相衍生物结构示意图。 6-1 写出(c)所示结构的化学式。 6-2 如果A位离⼦价态保持不变，当结构由(a)变为(c)时，B位离⼦的价态如何变化？ 6-3 (a)中，⽴方晶胞参数 $a = 3 8 7 . 3$ pm，求(c)中所示结构的晶胞参数。已知(c)结构中，沿?方向相邻层间A—O 距离是其在(a)中的 95.0%。"
     },
     {
       "type": "paragraph",
-      "text": "理想立方钙钛矿的通式可写作 $ABX_3$。其中 $A$ 位通常为较大阳离子，$B$ 位为较小阳离子，$X$ 为阴离子（常为氧或卤素）。"
+      "text": "6-4 RP相系列结构中，钙钛矿层也可以为双层 $\\left( n \\ = 2 \\right)$ 、三层(? = 3)或多层(?)，写出该系列化合物的组成通式。"
     },
     {
-      "type": "heading",
-      "level": 3,
-      "text": "结构背景"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000011-figure-001.jpg",
+      "alt": "problem-000011题目配图第1幅（已按原图查看）"
     },
     {
-      "type": "paragraph",
-      "text": "在理想结构中，$B$ 与 6 个 $X$ 形成八面体配位，$A$ 位于由 12 个 $X$ 围成的立方八面体空隙。Goldschmidt 容差因子定义为"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000011-figure-002.jpg",
+      "alt": "problem-000011题目配图第2幅（已按原图查看）"
     },
     {
-      "type": "formula",
-      "latex": "t = \\dfrac{r_A + r_X}{\\sqrt{2}\\,(r_B + r_X)}",
-      "display": true
-    },
-    {
-      "type": "paragraph",
-      "text": "当 $t$ 接近 1 时，立方相较易稳定；偏离时可出现八面体倾斜、正交/四方等衍生结构。"
-    },
-    {
-      "type": "chem",
-      "latex": "CaTiO3",
-      "display": false
-    },
-    {
-      "type": "paragraph",
-      "text": "是矿物钙钛矿的代表组成。杂化/卤化物钙钛矿（如铅卤体系）在光电材料中也常以类似骨架出现，但具体配体与维数可能不同。"
-    }
-  ],
-  "parts": [
-    {
-      "id": "part-demo-000011-1",
-      "label": "(1)",
-      "score": 4,
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出理想立方 $ABX_3$ 中 $B$ 位的配位数，并说明 $A$ 位的典型配位环境。"
-        }
-      ]
-    },
-    {
-      "id": "part-demo-000011-2",
-      "label": "(2)",
-      "score": 6,
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "若测得一组半径 $r_A$、$r_B$、$r_X$，请根据容差因子 $t$ 判断更可能出现立方相还是显著八面体倾斜的衍生相，并简述判据。"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "给出 $t$ 的计算式（可直接引用上文）",
-            "给出你采用的经验区间（需自洽说明）"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "part-demo-000011-3",
-      "label": "(3)",
-      "score": 5,
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "某衍生结构可视为钙钛矿层沿某一方向切片重组。请从「连接方式 / 维数降低」角度，用 2–4 句说明其与三维 $ABX_3$ 骨架的关系（不必给出具体空间群）。"
-        }
-      ]
+      "type": "figure",
+      "src": "data/stems/assets/problem-000011-figure-003.jpg",
+      "alt": "problem-000011题目配图第3幅（已按原图查看）"
     }
   ]
 }

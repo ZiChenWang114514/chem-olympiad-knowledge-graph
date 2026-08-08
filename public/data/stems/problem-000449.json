@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000049",
     "sourceLabel": "2015-29-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2015-29-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、合并小问、移除无信息 callout。请以官方纸质/PDF 为准。",
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
   },
@@ -143,36 +143,16 @@
           "text": "-1 以下哪个结构简式代表聚乙二醇?"
         },
         {
-          "type": "figure",
-          "caption": "选项 A",
-          "alt": "结构简式 A(缺图)"
-        },
-        {
           "type": "paragraph",
           "text": "A"
-        },
-        {
-          "type": "figure",
-          "caption": "选项 B",
-          "alt": "结构简式 B(缺图)"
         },
         {
           "type": "paragraph",
           "text": "B"
         },
         {
-          "type": "figure",
-          "caption": "选项 C",
-          "alt": "结构简式 C(缺图)"
-        },
-        {
           "type": "paragraph",
           "text": "C"
-        },
-        {
-          "type": "figure",
-          "caption": "选项 D",
-          "alt": "结构简式 D(缺图)"
         },
         {
           "type": "paragraph",

@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000062",
     "sourceLabel": "2024-38-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2024-38-CChO-chusai/full.md)程序化切分并整理为结构化题干;已由 DeepSeek 精修(OCR 纠错、LaTeX 整理、结构核对)。请以官方纸质/PDF 为准。",
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
   },

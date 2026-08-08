@@ -54,7 +54,7 @@ export type ProblemStem = {
     sourceDocumentId?: string
     sourceLabel: string
     page?: number
-    transcriptionMethod: 'manual' | 'ocr_reviewed' | 'synthetic_demo'
+    transcriptionMethod: 'manual' | 'ocr_reviewed' | 'deepseek_polished' | 'synthetic_demo'
     transcribedAt?: string
   }
   blocks?: StemBlock[]

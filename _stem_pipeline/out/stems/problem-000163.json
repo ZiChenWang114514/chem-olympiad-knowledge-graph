@@ -10,40 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000058",
     "sourceLabel": "2022-36-CChO-chusai-1.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2022-36-CChO-chusai-2/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "镍在化合物中的常见氧化数是+2,但在一定条件下,可制得其高价化合物。将KCl和 $\\mathrm{NiCl_2}$ 按一定计量比混合与 $\\mathrm{F_2}$ 反应,$300^\\circ\\mathrm{C}$ 下得到紫色顺磁性晶体A(反应1),$275^\\circ\\mathrm{C}$ 下得到红色抗磁性晶体B(反应2)。A和B中的络离子均为正八面体构型。A和B遇水均放出氧气,并得到具有金红石型结构的化合物C(反应3和反应4)。若在真空下处理,A可以稳定到 $450^\\circ\\mathrm{C}$,而B在 $350^\\circ\\mathrm{C}$ 即分解(反应5),放出浅黄色气体,固体中检出A和C且二者摩尔比为2:1。A在液态HF中发生歧化(反应6),产物中含B和C,而B在液态HF中与足量 $\\mathrm{BF_3}$ 发生反应形成红色沉淀(反应7)。B还可与强 Lewis 酸 $\\mathrm{BiF_5}$ 混合形成固体推进剂,引发后放出浅黄色气体(反应8)。"
-    }
-  ],
-  "parts": [
-    {
-      "id": "part-000163-01",
-      "label": "5-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出A的化学式和磁矩(单位:$\\mu_{\\mathrm{B}}$)。写出B的化学式及其中镍离子价层电子组态(要求:用 $\\mathrm{t_{2g}}^x \\mathrm{e_g}^y$ 方式表示,$x$ 和 $y$ 分别代表电子数)。(提示:A和B中络离子的晶体场分裂能近似相等。)"
-        }
-      ]
-    },
-    {
-      "id": "part-000163-02",
-      "label": "5-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出反应1~8的反应方程式并配平。"
-        }
-      ]
+      "text": "在 $\\mathrm { N } _ { 2 }$ 保护和搅拌下，向 100 mL 0.40 mol L−1浅绿色 $\\mathrm { F e S O _ { 4 } }$ 溶液中加入 40 mL 0.80 mol L−1 的NaOH溶液，得到Fe(OH) 沉淀，保持通 $\\mathrm { N } _ { 2 }$ 升温⾄ $4 0 \\ ^ { \\circ } \\mathrm { C } ,$ 将气体切换为空气。随着空气通入，悬浊体系由浅绿色变深，形成蓝绿色沉淀A（反应1），继续通入空气，沉淀颜色变化，最后转化为⻩色固体B（反应2）。此时若停⽌通空气,向体系中补充适量NaOH并调控温度，B可以进一步与体系中的物种反应再变为A（反应3），也可转化为⿊色磁性物质C（反应4）。B在 $1 5 0 ~ ^ { \\circ } \\mathrm { C }$ 彻底脱⽔形成砖红色氧化物D，失重10.0%。 A是一种名为GR-II（Green Rust，绿锈，简称GR）的物质，其结构可从 $\\mathrm { F e ( O H ) _ { 2 } }$ 结构演变得到。Fe(OH) 2 为层状结构，层板由两层采取密堆积排布的OH-构成， $\\mathrm { F e ^ { 2 + } }$ 占据层板中密堆积形成的所有八面体空隙，层间通过氢键连接。若层板中部分Fe(II)被氧化为Fe(III)，会导致其带正电荷，因⽽需在层间引入阴离⼦平衡电荷，同时也带入⽔分⼦，形成绿锈。晶体衍射和谱学表征显示，GR-II中Fe(II)和 Fe(III)的原⼦比为 2:1。 5-1 写出A\\~D的化学式。（对A要求：价态不同的铁分开写并注明氧化数；此处可忽略层间⽔分⼦）。 5-2 写出反应1\\~4的离⼦方程式（提示：注意起始加入反应物的计量关系，确定反应体系的组成。） 5-3 有研究者通过差热分析确定GR-II结构中层间⽔分⼦的数⽬。结果显示，在 $8 0 { \\sim } 1 4 0 \\ ^ { \\circ } \\mathrm { C }$ 之间出现一个热效应为 $4 2 0 \\mathrm { J } \\mathrm { g } ^ { - 1 }$ 1的吸热峰，对应于⽔分⼦的脱去。在此范围⽔的蒸发焓为40.1kJ $\\mathrm { m o l ^ { - 1 } }$ ，可近似当作此条件下上述脱⽔反应的摩尔焓变。通过计算确定A的化学式中所含⽔分⼦数 $\\scriptstyle \\cdot n _ { \\ c }$ 。 5-4 若将起始反应物 $\\mathrm { F e S O _ { 4 } }$ 换成 $\\mathrm { F e C l _ { 2 } } .$ ，可形成类似层状结构的蓝绿色物质 $\\mathrm { G R - I } _ { \\circ }$ 鉴于 Cl−和 $\\mathrm { S O _ { 4 } ^ { 2 - } }$ 的大小、形状和电荷不同，当其进入层间时，3个Cl−取代2个 $\\mathrm { S O _ { 4 } ^ { 2 - } }$ −并导致层内阳离⼦电荷和层间堆积方式的调整。推出GR-I的化学式（价态不同的铁分开写并注明氧化数；忽略层间⽔分⼦）。"
     }
   ]
 }

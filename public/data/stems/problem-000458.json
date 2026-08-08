@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000049",
     "sourceLabel": "2015-29-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2015-29-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
   "renderingHints": {
     "mhchem": true
   },
@@ -51,7 +51,8 @@
         {
           "type": "figure",
           "caption": "反应图示(原图缺失)",
-          "alt": "反应物结构或反应条件图,原文档中缺失"
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "src": "data/stems/assets/problem-000458-figure-001.jpg"
         }
       ]
     }

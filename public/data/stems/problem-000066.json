@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000013",
     "sourceLabel": "2018-32-CChO-juesai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2018-32-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。DeepSeek 精修。",
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
   "renderingHints": {
     "mhchem": true
   },
@@ -22,7 +22,8 @@
     {
       "type": "figure",
       "caption": "合成路线图(原图缺失)",
-      "alt": "合成路线图,包含多个步骤和反应条件"
+      "alt": "合成路线图,包含多个步骤和反应条件",
+      "src": "data/stems/assets/problem-000066-figure-001.jpg"
     },
     {
       "type": "paragraph",
@@ -35,7 +36,26 @@
     {
       "type": "figure",
       "caption": "反应条件图(原图缺失)",
-      "alt": "反应条件图,包含 DMP 等试剂"
+      "alt": "反应条件图,包含 DMP 等试剂",
+      "src": "data/stems/assets/problem-000066-figure-002.jpg"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000066-figure-003.jpg",
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 3"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000066-figure-004.jpg",
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 4"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000066-figure-005.jpg",
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 5"
     }
   ],
   "parts": [

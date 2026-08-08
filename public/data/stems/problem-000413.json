@@ -10,19 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000047",
     "sourceLabel": "2013-27-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "DeepSeek 精修:原题干正文缺失,仅保留题目标题占位;已移除无效 callout,保留标题段落。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "6 · 多种绿色离子鉴别"
+      "text": "第6题（10分）某同学从书上得知，一定浓度的 $\\mathrm { F e ^ { 2 + } }$ 、 $\\mathrm { C r ( O H ) _ { 4 } } ^ { - } ,$ $\\mathrm { N i ^ { 2 + } }$ 、 $\\mathrm { M n O _ { 4 } }$ 2−和 $\\mathrm { C u C l _ { 3 } }$ −的⽔溶液都呈绿$\\mathtt { \\ E q } _ { \\mathtt { o } }$ 于是，请⽼师配制了这些离⼦的溶液。⽼师要求该同学用蒸馏⽔、稀硫酸以及试管、胶头滴管、白色点滴板等物品和尽可能少的步骤鉴别它们，从⽽了解这些离⼦溶液的颜色。请为该同学设计一个鉴别方案，用离⼦方程式表述反应并说明发生的现象（若A与B混合，必须写清是将A滴加到B中还是将B滴加到A中）。"
     }
-  ],
-  "parts": []
+  ]
 }

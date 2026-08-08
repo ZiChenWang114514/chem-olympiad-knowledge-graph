@@ -10,45 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000042",
     "sourceLabel": "2011-25-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2011-25-CChO-chusai/full.md)程序化切分并整理为结构化题干;已由 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000376-01",
-      "label": "4-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出 $\\mathrm{BaIn}_{0.55}\\mathrm{Co}_{0.45}\\mathrm{O}_{3-\\delta}$ 与 KI 和 HCl 反应的离子方程式。"
-        }
-      ]
-    },
-    {
-      "id": "part-000376-02",
-      "label": "4-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出滴定反应的离子方程式。"
-        }
-      ]
-    },
-    {
-      "id": "part-000376-03",
-      "label": "4-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算 $\\mathrm{BaIn}_{0.55}\\mathrm{Co}_{0.45}\\mathrm{O}_{3-\\delta}$ 样品中 Co 的氧化数 $S_{\\mathrm{Co}}$ 和氧缺陷的量(保留到小数点后两位)。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "第4题（9分）固溶体 $\\mathrm { B a I n } _ { x } \\mathrm { C o } _ { 1 - x } \\mathrm { O } _ { 3 - \\delta }$ 是兼具电⼦导电性与离⼦导电性的功能材料，Co的氧化数随组成和制备条件⽽变化，In则保持+3价不变。为测定化合物 $\\mathrm { B a I n } _ { 0 . 5 5 } \\mathrm { C O } _ { 0 . 4 5 } \\mathrm { O } _ { 3 - \\delta }$ 中Co的氧化数，确定化合物中的氧含量，进⾏了如下分析：称取0.2034 $\\mathrm { g }$ 样品，加入⾜量KI溶液和适量HCl溶液，与样品反应使其溶解。以淀粉为指示剂，用 0.05000 M $\\mathrm { N a _ { 2 } S _ { 2 } O _ { 3 } }$ 标准溶液滴定，消耗10.85 mL。 4-1 写出 $\\mathrm { B a I n } _ { 0 . 5 5 } \\mathrm { C O } _ { 0 . 4 5 } \\mathrm { O } _ { 3 - \\delta }$ 与KI和HCl反应的离⼦方程式。 4-2 写出滴定反应的离⼦方程式。 4-3 计算 $\\mathrm { B a I n } _ { 0 . 5 5 } \\mathrm { C O } _ { 0 . 4 5 } \\mathrm { O } _ { 3 - \\delta }$ 样品中Co的氧化数 $S _ { \\mathrm { C o } }$ 和氧缺陷的量?（保留到小数点后两位）。"
     }
   ]
 }

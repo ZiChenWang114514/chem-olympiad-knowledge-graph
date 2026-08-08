@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000041",
     "sourceLabel": "2010-24-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2010-24-CChO-chusai/full.md)程序化切分并整理为结构化题干;已由 DeepSeek 精修。请以官方纸质/PDF 为准。",
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
   },
@@ -22,6 +22,12 @@
     {
       "type": "paragraph",
       "text": "本题涉及灰黄霉素的结构与合成。"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000364-figure-001.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "题目配图"
     }
   ],
   "parts": [
@@ -35,8 +41,9 @@
         },
         {
           "type": "figure",
-          "caption": "灰黄霉素结构式(原图缺失)",
-          "alt": "灰黄霉素结构式"
+          "src": "data/stems/assets/problem-000364-figure-002.jpg",
+          "alt": "化学反应路线与结构式示意图（原图）",
+          "caption": "题目配图"
         }
       ]
     },
@@ -50,6 +57,7 @@
         },
         {
           "type": "list",
+          "ordered": false,
           "items": [
             "苯环上只有两种化学环境不同的氢;",
             "分子中只有一种官能团。"

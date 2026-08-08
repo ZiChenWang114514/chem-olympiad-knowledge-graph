@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000035",
     "sourceLabel": "2025年第39届全国中学生化学竞赛决赛理论试题资料.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "从2025决赛理论试题答案卷中仅抽取题干段落(截断于答案段);OCR 与切分可能有噪声。不含参考答案与评分材料。已由 DeepSeek 精修。",
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
   },
@@ -114,11 +114,6 @@
       "text": "5.3.2 $\\Delta G$ 与 $r$($r \\geq 0$)的关系如下图所示。"
     },
     {
-      "type": "figure",
-      "caption": "ΔG 与 r 的关系示意图(缺图)",
-      "alt": "ΔG 随 r 变化的曲线,存在极大值点对应临界成核半径 r*"
-    },
-    {
       "type": "paragraph",
       "text": "$\\Delta G$ 的极大值点代表成核所需克服的最大能垒,是判断晶核能否稳定生长的关键阈值,其对应的液滴半径被称为临界成核半径 $r^*$。试推导临界成核半径 $r^*$ 的计算公式,并计算 298 K 下水蒸气分压为 7.92 kPa 时的 $r^*$(结果保留 2 位有效数字)。已知:298.15 K 时,水的 $\\sigma = 7.2 \\times 10^{-2}\\ \\mathrm{N\\,m^{-1}}$,密度为 $1.00\\ \\mathrm{g\\,cm^{-3}}$。"
     },
@@ -133,6 +128,13 @@
     {
       "type": "paragraph",
       "text": "5.3.5 液滴生长后期,其半径远大于临界成核半径 $r^*$($r/r^* \\geq 1000$)。若液滴生长过程中,气相中过饱和蒸气的浓度可视为常数,推导液滴生长后期液滴半径生长速率 $\\mathrm{d}r/\\mathrm{d}t$ 关于液滴半径 $r$ 的方程及表观级数,并导出大液滴半径 $r$ 与时间 $t$ 的关系(初始条件为 $t=0$ 时 $r = r_0$)。提示:对 5.3.3 得到的生长动力方程进行合理近似后积分,$\\int x^n \\mathrm{d}x = (n+1)^{-1} x^{n+1} +$ 常数。"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000274-figure-001.jpg",
+      "alt": "实验数据图表或热力学曲线（原图）",
+      "caption": "题目配图"
     }
-  ]
+  ],
+  "parts": []
 }

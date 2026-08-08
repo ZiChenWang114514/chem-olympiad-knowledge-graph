@@ -10,76 +10,53 @@
   "source": {
     "sourceDocumentId": "source-000037",
     "sourceLabel": "2006-20-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2006-20-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与图注。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "figure",
-      "caption": "图 A",
-      "alt": "缺图:异构化过程图 A"
+      "type": "paragraph",
+      "text": "第3题（8分）下面四张图是用计算机制作的在密闭容器⾥，在不同条件下进⾏的异构化反应X ⇌ Y的进程图解。图中的◇是 X，◆是 $\\mathbf { Y } _ { \\circ }$"
+    },
+    {
+      "type": "paragraph",
+      "text": "A"
+    },
+    {
+      "type": "paragraph",
+      "text": "B"
+    },
+    {
+      "type": "paragraph",
+      "text": "C"
+    },
+    {
+      "type": "paragraph",
+      "text": "D 3-1 图中的纵坐标表示 （填入物理量，下同）；横坐标表示 0 3-2 平衡常数?最小的图是 C 3-3 平衡常数?最大的图是 3-4 平衡常数? = 1的图是"
     },
     {
       "type": "figure",
-      "caption": "图 B",
-      "alt": "缺图:异构化过程图 B"
+      "src": "data/stems/assets/problem-000282-figure-001.jpg",
+      "alt": "problem-000282题目配图第1幅（已按原图查看）"
     },
     {
       "type": "figure",
-      "caption": "图 C",
-      "alt": "缺图:异构化过程图 C"
+      "src": "data/stems/assets/problem-000282-figure-002.jpg",
+      "alt": "problem-000282题目配图第2幅（已按原图查看）"
     },
     {
       "type": "figure",
-      "caption": "图 D",
-      "alt": "缺图:异构化过程图 D"
-    }
-  ],
-  "parts": [
-    {
-      "id": "part-000282-01",
-      "label": "3-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "图中的纵坐标表示(填入物理量,下同);横坐标表示 0"
-        }
-      ]
+      "src": "data/stems/assets/problem-000282-figure-003.jpg",
+      "alt": "problem-000282题目配图第3幅（已按原图查看）"
     },
     {
-      "id": "part-000282-02",
-      "label": "3-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "平衡常数 $K$ 最小的图是 C"
-        }
-      ]
-    },
-    {
-      "id": "part-000282-03",
-      "label": "3-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "平衡常数 $K$ 最大的图是"
-        }
-      ]
-    },
-    {
-      "id": "part-000282-04",
-      "label": "3-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "平衡常数 $K = 1$ 的图是"
-        }
-      ]
+      "type": "figure",
+      "src": "data/stems/assets/problem-000282-figure-004.jpg",
+      "alt": "problem-000282题目配图第4幅（已按原图查看）"
     }
   ]
 }

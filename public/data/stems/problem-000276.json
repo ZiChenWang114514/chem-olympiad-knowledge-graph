@@ -10,38 +10,80 @@
   "source": {
     "sourceDocumentId": "source-000035",
     "sourceLabel": "2025年第39届全国中学生化学竞赛决赛理论试题资料.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "DeepSeek 精修:从2025决赛理论试题答案卷中仅抽取题干段落(截断于答案段);OCR 与切分可能有噪声,已修正错字与格式。不含参考答案与评分材料。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第7题 四氮唑类化合物及其反应性 (25 分)"
+      "text": "四氮唑(Formazan)类化合物具有与乙酰丙酮类似的螯合配位能力，可以与主族元素、过渡金属、以及稀土金属配位；此外，四氮唑还具有氧化还原性。因此，四氮唑类化合物具有非常多样的物化性质和反应活性。其中一个Formazan类化合物A的结构式如下图所示。A与BF3·THF 在甲苯中回流得到化合物 $\\mathsf { s } ;$ 在室温下和惰性气氛中，B与2当量 $\\tt N a / H g$ 齐反应三天，转化为化合物 $\\mathtt { c } _ { 1 }$ 和 $\\mathrm { N a F } .$ 。除芳环外，$\\mathtt { c } _ { 1 }$ 具有六元环结构，在反应过程中 B-N和N-N键会发生断裂和重组，生成4个 $\\mathtt { c } _ { 1 }$ 的同分异构体 $\\cot \\sim$ $\\mathtt { c 5 . }$ C2和 $\\mathtt { c } _ { 3 }$ 均含有硼杂五元环结构， $\\mathtt { c } _ { 2 }$ 中有两个N-N键，而 $\\mathtt { c 3 }$ 中仅有一个N-N键；除芳环外， $\\mathtt { c } _ { 4 }$ 还含有一个六元环结构；而 $\\mathtt { c } _ { 5 }$ 则为非环化合物。 7.1画出 B 和 $\\mathtt { c 1 } \\sim \\mathtt { c 5 }$ 的结构式。如有形式电荷，需标明；只需画出一个合理结构即可；画图时用tol代表 A 中的4-甲基苯基。"
     },
     {
       "type": "paragraph",
-      "text": "四氮唑(Formazan)类化合物具有与乙酰丙酮类似的螯合配位能力,可以与主族元素、过渡金属、以及稀土金属配位;此外,四氮唑还具有氧化还原性。因此,四氮唑类化合物具有非常多样的物化性质和反应活性。其中一个Formazan类化合物A的结构式如下图所示。A与BF3·THF在甲苯中回流得到化合物B;在室温下和惰性气氛中,B与2当量Na/Hg齐反应三天,转化为化合物C1和NaF。除芳环外,C1具有六元环结构,在反应过程中B-N和N-N键会发生断裂和重组,生成4个C1的同分异构体C2~C5。C2和C3均含有硼杂五元环结构,C2中有两个N-N键,而C3中仅有一个N-N键;除芳环外,C4还含有一个六元环结构;而C5则为非环化合物。"
+      "text": "7.2在答题纸上给出的骨架结构上画出T1、T2、以及 $\\boldsymbol { \\mathsf { T } } _ { 3 }$ 的结构式，需明确写出每个三聚体由 $c _ { 1 } \\sim c _ { 5 }$ 中哪三种单体构成，在骨架上标出对应的原子和取代基，无需标出单双键和形式电荷，但需要利用→代表配位键示出三聚时的单体连接方式。每个三聚体只需画出一个合理结构即可。"
+    },
+    {
+      "type": "paragraph",
+      "text": "7.3 在答题纸中的骨架上画出T2的结构，标出相应的原子和基团，不要求形式电荷。说明：答题纸骨架上的波浪线代表与T2中未发生异构化的部分连接。 在答题纸骨架结构上的画图方法说明：下图的例子给出了如何在带六个取代基的六元环骨架上画出4-苯基吡啶，图中NA代表该原子上无取代基。"
     },
     {
       "type": "figure",
-      "caption": "化合物A的结构式(原图缺失)",
-      "alt": "Formazan类化合物A的结构式"
+      "src": "data/stems/assets/problem-000276-figure-001.jpg",
+      "alt": "problem-000276题目配图第1幅（已按原图查看）"
     },
     {
-      "type": "paragraph",
-      "text": "7.1 画出B和C1~C5的结构式。如有形式电荷,需标明;只需画出一个合理结构即可;画图时用tol代表A中的4-甲基苯基。"
-    }
-  ],
-  "parts": [
+      "type": "figure",
+      "src": "data/stems/assets/problem-000276-figure-002.jpg",
+      "alt": "problem-000276题目配图第2幅（已按原图查看）"
+    },
     {
-      "id": "7.1",
-      "type": "question",
-      "text": "画出B和C1~C5的结构式。如有形式电荷,需标明;只需画出一个合理结构即可;画图时用tol代表A中的4-甲基苯基。"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000276-figure-003.jpg",
+      "alt": "problem-000276题目配图第3幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000276-figure-004.jpg",
+      "alt": "problem-000276题目配图第4幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000276-figure-005.jpg",
+      "alt": "problem-000276题目配图第5幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000276-figure-006.jpg",
+      "alt": "problem-000276题目配图第6幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000276-figure-007.jpg",
+      "alt": "problem-000276题目配图第7幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000276-figure-008.jpg",
+      "alt": "problem-000276题目配图第8幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000276-figure-009.jpg",
+      "alt": "problem-000276题目配图第9幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000276-figure-010.jpg",
+      "alt": "problem-000276题目配图第10幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000276-figure-011.jpg",
+      "alt": "problem-000276题目配图第11幅（已按原图查看）"
     }
   ]
 }

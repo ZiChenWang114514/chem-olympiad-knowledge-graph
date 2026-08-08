@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000003",
     "sourceLabel": "2008-22-CChO-juesai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2008-22-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理化学式与 LaTeX、规范小问结构。请以官方纸质/PDF 为准。",
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
   },
@@ -25,8 +25,9 @@
     },
     {
       "type": "figure",
-      "caption": "合成路线图(原图缺失)",
-      "alt": "香紫苏醇经多步反应合成降龙涎醚的路线图"
+      "src": "data/stems/assets/problem-000336-figure-001.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "题目配图"
     }
   ],
   "parts": [

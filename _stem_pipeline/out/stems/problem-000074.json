@@ -10,178 +10,40 @@
   "source": {
     "sourceDocumentId": "source-000053",
     "sourceLabel": "2019-33-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2019-33-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错误、整理公式与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000074-01",
-      "label": "8-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "现有如下待完成的反应:"
-        },
-        {
-          "type": "paragraph",
-          "text": "$$\\begin{array}{c} \\mathrm{D_H} \\\\ \\mathrm{H_3C} \\end{array} \\xrightarrow[\\text{Br}]{\\mathrm{Br_2}} \\xrightarrow[h\\nu]{}$$"
-        }
-      ]
+      "type": "paragraph",
+      "text": "第8题（14分） 8-1 现有如下待完成的反应：$$\\begin{array}{c} \\mathrm{D} _ {\\mathrm{H}} \\\\ \\mathrm{H} _ {3} \\mathrm{C} \\end{array} \\xrightarrow [ \\text {Br} ]{\\text {Br} _ {2}} \\xrightarrow [ h \\nu ]{}$$8-1-1 判断该反应物⼿性中⼼的构型。 8-1-2 画出此单溴化反应所有产物的结构简 __________ 8-2 变色眼镜⽚在阳光下显深色，从⽽保护人的眼睛；当人进入室内后，镜⽚逐步转变为无色透明，有利于在弱光下观察周边事物。⽬前流⾏的一种变色眼镜的变色原理如下："
     },
     {
-      "id": "part-000074-02",
-      "label": "8-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "-1 判断该反应物中心碳原子的构型。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "判断上述变色过程中反应条件c1和${ \\mathrm { c 2 } } .$，简述理由。 8-3 维生素C普遍存在于动植物中，在动物肝脏中以葡萄糖为原料经四步反应合成；工业生产的方式也是以葡萄糖经以下过程合成的："
     },
     {
-      "id": "part-000074-03",
-      "label": "8-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "-2 画出此单溴化反应所有产物的结构简式。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "8-3-1 写出反应a和b的具体条件（可以不写溶剂）。 8-3-2 画出 L-⼭梨糖和化合物 C 的 Fischer 投影式。 8-4 以下给出四个取代反应，右图为其中某一反应的反应势能图： (1)$\\mathrm { C H _ { 3 } C H _ { 2 } B r + N a O C H _ { 3 } }$(2)$\\mathrm { ( C H _ { 3 } ) _ { 3 } C B r + H O C H _ { 3 } }$(3)$( \\mathrm { C H _ { 3 } } ) _ { 2 } \\mathrm { C H I } + \\mathrm { K B r }$(4)$\\mathrm { ( C H _ { 3 } ) _ { 3 } C C l + ( C _ { 6 } H _ { 5 } ) _ { 3 } P }$![](assets/f7cfc0ce1fff_be0f72a06086aabfdb1554d586286f5fe92dfa29fbdd500dfda5dc79aa251d73.jpg) 8-4-1 指出哪个反应与此反应势能图相符。 8-4-2 画出过渡态E和F的结构式。"
     },
     {
-      "id": "part-000074-04",
-      "label": "8-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "变色眼镜片在阳光下显深色,从而保护人的眼睛;当人进入室内后,镜片逐步转变为无色透明,有利于在弱光下观察周边事物。目前流行的一种变色眼镜的变色原理如下:"
-        },
-        {
-          "type": "figure",
-          "caption": "变色原理示意图",
-          "alt": "变色眼镜变色原理的化学反应图示"
-        },
-        {
-          "type": "paragraph",
-          "text": "判断上述变色过程中反应条件c1和c2,简述理由。"
-        }
-      ]
+      "type": "figure",
+      "src": "data/stems/assets/problem-000074-figure-001.jpg",
+      "alt": "problem-000074题目配图第1幅（已按原图查看）"
     },
     {
-      "id": "part-000074-05",
-      "label": "8-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "维生素C普遍存在于动植物中,在动物肝脏中以葡萄糖为原料经四步反应合成;工业生产的方式也是以葡萄糖经以下过程合成的:"
-        },
-        {
-          "type": "figure",
-          "caption": "合成路线图",
-          "alt": "由葡萄糖合成维生素C的工业过程图示"
-        }
-      ]
+      "type": "figure",
+      "src": "data/stems/assets/problem-000074-figure-002.jpg",
+      "alt": "problem-000074题目配图第2幅（已按原图查看）"
     },
     {
-      "id": "part-000074-06",
-      "label": "8-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "-1 写出反应a和b的具体条件(可以不写溶剂)。"
-        }
-      ]
-    },
-    {
-      "id": "part-000074-07",
-      "label": "8-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "-2 画出 L-山梨糖和化合物 C 的 Fischer 投影式。"
-        }
-      ]
-    },
-    {
-      "id": "part-000074-08",
-      "label": "8-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "以下给出四个取代反应,右图为其中某一反应的反应势能图:"
-        }
-      ]
-    },
-    {
-      "id": "part-000074-09",
-      "label": "(1)",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "$\\mathrm{CH_3CH_2Br + NaOCH_3}$"
-        }
-      ]
-    },
-    {
-      "id": "part-000074-10",
-      "label": "(2)",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "$\\mathrm{(CH_3)_3CBr + HOCH_3}$"
-        }
-      ]
-    },
-    {
-      "id": "part-000074-11",
-      "label": "(3)",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "$\\mathrm{(CH_3)_2CHI + KBr}$"
-        }
-      ]
-    },
-    {
-      "id": "part-000074-12",
-      "label": "(4)",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "$\\mathrm{(CH_3)_3CCl + (C_6H_5)_3P}$"
-        },
-        {
-          "type": "figure",
-          "caption": "反应势能图",
-          "alt": "某一取代反应的反应势能图"
-        }
-      ]
-    },
-    {
-      "id": "part-000074-13",
-      "label": "8-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "-1 指出哪个反应与此反应势能图相符。"
-        }
-      ]
-    },
-    {
-      "id": "part-000074-14",
-      "label": "8-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "-2 画出过渡态E和F的结构式。"
-        }
-      ]
+      "type": "figure",
+      "src": "data/stems/assets/problem-000074-figure-003.jpg",
+      "alt": "problem-000074题目配图第3幅（已按原图查看）"
     }
   ]
 }

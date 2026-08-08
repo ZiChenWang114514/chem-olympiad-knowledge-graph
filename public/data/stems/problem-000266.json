@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000063",
     "sourceLabel": "2025-39-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2025-39-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
   "renderingHints": {
     "mhchem": true
   },
@@ -68,22 +68,26 @@
     {
       "type": "figure",
       "caption": "syn-1",
-      "alt": "syn-1 结构图(缺图)"
+      "alt": "syn-1 结构图(缺图)",
+      "src": "data/stems/assets/problem-000266-figure-001.jpg"
     },
     {
       "type": "figure",
       "caption": "",
-      "alt": "缺图"
+      "alt": "缺图",
+      "src": "data/stems/assets/problem-000266-figure-002.jpg"
     },
     {
       "type": "figure",
       "caption": "",
-      "alt": "缺图"
+      "alt": "缺图",
+      "src": "data/stems/assets/problem-000266-figure-003.jpg"
     },
     {
       "type": "figure",
       "caption": "",
-      "alt": "缺图"
+      "alt": "缺图",
+      "src": "data/stems/assets/problem-000266-figure-004.jpg"
     },
     {
       "type": "paragraph",
@@ -138,12 +142,14 @@
     {
       "type": "figure",
       "caption": "gauche-3",
-      "alt": "gauche-3 结构图(缺图)"
+      "alt": "gauche-3 结构图(缺图)",
+      "src": "data/stems/assets/problem-000266-figure-005.jpg"
     },
     {
       "type": "figure",
       "caption": "staggered-3",
-      "alt": "staggered-3 结构图(缺图)"
+      "alt": "staggered-3 结构图(缺图)",
+      "src": "data/stems/assets/problem-000266-figure-006.jpg"
     },
     {
       "type": "paragraph",
@@ -173,22 +179,26 @@
     {
       "type": "figure",
       "caption": "A",
-      "alt": "构象 A(缺图)"
+      "alt": "构象 A(缺图)",
+      "src": "data/stems/assets/problem-000266-figure-007.jpg"
     },
     {
       "type": "figure",
       "caption": "B",
-      "alt": "构象 B(缺图)"
+      "alt": "构象 B(缺图)",
+      "src": "data/stems/assets/problem-000266-figure-008.jpg"
     },
     {
       "type": "figure",
       "caption": "C",
-      "alt": "构象 C(缺图)"
+      "alt": "构象 C(缺图)",
+      "src": "data/stems/assets/problem-000266-figure-009.jpg"
     },
     {
       "type": "figure",
       "caption": "D",
-      "alt": "构象 D(缺图)"
+      "alt": "构象 D(缺图)",
+      "src": "data/stems/assets/problem-000266-figure-010.jpg"
     },
     {
       "type": "paragraph",
@@ -209,7 +219,8 @@
     {
       "type": "figure",
       "caption": "",
-      "alt": "四个化合物结构图(缺图)"
+      "alt": "四个化合物结构图(缺图)",
+      "src": "data/stems/assets/problem-000266-figure-011.jpg"
     },
     {
       "type": "paragraph",
@@ -294,7 +305,8 @@
     {
       "type": "figure",
       "caption": "",
-      "alt": "反应示意图(缺图)"
+      "alt": "反应示意图(缺图)",
+      "src": "data/stems/assets/problem-000266-figure-012.jpg"
     },
     {
       "type": "paragraph",
@@ -303,12 +315,14 @@
     {
       "type": "figure",
       "caption": "A 图",
-      "alt": "反应进程图 A(缺图)"
+      "alt": "反应进程图 A(缺图)",
+      "src": "data/stems/assets/problem-000266-figure-013.jpg"
     },
     {
       "type": "figure",
       "caption": "B 图",
-      "alt": "反应进程图 B(缺图)"
+      "alt": "反应进程图 B(缺图)",
+      "src": "data/stems/assets/problem-000266-figure-014.jpg"
     },
     {
       "type": "paragraph",
@@ -317,7 +331,8 @@
     {
       "type": "figure",
       "caption": "",
-      "alt": "答案结构图(缺图)"
+      "alt": "答案结构图(缺图)",
+      "src": "data/stems/assets/problem-000266-figure-015.jpg"
     },
     {
       "type": "paragraph",
@@ -330,7 +345,8 @@
     {
       "type": "figure",
       "caption": "",
-      "alt": "缺图"
+      "alt": "缺图",
+      "src": "data/stems/assets/problem-000266-figure-016.jpg"
     },
     {
       "type": "heading",

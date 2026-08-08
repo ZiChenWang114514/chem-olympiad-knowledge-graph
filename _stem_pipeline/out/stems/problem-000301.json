@@ -10,19 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000038",
     "sourceLabel": "2007-21-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2007-21-CChO-chusai/full.md)程序化切分并整理为结构化题干;经 DeepSeek 精修(OCR错字、LaTeX、结构)。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "A、B脱水都能形成 $\\mathrm{N_2O_3}$,由A得到 $\\mathrm{N^*NO}$ 和 $\\mathrm{NN^*O}$,而由B只得到 $\\mathrm{NN^*O}$。请分别写出A和B的路易斯结构式。"
+      "text": "第2题（6分）羟胺和用同位素标记氮原⼦(N\\*)的亚硝酸在不同介质中发生反应，方程式如下：$\\mathrm { N H _ { 2 } O H + H N ^ { \\star } O _ { 2 } A + H _ { 2 } O }$ NH 2 OH + HN\\*O 2 → B + H 2 O A、B脱⽔都能形成 $\\mathrm { N } _ { 2 } \\mathrm { O } _ { 3 }$ ，由A得到 $\\mathrm { N } ^ { \\ast } \\mathrm { N O }$ 和 $\\mathrm { N N ^ { \\star } O }$ ，⽽由B只得到 $\\mathrm { N N ^ { \\star } O _ { c } }$ 。请分别写出A和B的路易斯结构式。"
     }
-  ],
-  "parts": []
+  ]
 }

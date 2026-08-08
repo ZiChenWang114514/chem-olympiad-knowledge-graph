@@ -10,23 +10,24 @@
   "source": {
     "sourceDocumentId": "source-000037",
     "sourceLabel": "2006-20-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2006-20-CChO-chusai/full.md)程序化切分并整理为结构化题干;经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "figure",
-      "caption": "甲醇合成流程图",
-      "alt": "流程图:1为甲烷气源,2为水蒸气源,经A(重整)后混合气经3进入冷凝器,冷凝物由5流出,气体经4进入B(合成塔),产物经6进入冷凝器,甲醇由7流出。"
-    },
-    {
       "type": "paragraph",
       "text": "其中,1为甲烷气源,压强250.0 kPa,温度25 °C,流速55.0 m3 s−1。2为水蒸气源,压强200.0 kPa,温度150 °C,流速150.0 m3 s−1。合成气和剩余反应物的混合物经管路3进入25 °C的冷凝器(condenser),冷凝物由管路5流出。在B中合成的甲醇和剩余反应物的混合物经6进入25 °C的冷凝器,甲醇冷凝后经管路7流出,其密度为0.791 g mL−1。"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000291-figure-001.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "甲醇合成流程图"
     }
   ],
   "parts": [

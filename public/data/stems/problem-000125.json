@@ -10,19 +10,26 @@
   "source": {
     "sourceDocumentId": "source-000055",
     "sourceLabel": "2021-35-CChO-chusai-fujian.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "DeepSeek 精修:原题干自动切分失败,仅保留标题占位;已移除无信息 callout,保留题号与标题。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "4 · 晶体结构与晶胞"
+      "text": "有一⽴方晶系二元合金，单胞参数 $\\dot { a } = 7 0 3 . 4 \\mathrm { p m } _ { \\circ }$ 单胞中的金属A原⼦与金刚⽯中碳原⼦位置相同，原⼦处于密堆积状态。在单胞中有若⼲金属B原⼦，每4个B原⼦构成一个正四面体(B 4 )，已知晶胞中 $\\mathrm { { B } } _ { 4 }$ 的位置可看成填充于A原⼦堆积形成的四面体孔隙中，沿轴向的单胞投影示意图如图所示。"
+    },
+    {
+      "type": "paragraph",
+      "text": "4-1 写出二元合金的化学式。 4-2 已知金属A和B的原⼦量分别为24.31和53.55，计算合金的理论密度。 4-3 晶胞的单位点阵型式。 4-4 实际上，大部分该类结构二元合金的原⼦半径比 $r _ { \\mathrm { A } } / r _ { \\mathrm { B } }$ 处于1.1\\~1.4 之间，假设沿单胞面对角线方向上的B原⼦在整个结构紧密接触，计算金属B的原⼦半径和 $r _ { \\mathrm { A } } / r _ { \\mathrm { B } }$ 值。"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000125-figure-001.jpg",
+      "alt": "problem-000125题目配图第1幅（已按原图查看）"
     }
-  ],
-  "parts": []
+  ]
 }

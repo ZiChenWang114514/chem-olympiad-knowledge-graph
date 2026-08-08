@@ -10,15 +10,22 @@
   "source": {
     "sourceDocumentId": "source-000015",
     "sourceLabel": "2020-34-CChO-juesai-1.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2020-34-CChO-juesai-2/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [],
+  "blocks": [
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000096-figure-001.jpg",
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
+    }
+  ],
   "parts": [
     {
       "id": "part-000096-01",
@@ -27,11 +34,6 @@
         {
           "type": "paragraph",
           "text": "等物质的量的二氧化碳可和钛配合物 CpTiMe (下图)在戊烷溶液中光照(350 nm)条件下发生“插入”反应。画出该反应产物的结构式。"
-        },
-        {
-          "type": "figure",
-          "caption": "钛配合物 CpTiMe 的结构图(原图缺失)",
-          "alt": "钛配合物 CpTiMe 的结构图"
         }
       ]
     },
@@ -42,11 +44,6 @@
         {
           "type": "paragraph",
           "text": "二氧化碳“插入”到过渡金属配合物中的 M—N 键中生成相应的配合物。一个例子是配合物 $\\eta^{5}$-CpRu(NH$_2$)dcpe (dcpe = Cy$_2$PCH$_2$CH$_2$PCy$_2$, Cy: 环己基,见下图,配体 dcpe 省略)和二氧化碳在 THF(四氢呋喃)中的反应。画出该反应的关键中间体和产物的结构式。"
-        },
-        {
-          "type": "figure",
-          "caption": "配合物 $\\eta^{5}$-CpRu(NH$_2$)dcpe 的结构图(原图缺失)",
-          "alt": "配合物 $\\eta^{5}$-CpRu(NH$_2$)dcpe 的结构图"
         }
       ]
     },
@@ -57,11 +54,6 @@
         {
           "type": "paragraph",
           "text": "二氧化碳可“插入”到双金属配合物内的 M—M′ 键得以固定。有研究表明, Fe-Zr 双金属配合物 Cp(CO)$_2$Fe-Zr(Cl)Cp$_2$ (下图)中插入等物质的量的二氧化碳的反应过程经过一四元环过渡态进而形成产物。画出该过渡态和产物的结构式。"
-        },
-        {
-          "type": "figure",
-          "caption": "Fe-Zr 双金属配合物 Cp(CO)$_2$Fe-Zr(Cl)Cp$_2$ 的结构图(原图缺失)",
-          "alt": "Fe-Zr 双金属配合物 Cp(CO)$_2$Fe-Zr(Cl)Cp$_2$ 的结构图"
         }
       ]
     },
@@ -72,11 +64,6 @@
         {
           "type": "paragraph",
           "text": "用于二氧化碳催化转化的钳型铱配合物 (PNPyP)IrHX (X = Me, OH; Me 为甲基)的结构如下图所示。研究表明,该结构中 Ir-H$_a$ 键的键长较 Ir-H$_b$ 键为短。"
-        },
-        {
-          "type": "figure",
-          "caption": "钳型铱配合物 (PNPyP)IrHX 的结构图(原图缺失)",
-          "alt": "钳型铱配合物 (PNPyP)IrHX 的结构图"
         }
       ]
     },
@@ -107,11 +94,6 @@
         {
           "type": "paragraph",
           "text": "二氧化碳和如下图所示的化合物 (Ar-2,6-$^{i}$Pr$_2$C$_6$H$_3$) 在甲苯中发生 1:1 加成反应;较之反应物,产物内的磷-磷键长变短而磷-镓键长变长。画出该产物的结构式。"
-        },
-        {
-          "type": "figure",
-          "caption": "化合物 (Ar-2,6-$^{i}$Pr$_2$C$_6$H$_3$) 的结构图(原图缺失)",
-          "alt": "化合物 (Ar-2,6-$^{i}$Pr$_2$C$_6$H$_3$) 的结构图"
         }
       ]
     }

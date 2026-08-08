@@ -10,35 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000041",
     "sourceLabel": "2010-24-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2010-24-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000362-01",
-      "label": "8-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算从阴极放出的氢气的体积。"
-        }
-      ]
-    },
-    {
-      "id": "part-000362-02",
-      "label": "8-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算电解所需的时间(以小时为单位)。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "第8题（6分）在 $2 5 ~ ^ { \\circ } \\mathrm { C }$ 和 101.325 kPa 下，向电解池通入 0.04193 A 的恒定电流，阴极 $\\left( \\mathrm { P t } , \\ 0 . 1 \\mathrm { M } \\mathrm { H N O } _ { 3 } \\right)$ 放出氢气，阳极(Cu，0.1 M NaCl)得到 $\\mathrm { { C u ^ { 2 + } } }$ 。用0.05115 M的EDTA标准溶液滴定产生的 $\\mathrm { C u ^ { 2 + } }$ ，消耗了 53.12$\\mathrm { m L } _ { \\mathrm { c } }$ 8-1 计算从阴极放出的氢气的体积。 8-2 计算电解所需的时间（以小时为单位）。"
     }
   ]
 }

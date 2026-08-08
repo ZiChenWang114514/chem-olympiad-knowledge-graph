@@ -10,83 +10,62 @@
   "source": {
     "sourceDocumentId": "source-000057",
     "sourceLabel": "2021-35-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2021-35-CChO-chusai-jiangsu/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000121-01",
-      "label": "10-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "反应溶剂可以影响氮杂环丙烷环化反应的产物。在不同的溶剂中,1-苄基-2-乙烯基氮杂环丙烷与对甲苯磺酰异氰酸酯反应选择性地得到五元环或七元环的产物。"
-        },
-        {
-          "type": "figure",
-          "caption": "反应示意图(缺图)",
-          "alt": "反应物与产物示意图"
-        },
-        {
-          "type": "paragraph",
-          "text": "画出 M、N 的结构简式,并画出生成 N 的过程中必定经过的两个关键中间体。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "第10题（15分） 10-1 画出酰胺A的共振式。"
     },
     {
-      "id": "part-000121-02",
-      "label": "10-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "氮杂环丙烷上的取代基可以影响反应的产率和环化产物。(顺)-1-苄基-2-苯基-3-乙烯基氮杂环丙烷与对甲苯磺酰异氰酸酯只能得到较低产率的五元环产物。请画出该环化产物 Y 及该转化过程中必定经过的两个关键中间体的结构简式(须画出产物及中间体的立体结构,并标明 Y 中心手性的立体结构)。"
-        },
-        {
-          "type": "figure",
-          "caption": "反应示意图(缺图)",
-          "alt": "反应物与产物示意图"
-        }
-      ]
+      "type": "paragraph",
+      "text": "A B 10-2 当酰胺B氮原⼦与两个原⼦连接时，杂原⼦上孤对电⼦会产生端基效应，从⽽可以在酰胺的氮原⼦上进⾏亲核取代反应。 10-2-1 当Y为⼄氧基时，Z分别为含N、O的基团或F原⼦，判断这三种杂原⼦中哪一个原⼦取代的酰胺具有 最强的端基效应？ 10-2-2 当酰胺转化为磺酰胺时，此类端基效应是增强还是降低？简述理由。 10-3 分⼦编辑在合成化学方面展示出巨大的潜力。最近，科学家利用具有端基效应的酰胺对二级胺⻣架进⾏编辑，直接“删除”氮原⼦，放出氮气，形成C—C键，突破了传统逆合成法的思路："
     },
     {
-      "id": "part-000121-03",
-      "label": "10-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "请画出以下反应主要产物 Z 的结构简式。"
-        },
-        {
-          "type": "figure",
-          "caption": "反应示意图(缺图)",
-          "alt": "反应物与产物示意图"
-        }
-      ]
+      "type": "paragraph",
+      "text": "研究结果表明，C—C键的形成采用了紧密⾃由基对机理，即“删除”氮原⼦的过程中，形成了两个⾃由基，然后两个⾃由基结合形成产物。画出此转化过程中必定经过的两个关键中间体。 10-4 双重重排反应（Dyotropic重排反应）是指相邻两个原⼦上的键发生协同重排⻣架上取代基的位置发生相应的改变。其反应通式如下图所示："
     },
     {
-      "id": "part-000121-04",
-      "label": "10-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "化合物 K 是一种高效的清除溶液中有机胺类化合物的试剂。将其加入到溶有苄胺的四氢呋喃溶液中充分反应,没有明显沉淀产生,然后在 350 nm 紫外光的照射下,有白色固体析出。通过检测,溶液中已无苄胺。请画出该白色固体的结构简式,并解释白色固体析出的原因。"
-        },
-        {
-          "type": "figure",
-          "caption": "反应示意图(缺图)",
-          "alt": "反应物与产物示意图"
-        },
-        {
-          "type": "paragraph",
-          "text": "题目中缩写符号说明:Me:甲基;Et:乙基;Ph:苯基;Ts:对甲苯磺酰基;Bn:苄基;DMF:二甲基甲酰胺;r.t.:室温。理想气体常数 $R = 8.314\\ \\mathrm{J\\ mol^{-1}\\ K^{-1}}$。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "该反应具有高度的⽴体专一性，被⼴泛应用于复杂分⼦的合成。依据以上信息，完成以下反应式（须画出产物的⽴体结构，并标明⼿性中⼼的⽴体构型）："
+    },
+    {
+      "type": "paragraph",
+      "text": "10-4-4 画出如下转换过程中的中间体结构，判断产物结构中未标明⽴体化学的不对称碳原⼦的⽴体构型："
+    },
+    {
+      "type": "paragraph",
+      "text": "题⽬中缩写符号说明：Ar：芳基；Bn：苄基；tBu：叔丁基；equiv：当量；Et：⼄基；Me：甲基；Ph：苯基；THF：四氢呋喃；TMS：三甲基硅基；Ts：对甲苯磺酰基。"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000121-figure-001.jpg",
+      "alt": "problem-000121题目配图第1幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000121-figure-002.jpg",
+      "alt": "problem-000121题目配图第2幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000121-figure-003.jpg",
+      "alt": "problem-000121题目配图第3幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000121-figure-004.jpg",
+      "alt": "problem-000121题目配图第4幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000121-figure-005.jpg",
+      "alt": "problem-000121题目配图第5幅（已按原图查看）"
     }
   ]
 }

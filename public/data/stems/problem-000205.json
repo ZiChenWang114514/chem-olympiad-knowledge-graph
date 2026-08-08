@@ -10,18 +10,18 @@
   "source": {
     "sourceDocumentId": "source-000060",
     "sourceLabel": "2023-37-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2023-37-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "对题目8-1至8-5所提问题进行判断并提供合理解释,对题目8-6和8-7则按所给条件和要求解答。"
+      "text": "对题目8-1至8-5所提问题进行判断并提供合理解释,对题目8-6和8-7则按所给条件和要求"
     }
   ],
   "parts": [
@@ -92,6 +92,12 @@
         {
           "type": "paragraph",
           "text": "下表中列出酰胺化反应中常用的一些活化试剂。画出RCOOH被以下等量试剂活化后的中间体结构式(接下来与胺反应形成酰胺)。"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000205-figure-001.jpg",
+          "alt": "化学反应路线与结构式示意图（原图）",
+          "caption": "(图:)"
         }
       ]
     },
@@ -102,11 +108,6 @@
         {
           "type": "paragraph",
           "text": "-1 PPh$_3$, CBrCl$_3$  8-7-2 CyN=C=NCy  8-7-3 Ac$_2$O"
-        },
-        {
-          "type": "figure",
-          "caption": "(图:)",
-          "alt": "缺图,原题此处有表格或图"
         }
       ]
     }

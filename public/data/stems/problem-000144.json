@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000017",
     "sourceLabel": "2021-35-CChO-juesai-1.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2021-35-CChO-juesai-1/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理公式与结构。请以官方纸质/PDF 为准。",
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
   "renderingHints": {
     "mhchem": true
   },
@@ -22,7 +22,8 @@
     {
       "type": "figure",
       "caption": "图 3-1",
-      "alt": "二维材料结构示意图"
+      "alt": "二维材料结构示意图",
+      "src": "data/stems/assets/problem-000144-figure-001.jpg"
     }
   ],
   "parts": [
@@ -57,7 +58,8 @@
         {
           "type": "figure",
           "caption": "",
-          "alt": "碳原子缺陷位示意图"
+          "alt": "碳原子缺陷位示意图",
+          "src": "data/stems/assets/problem-000144-figure-002.jpg"
         }
       ]
     },
@@ -72,7 +74,8 @@
         {
           "type": "figure",
           "caption": "",
-          "alt": "HCl 与 Au-N3 位点结合的结构模拟图"
+          "alt": "HCl 与 Au-N3 位点结合的结构模拟图",
+          "src": "data/stems/assets/problem-000144-figure-003.jpg"
         }
       ]
     }

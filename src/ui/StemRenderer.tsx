@@ -134,9 +134,8 @@ export function StemRenderer({ stem }: { stem: ProblemStem }) {
     >
       <header className="stem-doc-head">
         <div className="stem-doc-kicker">
-          <span>题干</span>
-          {demo ? <span className="stem-badge demo">演示排版</span> : <span className="stem-badge live">审定题干</span>}
-          <span className="stem-badge soft">{stem.rightsState}</span>
+          <span>题目</span>
+          {demo ? <span className="stem-badge demo">演示排版</span> : null}
         </div>
         <h2 className="stem-doc-title">
           {stem.number} · {stem.title}
@@ -145,7 +144,6 @@ export function StemRenderer({ stem }: { stem: ProblemStem }) {
           {stem.examYear ? `${stem.examYear} · ` : ''}
           来源 {stem.source.sourceLabel}
           {stem.source.page != null ? ` · 页 ${stem.source.page}` : ''}
-          {` · ${stem.source.transcriptionMethod}`}
         </p>
         {stem.provenanceNote ? <p className="stem-provenance">{stem.provenanceNote}</p> : null}
       </header>
@@ -177,7 +175,7 @@ export function StemUnavailable({ reason }: { reason?: string }) {
       <b>题文暂不公开</b>
       <p>
         {reason ||
-          '本题尚未提供结构化题干文件。公开站仅在 rights 允许时加载 data/stems 中的审定内容；答案与评分永不发布。'}
+          '本题尚未提供结构化题干文件。公开站仅在来源许可时加载题干内容；答案与评分永不发布。'}
       </p>
     </div>
   )

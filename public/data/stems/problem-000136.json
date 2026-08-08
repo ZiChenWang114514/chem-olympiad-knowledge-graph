@@ -10,19 +10,26 @@
   "source": {
     "sourceDocumentId": "source-000056",
     "sourceLabel": "2021-35-CChO-chusai-jiangsu.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "DeepSeek 精修:原题干切分失败,仅保留标题占位,待人工补全正文。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "5 · 晶体结构与晶胞"
+      "text": "第5题（10分）金属氮化物晶体结构 金属氮化物材料具有高硬度、高熔点、高热稳定性特点。最近，科学家研究的某三元氮化物表现出特殊导电性质。该晶体结构如图4所示。每一层氮原⼦都是密置层，且层间距相等。铁原⼦和钨原⼦相间填充在两层氮原⼦之间，钨原⼦填充在氮原⼦形成的三棱柱配位体中⼼，铁原⼦填充在氮原⼦形成的八面配位体中⼼。"
+    },
+    {
+      "type": "paragraph",
+      "text": "图4 三元氮化物结构 5-1 请根据晶体结构画出一个晶胞（N放在顶点位置，以●表示N原⼦，以◯表示Fe原⼦，以ⓧ表示W原⼦），并写出晶胞中金属原⼦的分数坐标。 5-2 分别用 $\\mathrm { A / B / C }$ 表示氮原⼦，a/b/c表示铁原⼦， $\\mathrm { a ^ { \\prime } / b ^ { \\prime } / c ^ { \\prime } }$ 表示钨原⼦的堆积位置，请表示出沿?轴方向原⼦的堆积方式（如 $\\mathrm { { A c B a ^ { \\prime } C b A } ) }$ o 5-3 已知晶胞参数 $a \\ = 0 . 2 8 7 6 \\ \\mathrm { n m } , \\ c \\ = 1 . 0 9 3 \\ \\mathrm { n m } \\circ$ 5-3-1 计算该晶体的密度?。 5-3-2 计算该晶体中W原⼦与N原⼦的最短核间距?。 5-4 该晶体中金属原⼦与氮原⼦之间的作用力有明显的共价成分，表现出各向异性的金属导电性，请指出晶体的导电方向，并简要说明理由。"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000136-figure-001.jpg",
+      "alt": "problem-000136题目配图第1幅（已按原图查看）"
     }
-  ],
-  "parts": []
+  ]
 }

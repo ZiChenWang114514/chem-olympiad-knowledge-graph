@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000053",
     "sourceLabel": "2019-33-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2019-33-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
   },
@@ -60,9 +60,9 @@
         },
         {
           "type": "figure",
-          "caption": "晶胞示意图(缺图)",
-          "alt": "晶胞示意图,显示A、B原子位置",
-          "src": ""
+          "src": "data/stems/assets/problem-000072-figure-001.jpg",
+          "alt": "晶体结构或分子模型示意图（原图）",
+          "caption": "题目配图"
         }
       ]
     }

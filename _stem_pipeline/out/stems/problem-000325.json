@@ -10,45 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000039",
     "sourceLabel": "2008-22-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2008-22-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000325-01",
-      "label": "8-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "将上述氢化物与金属镍在一定条件下用球磨机研磨,可制得化学式为 $\\mathrm{MgNiH_4}$ 的化合物。X射线衍射分析表明,该化合物的立方晶胞的棱心和顶点均被镍原子占据,所有镁原子的配位数都相等。推断镁原子在 $\\mathrm{MgNiH_4}$ 晶胞中的位置(写出推理过程)。"
-        }
-      ]
-    },
-    {
-      "id": "part-000325-02",
-      "label": "8-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "实验测定,上述 $\\mathrm{MgNiH_4}$ 晶体的晶胞参数为 646.5 pm,计算该晶体中镁和镍的核间距。已知镁和镍的原子半径分别为 159.9 pm 和 124.6 pm。"
-        }
-      ]
-    },
-    {
-      "id": "part-000325-03",
-      "label": "8-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "若以材料中氢的密度与液态氢密度之比定义储氢材料的储氢能力,计算 $\\mathrm{MgNiH_4}$ 的储氢能力(假定氢可全部放出;液氢的密度为 $0.0708\\ \\mathrm{g\\ cm^{-3}}$)。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "第8题（9分）由烷基镁热分解制得镁的氢化物。实验测定，该氢化物中氢的质量分数为7.6%，氢的密度为$0 . 1 0 1 \\mathrm { g } \\mathrm { c m } ^ { - 3 }$ ，镁和氢的核间距为 $1 9 4 . 8 \\mathrm { p m } _ { \\circ }$ 已知氢原⼦的共价半径为37pm， $\\mathrm { M g ^ { 2 + } }$ 的离⼦半径为 $7 2 \\mathrm { p m } _ { \\mathrm { c } }$ 8-1 写出该氢化物中氢的存在形式，并简述理由。 8-2 将上述氢化物与金属镍在一定条件下用球磨机研磨，可制得化学式为 $\\mathrm { M g N i H _ { 4 } }$ 的化合物。X射线衍射分析表明，该化合物的⽴方晶胞的面⼼和顶点均被镍原⼦占据，所有镁原⼦的配位数都相等。推断镁原⼦在$\\mathrm { M g N i H _ { 4 } }$ 晶胞中的位置（写出推理过程）。 8-3 实验测定，上述 $\\mathrm { M g N i H _ { 4 } }$ 晶体的晶胞参数为 646.5 pm，计算该晶体中镁和镍的核间距。已知镁和镍的原⼦半径分别为 159.9 pm 和 124.6 pm。 8-4 若以材料中氢的密度与液态氢密度之比定义储氢材料的储氢能力，计算 $\\mathrm { M g N i H _ { 4 } }$ 的储氢能力（假定氢可全部放出；液氢的密度为0.0708 $\\mathrm { g c m ^ { - 3 } } )$"
     }
   ]
 }

@@ -10,66 +10,31 @@
   "source": {
     "sourceDocumentId": "source-000050",
     "sourceLabel": "2016-30-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2016-30-CChO-chusai/full.md)程序化切分并整理为结构化题干;经 DeepSeek 精修题干呈现(OCR 错字、LaTeX、图块、小问结构)。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "figure",
-      "caption": "高温相(原图缺失)",
-      "alt": "高温相结构示意图(缺图)"
+      "type": "paragraph",
+      "text": "第4题（10分）固体电解质以其在电池、传感器等装置中的⼴泛应用⽽备受关注。现有一种由正离⼦ $\\mathbf { A } ^ { n + }$ $\\mathbf { B } ^ { m + }$ 和负离⼦X−组成的无机固体电解质，该物质 $5 0 . 7 ~ ^ { \\circ } \\mathrm { C }$ 以上形成无序结构（高温相）， $5 0 . 7 ~ ^ { \\circ } \\mathrm { C }$ 以下变为有序结构（低温相），二者结构示意⻅下图。图中，浅色球为负离⼦；高温相中的深色球为正离⼦或空位；低温相中的大深色球为 $\\mathbf { A } ^ { n + }$ 离⼦，小深色球为 $\\mathbf { B } ^ { m + }$ 离⼦。"
+    },
+    {
+      "type": "paragraph",
+      "text": "4-1 推出这种电解质的化学式，写出?和?的值。 4-2 温度变化会导致晶体在⽴方晶系和四方晶系之间转换，上述哪种晶相属于⽴方晶系？ 4-3 写出负离⼦的堆积方式及形成的空隙类型。指出正离⼦占据的空隙类型及占有率。 4-4 高温相具有良好的离⼦导电性，这源于哪种离⼦的迁移？简述导电性与结构的关系。"
     },
     {
       "type": "figure",
-      "caption": "低温相(原图缺失)",
-      "alt": "低温相结构示意图(缺图)"
-    }
-  ],
-  "parts": [
-    {
-      "id": "part-000015-01",
-      "label": "4-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "推出这种电解质的化学式,写出 $x$ 和 $y$ 的值。"
-        }
-      ]
+      "src": "data/stems/assets/problem-000015-figure-001.jpg",
+      "alt": "problem-000015题目配图第1幅（已按原图查看）"
     },
     {
-      "id": "part-000015-02",
-      "label": "4-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "温度变化会导致晶体在立方晶系和四方晶系之间转换,上述哪种晶相属于立方晶系?"
-        }
-      ]
-    },
-    {
-      "id": "part-000015-03",
-      "label": "4-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出负离子的堆积方式及形成的空隙类型。指出正离子占据的空隙类型及占有率。"
-        }
-      ]
-    },
-    {
-      "id": "part-000015-04",
-      "label": "4-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "高温相具有良好的离子导电性,这源于哪种离子的迁移?简述导电性与结构的关系。"
-        }
-      ]
+      "type": "figure",
+      "src": "data/stems/assets/problem-000015-figure-002.jpg",
+      "alt": "problem-000015题目配图第2幅（已按原图查看）"
     }
   ]
 }

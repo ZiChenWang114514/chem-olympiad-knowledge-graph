@@ -10,35 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000048",
     "sourceLabel": "2014-28-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2014-28-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。DeepSeek 精修。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000429-01",
-      "label": "2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出该自由基负离子的结构简式,根据 VSEPR 理论推测其形状。"
-        }
-      ]
-    },
-    {
-      "id": "part-000429-02",
-      "label": "2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "连二亚硫酸钠与 $\\mathrm{CF_3Br}$ 反应得到三氟甲烷亚磺酸钠。文献报道,反应过程主要包括自由基的产生、转移和湮灭(生成产物)三步,写出三氟甲烷亚磺酸根形成的反应机理。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "第2题（5分）连二亚硫酸钠是一种常用的还原剂。硫同位素交换和顺磁共振实验证实，其⽔溶液中存在亚磺酰⾃由基负离⼦。 2-1 写出该⾃由基负离⼦的结构简式，根据VSEPR理论推测其形状。 2-2 连二亚硫酸钠与 $\\mathrm { C F _ { 3 } B r }$ 反应得到三氟甲烷亚磺酸钠。文献报道，反应过程主要包括⾃由基的产生、转移和湮灭（生成产物）三步，写出三氟甲烷亚磺酸根形成的反应机理。"
     }
   ]
 }

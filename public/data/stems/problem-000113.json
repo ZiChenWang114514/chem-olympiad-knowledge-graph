@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000057",
     "sourceLabel": "2021-35-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2021-35-CChO-chusai-jiangsu/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与图注。请以官方纸质/PDF 为准。",
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
   "renderingHints": {
     "mhchem": true
   },
@@ -27,26 +27,6 @@
         {
           "type": "paragraph",
           "text": "请解释为什么在DNA分子中,腺嘌呤与胸腺嘧啶含量相等,鸟嘌呤与胞嘧啶含量相等。"
-        },
-        {
-          "type": "figure",
-          "caption": "腺嘌呤(A)",
-          "alt": "腺嘌呤结构图"
-        },
-        {
-          "type": "figure",
-          "caption": "鸟嘌呤(G)",
-          "alt": "鸟嘌呤结构图"
-        },
-        {
-          "type": "figure",
-          "caption": "胸腺嘧啶(T)",
-          "alt": "胸腺嘧啶结构图"
-        },
-        {
-          "type": "figure",
-          "caption": "胞嘧啶(C)",
-          "alt": "胞嘧啶结构图"
         },
         {
           "type": "paragraph",
@@ -91,11 +71,6 @@
         {
           "type": "paragraph",
           "text": "一般化学交联的聚合物难以进行二次利用,但如图2所示的A、B、C三种单体共聚后经紫外光照射可以形成交联聚合物,且该交联聚合物能够实现回收热塑加工。请简述该交联聚合物可热塑加工的基本原理。"
-        },
-        {
-          "type": "figure",
-          "caption": "图2 三种单体结构",
-          "alt": "三种单体A、B、C的结构图"
         }
       ]
     }

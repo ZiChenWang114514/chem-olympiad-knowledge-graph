@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000050",
     "sourceLabel": "2016-30-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2016-30-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX;后经 DeepSeek 精修校对。请以官方纸质/PDF 为准。",
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
   },
@@ -45,11 +45,6 @@
         {
           "type": "paragraph",
           "text": "$NH_3$ 分子独立存在时 H—N—H 键角为 106.7°。右图是 $[Zn(NH_3)_6]^{2+}$ 离子的部分结构以及 H—N—H 键角的测量值。解释配合物中 H—N—H 键角变为 109.5°的原因。"
-        },
-        {
-          "type": "figure",
-          "caption": "右图为 [Zn(NH_3)_6]^{2+} 的部分结构及 H—N—H 键角测量值",
-          "alt": "Zn^{2+} 与 NH_3 配位,H—N—H 键角为 109.5°"
         }
       ]
     },

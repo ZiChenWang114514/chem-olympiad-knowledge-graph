@@ -10,92 +10,63 @@
   "source": {
     "sourceDocumentId": "source-000012",
     "sourceLabel": "2017-31-CChO-juesai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2017-31-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、合并误拆分的小问、规范化学式与图表占位。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "figure",
-      "caption": "图 6-A",
-      "alt": "图 6-A(原图缺失)"
+      "type": "paragraph",
+      "text": "六亚甲基四胺(HMTA)是一个与金刚烷的结构类似的杂环多面体化合物。⼴泛应用于有机合成，染料和医药等工业中。HMTA晶体是一种电光材料，其折射率可被外电场改变，在激光技术中具有⼴泛应用。该晶体属于⽴方晶系，正当晶胞参数dot a = 7 . 0 2 × 1 0 ^ 2 p m _ c 。晶体结构的正视图分别如图6-A和图6-B所示，其中图6-B是沿?方向的投影。 图 6-A 图 6-B"
     },
     {
       "type": "figure",
-      "caption": "图 6-B",
-      "alt": "图 6-B(原图缺失)"
-    }
-  ],
-  "parts": [
-    {
-      "id": "part-000046-01",
-      "label": "6-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出 HMTA 分子的结构图;说明其最高对称轴的名称、方位和数目。"
-        }
-      ]
+      "src": "data/stems/assets/problem-000046-figure-001.jpg",
+      "alt": "problem-000046题目配图第1幅（结构或数据示意图）"
     },
     {
-      "id": "part-000046-02",
-      "label": "6-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "指出 HMTA 晶体中作周期性重复的最小结构单元;说明 1 个正当晶胞中有多少个这样的结构单元。"
-        },
-        {
-          "type": "paragraph",
-          "text": "写出该晶体最高对称轴的名称或记号、方向,以及特征对称元素的名称和取向。"
-        }
-      ]
+      "type": "figure",
+      "src": "data/stems/assets/problem-000046-figure-002.jpg",
+      "alt": "problem-000046题目配图第2幅（结构或数据示意图）"
     },
     {
-      "id": "part-000046-03",
-      "label": "6-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "晶体的宏观对称性与构成该晶体的分子的对称性是否完全相同?从下列物质中选择实例说明:HMTA、$\\mathrm{CO_2}$、$\\mathrm{(NH_2)_2CO}$、$\\mathrm{Fe(C_5H_5)_2}$、$\\mathrm{C_6H_6}$、$\\mathrm{C_{60}}$。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "6-1 画出HMTA分⼦的结构图；说明其最高对称轴的名称、方位和数⽬。"
     },
     {
-      "id": "part-000046-04",
-      "label": "6-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "指出 HMTA 晶体的点阵型式;说明该点阵的轴次最高的对称轴及其方向。"
-        },
-        {
-          "type": "paragraph",
-          "text": "假设图 6-A 所示的正当晶胞中,位于中心的分子取向不同于顶点的分子,晶体的点阵型式是什么?"
-        },
-        {
-          "type": "paragraph",
-          "text": "计算每个正当晶胞中 $\\mathrm{C-H\\cdots N}$ 氢键的数目。"
-        },
-        {
-          "type": "paragraph",
-          "text": "从结构化学角度简述该晶体格外稳定的原因。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "6-2-1 指出HMTA晶体中作周期性重复的最小结构单元；说明1个正当晶胞中有多少个这样的结构单元。"
     },
     {
-      "id": "part-000046-05",
-      "label": "6-5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算 HMTA 晶体的密度 $\\rho$。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "6-2-2 写出该晶体最高对称轴的名称或记号、方向，以及特征对称元素的名称和取向。"
+    },
+    {
+      "type": "paragraph",
+      "text": "6-3 晶体的宏观对称性与构成该晶体的分子对称性是否完全相同？请从HMTA、尿素、二茂铁、苯、富勒烯中选择实例说明。"
+    },
+    {
+      "type": "paragraph",
+      "text": "6-4-1 指出HMTA晶体的点阵型式：说明该点阵的轴次最高的对称轴及其方向。"
+    },
+    {
+      "type": "paragraph",
+      "text": "6-4-2 假设图6-A所示的正当晶胞中⼼的分⼦取向不同于顶点的分⼦，晶体的点阵型式是什么？"
+    },
+    {
+      "type": "paragraph",
+      "text": "6-4-3 计算每个正当晶胞中 C - H \\cdot N 氢键的数⽬。"
+    },
+    {
+      "type": "paragraph",
+      "text": "6-4-4 从结构化学角度简述该晶体格外稳定的原因。"
+    },
+    {
+      "type": "paragraph",
+      "text": "6-5 计算HMTA的晶体的密度 \\rho rho _ ° 。"
     }
   ]
 }

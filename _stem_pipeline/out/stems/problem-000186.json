@@ -10,87 +10,35 @@
   "source": {
     "sourceDocumentId": "source-000021",
     "sourceLabel": "2022-36-CChO-juesai-1.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2022-36-CChO-juesai-2/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、规范小问结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "实验一:化合物1在 $\\mathrm{CuCl(cod)}$ 催化下发生反应,高区域选择性形成产物2,其中2a和2b的比例为98:2,产物2a中的双键以反式为主,反式和顺式的比例为74:26。"
+      "text": "烯烃氧化裂解成醛（酮）的反应是重要有机化学反应之一，反应通常用臭氧作氧化剂。最近，研究发现，光照条件下，硝基苯类化合物也可以将烯烃氧化裂解成醛（酮），如下反应式所示："
+    },
+    {
+      "type": "paragraph",
+      "text": "在−40 °C和光照（波长为395 nm）下，对上述反应进⾏19F-NMR监测（19F-NMR可用于监测含氟有机化合物），发现有A和B中间体，且A的浓度明显高于B的浓度；当反应温度升⾄ $- 2 0 ~ ^ { \\circ } \\mathrm { C }$ 时，19F-NMR 监测发现，A和B快速分解，生成物中有化合物C（分⼦式为 $\\mathrm { C _ { 1 4 } H _ { 9 } F N _ { 2 } O ) }$ ，且C的浓度逐渐升高。8-1-1 画出A、B和C的结构式。 8-1-2 研究发现， $- 2 0 ~ ^ { \\circ } \\mathrm { C }$ 光照下，化合物C易转化为化合物D；升温⾄ $2 5 ~ ^ { \\circ } \\mathrm { C } ,$ ，反应24h后，D⼏乎全部重排成副产物 $\\mathbf { E } ,$ ，已知C、D和E互为同分异构体，画出D和E的结构式。 近来，研究人员巧妙地利用烯烃下F和硝基苯衍生物G合成出了较为稳定的化合物H，H和A具有部分相同的⻣架结构。通过H在不同溶剂中的反应，对该类氧化反应的机理做了进一步的探究。反应如下所示："
+    },
+    {
+      "type": "paragraph",
+      "text": "8-2-1 画出H、J和K的结构式。 8-2-2 请说明将H用作底物进⾏上述反应来探究氧化机理的原因。"
     },
     {
       "type": "figure",
-      "caption": "实验一反应示意图",
-      "alt": "缺图:实验一反应式"
-    },
-    {
-      "type": "paragraph",
-      "text": "实验二:该反应在没有Cu(I)参与下,基本上不反应,原料完全回收。"
-    },
-    {
-      "type": "paragraph",
-      "text": "实验三:产物(±)-2a可以在没有Cu(I)参与下,在100 °C下转化为(±)-2a和(±)-2b。然而,在同样条件下,(±)-2a 则保持不变,不会转化为(±)-2a。"
+      "src": "data/stems/assets/problem-000186-figure-001.jpg",
+      "alt": "problem-000186题目配图第1幅（已按原图查看）"
     },
     {
       "type": "figure",
-      "caption": "实验三转化示意图",
-      "alt": "缺图:实验三转化关系"
-    },
-    {
-      "type": "paragraph",
-      "text": "分析以上信息,回答相关问题:"
-    }
-  ],
-  "parts": [
-    {
-      "id": "part-000186-01",
-      "label": "8-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "为实验一转化为2a的过程提供关键中间体;"
-        }
-      ]
-    },
-    {
-      "id": "part-000186-02",
-      "label": "8-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "为实验三(±)-2a异构化为(±)-2a、形成(±)-2b的过程提供关键中间体;"
-        }
-      ]
-    },
-    {
-      "id": "part-000186-03",
-      "label": "8-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "在加热条件下,解释为什么(±)-2a 可以转化为(±)-2a,而(±)-2a 不能转化为(±)-2a;"
-        }
-      ]
-    },
-    {
-      "id": "part-000186-04",
-      "label": "8-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "在后续的研究过程中,发现除了形成以上四元环外,还可以形成五元杂环 $3$。画出形成化合物3的关键中间体(说明:与前金重复的无需再画)。"
-        },
-        {
-          "type": "figure",
-          "caption": "化合物3结构",
-          "alt": "缺图:化合物3结构式"
-        }
-      ]
+      "src": "data/stems/assets/problem-000186-figure-002.jpg",
+      "alt": "problem-000186题目配图第2幅（已按原图查看）"
     }
   ]
 }

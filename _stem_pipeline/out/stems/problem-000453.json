@@ -10,61 +10,26 @@
   "source": {
     "sourceDocumentId": "source-000049",
     "sourceLabel": "2015-29-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2015-29-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理公式与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
+      "type": "paragraph",
+      "text": "第5题（8分）有一类复合氧化物具有奇特的性质：受热密度不降反升。这类复合氧化物的理想结构属⽴方晶系，下为晶胞示意图。图中八面体中⼼是锆原⼦，位于晶胞的顶角和面⼼；四面体中⼼是钨原⼦，均在晶胞中。八面体和四面体之间通过共用顶点（氧原⼦）连接。锆和钨的氧化数分别等于它们在周期表⾥的族数。"
+    },
+    {
+      "type": "paragraph",
+      "text": "5-1 写出晶胞中锆原⼦和钨原⼦的数⽬。 5-2 写出这种复合氧化物的化学式。 5-3 晶体中，氧原⼦的化学环境有⼏种？各是什么类型？在一个晶胞中各有多少？ 5-4 已知晶胞参数 $\\dot { a } = 0 . 9 1 6 \\mathrm { n m }$ ，计算该晶体的密度（以 $\\mathrm { g c m ^ { - 3 } }$ 为单位）。"
+    },
+    {
       "type": "figure",
-      "caption": "锆钨复合氧化物晶胞示意图",
-      "alt": "晶胞结构图(原题附图)"
-    }
-  ],
-  "parts": [
-    {
-      "id": "part-000453-01",
-      "label": "5-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出晶胞中锆原子和钨原子的数目。"
-        }
-      ]
-    },
-    {
-      "id": "part-000453-02",
-      "label": "5-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出这种复合氧化物的化学式。"
-        }
-      ]
-    },
-    {
-      "id": "part-000453-03",
-      "label": "5-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "晶体中,氧原子的化学环境有几种?各是什么类型?在一个晶胞中各有多少?"
-        }
-      ]
-    },
-    {
-      "id": "part-000453-04",
-      "label": "5-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "已知晶胞参数 $a = 0.916\\ \\mathrm{nm}$,计算该晶体的密度(以 $\\mathrm{g\\ cm^{-3}}$ 为单位)。"
-        }
-      ]
+      "src": "data/stems/assets/problem-000453-figure-001.jpg",
+      "alt": "problem-000453题目配图第1幅（已按原图查看）"
     }
   ]
 }

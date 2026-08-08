@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000046",
     "sourceLabel": "2012-26-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2012-26-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
   "renderingHints": {
     "mhchem": true
   },
@@ -22,7 +22,8 @@
     {
       "type": "figure",
       "caption": "题目配图(原图缺失)",
-      "alt": "图中包含多条直线,标注为 a、b、c、d,用于描述不同 pH 下的物种转化与电极反应。"
+      "alt": "图中包含多条直线,标注为 a、b、c、d,用于描述不同 pH 下的物种转化与电极反应。",
+      "src": "data/stems/assets/problem-000398-figure-001.jpg"
     }
   ],
   "parts": [

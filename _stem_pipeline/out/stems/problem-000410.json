@@ -10,75 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000047",
     "sourceLabel": "2013-27-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2013-27-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理公式与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000410-01",
-      "label": "3-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出A的结构式。"
-        }
-      ]
-    },
-    {
-      "id": "part-000410-02",
-      "label": "3-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "分别写出合成A的方法(2)、(3)中化学反应的方程式。"
-        }
-      ]
-    },
-    {
-      "id": "part-000410-03",
-      "label": "3-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出B的结构式。"
-        }
-      ]
-    },
-    {
-      "id": "part-000410-04",
-      "label": "3-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出A在硫酸铁存在下溶解金的离子方程式。"
-        }
-      ]
-    },
-    {
-      "id": "part-000410-05",
-      "label": "3-5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "A 和 $\\mathrm{Au(I)}$ 形成的配合物中配位原子是什么?"
-        }
-      ]
-    },
-    {
-      "id": "part-000410-06",
-      "label": "3-6",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "在提炼金时,A可被氧化成C:$2\\mathrm{A} \\rightarrow \\mathrm{C} + 2\\mathrm{e}^{-}$;C能提高金的溶解速率。画出C的结构式。写出C和Au反应的方程式。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "第3题（11分）白色固体A，熔点 $1 8 2 ~ ^ { \\circ } \\mathrm { C } ,$ ，摩尔质量76.12 g mol−1，可代替氰化物用于提炼金的新工艺。A的合成方法有：(1) $1 4 2 ~ ^ { \\circ } \\mathrm { C }$ 下加热硫氰酸铵；(2) CS 2 与氨反应；(2) $\\mathrm { C a C N _ { 2 } }$ 和 $\\mathrm { ( N H _ { 4 } ) _ { 2 } S }$ ⽔溶液反应(放出氨气)。常温下，A在⽔溶液中可发生异构化反应，部分转化成 $\\mathbf { B } _ { \\circ }$ 。酸性溶液中，A在氧化剂（如 $\\mathrm { F e ^ { 3 + } }$ $\\mathrm { H _ { 2 } O _ { 2 } }$ 和 $\\mathrm { O } _ { 2 } )$ 存在下能溶解金，形成??杂化的 $\\mathrm { A u ( I ) }$ 配合物。 3-1 画出A的结构式。 3-2 分别写出合成A的方法(2)、(3)中化学反应的方程式。 3-3 画出B的结构式。 3-4 写出A在硫酸铁存在下溶解金的离⼦方程 $\\updownarrow \\updownarrow _ { \\updownarrow }$ 3-5 A 和 $\\mathrm { A u ( I ) }$ 形成的配合物中配位原⼦是什么？ 3-6 在提炼金时，A可被氧化成C：2 $\\mathbf { A } \\mathbf { C } + 2 { \\mathrm e }$ −；C能提高金的溶解速率。画出C的结构式。写出C和Au反应的方程式。"
     }
   ]
 }

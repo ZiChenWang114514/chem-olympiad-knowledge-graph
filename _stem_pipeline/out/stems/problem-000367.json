@@ -10,45 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000005",
     "sourceLabel": "2010-24-CChO-juesai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2010-24-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000367-01",
-      "label": "2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出当 R = Me, A = THF 时,在低温下 CH3MgI 从 DME 中沉淀出来的固态格氏试剂的化学式。"
-        }
-      ]
-    },
-    {
-      "id": "part-000367-02",
-      "label": "2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出 2-1 中固态格氏试剂的所有可能存在的异构体,并用 cis-, trans- 标记几何异构体。"
-        }
-      ]
-    },
-    {
-      "id": "part-000367-03",
-      "label": "2-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "已知加成反应产物的对映体过量百分率为 22%,指出固态格氏试剂中哪种几何异构体是主要的,简述理由。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "第2题（11分）通常认为固态格⽒试剂RMgX中Mg的配位数为4，五配位的 $\\mathrm { [ C H _ { 3 } M g B r ( t h f ) _ { 3 } ] }$ （thf = 四氢呋喃）为其特例。近年的研究发现，在一些双⻮配位的溶剂（如1,2-二甲氧基⼄烷，简记为DME）中，固态格⽒试剂可以六配位的形式存在，形成通式为[RMgA(dme)]（R= Me、 $p \\mathrm { { - C H _ { 3 } C _ { 6 } H _ { 4 } } }$ 4 ；A = ⻧素离⼦或四氢呋喃THF）的八面体配合物，此固态配合物低温下在某些溶剂中仍保持八面体构型，它与醛的加成反应中，有⼿性醇生成。 2-1 写出当 R = Me， $\\mathrm { A } = \\mathrm { T H F }$ 时，在低温下 $\\mathrm { C H _ { 3 } M g I }$ 从DME中沉淀出来的固态格⽒试剂的化学式。 2-2 画出2-1中固态格⽒试剂的所有可能存在的异构体，并用???-，?????-标记⼏何异构体。 2-3 已知加成反应产物的对映体过量百分率为22%，指出固态格⽒试剂中哪种⼏何异构体是主要的，简述理由。"
     }
   ]
 }

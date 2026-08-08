@@ -10,191 +10,197 @@
   "source": {
     "sourceDocumentId": "source-000006",
     "sourceLabel": "2011-25-CChO-juesai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2011-25-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、规范小问结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000386-01",
-      "label": "4-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "硅酸根基本结构单元是硅氧四面体 $(\\mathrm{SiO_4})$,可以用三角形表示硅氧四面体的平面投影图形,三角形的顶点代表一个 O 原子,中心是 Si 和一个顶角 O 的重叠。若干硅氧四面体可以连接成层型结构,如图 4-1(a) 所示,两个硅氧四面体共用一个氧原子,又可以将其简单地表示为图 4-1(b)。"
-        },
-        {
-          "type": "paragraph",
-          "text": "每一种层型结构可以用交于一点的多元环及环的数目来描述,例如图 4-1(b) 可以描述为 $6^3$。"
-        },
-        {
-          "type": "paragraph",
-          "text": "图 4-1(c) 至 (h) 给出在沸石分子筛中经常见到的二维三连接层结构,图 4-1(c) 和图 4-1(d) 可分别描述为 $4.8^2$ 和 $(4.6.8)(6.8^2)$。"
-        },
-        {
-          "type": "paragraph",
-          "text": "试将对图 4-1(e) 至 (h) 的描述分别写在答卷上。"
-        },
-        {
-          "type": "figure",
-          "caption": "图 4-1(a)",
-          "alt": "图 4-1(a) 缺失"
-        },
-        {
-          "type": "figure",
-          "caption": "图 4-1(b)",
-          "alt": "图 4-1(b) 缺失"
-        },
-        {
-          "type": "figure",
-          "caption": "图 4-1(c)",
-          "alt": "图 4-1(c) 缺失"
-        },
-        {
-          "type": "figure",
-          "caption": "图 4-1(d)",
-          "alt": "图 4-1(d) 缺失"
-        },
-        {
-          "type": "figure",
-          "caption": "图 4-1(e)",
-          "alt": "图 4-1(e) 缺失"
-        },
-        {
-          "type": "figure",
-          "caption": "图 4-1(f)",
-          "alt": "图 4-1(f) 缺失"
-        },
-        {
-          "type": "figure",
-          "caption": "图 4-1(g)",
-          "alt": "图 4-1(g) 缺失"
-        },
-        {
-          "type": "figure",
-          "caption": "图 4-1(h)",
-          "alt": "图 4-1(h) 缺失"
-        }
-      ]
+      "type": "paragraph",
+      "text": "4-1 硅酸根基本结构单元是硅氧四面体 $\\mathrm { ( S i O _ { 4 } ) }$ ，可以用三角形表示硅氧四面体的平面投影图形，三角形的顶点代表一个O原⼦，中⼼是Si和一个顶角O的重叠。若⼲硅氧四面体可以连接成层型结构，如图4-1(a)所示，两个硅氧四面体共用一个氧原⼦，⼜可以将其简单地表示为图4-1(b)。 每一种层型结构可以用交于一点的?元环及环的数⽬来描述，例如图4-1(b)可以描述为 $6 ^ { 3 }$ 。 图4-1(c)⾄(h)给出在沸⽯分⼦筛中经常⻅到的二维三连接层结构，图4-1(c)和图4-1(d)可分别描述为4.82 和(4.6.8)(6.82)。 试将对图4-1(e)⾄(h)的描述分别写答卷上。"
     },
     {
-      "id": "part-000386-02",
-      "label": "4-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "分子筛骨架中存在一些特征的笼型结构,见图 4-2。笼型结构是根据构成它们的多面体的各种多元环进行描述的。例如图 4-2(a) 所示的笼可以描述为 $4^5.5^2$;而图 4-2(b) 的笼可以描述为 $4^6.6^2.6_{\\mathrm{o}}^3$。"
-        },
-        {
-          "type": "paragraph",
-          "text": "试将对图 4-2(c) 至图 4-2(h) 的描述写在答卷上。"
-        },
-        {
-          "type": "figure",
-          "caption": "图 4-2(a)",
-          "alt": "图 4-2(a) 缺失"
-        },
-        {
-          "type": "figure",
-          "caption": "图 4-2(b)",
-          "alt": "图 4-2(b) 缺失"
-        },
-        {
-          "type": "figure",
-          "caption": "图 4-2(c)",
-          "alt": "图 4-2(c) 缺失"
-        },
-        {
-          "type": "figure",
-          "caption": "图 4-2(d)",
-          "alt": "图 4-2(d) 缺失"
-        },
-        {
-          "type": "figure",
-          "caption": "图 4-2(e)",
-          "alt": "图 4-2(e) 缺失"
-        },
-        {
-          "type": "figure",
-          "caption": "图 4-2(f)",
-          "alt": "图 4-2(f) 缺失"
-        },
-        {
-          "type": "figure",
-          "caption": "图 4-2(g)",
-          "alt": "图 4-2(g) 缺失"
-        },
-        {
-          "type": "figure",
-          "caption": "图 4-2(h)",
-          "alt": "图 4-2(h) 缺失"
-        }
-      ]
+      "type": "paragraph",
+      "text": "(d)"
     },
     {
-      "id": "part-000386-03",
-      "label": "4-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "分子筛骨架中的笼型结构可以采用下述方法画出:将最上一层放在平面图的最内圈,下一层放在次内圈,依此类推,直到最底层放在平面图的最外圈。图中各原子之间的连接关系、各种环及其位置当然要与笼型结构中保持一致。例如图 4-3(a) 所示的笼,可以表示为图 $4-3(a')$。"
-        },
-        {
-          "type": "paragraph",
-          "text": "图 4-3(b) 至图 4-3(d) 结构不完整地图示在图 4-3(b′) 至图 4-3(d′),即只给出了结构的最上层和最下层的图,试在答卷上画出完整的平面图。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "(e)"
     },
     {
-      "id": "part-000386-04",
-      "label": "4-4",
-      "blocks": [
-        {
-          "type": "figure",
-          "caption": "图 4-3(a)",
-          "alt": "图 4-3(a) 缺失"
-        },
-        {
-          "type": "figure",
-          "caption": "图 4-3(b)",
-          "alt": "图 4-3(b) 缺失"
-        },
-        {
-          "type": "figure",
-          "caption": "图 4-3(c)",
-          "alt": "图 4-3(c) 缺失"
-        },
-        {
-          "type": "figure",
-          "caption": "图 4-3(d)",
-          "alt": "图 4-3(d) 缺失"
-        },
-        {
-          "type": "figure",
-          "caption": "图 4-3(a′)",
-          "alt": "图 4-3(a′) 缺失"
-        },
-        {
-          "type": "figure",
-          "caption": "图 4-3(b′)",
-          "alt": "图 4-3(b′) 缺失"
-        },
-        {
-          "type": "figure",
-          "caption": "图 4-3(c′)",
-          "alt": "图 4-3(c′) 缺失"
-        },
-        {
-          "type": "figure",
-          "caption": "图 4-3(d′)",
-          "alt": "图 4-3(d′) 缺失"
-        }
-      ]
+      "type": "paragraph",
+      "text": "(f )"
+    },
+    {
+      "type": "paragraph",
+      "text": "(g)"
+    },
+    {
+      "type": "paragraph",
+      "text": "(h) 图4-1 ⼏种层状硅酸根结构的图示方法 4-2 分⼦筛⻣架中存在一些特征的笼型结构，⻅图4-2。笼型结构是根据构成它们的多面体的各种?元环进⾏描述的。例如图4-2(a)所示的笼可以描述为45.52；⽽图4-2(b)的笼可以描述为 $4 ^ { 6 } . 6 ^ { 2 } . 6 _ { \\mathrm { ~ o ~ } } ^ { 3 }$ 试将对图4-2(c)⾄图4-2(h)的描述写在答卷上。"
+    },
+    {
+      "type": "paragraph",
+      "text": "(d)"
+    },
+    {
+      "type": "paragraph",
+      "text": "(e)"
+    },
+    {
+      "type": "paragraph",
+      "text": "(f )"
+    },
+    {
+      "type": "paragraph",
+      "text": "(g)"
+    },
+    {
+      "type": "paragraph",
+      "text": "(h) 4-3 分⼦筛⻣架中的笼型结构可以采用下述方法画出：将最上一层放在平面图的最内圈，下一层放在次内圈，依此类推，直到最底层放在平面图的最外圈。图中各原⼦之间的连接关系、各种环及其位置当然要与笼型结构中保持一致。例如图4-3(a)所示的笼，可以表示为图 $4 \\mathrm { - } 3 ( \\mathrm { a } ^ { \\prime } )$ C 图4-3(b)⾄图4-3(d)结构不完整地图示在图4-3(b′)⾄图4-3(d′)，即只给出了结构的最上层和最下层的图${ \\overline { { \\overline { { \\prime } } \\mathrm { { I \\hat { \\ddots } } } } } } ,$ 试在答卷上画出完整的平面图。 (5)"
+    },
+    {
+      "type": "paragraph",
+      "text": "(d)"
+    },
+    {
+      "type": "paragraph",
+      "text": "(a′)"
+    },
+    {
+      "type": "paragraph",
+      "text": "(b′)"
+    },
+    {
+      "type": "paragraph",
+      "text": "(c′)"
+    },
+    {
+      "type": "paragraph",
+      "text": "(d′)"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000386-figure-001.jpg",
+      "alt": "problem-000386题目配图第1幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000386-figure-002.jpg",
+      "alt": "problem-000386题目配图第2幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000386-figure-003.jpg",
+      "alt": "problem-000386题目配图第3幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000386-figure-004.jpg",
+      "alt": "problem-000386题目配图第4幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000386-figure-005.jpg",
+      "alt": "problem-000386题目配图第5幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000386-figure-006.jpg",
+      "alt": "problem-000386题目配图第6幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000386-figure-007.jpg",
+      "alt": "problem-000386题目配图第7幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000386-figure-008.jpg",
+      "alt": "problem-000386题目配图第8幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000386-figure-009.jpg",
+      "alt": "problem-000386题目配图第9幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000386-figure-010.jpg",
+      "alt": "problem-000386题目配图第10幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000386-figure-011.jpg",
+      "alt": "problem-000386题目配图第11幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000386-figure-012.jpg",
+      "alt": "problem-000386题目配图第12幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000386-figure-013.jpg",
+      "alt": "problem-000386题目配图第13幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000386-figure-014.jpg",
+      "alt": "problem-000386题目配图第14幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000386-figure-015.jpg",
+      "alt": "problem-000386题目配图第15幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000386-figure-016.jpg",
+      "alt": "problem-000386题目配图第16幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000386-figure-017.jpg",
+      "alt": "problem-000386题目配图第17幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000386-figure-018.jpg",
+      "alt": "problem-000386题目配图第18幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000386-figure-019.jpg",
+      "alt": "problem-000386题目配图第19幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000386-figure-020.jpg",
+      "alt": "problem-000386题目配图第20幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000386-figure-021.jpg",
+      "alt": "problem-000386题目配图第21幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000386-figure-022.jpg",
+      "alt": "problem-000386题目配图第22幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000386-figure-023.jpg",
+      "alt": "problem-000386题目配图第23幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000386-figure-024.jpg",
+      "alt": "problem-000386题目配图第24幅（已按原图查看）"
     }
   ]
 }

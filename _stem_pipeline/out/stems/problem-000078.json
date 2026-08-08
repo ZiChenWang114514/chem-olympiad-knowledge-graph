@@ -10,84 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000014",
     "sourceLabel": "2019-33-CChO-juesai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2019-33-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、规范小问结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "在 Mn(II) 的催化下,某有机染料(CR)溶液被氧化剂(OX)氧化褪色。在一定的 pH 条件下该反应具有较高的灵敏度和选择性,据此可建立催化动力学光度法以测定水样中的痕量锰。催化反应示意如下:"
-    },
-    {
-      "type": "paragraph",
-      "text": "$$\\mathrm{CR}(\\text{蓝色}) + \\mathrm{OX} \\xrightarrow{\\mathrm{Mn(II)}} \\text{褪色产物}$$"
-    },
-    {
-      "type": "paragraph",
-      "text": "CR 褪色反应的速率方程为:"
-    },
-    {
-      "type": "paragraph",
-      "text": "$$r = -\\frac{\\mathrm{d}c_{\\mathrm{CR}}}{\\mathrm{d}t} = k c_{\\mathrm{CR}}^{\\alpha} c_{\\mathrm{OX}}^{\\beta} c_{\\mathrm{Mn(II)}}^{\\gamma}$$"
-    },
-    {
-      "type": "paragraph",
-      "text": "已知体系中无 Mn(II) 时褪色反应不发生。反应过程中,氧化剂大大过量。"
-    }
-  ],
-  "parts": [
-    {
-      "id": "part-000078-01",
-      "label": "2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "固定溶液中 Mn(II) 的浓度,改变 CR 溶液的初始浓度,测得溶液在 6.0 min 和 9.0 min 时的吸光度,部分数据见表 2-1,推求 α 的值。"
-        },
-        {
-          "type": "paragraph",
-          "text": "表 2-1"
-        },
-        {
-          "type": "callout",
-          "tone": "info",
-          "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
-        }
-      ]
-    },
-    {
-      "id": "part-000078-02",
-      "label": "2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "实验表明,$\\gamma = 1$。推出固定时间间隔 Δt 时,相邻两时刻的吸光度比值与 Mn(II) 浓度之间的定量关系式。"
-        }
-      ]
-    },
-    {
-      "id": "part-000078-03",
-      "label": "2-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "固定 CR 起始浓度及 Mn(II) 的浓度,分别测定了 363.15 K 和 373.15 K 下体系在 $t = 8.0\\ \\mathrm{min}$ 和 10.0 min 时的吸光度。实验结果见表 2-2,据此求算反应的表观活化能。"
-        },
-        {
-          "type": "paragraph",
-          "text": "表 2-2"
-        },
-        {
-          "type": "callout",
-          "tone": "info",
-          "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
-        }
-      ]
+      "text": "在Mn(II)的催化下，某有机染料(CR)溶液被氧化剂(OX)氧化褪色。在一定的pH条件下该反应具有较高的灵敏度和选择性，据此可建⽴催化动力学光度法以测定⽔样中的痕量锰。催化反应示意如下： $$ \\mathrm{CR} (\\text {蓝色}) + \\mathrm{OX} \\xrightarrow {\\mathrm{Mn(II)}} \\text {褪色产物} $$ CR褪色反应的速率方程为： $$ r = - \\frac {\\mathrm{d} c _ {\\mathrm{CR}}}{\\mathrm{d} t} = k c _ {C R} ^ {\\alpha} c _ {O X} ^ {\\beta} c _ {\\mathrm{Mn(II)}} ^ {\\gamma} $$ 已知体系中无Mn(II)时褪色反应不发生。反应过程中，氧化剂大大过量。 2-1 固定溶液中Mn(II)的浓度，改变CR溶液的初始浓度，测得溶液在6.0min和9.0min时的吸光度，部分数据⻅表2-1，推求α的值。 表 2-1 2-2 实验表明， $\\gamma = \\mathrm { l _ { c } }$ 。推出固定时间间隔Δ?时，相邻两时刻的吸光度比值与Mn(II)浓度之间的定量关系式。 2-3 固定 CR 起始浓度及 Mn(II)的浓度，分别测定了 363.15 K 和 373.15 K 下体系在 $t = 8 . 0 \\operatorname* { m i n }$ 和 10.0min时的吸光度。实验结果⻅表2-2，据此求算反应的表观活化能。 表 2-2"
     }
   ]
 }

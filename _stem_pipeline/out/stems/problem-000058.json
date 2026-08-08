@@ -10,83 +10,67 @@
   "source": {
     "sourceDocumentId": "source-000052",
     "sourceLabel": "2018-32-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2018-32-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 残缺字符、规范化图片占位与化学式。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "figure",
-      "caption": "题给反应图",
-      "alt": "原题图缺失,待补充"
+      "type": "paragraph",
+      "text": "第10题（10分）以下正离⼦经过4π电⼦体系的电环化反应形成戊烯正离⼦，该离⼦可以失去质⼦形成共轭烯烃："
     },
     {
       "type": "paragraph",
-      "text": "根据以上信息,画出下列反应主要产物的结构简式(产物指经后处理得到的化合物)。"
-    }
-  ],
-  "parts": [
-    {
-      "id": "part-000058-01",
-      "label": "10-1",
-      "blocks": [
-        {
-          "type": "figure",
-          "caption": "反应 10-1 图",
-          "alt": "原题图缺失,待补充"
-        }
-      ]
+      "text": "根据以上信息，画出下列反应主要产物的结构简式（产物指经后处理得到的化合物）。 10-1"
     },
     {
-      "id": "part-000058-02",
-      "label": "10-2",
-      "blocks": [
-        {
-          "type": "figure",
-          "caption": "反应 10-2 图",
-          "alt": "原题图缺失,待补充"
-        }
-      ]
+      "type": "paragraph",
+      "text": "10-2"
     },
     {
-      "id": "part-000058-03",
-      "label": "10-3",
-      "blocks": [
-        {
-          "type": "figure",
-          "caption": "反应 10-3 图",
-          "alt": "原题图缺失,待补充"
-        }
-      ]
+      "type": "paragraph",
+      "text": "10-3"
     },
     {
-      "id": "part-000058-04",
-      "label": "10-4",
-      "blocks": [
-        {
-          "type": "figure",
-          "caption": "反应 10-4 图(1)",
-          "alt": "原题图缺失,待补充"
-        },
-        {
-          "type": "figure",
-          "caption": "反应 10-4 图(2)",
-          "alt": "原题图缺失,待补充"
-        },
-        {
-          "type": "paragraph",
-          "text": "涉及的缩写:n-Pr:正丙基;i-Pr:异丙基。提示:AlCl$_3$ 和 TiCl$_4$ 为 Lewis 酸。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "10-4"
     },
     {
-      "id": "part-000058-05",
-      "label": "10-5",
-      "blocks": []
+      "type": "paragraph",
+      "text": "涉及的缩写：?-Pr：正丙基、?-Pr异丙基 提示： $\\mathrm { { A l C l } _ { 3 } }$ 和 $\\mathrm { T i C l _ { 4 } }$ 为 Lewis 酸 10-5"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000058-figure-001.jpg",
+      "alt": "problem-000058题目配图第1幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000058-figure-002.jpg",
+      "alt": "problem-000058题目配图第2幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000058-figure-003.jpg",
+      "alt": "problem-000058题目配图第3幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000058-figure-004.jpg",
+      "alt": "problem-000058题目配图第4幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000058-figure-005.jpg",
+      "alt": "problem-000058题目配图第5幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000058-figure-006.jpg",
+      "alt": "problem-000058题目配图第6幅（已按原图查看）"
     }
   ]
 }

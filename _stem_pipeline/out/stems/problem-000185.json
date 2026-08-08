@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000021",
     "sourceLabel": "2022-36-CChO-juesai-1.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2022-36-CChO-juesai-2/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、合并小问、移除无信息 callout。请以官方纸质/PDF 为准。",
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
   "renderingHints": {
     "mhchem": true
   },
@@ -22,6 +22,12 @@
     {
       "type": "paragraph",
       "text": "一氧化氮是众所周知的明星分子,不仅在生命体中扮演重要角色,在小分子的活化中也起着非常重要的作用。相关过程多涉及NO与金属的配位作用。作为配体,随结合的中心原子得失电子的能力不同,NO可采用阳离子(NO+)、中性分子(NO)和阴离子(NO−)的配位模式。"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000185-figure-002.jpg",
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 2"
     }
   ],
   "parts": [
@@ -41,6 +47,12 @@
         {
           "type": "paragraph",
           "text": "7-1-1 写出NO的分子轨道表达式(只考虑价层电子)。写出NO+、NO和NO−的键级。\n7-1-2 写出(c)和(d)中配合物的 Feltham-Enemark 记号形式。"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000185-figure-001.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 1"
         }
       ]
     },
@@ -56,6 +68,12 @@
             "alt": "配合物A的结构图",
             "src": ""
           }
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000185-figure-003.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 3"
         }
       ]
     },
@@ -76,6 +94,12 @@
         {
           "type": "paragraph",
           "text": "画出B中金属离子在配位场(假设为正八面体)作用下的d轨道电子排布。"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000185-figure-004.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 4"
         }
       ]
     },

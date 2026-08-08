@@ -10,55 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000037",
     "sourceLabel": "2006-20-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2006-20-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理公式与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000283-01",
-      "label": "4-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出焙烧反应方程式。"
-        }
-      ]
-    },
-    {
-      "id": "part-000283-02",
-      "label": "4-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "其次,将焙烧产物转化为高品位的“菱锰矿砂”,写出反应方程式:"
-        }
-      ]
-    },
-    {
-      "id": "part-000283-03",
-      "label": "4-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "若焙烧温度过高或时间过长,将导致什么结果?"
-        }
-      ]
-    },
-    {
-      "id": "part-000283-04",
-      "label": "4-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "从物料平衡角度看,生产过程中是否需要添加 $(NH_4)_2SO_4$?说明理由。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "第4题（7分）已探明我国锰矿储量占世界第三位，但富矿仅占6.4%，每年尚需进⼝大量锰矿⽯。有人设计了把我国的菱锰矿（贫矿）转化为高品位“菱锰矿高品位锰矿砂的绿色工艺。该工艺⾸先将矿砂与硫酸铵一起焙烧，较佳条件是：投料比$m [ \\mathrm { ( N H _ { 4 } ) _ { 2 } S O _ { 4 } } ] / m [ \\mathrm { M n C O _ { 3 } } ] = 1 . 5 ;$；焙烧温度$4 5 0 ~ ^ { \\circ } \\mathrm { C } ;$；焙烧时间1.5小时。 4-1 写出焙烧反应方程式。 4-2 其次，将焙烧产物转化为高品位的“菱锰矿砂”，写出反应方程式： 4-3 若焙烧温度过高或时间过长，将导致什么结果？ 4-4 从物料平衡角度看，生产过程中是否需要添加$\\mathrm { | ( N H _ { 4 } ) _ { 2 } S O _ { 4 } ? }$说明理由。"
     }
   ]
 }

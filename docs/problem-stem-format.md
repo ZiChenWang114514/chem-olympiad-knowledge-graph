@@ -111,7 +111,7 @@ public/data/
 | `sourceDocumentId` | | 如 `source-000057` |
 | `sourceLabel` | ✓ | 可读来源名，如 `2021-35-CChO-chusai.pdf` |
 | `page` | | 题干起始页 |
-| `transcriptionMethod` | ✓ | `manual` \| `ocr_reviewed` \| `synthetic_demo` |
+| `transcriptionMethod` | ✓ | `manual` \| `ocr_reviewed` \| `deepseek_polished` \| `synthetic_demo` |
 | `transcribedAt` | | ISO-8601 日期 |
 
 ### 4.2 `rightsState` 语义

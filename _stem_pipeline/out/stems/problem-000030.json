@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000011",
     "sourceLabel": "2016-30-CChO-juesai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2016-30-CChO-juesai/full.md)程序化切分并整理为结构化题干;经 DeepSeek 精修(OCR 校正、LaTeX 整理、小问结构规范化)。公式已尽量转为 LaTeX,请以官方纸质/PDF 为准。",
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
   "renderingHints": {
     "mhchem": true
   },
@@ -26,7 +26,8 @@
     {
       "type": "figure",
       "caption": "(原题图示缺图)",
-      "alt": "原题图示:L→M→N"
+      "alt": "原题图示:L→M→N",
+      "src": "data/stems/assets/problem-000030-figure-001.jpg"
     },
     {
       "type": "paragraph",
@@ -35,7 +36,8 @@
     {
       "type": "figure",
       "caption": "(原题图示缺图)",
-      "alt": "原题图示:O→R→S→T"
+      "alt": "原题图示:O→R→S→T",
+      "src": "data/stems/assets/problem-000030-figure-002.jpg"
     },
     {
       "type": "paragraph",

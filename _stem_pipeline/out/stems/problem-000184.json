@@ -10,15 +10,34 @@
   "source": {
     "sourceDocumentId": "source-000021",
     "sourceLabel": "2022-36-CChO-juesai-1.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2022-36-CChO-juesai-2/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。DeepSeek 精修。",
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [],
+  "blocks": [
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000184-figure-001.jpg",
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 1"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000184-figure-004.jpg",
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 4"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000184-figure-005.jpg",
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 5"
+    }
+  ],
   "parts": [
     {
       "id": "part-000184-01",
@@ -37,6 +56,18 @@
         {
           "type": "paragraph",
           "text": "将金属M加入到足量的浓硫酸中,微热片刻即有黑色物质A生成,之后A逐渐转变为灰白色物质B。该灰白色物质用过量氨水充分处理,过滤后,向滤液中通入 $\\mathrm{SO_2}$ 至微酸性,生成白色沉淀C(反应1)。元素分析结果,N含量8.65 %,S含量19.6%,H含量2.49 %。测试分析发现,C的结构中负离子呈三角锥形,磁性测量显示抗磁性。C与足量 $\\mathrm{H_2SO_4}$ 混合并加热,可生成超细粉末态M(反应2)。"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000184-figure-002.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 2"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000184-figure-003.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 3"
         }
       ]
     },

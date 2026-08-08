@@ -10,65 +10,40 @@
   "source": {
     "sourceDocumentId": "source-000038",
     "sourceLabel": "2007-21-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2007-21-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。DeepSeek 精修。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "figure",
-      "caption": "合成路线图(缺图)",
-      "alt": "合成路线图,包含反应物、中间体和产物"
+      "type": "paragraph",
+      "text": "第9题（10分）根据文献报道，醛基可和双氧⽔发生如下反应："
     },
     {
       "type": "paragraph",
-      "text": "为了合成一类新药,选择了下列合成路线:"
+      "text": "为了合成一类新药，选择了下列合成路线："
+    },
+    {
+      "type": "paragraph",
+      "text": "9-1 请写出A的化学式，画出B、C、D和缩醛G的结构式。 9-2 由E生成F和F生成G的反应分别属于哪类基本有机反应类型。 9-3 请画出化合物G的所有光活异构体。"
     },
     {
       "type": "figure",
-      "caption": "合成路线图(缺图)",
-      "alt": "合成路线图,包含反应物、中间体和产物"
+      "src": "data/stems/assets/problem-000308-figure-001.jpg",
+      "alt": "problem-000308题目配图第1幅（已按原图查看）"
     },
     {
       "type": "figure",
-      "caption": "合成路线图(缺图)",
-      "alt": "合成路线图,包含反应物、中间体和产物"
-    }
-  ],
-  "parts": [
-    {
-      "id": "part-000308-01",
-      "label": "9-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "请写出 A 的化学式,画出 B、C、D 和缩醛 G 的结构式。"
-        }
-      ]
+      "src": "data/stems/assets/problem-000308-figure-002.jpg",
+      "alt": "problem-000308题目配图第2幅（已按原图查看）"
     },
     {
-      "id": "part-000308-02",
-      "label": "9-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "由 E 生成 F 和 F 生成 G 的反应分别属于哪类基本有机反应类型。"
-        }
-      ]
-    },
-    {
-      "id": "part-000308-03",
-      "label": "9-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "请画出化合物 G 的所有光活异构体。"
-        }
-      ]
+      "type": "figure",
+      "src": "data/stems/assets/problem-000308-figure-003.jpg",
+      "alt": "problem-000308题目配图第3幅（已按原图查看）"
     }
   ]
 }

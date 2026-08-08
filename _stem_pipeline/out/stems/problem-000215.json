@@ -10,120 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000025",
     "sourceLabel": "2023-37-CChO-juesai-1.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2023-37-CChO-juesai-1/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理公式与表格占位。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "脂类物质的氧化是油脂保存过程中广泛存在的问题。亚油酸乙酯(记为RH)的氧化过程属于自由基氧化反应,其中H代表最可能发生氧化反应的氢原子。反应方程式如下:"
-    },
-    {
-      "type": "paragraph",
-      "text": "$$\\mathrm{RH} + \\mathrm{O_2} \\rightarrow \\mathrm{ROOH}$$"
-    }
-  ],
-  "parts": [
-    {
-      "id": "part-000215-01",
-      "label": "8-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "亚油酸的学名是(9Z,12Z)-9,12-十八碳二烯酸,画出亚油酸乙酯的结构式,并用“*”标记最可能发生自由基氧化反应的氢原子。"
-        }
-      ]
-    },
-    {
-      "id": "part-000215-02",
-      "label": "8-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "实验测得反应的速率方程如下:"
-        },
-        {
-          "type": "paragraph",
-          "text": "$$r = -\\frac{\\mathrm{d}p(\\mathrm{O_2})}{\\mathrm{d}t} = \\frac{a[\\mathrm{ROOH}][\\mathrm{RH}]}{1 + b\\frac{[\\mathrm{RH}]}{p(\\mathrm{O_2})}} \\tag{1}$$"
-        },
-        {
-          "type": "paragraph",
-          "text": "其中, $a$、$b$ 是与浓度无关的常数。该反应的基元反应步骤如下表所示,其中, $k_1$ 到 $k_5$ 分别为相应基元反应的速率常数,链传递步骤是整个反应的决速步。氧气分压 $p(\\mathrm{O_2})$ 较高时主要按照1、2、4步骤进行; $p(\\mathrm{O_2})$ 较低时主要按照1、3、5步骤进行。据此,分别在两种情况下推导反应的速率方程,并解释在 $p(\\mathrm{O_2})$ 较高和较低的情况下(1)式如何近似得出这两种速率方程。"
-        },
-        {
-          "type": "callout",
-          "tone": "info",
-          "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
-        }
-      ]
-    },
-    {
-      "id": "part-000215-03",
-      "label": "8-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "实验测得反应的表观活化能在 $p(\\mathrm{O_2})$ 较高时为 72 kJ mol$^{-1}$, $p(\\mathrm{O_2})$ 较低时为 90 kJ mol$^{-1}$。根据8-2中推导出的两种速率方程,指出两种情况下,分别是哪步的活化能决定了总反应的表观活化能?(提示:自由基相互结合的反应活化能通常近似为0)"
-        }
-      ]
-    },
-    {
-      "id": "part-000215-04",
-      "label": "8-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "某种酶对上述反应的催化速率常数 $k$ 随温度变化的关系如右表所示。其中,下标中的H或D分别表示8-1中亚油酸乙酯上相应氢原子均是氕(H)或氘(D)原子。计算氕(H)原子情况下的表观活化能。"
-        },
-        {
-          "type": "callout",
-          "tone": "info",
-          "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
-        }
-      ]
-    },
-    {
-      "id": "part-000215-05",
-      "label": "8-5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "动力学同位素效应(KIE)指的是把反应物分子中的某一原子用其同位素原子取代后,反应速率常数变化的效应。一般用取代前后的速率常数之比衡量KIE的大小。计算8-4中各温度下的 $k_{\\mathrm{H}}/k_{\\mathrm{D}}$ 并选择影响 $k_{\\mathrm{H}}/k_{\\mathrm{D}}$ 数值的主要因素。(直接在答题纸上填A或B)A. 指前因子 B. 活化能"
-        },
-        {
-          "type": "paragraph",
-          "text": "有机化学试题中的缩写"
-        },
-        {
-          "type": "paragraph",
-          "text": "$\\mathrm{Tf_2O}$: 三氟甲磺酸酐; 2-I-py: 2-碘吡啶; 4Bu: 叔丁基"
-        },
-        {
-          "type": "paragraph",
-          "text": "DABCO: 1,4-二氮杂二环[2.2.2]辛烷; 'Pr: 异丙基; $\\mathrm{Pr}$: 正丙基"
-        },
-        {
-          "type": "paragraph",
-          "text": "Ph: 苯基; Cp: 环戊二烯负离子; AcOH: 乙酸"
-        },
-        {
-          "type": "paragraph",
-          "text": "THF: 四氢呋喃; TsCl: 对甲苯磺酰氯; DMAP: 4-二甲氨基吡啶"
-        },
-        {
-          "type": "paragraph",
-          "text": "LiHMDS: 六甲基二硅氨基锂; AIBN: 偶氮二异丁腈"
-        },
-        {
-          "type": "paragraph",
-          "text": "EDCI: 1-乙基-(3-二甲基氨基丙基)碳二亚胺盐酸盐"
-        }
-      ]
+      "text": "脂类物质的氧化是油脂保存过程中⼴泛存在的问题。亚油酸⼄酯（记为RH）的氧化过程属于⾃由基氧化反应，其中H代表最可能发生氧化反应的氢原⼦。反应方程式如下： $$ \\mathrm{RH} + \\mathrm{O} _ {2} \\rightarrow \\mathrm{ROOH} $$ 8-1 亚油酸的学名是(9?,12?)-9,12-⼗八碳二烯酸，画出亚油酸⼄酯的结构式，并用“\\*”标记最可能发生⾃由基氧化反应的氢原⼦。 8-2 实验测得反应的速率方程如下： $$ r = - \\frac {\\mathrm{d} p (\\mathrm{O} _ {2})}{\\mathrm{d} t} = \\frac {a [ \\mathrm{ROOH} ] [ \\mathrm{RH} ]}{1 + b \\frac {[ \\mathrm{RH} ]}{p [ \\mathrm{O} _ {2} ]}}\\tag{1} $$ 其中， $a _ { \\mathrm { \\scriptscriptstyle 3 } }$ 、 $b _ { \\scriptscriptstyle * }$ 是与浓度无关的常数。该反应的基元反应步骤如下表所示，其中， $k _ { 1 }$ 到 $k _ { 5 }$ 分别为相应基元反应的速率常数，链传递步骤是整个反应的决速步。氧气分 $\\vec { \\underline { { \\underline { { \\tau } } } } } p ( \\mathrm { O } _ { 2 } )$ 较高时主要按照①、②、④步骤进⾏； $p ( \\mathrm { O } _ { 2 } )$ 较低时主要按照①、③、⑤步骤进⾏。据此，分别在两种情况下推导反应的速率方程，并解释在 $\\dot { \\bf \\nabla } p ( { \\bf O } _ { 2 } )$ 较高和较低的情况下(1)式如何近似得出这两种速率方程。 8-3 实验测得反应的表观活化能在 $\\cdot p ( \\mathrm { O } _ { 2 } )$ 较高时为 72 kJ $\\mathrm { m o l ^ { - 1 } }$ $p ( \\mathrm { O } _ { 2 } )$ 较低时为 90kJ $\\mathrm { m o l ^ { - 1 } }$ 。根据8-2中推导出的两种速率方程，指出两种情况下，分别是哪步的活化能决定了总反应的表观活化能？（提示：⾃由基相互结合的反应活化能通常近似为0） 8-4 某种酶对上述反应的催化速率常数?随温度变化的关系如右表所示。其中，下标中的H或D分别表示8-1中亚油酸⼄酯上相应氢原⼦均是氕(H)或氘(D)原⼦。计算氕(H)原⼦情况下的表观活化能。 8-5 动力学同位素效应(KIE)指的是把反应物分⼦中的某一原⼦用其同位素原⼦取代后，反应速率常数变化的效应。一般用取代前后的速率常数之比衡量KIE的大小。计算8-4中各温度下的 $\\mathrm { \\ell } _ { \\mathrm { t H } } / k _ { \\mathrm { D } \\circ }$ 并选择影响 $| k _ { \\mathrm { H } } / k _ { \\mathrm { D } }$ 数值的主要因素。（直接在答题纸上填A或B）A. 指前因⼦ B. 活化能 有机化学试题中的缩写 $\\mathrm { T f _ { 2 } O } \\colon$ 三氟甲磺酸酐 2-I-py：2-碘吡啶 4Bu：叔丁基 DABCO：1,4-二氮杂二环[2.2.2]⾟烷 'Pr：异丙基 \\$Pr：正丙基 Ph：苯基 Cp：环戊二烯负离⼦ AcOH：⼄酸 THF：四氢呋喃 TsCl：对甲苯磺酰氯 DMAP：4-二甲氨基吡啶 LiHMDS：六甲基二硅氨基锂 AIBN：偶氮二异丁腈 EDCI：1-⼄基-(3-二甲基氨基丙基)碳二亚胺盐酸盐"
     }
   ]
 }

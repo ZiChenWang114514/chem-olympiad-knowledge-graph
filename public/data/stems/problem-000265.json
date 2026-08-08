@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000063",
     "sourceLabel": "2025-39-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2025-39-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
   "renderingHints": {
     "mhchem": true
   },
@@ -50,7 +50,8 @@
     {
       "type": "figure",
       "caption": "(图:)",
-      "alt": "缺图,请参考官方试卷"
+      "alt": "缺图,请参考官方试卷",
+      "src": "data/stems/assets/problem-000265-figure-001.jpg"
     },
     {
       "type": "paragraph",
@@ -135,7 +136,8 @@
     {
       "type": "figure",
       "caption": "(图:)",
-      "alt": "缺图,请参考官方试卷"
+      "alt": "缺图,请参考官方试卷",
+      "src": "data/stems/assets/problem-000265-figure-002.jpg"
     },
     {
       "type": "paragraph",
@@ -200,12 +202,14 @@
     {
       "type": "figure",
       "caption": "(图:)",
-      "alt": "缺图,请参考官方试卷"
+      "alt": "缺图,请参考官方试卷",
+      "src": "data/stems/assets/problem-000265-figure-003.jpg"
     },
     {
       "type": "figure",
       "caption": "(图:)",
-      "alt": "缺图,请参考官方试卷"
+      "alt": "缺图,请参考官方试卷",
+      "src": "data/stems/assets/problem-000265-figure-004.jpg"
     },
     {
       "type": "paragraph",
@@ -259,7 +263,8 @@
     {
       "type": "figure",
       "caption": "(图:)",
-      "alt": "缺图,请参考官方试卷"
+      "alt": "缺图,请参考官方试卷",
+      "src": "data/stems/assets/problem-000265-figure-005.jpg"
     },
     {
       "type": "paragraph",

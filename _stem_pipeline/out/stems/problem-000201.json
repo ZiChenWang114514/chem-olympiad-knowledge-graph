@@ -10,50 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000060",
     "sourceLabel": "2023-37-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2023-37-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。已由 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "向 $\\mathrm{H_2Pt(OH)_6}$ 水溶液中加入足量的 $\\mathrm{Na_2S_2O_3}$ 溶液,调整 pH 至 11.4,在高压水热釜中 $150~^\\circ\\mathrm{C}$ 反应 17 h,得到一种深棕色的晶体(A·$x\\mathrm{H_2O}$)。A 是一种钠盐,式量为 1359.4,A 的阴离子 B 是一种含三个 Pt 原子的多核络离子,仅含 Pt、S、O 三种元素,B 中所有 Pt 的化学环境一致,配位原子均为 S 且 Pt 的配位数与典型的单核 Pt 配合物相同,存在两种化学环境不同的 S,不存在 Pt-Pt 键和 S-S 键。"
-    }
-  ],
-  "parts": [
-    {
-      "id": "part-000201-01",
-      "label": "4-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "通过计算和分析确定络离子 B 的组成。"
-        }
-      ]
-    },
-    {
-      "id": "part-000201-02",
-      "label": "4-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出 B 的结构式。"
-        }
-      ]
-    },
-    {
-      "id": "part-000201-03",
-      "label": "4-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出生成配合物 A 的化学方程式。"
-        }
-      ]
+      "text": "向 $\\mathrm { H _ { 2 } P t ( O H ) } _ { \\mathfrak { c } }$ 6 ⽔溶液中加入⾜量的 $\\mathrm { N a _ { 2 } S _ { 2 } O _ { 3 } }$ 溶液，调整pH⾄11.4，在高压⽔热釜中 $1 5 0 ~ ^ { \\circ } \\mathrm { C }$ 反应 17h，得到一种深棕色的晶体(A·?H 2 O)。A是一种钠盐，式量为1359.4，A的阴离⼦B是一种含三个Pt原⼦的多核络离⼦，仅含Pt、S、O三种元素，B中所有Pt的化学环境一致，配位原⼦均为S且Pt的配位数与典型的单核Pt配合物相同，存在两种化学环境不同的S，不存在Pt-Pt键和S-S键。 4-1 通过计算和分析确定络离⼦B的组成。 4-2 画出B的结构式。"
     }
   ]
 }

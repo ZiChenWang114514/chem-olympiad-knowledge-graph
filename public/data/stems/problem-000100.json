@@ -10,20 +10,15 @@
   "source": {
     "sourceDocumentId": "source-000015",
     "sourceLabel": "2020-34-CChO-juesai-1.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2020-34-CChO-juesai-2/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、规范小问结构。请以官方纸质/PDF 为准。",
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
-    {
-      "type": "figure",
-      "caption": "缺图",
-      "alt": "原卷此处有图,但当前文本缺失。"
-    },
     {
       "type": "paragraph",
       "text": "实验测得乙醇在37.8 °C的一组数据如下表:"
@@ -36,6 +31,24 @@
     {
       "type": "paragraph",
       "text": "乙醇在该温度下的饱和蒸气压 $p^* = \\qquad \\sigma_0$ O"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000100-figure-001.jpg",
+      "alt": "晶体结构或分子模型示意图（原图）",
+      "caption": "题目配图"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000100-figure-002.jpg",
+      "alt": "晶体结构或分子模型示意图（原图）",
+      "caption": "题目配图"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000100-figure-003.jpg",
+      "alt": "晶体结构或分子模型示意图（原图）",
+      "caption": "题目配图"
     }
   ],
   "parts": []

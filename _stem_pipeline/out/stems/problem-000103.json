@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000015",
     "sourceLabel": "2020-34-CChO-juesai-1.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2020-34-CChO-juesai-1/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
   "renderingHints": {
     "mhchem": true
   },
@@ -31,7 +31,8 @@
         {
           "type": "figure",
           "caption": "转化示意图",
-          "alt": "缺图:转化中间产物2、3、4和产物5的结构简式"
+          "alt": "缺图:转化中间产物2、3、4和产物5的结构简式",
+          "src": "data/stems/assets/problem-000103-figure-001.jpg"
         }
       ]
     },
@@ -46,7 +47,8 @@
         {
           "type": "figure",
           "caption": "反应示意图",
-          "alt": "缺图:反应关键中间体结构简式"
+          "alt": "缺图:反应关键中间体结构简式",
+          "src": "data/stems/assets/problem-000103-figure-002.jpg"
         }
       ]
     }

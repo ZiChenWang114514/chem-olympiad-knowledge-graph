@@ -10,55 +10,40 @@
   "source": {
     "sourceDocumentId": "source-000022",
     "sourceLabel": "2022-36-CChO-juesai-2.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2022-36-CChO-juesai-2/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "figure",
-      "caption": "题给反应信息图",
-      "alt": "题给反应信息图(原图缺失)"
+      "type": "paragraph",
+      "text": "第10题（11分）如下所示，1,3-二醇单磺酸酯在碱性条件下发生1,3-消除，称为Wharton碎⽚化反应。该反应是制备中环化合物，尤其是八元环的有效方法之一（要求⽴体化学）。"
     },
     {
       "type": "paragraph",
-      "text": "依据此信息,回答以下问题:"
-    }
-  ],
-  "parts": [
-    {
-      "id": "part-000197-01",
-      "label": "10-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "如下光学纯的化合物 G 在三氟乙酸中发生溶剂解得到外消旋 H,写出外消旋化经过的关键中间体。"
-        },
-        {
-          "type": "figure",
-          "caption": "化合物 G 与 H 的结构图",
-          "alt": "化合物 G 与 H 的结构图(原图缺失)"
-        }
-      ]
+      "text": "依据此信息，回答以下问题： 10-1 如下光学纯的化合物G在三氟⼄酸中发生溶剂解得到外消旋H，写出外消旋化经过的关键中间体。"
     },
     {
-      "id": "part-000197-02",
-      "label": "10-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "如下所示反应,在自由基引发下,含双环[4.2.0]骨架的原料可以扩环得到含双环[6.4.0]骨架的中间产物 A,并经多步串联得到中环产物 (S)-环十二-6-烯-1-酮。画出 A 的结构式,并画出由原料转化成 A 的关键中间体。"
-        },
-        {
-          "type": "figure",
-          "caption": "反应路线图",
-          "alt": "反应路线图(原图缺失)"
-        }
-      ]
+      "type": "paragraph",
+      "text": "10-2 如下所示反应，在⾃由基引发下，含双环[4.2.0]⻣架的原料可以扩环得到含双环[6.4.0]⻣架的中间产物A，并经多步串联得到中环产物(?)-环⼗二-6-烯-1-酮。画出出A的结构式，并画出由原料转化成A的关键中间体。"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000197-figure-001.jpg",
+      "alt": "problem-000197题目配图第1幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000197-figure-002.jpg",
+      "alt": "problem-000197题目配图第2幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000197-figure-003.jpg",
+      "alt": "problem-000197题目配图第3幅（已按原图查看）"
     }
   ]
 }

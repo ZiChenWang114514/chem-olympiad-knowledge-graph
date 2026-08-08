@@ -10,54 +10,26 @@
   "source": {
     "sourceDocumentId": "source-000053",
     "sourceLabel": "2019-33-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2019-33-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000067-01",
-      "label": "1-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "利用不同的催化剂,乙烯催化氧化可选择性地生成不同产物。产物A可使石灰水变浑浊。写出与A相对分子质量相等的其他所有产物的分子式和结构简式。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "第1题（10分）简要回答问题。 1-1 利用不同的催化剂，⼄烯催化氧化可选择性地生成不同产物。产物A可使⽯灰⽔变浑浊。写出与A相对分⼦质量相等的其他所有产物的分⼦式和结构简式。 1-2 化合物 $\\mathrm { C s A u C l _ { 3 } }$ 呈抗磁性。每个Cs+周围有12个Cl−离⼦，每个Cl−离⼦周围有5个金属离⼦。金离⼦处在Cl−围成的配位中⼼（也是对称中⼼）。写出该化合物中Au的氧化态及其对应的配位⼏何构型。 1-3 2019年1月，嫦娥四号成功在月球着陆。探测器上的五星红旗由一类特殊的聚酰亚胺制成。以下为某种芳⾹族聚酰亚胺的合成路线："
     },
     {
-      "id": "part-000067-02",
-      "label": "1-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "化合物 $\\mathrm{CsAuCl_3}$ 呈抗磁性。每个Cs+周围有12个Cl−离子,每个Cl−离子周围有5个金属离子。金离子处在Cl−围成的配位中手(也是对称中手)。写出该化合物中Au的氧化态及其对应的配位几何构型。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "画出A、B、C的结构简式。"
     },
     {
-      "id": "part-000067-03",
-      "label": "1-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "2019年1月,嫦娥四号成功在月球着陆。探测器上的五星红旗由一类特殊的聚酰亚胺制成。以下为某种芳香族聚酰亚胺的合成路线:"
-        },
-        {
-          "type": "figure",
-          "caption": "合成路线图(原图缺失)",
-          "alt": "芳香族聚酰亚胺合成路线示意图"
-        },
-        {
-          "type": "paragraph",
-          "text": "画出A、B、C的结构简式。"
-        }
-      ]
+      "type": "figure",
+      "src": "data/stems/assets/problem-000067-figure-001.jpg",
+      "alt": "problem-000067题目配图第1幅（已按原图查看）"
     }
   ]
 }

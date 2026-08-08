@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000025",
     "sourceLabel": "2023-37-CChO-juesai-1.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2023-37-CChO-juesai-1/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
   },
@@ -30,8 +30,9 @@
         },
         {
           "type": "figure",
-          "caption": "反应过程示意图",
-          "alt": "反应过程示意图(缺图)"
+          "src": "data/stems/assets/problem-000218-figure-001.jpg",
+          "alt": "化学反应路线与结构式示意图（原图）",
+          "caption": "反应过程示意图"
         }
       ]
     },
@@ -75,8 +76,15 @@
         },
         {
           "type": "figure",
-          "caption": "反应过程示意图",
-          "alt": "反应过程示意图(缺图)"
+          "src": "data/stems/assets/problem-000218-figure-002.jpg",
+          "alt": "化学反应路线与结构式示意图（原图）",
+          "caption": "反应过程示意图"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000218-figure-003.jpg",
+          "alt": "化学反应路线与结构式示意图（原图）",
+          "caption": "反应过程示意图"
         }
       ]
     },
@@ -107,11 +115,6 @@
         {
           "type": "paragraph",
           "text": "-3 采用亚磷酸三异丙酯R作为反应底物时,可生成与O类似的O1中间体。画出用结构简式表述的O1到S的反应机理。"
-        },
-        {
-          "type": "figure",
-          "caption": "反应过程示意图",
-          "alt": "反应过程示意图(缺图)"
         }
       ]
     },

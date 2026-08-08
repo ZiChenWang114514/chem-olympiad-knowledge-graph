@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000063",
     "sourceLabel": "2025-39-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2025-39-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、合并空壳段落、删除无信息 callout。请以官方纸质/PDF 为准。",
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
   },
@@ -33,16 +33,7 @@
     },
     {
       "type": "paragraph",
-      "text": "解答:"
-    },
-    {
-      "type": "figure",
-      "caption": "(图:中间产物 A 的结构式)",
-      "alt": "缺图,请参考官方试卷"
-    },
-    {
-      "type": "paragraph",
-      "text": "2 分,其他答案不得分。"
+      "text": "2 分,"
     },
     {
       "type": "paragraph",
@@ -50,60 +41,31 @@
     },
     {
       "type": "paragraph",
-      "text": "解答:"
-    },
-    {
-      "type": "figure",
-      "caption": "(图:关键中间体)",
-      "alt": "缺图,请参考官方试卷"
-    },
-    {
-      "type": "paragraph",
-      "text": "每个 2 分,共 8 分;给分原则:从答案中选择符合要求的给分。骨架错误的不得分。"
+      "text": "每个 2 分,共 8 分;骨架错误的不得分。"
     },
     {
       "type": "paragraph",
       "text": "9.2 如下反应有很好的非对映选择性:"
     },
     {
-      "type": "figure",
-      "caption": "(图:反应式)",
-      "alt": "缺图,请参考官方试卷"
+      "type": "paragraph",
+      "text": "9.2.1 最终的关环产物中标黑的两个氢之间的关系是:(a) 顺式;(b) 反式;(c) 无法判断。"
     },
     {
       "type": "paragraph",
-      "text": "9.2.1 最终的关环产物中标黑的两个氢之间的关系是:(a) 顺式;(b) 反式;(c) 无法判断。解答:"
+      "text": "a,1 分,"
     },
     {
       "type": "paragraph",
-      "text": "a,1 分,其他答案不得分。"
+      "text": "9.2.2 用苯代替甲苯,写出上述反应过程中的关键中间体(要求立体化学)。"
     },
     {
       "type": "paragraph",
-      "text": "9.2.2 用苯代替甲苯,写出上述反应过程中的关键中间体(要求立体化学)。解答:"
-    },
-    {
-      "type": "figure",
-      "caption": "(图:关键中间体)",
-      "alt": "缺图,请参考官方试卷"
-    },
-    {
-      "type": "figure",
-      "caption": "(图:关键中间体)",
-      "alt": "缺图,请参考官方试卷"
-    },
-    {
-      "type": "paragraph",
-      "text": "一共 4 个,每个 2 分,共 8 分;给分原则:骨架 1 分,立体化学 1 分;骨架正确,立体化学错误得 1 分。立体化学只要求五元环的三个取代基为顺式即可。骨架错误得 0 分。"
+      "text": "一共 4 个,每个 2 分,共 8 分;骨架正确,立体化学错误得 1 分。立体化学只要求五元环的三个取代基为顺式即可。骨架错误得 0 分。"
     },
     {
       "type": "paragraph",
       "text": "9.2.3 用末端烯烃替代炔烃,画出此反应产物的结构式(要求立体化学)。"
-    },
-    {
-      "type": "figure",
-      "caption": "(图:反应条件)",
-      "alt": "缺图,请参考官方试卷"
     },
     {
       "type": "paragraph",
@@ -115,10 +77,6 @@
     },
     {
       "type": "paragraph",
-      "text": "解答:"
-    },
-    {
-      "type": "paragraph",
       "text": "产物结构为:"
     },
     {
@@ -126,31 +84,16 @@
       "text": "每个 2 分,共 4 分;如果没有准确标出甲基取代方式,立体化学准确的得 2 分,立体化学不准确继续扣分;产物为以下结构的任意一个,且立体化学准确的可得 1 分"
     },
     {
-      "type": "figure",
-      "caption": "(图:产物结构)",
-      "alt": "缺图,请参考官方试卷"
-    },
-    {
-      "type": "figure",
-      "caption": "(图:产物结构)",
-      "alt": "缺图,请参考官方试卷"
-    },
-    {
       "type": "paragraph",
-      "text": "给分原则:骨架 1 分,立体化学 1 分;骨架正确,立体化学错误得 1 分,立体化学只要求五元环的三个取代基为顺式即可。不要求甲苯取代基的立体化学。甲基取代基在间位不得分。"
+      "text": "骨架正确,立体化学错误得 1 分,立体化学只要求五元环的三个取代基为顺式即可。不要求甲苯取代基的立体化学。甲基取代基在间位不得分。"
     },
     {
       "type": "paragraph",
       "text": "9.3 研究结果表明,如下反应有很好的对映选择性。"
     },
     {
-      "type": "figure",
-      "caption": "(图:反应式)",
-      "alt": "缺图,请参考官方试卷"
-    },
-    {
       "type": "paragraph",
-      "text": "9.3.1 确定此反应原料中 C1 和 C2 的绝对构型。解答:"
+      "text": "9.3.1 确定此反应原料中 C1 和 C2 的绝对构型。"
     },
     {
       "type": "paragraph",
@@ -158,20 +101,11 @@
     },
     {
       "type": "paragraph",
-      "text": "给分原则:每个 1 分,共 2 分,其他答案不得分。"
-    },
-    {
-      "type": "paragraph",
-      "text": "9.3.2 画出中间产物 A 的结构式(要求示出手性中心的绝对构型)。解答:"
+      "text": "9.3.2 画出中间产物 A 的结构式(要求示出手性中心的绝对构型)。"
     },
     {
       "type": "paragraph",
       "text": "or"
-    },
-    {
-      "type": "figure",
-      "caption": "(图:中间产物 A)",
-      "alt": "缺图,请参考官方试卷"
     },
     {
       "type": "heading",
@@ -181,11 +115,6 @@
     {
       "type": "paragraph",
       "text": "没有形成亚胺正离子,形成以下结构的得 1 分"
-    },
-    {
-      "type": "figure",
-      "caption": "(图:副产物结构)",
-      "alt": "缺图,请参考官方试卷"
     },
     {
       "type": "heading",
@@ -198,12 +127,7 @@
     },
     {
       "type": "paragraph",
-      "text": "9.3.3 判断化合物 B 中 C5 位 H 与酯基的立体关系,并说明理由。解答:"
-    },
-    {
-      "type": "figure",
-      "caption": "(图:化合物 B)",
-      "alt": "缺图,请参考官方试卷"
+      "text": "9.3.3 判断化合物 B 中 C5 位 H 与酯基的立体关系,并说明理由。"
     },
     {
       "type": "paragraph",
@@ -211,52 +135,23 @@
     },
     {
       "type": "paragraph",
-      "text": "给分原则:其他答案不得分。"
-    },
-    {
-      "type": "paragraph",
       "text": "9.4 仔细观察下述反应的底物结构,完成以下反应式,并回答相关问题:"
     },
     {
-      "type": "figure",
-      "caption": "(图:反应式)",
-      "alt": "缺图,请参考官方试卷"
+      "type": "paragraph",
+      "text": "9.4.1 画出产物的立体结构式。"
     },
     {
       "type": "paragraph",
-      "text": "9.4.1 画出产物的立体结构式。解答:"
-    },
-    {
-      "type": "figure",
-      "caption": "(图:产物结构)",
-      "alt": "缺图,请参考官方试卷"
-    },
-    {
-      "type": "figure",
-      "caption": "(图:产物结构)",
-      "alt": "缺图,请参考官方试卷"
-    },
-    {
-      "type": "figure",
-      "caption": "(图:产物结构)",
-      "alt": "缺图,请参考官方试卷"
+      "text": "六元环并六元环骨架正确得 1 分,直立键上的 H 与酯基顺式:1 分;苯基与酯基为顺式:1 分,共 3 分;"
     },
     {
       "type": "paragraph",
-      "text": "六元环并六元环骨架正确得 1 分,直立键上的 H 与酯基顺式:1 分;苯基与酯基为顺式:1 分,共 3 分;给分原则:骨架错误,后续正确都不得分。"
-    },
-    {
-      "type": "paragraph",
-      "text": "9.4.2 画出反应的过渡态结构式。解答:"
+      "text": "9.4.2 画出反应的过渡态结构式。"
     },
     {
       "type": "paragraph",
       "text": "过渡态结构:"
-    },
-    {
-      "type": "figure",
-      "caption": "(图:过渡态结构)",
-      "alt": "缺图,请参考官方试卷"
     },
     {
       "type": "paragraph",
@@ -273,7 +168,7 @@
     },
     {
       "type": "paragraph",
-      "text": "9.4.3 并依据此过渡态结构分析,与题 9.3 相比,题 9.4 产物中 H 与酯基的立体化学关系是否有变化?(a) 有变化;(c) 没有变化。解答:"
+      "text": "9.4.3 并依据此过渡态结构分析,与题 9.3 相比,题 9.4 产物中 H 与酯基的立体化学关系是否有变化?(a) 有变化;(c) 没有变化。"
     },
     {
       "type": "paragraph",
@@ -281,7 +176,7 @@
     },
     {
       "type": "paragraph",
-      "text": "9.4.4 此转换的非对映过量值(dr)是升高还是降低?(a) 升高;(b) 降低;(c) 没有变化。解答:"
+      "text": "9.4.4 此转换的非对映过量值(dr)是升高还是降低?(a) 升高;(b) 降低;(c) 没有变化。"
     },
     {
       "type": "paragraph",
@@ -289,16 +184,11 @@
     },
     {
       "type": "paragraph",
-      "text": "9.4.5 为 9.4.3 的结论给出具体解释。解答:"
+      "text": "9.4.5 为 9.4.3 的结论给出具体解释。"
     },
     {
       "type": "paragraph",
       "text": "酰胺的羰基与酯基成反式,使得亚胺正离子的加成反应从环下方或从酯基的反位进行,与苯基的立体化学无关。共 1 分。"
-    },
-    {
-      "type": "figure",
-      "caption": "(图:解释示意图)",
-      "alt": "缺图,请参考官方试卷"
     },
     {
       "type": "paragraph",
@@ -308,6 +198,115 @@
       "type": "heading",
       "level": 3,
       "text": "2025 年 9 月 11 日评分材料"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-001.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "(图:中间产物 A 的结构式)"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-002.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "(图:关键中间体)"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-003.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "(图:反应式)"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-004.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "(图:关键中间体)"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-005.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "(图:关键中间体)"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-006.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "(图:反应条件)"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-007.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "(图:产物结构)"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-008.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "(图:产物结构)"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-009.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "(图:反应式)"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-010.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "(图:中间产物 A)"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-011.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "(图:副产物结构)"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-012.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "(图:化合物 B)"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-013.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "(图:反应式)"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-014.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "(图:产物结构)"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-015.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "(图:产物结构)"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-016.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "(图:产物结构)"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-017.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "(图:过渡态结构)"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-018.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "(图:解释示意图)"
     }
-  ]
+  ],
+  "parts": []
 }

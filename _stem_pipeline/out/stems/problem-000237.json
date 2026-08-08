@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000062",
     "sourceLabel": "2024-38-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2024-38-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、合并小问、删除无信息 callout。请以官方纸质/PDF 为准。",
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
   "renderingHints": {
     "mhchem": true
   },
@@ -31,7 +31,8 @@
         {
           "type": "figure",
           "caption": "选项 a-d 的化合物结构",
-          "alt": "四个化合物的结构式,分别标记为 a、b、c、d"
+          "alt": "四个化合物的结构式,分别标记为 a、b、c、d",
+          "src": "data/stems/assets/problem-000237-figure-001.jpg"
         }
       ]
     },
@@ -46,11 +47,30 @@
         {
           "type": "figure",
           "caption": "待鉴别化合物的结构",
-          "alt": "三个化合物的结构式"
+          "alt": "三个化合物的结构式",
+          "src": "data/stems/assets/problem-000237-figure-002.jpg"
         },
         {
           "type": "paragraph",
           "text": "(a) HCl 溶液; (b) 溴水; (c) 对甲苯磺酰氯; (d) NaOH 水溶液; (e) $\\ce{CH3I}$"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000237-figure-005.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 5"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000237-figure-006.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 6"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000237-figure-007.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 7"
         }
       ]
     },
@@ -65,7 +85,14 @@
         {
           "type": "figure",
           "caption": "四个化合物的结构及指定 C-H 键的 pKa 值",
-          "alt": "四个化合物的结构式,标注了指定碳氢键的 pKa 值"
+          "alt": "四个化合物的结构式,标注了指定碳氢键的 pKa 值",
+          "src": "data/stems/assets/problem-000237-figure-003.jpg"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000237-figure-008.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 8"
         }
       ]
     },
@@ -102,11 +129,24 @@
         {
           "type": "figure",
           "caption": "聚合物 A 和 B 的结构片段",
-          "alt": "两种聚合物的结构片段,分别标记为 A 和 B"
+          "alt": "两种聚合物的结构片段,分别标记为 A 和 B",
+          "src": "data/stems/assets/problem-000237-figure-004.jpg"
         },
         {
           "type": "paragraph",
           "text": "(a) 聚合物 A 分子间氢键更强; (b) 聚合物 B 分子间氢键更强; (c) 无法比较。"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000237-figure-009.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 9"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000237-figure-010.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 10"
         }
       ]
     },

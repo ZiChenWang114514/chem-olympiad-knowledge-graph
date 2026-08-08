@@ -87,7 +87,10 @@ test('真题档案可以筛选并打开元数据记录', async ({ page }) => {
 test('有题干的题目详情可渲染结构化题干', async ({ page }) => {
   await page.goto('./#/exams/problem-000011')
   await expect(page.getByTestId('problem-stem')).toBeVisible({ timeout: 15_000 })
-  await expect(page.getByText('演示排版')).toBeVisible()
-  await expect(page.getByText(/理想立方钙钛矿/)).toBeVisible()
-  await expect(page.getByText('(1)')).toBeVisible()
+  await expect(page.getByText('演示排版')).toHaveCount(0)
+  await expect(page.getByTestId('problem-stem')).toContainText('钙钛矿')
+  await expect(page.getByTestId('problem-stem').locator('img')).toHaveCount(3)
+  await expect(page.getByTestId('problem-stem').locator('img').nth(0)).toBeVisible()
+  await expect(page.getByTestId('problem-stem').locator('img').nth(1)).toBeVisible()
+  await expect(page.getByTestId('problem-stem').locator('img').nth(2)).toBeVisible()
 })

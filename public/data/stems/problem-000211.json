@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000025",
     "sourceLabel": "2023-37-CChO-juesai-1.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2023-37-CChO-juesai-2/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理公式与结构。请以官方纸质/PDF 为准。",
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
   "renderingHints": {
     "mhchem": true
   },
@@ -90,6 +90,156 @@
         {
           "type": "paragraph",
           "text": "假设电解质中的离子浓度均恒为标态,计算下列两种 $\\mathrm{Zn-I_2}$ 电池的储能密度(基于正负极的总质量,结果以Wh/kg表示)。"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000211-figure-001.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 1"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000211-figure-002.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 2"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000211-figure-003.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 3"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000211-figure-004.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 4"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000211-figure-005.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 5"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000211-figure-006.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 6"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000211-figure-007.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 7"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000211-figure-008.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 8"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000211-figure-009.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 9"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000211-figure-010.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 10"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000211-figure-011.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 11"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000211-figure-012.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 12"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000211-figure-013.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 13"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000211-figure-014.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 14"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000211-figure-015.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 15"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000211-figure-016.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 16"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000211-figure-017.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 17"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000211-figure-018.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 18"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000211-figure-019.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 19"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000211-figure-020.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 20"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000211-figure-021.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 21"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000211-figure-022.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 22"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000211-figure-023.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 23"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000211-figure-024.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 24"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000211-figure-025.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 25"
         }
       ]
     },

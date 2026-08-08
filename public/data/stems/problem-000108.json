@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000016",
     "sourceLabel": "2020-34-CChO-juesai-2.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "DeepSeek 精修:原题干切分失败,已清理占位信息,保留题号与标题。",
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
   },
@@ -22,6 +22,12 @@
     {
       "type": "paragraph",
       "text": "5 · 化学反应与结构综合分析"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000108-figure-001.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "题目配图"
     }
   ],
   "parts": []

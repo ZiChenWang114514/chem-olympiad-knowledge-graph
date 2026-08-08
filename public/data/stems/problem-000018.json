@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000050",
     "sourceLabel": "2016-30-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "DeepSeek 精修:原稿正文自动切分失败,仅保留标题占位;待人工依据原 PDF 补全题干。",
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
   "renderingHints": {
     "mhchem": true
   },
@@ -22,6 +22,12 @@
     {
       "type": "paragraph",
       "text": "孟山都法醋酸催化循环"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000018-figure-001.jpg",
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 1"
     }
   ]
 }

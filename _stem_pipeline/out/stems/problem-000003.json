@@ -10,18 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000017",
     "sourceLabel": "2021-35-CChO-juesai-1.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "DeepSeek 精修:原 OCR 题干自动切分失败,未能补全正文;现仅保留题目标题与元数据,待人工补全题目内容。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "Q1 · 硒的提取与反应"
+      "text": "第1题（14分）从电解精炼铜的阳极泥中提取硒的典型步骤为：将混有碳酸钠的阳极泥于 $6 5 0 ~ ^ { \\circ } \\mathrm { C }$ 在空气中燃烧（反应1），然后浸⽔过滤；滤液用稀硫酸中和后，过滤得亚硒酸溶液。往该溶液中通入 $\\mathrm { S O _ { 2 } }$ 沉淀出Se单质（反应2）。 1-1 以阳极泥中的 $\\mathrm { A g _ { 2 } S e }$ 和 $\\mathrm { C u _ { 2 } S e }$ 为例，写出反应1中的化学反应方程式。 1-2 写出反应2中的化学反应方程式。 1-3 双β衰变是原⼦核的一种稀有衰变方式，可近似看作连续的两次β衰变。第一个成功观测到双β衰变现象的原⼦核是 $^ { 8 2 } \\mathrm { S e }$ ，写出82Se发生双β衰变的反应方程式。 1-4 $\\mathrm { G a C l _ { 3 } }$ 和 $\\mathrm { S e C l _ { 4 } }$ 可在室温下发生反应，生成离⼦型化合物R。然⽽，将等摩尔数的 $S e O _ { 2 } ,$ $\\mathrm { S e C l _ { 4 } }$ 和 $\\mathrm { G a C l _ { 3 } }$ 于 $5 0 ~ ^ { \\circ } \\mathrm { C }$ 反应，得到等摩尔数的无色晶体P和液态物质Q。单晶X-射线衍射测试表明，无色晶体P中，Ga中⼼为四面体配位⼏何构型，Se的配位⼏何为三角锥形。Q的分⼦⼏何构型为三角锥形。在 $8 0 0 ~ ^ { \\circ } \\mathrm { C }$ 惰性气氛中，P发生热分解，剩余残渣的质量百分含量约为 $1 1 \\text{‰}$ 1-4-1 写出能表明R结构特征的化学式，分别写出P和Q的化学式。 1-4-2 根据Se、Ga氯化物和氧化物的相关性质，推导出P的热分解产物，并写出化学反应方程式。"
     }
   ]
 }

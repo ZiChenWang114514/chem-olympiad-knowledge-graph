@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000062",
     "sourceLabel": "2024-38-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2024-38-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理公式与结构。请以官方纸质/PDF 为准。",
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
   },
@@ -25,8 +25,21 @@
     },
     {
       "type": "figure",
-      "caption": "聚乙烯胺结构示意图",
-      "alt": "聚乙烯胺结构图(原题附图)"
+      "src": "data/stems/assets/problem-000236-figure-001.jpg",
+      "alt": "化学结构示意图（原图）",
+      "caption": "聚乙烯胺结构示意图"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000236-figure-002.jpg",
+      "alt": "实验装置示意图（原图）",
+      "caption": "膜分离装置示意图"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000236-figure-003.jpg",
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     }
   ],
   "parts": [
@@ -77,11 +90,6 @@
         {
           "type": "paragraph",
           "text": "科学家发明了一种由阴离子交换树脂-碳纳米管构成的膜分离装置(如右图所示)可以连续去除空气中的 $\\mathrm{CO_2}$,在富集 $\\mathrm{CO_2}$ 的同时获得基本不含 $\\mathrm{CO_2}$ 的空气。除去 $\\mathrm{CO_2}$ 的空气可用于碱性燃料电池。这种薄膜兼具离子和电子传导性能,膜的 A 侧通入含 $\\mathrm{CO_2}$ 的空气,B 侧通入少量 $\\mathrm{H_2}$;经过反应后,A 侧得到基本不含 $\\mathrm{CO_2}$ 的空气,$\\mathrm{CO_2}$ 转化成了 $\\mathrm{HCO_3^-}$;B 侧得到较高浓度的 $\\mathrm{CO_2}$。写出 A 侧 $\\mathrm{CO_2}$ 转化成 $\\mathrm{HCO_3^-}$ 和 B 侧释放 $\\mathrm{CO_2}$ 的反应方程式。"
-        },
-        {
-          "type": "figure",
-          "caption": "膜分离装置示意图",
-          "alt": "膜分离装置图(原题附图)"
         }
       ]
     },

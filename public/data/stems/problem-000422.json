@@ -10,55 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000008",
     "sourceLabel": "2013-27-CChO-juesai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2013-27-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000422-01",
-      "label": "6-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算整个过程终态的热力学温度 $T_2$ 。"
-        }
-      ]
-    },
-    {
-      "id": "part-000422-02",
-      "label": "6-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "通过计算,判断终态时体系中是否存在液态水,若存在,液态水的量是多少。"
-        }
-      ]
-    },
-    {
-      "id": "part-000422-03",
-      "label": "6-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算整个过程发生后,体系的焓变 $\\Delta H$ 。"
-        }
-      ]
-    },
-    {
-      "id": "part-000422-04",
-      "label": "6-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "若整个过程的熵变为 $132.5\\ \\mathrm{J\\,K^{-1}}$ ,推算可逆过程的熵变 $\\Delta S$ 。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "第6题（9分）将1 mol⽔在 $1 0 0 \\ ^ { \\circ } \\mathrm { C } ,$ 101.3kPa下全部蒸发为⽔蒸气，再沿着 $p / V = a$ （常数）的可逆过程，终态压力为152.0 kPa。设⽔蒸气为理想气体，在此过程温度范围内，它的摩尔等压热容 $C _ { p , m } = 3 3 . 2 0 \\mathrm { J } \\mathrm { m o l } ^ { - 1 }$ K−1。⽔的气化热为40.66kJ mol−1（假设一定温度范围内⽔的气化热不变）。 6-1 计算整个过程终态的热力学温度 $T _ { 2 ^ { \\varsigma } }$ 。 6-2 通过计算，判断终态时体系中是否存在液态⽔，若存在，液态⽔的量是多少。 6-3 计算整个过程发生后，体系的焓变 $\\Delta H _ { \\circ }$ 6-4 若整个过程的熵变为132.5J K−1，推算可逆过程的熵变 $\\Delta S _ { \\mathrm { c } }$ 。"
     }
   ]
 }

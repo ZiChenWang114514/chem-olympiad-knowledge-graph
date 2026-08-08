@@ -10,79 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000006",
     "sourceLabel": "2011-25-CChO-juesai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2011-25-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000383-01",
-      "label": "1-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "同族元素D, E, F (均为非放射性副族元素)基态原子的价层电子组态符合同一个通式,在元素周期表中,位置在A、B、C所在族之前,请给出D、E、F的元素符号及价层电子组态的通式。"
-        }
-      ]
-    },
-    {
-      "id": "part-000383-02",
-      "label": "1-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "元素A存在于动物的血蓝蛋白中,人对A元素代谢紊乱可导致Wilson病。"
-        },
-        {
-          "type": "paragraph",
-          "text": "$\\mathrm{A^{2+}}$ 硫酸盐在碱性溶液中加入缩二脲 $\\mathrm{HN(CO NH_2)_2}$ 会得到特征的紫色物质,该物质为−2价的配位阴离子,具有对称中手和不通过A的二重旋转轴,无金属-金属键,请画出该阴离子的结构(A必须写元素符号,下同)。"
-        }
-      ]
-    },
-    {
-      "id": "part-000383-03",
-      "label": "1-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "通过 $\\mathrm{A^{2+}}$ 与过量的丁二酮肟形成二聚配合物,实现了 $\\mathrm{A^{2+}}$ 的平面正方形配位向 $\\mathrm{A^{2+}}$ 的四方锥形配位转化,请画出该配合物的结构(丁二酮肟用 $\\widehat{\\mathrm{N}} \\widehat{\\mathrm{N}}$ 表示)。"
-        }
-      ]
-    },
-    {
-      "id": "part-000383-04",
-      "label": "1-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "用 $\\mathrm{B^{+}}$ 的标准溶液滴定KCl和KSCN的中性溶液,得到电位滴定曲线,其拐点依次位于M、N、P处。1-3-1 请分别写出在M、N、P处达到滴定终点的离子反应方程式。"
-        }
-      ]
-    },
-    {
-      "id": "part-000383-05",
-      "label": "1-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "在N处的物质是无支链的聚合物,请至少画出三个单元表示其结构。"
-        }
-      ]
-    },
-    {
-      "id": "part-000383-06",
-      "label": "1-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "元素C的单质与单一的无机酸不起作用,但可溶于王水。C与 $\\mathrm{O_2}$ 和 $\\mathrm{F_2}$ 作用制得化合物X,在X中C的质量分数为57.43%,X的结构与1962年N. Bartlett开创性工作的产物极为相似,通过推演给出X的化学式。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "第1题（13分）同族金属A，B，C具有优良的导热、导电性能，若以?表示电离能， $I _ { 1 } \\mathrm { \\cdot }$ 最低的是B， $( I _ { 1 } + I _ { 2 } )$ 最低的是 A， $( I _ { 1 } + I _ { 2 } + I _ { 3 } )$ 最低的是 $\\mathbf { C } _ { \\circ }$ 1-1 同族元素D， $\\mathrm { { \\bf E } } , \\mathrm { { \\bf ~ F } }$ （均为⾮放射性副族元素）基态原⼦的价层电⼦组态符合同一个通式，在元素周期表中，位置在A、B、C所在族之前，请给出D、E、F的元素符号及价层电⼦组态的通式。 1-2 元素A存在于动物的⾎蓝蛋白中，人对A元素代谢紊乱可导致Wilson病。 $\\mathbf { 1 - 2 - 1 \\ A ^ { 2 + } }$ 硫酸盐在碱性溶液中加入缩二脲 $\\mathrm { { H N } ( C O N H _ { 2 } ) _ { 2 } }$ 会得到特征的紫色物质，该物质为−2价的配位阴离⼦，具有对称中⼼和不通过A的二重旋转轴，无金属-金属键，请画出该阴离⼦的结构（A必须写元素符号，下同）。 1-2-2 通过 $\\mathbf { A } ^ { 2 + }$ 与过量的丁二酮肟形成二聚配合物，实现了 $\\mathbf { A } ^ { 2 + }$ 的平面正方形配位向 $\\mathbf { A } ^ { 2 + }$ 的四方锥形配位转化，请画出该配合物的结构（丁二酮肟用 $\\widehat { \\mathrm { ~ N ~ } } \\widehat { \\mathrm { ~ N ~ } }$ 表示）。 1-3 用 $\\mathbf { B } ^ { + }$ 的标准溶液滴定KCl和KSCN的中性溶液，得到电位滴定曲线，其拐点依次位于M、N、P处。1-3-1 请分别写出在M、N、P处达到滴定终点的离⼦反应方程式。 1-3-2 在N处的物质是无⽀链的聚合物，请⾄少画出三个单元表示其结构。 1-4 元素C的单质与单一的无机酸不起作用，但可溶于王⽔。C与 $\\mathrm { O _ { 2 } }$ 和 $\\mathrm { F } _ { 2 }$ 作用制得化合物X，在X中C的质量分数为57.43%，X的结构与1962年N. Bartlett开创性工作的产物极为相似，通过推演给出X的化学式。"
     }
   ]
 }

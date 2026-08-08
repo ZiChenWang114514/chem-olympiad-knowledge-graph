@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000010",
     "sourceLabel": "2015-29-CChO-juesai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2015-29-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、合并空壳段落、将缺图占位改为 figure 块。请以官方纸质/PDF 为准。",
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
   },
@@ -25,8 +25,15 @@
     },
     {
       "type": "figure",
-      "caption": "合成路线片段(图缺)",
-      "alt": "eudesmane 合成路线片段,包含化合物 A 至 N 及试剂 E、K 等"
+      "src": "data/stems/assets/problem-000467-figure-001.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "合成路线片段(图缺)"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000467-figure-002.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "题目配图"
     }
   ],
   "parts": [

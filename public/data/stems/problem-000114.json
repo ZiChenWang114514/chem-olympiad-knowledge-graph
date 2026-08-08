@@ -10,50 +10,26 @@
   "source": {
     "sourceDocumentId": "source-000057",
     "sourceLabel": "2021-35-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2021-35-CChO-chusai-jiangsu/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "磷的混合卤化物在药物合成、阻燃等领域有广泛应用。某磷的混合卤化物 M 中磷的质量百分含量为 19.49%,其熔、沸点分别为 148.2 K 和 290.2 K,在 $\\mathrm{CH_3CN}$ 中的导电能力很弱。M 很容易转化为白色固体 N,N 是共价型离子化合物,在 $\\mathrm{CH_3CN}$ 中的导电能力很强,303 K 下升华并部分转化为 M。"
-    }
-  ],
-  "parts": [
-    {
-      "id": "part-000114-01",
-      "label": "3-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "通过计算和分析,确定 M 的化学式,并画出 M 的结构,在图上标注中心原子的杂化方式。"
-        }
-      ]
+      "text": "第3题（12分）硼的化合物 $\\mathrm { B ( O H ) _ { 3 } }$ 是一种重要的无机化合物。在尝试合成硫代硼酸的过程中，得到了最简式为 $\\mathrm { H B S _ { 2 } }$ 的化合物，结构研究发现，这类物质主要以二聚(HBS ) (A)或三聚(HBS ) (B)的形式存在，其中的B均为三配位。 3-1 画出A和B的结构。 3-2 A 和 $\\mathrm { B C l _ { 3 } }$ 按计量系数1:1反应，得到相同计量系数的 $\\mathrm { H } _ { 2 } \\mathrm { S }$ 和另一产物C（反应1），C受热分解为D和$\\mathrm { B C l _ { 3 } }$ （反应2）。在低温惰性介质中D可以单分⼦形式存在，结构中有且仅有二次旋转轴以及过二次轴的两个 3-2-1 写出C生成（反应1）和分解（反应2）的反应方程式。 3-2-2C易⽔解。写出C发生⽔解的反应方程式 3-2-3 画出 C 和 D 的结构。 3-3 D 和单质 S 在 $3 0 0 ~ ^ { \\circ } \\mathrm { C }$ 反应，生成白色固体E，E的分⼦采用类似卟吩的平面大环结构（⻅右图，每个圆圈代表一个原⼦）。"
     },
     {
-      "id": "part-000114-02",
-      "label": "3-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出 N 的结构,在图上标注中心原子的杂化方式。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "3-3-1 写出E的分⼦式（要求给出表示其组成特点的结构简式，并示出元素的氧化态）。 3-3-2 画出E的经典Lewis结构（只需给出一种） 3-3-3 依据休克尔规则判断此结构是否有芳⾹性。"
     },
     {
-      "id": "part-000114-03",
-      "label": "3-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出 N 的阳离子中所有的对称元素的种类和数量。"
-        }
-      ]
+      "type": "figure",
+      "src": "data/stems/assets/problem-000114-figure-001.jpg",
+      "alt": "problem-000114题目配图第1幅（已按原图查看）"
     }
   ]
 }

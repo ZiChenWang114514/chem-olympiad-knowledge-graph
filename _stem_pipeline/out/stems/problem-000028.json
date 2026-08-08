@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000011",
     "sourceLabel": "2016-30-CChO-juesai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2016-30-CChO-juesai/full.md)程序化切分并整理为结构化题干;本次经 DeepSeek 精修(修正 OCR 字形、LaTeX 及小问格式)。请以官方纸质/PDF 为准。",
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
   },
@@ -25,8 +25,9 @@
     },
     {
       "type": "figure",
-      "caption": "反应机理图",
-      "alt": "原题所给反应机理图(缺图)"
+      "src": "data/stems/assets/problem-000028-figure-001.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "反应机理图"
     }
   ],
   "parts": [

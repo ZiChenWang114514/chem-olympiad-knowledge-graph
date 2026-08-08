@@ -10,85 +10,35 @@
   "source": {
     "sourceDocumentId": "source-000047",
     "sourceLabel": "2013-27-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2013-27-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000416-01",
-      "label": "9-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "常用同位素标记法研究有机反应历程。如利用 $^{18}\\mathrm{O}$ 标记的甲醇钠研究如下反应,发现最终产物不含 $^{18}\\mathrm{O}$。根据实验事实画出中间体的结构简式。"
-        },
-        {
-          "type": "figure",
-          "caption": "反应示意图(原图缺失)",
-          "alt": "反应示意图"
-        }
-      ]
+      "type": "paragraph",
+      "text": "第 9 题（12 分） 9-1 常用同位素标记法研究有机反应历程。如利用 $^ { 1 8 } \\mathrm { O }$ 标记的甲醇钠研究如下反应，发现最终产物不含 $^ { 1 8 } \\mathrm { O } _ { \\circ }$ 根据实验事实画出中间体的结构简式。"
     },
     {
-      "id": "part-000416-02",
-      "label": "9-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "某同学进行如下实验时在碱性条件下得到了两个产物D和E,产率分别为74.3%和25.7%。"
-        },
-        {
-          "type": "figure",
-          "caption": "反应示意图(原图缺失)",
-          "alt": "反应示意图"
-        }
-      ]
+      "type": "paragraph",
+      "text": "9-2 某同学进⾏如下实验时在碱性条件下得到了两个产物D和 $\\mathbf { E } ,$ ，产率分别为 74.3%和 25.7%。"
     },
     {
-      "id": "part-000416-03",
-      "label": "9-2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出产物D和E的结构简式。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "9-2-1 画出产物D和E的结构简式。 9-2-2 指明此反应所属的具体反应类型。 9-2-3 简述D产率较高的原因。 9-2-4 简述反应体系加入二氧六环的原因。"
     },
     {
-      "id": "part-000416-04",
-      "label": "9-2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "指明此反应所属的具体反应类型。"
-        }
-      ]
+      "type": "figure",
+      "src": "data/stems/assets/problem-000416-figure-001.jpg",
+      "alt": "problem-000416题目配图第1幅（已按原图查看）"
     },
     {
-      "id": "part-000416-05",
-      "label": "9-2-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "简述D产率较高的原因。"
-        }
-      ]
-    },
-    {
-      "id": "part-000416-06",
-      "label": "9-2-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "简述反应体系加入二氧六环的原因。"
-        }
-      ]
+      "type": "figure",
+      "src": "data/stems/assets/problem-000416-figure-002.jpg",
+      "alt": "problem-000416题目配图第2幅（已按原图查看）"
     }
   ]
 }

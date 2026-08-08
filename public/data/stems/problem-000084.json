@@ -10,30 +10,22 @@
   "source": {
     "sourceDocumentId": "source-000014",
     "sourceLabel": "2019-33-CChO-juesai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2019-33-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "佐米曲坦 $\\left( \\mathrm{C_{16}H_{21}N_2O} \\right)$ 是治疗偏头疼的药物,其合成路线如下。画出 A、B、C、D 和 E 的结构简式。"
+      "text": "第 8 题（11 分） 佐⽶曲坦 $\\left( \\mathrm { C _ { 1 6 } H N _ { 2 1 } O _ { 2 } } \\right)$ 是治疗偏头疼的药物，其合成路线如下。画出A、B、C、D和E的结构简式。"
     },
     {
       "type": "figure",
-      "caption": "合成路线图(原图缺失)",
-      "alt": "佐米曲坦合成路线图,包含 A、B、C、D、E 等中间体"
-    }
-  ],
-  "parts": [
-    {
-      "id": "p1",
-      "type": "question",
-      "text": "画出 A、B、C、D 和 E 的结构简式。"
+      "src": "data/stems/assets/problem-000084-figure-001.jpg",
+      "alt": "problem-000084题目配图第1幅（已按原图查看）"
     }
   ]
 }

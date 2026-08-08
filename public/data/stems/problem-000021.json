@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000050",
     "sourceLabel": "2016-30-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2016-30-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理缺失图占位。请以官方纸质/PDF 为准。",
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
   },
@@ -30,8 +30,9 @@
         },
         {
           "type": "figure",
-          "caption": "(原题图缺失:两种生物碱结构及其相互转化示意图)",
-          "alt": "原题图缺失:两种生物碱结构及其相互转化示意图"
+          "src": "data/stems/assets/problem-000021-figure-001.jpg",
+          "alt": "化学反应路线与结构式示意图（原图）",
+          "caption": "题目配图"
         }
       ]
     },
@@ -45,8 +46,9 @@
         },
         {
           "type": "figure",
-          "caption": "(原题图缺失:反应流程示意图)",
-          "alt": "原题图缺失:反应流程示意图"
+          "src": "data/stems/assets/problem-000021-figure-002.jpg",
+          "alt": "化学反应路线与结构式示意图（原图）",
+          "caption": "题目配图"
         }
       ]
     }

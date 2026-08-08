@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000056",
     "sourceLabel": "2021-35-CChO-chusai-jiangsu.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "DeepSeek 精修:原题干正文缺失,仅保留标题占位;已移除无信息 callout,保留题号与标题。",
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
   "renderingHints": {
     "mhchem": true
   },

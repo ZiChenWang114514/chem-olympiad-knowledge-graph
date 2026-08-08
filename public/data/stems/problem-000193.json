@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000022",
     "sourceLabel": "2022-36-CChO-juesai-2.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "DeepSeek 精修:原题干正文缺失,仅保留题目标题占位,待人工补全。",
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
   },

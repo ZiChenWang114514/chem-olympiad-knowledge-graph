@@ -1,4 +1,4 @@
-import { readFile, readdir } from 'node:fs/promises'
+import { readFile, readdir, stat } from 'node:fs/promises'
 import { join, relative } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -10,6 +10,7 @@ const summaryValue = /^(?:[a-f0-9]{32}|[a-f0-9]{40}|[a-f0-9]{64})$/i
 // 答案/评分类禁止；结构化题干（stems/）允许。禁止未结构化「题文全文」字段名式表述出现在非 stem 语境时仍靠字段审计。
 const protectedContent = /(?:参考答案全文|评分细则|(?:answer|solution|score)\s*(?:text|content)|protected\s+content)/i
 const forbiddenStemKeys = /^(?:answer|answerText|solution|solutionText|solutionSteps|rubric|scoreDetail|ocrRaw|fullText|rawPdfPath|internalPath)$/i
+const assetPath = /^stems\/assets\/problem-[0-9]{6}-figure-[0-9]{3}\.(?:jpe?g|png|webp|gif|svg)$/i
 
 async function files(dir) {
   const out = []
@@ -39,6 +40,12 @@ const paths = await files(root)
 const problems = []
 for (const path of paths) {
   const rel = relative(root, path).replaceAll('\\', '/')
+  if (forbidden.some(rx => rx.test(rel))) problems.push(rel)
+  if (rel.startsWith('stems/assets/')) {
+    if (!assetPath.test(rel)) problems.push(`${rel}: invalid stem asset filename or extension`)
+    else if ((await stat(path)).size <= 0) problems.push(`${rel}: empty stem asset`)
+    continue
+  }
   const text = (await readFile(path)).toString()
   if (forbidden.some(rx => rx.test(rel) || rx.test(text))) problems.push(rel)
   try { inspect(JSON.parse(text), rel) } catch (error) { problems.push(`${rel}: ${error.message}`) }

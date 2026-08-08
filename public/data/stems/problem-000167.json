@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000058",
     "sourceLabel": "2022-36-CChO-chusai-1.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2022-36-CChO-chusai-2/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。已由 DeepSeek 精修。请以官方纸质/PDF 为准。",
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
   "renderingHints": {
     "mhchem": true
   },
@@ -26,7 +26,8 @@
     {
       "type": "figure",
       "caption": "反应示意图",
-      "alt": "呋喃衍生物发生 Achmatowicz 重排的反应式"
+      "alt": "呋喃衍生物发生 Achmatowicz 重排的反应式",
+      "src": "data/stems/assets/problem-000167-figure-001.jpg"
     }
   ],
   "parts": [
@@ -40,7 +41,7 @@
         },
         {
           "type": "paragraph",
-          "text": "(a) HOBr  (b) NBS(N-溴代丁二酰亚胺)  (c) m-CPBA  (d) $\\mathrm{CeBr_3/H_2O}$"
+          "text": "(a) HOBr (b) NBS(N-溴代丁二酰亚胺) (c) m-CPBA (d) $\\mathrm{CeBr_3/H_2O}$"
         }
       ]
     },
@@ -55,7 +56,8 @@
         {
           "type": "figure",
           "caption": "反应式",
-          "alt": "AchR 重排反应底物"
+          "alt": "AchR 重排反应底物",
+          "src": "data/stems/assets/problem-000167-figure-002.jpg"
         }
       ]
     },
@@ -70,7 +72,8 @@
         {
           "type": "figure",
           "caption": "反应流程",
-          "alt": "AchR 重排与 [5+2] 环加成结合的反应流程"
+          "alt": "AchR 重排与 [5+2] 环加成结合的反应流程",
+          "src": "data/stems/assets/problem-000167-figure-003.jpg"
         },
         {
           "type": "paragraph",
@@ -89,7 +92,14 @@
         {
           "type": "figure",
           "caption": "反应式",
-          "alt": "C4 位取代的呋喃衍生物反应"
+          "alt": "C4 位取代的呋喃衍生物反应",
+          "src": "data/stems/assets/problem-000167-figure-004.jpg"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000167-figure-005.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 5"
         }
       ]
     }

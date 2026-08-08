@@ -10,107 +10,26 @@
   "source": {
     "sourceDocumentId": "source-000004",
     "sourceLabel": "2009-23-CChO-juesai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2009-23-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、合并重复 callout。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000351-01",
-      "label": "5-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出水的压强-温度($p$-$T$)相图(示意图),标注气相、液相、固相和超临界水所在的区域。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "第5题（12分）⽔是最常用的溶剂。⽔分⼦间形成很强的氢键，与一般液体物质相比，常态⽔具有较大的密度、比热、蒸发热、表面张力和介电常数。⽔的三相点温度$0 . 0 1 ^ { \\circ } \\mathrm { C } ,$、压强610 Pa；临界温度$3 7 4 . 2 ^ { \\circ } \\mathrm { C } ,$临界压强$2 2 . 1 \\mathrm { M P a } _ { \\odot }$。近年发现，近（超）临界⽔具备许多特有性质，以其为介质，可以有效实现许多重要的化学反应，应用前景⼴阔。 5-1 画出⽔的压强-温度(?-?)相图（示意图），标注气相、液相、固相和超临界⽔所在的区域。 5-2 计算液态⽔在$9 0 ^ { \\circ } \\mathrm { C }$和 0.1 MPa 时的$) K _ { \\mathrm { w } } ^ { \\ominus } ( \\Delta _ { \\mathrm { r } } H _ { \\mathrm { m } } ^ { \\ominus }$和$| \\Delta _ { \\mathrm { { r } } } S _ { \\mathrm { { m } } } ^ { \\ominus }$可视为常数，相关数据⻅表1）。 5-3 有人研究了⼄酸⼄酯在23\\~30 MPa、$2 5 0 { \\sim } 4 0 0 \\ ^ { \\circ } \\mathrm { C }$和没有任何其他外加物的条件下的⽔解动力学，并提出两种可能的机理。 机理1：乙酸乙酯在酸性水溶液中的分步水解反应（原始反应式按纯文本保留于本题来源Markdown）。 机理2："
     },
     {
-      "id": "part-000351-02",
-      "label": "5-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算液态水在 $90^{\\circ}\\mathrm{C}$ 和 0.1 MPa 时的 $K_{\\mathrm{w}}^{\\ominus}$、$\\Delta_{\\mathrm{r}}H_{\\mathrm{m}}^{\\ominus}$ 和 $\\Delta_{\\mathrm{r}}S_{\\mathrm{m}}^{\\ominus}$ (相关数据见表1)。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "请推测⼄酸⼄酯在超临界温度时的⽔解反应按上述哪种机理进⾏。为什么？ 相关热力学数据如下： 表1 有关物质的标准热力学数据(25 °C) 表2 ⽔和⼄酸在25 MPa及不同温度下的解离常数${ \\bf K } _ { \\bf w }$和$\\lvert K _ { \\mathrm { a } }$ $\\Delta_{\\text{f}}H_{\\text{m}}^{\\ominus}/\\text{kJ mol}^{-1}$ $S_{\\text{m}}^{\\ominus}/\\text{J mol}^{-1}\\text{K}^{-1}$ $H_{2}O$ -285.830 69.91 $H^{+}$ 0 0 $OH^{-}$ -229.994 -10.75 5-4 ⼄酸⼄酯(EA)⽔解反应速率可表示为：$$r = k c _ {\\mathrm{EA}} \\big (c _ {0, \\mathrm{EA}} - c _ {\\mathrm{EA}} \\big) ^ {1 / 2}$$其中?为速率常数，$c _ { 0 , \\mathrm { E A } }$为⼄酸⼄酯的初始浓度。请通过推导说明⽔解反应按哪种机理进⾏。 5-5 实验表明：近（超）临界⽔中酯类⽔解反应的表观活化能可降到常规条件下的$1 / 2$，⽔解反应速率大幅度提高。请通过机理1分析原因。"
     },
     {
-      "id": "part-000351-03",
-      "label": "5-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "有人研究了乙酸乙酯在23~30 MPa、$250\\sim 400^{\\circ}\\mathrm{C}$ 和没有任何其他外加物的条件下的水解动力学,并提出两种可能的机理。"
-        },
-        {
-          "type": "paragraph",
-          "text": "机理 1:"
-        },
-        {
-          "type": "paragraph",
-          "text": "$$\n\\begin{array}{r l} & \\mathrm{CH_3COOH \\xrightarrow[k_{-1}]{k_1} CH_3COO^- + H^+ \\qquad K_a} \\\\ & \\mathrm{H_3C-OC(OC_2H_5) + H^+ \\xrightarrow[k_{-2}]{k_2} [H_3C-OC(OC_2H_5)] \\rightleftharpoons H_3C-OC(OC_2H_5) \\quad K_2} \\\\ & \\mathrm{H_3C-OC(OC_2H_5) + 2H_2O \\xrightarrow[k_3]{k_3} [H_3C-OC(OC_2H_5)] \\rightleftharpoons H_3O^-H} \\\\ & \\left[ \\begin{array}{c} H \\\\ H_3C-O-H \\\\ H_3C-O-H \\\\ OC_2H_5 \\end{array} \\right] \\xrightarrow[\\text{fast}]{k_4} H_3C-O-H + H_3O^+ \\\\ & \\mathrm{H_3C-OC(OC_2H_5) \\xrightarrow[\\text{fast}]{k_5} CH_3COOH + C_2H_5OH} \\end{array}\n$$"
-        },
-        {
-          "type": "paragraph",
-          "text": "机理 2:"
-        },
-        {
-          "type": "figure",
-          "caption": "机理 2 示意图(原卷缺图,详见 PDF)",
-          "alt": "机理 2 的图示,原卷缺图"
-        },
-        {
-          "type": "paragraph",
-          "text": "请推测乙酸乙酯在超临界温度时的水解反应按上述哪种机理进行。为什么?"
-        },
-        {
-          "type": "paragraph",
-          "text": "相关热力学数据如下:"
-        },
-        {
-          "type": "paragraph",
-          "text": "表1 有关物质的标准热力学数据(25 °C)\n表2 水和乙酸在25 MPa及不同温度下的解离常数 $K_{\\mathrm{w}}$ 和 $K_{\\mathrm{a}}$"
-        },
-        {
-          "type": "callout",
-          "tone": "info",
-          "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
-        }
-      ]
-    },
-    {
-      "id": "part-000351-04",
-      "label": "5-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "乙酸乙酯(EA)水解反应速率可表示为:"
-        },
-        {
-          "type": "paragraph",
-          "text": "$$\nr = k c_{\\mathrm{EA}} \\big (c_{0, \\mathrm{EA}} - c_{\\mathrm{EA}} \\big) ^{1 / 2}\n$$"
-        },
-        {
-          "type": "paragraph",
-          "text": "其中 $k$ 为速率常数, $c_{0,\\mathrm{EA}}$ 为乙酸乙酯的初始浓度。请通过推导说明水解反应按哪种机理进行。"
-        }
-      ]
-    },
-    {
-      "id": "part-000351-05",
-      "label": "5-5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "实验表明:近(超)临界水中酯类水解反应的表观活化能可降到常规条件下的 $1/2$,水解反应速率大幅度提高。请通过机理1分析原因。"
-        }
-      ]
+      "type": "figure",
+      "src": "data/stems/assets/problem-000351-figure-001.jpg",
+      "alt": "problem-000351题目配图第1幅（已按原图查看）"
     }
   ]
 }

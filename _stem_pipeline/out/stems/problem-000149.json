@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000017",
     "sourceLabel": "2021-35-CChO-juesai-1.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2021-35-CChO-juesai-1/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、合并小问、删除无信息 callout。请以官方纸质/PDF 为准。",
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
   },
@@ -37,18 +37,20 @@
           "text": "8-1-2 $\\mathrm{Me_3SiCHN_2}$ 常作为一碳合成单元应用在增碳反应中。写出如下反应产物的结构简式,并写出用结构简式表述的反应机理(提示:$\\mathrm{Sc(OTf)_3}$ 是路易斯酸,三甲基硅基可以进行[1,3]-σ迁移)。"
         },
         {
-          "type": "figure",
-          "caption": "反应示意图(缺图)",
-          "alt": "反应底物与条件图"
-        },
-        {
           "type": "paragraph",
           "text": "8-1-3 在天然产物 amathaspiramide A 的全合成中利用了 $\\mathrm{Me_3SiCHN_2}$ 参与的偶极环加成反应。画出下图所示全合成路线中化合物 C、D 和 F 的结构简式(不考虑产物的立体化学)。"
         },
         {
           "type": "figure",
-          "caption": "全合成路线图(缺图)",
-          "alt": "全合成路线图"
+          "src": "data/stems/assets/problem-000149-figure-001.jpg",
+          "alt": "化学反应路线与结构式示意图（原图）",
+          "caption": "题目配图"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000149-figure-002.jpg",
+          "alt": "化学反应路线与结构式示意图（原图）",
+          "caption": "题目配图"
         }
       ]
     },
@@ -62,8 +64,9 @@
         },
         {
           "type": "figure",
-          "caption": "反应示意图(缺图)",
-          "alt": "烯烃与酮复分解反应图"
+          "src": "data/stems/assets/problem-000149-figure-003.jpg",
+          "alt": "化学反应路线与结构式示意图（原图）",
+          "caption": "题目配图"
         }
       ]
     }

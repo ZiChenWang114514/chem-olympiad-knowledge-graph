@@ -64,7 +64,7 @@
     {
       "problemId": "problem-000011",
       "path": "data/stems/problem-000011.json",
-      "rightsState": "stem_demo",
+      "rightsState": "stem_public",
       "title": "钙钛矿衍生结构"
     },
     {
@@ -365,7 +365,7 @@
       "problemId": "problem-000061",
       "path": "data/stems/problem-000061.json",
       "rightsState": "stem_public",
-      "title": "硼氮笼形化合物转化"
+      "title": "硼烷与碳硼烷笼形结构"
     },
     {
       "problemId": "problem-000062",
@@ -641,7 +641,7 @@
       "problemId": "problem-000107",
       "path": "data/stems/problem-000107.json",
       "rightsState": "stem_public",
-      "title": "化学反应与结构综合分析"
+      "title": "赖氨酸酸碱滴定"
     },
     {
       "problemId": "problem-000108",

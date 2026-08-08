@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000058",
     "sourceLabel": "2022-36-CChO-chusai-1.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2022-36-CChO-chusai-2/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。已由 DeepSeek 精修。请以官方纸质/PDF 为准。",
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
   },
@@ -36,11 +36,6 @@
         {
           "type": "paragraph",
           "text": "在电解体系中引入各种有机配体或者添加剂可以改进电解效率和镀层品质。末端含有磺酸基团的短碳链的二硫化物或硫醇(分子式见下表),如SPS(二硫二丙烷磺酸)和MPS(3-硫基-1-丙烷磺酸),常用做镀铜工艺的加速剂。有研究认为SPS或MPS加速电镀铜沉积的原因是因为它们能促进Cu+还原为Cu的反应。"
-        },
-        {
-          "type": "figure",
-          "caption": "(图:相关分子结构示意图)",
-          "alt": "SPS和MPS的分子结构图(缺图)"
         },
         {
           "type": "paragraph",

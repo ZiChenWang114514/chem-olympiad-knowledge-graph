@@ -10,19 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000055",
     "sourceLabel": "2021-35-CChO-chusai-fujian.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "DeepSeek 精修:原题干正文缺失,仅保留题目标题占位,待人工补全。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "7 · 化学反应与结构综合分析"
+      "text": "第7题（5分）光刻胶 化合物E是一种负型光致抗蚀剂（⼜称光刻胶），大量用于印刷制版和电⼦工业的光刻技术中。其合成方法如下： $$ \\begin{array}{r l} & \\mathrm {HC\\equiv CH + A\\xrightarrow [ 170\\sim200°C ]{(CH_ {3} CO_ {2}) _ {2} Zn} B\\xrightarrow [ 聚合 ]{(NH_ {4}) _ {2} S_ {2} O_ {8}} C\\xrightarrow [ CH_ {3} OH, 35°C ]{NaOH} D} \\\\ & \\xrightarrow [ \\text {pyridine} ]{\\mathrm{Ph} \\quad \\mathrm{O}} \\begin{array}{c} \\mathrm{O} \\\\ \\mathrm{O-CCCH=CH} _ {2} \\mathrm{Ph} \\\\ \\left[ \\mathrm{CH} _ {2} - \\mathrm{CH} \\right] _ {n} \\quad \\mathrm{E} \\end{array} \\end{array} $$ 7-1 用结构简式表示A，B， $\\mathbf { C } ,$ D的结构。 7-2 光刻制版时，光刻胶E在紫外光照射下生成F，溶解度下降。不⻅光的部分不反应，用溶剂溶解后得到影像。画出F的结构简式。"
     }
-  ],
-  "parts": []
+  ]
 }

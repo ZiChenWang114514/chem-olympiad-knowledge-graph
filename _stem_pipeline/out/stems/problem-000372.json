@@ -10,80 +10,62 @@
   "source": {
     "sourceDocumentId": "source-000005",
     "sourceLabel": "2010-24-CChO-juesai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2010-24-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与图注。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "figure",
-      "caption": "合成路线(1)",
-      "alt": "合成路线(1)的化学结构图,缺图"
+      "type": "paragraph",
+      "text": "第7题（17分）Dofetilide是一种新的抗⼼律失常药物，⾃2000年上市以来，其合成一直受到人们的重视。在已报道的诸多合成路线中，大多是经过化合物1进一步转化得到的："
     },
     {
       "type": "paragraph",
-      "text": "因此,化合物1是合成Dofetilide的关键中间体,文献报道的部分合成路线如下:"
+      "text": "因此，化合物1是合成Dofetilide的关键中间体，文献报道的部分合成路线如下： 合成路线(1)："
+    },
+    {
+      "type": "paragraph",
+      "text": "合成路线(2)："
+    },
+    {
+      "type": "paragraph",
+      "text": "合成路线(3)："
+    },
+    {
+      "type": "paragraph",
+      "text": "合成路线(4)："
+    },
+    {
+      "type": "paragraph",
+      "text": "7-1 画出Doferilide及上述合成路线中化合物7，8，10，14的结构式。 7-2 请写出上述各合成路线中步骤A\\~L所需的试剂及必要的反应条件。 7-3 用系统命名法命名化合物3和 ${ \\bf 1 1 } _ { \\tt c }$ 7-4 以2-(4-硝基苯基)⼄醛为起始原料，使用不超过2个碳原⼦的有机物和必要的无机试剂，用不超过5步反应的方法合成化合物13。"
     },
     {
       "type": "figure",
-      "caption": "合成路线(2)",
-      "alt": "合成路线(2)的化学结构图,缺图"
+      "src": "data/stems/assets/problem-000372-figure-001.jpg",
+      "alt": "problem-000372题目配图第1幅（已按原图查看）"
     },
     {
       "type": "figure",
-      "caption": "合成路线(3)",
-      "alt": "合成路线(3)的化学结构图,缺图"
+      "src": "data/stems/assets/problem-000372-figure-002.jpg",
+      "alt": "problem-000372题目配图第2幅（已按原图查看）"
     },
     {
       "type": "figure",
-      "caption": "合成路线(4)",
-      "alt": "合成路线(4)的化学结构图,缺图"
-    }
-  ],
-  "parts": [
-    {
-      "id": "part-000372-01",
-      "label": "7-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出Dofetilide及上述合成路线中化合物7,8,10,14的结构式。"
-        }
-      ]
+      "src": "data/stems/assets/problem-000372-figure-003.jpg",
+      "alt": "problem-000372题目配图第3幅（已按原图查看）"
     },
     {
-      "id": "part-000372-02",
-      "label": "7-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "请写出上述各合成路线中步骤A~L所需的试剂及必要的反应条件。"
-        }
-      ]
+      "type": "figure",
+      "src": "data/stems/assets/problem-000372-figure-004.jpg",
+      "alt": "problem-000372题目配图第4幅（已按原图查看）"
     },
     {
-      "id": "part-000372-03",
-      "label": "7-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "用系统命名法命名化合物3和 $\\mathbf{11}_{\\mathrm{c}}$"
-        }
-      ]
-    },
-    {
-      "id": "part-000372-04",
-      "label": "7-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "以2-(4-硝基苯基)乙醛为起始原料,使用不超过2个碳原子的有机物和必要的无机试剂,用不超过5步反应的方法合成化合物13。"
-        }
-      ]
+      "type": "figure",
+      "src": "data/stems/assets/problem-000372-figure-005.jpg",
+      "alt": "problem-000372题目配图第5幅（已按原图查看）"
     }
   ]
 }

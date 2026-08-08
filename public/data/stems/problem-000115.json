@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000057",
     "sourceLabel": "2021-35-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2021-35-CChO-chusai-jiangsu/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。已由 DeepSeek 精修 OCR 错字、LaTeX 及小问结构。请以官方纸质/PDF 为准。",
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
   },
@@ -35,8 +35,9 @@
         },
         {
           "type": "figure",
-          "caption": "图3 七聚同钼酸根的结构",
-          "alt": "七聚同钼酸根的结构示意图(缺图)"
+          "src": "data/stems/assets/problem-000115-figure-001.jpg",
+          "alt": "化学结构示意图（原图）",
+          "caption": "图3 七聚同钼酸根的结构"
         }
       ]
     },

@@ -10,19 +10,40 @@
   "source": {
     "sourceDocumentId": "source-000055",
     "sourceLabel": "2021-35-CChO-chusai-fujian.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "DeepSeek 精修:原题干自动切分失败,仅保留题目标题占位,待人工补全正文。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "10 · 化学反应与结构综合分析"
+      "text": "第10题（10分） 以炔烃为原料经下列反应可制备烯烃："
+    },
+    {
+      "type": "paragraph",
+      "text": "10-1 化合物 1 与 $\\mathrm { I _ { 2 } / N a O H }$ 反应经历如下过程生成5，其中2、3为中间体。画出1\\~4的结构式，并解释?-型烯烃为主要产物的原因。"
+    },
+    {
+      "type": "paragraph",
+      "text": "10-2 画出下列反应中6\\~11的结构式。"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000131-figure-001.jpg",
+      "alt": "problem-000131题目配图第1幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000131-figure-002.jpg",
+      "alt": "problem-000131题目配图第2幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000131-figure-003.jpg",
+      "alt": "problem-000131题目配图第3幅（已按原图查看）"
     }
-  ],
-  "parts": []
+  ]
 }

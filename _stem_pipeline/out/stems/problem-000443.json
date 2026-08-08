@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000009",
     "sourceLabel": "2014-28-CChO-juesai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2014-28-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、合并拆分小问、删除无信息 callout。请以官方纸质/PDF 为准。",
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
   "renderingHints": {
     "mhchem": true
   },
@@ -26,7 +26,8 @@
     {
       "type": "figure",
       "caption": "A 的正当晶胞示意图",
-      "alt": "四方晶系晶胞,含 Hg、Ba、Cu、O 原子"
+      "alt": "四方晶系晶胞,含 Hg、Ba、Cu、O 原子",
+      "src": "data/stems/assets/problem-000443-figure-001.jpg"
     }
   ],
   "parts": [

@@ -10,85 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000057",
     "sourceLabel": "2021-35-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2021-35-CChO-chusai-jiangsu/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理公式与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "金属氮化物材料具有高硬度、高熔点、高热稳定性特点。最近,科学家研究的某三元氮化物表现出特殊导电性质。该晶体结构如图4所示。每一层氮原子都是密置层,且层间距相等。铁原子和钨原子相间填充在两层氮原子之间,钨原子填充在氮原子形成的三棱柱配位体中,铁原子填充在氮原子形成的八面体配位体中。"
-    },
-    {
-      "type": "figure",
-      "caption": "图4 三元氮化物结构",
-      "alt": "三元氮化物晶体结构示意图(缺图)"
-    }
-  ],
-  "parts": [
-    {
-      "id": "part-000116-01",
-      "label": "5-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "请根据晶体结构画出一个晶胞(N放在顶点位置,以●表示N原子,以◯表示Fe原子,以×表示W原子),并写出晶胞中金属原子的分数坐标。"
-        }
-      ]
-    },
-    {
-      "id": "part-000116-02",
-      "label": "5-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "分别用 $\\mathrm{A/B/C}$ 表示氮原子,a/b/c表示铁原子,$\\mathrm{a'/b'/c'}$ 表示钨原子的堆积位置,请表示出沿c轴方向原子的堆积方式(如 $\\mathrm{AcBa'CbA}$)。"
-        }
-      ]
-    },
-    {
-      "id": "part-000116-03",
-      "label": "5-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "已知晶胞参数 $a=0.2876\\ \\mathrm{nm}$,$c=1.093\\ \\mathrm{nm}$。"
-        }
-      ]
-    },
-    {
-      "id": "part-000116-04",
-      "label": "5-3-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算该晶体的密度。"
-        }
-      ]
-    },
-    {
-      "id": "part-000116-05",
-      "label": "5-3-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算该晶体中W原子与N原子的最短核间距。"
-        }
-      ]
-    },
-    {
-      "id": "part-000116-06",
-      "label": "5-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "该晶体中金属原子与氮原子之间的作用力有明显的共价成分,表现出各向异性的金属导电性,请指出晶体的导电方向,并简要说明理由。"
-        }
-      ]
+      "text": "4.38 g 元素 A 的单质在 $\\mathrm { H N O _ { 3 } }$ 中加热，完全反应后得到6.16g固体B（A的氧化物），并放出红棕色的气体（反应1）。A也可以与氢氧化钠反应，发生歧化，生成两种盐C和D（反应2），C中A元素的氧化数与其在B中相同。B与邻苯二胺反应生成 $\\mathbf { E } ,$ ，E含元素A且具有特征的荧光光谱，据此可进⾏苯二胺异构体共存下邻苯二胺的含量分析。 5-1 通过计算和分析，确定元素A。 5-2 分别写出A在酸和碱中反应的方程式 5-3 画出化合物E的结构简式。"
     }
   ]
 }

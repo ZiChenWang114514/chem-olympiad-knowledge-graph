@@ -10,69 +10,85 @@
   "source": {
     "sourceDocumentId": "source-000057",
     "sourceLabel": "2021-35-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2021-35-CChO-chusai-jiangsu/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000119-01",
-      "label": "8-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "在酸性条件下,请按失水从易到难给以下化合物排序:"
-        },
-        {
-          "type": "figure",
-          "caption": "化合物 A-D 的结构式(原图缺失)",
-          "alt": "四个化合物结构,分别标记为 A、B、C、D"
-        }
-      ]
+      "type": "paragraph",
+      "text": "8-1 画出此反应的环状中间体A和扩环重排产物B的结构。"
     },
     {
-      "id": "part-000119-02",
-      "label": "8-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "请按碱性由强到弱给以下化合物排序:"
-        },
-        {
-          "type": "figure",
-          "caption": "化合物 A-D 的结构式(原图缺失)",
-          "alt": "四个化合物结构,分别标记为 A、B、C、D"
-        }
-      ]
+      "type": "paragraph",
+      "text": "8-2 在⽔溶液中苯甲酸及其衍生物哪一个酸性最弱。"
     },
     {
-      "id": "part-000119-03",
-      "label": "8-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "已知反应:"
-        },
-        {
-          "type": "figure",
-          "caption": "反应方程式(原图缺失)",
-          "alt": "一个化学反应方程式"
-        },
-        {
-          "type": "paragraph",
-          "text": "在相同条件下,请按反应速率从快到慢给以下化合物排序:"
-        },
-        {
-          "type": "figure",
-          "caption": "化合物 A-F 的结构式(原图缺失)",
-          "alt": "六个化合物结构,分别标记为 A、B、C、D、E、F"
-        }
-      ]
+      "type": "paragraph",
+      "text": "A"
+    },
+    {
+      "type": "paragraph",
+      "text": "B"
+    },
+    {
+      "type": "paragraph",
+      "text": "C 8-3 下列化合物中哪一个羰基α位氢的酸性较弱。"
+    },
+    {
+      "type": "paragraph",
+      "text": "A"
+    },
+    {
+      "type": "paragraph",
+      "text": "B"
+    },
+    {
+      "type": "paragraph",
+      "text": "8-4 下列化合物中哪个在⼄酸钠/⼄酸中溶剂解反应的速率较快。 A B 8-5 下列氯代醇衍生物在碱性条件下哪个形成环氧⼄烷衍生物的反应速率最快。 A B C"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000119-figure-001.jpg",
+      "alt": "problem-000119题目配图第1幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000119-figure-002.jpg",
+      "alt": "problem-000119题目配图第2幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000119-figure-003.jpg",
+      "alt": "problem-000119题目配图第3幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000119-figure-004.jpg",
+      "alt": "problem-000119题目配图第4幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000119-figure-005.jpg",
+      "alt": "problem-000119题目配图第5幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000119-figure-006.jpg",
+      "alt": "problem-000119题目配图第6幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000119-figure-007.jpg",
+      "alt": "problem-000119题目配图第7幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000119-figure-008.jpg",
+      "alt": "problem-000119题目配图第8幅（已按原图查看）"
     }
   ]
 }

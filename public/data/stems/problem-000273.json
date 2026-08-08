@@ -10,31 +10,42 @@
   "source": {
     "sourceDocumentId": "source-000035",
     "sourceLabel": "2025年第39届全国中学生化学竞赛决赛理论试题资料.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "DeepSeek 精修:从2025决赛理论试题答案卷中仅抽取题干段落(截断于答案段);OCR 与切分可能有噪声。不含参考答案与评分材料。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "利用电化学方法将 $\\mathrm{CO_2}$ 还原转化为高附加值化学品是重要的碳中和技术。在固态氧化物电解池或水溶液电解池中均可以实现 $\\mathrm{CO_2}$ 的电化学还原。"
+      "text": "第4题 电化学CO₂还原(28分) 利用电化学方法将 ${ \\bf C O } _ { 2 }$ 还原转化为高附加值化学品是重要的碳中和技术。在固态氧化物电解池或水溶液电解池中均可以实现 ${ \\bf C } { \\bf O } _ { 2 }$ 的电化学还原。4.1 固态氧化物电解池以具有较高 $0 ^ { 2 - }$ 迁移率的固体氧化物为电解质，在高温下进行电解，可以将 ${ \\bf C } { \\bf O } _ { 2 }$ 还原成 CO(反应1): $$ \\mathrm{CO} _ {2} (\\mathrm{g}) \\rightarrow \\mathrm{CO} (\\mathrm{g}) + 1 / 2 \\mathrm{O} _ {2} (\\mathrm{g}) \\quad (\\text { 反 应 } 1) $$ 4.1.1 已知 298 K下 $\\Delta _ { \\mathrm { f } } G _ { \\mathrm { m } } ^ { \\ominus } ( \\mathrm { C O } _ { 2 } ) = - 3 9 4 . 4$ kJ $\\mathfrak { m o l } ^ { - 1 }$ $\\Delta _ { \\mathrm { f } } G _ { \\mathrm { m } } \\Theta ( \\mathrm { C O } ) = - 1 3 7 . 2 \\mathrm { k J } \\mathrm { m o l ^ { - 1 } }$ ，求反应1在298 K、标准状态下的理论分解电压。 4.1.2 实验测得1298K时反应1在标准状态下的理论分解电压为0.92 V。假设反应焓变和熵变不随温度变化，求反应1在1000K可逆进行时的反应热。"
     },
     {
       "type": "paragraph",
-      "text": "4.1 固态氧化物电解池以具有较高 $\\mathrm{O^{2-}}$ 迁移率的固体氧化物为电解质,在高温下进行电解,可以将 $\\mathrm{CO_2}$ 还原成 CO(反应1):"
+      "text": "4.1.3 电解过程的理论分解电压与温度有关，其温度系数定义为单位温度变化造成的理论分解电压变化。如果电解过程在初始环境为 $p ( \\mathrm { C O _ { 2 } } ) = p ^ { \\Theta } , ~ p ( \\mathrm { C O } ) = 0 . 0 1 0 p ^ { \\Theta } , ~ p ( \\mathrm { O _ { 2 } } ) = 0 . 2 1 p ^ { \\Theta }$ 下可逆进行，各气体可视为理想气体，计算开始电解时理论分解电压的温度系数。 4.1.4若电解在封闭体系下进行，电解过程中理论分解电压的温度系数的绝对值将如何变化？A. 增大 B. 减小 C. 不变 D. 先增大后减小 E. 先减小后增大"
     },
     {
       "type": "paragraph",
-      "text": "$$\\mathrm{CO_2(g) \\rightarrow CO(g) + \\frac{1}{2}O_2(g) \\quad (反应1)}$$"
+      "text": "4.2 在水溶液中，以特定金属做阴极可实现 $\\mathbf { C O } _ { 2 }$ 的选择性电化学还原，产物与电极材料、溶液成分和电解电压等因素都有关。甲酸和 $\\mathtt { c o }$ 是最常见的 $\\mathbf { C O } _ { 2 }$ 还原产物，其中甲酸附加值较高，将 ${ \\mathsf { C O } } _ { 2 }$ 高选择性还原成甲酸或甲酸盐是重要的研究课题。 4.2.1已知在298K的条件下的下列数据： $$ \\begin{array}{l l}\\mathrm {CO_ {2} (g) + 2H^ {+} (aq) + 2e^ {-} \\rightarrow CO(g)+ H_ {2} O(l)}&\\varphi_ {1} ^ {\\ominus} = - 0. 1 0 5 \\mathrm{V}\\\\\\mathrm {CO_ {2} (g) + H^ {+} (aq) + 2e^ {-} \\rightarrow HCOO^ {-} (aq)}&\\varphi_ {2} ^ {\\ominus} = - 0. 2 2 3 \\mathrm{V}\\end{array} $$ 电解产物与 pH相关，右侧为 ${ \\bf C } { \\bf O } _ { 2 }$ 及其电化学还原产物的电势-pH图，其中含碳物种均为标态，请写出图中A、B、C区域对应的物种。 4.2.2 只考虑上述两个电极反应，若希望得到甲酸或甲酸盐而非CO，应如何控制溶液的 $\\mathsf { p H }$ 值？"
     },
     {
       "type": "paragraph",
-      "text": "4.1.1 已知 298 K 下 $\\Delta_{\\mathrm{f}}G_{\\mathrm{m}}^{\\ominus}(\\mathrm{CO_2}) = -394.4\\ \\mathrm{kJ\\ mol^{-1}}$,$\\Delta_{\\mathrm{f}}G_{\\mathrm{m}}^{\\ominus}(\\mathrm{CO}) = -137.2\\ \\mathrm{kJ\\ mol^{-1}}$,求反应1在298 K、标准状态下的理论分解电压。"
+      "text": "4.2.3 在水溶液中 $\\mathbf { C O } _ { 2 }$ 电化学还原的主要挑战之一是在还原 ${ \\bf C } { \\bf O } _ { 2 }$ 的同时也会将水还原为氢 $\\varepsilon ,$ 导致 $C O _ { 2 }$ 还原效率严重降低。若含碳物种浓度为标准状态，请通过计算说明能否通过控制pH值，在热力学上高选择性地获得甲酸或甲酸盐而避免氢气生成？如果可以，应如何控制 $\\mathfrak { p H }$ 值。如果不可以，请说明理由。"
+    },
+    {
+      "type": "paragraph",
+      "text": "4.3 为实现高效的 ${ \\bf C O } _ { 2 }$ 电化学还原制备甲酸，研究人员设计了如右图所示的电解系统，其中包含阴阳离子交换膜和固态H+导体电解质，在阴极和阳极区分别通入 ${ \\bf C } { \\bf O } _ { 2 }$ 和 ${ \\tt H } _ { 2 } ,$ ，在固态电解质区域通入去离子水将生成的甲酸溶解分离。在某次实验中， $C 0 _ { 2 }$ 和 $\\mathrm { H } _ { 2 }$ 均为标态，通入速率均为 $0 . 0 5 4 ~ \\mathrm { m o l } ~ \\mathrm { h } ^ { - 1 }$ ，在298K，150mA 的恒定电流下电解100.h，电解过程平均电压为1.1.V，获得浓度为 $0 . 1 1 \\mathrm { m o l } \\mathrm { L } ^ { - 1 }$ 的HCOOH溶液2.1L 及 H2、CO等还原副产物。已知甲酸的 $K _ { \\mathrm { a } } = 1 . 8 \\times 1 0 ^ { - 4 }$ 。 第8页，共25页 4.3.1.在有多种产物的电化学反应中，常用法拉第效率表示产物选择性，其定义为生成特定产物的电流和总电流之比。计算上述电化学还原过程中生成HCOOH的平均法拉第效率。"
+    },
+    {
+      "type": "paragraph",
+      "text": "4.3.2计算上述电化学还原过程生产HCOOH的能量效率。"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000273-figure-001.jpg",
+      "alt": "problem-000273题目配图第1幅（已按原图查看）"
     }
-  ],
-  "parts": []
+  ]
 }

@@ -10,55 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000038",
     "sourceLabel": "2007-21-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2007-21-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、删除无信息 callout。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000305-01",
-      "label": "6-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算水相中各物种的浓度及 $\\mathrm{pH_c}$"
-        }
-      ]
-    },
-    {
-      "id": "part-000305-02",
-      "label": "6-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算化合物 HA 在苯相中的二聚平衡常数。"
-        }
-      ]
-    },
-    {
-      "id": "part-000305-03",
-      "label": "6-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "已知 HA 中有苯环,1.00 g HA 含 $3.85 \\times 10^{21}$ 个分子,给出 HA 的化学名称。"
-        }
-      ]
-    },
-    {
-      "id": "part-000305-04",
-      "label": "6-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "解释 HA 在苯中发生二聚的原因,画出二聚体的结构。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "第6题（12分）在给定实验条件下，一元弱酸HA在苯(B)和⽔(W)的分配系数 $\\dot { K } _ { D } = \\mathrm { [ H A ] _ { B } / [ H A ] _ { W } = 1 } . 0 0 _ { \\circ }$ 。已知⽔相和苯相中HA的分析浓度分别为 $3 . 0 5 \\times 1 0 ^ { - 3 }$ 和 $3 . 9 6 \\times 1 0 ^ { - 3 } \\mathrm { M }$ 。在⽔中，HA按 $\\mathrm { H A } \\mathrm { H ^ { + } } + \\mathrm { A ^ { - } }$ −解离， $K _ { a }$ $= 1 . 0 0 \\times 1 0 ^ { - 4 }$ ；在苯中，HA发生二聚： $2 \\mathrm { H A } \\mathrm { ( H A ) _ { 2 } }$ 20 6-1 计算⽔相中各物种的浓度及 $\\mathrm { p H _ { c } }$ 6-2 计算化合物HA在苯相中的二聚平衡常数。 6-3 已知 HA 中有苯环，1.00 g HA 含 $3 . 8 5 \\times 1 0 ^ { 2 1 }$ 个分⼦，给出HA的化学名称。 6-4 解释HA在苯中发生二聚的原因，画出二聚体的结构。"
     }
   ]
 }

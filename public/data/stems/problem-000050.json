@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000052",
     "sourceLabel": "2018-32-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2018-32-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理公式与结构。请以官方纸质/PDF 为准。",
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
   },
@@ -47,6 +47,36 @@
         {
           "type": "paragraph",
           "text": "2018年足球世界比赛用球使用了生物基元三元乙丙橡胶(EPDM)产品 Keltan Eco。EPDM 属三元共聚物,由乙烯、丙烯及第三单体经溶液共聚而成。"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000050-figure-001.jpg",
+          "alt": "化学结构示意图（原图）",
+          "caption": "题目配图"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000050-figure-002.jpg",
+          "alt": "化学结构示意图（原图）",
+          "caption": "题目配图"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000050-figure-003.jpg",
+          "alt": "化学结构示意图（原图）",
+          "caption": "题目配图"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000050-figure-004.jpg",
+          "alt": "化学结构示意图（原图）",
+          "caption": "题目配图"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000050-figure-005.jpg",
+          "alt": "化学结构示意图（原图）",
+          "caption": "题目配图"
         }
       ]
     },
@@ -56,48 +86,23 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 EPDM 具有优良的耐紫外光、耐臭氧、耐腐蚀等性能。写出下列分子中不可用于制备 EPDM 的第三单体(可能多选,答案中含错误选项不得分)。"
-        },
-        {
-          "type": "figure",
-          "caption": "选项 A 结构图(原图缺失)",
-          "alt": "选项 A 的化学结构图,原图缺失"
+          "text": "-1 EPDM 具有优良的耐紫外光、耐臭氧、耐腐蚀等性能。写出下列分子中不可用于制备 EPDM 的第三单体()。"
         },
         {
           "type": "paragraph",
           "text": "A"
         },
         {
-          "type": "figure",
-          "caption": "选项 B 结构图(原图缺失)",
-          "alt": "选项 B 的化学结构图,原图缺失"
-        },
-        {
           "type": "paragraph",
           "text": "B"
-        },
-        {
-          "type": "figure",
-          "caption": "选项 C 结构图(原图缺失)",
-          "alt": "选项 C 的化学结构图,原图缺失"
         },
         {
           "type": "paragraph",
           "text": "C"
         },
         {
-          "type": "figure",
-          "caption": "选项 D 结构图(原图缺失)",
-          "alt": "选项 D 的化学结构图,原图缺失"
-        },
-        {
           "type": "paragraph",
           "text": "D"
-        },
-        {
-          "type": "figure",
-          "caption": "选项 E 结构图(原图缺失)",
-          "alt": "选项 E 的化学结构图,原图缺失"
         },
         {
           "type": "paragraph",

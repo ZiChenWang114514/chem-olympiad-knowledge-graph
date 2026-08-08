@@ -10,19 +10,26 @@
   "source": {
     "sourceDocumentId": "source-000015",
     "sourceLabel": "2020-34-CChO-juesai-1.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2020-34-CChO-juesai-2/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理公式与结构。请以官方纸质/PDF 为准。",
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "figure",
-      "caption": "MOF-5 晶体结构示意图",
-      "alt": "图中黑圈部分为 MOF-5 的晶体结构"
+      "src": "data/stems/assets/problem-000097-figure-005.jpg",
+      "alt": "晶体结构或分子模型示意图（原图）",
+      "caption": "题目配图"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000097-figure-006.jpg",
+      "alt": "晶体结构或分子模型示意图（原图）",
+      "caption": "题目配图"
     }
   ],
   "parts": [
@@ -43,6 +50,24 @@
         {
           "type": "paragraph",
           "text": "MOF-5具有较大的孔洞,制备过程中溶剂分子会占据孔洞,已知MOF-X的密度为 $1.153\\ \\mathrm{g\\ cm^{-3}}$,晶胞参数为 $a = 2566.90\\ \\mathrm{pm}$,$V = 1.69132 \\times 10^{10}\\ \\mathrm{pm^3}$,$Z=8$;含氯量为2.42%。推断一个正当晶胞中溶剂分子的数目与种类。"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000097-figure-001.jpg",
+          "alt": "晶体结构或分子模型示意图（原图）",
+          "caption": "MOF-5 晶体结构示意图"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000097-figure-002.jpg",
+          "alt": "晶体结构或分子模型示意图（原图）",
+          "caption": "题目配图"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000097-figure-003.jpg",
+          "alt": "晶体结构或分子模型示意图（原图）",
+          "caption": "题目配图"
         }
       ]
     },
@@ -53,6 +78,12 @@
         {
           "type": "paragraph",
           "text": "MOF-5具有可以容纳直径为1510 pm球状分子的孔洞,孔洞的体积约占晶体总体积的55%;通过加热等心段完全除去溶剂分子的MOF-5能稳定存在。按照堆积理论这样的结构很不稳定,但实验发现如此高孔隙率的MOF-5却能稳定存在,说明原因。"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000097-figure-004.jpg",
+          "alt": "晶体结构或分子模型示意图（原图）",
+          "caption": "题目配图"
         }
       ]
     }

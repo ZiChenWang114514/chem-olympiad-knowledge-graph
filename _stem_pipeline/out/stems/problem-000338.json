@@ -10,45 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000040",
     "sourceLabel": "2009-23-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2009-23-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000338-01",
-      "label": "2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "配制 $\\ce{SnCl2}$ 溶液时,将 $\\ce{SnCl2(s)}$ 溶于浓 HCl 后再加水冲稀。"
-        }
-      ]
-    },
-    {
-      "id": "part-000338-02",
-      "label": "2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "加热 $\\ce{MnO2}$ 的浓 HCl 溶液制取氯气。"
-        }
-      ]
-    },
-    {
-      "id": "part-000338-03",
-      "label": "2-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "需用浓 HCl 溶液配制王水才能溶解金。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "第2题（6分）下列各实验中需用浓HCl⽽不能用稀HCl溶液，写出反应方程式并阐明理由。 2-1 配制 SnCl 2 溶液时，将 $\\mathrm { S n C l } _ { 2 } ( \\mathrm { s } )$ 溶于浓HCl后再加⽔冲稀。 2-2 加热 $\\mathrm { M n O _ { 2 } }$ 的浓HCl溶液制取氯气。 2-3 需用浓HCl溶液配制王⽔才能溶解金。"
     }
   ]
 }

@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000062",
     "sourceLabel": "2024-38-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2024-38-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、合并小问、移除无信息 callout。请以官方纸质/PDF 为准。",
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
   },
@@ -22,6 +22,12 @@
     {
       "type": "paragraph",
       "text": "醋酸亚铬水合物是一种存在金属-金属键的双核 $\\mathrm{Cr(II)}$ 配合物,在潮湿或水溶液状态下很容易被空气中的氧气氧化;而干燥的醋酸亚铬水合物固体被氧化的速率较慢。醋酸亚铬水合物可以通过 $\\mathrm{Cr^{2+}}$ 与醋酸根($\\mathrm{AcO^-}$)的配位直接合成。向 $\\mathrm{CrCl_3}$ 水溶液与 Zn 粒的混合物中加入浓盐酸,形成蓝色的 $\\mathrm{CrCl_2}$ 溶液;将该 $\\mathrm{CrCl_2}$ 溶液滴加至 HOAc-NaOAc 混合溶液中,加热形成深红色的醋酸亚铬配合物;醋酸亚铬在水中溶解度较低,冷却可使其从水溶液中析出。将析出的醋酸亚铬晶体通过减压过滤进行分离,用无氧的冰水和乙醚各洗涤固体 2 次,快速抽干即得到干燥的醋酸亚铬水合物晶体。"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000235-figure-001.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "题目配图"
     }
   ],
   "parts": [
@@ -94,6 +100,12 @@
         {
           "type": "paragraph",
           "text": "(a)更长 (b)更短 (c)相同"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000235-figure-002.jpg",
+          "alt": "化学反应路线与结构式示意图（原图）",
+          "caption": "题目配图"
         }
       ]
     }

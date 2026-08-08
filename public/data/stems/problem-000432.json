@@ -10,55 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000048",
     "sourceLabel": "2014-28-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2014-28-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000432-01",
-      "label": "5-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出上述制备二茂铁的两种反应的方程式。"
-        }
-      ]
-    },
-    {
-      "id": "part-000432-02",
-      "label": "5-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "通常认为,二茂铁分子中铁原子的配位数为 $6$,如何算得的?"
-        }
-      ]
-    },
-    {
-      "id": "part-000432-03",
-      "label": "5-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "二茂铁晶体属于哪种晶体类型?"
-        }
-      ]
-    },
-    {
-      "id": "part-000432-04",
-      "label": "5-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算二茂铁晶体的1个正当晶胞中的分子数。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "第5题（7分）环戊二烯钠与氯化亚铁在四氢呋喃中反应，或环戊二烯与氯化亚铁在三⼄胺存在下反应，可制得稳定的双环戊二烯基合铁(二茂铁)。163.9 K以上形成的晶体属于单斜晶系，晶胞参数 $a \\ = 1 0 4 4 . 3 5 \\mathrm { p m } , \\ b \\ =$ $7 5 7 . 2 4 \\mathrm { p m }$ ，? = 582.44 pm， $\\beta = 1 2 0 . 9 5 8 ^ { \\circ } { _ { \\mathrm { ~ c ~ } } }$ 。密度 $1 . 5 6 5 \\mathrm { g c m ^ { - 3 } s }$ 5-1 写出上述制备二茂铁的两种反应的方程式。 5-2 通常认为，二茂铁分⼦中铁原⼦的配位数为 $^ { 6 , }$ ，如何算得的？ 5-3 二茂铁晶体属于哪种晶体类型？ 5-4 计算二茂铁晶体的1个正当晶胞中的分⼦数。"
     }
   ]
 }

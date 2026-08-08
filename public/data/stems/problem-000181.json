@@ -10,80 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000021",
     "sourceLabel": "2022-36-CChO-juesai-1.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2022-36-CChO-juesai-2/full.md)程序化切分并整理为结构化题干;经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "随着仪器和表征方法的发展,各种体系特别是复杂体系热力学参数的测定方法越来越多样化。例如可以利用核磁共振(NMR)波谱确定复杂体系的酸解离常数,下面给出一个例子:"
-    },
-    {
-      "type": "figure",
-      "caption": "ATP质子解离-结合平衡示意图",
-      "alt": "ATP质子解离-结合平衡示意图(缺图)"
-    },
-    {
-      "type": "paragraph",
-      "text": "此为(ATP)H$^{3-}$与(ATP)$^{4-}$之间的质子解离-结合平衡过程。为书写方便,(ATP)H$^{3-}$简写为 $\\mathrm{HA^{3-}}$,(ATP)$^{4-}$简写为 $\\mathrm{A^{4-}}$,酸解离常数为 $K_a$。简化表达如下:"
-    },
-    {
-      "type": "paragraph",
-      "text": "$$\\mathrm{HA^{3-} \\rightarrow H^+ + A^{4-}}$$"
-    },
-    {
-      "type": "paragraph",
-      "text": "随着pH变化,磷的化学环境发生变化,NMR中的化学位移随之变化。下图给出γ位$^{31}$P的化学位移测定值随pH的变化关系。由于溶液中质子交换速度很快,实际测得的化学位移 $(\\delta_{\\mathrm{obs}})$ 是质子化形式化学位移 $(\\delta_{\\mathrm{HA^{3-}}})$ 和脱质子形式化学位移 $(\\delta_{\\mathrm{A^{4-}}})$ 的加权平均值:"
-    },
-    {
-      "type": "paragraph",
-      "text": "$$\\delta_{\\mathrm{obs}} = \\delta_{\\mathrm{HA^{3-}}} \\chi_{\\mathrm{HA^{3-}}} + \\delta_{\\mathrm{A^{4-}}} \\chi_{\\mathrm{A^{4-}}}$$"
-    },
-    {
-      "type": "paragraph",
-      "text": "式中,$\\chi_{\\mathrm{HA^{3-}}}$ 和 $\\chi_{\\mathrm{A^{4-}}}$ 分别表示 $\\mathrm{HA^{3-}}$ 和 $\\mathrm{A^{4-}}$ 的比例。"
-    },
-    {
-      "type": "figure",
-      "caption": "γ位31P化学位移随pH变化图",
-      "alt": "γ位31P化学位移随pH变化图(缺图)"
-    }
-  ],
-  "parts": [
-    {
-      "id": "part-000181-01",
-      "label": "3-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出质子化形式化学位移 $(\\delta_{\\mathrm{HA^{3-}}})$ 和脱质子形式化学位移 $(\\delta_{\\mathrm{A^{4-}}})$ 的值(要求读到小数点后一位)。"
-        }
-      ]
-    },
-    {
-      "id": "part-000181-02",
-      "label": "3-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "推导出 $\\mathrm{p}K_a$ 的表达式,只可包含pH和所有相关的化学位移参数。"
-        }
-      ]
-    },
-    {
-      "id": "part-000181-03",
-      "label": "3-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "从上图中合理取值,计算酸解离常数 $K_a$。"
-        }
-      ]
+      "text": "3-1 Q的单质在常温常压下为淡金⻩色的活泼金属。在5 K和常压条件下，Q晶体属于⽴方晶系，且正当晶胞中包含两个等同原⼦，原⼦间最近邻的距离为0.5235 nm，金属密度为 $1 . 9 8 \\mathrm { g { \\cdot } c m ^ { - 3 } }$ 。通过计算推断Q是哪种元素。 3-2 在温度为300 K，压强2.37 GPa\\~4.22 GPa条件下，Q单质中原⼦采用⽴方最密堆积，形成QII相。在4.10 GPa下，Q原⼦半径被压缩为0.2115 nm，计算此条件下QII相的晶胞参数。 3-3 Q与氧反应可生成不同计量比的氧化物。其中， $\\mathbf { Q } _ { 2 } \\mathrm { O }$ 是一种橙⻩色晶体，可看作氧原⼦插入QII晶体中，隔层占据金属原⼦堆积形成的八面体空隙。 ${ \\mathrm { O Q } } _ { 6 }$ 八面体为共棱连接。若用大写英文字⺟(A、B、C…)表示Q原⼦层的排布，用小写英文字⺟(a、b、c…)表示氧原⼦层的排布，用方块(□)表示空位层，写出两个周期$\\mathbf { Q } _ { 2 } \\mathrm { O }$ 晶体层状结构的堆积方式，并判断该氧化物晶胞的点阵类型。 3-4 将氧原⼦放置于晶胞原点，写出一个 $\\mathbf { Q } _ { 2 } \\mathrm { O }$ 正当晶胞中所有氧原⼦的分数坐标。"
     }
   ]
 }

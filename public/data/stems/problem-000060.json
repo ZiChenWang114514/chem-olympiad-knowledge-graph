@@ -10,115 +10,26 @@
   "source": {
     "sourceDocumentId": "source-000013",
     "sourceLabel": "2018-32-CChO-juesai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2018-32-CChO-juesai/full.md)程序化切分并整理为结构化题干;经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000060-01",
-      "label": "2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "在一定条件下,$\\mathrm{AlMe_3}$ 与 $\\mathrm{H_2NMe}$ 反应生成A。A的分子式为 $\\mathrm{Al_8C_{16}N_8H_{48}}$。A是多面体分子,多面体的骨架由四边形和六边形构成,分子中除一条四次反轴外,没有其他独立的对称元素。写出生成A的化学反应方程式,画出A多面体骨架的结构,结构中的原子用元素符号表示。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "第 2 题（17 分） 2-1 在一定条件下， $\\mathrm { A l M e _ { 3 } }$ 与 $_ \\mathrm { H _ { 2 } N M e }$ 反应生成A。A的分⼦式为 $\\mathrm { A l _ { 8 } C _ { 1 6 } N _ { 8 } H _ { 4 8 o } }$ A是多面体分⼦，多面体的⻣⼲由四边形和六边形构成，分⼦中除一条四次反轴外，没有其他独⽴的对称元素。写出生成A的化学反应方程式，画出A多面体⻣⼲的结构，结构中的原⼦用元素符号表示。 2-2 最近研究发现，在200GPa压力下生成分⼦式为 $\\mathrm { N _ { 2 } F _ { 8 } }$ 的 $\\mathbf { B } _ { \\circ }$ 。B中存在N—N键，但2个N原⼦的配位数不同。画出该分⼦的结构，结构中的原⼦用元素符号表示，不在纸面上的化学键用楔型键表示。 2-3 肼的制备一般采用Raschig反应，即在强碱性溶液中用NaOCl氧化 $\\mathrm { N H _ { 3 } }$ 来制取。反应分两步进⾏，第一步生成含Cl的中间体（方程式1），中间体与 $\\mathrm { N H _ { 3 } }$ 进一步反应生成肼（方程式2）。含Cl中间体与生成的肼会发生副反应（方程式3）。有的工⼚用尿素代替 $\\mathrm { N H _ { 3 } }$ 来生产肼，写出用尿素生产肼的化学反应方程式（方程式4）。异烟肼（结构如下）可以与银氨溶液发生银镜反应，写出化学反应方程式（方程式5）。"
     },
     {
-      "id": "part-000060-02",
-      "label": "2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "最近研究发现,在200GPa压力下生成分子式为 $\\mathrm{N_2F_8}$ 的B。B中存在N—N键,但2个N原子的配位数不同。画出该分子的结构,结构中的原子用元素符号表示,不在纸面上的化学键用楔形键表示。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "2-4 通过X-射线衍射测定了晶体 $\\mathrm { W } ( \\mathrm { N } _ { 3 } ) .$ 的结构，结果发现， $\\mathrm { W } ( \\mathrm { N } _ { 3 } ) _ { \\epsilon }$ 属于三方晶系，其六方晶胞参数为： $a \\ =$ $b _ { \\mathbf { \\lambda } } = 9 6 9 . 6 2 \\mathrm { p m }$ 1 $c = 7 2 2 . 2 5 \\mathrm { p m }$ $\\alpha = \\beta = 9 0 ^ { \\circ }$ $\\gamma = 1 2 0 ^ { \\circ } .$ 。已知晶体的密度为 $2 . 6 2 2 \\mathrm { g } { \\cdot } \\mathrm { c m } ^ { - 3 }$ 。该晶体的点阵形式是简单六方，通过计算推断结构基元。（阿伏伽德罗常数 $N _ { \\mathrm { A } } = 6 . 0 2 2 \\times 1 0 ^ { 2 3 } \\mathrm { m o l ^ { - 1 } } )$"
     },
     {
-      "id": "part-000060-03",
-      "label": "2-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "肼的制备一般采用Raschig反应,即在强碱性溶液中用NaOCl氧化 $\\mathrm{NH_3}$ 来制取。反应分两步进行,第一步生成含Cl的中间体(方程式1),中间体与 $\\mathrm{NH_3}$ 进一步反应生成肼(方程式2)。含Cl中间体与生成的肼会发生副反应(方程式3)。有的工厂用尿素代替 $\\mathrm{NH_3}$ 来生产肼,写出用尿素生产肼的化学反应方程式(方程式4)。异烟肼(结构如下)可以与银氨溶液发生银镜反应,写出化学反应方程式(方程式5)。"
-        },
-        {
-          "type": "figure",
-          "caption": "异烟肼结构图(原题附图,此处缺图)",
-          "alt": "异烟肼结构示意图"
-        }
-      ]
-    },
-    {
-      "id": "part-000060-04",
-      "label": "2-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "通过X-射线衍射测定了晶体 $\\mathrm{W(N_3)_6}$ 的结构。结果发现,$\\mathrm{W(N_3)_6}$ 属于三方晶系,其六方晶胞参数为:$a = b = 969.62\\ \\mathrm{pm}$,$c = 722.25\\ \\mathrm{pm}$,$\\alpha = \\beta = 90^\\circ$,$\\gamma = 120^\\circ$。已知晶体的密度为 $2.622\\ \\mathrm{g\\cdot cm^{-3}}$。该晶体的点阵形式是简单六方,通过计算推断结构基元。(阿伏伽德罗常数 $N_A = 6.022 \\times 10^{23}\\ \\mathrm{mol^{-1}}$)"
-        }
-      ]
-    },
-    {
-      "id": "part-000060-05",
-      "label": "3-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "迄今为目对称性最高的封闭笼形硼烷负离子(与 $\\mathrm{C_{60}}$ 对称性一样)与Cs+形成的盐X,可由 $\\mathrm{CsB_3H_8}$ 来制备。X与 $\\mathrm{H_2O_2}$ 反应(方程式1),B—H键上的H全部被OH取代,转变成另一种盐Y。$\\mathrm{B_3N_3H_6}$ 在270 K与水反应,得到产物,其稳定构象是椅式六元环,具有三重旋转轴。Z加热到373K左右发生分解(方程式2),重新生成具有平面六元环结构的化合物。"
-        }
-      ]
-    },
-    {
-      "id": "part-000060-06",
-      "label": "3-1-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出上述两个反应的方程式。"
-        }
-      ]
-    },
-    {
-      "id": "part-000060-07",
-      "label": "3-1-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Y在水中的溶解度很小,说明原因。"
-        }
-      ]
-    },
-    {
-      "id": "part-000060-08",
-      "label": "3-1-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出 $\\mathrm{CsB_3H_8}$ 中负离子的结构。"
-        }
-      ]
-    },
-    {
-      "id": "part-000060-09",
-      "label": "3-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "封闭笼形碳硼烷 $1,7\\mathrm{-C_2B_6H_8}$(结构如下图)在一定条件下,与 $\\mathrm{CoCl_2}$、$\\mathrm{NaC_5H_5}$ 反应,扩笼生成了另一种笼型分子 $\\mathrm{[Co\\{(C_5H_5)\\}_2(C_2B_6H_8)]}$,分子中存在金属-金属键,每个Co的配位原子数是10,处于笼骨架上的每个C原子是5,都只与1个Co原子配位。画出 $\\mathrm{[Co\\{(C_5H_5)\\}_2(C_2B_6H_8)]}$ 的结构。"
-        },
-        {
-          "type": "figure",
-          "caption": "1,7-C2B6H8结构图(原题附图,此处缺图)",
-          "alt": "1,7-C2B6H8笼形结构示意图"
-        }
-      ]
+      "type": "figure",
+      "src": "data/stems/assets/problem-000060-figure-001.jpg",
+      "alt": "problem-000060题目配图第1幅（已按原图查看）"
     }
   ]
 }

@@ -10,15 +10,28 @@
   "source": {
     "sourceDocumentId": "source-000015",
     "sourceLabel": "2020-34-CChO-juesai-1.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2020-34-CChO-juesai-2/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [],
+  "blocks": [
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000095-figure-001.jpg",
+      "alt": "晶体结构或分子模型示意图（原图）",
+      "caption": "模型A"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000095-figure-002.jpg",
+      "alt": "晶体结构或分子模型示意图（原图）",
+      "caption": "模型B"
+    }
+  ],
   "parts": [
     {
       "id": "part-000095-01",
@@ -45,16 +58,6 @@
         {
           "type": "paragraph",
           "text": "-2 上述硅酸盐结构中的 Si(IV) 被 Al(III) 部分同构取代后会产生 Brönsted(布朗斯特)酸位,有如下图所示的模型 A 和 B 被提出来解释该酸性的产生。哪种模型结构中的羟基更易脱去质子?原因是什么?"
-        },
-        {
-          "type": "figure",
-          "caption": "模型A",
-          "alt": "模型A示意图(缺图)"
-        },
-        {
-          "type": "figure",
-          "caption": "模型B",
-          "alt": "模型B示意图(缺图)"
         }
       ]
     },
@@ -77,11 +80,6 @@
         {
           "type": "paragraph",
           "text": "-3 如下图所示的杂原子官能化硅烯在正己烷溶液中和羰基配合物 $\\mathrm{Ni(CO)_4}$ 发生配体取代反应释放出等物质的量的 $\\mathrm{CO}$,生成化合物 C;C 继续和该硅烯发生配体取代反应释放出等物质的量的 $\\mathrm{CO}$,生成化合物 D;上述反应前后配合物的空间构型不变,画出化合物 C 和 D 的结构式。"
-        },
-        {
-          "type": "figure",
-          "caption": "杂原子官能化硅烯结构",
-          "alt": "杂原子官能化硅烯示意图(缺图)"
         }
       ]
     }

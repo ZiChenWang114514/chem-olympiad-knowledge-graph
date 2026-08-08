@@ -10,20 +10,15 @@
   "source": {
     "sourceDocumentId": "source-000006",
     "sourceLabel": "2011-25-CChO-juesai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2011-25-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
-    {
-      "type": "figure",
-      "caption": "图3 容积可变的反应器示意图",
-      "alt": "容积可变的反应器示意图"
-    },
     {
       "type": "paragraph",
       "text": "在恒温、有催化剂条件下,反应器内进行如下反应"
@@ -31,6 +26,12 @@
     {
       "type": "paragraph",
       "text": "$\\mathrm{N_2(g)} + 3\\mathrm{H_2(g)} \\rightleftharpoons 2\\mathrm{NH_3(g)}$"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000385-figure-001.jpg",
+      "alt": "实验数据图表或热力学曲线（原图）",
+      "caption": "图3 容积可变的反应器示意图"
     }
   ],
   "parts": [

@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000012",
     "sourceLabel": "2017-31-CChO-juesai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由源文档(2017-31-CChO-juesai.pdf)程序化切分并整理为结构化题干;经 DeepSeek 精修:修正 OCR 异体字(⻩→黄)、LaTeX 公式与题号标签,删除无信息 callout。请以官方纸质/PDF 为准。",
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
   "renderingHints": {
     "mhchem": true
   },

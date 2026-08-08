@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000063",
     "sourceLabel": "2025-39-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2025-39-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
   },
@@ -30,10 +30,6 @@
     {
       "type": "paragraph",
       "text": "6.1.1 293 K 下,要达到 $20.0\\ \\mathrm{kg\\cdot m^{-3}}$ 的储氢密度,所需的压力为多少 bar?"
-    },
-    {
-      "type": "paragraph",
-      "text": "解答:$20.0\\ \\mathrm{kg\\ m^{-3}}$ 对应的 $V_{\\mathrm{m}}=2.016\\times10^{-3}/20.0=1.008\\times10^{-4}\\ (\\mathrm{m^{3}\\ mol^{-1}})$"
     },
     {
       "type": "paragraph",
@@ -53,15 +49,7 @@
     },
     {
       "type": "paragraph",
-      "text": "解答:c"
-    },
-    {
-      "type": "paragraph",
       "text": "6.1.3 工业上储氢罐的压强很少高于 700 bar,简要分析其原因。"
-    },
-    {
-      "type": "paragraph",
-      "text": "解答:储氢密度增加的倍数较压强增加的倍数小,700 bar 后,增加压强对增加储氢密度的影响不大。从安全和成本的角度,工业上选择 350~700 bar 的储气罐,不再增加压强。"
     },
     {
       "type": "paragraph",
@@ -73,15 +61,7 @@
     },
     {
       "type": "paragraph",
-      "text": "解答:a、b"
-    },
-    {
-      "type": "paragraph",
       "text": "6.2.2 计算 $\\mathrm{H}_{2}$ 在 $27.15\\ \\mathrm{K}$ 液化所需的压力,并说明计算过程采取了哪些近似。"
-    },
-    {
-      "type": "paragraph",
-      "text": "解答:由 Clausius-Clapeyron 方程:$\\ln\\frac{p_{2}}{p_{1}}=-\\frac{\\Delta_{\\mathrm{vap}}H_{m}}{R}\\left(\\frac{1}{T_{2}}-\\frac{1}{T_{1}}\\right)$"
     },
     {
       "type": "paragraph",
@@ -125,10 +105,6 @@
     },
     {
       "type": "paragraph",
-      "text": "解答:由范德华方程,$(p+a/V_{\\mathrm{m}}^{2})(V_{\\mathrm{m}}-b)=RT$"
-    },
-    {
-      "type": "paragraph",
       "text": "当 $p$ 无穷大时,$V_{\\mathrm{m}}$ 最小值约等于范德华方程中的 $b$ 值。"
     },
     {
@@ -142,15 +118,6 @@
     {
       "type": "paragraph",
       "text": "6.3.1 12H-NEC 的式量为 207.36,其密度 $\\rho$ (单位:$\\mathrm{g\\ cm^{-3}}$) 同温度 $T$ (单位:K) 的关系为:$\\rho = 1.1482329 - 0.0007092T$,计算 293.0 K 时 12H-NEC 的储氢密度为多少 $\\mathrm{kg\\ m^{-3}}$?"
-    },
-    {
-      "type": "figure",
-      "caption": "NEC 与 12H-NEC 的结构示意图(缺图)",
-      "alt": "NEC 与 12H-NEC 的结构示意图"
-    },
-    {
-      "type": "paragraph",
-      "text": "解答:293 K 时,12H-NEC 的密度为"
     },
     {
       "type": "paragraph",
@@ -169,26 +136,12 @@
       "text": "6.3.2 12H-NEC 脱氢时,会生成 8H-NEC (产物 1) 和 4H-NEC (产物 2) 两种中间产物,分别是 NEC 加上 8 个和 4 个氢原子的化合物。分别画出产物 1 和产物 2 的结构,不要求立体化学。"
     },
     {
-      "type": "figure",
-      "caption": "产物1和产物2的结构(缺图)",
-      "alt": "产物1和产物2的结构"
-    },
-    {
       "type": "paragraph",
       "text": "6.3.3 12H-NEC 存在多少种立体异构体(包含对映异构)?"
     },
     {
       "type": "paragraph",
-      "text": "解答:10 种"
-    },
-    {
-      "type": "paragraph",
       "text": "6.3.4 已知 12H-NEC 脱氢到 NEC 是较强的吸热反应,画出脱氢温度最低的异构体结构。"
-    },
-    {
-      "type": "figure",
-      "caption": "脱氢温度最低的异构体结构(缺图)",
-      "alt": "脱氢温度最低的异构体结构"
     },
     {
       "type": "paragraph",
@@ -197,10 +150,6 @@
     {
       "type": "paragraph",
       "text": "6.4.1 MOF-5 的密度为 $0.30\\ \\mathrm{g\\ cm^{-3}}$ (包含结构中的孔),77 K、100 bar 下 MOF-5 可以吸附 7.5 wt% 的氢气,计算 77 K 下 MOF-5 通过表面吸附能够达到的最大储氢密度 $(\\mathrm{kg\\cdot m^{-3}})$。"
-    },
-    {
-      "type": "paragraph",
-      "text": "解答:MOF-5 (s) + H2(g) = MOF-5·H2 (s)"
     },
     {
       "type": "paragraph",
@@ -221,10 +170,6 @@
     {
       "type": "paragraph",
       "text": "6.4.2 除表面吸附外,MOF-5 的孔中还可以存储 $\\mathrm{H}_{2}$,MOF-5 的比孔容为 $1.27\\ \\mathrm{cm^{3}\\ g^{-1}}$。向一个 $1.00\\ \\mathrm{L}$ 的储氢罐中装填满 MOF-5 材料后,计算 $77\\ \\mathrm{K}$、$100\\ \\mathrm{bar}$ 下其储氢量为未装填 MOF-5 材料的多少倍?假设 MOF-5 表面吸附 $\\mathrm{H}_{2}$ 后其孔体积不变,孔中的 $\\mathrm{H}_{2}$ 符合范德华方程。在 $77\\ \\mathrm{K}$,$100\\ \\mathrm{bar}$ 下的 $V_{\\mathrm{m}} = 6.853 \\times 10^{-5}\\ \\mathrm{m^{3}\\ mol^{-1}}$。"
-    },
-    {
-      "type": "paragraph",
-      "text": "解答:1 L MOF-5 孔的体积为:"
     },
     {
       "type": "paragraph",
@@ -261,68 +206,158 @@
     {
       "type": "paragraph",
       "text": "因此加入 MOF 导致的储氢量为空罐的 33.7/29.4 = 1.15 倍"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000264-figure-001.jpg",
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000264-figure-002.jpg",
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000264-figure-003.jpg",
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000264-figure-004.jpg",
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000264-figure-005.jpg",
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     }
   ],
   "parts": [
     {
-      "id": "6.1.1",
-      "type": "calculation",
-      "prompt": "293 K 下,要达到 $20.0\\ \\mathrm{kg\\cdot m^{-3}}$ 的储氢密度,所需的压力为多少 bar?"
+      "id": "part-000264-01",
+      "label": "6-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "293 K 下,要达到 $20.0\\ \\mathrm{kg\\cdot m^{-3}}$ 的储氢密度,所需的压力为多少 bar?"
+        }
+      ]
     },
     {
-      "id": "6.1.2",
-      "type": "multiple_choice",
-      "prompt": "293 K 下,要想将储氢密度由 $20.0\\ \\mathrm{kg\\ m^{-3}}$ 提高至 $40.0\\ \\mathrm{kg\\ m^{-3}}$,所需压力( ):(a) 为原来的 2 倍;(b) 低于原来的 2 倍;(c) 高于原来的 2 倍;(d) 无法确定。"
+      "id": "part-000264-02",
+      "label": "6-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "293 K 下,要想将储氢密度由 $20.0\\ \\mathrm{kg\\ m^{-3}}$ 提高至 $40.0\\ \\mathrm{kg\\ m^{-3}}$,所需压力( ):(a) 为原来的 2 倍;(b) 低于原来的 2 倍;(c) 高于原来的 2 倍;(d) 无法确定。"
+        }
+      ]
     },
     {
-      "id": "6.1.3",
-      "type": "short_answer",
-      "prompt": "工业上储氢罐的压强很少高于 700 bar,简要分析其原因。"
+      "id": "part-000264-03",
+      "label": "6-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "工业上储氢罐的压强很少高于 700 bar,简要分析其原因。"
+        }
+      ]
     },
     {
-      "id": "6.2.1",
-      "type": "multiple_choice",
-      "prompt": "可能观察到液态氢的温度有: (a) 16 K;(b) 25 K;(c) 77 K;(d) 293 K。"
+      "id": "part-000264-04",
+      "label": "6-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "可能观察到液态氢的温度有: (a) 16 K;(b) 25 K;(c) 77 K;(d) 293 K。"
+        }
+      ]
     },
     {
-      "id": "6.2.2",
-      "type": "calculation",
-      "prompt": "计算 $\\mathrm{H}_{2}$ 在 $27.15\\ \\mathrm{K}$ 液化所需的压力,并说明计算过程采取了哪些近似。"
+      "id": "part-000264-05",
+      "label": "6-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算 $\\mathrm{H}_{2}$ 在 $27.15\\ \\mathrm{K}$ 液化所需的压力,并说明计算过程采取了哪些近似。"
+        }
+      ]
     },
     {
-      "id": "6.2.3",
-      "type": "calculation",
-      "prompt": "若液氢的状态也可以近似用范德华方程描述,计算液氢密度的上限(单位:$\\mathrm{kg\\ m^{-3}}$)。"
+      "id": "part-000264-06",
+      "label": "6-6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "若液氢的状态也可以近似用范德华方程描述,计算液氢密度的上限(单位:$\\mathrm{kg\\ m^{-3}}$)。"
+        }
+      ]
     },
     {
-      "id": "6.3.1",
-      "type": "calculation",
-      "prompt": "12H-NEC 的式量为 207.36,其密度 $\\rho$ (单位:$\\mathrm{g\\ cm^{-3}}$) 同温度 $T$ (单位:K) 的关系为:$\\rho = 1.1482329 - 0.0007092T$,计算 293.0 K 时 12H-NEC 的储氢密度为多少 $\\mathrm{kg\\ m^{-3}}$?"
+      "id": "part-000264-07",
+      "label": "6-7",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "12H-NEC 的式量为 207.36,其密度 $\\rho$ (单位:$\\mathrm{g\\ cm^{-3}}$) 同温度 $T$ (单位:K) 的关系为:$\\rho = 1.1482329 - 0.0007092T$,计算 293.0 K 时 12H-NEC 的储氢密度为多少 $\\mathrm{kg\\ m^{-3}}$?"
+        }
+      ]
     },
     {
-      "id": "6.3.2",
-      "type": "drawing",
-      "prompt": "12H-NEC 脱氢时,会生成 8H-NEC (产物 1) 和 4H-NEC (产物 2) 两种中间产物,分别是 NEC 加上 8 个和 4 个氢原子的化合物。分别画出产物 1 和产物 2 的结构,不要求立体化学。"
+      "id": "part-000264-08",
+      "label": "6-8",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "12H-NEC 脱氢时,会生成 8H-NEC (产物 1) 和 4H-NEC (产物 2) 两种中间产物,分别是 NEC 加上 8 个和 4 个氢原子的化合物。分别画出产物 1 和产物 2 的结构,不要求立体化学。"
+        }
+      ]
     },
     {
-      "id": "6.3.3",
-      "type": "short_answer",
-      "prompt": "12H-NEC 存在多少种立体异构体(包含对映异构)?"
+      "id": "part-000264-09",
+      "label": "6-9",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "12H-NEC 存在多少种立体异构体(包含对映异构)?"
+        }
+      ]
     },
     {
-      "id": "6.3.4",
-      "type": "drawing",
-      "prompt": "已知 12H-NEC 脱氢到 NEC 是较强的吸热反应,画出脱氢温度最低的异构体结构。"
+      "id": "part-000264-10",
+      "label": "6-10",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "已知 12H-NEC 脱氢到 NEC 是较强的吸热反应,画出脱氢温度最低的异构体结构。"
+        }
+      ]
     },
     {
-      "id": "6.4.1",
-      "type": "calculation",
-      "prompt": "MOF-5 的密度为 $0.30\\ \\mathrm{g\\ cm^{-3}}$ (包含结构中的孔),77 K、100 bar 下 MOF-5 可以吸附 7.5 wt% 的氢气,计算 77 K 下 MOF-5 通过表面吸附能够达到的最大储氢密度 $(\\mathrm{kg\\cdot m^{-3}})$。"
+      "id": "part-000264-11",
+      "label": "6-11",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "MOF-5 的密度为 $0.30\\ \\mathrm{g\\ cm^{-3}}$ (包含结构中的孔),77 K、100 bar 下 MOF-5 可以吸附 7.5 wt% 的氢气,计算 77 K 下 MOF-5 通过表面吸附能够达到的最大储氢密度 $(\\mathrm{kg\\cdot m^{-3}})$。"
+        }
+      ]
     },
     {
-      "id": "6.4.2",
-      "type": "calculation",
-      "prompt": "除表面吸附外,MOF-5 的孔中还可以存储 $\\mathrm{H}_{2}$,MOF-5 的比孔容为 $1.27\\ \\mathrm{cm^{3}\\ g^{-1}}$。向一个 $1.00\\ \\mathrm{L}$ 的储氢罐中装填满 MOF-5 材料后,计算 $77\\ \\mathrm{K}$、$100\\ \\mathrm{bar}$ 下其储氢量为未装填 MOF-5 材料的多少倍?假设 MOF-5 表面吸附 $\\mathrm{H}_{2}$ 后其孔体积不变,孔中的 $\\mathrm{H}_{2}$ 符合范德华方程。在 $77\\ \\mathrm{K}$,$100\\ \\mathrm{bar}$ 下的 $V_{\\mathrm{m}} = 6.853 \\times 10^{-5}\\ \\mathrm{m^{3}\\ mol^{-1}}$。"
+      "id": "part-000264-12",
+      "label": "6-12",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "除表面吸附外,MOF-5 的孔中还可以存储 $\\mathrm{H}_{2}$,MOF-5 的比孔容为 $1.27\\ \\mathrm{cm^{3}\\ g^{-1}}$。向一个 $1.00\\ \\mathrm{L}$ 的储氢罐中装填满 MOF-5 材料后,计算 $77\\ \\mathrm{K}$、$100\\ \\mathrm{bar}$ 下其储氢量为未装填 MOF-5 材料的多少倍?假设 MOF-5 表面吸附 $\\mathrm{H}_{2}$ 后其孔体积不变,孔中的 $\\mathrm{H}_{2}$ 符合范德华方程。在 $77\\ \\mathrm{K}$,$100\\ \\mathrm{bar}$ 下的 $V_{\\mathrm{m}} = 6.853 \\times 10^{-5}\\ \\mathrm{m^{3}\\ mol^{-1}}$。"
+        }
+      ]
     }
   ]
 }

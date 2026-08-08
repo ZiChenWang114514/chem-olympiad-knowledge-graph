@@ -10,35 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000048",
     "sourceLabel": "2014-28-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2014-28-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000436-01",
-      "label": "9-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "在方框中按稳定性顺序分别画出由氯甲基苯、对甲氧基氯甲基苯以及对硝基氯甲基苯生成的稳定阳离子的结构简式。"
-        }
-      ]
-    },
-    {
-      "id": "part-000436-02",
-      "label": "9-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "间硝基溴苯、2,4-二硝基溴苯、对硝基溴苯以及 2,4,6-三硝基溴苯在特定条件下均能与 $\\ce{HO-}$ 反应,在方框中按其反应活性顺序分别画出对应化合物的结构简式。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "9-1 在方框中按稳定性顺序分别画出由氯甲基苯、对甲氧基氯甲基苯以及对硝基氯甲基苯生成的稳定阳离⼦的结构简式。 9-2 间硝基溴苯、2,4-二硝基溴苯、对硝基溴苯以及 $2 , 4 , 6 -$ 三硝基溴苯在特定条件下均能与HO−反应，在方框中按其反应活性顺序分别画出对应化合物的结构简式。"
     }
   ]
 }

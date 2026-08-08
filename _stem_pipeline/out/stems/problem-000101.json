@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000015",
     "sourceLabel": "2020-34-CChO-juesai-1.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2020-34-CChO-juesai-2/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。DeepSeek 精修:修正 OCR 错字、整理 LaTeX、合并空壳段落。请以官方纸质/PDF 为准。",
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
   "renderingHints": {
     "mhchem": true
   },
@@ -31,7 +31,8 @@
         {
           "type": "figure",
           "caption": "选项 A",
-          "alt": "选项 A 结构图"
+          "alt": "选项 A 结构图",
+          "src": "data/stems/assets/problem-000101-figure-001.jpg"
         },
         {
           "type": "paragraph",
@@ -40,7 +41,8 @@
         {
           "type": "figure",
           "caption": "选项 B",
-          "alt": "选项 B 结构图"
+          "alt": "选项 B 结构图",
+          "src": "data/stems/assets/problem-000101-figure-002.jpg"
         },
         {
           "type": "paragraph",
@@ -49,7 +51,8 @@
         {
           "type": "figure",
           "caption": "选项 C",
-          "alt": "选项 C 结构图"
+          "alt": "选项 C 结构图",
+          "src": "data/stems/assets/problem-000101-figure-003.jpg"
         },
         {
           "type": "paragraph",
@@ -64,16 +67,6 @@
         {
           "type": "paragraph",
           "text": "下列 2 种内酰胺在碱性条件下水解的反应速率较快的是"
-        },
-        {
-          "type": "figure",
-          "caption": "选项 A",
-          "alt": "选项 A 结构图"
-        },
-        {
-          "type": "figure",
-          "caption": "选项 B",
-          "alt": "选项 B 结构图"
         },
         {
           "type": "paragraph",
@@ -94,18 +87,8 @@
           "text": "如下二烯烃与间氯过氧苯甲酸(mCPBA)发生环氧化反应的主要产物是"
         },
         {
-          "type": "figure",
-          "caption": "选项 A",
-          "alt": "选项 A 结构图"
-        },
-        {
           "type": "paragraph",
           "text": "A"
-        },
-        {
-          "type": "figure",
-          "caption": "选项 B",
-          "alt": "选项 B 结构图"
         },
         {
           "type": "paragraph",
@@ -120,11 +103,6 @@
         {
           "type": "paragraph",
           "text": "下列 2-苯基丙醛与乙基格氏试剂反应,生成的主要产物是"
-        },
-        {
-          "type": "figure",
-          "caption": "产物结构图",
-          "alt": "产物结构图"
         }
       ]
     },
@@ -137,22 +115,12 @@
           "text": "下列 2 种 α-羟基酮的合成方法(A 和 B)合理的是"
         },
         {
-          "type": "figure",
-          "caption": "方法 A 示意图",
-          "alt": "方法 A 示意图"
-        },
-        {
           "type": "paragraph",
           "text": "方法 A:"
         },
         {
           "type": "paragraph",
           "text": "方法 B:"
-        },
-        {
-          "type": "figure",
-          "caption": "方法 B 示意图",
-          "alt": "方法 B 示意图"
         }
       ]
     },
@@ -163,11 +131,6 @@
         {
           "type": "paragraph",
           "text": "下列 Cope 重排反应的主要产物是"
-        },
-        {
-          "type": "figure",
-          "caption": "产物结构图",
-          "alt": "产物结构图"
         }
       ]
     },
@@ -180,18 +143,8 @@
           "text": "下列 2 种化合物中酸性较强的是"
         },
         {
-          "type": "figure",
-          "caption": "选项 A",
-          "alt": "选项 A 结构图"
-        },
-        {
           "type": "paragraph",
           "text": "A"
-        },
-        {
-          "type": "figure",
-          "caption": "选项 B",
-          "alt": "选项 B 结构图"
         },
         {
           "type": "paragraph",

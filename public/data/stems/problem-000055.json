@@ -10,55 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000052",
     "sourceLabel": "2018-32-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2018-32-CChO-chusai/full.md)程序化切分并整理为结构化题干;经 DeepSeek 对题干进行 OCR 错字修正与 LaTeX 规范化精修。公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。;DeepSeek 精修:OCR 汉字/公式/小问结构整理,请以官方 PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000055-01",
-      "label": "7-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出 $[\\ce{V2(edt)4}]^{2-}$ 的结构(忽略氢原子)。"
-        }
-      ]
-    },
-    {
-      "id": "part-000055-02",
-      "label": "7-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出 $[\\ce{M2(edt)4}]^{2-}$($\\ce{M = Mn, Fe}$)的结构(忽略氢原子)。"
-        }
-      ]
-    },
-    {
-      "id": "part-000055-03",
-      "label": "7-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出 $[\\ce{V2(edt)4}]^{2-}$ 中钒的价电子组态。磁性测试表明,它显抗磁性,简述原因。"
-        }
-      ]
-    },
-    {
-      "id": "part-000055-04",
-      "label": "7-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "$[\\ce{Mn2(edt)4}]^{2-}$ 可由 $\\ce{MnCl2}$ 溶液和 $\\ce{Na2(edt)}$ 溶液在空气中反应得到,写出反应方程式。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "第7题（10分）蛋白质中的巯基可以作为配体。多种酶中存在金属-硫簇。在含硫配体的研究中，得到一类过渡金属离⼦和⼄二硫醇离⼦（ $\\mathrm { \\mathrm { ^ { - } S C H _ { 2 } C H _ { 2 } S ^ { - } } }$ ，简写为edt2−）形成的双核络离⼦ $[ \\mathbf { M } _ { 2 } ( \\mathrm { e d t } )$ 4 ]2− $( \\mathbf { M } = \\mathrm { V } , \\mathrm { M n } , \\mathrm { F e } )$ 。它们尽管通式相同，但结构不同。 $[ \\mathrm { V } _ { 2 } ( \\mathrm { e d t } ) _ { 4 } ] ^ { 2 }$ −中，每个钒原⼦周围有6个硫原⼦配位，通过两个V连线中⼼有三个互相垂直的2次轴；当金属为Mn或Fe时，M周围有5个硫原⼦配位，形成四方锥形排布， $[ \\mathbf { M } _ { 2 } ( \\mathrm { e d t } ) _ { 4 } ] ^ { 2 }$ −离⼦有对称中⼼。 7-1 画出[V 2 (edt) 4 ]2−的结构（忽略氢原⼦）。 7-2 画出 $[ \\mathbf { M } _ { 2 } ( \\mathrm { e d t } ) .$ 4 ]2− $( \\mathbf { M } = \\mathbf { M } \\mathbf { n }$ , Fe)的结构（忽略氢原⼦）。 7-3 写出 $\\mathrm { [ V _ { 2 } ( e d t ) _ { 4 } ] ^ { 2 - } }$ −中钒的价电⼦组态。磁性测试表明，它显抗磁性，简述原因。 7-4 $\\mathrm { [ M n _ { 2 } ( e d t ) _ { 4 } ] ^ { 2 } }$ −可由MnCl 2 溶液和 $\\mathrm { N a } _ { 2 } ( \\mathrm { e d t } )$ 溶液在空气中反应得到，写出反应方程式。"
     }
   ]
 }

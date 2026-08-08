@@ -10,11 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000003",
     "sourceLabel": "2008-22-CChO-juesai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(决赛/2008-22-CChO-juesai/full.md)程序化切分并整理为结构化题干;经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、规范小问结构、将缺图占位转为 figure 块。请以官方纸质/PDF 为准。",
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
   "renderingHints": {
     "mhchem": true
   },
@@ -22,7 +22,8 @@
     {
       "type": "figure",
       "caption": "题给总反应路线图(原图缺失)",
-      "alt": "总反应路线图,展示从原料到最终产物的多步合成"
+      "alt": "总反应路线图,展示从原料到最终产物的多步合成",
+      "src": "data/stems/assets/problem-000335-figure-001.jpg"
     }
   ],
   "parts": [
@@ -37,7 +38,8 @@
         {
           "type": "figure",
           "caption": "手环烯合成路线图(原图缺失)",
-          "alt": "手环烯合成路线,标注 a~h 的反应条件或中间体"
+          "alt": "手环烯合成路线,标注 a~h 的反应条件或中间体",
+          "src": "data/stems/assets/problem-000335-figure-002.jpg"
         }
       ]
     },
@@ -82,7 +84,8 @@
         {
           "type": "figure",
           "caption": "花烯合成路线图(原图缺失)",
-          "alt": "花烯合成路线,标注 i 和 j 的试剂或条件"
+          "alt": "花烯合成路线,标注 i 和 j 的试剂或条件",
+          "src": "data/stems/assets/problem-000335-figure-003.jpg"
         }
       ]
     },
@@ -117,7 +120,8 @@
         {
           "type": "figure",
           "caption": "花烯 G 碗-碗翻转示意图(原图缺失)",
-          "alt": "花烯 G 的碗-碗翻转能垒示意图"
+          "alt": "花烯 G 的碗-碗翻转能垒示意图",
+          "src": "data/stems/assets/problem-000335-figure-004.jpg"
         },
         {
           "type": "paragraph",

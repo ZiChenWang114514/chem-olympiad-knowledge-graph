@@ -10,24 +10,22 @@
   "source": {
     "sourceDocumentId": "source-000037",
     "sourceLabel": "2006-20-CChO-chusai.pdf",
-    "page": 0,
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD(初赛/2006-20-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "figure",
-      "caption": "反应流程图",
-      "alt": "环磷酰胺类似物合成路线图(缺图)"
+      "type": "paragraph",
+      "text": "第9题（10分）环磷酰胺是⽬前临床上常用的抗肿瘤药物，国内学者近年打破常规，合成了类似化合物，其毒性比环磷酰胺小，若形成新药，可改善病人的生活质量，其中有一个化合物的合成路线如下，请完成反应，写出试剂或中间体的结构。"
     },
     {
-      "type": "paragraph",
-      "text": "注:NBS 为 N-溴代丁二酰亚胺。"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000288-figure-001.jpg",
+      "alt": "problem-000288题目配图第1幅（已按原图查看）"
     }
-  ],
-  "parts": []
+  ]
 }
