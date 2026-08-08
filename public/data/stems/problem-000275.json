@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000275",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "光致酸碱化与二氧化碳",
+  "number": "6",
+  "examYear": 2025,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000035",
+    "sourceLabel": "2025年第39届全国中学生化学竞赛决赛理论试题资料.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "从2025决赛理论试题答案卷中仅抽取题干段落（截断于答案段）；OCR 与切分可能有噪声。不含参考答案与评分材料。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "光敏分子可以通过光化学反应实现对溶液pH值的调控，从而能够实现 $C 0 _ { 2 }$ 的可逆吸收和释放，在$C O _ { 2 }$ 富集领域有潜在应用。"
+    },
+    {
+      "type": "paragraph",
+      "text": "6.1 花青素类分子 MC 在酸性水溶液中可以质子化为 MC-H+，使溶液 pH 值升高，从而吸收 $\\mathrm { C O } _ { 2 } ,$ 将其转化为 $H C O _ { 3 } ^ { - }$ 。在光照下MC可以转化成螺吡喃型分子 $\\mathtt { s p }$ ，促进MC-H+释放H+使溶液 $\\mathfrak { p H }$ 下降，从而将溶液中的 $H C O _ { 3 }$ 转化成 ${ \\bf C O } _ { 2 }$ 释放，上述“光致酸化”可以实现 $\\mathbf { C O } _ { 2 }$ 的富集。该反应体系中有机光敏分子的相互转化关系和相应的平衡常数如下图所示："
+    },
+    {
+      "type": "paragraph",
+      "text": "（图）"
+    },
+    {
+      "type": "paragraph",
+      "text": "6.1.1 通过改变取代基 $\\mathtt { R } _ { 1 }$ 和 $\\mathtt { R } _ { 2 }$ 可以得到一系列 MC-H+衍生物，研究表明MC-H+的酸性对 $\\mathbf { C O } _ { 2 }$ 的富集有重要影响。当 $C 0 _ { 2 }$ 吸收一释放可逆反应的平衡常数为1时具有最佳的 ${ \\bf C } { \\bf O } _ { 2 }$ 富集性能，请推导此时 $K _ { \\mathrm { a } } ( { \\mathsf { M C } } \\cdot$ H⁺)应满足的条件，用光照下 MC 转化为 SP的平衡常数 ${ \\pmb K } _ { 0 }$ 和反应 $\\mathrm { C O } _ { 2 } ( \\mathrm { g } ) + \\mathrm { H } _ { 2 } \\mathrm { O } \\implies \\mathrm { H C O } _ { 3 } ^ { - } +$ H+的平衡常数 $K _ { \\mathfrak { a l } } ( \\mathbf { C O } _ { 2 } )$ 表示。答案：体系对 $C O _ { 2 }$ 的可逆吸放反应式为$\\mathsf { M C - H ^ { + } } + \\mathsf { H C O _ { 3 } ^ { - } }  \\mathsf C 0 _ { 2 } + \\mathsf { H _ { 2 } O } + \\mathsf { M C } ^ { \\prime }$ 其中MC’为非质子化的光敏分子，即 $[ \\mathsf { M C } ^ { \\prime } ] = [ \\mathsf { M C } ] + [ \\mathsf { S P } ]$ 平衡常数K $\\begin{array} { r } { \\dot { \\mathbf { \\eta } } = \\frac { [ \\mathsf { C O } _ { 2 } ] [ \\mathsf { M C } ^ { \\prime } \\mathbf { \\eta } ] } { [ \\mathsf { M C } - \\mathsf { H } ^ { + } ] [ \\mathsf { H C O } _ { 3 } ^ { - } ] } = 1 } \\end{array}$ $1 = \\frac { \\vert C 0 _ { 2 } \\vert ( \\vert M C \\vert + \\vert S P \\vert ) } { \\vert M C - H + \\vert \\vert H C 0 _ { 3 } ^ { - } \\vert }$ (1分)$= \\frac { | { \\mathsf { C O } } _ { 2 } | | { \\mathsf { M C } } | ( 1 + K _ { 0 } ) } { [ \\mathsf { M C } - \\mathsf { H } ^ { + } ] [ \\mathsf { H C O } _ { 3 } ^ { - } ] }$ (1分)$= \\frac { K _ { a } ( \\mathsf { M C - H ^ { + } } ) ( 1 + K _ { 0 } ) } { K _ { a 1 } ( \\mathsf { C } 0 _ { 2 } ) }$ (1分)$\\begin{array} { r } { K _ { a } ( \\mathrm { M C } - \\mathrm { H } ^ { + } ) = \\frac { K _ { a 1 } ( \\mathrm { C } 0 _ { 2 } ) } { 1 + K _ { 0 } } } \\end{array}$ (1分) 共4分"
+    },
+    {
+      "type": "paragraph",
+      "text": "6.1.2 研究表明 $\\mathrm { R } _ { 1 } = p { \\cdot } { \\mathrm { O M e } }$ ${ \\tt R } _ { 2 } = { \\tt H }$ 时具有较好的 ${ \\bf C O } _ { 2 }$ 富集性能；而当 $\\mathrm { R } _ { 1 } = p { \\cdot } 0 \\mathrm { M e }$ $\\ R _ { 2 } = { \\cal C } { \\sf N }$ 时则难以实现 ${ \\bf C } { \\bf O } _ { 2 }$ 富集，其主要原因是：(A)光照下 MC 难以转化成 SP (B) 停止光照后 SP 难以重新转化成 MC(C) MC 难以质子化 (D) MC-H+难以去质子化答案：B (2分)"
+    },
+    {
+      "type": "paragraph",
+      "text": "6.2受“光致酸化”启发，科学家进一步提出“光致碱化”体系，利用结构如右图所示的芴基光敏分子PBOH，其水溶液在光照下可以释放出 $\\mathrm { H O } ^ { - }$ 同时形成PB+，pH值在7\\~12之间变化，可实现 ${ \\bf C O } _ { 2 }$ 捕集和富集。6.2.1 画出 PB+最稳定的共振式。"
+    }
+  ]
+}

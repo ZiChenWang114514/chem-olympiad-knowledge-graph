@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000277",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "有机化合物提纯分离",
+  "number": "8",
+  "examYear": 2025,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000035",
+    "sourceLabel": "2025年第39届全国中学生化学竞赛决赛理论试题资料.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "从2025决赛理论试题答案卷中仅抽取题干段落（截断于答案段）；OCR 与切分可能有噪声。不含参考答案与评分材料。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "8.1 重结晶是提纯固体有机化合物的常用方法之一。"
+    },
+    {
+      "type": "paragraph",
+      "text": "8.1.1重结晶最重要的一步是选择合适的溶剂。所选溶剂的标准包括"
+    },
+    {
+      "type": "paragraph",
+      "text": "(a)不与将要重结晶的有机化合物发生反应；(b)在高温下，有机化合物在其中有较大的溶解度；而在室温时，溶解度较小；(c) 杂质在其中的溶解度很小；(d) 杂质在其中的溶解度很大；(c) 高沸点，不易挥发；(f) 毒性小。"
+    }
+  ]
+}

@@ -1562,6 +1562,66 @@
       "title": "EDTA滴定测定锌含量"
     },
     {
+      "problemId": "problem-000270",
+      "path": "data/stems/problem-000270.json",
+      "rightsState": "stem_public",
+      "title": "闪烁体晶体结构"
+    },
+    {
+      "problemId": "problem-000271",
+      "path": "data/stems/problem-000271.json",
+      "rightsState": "stem_public",
+      "title": "钴配合物磁性与催化"
+    },
+    {
+      "problemId": "problem-000272",
+      "path": "data/stems/problem-000272.json",
+      "rightsState": "stem_public",
+      "title": "晶体交错生长结构"
+    },
+    {
+      "problemId": "problem-000273",
+      "path": "data/stems/problem-000273.json",
+      "rightsState": "stem_public",
+      "title": "电化学二氧化碳还原"
+    },
+    {
+      "problemId": "problem-000274",
+      "path": "data/stems/problem-000274.json",
+      "rightsState": "stem_public",
+      "title": "水相变热力学与动力学"
+    },
+    {
+      "problemId": "problem-000275",
+      "path": "data/stems/problem-000275.json",
+      "rightsState": "stem_public",
+      "title": "光致酸碱化与二氧化碳"
+    },
+    {
+      "problemId": "problem-000276",
+      "path": "data/stems/problem-000276.json",
+      "rightsState": "stem_public",
+      "title": "四氮唑硼配合物反应"
+    },
+    {
+      "problemId": "problem-000277",
+      "path": "data/stems/problem-000277.json",
+      "rightsState": "stem_public",
+      "title": "有机化合物提纯分离"
+    },
+    {
+      "problemId": "problem-000278",
+      "path": "data/stems/problem-000278.json",
+      "rightsState": "stem_public",
+      "title": "四级碳手性中心构建"
+    },
+    {
+      "problemId": "problem-000279",
+      "path": "data/stems/problem-000279.json",
+      "rightsState": "stem_public",
+      "title": "卡宾化学与氮杂环"
+    },
+    {
       "problemId": "problem-000282",
       "path": "data/stems/problem-000282.json",
       "rightsState": "stem_public",

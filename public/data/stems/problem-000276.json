@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000276",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "四氮唑硼配合物反应",
+  "number": "7",
+  "examYear": 2025,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000035",
+    "sourceLabel": "2025年第39届全国中学生化学竞赛决赛理论试题资料.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "从2025决赛理论试题答案卷中仅抽取题干段落（截断于答案段）；OCR 与切分可能有噪声。不含参考答案与评分材料。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "第7题四氮唑类化合物及其反应性(25 分)"
+    },
+    {
+      "type": "paragraph",
+      "text": "四氮唑(Formazan)类化合物具有与乙酰丙酮类似的螯合配位能力，可以与主族元素、过渡金属、以及稀土金属配位；此外，四氮唑还具有氧化还原性。因此，四氮唑类化合物具有非常多样的物化性质和反应活性。其中一个Formazan类化合物A的结构式如下图所示。A与BF3·THF 在甲苯中回流得到化合物 $\\mathsf { s } ;$ 在室温下和惰性气氛中，B与2当量 $\\tt N a / H g$ 齐反应三天，转化为化合物 $\\mathtt { c } _ { 1 }$ 和 $\\mathrm { N a F } .$ 。除芳环外，$\\mathtt { c } _ { 1 }$ 具有六元环结构，在反应过程中 B-N和N-N键会发生断裂和重组，生成4个 $\\mathtt { c } _ { 1 }$ 的同分异构体 $\\cot \\sim$ $\\mathtt { c 5 . }$ C2和 $\\mathtt { c } _ { 3 }$ 均含有硼杂五元环结构， $\\mathtt { c } _ { 2 }$ 中有两个N-N键，而 $\\mathtt { c 3 }$ 中仅有一个N-N键；除芳环外， $\\mathtt { c } _ { 4 }$ 还含有一个六元环结构；而 $\\mathtt { c } _ { 5 }$ 则为非环化合物。"
+    },
+    {
+      "type": "paragraph",
+      "text": "7.1画出 B 和 $\\mathtt { c 1 } \\sim \\mathtt { c 5 }$ 的结构式。如有形式电荷，需标明；只需画出一个合理结构即可；画图时用tol代表 A 中的4-甲基苯基。"
+    }
+  ]
+}

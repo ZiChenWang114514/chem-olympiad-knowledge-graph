@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000270",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "闪烁体晶体结构",
+  "number": "1",
+  "examYear": 2025,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000035",
+    "sourceLabel": "2025年第39届全国中学生化学竞赛决赛理论试题资料.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "从2025决赛理论试题答案卷中仅抽取题干段落（截断于答案段）；OCR 与切分可能有噪声。不含参考答案与评分材料。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "化合物A是一种重要的闪烁体材料，可以高效地将高能辐射转化为可见光，在医学诊疗、深空探测等领域具有广泛应用。"
+    },
+    {
+      "type": "paragraph",
+      "text": "1.1将X的氧化物和Y的氧化物混合后，在高温下采用提拉生长法得到 $\\mathsf { A } _ { \\circ } \\mathsf { A }$ 晶体属立方晶系(a=1.0509nm，晶体密度为 $7 . 1 3 \\ \\mathrm { g } \\ \\mathrm { c m } ^ { - 3 } ) ;$ 其中，X被6个 $\\yen 04$ 四面体包围，每个 $\\yen 04$ 提供一个氧原子，X处干畸变的氧八面体中心，每个 $\\yen 06$ 八面体和另外3个 $\\yen 06$ 八面体共棱连接。通过计算，推断X和Y分别是什么元素，并写出A的分子式。"
+    }
+  ]
+}

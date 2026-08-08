@@ -1,0 +1,372 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000274",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "水相变热力学与动力学",
+  "number": "5",
+  "examYear": 2025,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000035",
+    "sourceLabel": "2025年第39届全国中学生化学竞赛决赛理论试题资料.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "从2025决赛理论试题答案卷中仅抽取题干段落（截断于答案段）；OCR 与切分可能有噪声。不含参考答案与评分材料。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "水的相变与诸多重要的气象现象相关，298.15K时，水的相关热力学函数见下表"
+    },
+    {
+      "type": "paragraph",
+      "text": "${\\Delta }_{f}{H}_{m}^{\\ominus }/\\mathrm{{kJ}}{\\mathrm{{mol}}}^{-1}$  ${S}_{m}^{\\ominus }/\\mathrm{J}{\\mathrm{K}}^{-1}{\\mathrm{{mol}}}^{-1}$  ${C}_{p,m}/\\mathrm{J}{\\mathrm{K}}^{-1}{\\mathrm{{mol}}}^{-1}$  ${\\mathrm{H}}_{2}\\mathrm{O},s$ \\\\37.8 ${\\mathrm{H}}_{2}\\mathrm{O},l$ -285.8369.9575.3 ${\\mathrm{H}}_{2}\\mathrm{O},\\mathrm{g}$ -241.83188.8433.6"
+    },
+    {
+      "type": "paragraph",
+      "text": "5.1 稀溶液的依数性 非挥发性溶质水溶液的沸点高于纯水。沸点升高是一种依数性质，沸点升高公式为 $\\Delta T _ { \\mathrm { b } } { = } i K _ { \\mathrm { b , m } } m _ { \\mathrm { B } }$ ，式中 $K _ { 6 , \\mathfrak { m } }$ 为沸点升高常数，只与溶剂的性质有关， $\\begin{array} { r } { K _ { \\mathrm { b , m } } = \\frac { R \\left( T _ { b } ^ { \\bullet } \\right) ^ { 2 } } { \\Delta _ { \\mathsf { v a p } } H _ { m } ^ { \\ominus } } \\cdot M _ { A } } \\end{array}$ ，其中 $T _ { \\mathfrak { b } } ^ { * } , \\Delta _ { \\mathbf { v a p } } H _ { m } ^ { \\ominus }$ MA分别为纯溶剂的正常沸点、标准摩尔气化焓和分子量；mB为溶质的质量摩尔浓度（单位： $\\mathrm { m o l } { \\cdot } \\mathrm { k g } ^ { - 1 } )$ 对非电解质稀溶液，i=1；对组成为MN6的强电解质稀溶液， $i \\approx a + b ,$"
+    },
+    {
+      "type": "paragraph",
+      "text": "5.1.1已知1.00 bar时纯水的沸点为 $1 0 0 ^ { \\circ } \\mathrm { C } ,$ 计算沸点升高常数 $K _ { \\boldsymbol { \\mathrm { b , m } } }$ (单位：K·kg·mol-1)。"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\n\\Delta_ {\\mathrm{vap}} H _ {m} ^ {\\ominus} (2 9 8. 1 5 \\mathrm{K}) = \\Delta_ {f} H _ {m} ^ {\\ominus} (\\mathrm{H} _ {2} \\mathrm{O}, g) - \\Delta_ {f} H _ {m} ^ {\\ominus} (\\mathrm{H} _ {2} \\mathrm{O}, l) = - 2 4 1. 8 + 2 8 5. 8 \\mathrm{kJmol} ^ {- 1} = 4 4. 0 \\mathrm{kJmol} ^ {- 1}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "由基尔霍夫定律，373.15K时，"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\n\\begin{array}{r l} & \\Delta_ {\\mathrm{vap}} H _ {m} ^ {\\ominus} (3 7 3. 1 5 \\mathrm{K}) = \\Delta_ {\\mathrm{vap}} H _ {m} ^ {\\ominus} (2 9 8. 1 5 \\mathrm{K}) + \\int_ {2 9 8. 1 5 \\mathrm{K}} ^ {3 7 3. 1 5 \\mathrm{K}} \\Delta_ {r} C _ {p} \\mathrm{d} T = 4 4. 0 \\mathrm{kJmol} ^ {- 1} + \\int_ {2 9 8. 1 5 \\mathrm{K}} ^ {3 7 3. 1 5 \\mathrm{K}} (3 3. 6 - 7 5. 3) \\mathrm{JK} ^ {- 1} \\mathrm{mol} ^ {- 1} \\mathrm{d} T \\\\ & = 4 4. 0 \\mathrm{kJmol} ^ {- 1} + (- 4 1. 7) \\times (3 7 3. 1 5 - 2 9 8. 1 5) \\times 1 0 ^ {- 3} \\mathrm{kJmol} ^ {- 1} \\\\ & = 4 0. 8 7 \\mathrm{kJmol} ^ {- 1} \\end{array}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\nK _ {b, m} = \\frac {R (T _ {b} ^ {*}) ^ {2}}{\\Delta_ {\\mathrm{vap}} H _ {m} ^ {\\ominus}} \\cdot M _ {\\mathrm{A}} = \\frac {8 . 3 1 4 (3 7 3 . 1 5) ^ {2}}{4 0 . 8 7 \\times 1 0 ^ {3}} \\cdot 1 8. 0 1 5 \\times 1 0 ^ {- 3} \\mathrm{Kkgmol} ^ {- 1} = 0. 5 1 0 \\mathrm{Kkgmol} ^ {- 1}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "第9页，共25页"
+    },
+    {
+      "type": "paragraph",
+      "text": "若直接用298.15 K时的蒸发焓44.00 kJ mol-1计算"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\nK _ {b, m} = \\frac {R (T _ {b} ^ {*}) ^ {2}}{\\Delta_ {v a p} H _ {m} ^ {\\ominus}} \\cdot M _ {\\Lambda} = \\frac {8 . 3 1 4 (3 7 3 . 1 5) ^ {2}}{4 4 . 0 \\times 1 0 ^ {3}} \\cdot 1 8. 0 1 5 \\times 1 0 ^ {- 3} \\mathrm{Kkgmol} ^ {- 1} = 0. 4 7 4 \\mathrm{Kkgmol} ^ {- 1} \\quad \\text {本小问给2分}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "5.1.2 我国青海湖是微咸水湖，可看作质量分数为1.24%的 NaCl水溶液。假设NaCl 在水中完全电离。计算青海湖湖水在1.00 bar时的沸点升高数值（单位： $^ { \\circ } { \\bf C } )$ o"
+    },
+    {
+      "type": "paragraph",
+      "text": "解：1.24%的 NaCl 水溶液换算成质量摩尔浓度"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\nm _ {\\mathrm{B}} = \\frac {1 . 2 4 \\mathrm{g}}{5 8 . 4 4 \\mathrm{gmol} ^ {- 1} \\times (1 0 0 - 1 . 2 4) \\times 1 0 ^ {- 3} \\mathrm{kg}} = 0. 2 1 4 8 \\mathrm{mol} \\mathrm{kg} ^ {- 1} \\tag {2分}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\n\\mathrm{代入} K _ {\\mathrm{b,m}} = 0. 5 1 0 \\mathrm{Kkgmol} ^ {- 1}, \\mathrm{有} \\Delta T _ {\\mathrm{b}} = i K _ {\\mathrm{b,m}} m _ {\\mathrm{B}} = 2 \\times 0. 5 1 0 \\times 0. 2 1 4 8 \\mathrm{K} = 0. 2 1 9 \\mathrm{K}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "若用后者 $K _ { \\mathrm { 6 , m } } = 0 . 4 7 4$ K kg mol-',则 $\\Delta T _ { \\flat } = i K _ { \\flat , \\mathfrak { m } } m _ { \\ B } = 2 \\times 0 . 4 7 4 \\times 0 . 2 1 4 8 \\ \\mathrm { K } = 0 . 2 0 4 \\ \\mathrm { K }$"
+    },
+    {
+      "type": "paragraph",
+      "text": "青海湖湖水的沸点升高为 $- 0 . 2 0 4 \\mathrm { ~ } ^ { \\circ } \\mathrm { C } .$ .给1分"
+    },
+    {
+      "type": "paragraph",
+      "text": "5.2 降雨迎风坡效应乞拉朋齐是印度东北部梅加拉亚邦的山城，海拔1313米，因其地处西南季风迎风坡暖湿气流被喜马拉雅山脉强迫抬升，绝热冷却凝结致雨，叠加卡西山地漏斗状地形汇聚水汽，导致年均降水量超11400毫米，被称为世界雨极。以下将分析迎风坡效应中的相变机制。"
+    },
+    {
+      "type": "paragraph",
+      "text": "当空气团温度降至露点温度时，即可形成云，云可进一步导致降雨或降雪。露点(DewPoint)是指在一定的气压下，空气中的水汽达到饱和状态并开始凝结成液态水(如露珠、雾、霜等)时的温度，露点温度 $t _ { d } ($ 单位： ${ } ^ { \\circ } \\mathbf { C } )$ 的计算公式如下："
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\nt _ {d} = \\frac {c \\cdot \\left[ \\ln (R H) + \\frac {b t _ {0}}{c + t _ {0}} \\right]}{b - \\left[ \\ln (R H) + \\frac {b t _ {0}}{c + t _ {0}} \\right]}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "式中 $b = 1 7 . 6 2 5 , c = 2 4 3 . 9 4 ^ { \\circ } { \\bf C }$ ，t0为空气团的温度(单位： ${ } ^ { \\circ } \\mathbf { C } )$ ，RH为相对湿度，即空气中水蒸气的分压与to时水的饱和蒸气压的比值"
+    },
+    {
+      "type": "paragraph",
+      "text": "海平面处温度为25 $. 0 ^ { \\circ } \\mathsf C$ ，压强为1.00bar，一个含水气团在海平面形成，组成为78.0%氮气，20.0%氧气和2.0%的水蒸气，其等效摩尔质量为 $\\mathsf { M } = 2 8 . 6 \\ \\mathrm { g } \\ \\mathsf { m o l } ^ { - 1 }$ ，等压摩尔比热容 $C _ { p , m } = 2 8 . 8 6 ~ \\mathrm { J } \\cdot \\mathrm { K } ^ { - 1 } ~ \\mathrm { m o l } ^ { - 1 }$ 。当气团遇到山脉被抬升至高处后，气团温度和压力发生变化，导致雨雪等降水。"
+    },
+    {
+      "type": "paragraph",
+      "text": "5.2.1已知25℃时水的饱和蒸气压为3.17kPa，计算海平面处气团的露点，在海平面处是否会生成云？解：25℃时，水的饱和蒸气压为 $p _ { \\star } ( 2 5 { \\ } ^ { \\circ } ( \\mathsf { C } ) = 0 . 0 3 1 7 { \\ } \\mathsf { p } ^ { \\ominus }$ ，空气中水的体积分数为2.0%，"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\nt _ {\\mathrm{d}} = \\frac {c \\cdot \\left[ \\ln (R H) + \\frac {b T _ {0}}{c + T _ {0}} \\right]}{b - \\left[ \\ln (R H) + \\frac {b T _ {0}}{c + T _ {0}} \\right]} = \\frac {2 4 3 . 9 4 \\cdot \\left[ \\ln (0 . 6 3 1) + \\frac {1 7 . 6 2 5 \\times 2 5 . 0}{2 4 3 . 9 4 + 2 5 . 0} \\right]}{1 7 . 6 2 5 - \\left[ \\ln (0 . 6 3 1) + \\frac {1 7 . 6 2 5 \\times 2 5 . 0}{2 4 3 . 9 4 + 2 5 . 0} \\right]} = 1 8 ^ {\\circ} \\mathrm{C}\\tag{1分}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "海平面处气温25.0℃高于露点温度 $T _ { \\mathrm { d } } { = } 1 8 ~ ^ { \\circ } \\mathrm { C }$ ，不会生成云。"
+    },
+    {
+      "type": "paragraph",
+      "text": "第10页，共25页"
+    },
+    {
+      "type": "paragraph",
+      "text": "5.2.2气团被山脉抬升过程可近似看作理想气体绝热可逆膨胀过程，计算气团被山脉抬升至乞拉朋齐海拔高度 $( h = 1 3 1 3$ 米)时的温度和压力。已知气压p随高度h变化遵循以下关系： $\\mathrm { d } p = - \\rho g \\mathrm { d } h$ ，其中ρ为气体密度， $\\mathbf { g } = 9 . 8 0 \\mathrm { m } ^ { 2 } \\mathbf { s } ^ { - 1 }$ 为重力加速度。"
+    },
+    {
+      "type": "paragraph",
+      "text": "提示；x、γ为变量，a、b为常数时，有微分公式： $\\mathrm { d } ( x ^ { a } y ^ { b } ) = a x ^ { a - 1 } y ^ { b } \\mathrm { d } x + b x ^ { a } y ^ { b - 1 } \\mathrm { d } y$"
+    },
+    {
+      "type": "paragraph",
+      "text": "解：由理想气体状态方程， $p V = n R T = { \\frac { m } { M } } R T$ ，即 $\\rho = { \\frac { m } { V } } = { \\frac { p M } { R T } }$"
+    },
+    {
+      "type": "paragraph",
+      "text": "则大气压随高度升高dh的变化dp为 $\\mathrm { d } p = - \\rho g \\mathrm { d } h = - { \\frac { p M } { R T } } g \\mathrm { d } h$ (i)"
+    },
+    {
+      "type": "paragraph",
+      "text": "对绝热可逆过程，有 $p ^ { 1 - \\gamma } T ^ { \\gamma } = \\stackrel { \\mu } { 1 7 } \\stackrel { 3 \\mu } { 3 } \\stackrel { 5 } { \\alpha }$"
+    },
+    {
+      "type": "paragraph",
+      "text": "(ii)"
+    },
+    {
+      "type": "paragraph",
+      "text": "式中 $\\gamma = \\frac { C _ { _ { r n } } } { C _ { _ { 1 } } } = \\frac { C _ { _ { r n } } } { C _ { _ { 1 } - } - R } = \\frac { 2 8 . 8 6 } { 2 8 . 8 6 - 8 . 3 1 4 } = 1 . 4 0 5$ 为绝热系数。"
+    },
+    {
+      "type": "paragraph",
+      "text": "对(ii)式微分，有 $( 1 - \\gamma ) p ^ { - \\gamma } T ^ { \\gamma } \\mathrm { d } p + \\gamma p ^ { 1 - \\gamma } T ^ { \\gamma - 1 } \\mathrm { d } T = 0$ ，即 $\\mathrm { d } p = - \\frac { \\gamma p } { ( 1 - \\gamma ) T } \\mathrm { d } T$"
+    },
+    {
+      "type": "paragraph",
+      "text": "(iii)"
+    },
+    {
+      "type": "paragraph",
+      "text": "结合(i)(iii)有， $- { \\frac { \\gamma p } { ( 1 - \\gamma ) T } } \\mathrm { d } T = - { \\frac { p M } { R T } } g \\mathrm { d } h$ ，即有 $\\mathrm { d } T = \\frac { ( 1 - \\gamma ) M g } { \\gamma R } \\mathrm { d } h $"
+    },
+    {
+      "type": "paragraph",
+      "text": "积分得 $\\Delta T = \\frac { ( 1 - \\gamma ) M _ { \\sigma } } { \\gamma R } \\Delta h$"
+    },
+    {
+      "type": "paragraph",
+      "text": "(iv)"
+    },
+    {
+      "type": "paragraph",
+      "text": "海拔升高Δh=1313米时，有 $\\Delta T = \\frac { ( 1 - \\gamma ) M g } { \\gamma R } \\Delta h = \\frac { \\left( 1 - 1 . 4 0 5 \\right) \\times 2 8 . 6 \\times 1 0 ^ { - 3 } \\times 9 . 8 0 } { 1 . 4 0 5 \\times 8 . 3 1 4 } \\times 1 3 1 3 \\textrm { K } = - 1 2 . 7 6 \\textrm { K }$"
+    },
+    {
+      "type": "paragraph",
+      "text": "空气温度为 $2 5 . 0 0 - 1 2 . 7 6 = 1 2 . 2 4 ^ { \\circ } \\mathrm { C }$ ，即为 $2 7 3 . 1 5 + 1 2 . 2 4 \\mathrm { K } = 2 8 5 . 3 9 \\mathrm { K }$ o"
+    },
+    {
+      "type": "paragraph",
+      "text": "由绝热可逆过程方程式 $p _ { 1 } ^ { 1 - \\gamma } T _ { 1 } ^ { \\gamma } = p _ { 2 } ^ { 1 - \\gamma } T _ { 2 } ^ { \\gamma }$"
+    },
+    {
+      "type": "paragraph",
+      "text": "$1 . 0 0 ^ { 1 - 1 . 4 0 5 } ( 2 9 8 . 1 5 ) ^ { 1 . 4 0 5 } = p _ { 2 } ^ { 1 - 1 . 4 0 5 } ( 2 8 5 . 3 9 ) ^ { 1 . 4 0 5 }$ ，解得 $\\boldsymbol { p = 0 . 8 5 9 \\mathrm { \\ p } ^ { \\ominus } }$"
+    },
+    {
+      "type": "paragraph",
+      "text": "即1313m处空气温度和压强分别为285.39K（12.24℃）和0.86 $\\begin{array} { r l } { \\mathsf { p } ^ { \\ominus } } & { { } ( 0 . 8 5 9 \\mathsf { p } ^ { \\ominus } ) } \\end{array}$"
+    },
+    {
+      "type": "paragraph",
+      "text": "5.2.3通过计算说明在乞拉朋齐海拔处是否会生成云。如果可以生成云，请判断将形成降雨还是降雪？计算时 $\\gamma _ { 0 }$ 取25℃。提示：如你未能计算出5.2.2的结果，请使用总 $\\mathbb { E } p = 0 . 8 0 \\mathrm { b a r }$ 解： $2 5 ^ { \\circ } C A _ { 2 } ^ { \\prime }$ ，水的饱和蒸气压为 $p _ { , } ( 2 5 ~ ^ { \\circ } \\mathbf { C } ) = 0 . 0 3 1 7 ~ ~ \\mathsf { p } ^ { \\circ }$ ，空气中水的体积分数为2.0%，"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\n0.86 \\text{ bar} \\times 0.020 / 0.0317 = 54.3\\%\\tag{1分}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\nt _ {\\mathrm{d}} = \\frac {c \\cdot \\left[ \\ln (R H) + \\frac {b T _ {0}}{c + T _ {0}} \\right]}{b - \\left[ \\ln (R H) + \\frac {b T _ {0}}{c + T _ {0}} \\right]} = \\frac {2 4 3 . 9 4 \\cdot \\left[ \\ln (0 . 5 4 3) + \\frac {1 7 . 6 2 5 \\times 2 5 . 0}{2 4 3 . 9 4 + 2 5 . 0} \\right]}{1 7 . 6 2 5 - \\left[ \\ln (0 . 5 4 3) + \\frac {1 7 . 6 2 5 \\times 2 5 . 0}{2 4 3 . 9 4 + 2 5 . 0} \\right]} = 1 5 ^ {\\circ} \\mathrm{C}\\tag{1分}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "因为乞拉朋齐海拔处的气温为12℃小于露点温度 $1 5 ^ { \\circ } \\mathrm { C }$ ，因此会生成云。(1分)"
+    },
+    {
+      "type": "paragraph",
+      "text": "因气温高于 $\\cdot 0 ^ { \\circ } \\ C ,$ 发生降雨。"
+    },
+    {
+      "type": "paragraph",
+      "text": "使用总 $\\mathbb { E } p = 0 . 8 ~ \\mathfrak { p } ^ { \\ominus } ,$ ，得到 $R H = 0 . 5 0 5 , t _ { \\mathrm { d } } = 1 4 ^ { \\circ } \\mathrm { C }$ ，高于乞拉朋齐海拔处的气温为12℃会生成云，发生降雨。"
+    },
+    {
+      "type": "paragraph",
+      "text": "5.3 液滴形成与生长 雨雾的形成始于大气中水蒸气的均相成核：当水蒸气在无杂质条件下形成临界液的过程，其总吉布斯自由能变化 $\\Delta G _ { \\perp }$ 由两部分构成：体相吉布斯自由能变化 $\\Delta G _ { * }$ ，即水分子从气相凝结为液相的AG:以及表面吉布斯自由能变化 $\\Delta G _ { \\mathrm { \\hat { \\star } l \\acute { h i } } } ,$ 即液滴表面在对吉布斯自由能的贡献。其中，1mol水蒸气凝结时的体相吉布斯自由能变化 $\\Delta G _ { \\mathrm { * , m } } = R T \\mathrm { l n } \\ ( p _ { \\mathrm { v , \\infty } } / p )$ ，其中 ${ \\mathfrak { p k l l } } { \\mathfrak { p } } _ { \\mathrm { v , \\infty , \\mathfrak { c } } }$ 分别为气相中水的蒸气压和平面水相的饱和蒸气压(平面的曲率半径为∞):而表面吉布斯自由能 $\\Delta G _ { \\mathrm { \\tiny \\mathscr { k } \\overline { { | \\mathbb { I } | } } } } = \\sigma A$ ，其中A为液滴表面积，σ"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\n\\mathrm{第} 1 1 \\mathrm{页，共} 2 5 \\mathrm{页}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "为表面张力，描述了表面积改变引起的吉布斯自由能变化。对球形液滴，由于表面张力的存在会影响液体的蒸气压，这一效应由开尔文方程描述：lr $1 \\left[ \\frac { p _ { \\boldsymbol { v } , r } } { p _ { \\boldsymbol { v } , \\infty } } \\right] = \\frac { 2 \\sigma M } { R T \\rho r }$ ，其中 $p _ { \\vee } , r ^ { \\sharp \\sharp } \\mathbb { P } \\vee , \\infty \\bigwedge$ 别表示半径为r水滴和平面水相(即曲率半径为∞的水滴)的饱和蒸气压，M为水的摩尔质量，ρ为水的密度。要求：5.3.1-5.3.5题的推导结果，表达式中仅含5.3题干中出现的变量，5.3.5还可以包含 $\\gamma _ { 0 0 }$"
+    },
+    {
+      "type": "paragraph",
+      "text": "5.3.1 推导温度T下，分压为p的水蒸气生成1个半径为r的球形液滴的总吉布斯自由能变化 $\\Delta G _ { \\mathcal { Q } }$"
+    },
+    {
+      "type": "paragraph",
+      "text": "解：对一个液滴，假设其半径为r"
+    },
+    {
+      "type": "paragraph",
+      "text": "① 液滴中水分子物质的量：由 $n { = } 0 V / M$ $V = ( 4 / 3 ) \\pi r ^ { 3 }$ ，得 $n ^ { = } \\left( { 4 / 3 } \\right) \\rho \\pi r ^ { 3 } / M ;$"
+    },
+    {
+      "type": "paragraph",
+      "text": "②单个液滴体相吉布斯自由能： $\\Delta G _ { \\mathrm { t s } } = n \\Delta G _ { \\mathrm { t s , m } } ,$ 将 $\\scriptstyle \\Delta G _ { * , \\mathfrak { m } } = R T \\ln \\left( p _ { \\mathfrak { v } , \\infty } / p \\right)$ 代入，得"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\n\\Delta G _ {\\mathrm{休}} = \\frac {4 \\rho \\pi r ^ {3} R T}{3 M} \\ln (\\frac {p _ {v , z}}{p});\\tag{1分}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "③单个液滴表面吉布斯自由能：由 $\\Delta G _ { \\mathrm { E ( f i ) } } = \\sigma A$ 及 $scriptstyle 4 = 4 \\pi r ^ { 2 }$ ，得 $\\Delta G _ { \\mathrm { i \\cdot } 1 5 1 } = 4 \\pi \\sigma \\cdot r ^ { 2 } ;$"
+    },
+    {
+      "type": "paragraph",
+      "text": "④ $\\Delta G _ { \\cong } = \\Delta G _ { \\mathbb { X } } + \\Delta G _ { 2 \\dim }$ ，联立得 $\\begin{array} { r } { \\Delta G _ { \\checkmark } = \\frac { 4 \\rho \\pi r ^ { 3 } R T } { 3 M } \\ln ( \\frac { p _ { V , \\mathrm { ~ e ~ } } } { p } ) + 4 \\pi \\sigma r ^ { 2 } } \\end{array}$"
+    },
+    {
+      "type": "paragraph",
+      "text": "5.3.2 $\\Delta G _ { \\mathfrak { s } }$ 与 $( r \\geq 0 )$ 的关系如下图所示。"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图）"
+    },
+    {
+      "type": "paragraph",
+      "text": "解：对 $\\Delta G _ { \\mathfrak { s } }$ 求r的导数，令 $\\begin{array} { r } { \\mathrm {  { ~ \\ s ~ } } _ { d r } ^ { d ( \\Delta G _ { \\perp } ) } = \\frac { 4 \\rho \\pi r ^ { 2 } R T } { M } l n ( \\frac { p _ { v , \\mathrm { ~ s ~ } } } { p } ) + 8 \\pi \\sigma r = 0 } \\end{array}$ (1 分)"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\nr * = \\frac {2 \\sigma M}{\\rho R T \\ln (p / p _ {V , x})}\\tag{1 分}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "代入298K时 $\\sigma = 7 2 \\times 1 0 ^ { - 3 } ~ \\mathrm { N / m } , ~ M = 0 . 0 1 8 ~ \\mathrm { k g / m o l } , ~ \\wp = 1 0 0 0 \\mathrm { k g / m } ^ { 3 } , ~ \\ln { ( p / p _ { \\mathrm { v } , \\infty } ) } = \\ln { ( 7 . 9 2 / 3 . 1 7 ) } \\approx 0 . 9 1 6 ,$"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\nr ^ {*} = 2 \\times 7 2 \\times 1 0 ^ {- 3} \\times 0. 0 1 8 / (1 0 0 0 \\times 8. 3 1 4 \\times 2 9 8 \\times 0. 9 1 6) \\approx 1. 1 \\times 1 0 ^ {- 9} \\mathrm{m};\\tag{1 分) 共 3 分}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "$\\Delta G _ { \\perp }$ 的极大值点代表成核所需克服的最大能垒，是判断晶核能否稳定生长的关键阈值，其对应的液滴半径被称为临界成核半径r\\*。试推导临界成核半径r\\*的计算公式，并计算298K下水蒸气分压为7.92kPa时的r\\*(结果保留2位有效数字)。已知：298.15K时，水的 $\\sigma = 7 . 2 \\times 1 0 ^ { - 2 } \\mathrm { N } \\mathrm { m } ^ { - 1 }$ ，密度为1 $. 0 0 \\ \\mathrm { g } \\ \\mathrm { c m } ^ { - 3 }$"
+    },
+    {
+      "type": "paragraph",
+      "text": "5.3.3 临界成核半径也可以从动力学角度推导。过饱和蒸气中液滴的生长过程遵循扩散生长动力学规律水分子从高浓度的气相扩散至半径为r的液滴表面，单位时间通过单位面积的水分子物质的量称为扩散通量J(r)(单位： $\\mathfrak { m o l } \\mathsf { c m } ^ { - 2 } \\mathsf { s } ^ { - 1 } )$ ，遵循规律 $J ( r ) { = } D ( c _ { \\mathsf { b } } - c _ { \\mathsf { r } } ) / r ,$ ，其中D为扩散系数（单位： $\\mathsf { c m } ^ { 2 } \\mathsf { s } ^ { - 1 } )$ $c _ { \\mathrm { { b } } }$ 和 cr分别为体相和半径为r的液滴表面的蒸汽浓度（单位： $\\mathrm { m o l } \\mathrm { L } ^ { - 1 } )$ 。若扩散到液滴表面的水分子会立刻全部液化，且气相均可视为理想气体。推导dr/dt的表达式。提示：水蒸汽可视为理想气体，其浓度c与蒸气压 $p$ 满足具有以下关系： $p { = } c R T _ { \\circ }$"
+    },
+    {
+      "type": "paragraph",
+      "text": "解：①单位时间扩散至液滴表面的总物质的量： $\\mathrm { d } n / \\mathrm { d } t = | J ( \\mathrm { r } ) | \\cdot A$"
+    },
+    {
+      "type": "paragraph",
+      "text": "第12页，共25页"
+    },
+    {
+      "type": "paragraph",
+      "text": "代入 $\\vert J ( r ) \\vert { = } D ~ ( c _ { 0 } - c _ { r } ) / r$ 及 $A = 4 \\pi r ^ { 2 }$ ，得 $\\mathrm { d } n / \\mathrm { d } t { = } [ D ( c _ { \\mathsf { b } } - c _ { \\mathsf { r } } ) / r ] { \\times } 4 \\pi r ^ { 2 } { = } 4 \\pi D r ( c _ { \\mathsf { b } } - c _ { \\mathsf { r } } ) ;$ (1分)"
+    },
+    {
+      "type": "paragraph",
+      "text": "② 单位时间液滴增加体积： $\\mathrm { d } V / \\mathrm { d } t = \\rho ^ { - 1 } \\mathrm { d } m / \\mathrm { d } t = M \\rho ^ { - 1 } ( \\mathrm { d } n / \\mathrm { d } t ) = 4 \\pi D r \\left( c _ { \\mathrm { b } } - c _ { \\mathrm { r } } \\right) M / \\rho ;$ (i) (1分)"
+    },
+    {
+      "type": "paragraph",
+      "text": "③体积与半径变化关系：对 $V = ( 4 / 3 ) \\pi r ^ { 3 }$ 求导，得 $\\mathrm { d } V / \\mathrm { d } t { = } 4 \\pi r ^ { 2 } ( \\mathrm { d } r / \\mathrm { d } t ) ;$ (ii) (1分)"
+    },
+    {
+      "type": "paragraph",
+      "text": "④ 联立(i)(ii) $4 \\pi r ^ { 2 } ( \\mathrm { d } r / \\mathrm { d } t ) { = } 4 \\pi D r \\cdot ( c _ { \\mathrm { b } } - c _ { \\mathrm { r } } ) \\ M / \\rho$ i (iii) (1分)"
+    },
+    {
+      "type": "paragraph",
+      "text": "⑤，由 $p { = } c R T$ 得 $\\scriptstyle { c = p / R T , }$"
+    },
+    {
+      "type": "paragraph",
+      "text": "因此， $c _ { \\mathsf { b } } = p / R T , c _ { \\mathsf { r } } = p _ { \\mathsf { r } } / R T = p _ { V , \\varpi } \\cdot \\exp { ( \\frac { 2 \\sigma M } { R T \\rho r } ) } / R T$ (开尔文方程ln $\\begin{array} { r } { \\left[ \\frac { p _ { v , r } } { p _ { v , \\infty } } \\right] = \\frac { 2 \\sigma M } { R T \\rho r } ) } \\end{array}$"
+    },
+    {
+      "type": "paragraph",
+      "text": "代入(iii)整理得 $\\begin{array} { r } { \\frac { | d r } { d t } = \\frac { D M } { \\rho r R T } \\big ( p - p _ { V , \\infty } \\cdot \\exp { ( \\frac { 2 \\sigma M } { R T \\rho r } ) } \\big ) } \\end{array}$ (1分) 共5分。"
+    },
+    {
+      "type": "paragraph",
+      "text": "5.3.4液滴生长的“推动力 $c _ { \\mathsf { b } } - c _ { r } = 0 \\sharp \\dag$ ，液滴达到临界状态。推导临界成核半径r\\*的表达式，并计算5.3.2题给条件下的r\\*。"
+    },
+    {
+      "type": "paragraph",
+      "text": "解： $c _ { \\mathrm { b } } - c _ { r } = 0$ ，即有 $\\begin{array} { r } { \\dot { p } = p _ { V , \\infty } \\cdot \\exp { ( \\frac { 2 \\sigma M } { R T \\rho r ^ { \\infty } } ) } } \\end{array}$ ，解得， $r * = \\frac { 2 \\sigma M } { \\rho R T \\ln \\left( p / p _ { V , \\infty } \\right) }$ (1分)"
+    },
+    {
+      "type": "paragraph",
+      "text": "与5.3.2的结果相同。因此r\\*也相同，为 $. 1 { \\times } 1 0 ^ { - 9 } \\mathrm { m } \\ \\left( 1 . 1 \\mathrm { n m } \\right)$"
+    },
+    {
+      "type": "paragraph",
+      "text": "【评分说明】：表达式1分，结果1分。"
+    },
+    {
+      "type": "paragraph",
+      "text": "5.3.5 液滴生长后期，其半径远大于临界成核半径 $r ^ { * } \\left( r / r ^ { * } \\geq 1 0 0 0 \\right)$ 。若液滴生长过程中，气相中过饱和蒸气的浓度可视为常数，推导液滴生长后期液滴半径生长速率dr/dt关于液滴半径r的方程及表观级数，并导出大液滴半径r与时间t的关系(初始条件为t=0时 $r = r _ { 0 } )$ 。提示：对5.3.3得到的生长动力方程进行合理近似后积分， $\\begin{array} { r } { \\int x ^ { n } d x = ( n + 1 ) ^ { - 1 } x ^ { n + 1 } + } \\end{array}$ 常数。"
+    },
+    {
+      "type": "paragraph",
+      "text": "解： $\\begin{array} { r } { \\exp \\left( \\frac { 2 \\sigma M } { R T \\rho r } \\right) = \\exp \\left( \\frac { r * } { r } \\ln ( p / p _ { V , \\infty } ) \\right) \\sim e ^ { 0 } = 1 } \\end{array}$"
+    },
+    {
+      "type": "paragraph",
+      "text": "或：当液滴尺寸较大时，忽略表面张力影响，液滴表面蒸气压\\~ $p _ { V , \\infty }$"
+    },
+    {
+      "type": "paragraph",
+      "text": "因此，有 $\\begin{array} { r } { \\frac { d r } { d t } \\approx \\frac { D M \\left( p - p _ { V , \\infty } \\right) } { \\rho R T } \\cdot r ^ { - 1 } } \\end{array}$"
+    },
+    {
+      "type": "paragraph",
+      "text": "即为负一级反应。"
+    },
+    {
+      "type": "paragraph",
+      "text": "积分，得 $r ^ { 2 } = r _ { 0 } ^ { 2 } + \\frac { 2 D M \\left( p - p _ { \\nu , \\infty } \\right) } { \\rho R T } \\cdot t$"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": ""
+    }
+  ]
+}

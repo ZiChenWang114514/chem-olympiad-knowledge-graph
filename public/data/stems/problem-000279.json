@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000279",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "卡宾化学与氮杂环",
+  "number": "10",
+  "examYear": 2025,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000035",
+    "sourceLabel": "2025年第39届全国中学生化学竞赛决赛理论试题资料.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "从2025决赛理论试题答案卷中仅抽取题干段落（截断于答案段）；OCR 与切分可能有噪声。不含参考答案与评分材料。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "含氮分子是制药、农用化工及材料行业中最重要的化合物之一。近年来80%以上的畅销药物都至少含有一个氮原子。因此，碳氮键的构建是有机合成化学领域的核心研究方向。烯烃是合成含氮化合物的关键前体，这得益于其在石油化工原料和天然存在的萜类化合物中含量丰富，同时也因为烯烃作为合成中间体的应用十分广泛。"
+    },
+    {
+      "type": "paragraph",
+      "text": "10.11969年，P.G. Gassman等人以烯烃为原料与氮卡宾反应制备了一系列1-氯吖啶衍生物，并系统研究了这些化合物的水解反应："
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\n\\mathrm{R} ^ {1} \\underset {\\mathrm{R} ^ {2}} {\\overset {\\mathrm{Cl}} {\\mathrm{N}}} \\dots \\mathrm{R} ^ {3} \\xrightarrow [ \\mathrm{R} ^ {4} ]{\\mathrm{H} _ {2} \\mathrm{O}} \\mathrm{R} ^ {1} \\underset {\\mathrm{R} ^ {2}} {\\overset {\\mathrm{O}} {\\mathrm{C}}} + \\underset {\\mathrm{R} ^ {4}} {\\overset {\\mathrm{R} ^ {3}} {\\mathrm{C}}} \\mathrm{O} + \\mathrm{NH} _ {4} \\mathrm{Cl}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "研究发现，反式-2,3-二甲基吖啶与次氯酸钠反应生成化合物1；而顺式-2,3-二甲基吖啶则生成两个混合物2和 ${ \\mathfrak { s } } ;$ 而且化合物3在室温下可以异构化为2："
+    },
+    {
+      "type": "paragraph",
+      "text": "（图）"
+    },
+    {
+      "type": "paragraph",
+      "text": "（图）"
+    },
+    {
+      "type": "paragraph",
+      "text": "10.1.1 为何化合物3能在室温下转化为化合物2？"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "problemId": "problem-000271",
+  "rightsState": "stem_public",
+  "language": "zh-CN",
+  "title": "钴配合物磁性与催化",
+  "number": "2",
+  "examYear": 2025,
+  "examStage": "final",
+  "source": {
+    "sourceDocumentId": "source-000035",
+    "sourceLabel": "2025年第39届全国中学生化学竞赛决赛理论试题资料.pdf",
+    "page": 0,
+    "transcriptionMethod": "ocr_reviewed",
+    "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "从2025决赛理论试题答案卷中仅抽取题干段落（截断于答案段）；OCR 与切分可能有噪声。不含参考答案与评分材料。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "第 2 题 Co 的配合物(27 分)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Co配合物因其氧化数、配体和结构的不同而呈现出丰富的磁性和催化特性。"
+    },
+    {
+      "type": "paragraph",
+      "text": "2.1直线形过渡金属配合物在分子磁体的研究中备受关注，其能量状态几平不受Jahn-Teller畸变的影响。2018年，科学家报道了一例二配位的单分子磁体Co(II)配合物 $\\mathrm { C o } ( \\mathrm { C } ( \\mathrm { S i M e } _ { 2 } \\mathrm { O N a p h } ) _ { 3 } ) _ { 2 } ,$ ，其中 HONaph 为$\\mathfrak { X } ^ { - }$ 萘酚， $\\scriptstyle \\mathbf { C - C o - C }$ 位于同一条直线上。理论计算表明，该配合物中Co的d轨道裂分为三组能级，从低到高电子的分布几率为42.8%、41.2%和16.0%。"
+    },
+    {
+      "type": "paragraph",
+      "text": "2.1.1 假定 $\\scriptstyle \\mathbf { C - C o - C }$ 键沿z 轴方向，依据晶体场理论画出 Co中心价层 d 轨道能级分裂图，标出轨道符号，然后将电子填充在轨道中，用 $_ { a } \\{ ,$ 和 $a \\vert ,$ 和表示电子不同的自旋状态。答案："
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\n+ \\quad d _ {2}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\n\\frac {1}{1} + \\mathrm{d} _ {\\alpha}, \\mathrm{d} _ {\\gamma}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\n\\frac {1}{1} + \\mathrm{d} _ {x ^ {2} - y ^ {2}} \\mathrm{d} _ {x y}\n$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "2.1.2 解释该配合物金属中心d电子采用上述电子排布的原因。"
+    }
+  ]
+}
