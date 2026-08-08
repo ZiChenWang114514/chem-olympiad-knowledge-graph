@@ -40,7 +40,7 @@
 - `docs/problem-stem-format.md`（内容标准与流程）
 - `docs/schemas/problem-stem.schema.json`（机器可读 schema）
 
-**允许的题干权利状态：** `stem_public` · `fulltext_authorized`（仅导出题干子集）
+**允许的题干权利状态：** `stem_public` · `stem_demo` · `fulltext_authorized`（仅导出题干子集）  
 **禁止写入题干文件：** 答案、评分细则、解题步骤、内部路径、摘要校验字段。
 
 **落盘位置：**
@@ -52,6 +52,7 @@ public/data/stems/assets/*   # 可选插图
 ```
 
 元数据年包（`exams/{year}.json`）**不内嵌**大段题干；前端按 `stems/index.json` 按需加载。  
+`stem_demo` 仅用于渲染演示，界面必须标注「演示排版」。
 
 ## 2. 公开业务 ID
 

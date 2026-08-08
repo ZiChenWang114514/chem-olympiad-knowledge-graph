@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000118",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,79 +8,58 @@
   "examYear": 2021,
   "examStage": "preliminary",
   "source": {
+    "sourceDocumentId": "source-000057",
     "sourceLabel": "2021-35-CChO-chusai.pdf",
-    "pages": [
-      3
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000057"
+    "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "## 第7题 过渡金属元素的化学"
+      "text": "菲啶(Phend)形成的铜配合物因在太阳能转化、发光二极管、荧光探针和抗癌荧光等光伏领域的应用而受到研究人员的重视。某实验将 0.089 g 菲啶(Phend)和 0.131 g $\\mathrm{PPh_3}$ 的 25 mL 甲醇溶液室温下搅拌 10 分钟,然后加入含 0.049 g 氯化亚铜的 25 mL 甲醇溶液,室温搅拌 3 小时得到黄绿色沉淀。过滤,滤液室温下放置 10 天,随着溶剂的缓慢蒸发,得到 0.253 g 黄色晶体 $\\mathbf{A}$。晶体 A 的元素分析结果为(%):C 68.74 (68.89),H 4.53 (4.47),N 2.27 (2.60),括号内为理论值。晶体结构表明 Cu 的配位数为 4。菲啶的结构见图 5。"
     },
     {
-      "type": "paragraph",
-      "text": "石英管中,碘与过渡金属M单质薄片在 $280 ~ ^ { \\circ } \\mathrm { C }$ 反应,在金属表面形成一层深棕红色固体 $\\mathbf { X } _ { \\circ }$ .X在 $300 ^ { \\circ }$ C的真空中加热,分解出红色固体Y和紫色气体,失重29.4%;Y与干燥的空气接触转变为深红色物质 $\\mathbf { Z } ,$ ,增重5.25%,Z比Y多一个氧原子."
-    },
+      "type": "figure",
+      "caption": "图5 菲啶结构",
+      "alt": "菲啶结构图(缺图)",
+      "src": "data/stems/assets/problem-000118-figure-001.jpg"
+    }
+  ],
+  "parts": [
     {
-      "type": "paragraph",
-      "text": "将 M 的一种硫酸盐和双⻮有机配体 $2 , 2 ^ { \\prime } .$ -联吡啶(简写为 bipy,分子量 156.2)充分反应后,在该体系中加入足量KI的甲醇溶液,得到绿色晶体 $\\mathbf { A } _ { \\circ }$ .A和Mg反应得到蓝色固体B,B在THF中被 $\\mathrm { LiAIH _ { 4 } }$ 进一步还原,得到红色固体 $\\mathbf { C } _ { \\circ }$ .若B和碘单质反应,先得到另一种红色固体D,D进一步与碘单质反应,又变回绿色晶体 $\\mathbf { A } _ { \\circ }$ .元素分析结果表明,A可以看成Y结合bipy的配合物,与Y相比,A增重157%,其中不含溶剂分子.磁化率测定显示,A的有效磁矩为3.75 $\\mu _ { \\mathrm { B } }$ ,C显抗磁性."
-    },
-    {
-      "type": "subpart",
+      "id": "part-000118-01",
       "label": "7-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "通过计算,推出X,Y,Z的化学式."
+          "text": "请通过计算和分析,写出黄色晶体 A 的化学式。"
         }
-      ],
-      "partId": "part-002056"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000118-02",
       "label": "7-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "通过计算,推出A的化学式."
+          "text": "画出 A 的结构,写出形成体的价电子构型和杂化方式。"
         }
-      ],
-      "partId": "part-002057"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000118-03",
       "label": "7-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出B,C,D的化学式(配体用简写符号表示)."
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000118-figure-001.jpg",
-          "alt": "原卷第7题图1：写出B,C,D的化学式(配体用简写符号表示).",
-          "displayWidth": 70,
-          "assetId": "asset-005334"
+          "text": "画出 A 可能的异构体结构。"
         }
-      ],
-      "partId": "part-002058"
-    },
-    {
-      "type": "subpart",
-      "label": "7-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "在抗肿瘤药物研究中,如右图所示的M的配合物受到关注,写出该配合物中M的氧化数和价电子组态."
-        }
-      ],
-      "partId": "part-002059"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

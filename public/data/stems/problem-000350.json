@@ -1,151 +1,105 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000350",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "冠醚镍配合物磁性",
-  "number": "Q4",
+  "number": "4",
   "examYear": 2009,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000004",
     "sourceLabel": "2009-23-CChO-juesai.pdf",
-    "pages": [
-      3,
-      4
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "第4题(14分)磁性材料广泛应用于航空航天高科技领域及电视,电脑,手机等日常生活用品。据报道,苯并[18]冠-6(以X表示,图4.1)与铯离子可形成一种夹心型的超分子阳离子,它与镍的配合物[Ni(dmit)<sub>2</sub>]−(以Y表示,图4.2)结合后可形成复合物并产生独特的晶体结构,具有优越的磁学性能,是铁磁性和反铁磁性共存于同一晶体中的成功范例。"
-    },
-    {
       "type": "figure",
-      "src": "data/stems/assets/problem-000350-figure-001.jpg",
-      "assetId": "asset-005235",
-      "alt": "原卷示意图：图 4.1",
-      "label": "图 4.1",
       "caption": "图 4.1",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "图 4.1"
+      "alt": "图 4.1(缺图)",
+      "src": "data/stems/assets/problem-000350-figure-001.jpg"
     },
     {
       "type": "figure",
-      "src": "data/stems/assets/problem-000350-figure-002.jpg",
-      "assetId": "asset-005236",
-      "alt": "原卷示意图：图 4.2",
-      "label": "图 4.2",
       "caption": "图 4.2",
-      "displayWidth": 100
+      "alt": "图 4.2(缺图)",
+      "src": "data/stems/assets/problem-000350-figure-002.jpg"
     },
     {
       "type": "paragraph",
-      "text": "图 4.2"
-    },
-    {
-      "type": "paragraph",
-      "text": "图4.3是X,Y与Cs+形成的复合物的晶体结构,在此晶体结构图中,a)为沿方向轴看晶胞,b)为沿方向轴看晶胞,c)为在方向 =0的面上镍配合物的二维排列,d)为镍配合物的二聚体链。"
+      "text": "图4.3是X、Y与Cs+形成的复合物的晶体结构,在此晶体结构图中,a)为沿$a$轴看晶胞,b)为沿$b$轴看晶胞,c)为在$z=0$的金上镍配合物的二维排列,d)为镍配合物的二聚体链。"
     },
     {
       "type": "figure",
-      "src": "data/stems/assets/problem-000350-figure-003.jpg",
-      "assetId": "asset-005237",
-      "alt": "原卷示意图：d)",
-      "label": "d)",
-      "caption": "d)",
-      "displayWidth": 100
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000350-figure-004.jpg",
-      "assetId": "asset-005238",
-      "alt": "原卷示意图：图 4.3",
-      "label": "图 4.3",
       "caption": "图 4.3",
-      "displayWidth": 100
+      "alt": "图 4.3(缺图)",
+      "src": "data/stems/assets/problem-000350-figure-003.jpg"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000350-figure-005.jpg",
-      "assetId": "asset-005239",
-      "alt": "冠醚镍配合物磁性：第5幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "d)"
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 5"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000350-figure-006.jpg",
-      "assetId": "asset-005240",
-      "alt": "d)；图 4.3",
-      "label": "d)；图 4.3",
-      "caption": "d)；图 4.3",
-      "displayWidth": 100
-    },
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 6"
+    }
+  ],
+  "parts": [
     {
-      "type": "paragraph",
-      "text": "图 4.3"
-    },
-    {
-      "type": "subpart",
+      "id": "part-000350-01",
       "label": "4-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "给出该晶体晶胞的组成,并写出该晶体结构基元的化学式(苯并[18]冠-6用X表示,镍配合物用Y表示)。"
         }
-      ],
-      "partId": "part-001694"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000350-02",
       "label": "4-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "指出镍离子的杂化轨道类型;图4.4是平面正方形晶体场d轨道能级分裂图,把基态镍离子的d电子填人该图。"
+          "text": "指出镍离子的杂化轨道类型;图4.4是平面正方形晶体场d轨道能级分裂图,把基态镍离子的d电子填入该图。"
+        },
+        {
+          "type": "figure",
+          "caption": "图 4.4",
+          "alt": "图 4.4(缺图)",
+          "src": "data/stems/assets/problem-000350-figure-004.jpg"
         }
-      ],
-      "partId": "part-001695"
+      ]
     },
     {
-      "type": "paragraph",
-      "text": "图 4.4"
-    },
-    {
-      "type": "subpart",
+      "id": "part-000350-03",
       "label": "4-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "已知该晶体的晶胞参数 t a = 1278 . 99 \\mathrm { p m } , \\ b = 1305 . 39 \\mathrm { p m } , \\ c = 2717 . 03 \\mathrm { p m } , \\ \\alpha = 78 . 3394 ^ { \\circ } , \\ \\beta \\ = 777 . 9999 . 77.0109°, \\gamma = 70 . 6358 ^ { \\circ } . 。试计算该晶体的密度 \\mathrm { ( g c m ^ { - 3 } ) } (相对分子质量:X312.4;Y451.4,三斜晶胞体积 V = a b c \\sqrt { 1 - \\cos 2 \\alpha - \\cos 2 \\beta - \\cos 2 \\gamma + 2 \\cos \\alpha \\cos \\beta \\cos \\gamma } )"
+          "text": "已知该晶体的晶胞参数 $a=1278.99\\ \\mathrm{pm}$,$b=1305.39\\ \\mathrm{pm}$,$c=2717.03\\ \\mathrm{pm}$,$\\alpha=78.3394^\\circ$,$\\beta=77.0109^\\circ$,$\\gamma=70.6358^\\circ$。试计算该晶体的密度 $\\rho\\ (\\mathrm{g\\ cm^{-3}})$(相对分子质量:X 312.4;Y 451.4,三斜晶胞体积 $V=abc\\sqrt{1-\\cos^2\\alpha-\\cos^2\\beta-\\cos^2\\gamma+2\\cos\\alpha\\cos\\beta\\cos\\gamma}$)。"
         }
-      ],
-      "partId": "part-001696"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000350-04",
       "label": "4-4",
       "blocks": [
         {
           "type": "paragraph",
           "text": "写出镍配合物Y的对称元素。指出超分子阳离子中Cs+的配位数,解释其配位数较大的可能原因。"
         }
-      ],
-      "partId": "part-001697"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

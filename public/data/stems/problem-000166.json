@@ -1,174 +1,119 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000166",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "有机反应负氢迁移",
-  "number": "Q8",
+  "number": "8",
   "examYear": 2022,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000058",
     "sourceLabel": "2022-36-CChO-chusai-1.pdf",
-    "pages": [
-      3,
-      4
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "在有机合成中,“负氢”转移的反应历史悠久,如1853年的Cannizarro反应和1906年的Tishchenko 反应[在催化量 \\mathrm { ( c a t . ) \\ A l ( O C H _ { 2 } C H _ { 3 } ) _ { 3 } } 作用下,含有方向-H的醛发生二聚成酯]。随着研究的深入,底物范围不断扩大,反应选择性也不断提高。1990年,Evans用 \\mathrm { S m I _ { 2 } } 成功将β-羟基酮进行了非对映选择性的还原。"
+      "text": "以芳香醛和1-苯基乙-1,2-二醇为原料在酸性条件下可以构建环戊烷-2-烯-1-酮衍生物:"
     },
     {
       "type": "paragraph",
-      "text": "依据此信息,解答以下问题:"
-    },
-    {
-      "type": "subpart",
-      "label": "8-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "以下反应均涉及“负氢”转移,写出各反应中发生转移的“负氢”。"
-        }
-      ],
-      "partId": "part-001164"
+      "text": "$$\\mathrm{Ph}-\\underset{\\mathrm{OH}}{\\overset{\\mathrm{OH}}{\\mathrm{C}}}+\\mathrm{PhCHO}\\xrightarrow[p-\\mathrm{TsOH}(0.5\\,\\mathrm{eq})]{\\mathrm{PhCH}_3,\\ 110^\\circ\\mathrm{C}}\\mathrm{Ph}-\\underset{\\mathrm{Ph}}{\\overset{\\mathrm{O}}{\\mathrm{C}}}-\\underset{\\mathrm{Ph}}{\\overset{\\mathrm{Ph}}{\\mathrm{C}}}$$"
     },
     {
       "type": "paragraph",
-      "text": "8-1-1"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000166-figure-001.jpg",
-      "assetId": "asset-005055",
-      "alt": "原卷示意图：$^ { 6 6 } \\mathrm { M g _ { 2 } F e } ^ { 3 5 }$ 氢化物的晶胞（氢未⽰出）",
-      "label": "$^ { 6 6 } \\mathrm { M g _ { 2 } F e } ^ { 3 5 }$ 氢化物的晶胞（氢未⽰出）",
-      "caption": "$^ { 6 6 } \\mathrm { M g _ { 2 } F e } ^ { 3 5 }$ 氢化物的晶胞(氢未示出)",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "8-1-2"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000166-figure-002.jpg",
-      "assetId": "asset-005056",
-      "alt": "有机反应负氢迁移：第2幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
+      "text": "该反应在对甲苯磺酸 $(p\\text{-}\\mathrm{TsOH})$ 催化下,在甲苯中回流后得到产物(产率70%)。研究表明,苯基环氧乙烷代替1-苯基乙-1,2-二醇在相同条件下反应也转化为同一产物(产率75%)。依据这些信息,回答以下问题:"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000166-figure-003.jpg",
-      "assetId": "asset-005057",
-      "alt": "有机反应负氢迁移：第3幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "8-1-4"
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 3"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000166-figure-004.jpg",
-      "assetId": "asset-005058",
-      "alt": "有机反应负氢迁移：第4幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 4"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000166-figure-005.jpg",
-      "assetId": "asset-005059",
-      "alt": "有机反应负氢迁移：第5幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 5"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000166-01",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在酸性条件下,1-苯基乙-1,2-二醇和苯基环氧乙烷均转化为同一中间产物,此中间产物随后与苯甲醛反应转化为最终产物2,4,5-三苯基环戊烷-2-烯-1-酮。画出此中间产物的结构式。"
+        }
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000166-02",
       "label": "8-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在酸的作用下,下列化合物中C-1位发生异构化,画出此过程中的关键中间体。"
+          "text": "此反应中苯基环氧乙烷与苯甲醛的比例至少应该为多少?"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000166-figure-006.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 6"
         }
-      ],
-      "partId": "part-001165"
+      ]
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000166-figure-006.jpg",
-      "assetId": "asset-005060",
-      "alt": "有机反应负氢迁移：第6幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "subpart",
+      "id": "part-000166-03",
       "label": "8-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出如下反应的关键中间体(不要求立体化学)。"
+          "text": "以下转换经历了类似的过程,为以下转换提供关键中间体:"
+        },
+        {
+          "type": "figure",
+          "caption": "(图:)",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "src": "data/stems/assets/problem-000166-figure-001.jpg"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000166-figure-007.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 7"
         }
-      ],
-      "partId": "part-001166"
+      ]
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000166-figure-007.jpg",
-      "assetId": "asset-005061",
-      "alt": "有机反应负氢迁移：第7幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "subpart",
-      "label": "8-1-1",
+      "id": "part-000166-04",
+      "label": "8-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001167"
-    },
-    {
-      "type": "subpart",
-      "label": "8-1-2",
-      "blocks": [
+          "text": "依据8-1和8-2的信息,请完成以下反应式(要求立体化学):"
+        },
         {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
+          "type": "figure",
+          "caption": "(图:)",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "src": "data/stems/assets/problem-000166-figure-002.jpg"
         }
-      ],
-      "partId": "part-001168"
-    },
-    {
-      "type": "subpart",
-      "label": "8-1-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001169"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

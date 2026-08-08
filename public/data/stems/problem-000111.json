@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000111",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,122 +10,49 @@
   "source": {
     "sourceDocumentId": "source-000016",
     "sourceLabel": "2020-34-CChO-juesai-2.pdf",
-    "pages": [
-      6,
-      7
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "blocks": [
-    {
-      "type": "subpart",
-      "label": "8",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "8 · 有机酸性与反应性"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000111-figure-001.jpg",
-          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-          "displayWidth": 80,
-          "caption": "图 1",
-          "assetId": "asset-004697"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000111-figure-002.jpg",
-          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-          "displayWidth": 80,
-          "caption": "图 2",
-          "assetId": "asset-004698"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000111-figure-003.jpg",
-          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-          "displayWidth": 80,
-          "caption": "图 3",
-          "assetId": "asset-004699"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000111-figure-004.jpg",
-          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-          "displayWidth": 80,
-          "caption": "图 4",
-          "assetId": "asset-004700"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000111-figure-005.jpg",
-          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-          "displayWidth": 80,
-          "caption": "图 5",
-          "assetId": "asset-004701"
-        }
-      ],
-      "partId": "part-000209"
-    },
-    {
-      "type": "subpart",
-      "label": "8-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "如下光学纯(？)-对溴苯磺酸酯在75%的1,4-二氧六环水溶液中与 $\\mathrm { N a N _ { 3 } }$ 反应,得到构型保持产物(？)-2-叠氮辛烷。画出该反应中间体的结构简式。"
-        }
-      ],
-      "partId": "part-000210"
-    },
-    {
-      "type": "subpart",
-      "label": "8-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "如下光学纯桥环化合物1在酸性条件下与乙酸酐反应,得到外消旋的酯2。画出该反应关键中间体的结构简式。"
-        }
-      ],
-      "partId": "part-000211"
-    },
-    {
-      "type": "subpart",
-      "label": "8-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "化合物3是一种“受阻Lewis酸碱对”,能够在室温下活化氢气并形成4;当加热到 $150 ~ ^ { \\circ } \\mathrm { C }$ 时,4可释放出氢气。4与苯甲醛在二氯甲烷溶液中反应生成5。画出4和5的结构结构简式。"
-        }
-      ],
-      "partId": "part-000212"
-    },
-    {
-      "type": "subpart",
-      "label": "8-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "螺环化合物6与苯甲醛在邻二甲苯中加热回流,反应生成化合物7和8。画出产物7以及反应中间体的结构简式。"
-        }
-      ],
-      "partId": "part-000213"
-    },
-    {
-      "type": "subpart",
-      "label": "8-5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "霉酚酸的全合成关键中间体13的合成路线如下。画出中间产物9、10、11和12的结构简式。"
-        }
-      ],
-      "partId": "part-000214"
-    }
-  ],
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
   "renderingHints": {
     "mhchem": true
-  }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "8 · 有机酸性与反应性"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000111-figure-001.jpg",
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 1"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000111-figure-002.jpg",
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 2"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000111-figure-003.jpg",
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 3"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000111-figure-004.jpg",
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 4"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000111-figure-005.jpg",
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 5"
+    }
+  ],
+  "parts": []
 }

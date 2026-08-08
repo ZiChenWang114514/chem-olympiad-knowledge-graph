@@ -1,441 +1,189 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000268",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "NHC硼自由基催化",
-  "number": "Q10",
+  "number": "10",
   "examYear": 2025,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000063",
     "sourceLabel": "2025-39-CChO-chusai.pdf",
-    "pages": [
-      27,
-      28,
-      29
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第 10 题 自由基化学 (25 分, 10%)"
+      "text": "解得 $x = 1.307 \\times 10^{4}$,$y = 1.542 \\times 10^{4}$。"
     },
     {
       "type": "paragraph",
-      "text": "游离有机自由基通常以化学计量比参与自由基反应。由于自由基具有高反应活性和寿命很短等特点,因此,游离有机自由基用作催化剂的情况仍然有限,这为实现高效的催化循环带来了挑战。最近,中国科学家开发了一种高效的不对称NHC-硼体系自由基催化方法,实现了不对称环化反应,构建一系列手性的杂环化合物。下图展示此催化体系中使用的其中一个手性NHC-硼自由基前体。在ACCN的引发下,手性 \\mathrm{NHC - BH_3} 中B-H键均裂转化为NHC-硼自由基(在画结构式时,NHC-硼自由基可简写为 \\mathbf{B}^{\\bullet *} );在反应过程中,该基团一直与底物相连,最终经自由基消除离去形成碳碳双键,NHC-硼自由基再生继续参与催化循环。"
+      "text": "接触不良颗粒百分比 $= y/(x+y) = 1.542/2.85 = 54.1\\%$。"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000268-figure-001.jpg",
-      "assetId": "asset-005162",
-      "alt": "NHC硼自由基催化：第1幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "NHC-BH _{3}"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000268-figure-002.jpg",
-      "assetId": "asset-005163",
-      "alt": "NHC硼自由基催化：第2幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "ACCN"
-    },
-    {
-      "type": "paragraph",
-      "text": "10.1 画出上述 NHC-BH3 在 ACCN 的引发下生成的自由基 B\\*结构式。 解答:"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000268-figure-003.jpg",
-      "assetId": "asset-005164",
-      "alt": "NHC硼自由基催化：第3幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "或"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000268-figure-004.jpg",
-      "assetId": "asset-005165",
-      "alt": "NHC硼自由基催化：第4幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "画成"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000268-figure-005.jpg",
-      "assetId": "asset-005166",
-      "alt": "NHC硼自由基催化：第5幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "骨架正确,1 分;立体化学 1 分,共 2 分。"
-    },
-    {
-      "type": "paragraph",
+      "type": "heading",
+      "level": 3,
       "text": "给分原则:"
     },
     {
       "type": "paragraph",
-      "text": "骨架错误后续正确也不得分。"
+      "text": "若以 $Q_0 = 3.6 \\times 10^{-12} \\, \\mathrm{C}$,$D = 3.0 \\times 10^{3} \\, \\mathrm{nm^2\\,s^{-1}}$,得"
+    },
+    {
+      "type": "paragraph",
+      "text": "$|I| = \\left| \\frac{\\mathrm{d}Q}{\\mathrm{d}t} \\right| = \\left| \\frac{\\pi^2 D}{4L^2} Q_0 e^{-\\frac{\\pi^2 D}{4L^2} t} \\right|$"
+    },
+    {
+      "type": "paragraph",
+      "text": "$= \\left| \\frac{\\pi^2 \\times 3.00 \\times 10^{3} \\, \\mathrm{nm^2\\,s^{-1}}}{4 \\times (180 \\, \\mathrm{nm})^2} \\times 3.6 \\times 10^{-12} \\, \\mathrm{C} \\times e^{-\\frac{\\pi^2 \\times 3.00 \\times 10^{3} \\, \\mathrm{nm^2\\,s^{-1}}}{4 \\times (180 \\, \\mathrm{nm})^2} \\times 10.00 \\, \\mathrm{s}} \\right|$"
+    },
+    {
+      "type": "paragraph",
+      "text": "$= 0.0837 \\, \\mathrm{pA}$"
+    },
+    {
+      "type": "paragraph",
+      "text": "若接触电阻 $R = 2.00 \\times 10^{13} \\, \\Omega$,$I_2 = 0.500 \\, \\mathrm{V} / R = 0.0250 \\, \\mathrm{pA}$。"
+    },
+    {
+      "type": "paragraph",
+      "text": "电极表面 PBA-1 颗粒的总个数:"
+    },
+    {
+      "type": "paragraph",
+      "text": "$N = \\frac{m}{m_L} = \\frac{m}{(L/a)^3 / 2 \\cdot M_r / N_A}$"
+    },
+    {
+      "type": "paragraph",
+      "text": "$= 0.3198 \\times 10^{-9} / \\left( \\left( \\frac{180}{0.510} \\right)^3 / 2 \\times \\frac{306.92}{6.022 \\times 10^{23}} \\right) = 2.85 \\times 10^{4}$"
+    },
+    {
+      "type": "paragraph",
+      "text": "联立方程组:"
+    },
+    {
+      "type": "paragraph",
+      "text": "$x + y = 2.85 \\times 10^{4}$"
+    },
+    {
+      "type": "paragraph",
+      "text": "$0.0837x + 0.0250y = 1385.76$"
+    },
+    {
+      "type": "paragraph",
+      "text": "其中 $x$ 为扩散速率控制的颗粒个数,$y$ 为接触电阻控制的颗粒个数。"
+    },
+    {
+      "type": "paragraph",
+      "text": "解得 $x = 1.15 \\times 10^{4}$,$y = 1.70 \\times 10^{4}$。"
+    },
+    {
+      "type": "paragraph",
+      "text": "接触不良颗粒百分比 $= y/(x+y) = 1.70/2.85 = 59.6\\%$。"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000268-figure-001.jpg",
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000268-figure-002.jpg",
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000268-figure-003.jpg",
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000268-figure-004.jpg",
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000268-figure-005.jpg",
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000268-figure-006.jpg",
-      "assetId": "asset-005167",
-      "alt": "NHC硼自由基催化：第6幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "10.2 为下述转换过程提供合理的关键自由基中间体(不要求立体化学):"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000268-figure-007.jpg",
-      "assetId": "asset-005168",
-      "alt": "NHC硼自由基催化：第7幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000268-figure-008.jpg",
-      "assetId": "asset-005169",
-      "alt": "NHC硼自由基催化：第8幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "\\mathrm{NHC-BH} _ {3} (20 \\mathrm{mol} \\%)"
-    },
-    {
-      "type": "paragraph",
-      "text": "甲苯, 90^{\\circ} C, 12 h"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000268-figure-009.jpg",
-      "assetId": "asset-005170",
-      "alt": "NHC硼自由基催化：第9幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "解答:"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000268-figure-010.jpg",
-      "assetId": "asset-005171",
-      "alt": "NHC硼自由基催化：第10幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000268-figure-011.jpg",
-      "assetId": "asset-005172",
-      "alt": "NHC硼自由基催化：第11幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000268-figure-012.jpg",
-      "assetId": "asset-005173",
-      "alt": "NHC硼自由基催化：第12幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "每个 2 分,骨架正确 2 分;共 6 分;"
-    },
-    {
-      "type": "paragraph",
-      "text": "不要求双键的顺反。骨架错误后续正确也不得分。"
-    },
-    {
-      "type": "paragraph",
-      "text": "10.3 以上转换最终的产物形成了五元环,为此给出合理的解释。"
-    },
-    {
-      "type": "paragraph",
-      "text": "解答:"
-    },
-    {
-      "type": "paragraph",
-      "text": "自由基提供 SOMO,烯烃提供 LUMO 轨道反应,形成五元环;2 分;5-exo 环化或苄基自由基稳定,可得 1 分。"
-    },
-    {
-      "type": "paragraph",
-      "text": "10.4 依据以上信息,给出以下反应的关键自由基中间体(不要求立体化学):"
-    },
-    {
-      "type": "paragraph",
-      "text": "解答:"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000268-figure-013.jpg",
-      "assetId": "asset-005174",
-      "alt": "NHC硼自由基催化：第13幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "每个 2 分,骨架正确,2 分;共 6 分"
-    },
-    {
-      "type": "paragraph",
-      "text": "给分原则:不要求立体化学"
-    },
-    {
-      "type": "paragraph",
-      "text": "10.5 仔细观察"
-    },
-    {
-      "type": "subpart",
-      "label": "10-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "和"
-        }
-      ],
-      "partId": "part-001488"
-    },
-    {
-      "type": "subpart",
-      "label": "10-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "两个反应的结果,你会对这个反应有新的认识。这两个反应有一些相同点和不同点,如自由基环化反应后环的大小不一。"
-        }
-      ],
-      "partId": "part-001489"
-    },
-    {
-      "type": "paragraph",
-      "text": "10.5.1 给出这两个转换的相同点和其他不同点。"
-    },
-    {
-      "type": "paragraph",
-      "text": "解答:"
-    },
-    {
-      "type": "paragraph",
-      "text": "不同点: 1. 所形成双键的顺反构型;"
-    },
-    {
-      "type": "paragraph",
-      "text": "2. 自由基转化过程中的 1,6-氢迁移和 1,5-氢迁移;每个 1 分,共 2 分"
-    },
-    {
-      "type": "paragraph",
-      "text": "相同点:1. 自由基对炔键的加成,生成芳基稳定的烯基自由基;"
-    },
-    {
-      "type": "paragraph",
-      "text": "2. 经氢迁移后转换为苄基自由基;"
-    },
-    {
-      "type": "paragraph",
-      "text": "3. 关环后生成的自由基处于 B\\* 的 \\beta 位;每个 1 分;答出其中两个即可;共 2 分;"
-    },
-    {
-      "type": "paragraph",
-      "text": "10.5.2 为此转换成六元环给出合理的解释。"
-    },
-    {
-      "type": "paragraph",
-      "text": "解答:"
-    },
-    {
-      "type": "paragraph",
-      "text": "接下来的自由基消除,必须使自由基位于 B 取代基的 \\beta 位;苄基自由基更为稳定。每个 1 分,共 2 分"
-    },
-    {
-      "type": "paragraph",
-      "text": "10.6 依据以上信息,在使用非手性的 NHC-BH _{3} 催化剂作用下,判断以下哪一个是主产物。"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000268-figure-014.jpg",
-      "assetId": "asset-005175",
-      "alt": "NHC硼自由基催化：第14幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "解答:"
-    },
-    {
-      "type": "paragraph",
-      "text": "B; 1 分"
-    },
-    {
-      "type": "paragraph",
-      "text": "10.7 依据本题所提供的信息,完成以下反应式:"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000268-figure-015.jpg",
-      "assetId": "asset-005176",
-      "alt": "NHC硼自由基催化：第15幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "提示:产物为六元环衍生物,并连接两个芳环取代基。"
-    },
-    {
-      "type": "paragraph",
-      "text": "解答:"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000268-figure-016.jpg",
-      "assetId": "asset-005177",
-      "alt": "NHC硼自由基催化：第16幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "2 分;骨架错误不得分。"
-    },
-    {
-      "type": "paragraph",
-      "text": "1 分"
-    },
-    {
-      "type": "paragraph",
-      "text": "本试题和答案版权属中国化学会所有,未经中国化学会化学竞赛负责人授权,任何人不得翻印,不得在出版物或互联网网站上转载,贩卖,赢利,违者必究。本试题和相应答案将分别于2025年9月7日12:30和9月11日15:00在www.chemsoc.org.cn网站上公布。"
-    },
-    {
-      "type": "subpart",
-      "label": "10-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001490"
-    },
-    {
-      "type": "subpart",
-      "label": "10-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001491"
-    },
-    {
-      "type": "subpart",
-      "label": "10-5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001492"
-    },
-    {
-      "type": "subpart",
-      "label": "10-5-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001493"
-    },
-    {
-      "type": "subpart",
-      "label": "10-5-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001494"
-    },
-    {
-      "type": "subpart",
-      "label": "10-6",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001495"
-    },
-    {
-      "type": "subpart",
-      "label": "10-7",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001496"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     }
   ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  "parts": []
 }

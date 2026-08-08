@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000055",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,64 +8,19 @@
   "examYear": 2018,
   "examStage": "preliminary",
   "source": {
+    "sourceDocumentId": "source-000052",
     "sourceLabel": "2018-32-CChO-chusai.pdf",
-    "pages": [
-      3
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000052"
+    "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第7题 蛋白质中的巯基可以作为配体.多种酶中存在金属-硫簇.在含硫配体的研究中,得到一类过渡金属离子和乙二硫醇离子( $\\mathrm { \\mathrm { ^ { - } SCH _ { 2 } CH _ { 2 } S ^ { - } } }$ ,简写为edt2−)形成的双核络离子 $[ \\mathbf { M } _ { 2 } ( \\mathrm { edt } )$ <sub>4</sub>]2− $( \\mathbf { M } = \\mathrm { V } , \\mathrm { Mn } , \\mathrm { Fe } )$ .它们尽管通式相同,但结构不同. $[ \\mathrm { V } _ { 2 } ( \\mathrm { edt } ) _ { 4 } ] ^ { 2 }$ −中,每个钒原子周围有6个硫原子配位,通过两个V连线中心有三个互相垂直的2次轴;当金属为Mn或Fe时,M周围有5个硫原子配位,形成四方锥形排布, $[ \\mathbf { M } _ { 2 } ( \\mathrm { edt } ) _ { 4 } ] ^ { 2 }$ −离子有对称中心."
-    },
-    {
-      "type": "subpart",
-      "label": "7-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出[V<sub>2</sub>(edt)<sub>4</sub>]2−的结构(忽略氢原子)."
-        }
-      ],
-      "partId": "part-001961"
-    },
-    {
-      "type": "subpart",
-      "label": "7-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出 $[ \\mathbf { M } _ { 2 } ( \\mathrm { edt } ) .$ <sub>4</sub>]2− $( \\mathbf { M } = \\mathbf { M } \\mathbf { n }$ , Fe)的结构(忽略氢原子)."
-        }
-      ],
-      "partId": "part-001962"
-    },
-    {
-      "type": "subpart",
-      "label": "7-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出 $\\mathrm { [ V _ { 2 } ( edt ) _ { 4 } ] ^ { 2 - } }$ −中钒的价电子组态.磁性测试表明,它显抗磁性,简述原因."
-        }
-      ],
-      "partId": "part-001963"
-    },
-    {
-      "type": "subpart",
-      "label": "7-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "$\\mathrm { [ Mn _ { 2 } ( edt ) _ { 4 } ] ^ { 2 } }$ −可由MnCl<sub>2</sub>溶液和 $\\mathrm { Na } _ { 2 } ( \\mathrm { edt } )$ 溶液在空气中反应得到,写出反应方程式."
-        }
-      ],
-      "partId": "part-001964"
+      "text": "第7题（10分）蛋白质中的巯基可以作为配体。多种酶中存在金属-硫簇。在含硫配体的研究中，得到一类过渡金属离⼦和⼄二硫醇离⼦（ $\\mathrm { \\mathrm { ^ { - } S C H _ { 2 } C H _ { 2 } S ^ { - } } }$ ，简写为edt2−）形成的双核络离⼦ $[ \\mathbf { M } _ { 2 } ( \\mathrm { e d t } )$ 4 ]2− $( \\mathbf { M } = \\mathrm { V } , \\mathrm { M n } , \\mathrm { F e } )$ 。它们尽管通式相同，但结构不同。 $[ \\mathrm { V } _ { 2 } ( \\mathrm { e d t } ) _ { 4 } ] ^ { 2 }$ −中，每个钒原⼦周围有6个硫原⼦配位，通过两个V连线中⼼有三个互相垂直的2次轴；当金属为Mn或Fe时，M周围有5个硫原⼦配位，形成四方锥形排布， $[ \\mathbf { M } _ { 2 } ( \\mathrm { e d t } ) _ { 4 } ] ^ { 2 }$ −离⼦有对称中⼼。 7-1 画出[V 2 (edt) 4 ]2−的结构（忽略氢原⼦）。 7-2 画出 $[ \\mathbf { M } _ { 2 } ( \\mathrm { e d t } ) .$ 4 ]2− $( \\mathbf { M } = \\mathbf { M } \\mathbf { n }$ , Fe)的结构（忽略氢原⼦）。 7-3 写出 $\\mathrm { [ V _ { 2 } ( e d t ) _ { 4 } ] ^ { 2 - } }$ −中钒的价电⼦组态。磁性测试表明，它显抗磁性，简述原因。 7-4 $\\mathrm { [ M n _ { 2 } ( e d t ) _ { 4 } ] ^ { 2 } }$ −可由MnCl 2 溶液和 $\\mathrm { N a } _ { 2 } ( \\mathrm { e d t } )$ 溶液在空气中反应得到，写出反应方程式。"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

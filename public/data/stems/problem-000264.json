@@ -1,76 +1,51 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000264",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "储氢技术与体积密度",
-  "number": "Q6",
+  "number": "6",
   "examYear": 2025,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000063",
     "sourceLabel": "2025-39-CChO-chusai.pdf",
-    "pages": [
-      13,
-      14,
-      15,
-      16
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "利用绿氢替代化石燃料实现工业,发电,交通等高排放领域深度脱碳是我国实现2030年碳达峰,2060年碳中和的“双碳目标”核心支撑路径之一。氢的高效存储是当前氢能产业面临的重大挑战。本题探讨几种储氢方法与体积储氢密度的关系。"
+      "text": "利用绿氢替代化石燃料实现工业、发电、交通等高排放领域深度脱碳是我国实现2030年碳达峰、2060年碳中和的“双碳目标”核心支撑路径之一。氢的高效存储是当前氢能产业面临的重大挑战。本题探讨几种储氢方法与体积储氢密度的关系。"
     },
     {
       "type": "paragraph",
-      "text": "6.1 高压储氢。压缩氢气是目前最常用的储氢方法之一。氢气被存储在压力维持在 350\\~700 bar 的容器中,高压下氢气行为偏离理想气体,更适合用范德华方程 (p+a/V_{\\mathrm{m}}^{2})(V_{\\mathrm{m}}-b)=RT 描述,其中 V_{m} 为气体的摩尔体积,p 为气体压强。对氢气而言,方程中的 a=0.02476\\ J\\ m^{3}\\ mol^{-2} , b=2.661\\times10^{-5}\\ m^{3}\\ mol^{-1} 。提示:此小题要求有效数字。"
+      "text": "6.1 高压储氢。压缩氢气是目前最常用的储氢方法之一。氢气被存储在压力维持在 350~700 bar 的容器中,高压下氢气行为偏离理想气体,更适合用范德华方程 $(p+a/V_{\\mathrm{m}}^{2})(V_{\\mathrm{m}}-b)=RT$ 描述,其中 $V_{\\mathrm{m}}$ 为气体的摩尔体积,$p$ 为气体压强。对氢气而言,方程中的 $a=0.02476\\ \\mathrm{J\\ m^{3}\\ mol^{-2}}$,$b=2.661\\times10^{-5}\\ \\mathrm{m^{3}\\ mol^{-1}}$。提示:此小题要求有效数字。"
     },
     {
       "type": "paragraph",
-      "text": "6.1.1 293 K 下,要达到 20.0 \\, kg \\cdot m^{-3} 的储氢密度,所需的压力为多少 bar方向 解答:"
+      "text": "6.1.1 293 K 下,要达到 $20.0\\ \\mathrm{kg\\cdot m^{-3}}$ 的储氢密度,所需的压力为多少 bar?"
     },
     {
       "type": "paragraph",
-      "text": "20.0 kg m ^{-3} 对应的 V_{m}=2.016\\times10^{-3}/20.0=1.008\\times10^{-4}(m^{3}\\ mol^{-1})"
+      "text": "$$p = \\frac{RT}{V_{\\mathrm{m}} - b} - \\frac{a}{V_{\\mathrm{m}}^{2}} = \\frac{8.314 \\times 293}{1.008 \\times 10^{-4} - 2.661 \\times 10^{-5}} - \\frac{0.02476}{(1.008 \\times 10^{-4})^{2}}$$"
     },
     {
       "type": "paragraph",
-      "text": "(1 分)"
+      "text": "$$= 3.04 \\times 10^{7}\\ (\\mathrm{Pa}) = 3.04 \\times 10^{2}\\ (\\mathrm{bar})$$"
     },
     {
       "type": "paragraph",
-      "text": "p = \\frac {R T}{V _ {m} - b} - \\frac {a}{V _ {m} ^ {2}} = \\frac {8 . 314 \\times 293}{1 . 008 \\times 10 ^ {- 4} - 2 . 661 \\times 10 ^ {- 5}} - \\frac {0 . 02476}{(1 . 008 \\times 10 ^ {- 4}) ^ {2}}"
+      "text": "6.1.2 293 K 下,要想将储氢密度由 $20.0\\ \\mathrm{kg\\ m^{-3}}$ 提高至 $40.0\\ \\mathrm{kg\\ m^{-3}}$,所需压力( ):"
     },
     {
       "type": "paragraph",
-      "text": "= 3. 04 \\times 10 ^ {7} (\\mathrm{Pa}) = 3. 04 \\times 10 ^ {2} (\\mathrm{bar})"
-    },
-    {
-      "type": "paragraph",
-      "text": "(1 分)"
-    },
-    {
-      "type": "paragraph",
-      "text": "给分原则:"
-    },
-    {
-      "type": "paragraph",
-      "text": "V_{m} 正确 1 分,答案正确 1 分,答案不用 bar 为单位不得分, (3.03 \\sim 3.07) \\times 10^{2} \\text{ bar 结果都算正确。结果保留三位有效数字,中间过程可保留四位有效数字。过程正确,答案有效数字错误,扣 1 分,无代入数据扣 1 分。}"
-    },
-    {
-      "type": "paragraph",
-      "text": "6.1.2 293 K 下,要想将储氢密度由 20.0 \\, kg m^{-3} 提高至 40.0 \\, kg m^{-3} ,所需压力():"
-    },
-    {
-      "type": "paragraph",
-      "text": "(a) 为原来的 2 倍;(b) 低于原来的 2 倍;(c) 高于原来的 2 倍;(d) 无法确定。解答:"
-    },
-    {
-      "type": "paragraph",
-      "text": "c (1 分),"
+      "text": "(a) 为原来的 2 倍;(b) 低于原来的 2 倍;(c) 高于原来的 2 倍;(d) 无法确定。"
     },
     {
       "type": "paragraph",
@@ -78,51 +53,15 @@
     },
     {
       "type": "paragraph",
-      "text": "解答:"
+      "text": "6.2 液相储氢。$\\mathrm{H}_{2}$ 经液化后可在 1~4 bar 的压力下稳定存储,但系统需维持极低温度。已知氢气的三相点为 $(7.041\\ \\mathrm{kPa}, -259.35\\ ^{\\circ}\\mathrm{C})$,临界点为 $(12.86\\ \\mathrm{bar}, -240.21\\ ^{\\circ}\\mathrm{C})$。"
     },
     {
       "type": "paragraph",
-      "text": "储氢密度增加的倍数较压强增加的倍数小, (2 分)"
+      "text": "6.2.1 可能观察到液态氢的温度有: (a) 16 K;(b) 25 K;(c) 77 K;(d) 293 K。"
     },
     {
       "type": "paragraph",
-      "text": "700 Bar 后,增加压强对增加储氢密度的影响不大。从安全和成本的角度,工业上选择 350~700 Bar 的储气罐,不再增加压强。"
-    },
-    {
-      "type": "paragraph",
-      "text": "答出进一步提高压力对储氢密度帮助不大可得 2 分,如果只答出安全和成本/避免氢气泄漏等因素,只得 1 分。其他答案不得分"
-    },
-    {
-      "type": "paragraph",
-      "text": "6.2 液相储氢。 H_{2} 经液化后可在 1\\~4 bar 的压力下稳定存储,但系统需维持极低温度。已知氢气的三相点为 (7.041\\ \\text{kPa}, -259.35\\ ^{\\circ}\\text{C}) ,临界点为 (12.86\\ \\text{bar}, -240.21\\ ^{\\circ}\\text{C}) 。"
-    },
-    {
-      "type": "paragraph",
-      "text": "6.2.1 可能观察到液态氢的温度有: (a) 16 K; (b) 25 K; (c) 77 K; (d) 293 K。"
-    },
-    {
-      "type": "paragraph",
-      "text": "解答:"
-    },
-    {
-      "type": "paragraph",
-      "text": "a,b"
-    },
-    {
-      "type": "paragraph",
-      "text": "给分原则:"
-    },
-    {
-      "type": "paragraph",
-      "text": "每个 1 分;共 2 分。有错误选项就得 0 分。"
-    },
-    {
-      "type": "paragraph",
-      "text": "6.2.2 计算 \\mathrm{H}_{2} 在 27.15\\mathrm{K} 液化所需的压力,并说明计算过程采取了哪些近似。解答:"
-    },
-    {
-      "type": "paragraph",
-      "text": "由 Clausius-Clapeyron 方程: \\ln\\frac{p_{2}}{p_{1}}=-\\frac{\\Delta vapH_{m}}{R}\\left(\\frac{1}{T_{2}}-\\frac{1}{T_{1}}\\right) (1 分)"
+      "text": "6.2.2 计算 $\\mathrm{H}_{2}$ 在 $27.15\\ \\mathrm{K}$ 液化所需的压力,并说明计算过程采取了哪些近似。"
     },
     {
       "type": "paragraph",
@@ -130,109 +69,59 @@
     },
     {
       "type": "paragraph",
-      "text": "\\ln {\\frac {1286}{7 . 041}} = - \\frac {\\Delta_ {v a p} H _ {m}}{8 . 314} \\left(\\frac {1}{273 . 15 - 240 . 21} - \\frac {1}{273 . 15 - 259 . 35}\\right)"
+      "text": "$$\\ln \\frac{1286}{7.041} = -\\frac{\\Delta_{\\mathrm{vap}}H_{m}}{8.314} \\left(\\frac{1}{273.15 - 240.21} - \\frac{1}{273.15 - 259.35}\\right)$$"
     },
     {
       "type": "paragraph",
-      "text": "解得 \\Delta_{vap}H_{m}=1.0283\\times10^{3}\\ (J\\ mol^{-1}) (2分)"
+      "text": "解得 $\\Delta_{\\mathrm{vap}}H_{m}=1.0283\\times10^{3}\\ (\\mathrm{J\\ mol^{-1}})$"
     },
     {
       "type": "paragraph",
-      "text": "以三相点数据计算,假设 p_{3} 时,氢气的沸点为 27.15 K,则有"
+      "text": "以三相点数据计算,假设 $p_{3}$ 时,氢气的沸点为 27.15 K,则有"
     },
     {
       "type": "paragraph",
-      "text": "\\ln \\frac {p _ {3}}{7 . 041} = - \\frac {1 . 028 \\times 10 ^ {3}}{8 . 314} \\left(\\frac {1}{27 . 15} - \\frac {1}{(273 . 15 - 259 . 35)}\\right)"
+      "text": "$$\\ln \\frac{p_{3}}{7.041} = -\\frac{1.028 \\times 10^{3}}{8.314} \\left(\\frac{1}{27.15} - \\frac{1}{(273.15 - 259.35)}\\right)$$"
     },
     {
       "type": "paragraph",
-      "text": "解得 p_{3}=577.5\\ (kPa)=5.775\\ (bar) (1分)"
+      "text": "解得 $p_{3}=577.5\\ (\\mathrm{kPa})=5.775\\ (\\mathrm{bar})$"
     },
     {
       "type": "paragraph",
-      "text": "或者用临界点数据计算, \\ln\\frac{1286\\ kPa}{p_{3}}=-\\frac{\\Delta_{vap}H_{m}}{8.314\\ J\\ K^{-1}\\ mol^{-1}}\\left(\\frac{1}{(273.15-240.21)\\ K}-\\frac{1}{27.15\\ K}\\right)"
+      "text": "或者用临界点数据计算,$\\ln\\frac{1286\\ \\mathrm{kPa}}{p_{3}}=-\\frac{\\Delta_{\\mathrm{vap}}H_{m}}{8.314\\ \\mathrm{J\\ K^{-1}\\ mol^{-1}}}\\left(\\frac{1}{(273.15-240.21)\\ \\mathrm{K}}-\\frac{1}{27.15\\ \\mathrm{K}}\\right)$"
     },
     {
       "type": "paragraph",
-      "text": "p _ {3} = 577. 4 \\mathrm{kPa} = 5. 774 \\mathrm{bar}"
+      "text": "$$p_{3} = 577.4\\ \\mathrm{kPa} = 5.774\\ \\mathrm{bar}$$"
     },
     {
       "type": "paragraph",
-      "text": "近似包括:将氢气视为理想气体(1 分);认为蒸发热与温度无关(1 分)。"
+      "text": "近似包括:将氢气视为理想气体;认为蒸发热与温度无关。"
     },
     {
       "type": "paragraph",
-      "text": "● 本小问共 6 分,其中 Clausius-Clapeyron 方程书写 1 分,气化焓 2 分(代入数值 1 分,结果 1 分),正确压力 1 分,近似 2 分。如果有跳步,结果正确得相应步骤对应得满分,错误则不得分。"
+      "text": "6.2.3 若液氢的状态也可以近似用范德华方程描述,计算液氢密度的上限(单位:$\\mathrm{kg\\ m^{-3}}$)。"
     },
     {
       "type": "paragraph",
-      "text": "● 最终答案 5.76 \\~ 5.78 bar 范围内均给满分"
+      "text": "当 $p$ 无穷大时,$V_{\\mathrm{m}}$ 最小值约等于范德华方程中的 $b$ 值。"
     },
     {
       "type": "paragraph",
-      "text": "\\- 如果回答“近似认为Clausius-Clapeyron方程适用”,近似的2分只给1分。"
+      "text": "因此,密度上限为 $\\rho = \\frac{M}{b} = \\frac{2.016\\times 10^{-3}\\ \\mathrm{kg\\ mol^{-1}}}{2.661\\times 10^{-5}\\ \\mathrm{m^{3}\\ mol^{-1}}} = 75.8\\ \\mathrm{kg\\ m^{-3}}$。"
     },
     {
       "type": "paragraph",
-      "text": "6.2.3 若液氢的状态也可以近似用范德华方程描述,计算液氢密度的上限(单位: \\mathrm{kg}\\ \\mathrm{m}^{-3} )。 解答:"
+      "text": "6.3 有机液态储氢。有机液态储氢载体(LOHCs)具有高安全、易运输的优点。N-乙基咔唑(NEC)及其全氢化产物12H-NEC之间可以可逆转变,是极具应用前景的LOHC体系。"
     },
     {
       "type": "paragraph",
-      "text": "由范德华方程, (p+a/V_{\\mathrm{m}}^{2})(V_{\\mathrm{m}}-b)=RT"
+      "text": "6.3.1 12H-NEC 的式量为 207.36,其密度 $\\rho$ (单位:$\\mathrm{g\\ cm^{-3}}$) 同温度 $T$ (单位:K) 的关系为:$\\rho = 1.1482329 - 0.0007092T$,计算 293.0 K 时 12H-NEC 的储氢密度为多少 $\\mathrm{kg\\ m^{-3}}$?"
     },
     {
       "type": "paragraph",
-      "text": "当 p 无穷大时, V_{m} 最小值约等于范德华方程中的 b 值。(1 分)"
-    },
-    {
-      "type": "paragraph",
-      "text": "因此,密度上限为 \\rho = \\frac{M}{b} = \\frac{2.016\\times 10^{-3}\\mathrm{kg mol^{-1}}}{2.661\\times 10^{-5}\\mathrm{m}^3\\mathrm{mol}^{-1}} = 75.8\\mathrm{kg m^{-3}} 。 (1分)"
-    },
-    {
-      "type": "paragraph",
-      "text": "给分原则:本小问共2分,得出 V_{\\mathrm{m}} 最小值约等于 b 值1分,结果1分,计算储氢密度时无数据代入扣1分。如没有说明 V_{\\mathrm{m}} 最小值约等于 b 值,结果正确得满分,结果错误不得分。"
-    },
-    {
-      "type": "paragraph",
-      "text": "6.3 有机液态储氢。有机液态储氢载体(LOHCs)具有高安全,易运输的优点。N-乙基咔唑(NEC)及其全氢化产物12H-NEC之间可以可逆转变,是极具应用前景的LOHC体系。"
-    },
-    {
-      "type": "paragraph",
-      "text": "6.3.1 12H-NEC 的式量为 207.36,其密度 \\rho (单位:g cm ^{-3} ) 同温度 T (单位:K) 的关系为: \\rho = 1.1482329 - 0.0007092T ,计算 293.0 K 时 12H-NEC 的储氢密度为多少 kg m ^{-3} 方向"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000264-figure-001.jpg",
-      "assetId": "asset-005134",
-      "alt": "原卷示意图：NEC",
-      "label": "NEC",
-      "caption": "NEC",
-      "displayWidth": 100
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000264-figure-002.jpg",
-      "assetId": "asset-005135",
-      "alt": "原卷示意图：12H-NEC",
-      "label": "12H-NEC",
-      "caption": "NEC；12H-NEC",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "NEC 12H-NEC"
-    },
-    {
-      "type": "paragraph",
-      "text": "解答:"
-    },
-    {
-      "type": "paragraph",
-      "text": "293 K 时,12H-NEC 的密度为"
-    },
-    {
-      "type": "paragraph",
-      "text": "\\rho / (\\mathrm{gcm} ^ {- 3}) = 1. 1482 - 0. 0007092 \\times 293. 0 = 0. 9404"
+      "text": "$$\\rho / (\\mathrm{g\\ cm^{-3}}) = 1.1482 - 0.0007092 \\times 293.0 = 0.9404$$"
     },
     {
       "type": "paragraph",
@@ -240,102 +129,27 @@
     },
     {
       "type": "paragraph",
-      "text": "等效贮氢密度=940.4 × \\frac{12\\times1.008}{207.36}=54.86\\ (kg\\ m^{-3})"
+      "text": "等效贮氢密度 $=940.4 \\times \\frac{12\\times1.008}{207.36}=54.86\\ (\\mathrm{kg\\ m^{-3}})$"
     },
     {
       "type": "paragraph",
-      "text": "给分原则:公式和代入数值1分,答案准确1分。"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000264-figure-003.jpg",
-      "assetId": "asset-005136",
-      "alt": "储氢技术与体积密度：第3幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
+      "text": "6.3.2 12H-NEC 脱氢时,会生成 8H-NEC (产物 1) 和 4H-NEC (产物 2) 两种中间产物,分别是 NEC 加上 8 个和 4 个氢原子的化合物。分别画出产物 1 和产物 2 的结构,不要求立体化学。"
     },
     {
       "type": "paragraph",
-      "text": "6.3.2 12H-NEC 脱氢时,会生成 8H-NEC (产物 1) 和 4H-NEC (产物 2) 两种中间产物,分别是 NEC 加上 8 个和 4 个氢原子的化合物。分别画出产物 1 和产物 2 的结构,不要求立体化学。 解答:"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000264-figure-004.jpg",
-      "assetId": "asset-005137",
-      "alt": "储氢技术与体积密度：第4幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
+      "text": "6.3.3 12H-NEC 存在多少种立体异构体(包含对映异构)?"
     },
     {
       "type": "paragraph",
-      "text": "产物1"
+      "text": "6.3.4 已知 12H-NEC 脱氢到 NEC 是较强的吸热反应,画出脱氢温度最低的异构体结构。"
     },
     {
       "type": "paragraph",
-      "text": "(1 分); 产物 2"
+      "text": "6.4 多孔吸附储氢材料。MOF-5 的比表面积高达数千平方米每克,可以通过表面吸附储氢。若氢气在 MOF-5 表面的吸附过程,$\\Delta H_{\\mathrm{ads}} = -5.20\\ \\mathrm{kJ\\ mol^{-1}}$,$\\Delta S_{\\mathrm{ads}} = -80.3\\ \\mathrm{J\\ mol^{-1}\\ K^{-1}}$,均视为与温度无关。表面吸附量 $\\Gamma$ 与 $\\mathrm{H}_{2}$ 压力 $p$ 服从 Langmuir 吸附等温式:$\\Gamma/\\Gamma_{\\infty} = Kp/(1 + Kp)$,其中 $K$ 为表面吸附反应的平衡常数,$\\Gamma_{\\infty}$ 为常数。"
     },
     {
       "type": "paragraph",
-      "text": "给分原则:其他答案不得分"
-    },
-    {
-      "type": "paragraph",
-      "text": "(1 分)"
-    },
-    {
-      "type": "paragraph",
-      "text": "6.3.3 12H-NEC 存在多少种立体异构体(包含对映异构)方向"
-    },
-    {
-      "type": "paragraph",
-      "text": "解答:"
-    },
-    {
-      "type": "paragraph",
-      "text": "10 种 (2 分)"
-    },
-    {
-      "type": "paragraph",
-      "text": "6.3.4 已知 12H-NEC 脱氢到 NEC 是较强的吸热反应,画出脱氢温度最低的异构体结构。解答:"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000264-figure-005.jpg",
-      "assetId": "asset-005138",
-      "alt": "储氢技术与体积密度：第5幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "(2 分)"
-    },
-    {
-      "type": "paragraph",
-      "text": "给分原则:"
-    },
-    {
-      "type": "paragraph",
-      "text": "结构需体现出五元环上四个氢为全顺式,其他答案不得分"
-    },
-    {
-      "type": "paragraph",
-      "text": "6.4 多孔吸附储氢材料。MOF-5 的比表面积高达数千平方米每克,可以通过表面吸附储氢。若氢气在 MOF-5 表面的吸附过程, \\Delta H_{ads} = -5.20 \\, kJ mol^{-1} , \\Delta S_{ads} = -80.3 \\, J mol^{-1} K^{-1} ,均视为同温度无关。表面吸附量 \\Gamma 与 H_{2} 压力 p 服从 Langmuir 吸附等温式: \\Gamma/\\Gamma_{\\infty} = Kp/(1 + Kp) ,其中 K 为表面吸附反应的平衡常数, \\Gamma_{\\infty} 为常数。"
-    },
-    {
-      "type": "paragraph",
-      "text": "6.4.1 MOF-5 的密度为 0.30 \\, g cm^{-3} (包含结构中的孔),77 K,100 bar 下 MOF-5 可以吸附 7.5 wt% 的氢气,计算 77 K 下 MOF-5 通过表面吸附能够达到的最大储氢密度 (\\mathrm{kg}\\cdot\\mathrm{m}^{-3}) 。"
-    },
-    {
-      "type": "paragraph",
-      "text": "解答:"
-    },
-    {
-      "type": "paragraph",
-      "text": "MOF-5 (s) + H2(g) = MOF-5 \\~ H2 (s)"
+      "text": "6.4.1 MOF-5 的密度为 $0.30\\ \\mathrm{g\\ cm^{-3}}$ (包含结构中的孔),77 K、100 bar 下 MOF-5 可以吸附 7.5 wt% 的氢气,计算 77 K 下 MOF-5 通过表面吸附能够达到的最大储氢密度 $(\\mathrm{kg\\cdot m^{-3}})$。"
     },
     {
       "type": "paragraph",
@@ -343,39 +157,23 @@
     },
     {
       "type": "paragraph",
-      "text": "K _ {p} = \\exp \\left(- \\frac {\\varDelta_ {r} G _ {m} ^ {\\emptyset}}{R T}\\right) = \\exp \\left(- \\frac {\\varDelta_ {r} H _ {m} ^ {\\emptyset} - T \\varDelta_ {r} S _ {m} ^ {\\emptyset}}{R T}\\right) = \\exp \\left(- \\frac {- 5200 - 77 \\times (- 80 . 3)}{8 . 314 \\times 77}\\right) = 0. 215\\tag{2 分}"
+      "text": "$$K_{p} = \\exp \\left(-\\frac{\\Delta_{\\mathrm{r}}G_{m}^{\\ominus}}{RT}\\right) = \\exp \\left(-\\frac{\\Delta_{\\mathrm{r}}H_{m}^{\\ominus} - T\\Delta_{\\mathrm{r}}S_{m}^{\\ominus}}{RT}\\right) = \\exp \\left(-\\frac{-5200 - 77 \\times (-80.3)}{8.314 \\times 77}\\right) = 0.215$$"
     },
     {
       "type": "paragraph",
-      "text": "\\frac {\\Gamma}{\\Gamma_ {\\infty}} = \\frac {K _ {p} p}{1 + K _ {p} p}, \\text {即有} \\frac {0 . 075}{\\Gamma_ {\\infty}} = \\frac {0 . 215 p / p ^ {\\emptyset}}{1 + 0 . 215 p / p ^ {\\emptyset}} = \\frac {0 . 215 \\times 100}{1 + 0 . 215 \\times 100}, \\Gamma_ {\\infty} = 7.85\\tag{2 分}"
+      "text": "$$\\frac{\\Gamma}{\\Gamma_{\\infty}} = \\frac{K_{p} p}{1 + K_{p} p}, \\text{即有} \\frac{0.075}{\\Gamma_{\\infty}} = \\frac{0.215 p / p^{\\ominus}}{1 + 0.215 p / p^{\\ominus}} = \\frac{0.215 \\times 100}{1 + 0.215 \\times 100}, \\Gamma_{\\infty} = 7.85$$"
     },
     {
       "type": "paragraph",
-      "text": "储氢密度为 0.30 \\times 10^{3} \\mathrm{~kg} \\mathrm{~m}^{-3} \\times 7.85\\% = 24 (\\mathrm{kg} \\mathrm{~m}^{-3})"
+      "text": "储氢密度为 $0.30 \\times 10^{3}\\ \\mathrm{kg\\ m^{-3}} \\times 7.85\\% = 24\\ (\\mathrm{kg\\ m^{-3}})$"
     },
     {
       "type": "paragraph",
-      "text": "(1 分)"
+      "text": "6.4.2 除表面吸附外,MOF-5 的孔中还可以存储 $\\mathrm{H}_{2}$,MOF-5 的比孔容为 $1.27\\ \\mathrm{cm^{3}\\ g^{-1}}$。向一个 $1.00\\ \\mathrm{L}$ 的储氢罐中装填满 MOF-5 材料后,计算 $77\\ \\mathrm{K}$、$100\\ \\mathrm{bar}$ 下其储氢量为未装填 MOF-5 材料的多少倍?假设 MOF-5 表面吸附 $\\mathrm{H}_{2}$ 后其孔体积不变,孔中的 $\\mathrm{H}_{2}$ 符合范德华方程。在 $77\\ \\mathrm{K}$,$100\\ \\mathrm{bar}$ 下的 $V_{\\mathrm{m}} = 6.853 \\times 10^{-5}\\ \\mathrm{m^{3}\\ mol^{-1}}$。"
     },
     {
       "type": "paragraph",
-      "text": "给分原则:"
-    },
-    {
-      "type": "paragraph",
-      "text": "本小问共 5 分, K_{p} 计算过程中,代入数值 1 分,答案正确 1 分,共 2 分, \\Gamma_{\\infty} 计算过程中,代入数值 1 分,答案正确 1 分,共 2 分,储氢密度数值正确 1 分,一处无数据代入扣 1 分。此处 7.5 \\mathrm{wt}\\% 是吸附氢气和 MOF-5 质量之比,如果计算成 (\\mathrm{MOF} - 5 + \\mathrm{H}_{2}) 的 7.5 \\mathrm{wt}\\% ,按照计算错误处理。如果有跳步,结果正确得相应步骤对应的分数,错误则不得分。"
-    },
-    {
-      "type": "paragraph",
-      "text": "6.4.2 除表面吸附外,MOF-5 的孔中还可以存储 \\mathrm{H}_{2} ,MOF-5 的比孔容为 1.27\\mathrm{cm}^{3}\\mathrm{g}^{-1} 。向一个 1.00\\mathrm{L} 的储氢罐中装填满 MOF-5 材料后,计算 77\\mathrm{K} , 100\\mathrm{bar} 下其储氢量为未装填 MOF-5 材料的多少倍方向假设 MOF-5 表面吸附 \\mathrm{H}_{2} 后其孔体积不变,孔中的 \\mathrm{H}_{2} 符合范德华方程。在 77\\mathrm{K} , 100\\mathrm{bar} 下的 V_{\\mathrm{m}} = 6.853 \\times 10^{-5}\\mathrm{m}^{3}\\mathrm{mol}^{-1} 。"
-    },
-    {
-      "type": "paragraph",
-      "text": "1 L MOF-5 孔的体积为:"
-    },
-    {
-      "type": "paragraph",
-      "text": "V = m _ {\\mathrm{MOF}} \\cdot \\text { pore } \\% = \\rho_ {\\mathrm{MOF}} V \\cdot \\text { pore } \\% = 0. 30 \\times 1000 \\times 1. 27 = 381 (\\mathrm{cm} ^ {3})\\tag{1 分}"
+      "text": "$$V = m_{\\mathrm{MOF}} \\cdot \\mathrm{pore\\%} = \\rho_{\\mathrm{MOF}} V \\cdot \\mathrm{pore\\%} = 0.30 \\times 1000 \\times 1.27 = 381\\ (\\mathrm{cm^{3}})$$"
     },
     {
       "type": "paragraph",
@@ -383,7 +181,7 @@
     },
     {
       "type": "paragraph",
-      "text": "m _ {\\text { pore }} = M _ {r} \\left(\\mathrm{H} _ {2}\\right) \\cdot V / V _ {\\mathrm{m}} = 2. 016 \\times 381 \\times 10 ^ {- 6} / (6. 853 \\times 10 ^ {- 5}) = 11. 21 (\\mathrm{g})\\tag{1 分}"
+      "text": "$$m_{\\mathrm{pore}} = M_{\\mathrm{r}}(\\mathrm{H}_{2}) \\cdot V / V_{\\mathrm{m}} = 2.016 \\times 381 \\times 10^{-6} / (6.853 \\times 10^{-5}) = 11.21\\ (\\mathrm{g})$$"
     },
     {
       "type": "paragraph",
@@ -391,19 +189,11 @@
     },
     {
       "type": "paragraph",
-      "text": "m _ {\\mathrm{abs}} = m _ {\\mathrm{MOF}} \\cdot \\mathrm{H} - \\mathrm{wt} \\% = \\rho_ {\\mathrm{MOF}} V \\cdot \\mathrm{H} - \\mathrm{wt} \\% = 0. 30 \\times 1000 \\times 7. 5 \\% = 22. 5 (\\mathrm{g})"
+      "text": "$$m_{\\mathrm{abs}} = m_{\\mathrm{MOF}} \\cdot \\mathrm{H\\ wt\\%} = \\rho_{\\mathrm{MOF}} V \\cdot \\mathrm{H\\ wt\\%} = 0.30 \\times 1000 \\times 7.5\\% = 22.5\\ (\\mathrm{g})$$"
     },
     {
       "type": "paragraph",
-      "text": "总储氢量 m_{total} = m_{pore} + m_{abs} = 11.21 + 22.5 = 33.7 \\, (g)"
-    },
-    {
-      "type": "paragraph",
-      "text": "(1 分)"
-    },
-    {
-      "type": "paragraph",
-      "text": "得出 MOF “吸附+孔”的储氢总量,1 分"
+      "text": "总储氢量 $m_{\\mathrm{total}} = m_{\\mathrm{pore}} + m_{\\mathrm{abs}} = 11.21 + 22.5 = 33.7\\ (\\mathrm{g})$"
     },
     {
       "type": "paragraph",
@@ -411,543 +201,163 @@
     },
     {
       "type": "paragraph",
-      "text": "m _ {\\mathrm{H}} = M _ {r} \\left(\\mathrm{H} _ {2}\\right) \\cdot n \\left(\\mathrm{H} _ {2}\\right) = M _ {r} \\left(\\mathrm{H} _ {2}\\right) \\cdot V / V _ {m} = 2. 016 \\times 1. 00 \\times 10 ^ {- 3} / (6. 853 \\times 10 ^ {- 5}) = 29. 4 (\\mathrm{g})\\tag{1 分}"
-    },
-    {
-      "type": "paragraph",
-      "text": "得出空罐的储氢总量,1 分"
+      "text": "$$m_{\\mathrm{H}} = M_{\\mathrm{r}}(\\mathrm{H}_{2}) \\cdot n(\\mathrm{H}_{2}) = M_{\\mathrm{r}}(\\mathrm{H}_{2}) \\cdot V / V_{\\mathrm{m}} = 2.016 \\times 1.00 \\times 10^{-3} / (6.853 \\times 10^{-5}) = 29.4\\ (\\mathrm{g})$$"
     },
     {
       "type": "paragraph",
       "text": "因此加入 MOF 导致的储氢量为空罐的 33.7/29.4 = 1.15 倍"
     },
     {
-      "type": "paragraph",
-      "text": "(1 分)"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000264-figure-001.jpg",
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
-      "type": "paragraph",
-      "text": "本小问共 5 分,得出 MOF 的储氢总量 3 分(其中孔体积 1 分,孔中的 H_{2} 量 1 分,MOF-5 储氢总量 1 分),空罐储氢质量 1 分,比例 1 分。一处无数据代入扣 1 分。如果有跳步,结果正确得到相应步骤对应的分数,错误则不得分。"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000264-figure-002.jpg",
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
-      "type": "subpart",
+      "type": "figure",
+      "src": "data/stems/assets/problem-000264-figure-003.jpg",
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000264-figure-004.jpg",
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000264-figure-005.jpg",
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000264-01",
       "label": "6-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
+          "text": "293 K 下,要达到 $20.0\\ \\mathrm{kg\\cdot m^{-3}}$ 的储氢密度,所需的压力为多少 bar?"
         }
-      ],
-      "partId": "part-001378"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000264-02",
       "label": "6-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
+          "text": "293 K 下,要想将储氢密度由 $20.0\\ \\mathrm{kg\\ m^{-3}}$ 提高至 $40.0\\ \\mathrm{kg\\ m^{-3}}$,所需压力( ):(a) 为原来的 2 倍;(b) 低于原来的 2 倍;(c) 高于原来的 2 倍;(d) 无法确定。"
         }
-      ],
-      "partId": "part-001379"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000264-03",
       "label": "6-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
+          "text": "工业上储氢罐的压强很少高于 700 bar,简要分析其原因。"
         }
-      ],
-      "partId": "part-001380"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000264-04",
       "label": "6-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
+          "text": "可能观察到液态氢的温度有: (a) 16 K;(b) 25 K;(c) 77 K;(d) 293 K。"
         }
-      ],
-      "partId": "part-001381"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000264-05",
       "label": "6-5",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
+          "text": "计算 $\\mathrm{H}_{2}$ 在 $27.15\\ \\mathrm{K}$ 液化所需的压力,并说明计算过程采取了哪些近似。"
         }
-      ],
-      "partId": "part-001382"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000264-06",
       "label": "6-6",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
+          "text": "若液氢的状态也可以近似用范德华方程描述,计算液氢密度的上限(单位:$\\mathrm{kg\\ m^{-3}}$)。"
         }
-      ],
-      "partId": "part-001383"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000264-07",
       "label": "6-7",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
+          "text": "12H-NEC 的式量为 207.36,其密度 $\\rho$ (单位:$\\mathrm{g\\ cm^{-3}}$) 同温度 $T$ (单位:K) 的关系为:$\\rho = 1.1482329 - 0.0007092T$,计算 293.0 K 时 12H-NEC 的储氢密度为多少 $\\mathrm{kg\\ m^{-3}}$?"
         }
-      ],
-      "partId": "part-001384"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000264-08",
       "label": "6-8",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
+          "text": "12H-NEC 脱氢时,会生成 8H-NEC (产物 1) 和 4H-NEC (产物 2) 两种中间产物,分别是 NEC 加上 8 个和 4 个氢原子的化合物。分别画出产物 1 和产物 2 的结构,不要求立体化学。"
         }
-      ],
-      "partId": "part-001385"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000264-09",
       "label": "6-9",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
+          "text": "12H-NEC 存在多少种立体异构体(包含对映异构)?"
         }
-      ],
-      "partId": "part-001386"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000264-10",
       "label": "6-10",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
+          "text": "已知 12H-NEC 脱氢到 NEC 是较强的吸热反应,画出脱氢温度最低的异构体结构。"
         }
-      ],
-      "partId": "part-001387"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000264-11",
       "label": "6-11",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
+          "text": "MOF-5 的密度为 $0.30\\ \\mathrm{g\\ cm^{-3}}$ (包含结构中的孔),77 K、100 bar 下 MOF-5 可以吸附 7.5 wt% 的氢气,计算 77 K 下 MOF-5 通过表面吸附能够达到的最大储氢密度 $(\\mathrm{kg\\cdot m^{-3}})$。"
         }
-      ],
-      "partId": "part-001388"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000264-12",
       "label": "6-12",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
+          "text": "除表面吸附外,MOF-5 的孔中还可以存储 $\\mathrm{H}_{2}$,MOF-5 的比孔容为 $1.27\\ \\mathrm{cm^{3}\\ g^{-1}}$。向一个 $1.00\\ \\mathrm{L}$ 的储氢罐中装填满 MOF-5 材料后,计算 $77\\ \\mathrm{K}$、$100\\ \\mathrm{bar}$ 下其储氢量为未装填 MOF-5 材料的多少倍?假设 MOF-5 表面吸附 $\\mathrm{H}_{2}$ 后其孔体积不变,孔中的 $\\mathrm{H}_{2}$ 符合范德华方程。在 $77\\ \\mathrm{K}$,$100\\ \\mathrm{bar}$ 下的 $V_{\\mathrm{m}} = 6.853 \\times 10^{-5}\\ \\mathrm{m^{3}\\ mol^{-1}}$。"
         }
-      ],
-      "partId": "part-001389"
-    },
-    {
-      "type": "subpart",
-      "label": "6-13",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001390"
-    },
-    {
-      "type": "subpart",
-      "label": "6-14",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001391"
-    },
-    {
-      "type": "subpart",
-      "label": "6-15",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001392"
-    },
-    {
-      "type": "subpart",
-      "label": "6-16",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001393"
-    },
-    {
-      "type": "subpart",
-      "label": "6-17",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001394"
-    },
-    {
-      "type": "subpart",
-      "label": "6-18",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001395"
-    },
-    {
-      "type": "subpart",
-      "label": "6-19",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001396"
-    },
-    {
-      "type": "subpart",
-      "label": "6-20",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001397"
-    },
-    {
-      "type": "subpart",
-      "label": "6-21",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001398"
-    },
-    {
-      "type": "subpart",
-      "label": "6-22",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001399"
-    },
-    {
-      "type": "subpart",
-      "label": "6-23",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001400"
-    },
-    {
-      "type": "subpart",
-      "label": "6-24",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001401"
-    },
-    {
-      "type": "subpart",
-      "label": "6-25",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001402"
-    },
-    {
-      "type": "subpart",
-      "label": "6-26",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001403"
-    },
-    {
-      "type": "subpart",
-      "label": "6-27",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001404"
-    },
-    {
-      "type": "subpart",
-      "label": "6-28",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001405"
-    },
-    {
-      "type": "subpart",
-      "label": "6-29",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001406"
-    },
-    {
-      "type": "subpart",
-      "label": "6-30",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001407"
-    },
-    {
-      "type": "subpart",
-      "label": "6-31",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001408"
-    },
-    {
-      "type": "subpart",
-      "label": "6-32",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001409"
-    },
-    {
-      "type": "subpart",
-      "label": "6-33",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001410"
-    },
-    {
-      "type": "subpart",
-      "label": "6-34",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001411"
-    },
-    {
-      "type": "subpart",
-      "label": "6-35",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001412"
-    },
-    {
-      "type": "subpart",
-      "label": "6-1-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001413"
-    },
-    {
-      "type": "subpart",
-      "label": "6-1-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001414"
-    },
-    {
-      "type": "subpart",
-      "label": "6-1-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001415"
-    },
-    {
-      "type": "subpart",
-      "label": "6-2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001416"
-    },
-    {
-      "type": "subpart",
-      "label": "6-2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001417"
-    },
-    {
-      "type": "subpart",
-      "label": "6-2-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001418"
-    },
-    {
-      "type": "subpart",
-      "label": "6-3-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001419"
-    },
-    {
-      "type": "subpart",
-      "label": "6-3-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001420"
-    },
-    {
-      "type": "subpart",
-      "label": "6-3-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001421"
-    },
-    {
-      "type": "subpart",
-      "label": "6-3-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001422"
-    },
-    {
-      "type": "subpart",
-      "label": "6-4-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001423"
-    },
-    {
-      "type": "subpart",
-      "label": "6-4-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001424"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

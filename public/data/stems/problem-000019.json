@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000019",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,50 +8,41 @@
   "examYear": 2016,
   "examStage": "preliminary",
   "source": {
+    "sourceDocumentId": "source-000050",
     "sourceLabel": "2016-30-CChO-chusai.pdf",
-    "pages": [
-      3
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000050"
+    "transcribedAt": "2026-08-08"
   },
-  "blocks": [
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [],
+  "parts": [
     {
-      "type": "paragraph",
-      "text": "第8题"
-    },
-    {
-      "type": "subpart",
+      "id": "part-000019-01",
       "label": "8-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出以下反应过程中化合物A-F的结构简式."
+          "text": "画出以下反应过程中化合物A-F的结构简式。"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000019-figure-001.jpg",
-          "alt": "原卷第8题图1：画出以下反应过程中化合物A-F的结构简式.",
-          "displayWidth": 70,
-          "assetId": "asset-005284"
+          "alt": "化学反应路线与结构式示意图（原图）",
+          "caption": "题目配图"
         }
-      ],
-      "partId": "part-001884"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000019-02",
       "label": "8-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "某同学设计了以下反应,希望能同时保护氨基和羟基."
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000019-figure-002.jpg",
-          "alt": "原卷第8题图2：某同学设计了以下反应,希望能同时保护氨基和羟基.",
-          "displayWidth": 70,
-          "assetId": "asset-005285"
+          "text": "某同学设计了以下反应,希望能同时保护氨基和羟基。"
         },
         {
           "type": "paragraph",
@@ -59,51 +50,51 @@
         },
         {
           "type": "paragraph",
-          "text": "a) 反应在浓盐酸与乙醇(1:3)的混合溶剂中加热进行."
+          "text": "a) 反应在浓盐酸与乙醇(1:3)的混合溶剂中加热进行。"
         },
         {
           "type": "paragraph",
-          "text": "b) 反应在过量三乙胺中加热进行."
+          "text": "b) 反应在过量三乙胺中加热进行。"
         },
         {
           "type": "paragraph",
-          "text": "c) 催化量的三氟化硼作用下,反应在无水乙醚中进行."
+          "text": "c) 催化量的三氟化硼作用下,反应在无水乙醚中进行。"
         },
         {
           "type": "paragraph",
-          "text": "d) 反应在回流的甲苯中进行."
+          "text": "d) 反应在回流的甲苯中进行。"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000019-figure-002.jpg",
+          "alt": "化学反应路线与结构式示意图（原图）",
+          "caption": "题目配图"
         }
-      ],
-      "partId": "part-001885"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000019-03",
       "label": "8-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "理论计算表明,甲酸的和-型两种异构体存在一定的能量差别."
+          "text": "理论计算表明,甲酸的顺式和反式两种异构体存在一定的能量差别。"
+        },
+        {
+          "type": "paragraph",
+          "text": "已知反式异构体的 $K_{\\mathrm{a}} = 3.77$,判断顺式异构体的 $\\mathrm{p}K_{\\mathrm{a}}$:"
+        },
+        {
+          "type": "paragraph",
+          "text": "a) > 3.77; b) < 3.77; c) 无法判断。"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000019-figure-003.jpg",
-          "alt": "原卷第8题图3：理论计算表明,甲酸的和-型两种异构体存在一定的能量差别.",
-          "displayWidth": 70,
-          "assetId": "asset-005286"
-        },
-        {
-          "type": "paragraph",
-          "text": "已知-型异构体的 $) K _ { \\mathrm { a } } = 3.77$ ,判断-型异构体的 $\\mathsf { p } K _ { \\mathsf { a } }$ :"
-        },
-        {
-          "type": "paragraph",
-          "text": "a) > 3.77; b) < 3.77; c) 无法判断."
+          "alt": "化学反应路线与结构式示意图（原图）",
+          "caption": "题目配图"
         }
-      ],
-      "partId": "part-001886"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

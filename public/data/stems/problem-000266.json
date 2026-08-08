@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000266",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,481 +8,350 @@
   "examYear": 2025,
   "examStage": "preliminary",
   "source": {
+    "sourceDocumentId": "source-000063",
     "sourceLabel": "2025-39-CChO-chusai.pdf",
-    "pages": [
-      14,
-      20,
-      21,
-      22
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000063"
+    "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "## 第 8 题 有机化学基本概念 , 8%)"
+      "text": "8.1 氟在元素周期表中有最大的电负性,与 C-H、C-O、C-N、以及 C-Cl 等键相比,C-F 键有最大的键解离能和最大的极性。"
+    },
+    {
+      "type": "paragraph",
+      "text": "8.1.1 比较甲烷和一氟甲烷中的 HCH 键角,以下说法准确的是:"
+    },
+    {
+      "type": "paragraph",
+      "text": "(a) 由于 F 的电负性使 C-F 共价电子偏向 F,C-H 键之间的排斥力减少,使一氟甲烷中 HCH 的键角变大;"
+    },
+    {
+      "type": "paragraph",
+      "text": "(b) 由于 F 的电负性使 C-F 共价电子偏向 F,C-H 键之间的排斥力增加,使一氟甲烷中 HCH 的键角变小;"
+    },
+    {
+      "type": "paragraph",
+      "text": "(c) 尽管 F 的电负性使 C-F 共价电子偏向 F,但 C-H 键之间的排斥没有变化,甲烷和一氟甲烷中的 HCH 键角没有变化。"
+    },
+    {
+      "type": "paragraph",
+      "text": "解答:"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "a;1 分,其他答案不得分"
+    },
+    {
+      "type": "paragraph",
+      "text": "8.1.2 和一氟甲烷相比较,二氟甲烷中 HCH 键角如何变化?"
+    },
+    {
+      "type": "paragraph",
+      "text": "(a) 变大;(b) 变小;(c) 没有变化。"
+    },
+    {
+      "type": "paragraph",
+      "text": "解答:"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "a,1 分,其他答案不得分"
     },
     {
       "type": "figure",
-      "src": "data/stems/assets/problem-000266-figure-011.jpg",
-      "alt": "原卷第8题图11：题干配图，具体相邻文字需人工复核",
-      "displayWidth": 70,
-      "assetId": "asset-005451"
+      "caption": "syn-1",
+      "alt": "syn-1 结构图(缺图)",
+      "src": "data/stems/assets/problem-000266-figure-001.jpg"
     },
     {
       "type": "figure",
-      "src": "data/stems/assets/problem-000266-figure-012.jpg",
-      "alt": "原卷第8题图12：题干配图，具体相邻文字需人工复核",
-      "displayWidth": 70,
-      "assetId": "asset-005452"
+      "caption": "",
+      "alt": "缺图",
+      "src": "data/stems/assets/problem-000266-figure-002.jpg"
     },
     {
       "type": "figure",
-      "src": "data/stems/assets/problem-000266-figure-013.jpg",
-      "alt": "原卷第8题图13：题干配图，具体相邻文字需人工复核",
-      "displayWidth": 70,
-      "assetId": "asset-005453"
+      "caption": "",
+      "alt": "缺图",
+      "src": "data/stems/assets/problem-000266-figure-003.jpg"
     },
     {
       "type": "figure",
-      "src": "data/stems/assets/problem-000266-figure-014.jpg",
-      "alt": "原卷第8题图14：题干配图，具体相邻文字需人工复核",
-      "displayWidth": 70,
-      "assetId": "asset-005454"
+      "caption": "",
+      "alt": "缺图",
+      "src": "data/stems/assets/problem-000266-figure-004.jpg"
+    },
+    {
+      "type": "paragraph",
+      "text": "8.2.1 比较α-氟代酰胺中 anti-1 和 syn-1,以下说法准确的是:"
+    },
+    {
+      "type": "paragraph",
+      "text": "(a) syn-1 构象更稳定;(b) anti-1 构象更稳定;(c) 两者稳定性相同。解答:"
+    },
+    {
+      "type": "paragraph",
+      "text": "b,1 分,其他答案不得分"
+    },
+    {
+      "type": "paragraph",
+      "text": "8.2.2 比较α-氟代酯中 anti-2 和 syn-2,以下说法准确的是:"
+    },
+    {
+      "type": "paragraph",
+      "text": "(a) anti-2 构象更稳定;(b) syn-2 构象更稳定;(c) 两者稳定性相同。解答:"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "a,1 分,其他答案不得分"
+    },
+    {
+      "type": "paragraph",
+      "text": "8.2.3 依据你所学习的有机化学知识,判断 anti-1 与 syn-1 的能量差 $\\Delta E_{1}$ 和 anti-2 与 syn-2 的能量差 $\\Delta E_{2}$ 是否存在差别:(a) $\\Delta E_{1} > \\Delta E_{2}$;(b) $\\Delta E_{1} < \\Delta E_{2}$;(c) $\\Delta E_{1} \\cong \\Delta E_{2}$;(d) 无法判断。\n解答:"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "a,1 分,其他答案不得分"
+    },
+    {
+      "type": "paragraph",
+      "text": "8.2.4 题 8.2.3 判断的主要依据是 \\_\\_\\_\\_。"
+    },
+    {
+      "type": "paragraph",
+      "text": "解答:"
+    },
+    {
+      "type": "paragraph",
+      "text": "酰胺的 C=O 偶极矩比酯中 C=O 偶极矩大,1 分,答氢键也给 1 分;其他答案不得分"
+    },
+    {
+      "type": "paragraph",
+      "text": "8.3 比较 gauche-3 和 staggered-3 两个构象,哪一个构象更稳定?给出你判断的理由。"
     },
     {
       "type": "figure",
-      "src": "data/stems/assets/problem-000266-figure-015.jpg",
-      "alt": "原卷第8题图15：题干配图，具体相邻文字需人工复核",
-      "displayWidth": 70,
-      "assetId": "asset-005455"
+      "caption": "gauche-3",
+      "alt": "gauche-3 结构图(缺图)",
+      "src": "data/stems/assets/problem-000266-figure-005.jpg"
     },
     {
       "type": "figure",
-      "src": "data/stems/assets/problem-000266-figure-016.jpg",
-      "alt": "原卷第8题图16：题干配图，具体相邻文字需人工复核",
-      "displayWidth": 70,
-      "assetId": "asset-005456"
+      "caption": "staggered-3",
+      "alt": "staggered-3 结构图(缺图)",
+      "src": "data/stems/assets/problem-000266-figure-006.jpg"
     },
     {
-      "type": "subpart",
-      "label": "8.1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "氟在元素周期表中有最大的电负性,与 C-H,C-O,C-N,以及 C-Cl 等键相比,C-F 键有最大的键解离能和最大的极性."
-        },
-        {
-          "type": "paragraph",
-          "text": "8."
-        }
-      ],
-      "partId": "part-002311"
+      "type": "paragraph",
+      "text": "(a) gauche-3;(b) straggered-3;(c) 一样稳定;(d) 无法判断。"
     },
     {
-      "type": "subpart",
-      "label": "1.1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "比较甲烷和一氟甲烷中的 HCH 键角,以下说法准确的是:"
-        },
-        {
-          "type": "paragraph",
-          "text": "(a) 由于 F 的电负性使 C-F 共价电子偏向 F,C-H 键之间的排斥力减少,使一氟甲烷中 HCH 的键角变大;"
-        },
-        {
-          "type": "paragraph",
-          "text": "(b) 由于 F 的电负性使 C-F 共价电子偏向 F,C-H 键之间的排斥力增加,使一氟甲烷中 HCH 的键角变小;"
-        },
-        {
-          "type": "paragraph",
-          "text": "(c) 尽管 F 的电负性使 C-F 共价电子偏向 F,但 C-H 键之间的排斥没有变化,甲烷和一氟甲烷中的 HCH 键角没有变化."
-        }
-      ],
-      "partId": "part-002312"
+      "type": "heading",
+      "level": 3,
+      "text": "2025 年 9 月 11 日评分材料"
     },
     {
-      "type": "subpart",
-      "label": "1.2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "和一氟甲烷相比较,二氟甲烷中 HCH 键角如何变化"
-        },
-        {
-          "type": "paragraph",
-          "text": "(a) 变大;(b) 变小;(c) 没有变化."
-        }
-      ],
-      "partId": "part-002313"
+      "type": "paragraph",
+      "text": "8.3.1 稳定的构象是\\_\\_\\_\\_;8.3.2 理由是\\_\\_\\_\\_。"
     },
     {
-      "type": "subpart",
-      "label": "2.1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "比较α-氟代酰胺中 anti-1 和 syn-1,以下说法准确的是:"
-        }
-      ],
-      "partId": "part-002314"
+      "type": "paragraph",
+      "text": "解答:"
     },
     {
-      "type": "subpart",
-      "label": "2.2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "比较α-氟代酯中 anti-2 和 syn-2,以下说法准确的是:"
-        }
-      ],
-      "partId": "part-002315"
+      "type": "paragraph",
+      "text": "a,1 分,其他答案不得分;氢键,或弱静电相互作用,或超共轭效应,均可。1 分,共 2 分"
     },
     {
-      "type": "subpart",
-      "label": "2.3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "依据你所学习的有机化学知识,判断 anti-1 与 syn-1 的能量差 $\\Delta E_{1}$ 和 anti-2 与 syn-2 的能量差 $\\Delta E_{2}$ 是否存在差别:(a) $\\Delta E_{1} > \\Delta E_{2}$ ; (b) $\\Delta E_{1} < \\Delta E_{2}$ ; (c) $\\Delta E_{1} \\cong \\Delta E_{2}$ ; (d) 无法判断."
-        },
-        {
-          "type": "paragraph",
-          "text": "判断的主要依据是 \\_\\_\\_\\_."
-        }
-      ],
-      "partId": "part-002316"
+      "type": "paragraph",
+      "text": "8.4 以下四个构象中,哪一个最稳定?哪一个最不稳定?"
     },
     {
-      "type": "subpart",
-      "label": "2.4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "题"
-        },
-        {
-          "type": "paragraph",
-          "text": "8."
-        }
-      ],
-      "partId": "part-002317"
+      "type": "figure",
+      "caption": "A",
+      "alt": "构象 A(缺图)",
+      "src": "data/stems/assets/problem-000266-figure-007.jpg"
     },
     {
-      "type": "subpart",
-      "label": "8.3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "比较 gauche-3 和 staggered-3 两个构象,哪一个构象更稳定给出你判断的理由."
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000266-figure-001.jpg",
-          "alt": "原卷第8题图1：比较 gauche-3 和 staggered-3 两个构象,哪一个构象更稳定给出你判断的理由.",
-          "displayWidth": 70,
-          "assetId": "asset-005457"
-        },
-        {
-          "type": "paragraph",
-          "text": "gauche-3"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000266-figure-002.jpg",
-          "alt": "原卷第8题图2：gauche-3",
-          "displayWidth": 70,
-          "assetId": "asset-005458"
-        },
-        {
-          "type": "paragraph",
-          "text": "staggered-3"
-        },
-        {
-          "type": "paragraph",
-          "text": "(a) gauche-3; (b) straggered-3; (c) 一样稳定; (d) 无法判断."
-        }
-      ],
-      "partId": "part-002318"
+      "type": "figure",
+      "caption": "B",
+      "alt": "构象 B(缺图)",
+      "src": "data/stems/assets/problem-000266-figure-008.jpg"
     },
     {
-      "type": "subpart",
-      "label": "3.1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "稳定的构象是\\_\\_\\_\\_;"
-        },
-        {
-          "type": "paragraph",
-          "text": "8."
-        }
-      ],
-      "partId": "part-002319"
+      "type": "figure",
+      "caption": "C",
+      "alt": "构象 C(缺图)",
+      "src": "data/stems/assets/problem-000266-figure-009.jpg"
     },
     {
-      "type": "subpart",
-      "label": "3.2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "理由是\\_\\_\\_\\_."
-        }
-      ],
-      "partId": "part-002320"
+      "type": "figure",
+      "caption": "D",
+      "alt": "构象 D(缺图)",
+      "src": "data/stems/assets/problem-000266-figure-010.jpg"
     },
     {
-      "type": "subpart",
-      "label": "8.4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "以下四个构象中,哪一个最稳定哪一个最不稳定"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000266-figure-003.jpg",
-          "alt": "原卷第8题图3：以下四个构象中,哪一个最稳定哪一个最不稳定",
-          "displayWidth": 70,
-          "assetId": "asset-005459"
-        },
-        {
-          "type": "paragraph",
-          "text": "A"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000266-figure-004.jpg",
-          "alt": "原卷第8题图4：A",
-          "displayWidth": 70,
-          "assetId": "asset-005460"
-        },
-        {
-          "type": "paragraph",
-          "text": "B"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000266-figure-005.jpg",
-          "alt": "原卷第8题图5：B",
-          "displayWidth": 70,
-          "assetId": "asset-005461"
-        },
-        {
-          "type": "paragraph",
-          "text": "C"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000266-figure-006.jpg",
-          "alt": "原卷第8题图6：C",
-          "displayWidth": 70,
-          "assetId": "asset-005462"
-        },
-        {
-          "type": "paragraph",
-          "text": "D"
-        },
-        {
-          "type": "paragraph",
-          "text": "8."
-        }
-      ],
-      "partId": "part-002321"
+      "type": "paragraph",
+      "text": "8.4.1 最稳定的是\\_\\_\\_\\_。8.4.2 最不稳定的是\\_\\_\\_\\_。"
     },
     {
-      "type": "subpart",
-      "label": "4.1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "最稳定的是\\_\\_\\_\\_."
-        },
-        {
-          "type": "paragraph",
-          "text": "8."
-        }
-      ],
-      "partId": "part-002322"
+      "type": "paragraph",
+      "text": "解答:"
     },
     {
-      "type": "subpart",
-      "label": "4.2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "最不稳定的是\\_\\_\\_\\_."
-        }
-      ],
-      "partId": "part-002323"
+      "type": "paragraph",
+      "text": "最稳定:A;1 分;最不稳定:D;1 分,共 2 分。"
     },
     {
-      "type": "subpart",
-      "label": "8.5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "以下四个化合物中,红外中羰基伸缩振动波数最大的是哪一个最小的是哪一个"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000266-figure-007.jpg",
-          "alt": "原卷第8题图7：以下四个化合物中,红外中羰基伸缩振动波数最大的是哪一个最小的是哪一个",
-          "displayWidth": 70,
-          "assetId": "asset-005463"
-        },
-        {
-          "type": "paragraph",
-          "text": "8."
-        }
-      ],
-      "partId": "part-002324"
+      "type": "paragraph",
+      "text": "8.5 以下四个化合物中,红外中羰基伸缩振动波数最大的是哪一个?最小的是哪一个?"
     },
     {
-      "type": "subpart",
-      "label": "5.1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "最大的是\\_\\_\\_\\_;"
-        },
-        {
-          "type": "paragraph",
-          "text": "8."
-        }
-      ],
-      "partId": "part-002325"
+      "type": "figure",
+      "caption": "",
+      "alt": "四个化合物结构图(缺图)",
+      "src": "data/stems/assets/problem-000266-figure-011.jpg"
     },
     {
-      "type": "subpart",
-      "label": "5.2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "最小的是\\_\\_\\_\\_."
-        }
-      ],
-      "partId": "part-002326"
+      "type": "paragraph",
+      "text": "8.5.1 最大的是\\_\\_\\_\\_;8.5.2 最小的是\\_\\_\\_\\_。"
     },
     {
-      "type": "subpart",
-      "label": "8.6",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "羰基化合物既可以作为电子受体接受碳亲核试剂的进攻,也可以作为电子给体进攻缺电子性的碳,是有机合成中构筑 C-C 键的重要原料."
-        },
-        {
-          "type": "paragraph",
-          "text": "8."
-        }
-      ],
-      "partId": "part-002327"
+      "type": "paragraph",
+      "text": "解答:"
     },
     {
-      "type": "subpart",
-      "label": "6.1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "在较强酸性的溶液中,与含有 $\\alpha$ -H 的羰基化合物共存的物种主要有哪些"
-        },
-        {
-          "type": "paragraph",
-          "text": "(a) 质子化羰基化合物;(b) 碳正离子;(c) 烯醇负离子;(d) 烯醇."
-        }
-      ],
-      "partId": "part-002328"
+      "type": "paragraph",
+      "text": "最大:B;1 分;最小:A;1 分,共 2 分"
     },
     {
-      "type": "subpart",
-      "label": "6.2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "比较(a) 乙酰乙酸乙酯,(b) 2,4-戊二酮和(c) 丙二酸乙酯,哪一个化合物在水溶液中的烯醇比例最大解答:"
-        },
-        {
-          "type": "paragraph",
-          "text": "b; 2,4-戊二酮最大,"
-        },
-        {
-          "type": "paragraph",
-          "text": "8."
-        }
-      ],
-      "partId": "part-002329"
+      "type": "paragraph",
+      "text": "8.6 羰基化合物既可以作为电子受体接受碳亲核试剂的进攻,也可以作为电子给体进攻缺电子性的碳,是有机合成中构筑 C-C 键的重要原料。"
     },
     {
-      "type": "subpart",
-      "label": "6.3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "富电子性物种既是碱又是亲核试剂,它可以使羰基化合物转化为烯醇负离子或生成羰基的亲核加成产物.下列说法正确的有:"
-        },
-        {
-          "type": "paragraph",
-          "text": "(a)与溶剂THF相比,羰基化合物在溶剂HMPA中更易形成烯醇负离子;(b)与 $n\\text{-Bu}_4\\mathrm{N}^+$ 相比,羰基化合物在 $\\mathrm{Li^{+}}$ 参与下更易得到亲核加成产物;(c)与MeLi相比,羰基化合物与 $t\\text{-BuLi}$ 反应更易形成烯醇负离子;"
-        },
-        {
-          "type": "paragraph",
-          "text": "(d) 与 $\\mathrm{RO}^{-}$ 相比, 羰基化合物与 $\\mathrm{RS}^{-}$ 反应更易得到亲核加成产物; (e) 酮比醛更易形成烯醇负离子; (f) $\\alpha$ -H 的酸性越小, 越易得到亲核加成产物."
-        }
-      ],
-      "partId": "part-002330"
+      "type": "paragraph",
+      "text": "8.6.1 在较强酸性的溶液中,与含有 $\\alpha$-H 的羰基化合物共存的物种主要有哪些?"
     },
     {
-      "type": "subpart",
-      "label": "3-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "个 ,选 3 个以下不得分;答案 e 可选可不选"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000266-figure-008.jpg",
-          "alt": "原卷第8题图8：个 ,选 3 个以下不得分;答案 e 可选可不选",
-          "displayWidth": 70,
-          "assetId": "asset-005464"
-        },
-        {
-          "type": "paragraph",
-          "text": "8."
-        }
-      ],
-      "partId": "part-002331"
+      "type": "paragraph",
+      "text": "(a) 质子化羰基化合物;(b) 碳正离子;(c) 烯醇负离子;(d) 烯醇。"
     },
     {
-      "type": "subpart",
-      "label": "6.4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "下面两个示意图是 2-甲基环己酮分别在两种碱(LDA 和 NaOH)的作用下形成两种烯醇负离子(X 和 Y)的反应进程图(A 图和 B 图),画出 X 和 Y 的结构式;并确定 A 图和 B 图分别对应的碱是哪一个"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000266-figure-009.jpg",
-          "alt": "原卷第8题图9：下面两个示意图是 2-甲基环己酮分别在两种碱(LDA 和 NaOH)的作用下形成两种烯醇负离子(X 和 Y)的反应进程图(A 图和 B 图)",
-          "displayWidth": 70,
-          "assetId": "asset-005465"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000266-figure-010.jpg",
-          "alt": "原卷第8题图10（结构或数据示意）",
-          "displayWidth": 70,
-          "assetId": "asset-005466"
-        }
-      ],
-      "partId": "part-002332"
+      "type": "paragraph",
+      "text": "解答:"
+    },
+    {
+      "type": "paragraph",
+      "text": "a, b, d;或 a, d;得 3 分;每个 1 分。共 3 分;"
+    },
+    {
+      "type": "paragraph",
+      "text": "酸性条件下有质子化羰基、碳正离子、烯醇;"
+    },
+    {
+      "type": "paragraph",
+      "text": "给分原则:"
+    },
+    {
+      "type": "paragraph",
+      "text": "如有错误选择,得 0 分"
+    },
+    {
+      "type": "paragraph",
+      "text": "8.6.2 比较(a) 乙酰乙酸乙酯、(b) 2,4-戊二酮和(c) 丙二酸乙酯,哪一个化合物在水溶液中的烯醇比例最大?解答:"
+    },
+    {
+      "type": "paragraph",
+      "text": "b;2,4-戊二酮最大,2 分"
+    },
+    {
+      "type": "paragraph",
+      "text": "8.6.3 富电子性物种既是碱又是亲核试剂,它可以使羰基化合物转化为烯醇负离子或生成羰基的亲核加成产物。下列说法正确的有:"
+    },
+    {
+      "type": "paragraph",
+      "text": "(a) 与溶剂 THF 相比,羰基化合物在溶剂 HMPA 中更易形成烯醇负离子;(b) 与 $n\\text{-Bu}_4\\mathrm{N}^+$ 相比,羰基化合物在 $\\mathrm{Li}^{+}$ 参与下更易得到亲核加成产物;(c) 与 MeLi 相比,羰基化合物与 $t\\text{-BuLi}$ 反应更易形成烯醇负离子;"
+    },
+    {
+      "type": "paragraph",
+      "text": "(d) 与 $\\mathrm{RO}^{-}$ 相比,羰基化合物与 $\\mathrm{RS}^{-}$ 反应更易得到亲核加成产物;(e) 酮比醛更易形成烯醇负离子;(f) $\\alpha$-H 的酸性越小,越易得到亲核加成产物。"
+    },
+    {
+      "type": "paragraph",
+      "text": "解答:"
+    },
+    {
+      "type": "paragraph",
+      "text": "a, b, c, d, e, f;或 a, b, c, d, f;得 2 分。"
+    },
+    {
+      "type": "paragraph",
+      "text": "给分原则:"
+    },
+    {
+      "type": "paragraph",
+      "text": "对 3-4 个 1 分,选 3 个以下不得分;答案 e 可选可不选"
+    },
+    {
+      "type": "figure",
+      "caption": "",
+      "alt": "反应示意图(缺图)",
+      "src": "data/stems/assets/problem-000266-figure-012.jpg"
+    },
+    {
+      "type": "paragraph",
+      "text": "8.6.4 下面两个示意图是 2-甲基环己酮分别在两种碱(LDA 和 NaOH)的作用下形成两种烯醇负离子(X 和 Y)的反应进程图(A 图和 B 图),画出 X 和 Y 的结构式;并确定 A 图和 B 图分别对应的碱是哪一个?"
+    },
+    {
+      "type": "figure",
+      "caption": "A 图",
+      "alt": "反应进程图 A(缺图)",
+      "src": "data/stems/assets/problem-000266-figure-013.jpg"
+    },
+    {
+      "type": "figure",
+      "caption": "B 图",
+      "alt": "反应进程图 B(缺图)",
+      "src": "data/stems/assets/problem-000266-figure-014.jpg"
+    },
+    {
+      "type": "paragraph",
+      "text": "解答:"
+    },
+    {
+      "type": "figure",
+      "caption": "",
+      "alt": "答案结构图(缺图)",
+      "src": "data/stems/assets/problem-000266-figure-015.jpg"
+    },
+    {
+      "type": "paragraph",
+      "text": "X:√;Y:√ 每个 1 分,共 2 分。"
+    },
+    {
+      "type": "paragraph",
+      "text": "A 图:LDA;B 图:NaOH;每个 1 分,共 2 分。"
+    },
+    {
+      "type": "figure",
+      "caption": "",
+      "alt": "缺图",
+      "src": "data/stems/assets/problem-000266-figure-016.jpg"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2025 年 9 月 11 日评分材料"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

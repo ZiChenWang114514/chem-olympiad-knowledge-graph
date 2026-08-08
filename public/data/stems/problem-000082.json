@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000082",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,12 +10,13 @@
   "source": {
     "sourceDocumentId": "source-000014",
     "sourceLabel": "2019-33-CChO-juesai.pdf",
-    "pages": [
-      3,
-      4
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
@@ -24,63 +25,56 @@
     },
     {
       "type": "figure",
-      "src": "data/stems/assets/problem-000082-figure-001.jpg",
-      "alt": "图6-1-a 银硫簇结构示意图(原卷配图)",
-      "displayWidth": 80,
       "caption": "图6-1-a 银硫簇结构示意图",
-      "assetId": "asset-004660"
+      "alt": "图6-1-a 银硫簇结构示意图(缺图)",
+      "src": "data/stems/assets/problem-000082-figure-001.jpg"
     },
     {
       "type": "figure",
-      "src": "data/stems/assets/problem-000082-figure-002.jpg",
-      "alt": "图6-1-b TPPE配体结构示意图(原卷配图)",
-      "displayWidth": 80,
       "caption": "图6-1-b TPPE配体结构示意图",
-      "assetId": "asset-004661"
+      "alt": "图6-1-b TPPE配体结构示意图(缺图)",
+      "src": "data/stems/assets/problem-000082-figure-002.jpg"
     },
     {
       "type": "figure",
-      "src": "data/stems/assets/problem-000082-figure-003.jpg",
-      "alt": "图6-1-c ZZU晶体框架结构示意图(原卷配图)",
-      "displayWidth": 80,
       "caption": "图6-1-c ZZU晶体框架结构示意图",
-      "assetId": "asset-004662"
-    },
+      "alt": "图6-1-c ZZU晶体框架结构示意图(缺图)",
+      "src": "data/stems/assets/problem-000082-figure-003.jpg"
+    }
+  ],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000082-01",
       "label": "6-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "计算 $\\mathrm{Ag_{12}S_6}$ 中 $\\mathrm{Ag-Ag}$ 键的个数。"
         }
-      ],
-      "partId": "part-000161"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000082-02",
       "label": "6-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "计算 $\\mathrm{Ag_{12}S_6}$ 中三角形面的个数。"
         }
-      ],
-      "partId": "part-000162"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000082-03",
       "label": "6-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "$\\mathrm{Ag_{12}S_6}$ 的硫原子来自于叔丁巯基,银为正一价。在 $\\mathrm{Ag_{12}S_6}$ 上还连接有若干个 $\\mathrm{CF_3COO^-}$,计算 $\\mathrm{CF_3COO^-}$ 的个数。"
         }
-      ],
-      "partId": "part-000163"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000082-04",
       "label": "6-4",
       "blocks": [
         {
@@ -93,17 +87,11 @@
         },
         {
           "type": "figure",
-          "src": "data/stems/assets/problem-000082-figure-004.jpg",
-          "alt": "图6-2 ZZU沿晶轴方向的投影图(原卷配图)",
-          "displayWidth": 80,
           "caption": "图6-2 ZZU沿晶轴方向的投影图",
-          "assetId": "asset-004663"
+          "alt": "图6-2 ZZU沿晶轴方向的投影图(缺图)",
+          "src": "data/stems/assets/problem-000082-figure-004.jpg"
         }
-      ],
-      "partId": "part-000164"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

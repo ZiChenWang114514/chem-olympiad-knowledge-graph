@@ -1,138 +1,176 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000185",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "卤化氢前体有机反应",
-  "number": "Q7",
+  "number": "7",
   "examYear": 2022,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000021",
     "sourceLabel": "2022-36-CChO-juesai-1.pdf",
-    "pages": [
-      5,
-      6
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
-      "type": "subpart",
-      "label": "7-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "近来研究发现,化合物B可以作为HI的前体与苯乙炔A反应,如下图所示:"
-        }
-      ],
-      "partId": "part-001194"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000185-figure-001.jpg",
-      "assetId": "asset-005071",
-      "alt": "卤化氢前体有机反应：第1幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "subpart",
-      "label": "7-1-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "上述反应经中间体C,D和E生成F的同时,除了生成挥发性的有机物外,还生成一种常温下为气体的有机物。画出中间体C,D和E的结构式。"
-        }
-      ],
-      "partId": "part-001195"
-    },
-    {
-      "type": "subpart",
-      "label": "7-1-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "实验结果表明,化合物 B 在 G 的作用下主要生成产物 H(⻅下图),画出 H 的结构式。"
-        }
-      ],
-      "partId": "part-001196"
+      "type": "paragraph",
+      "text": "一氧化氮是众所周知的明星分子,不仅在生命体中扮演重要角色,在小分子的活化中也起着非常重要的作用。相关过程多涉及NO与金属的配位作用。作为配体,随结合的中心原子得失电子的能力不同,NO可采用阳离子(NO+)、中性分子(NO)和阴离子(NO−)的配位模式。"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000185-figure-002.jpg",
-      "assetId": "asset-005072",
-      "alt": "卤化氢前体有机反应：第2幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 2"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000185-01",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在金属和NO形成的配合物(M-NO)中,有时候很难区分电子在中心金属M和NO配体上的分配状况,基于此,通常采用Feltham-Enemark记号来综合表示。该表示方法为: $\\{\\mathrm{M(NO)}_{x}\\}^{y}$,其中$x$为NO配体的数目,$y$为中心金属M的d电子数和所有NO配体的反键轨道π*中的电子数之和,其他配体均不出现在记号中,也无需标出配合物的电荷。下图给出了两个M-NO配合物(a和b)及其对应的Feltham-Enemark(F-E)记号。",
+          "figure": {
+            "caption": "两个M-NO配合物(a和b)及其对应的Feltham-Enemark记号",
+            "alt": "两个M-NO配合物的结构图",
+            "src": ""
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "7-1-1 写出NO的分子轨道表达式(只考虑价层电子)。写出NO+、NO和NO−的键级。\n7-1-2 写出(c)和(d)中配合物的 Feltham-Enemark 记号形式。"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000185-figure-001.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 1"
+        }
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000185-02",
       "label": "7-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "化合物trans-J可以作为HCl的前体化合物与炔烃I进行反应,生成产物K,同时trans-J转变为L,反应式⻅下图。"
+          "text": "M-NO类型的配合物可以发生氧化还原反应。2019年,研究者用一种三脚氮杂卡宾配体(用TIMENMes表示)和 $\\mathrm{Fe^{2+}}$ 形成配合物A(见下图),A在乙腈 $\\mathrm{(CH_3CN)}$ 溶液中与 $\\mathrm{NOBF_4}$ 反应,得到一种含有NO的六配位的配合物离子B,B中配体也包括乙腈分子。在B的乙腈溶液中,加入足量Zn粉,搅拌过夜,得到配合物C,C中不含溶剂分子。磁性测量表明,B显抗磁性,C的磁矩为3.84 $\\mu_{\\mathrm{B}}$",
+          "figure": {
+            "caption": "配合物A的结构图",
+            "alt": "配合物A的结构图",
+            "src": ""
+          }
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000185-figure-003.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 3"
         }
-      ],
-      "partId": "part-001197"
+      ]
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000185-figure-003.jpg",
-      "assetId": "asset-005073",
-      "alt": "卤化氢前体有机反应：第3幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "subpart",
+      "id": "part-000185-03",
       "label": "7-2-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出L的结构式。"
+          "text": "写出B的化学式。"
         }
-      ],
-      "partId": "part-001198"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000185-04",
       "label": "7-2-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "与方向方向方向方向方向-J相比,当化合物方向方向方向-J与炔烃I反应时,反应速率明显变慢,同时产物K的收率降低至51%,如下图(eq. 1)所示,试解释其原因。"
+          "text": "画出B中金属离子在配位场(假设为正八面体)作用下的d轨道电子排布。"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000185-figure-004.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 4"
         }
-      ],
-      "partId": "part-001199"
+      ]
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000185-figure-004.jpg",
-      "assetId": "asset-005074",
-      "alt": "卤化氢前体有机反应：第4幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "subpart",
+      "id": "part-000185-05",
       "label": "7-2-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在相同反应条件下,用化合物M(cis-M和trans-M)代替J(cis-J和trans-J),实验结果表明,M不与I反应,如上图(eq. 2)所示,试解释其原因。"
+          "text": "写出 C 中阳离子的化学式及相应的 Feltham-Enemark 记号。"
         }
-      ],
-      "partId": "part-001200"
+      ]
+    },
+    {
+      "id": "part-000185-06",
+      "label": "7-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "最近,研究者报道了一个非血红素铁氧配合物P,P与NO反应得到配合物Q,Q在无水无氧条件下稳定,其中, $\\mathrm{Fe-N-O}$ 的键角为144.5°,且N—O键的键能比预期的小。",
+          "figure": {
+            "caption": "配合物P和Q的结构图",
+            "alt": "配合物P和Q的结构图",
+            "src": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-000185-07",
+      "label": "7-3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "实验中所用干燥NO气体是在固体 $\\mathrm{NaNO_2}$ 和 $\\mathrm{FeSO_4}$ 混合物中加入浓硫酸制备的。写出反应方程式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000185-08",
+      "label": "7-3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "分别写出配合物P和Q中铁的氧化数,指出Q中与铁离子配位的NO采用的是哪种形式配位。"
+        }
+      ]
+    },
+    {
+      "id": "part-000185-09",
+      "label": "7-3-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Q在干燥的THF溶液中可存在一定时间。但若THF中含水,Q与之接触则立即释放出 $\\mathrm{NO}$。写出反应方程式——式中反应物不必写Q,只需给出Q中与 $\\mathrm{N_2O}$ 放出对应的物种。"
+        }
+      ]
+    },
+    {
+      "id": "part-000185-10",
+      "label": "7-3-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "配合物 P 与 $\\mathrm{O_2}$ 于 $-80~^{\\circ}\\mathrm{C}$ 反应得双核配合物R,将R的溶液加热至 $23~^{\\circ}\\mathrm{C}$ 得O原子桥联的双核铁配合物S。若在 $-196~^{\\circ}\\mathrm{C}$ 下将R的冷冻溶液光照,得到一单核铁配合物T,T能夺取三叔丁基苯酚上的羟基氢。写出配合物R、S和T的结构简式并给出标明中心离子的氧化态。(含N和含O螯合配体分别用 $\\mathrm{L_1}$ 和 $\\mathrm{L_2}$ 表示)"
+        },
+        {
+          "type": "paragraph",
+          "text": "有机题目中可能用到的缩写:AIBN:偶氮二异丁腈;Ar:芳基;Bu:正丁基;<Bu:叔丁基;cod:环辛二烯;DCM:二氯甲烷;dr:非对映异构体比例;Et:乙基;Ph:苯基;Ms:甲磺酰基;Me:甲基。"
+        }
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

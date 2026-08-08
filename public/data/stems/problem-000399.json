@@ -1,81 +1,35 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000399",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "有机药物合成",
-  "number": "Q9",
+  "number": "9",
   "examYear": 2012,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000046",
     "sourceLabel": "2012-26-CChO-chusai.pdf",
-    "pages": [
-      3
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第 9 题(12 分)Knoevenagel 反应是一类有用的缩合反应。如下图所示,丙二酸二乙酯与苯甲醛在六氢吡啶催化下生成2-苯亚甲基丙二酸二乙酯。"
+      "text": "第 9 题（12 分）Knoevenagel 反应是一类有用的缩合反应。如下图所示，丙二酸二⼄酯与苯甲醛在六氢吡啶催化下生成2-苯亚甲基丙二酸二⼄酯。"
+    },
+    {
+      "type": "paragraph",
+      "text": "9-1 指出该反应中的亲核试剂。 9-2 简述催化剂六氢吡啶在反应中的具体作用。 9-3 化合物A是合成抗痉挛药物D(gabapentin)的前体。根据上述反应式，写出合成A的2个起始原料的结构简式。\\begin{array}{c} \\mathrm{COOCH_2CH_3} \\\\ \\mathrm{COOCH_2CH_3} \\end{array}9-4 画出由A制备D过程中中间体B、C和产物D的结构简式。$$\\mathrm{A} \\xrightarrow [ \\mathrm{H} _ {2} \\mathrm{O} ]{\\mathrm{NaCN}} \\mathrm{B} \\xrightarrow [ \\Delta ]{\\mathrm{H} _ {2} , \\text {cat.}} \\mathrm{C} \\xrightarrow [ \\Delta ]{\\mathrm{NaOH} , \\mathrm{H} _ {2} \\mathrm{O}} \\mathrm{D}$$"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000399-figure-001.jpg",
-      "assetId": "asset-005256",
-      "alt": "有机药物合成：第1幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "subpart",
-      "label": "9-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "指出该反应中的亲核试剂。"
-        }
-      ],
-      "partId": "part-001774"
-    },
-    {
-      "type": "subpart",
-      "label": "9-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "简述催化剂六氢吡啶在反应中的具体作用。"
-        }
-      ],
-      "partId": "part-001775"
-    },
-    {
-      "type": "subpart",
-      "label": "9-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "化合物A是合成抗痉挛药物D(gabapentin)的前体。根据上述反应式,写出合成A的2个起始原料的结构简式。 \\mathrm{COOCH_2CH_3} \\\\ \\mathrm{COOCH_2CH_3} "
-        }
-      ],
-      "partId": "part-001776"
-    },
-    {
-      "type": "subpart",
-      "label": "9-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出由A制备D过程中中间体B,C和产物D的结构简式。\\mathrm{A} \\xrightarrow [ \\mathrm{H} _ {2} \\mathrm{O} ]{\\mathrm{NaCN}} \\mathrm{B} \\xrightarrow [ \\Delta ]{\\mathrm{H} _ {2} , \\text {cat.}} \\mathrm{C} \\xrightarrow [ \\Delta ]{\\mathrm{NaOH} , \\mathrm{H} _ {2} \\mathrm{O}} \\mathrm{D}"
-        }
-      ],
-      "partId": "part-001777"
+      "alt": "problem-000399题目配图第1幅（已按原图查看）"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

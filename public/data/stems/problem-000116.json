@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000116",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,59 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000057",
     "sourceLabel": "2021-35-CChO-chusai.pdf",
-    "pages": [
-      2
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "blocks": [
-    {
-      "type": "subpart",
-      "label": "5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "4.38 g 元素 A 的单质在 $\\mathrm { H N O _ { 3 } }$ 中加热,完全反应后得到6.16g固体B(A的氧化物),并放出红棕色的气体(反应1)。A也可以与氢氧化钠反应,发生歧化,生成两种盐C和D(反应2),C中A元素的氧化数与其在B中相同。B与邻苯二胺反应生成 $\\mathbf { E } ,$ ,E含元素A且具有特征的荧光光谱,据此可进行苯二胺异构体共存下邻苯二胺的含量分析。 5-1 通过计算和分析,确定元素A。 5-2 分别写出A在酸和碱中反应的方程式 5-3 画出化合物E的结构简式。"
-        }
-      ],
-      "partId": "part-000215"
-    },
-    {
-      "type": "subpart",
-      "label": "5-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "通过计算和分析,确定元素A。"
-        }
-      ],
-      "partId": "part-000216"
-    },
-    {
-      "type": "subpart",
-      "label": "5-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "分别写出A在酸和碱中反应的方程式"
-        }
-      ],
-      "partId": "part-000217"
-    },
-    {
-      "type": "subpart",
-      "label": "5-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出化合物E的结构简式。"
-        }
-      ],
-      "partId": "part-000218"
-    }
-  ],
   "renderingHints": {
     "mhchem": true
-  }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "4.38 g 元素 A 的单质在 $\\mathrm { H N O _ { 3 } }$ 中加热，完全反应后得到6.16g固体B（A的氧化物），并放出红棕色的气体（反应1）。A也可以与氢氧化钠反应，发生歧化，生成两种盐C和D（反应2），C中A元素的氧化数与其在B中相同。B与邻苯二胺反应生成 $\\mathbf { E } ,$ ，E含元素A且具有特征的荧光光谱，据此可进⾏苯二胺异构体共存下邻苯二胺的含量分析。 5-1 通过计算和分析，确定元素A。 5-2 分别写出A在酸和碱中反应的方程式 5-3 画出化合物E的结构简式。"
+    }
+  ]
 }

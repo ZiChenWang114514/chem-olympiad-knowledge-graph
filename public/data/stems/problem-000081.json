@@ -1,74 +1,65 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000081",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "有机酸性与反应性",
-  "number": "Q5",
+  "number": "5",
   "examYear": 2019,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000014",
     "sourceLabel": "2019-33-CChO-juesai.pdf",
-    "pages": [
-      3
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
   "blocks": [
-    {
-      "type": "paragraph",
-      "text": "第 5 题(11 分)"
-    },
     {
       "type": "paragraph",
       "text": "在碱性条件下,化合物A和B中有一个发生消除反应生成C。"
     },
     {
       "type": "figure",
-      "src": "data/stems/assets/problem-000081-figure-001.jpg",
-      "assetId": "asset-004989",
-      "alt": "原卷示意图：C",
-      "label": "C",
-      "caption": "C",
-      "displayWidth": 100
-    },
+      "caption": "反应示意图",
+      "alt": "缺图:显示化合物A和B的结构及反应条件",
+      "src": "data/stems/assets/problem-000081-figure-001.jpg"
+    }
+  ],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000081-01",
       "label": "5-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "指出发生消除反应生成C的是哪一个化合物。简述理由。"
         }
-      ],
-      "partId": "part-001034"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000081-02",
       "label": "5-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在同样的反应条件下,另一个化合物发生消除反应生成D。D可使酸性 \\mathrm { K M n O } _ { 4 } 溶液褪色,但不与LiAIH<sub>4</sub>发生反应。画出D的结构简式。"
+          "text": "在同样的反应条件下,另一个化合物发生消除反应生成D。D可使酸性 $\\mathrm{KMnO_4}$ 溶液褪色,但不与 $\\mathrm{LiAlH_4}$ 发生反应。画出D的结构简式。"
         }
-      ],
-      "partId": "part-001035"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000081-03",
       "label": "5-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出化合物B的优势构象;用\\*标记处化合物B中的不对称碳原子,并说明方向,方向构型。"
+          "text": "画出化合物B的优势构象;用*标记化合物B中的不对称碳原子,并说明R、S构型。"
         }
-      ],
-      "partId": "part-001036"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

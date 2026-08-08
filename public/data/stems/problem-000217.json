@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000217",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,60 +10,78 @@
   "source": {
     "sourceDocumentId": "source-000025",
     "sourceLabel": "2023-37-CChO-juesai-1.pdf",
-    "pages": [
-      9,
-      10
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
       "text": "乙酸正丁酯是优良的有机溶剂,在石油加工、制药工程等领域均有广泛应用。在实验室中,乙酸正丁酯可通过正丁醇和冰醋酸在强酸催化及加热条件下合成,实验装置如右图所示。反应中生成的水可以与正丁醇或乙酸正丁酯形成共沸混合物被蒸出。使用分水器可在反应进行的同时分离出生成的水,并使有机相流回反应瓶中。实验步骤如下:(1)如右图所示装配仪器。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000217-01",
+      "label": "(2)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "关闭分水器旋塞并在分水器带旋塞一侧预先加入适量的 1 ,再向反应瓶中加入5.0 mL (55 mmol)正丁醇、 2 和 3 ,加入1 粒沸石。"
+        }
+      ]
     },
     {
-      "type": "paragraph",
-      "text": "关闭分水器旋塞并在分水器带旋塞一侧预先加入适量的 1 ,再向反应瓶中加入5.0 mL (55 mmol)正丁醇、 2 和 3 ,加入1 粒沸石。"
+      "id": "part-000217-02",
+      "label": "(3)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "将反应液温度控制在 4 并保持15分钟,然后升温至回流状态进行分水。当反应不再有水生成时,停止加热。合并烧瓶和分水器中的液体,用分液漏斗将水层分出。依次用5 mL 10%碳酸钠水溶液及5 mL水洗涤有机层。"
+        },
+        {
+          "type": "figure",
+          "caption": "实验装置图(原卷此处有图,此处缺图)",
+          "alt": "实验装置图,显示分水器、冷凝管等",
+          "src": "data/stems/assets/problem-000217-figure-001.jpg"
+        }
+      ]
     },
     {
-      "type": "paragraph",
-      "text": "将反应液温度控制在 4 并保持15分钟,然后升温至回流状态进行分水。当反应不再有水生成时,停止加热。合并烧瓶和分水器中的液体,用分液漏斗将水层分出。依次用5 mL 10%碳酸钠水溶液及5 mL水洗涤有机层。"
+      "id": "part-000217-03",
+      "label": "(4)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "有机层用无水硫酸镁干燥。常压蒸馏,收集 $124\\sim126^\\circ\\mathrm{C}$ 的馏分。"
+        },
+        {
+          "type": "paragraph",
+          "text": "各化合物及相关共沸物常压下的沸点(单位:°C)"
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
+        }
+      ]
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000217-figure-001.jpg",
-      "alt": "实验装置图,显示分水器、冷凝管等",
-      "displayWidth": 80,
-      "caption": "实验装置图(原卷此处有图,此处原卷配图)",
-      "assetId": "asset-004782"
-    },
-    {
-      "type": "paragraph",
-      "text": "有机层用无水硫酸镁干燥。常压蒸馏,收集 $124\\sim126^\\circ\\mathrm{C}$ 的馏分。"
-    },
-    {
-      "type": "paragraph",
-      "text": "各化合物及相关共沸物常压下的沸点(单位:°C)"
-    },
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
-    },
-    {
-      "type": "subpart",
+      "id": "part-000217-04",
       "label": "10-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "根据上述实验流程描述,写出图中所示实验装置中的三处错误。"
         }
-      ],
-      "partId": "part-000443"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000217-05",
       "label": "10-2",
       "blocks": [
         {
@@ -74,22 +92,17 @@
           "type": "paragraph",
           "text": "2处:A. 25 mmol 冰醋酸 B. 50 mmol 冰醋酸 C. 60 mmol 冰醋酸3处:A. 0.05 mL 浓硫酸 B. 1 mL 浓硫酸 C. 0.05 mL 稀硫酸 D. 1 mL 稀硫酸4处:A. $0^\\circ\\mathrm{C}$ B. $25^\\circ\\mathrm{C}$ C. $80^\\circ\\mathrm{C}$"
         }
-      ],
-      "partId": "part-000444"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000217-06",
       "label": "10-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "解释步骤(3)中为何要用分水器将水分出。"
         }
-      ],
-      "partId": "part-000445"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

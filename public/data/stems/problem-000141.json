@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000141",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,103 +10,43 @@
   "source": {
     "sourceDocumentId": "source-000056",
     "sourceLabel": "2021-35-CChO-chusai-jiangsu.pdf",
-    "pages": [
-      4,
-      5
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "blocks": [
-    {
-      "type": "subpart",
-      "label": "10",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "10 · 酰胺端基效应重排"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000141-figure-001.jpg",
-          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-          "displayWidth": 80,
-          "caption": "图 1",
-          "assetId": "asset-004720"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000141-figure-002.jpg",
-          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-          "displayWidth": 80,
-          "caption": "图 2",
-          "assetId": "asset-004721"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000141-figure-003.jpg",
-          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-          "displayWidth": 80,
-          "caption": "图 3",
-          "assetId": "asset-004722"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000141-figure-004.jpg",
-          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-          "displayWidth": 80,
-          "caption": "图 4",
-          "assetId": "asset-004723"
-        }
-      ],
-      "partId": "part-000261"
-    },
-    {
-      "type": "subpart",
-      "label": "10-1-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "反应溶剂可以影响氮杂环丙烷环化反应的产物。在不同的溶剂中,1-苄基-2-乙烯基氮杂环丙烷与对甲苯磺酰异氰酸酯反应选择性地得到五元环或七元环的产物。"
-        }
-      ],
-      "partId": "part-000262"
-    },
-    {
-      "type": "subpart",
-      "label": "10-1-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "氮杂环丙烷上的取代基可以影响反应的产率和环化产物。(顺)-1-苄基-2-苯基-3-乙烯基氮杂环丙烷与对甲苯磺酰异氰酸酯只能得到较低产率的五元环产物。请画出该环化产物Y及该转化过程中必定经过的两个关键中间体的结构简式(须画出产物及中间体的立体结构,并标明Y手性中心的立体结构)。"
-        }
-      ],
-      "partId": "part-000263"
-    },
-    {
-      "type": "subpart",
-      "label": "10-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "请画出以下反应主要产物Z的结构简式。"
-        }
-      ],
-      "partId": "part-000264"
-    },
-    {
-      "type": "subpart",
-      "label": "10-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "化合物K是一种高效的清除溶液中有机胺类化合物的试剂。将其加入到溶有苄胺的四氢呋喃溶液中充分反应,没有明显沉淀产生,然后在350 nm紫外光的照射下,有白色固体析出。通过检测,溶液中已无苄胺。请画出该白色固体的结构简式,并解释白色固体析出的原因。"
-        }
-      ],
-      "partId": "part-000265"
-    }
-  ],
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
   "renderingHints": {
     "mhchem": true
-  }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "10 · 酰胺端基效应重排"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000141-figure-001.jpg",
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 1"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000141-figure-002.jpg",
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 2"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000141-figure-003.jpg",
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 3"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000141-figure-004.jpg",
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 4"
+    }
+  ],
+  "parts": []
 }

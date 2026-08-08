@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000452",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,52 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000049",
     "sourceLabel": "2015-29-CChO-chusai.pdf",
-    "pages": [
-      2
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第4题(8分)腐殖质是土壤中结构复杂的有机物,土壤肥力与腐殖质含量密切相关。可采用重铬酸钾法测定土壤中腐殖质的含量:称取 0.1500 g 风干的土样,加入 5 mL 0.10 mol·L-1 $\\mathrm { K _ { 2 } C r _ { 2 } O _ { 7 } }$ 的 $\\mathrm { H _ { 2 } S O _ { 4 } }$ 溶液,充分加热,氧化其中的碳 $\\mathrm { ( C C O _ { 2 } }$ ,腐殖质中含碳58%,90%的碳可被氧化)。以邻菲罗啉为指示剂,用0.1221mol·L-1 的 $\\mathrm { ( N H _ { 4 } ) _ { 2 } S O _ { 4 } { \\cdot } F e S O _ { 4 } }$ 溶液滴定,消耗10.02 mL。空白实验如下:上述土壤样品经高温灼烧后,称取同样质量,采用相同的条件处理和滴定,消耗 $\\mathrm { ( N H _ { 4 } ) _ { 2 } S O _ { 4 } { \\cdot } F e S O _ { 4 } }$ 溶液 22.35 mL。"
-    },
-    {
-      "type": "subpart",
-      "label": "4-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出在酸性介质中 $\\mathrm { K _ { 2 } C r _ { 2 } O _ { 7 } }$ 将碳氧化为 $\\mathrm { { C O } _ { 2 } }$ 的方程式。"
-        }
-      ],
-      "partId": "part-000913"
-    },
-    {
-      "type": "subpart",
-      "label": "4-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出硫酸亚铁铵滴定过程的方程式。"
-        }
-      ],
-      "partId": "part-000914"
-    },
-    {
-      "type": "subpart",
-      "label": "4-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算土壤中腐殖质的质量分数。"
-        }
-      ],
-      "partId": "part-000915"
+      "text": "第4题（8分）腐殖质是⼟壤中结构复杂的有机物，⼟壤肥力与腐殖质含量密切相关。可采用重铬酸钾法测定⼟壤中腐殖质的含量：称取 0.1500 g ⻛⼲的⼟样，加入 5 mL 0.10 mol·L−1 $\\mathrm { K _ { 2 } C r _ { 2 } O _ { 7 } }$ 的 $\\mathrm { H _ { 2 } S O _ { 4 } }$ 溶液，充分加热，氧化其中的碳 $\\mathrm { ( C C O _ { 2 } }$ ，腐殖质中含碳58%，90%的碳可被氧化）。以邻菲罗啉为指示剂，用0.1221mol·L−1 的 $\\mathrm { ( N H _ { 4 } ) _ { 2 } S O _ { 4 } { \\cdot } F e S O _ { 4 } }$ 溶液滴定，消耗10.02 mL。空白实验如下：上述⼟壤样品经高温灼烧后，称取同样质量，采用相同的条件处理和滴定，消耗 $\\mathrm { ( N H _ { 4 } ) _ { 2 } S O _ { 4 } { \\cdot } F e S O _ { 4 } }$ 溶液 22.35 mL。 4-1 写出在酸性介质中 $\\mathrm { K _ { 2 } C r _ { 2 } O _ { 7 } }$ 将碳氧化为 $\\mathrm { { C O } _ { 2 } }$ 的方程式。 4-2 写出硫酸亚铁铵滴定过程的方程式。 4-3 计算⼟壤中腐殖质的质量分数。"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

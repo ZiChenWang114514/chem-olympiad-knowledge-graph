@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000053",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,116 +8,105 @@
   "examYear": 2018,
   "examStage": "preliminary",
   "source": {
+    "sourceDocumentId": "source-000052",
     "sourceLabel": "2018-32-CChO-chusai.pdf",
-    "pages": [
-      2
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000052"
+    "transcribedAt": "2026-08-08"
   },
-  "blocks": [
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [],
+  "parts": [
     {
-      "type": "paragraph",
-      "text": "第5题 元素同位素的类型及其天然丰度不仅决定原子量的数值,也是矿物年龄分析,反应机理研究等的重要依据."
-    },
-    {
-      "type": "subpart",
+      "id": "part-000053-01",
       "label": "5-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "已知 Cl 有两种同位素 35Cl 和 37Cl,二者丰度比为 0.75:0.25;Rb 有 85Rb 和 87Rb,二者丰度比为0.72:0.28."
+          "text": "已知 Cl 有两种同位素 $^{35}\\mathrm{Cl}$ 和 $^{37}\\mathrm{Cl}$,二者丰度比为 0.75:0.25;Rb 有 $^{85}\\mathrm{Rb}$ 和 $^{87}\\mathrm{Rb}$,二者丰度比为 0.72:0.28。"
         }
-      ],
-      "partId": "part-001947"
+      ]
     },
     {
-      "type": "subpart",
-      "label": "5-1-1",
+      "id": "part-000053-02",
+      "label": "5-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出气态中同位素组成不同的RbCl分子."
+          "text": "-1 写出气态中同位素组成不同的 RbCl 分子。"
         }
-      ],
-      "partId": "part-001948"
+      ]
     },
     {
-      "type": "subpart",
-      "label": "5-1-2",
+      "id": "part-000053-03",
+      "label": "5-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "这些分子有几种质量数写出质量数,并给出其比例."
+          "text": "-2 这些分子有几种质量数?写出质量数,并给出其比例。"
         }
-      ],
-      "partId": "part-001949"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000053-04",
       "label": "5-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "年代测定是地质学的一项重要工作.Lu-Hf法是上世纪80年代随着等离子发射光谱,质子谱等技术发展而建立的一种新断代法.Lu有两种天然同位素:176Lu和 $^ { 177 } \\mathrm { Lu } _ { \\mathrm { o } }$ Hf有六种天然同位素:176Hf,177Hf,178Hf,179Hf,180Hf 和 181Hf.176Lu 发生 $\\lvert \\beta \\rvert$ 衰变生成176Hf,半衰期为 $3.716 \\times10 ^ { 10 }$ 年.177Hf为稳定同位素且无放射性来源.地质工作者获得一块岩石样品,从该样品的不同部位取得多个样本进行分析.其中的两组有效数据如下:样本 1:176Hf 与 177Hf 的比值为 0.28630(原子比,记为 176Hf/177Hf),176Lu/177Hf 为 0.42850."
+          "text": "年代测定是地质学的一项重要工作。Lu-Hf 法是上世纪 80 年代随着等离子发射光谱、质子谱等技术发展而建立的一种新断代法。Lu 有两种天然同位素:$^{176}\\mathrm{Lu}$ 和 $^{177}\\mathrm{Lu}$。Hf 有六种天然同位素:$^{176}\\mathrm{Hf}$、$^{177}\\mathrm{Hf}$、$^{178}\\mathrm{Hf}$、$^{179}\\mathrm{Hf}$、$^{180}\\mathrm{Hf}$ 和 $^{181}\\mathrm{Hf}$。$^{176}\\mathrm{Lu}$ 发生 $\\beta$ 衰变生成 $^{176}\\mathrm{Hf}$,半衰期为 $3.716 \\times 10^{10}$ 年。$^{177}\\mathrm{Hf}$ 为稳定同位素且无放射性来源。地质工作者获得一块岩石样品,从该样品的不同部位取得多个样本进行分析。其中的两组有效数据如下:样本 1:$^{176}\\mathrm{Hf}$ 与 $^{177}\\mathrm{Hf}$ 的比值为 0.28630(原子比,记为 $^{176}\\mathrm{Hf}/^{177}\\mathrm{Hf}$),$^{176}\\mathrm{Lu}/^{177}\\mathrm{Hf}$ 为 0.42850。"
         },
         {
           "type": "paragraph",
-          "text": "样本 2:176Hf/177Hf 为 0.28239,176Lu/177Hf 为 0.01470."
+          "text": "样本 2:$^{176}\\mathrm{Hf}/^{177}\\mathrm{Hf}$ 为 0.28239,$^{176}\\mathrm{Lu}/^{177}\\mathrm{Hf}$ 为 0.01470。"
         },
         {
           "type": "paragraph",
-          "text": "(一级反应,物种含量随时间变化的关系式: $ { r } { c = c _ { 0 } e ^ { - kt } \\underline { { \\mathbb { H } } } \\underline { { \\hat { \\mathbf { \\Pi } } } } | \\mathrm { ln } \\frac { c } { c _ { 0 } } = - kt } $ ,其中 $\\iota _ { c _ { 0 } }$ 为起始含量)"
+          "text": "(一级反应,物种含量 $c$ 随时间 $t$ 变化的关系式:$c = c_0 e^{-kt}$,即 $\\ln \\frac{c}{c_0} = -kt$,其中 $c_0$ 为起始含量)"
         }
-      ],
-      "partId": "part-001950"
+      ]
     },
     {
-      "type": "subpart",
-      "label": "5-2-1",
+      "id": "part-000053-05",
+      "label": "5-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出 $^ \\mathrm { 176 } \\mathrm { Lu }$ 发生衰变的核反应方程式(标出核电荷数和质量数)."
+          "text": "-1 写出 $^{176}\\mathrm{Lu}$ 发生 $\\beta$ 衰变的核反应方程式(标出核电荷数和质量数)。"
         }
-      ],
-      "partId": "part-001951"
+      ]
     },
     {
-      "type": "subpart",
-      "label": "5-2-2",
+      "id": "part-000053-06",
+      "label": "5-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算 $^ { 176 } \\mathrm { Lu }$ 衰变反应速率常数."
+          "text": "-2 计算 $^{176}\\mathrm{Lu}$ 衰变反应速率常数 $k$。"
         }
-      ],
-      "partId": "part-001952"
+      ]
     },
     {
-      "type": "subpart",
-      "label": "5-2-3",
+      "id": "part-000053-07",
+      "label": "5-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算该岩石的年龄."
+          "text": "-3 计算该岩石的年龄。"
         }
-      ],
-      "partId": "part-001953"
+      ]
     },
     {
-      "type": "subpart",
-      "label": "5-2-4",
+      "id": "part-000053-08",
+      "label": "5-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算该岩石生成时 176Hf/177Hf的比值."
+          "text": "-4 计算该岩石生成时 $^{176}\\mathrm{Hf}/^{177}\\mathrm{Hf}$ 的比值。"
         }
-      ],
-      "partId": "part-001954"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

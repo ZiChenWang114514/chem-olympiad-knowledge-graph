@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000323",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,50 +8,37 @@
   "examYear": 2008,
   "examStage": "preliminary",
   "source": {
+    "sourceDocumentId": "source-000039",
     "sourceLabel": "2008-22-CChO-chusai.pdf",
-    "pages": [
-      2
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000039"
+    "transcribedAt": "2026-08-08"
   },
-  "blocks": [
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [],
+  "parts": [
     {
-      "type": "paragraph",
-      "text": "第6题 在 $900 ~ ^ { \\circ } \\mathrm { C }$ 的空气中合成出一种含镧,钙和锰(摩尔比2:2:1)的复合氧化物,其中锰可能以$^ { + 2 , ~ + 3 , ~ + 4 }$ 或者混合价态存在.为确定该复合氧化物的化学式,进行如下分析:"
-    },
-    {
-      "type": "subpart",
+      "id": "part-000323-01",
       "label": "6-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "准确移取"
-        },
-        {
-          "type": "paragraph",
-          "text": "mL0.05301M的草酸钠水溶液,放入锥形瓶中,加入25mL蒸馏水和5mL6M的$\\mathrm { HNO _ { 3 } }$ 溶液,微热至 $60 { \\sim } 70 \\ ^ { \\circ } \\mathrm { C } ,$ 用 $\\mathrm { KMnO } _ { 4 }$ 溶液滴定,消耗 $27.75 \\mathrm { mL } _ { \\circ }$ 写出滴定过程发生的反应的方程式;计算 $\\mathrm { KMnO } _ { 4 }$ 溶液的浓度."
-        },
-        {
-          "type": "paragraph",
-          "text": "mL上述草酸钠溶液和30mL6M的$\\mathrm { HNO _ { 3 } }$ 溶液,在 $60 { \\sim } 70 ~ ^ { \\circ } \\mathrm { C }$ 下充分摇动,约半小时后得到无色透明溶液.用上述 $\\mathrm { KMnO } _ { 4 }$ 溶液滴定,消耗10.02$\\mathrm { mL } _ { \\circ }$ 根据实验结果推算复合氧化物中锰的价态,给出该复合氧化物的化学式,写出样品溶解过程的反应方程$\\updownarrow \\updownarrow _ { \\updownarrow }$ 已知La的原子量为138.9."
+          "text": "准确移取25.00 mL 0.05301 M的草酸钠水溶液,放入锥形瓶中,加入25 mL蒸馏水和5 mL 6 M的 $\\mathrm{HNO_3}$ 溶液,微热至 $60\\sim70\\ ^\\circ\\mathrm{C}$,用 $\\mathrm{KMnO_4}$ 溶液滴定,消耗 $27.75\\ \\mathrm{mL}$。写出滴定过程发生的反应的方程式;计算 $\\mathrm{KMnO_4}$ 溶液的浓度。"
         }
-      ],
-      "partId": "part-002396"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000323-02",
       "label": "6-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "准确称取0.4460g复合氧化物样品,放入锥形瓶中,加"
+          "text": "准确称取0.4460 g复合氧化物样品,放入锥形瓶中,加25.00 mL上述草酸钠溶液和30 mL 6 M的 $\\mathrm{HNO_3}$ 溶液,在 $60\\sim70\\ ^\\circ\\mathrm{C}$ 下充分摇动,约半小时后得到无色透明溶液。用上述 $\\mathrm{KMnO_4}$ 溶液滴定,消耗10.02 mL。根据实验结果推算复合氧化物中锰的价态,给出该复合氧化物的化学式,写出样品溶解过程的反应方程式。已知La的原子量为138.9。"
         }
-      ],
-      "partId": "part-002398"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000377",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,26 +10,28 @@
   "source": {
     "sourceDocumentId": "source-000042",
     "sourceLabel": "2011-25-CChO-chusai.pdf",
-    "pages": [
-      2
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "blocks": [
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000377-01",
       "label": "5-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "A是紫红色晶体,分子量925.23,抗磁性。它通过 $\\ce{RhCl3.3H2O}$ 和过量三苯膦 $\\ce{PPh3}$ 的乙醇溶液回流制得。画出A的立体结构。"
         }
-      ],
-      "partId": "part-000781"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000377-02",
       "label": "5-2",
       "blocks": [
         {
@@ -38,54 +40,45 @@
         },
         {
           "type": "figure",
-          "src": "data/stems/assets/problem-000377-figure-001.jpg",
-          "alt": "催化机理图(原卷配图)",
-          "displayWidth": 80,
           "caption": "催化机理图",
-          "assetId": "asset-004921"
+          "alt": "催化机理图(缺图)",
+          "src": "data/stems/assets/problem-000377-figure-001.jpg"
         },
         {
           "type": "paragraph",
           "text": "画出 D 的结构式。"
         }
-      ],
-      "partId": "part-000782"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000377-03",
       "label": "5-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "确定图中所有配合物的中心原子的氧化态。"
         }
-      ],
-      "partId": "part-000783"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000377-04",
       "label": "5-4",
       "blocks": [
         {
           "type": "paragraph",
           "text": "确定A、C、D和E的中心离子的杂化轨道类型。"
         }
-      ],
-      "partId": "part-000784"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000377-05",
       "label": "5-5",
       "blocks": [
         {
           "type": "paragraph",
           "text": "用配合物的价键理论推测C和E显顺磁性还是抗磁性,说明理由。"
         }
-      ],
-      "partId": "part-000785"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

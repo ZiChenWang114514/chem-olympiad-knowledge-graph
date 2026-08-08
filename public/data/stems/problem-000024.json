@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000024",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,20 +10,23 @@
   "source": {
     "sourceDocumentId": "source-000011",
     "sourceLabel": "2016-30-CChO-juesai.pdf",
-    "pages": [
-      1,
-      2
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
       "text": "某金属M的氧化物A是易挥发的液体,有毒,微溶于水。在氯化氢气氛中蒸发A的盐酸溶液(含1.000 g的A)得到1.584 g晶体 $\\ce{MCl3.3H2O}$。"
-    },
+    }
+  ],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000024-01",
       "label": "3-1",
       "blocks": [
         {
@@ -34,80 +37,103 @@
           "type": "paragraph",
           "text": "从精炼镍的阳极泥提取M的步骤为:"
         }
-      ],
-      "partId": "part-000044"
+      ]
     },
     {
-      "type": "paragraph",
-      "text": "用王水处理溶解 Pt、Pd 和 Au;"
+      "id": "part-000024-02",
+      "label": "(1)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "用王水处理溶解 Pt、Pd 和 Au;"
+        }
+      ]
     },
     {
-      "type": "paragraph",
-      "text": "固体不溶物与碳酸铅共热,然后用稀硝酸处理除去可溶物B;"
+      "id": "part-000024-03",
+      "label": "(2)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "固体不溶物与碳酸铅共热,然后用稀硝酸处理除去可溶物B;"
+        }
+      ]
     },
     {
-      "type": "paragraph",
-      "text": "剩余固体不溶物与硫酸氢钠共熔,用水浸取除去可溶物C;"
+      "id": "part-000024-04",
+      "label": "(3)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "剩余固体不溶物与硫酸氢钠共熔,用水浸取除去可溶物C;"
+        }
+      ]
     },
     {
-      "type": "paragraph",
-      "text": "留下的固体不溶物与过氧化钠共熔,用水浸取,过滤。滤液中含有M的盐D,D为 $\\ce{Na2SO4}$ 型电解质,无水D中氧含量为30.32%;"
+      "id": "part-000024-05",
+      "label": "(4)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "留下的固体不溶物与过氧化钠共熔,用水浸取,过滤。滤液中含有M的盐D,D为 $\\ce{Na2SO4}$ 型电解质,无水D中氧含量为30.32%;"
+        }
+      ]
     },
     {
-      "type": "paragraph",
-      "text": "往D溶液中通入 $\\ce{Cl2}$,加热,收集 $40\\text{-}50^\\circ\\mathrm{C}$ 的馏分,得到A。A收集在盐酸中,加热得到E的溶液,E中Cl含量为67.14%;"
+      "id": "part-000024-06",
+      "label": "(5)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "往D溶液中通入 $\\ce{Cl2}$,加热,收集 $40\\text{–}50^\\circ\\mathrm{C}$ 的馏分,得到A。A收集在盐酸中,加热得到E的溶液,E中Cl含量为67.14%;"
+        },
+        {
+          "type": "paragraph",
+          "text": "$\\ce{NH4Cl}$"
+        },
+        {
+          "type": "paragraph",
+          "text": "$\\ce{F}$"
+        },
+        {
+          "type": "paragraph",
+          "text": "$\\ce{M}$"
+        },
+        {
+          "type": "paragraph",
+          "text": "已知 $\\varphi^\\ominus(\\ce{NO3^-/NO}) = 0.957\\,\\mathrm{V}$,$\\varphi^\\ominus(\\ce{[PtCl4]^{2-}/Pt}) = 0.755\\,\\mathrm{V}$,$\\varphi^\\ominus(\\ce{[PtCl6]^{2-}/[PtCl4]^{2-}}) = 0.680\\,\\mathrm{V}$,所有离子活度系数为1.00。"
+        }
+      ]
     },
     {
-      "type": "paragraph",
-      "text": "$\\ce{NH4Cl}$"
-    },
-    {
-      "type": "paragraph",
-      "text": "$\\ce{F}$"
-    },
-    {
-      "type": "paragraph",
-      "text": "$\\ce{M}$"
-    },
-    {
-      "type": "paragraph",
-      "text": "已知 $\\varphi^\\ominus(\\ce{NO3^-/NO}) = 0.957\\,\\mathrm{V}$,$\\varphi^\\ominus(\\ce{[PtCl4]^{2-}/Pt}) = 0.755\\,\\mathrm{V}$,$\\varphi^\\ominus(\\ce{[PtCl6]^{2-}/[PtCl4]^{2-}}) = 0.680\\,\\mathrm{V}$,所有离子活度系数为1.00。"
-    },
-    {
-      "type": "subpart",
+      "id": "part-000024-07",
       "label": "3-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "写出步骤(1)中除去Pt的化学反应方程式,计算该反应在298 K下的 $K_c^\\ominus$。"
         }
-      ],
-      "partId": "part-000050"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000024-08",
       "label": "3-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "写出步骤(2)中除去银的化学反应方程式。"
         }
-      ],
-      "partId": "part-000051"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000024-09",
       "label": "3-4",
       "blocks": [
         {
           "type": "paragraph",
           "text": "D、E、F中均只有1个金属原子,试通过计算确定D、E、F的化学式。"
         }
-      ],
-      "partId": "part-000052"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

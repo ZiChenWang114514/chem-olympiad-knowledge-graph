@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000238",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,203 +8,172 @@
   "examYear": 2024,
   "examStage": "preliminary",
   "source": {
+    "sourceDocumentId": "source-000062",
     "sourceLabel": "2024-38-CChO-chusai.pdf",
-    "pages": [
-      1,
-      2,
-      3,
-      7
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000062"
+    "transcribedAt": "2026-08-08"
   },
-  "blocks": [
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [],
+  "parts": [
     {
-      "type": "paragraph",
-      "text": "第 9 题 芳香亲电取代反应 ( $S_{E}Ar$ )"
-    },
-    {
-      "type": "subpart",
+      "id": "part-000238-01",
       "label": "9-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在芳香亲电取代反应中, 芳环上的取代基可分为致活基和致钝基; 或依据产物结构, 将取代基分为邻,对位定位基和间位定位基.确定以下哪些基团既是致钝基团, 又是邻对位定位基团.( )"
+          "text": "在芳香亲电取代反应中,芳环上的取代基可分为致活基和致钝基;或依据产物结构,将取代基分为邻、对位定位基和间位定位基。确定以下哪些基团既是致钝基团,又是邻对位定位基团。(   )"
         },
         {
           "type": "paragraph",
-          "text": "(a) Cl; (b) Me; (c) NHCOMe; (d) CONHMe; (e) Br; (f) 以上基团都不是."
+          "text": "(a) Cl; (b) Me; (c) NHCOMe; (d) CONHMe; (e) Br; (f) 以上基团都不是。"
         }
-      ],
-      "partId": "part-002242"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000238-02",
       "label": "9-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在某些情况下,烷基作为邻对位定位基团也无法决定产物的最终区域选择性.如,苯的 Friedel-Craft 乙基化反应生成多种三乙基苯的混合物,其中 1,3,5-三乙基苯产率随着反应进行会发生较显著的变化."
+          "text": "在某些情况下,烷基作为邻对位定位基团也无法决定产物的最终区域选择性。如,苯的 Friedel-Craft 乙基化反应生成多种三乙基苯的混合物,其中 1,3,5-三乙基苯产率随着反应进行会发生较显著的变化。"
         }
-      ],
-      "partId": "part-002243"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000238-03",
       "label": "9-2-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "随反应时间延长,1,3,5-三乙基苯的产率将增多还是减少"
+          "text": "随反应时间延长,1,3,5-三乙基苯的产率将增多还是减少?"
         }
-      ],
-      "partId": "part-002244"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000238-04",
       "label": "9-2-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": ",3,5-三乙基苯的产率随反应时间改变的原因是什么"
+          "text": "1,3,5-三乙基苯的产率随反应时间改变的原因是什么?"
         }
-      ],
-      "partId": "part-002628"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000238-05",
       "label": "9-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "致钝基团对反应速率的影响并不完全取决于其吸电子效应.如, 3-氟-1,2,4,5-四甲基苯在 $30^{\\circ} \\mathrm{C}$ 乙酸溶液中发生溴代反应的速率是 1,2,4,5-四甲基苯的"
-        },
-        {
-          "type": "paragraph",
-          "text": "倍.利用相关中间体的结构说明为何 3-氟-1,2,4,5-四甲基苯反应速率更快."
+          "text": "致钝基团对反应速率的影响并不完全取决于其吸电子效应。如,3-氟-1,2,4,5-四甲基苯在 $30^{\\circ}\\mathrm{C}$ 乙酸溶液中发生溴代反应的速率是 1,2,4,5-四甲基苯的 2.31 倍。利用相关中间体的结构说明为何 3-氟-1,2,4,5-四甲基苯反应速率更快。"
         }
-      ],
-      "partId": "part-002246"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000238-06",
       "label": "9-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "以下三个化合物在 $\\mathrm{NH_4NO_3}$ /TFAA/MeCN条件下进行单硝化反应:"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000238-figure-001.jpg",
-          "alt": "原卷第9题图1：以下三个化合物在 $\\mathrm{NH_4NO_3}$ /TFAA/MeCN条件下进行单硝化反应:",
-          "displayWidth": 70,
-          "assetId": "asset-005423"
-        },
-        {
-          "type": "paragraph",
-          "text": "1"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000238-figure-002.jpg",
-          "alt": "原卷第9题图2：1",
-          "displayWidth": 70,
-          "assetId": "asset-005424"
-        },
-        {
-          "type": "paragraph",
-          "text": "2"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000238-figure-003.jpg",
-          "alt": "原卷第9题图3：2",
-          "displayWidth": 70,
-          "assetId": "asset-005425"
-        },
-        {
-          "type": "paragraph",
-          "text": "3"
+          "text": "以下三个化合物在 $\\mathrm{NH_4NO_3}$ / TFAA / MeCN 条件下进行单硝化反应:"
         },
         {
           "type": "paragraph",
           "text": "依据以上信息,回答以下问题:"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000238-figure-001.jpg",
+          "alt": "化学反应路线与结构式示意图（原图）",
+          "caption": "化合物 1"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000238-figure-002.jpg",
+          "alt": "化学反应路线与结构式示意图（原图）",
+          "caption": "化合物 2"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000238-figure-003.jpg",
+          "alt": "化学反应路线与结构式示意图（原图）",
+          "caption": "化合物 3"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000238-figure-004.jpg",
+          "alt": "化学反应路线与结构式示意图（原图）",
+          "caption": "反应式 1"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000238-figure-005.jpg",
+          "alt": "化学反应路线与结构式示意图（原图）",
+          "caption": "反应式 2"
         }
-      ],
-      "partId": "part-002248"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000238-07",
       "label": "9-4-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在这三个化合物中,哪个化合物的硝化反应速率最快:( )."
-        },
-        {
-          "type": "paragraph",
-          "text": "9- 4- 2 在反应最快的化合物中,以下说法哪一个是正确的:()"
-        },
-        {
-          "type": "paragraph",
-          "text": "(a) A 环的反应速率快; (b) B 环的反应速率快; (c) A 环和 B 环的反应速率相同."
+          "text": "在这三个化合物中,哪个化合物的硝化反应速率最快:( )。"
         }
-      ],
-      "partId": "part-002249"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000238-08",
+      "label": "9-4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在反应最快的化合物中,以下说法哪一个是正确的:( )"
+        },
+        {
+          "type": "paragraph",
+          "text": "(a) A 环的反应速率快; (b) B 环的反应速率快; (c) A 环和 B 环的反应速率相同。"
+        }
+      ]
+    },
+    {
+      "id": "part-000238-09",
       "label": "9-4-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出反应最快的化合物进行硝化反应的关键中间体."
+          "text": "画出反应最快的化合物进行硝化反应的关键中间体。"
         }
-      ],
-      "partId": "part-002250"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000238-10",
       "label": "9-4-4",
       "blocks": [
         {
           "type": "paragraph",
           "text": "依据以上信息,完成以下反应式:"
         }
-      ],
-      "partId": "part-002251"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000238-11",
       "label": "9-4-4-1",
-      "blocks": [
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000238-figure-004.jpg",
-          "alt": "原卷第9题图4（结构或数据示意）",
-          "displayWidth": 70,
-          "assetId": "asset-005426"
-        }
-      ],
-      "partId": "part-002252"
+      "blocks": []
     },
     {
-      "type": "subpart",
+      "id": "part-000238-12",
       "label": "9-4-4-2",
-      "blocks": [
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000238-figure-005.jpg",
-          "alt": "原卷第9题图5（结构或数据示意）",
-          "displayWidth": 70,
-          "assetId": "asset-005427"
-        }
-      ],
-      "partId": "part-002253"
+      "blocks": []
     },
     {
-      "type": "subpart",
+      "id": "part-000238-13",
       "label": "9-5",
       "blocks": [
         {
@@ -212,50 +181,38 @@
           "text": "文献报道了以下 Friedel-Craft 酰基化反应:"
         },
         {
-          "type": "paragraph",
-          "text": "4"
-        },
-        {
           "type": "figure",
           "src": "data/stems/assets/problem-000238-figure-006.jpg",
-          "alt": "原卷第9题图6：4",
-          "displayWidth": 70,
-          "assetId": "asset-005428"
-        }
-      ],
-      "partId": "part-002254"
-    },
-    {
-      "type": "subpart",
-      "label": "9-5-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "依据以上信息完成以下反应式 (提示: 只需要画出一个主产物芳基酮):"
+          "alt": "化学反应路线与结构式示意图（原图）",
+          "caption": "化合物 4"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000238-figure-007.jpg",
-          "alt": "原卷第9题图7：依据以上信息完成以下反应式 (提示: 只需要画出一个主产物芳基酮):",
-          "displayWidth": 70,
-          "assetId": "asset-005429"
+          "alt": "化学反应路线与结构式示意图（原图）",
+          "caption": "反应式"
         }
-      ],
-      "partId": "part-002255"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000238-14",
+      "label": "9-5-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "依据以上信息完成以下反应式(提示:只需要画出一个主产物芳基酮):"
+        }
+      ]
+    },
+    {
+      "id": "part-000238-15",
       "label": "9-5-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "化合物 5 和 7 均能得到两个电子,分别画出这两个芳基酮得到两个电子后的结构式,并判断哪一个更稳定."
+          "text": "化合物 5 和 7 均能得到两个电子,分别画出这两个芳基酮得到两个电子后的结构式,并判断哪一个更稳定。"
         }
-      ],
-      "partId": "part-002256"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

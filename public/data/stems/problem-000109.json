@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000109",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,46 +8,27 @@
   "examYear": 2020,
   "examStage": "final",
   "source": {
+    "sourceDocumentId": "source-000016",
     "sourceLabel": "2020-34-CChO-juesai-2.pdf",
-    "pages": [
-      5
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000016"
+    "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
-      "type": "subpart",
-      "label": "6-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "第6题 “三级膨胀法”是工业上测定液体蒸气压的一种方法.如下图所示,将一定体积的饱和了空气的液体试样注入有活塞的测试简中,密封测试简后,在恒定温度下,通过活塞分三级控制平衡气相体积分别为$V _ { 1 }$ , $V _ { 2 }$ 和 $\\vert V _ { 3 }$ ,测得相应的平衡总压分别为 $| p _ { 1 }$ , $p _ { 2 }$ 和 $\\mid p _ { 3 ^ { \\mathcal { C } } }$ .设液相体积保持不变,气相视作理想气体."
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000109-figure-001.jpg",
-          "alt": "原卷第6题图1：第6题 “三级膨胀法”是工业上测定液体蒸气压的一种方法.如下图所示,将一定体积的饱和了空气的液体试样注入有活塞的测试简中,密封测试简后,在恒",
-          "displayWidth": 70,
-          "assetId": "asset-005320"
-        },
-        {
-          "type": "paragraph",
-          "text": "实验测得乙醇在37.8 °C的一组数据如下表:"
-        },
-        {
-          "type": "paragraph",
-          "text": "<table><tr><td>i</td><td>1</td><td>2</td><td>3</td></tr><tr><td> $V_i/mL$ </td><td>1.70</td><td>2.50</td><td>5.00</td></tr><tr><td> $p_i/kPa$ </td><td>35.98</td><td>25.31</td><td>19.54</td></tr></table>"
-        },
-        {
-          "type": "paragraph",
-          "text": "乙醇在该温度下的饱和蒸气压 $ { r } { \\dot { \\mathbf { \\sigma } } _ { p ^ { * } } = \\qquad \\mathbf { \\sigma } _ { \\mathbf { \\sigma } _ { } 0 } } $ O"
-        }
-      ],
-      "partId": "part-002032"
+      "type": "paragraph",
+      "text": "6 · 化学反应与结构综合分析"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000109-figure-001.jpg",
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 1"
     }
   ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  "parts": []
 }

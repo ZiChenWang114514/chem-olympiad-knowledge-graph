@@ -1,20 +1,33 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import type { AppData } from '../lib/data'
-import { displayDisciplineFor } from '../lib/displayTaxonomy'
 import { displayProblemTitle, examStageLabel } from '../lib/format'
 import type { Problem } from '../types'
+import { DifficultyDots } from '../ui/DifficultyDots'
+import { PageTitle } from '../ui/PageTitle'
 
-function ArchiveRow({ problem, exam }: { problem: Problem; exam: AppData['exams'][number] }) {
-  const disciplines = [...new Set(problem.disciplines.map(id => displayDisciplineFor(id).name))]
+function ProblemCard({ problem, exam, data }: { problem: Problem; exam: AppData['exams'][number]; data: AppData }) {
+  const discNames = problem.disciplines
+    .map(id => data.taxonomy.disciplines.find(d => d.id === id || d.name === id)?.name || id)
+    .join(' / ')
   return (
-    <Link to={`/exams/${problem.id}`} className="archive-row">
-      <time>{exam.year}</time>
-      <span className="archive-stage">{examStageLabel(exam.stage)}</span>
-      <b className="archive-number">{problem.number}</b>
-      <span className="archive-title">{displayProblemTitle(problem.title)}</span>
-      <span className="archive-disciplines">{disciplines.join(' / ')}</span>
-      <span className="archive-mappings">{problem.mappingCount} 个知识点</span>
+    <Link to={`/exams/${problem.id}`} className="problem-card">
+      <span className="problem-year">
+        {exam.year}
+        <small>{examStageLabel(exam.stage)}</small>
+      </span>
+      <span className="problem-main">
+        <b>
+          {problem.number} · {displayProblemTitle(problem.title)}
+          {problem.hasStem ? <span className="content-pill sm">题干</span> : null}
+        </b>
+        <span>
+          {discNames} · {problem.mappingCount} 个知识映射
+          {problem.hasStem ? ' · 可阅题干' : ''}
+        </span>
+      </span>
+      <DifficultyDots value={problem.difficulty} />
+      <span className="problem-action">查看</span>
     </Link>
   )
 }
@@ -26,6 +39,7 @@ export function Exams({ data }: { data: AppData }) {
   const [year, setYear] = useState(params.get('year') || '全部')
   const [query, setQuery] = useState(params.get('q') || '')
 
+  // Sync from URL (e.g. search deep-link)
   useEffect(() => {
     setQuery(params.get('q') || '')
     setStage(params.get('stage') || '全部')
@@ -43,27 +57,105 @@ export function Exams({ data }: { data: AppData }) {
     setParams(sp, { replace: true })
   }
 
-  const examById = useMemo(() => new Map(data.exams.map(exam => [exam.id, exam])), [data.exams])
-  const filtered = useMemo(() => data.problems.filter(problem => {
-    const exam = examById.get(problem.examId)
-    const hay = `${problem.title}${problem.number}${problem.summary || ''}${problem.disciplines.join('')}`
-    return (stage === '全部' || exam?.stage === stage) && (year === '全部' || String(exam?.year) === year) && (!query || hay.includes(query))
-  }), [data.problems, examById, query, stage, year])
-  const years = useMemo(() => [...new Set(data.exams.map(exam => String(exam.year)))].sort((a, b) => Number(b) - Number(a)), [data.exams])
+  const filtered = useMemo(
+    () =>
+      data.problems.filter(problem => {
+        const exam = data.exams.find(item => item.id === problem.examId)
+        const hay = `${problem.title}${problem.number}${problem.summary || ''}`
+        return (
+          (stage === '全部' || exam?.stage === stage) &&
+          (year === '全部' || String(exam?.year) === year) &&
+          (!query || hay.includes(query))
+        )
+      }),
+    [data, stage, year, query],
+  )
+
+  const years = useMemo(
+    () => [...new Set(data.exams.map(e => String(e.year)))].sort((a, b) => Number(b) - Number(a)),
+    [data.exams],
+  )
 
   return (
-    <div className="archive-page">
-      <header className="document-head archive-head"><p>历年试题</p><h1>真题档案</h1><span>{filtered.length} 条记录</span></header>
-      <div className="archive-filters">
-        <label><span>关键词</span><input value={query} onChange={event => { setQuery(event.target.value); pushFilters({ q: event.target.value }) }} placeholder="题号、主题或学科" /></label>
-        <label><span>阶段</span><select value={stage} onChange={event => { setStage(event.target.value); pushFilters({ stage: event.target.value }) }}><option value="全部">全部</option><option value="preliminary">初赛</option><option value="final">决赛</option></select></label>
-        <label><span>年份</span><select value={year} onChange={event => { setYear(event.target.value); pushFilters({ year: event.target.value }) }}><option value="全部">全部</option>{years.map(value => <option key={value} value={value}>{value}</option>)}</select></label>
-        {(query || stage !== '全部' || year !== '全部') ? <button type="button" onClick={() => { setQuery(''); setStage('全部'); setYear('全部'); navigate('/exams', { replace: true }) }}>清除筛选</button> : null}
+    <>
+      <PageTitle
+        title="真题档案"
+        description="按年份、考试阶段和主题查看题目元数据与知识映射。"
+        split
+        aside={
+          <span className="archive-count">
+            {filtered.length} <small>条记录</small>
+          </span>
+        }
+      />
+      <div className="filters sticky-filters">
+        <label>
+          <span className="visually-hidden">筛选题目</span>
+          <input
+            aria-label="筛选题目"
+            value={query}
+            onChange={e => {
+              setQuery(e.target.value)
+              pushFilters({ q: e.target.value })
+            }}
+            placeholder="筛选题号、主题…"
+          />
+        </label>
+        <select
+          aria-label="考试阶段"
+          value={stage}
+          onChange={e => {
+            setStage(e.target.value)
+            pushFilters({ stage: e.target.value })
+          }}
+        >
+          <option value="全部">全部阶段</option>
+          <option value="preliminary">初赛</option>
+          <option value="final">决赛</option>
+        </select>
+        <select
+          aria-label="年份"
+          value={year}
+          onChange={e => {
+            setYear(e.target.value)
+            pushFilters({ year: e.target.value })
+          }}
+        >
+          <option value="全部">全部年份</option>
+          {years.map(y => (
+            <option key={y} value={y}>
+              {y}
+            </option>
+          ))}
+        </select>
+        {(query || stage !== '全部' || year !== '全部') && (
+          <button
+            type="button"
+            className="toolbar-btn"
+            onClick={() => {
+              setQuery('')
+              setStage('全部')
+              setYear('全部')
+              navigate('/exams', { replace: true })
+            }}
+          >
+            清除
+          </button>
+        )}
       </div>
-      <div className="archive-table-head" aria-hidden="true"><span>年份</span><span>阶段</span><span>题号</span><span>题名</span><span>学科</span><span>映射</span></div>
-      <div className="archive-list">
-        {filtered.length ? filtered.map(problem => <ArchiveRow key={problem.id} problem={problem} exam={examById.get(problem.examId)!} />) : <p className="archive-empty">没有匹配记录</p>}
+      <div className="problem-list">
+        {filtered.length ? (
+          filtered.map(problem => {
+            const exam = data.exams.find(item => item.id === problem.examId)!
+            return <ProblemCard key={problem.id} problem={problem} exam={exam} data={data} />
+          })
+        ) : (
+          <div className="empty-inline">
+            <b>没有匹配记录</b>
+            <p>尝试放宽筛选条件，或从图谱节点的相关题目进入。</p>
+          </div>
+        )}
       </div>
-    </div>
+    </>
   )
 }

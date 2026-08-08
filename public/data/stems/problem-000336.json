@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000336",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,12 +10,13 @@
   "source": {
     "sourceDocumentId": "source-000003",
     "sourceLabel": "2008-22-CChO-juesai.pdf",
-    "pages": [
-      5,
-      6
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
@@ -25,79 +26,70 @@
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000336-figure-001.jpg",
-      "alt": "化学反应路线与结构式示意图(原图)",
-      "displayWidth": 80,
-      "caption": "题目配图",
-      "assetId": "asset-004910"
-    },
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "题目配图"
+    }
+  ],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000336-01",
       "label": "8-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "香紫苏醇分子中有几个手性碳原子？指出侧链上和环内带有羟基的手性碳原子的构型(用 R、S 表示)。"
+          "text": "香紫苏醇分子中有几个手性碳原子?指出侧链上和环内带有羟基的手性碳原子的构型(用 R、S 表示)。"
         }
-      ],
-      "partId": "part-000709"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000336-02",
       "label": "8-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "香紫苏醇经高锰酸钾氧化得到香紫苏内酯和另一副产物 E 的混合物,该混合物经水解、酸化和成环后,得到同一产物香紫苏内酯。E 的相对分子质量为 310.43,其组成为 C 69.64%,H 9.74%,O 20.62%。请写出 E 的立体结构式。"
         }
-      ],
-      "partId": "part-000710"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000336-03",
       "label": "8-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "写出中间产物 A 和降龙涎醚的立体结构式(用楔形线表示)。"
         }
-      ],
-      "partId": "part-000711"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000336-04",
       "label": "8-4",
       "blocks": [
         {
           "type": "paragraph",
           "text": "写出由中间产物 A 到降龙涎醚的最可能反应机理(用反应式表示)。"
         }
-      ],
-      "partId": "part-000712"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000336-05",
       "label": "8-5",
       "blocks": [
         {
           "type": "paragraph",
           "text": "上述合成路线中有 2 个步骤用到相转移催化剂,请推荐一种合适的相转移催化剂(写出具体化合物,用名称或结构式表示)。"
         }
-      ],
-      "partId": "part-000713"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000336-06",
       "label": "8-6",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "使用氢化铝锂的缺点除价格昂贵外,还有其他什么不利之处？简述理由。"
+          "text": "使用氢化铝锂的缺点除价格昂贵外,还有其他什么不利之处?简述理由。"
         }
-      ],
-      "partId": "part-000714"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

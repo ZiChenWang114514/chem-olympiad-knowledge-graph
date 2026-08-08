@@ -1,50 +1,44 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000378",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "化学热力学计算",
-  "number": "Q6",
+  "number": "6",
   "examYear": 2011,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000042",
     "sourceLabel": "2011-25-CChO-chusai.pdf",
-    "pages": [
-      2
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "blocks": [
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [],
+  "parts": [
     {
-      "type": "paragraph",
-      "text": "第 6 题(10 分) \\mathrm { N O _ { 2 } } 和 \\mathrm { N _ { 2 } O _ { 4 } } 混合气体的针管实验是高中化学的经典素材。理论估算和实测发现,混合气体体积由方向压缩为 V / 2 ,温度由 298 K 升至 311 \\mathrm { K } _ { \\circ } 。已知这两个温度下 \\mathrm { N } _ { 2 } \\mathrm { O } _ { 4 } ( \\mathrm { g } ) 2 \\mathrm { N O } _ { 2 } ( \\mathrm { g } ) 的压力平衡常数 K _ { p } 分别为0.141 atm 和 0.363 atm。"
-    },
-    {
-      "type": "subpart",
+      "id": "part-000378-01",
       "label": "6-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "通过计算回答,混合气体经上述压缩后, \\mathrm { N O } _ { 2 } 的浓度比压缩前增加了多少倍。"
+          "text": "通过计算回答,混合气体经上述压缩后,$\\mathrm{NO_2}$ 的浓度比压缩前增加了多少倍。"
         }
-      ],
-      "partId": "part-001741"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000378-02",
       "label": "6-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "动力学实验证明,上述混合气体几微秒内即可达成化学平衡。压缩后的混合气体在室温下放置,颜色如何变化方向为什么方向"
+          "text": "动力学实验证明,上述混合气体几微秒内即可达成化学平衡。压缩后的混合气体在室温下放置,颜色如何变化?为什么?"
         }
-      ],
-      "partId": "part-001742"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

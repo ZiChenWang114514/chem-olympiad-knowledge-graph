@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000030",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,11 +10,13 @@
   "source": {
     "sourceDocumentId": "source-000011",
     "sourceLabel": "2016-30-CChO-juesai.pdf",
-    "pages": [
-      5
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
@@ -23,11 +25,9 @@
     },
     {
       "type": "figure",
-      "src": "data/stems/assets/problem-000030-figure-001.jpg",
+      "caption": "(原题图示缺图)",
       "alt": "原题图示:L→M→N",
-      "displayWidth": 80,
-      "caption": "(原题图示原卷配图)",
-      "assetId": "asset-004636"
+      "src": "data/stems/assets/problem-000030-figure-001.jpg"
     },
     {
       "type": "paragraph",
@@ -35,62 +35,55 @@
     },
     {
       "type": "figure",
-      "src": "data/stems/assets/problem-000030-figure-002.jpg",
+      "caption": "(原题图示缺图)",
       "alt": "原题图示:O→R→S→T",
-      "displayWidth": 80,
-      "caption": "(原题图示原卷配图)",
-      "assetId": "asset-004637"
+      "src": "data/stems/assets/problem-000030-figure-002.jpg"
     },
     {
       "type": "paragraph",
       "text": "$$\n\\underset{(\\mathrm{C}_{17}\\mathrm{H}_{16}\\mathrm{O}_{2})}{\\mathbf{R}} \\xrightarrow[\\mathrm{DCM/MeOH,rt}]{\\mathrm{H}_{2}\\mathrm{O}_{2},\\ \\mathrm{NaOH}} \\mathbf{S} \\xrightarrow[650^{\\circ}\\mathrm{C}]{\\text{FVT}} \\underset{(\\mathrm{C}_{12}\\mathrm{H}_{10}\\mathrm{O}_{3})}{\\mathbf{T}} \\qquad \\text{备注:DCM}=\\mathrm{CH}_{2}\\mathrm{Cl}_{2}\n$$"
-    },
+    }
+  ],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000030-01",
       "label": "9-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "请写出 M 及 Q、R、S、T 的结构简式(如为立体选择性反应产物,需表明立体化学结构)。"
         }
-      ],
-      "partId": "part-000059"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000030-02",
       "label": "9-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "判断化合物 N 有无芳香性,并简述理由。"
         }
-      ],
-      "partId": "part-000060"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000030-03",
       "label": "9-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "请比较化合物 N 及 1,3-环己二烯作为双烯体发生 Diels-Alder 反应的相对活性大小,并简述理由。"
         }
-      ],
-      "partId": "part-000061"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000030-04",
       "label": "9-4",
       "blocks": [
         {
           "type": "paragraph",
           "text": "请指出在 Q→R 反应中,PhOH 的作用。"
         }
-      ],
-      "partId": "part-000062"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

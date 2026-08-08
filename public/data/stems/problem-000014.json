@@ -1,109 +1,70 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000014",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "磷氧化物结构比较",
-  "number": "Q3",
+  "number": "3",
   "examYear": 2016,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000050",
     "sourceLabel": "2016-30-CChO-chusai.pdf",
-    "pages": [
-      1
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "blocks": [
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [],
+  "parts": [
     {
-      "type": "paragraph",
-      "text": "第3题(13分)"
-    },
-    {
-      "type": "subpart",
+      "id": "part-000014-01",
       "label": "3-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "好奇心是科学发展的内在动力之一。 \\mathrm { P _ { 2 } O _ { 3 } } 和 \\mathrm { P _ { 2 } O _ { 5 } } 是两种经典的化合物,其分子结构已经确定。自然而然会有如下问题:是否存在磷氧原子比介于二者之间的化合物方向由此出发,化学家合成并证实了这些中间化合物的存在。"
-        }
-      ],
-      "partId": "part-000936"
-    },
-    {
-      "type": "subpart",
-      "label": "3-1-1",
-      "blocks": [
+          "text": "好奇心是科学发展的内在动力之一。$P_2O_3$ 和 $P_2O_5$ 是两种经典的化合物,其分子结构已经确定。自然而然会有如下问题:是否存在磷氧原子比介于二者之间的化合物?由此出发,化学家合成并证实了这些中间化合物的存在。"
+        },
         {
           "type": "paragraph",
-          "text": "写出这些中间化合物的分子式。"
-        }
-      ],
-      "partId": "part-000937"
-    },
-    {
-      "type": "subpart",
-      "label": "3-1-2",
-      "blocks": [
+          "text": "(1)写出这些中间化合物的分子式。"
+        },
         {
           "type": "paragraph",
-          "text": "画出其中具有2重旋转轴的分子的结构图。根据键⻓不同,将P-O键分组并用阿拉伯数字标出(键⻓相同的用同一个数字标识)。比较键⻆ \\angle 0 { \\mathrm { - } } \\mathrm { P } ( \\mathrm { V } ) { \\mathrm { - } } 0 和 \\angle 0 { \\mathrm { - P ( I I I ) { - } O } } 的大小。"
+          "text": "(2)画出其中具有 2 重旋转轴的分子的结构图。根据键长不同,将 P—O 键分组并用阿拉伯数字标出(键长相同的用同一个数字标识)。比较键角 $\\angle\\mathrm{O-P(V)-O}$ 和 $\\angle\\mathrm{O-P(III)-O}$ 的大小。"
         }
-      ],
-      "partId": "part-000938"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000014-04",
       "label": "3-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "\\mathrm { N H _ { 3 } } 分子独立存在时H-N-H键⻆为106.7°。右图是 \\mathrm { [ Z n ( N H _ { 3 } ) _ { 6 } ] } ^ { \\prime } 2+离子的部分结构以及 _ \\mathrm { H - N - H } 键⻆的测量值。解释配合物中H-N-H键⻆变为109.5°的原因。"
+          "text": "$NH_3$ 分子独立存在时 H—N—H 键角为 106.7°。右图是 $[Zn(NH_3)_6]^{2+}$ 离子的部分结构以及 H—N—H 键角的测量值。解释配合物中 H—N—H 键角变为 109.5°的原因。"
         }
-      ],
-      "partId": "part-000939"
+      ]
     },
     {
-      "type": "paragraph",
-      "text": "\\mathrm{Zn} ^ {2 +} \\xleftarrow {109 . 5 ^ {\\circ}}  \\mathrm{H} \\\\ \\mathrm{N} \\\\ \\mathrm{H}   109. 5 ^ {\\circ} \\\\ \\mathrm{H} \\\\ \\mathrm{H} "
-    },
-    {
-      "type": "subpart",
+      "id": "part-000014-05",
       "label": "3-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "量子化学计算预测未知化合物是现代化学发展的途径之一。2016年2月有人通过计算预言铁也存在四氧化物,其分子构型是四面体,但该分子中铁的氧化态是+6而不是 + 8 _ { \\mathsf { c } }"
-        }
-      ],
-      "partId": "part-000940"
-    },
-    {
-      "type": "subpart",
-      "label": "3-3-1",
-      "blocks": [
+          "text": "量子化学计算预测未知化合物是现代化学发展的途径之一。2016年2月有人通过计算预言铁也存在四氧化物,其分子构型是四面体,但该分子中铁的氧化态是 +6 而不是 +8。"
+        },
         {
           "type": "paragraph",
-          "text": "写出该分子中铁的价电子组态。"
-        }
-      ],
-      "partId": "part-000941"
-    },
-    {
-      "type": "subpart",
-      "label": "3-3-2",
-      "blocks": [
+          "text": "(1)写出该分子中铁的价电子组态。"
+        },
         {
           "type": "paragraph",
-          "text": "画出该分子结构的示意图(用元素符号表示原子,用短线表示原子间的化学键)。"
+          "text": "(2)画出该分子结构的示意图(用元素符号表示原子,用短线表示原子间的化学键)。"
         }
-      ],
-      "partId": "part-000942"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

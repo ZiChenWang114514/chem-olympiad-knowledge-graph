@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000045",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,206 +8,133 @@
   "examYear": 2017,
   "examStage": "final",
   "source": {
+    "sourceDocumentId": "source-000012",
     "sourceLabel": "2017-31-CChO-juesai.pdf",
-    "pages": [
-      1,
-      2,
-      3
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000012"
+    "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第5题 酸性溶液中 Ce ( IV ) 是一种强氧化剂,被用于定量分析和有机合成等领域."
+      "text": "尽管水溶液中 $\\mathrm{Ce^{4+}}$ 强烈水解,但在高酸度溶液($[\\mathrm{HClO_4}] > 6.05\\ \\mathrm{mol\\ kg^{-1}}$)中 $\\mathrm{Ce^{4+}}$ 仍然会发生反应:$\\mathrm{Ce^{4+}} + \\mathrm{e^-} \\rightleftharpoons \\mathrm{Ce^{3+}}$。高氯酸溶液中 $\\mathrm{Ce^{4+}}$ 与 OH− 形成 4 种配合物的累积生成常数的对数分别为 $\\lg \\beta_1^{\\ominus} = 14.76$、$\\lg \\beta_2^{\\ominus} = 28.04$、$\\lg \\beta_3^{\\ominus} = 40.53$、$\\lg \\beta_4^{\\ominus} = 51.86$,有关物质的标准摩尔生成吉布斯自由能 $\\Delta_{\\mathrm{f}} G_{\\mathrm{m}}^{\\ominus}$ 列于表 5-1。"
     },
     {
-      "type": "subpart",
-      "label": "5-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "酸性溶液中Ce(IV)是强氧化剂.写出相关水解反应,配合物生成常数表达式,并利用表中数据计算. 表"
-        },
-        {
-          "type": "paragraph",
-          "text": "物质的标准摩尔生成吉布斯自由能(298.15K) <table><tr><td>物质</td><td>Δ_fG_m^⊖ / kJmol^-1</td></tr><tr><td>H_2O(l)</td><td>-237.10</td></tr><tr><td>OH^-(aq)</td><td>-157.20</td></tr><tr><td>H^+(aq)</td><td>0</td></tr><tr><td>Ce^4+(aq)</td><td>-503.80</td></tr></table>"
-        }
-      ],
-      "partId": "part-001909"
+      "type": "paragraph",
+      "text": "表 5-1  物质的标准摩尔生成吉布斯自由能(298.15 K)"
     },
     {
-      "type": "subpart",
-      "label": "5-1-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出 Ce ^ 4 + 水解反应的一般表达式,标准水解平衡常数的一般表达式."
-        }
-      ],
-      "partId": "part-001910"
+      "type": "paragraph",
+      "text": "(1)写出 $\\mathrm{Ce^{4+}}$ 水解反应的一般表达式、标准水解平衡常数的一般表达式。"
     },
     {
-      "type": "subpart",
-      "label": "5-1-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出 Ce ^ 4 +与OH−形成配合物反应的一般表达式,标准累计生成常数 itB _ i ^ ⊖ 的一般表达式."
-        }
-      ],
-      "partId": "part-001911"
+      "type": "paragraph",
+      "text": "(2)写出 $\\mathrm{Ce^{4+}}$ 与 OH− 形成配合物反应的一般表达式、标准累计生成常数 $\\beta_i^{\\ominus}$ 的一般表达式。"
     },
     {
-      "type": "subpart",
-      "label": "5-1-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "求 Ce ^ 4 + 水解反应生成的4种氢氧化物的Δ _ fG _ m ^ ⊖ ."
-        }
-      ],
-      "partId": "part-001912"
+      "type": "paragraph",
+      "text": "(3)求 $\\mathrm{Ce^{4+}}$ 水解反应生成的 4 种氢氧化物的 $\\Delta_{\\mathrm{f}} G_{\\mathrm{m}}^{\\ominus}$。"
     },
     {
-      "type": "subpart",
-      "label": "5-1-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "当 pH < 8Ce ^ 3 + +不水解.当 HClO _ 4 浓度< 6.05molkg ^ - 1时, Ce ^ 4 + / Ce ^ 3 + 电对的电位是溶液的pH, Ce ( IV ) 配合物的β _ i ^ ⊖ ,有关物种浓度的函数,试导出这一函数关系."
-        }
-      ],
-      "partId": "part-001913"
+      "type": "paragraph",
+      "text": "(4)当 $\\mathrm{pH} < 8$ 时 $\\mathrm{Ce^{3+}}$ 不水解。当 $\\mathrm{HClO_4}$ 浓度 $< 6.05\\ \\mathrm{mol\\ kg^{-1}}$ 时,$\\mathrm{Ce^{4+}/Ce^{3+}}$ 电对的电位是溶液的 pH、$\\mathrm{Ce(IV)}$ 配合物的 $\\beta_i^{\\ominus}$、有关物种浓度的函数,试导出这一函数关系。"
     },
     {
-      "type": "subpart",
-      "label": "5-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "在 HClO _ 4 溶液中, Ce ^ 4 + / Ce ^ 3 + 电对的电位与温度的关系如下图所示."
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000045-figure-001.jpg",
-          "alt": "原卷第5题图1：在 HClO _ 4 溶液中, Ce ^ 4 + / Ce ^ 3 + 电对的电位与温度的关系如下图所示.",
-          "displayWidth": 70,
-          "assetId": "asset-005295"
-        },
-        {
-          "type": "paragraph",
-          "text": "根据上图指出,当 HClO _ 4 浓度大于或小于"
-        },
-        {
-          "type": "paragraph",
-          "text": "m时, Ce ^ 4 + 被还原成 Ce ^ 3 + 的反应的熵变∆大于0,等于0或小于0,并说明反应焓变∆的相应变化情况."
-        }
-      ],
-      "partId": "part-001914"
+      "type": "paragraph",
+      "text": "在 $\\mathrm{HClO_4}$ 溶液中,$\\mathrm{Ce^{4+}/Ce^{3+}}$ 电对的电位与温度的关系如下图所示。"
     },
     {
-      "type": "subpart",
-      "label": "5-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "采用分光光度法研究了高氯酸中Ce(IV)对有机物ATF的氧化反应.所有动力学测试都在准一级条件下进行,即ATF的浓度大大过量于[Ce(IV)].研究发现,Ce(IV)氧化ATF的反应对Ce(IV)的分级数为一级,求得的表观一级速率常数smashknotequivG _ perp ^ | |于表5-2.该反应的化学计量反应式如下:"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000045-figure-002.jpg",
-          "alt": "原卷第5题图2：采用分光光度法研究了高氯酸中Ce(IV)对有机物ATF的氧化反应.所有动力学测试都在准一级条件下进行,即ATF的浓度大大过量于[Ce(IV)",
-          "displayWidth": 70,
-          "assetId": "asset-005296"
-        },
-        {
-          "type": "paragraph",
-          "text": "表 5-2 [ATF]和[H+]对 Ce(IV)氧化 ATF 的反应的| k _ mp / XiXirangle响 (293.3K,[ Ce ( IV ) ] = 2.0 × 10^-4 : mol : L ^ - 1 )<table><tr><td>[ATF] /10^-3molL^-1</td><td>[H^+] / molL^-1</td><td>k_表/10^-4s^-1</td></tr><tr><td>3.0</td><td>0.5</td><td>16.2</td></tr><tr><td>4.0</td><td>0.5</td><td>19.4</td></tr><tr><td>5.0</td><td>0.5</td><td>24.3</td></tr><tr><td>7.0</td><td>0.5</td><td>32.5</td></tr><tr><td>9.0</td><td>0.5</td><td>40.9</td></tr><tr><td>6.0</td><td>0.2</td><td>46.1</td></tr><tr><td>6.0</td><td>0.3</td><td>39.9</td></tr><tr><td>6.0</td><td>0.4</td><td>34.2</td></tr><tr><td>6.0</td><td>0.6</td><td>24.9</td></tr><tr><td>6.0</td><td>0.8</td><td>18.5</td></tr></table> 结果表明,Ce(IV)氧化ATF的反应是自由基反应.在题给酸度条件下,Ce(III)不水解,于是提出如下反应机理:"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000045-figure-003.jpg",
-          "alt": "原卷第5题图3：表 5-2 [ATF]和[H+]对 Ce(IV)氧化 ATF 的反应的| k _ mp / XiXirangle响 (293.3K,[ Ce",
-          "displayWidth": 70,
-          "assetId": "asset-005297"
-        },
-        {
-          "type": "paragraph",
-          "text": "() ()"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000045-figure-004.jpg",
-          "alt": "原卷第5题图4：() ()",
-          "displayWidth": 70,
-          "assetId": "asset-005298"
-        },
-        {
-          "type": "paragraph",
-          "text": "()"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000045-figure-005.jpg",
-          "alt": "原卷第5题图5：()",
-          "displayWidth": 70,
-          "assetId": "asset-005299"
-        },
-        {
-          "type": "paragraph",
-          "text": "()"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000045-figure-006.jpg",
-          "alt": "原卷第5题图6：()",
-          "displayWidth": 70,
-          "assetId": "asset-005300"
-        },
-        {
-          "type": "paragraph",
-          "text": "()Oxrightarrow [ NMe _ 2 ]OHxrightarrowfastCO _ 2 + HNMe _ 26已知:K _ OH = 0.27molL ^ - 1 , K = 120molL ^ - 1q"
-        }
-      ],
-      "partId": "part-001916"
+      "type": "paragraph",
+      "text": "根据上图指出,当 $\\mathrm{HClO_4}$ 浓度大于或小于 1.85 m 时,$\\mathrm{Ce^{4+}}$ 被还原成 $\\mathrm{Ce^{3+}}$ 的反应的熵变 $\\Delta S$ 大于 0、等于 0 或小于 0,并说明反应焓变 $\\Delta H$ 的相应变化情况。"
     },
     {
-      "type": "subpart",
-      "label": "5-3-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "请根据以上反应机理,导出Ce(IV)氧化ATF反应的速率方程,并给出k #的表达式."
-        }
-      ],
-      "partId": "part-001917"
+      "type": "paragraph",
+      "text": "采用分光光度法研究了高氯酸中 Ce(IV) 对有机物 ATF 的氧化反应。所有动力学测试都在准一级条件下进行,即 ATF 的浓度大大过量于 [Ce(IV)]。研究发现,Ce(IV) 氧化 ATF 的反应对 Ce(IV) 的分级数为一级,求得的表观一级速率常数 $k_{\\text{obs}}$ 列于表 5-2。该反应的化学计量反应式如下:"
     },
     {
-      "type": "subpart",
-      "label": "5-3-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "根据k #的表达式,结合表5-2,讨论[ATF]对<sub>表</sub>的影响,指出反应对ATF的级数大于1或小于1 _ °"
-        }
-      ],
-      "partId": "part-001918"
+      "type": "paragraph",
+      "text": "表 5-2  [ATF] 和 [H+] 对 Ce(IV) 氧化 ATF 的反应的 $k_{\\text{obs}}$ 影响(293.3 K,$[\\mathrm{Ce(IV)}] = 2.0 \\times 10^{-4}\\ \\mathrm{mol\\ L^{-1}}$)"
     },
     {
-      "type": "subpart",
-      "label": "5-3-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "根ddaggerboxedEkne的表达式,结合表5-2,讨论[H+]对k _ ☉ 的影响."
-        }
-      ],
-      "partId": "part-001919"
+      "type": "paragraph",
+      "text": "结果表明,Ce(IV) 氧化 ATF 的反应是自由基反应。在题给酸度条件下,Ce(III) 不水解,于是提出如下反应机理:"
+    },
+    {
+      "type": "paragraph",
+      "text": "(1)"
+    },
+    {
+      "type": "paragraph",
+      "text": "(2)"
+    },
+    {
+      "type": "paragraph",
+      "text": "(3)"
+    },
+    {
+      "type": "paragraph",
+      "text": "(4)"
+    },
+    {
+      "type": "paragraph",
+      "text": "(5)"
+    },
+    {
+      "type": "paragraph",
+      "text": "(6)"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\\mathrm{O} \\xrightarrow[\\mathrm{NMe_2}]{\\mathrm{OH}} \\quad \\xrightarrow{\\text{fast}} \\quad \\mathrm{CO_2} + \\quad \\mathrm{HNMe_2} \\tag{6}$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "已知:$K_{\\mathrm{OH}} = 0.27\\ \\mathrm{mol\\ L^{-1}}$,$K = 120\\ \\mathrm{mol\\ L^{-1}}$。"
+    },
+    {
+      "type": "paragraph",
+      "text": "(1)请根据以上反应机理,导出 Ce(IV) 氧化 ATF 反应的速率方程,并给出 $k_{\\text{obs}}$ 的表达式。"
+    },
+    {
+      "type": "paragraph",
+      "text": "(2)根据 $k_{\\text{obs}}$ 的表达式,结合表 5-2,讨论 [ATF] 对 $k_{\\text{obs}}$ 的影响,指出反应对 ATF 的级数大于 1 或小于 1。"
+    },
+    {
+      "type": "paragraph",
+      "text": "(3)根据 $k_{\\text{obs}}$ 的表达式,结合表 5-2,讨论 [H+] 对 $k_{\\text{obs}}$ 的影响。"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000045-figure-001.jpg",
+      "alt": "problem-000045题目配图第1幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000045-figure-002.jpg",
+      "alt": "problem-000045题目配图第2幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000045-figure-003.jpg",
+      "alt": "problem-000045题目配图第3幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000045-figure-004.jpg",
+      "alt": "problem-000045题目配图第4幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000045-figure-005.jpg",
+      "alt": "problem-000045题目配图第5幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000045-figure-006.jpg",
+      "alt": "problem-000045题目配图第6幅（已按原图查看）"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

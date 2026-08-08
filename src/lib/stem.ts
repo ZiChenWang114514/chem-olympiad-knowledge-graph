@@ -12,7 +12,7 @@ export async function loadStemIndex(): Promise<StemIndex> {
   try {
     return await getJson<StemIndex>('data/stems/index.json')
   } catch {
-    return { schemaVersion: 2, items: [] }
+    return { schemaVersion: 1, items: [] }
   }
 }
 
@@ -28,9 +28,14 @@ export async function loadProblemStem(problemId: string, index?: StemIndex): Pro
   if (stem.problemId !== problemId) {
     throw new Error(`题干 problemId 与请求不一致：${stem.problemId} ≠ ${problemId}`)
   }
-  if (stem.schemaVersion !== 2) {
+  if (stem.schemaVersion !== 1) {
     throw new Error(`不支持的题干 schemaVersion：${stem.schemaVersion}`)
   }
-  if (!stem.blocks.length) throw new Error('题干缺少 blocks')
+  const hasBody = (stem.blocks && stem.blocks.length > 0) || (stem.parts && stem.parts.length > 0)
+  if (!hasBody) throw new Error('题干缺少 blocks / parts')
   return stem
+}
+
+export function isDemoStem(stem: ProblemStem): boolean {
+  return stem.rightsState === 'stem_demo' || stem.source.transcriptionMethod === 'synthetic_demo'
 }

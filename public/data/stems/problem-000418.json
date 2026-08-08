@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000418",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,11 +10,13 @@
   "source": {
     "sourceDocumentId": "source-000008",
     "sourceLabel": "2013-27-CChO-juesai.pdf",
-    "pages": [
-      1
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
@@ -27,25 +29,24 @@
     },
     {
       "type": "figure",
-      "src": "data/stems/assets/problem-000418-figure-001.jpg",
+      "caption": "锰氧簇氧化水的过程示意图(缺图)",
       "alt": "锰氧簇S0到S4的循环示意图",
-      "displayWidth": 80,
-      "caption": "锰氧簇氧化水的过程示意图(原卷配图)",
-      "assetId": "asset-004933"
-    },
+      "src": "data/stems/assets/problem-000418-figure-001.jpg"
+    }
+  ],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000418-01",
       "label": "2-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "光合作用中,水的氧化是几个电子转移的过程？"
+          "text": "光合作用中,水的氧化是几个电子转移的过程?"
         }
-      ],
-      "partId": "part-000838"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000418-02",
       "label": "2-2",
       "blocks": [
         {
@@ -54,17 +55,16 @@
         },
         {
           "type": "paragraph",
-          "text": "\\text{(a)}\\mathrm{MnO_4^{3-}}+4\\mathrm{H^+}+\\mathrm{e^-}\\rightarrow\\mathrm{MnO_2}+2\\mathrm{H_2O} & E^\\ominus=2.90\\,\\mathrm{V}\\\\\\text{(b)}\\mathrm{MnO_2}+4\\mathrm{H^+}+\\mathrm{e^-}\\rightarrow\\mathrm{Mn^{3+}}+2\\mathrm{H_2O} & E^\\ominus=0.95\\,\\mathrm{V}\\\\\\text{(c)}\\mathrm{O_2}+4\\mathrm{H^+}+4\\mathrm{e^-}\\rightarrow2\\mathrm{H_2O} & E^\\ominus=1.23\\,\\mathrm{V}"
+          "text": "$$\\begin{array}{ll}\\text{(a)}\\mathrm{MnO_4^{3-}}+4\\mathrm{H^+}+\\mathrm{e^-}\\rightarrow\\mathrm{MnO_2}+2\\mathrm{H_2O} & E^\\ominus=2.90\\,\\mathrm{V}\\\\\\text{(b)}\\mathrm{MnO_2}+4\\mathrm{H^+}+\\mathrm{e^-}\\rightarrow\\mathrm{Mn^{3+}}+2\\mathrm{H_2O} & E^\\ominus=0.95\\,\\mathrm{V}\\\\\\text{(c)}\\mathrm{O_2}+4\\mathrm{H^+}+4\\mathrm{e^-}\\rightarrow2\\mathrm{H_2O} & E^\\ominus=1.23\\,\\mathrm{V}\\end{array}$$"
         },
         {
           "type": "paragraph",
           "text": "计算上述半反应在中性条件下的电极电势。假定$\\mathrm{MnO_4^{3-}}$和$\\mathrm{Mn^{3+}}$的浓度均为$0.10\\,\\mathrm{mol\\,L^{-1}}$,氧分压等于其在空气中的分压。回答此条件下$\\mathrm{MnO_4^{3-}}$和$\\mathrm{MnO_2}$能否氧化水。"
         }
-      ],
-      "partId": "part-000839"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000418-03",
       "label": "2-3",
       "blocks": [
         {
@@ -83,44 +83,27 @@
           "type": "paragraph",
           "text": "$$\\mathrm{(e)}\\;\\mathrm{Mn(H_2P_2O_7)_3^{3-}}+2\\mathrm{H^+}+\\mathrm{e^-}\\rightarrow\\mathrm{Mn(H_2P_2O_7)_2^{2-}}+\\mathrm{H_4P_2O_7}\\quad E=1.15\\,\\mathrm{V}$$"
         }
-      ],
-      "partId": "part-000840"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000418-04",
       "label": "2-3-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "计算(e)中的半反应的标准电极电势。($\\mathrm{H_4P_2O_7}$的酸解离常数:$K_{a1}=1.2\\times10^{-1}$,$K_{a2}=7.9\\times10^{-3}$,$K_{a3}=2.0\\times10^{-7}$,$K_{a4}=4.5\\times10^{-10}$)"
         }
-      ],
-      "partId": "part-000841"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000418-05",
       "label": "2-3-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "计算$\\mathrm{Mn(H_2P_2O_7)_2^{2-}}$和$\\mathrm{Mn(H_2P_2O_7)_3^{3-}}$的稳定常数之比。"
         }
-      ],
-      "partId": "part-000842"
-    },
-    {
-      "type": "subpart",
-      "label": "2-22",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "5 ~ ^ ° C .,标态下,下列电极反应的电极电势分别为[l l (a) MnO_ 4 ^ 3 - + 4 H^ + + e^ - → MnO_ 2 + 2 H_ 2 O&E ^ ⊖ = 2. 90 V (b) MnO_ 2 + 4 H^ + + e^ - → Mn^ 3 + + 2 H_ 2 O&E ^ ⊖ = 0. 95 V (c) O_ 2 + 4 H^ + + 4 e^ - → 2 H_ 2 O&E ^ ⊖ = 1. 23 V]计算上述半反应在中性条件下的电极电势。假定 M n O _ 4 ^ 3 × -和Mn3+的浓度均为0.10 mol L-1,氧分压等于其在空气中的分压。回答此条件下 M n O _ 4 ^ 3 - 和 M n O _ 2 能否氧化水。"
-        }
-      ],
-      "partId": "part-000843"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

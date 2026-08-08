@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000400",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,34 +10,25 @@
   "source": {
     "sourceDocumentId": "source-000046",
     "sourceLabel": "2012-26-CChO-chusai.pdf",
-    "pages": [
-      3
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "blocks": [
-    {
-      "type": "subpart",
-      "label": "10",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出化合物 A、B、C、D、E 和 F 的结构简式。"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000400-figure-001.jpg",
-          "alt": "化学反应路线与结构式示意图(原图)",
-          "displayWidth": 80,
-          "caption": "反应流程示意图",
-          "assetId": "asset-004927"
-        }
-      ],
-      "partId": "part-000805"
-    }
-  ],
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
-  }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "画出化合物 A、B、C、D、E 和 F 的结构简式。"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000400-figure-001.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "反应流程示意图"
+    }
+  ],
+  "parts": []
 }

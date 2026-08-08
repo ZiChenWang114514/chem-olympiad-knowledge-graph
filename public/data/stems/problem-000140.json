@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000140",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,85 +8,39 @@
   "examYear": 2021,
   "examStage": "preliminary",
   "source": {
+    "sourceDocumentId": "source-000056",
     "sourceLabel": "2021-35-CChO-chusai-jiangsu.pdf",
-    "pages": [
-      4
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000056"
+    "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第 9 题"
+      "text": "9 · 化学反应与结构综合分析"
     },
     {
-      "type": "subpart",
-      "label": "9-1-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "已知2-萘酚与碘甲烷和对甲苯磺酸甲酯在碱性条件下反应情况如下,请分析原因."
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000140-figure-001.jpg",
-          "alt": "原卷第9题图1：已知2-萘酚与碘甲烷和对甲苯磺酸甲酯在碱性条件下反应情况如下,请分析原因.",
-          "displayWidth": 70,
-          "assetId": "asset-005346"
-        }
-      ],
-      "partId": "part-002077"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000140-figure-001.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "题目配图"
     },
     {
-      "type": "subpart",
-      "label": "9-1-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "请画出以下反应中G和H的结构简式(需画出产物的立体结构)."
-        }
-      ],
-      "partId": "part-002078"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000140-figure-002.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "题目配图"
     },
     {
-      "type": "subpart",
-      "label": "9-2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "环戊酮与2-叠氮基乙醇能够发生如下的反应,而环戊酮与2-甲氧基乙基叠氮化物却不发生反应,请画出以下转化过程中必定经过的四个关键中间体."
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000140-figure-002.jpg",
-          "alt": "原卷第9题图2：环戊酮与2-叠氮基乙醇能够发生如下的反应,而环戊酮与2-甲氧基乙基叠氮化物却不发生反应,请画出以下转化过程中必定经过的四个关键中间体.",
-          "displayWidth": 70,
-          "assetId": "asset-005347"
-        }
-      ],
-      "partId": "part-002079"
-    },
-    {
-      "type": "subpart",
-      "label": "9-2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "参照上述转化,画出以下反应主要产物J的结构简式."
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000140-figure-003.jpg",
-          "alt": "原卷第9题图3：参照上述转化,画出以下反应主要产物J的结构简式.",
-          "displayWidth": 70,
-          "assetId": "asset-005348"
-        }
-      ],
-      "partId": "part-002080"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000140-figure-003.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "题目配图"
     }
   ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  "parts": []
 }

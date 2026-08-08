@@ -1,78 +1,77 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000446",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "有机反应产物结构",
-  "number": "Q8",
+  "number": "8",
   "examYear": 2014,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000009",
     "sourceLabel": "2014-28-CChO-juesai.pdf",
-    "pages": [
-      4
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第 8 题(4 分)"
-    },
-    {
-      "type": "paragraph",
-      "text": "画出反应(a)中A,反应(b)中主产物B,(c)中主要产物C的结构简式。"
-    },
-    {
-      "type": "paragraph",
-      "text": "(b) (a)"
+      "text": "画出反应(a)中A、反应(b)中主产物B、(c)中主要产物C的结构简式。"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000446-figure-001.jpg",
-      "assetId": "asset-005268",
-      "alt": "原卷示意图：(b)",
-      "label": "(b)",
-      "caption": "(b)；(a)",
-      "displayWidth": 100
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "反应(a)与反应(b)的图示"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000446-figure-002.jpg",
-      "assetId": "asset-005269",
-      "alt": "原卷示意图：(a)",
-      "label": "(a)",
-      "caption": "(a)",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "(c)"
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "反应(c)的图示"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000446-figure-003.jpg",
-      "assetId": "asset-005270",
-      "alt": "原卷示意图：(c)",
-      "label": "(c)",
-      "caption": "(c)",
-      "displayWidth": 100
-    },
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "反应(a)的图示"
+    }
+  ],
+  "parts": [
     {
-      "type": "subpart",
-      "label": "8-1",
+      "id": "part-000446-01",
+      "label": "(a)",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
+          "text": "写出反应(a)中A的结构简式。"
         }
-      ],
-      "partId": "part-001826"
+      ]
+    },
+    {
+      "id": "part-000446-02",
+      "label": "(b)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出反应(b)中主产物B的结构简式。"
+        }
+      ]
+    },
+    {
+      "id": "part-000446-03",
+      "label": "(c)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出反应(c)中主要产物C的结构简式。"
+        }
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

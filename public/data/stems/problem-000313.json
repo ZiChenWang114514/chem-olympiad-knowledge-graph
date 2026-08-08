@@ -1,140 +1,26 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000313",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "硼纤维复合材料分析",
-  "number": "Q3",
+  "number": "3",
   "examYear": 2007,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000002",
     "sourceLabel": "2007-21-CChO-juesai.pdf",
-    "pages": [
-      2,
-      3
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第3题 近年来人们开发了一种由铝合金和硼纤维组成的铝合金基-硼纤维复合材料。该材料具有比铝合金更高的比强度和比模量,可用于航空,航天⻜行器。有人设计了一种分析这种复合材料中硼含量的方法:用混酸溶解方向克样品,配成体积为 W _ { 0 } 的试样溶液;通过强酸型阳离子交换树脂除尽溶液中的金属阳离子;以甲基红为指示剂,用NaOH溶液中和试样溶液;加入甘露醇。使硼酸 \\left( K _ { a } \\ = 5 . 8 \\times 10 ^ { - 10 } \\right) 定量地转变为甘露醇-硼酸配合物\\left( K _ { a } = 8 . 4 \\times 10 ^ { - 6 } \\right) ,反应方程式为:"
-    },
-    {
-      "type": "paragraph",
-      "text": "2  \\mathrm{R} \\\\ | \\\\ \\mathrm{H} - \\mathrm{C} - \\mathrm{OH} \\\\ | \\\\ \\mathrm{H} - \\mathrm{C} - \\mathrm{OH} \\\\ | \\\\ \\mathrm{R}  + \\mathrm{H} _ {3} \\mathrm{BO} _ {3} \\longrightarrow \\left[  \\mathrm{R} & \\mathrm{R} \\\\ | & | \\\\ \\mathrm{H} - \\mathrm{C} - \\mathrm{O} & \\mathrm{O} - \\mathrm{C} - \\mathrm{H} \\\\ | & | \\\\ \\mathrm{H} - \\mathrm{C} - \\mathrm{O} & \\mathrm{B} - \\mathrm{C} - \\mathrm{H} \\\\ | & | \\\\ \\mathrm{R} & \\mathrm{R}  \\right] ^ {-} + \\mathrm{H} ^ {+} + 3 \\mathrm{H} _ {2} \\mathrm{O}"
-    },
-    {
-      "type": "paragraph",
-      "text": "再加入适当指示剂,用NaOH溶液滴定到终点。主要分析流程图如下(图中只列出主要物质,其他少量物质的干扰可以不予考虑)。"
-    },
-    {
-      "type": "subpart",
-      "label": "3-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出从A框到B框生成 \\mathrm { H _ { 3 } B O _ { 3 } } 的反应方程式以及 \\mathrm { H _ { 3 } B O _ { 3 } } 在水溶液中的电离方程式。"
-        }
-      ],
-      "partId": "part-001645"
-    },
-    {
-      "type": "subpart",
-      "label": "3-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "除去过量酸后的热溶液在冷却至室温过程中有时析出白色鳞片状晶体。写出该晶体的化学式并解释为什么晶体呈片状。"
-        }
-      ],
-      "partId": "part-001646"
-    },
-    {
-      "type": "subpart",
-      "label": "3-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "从C框到D框的滴定操作过程中,是否需要准确地中和 \\mathrm { H } ^ { + 2 } 简述原因。"
-        }
-      ],
-      "partId": "part-001647"
-    },
-    {
-      "type": "subpart",
-      "label": "3-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "从原理上分析D框到E框这一步操作的目的。"
-        }
-      ],
-      "partId": "part-001648"
-    },
-    {
-      "type": "subpart",
-      "label": "3-4-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "如果E框中配合物和 \\mathrm { N a O H } 滴定剂的浓度均为0.10 mol L−1,请估算滴定到化学计量点时的pH,并指出从E框到F框的滴定过程中,应该选用哪种指示剂方向滴定终点的颜色是什么方向"
-        }
-      ],
-      "partId": "part-002617"
-    },
-    {
-      "type": "table",
-      "headers": [
-        "酸式",
-        "碱式"
-      ],
-      "rows": [
-        [
-          "甲基橙",
-          "3.1~4.4",
-          "红",
-          "橙黄",
-          "3.4"
-        ],
-        [
-          "甲基红",
-          "4.4~6.2",
-          "红",
-          "黄",
-          "5.0"
-        ],
-        [
-          "酚红",
-          "6.7~8.4",
-          "黄",
-          "红",
-          "8.0"
-        ],
-        [
-          "酚酞",
-          "8.2~10.0",
-          "无",
-          "紫红",
-          "9.4"
-        ]
-      ]
-    },
-    {
-      "type": "subpart",
-      "label": "3-6",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "V _ { 0 } , , V _ { 1 } 和 \\mathsf { I } V _ { 2 } 的单位都为mL, M _ { \\mathrm { B } } 为硼的摩尔质量(g mol−1),方向(NaOH)为 NaOH 溶液的浓度(mol L−1),请给出被测溶液中硼含量(g L−1)的计算式。"
-        }
-      ],
-      "partId": "part-001650"
+      "text": "第3题 近年来人们开发了一种由铝合金和硼纤维组成的铝合金基-硼纤维复合材料。该材料具有比铝合金更高的比强度和比模量，可用于航空、航天⻜⾏器。有人设计了一种分析这种复合材料中硼含量的方法：用混酸溶解?克样品，配成体积为 $W _ { 0 }$ 的试样溶液；通过强酸型阳离⼦交换树脂除尽溶液中的金属阳离⼦；以甲基红为指示剂，用NaOH溶液中和试样溶液；加入⽢露醇。使硼酸 $\\left( K _ { a } \\ = 5 . 8 \\times 1 0 ^ { - 1 0 } \\right)$ 定量地转变为⽢露醇-硼酸配合物$\\left( K _ { a } = 8 . 4 \\times 1 0 ^ { - 6 } \\right)$ ，反应方程式为： $$ 2 \\begin{array}{c} \\mathrm{R} \\\\ | \\\\ \\mathrm{H} - \\mathrm{C} - \\mathrm{OH} \\\\ | \\\\ \\mathrm{H} - \\mathrm{C} - \\mathrm{OH} \\\\ | \\\\ \\mathrm{R} \\end{array} + \\mathrm{H} _ {3} \\mathrm{BO} _ {3} \\longrightarrow \\left[ \\begin{array}{c c} \\mathrm{R} & \\mathrm{R} \\\\ | & | \\\\ \\mathrm{H} - \\mathrm{C} - \\mathrm{O} & \\mathrm{O} - \\mathrm{C} - \\mathrm{H} \\\\ | & | \\\\ \\mathrm{H} - \\mathrm{C} - \\mathrm{O} & \\mathrm{B} - \\mathrm{C} - \\mathrm{H} \\\\ | & | \\\\ \\mathrm{R} & \\mathrm{R} \\end{array} \\right] ^ {-} + \\mathrm{H} ^ {+} + 3 \\mathrm{H} _ {2} \\mathrm{O} $$ 再加入适当指示剂，用NaOH溶液滴定到终点。主要分析流程图如下（图中只列出主要物质，其他少量物质的⼲扰可以不予考虑）。 3-1 写出从A框到B框生成 $\\mathrm { H _ { 3 } B O _ { 3 } }$ 的反应方程式以及 $\\mathrm { H _ { 3 } B O _ { 3 } }$ 在⽔溶液中的电离方程式。 3-2 除去过量酸后的热溶液在冷却⾄室温过程中有时析出白色鳞⽚状晶体。写出该晶体的化学式并解释为什么晶体呈⽚状。 3-3 从C框到D框的滴定操作过程中，是否需要准确地中和 $\\mathrm { H } ^ { + 2 }$ 简述原因。 3-4 从原理上分析D框到E框这一步操作的⽬的。 3-4 如果E框中配合物和 $\\mathrm { N a O H }$ 滴定剂的浓度均为0.10 mol L−1，请估算滴定到化学计量点时的pH，并指出从E框到F框的滴定过程中，应该选用哪种指示剂？滴定终点的颜色是什么？ 3-6 $V _ { 0 } ,$ 、 $V _ { 1 }$ 和 $\\mathsf { I } V _ { 2 }$ 的单位都为mL， $M _ { \\mathrm { B } }$ 为硼的摩尔质量(g mol−1)，?(NaOH)为 NaOH 溶液的浓度(mol L−1)，请给出被测溶液中硼含量(g L−1)的计算式。"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

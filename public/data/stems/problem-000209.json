@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000209",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,141 +8,19 @@
   "examYear": 2023,
   "examStage": "final",
   "source": {
+    "sourceDocumentId": "source-000025",
     "sourceLabel": "2023-37-CChO-juesai-1.pdf",
-    "pages": [
-      1
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000025"
+    "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "## 第2题(原文题目标题未单独识别)"
-    },
-    {
-      "type": "subpart",
-      "label": "2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "依照元素物理和化学性质的特点,以下三种元素离子半径最大的是:A. $\\mathrm { Sc }$ B. YC. Lu"
-        }
-      ],
-      "partId": "part-002182"
-    },
-    {
-      "type": "subpart",
-      "label": "2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "常压下,Sc可与 $\\mathrm { O _ { 2 } }$ 反应生成 $\\mathrm { Sc _ { 2 } O _ { 3 \\circ } }$ X射线晶体衍射分析发现, $\\mathrm { Sc _ { 2 } O _ { 3 } }$ 的晶体结构属立方晶系,晶胞参数 $a = 0.9845 \\mathrm { nm }$ ,密度 $\\mathrm { ~ \\bf ~ \\underline { ~ } { ~ \\underline { ~ } { ~ \\rho ~ } ~ } ~ } = 3.864 \\mathrm { g } \\mathrm { cm } ^ { - 3 }$ $\\mathrm { O ^ { 2 \\cdot } }$ −之间的最小间距为0.246nm."
-        }
-      ],
-      "partId": "part-002183"
-    },
-    {
-      "type": "subpart",
-      "label": "2-2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算一个晶胞中所含 $\\mathrm { Sc _ { 2 } O _ { 3 } }$ 的分子数.(写出结果即可,不需要计算过程)"
-        }
-      ],
-      "partId": "part-002184"
-    },
-    {
-      "type": "subpart",
-      "label": "2-2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出立方晶胞中两种以 $\\mathrm { Sc ^ { 3 + } }$ 为中心的 $\\mathrm { Sc } { - } \\mathrm { O }$ 配位多面体单胞结构示意图."
-        }
-      ],
-      "partId": "part-002185"
-    },
-    {
-      "type": "subpart",
-      "label": "2-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "$\\mathrm { Sc _ { 2 } O _ { 3 } }$ 与无水HF作用可生成 ${ \\mathrm { ScF } } _ { 3 } ,$ $\\mathrm { ScF _ { 3 } }$ 同属于立方晶系,晶胞中最近邻 ${ \\mathrm { Sc ^ { 3 + } } }$ 间距为 0.402nm,密度 $\\dot { \\boldsymbol { \\mathbf { \\rho } } } _ { \\rho }$ $= 2.52 \\mathrm { g } \\mathrm { cm } ^ { - 3 }$ O"
-        }
-      ],
-      "partId": "part-002186"
-    },
-    {
-      "type": "subpart",
-      "label": "2-3-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出 $\\mathrm { ScF _ { 3 } }$ 晶胞结构示意图."
-        }
-      ],
-      "partId": "part-002187"
-    },
-    {
-      "type": "subpart",
-      "label": "2-3-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出晶胞中一组Sc3+和F的最简原子坐标."
-        }
-      ],
-      "partId": "part-002188"
-    },
-    {
-      "type": "subpart",
-      "label": "2-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "1937年,费舍尔率先将 $\\mathrm { ScCl _ { 3 } }$ 与LiCl-KCl的低共融体系作为原料,以液态金属Zn为阴极,通过电解的方法制备Sc金属."
-        }
-      ],
-      "partId": "part-002630"
-    },
-    {
-      "type": "subpart",
-      "label": "2-4-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出费舍尔电解法阴极发生的氧化还原反应的离子方程式."
-        }
-      ],
-      "partId": "part-002190"
-    },
-    {
-      "type": "subpart",
-      "label": "2-4-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "简述从费舍尔法阴极产物中分离出Sc金属的物理方法."
-        }
-      ],
-      "partId": "part-002191"
-    },
-    {
-      "type": "subpart",
-      "label": "2-5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "在乙醇溶液中, $\\mathrm { Sc ( ClO _ { 4 } ) _ { 3 } { \\cdot } 6H _ { 2 } O }$ 与 2,6-二乙酰基吡啶及肼发生反应,形成具有偶氮结构的十四元环配体的 $\\mathrm { \\small { [ Sc ( C _ { 18 } H _ { 18 } N _ { 6 } ) ( H _ { 2 } O ) _ { 2 } ] ( ClO _ { 4 } ) _ { 3 } { \\cdot } 4H _ { 2 } O } }$ 配合物,画出 $\\mathrm { \\small { [ Sc ( C _ { 18 } H _ { 18 } N _ { 6 } ) ( H _ { 2 } O ) } }$ <sub>2</sub>]3+配离子结构."
-        }
-      ],
-      "partId": "part-002192"
+      "text": "2-1 依照元素物理和化学性质的特点，以下三种元素离⼦半径最大的是：A. $\\mathrm { S c }$ B. Y C. Lu 2-2 常压下，Sc可与 $\\mathrm { O _ { 2 } }$ 反应生成 $\\mathrm { S c _ { 2 } O _ { 3 \\circ } }$ X射线晶体衍射分析发现， $\\mathrm { S c _ { 2 } O _ { 3 } }$ 的晶体结构属⽴方晶系，晶胞参数 $a = 0 . 9 8 4 5 \\mathrm { n m }$ ，密度 $\\mathrm { ~ \\bf ~ \\underline { ~ } { ~ \\underline { ~ } { ~ \\rho ~ } ~ } ~ } = 3 . 8 6 4 \\mathrm { g } \\mathrm { c m } ^ { - 3 }$ $\\mathrm { O ^ { 2 \\cdot } }$ −之间的最小间距为0.246 nm。 2-2-1 计算一个晶胞中所含 $\\mathrm { S c _ { 2 } O _ { 3 } }$ 的分⼦数。（写出结果即可，不需要计算过程） 2-2-2 画出⽴方晶胞中两种以 $\\mathrm { S c ^ { 3 + } }$ 为中⼼的 $\\mathrm { S c } { - } \\mathrm { O }$ 配位多面体单胞结构示意图。 2-3 $\\mathrm { S c _ { 2 } O _ { 3 } }$ 与无⽔HF作用可生成 ${ \\mathrm { S c F } } _ { 3 } ,$ $\\mathrm { S c F _ { 3 } }$ 同属于⽴方晶系，晶胞中最近邻 ${ \\mathrm { S c ^ { 3 + } } }$ 间距为 0.402 nm，密度 $\\dot { \\boldsymbol { \\mathbf { \\rho } } } _ { \\rho }$ $= 2 . 5 2 \\mathrm { g } \\mathrm { c m } ^ { - 3 }$ O 2-3-1 画出 $\\mathrm { S c F _ { 3 } }$ 晶胞结构示意图。 2-3-2 写出晶胞中一组Sc3+和F的最简原⼦坐标。 2-4 1937年，费舍尔率先将 $\\mathrm { S c C l _ { 3 } }$ 与LiCl-KCl的低共融体系作为原料，以液态金属Zn为阴极，通过电解的方法制备Sc金属。 2-4-1 写出费舍尔电解法阴极发生的氧化还原反应的离⼦方程式。 2-4-2 简述从费舍尔法阴极产物中分离出Sc金属的物理方法。 2-5 在⼄醇溶液中， $\\mathrm { S c ( C l O _ { 4 } ) _ { 3 } { \\cdot } 6 H _ { 2 } O }$ 与 2,6-二⼄酰基吡啶及肼发生反应，形成具有偶氮结构的⼗四元环配体的 $\\mathrm { \\small { [ S c ( C _ { 1 8 } H _ { 1 8 } N _ { 6 } ) ( H _ { 2 } O ) _ { 2 } ] ( C l O _ { 4 } ) _ { 3 } { \\cdot } 4 H _ { 2 } O } }$ 配合物，画出 $\\mathrm { \\small { [ S c ( C _ { 1 8 } H _ { 1 8 } N _ { 6 } ) ( H _ { 2 } O ) } }$ 2 ]3+配离⼦结构。"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

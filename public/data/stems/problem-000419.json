@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000419",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,53 +8,28 @@
   "examYear": 2013,
   "examStage": "final",
   "source": {
+    "sourceDocumentId": "source-000008",
     "sourceLabel": "2013-27-CChO-juesai.pdf",
-    "pages": [
-      1
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000008"
+    "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第3题 X,Y,Z均为非金属元素(X的原子序数小于Y原子序数),三者形成多种化合物.其中分子式为 $\\mathbf { XYZ _ { 6 } }$ 的化合物被认为是潜在的储氢材料,氢的质量分数达19.6%."
+      "text": "第3题（13分）X、Y、Z均为⾮金属元素（X的原⼦序数小于Y原⼦序数），三者形成多种化合物。其中分⼦式为 $\\mathbf { X Y Z _ { 6 } }$ 的化合物被认为是潜在的储氢材料，氢的质量分数达19.6%。 3-1 通过计算说明X、Y、Z各是什么元素。 3-2 下图示出 $\\mathbf { X Y Z _ { 6 } }$ 及相关化合物的生成与转化的流程图："
     },
     {
-      "type": "subpart",
-      "label": "3-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "通过计算说明X,Y,Z各是什么元素."
-        }
-      ],
-      "partId": "part-002525"
+      "type": "paragraph",
+      "text": "其中，实线箭头表示在一定条件的转化过程，虚线仅表示分⼦式的关联关系；由A和B制备 $\\mathbf { X Y Z _ { 6 } }$ 的过程中给出了所有的反应物和产物，⽽其他过程仅给出所有反应物及其参与反应的计量系数的例（例如，A → C箭头上的 1/2B 表示 $\\mathbf { \\ddot { \\boldsymbol { 2 } } A } + \\mathbf { B } ^ { \\prime \\prime }$ 反应，产物C或者C和其他可能的物质，计量系数未给出）；B和D的结构中均含有正四面体构型的负离⼦基团，E、F和G均为六元环结构。根据图中的关系与所述条件，写出化合物A、B、C、D、E、F、G、H和I的化学式；画出D和G的结构简式。"
     },
     {
-      "type": "subpart",
-      "label": "3-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "下图示出 $\\mathbf { XYZ _ { 6 } }$ 及相关化合物的生成与转化的流程图:"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000419-figure-001.jpg",
-          "alt": "原卷第3题图1：下图示出 $\\mathbf { XYZ _ { 6 } }$ 及相关化合物的生成与转化的流程图:",
-          "displayWidth": 70,
-          "assetId": "asset-005556"
-        },
-        {
-          "type": "paragraph",
-          "text": "其中,实线箭头表示在一定条件的转化过程,虚线仅表示分子式的关联关系;由A和B制备 $\\mathbf { XYZ _ { 6 } }$ 的过程中给出了所有的反应物和产物,而其他过程仅给出所有反应物及其参与反应的计量系数的例(例如,A → C箭头上的 1/2B 表示 $\\mathbf { \\ddot { \\boldsymbol { 2 } } A } + \\mathbf { B } ^ { \\prime \\prime }$ 反应,产物C或者C和其他可能的物质,计量系数未给出);B和D的结构中均含有正四面体构型的负离子基团,E,F和G均为六元环结构.根据图中的关系与所述条件,写出化合物A,B,C,D,E,F,G,H和I的化学式;画出D和G的结构简式."
-        }
-      ],
-      "partId": "part-002526"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000419-figure-001.jpg",
+      "alt": "problem-000419题目配图第1幅（已按原图查看）"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

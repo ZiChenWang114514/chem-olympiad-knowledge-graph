@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000054",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,76 +8,67 @@
   "examYear": 2018,
   "examStage": "preliminary",
   "source": {
+    "sourceDocumentId": "source-000052",
     "sourceLabel": "2018-32-CChO-chusai.pdf",
-    "pages": [
-      2
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000052"
+    "transcribedAt": "2026-08-08"
   },
-  "blocks": [
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [],
+  "parts": [
     {
-      "type": "paragraph",
-      "text": "第 6 题 将 0.0167molI<sub>2</sub>和 0.0167molH<sub>2</sub>置于预先抽真空的特制 1L 密闭容器中,加热 1500K,体系达到平衡,总压强为"
+      "id": "part-000054-01",
+      "label": "(1)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "已知下列反应在 1500 K 的平衡常数:\n(1) $\\ce{I2(g) <=> 2I(g)}$,$K_{p1} = 2.00$ bar;\n(2) $\\ce{I2(g) + H2(g) <=> 2HI(g)}$,$K_{p2}$;\n(3) $\\ce{HI(g) <=> I(g) + H(g)}$,$K_{p3} = 8.0 \\times 10^{-6}$;\n(4) $\\ce{H2(g) <=> 2H(g)}$,$K_{p4}$。"
+        }
+      ]
     },
     {
-      "type": "paragraph",
-      "text": "bar (1bar =100kPa).体系中存在如下反应关系:"
-    },
-    {
-      "type": "paragraph",
-      "text": "(1) $\\mathrm { I } _ { 2 } ( \\mathrm { g } ) 2 \\mathrm { I } ( \\mathrm { g } )$ <sub> '</sub> ="
-    },
-    {
-      "type": "paragraph",
-      "text": "bar (2) $\\mathrm { I } _ { 2 } ( \\mathrm { g } ) + \\mathrm { H } _ { 2 } ( \\mathrm { g } ) 2 \\mathrm { HI } ( \\mathrm { g } )$ <sub> (</sub> (3) HI(g) ⇌ I(g) + H(g) = 8.0×10−6 (2) $\\mathrm { H } _ { 2 } ( \\mathrm { g } ) 2 \\mathrm { H } ( \\mathrm { g } )$ <sub> \\*</sub>"
-    },
-    {
-      "type": "subpart",
+      "id": "part-000054-02",
       "label": "6-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算 1500K 体系中 $\\mathrm { I } _ { 2 } ( \\mathrm { g } )$ 和 $\\mathrm { H } _ { 2 } ( \\mathrm { g } )$ 未分解时的分压. $\\left( R \\mathrm { ~ = ~ } 8.314 \\mathrm { ~ J ~ mol ^ { - 1 } ~ K ^ { - 1 } } \\right)$"
+          "text": "计算 1500 K 体系中 $\\ce{I2(g)}$ 和 $\\ce{H2(g)}$ 未分解时的分压。$(R = 8.314\\ \\mathrm{J\\ mol^{-1}\\ K^{-1}})$"
         }
-      ],
-      "partId": "part-001957"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000054-03",
       "label": "6-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算1500K平衡体系中除H(g)之外所有物种的分压."
+          "text": "计算 1500 K 平衡体系中除 H(g) 之外所有物种的分压。"
         }
-      ],
-      "partId": "part-001958"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000054-04",
       "label": "6-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算 $K _ { p2 ^ { \\circ } }$ ."
+          "text": "计算 $K_{p2}$。"
         }
-      ],
-      "partId": "part-001959"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000054-05",
       "label": "6-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算 $K _ { p4 ^ { \\mathsf { c } } }$ .(若未算出 $K _ { p2 }$ <sub>(</sub>,可设 $K _ { p2 } = 10.0 )$"
+          "text": "计算 $K_{p4}$。(若未算出 $K_{p2}$,可设 $K_{p2} = 10.0$)"
         }
-      ],
-      "partId": "part-001960"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

@@ -1,102 +1,74 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000112",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "聚合物合成与热力学",
-  "number": "Q1",
+  "number": "1",
   "examYear": 2021,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000057",
     "sourceLabel": "2021-35-CChO-chusai.pdf",
-    "pages": [
-      1
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "blocks": [
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [],
+  "parts": [
     {
-      "type": "paragraph",
-      "text": "第1题(10分)根据所给条件按照要求书写化学反应方积式(要求系数之比为最简整数比)"
-    },
-    {
-      "type": "subpart",
+      "id": "part-000112-01",
       "label": "1-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "砷化稼是一种重要的半导体材料,可利用气相外延法制备。常用工艺中,采用Ga,\\mathrm { A s C l _ { 3 } }在\\mathrm { H } _ { 2 }中制备。"
+          "text": "钒铁(FeV)用 $\\mathrm{Cl_2}$ 充分氯化。"
         }
-      ],
-      "partId": "part-001080"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000112-02",
       "label": "1-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "二氯二甲基硅烷水解,得到线性聚合物。"
+          "text": "$\\mathrm{Cr_2O_3}$ 与 $\\mathrm{KClO_3}$ 固体混合物高温下熔融,放出的气体均为黄绿色。"
         }
-      ],
-      "partId": "part-001081"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000112-03",
       "label": "1-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "研究发现,在酸性溶液中,\\mathrm { F e ^ { 3 + } }离子在溶解多种硫化物矿的过程中起着重要作用。以下给出两个例子。"
+          "text": "$\\mathrm{TiCl_3}$ 溶液与 $\\mathrm{CuCl_2}$ 溶液反应。"
         }
-      ],
-      "partId": "part-001082"
+      ]
     },
     {
-      "type": "paragraph",
-      "text": "1-3-1\\mathrm { F e ^ { 3 + } }将辉银矿{ \\left( \\mathrm { A g } _ { 2 } \\mathrm { S } \\right) }中的硫氧化成硫磺并使银离子转入溶液。"
-    },
-    {
-      "type": "paragraph",
-      "text": "1-3-2\\mathrm { F e ^ { 3 + } }将磁⻩铁矿(用\\mathrm { F e } _ { 7 } \\mathrm { S } _ { 8 }表示)中的硫直接氧化成硫酸根离子。"
-    },
-    {
-      "type": "subpart",
+      "id": "part-000112-04",
       "label": "1-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "“发蓝”是钢铁表面处理的一种方法:将洁净的铁件浸入一定浓度的NaOH和\\mathrm { N a N O _ { 2 } }溶液中(必要时加入其他辅助物质),加热到适当温度并保持一定时间,在铁件的表面形成均匀稳定且防锈的氧化膜\\mathrm { F e _ { 3 } O _ { 4 } }显现棕黑或蓝黑色光泽,处理过程有无色刺激性气体放出。"
+          "text": "雌黄用 $\\mathrm{SnCl_2}$ 的盐酸溶液还原为雄黄(已知雌黄和雄黄中砷含量分别为 60.91% 和 70.03%)。"
         }
-      ],
-      "partId": "part-001083"
+      ]
     },
     {
-      "type": "subpart",
-      "label": "1-3-1",
+      "id": "part-000112-05",
+      "label": "1-5",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
+          "text": "$\\mathrm{Mg_2C_3}$ 与足量水反应。"
         }
-      ],
-      "partId": "part-001084"
-    },
-    {
-      "type": "subpart",
-      "label": "1-3-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001085"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

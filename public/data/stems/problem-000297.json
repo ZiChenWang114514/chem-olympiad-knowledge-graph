@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000297",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,11 +10,13 @@
   "source": {
     "sourceDocumentId": "source-000001",
     "sourceLabel": "2006-20-CChO-juesai.pdf",
-    "pages": [
-      3
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
@@ -24,53 +26,48 @@
     {
       "type": "paragraph",
       "text": "步骤二:称取纯的有机弱酸 $\\mathrm{H_2B}$ 样品 $0.1963\\ \\mathrm{g}$。将样品定量溶解在 $50.00\\ \\mathrm{mL}$ 纯水中,选择甲基橙为指示剂进行滴定。当加入新标定的 $0.0950\\ \\mathrm{mol\\ L^{-1}}$ 氢氧化钠标准溶液 $9.21\\ \\mathrm{mL}$ 时,发现该法不当,遂停止滴定,用酸度计测定了停止滴定时溶液的 $\\mathrm{pH} = 2.87$。已知 $\\mathrm{H_2B}$ 的 $\\mathrm{p}K_{a1} = 2.86$,$\\mathrm{p}K_{a2} = 5.70$。"
-    },
+    }
+  ],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000297-01",
       "label": "6-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "按步骤一计算放置两天后的氢氧化钠标准溶液每升吸收了多少克 $\\mathrm{CO_2}$。"
         }
-      ],
-      "partId": "part-000642"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000297-02",
       "label": "6-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "按步骤二估算该二元弱酸 $\\mathrm{H_2B}$ 的分子量。"
         }
-      ],
-      "partId": "part-000643"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000297-03",
       "label": "6-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "试设计一个正确的测定该弱酸分子量的滴定分析方法,指明滴定剂、指示剂,并计算化学计量点的 $\\mathrm{pH}$。"
         }
-      ],
-      "partId": "part-000644"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000297-04",
       "label": "6-4",
       "blocks": [
         {
           "type": "paragraph",
           "text": "若使用步骤一放置两天后的氢氧化钠标准溶液用设计的正确方法测定该二元弱酸的分子量,计算由此引起的相对误差。"
         }
-      ],
-      "partId": "part-000645"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

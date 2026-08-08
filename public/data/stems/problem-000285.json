@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000285",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,49 +10,45 @@
   "source": {
     "sourceDocumentId": "source-000037",
     "sourceLabel": "2006-20-CChO-chusai.pdf",
-    "pages": [
-      1,
-      2
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "blocks": [
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000285-01",
       "label": "6-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "写出A、B、C、D、E的化学式。"
         }
-      ],
-      "partId": "part-000624"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000285-02",
       "label": "6-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "化合物A转变为E各步释放的氢所占的质量分数以及总共释放的氢气所占的质量分数多大？"
+          "text": "化合物A转变为E各步释放的氢所占的质量分数以及总共释放的氢气所占的质量分数多大?"
         }
-      ],
-      "partId": "part-000625"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000285-03",
       "label": "6-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "为使 A 再生,有人设计了化合物 D 在水蒸气存在下与甲烷反应,写出化学方程式。"
         }
-      ],
-      "partId": "part-000626"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000382",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,85 +10,49 @@
   "source": {
     "sourceDocumentId": "source-000042",
     "sourceLabel": "2011-25-CChO-chusai.pdf",
-    "pages": [
-      1,
-      4
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第10题(8分)威斯迈尔反应是在富电子芳环上引入甲酰基的有效方法。其过程首先是？,？-二甲基甲酰胺与$\\mathrm { P O C l _ { 3 } }$ 反应生成威斯迈尔试剂:"
+      "text": "第10题（8分）威斯迈尔反应是在富电⼦芳环上引入甲酰基的有效方法。其过程⾸先是?,?-二甲基甲酰胺与$\\mathrm { P O C l _ { 3 } }$ 反应生成威斯迈尔试剂："
     },
     {
       "type": "paragraph",
-      "text": "接着威斯迈尔试剂与富电子芳环反应,经水解后在芳环上引入甲酰基。例如:"
+      "text": "接着威斯迈尔试剂与富电⼦芳环反应，经⽔解后在芳环上引入甲酰基。例如："
     },
     {
-      "type": "subpart",
-      "label": "10-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "用共振式表示威斯迈尔试剂正离子。"
-        }
-      ],
-      "partId": "part-000791"
+      "type": "paragraph",
+      "text": "10-1 用共振式表示威斯迈尔试剂正离⼦。 10-2 由甲氧基苯转化为对甲氧基苯甲醛的过程中，需经历以下步骤： ⑴ 芳⾹亲电取代 ⑵ 分⼦内亲核取代 ⑶ 亲核加成 ⑷ 质⼦转移 ⑸ 消除 画出所有中间体的结构简式。"
     },
     {
-      "type": "subpart",
-      "label": "10-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "由甲氧基苯转化为对甲氧基苯甲醛的过程中,需经历以下步骤: (1) 芳香亲电取代 (2) 分子内亲核取代 (3) 亲核加成 (4) 质子转移 (5) 消除 画出所有中间体的结构简式。"
-        }
-      ],
-      "partId": "part-000792"
-    },
-    {
-      "type": "subpart",
-      "label": "10-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "完成下列反应:"
-        }
-      ],
-      "partId": "part-000793"
+      "type": "paragraph",
+      "text": "10-3 完成下列反应："
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000382-figure-001.jpg",
-      "alt": "有机反应机理相关结构或反应图,第1幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004922"
+      "alt": "problem-000382题目配图第1幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000382-figure-002.jpg",
-      "alt": "有机反应机理相关结构或反应图,第2幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004923"
+      "alt": "problem-000382题目配图第2幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000382-figure-003.jpg",
-      "alt": "有机反应机理相关结构或反应图,第3幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004924"
+      "alt": "problem-000382题目配图第3幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000382-figure-004.jpg",
-      "alt": "有机反应机理相关结构或反应图,第4幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004925"
+      "alt": "problem-000382题目配图第4幅（已按原图查看）"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000002",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,49 +8,48 @@
   "examYear": 2006,
   "examStage": "preliminary",
   "source": {
+    "sourceDocumentId": "source-000037",
     "sourceLabel": "2006-20-CChO-chusai.pdf",
-    "pages": [
-      1
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000037"
+    "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "第2题 下列反应在 $100 ~ ^ { \\circ } \\mathrm { C }$ 时能顺利进行:"
-    },
-    {
       "type": "figure",
-      "src": "data/stems/assets/problem-000002-figure-001.jpg",
-      "alt": "原卷第2题图1：第2题 下列反应在 $100 ~ ^ { \\circ } \\mathrm { C }$ 时能顺利进行:",
-      "displayWidth": 70,
-      "assetId": "asset-005281"
-    },
+      "caption": "反应相关图示",
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "src": "data/stems/assets/problem-000002-figure-001.jpg"
+    }
+  ],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000002-01",
       "label": "2-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "给出两种产物的系统命名."
+          "text": "给出两种产物的系统命名。"
         }
-      ],
-      "partId": "part-001859"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000002-02",
       "label": "2-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "这两种产物互为下列哪一种异构体A 旋光异构体 B 立体异构体 C 非对映异构体 D 几何异构体"
+          "text": "这两种产物互为下列哪一种异构体?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A 旋光异构体 B 立体异构体 C 非对映异构体 D 几何异构体"
         }
-      ],
-      "partId": "part-001860"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

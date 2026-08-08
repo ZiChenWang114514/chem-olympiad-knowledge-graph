@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000228",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,92 +8,45 @@
   "examYear": 2023,
   "examStage": "final",
   "source": {
+    "sourceDocumentId": "source-000026",
     "sourceLabel": "2023-37-CChO-juesai-2.pdf",
-    "pages": [
-      9
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000026"
+    "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第8题 , 13%)杂原子参与的ene反应"
-    },
-    {
-      "type": "paragraph",
-      "text": "烯丙基二氮烯重排反应 (AllylicDiazeneRearrangement, ADR) 可认为是 ene 反应的逆反应,在脱去氮气的同时,发生双键的位移.其反应式如下所示:"
+      "text": "8 · 烯丙基二氮烯重排机理"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000228-figure-001.jpg",
-      "alt": "原卷第8题图1：烯丙基二氮烯重排反应 (AllylicDiazeneRearrangement, ADR) 可认为是 ene 反应的逆反应,在脱去氮气的同时",
-      "displayWidth": 70,
-      "assetId": "asset-005419"
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 1"
     },
     {
-      "type": "subpart",
-      "label": "8-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "若底物结构中有手性碳原子时,反应具有立体选择性.画出中间体A的立体结构式,判断主要产物B中手性碳原子C1和C2的绝对构型及双键的构型."
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000228-figure-002.jpg",
-          "alt": "原卷第8题图2：若底物结构中有手性碳原子时,反应具有立体选择性.画出中间体A的立体结构式,判断主要产物B中手性碳原子C1和C2的绝对构型及双键的构型.",
-          "displayWidth": 70,
-          "assetId": "asset-005420"
-        }
-      ],
-      "partId": "part-002238"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000228-figure-002.jpg",
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 2"
     },
     {
-      "type": "subpart",
-      "label": "8-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Retro-ene 反应和 Diels-Alder 反应相结合,可以构筑环状 1,4-手性碳原子.画出反应主要产物 A,B 以及C的结构,判断D中两个甲基的相互关系,以及硫元素最后的存在形式."
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000228-figure-003.jpg",
-          "alt": "原卷第8题图3：Retro-ene 反应和 Diels-Alder 反应相结合,可以构筑环状 1,4-手性碳原子.画出反应主要产物 A,B 以及C的结构,判",
-          "displayWidth": 70,
-          "assetId": "asset-005421"
-        }
-      ],
-      "partId": "part-002239"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000228-figure-003.jpg",
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 3"
     },
     {
-      "type": "subpart",
-      "label": "8-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "依据以上信息,完成以下反应:"
-        }
-      ],
-      "partId": "part-002240"
-    },
-    {
-      "type": "subpart",
-      "label": "8-3-1",
-      "blocks": [
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000228-figure-004.jpg",
-          "alt": "原卷第8题图4（结构或数据示意）",
-          "displayWidth": 70,
-          "assetId": "asset-005422"
-        }
-      ],
-      "partId": "part-002241"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000228-figure-004.jpg",
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 4"
     }
   ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  "parts": []
 }

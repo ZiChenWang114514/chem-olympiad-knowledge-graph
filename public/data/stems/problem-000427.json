@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000427",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,15 +10,18 @@
   "source": {
     "sourceDocumentId": "source-000008",
     "sourceLabel": "2013-27-CChO-juesai.pdf",
-    "pages": [
-      5
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "blocks": [
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000427-01",
       "label": "11-1",
       "blocks": [
         {
@@ -27,17 +30,14 @@
         },
         {
           "type": "figure",
-          "src": "data/stems/assets/problem-000427-figure-001.jpg",
-          "alt": "原卷配图,请参考原卷",
-          "displayWidth": 80,
           "caption": "反应示意图",
-          "assetId": "asset-004946"
+          "alt": "缺图,请参考原卷",
+          "src": "data/stems/assets/problem-000427-figure-001.jpg"
         }
-      ],
-      "partId": "part-000875"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000427-02",
       "label": "11-2",
       "blocks": [
         {
@@ -46,25 +46,17 @@
         },
         {
           "type": "figure",
-          "src": "data/stems/assets/problem-000427-figure-002.jpg",
-          "alt": "原卷配图,请参考原卷",
-          "displayWidth": 80,
           "caption": "反应1示意图",
-          "assetId": "asset-004947"
+          "alt": "缺图,请参考原卷",
+          "src": "data/stems/assets/problem-000427-figure-002.jpg"
         },
         {
           "type": "figure",
-          "src": "data/stems/assets/problem-000427-figure-003.jpg",
-          "alt": "原卷配图,请参考原卷",
-          "displayWidth": 80,
           "caption": "反应2示意图",
-          "assetId": "asset-004948"
+          "alt": "缺图,请参考原卷",
+          "src": "data/stems/assets/problem-000427-figure-003.jpg"
         }
-      ],
-      "partId": "part-000876"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

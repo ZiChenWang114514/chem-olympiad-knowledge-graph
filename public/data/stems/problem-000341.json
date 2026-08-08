@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000341",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,53 +8,19 @@
   "examYear": 2009,
   "examStage": "preliminary",
   "source": {
+    "sourceDocumentId": "source-000040",
     "sourceLabel": "2009-23-CChO-chusai.pdf",
-    "pages": [
-      1
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000040"
+    "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第 5 题 皂化当量是指每摩尔氢氧根离子所能皂化的酯(样品)的质量(mg).可用如下方法测定皂化当量(适用范围:皂化当量100\\~1000mgmol−1,样品量5\\~100mg):准确称取 (mg)样品,置于皂化瓶中,加入适量0.5M氢氧化钾醇溶液,接上回流冷凝管和碱石灰管,加热回流0.5\\~3小时;皂化完成后,用1\\~2mL乙醇淋洗冷凝管内壁,拆去冷凝管,立即加入5滴酚酞,用0.5M盐酸溶液酸化,使酸稍过量;将酸化后的溶液转移到锥形瓶中,用乙醇淋洗皂化瓶数遍,洗涤完的醇溶液也均移入锥形瓶中;向锥形瓶滴加0.5M氢氧化钾醇溶液,直至溶液显浅红色;然后用0.0250M盐酸溶液滴定至刚好无色,消耗盐酸 $V _ { 1 } ~ \\mathrm { \\Omega } ( \\mathrm { mL } )$ ;再加入3滴溴酚蓝指示剂,溶液显蓝色,用0.0250M盐酸溶液滴定至刚刚呈现绿色,即为滴定终点,消耗盐酸 $V _ { 2 }$ (mL).在没有酯存在下重复上述实验步骤,消耗标准盐酸溶液分别为 $V _ { 3 } \\mathrm { \\# } V _ { 4 } ~ \\mathrm { ( mL ) }$ o"
-    },
-    {
-      "type": "subpart",
-      "label": "5-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "碱石灰管起什么作用"
-        }
-      ],
-      "partId": "part-002413"
-    },
-    {
-      "type": "subpart",
-      "label": "5-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出计算皂化当量的公式."
-        }
-      ],
-      "partId": "part-002414"
-    },
-    {
-      "type": "subpart",
-      "label": "5-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "样品中的游离羧酸将对分析结果有什么影响如何消除影响"
-        }
-      ],
-      "partId": "part-002415"
+      "text": "第 5 题（8 分）皂化当量是指每摩尔氢氧根离⼦所能皂化的酯（样品）的质量(mg)。可用如下方法测定皂化当量（适用范围：皂化当量100\\~1000 mg mol−1，样品量5\\~100 mg）：准确称取? (mg)样品，置于皂化瓶中，加入适量0.5 M氢氧化钾醇溶液，接上回流冷凝管和碱⽯灰管，加热回流0.5\\~3小时；皂化完成后，用1\\~2mL⼄醇淋洗冷凝管内壁，拆去冷凝管，⽴即加入5滴酚酞，用0.5M盐酸溶液酸化，使酸稍过量；将酸化后的溶液转移到锥形瓶中，用⼄醇淋洗皂化瓶数遍，洗涤完的醇溶液也均移入锥形瓶中；向锥形瓶滴加0.5 M氢氧化钾醇溶液，直⾄溶液显浅红色；然后用0.0250 M盐酸溶液滴定⾄刚好无色，消耗盐酸 $V _ { 1 } ~ \\mathrm { \\Omega } ( \\mathrm { m L } )$ ；再加入3滴溴酚蓝指示剂，溶液显蓝色，用0.0250 M盐酸溶液滴定⾄刚刚呈现绿色，即为滴定终点，消耗盐酸 $V _ { 2 }$ (mL)。在没有酯存在下重复上述实验步骤，消耗标准盐酸溶液分别为 $V _ { 3 } \\mathrm { \\# } V _ { 4 } ~ \\mathrm { ( m L ) }$ o 5-1 碱⽯灰管起什么作用？ 5-2 写出计算皂化当量的公式。 5-3 样品中的游离羧酸将对分析结果有什么影响？如何消除影响？"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

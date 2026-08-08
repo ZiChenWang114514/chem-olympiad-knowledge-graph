@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000163",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,72 +8,19 @@
   "examYear": 2022,
   "examStage": "preliminary",
   "source": {
+    "sourceDocumentId": "source-000058",
     "sourceLabel": "2022-36-CChO-chusai-1.pdf",
-    "pages": [
-      2
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000058"
+    "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "## 第5题 铁的化合物"
-    },
-    {
-      "type": "paragraph",
-      "text": "在 $\\mathrm { N } _ { 2 }$ 保护和搅拌下,向 100mL0.40molL−1浅绿色 $\\mathrm { FeSO _ { 4 } }$ 溶液中加入 40mL0.80molL−1 的NaOH溶液,得到Fe(OH) 沉淀,保持通 $\\mathrm { N } _ { 2 }$ 升温至 $40 \\ ^ { \\circ } \\mathrm { C } ,$ 将气体切换为空气.随着空气通入,悬浊体系由浅绿色变深,形成蓝绿色沉淀A(反应1),继续通入空气,沉淀颜色变化,最后转化为⻩色固体B(反应2).此时若停止通空气,向体系中补充适量NaOH并调控温度,B可以进一步与体系中的物种反应再变为A(反应3),也可转化为黑色磁性物质C(反应4).B在 $150 ~ ^ { \\circ } \\mathrm { C }$ 彻底脱水形成砖红色氧化物D,失重10.0%."
-    },
-    {
-      "type": "paragraph",
-      "text": "A是一种名为GR-II(GreenRust,绿锈,简称GR)的物质,其结构可从 $\\mathrm { Fe ( OH ) _ { 2 } }$ 结构演变得到.Fe(OH)<sub>2</sub>为层状结构,层板由两层采取密堆积排布的OH-构成, $\\mathrm { Fe ^ { 2 + } }$ 占据层板中密堆积形成的所有八面体空隙,层间通过氢键连接.若层板中部分Fe(II)被氧化为Fe(III),会导致其带正电荷,因而需在层间引入阴离子平衡电荷,同时也带入水分子,形成绿锈.晶体衍射和谱学表征显示,GR-II中Fe(II)和 Fe(III)的原子比为 2:1."
-    },
-    {
-      "type": "subpart",
-      "label": "5-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出A\\~D的化学式.(对A要求:价态不同的铁分开写并注明氧化数;此处可忽略层间水分子)."
-        }
-      ],
-      "partId": "part-002115"
-    },
-    {
-      "type": "subpart",
-      "label": "5-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出反应1\\~4的离子方程式(提示:注意起始加入反应物的计量关系,确定反应体系的组成.)"
-        }
-      ],
-      "partId": "part-002116"
-    },
-    {
-      "type": "subpart",
-      "label": "5-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "有研究者通过差热分析确定GR-II结构中层间水分子的数目.结果显示,在 $80 { \\sim } 140 \\ ^ { \\circ } \\mathrm { C }$ 之间出现一个热效应为 $420 \\mathrm { J } \\mathrm { g } ^ { - 1 }$ 1的吸热峰,对应于水分子的脱去.在此范围水的蒸发焓为40.1kJ $\\mathrm { mol ^ { - 1 } }$ ,可近似当作此条件下上述脱水反应的摩尔焓变.通过计算确定A的化学式中所含水分子数 $\\scriptstyle \\cdot n _ { \\ c }$ ."
-        }
-      ],
-      "partId": "part-002117"
-    },
-    {
-      "type": "subpart",
-      "label": "5-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "若将起始反应物 $\\mathrm { FeSO _ { 4 } }$ 换成 $\\mathrm { FeCl _ { 2 } } .$ ,可形成类似层状结构的蓝绿色物质 $\\mathrm { GR - I } _ { \\circ }$ 鉴于 Cl−和 $\\mathrm { SO _ { 4 } ^ { 2 - } }$ 的大小,形状和电荷不同,当其进入层间时,3个Cl−取代2个 $\\mathrm { SO _ { 4 } ^ { 2 - } }$ −并导致层内阳离子电荷和层间堆积方式的调整.推出GR-I的化学式(价态不同的铁分开写并注明氧化数;忽略层间水分子)."
-        }
-      ],
-      "partId": "part-002118"
+      "text": "在 $\\mathrm { N } _ { 2 }$ 保护和搅拌下，向 100 mL 0.40 mol L−1浅绿色 $\\mathrm { F e S O _ { 4 } }$ 溶液中加入 40 mL 0.80 mol L−1 的NaOH溶液，得到Fe(OH) 沉淀，保持通 $\\mathrm { N } _ { 2 }$ 升温⾄ $4 0 \\ ^ { \\circ } \\mathrm { C } ,$ 将气体切换为空气。随着空气通入，悬浊体系由浅绿色变深，形成蓝绿色沉淀A（反应1），继续通入空气，沉淀颜色变化，最后转化为⻩色固体B（反应2）。此时若停⽌通空气,向体系中补充适量NaOH并调控温度，B可以进一步与体系中的物种反应再变为A（反应3），也可转化为⿊色磁性物质C（反应4）。B在 $1 5 0 ~ ^ { \\circ } \\mathrm { C }$ 彻底脱⽔形成砖红色氧化物D，失重10.0%。 A是一种名为GR-II（Green Rust，绿锈，简称GR）的物质，其结构可从 $\\mathrm { F e ( O H ) _ { 2 } }$ 结构演变得到。Fe(OH) 2 为层状结构，层板由两层采取密堆积排布的OH-构成， $\\mathrm { F e ^ { 2 + } }$ 占据层板中密堆积形成的所有八面体空隙，层间通过氢键连接。若层板中部分Fe(II)被氧化为Fe(III)，会导致其带正电荷，因⽽需在层间引入阴离⼦平衡电荷，同时也带入⽔分⼦，形成绿锈。晶体衍射和谱学表征显示，GR-II中Fe(II)和 Fe(III)的原⼦比为 2:1。 5-1 写出A\\~D的化学式。（对A要求：价态不同的铁分开写并注明氧化数；此处可忽略层间⽔分⼦）。 5-2 写出反应1\\~4的离⼦方程式（提示：注意起始加入反应物的计量关系，确定反应体系的组成。） 5-3 有研究者通过差热分析确定GR-II结构中层间⽔分⼦的数⽬。结果显示，在 $8 0 { \\sim } 1 4 0 \\ ^ { \\circ } \\mathrm { C }$ 之间出现一个热效应为 $4 2 0 \\mathrm { J } \\mathrm { g } ^ { - 1 }$ 1的吸热峰，对应于⽔分⼦的脱去。在此范围⽔的蒸发焓为40.1kJ $\\mathrm { m o l ^ { - 1 } }$ ，可近似当作此条件下上述脱⽔反应的摩尔焓变。通过计算确定A的化学式中所含⽔分⼦数 $\\scriptstyle \\cdot n _ { \\ c }$ 。 5-4 若将起始反应物 $\\mathrm { F e S O _ { 4 } }$ 换成 $\\mathrm { F e C l _ { 2 } } .$ ，可形成类似层状结构的蓝绿色物质 $\\mathrm { G R - I } _ { \\circ }$ 鉴于 Cl−和 $\\mathrm { S O _ { 4 } ^ { 2 - } }$ 的大小、形状和电荷不同，当其进入层间时，3个Cl−取代2个 $\\mathrm { S O _ { 4 } ^ { 2 - } }$ −并导致层内阳离⼦电荷和层间堆积方式的调整。推出GR-I的化学式（价态不同的铁分开写并注明氧化数；忽略层间⽔分⼦）。"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

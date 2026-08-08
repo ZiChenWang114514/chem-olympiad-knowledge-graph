@@ -1,104 +1,40 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000190",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "甲酸水热分解动力学",
-  "number": "Q3",
+  "number": "3",
   "examYear": 2022,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000022",
     "sourceLabel": "2022-36-CChO-juesai-2.pdf",
-    "pages": [
-      1,
-      2
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "随着仪器和表征方法的发展,各种体系特别是复杂体系热力学参数的测定方法越来越多样化。例如可以利用核磁共振(NMR)波谱确定复杂体系的酸解离常数,下面给出一个例子:"
+      "text": "甲酸水热分解动力学"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000190-figure-001.jpg",
-      "assetId": "asset-005075",
-      "alt": "原卷示意图：(a)",
-      "label": "(a)",
-      "caption": "(a)",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "此为(ATP)H3−与(ATP)4−之间的质子解离-结合平衡过程。为书写方便,(ATP)H3−简写为 \\mathrm { H A ^ { 3 - } } \\left( \\mathrm { A T P } \\right) ^ { 4 - } 简写为 \\mathrm { A } ^ { 4 - } ,酸解离常数为 K _ { a } , 。简化表达如下:"
-    },
-    {
-      "type": "paragraph",
-      "text": "\\mathrm{HA} ^ {3 -} \\rightarrow \\mathrm{H} ^ {+} + \\mathrm{A} ^ {4 -}"
-    },
-    {
-      "type": "paragraph",
-      "text": "随着pH变化,磷的化学环境发生变化,NMR中的化学位移随之变化。下图给出γ位31P的化学位移测定值随pH的变化关系。由于溶液中质子交换速度很快,实际测得的化学位移 ( \\delta _ { \\mathrm { o b s } } ) 是质子化形式化学位移 ( \\delta _ { \\mathrm { H A } ^ { 3 - } } ) 和脱质子形式化学位移 \\left( { \\delta _ { { \\tt A } ^ { 4 - } } } \\right) 的加权平均值:"
-    },
-    {
-      "type": "paragraph",
-      "text": "\\delta_ {\\mathrm{obs}} = \\delta_ {\\mathrm {HA^ {3 - }}} \\chi_ {\\mathrm {HA^ {3 -}}} + \\delta_ {\\mathrm {A^ {4 - }}} \\chi_ {\\mathrm {A^ {4 - }}}"
-    },
-    {
-      "type": "paragraph",
-      "text": "式中, \\chi _ { \\mathrm { H A } ^ { 3 - } } \\Re \\mathrm { H } \\chi _ { \\mathrm { A } ^ { 4 - } } 分别表示H \\mathrm { A ^ { 3 - } } −和 \\mathrm { A } ^ { 4 ^ { - } } 的比例。"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000190-figure-002.jpg",
-      "assetId": "asset-005076",
-      "alt": "原卷示意图：(b)",
-      "label": "(b)",
-      "caption": "(a)",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "pH"
-    },
-    {
-      "type": "subpart",
-      "label": "3-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出质子化形式化学位移 ( \\delta _ { \\mathrm { H A } ^ { 3 - } } <sub>\"</sub>)和脱质子形式化学位移 \\left( { \\delta _ { \\mathrm { { A } } ^ { 4 - } } } \\right) 的值(要求读到小数点后一位)。"
-        }
-      ],
-      "partId": "part-001204"
-    },
-    {
-      "type": "subpart",
-      "label": "3-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "推导出 \\mathsf { p } K _ { a } 的表达式,只可包含pH和所有相关的化学位移参数。"
-        }
-      ],
-      "partId": "part-001205"
-    },
-    {
-      "type": "subpart",
-      "label": "3-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "从上图中合理取值,计算酸解离常数 K _ { a } 。"
-        }
-      ],
-      "partId": "part-001206"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     }
   ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  "parts": []
 }

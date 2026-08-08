@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000007",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,30 +10,33 @@
   "source": {
     "sourceDocumentId": "source-000062",
     "sourceLabel": "2024-38-CChO-chusai.pdf",
-    "pages": [
-      1
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
       "text": "十六世纪一位托名为 Basil Valentine 的炼金术士系统研究了制备 “红龙血” 的方法,并在他的著作中进行了详细记载。后来,英国化学家 Robert Boyle 验证了他的实验。在 Basil Valentine 的记载中,某种天然矿物因其颜色而被称为 “灰狼”,加热熔融的 “灰狼” 可以 “吞噬” 金属铜,得到另一种灰白色金属和漂浮在熔融金属上的 “矿渣”。现代研究证明,“灰狼” 和 “矿渣” 均为二元化合物,上述反应过程中只有金属的化合价发生了改变。“矿渣” 难溶于水和稀盐酸,其化学式中两种元素的计量比为 1。每得到 1.000 g 灰白色金属需要 “吞噬” 0.7826 g 铜。"
-    },
+    }
+  ],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000007-01",
       "label": "1-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "写出“灰狼”A、灰白色金属B和“矿渣”C的化学式。"
         }
-      ],
-      "partId": "part-000012"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000007-02",
       "label": "1-2",
       "blocks": [
         {
@@ -56,22 +59,17 @@
           "type": "paragraph",
           "text": "分别确定“经过救赎的国王”D、“老鹰”E、“冷龙”F、“矿泉浴”G以及“公鸡”H的名称。"
         }
-      ],
-      "partId": "part-000013"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000007-03",
       "label": "1-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "现代研究发现 “公鸡” 可以发生分解反应,生成一种非金属单质和一种化合物,分解反应方程式中各物质计量比相同。实验测得 “公鸡” 分解反应的标准焓变为 $\\mathrm{77.4~kJ\\,mol^{-1}}$,标准熵变为 $\\mathrm{161.1~J\\,K^{-1}\\,mol^{-1}}$。计算 $250^\\circ\\mathrm{C}$ 时,“公鸡” 分解反应的标准平衡常数和标准电动势。"
         }
-      ],
-      "partId": "part-000014"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000046",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,141 +8,65 @@
   "examYear": 2017,
   "examStage": "final",
   "source": {
+    "sourceDocumentId": "source-000012",
     "sourceLabel": "2017-31-CChO-juesai.pdf",
-    "pages": [
-      1
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000012"
+    "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第6题 六亚甲基四胺(HMTA)是一个与金刚烷的结构类似的杂环多面体化合物.广泛应用于有机合成,染料和医药等工业中.HMTA晶体是一种电光材料,其折射率可被外电场改变,在激光技术中具有广泛应用.该晶体属于立方晶系,正当晶胞参数dota = 7.02 × 10^2pm _ c .晶体结构的正视图分别如图6-A和图6-B所示,其中图6-B是沿方向的投影."
+      "text": "六亚甲基四胺(HMTA)是一个与金刚烷的结构类似的杂环多面体化合物。⼴泛应用于有机合成，染料和医药等工业中。HMTA晶体是一种电光材料，其折射率可被外电场改变，在激光技术中具有⼴泛应用。该晶体属于⽴方晶系，正当晶胞参数dot a = 7 . 0 2 × 1 0 ^ 2 p m _ c 。晶体结构的正视图分别如图6-A和图6-B所示，其中图6-B是沿?方向的投影。 图 6-A 图 6-B"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000046-figure-001.jpg",
-      "alt": "原卷第6题图1：第6题 六亚甲基四胺(HMTA)是一个与金刚烷的结构类似的杂环多面体化合物.广泛应用于有机合成,染料和医药等工业中.HMTA晶体是一种电光材",
-      "displayWidth": 70,
-      "assetId": "asset-005301"
-    },
-    {
-      "type": "paragraph",
-      "text": "图 6-A"
+      "alt": "problem-000046题目配图第1幅（结构或数据示意图）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000046-figure-002.jpg",
-      "alt": "原卷第6题图2：图 6-A",
-      "displayWidth": 70,
-      "assetId": "asset-005302"
+      "alt": "problem-000046题目配图第2幅（结构或数据示意图）"
     },
     {
       "type": "paragraph",
-      "text": "图 6-B"
+      "text": "6-1 画出HMTA分⼦的结构图；说明其最高对称轴的名称、方位和数⽬。"
     },
     {
-      "type": "subpart",
-      "label": "6-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出HMTA分子的结构图;说明其最高对称轴的名称,方位和数目."
-        }
-      ],
-      "partId": "part-001920"
+      "type": "paragraph",
+      "text": "6-2-1 指出HMTA晶体中作周期性重复的最小结构单元；说明1个正当晶胞中有多少个这样的结构单元。"
     },
     {
-      "type": "subpart",
-      "label": "6-2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "指出HMTA晶体中作周期性重复的最小结构单元;说明1个正当晶胞中有多少个这样的结构单元."
-        }
-      ],
-      "partId": "part-001921"
+      "type": "paragraph",
+      "text": "6-2-2 写出该晶体最高对称轴的名称或记号、方向，以及特征对称元素的名称和取向。"
     },
     {
-      "type": "subpart",
-      "label": "6-2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出该晶体最高对称轴的名称或记号,方向,以及特征对称元素的名称和取向."
-        }
-      ],
-      "partId": "part-001922"
+      "type": "paragraph",
+      "text": "6-3 晶体的宏观对称性与构成该晶体的分子对称性是否完全相同？请从HMTA、尿素、二茂铁、苯、富勒烯中选择实例说明。"
     },
     {
-      "type": "subpart",
-      "label": "6-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "晶体的宏观对称性与构成该晶体的分子对称性是否完全相同请从HMTA,尿素,二茂铁,苯,富勒烯中选择实例说明."
-        }
-      ],
-      "partId": "part-001923"
+      "type": "paragraph",
+      "text": "6-4-1 指出HMTA晶体的点阵型式：说明该点阵的轴次最高的对称轴及其方向。"
     },
     {
-      "type": "subpart",
-      "label": "6-4-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "指出HMTA晶体的点阵型式:说明该点阵的轴次最高的对称轴及其方向."
-        }
-      ],
-      "partId": "part-001924"
+      "type": "paragraph",
+      "text": "6-4-2 假设图6-A所示的正当晶胞中⼼的分⼦取向不同于顶点的分⼦，晶体的点阵型式是什么？"
     },
     {
-      "type": "subpart",
-      "label": "6-4-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "假设图6-A所示的正当晶胞中心的分子取向不同于顶点的分子,晶体的点阵型式是什么"
-        }
-      ],
-      "partId": "part-001925"
+      "type": "paragraph",
+      "text": "6-4-3 计算每个正当晶胞中 C - H \\cdot N 氢键的数⽬。"
     },
     {
-      "type": "subpart",
-      "label": "6-4-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算每个正当晶胞中 C - HcdotsN 氢键的数目."
-        }
-      ],
-      "partId": "part-001926"
+      "type": "paragraph",
+      "text": "6-4-4 从结构化学角度简述该晶体格外稳定的原因。"
     },
     {
-      "type": "subpart",
-      "label": "6-4-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "从结构化学⻆度简述该晶体格外稳定的原因."
-        }
-      ],
-      "partId": "part-001927"
-    },
-    {
-      "type": "subpart",
-      "label": "6-5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算HMTA的晶体的密度 bfdotrho _ ° ."
-        }
-      ],
-      "partId": "part-001928"
+      "type": "paragraph",
+      "text": "6-5 计算HMTA的晶体的密度 \\rho rho _ ° 。"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

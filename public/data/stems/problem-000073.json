@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000073",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,88 +8,77 @@
   "examYear": 2019,
   "examStage": "preliminary",
   "source": {
+    "sourceDocumentId": "source-000053",
     "sourceLabel": "2019-33-CChO-chusai.pdf",
-    "pages": [
-      3,
-      4,
-      5
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000053"
+    "transcribedAt": "2026-08-08"
   },
-  "blocks": [
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [],
+  "parts": [
     {
-      "type": "paragraph",
-      "text": "第7题 1960年代,稀有气体化合物的合成是化学的重要突破之一.Bartlett从 $\\mathrm { O _ { 2 } ^ { + } } [ \\mathrm { PtF _ { 6 } } ] ^ { - }$ −的生成得到启发,推测可以形成 $\\mathrm { Xe ^ { + } [ PtF _ { 6 } ] } ^ { - }$ −.于是尝试通过Xe与 $\\mathrm { PtF } _ { 6 }$ 反应合成相应的稀有气体化合物,这一工作具有深远的意义."
-    },
-    {
-      "type": "subpart",
+      "id": "part-000073-01",
       "label": "7-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "后续研究发现,Bartlett当时得到的并非 $\\mathrm { Xe ^ { + } [ PtF _ { 6 } ] ^ { - } }$ −,而可能是 $\\mathrm { XeF ^ { + } [ Pt _ { 2 } F _ { 11 } ] ^ { - } }$ ."
+          "text": "后续研究发现,Bartlett当时得到的并非 $\\mathrm{Xe^+[PtF_6]^-}$,而可能是 $\\mathrm{XeF^+[Pt_2F_{11}]^-}$。"
         }
-      ],
-      "partId": "part-001989"
+      ]
     },
     {
-      "type": "subpart",
-      "label": "7-1-1",
+      "id": "part-000073-02",
+      "label": "7-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出 $\\mathrm { XeF ^ { + } [ Pt _ { 2 } F _ { 11 } ] }$ −中Xe的氧化数."
+          "text": "-1 写出 $\\mathrm{XeF^+[Pt_2F_{11}]^-}$ 中 Xe 的氧化数。"
         }
-      ],
-      "partId": "part-001990"
+      ]
     },
     {
-      "type": "subpart",
-      "label": "7-1-2",
+      "id": "part-000073-03",
+      "label": "7-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在 $\\mathrm { [ Pt _ { 2 } F _ { 11 } ] }$ −结构中,沿轴向有四次轴.画出 $\\mathrm { [ Pt _ { 2 } F _ { 11 } ] }$ −的结构."
+          "text": "-2 在 $\\mathrm{[Pt_2F_{11}]^-}$ 结构中,沿轴向有四次轴。画出 $\\mathrm{[Pt_2F_{11}]^-}$ 的结构。"
         }
-      ],
-      "partId": "part-001991"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000073-04",
       "label": "7-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "后来,大量含 Xe—F 和 $\\mathrm { Xe - O }$ 键的化合物被合成出来,如 $\\mathrm { XeOF _ { 2 \\circ } }$ .根据价层电子对互斥理论(VSEPR),写出 $\\mathrm { XeOF _ { 2 } }$ 的几何构型及中心原子所用杂化轨道类型."
+          "text": "后来,大量含 Xe—F 和 $\\mathrm{Xe-O}$ 键的化合物被合成出来,如 $\\mathrm{XeOF_2}$。根据价层电子对互斥理论(VSEPR),写出 $\\mathrm{XeOF_2}$ 的几何构型及中心原子所用杂化轨道类型。"
         }
-      ],
-      "partId": "part-001992"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000073-05",
       "label": "7-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "1974年合成了第一例含 $\\mathrm { Xe - N }$ 键的化合物: $\\mathrm { XeF _ { 2 } }$ 和 $\\mathrm { HN } ( \\mathrm { SO _ { 2 } F } ) _ { 2 }$ 在 $0 ~ ^ { \\circ } \\mathrm { C }$ 的二氟二氯甲烷溶剂中按1:1的计量关系反应,放出HF得到白色固体产物A.A受热至 $70 ^ { \\circ } \\mathrm { C }$ 分解,A中的 $\\mathrm { Xe }$ 一半以 $\\mathrm { Xe }$ 气放出,其他两种产物与Xe具有相同的计量系数且其中一种是常⻅的氙的氟化物.写出A的化学式及其分解的反应方程式."
+          "text": "1974年合成了第一例含 $\\mathrm{Xe-N}$ 键的化合物:$\\mathrm{XeF_2}$ 和 $\\mathrm{HN(SO_2F)_2}$ 在 $0~^\\circ\\mathrm{C}$ 的二氟二氯甲烷溶剂中按1:1的计量关系反应,放出HF得到白色固体产物A。A受热至 $70^\\circ\\mathrm{C}$ 分解,A中的 $\\mathrm{Xe}$ 一半以 $\\mathrm{Xe}$ 气放出,其他两种产物与Xe具有相同的计量系数且其中一种是常见的氙的氟化物。写出A的化学式及其分解的反应方程式。"
         }
-      ],
-      "partId": "part-002620"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000073-06",
       "label": "7-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "1989年,随着超高压下Xe单质固体由立方密堆积变为六方密堆积结构并显示出金属性,Xe的“惰性”帽子被彻底摘掉.理论预测,高压下Xe可以参与形成更复杂的化合物,如 $\\mathrm { Cs ^ { I } Xe ^ { II } Au _ { 3 \\circ } }$ 若 $\\mathrm { Cs ^ { I } Xe ^ { II } Au _ { 3 } }$ 采用钙钛矿类型的结构,分别写出 $\\mathrm { Cs ^ { I } }$ 和 $\\mathrm { Xe ^ { II } }$ 最近邻的金原子数."
+          "text": "1989年,随着超高压下Xe单质固体由立方密堆积变为六方密堆积结构并显示出金属性,Xe的“惰性”帽子被彻底摘掉。理论预测,高压下Xe可以参与形成更复杂的化合物,如 $\\mathrm{Cs^I Xe^{II} Au_3}$。若 $\\mathrm{Cs^I Xe^{II} Au_3}$ 采用钙钛矿类型的结构,分别写出 $\\mathrm{Cs^I}$ 和 $\\mathrm{Xe^{II}}$ 最近邻的金原子数。"
         }
-      ],
-      "partId": "part-002621"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

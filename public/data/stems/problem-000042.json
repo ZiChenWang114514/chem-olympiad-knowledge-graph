@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000042",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,63 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000012",
     "sourceLabel": "2017-31-CChO-juesai.pdf",
-    "pages": [
-      1
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第2题(12分)已知 $| K _ { a 1 } ^ { \\Theta } ( \\mathrm { H } _ { 2 } \\mathrm { S } ) = 1.1 \\times 10 ^ { - 7 } , K _ { a 2 } ^ { \\Theta } ( \\mathrm { H } _ { 2 } \\mathrm { S } ) = 1.3 \\times 10 ^ { - 13 } , K _ { s p } ^ { \\Theta } ( \\mathrm { Z n S } ) = 2.5 \\times 10 ^ { - 22 } \\mathrm { o n ~ \\Omega ~ } .$ 假定本题两杯中的液体体积始终等于1.00 L,且H 2 S饱和溶液的浓度均等于 $0.100 \\mathrm { m o l } \\mathrm { L } _ { \\mathrm { ~ } \\circ } ^ { - 1 }$ 天平两盘各有一盛着 $1.0 \\mathrm { { L H _ { 2 } O } }$ 的烧杯,天平平衡。"
-    },
-    {
-      "type": "subpart",
-      "label": "2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "向左杯中融入 $2.72 \\ : \\mathrm { g } \\ : \\mathrm { Z n C l _ { 2 } }$ ,试通过计算说明,为使天平再次平衡需向右杯中加入多少克 $\\mathrm { N a _ { 2 } O _ { 2 } }$？"
-        }
-      ],
-      "partId": "part-000078"
-    },
-    {
-      "type": "subpart",
-      "label": "2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "天平再次平衡后,向左杯中通入 $\\mathrm { H } _ { 2 } \\mathrm { S }$ 气体,充分反应且使 $\\mathrm { H } _ { 2 } \\mathrm { S }$ 达到饱和。接着向右杯中通入 $\\mathrm { H } _ { 2 } \\mathrm { S }$ 气体。试通过计算求出当天平第三次平衡时,右杯中溶液的 $\\mathrm { p H } _ { \\cdot }$ o"
-        }
-      ],
-      "partId": "part-000079"
-    },
-    {
-      "type": "subpart",
-      "label": "2-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "天平第三次平衡后,向左杯中缓缓通入 $\\mathrm { H C l }$ 气体。试通过计算求出当杯中的沉淀刚好溶解掉一半时,溶液的Cl-浓度。"
-        }
-      ],
-      "partId": "part-000080"
-    },
-    {
-      "type": "subpart",
-      "label": "2-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "拟使天平第四次平衡,需向右杯中通入多少克HCl气体？试通过计算加以说明。"
-        }
-      ],
-      "partId": "part-000081"
+      "text": "第2题（12分）已知 $| K _ { a 1 } ^ { \\mit \\Theta } ( \\mathrm { H } _ { 2 } \\mathrm { S } ) = 1 . 1 \\times 1 0 ^ { - 7 } , K _ { a 2 } ^ { \\mit \\Theta } ( \\mathrm { H } _ { 2 } \\mathrm { S } ) = 1 . 3 \\times 1 0 ^ { - 1 3 } , K _ { s p } ^ { \\mit \\Theta } ( \\mathrm { Z n S } ) = 2 . 5 \\times 1 0 ^ { - 2 2 } \\mathrm { o n ~ \\Omega ~ } .$ 假定本题两杯中的液体体积始终等于1.00 L，且H 2 S饱和溶液的浓度均等于 $0 . 1 0 0 \\mathrm { m o l } \\mathrm { L } _ { \\mathrm { ~ } \\circ } ^ { - 1 }$ 天平两盘各有一盛着 $1 . 0 \\mathrm { { L H _ { 2 } O } }$ 的烧杯，天平平衡。 2-1 向左杯中融入 $2 . 7 2 \\ : \\mathrm { g } \\ : \\mathrm { Z n C l _ { 2 } }$ ，试通过计算说明，为使天平再次平衡需向右杯中加入多少克 $\\mathrm { N a _ { 2 } O _ { 2 } ? }$ 2-2 天平再次平衡后，向左杯中通入 $\\mathrm { H } _ { 2 } \\mathrm { S }$ 气体，充分反应且使 $\\mathrm { H } _ { 2 } \\mathrm { S }$ 达到饱和。接着向右杯中通入 $\\mathrm { H } _ { 2 } \\mathrm { S }$ 气体。试通过计算求出当天平第三次平衡时，右杯中溶液的 $\\mathrm { p H } _ { \\cdot }$ o 2-3 天平第三次平衡后，向左杯中缓缓通入 $\\mathrm { H C l }$ 气体。试通过计算求出当杯中的沉淀刚好溶解掉一半时，溶液的Cl−浓度。 2-4 拟使天平第四次平衡，需向右杯中通入多少克HCl气体？试通过计算加以说明。"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

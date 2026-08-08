@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000370",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,97 +10,93 @@
   "source": {
     "sourceDocumentId": "source-000005",
     "sourceLabel": "2010-24-CChO-juesai.pdf",
-    "pages": [
-      2,
-      3
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
       "text": "293.15 K 下,$\\mathrm{O_2(g)}$ 在血液中溶解的亨利常数 $k = 8.000 \\times 10^4\\ \\mathrm{kPa\\ kg^{-1}\\ mol^{-1}}$;氧气的摩尔熵 $S_{\\mathrm{m}}^{\\ominus} = 204.6\\ \\mathrm{J\\ K^{-1}\\ mol^{-1}}$;$\\mathrm{CO_2(aq) + H_2O(l) \\rightleftharpoons HCO_3^-(aq) + H^+(aq)}$,$\\Delta_{\\mathrm{r}}H_{\\mathrm{m}}^{\\ominus} = 7.50\\ \\mathrm{kJ\\ mol^{-1}}$;$\\mathrm{CO_2(aq) \\rightleftharpoons CO_2(g)}$,$\\Delta_{\\mathrm{v}}H_{\\mathrm{m}}^{\\ominus} = 19.40\\ \\mathrm{kJ\\ mol^{-1}}$;设 $\\Delta_{\\mathrm{r}}H_{\\mathrm{m}}^{\\ominus}$、$\\Delta_{\\mathrm{v}}H_{\\mathrm{m}}^{\\ominus}$ 不随温度变化。"
-    },
+    }
+  ],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000370-01",
       "label": "5-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "在 293.15 K 下,将含有 1.000 g Hb 的溶液放入一总热容($C_p$)为 93.70 J K$^{-1}$ 的等压绝热微量量热计中,当充入足够的氧气后,Hb 全部氧合成 $\\mathrm{Hb(O_2)_4}$,测得体系温度升高 $0.028\\ ^\\circ\\mathrm{C}$。计算每摩尔氧的平均结合焓。"
         }
-      ],
-      "partId": "part-000769"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000370-02",
       "label": "5-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "估算 $\\mathrm{Hb(aq) + O_2(g) \\to HbO_2(aq)}$ 在 293.15 K 时的 $S_{\\mathrm{m}}^{\\ominus}[\\mathrm{HbO_2(aq)}] - S_{\\mathrm{m}}^{\\ominus}[\\mathrm{Hb(aq)}]$,简要说明估算误差的来源。"
         }
-      ],
-      "partId": "part-000770"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000370-03",
       "label": "5-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "研制一种临床用的二氧化碳气敏电极(由透气膜、$1.0 \\times 10^{-2}\\ \\mathrm{mol\\ kg^{-1}}$ 的 $\\mathrm{NaHCO_3}$ 溶液、pH 电极和外参比电极组成),某研究人员从理论上探讨了二氧化碳的分压及温度变化对溶液 pH 的影响。"
         }
-      ],
-      "partId": "part-000771"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000370-04",
       "label": "5-3-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "计算 298.15 K 下,$\\mathrm{CO_2(g)}$ 平衡压力为 6.00 kPa 和 6.66 kPa 的电势差值;"
         }
-      ],
-      "partId": "part-000772"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000370-05",
       "label": "5-3-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "保持 $\\mathrm{CO_2(g)}$ 的分压不变,温度升高,写出有关公式并据此说明溶液 pH 如何变化。"
         }
-      ],
-      "partId": "part-000773"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000370-06",
       "label": "5-4",
       "blocks": [
         {
           "type": "paragraph",
           "text": "在肺部的呼吸作用中,氧合血红蛋白的生成速率为 $r = k[\\mathrm{Hb(aq)}][\\mathrm{O_2(aq)}]$"
         }
-      ],
-      "partId": "part-000774"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000370-07",
       "label": "5-4-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "计算在海拔 6000 m 的高山上人体血液中氧合血红蛋白的生成速率与海平面的生成速率之比。设体温为 310.15 K,气体均为理想气体。"
         }
-      ],
-      "partId": "part-000775"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000370-08",
       "label": "5-4-2",
       "blocks": [
         {
@@ -139,11 +135,7 @@
           "type": "paragraph",
           "text": "$\\mathrm{HbO_6(aq) + O_2(aq) \\xrightarrow{k_4} HbO_8(aq)}$"
         }
-      ],
-      "partId": "part-000776"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

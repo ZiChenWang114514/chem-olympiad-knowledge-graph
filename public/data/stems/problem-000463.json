@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000463",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,37 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000010",
     "sourceLabel": "2015-29-CChO-juesai.pdf",
-    "pages": [
-      2
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "blocks": [
-    {
-      "type": "subpart",
-      "label": "4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "氢最有可能成为 21 世纪的主要能源,但氢气需要由其他物质来制备,制氢的方法之一是以煤的转化为基础。基本原理是用碳、水在气化炉中发生如下反应: $$ \\mathrm{C} (\\mathrm{s}) + \\mathrm{H} _ {2} \\mathrm{O} \\rightleftharpoons \\mathrm{CO} (\\mathrm{g}) + \\mathrm{H} _ {2} (\\mathrm{g}) $$ $$ \\mathrm{CO} (\\mathrm{g}) + \\mathrm{H} _ {2} \\mathrm{O} \\rightleftharpoons \\mathrm{CO} _ {2} (\\mathrm{g}) + \\mathrm{H} _ {2} (\\mathrm{g}) $$ 利用CaO吸收产物中的CO 2 : $$ \\mathrm{CaO} (\\mathrm{s}) + \\mathrm{CO} _ {2} (\\mathrm{g}) \\rightleftharpoons \\mathrm{CaCO} _ {3} (\\mathrm{s}) $$ 产物中的 $\\mathrm { H } _ { 2 }$ 与平衡体系中的 $\\mathrm { C } ,$ ,CO, $\\mathrm { C O _ { 2 } }$ 发生反应,生成CH 4 : $$ \\mathrm{C} (\\mathrm{s}) + 2 \\mathrm{H} _ {2} (\\mathrm{g}) \\rightleftharpoons \\mathrm{CH} _ {4} (\\mathrm{g}) $$ $$ \\mathrm{CO} (\\mathrm{g}) + 3 \\mathrm{H} _ {2} (\\mathrm{g}) \\rightleftharpoons \\mathrm{CH} _ {4} (\\mathrm{g}) + \\mathrm{H} _ {2} \\mathrm{O} (\\mathrm{g}) $$ $$ \\mathrm{CO} _ {2} (\\mathrm{g}) + 4 \\mathrm{H} _ {2} (\\mathrm{g}) \\rightleftharpoons \\mathrm{CH} _ {4} (\\mathrm{g}) + 2 \\mathrm{H} _ {2} \\mathrm{O} (\\mathrm{g}) $$ 将 2 mol C(s),2 mol $\\mathrm { H _ { 2 } O ( g ) }$ ,2 mol $\\mathrm { C a O } ( s )$ 放入气化炉,在 $850 ~ ^ { \\circ } \\mathrm { C }$ 下发生反应。 已知850 °C下相关物种的热力学参数: 4-1 计算气化炉总压为 $2.50 \\times 10 ^ { 6 } \\mathrm { P a }$ 时, $\\mathrm { H } _ { 2 }$ 在平衡混合气中的摩尔分数。 4-2 计算 $850 ^ { \\circ } \\mathrm { C }$ 从起始原料到平衡产物这一过程的热效应。 4-3 碳在高温下是一种优良的还原剂,可用于冶炼多种金属。试写出 $600 ^ { \\circ } \\mathrm { C }$ 碳的可能氧化产物的化学式。从热力学角度说明原因(假设 $600 ^ { \\circ } \\mathrm { C }$ 反应的熵变、焓变和 $850 ^ { \\circ } \\mathrm { C }$ 下的熵变、焓变相同)"
-        }
-      ],
-      "partId": "part-000920"
-    },
-    {
-      "type": "subpart",
-      "label": "4-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "碳在高温下是一种优良的还原剂,可用于冶炼多种金属。试写出 $600 ^ { \\circ } \\mathrm { C }$ 碳的可能氧化产物的化学式。从热力学⻆度说明原因(假设 $600 ^ { \\circ } \\mathrm { C }$ 反应的熵变、焓变和 $850 ^ { \\circ } \\mathrm { C }$ 下的熵变、焓变相同)"
-        }
-      ],
-      "partId": "part-000923"
-    }
-  ],
   "renderingHints": {
     "mhchem": true
-  }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "氢最有可能成为 21 世纪的主要能源，但氢气需要由其他物质来制备，制氢的方法之一是以煤的转化为基础。基本原理是用碳、⽔在气化炉中发生如下反应： $$ \\mathrm{C} (\\mathrm{s}) + \\mathrm{H} _ {2} \\mathrm{O} \\rightleftharpoons \\mathrm{CO} (\\mathrm{g}) + \\mathrm{H} _ {2} (\\mathrm{g})\\tag{1} $$ $$ \\mathrm{CO} (\\mathrm{g}) + \\mathrm{H} _ {2} \\mathrm{O} \\rightleftharpoons \\mathrm{CO} _ {2} (\\mathrm{g}) + \\mathrm{H} _ {2} (\\mathrm{g})\\tag{2} $$ 利用CaO吸收产物中的CO 2 ： $$ \\mathrm{CaO} (\\mathrm{s}) + \\mathrm{CO} _ {2} (\\mathrm{g}) \\rightleftharpoons \\mathrm{CaCO} _ {3} (\\mathrm{s})\\tag{3} $$ 产物中的 $\\mathrm { H } _ { 2 }$ 与平衡体系中的 $\\mathrm { C } ,$ ，CO， $\\mathrm { C O _ { 2 } }$ 发生反应，生成CH 4 ： $$ \\mathrm{C} (\\mathrm{s}) + 2 \\mathrm{H} _ {2} (\\mathrm{g}) \\rightleftharpoons \\mathrm{CH} _ {4} (\\mathrm{g})\\tag{4} $$ $$ \\mathrm{CO} (\\mathrm{g}) + 3 \\mathrm{H} _ {2} (\\mathrm{g}) \\rightleftharpoons \\mathrm{CH} _ {4} (\\mathrm{g}) + \\mathrm{H} _ {2} \\mathrm{O} (\\mathrm{g})\\tag{5} $$ $$ \\mathrm{CO} _ {2} (\\mathrm{g}) + 4 \\mathrm{H} _ {2} (\\mathrm{g}) \\rightleftharpoons \\mathrm{CH} _ {4} (\\mathrm{g}) + 2 \\mathrm{H} _ {2} \\mathrm{O} (\\mathrm{g})\\tag{6} $$ 将 2 mol C(s)，2 mol $\\mathrm { H _ { 2 } O ( g ) }$ ，2 mol $\\mathrm { C a O } ( s )$ 放入气化炉，在 $8 5 0 ~ ^ { \\circ } \\mathrm { C }$ 下发生反应。 已知850 °C下相关物种的热力学参数： 4-1 计算气化炉总压为 $2 . 5 0 \\times 1 0 ^ { 6 } \\mathrm { P a }$ 时， $\\mathrm { H } _ { 2 }$ 在平衡混合气中的摩尔分数。 4-2 计算 $8 5 0 ^ { \\circ } \\mathrm { C }$ 从起始原料到平衡产物这一过程的热效应。 4-3 碳在高温下是一种优良的还原剂，可用于冶炼多种金属。试写出 $6 0 0 ^ { \\circ } \\mathrm { C }$ 碳的可能氧化产物的化学式。从热力学角度说明原因（假设 $6 0 0 ^ { \\circ } \\mathrm { C }$ 反应的熵变、焓变和 $8 5 0 ^ { \\circ } \\mathrm { C }$ 下的熵变、焓变相同）"
+    }
+  ]
 }

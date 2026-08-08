@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000155",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,103 +8,37 @@
   "examYear": 2021,
   "examStage": "final",
   "source": {
+    "sourceDocumentId": "source-000018",
     "sourceLabel": "2021-35-CChO-juesai-2.pdf",
-    "pages": [
-      1,
-      5
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000018"
+    "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第5题 1987年签订的《蒙特利尔议定书》,禁止全球使用氟氯碳化物(CFCs)作为制冷剂,以减缓大气臭氧层空洞.随后以氢氟碳化物代替CFCs.然而,氢氟碳化物增强温室效应的能力比二氧化碳强几千倍,导致全球变暖.2016年,在《蒙特利尔议定书》基础上通过了基加利修正案,敦促各国减少氢氟碳化物的使用.现有一种名为NRF-60的环保型制冷剂,1 $p ^ { \\prime }$ ⊖时的热力学参数如下:"
+      "text": "第5题（14分）1987年签订的《蒙特利尔议定书》，禁⽌全球使用氟氯碳化物（CFCs）作为制冷剂，以减缓大气臭氧层空洞。随后以氢氟碳化物代替CFCs。然⽽，氢氟碳化物增强温室效应的能力比二氧化碳强⼏千倍，导致全球变暖。2016年，在《蒙特利尔议定书》基础上通过了基加利修正案，敦促各国减少氢氟碳化物的使用。现有一种名为NRF-60的环保型制冷剂，1 $p ^ { \\prime }$ ⊖时的热力学参数如下： $C _ { p , \\mathrm { m } } ( l ) = 1 7 2 . 2 \\mathrm { J } \\mathrm { m o l ^ { - 1 } K ^ { - 1 } } , C _ { p , \\mathrm { m } } ( \\mathrm { g } ) = 4 R$ ，热容均可视为常数；正常沸点279.2 K时的摩尔气化焓 $\\Delta _ { \\mathrm { v a p } } H _ { \\mathrm { m } } ^ { \\ominus }$ 。本题中，NRF-60(g)可视为理想气体，压强对液相 $H _ { \\mathrm { m } }$ 、 $S _ { \\mathrm { m } }$ 、 $G _ { \\mathrm { m } }$ 、 $V _ { \\mathrm { m } }$ 的影响可忽略。 5-1 在一具有光滑活塞的绝热容器中，270.0 K时，NRF-60达气、液平衡，其中气相和液相的摩尔数分别为9 mol 和 1 $\\mathrm { m o l } _ { \\mathrm { o } }$ 现将该平衡系统绝热可逆压缩⾄温度为300.0 K，终态仍存在气、液两相。 5-1-1 分别计算体系在初态和终态的压强。（此步可作适当近似） 5-1-2 计算体系在初态温度、压强下的摩尔气化焓。 5-1-3 计算终态时系统的组成。 5-2 以NRF-60为工作介质的蒸气压缩式制冷循环如图5-1所示（?-?图）。两条等温线温度分别为 $T _ { C }$ 和 $T _ { \\mathrm { H } \\circ }$ 体系初态位于图中的?点，NRF-60处于气、液平衡区，温度为 $T _ { C ^ { \\varsigma } }$ 。该制冷循环如下：系统从?点出发恒温膨胀⾄?点（全部液体刚好气化）；⾃?点绝热压缩⾄?点；⾃?点恒压压缩使气相全部凝聚为液相，到达?点；对液相进⾏“节流” $( e a )$ 使其冷却，节流过程为绝热等焓过程。整个循环中除“节流”过程不可逆外，其它过程均为可逆过程。"
     },
     {
       "type": "paragraph",
-      "text": "$C _ { p , \\mathrm { m } } ( l ) = 172.2 \\mathrm { J } \\mathrm { mol ^ { - 1 } K ^ { - 1 } } , C _ { p , \\mathrm { m } } ( \\mathrm { g } ) = 4R$ ,热容均可视为常数;正常沸点279.2K时的摩尔气化焓 $\\Delta _ { \\mathrm { vap } } H _ { \\mathrm { m } } ^ { \\ominus }$ .本题中,NRF-60(g)可视为理想气体,压强对液相 $H _ { \\mathrm { m } }$ , $S _ { \\mathrm { m } }$ , $G _ { \\mathrm { m } }$ , $V _ { \\mathrm { m } }$ 的影响可忽略."
+      "text": "图5-1 制冷机工作循环示意图"
     },
     {
-      "type": "subpart",
-      "label": "5-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "在一具有光滑活塞的绝热容器中,270.0K时,NRF-60达气,液平衡,其中气相和液相的摩尔数分别为9mol 和 1 $\\mathrm { mol } _ { \\mathrm { o } }$ 现将该平衡系统绝热可逆压缩至温度为300.0K,终态仍存在气,液两相."
-        },
-        {
-          "type": "paragraph",
-          "text": "- 别计算体系在初态和终态的压强.(此步可作适当近似)"
-        },
-        {
-          "type": "paragraph",
-          "text": "制冷机工作循环示意图"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000155-figure-002.jpg",
-          "alt": "原卷第5题图2：制冷机工作循环示意图",
-          "displayWidth": 70,
-          "assetId": "asset-005360"
-        },
-        {
-          "type": "paragraph",
-          "text": "图 5-2 -图"
-        },
-        {
-          "type": "paragraph",
-          "text": "类似图5-1,绘制上述蒸气压缩式制冷循环过程的温度-熵 $\\left( T \\ - S \\right)$ 示意图 $( ~ { Na } .$ 点出发,在图中标明,,,点,并用带箭头的线连接各点).-图如图5-2,请自行在答题纸上绘制."
-        }
-      ],
-      "partId": "part-002106"
+      "type": "paragraph",
+      "text": "类似图5-1，绘制上述蒸气压缩式制冷循环过程的温度-熵 $\\left( T \\ – S \\right)$ 示意图 $( ~ { N a } .$ 点出发，在图中标明?，?，?，?点，并用带箭头的线连接各点）。?-?图如图5-2，请⾃⾏在答题纸上绘制。"
     },
     {
-      "type": "subpart",
-      "label": "5-1-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算体系在初态温度,压强下的摩尔气化焓."
-        }
-      ],
-      "partId": "part-002107"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000155-figure-001.jpg",
+      "alt": "problem-000155题目配图第1幅（已按原图查看）"
     },
     {
-      "type": "subpart",
-      "label": "5-1-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算终态时系统的组成."
-        }
-      ],
-      "partId": "part-002108"
-    },
-    {
-      "type": "subpart",
-      "label": "5-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "以NRF-60为工作介质的蒸气压缩式制冷循环如图5-1所示(-图).两条等温线温度分别为 $T _ { C }$ 和 $T _ { \\mathrm { H } \\circ }$ 体系初态位于图中的点,NRF-60处于气,液平衡区,温度为 $T _ { C ^ { \\varsigma } }$ .该制冷循环如下:系统从点出发恒温膨胀至点(全部液体刚好气化);自点绝热压缩至点;自点恒压压缩使气相全部凝聚为液相,到达点;对液相进行“节流” $( ea )$ 使其冷却,节流过程为绝热等焓过程.整个循环中除“节流”过程不可逆外,其它过程均为可逆过程."
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000155-figure-001.jpg",
-          "alt": "原卷第5题图1：以NRF-60为工作介质的蒸气压缩式制冷循环如图5-1所示(-图).两条等温线温度分别为 $T _ { C }$ 和 $T _ { \\mat",
-          "displayWidth": 70,
-          "assetId": "asset-005361"
-        },
-        {
-          "type": "paragraph",
-          "text": "图"
-        }
-      ],
-      "partId": "part-002109"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000155-figure-002.jpg",
+      "alt": "problem-000155题目配图第2幅（已按原图查看）"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

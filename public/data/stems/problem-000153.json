@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000153",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,201 +10,49 @@
   "source": {
     "sourceDocumentId": "source-000018",
     "sourceLabel": "2021-35-CChO-juesai-2.pdf",
-    "pages": [
-      2,
-      3,
-      4
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第3题(9分) $\\mathrm { C } _ { 60 }$ 分子通常通过范德华力堆积形成具有立方面心结构的分子晶体。但是当施加一定的温度与压强时, $\\mathrm { C } _ { 60 }$ 会发生不同维度的晶体结构转变,形成共价晶体。如图"
-    },
-    {
-      "type": "subpart",
-      "label": "3-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "所示的一维链:"
-        },
-        {
-          "type": "paragraph",
-          "text": "按照[2 $+ 2 ] _ { 66 / 66 }$ 环加成反应机制, $\\mathrm { C } _ { 60 }$ 也可以形成一种具有六重反轴的层状六方晶体结构,晶胞参数 $\\mathbf { \\partial } _ { : a } = \\mathbf { \\partial } _ { }$ $919 \\mathrm { p m } _ { \\mathrm { { o } } }$"
-        }
-      ],
-      "partId": "part-000289"
-    },
-    {
-      "type": "subpart",
-      "label": "3-1-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "-1 在一层中每个 $\\mathrm { C } _ { 60 }$ 单元通过多少个C原子与周围的 $\\mathrm { C } _ { 60 }$ 相连？"
-        }
-      ],
-      "partId": "part-000304"
-    },
-    {
-      "type": "subpart",
-      "label": "3-1-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "-2 层间沿？轴方向按照ABCABC...方式进行堆积构成三维晶体,层间距为817 pm,计算此晶体结构的密度。 其中, $\\mathrm { C } _ { 60 }$ 两个六元环共边的C-C键"
-        }
-      ],
-      "partId": "part-000305"
+      "text": "第3题（9分） $\\mathrm { C } _ { 6 0 }$ 分⼦通常通过范德华力堆积形成具有⽴方面⼼结构的分⼦晶体。但是当施加一定的温度与压强时， $\\mathrm { C } _ { 6 0 }$ 会发生不同维度的晶体结构转变，形成共价晶体。如图3-1所示的一维链："
     },
     {
       "type": "paragraph",
-      "text": "与相邻的 $\\mathrm { C } _ { 60 }$ 分子上的C-C键"
+      "text": "3-1 按照[2 $+ 2 ] _ { 6 6 / 6 6 }$ 环加成反应机制， $\\mathrm { C } _ { 6 0 }$ 也可以形成一种具有六重反轴的层状六方晶体结构，晶胞参数 $\\mathbf { \\partial } _ { : a } = \\mathbf { \\partial } _ { }$ $9 1 9 \\mathrm { p m } _ { \\mathrm { { o } } }$ 3-1-1 在一层中每个 $\\mathrm { C } _ { 6 0 }$ 单元通过多少个C原⼦与周围的 $\\mathrm { C } _ { 6 0 }$ 相连？ 3-1-2 层间沿?轴方向按照ABCABC…方式进⾏堆积构成三维晶体，层间距为817 pm，计算此晶体结构的密度。 其中， $\\mathrm { C } _ { 6 0 }$ 两个六元环共边的C-C键(66)与相邻的 $\\mathrm { C } _ { 6 0 }$ 分⼦上的C-C键(66)发生环加成反应，称为 $[ 2 + 2 ] _ { 6 6 / 6 6 }$ 环加成反应。 3-2 $\\mathrm { C } _ { 6 0 }$ 通过 $[ 2 + 2 ] _ { 6 6 / 6 6 }$ 环加成反应还可以形成一种正交晶系的层状三维晶体，层间沿?轴方向按照ABAB…方式进⾏堆积（图3-2），层间沿?、?方向均发生平移。"
     },
     {
       "type": "paragraph",
-      "text": "发生环加成反应,称为 $[ 2 + 2 ] _ { 66 / 66 }$ 环加成反应。"
+      "text": "3-2-1 在一层中每个 $\\mathrm { C } _ { 6 0 }$ 单元通过多少个C原⼦与周围的 $\\mathrm { C } _ { 6 0 }$ 相连？ 3-2-2 写出该晶体的点阵类型。 3-3 有机小分⼦通过特定的共价键连接形成的晶体结构称为共价有机框架（COF）。大多数COF由二维平面结构垂直层叠堆积（AA堆积）⽽成。例如，由二硼酸分⼦BDBA脱⽔聚合形成具有六次轴的COF-1晶体，平面结构堆积呈现直径为 1500 pm 的通道结构（图 3-3），层间距 335 pm。"
     },
     {
-      "type": "subpart",
-      "label": "3-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "$\\mathrm { C } _ { 60 }$ 通过 $[ 2 + 2 ] _ { 66 / 66 }$ 环加成反应还可以形成一种正交晶系的层状三维晶体,层间沿？轴方向按照ABAB...方式进行堆积(图"
-        },
-        {
-          "type": "paragraph",
-          "text": "),层间沿？、？方向均发生平移。"
-        }
-      ],
-      "partId": "part-000295"
-    },
-    {
-      "type": "subpart",
-      "label": "3-2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "-1 在一层中每个 $\\mathrm { C } _ { 60 }$ 单元通过多少个C原子与周围的 $\\mathrm { C } _ { 60 }$ 相连？"
-        }
-      ],
-      "partId": "part-000306"
-    },
-    {
-      "type": "subpart",
-      "label": "3-2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "-2 写出该晶体的点阵类型。"
-        }
-      ],
-      "partId": "part-000307"
-    },
-    {
-      "type": "subpart",
-      "label": "3-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "有机小分子通过特定的共价键连接形成的晶体结构称为共价有机框架(COF)。大多数COF由二维平面结构垂直层叠堆积(AA堆积)而成。例如,由二硼酸分子BDBA脱水聚合形成具有六次轴的COF-1晶体,平面结构堆积呈现直径为 1500 pm 的通道结构(图"
-        },
-        {
-          "type": "paragraph",
-          "text": "),层间距 335 pm。"
-        }
-      ],
-      "partId": "part-000299"
-    },
-    {
-      "type": "subpart",
-      "label": "3-3-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "-1 按照上述反应机理形成的COF-1晶体属于什么晶系？"
-        }
-      ],
-      "partId": "part-000308"
-    },
-    {
-      "type": "subpart",
-      "label": "3-3-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "-3 研究发现COF-1不仅存在AA堆积方式(垂直层叠),还可能有多种AB堆积方式(如交错层叠)。两种堆积方式之间的转换可以看作是相邻两层间的相对平移。沿？方向平移1/2a距离获得如图"
-        }
-      ],
-      "partId": "part-000310"
-    },
-    {
-      "type": "subpart",
-      "label": "3-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "所示结构。写出此时晶体所属的晶系,并解释原因。"
-        }
-      ],
-      "partId": "part-000303"
+      "type": "paragraph",
+      "text": "3-3-1 按照上述反应机理形成的COF-1晶体属于什么晶系？ 3-3-3 研究发现COF-1不仅存在AA堆积方式（垂直层叠），还可能有多种AB堆积方式（如交错层叠）。两种堆积方式之间的转换可以看作是相邻两层间的相对平移。沿?方向平移1/2a距离获得如图3-4所示结构。写出此时晶体所属的晶系，并解释原因。"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000153-figure-001.jpg",
-      "alt": "晶体结构与晶胞相关结构或反应图,第1幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004739"
+      "alt": "problem-000153题目配图第1幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000153-figure-002.jpg",
-      "alt": "晶体结构与晶胞相关结构或反应图,第2幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004740"
+      "alt": "problem-000153题目配图第2幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000153-figure-003.jpg",
-      "alt": "晶体结构与晶胞相关结构或反应图,第3幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004741"
+      "alt": "problem-000153题目配图第3幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000153-figure-004.jpg",
-      "alt": "晶体结构与晶胞相关结构或反应图,第4幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004742"
-    },
-    {
-      "type": "subpart",
-      "label": "3-2-2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出该晶体的点阵类型。"
-        }
-      ],
-      "partId": "part-002596"
-    },
-    {
-      "type": "subpart",
-      "label": "3-3-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "一个正当晶胞中包含几个B原子？"
-        }
-      ],
-      "partId": "part-000309"
+      "alt": "problem-000153题目配图第4幅（已按原图查看）"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

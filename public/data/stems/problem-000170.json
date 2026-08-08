@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000170",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,48 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000059",
     "sourceLabel": "2022-36-CChO-chusai-2.pdf",
-    "pages": [
-      1
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "blocks": [
-    {
-      "type": "subpart",
-      "label": "2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "电解质是电池的重要组份之一。锂离子电池中,最常用的电解质为锂盐X。X中阴离子为正八面体构型,其组成元素均为短周期元素。X的合成方法之一如下:具有三角锥形分子结构的化合物A与化合物B发生复分解反应,生成C和HCl,C与黄绿色气体D按照1:1的比例反应生成 $\\mathbf { E } ,$ ,E具有数种异构体。E进一步与B反应,获得具有三角双锥结构的F和HCl,F和LiF反应得到 $\\mathbf { X } _ { \\circ }$ 2-1 写出A\\~F以及X的化学式。 2-2 写出E的异构体数目并画出所有异构体的结构。"
-        }
-      ],
-      "partId": "part-000326"
-    },
-    {
-      "type": "subpart",
-      "label": "2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出A\\~F以及X的化学式。"
-        }
-      ],
-      "partId": "part-000327"
-    },
-    {
-      "type": "subpart",
-      "label": "2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出E的异构体数目并画出所有异构体的结构。"
-        }
-      ],
-      "partId": "part-000328"
-    }
-  ],
   "renderingHints": {
     "mhchem": true
-  }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "电解质是电池的重要组份之一。锂离⼦电池中，最常用的电解质为锂盐X。X中阴离⼦为正八面体构型，其组成元素均为短周期元素。X的合成方法之一如下：具有三角锥形分⼦结构的化合物A与化合物B发生复分解反应，生成C和HCl，C与⻩绿色气体D按照1:1的比例反应生成 $\\mathbf { E } ,$ ，E具有数种异构体。E进一步与B反应，获得具有三角双锥结构的F和HCl，F和LiF反应得到 $\\mathbf { X } _ { \\circ }$ 2-1 写出A\\~F以及X的化学式。 2-2 写出E的异构体数⽬并画出所有异构体的结构。"
+    }
+  ]
 }

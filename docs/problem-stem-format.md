@@ -1,6 +1,6 @@
 # 题目题干（Problem Stem）公开内容格式规范
 
-**版本：** `stem.schemaVersion = 2`
+**版本：** `stem.schemaVersion = 1`  
 **适用范围：** 公开站 `public/data/stems/`、私有仓审后导出、录入/OCR 后结构化转写  
 **目标：** 点开真题档案卡片后，展示**经过审定与排版渲染的题干**（非整卷扫描 PDF、不含答案/评分）。
 
@@ -10,7 +10,7 @@
 
 | 原则 | 说明 |
 |------|------|
-| **权限优先** | 仅当来源登记允许公开题干时发布结构化题干。`metadata_public` / `internal_only` **不得**发布题干。 |
+| **权限优先** | 仅当来源 `rights_state` 为 `fulltext_authorized`（已获全文授权）或本站明确标记的 `stem_demo`（排版演示）时，才允许发布题干文件。`metadata_public` / `internal_only` **不得**发布题干。 |
 | **只含题干** | 禁止答案、评分细则、解题步骤、阅卷说明、内部审核备注、原始 PDF 路径、OCR 未审校原文。 |
 | **结构化优先** | 不直接塞整段 HTML；使用 **blocks 块模型**，便于 KaTeX/化学式渲染、无障碍与后续编辑。 |
 | **可追溯** | 必须绑定 `problemId`，并记录转写方法、来源页码与审定说明。 |
@@ -73,7 +73,7 @@ public/data/
     {
       "problemId": "problem-000011",
       "path": "data/stems/problem-000011.json",
-      "rightsState": "stem_public",
+      "rightsState": "stem_demo",
       "title": "钙钛矿衍生结构"
     }
   ]
@@ -88,19 +88,21 @@ public/data/
 
 | 字段 | 类型 | 必填 | 说明 |
 |------|------|------|------|
-| `schemaVersion` | `2` | ✓ | 固定为 2 |
+| `schemaVersion` | `1` | ✓ | 固定为 1 |
 | `problemId` | string | ✓ | 如 `problem-000011`，必须与档案元数据一致 |
-| `rightsState` | enum | ✓ | `stem_public` \| `fulltext_authorized` |
+| `rightsState` | enum | ✓ | `stem_public` \| `stem_demo` \| `fulltext_authorized` |
 | `language` | string | ✓ | 默认 `zh-CN` |
 | `title` | string | ✓ | 展示题目标题（可与元数据 title 对齐） |
 | `number` | string | ✓ | 卷面题号，如 `Q6`、`1` |
 | `examYear` | number | | 年份，便于页眉 |
 | `examStage` | string | | `preliminary` / `final` |
 | `source` | object | ✓ | 见下表 |
-| `blocks` | StemBlock[] | ✓ | 按原卷顺序保存全部正文、小问、图表和版面块 |
+| `blocks` | StemBlock[] | * | 无小问时的扁平正文 |
+| `parts` | StemPart[] | * | 有小问时使用；与 `blocks` 可并存（blocks 为总述） |
+| `provenanceNote` | string | | 面向读者的说明（如「演示排版，非官方电子卷」） |
 | `renderingHints` | object | | `{ "mhchem": true }` 等 |
 
-小问直接作为 `subpart` 块出现在 `blocks` 中，以保留小问与图片的原始次序。
+\* `blocks` 与 `parts` **至少其一非空**。
 
 ### 4.1 `source`
 
@@ -108,14 +110,15 @@ public/data/
 |------|------|------|
 | `sourceDocumentId` | | 如 `source-000057` |
 | `sourceLabel` | ✓ | 可读来源名，如 `2021-35-CChO-chusai.pdf` |
-| `pages` | ✓ | 题目实际占用页码数组；从 1 开始 |
-| `transcriptionMethod` | ✓ | `manual` \| `ocr_reviewed` \| `deepseek_polished` |
+| `page` | | 题干起始页 |
+| `transcriptionMethod` | ✓ | `manual` \| `ocr_reviewed` \| `deepseek_polished` \| `synthetic_demo` |
 | `transcribedAt` | | ISO-8601 日期 |
 
 ### 4.2 `rightsState` 语义
 
 | 值 | 含义 | 是否允许上线 |
 |----|------|----------------|
+| `stem_demo` | 为展示渲染链路而写的样例/改写题干 | 可（须在 UI 标明演示） |
 | `stem_public` | 已获权公开**题干**（仍无答案） | 可 |
 | `fulltext_authorized` | 来源已登记全文授权，导出题干子集 | 可 |
 
@@ -252,6 +255,7 @@ public/data/
 1. 按 `blocks` 顺序渲染；若有 `parts`，先渲染根级 `blocks`（总述），再按 `parts` 顺序渲染小问标题 + 内部 blocks。  
 2. 数学：KaTeX；化学：`katex` + `mhchem`。  
 3. 渲染失败时显示原始 LaTeX 源码占位，不得空白崩溃。  
+4. `rightsState === 'stem_demo'` 时 UI **必须**显示「演示题干 / 排版样例」提示。  
 5. 无索引项时：保持「题文暂不公开」元数据提示（现有行为）。
 
 ---

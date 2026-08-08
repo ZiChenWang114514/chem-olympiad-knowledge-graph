@@ -1,105 +1,44 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000311",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "叠氮化合物结构与反应",
-  "number": "Q1",
+  "number": "1",
   "examYear": 2007,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000002",
     "sourceLabel": "2007-21-CChO-juesai.pdf",
-    "pages": [
-      1
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第1题 叠氮化合物不仅是重要的化工原料,也是良好的炸药和火箭推进剂,在国防和工业生产中有着广泛的应用。"
+      "text": "第1题 叠氮化合物不仅是重要的化工原料，也是良好的炸药和⽕箭推进剂，在国防和工业生产中有着⼴泛的应用。 1-1 $\\mathrm { H N } _ { 3 }$ 分⼦的⼏何构型⻅下图（图中键长单位为 $1 0 ^ { - 1 0 } \\mathrm { m } )$ 。N—N、N=N 和 $\\mathrm { N } { \\equiv } \\mathrm { N }$ 的共价键键长分别为$1 . 4 0 \\times 1 0 ^ { - 1 0 }$ $1 . 2 0 \\times 1 0 ^ { - 1 0 }$ 和 1. $0 9 \\times 1 0 ^ { - 1 0 }$ m，试画出 $\\mathrm { H N } _ { 3 }$ 分⼦的共轭结构式。"
     },
     {
-      "type": "subpart",
-      "label": "1-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "\\mathrm { H N } _ { 3 } 分子的几何构型⻅下图(图中键⻓单位为 10 ^ { - 10 } \\mathrm { m } ) 。N-N,N=N 和 \\mathrm { N } { \\equiv } \\mathrm { N } 的共价键键⻓分别为1 . 40 \\times 10 ^ { - 10 } 1 . 20 \\times 10 ^ { - 10 } 和 1. 09 \\times 10 ^ { - 10 } m,试画出 \\mathrm { H N } _ { 3 } 分子的共轭结构式。"
-        }
-      ],
-      "partId": "part-001640"
+      "type": "paragraph",
+      "text": "1-2 叠氮有机铝化合物是多种叠氮化反应的试剂。在室温下，将一定量 $\\mathrm { N a N _ { 3 } }$ 苯和 $\\mathrm { E t _ { 2 } A l C l }$ 混合，剧烈搅拌反应24 h，常压蒸除溶剂，减压蒸馏得到叠氮二⼄基铝 $\\mathrm { ( E t _ { 2 } A l N _ { 3 } , }$ 缩写DEAA）。在低温下， $\\mathrm { E t _ { 2 } A l C l }$ 形成稳定的二聚体，DEAA则形成稳定的三聚体。在上述聚合体中Al原⼦都是4配位 ,⽽且⼄基的化学环境相同。试画出 $\\mathrm { E t _ { 2 } A l C l }$ 二聚体和DEAA三聚体的结构式。 1-3 DEAA的饱和蒸气压与温度的关系曲线如下图所示。试计算如下反应的摩尔焓变。"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$ \\frac {1}{T} \\times 1 0 ^ {3} / \\mathrm{K} ^ {- 1} $$ 1-4 取浓度为 0.100 mol $\\mathrm { L } ^ { - 1 } \\mathrm { D E A A }$ 的苯溶液，用凝固点下降法测得溶质的平均相对分⼦质量为372（DEAA三聚体的相对分⼦质量为381），试计算 $( \\mathrm { D E A A } ) _ { 3 }$ 在该溶液中的解离率。 1-5 叠氮桥配合物不仅表现出多样化的桥联方式和聚合结构，在分⼦基磁性材料研究中极具价值。试画出叠氮桥联形成的双核配合物中叠氮根作桥联配体的各种可能方式（用M表示金属离⼦）。"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000311-figure-001.jpg",
-      "assetId": "asset-005222",
-      "alt": "叠氮化合物结构与反应：第1幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "subpart",
-      "label": "1-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "叠氮有机铝化合物是多种叠氮化反应的试剂。在室温下,将一定量 \\mathrm { N a N _ { 3 } } 苯和 \\mathrm { E t _ { 2 } A l C l } 混合,剧烈搅拌反应24 h,常压蒸除溶剂,减压蒸馏得到叠氮二乙基铝 \\mathrm { ( E t _ { 2 } A l N _ { 3 } , } 缩写DEAA)。在低温下, \\mathrm { E t _ { 2 } A l C l } 形成稳定的二聚体,DEAA则形成稳定的三聚体。在上述聚合体中Al原子都是4配位 ,而且乙基的化学环境相同。试画出 \\mathrm { E t _ { 2 } A l C l } 二聚体和DEAA三聚体的结构式。"
-        }
-      ],
-      "partId": "part-001641"
-    },
-    {
-      "type": "subpart",
-      "label": "1-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "DEAA的饱和蒸气压与温度的关系曲线如下图所示。试计算如下反应的摩尔焓变。"
-        }
-      ],
-      "partId": "part-001642"
+      "alt": "problem-000311题目配图第1幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000311-figure-002.jpg",
-      "assetId": "asset-005223",
-      "alt": "叠氮化合物结构与反应：第2幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "\\frac {1}{T} \\times 10 ^ {3} / \\mathrm{K} ^ {- 1}"
-    },
-    {
-      "type": "subpart",
-      "label": "1-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "取浓度为 0.100 mol \\mathrm { L } ^ { - 1 } \\mathrm { D E A A } 的苯溶液,用凝固点下降法测得溶质的平均相对分子质量为372(DEAA三聚体的相对分子质量为381),试计算 ( \\mathrm { D E A A } ) _ { 3 } 在该溶液中的解离率。"
-        }
-      ],
-      "partId": "part-001643"
-    },
-    {
-      "type": "subpart",
-      "label": "1-5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "叠氮桥配合物不仅表现出多样化的桥联方式和聚合结构,在分子基磁性材料研究中极具价值。试画出叠氮桥联形成的双核配合物中叠氮根作桥联配体的各种可能方式(用M表示金属离子)。"
-        }
-      ],
-      "partId": "part-001644"
+      "alt": "problem-000311题目配图第2幅（已按原图查看）"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

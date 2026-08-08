@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000210",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,127 +8,46 @@
   "examYear": 2023,
   "examStage": "final",
   "source": {
+    "sourceDocumentId": "source-000025",
     "sourceLabel": "2023-37-CChO-juesai-1.pdf",
-    "pages": [
-      1,
-      2
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000025"
+    "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第3题 ,11%)硼和硅元素化学"
+      "text": "第3题（14分,11%）硼和硅元素化学 N-杂环硼化物(N-heterocyclic boryl, NHB)是 N-杂环卡宾(N-heterocyclic carbene, NHC)的等电⼦体，可用于稳定低配位主族元素化合物。 3-1 比较A（一种NHB）与B（一种NHC）的σ给电⼦能力强弱，并解释原因。"
     },
     {
       "type": "paragraph",
-      "text": "N-杂环硼化物(N-heterocyclicboryl, NHB)是 N-杂环卡宾(N-heterocycliccarbene, NHC)的等电子体,可用于稳定低配位主族元素化合物."
+      "text": "A 3-2 研究者利用NHB合成了1,2-双锂化二硅烯 $\\mathbf { C } \\left( \\mathrm { A r } = 2 , 6 \\mathrm { - } ^ { i } \\mathrm { P r } _ { 2 } \\mathrm { C } _ { 6 } \\mathrm { H } _ { 3 } \\right)$ 。C分别与⻧素硼试剂反应生成D和$\\mathbf { E } ,$ 其中D中有含硅环系。"
     },
     {
-      "type": "subpart",
-      "label": "3-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "比较A(一种NHB)与B(一种NHC)的σ给电子能力强弱,并解释原因."
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000210-figure-001.jpg",
-          "alt": "原卷第3题图1：比较A(一种NHB)与B(一种NHC)的σ给电子能力强弱,并解释原因.",
-          "displayWidth": 70,
-          "assetId": "asset-005386"
-        },
-        {
-          "type": "paragraph",
-          "text": "A"
-        }
-      ],
-      "partId": "part-002193"
+      "type": "paragraph",
+      "text": "3-2-1 画出D和E的结构。（不要求⽴体化学，用[B]代表NHB基团） 3-2-2 化合物D中含硅环系的特性是（ ）。① ⾮芳⾹性 ② 芳⾹性 ③ 反芳⾹性 3-3 研究者利用NHB合成了二硅炔化合物F，F可分别与甲苯及一氧化碳反应。"
     },
     {
-      "type": "subpart",
-      "label": "3-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "研究者利用NHB合成了1,2-双锂化二硅烯 $\\mathbf { C } \\left( \\mathrm { Ar } = 2 , 6 \\mathrm { - } ^ { i } \\mathrm { Pr } _ { 2 } \\mathrm { C } _ { 6 } \\mathrm { H } _ { 3 } \\right)$ .C分别与⻧素硼试剂反应生成D和$\\mathbf { E } ,$ 其中D中有含硅环系."
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000210-figure-002.jpg",
-          "alt": "原卷第3题图2：研究者利用NHB合成了1,2-双锂化二硅烯 $\\mathbf { C } \\left( \\mathrm { Ar } = 2 , 6 \\ma",
-          "displayWidth": 70,
-          "assetId": "asset-005387"
-        }
-      ],
-      "partId": "part-002194"
+      "type": "paragraph",
+      "text": "3-3-1 化合物F与甲苯反应生成中间体G，随后经过与ene反应相似的过程得到H。画出G的结构。（用[B]代表NHB基团） 3-3-2 化合物F与一氧化碳反应生成 $\\mathbf { I } _ { \\circ }$ 。I与甲醇反应生成 $\\scriptstyle \\mathbf { J } _ { \\circ }$ 。I和J结构中均含Si—Si单键，不含三元环；J中包含一个四元环，并具有一个C2对称轴。画出I和J的结构。（不要求⽴体化学，用[B]代表NHB基团）"
     },
     {
-      "type": "subpart",
-      "label": "3-2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出D和E的结构.(不要求立体化学,用[B]代表NHB基团)"
-        }
-      ],
-      "partId": "part-002195"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000210-figure-001.jpg",
+      "alt": "problem-000210题目配图第1幅（已按原图查看）"
     },
     {
-      "type": "subpart",
-      "label": "3-2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "化合物D中含硅环系的特性是( ).1 非芳香性 2 芳香性 3 反芳香性"
-        }
-      ],
-      "partId": "part-002196"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000210-figure-002.jpg",
+      "alt": "problem-000210题目配图第2幅（已按原图查看）"
     },
     {
-      "type": "subpart",
-      "label": "3-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "研究者利用NHB合成了二硅炔化合物F,F可分别与甲苯及一氧化碳反应."
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000210-figure-003.jpg",
-          "alt": "原卷第3题图3：研究者利用NHB合成了二硅炔化合物F,F可分别与甲苯及一氧化碳反应.",
-          "displayWidth": 70,
-          "assetId": "asset-005388"
-        }
-      ],
-      "partId": "part-002197"
-    },
-    {
-      "type": "subpart",
-      "label": "3-3-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "化合物F与甲苯反应生成中间体G,随后经过与ene反应相似的过程得到H.画出G的结构.(用[B]代表NHB基团)"
-        }
-      ],
-      "partId": "part-002198"
-    },
-    {
-      "type": "subpart",
-      "label": "3-3-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "化合物F与一氧化碳反应生成 $\\mathbf { I } _ { \\circ }$ .I与甲醇反应生成 $\\scriptstyle \\mathbf { J } _ { \\circ }$ .I和J结构中均含Si—Si单键,不含三元环;J中包含一个四元环,并具有一个C2对称轴.画出I和J的结构.(不要求立体化学,用[B]代表NHB基团)"
-        }
-      ],
-      "partId": "part-002199"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000210-figure-003.jpg",
+      "alt": "problem-000210题目配图第3幅（已按原图查看）"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

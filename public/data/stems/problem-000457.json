@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000457",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,41 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000049",
     "sourceLabel": "2015-29-CChO-chusai.pdf",
-    "pages": [
-      3
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第9题(7分)Coniine是一种有毒生物碱,可以通过麻痹呼吸系统导致死亡。致死量小于0.1 ${ \\bf g } _ { \\circ }$ 。公元前399年苏格拉底就是由于饮用了含coniine的混合物而被毒死的。Hofmann在1881年确定Coniine分子式为$\\mathrm { C _ { 8 } H _ { 17 } N _ { c } }$ 。将 coniine 彻底甲基化后接着 Hofmann 消除反应的产物为 4？-(N,N 二甲基)-辛-7-烯-4-胺。"
-    },
-    {
-      "type": "subpart",
-      "label": "9-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出 4？-(N,N-二甲基)-辛-7-烯-4-胺及其对映体的结构简式;"
-        }
-      ],
-      "partId": "part-000918"
-    },
-    {
-      "type": "subpart",
-      "label": "9-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "从Hofmann消除反应的结果可以确定Coniine具有哪些结构特征？并以此结果画出你所推断的coniine所有可能的结构简式。"
-        }
-      ],
-      "partId": "part-000919"
+      "text": "第9题（7分）Coniine是一种有毒生物碱，可以通过⿇痹呼吸系统导致死亡。致死量小于0.1 ${ \\bf g } _ { \\circ }$ 。公元前399年苏格拉底就是由于饮用了含coniine的混合物⽽被毒死的。Hofmann在1881年确定Coniine分⼦式为$\\mathrm { C _ { 8 } H _ { 1 7 } N _ { c } }$ 。将 coniine 彻底甲基化后接着 Hofmann 消除反应的产物为 4?-(N,N 二甲基)-⾟-7-烯-4-胺。 9-1 画出 4?-(N,N-二甲基)-⾟-7-烯-4-胺及其对映体的结构简式； 9-2 从Hofmann消除反应的结果可以确定Coniine具有哪些结构特征？并以此结果画出你所推断的coniine所有可能的结构简式。"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

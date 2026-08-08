@@ -1,5 +1,6 @@
-import { Navigate, Route, Routes, useLocation } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import type { AppData } from './lib/data'
+import { GraphPage } from './map/GraphPage'
 import { OverviewMap } from './map/OverviewMap'
 import { About } from './pages/About'
 import { ExamDetail } from './pages/ExamDetail'
@@ -14,19 +15,14 @@ export default function App({ data }: { data: AppData }) {
     <Shell data={data}>
       <Routes>
         <Route path="/" element={<OverviewMap data={data} />} />
-        <Route path="/graph" element={<LegacyGraphRedirect />} />
+        <Route path="/graph" element={<GraphPage data={data} />} />
         <Route path="/exams" element={<Exams data={data} />} />
         <Route path="/exams/:id" element={<ExamDetail data={data} />} />
         <Route path="/knowledge/:id" element={<Knowledge data={data} />} />
         <Route path="/statistics" element={<Statistics data={data} />} />
-        <Route path="/about" element={<About data={data} />} />
+        <Route path="/about" element={<About />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Shell>
   )
-}
-
-function LegacyGraphRedirect() {
-  const location = useLocation()
-  return <Navigate to={{ pathname: '/', search: location.search }} replace />
 }

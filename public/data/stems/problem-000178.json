@@ -1,140 +1,67 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000178",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "氟化学邻位交叉效应",
-  "number": "Q10",
+  "number": "10",
   "examYear": 2022,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000059",
     "sourceLabel": "2022-36-CChO-chusai-2.pdf",
-    "pages": [
-      5,
-      6
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
-      "type": "subpart",
-      "label": "10-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "下图是1,2-二氟乙烷的邻位交叉式构象和全交叉式构象,其中邻位交叉式构象更稳定,此现象称为邻位交叉效应。写出1,2-二氟乙烷邻位交叉构象稳定的理由。"
-        }
-      ],
-      "partId": "part-001184"
+      "type": "paragraph",
+      "text": "10-1 下图是1,2-二氟⼄烷的邻位交叉式构象和全交叉式构象，其中邻位交叉式构象更稳定，此现象称为邻位交叉效应。写出1,2-二氟⼄烷邻位交叉构象稳定的理由。"
+    },
+    {
+      "type": "paragraph",
+      "text": "10-2 氟和亚胺正离⼦之间的邻位交叉效应使得不对称诱导效果得到大幅提高。以下反应用A做催化剂，对映体过量值为84%：用B做催化剂，对映体过量值为 $9 6 \\text{‰}$ 画出B做催化剂时亚胺盐中间体的稳定构象。"
+    },
+    {
+      "type": "paragraph",
+      "text": "10-3 1,1,1,3.3.3-六氟异丙醇(HFIP)是独特的有机溶剂，它既是氢键给体⼜是氢键受体；和异丙醇相比，其介电常数(ε =16.7)小，沸点 $\\mathrm { ( b p = 5 8 . 6 ^ { \\circ } C ) }$ 低，酸性强 $\\left( \\mathrm { p } K _ { \\mathrm { a } } = 9 . 3 \\right)$ 。HFIP有多少个氢键供体，多少个氢键受体？ 10-4-1 利用HFIP作溶剂，芳⾹烃的硝化反应条件变得更加温和（如下所示），画出苯硝化反应决速步的过渡态结构，写出HFIP在稳定这个过渡态结构中的作用。"
+    },
+    {
+      "type": "paragraph",
+      "text": "10-4-2HFIP还能促进芳⾹亲核取代反应。用异丙醇作溶剂时，反应不发生：用HFIP作溶剂时，产物的收率为94%。画出2-氯吡嗪与苯硫酚反应决速步的过渡态结构，写出HFIP在稳定这个过渡态结构中的作用。"
+    },
+    {
+      "type": "paragraph",
+      "text": "10-5 HFIP的参与能提高反应的⾮对映选择性。如下所示的亲电环化反应，产率为72%，⾮对映选择性大于95:5。画出产物A的结构（要求⽴体化学）。"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000178-figure-001.jpg",
-      "assetId": "asset-005066",
-      "alt": "氟化学邻位交叉效应：第1幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "subpart",
-      "label": "10-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "氟和亚胺正离子之间的邻位交叉效应使得不对称诱导效果得到大幅提高。以下反应用A做催化剂,对映体过量值为84%:用B做催化剂,对映体过量值为 96 \\text{\\%} 画出B做催化剂时亚胺盐中间体的稳定构象。"
-        }
-      ],
-      "partId": "part-001185"
+      "alt": "problem-000178题目配图第1幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000178-figure-002.jpg",
-      "assetId": "asset-005067",
-      "alt": "氟化学邻位交叉效应：第2幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "subpart",
-      "label": "10-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "1,1,1,3.3.3-六氟异丙醇(HFIP)是独特的有机溶剂,它既是氢键给体又是氢键受体;和异丙醇相比,其介电常数(ε =16.7)小,沸点 \\mathrm { ( b p = 58 . 6 ^ { \\circ } C ) } 低,酸性强 \\left( \\mathrm { p } K _ { \\mathrm { a } } = 9 . 3 \\right) 。HFIP有多少个氢键供体,多少个氢键受体方向"
-        }
-      ],
-      "partId": "part-001186"
-    },
-    {
-      "type": "subpart",
-      "label": "10-4-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "利用HFIP作溶剂,芳香烃的硝化反应条件变得更加温和(如下所示),画出苯硝化反应决速步的过渡态结构,写出HFIP在稳定这个过渡态结构中的作用。"
-        }
-      ],
-      "partId": "part-001187"
+      "alt": "problem-000178题目配图第2幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000178-figure-003.jpg",
-      "assetId": "asset-005068",
-      "alt": "氟化学邻位交叉效应：第3幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "10-4-2HFIP还能促进芳香亲核取代反应。用异丙醇作溶剂时,反应不发生:用HFIP作溶剂时,产物的收率为94%。画出2-氯吡嗪与苯硫酚反应决速步的过渡态结构,写出HFIP在稳定这个过渡态结构中的作用。"
+      "alt": "problem-000178题目配图第3幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000178-figure-004.jpg",
-      "assetId": "asset-005069",
-      "alt": "氟化学邻位交叉效应：第4幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "subpart",
-      "label": "10-5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "HFIP的参与能提高反应的非对映选择性。如下所示的亲电环化反应,产率为72%,非对映选择性大于95:5。画出产物A的结构(要求立体化学)。"
-        }
-      ],
-      "partId": "part-001188"
+      "alt": "problem-000178题目配图第4幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000178-figure-005.jpg",
-      "assetId": "asset-005070",
-      "alt": "氟化学邻位交叉效应：第5幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "subpart",
-      "label": "10-4-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001189"
+      "alt": "problem-000178题目配图第5幅（已按原图查看）"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

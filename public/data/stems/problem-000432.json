@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000432",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,63 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000048",
     "sourceLabel": "2014-28-CChO-chusai.pdf",
-    "pages": [
-      1
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第5题(7分)环戊二烯钠与氯化亚铁在四氢呋喃中反应,或环戊二烯与氯化亚铁在三乙胺存在下反应,可制得稳定的双环戊二烯基合铁(二茂铁)。163.9 K以上形成的晶体属于单斜晶系,晶胞参数 $a \\ = 1044.35 \\mathrm { p m } , \\ b \\ =$ $757.24 \\mathrm { p m }$ ,？ = 582.44 pm, $\\beta = 120.958 ^ { \\circ } { _ { \\mathrm { ~ c ~ } } }$ 。密度 $1.565 \\mathrm { g c m ^ { - 3 } s }$"
-    },
-    {
-      "type": "subpart",
-      "label": "5-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出上述制备二茂铁的两种反应的方程式。"
-        }
-      ],
-      "partId": "part-000881"
-    },
-    {
-      "type": "subpart",
-      "label": "5-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "通常认为,二茂铁分子中铁原子的配位数为 $^ { 6 , }$ ,如何算得的？"
-        }
-      ],
-      "partId": "part-000882"
-    },
-    {
-      "type": "subpart",
-      "label": "5-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "二茂铁晶体属于哪种晶体类型？"
-        }
-      ],
-      "partId": "part-000883"
-    },
-    {
-      "type": "subpart",
-      "label": "5-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算二茂铁晶体的1个正当晶胞中的分子数。"
-        }
-      ],
-      "partId": "part-000884"
+      "text": "第5题（7分）环戊二烯钠与氯化亚铁在四氢呋喃中反应，或环戊二烯与氯化亚铁在三⼄胺存在下反应，可制得稳定的双环戊二烯基合铁(二茂铁)。163.9 K以上形成的晶体属于单斜晶系，晶胞参数 $a \\ = 1 0 4 4 . 3 5 \\mathrm { p m } , \\ b \\ =$ $7 5 7 . 2 4 \\mathrm { p m }$ ，? = 582.44 pm， $\\beta = 1 2 0 . 9 5 8 ^ { \\circ } { _ { \\mathrm { ~ c ~ } } }$ 。密度 $1 . 5 6 5 \\mathrm { g c m ^ { - 3 } s }$ 5-1 写出上述制备二茂铁的两种反应的方程式。 5-2 通常认为，二茂铁分⼦中铁原⼦的配位数为 $^ { 6 , }$ ，如何算得的？ 5-3 二茂铁晶体属于哪种晶体类型？ 5-4 计算二茂铁晶体的1个正当晶胞中的分⼦数。"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

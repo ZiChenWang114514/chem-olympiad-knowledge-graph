@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000401",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,47 +8,38 @@
   "examYear": 2012,
   "examStage": "preliminary",
   "source": {
+    "sourceDocumentId": "source-000046",
     "sourceLabel": "2012-26-CChO-chusai.pdf",
-    "pages": [
-      4
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000046"
+    "transcribedAt": "2026-08-08"
   },
-  "blocks": [
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [],
+  "parts": [
     {
-      "type": "paragraph",
-      "text": "第 11 题"
-    },
-    {
-      "type": "subpart",
+      "id": "part-000401-01",
       "label": "11-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "烯烃羟汞化反应的过程与烯烃的溴化相似.现有如下两个反应:"
+          "text": "烯烃羟汞化反应的过程与烯烃的溴化相似。现有如下两个反应:"
         },
         {
           "type": "paragraph",
-          "text": "$$"
+          "text": "$\\ce{CH2 ->[1. Hg(OAc)2, THF/H2O][2. NaBH4, HO-] A}$"
         },
         {
           "type": "paragraph",
-          "text": "\\mathrm{CH} _ {2} \\xrightarrow [ 2 . \\mathrm{NaBH} _ {4} , \\mathrm{HO} ^ {-} ]{1 . \\mathrm{Hg(OAc)} _ {2} , \\mathrm{THF/H} _ {2} \\mathrm{O}} \\mathrm{A}"
-        },
-        {
-          "type": "paragraph",
-          "text": "$$"
-        },
-        {
-          "type": "paragraph",
-          "text": "4-戊烯-1-醇在相同条件下反应的主要产物为B.画出化合物A和B的结构简式."
+          "text": "4-戊烯-1-醇在相同条件下反应的主要产物为B。画出化合物A和B的结构简式。"
         }
-      ],
-      "partId": "part-002485"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000401-02",
       "label": "11-2",
       "blocks": [
         {
@@ -57,10 +48,9 @@
         },
         {
           "type": "figure",
-          "src": "data/stems/assets/problem-000401-figure-001.jpg",
-          "alt": "原卷第11题图1：下列有机化合物中具有芳香性的是:",
-          "displayWidth": 70,
-          "assetId": "asset-005544"
+          "caption": "选项图",
+          "alt": "四个选项结构图,缺图",
+          "src": "data/stems/assets/problem-000401-figure-001.jpg"
         },
         {
           "type": "paragraph",
@@ -68,60 +58,51 @@
         },
         {
           "type": "figure",
-          "src": "data/stems/assets/problem-000401-figure-002.jpg",
-          "alt": "原卷第11题图2：化合物A经过如下两步反应后生成化合物D,回答如下问题:",
-          "displayWidth": 70,
-          "assetId": "asset-005545"
+          "caption": "反应流程图",
+          "alt": "两步反应流程图,缺图",
+          "src": "data/stems/assets/problem-000401-figure-002.jpg"
         }
-      ],
-      "partId": "part-002486"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000401-03",
       "label": "11-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出物质B的名称."
+          "text": "写出物质B的名称。"
         },
         {
           "type": "paragraph",
           "text": "C"
         }
-      ],
-      "partId": "part-002487"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000401-04",
       "label": "11-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "圈出C中来自原料A中的氧原子."
+          "text": "圈出C中来自原料A中的氧原子。"
         },
         {
           "type": "figure",
-          "src": "data/stems/assets/problem-000401-figure-003.jpg",
-          "alt": "原卷第11题图3：圈出C中来自原料A中的氧原子.",
-          "displayWidth": 70,
-          "assetId": "asset-005546"
+          "caption": "化合物C结构图",
+          "alt": "缺图",
+          "src": "data/stems/assets/problem-000401-figure-003.jpg"
         }
-      ],
-      "partId": "part-002488"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000401-05",
       "label": "11-5",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出物质D的结构简式."
+          "text": "画出物质D的结构简式。"
         }
-      ],
-      "partId": "part-002489"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

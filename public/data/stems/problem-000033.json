@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000033",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,66 +8,57 @@
   "examYear": 2017,
   "examStage": "preliminary",
   "source": {
+    "sourceDocumentId": "source-000051",
     "sourceLabel": "2017-31-CChO-chusai.pdf",
-    "pages": [
-      1,
-      2,
-      4
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000051"
+    "transcribedAt": "2026-08-08"
   },
-  "blocks": [
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [],
+  "parts": [
     {
-      "type": "paragraph",
-      "text": "第3题 在金属离子 $\\mathbf { M } ^ { 3 \\dagger }$ 的溶液中,加入酸 $\\mathrm { H } _ { m } \\mathbf { X } ,$ ,控制条件,可以得到不同沉淀. $\\mathrm { pH } { < } 1$ ,得到沉淀A$( \\mathbf { M } _ { 2 } \\mathbf { X } _ { x } { \\cdot } y \\mathrm { H } _ { 2 } \\mathrm { O } , \\ y { < } 10 )$ ; $\\mathrm { pH } { > } 7$ ,得到沉淀B[MX(OH)].A在空气气氛中的热重分析显示,从 $30 ~ ^ { \\circ } \\mathrm { C }$ 升温至$100 ~ ^ { \\circ } \\mathrm { C }$ 失重11.1%,对应于失去5个结晶水(部分);继续加热至 $300 ~ ^ { \\circ } \\mathrm { C } ,$ ,再失重31.2%,放出无色无味气体,残留物为氧化物 $\\mathbf { M } _ { 2 } \\mathrm { O } _ { 3 \\circ }$ B在氮气气氛中加热至 $300 ~ ^ { \\circ } \\mathrm { C }$ 总失重 29.6%."
-    },
-    {
-      "type": "subpart",
+      "id": "part-000033-01",
       "label": "3-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "通过计算,指出M是哪种金属,确定A的化学式."
+          "text": "通过计算,指出M是哪种金属,确定A的化学式。"
         }
-      ],
-      "partId": "part-001904"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000033-02",
       "label": "3-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出A在空气中热解的反应方程式."
+          "text": "写出A在空气中热解的反应方程式。"
         }
-      ],
-      "partId": "part-001905"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000033-03",
       "label": "3-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "通过计算,确定B在 $\\mathrm { N } _ { 2 }$ 气氛中失重后的产物及产物的定量组成(用摩尔分数表示)."
+          "text": "通过计算,确定B在 $\\mathrm{N_2}$ 气氛中失重后的产物及产物的定量组成(用摩尔分数表示)。"
         }
-      ],
-      "partId": "part-001906"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000033-04",
       "label": "3-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出B在氮气气氛中分解的反应方程式."
+          "text": "写出B在氮气气氛中分解的反应方程式。"
         }
-      ],
-      "partId": "part-001907"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

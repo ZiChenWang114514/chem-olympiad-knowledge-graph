@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000110",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,225 +8,93 @@
   "examYear": 2020,
   "examStage": "final",
   "source": {
+    "sourceDocumentId": "source-000016",
     "sourceLabel": "2020-34-CChO-juesai-2.pdf",
-    "pages": [
-      5
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000016"
+    "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第7题 选择题"
+      "text": "7 · 有机酸性与反应性"
     },
     {
-      "type": "subpart",
-      "label": "7-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "下面3种共轭二烯与丙烯腈发生Diels-Alder反应速率最快的是 o"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000110-figure-001.jpg",
-          "alt": "原卷第7题图1：下面3种共轭二烯与丙烯腈发生Diels-Alder反应速率最快的是 o",
-          "displayWidth": 70,
-          "assetId": "asset-005321"
-        },
-        {
-          "type": "paragraph",
-          "text": "A"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000110-figure-002.jpg",
-          "alt": "原卷第7题图2：A",
-          "displayWidth": 70,
-          "assetId": "asset-005322"
-        },
-        {
-          "type": "paragraph",
-          "text": "B"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000110-figure-003.jpg",
-          "alt": "原卷第7题图3：B",
-          "displayWidth": 70,
-          "assetId": "asset-005323"
-        },
-        {
-          "type": "paragraph",
-          "text": "C"
-        }
-      ],
-      "partId": "part-002033"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000110-figure-001.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "题目配图"
     },
     {
-      "type": "subpart",
-      "label": "7-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "下面2种内酰胺在碱性条件下水解的反应速率较快的是"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000110-figure-004.jpg",
-          "alt": "原卷第7题图4：下面2种内酰胺在碱性条件下水解的反应速率较快的是",
-          "displayWidth": 70,
-          "assetId": "asset-005324"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000110-figure-005.jpg",
-          "alt": "原卷第7题图5（结构或数据示意）",
-          "displayWidth": 70,
-          "assetId": "asset-005325"
-        },
-        {
-          "type": "paragraph",
-          "text": "A"
-        },
-        {
-          "type": "paragraph",
-          "text": "B"
-        }
-      ],
-      "partId": "part-002034"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000110-figure-002.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "题目配图"
     },
     {
-      "type": "subpart",
-      "label": "7-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "如下二烯烃与间氯过氧苯甲酸(CPBA)发生环氧化反应的主要产物是"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000110-figure-006.jpg",
-          "alt": "原卷第7题图6：如下二烯烃与间氯过氧苯甲酸(CPBA)发生环氧化反应的主要产物是",
-          "displayWidth": 70,
-          "assetId": "asset-005326"
-        },
-        {
-          "type": "paragraph",
-          "text": "A"
-        },
-        {
-          "type": "paragraph",
-          "text": "B"
-        }
-      ],
-      "partId": "part-002035"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000110-figure-003.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "题目配图"
     },
     {
-      "type": "subpart",
-      "label": "7-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "下面2-苯基丙醛与乙基格氏试剂反应,生成的主要产物是 0"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000110-figure-007.jpg",
-          "alt": "原卷第7题图7：下面2-苯基丙醛与乙基格氏试剂反应,生成的主要产物是 0",
-          "displayWidth": 70,
-          "assetId": "asset-005327"
-        }
-      ],
-      "partId": "part-002036"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000110-figure-004.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "题目配图"
     },
     {
-      "type": "subpart",
-      "label": "7-5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "下面2种α-羟基酮的合成方法(A和B)合理的是"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000110-figure-008.jpg",
-          "alt": "原卷第7题图8：下面2种α-羟基酮的合成方法(A和B)合理的是",
-          "displayWidth": 70,
-          "assetId": "asset-005328"
-        },
-        {
-          "type": "paragraph",
-          "text": "方法 A:"
-        },
-        {
-          "type": "paragraph",
-          "text": "方法 B:"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000110-figure-009.jpg",
-          "alt": "原卷第7题图9：方法 B:",
-          "displayWidth": 70,
-          "assetId": "asset-005329"
-        }
-      ],
-      "partId": "part-002037"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000110-figure-005.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "题目配图"
     },
     {
-      "type": "subpart",
-      "label": "7-6",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "下面Cope重排反应的主要产物是"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000110-figure-010.jpg",
-          "alt": "原卷第7题图10：下面Cope重排反应的主要产物是",
-          "displayWidth": 70,
-          "assetId": "asset-005330"
-        }
-      ],
-      "partId": "part-002038"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000110-figure-006.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "题目配图"
     },
     {
-      "type": "subpart",
-      "label": "7-7",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "下面2种化合物中酸性较强的是 o"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000110-figure-011.jpg",
-          "alt": "原卷第7题图11：下面2种化合物中酸性较强的是 o",
-          "displayWidth": 70,
-          "assetId": "asset-005331"
-        },
-        {
-          "type": "paragraph",
-          "text": "A"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000110-figure-012.jpg",
-          "alt": "原卷第7题图12：A",
-          "displayWidth": 70,
-          "assetId": "asset-005332"
-        },
-        {
-          "type": "paragraph",
-          "text": "B"
-        }
-      ],
-      "partId": "part-002039"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000110-figure-007.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "题目配图"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000110-figure-008.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "题目配图"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000110-figure-009.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "题目配图"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000110-figure-010.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "题目配图"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000110-figure-011.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "题目配图"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000110-figure-012.jpg",
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "题目配图"
     }
   ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  "parts": []
 }

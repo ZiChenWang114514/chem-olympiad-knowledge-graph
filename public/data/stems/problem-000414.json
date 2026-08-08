@@ -1,48 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000414",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "有机反应结构推断一",
-  "number": "Q7",
+  "number": "7",
   "examYear": 2013,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000047",
     "sourceLabel": "2013-27-CChO-chusai.pdf",
-    "pages": [
-      3
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "第7题(5分)根据所列反应条件,画出A,B,C,D和F的结构简式。"
-    },
-    {
       "type": "figure",
       "src": "data/stems/assets/problem-000414-figure-001.jpg",
-      "assetId": "asset-005259",
-      "alt": "有机反应结构推断一：第1幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "subpart",
-      "label": "7-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001799"
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "题目配图"
     }
   ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  "parts": []
 }

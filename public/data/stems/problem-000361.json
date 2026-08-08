@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000361",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,53 +8,50 @@
   "examYear": 2010,
   "examStage": "preliminary",
   "source": {
+    "sourceDocumentId": "source-000041",
     "sourceLabel": "2010-24-CChO-chusai.pdf",
-    "pages": [
-      2
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000041"
+    "transcribedAt": "2026-08-08"
   },
-  "blocks": [
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [],
+  "parts": [
     {
-      "type": "paragraph",
-      "text": "第7题 分子筛是一种天然或人工合成的泡沸石型水合铝硅酸盐晶体.人工合成的分子筛有几十种,皆为⻣架型结构,其中最常用的是A型,X型,Y型和丝光沸石型分子筛,化学组成可表示为${ \\mathrm{M} } _ { m } [ \\mathrm { Al } _ { p } \\mathrm { Si } _ { q } \\mathrm { O } _ { n ( p + q ) } ] { \\bf \\cdot } x { \\mathrm{H} } _ { 2 } \\mathrm { O } _ { \\mathrm { c } }$ 0"
-    },
-    {
-      "type": "subpart",
+      "id": "part-000361-01",
       "label": "7-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Si4+,Al3+ 和 $\\mathrm { O ^ { 2 \\cdot } }$ −的离子半径分别为 41pm,50pm 和 140pm,通过计算说明在水合铝硅酸盐晶体中Si4+和Al3+各占据由氧构成的何种类型的多面体空隙."
+          "text": "Si$^{4+}$、Al$^{3+}$ 和 O$^{2-}$ 的离子半径分别为 41 pm、50 pm 和 140 pm,通过计算说明在水合铝硅酸盐晶体中 Si$^{4+}$ 和 Al$^{3+}$ 各占据由氧构成的何种类型的多面体空隙。"
         }
-      ],
-      "partId": "part-002451"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000361-02",
       "label": "7-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "上述化学式中的等于多少说明理由.若M为2价离子,写出与的关系式."
+          "text": "上述化学式中的 $x$ 等于多少?说明理由。若 M 为 2 价离子,写出 $x$ 与 $y$ 的关系式。"
         }
-      ],
-      "partId": "part-002452"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000361-03",
       "label": "7-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "X光衍射测得Si—O键键⻓为160pm.此数据说明什么如何理解"
+          "text": "X 光衍射测得 Si—O 键键长为 160 pm。此数据说明什么?如何理解?"
         }
-      ],
-      "partId": "part-002453"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000361-04",
       "label": "7-4",
       "blocks": [
         {
@@ -63,28 +60,19 @@
         },
         {
           "type": "paragraph",
-          "text": "1 硅铝比(有时用 $\\mathrm { SiO _ { 2 } / Al _ { 2 } O _ { 3 } }$ 表示)越高,分子筛越稳定;2 最小硅铝比不小于 $1 _ { \\circ }$"
+          "text": "1. 硅铝比(有时用 SiO$_2$/Al$_2$O$_3$ 表示)越高,分子筛越稳定;2. 最小硅铝比不小于 1。"
         }
-      ],
-      "partId": "part-002454"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000361-05",
       "label": "7-5",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "人工合成的A型分子筛钠盐,属于立方晶系,正当晶胞参数 $a = 2464 \\mathrm { pm }$ ,晶胞组成为"
-        },
-        {
-          "type": "paragraph",
-          "text": "$\\mathrm { Na _ { 96 } [ Al _ { 96 } Si _ { 96 } O _ { 384 } ] { \\cdot } { \\cdot } { \\cdot } { \\cdot } { \\mathrm { ~ H _ { 2 } O _ { \\circ } ~ } } }$ 将811.5克该分子筛在 $1.01325 \\times10 ^ { 5 } \\mathrm { Pa } , ~ 700 ~ ^ { \\circ } \\mathrm { C }$ 加热6小时将结晶水完全除去,得到798.6升水蒸气(视为理想气体).计算该分子筛的密度 $\\dot { \\boldsymbol { D } } _ { \\mathrm { c } }$ ."
+          "text": "人工合成的 A 型分子筛钠盐,属于立方晶系,正当晶胞参数 $a = 2464\\ \\mathrm{pm}$,晶胞组成为 Na$_{96}$[Al$_{96}$Si$_{96}$O$_{384}$]·$n$H$_2$O。将 811.5 克该分子筛在 $1.01325 \\times 10^5\\ \\mathrm{Pa}$、$700\\ ^\\circ\\mathrm{C}$ 加热 6 小时将结晶水完全除去,得到 798.6 升水蒸气(视为理想气体)。计算该分子筛的密度 $D_c$。"
         }
-      ],
-      "partId": "part-002455"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

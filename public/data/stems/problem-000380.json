@@ -1,113 +1,93 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000380",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "有机反应机理",
-  "number": "Q8",
+  "number": "8",
   "examYear": 2011,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000042",
     "sourceLabel": "2011-25-CChO-chusai.pdf",
-    "pages": [
-      3,
-      4
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "第8题(10分)化合物B是以方向-紫罗兰酮为起始原料制备维生素A的中间体。"
-    },
-    {
       "type": "figure",
-      "src": "data/stems/assets/problem-000380-figure-001.jpg",
-      "assetId": "asset-005247",
-      "alt": "有机反应机理：第1幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
+      "caption": "反应流程图(缺图)",
+      "alt": "由β-紫罗兰酮生成B的过程示意图",
+      "src": "data/stems/assets/problem-000380-figure-001.jpg"
     },
     {
       "type": "paragraph",
-      "text": "由方向-紫罗兰酮生成B的过程如下所示:"
+      "text": "由β-紫罗兰酮生成B的过程如下所示:"
     },
     {
       "type": "figure",
-      "src": "data/stems/assets/problem-000380-figure-002.jpg",
-      "assetId": "asset-005248",
-      "alt": "有机反应机理：第2幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
+      "caption": "反应流程图(缺图)",
+      "alt": "反应步骤(2)至(6)的示意图",
+      "src": "data/stems/assets/problem-000380-figure-002.jpg"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000380-figure-003.jpg",
-      "assetId": "asset-005249",
-      "alt": "有机反应机理：第3幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 3"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000380-figure-004.jpg",
-      "assetId": "asset-005250",
-      "alt": "有机反应机理：第4幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 4"
+    }
+  ],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000380-01",
       "label": "8-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "维生素A分子的不饱和度为"
         }
-      ],
-      "partId": "part-001743"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000380-02",
       "label": "8-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "芳香化合物C是方向-紫罗兰酮的同分异构体,C经催化氢解生成芳香化合物D,D的1H-NMR图谱中只有一个单峰。画出C的结构简式。"
+          "text": "芳香化合物C是β-紫罗兰酮的同分异构体,C经催化氢解生成芳香化合物D,D的1H-NMR图谱中只有一个单峰。画出C的结构简式。"
         }
-      ],
-      "partId": "part-001744"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000380-03",
       "label": "8-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "画出中间体B的结构简式。"
         }
-      ],
-      "partId": "part-001745"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000380-04",
       "label": "8-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "以上由方向-紫罗兰酮合成中间体B的过程中,(2),(3),(4),(6)步反应分别属于什么反应类型(反应类型表述须具体,例如取代反应必须指明是亲电取代,亲核取代还是自由基取代)。"
+          "text": "以上由β-紫罗兰酮合成中间体B的过程中,(2)、(3)、(4)、(6)步反应分别属于什么反应类型(反应类型表述须具体,例如取代反应必须指明是亲电取代、亲核取代还是自由基取代)。"
         }
-      ],
-      "partId": "part-001746"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 /** 展示层工具（不改动原始数据字段） */
 
 export function displayProblemTitle(title: string): string {
-  return title.trim()
+  return title.replace(/^基础设施演示记录[：:]\s*/, '').trim() || title
 }
 
 const STAGE_LABELS: Record<string, string> = {

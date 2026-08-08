@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000167",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,12 +10,13 @@
   "source": {
     "sourceDocumentId": "source-000058",
     "sourceLabel": "2022-36-CChO-chusai-1.pdf",
-    "pages": [
-      4,
-      5
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
@@ -24,29 +25,28 @@
     },
     {
       "type": "figure",
-      "src": "data/stems/assets/problem-000167-figure-001.jpg",
-      "alt": "呋喃衍生物发生 Achmatowicz 重排的反应式",
-      "displayWidth": 80,
       "caption": "反应示意图",
-      "assetId": "asset-004745"
-    },
+      "alt": "呋喃衍生物发生 Achmatowicz 重排的反应式",
+      "src": "data/stems/assets/problem-000167-figure-001.jpg"
+    }
+  ],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000167-01",
       "label": "9-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "AchR 重排的氧化试剂多种多样。如下反应试剂中不可能用于 AchR 重排的有？"
+          "text": "AchR 重排的氧化试剂多种多样。如下反应试剂中不可能用于 AchR 重排的有?"
         },
         {
           "type": "paragraph",
           "text": "(a) HOBr (b) NBS(N-溴代丁二酰亚胺) (c) m-CPBA (d) $\\mathrm{CeBr_3/H_2O}$"
         }
-      ],
-      "partId": "part-000317"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000167-02",
       "label": "9-2",
       "blocks": [
         {
@@ -55,17 +55,14 @@
         },
         {
           "type": "figure",
-          "src": "data/stems/assets/problem-000167-figure-002.jpg",
-          "alt": "AchR 重排反应底物",
-          "displayWidth": 80,
           "caption": "反应式",
-          "assetId": "asset-004746"
+          "alt": "AchR 重排反应底物",
+          "src": "data/stems/assets/problem-000167-figure-002.jpg"
         }
-      ],
-      "partId": "part-000318"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000167-03",
       "label": "9-3",
       "blocks": [
         {
@@ -74,21 +71,18 @@
         },
         {
           "type": "figure",
-          "src": "data/stems/assets/problem-000167-figure-003.jpg",
-          "alt": "AchR 重排与 [5+2] 环加成结合的反应流程",
-          "displayWidth": 80,
           "caption": "反应流程",
-          "assetId": "asset-004747"
+          "alt": "AchR 重排与 [5+2] 环加成结合的反应流程",
+          "src": "data/stems/assets/problem-000167-figure-003.jpg"
         },
         {
           "type": "paragraph",
           "text": "画出 A 的结构和由 A 转化成 B 的关键中间体,并标注产物 B 中心性碳的绝对构型。"
         }
-      ],
-      "partId": "part-000319"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000167-04",
       "label": "9-4",
       "blocks": [
         {
@@ -97,25 +91,17 @@
         },
         {
           "type": "figure",
-          "src": "data/stems/assets/problem-000167-figure-004.jpg",
-          "alt": "C4 位取代的呋喃衍生物反应",
-          "displayWidth": 80,
           "caption": "反应式",
-          "assetId": "asset-004748"
+          "alt": "C4 位取代的呋喃衍生物反应",
+          "src": "data/stems/assets/problem-000167-figure-004.jpg"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000167-figure-005.jpg",
           "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-          "displayWidth": 80,
-          "caption": "图 5",
-          "assetId": "asset-004749"
+          "caption": "图 5"
         }
-      ],
-      "partId": "part-000320"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000174",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,37 +10,26 @@
   "source": {
     "sourceDocumentId": "source-000059",
     "sourceLabel": "2022-36-CChO-chusai-2.pdf",
-    "pages": [
-      2
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "blocks": [
-    {
-      "type": "subpart",
-      "label": "6",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "电镀铜是电子工业中的关键技术之一。电镀铜的基本电化学过程如下: (1) Cu2+ + e- → Cu+(慢) (2) $\\mathrm { C u ^ { + } + e ^ { - } C u \\ ( \\mathbb { H } ) }$ 在电解体系中引入各种有机配体或者添加剂可以改进电解效率和镀层品质。末端含有磺酸基团的短碳链的二硫化物或硫醇(分子式见下表),如SPS(二硫二丙烷磺酸)和MPS(3-硫基-1-丙烷磺酸),常用做镀铜工艺的加速剂。有研究认为SPS或MPS加速电镀铜沉积的原因是因为它们能促进Cu+还原为Cu的反应。"
-        },
-        {
-          "type": "paragraph",
-          "text": "鉴于难以采用电化学方法直接测定该电对的电极电势,研究人员设计了巧妙的方法,通过1HNMR谱的定量分析(谱峰面积正比于氢原子的数目),间接求算电极电势。该方法具体实验如下:298K下,在氮气保护下将SPS和ME(巯基乙醇)在密封容器中混合,二者起始浓度分别为10.0mM和20.0mM。待反应达平衡后,测试混合体系的1H-NMR,发现MPS和SPS的β位氢原子的谱峰(分别在 2.02 ppm 和 2.15 ppm 处)面积比为 1.00:1.00。ME 氧化产物为 DE,已知 $1 E ^ { \\ominus } \\mathrm { ( D E / M E ) }$ $= 0.153 ~ \\mathrm { V _ { c } }$ 6-1 写出SPS和ME反应的方程式。计算该反应的平衡常数。(提示:可以采用简写符号。) 6-2 计算电极反应 $\\mathrm { S P S } + 2 \\mathrm { H ^ { + } } + 2 \\mathrm { e ^ { - } } 2 \\mathrm { M P S }$ 的标准电极电势。 6-3 实验中观察到 $\\mathrm { C u ^ { 2 + } }$ +可以将MPS氧化为SPS并形成配合物Cu(MPS)(反应1)而吸附在镀件表面,Cu(MPS)获得电子在镀件表面发生电沉积并放出MPS(反应2),写出反应方程式。"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000174-figure-001.jpg",
-          "alt": "半导体电镀铜机理相关结构或反应图,第1幅,保留原卷标注",
-          "displayWidth": 80,
-          "assetId": "asset-004750"
-        }
-      ],
-      "partId": "part-000329"
-    }
-  ],
   "renderingHints": {
     "mhchem": true
-  }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "电镀铜是电⼦工业中的关键技术之一。电镀铜的基本电化学过程如下： (1) Cu2+ + e− → Cu+（慢） (2) $\\mathrm { C u ^ { + } + e ^ { - } C u \\ ( \\mathbb { H } ) }$ 在电解体系中引入各种有机配体或者添加剂可以改进电解效率和镀层品质。末端含有磺酸基团的短碳链的二硫化物或硫醇（分⼦式⻅下表），如SPS（二硫二丙烷磺酸）和MPS（3-硫基-1-丙烷磺酸），常用做镀铜工艺的加速剂。有研究认为SPS或MPS加速电镀铜沉积的原因是因为它们能促进Cu+还原为Cu的反应。"
+    },
+    {
+      "type": "paragraph",
+      "text": "鉴于难以采用电化学方法直接测定该电对的电极电势，研究人员设计了巧妙的方法，通过1HNMR谱的定量分析（谱峰面积正比于氢原⼦的数⽬），间接求算电极电势。该方法具体实验如下：298K下，在氮气保护下将SPS和ME（巯基⼄醇）在密封容器中混合，二者起始浓度分别为10.0mM和20.0mM。待反应达平衡后，测试混合体系的1H-NMR，发现MPS和SPS的β位氢原⼦的谱峰（分别在 2.02 ppm 和 2.15 ppm 处）面积比为 1.00:1.00。ME 氧化产物为 DE，已知 $1 E ^ { \\ominus } \\mathrm { ( D E / M E ) }$ $= 0 . 1 5 3 ~ \\mathrm { V _ { c } }$ 6-1 写出SPS和ME反应的方程式。计算该反应的平衡常数。（提示：可以采用简写符号。） 6-2 计算电极反应 $\\mathrm { S P S } + 2 \\mathrm { H ^ { + } } + 2 \\mathrm { e ^ { - } } 2 \\mathrm { M P S }$ 的标准电极电势。 6-3 实验中观察到 $\\mathrm { C u ^ { 2 + } }$ +可以将MPS氧化为SPS并形成配合物Cu(MPS)（反应1）⽽吸附在镀件表面，Cu(MPS)获得电⼦在镀件表面发生电沉积并放出MPS（反应2），写出反应方程式。"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000174-figure-001.jpg",
+      "alt": "problem-000174题目配图第1幅（已按原图查看）"
+    }
+  ]
 }

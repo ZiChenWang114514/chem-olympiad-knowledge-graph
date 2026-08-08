@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000119",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,35 +10,21 @@
   "source": {
     "sourceDocumentId": "source-000057",
     "sourceLabel": "2021-35-CChO-chusai.pdf",
-    "pages": [
-      3,
-      4
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
+  "renderingHints": {
+    "mhchem": true
+  },
   "blocks": [
     {
-      "type": "subpart",
-      "label": "8-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出此反应的环状中间体A和扩环重排产物B的结构。"
-        }
-      ],
-      "partId": "part-000219"
+      "type": "paragraph",
+      "text": "8-1 画出此反应的环状中间体A和扩环重排产物B的结构。"
     },
     {
-      "type": "subpart",
-      "label": "8-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "在水溶液中苯甲酸及其衍生物哪一个酸性最弱。"
-        }
-      ],
-      "partId": "part-000220"
+      "type": "paragraph",
+      "text": "8-2 在⽔溶液中苯甲酸及其衍生物哪一个酸性最弱。"
     },
     {
       "type": "paragraph",
@@ -50,18 +36,7 @@
     },
     {
       "type": "paragraph",
-      "text": "C"
-    },
-    {
-      "type": "subpart",
-      "label": "8-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "下列化合物中哪一个羰基α位氢的酸性较弱。"
-        }
-      ],
-      "partId": "part-000221"
+      "text": "C 8-3 下列化合物中哪一个羰基α位氢的酸性较弱。"
     },
     {
       "type": "paragraph",
@@ -72,85 +47,48 @@
       "text": "B"
     },
     {
-      "type": "subpart",
-      "label": "8-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "下列化合物中哪个在乙酸钠/乙酸中溶剂解反应的速率较快。 A B"
-        }
-      ],
-      "partId": "part-000222"
-    },
-    {
-      "type": "subpart",
-      "label": "8-5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "下列氯代醇衍生物在碱性条件下哪个形成环氧乙烷衍生物的反应速率最快。 A B C"
-        }
-      ],
-      "partId": "part-000223"
+      "type": "paragraph",
+      "text": "8-4 下列化合物中哪个在⼄酸钠/⼄酸中溶剂解反应的速率较快。 A B 8-5 下列氯代醇衍生物在碱性条件下哪个形成环氧⼄烷衍生物的反应速率最快。 A B C"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000119-figure-001.jpg",
-      "alt": "有机酸性与反应性相关结构或反应图,第1幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004702"
+      "alt": "problem-000119题目配图第1幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000119-figure-002.jpg",
-      "alt": "有机酸性与反应性相关结构或反应图,第2幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004703"
+      "alt": "problem-000119题目配图第2幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000119-figure-003.jpg",
-      "alt": "有机酸性与反应性相关结构或反应图,第3幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004704"
+      "alt": "problem-000119题目配图第3幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000119-figure-004.jpg",
-      "alt": "有机酸性与反应性相关结构或反应图,第4幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004705"
+      "alt": "problem-000119题目配图第4幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000119-figure-005.jpg",
-      "alt": "有机酸性与反应性相关结构或反应图,第5幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004706"
+      "alt": "problem-000119题目配图第5幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000119-figure-006.jpg",
-      "alt": "有机酸性与反应性相关结构或反应图,第6幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004707"
+      "alt": "problem-000119题目配图第6幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000119-figure-007.jpg",
-      "alt": "有机酸性与反应性相关结构或反应图,第7幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004708"
+      "alt": "problem-000119题目配图第7幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000119-figure-008.jpg",
-      "alt": "有机酸性与反应性相关结构或反应图,第8幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004709"
+      "alt": "problem-000119题目配图第8幅（已按原图查看）"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

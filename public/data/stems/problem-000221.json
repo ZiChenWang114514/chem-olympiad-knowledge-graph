@@ -1,150 +1,52 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000221",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "DNA砖块纳米结构",
-  "number": "Q1",
+  "number": "1",
   "examYear": 2023,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000026",
     "sourceLabel": "2023-37-CChO-juesai-2.pdf",
-    "pages": [
-      1,
-      2
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "DNA 碱基之间高特异性的配对方式(即 A 只能与 T 配对,G 只能与 C 配对)确保了遗传基因的稳定性。科学家们利用此特性,设计 DNA 序列合成 DNA 高阶纳米结构,从而实现对 DNA 分子形状的可编程式调控。最常⻅的双链B型DNA结构参数如下:其相邻两个碱基对距离为0.34 nm;上下相邻的两对碱基对之间具有较强的π-π堆积作用,其旋转夹⻆为34.3°。"
-    },
-    {
-      "type": "paragraph",
-      "text": "高阶 DNA 纳米结构的基本组成单元是一种被成为 DNA 砖块(DNA tile)的结构,即在两条双链 DNA 之间设计两个连接点,改变 DNA ⻣架的走向使两条 DNA 的⻣架能相互连接,从而使两个 DNA 被“捆绑”在一起,如图1.1所示:"
+      "text": "1 · DNA砖块纳米结构"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000221-figure-001.jpg",
-      "assetId": "asset-005101",
-      "alt": "原卷示意图：图 1.1 DNA 双螺旋及其组装",
-      "label": "图 1.1 DNA 双螺旋及其组装",
-      "caption": "图 1.1 DNA 双螺旋及其组装",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "图 1.1 DNA 双螺旋及其组装"
-    },
-    {
-      "type": "subpart",
-      "label": "1-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算两个连接点之间的间距(以nm 为单位),并解释为什么该间距是能够保证双链 DNA 结构稳定存在且不被扭曲所能获得的最小间距。"
-        }
-      ],
-      "partId": "part-001264"
-    },
-    {
-      "type": "subpart",
-      "label": "1-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "不同的 DNA 砖块之间的单链 DNA 互相配对,犹如胶水一样将 DNA 砖块“黏”在一起。如图 1.2 所示,两个最简单的DNA砖块A和砖块B成了更大的结构 \\mathbf { C } _ { \\circ } 。在砖块A的末端引入一个荧光基团(图中绿色圆点),可以通过测定相应化合物的荧光强度变化研究该过程的动力学行为。"
-        }
-      ],
-      "partId": "part-001265"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000221-figure-002.jpg",
-      "assetId": "asset-005102",
-      "alt": "原卷示意图：图 1.2 DNA 砖块 A 和砖块 B 结合形成 C",
-      "label": "图 1.2 DNA 砖块 A 和砖块 B 结合形成 C",
-      "caption": "图 1.2 DNA 砖块 A 和砖块 B 结合形成 C",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "图 1.2 DNA 砖块 A 和砖块 B 结合形成 C"
-    },
-    {
-      "type": "paragraph",
-      "text": "已知实验条件下 C 的荧光强度比相同浓度 A 大 38.0%。A 与 C 的荧光强度可认为与它们的浓度成正比。当反应物A与B初始浓度均为10.00 nmol L−1,随反应进行测得的体系荧光强度总结在下表中。计算该反应的速率常数。"
-    },
-    {
-      "type": "table",
-      "headers": [
-        "t/s",
-        "0.000",
-        "20.00",
-        "60.00",
-        "160.0",
-        "300.0"
-      ],
-      "rows": [
-        [
-          "荧光强度(a.u.)",
-          "12.30",
-          "13.75",
-          "14.99",
-          "15.97",
-          "16.39"
-        ]
-      ]
-    },
-    {
-      "type": "subpart",
-      "label": "1-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "将6条双链DNA“捆绑”在一起可以制成纳米弹簧。如果将这个弹簧的一端固定在表面,另一端连接上蛋白质分子,则通过测定该弹簧的振动频率可以得知蛋白质的分子量,如图 1.3 所示。已知图中单个双链 DNA 分子的弹性系数方向为 0 . 04712 \\mathrm { N } / \\mathrm { m } ,整个体系振动频率  { v = \\frac { 1 } { 2 \\pi } \\sqrt { \\frac { k _ { 6 } } { m } } , }  ,其中 k _ { 6 } 为6根“捆绑”双链DNA的弹性系数,方向为体系的质量(DNA的质量相对于蛋白质的质量来讲可忽略不计)。振动频率测定装置的频率测定上限为1.000GHz,计算该纳米弹簧能够测定的蛋白质的最小分子量。"
-        }
-      ],
-      "partId": "part-001266"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000221-figure-003.jpg",
-      "assetId": "asset-005103",
-      "alt": "原卷示意图：图 1.3 DNA 纳⽶弹簧及其与蛋⽩质的作⽤",
-      "label": "图 1.3 DNA 纳⽶弹簧及其与蛋⽩质的作⽤",
-      "caption": "图 1.3 DNA 纳米弹簧及其与蛋白质的作用",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "图 1.3 DNA 纳米弹簧及其与蛋白质的作用"
-    },
-    {
-      "type": "subpart",
-      "label": "1-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "为了区分双链 DNA 和未配对成功的单链 DNA,常用一种荧光染料吖啶橙作为指示分子。它与双链 B 型DNA结合吸收峰在502 nm,与单链未配对的DNA结合吸收峰在460 nm,解释其与双链和单链DNA结合吸收峰不同的原因。吖啶橙的结构如下:"
-        }
-      ],
-      "partId": "part-001267"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000221-figure-004.jpg",
-      "assetId": "asset-005104",
-      "alt": "DNA砖块纳米结构：第4幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     }
   ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  "parts": []
 }

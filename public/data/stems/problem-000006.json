@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000006",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,26 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000031",
     "sourceLabel": "2024年全国中学生化学竞赛决赛试题(第一场).pdf",
-    "pages": [
-      3
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "blocks": [
-    {
-      "type": "subpart",
-      "label": "Q1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "在一些无脊椎动物中,蚯蚓血红蛋白(Hr)负责结合并携带 $\\ O _ { 2 }$ 分子,每个蛋白质分子中都有2 个非常接近的 $\\mathbf { F e } ,$ ,它们可以共同作用结合一个 $\\mathbf { O } _ { 2 }$ 分子,形成含有$\\mathbf { F e } _ { 2 } \\mathbf { O } _ { 2 }$ 基团的蚯蚓血红蛋白 $( H _ { 1 } O _ { 2 } )$ 。Raman谱可以测量偶极矩不变的化学键的伸缩振动模式, $\\mathrm { H n O } _ { 2 }$ 的 Raman 谱在 $844 ~ \\mathrm { c m } ^ { - 1 }$ 处有一个吸收峰。 $\\mathrm { H r O } _ { 2 }$ 的光激发能垒是2.480 $\\mathtt { e v }$ 1-1 $O _ { 2 } $、 O和 $0 _ { 2 } ^ { 2 - }$ 混合体系中存在3个Raman吸收峰,波数为878、1107、 $1555 \\mathrm { c m } ^ { - 1 }$ 1-1-1 写出 $O _ { 2 }$ 的分子轨道电子排布式以及 $O _ { 2 } ,$ O2和 $0 _ { 2 } ^ { 2 - }$ 的键级。 1-1-2 指出 $_ { 0 _ { 2 } } ,$ $\\mathbf { O } _ { 2 } ^ { - }$ 和 $\\mathbf { O } _ { 2 } ^ { 2 - }$ 的 $\\circ { - } \\circ$ 伸缩振动模式的振动波数大小顺序,解释原因。1-1-3 指出 $^ { 16 } \\mathrm { O } _ { 2 } , \\ ^ { 16 } \\mathrm { O } ^ { 18 } \\mathrm { O }$ 和 $^ { 18 } \\mathrm { O } _ { 2 }$ 三种分子中, $^ { \\circ - \\circ }$ 伸缩振动模式的振动波数大小顺序,解释原因。 1-2 计算判断什么波长(nm)的光可激发 $\\mathrm { H r O } _ { 2 }$ o 1-3 画出两个 $\\mathbf { F e }$ 距离最短的 $\\mathtt { F e } _ { 2 } 0 _ { 2 }$ 的结构示意图,注明O的存在形式"
-        }
-      ],
-      "partId": "part-000005"
-    }
-  ],
   "renderingHints": {
     "mhchem": true
-  }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "在一些无脊椎动物中，蚯蚓血红蛋白（Hr）负责结合并携带 $\\ O _ { 2 }$ 分子，每个蛋白质分子中都有2 个非常接近的 $\\mathbf { F e } ,$ ，它们可以共同作用结合一个 $\\mathbf { O } _ { 2 }$ 分子，形成含有$\\mathbf { F e } _ { 2 } \\mathbf { O } _ { 2 }$ 基团的蚯蚓血红蛋白 $( H _ { 1 } O _ { 2 } )$ 。Raman谱可以测量偶极矩不变的化学键的伸缩振动模式， $\\mathrm { H n O } _ { 2 }$ 的 Raman 谱在 $8 4 4 ~ \\mathrm { c m } ^ { - 1 }$ 处有一个吸收峰。 $\\mathrm { H r O } _ { 2 }$ 的光激发能垒是2.480 $\\mathtt { e v }$ 1-1 $O _ { 2 } 、$ O和 $0 _ { 2 } ^ { 2 - }$ 混合体系中存在3个Raman吸收峰，波数为878、1107、 $1 5 5 5 \\mathrm { c m } ^ { - 1 }$ 1-1-1 写出 $O _ { 2 }$ 的分子轨道电子排布式以及 $O _ { 2 } ,$ O2和 $0 _ { 2 } ^ { 2 - }$ 的键级。 1-1-2 指出 $_ { 0 _ { 2 } } ,$ $\\mathbf { O } _ { 2 } ^ { - }$ 和 $\\mathbf { O } _ { 2 } ^ { 2 - }$ 的 $\\circ { - } \\circ$ 伸缩振动模式的振动波数大小顺序，解释原因。1-1-3 指出 $^ { 1 6 } \\mathrm { O } _ { 2 } , \\ ^ { 1 6 } \\mathrm { O } ^ { 1 8 } \\mathrm { O }$ 和 $^ { 1 8 } \\mathrm { O } _ { 2 }$ 三种分子中， $^ { \\circ - \\circ }$ 伸缩振动模式的振动波数大小顺序，解释原因。 1-2 计算判断什么波长（nm）的光可激发 $\\mathrm { H r O } _ { 2 }$ o 1-3 画出两个 $\\mathbf { F e }$ 距离最短的 $\\mathtt { F e } _ { 2 } 0 _ { 2 }$ 的结构示意图，注明O的存在形式"
+    }
+  ]
 }

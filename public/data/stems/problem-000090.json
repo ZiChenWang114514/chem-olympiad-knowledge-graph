@@ -1,82 +1,35 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000090",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "晶体结构与晶胞",
-  "number": "Q6",
+  "number": "6",
   "examYear": 2020,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000054",
     "sourceLabel": "2020-34-CChO-chusai.pdf",
-    "pages": [
-      2,
-      3
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第6题(10分)金属元素A的单质为面心立方结构,晶胞参数 \\dot { a } = 383 . 9 \\mathrm { p m } ,密度为 22 . 50 \\mathrm { g c m ^ { - 3 } } \\mathrm { _ c } 。A与氟气反应得到一种八面体构型的氟化物分子 \\mathbf { B } _ { \\circ } 。B与氢气按2:1计量关系反应,得到分子C,C为四聚体,其理想模型有四次旋转轴。A在空气中加热得氧化物D,D属四方晶系,晶胞如下图所示。B与水反应亦可得到 \\mathbf { D } _ { \\mathsf { c } } C与A的单质按1:1计量关系在 400 ~ ^ { \\circ } \\mathrm { C } 下反应得化合物 \\mathbf { E } _ { \\circ } 。近期在质谱中捕捉到A的一种四面体型氧合正离子 \\mathbf { F } _ { \\circ } (阿佛加德罗常数 6 . 022 \\times 10 ^ { 23 } \\mathrm { m o l ^ { - 1 } } \\rangle )"
+      "text": "第6题（10分）金属元素A的单质为面⼼⽴方结构，晶胞参数 $\\dot { a } = 3 8 3 . 9 \\mathrm { p m }$ ，密度为 $2 2 . 5 0 \\mathrm { g c m ^ { - 3 } } \\mathrm { _ c }$ 。A与氟气反应得到一种八面体构型的氟化物分⼦ $\\mathbf { B } _ { \\circ }$ 。B与氢气按2:1计量关系反应，得到分⼦C，C为四聚体，其理想模型有四次旋转轴。A在空气中加热得氧化物D，D属四方晶系，晶胞如下图所示。B与⽔反应亦可得到 $\\mathbf { D } _ { \\mathsf { c } }$ C与A的单质按1:1计量关系在 $4 0 0 ~ ^ { \\circ } \\mathrm { C }$ 下反应得化合物 $\\mathbf { E } _ { \\circ }$ 。近期在质谱中捕捉到A的一种四面体型氧合正离⼦ $\\mathbf { F } _ { \\circ }$ （阿佛加德罗常数 $6 . 0 2 2 \\times 1 0 ^ { 2 3 } \\mathrm { m o l ^ { - 1 } } \\rangle$ ）"
+    },
+    {
+      "type": "paragraph",
+      "text": "6-1 通过计算，确定A是哪种元素。 6-2 写出B\\~F的分⼦式(或化学式)。 6-3 画出C分⼦的结构示意图。 6-4 写出如下反应方程式(要求系数为最简整数比)。(1) B与⽔反应；(2) C和A反应生成 $\\mathbf { E } _ { \\circ }$"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000090-figure-001.jpg",
-      "assetId": "asset-004995",
-      "alt": "原卷示意图：A",
-      "label": "A",
-      "caption": "A；B",
-      "displayWidth": 100
-    },
-    {
-      "type": "subpart",
-      "label": "6-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "通过计算,确定A是哪种元素。"
-        }
-      ],
-      "partId": "part-001045"
-    },
-    {
-      "type": "subpart",
-      "label": "6-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出B\\~F的分子式(或化学式)。"
-        }
-      ],
-      "partId": "part-001046"
-    },
-    {
-      "type": "subpart",
-      "label": "6-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出C分子的结构示意图。"
-        }
-      ],
-      "partId": "part-001047"
-    },
-    {
-      "type": "subpart",
-      "label": "6-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出如下反应方程式(要求系数为最简整数比)。(1) B与水反应;(2) C和A反应生成 \\mathbf { E } _ { \\circ }"
-        }
-      ],
-      "partId": "part-001048"
+      "alt": "problem-000090题目配图第1幅（已按原图查看）"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

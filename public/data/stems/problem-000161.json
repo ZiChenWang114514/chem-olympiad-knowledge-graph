@@ -1,50 +1,49 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000161",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "锗氮配体团簇结构",
-  "number": "Q3",
+  "number": "3",
   "examYear": 2022,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000058",
     "sourceLabel": "2022-36-CChO-chusai-1.pdf",
-    "pages": [
-      1
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "含锗化合物A的分子式可以表示为 \\mathrm { G e } _ { 5 } ( \\mathrm { N R } _ { 2 } ) _ { 4 } ,R为三异丙基硅基。该化合物中存在两种锗锗键,键⻓分别为250 pm和234 pm。A的合成方法如下:控制 \\mathrm { G e C l _ { 2 } } 与 \\mathrm { K N R } _ { \\mathrm { * } } <sub>2</sub>按1:1计量反应生成B,B被金属钾还原得到 \\mathbf { A } _ { \\circ } 。在B转化为A的过程中,可能经过中间产物 \\mathbf { C } , ,C中含两个锗原子;C与B按1:1计量反应得到环状化合物D,D与C在金属钾还原下反应得到 \\mathbf { A } _ { \\mathsf { c } } 。若B与吡啶按1:1计量反应则得到E,E难以与金属钾进一步反应生成 \\mathbf { A } _ { \\circ } 。化合物 \\mathbf { A } { \\sim } \\mathbf { E } 中锗原子均满足8电子。"
-    },
+      "text": "碳化铍 $\\mathrm{Be_2C}$ 可以视为由 $\\mathrm{Be^{2+}}$ 与 $\\mathrm{C^{4-}}$ 构成的反萤石型离子晶体。$\\mathrm{Be_2C}$ 的结构中包含独立的 $\\mathrm{C^{4-}}$ 阴离子,遇水时会产生 $\\mathrm{CH_4}$ 和化合物 A。$\\mathrm{Be_2C}$ 也可作碳源用于制备金属有机化合物,$\\mathrm{Be_2C}$ 与 $\\mathrm{HgCl_2}$ 的盐酸溶液反应可以得到直线型有机汞化合物 B 和化合物 C(反应 1)。C 也可以通过化合物 A 与 HCl 的反应得到。C 和 $\\mathrm{(Ph_4P)Cl}$(氯化四苯基膦)反应所得产物的阴离子 D 为双核离子,它由两个以铍离子为中心的四面体共棱连接而成。D 与 $\\mathrm{(CH_3)_3Si-N_3}$ 按 1:3 计量比反应可以得到四核阴离子 E,副产物为 $\\mathrm{(CH_3)_3Si-Cl}$ 和 $\\mathrm{Cl^-}$(反应 2)。E 含有 $\\mathrm{N_3^-}$ 和 $\\mathrm{Cl^-}$ 两种配体,$\\mathrm{N_3^-}$ 配体只有一个 N 作为配位原子。已知 E 的对称性与甲烷相同。"
+    }
+  ],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000161-01",
       "label": "3-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出A\\~E的结构图。要求:如有锗锗键,须示出化学键是单键,双键还是三键;须示出A中团簇的立体结构。用R表示三异丙基硅基。"
+          "text": "写出化合物 A~C 的化学式,画出阴离子 D 和四核配合物 E 的结构。(提示:E 中 $\\mathrm{N_3^-}$ 可作为整体示出)"
         }
-      ],
-      "partId": "part-001154"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000161-02",
       "label": "3-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
+          "text": "写出反应 1 和反应 2 的离子方程式并配平。"
         }
-      ],
-      "partId": "part-001155"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

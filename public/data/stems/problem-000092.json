@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000092",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,43 +10,21 @@
   "source": {
     "sourceDocumentId": "source-000054",
     "sourceLabel": "2020-34-CChO-chusai.pdf",
-    "pages": [
-      3,
-      4
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第8题(8分)"
-    },
-    {
-      "type": "subpart",
-      "label": "8-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "请按酸性从强到弱给以下化合物排序:"
-        }
-      ],
-      "partId": "part-000171"
+      "text": "第8题（8分） 8-1 请按酸性从强到弱给以下化合物排序："
     },
     {
       "type": "paragraph",
-      "text": "A B D C"
-    },
-    {
-      "type": "subpart",
-      "label": "8-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "请按酸性从强到弱给以下化合物排序:"
-        }
-      ],
-      "partId": "part-000172"
+      "text": "A B D C 8-2 请按酸性从强到弱给以下化合物排序："
     },
     {
       "type": "paragraph",
@@ -58,18 +36,7 @@
     },
     {
       "type": "paragraph",
-      "text": "D E"
-    },
-    {
-      "type": "subpart",
-      "label": "8-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "判断以下化合物哪些具有光活性(手性)、哪些没有光活性(非手性)、哪些是内消旋体。"
-        }
-      ],
-      "partId": "part-000173"
+      "text": "D E 8-3 判断以下化合物哪些具有光活性（⼿性）、哪些没有光活性（⾮⼿性）、哪些是内消旋体。"
     },
     {
       "type": "paragraph",
@@ -90,110 +57,77 @@
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000092-figure-001.jpg",
-      "alt": "有机酸性与反应性相关结构或反应图,第1幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004666"
+      "alt": "problem-000092题目配图第1幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000092-figure-002.jpg",
-      "alt": "有机酸性与反应性相关结构或反应图,第2幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004667"
+      "alt": "problem-000092题目配图第2幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000092-figure-003.jpg",
-      "alt": "有机酸性与反应性相关结构或反应图,第3幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004668"
+      "alt": "problem-000092题目配图第3幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000092-figure-004.jpg",
-      "alt": "有机酸性与反应性相关结构或反应图,第4幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004669"
+      "alt": "problem-000092题目配图第4幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000092-figure-005.jpg",
-      "alt": "有机酸性与反应性相关结构或反应图,第5幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004670"
+      "alt": "problem-000092题目配图第5幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000092-figure-006.jpg",
-      "alt": "有机酸性与反应性相关结构或反应图,第6幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004671"
+      "alt": "problem-000092题目配图第6幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000092-figure-007.jpg",
-      "alt": "有机酸性与反应性相关结构或反应图,第7幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004672"
+      "alt": "problem-000092题目配图第7幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000092-figure-008.jpg",
-      "alt": "有机酸性与反应性相关结构或反应图,第8幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004673"
+      "alt": "problem-000092题目配图第8幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000092-figure-009.jpg",
-      "alt": "有机酸性与反应性相关结构或反应图,第9幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004674"
+      "alt": "problem-000092题目配图第9幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000092-figure-010.jpg",
-      "alt": "有机酸性与反应性相关结构或反应图,第10幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004675"
+      "alt": "problem-000092题目配图第10幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000092-figure-011.jpg",
-      "alt": "有机酸性与反应性相关结构或反应图,第11幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004676"
+      "alt": "problem-000092题目配图第11幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000092-figure-012.jpg",
-      "alt": "有机酸性与反应性相关结构或反应图,第12幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004677"
+      "alt": "problem-000092题目配图第12幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000092-figure-013.jpg",
-      "alt": "有机酸性与反应性相关结构或反应图,第13幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004678"
+      "alt": "problem-000092题目配图第13幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000092-figure-014.jpg",
-      "alt": "有机酸性与反应性相关结构或反应图,第14幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004679"
+      "alt": "problem-000092题目配图第14幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000092-figure-015.jpg",
-      "alt": "有机酸性与反应性相关结构或反应图,第15幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004680"
+      "alt": "problem-000092题目配图第15幅（已按原图查看）"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

@@ -1,152 +1,124 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000050",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "磷氧化物与含硫溶剂结构",
-  "number": "Q2",
+  "number": "2",
   "examYear": 2018,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000052",
     "sourceLabel": "2018-32-CChO-chusai.pdf",
-    "pages": [
-      1
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "blocks": [
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [],
+  "parts": [
     {
-      "type": "paragraph",
-      "text": "第 2 题(8 分)"
-    },
-    {
-      "type": "subpart",
+      "id": "part-000050-01",
       "label": "2-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "195K,三氧化二磷在二氯甲烷中与臭氧反应生成 \\mathrm { P _ { 4 } O _ { 18 } } ,画出 \\mathrm { P _ { 4 } O _ { 18 } } 分子的结构示意图。"
+          "text": "195 K,三氧化二磷在二氯甲烷中与臭氧反应生成 $\\mathrm{P_4O_{18}}$,画出 $\\mathrm{P_4O_{18}}$ 分子的结构示意图。"
         }
-      ],
-      "partId": "part-000996"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000050-02",
       "label": "2-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "\\mathrm { C H _ { 2 } S F _ { 4 } } 是一种极性溶剂,其分子几何构型符合价层电子对互斥理论(VSEPR)模型。画出 \\mathrm { C H _ { 2 } S F _ { 4 } } 的分子结构示意图(体现合理的成键及⻆度关系)"
+          "text": "$\\mathrm{CH_2SF_4}$ 是一种极性溶剂,其分子几何构型符合价层电子对互斥理论(VSEPR)模型。画出 $\\mathrm{CH_2SF_4}$ 的分子结构示意图(体现合理的成键及角度关系)。"
         }
-      ],
-      "partId": "part-000997"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000050-03",
       "label": "2-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "2018年足球世界比赛用球使用了生物基元三元乙丙橡胶(EPDM)产品Keltan \\operatorname { E c o } _ { \\mathsf { c } } 。EPDM属三元共聚物,由乙烯,丙烯,及第三单体经溶液共聚而成。"
+          "text": "2018年足球世界比赛用球使用了生物基元三元乙丙橡胶(EPDM)产品 Keltan Eco。EPDM 属三元共聚物,由乙烯、丙烯及第三单体经溶液共聚而成。"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000050-figure-001.jpg",
+          "alt": "化学结构示意图（原图）",
+          "caption": "题目配图"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000050-figure-002.jpg",
+          "alt": "化学结构示意图（原图）",
+          "caption": "题目配图"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000050-figure-003.jpg",
+          "alt": "化学结构示意图（原图）",
+          "caption": "题目配图"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000050-figure-004.jpg",
+          "alt": "化学结构示意图（原图）",
+          "caption": "题目配图"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000050-figure-005.jpg",
+          "alt": "化学结构示意图（原图）",
+          "caption": "题目配图"
         }
-      ],
-      "partId": "part-000998"
+      ]
     },
     {
-      "type": "paragraph",
-      "text": "2-3-1EPDM具有优良的耐紫外光,耐臭氧,耐腐蚀等性能。写出下列分子中不可用于制备EPDM的第三单体(可能多选,答案中含错误选项不得分)"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000050-figure-001.jpg",
-      "assetId": "asset-004965",
-      "alt": "磷氧化物与含硫溶剂结构：第1幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "A"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000050-figure-002.jpg",
-      "assetId": "asset-004966",
-      "alt": "磷氧化物与含硫溶剂结构：第2幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "B"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000050-figure-003.jpg",
-      "assetId": "asset-004967",
-      "alt": "磷氧化物与含硫溶剂结构：第3幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000050-figure-004.jpg",
-      "assetId": "asset-004968",
-      "alt": "磷氧化物与含硫溶剂结构：第4幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "C"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000050-figure-005.jpg",
-      "assetId": "asset-004969",
-      "alt": "磷氧化物与含硫溶剂结构：第5幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "D"
-    },
-    {
-      "type": "paragraph",
-      "text": "E"
-    },
-    {
-      "type": "subpart",
-      "label": "2-3-2",
+      "id": "part-000050-04",
+      "label": "2-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "合成高分子主要材料分为塑料,纤维和橡胶三大类,下列高分子中与EPDM同为橡胶的是:F 聚乙烯 G 聚丙烯氰 H 反式聚异戊二烯 I 聚异丁烯"
+          "text": "-1 EPDM 具有优良的耐紫外光、耐臭氧、耐腐蚀等性能。写出下列分子中不可用于制备 EPDM 的第三单体()。"
+        },
+        {
+          "type": "paragraph",
+          "text": "A"
+        },
+        {
+          "type": "paragraph",
+          "text": "B"
+        },
+        {
+          "type": "paragraph",
+          "text": "C"
+        },
+        {
+          "type": "paragraph",
+          "text": "D"
+        },
+        {
+          "type": "paragraph",
+          "text": "E"
         }
-      ],
-      "partId": "part-000999"
+      ]
     },
     {
-      "type": "subpart",
-      "label": "2-3-1",
+      "id": "part-000050-05",
+      "label": "2-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
+          "text": "-2 合成高分子主要材料分为塑料、纤维和橡胶三大类,下列高分子中与 EPDM 同为橡胶的是:F 聚乙烯,G 聚丙烯氰,H 反式聚异戊二烯,I 聚异丁烯。"
         }
-      ],
-      "partId": "part-001000"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

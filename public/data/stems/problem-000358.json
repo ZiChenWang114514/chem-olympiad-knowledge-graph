@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000358",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,39 +8,21 @@
   "examYear": 2010,
   "examStage": "preliminary",
   "source": {
+    "sourceDocumentId": "source-000041",
     "sourceLabel": "2010-24-CChO-chusai.pdf",
-    "pages": [
-      2
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000041"
+    "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "## 第4题(原文题目标题未单独识别)"
-    },
-    {
-      "type": "paragraph",
-      "text": "4- 别将 $\\mathrm { O _ { 2 } } ,$ , $\\mathrm { KO } _ { 2 } .$ $\\mathrm { BaO _ { 2 } }$ 和 $\\mathrm { O _ { 2 } [ AsF _ { 6 } ] }$ 填入与O—O键⻓相对应的空格中."
-    },
-    {
-      "type": "paragraph",
-      "text": "<table><tr><td>O—O 键长</td><td>112pm</td><td>121pm</td><td>128pm</td><td>149pm</td></tr><tr><td>化学式</td><td></td><td></td><td></td><td></td></tr></table>"
-    },
-    {
-      "type": "subpart",
-      "label": "4-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "在配合物A和B中,O<sub>2</sub>为配体与中心金属离子配位.A 的化学式为 $\\mathrm { [ Co _ { 2 } O _ { 2 } ( NH _ { 3 } ) _ { 10 } ] ^ { 4 + } }$ ,其O—O的键⻓为 147pm;B 的化学式为 $\\mathrm { Co ( bzacen ) PyO _ { 2 } }$ ,其 O—O 的键⻓为 126pm,Py 是吡啶 $\\mathrm { ( C _ { 5 } H _ { 5 } N ) }$ ,bzacen 是四⻮配体 $[ \\mathrm { C _ { 6 } H _ { 5 } - C ( O ^ { - } ) = CH - C ( CH _ { 3 } ) = NCH _ { 2 } - } ] _ { 2 }$ .B具有室温吸氧,加热脱氧的功能,可作为人工载氧体.画出A和B的结构简图(图中必须明确表明O—O与金属离子间的空间关系),并分别指出A和B中Co的氧化态."
-        }
-      ],
-      "partId": "part-002450"
+      "text": "4 · 配位化学与电子结构"
     }
   ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  "parts": []
 }

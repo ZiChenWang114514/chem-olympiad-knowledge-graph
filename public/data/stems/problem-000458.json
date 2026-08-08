@@ -1,70 +1,60 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000458",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "丁二烯溴加成选择性",
-  "number": "Q10",
+  "number": "10",
   "examYear": 2015,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000049",
     "sourceLabel": "2015-29-CChO-chusai.pdf",
-    "pages": [
-      3
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "blocks": [
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [],
+  "parts": [
     {
-      "type": "paragraph",
-      "text": "第10题(10分)当溴与1,3-丁二烯在环己烷溶液中发生加成反应时,会得到两个产物A和B(不考虑立体化学)。在− { } ^ { - 15 } \\ ^ { \\circ } \\mathrm { C } 时A和B的比例为62:38;而在 25 ~ ^ { \\circ } \\mathrm { C } 时 A 和 B 的比例为 12:88。"
-    },
-    {
-      "type": "subpart",
+      "id": "part-000458-01",
       "label": "10-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出化合物A和B的结构简式;并确定哪个为热力学稳定产物,哪个为动力学产物。"
+          "text": "画出化合物 A 和 B 的结构简式;并确定哪个为热力学稳定产物,哪个为动力学产物。"
         }
-      ],
-      "partId": "part-001843"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000458-02",
       "label": "10-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在室温下,A可以缓慢地转化为 \\mathbf { B } _ { \\circ } 。画出此转换过程的反应势能示意图和中间体的结构简式。"
+          "text": "在室温下,A 可以缓慢地转化为 $\\mathrm{B}$。画出此转换过程的反应势能示意图和中间体的结构简式。"
         }
-      ],
-      "partId": "part-001844"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000458-03",
       "label": "10-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "根据以上的研究结果,确定以下反应的产物:"
+        },
+        {
+          "type": "figure",
+          "caption": "反应图示(原图缺失)",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "src": "data/stems/assets/problem-000458-figure-001.jpg"
         }
-      ],
-      "partId": "part-001845"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000458-figure-001.jpg",
-      "assetId": "asset-005276",
-      "alt": "丁二烯溴加成选择性：第1幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

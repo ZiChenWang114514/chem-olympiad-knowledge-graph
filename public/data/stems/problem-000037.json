@@ -1,79 +1,67 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000037",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "嵌段共聚物胶束",
-  "number": "Q7",
+  "number": "7",
   "examYear": 2017,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000051",
     "sourceLabel": "2017-31-CChO-chusai.pdf",
-    "pages": [
-      3
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "第7题(6分)嵌段共聚物指由不同聚合物链段连接而成的聚合物。若其同时拥有亲水链段和疏水链段,会形成内部为疏水链段,外部为亲水链段的核-壳结构组装体(如胶束)。下图所示为一种ABA型嵌段共聚物,该嵌段共聚物在水中可以形成胶束并包载药物分子,在氧化或还原条件的刺激下,实现药物的可控释放。"
-    },
-    {
       "type": "figure",
       "src": "data/stems/assets/problem-000037-figure-001.jpg",
-      "assetId": "asset-004962",
-      "alt": "嵌段共聚物胶束：第1幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
+      "alt": "化学结构示意图（原图）",
+      "caption": "(原题附图)"
+    }
+  ],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000037-01",
       "label": "7-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "该共聚物的合成方法如下:先使单体X与稍过量的单体Y在无水溶剂中进行加成聚合反应,形成中部的聚氨酯链段,随后加入过量聚乙二醇单甲醚 \\mathrm { C H } _ { 3 } ( \\mathrm { O C H } _ { 2 } \\mathrm { C H } _ { 2 } ) _ { n } \\mathrm { O H } 进行封端。写出单体X与Y的结构式。"
+          "text": "该共聚物的合成方法如下:先使单体 X 与稍过量的单体 Y 在无水溶剂中进行加成聚合反应,形成中部的聚氨酯链段,随后加入过量聚乙二醇单甲醚($\\ce{CH3(OCH2CH2)_nOH}$)进行封端。写出单体 X 与 Y 的结构式。"
         }
-      ],
-      "partId": "part-000979"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000037-02",
       "label": "7-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在氧化或还原条件下二硫键可发生断裂,采用R-S-S-R简式,写出其断键后的氧化产物O和还原产物{ \\bf P } _ { \\circ }"
+          "text": "在氧化或还原条件下,二硫键可发生断裂。采用 $\\ce{R-S-S-R}$ 简式,写出其断键后的氧化产物 O 和还原产物 P。"
         }
-      ],
-      "partId": "part-000980"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000037-03",
       "label": "7-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "该嵌段共聚物所形成的胶束可以包载下图中哪种抗癌药物方向简述理由。"
+          "text": "该嵌段共聚物所形成的胶束可以包载下图中哪种抗癌药物?简述理由。"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000037-figure-002.jpg",
+          "alt": "化学反应路线与结构式示意图（原图）",
+          "caption": "(原题附图:抗癌药物)"
         }
-      ],
-      "partId": "part-000981"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000037-figure-002.jpg",
-      "assetId": "asset-004963",
-      "alt": "嵌段共聚物胶束：第2幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

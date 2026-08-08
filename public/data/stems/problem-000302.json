@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000302",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,56 +10,52 @@
   "source": {
     "sourceDocumentId": "source-000038",
     "sourceLabel": "2007-21-CChO-chusai.pdf",
-    "pages": [
-      1
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000302-figure-001.jpg",
-      "alt": "晶体结构或分子模型示意图(原图)",
-      "displayWidth": 80,
-      "caption": "题目配图",
-      "assetId": "asset-004895"
-    },
+      "alt": "晶体结构或分子模型示意图（原图）",
+      "caption": "题目配图"
+    }
+  ],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000302-01",
       "label": "3-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "以□表示空层,A、B、C表示Cl-离子层,a、b、c表示Mg2+离子层,给出三方层型结构的堆积方式。"
+          "text": "以□表示空层,A、B、C表示Cl−离子层,a、b、c表示Mg2+离子层,给出三方层型结构的堆积方式。"
         }
-      ],
-      "partId": "part-000652"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000302-02",
       "label": "3-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "计算一个六方晶胞中MgCl2的单元数。"
         }
-      ],
-      "partId": "part-000653"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000302-03",
       "label": "3-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "假定将该晶体中所有八面体空隙皆填满Mg2+离子,将是哪种晶体结构类型？"
+          "text": "假定将该晶体中所有八面体空隙皆填满Mg2+离子,将是哪种晶体结构类型?"
         }
-      ],
-      "partId": "part-000654"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

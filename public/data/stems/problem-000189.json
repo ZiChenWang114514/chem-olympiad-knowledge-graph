@@ -1,69 +1,26 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000189",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "金氧化物电池热力学",
-  "number": "Q2",
+  "number": "2",
   "examYear": 2022,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000022",
     "sourceLabel": "2022-36-CChO-juesai-2.pdf",
-    "pages": [
-      1
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "在测定某些热力学参数时,常常设计电池。测得298.2K时下述电池的电动势为1.362 V。"
-    },
-    {
-      "type": "paragraph",
-      "text": "\\mathrm{Pt}, \\mathrm{H} _ {2} (p ^ {\\ominus}) \\mid \\mathrm{H} _ {2} \\mathrm{SO} _ {4} (\\mathrm{aq}) \\mid \\mathrm{Au} _ {2} \\mathrm{O} _ {3} (\\mathrm{s}) \\mid \\mathrm{Au} (\\mathrm{s})"
-    },
-    {
-      "type": "paragraph",
-      "text": "已知 \\mathrm { I } \\Delta _ { \\mathrm { f } } G _ { m } ^ { \\ominus } ( \\mathrm { H } _ { 2 } \\mathrm { O } , \\mathrm { g } ) = - 228 . 6 kJ mol−1,该温度下水的饱和蒸气压为 3.167 k ^ { \\mathrm { { ) } } _ { \\mathrm { { a } _ { \\mathrm { { c } } } } } } 。"
-    },
-    {
-      "type": "subpart",
-      "label": "2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算 298.2 K 时, \\mathrm { H _ { 2 } O ( l ) } \\mathrm { H _ { 2 } O ( g ) } 相变过程的标准Gibbs能变 \\Delta _ { \\mathrm { v } } G _ { m } ^ { \\ominus } . 。(单位:kJ \\mathrm { m o l ^ { - 1 } } )"
-        }
-      ],
-      "partId": "part-001201"
-    },
-    {
-      "type": "subpart",
-      "label": "2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算 298.2K 时,反应 2 \\mathrm { A u _ { 2 } O _ { 3 } } 4 \\mathrm { A u } + 3 \\mathrm { O } _ { 2 } 的标准 Gibbs 能变 \\Delta _ { \\mathrm { { r } } } G _ { m } ^ { \\ominus } C"
-        }
-      ],
-      "partId": "part-001202"
-    },
-    {
-      "type": "subpart",
-      "label": "2-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出 \\mathrm { { A u _ { 2 } O _ { 3 } } } 的标准Gibbs生成自由能 \\Delta _ { \\mathrm { f } } G _ { m } ^ { \\ominus } ( \\mathrm { A u } _ { 2 } \\mathrm { O } _ { 3 } )"
-        }
-      ],
-      "partId": "part-001203"
+      "text": "在测定某些热力学参数时，常常设计电池。测得298.2K时下述电池的电动势为1.362 V。 $$ \\mathrm{Pt}, \\mathrm{H} _ {2} (p ^ {\\ominus}) \\mid \\mathrm{H} _ {2} \\mathrm{SO} _ {4} (\\mathrm{aq}) \\mid \\mathrm{Au} _ {2} \\mathrm{O} _ {3} (\\mathrm{s}) \\mid \\mathrm{Au} (\\mathrm{s}) $$ 已知 $\\mathrm { I } \\Delta _ { \\mathrm { f } } G _ { m } ^ { \\ominus } ( \\mathrm { H } _ { 2 } \\mathrm { O } , \\mathrm { g } ) = - 2 2 8 . 6$ kJ mol−1，该温度下⽔的饱和蒸气压为 3.167 k $^ { \\mathrm { { ) } } _ { \\mathrm { { a } _ { \\mathrm { { c } } } } } }$ 。 2-1 计算 298.2 K 时， $\\mathrm { H _ { 2 } O ( l ) } \\mathrm { H _ { 2 } O ( g ) }$ 相变过程的标准Gibbs能变 $\\Delta _ { \\mathrm { v } } G _ { m } ^ { \\ominus } .$ 。（单位：kJ $\\mathrm { m o l ^ { - 1 } } )$ 2-2 计算 298.2K 时，反应 2 $\\mathrm { A u _ { 2 } O _ { 3 } }$ 4 $\\mathrm { A u } + 3 \\mathrm { O } _ { 2 }$ 的标准 Gibbs 能变 $\\Delta _ { \\mathrm { { r } } } G _ { m } ^ { \\ominus }$ C 2-3 写出 $\\mathrm { { A u _ { 2 } O _ { 3 } } }$ 的标准Gibbs生成⾃由能 $\\Delta _ { \\mathrm { f } } G _ { m } ^ { \\ominus } ( \\mathrm { A u } _ { 2 } \\mathrm { O } _ { 3 } )$"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

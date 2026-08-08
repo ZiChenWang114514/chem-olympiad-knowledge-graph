@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000184",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,126 +8,83 @@
   "examYear": 2022,
   "examStage": "final",
   "source": {
+    "sourceDocumentId": "source-000021",
     "sourceLabel": "2022-36-CChO-juesai-1.pdf",
-    "pages": [
-      4
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000021"
+    "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "## 第 6 题"
-    },
-    {
-      "type": "paragraph",
-      "text": "烯烃的硼氢化是有机合成中的常用反应.简单烯烃与 $\\mathrm { BH _ { 3 } { \\cdot } THF }$ (THF:四氢呋喃)或 $\\mathrm { BH _ { 3 } { \\cdot } SMe _ { 2 } }$ 的反应通常在较低的温度下即可快速完成.9-BBN(9-硼杂双环[3.3.1]壬烷)是一种对烯烃的硼氢化反应具有更好区域选择性的试剂.如下图所示,1,5-环辛二烯和 $\\mathrm { BH _ { 3 } { \\cdot } SMe _ { 2 } }$ 反应生成的1,4-加成和1,5-加成产物的混合物,经加热异构可制备9-BBN的固态聚体 $( 9 { \\mathrm { - BBN } } ) _ { 2 }$ 纯品.在非路易斯碱性溶剂中9-BBN也主要以二聚体(9- $\\mathrm { \\cdot BBN ) _ { 2 } }$ 的形式存在."
+      "type": "figure",
+      "src": "data/stems/assets/problem-000184-figure-001.jpg",
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 1"
     },
     {
       "type": "figure",
-      "src": "data/stems/assets/problem-000184-figure-001.jpg",
-      "alt": "原卷第6题图1：烯烃的硼氢化是有机合成中的常用反应.简单烯烃与 $\\mathrm { BH _ { 3 } { \\cdot } THF }$ (THF:四氢",
-      "displayWidth": 70,
-      "assetId": "asset-005373"
+      "src": "data/stems/assets/problem-000184-figure-004.jpg",
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 4"
     },
     {
-      "type": "subpart",
+      "type": "figure",
+      "src": "data/stems/assets/problem-000184-figure-005.jpg",
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 5"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000184-01",
       "label": "6-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "二聚体 $( 9 \\mathrm { - BBN ) _ { 2 } }$ 对烯烃的硼氢化通常均经历二聚体生成单体的对峙反应和单体与烯烃加成的单向反应,但其反应速率受到烯烃空间位阻影响,差异显著.例如,在 $25 ~ ^ { \\circ } \\mathrm { C }$ 条件下,以 $\\mathrm { CCl } _ { 4 }$ 为溶剂,(9-BBN)<sub>2</sub>与 2 倍量及以上的四取代或单取代烯烃进行的硼氢化反应对于烯烃和(9-BBN)<sub>2</sub>的反应级数如下表所示:"
-        },
-        {
-          "type": "paragraph",
-          "text": "<table><tr><td>烯烃</td><td>对于烯烃的反应级数</td><td>对于 $(9-BBN)_2$ 的反应级数</td></tr><tr><td>2,3-二甲基丁-2-烯</td><td>1</td><td>1/2</td></tr><tr><td>1-己烯</td><td>0</td><td>1</td></tr></table>"
-        },
-        {
-          "type": "paragraph",
-          "text": "试据此通过合理的近似或假设推导两种烯烃哪氢化的反应速率方程."
+          "text": "金属M的硝酸盐与1,3,5-均苯三甲酸(简写为 $\\mathrm{H_3BTC}$ ,分子量为210.14)按特定比例在乙二醇和水的混合体系中于 $180~^{\\circ}\\mathrm{C}$ 下反应12小时,得到一种具有“孔笼—孔道”结构的金属有机骨架材料Y,密度 $\\rho=0.96\\ \\mathrm{g\\ cm^{-3}}$ 。单晶X射线衍射分析表明,Y属于立方晶系,其三维骨架结构主体由M和 $(\\mathrm{BTC})^{3-}$ 组成,呈电中性,结构中带有水分子。元素分析表明,Y中含M,C,O和H四种元素,且M与C的原子比为1:6。热重-质谱联合分析结果显示,样品在 $100\\sim200\\ ^{\\circ}\\mathrm{C}$ 区间失重8.21%,对应于化学式中3个水分子的脱除,而主体骨架结构依然保持;继续加热到 $350~^{\\circ}\\mathrm{C}$ 失重63.7%,之后无明显失重,残渣为金属氧化物 $\\mathrm{MO}$ 。通过计算确认M是何种金属,写出Y的化学式。"
         }
-      ],
-      "partId": "part-002143"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000184-02",
       "label": "6-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "如下图所示,胆固醇(Cholesterol) $\\mathrm { 4E ^ { - } } 20 \\ ^ { \\circ } \\mathrm { C }$ 下与 $\\mathrm { BH _ { 3 } { \\cdot } THF }$ 发生硼氢化-氧化反应可获得A,B,C三种产物.试给出在生成产物C的过程中,加入KOH和 $\\mathrm { H _ { 2 } O _ { 2 } }$ 之前生成的三个关键中间体的结构(按生成的先后顺序,标明立体化学)."
+          "text": "将金属M加入到足量的浓硫酸中,微热片刻即有黑色物质A生成,之后A逐渐转变为灰白色物质B。该灰白色物质用过量氨水充分处理,过滤后,向滤液中通入 $\\mathrm{SO_2}$ 至微酸性,生成白色沉淀C(反应1)。元素分析结果,N含量8.65 %,S含量19.6%,H含量2.49 %。测试分析发现,C的结构中负离子呈三角锥形,磁性测量显示抗磁性。C与足量 $\\mathrm{H_2SO_4}$ 混合并加热,可生成超细粉末态M(反应2)。"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000184-figure-002.jpg",
-          "alt": "原卷第6题图2：如下图所示,胆固醇(Cholesterol) $\\mathrm { 4E ^ { - } } 20 \\ ^ { \\circ } \\mathr",
-          "displayWidth": 70,
-          "assetId": "asset-005374"
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 2"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000184-figure-003.jpg",
-          "alt": "原卷第6题图3（结构或数据示意）",
-          "displayWidth": 70,
-          "assetId": "asset-005375"
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 3"
         }
-      ],
-      "partId": "part-002144"
+      ]
     },
     {
-      "type": "subpart",
-      "label": "6-3",
+      "id": "part-000184-03",
+      "label": "6-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "对烯烃异构体D和G进行硼氢化-氧化反应所得产物如下图所示.试据此给出D → E的转化过程中,在加入 NaOH 和 $\\mathrm { H _ { 2 } O _ { 2 } }$ 之前生成的四个关键中间体的结构(按生成的先后顺序,标明相对立体化学)."
+          "text": "-1 写出 A,B,C 的化学式。"
         },
         {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000184-figure-004.jpg",
-          "alt": "原卷第6题图4：对烯烃异构体D和G进行硼氢化-氧化反应所得产物如下图所示.试据此给出D → E的转化过程中,在加入 NaOH 和 $\\mathrm { H ",
-          "displayWidth": 70,
-          "assetId": "asset-005376"
+          "type": "heading",
+          "level": 3,
+          "text": "6-2-2 写出反应1和反应2的方程式。"
         }
-      ],
-      "partId": "part-002145"
-    },
-    {
-      "type": "subpart",
-      "label": "6-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "如下图所示,双环烯烃I经硼氢化和后续转化可生成含氮不含硼且具有顺式并环结构的外消旋产物J.已知硼烷和三氯化硼反应可生成氯代硼烷,产物J不含季碳手性中心.试给出产物J的结构(标明相对立体化学)."
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000184-figure-005.jpg",
-          "alt": "原卷第6题图5：如下图所示,双环烯烃I经硼氢化和后续转化可生成含氮不含硼且具有顺式并环结构的外消旋产物J.已知硼烷和三氯化硼反应可生成氯代硼烷,产物J不含季",
-          "displayWidth": 70,
-          "assetId": "asset-005377"
-        }
-      ],
-      "partId": "part-002146"
-    },
-    {
-      "type": "subpart",
-      "label": "6-5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "安全性是化学实验的前提.问题6-4的反应中使用的苯基叠氮化物(PhCHN )可使用叠氮化钠制备.叠氮化钠在酸性条件下可生成剧毒物质叠氮酸(HN ).已知稀的叠氮酸水溶液可稳定存在,但是当气体中含10%体积分数的叠氮酸蒸气即具有爆炸性."
-        },
-        {
-          "type": "paragraph",
-          "text": "已知 $25 { \\sim } 100 ~ ^ { \\circ } \\mathrm { C }$ 下水的平均摩尔蒸发焓 $\\mathrm { \\Delta \\cdot \\Delta _ { vap } H _ { } = 42.74kJ \\cdot mol ^ { - 1 } , ~ 100 ~ ^ { \\circ } C }$ 纯水的饱和蒸气压为100kPa,叠氮酸的亨利系数 $k _ { c } = 8.33 \\mathrm { kPamol ^ { - 1 } }$ L.不考虑叠氮酸的电离,试据此估算 $25 ~ ^ { \\circ } \\mathrm { C }$ 时,盛有质量分数为2%的叠氮酸水溶液(密度可按纯水计算)的真空密闭容器内蒸气中叠氮酸的体积分数(溶液上方蒸气中水的分压可近似为纯水的饱和蒸气压),并评估是否存在爆炸⻛险."
-        }
-      ],
-      "partId": "part-002147"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

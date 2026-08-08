@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000310",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,127 +8,94 @@
   "examYear": 2007,
   "examStage": "preliminary",
   "source": {
+    "sourceDocumentId": "source-000038",
     "sourceLabel": "2007-21-CChO-chusai.pdf",
-    "pages": [
-      3,
-      4
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000038"
+    "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
-    {
-      "type": "paragraph",
-      "text": "第 11 题 石竹烯(Caryophyllene, $\\mathrm { C _ { 15 } H _ { 24 } } )$ 是一种含双键的天然产物,其中一个双键的构型是反式的,丁香花气味主要是由它引起的,可从下面的反应推断石竹烯及其相关化合物的结构."
-    },
     {
       "type": "paragraph",
       "text": "反应1:"
     },
     {
       "type": "paragraph",
-      "text": "$$"
+      "text": "$$\\text{Caryophyllene} \\xrightarrow{H_2, Pd/C} C_{15}H_{28}$$"
     },
     {
       "type": "paragraph",
-      "text": "\\text { Caryophyllene } \\xrightarrow {\\mathrm{H} _ {2} , \\mathrm{Pd/C}} \\mathrm{C} _ {15} \\mathrm{H} _ {28}"
+      "text": "反应2:"
     },
     {
       "type": "paragraph",
-      "text": "$$"
+      "text": "反应3:"
     },
     {
       "type": "paragraph",
-      "text": "反应 2:"
+      "text": "$$\\text{Caryophyllene} \\xrightarrow{1\\text{eq}BH_3, THF} \\xrightarrow{H_2O_2, NaOH, H_2O} C(C_{15}H_{26}O)$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "反应4:"
+    },
+    {
+      "type": "paragraph",
+      "text": "石竹烯异构体——异石竹烯在反应1和反应2中也分别得到产物A和B,而在经过反应3后却得到了产物C的异构体,此异构体在经过反应4后仍得到了产物D。"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000310-figure-001.jpg",
-      "alt": "原卷第11题图1：反应 2:",
-      "displayWidth": 70,
-      "assetId": "asset-005489"
-    },
-    {
-      "type": "paragraph",
-      "text": "反应 3:"
-    },
-    {
-      "type": "paragraph",
-      "text": "$$"
-    },
-    {
-      "type": "paragraph",
-      "text": "\\text { Caryophyllene } \\xrightarrow {\\text { 1eqBH } _ {3} , \\text { THF }} \\xrightarrow {\\mathrm{H} _ {2} \\mathrm{O} _ {2} , \\mathrm{NaOH} , \\mathrm{H} _ {2} \\mathrm{O}} \\quad \\mathbf {C} (\\mathrm{C} _ {15} \\mathrm{H} _ {26} \\mathrm{O})"
-    },
-    {
-      "type": "paragraph",
-      "text": "$$"
-    },
-    {
-      "type": "paragraph",
-      "text": "反应 4:"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000310-figure-002.jpg",
-      "alt": "原卷第11题图2：反应 4:",
-      "displayWidth": 70,
-      "assetId": "asset-005490"
-    },
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
+    }
+  ],
+  "parts": [
     {
-      "type": "paragraph",
-      "text": "D"
-    },
-    {
-      "type": "paragraph",
-      "text": "石竹烯异构体——异石竹烯在反应1和反应2中也分别得到产物A和 $\\mathbf { B } ,$ ,而在经过反应3后却得到了产物C的异构体,此异构体在经过反应4后仍得到了产物D."
-    },
-    {
-      "type": "subpart",
+      "id": "part-000310-01",
       "label": "11-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在不考虑反应生成手性中心的前提下,画出化合物A,C以及C的异构体的结构式."
+          "text": "在不考虑反应生成心性中手的前提下,画出化合物A、C以及C的异构体的结构式。"
         }
-      ],
-      "partId": "part-002378"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000310-02",
       "label": "11-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出石竹烯和异石竹烯的结构式."
+          "text": "画出石竹烯和异石竹烯的结构式。"
         }
-      ],
-      "partId": "part-002379"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000310-03",
       "label": "11-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "指出石竹烯和异石竹烯的结构差别."
-        },
-        {
-          "type": "paragraph",
-          "text": "## 第 4 题图:"
+          "text": "指出石竹烯和异石竹烯的结构差别。"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000310-figure-003.jpg",
-          "alt": "原卷第11题图3：## 第 4 题图:",
-          "displayWidth": 70,
-          "assetId": "asset-005491"
+          "alt": "化学结构示意图（原图）",
+          "caption": "题目配图"
         }
-      ],
-      "partId": "part-002380"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

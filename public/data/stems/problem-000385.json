@@ -1,92 +1,68 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000385",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "化学热力学计算",
-  "number": "Q3",
+  "number": "3",
   "examYear": 2011,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000006",
     "sourceLabel": "2011-25-CChO-juesai.pdf",
-    "pages": [
-      1
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第3题(10分)一容积可变的反应器,如图3所示,通过活塞维持其内部压力由于恒外压相等。"
+      "text": "在恒温、有催化剂条件下,反应器内进行如下反应"
+    },
+    {
+      "type": "paragraph",
+      "text": "$\\mathrm{N_2(g)} + 3\\mathrm{H_2(g)} \\rightleftharpoons 2\\mathrm{NH_3(g)}$"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000385-figure-001.jpg",
-      "assetId": "asset-005254",
-      "alt": "原卷示意图：(a)",
-      "label": "(a)",
-      "caption": "(a)",
-      "displayWidth": 100
-    },
+      "alt": "实验数据图表或热力学曲线（原图）",
+      "caption": "图3 容积可变的反应器示意图"
+    }
+  ],
+  "parts": [
     {
-      "type": "paragraph",
-      "text": "图3 容积可变的反应器示意图"
-    },
-    {
-      "type": "paragraph",
-      "text": "在恒温,有催化剂条件下,反应器内进行如下反应"
-    },
-    {
-      "type": "paragraph",
-      "text": "\\mathrm{N} _ {2} (\\mathrm{g}) + 3 \\mathrm{H} _ {2} (\\mathrm{g}) \\rightleftharpoons 2 \\mathrm{NH} _ {3} (\\mathrm{g})"
-    },
-    {
-      "type": "subpart",
+      "id": "part-000385-01",
       "label": "3-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "若平衡时,反应器的容积为1.0L,各物质的浓度如下:"
+          "text": "若平衡时,反应器的容积为1.0 L,各物质的浓度如下:"
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
+        },
+        {
+          "type": "paragraph",
+          "text": "现向平衡体系中注入4.0 mol $\\mathrm{N_2}$。试计算反应的平衡常数 $K_c$ 和反应商 $Q_c$,并由此判断反应将向什么方向进行。"
         }
-      ],
-      "partId": "part-001758"
-    },
-    {
-      "type": "table",
-      "headers": [
-        "物质",
-        "$N_{2}$",
-        "$H_{2}$",
-        "$NH_{3}$"
-      ],
-      "rows": [
-        [
-          "c/(mol $L^{-1}$ )",
-          "0.11",
-          "0.14",
-          "0.75"
-        ]
       ]
     },
     {
-      "type": "paragraph",
-      "text": "现向平衡体系中注入4.0mol \\mathrm { N } _ { 2 \\mathrm { c } } 。试计算反应的平衡常数 K _ { c } 和反应商 Q _ { c } ,并由此判断反应将向什么方向进行。"
-    },
-    {
-      "type": "subpart",
+      "id": "part-000385-02",
       "label": "3-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "若平衡时,反应器的容积为 V , ,各物质的浓度分别为方向 \\cdot ( \\mathrm { N } _ { 2 } ) , c \\left( \\mathrm { { H } _ { 2 } } \\right) 和 c ( \\mathrm { N H } _ { 3 } ) ,现向平衡体系中注入体积为方向方向的 \\mathrm { N } _ { 2 } (同温同压)。设此条件下1 mol气体的体积为 V _ { 0 } ,试推导出 Q _ { c } 的表达式,并判断反应方向。"
+          "text": "若平衡时,反应器的容积为 $V$,各物质的浓度分别为 $c(\\mathrm{N_2})$、$c(\\mathrm{H_2})$ 和 $c(\\mathrm{NH_3})$,现向平衡体系中注入体积为 $\\Delta V$ 的 $\\mathrm{N_2}$(同温同压)。设此条件下1 mol 气体的体积为 $V_0$,试推导出 $Q_c$ 的表达式,并判断反应方向。"
         }
-      ],
-      "partId": "part-001759"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

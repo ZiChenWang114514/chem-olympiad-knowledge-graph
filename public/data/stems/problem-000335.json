@@ -1,168 +1,143 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000335",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "碗形多环芳烃合成",
-  "number": "Q7",
+  "number": "7",
   "examYear": 2008,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000003",
     "sourceLabel": "2008-22-CChO-juesai.pdf",
-    "pages": [
-      4,
-      5
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "第7题 近年来,非平面多环芳烃由于在有机光电材料等方面的应用价值和有机结构方面的理论意义而成为国际上一个十分活跃的研究领域。心环烯(corannulene)和花烯(sumanene)是2种代表性的非平面多环芳烃,它们实际上是富勒烯C表面上2个典型的结构单元,也是碳纳米管封端的结构片段,具有碗状结构,被称为布基碗。"
-    },
-    {
       "type": "figure",
-      "src": "data/stems/assets/problem-000335-figure-001.jpg",
-      "assetId": "asset-005225",
-      "alt": "碗形多环芳烃合成：第1幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
+      "caption": "题给总反应路线图(原图缺失)",
+      "alt": "总反应路线图,展示从原料到最终产物的多步合成",
+      "src": "data/stems/assets/problem-000335-figure-001.jpg"
+    }
+  ],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000335-01",
       "label": "7-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "一种合成心环烯的路线如下,请指出其中a\\~h代表的反应条件和/或化合物。"
+          "text": "一种合成手环烯的路线如下,请指出其中 a~h 代表的反应条件和/或化合物。"
+        },
+        {
+          "type": "figure",
+          "caption": "手环烯合成路线图(原图缺失)",
+          "alt": "手环烯合成路线,标注 a~h 的反应条件或中间体",
+          "src": "data/stems/assets/problem-000335-figure-002.jpg"
         }
-      ],
-      "partId": "part-001661"
+      ]
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000335-figure-002.jpg",
-      "assetId": "asset-005226",
-      "alt": "碗形多环芳烃合成：第2幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "subpart",
+      "id": "part-000335-02",
       "label": "7-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出原料A和第一个中间产物B的系统名称。"
+          "text": "写出原料 A 和第一个中间产物 B 的系统名称。"
         }
-      ],
-      "partId": "part-001662"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000335-03",
       "label": "7-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "由C到D的反应中,除目标分子外,还生成2种小分子副产物,写出它们的结构简式或名称。"
+          "text": "由 C 到 D 的反应中,除目标分子外,还生成 2 种小分子副产物,写出它们的结构简式或名称。"
         }
-      ],
-      "partId": "part-001663"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000335-04",
       "label": "7-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "指出最终产物心环烯(R=H)及其二甲基化物 \\mathrm { ( R = C H _ { 3 } ) } 分子中的对称元素。"
+          "text": "指出最终产物手环烯(R=H)及其二甲基化物 $\\mathrm{(R=CH_3)}$ 分子中的对称元素。"
         }
-      ],
-      "partId": "part-001664"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000335-05",
       "label": "7-5",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "一种合成花烯的路线如下,请指出其中i和j代表的主要试剂或条件。"
+          "text": "一种合成花烯的路线如下,请指出其中 i 和 j 代表的主要试剂或条件。"
+        },
+        {
+          "type": "figure",
+          "caption": "花烯合成路线图(原图缺失)",
+          "alt": "花烯合成路线,标注 i 和 j 的试剂或条件",
+          "src": "data/stems/assets/problem-000335-figure-003.jpg"
         }
-      ],
-      "partId": "part-001665"
+      ]
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000335-figure-003.jpg",
-      "assetId": "asset-005227",
-      "alt": "碗形多环芳烃合成：第3幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "subpart",
+      "id": "part-000335-06",
       "label": "7-6",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "化合物E的立体异构体中,只有一种异构体能经过烯交换反应得到F,请指出是哪一种方向简述理由。"
+          "text": "化合物 E 的立体异构体中,只有一种异构体能经过烯交换反应得到 F,请指出是哪一种?简述理由。"
         }
-      ],
-      "partId": "part-001666"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000335-07",
       "label": "7-7",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "实验中,H转变为I的反应只得到题给的一种立体异构体,简述理由。"
+          "text": "实验中,H 转变为 I 的反应只得到题给的一种立体异构体,简述理由。"
         }
-      ],
-      "partId": "part-001667"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000335-08",
       "label": "7-8",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "花烯G分子的碗-碗翻转能垒低:"
+          "text": "花烯 G 分子的碗-碗翻转能垒低:"
+        },
+        {
+          "type": "figure",
+          "caption": "花烯 G 碗-碗翻转示意图(原图缺失)",
+          "alt": "花烯 G 的碗-碗翻转能垒示意图",
+          "src": "data/stems/assets/problem-000335-figure-004.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "但 I 却难以翻转,简述理由。"
         }
-      ],
-      "partId": "part-001668"
+      ]
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000335-figure-004.jpg",
-      "assetId": "asset-005228",
-      "alt": "碗形多环芳烃合成：第4幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "但I却难以翻转,简述理由。"
-    },
-    {
-      "type": "subpart",
+      "id": "part-000335-09",
       "label": "7-9",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "最近文献报道了I的10,15,20-三甲基取代衍生物。请画出该衍生物的结构,并指出有无手性方向简述理由。"
+          "text": "最近文献报道了 I 的 10,15,20-三甲基取代衍生物。请画出该衍生物的结构,并指出有无心性?简述理由。"
         }
-      ],
-      "partId": "part-001669"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

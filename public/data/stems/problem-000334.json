@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000334",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,16 +10,18 @@
   "source": {
     "sourceDocumentId": "source-000003",
     "sourceLabel": "2008-22-CChO-juesai.pdf",
-    "pages": [
-      3,
-      4
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "blocks": [
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000334-01",
       "label": "6-1",
       "blocks": [
         {
@@ -34,33 +36,30 @@
           "type": "paragraph",
           "text": "实验发现,上述加成反应的 $c(\\mathrm{AB})/c(\\mathrm{B})$ 与 $c(\\mathrm{B})$ 无关,在保持 $c(\\mathrm{B})$ 不变的条件下,分别取 $p_{\\mathrm{A}}$ 为 $p^{\\ominus}$、$3p^{\\ominus}$、$6p^{\\ominus}$($p^{\\ominus}=100\\ \\mathrm{kPa}$)时,测得 $c(\\mathrm{AB})/c(\\mathrm{A})$ 值之比为 $9:4:1$。求该反应各反应物的级数和反应总级数(按理想气体处理)。"
         }
-      ],
-      "partId": "part-000704"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000334-02",
       "label": "6-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "以 $\\mathrm{d}c(\\mathrm{AB})/\\mathrm{d}t$ 表示该反应速率,写出速率方程。"
         }
-      ],
-      "partId": "part-000705"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000334-03",
       "label": "6-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "设 $c(\\mathrm{A})$ 为 $1\\ \\mathrm{mol\\ L^{-1}}$ 且保持不变,$c_0(\\mathrm{B})=1\\ \\mathrm{mol\\ L^{-1}}$,$c_0(\\mathrm{AB})=0$,写出 $c(\\mathrm{B})=0.25\\ \\mathrm{mol\\ L^{-1}}$ 时反应所需时间的表达式。"
         }
-      ],
-      "partId": "part-000706"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000334-04",
       "label": "6-4",
       "blocks": [
         {
@@ -69,28 +68,23 @@
         },
         {
           "type": "paragraph",
-          "text": "$$ 2\\mathrm{HCl} \\xleftarrow[k_{-1}]{k_1} (\\mathrm{HCl})_2 \\\\ \\mathrm{HCl} + \\mathrm{C_3H_6} \\xleftarrow[k_{-2}]{k_2} \\mathrm{C}^* \\\\ \\mathrm{C}^* + (\\mathrm{HCl})_2 \\xrightarrow{k_3} \\mathrm{CH_3CHClCH_3} + 2\\mathrm{HCl} $$"
+          "text": "$$\\begin{array}{c} 2\\mathrm{HCl} \\xleftarrow[k_{-1}]{k_1} (\\mathrm{HCl})_2 \\\\ \\mathrm{HCl} + \\mathrm{C_3H_6} \\xleftarrow[k_{-2}]{k_2} \\mathrm{C}^* \\\\ \\mathrm{C}^* + (\\mathrm{HCl})_2 \\xrightarrow{k_3} \\mathrm{CH_3CHClCH_3} + 2\\mathrm{HCl} \\end{array}$$"
         },
         {
           "type": "paragraph",
-          "text": "请根据有关假设推导出该反应的速率方程,写出表观速率系数的表达式,将速率方程与6-2的结论进行比较,说明什么问题？"
+          "text": "请根据有关假设推导出该反应的速率方程,写出表观速率系数的表达式,将速率方程与6-2的结论进行比较,说明什么问题?"
         }
-      ],
-      "partId": "part-000707"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000334-05",
       "label": "6-5",
       "blocks": [
         {
           "type": "paragraph",
           "text": "实验测得该反应在 $70\\ ^\\circ\\mathrm{C}$ 时的表观速率系数为 $19\\ ^\\circ\\mathrm{C}$ 时的 $1/3$,试求算该反应的表观活化能 $E_{\\mathrm{a}}$。"
         }
-      ],
-      "partId": "part-000708"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

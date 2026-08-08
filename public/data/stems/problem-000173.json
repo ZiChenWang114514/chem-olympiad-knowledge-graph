@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000173",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,46 +8,19 @@
   "examYear": 2022,
   "examStage": "preliminary",
   "source": {
+    "sourceDocumentId": "source-000059",
     "sourceLabel": "2022-36-CChO-chusai-2.pdf",
-    "pages": [
-      2
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000059"
+    "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "## 第 5 题 镍的高价化合物"
-    },
-    {
-      "type": "paragraph",
-      "text": "镍在化合物中的常⻅氧化数是+2,但在一定条件下,可制得其高价化合物.将KCl和 $\\mathrm { NiCl _ { 2 } }$ 按一定计量比混合与 $\\mathrm { F } _ { 2 }$ 反应, $300 ^ { \\circ } \\mathrm { C }$ 下得到紫色顺磁性晶体A(反应1), $275 ^ { \\circ } \\mathrm { C }$ 下得到红色抗磁性晶体B(反应2).A和B中的络离子均为正八面体构型.A和B遇水均放出氧气,并得到具有金红石型结构的化合物C(反应3和反应4).若在真空下处理,A可以稳定到 $450 ^ { \\circ } \\mathrm { C } ,$ ,而B在 $350 ^ { \\circ } \\mathrm { C }$ 即分解(反应5),放出浅⻩色气体,固体中检出A和C且二者摩尔比为2:1.A在液态HF中发生歧化(反应6),产物中含B和 $\\mathbf { C } ,$ ,而B在液态HF中与足量 $\\mathrm { BF _ { 3 } }$ 发生反应形成红色沉淀(反应7).B还可与强 Lewis 酸 $\\mathrm { BiF } _ { 5 }$ 混合形成固体推进剂,引发后放出浅⻩色气体(反应8)."
-    },
-    {
-      "type": "subpart",
-      "label": "5-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出A的化学式和磁矩(单位: $\\mu _ { \\mathrm { B } } )$ ).写出B的化学式及其中镍离子价层电子组态(要求:用$\\mathrm { t _ { 2g } } ^ { x } \\mathrm { eg } ^ { y }$ 方式表示,和分别代表电子数).(提示:A和B中络离子的晶体场分裂能近似相等.)"
-        }
-      ],
-      "partId": "part-002124"
-    },
-    {
-      "type": "subpart",
-      "label": "5-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出反应1\\~8的反应方程式并配平."
-        }
-      ],
-      "partId": "part-002125"
+      "text": "镍在化合物中的常⻅氧化数是+2，但在一定条件下，可制得其高价化合物。将KCl和 $\\mathrm { N i C l _ { 2 } }$ 按一定计量比混合与 $\\mathrm { F } _ { 2 }$ 反应， $3 0 0 ^ { \\circ } \\mathrm { C }$ 下得到紫色顺磁性晶体A（反应1）， $2 7 5 ^ { \\circ } \\mathrm { C }$ 下得到红色抗磁性晶体B（反应2）。A和B中的络离⼦均为正八面体构型。A和B遇⽔均放出氧气，并得到具有金红⽯型结构的化合物C（反应3和反应4）。若在真空下处理，A可以稳定到 $4 5 0 ^ { \\circ } \\mathrm { C } ,$ ，⽽B在 $3 5 0 ^ { \\circ } \\mathrm { C }$ 即分解（反应5），放出浅⻩色气体，固体中检出A和C且二者摩尔比为2:1。A在液态HF中发生歧化（反应6），产物中含B和 $\\mathbf { C } ,$ ，⽽B在液态HF中与⾜量 $\\mathrm { B F _ { 3 } }$ 发生反应形成红色沉淀（反应7）。B还可与强 Lewis 酸 $\\mathrm { B i F } _ { 5 }$ 混合形成固体推进剂，引发后放出浅⻩色气体（反应8）。 5-1 写出A的化学式和磁矩（单位： $\\mu _ { \\mathrm { B } } )$ ）。写出B的化学式及其中镍离⼦价层电⼦组态（要求：用$\\mathrm { t _ { 2 g } } ^ { x } \\mathrm { e g } ^ { y }$ 方式表示，?和?分别代表电⼦数）。（提示：A和B中络离⼦的晶体场分裂能近似相等。）5-2 写出反应1\\~8的反应方程式并配平。"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

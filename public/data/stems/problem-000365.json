@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000365",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,48 +10,45 @@
   "source": {
     "sourceDocumentId": "source-000041",
     "sourceLabel": "2010-24-CChO-chusai.pdf",
-    "pages": [
-      4
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "blocks": [
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000365-01",
       "label": "11-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "写出A的分子式。"
         }
-      ],
-      "partId": "part-000744"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000365-02",
       "label": "11-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "画出A、B和C的结构简式(列出所有可能的结构)。"
         }
-      ],
-      "partId": "part-000745"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000365-03",
       "label": "11-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "简述由心性化合物B合成C时心性能否被保留下来的理由。"
         }
-      ],
-      "partId": "part-000746"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

@@ -1,81 +1,71 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000389",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "有机药物合成",
-  "number": "Q7",
+  "number": "7",
   "examYear": 2011,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000006",
     "sourceLabel": "2011-25-CChO-juesai.pdf",
-    "pages": [
-      5
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "第7题(18分)2002年,Scott等人首次完成了的 \\mathrm { C } _ { 60 } 化学全合成,该成果为今后合成更多和更丰富的 \\mathrm { C } _ { 60 } 衍生物带来了可能。下面是其全合成的路线(无机产物及副产物已略去)。"
-    },
-    {
       "type": "figure",
-      "src": "data/stems/assets/problem-000389-figure-001.jpg",
-      "assetId": "asset-005255",
-      "alt": "有机药物合成：第1幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
+      "caption": "合成路线图",
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "src": "data/stems/assets/problem-000389-figure-001.jpg"
+    }
+  ],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000389-01",
       "label": "7-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出上述合成路线中a,b,c和d所对应的试剂或反应条件。"
+          "text": "写出上述合成路线中 a、b、c 和 d 所对应的试剂或反应条件。"
         }
-      ],
-      "partId": "part-001767"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000389-02",
       "label": "7-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出上述合成路线中中间体A\\~I的结构简式。"
+          "text": "画出上述合成路线中中间体 A~I 的结构简式。"
         }
-      ],
-      "partId": "part-001768"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000389-03",
       "label": "7-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出中间体J的对称元素。"
+          "text": "写出中间体 J 的对称元素。"
         }
-      ],
-      "partId": "part-001769"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000389-04",
       "label": "7-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "给出从中间体I到J的反应机理。"
+          "text": "给出从中间体 I 到 J 的反应机理。"
         }
-      ],
-      "partId": "part-001770"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000392",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,76 +8,21 @@
   "examYear": 2012,
   "examStage": "preliminary",
   "source": {
+    "sourceDocumentId": "source-000046",
     "sourceLabel": "2012-26-CChO-chusai.pdf",
-    "pages": [
-      1
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000046"
+    "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第2题 A和X是两种常⻅的非金属元素,其核外电子数之和为22,价电子数之和为 $10 _ { \\circ }$ .在一定条件下可生成AX, $\\mathbf { AX } _ { 3 }$ (常⻅的Lewis酸), $\\mathbf { A } _ { 2 } \\mathbf { X } _ { 4 }$ 和 $\\mathbf { A } _ { 4 } \\mathbf { X } _ { 4 }$ ,反应如下:"
-    },
-    {
-      "type": "paragraph",
-      "text": "$$"
-    },
-    {
-      "type": "paragraph",
-      "text": "{rl} {\\mathbf {A} (\\mathrm{s}) + 3 / 2 \\mathbf {X} _ {2} (\\mathrm{g}) \\rightarrow \\mathbf {AX} _ {3} (\\mathrm{g})}\\\\ {\\mathbf {AX} _ {3} (\\mathrm{g}) \\xrightarrow {\\mathrm{Hg,放电}} \\mathbf {AX} (\\mathrm{g}) + 2 \\mathbf {X} (\\mathrm{g})}\\\\ {2 \\mathrm{Hg} + 2 \\mathbf {X} (\\mathrm{g}) \\rightarrow \\mathrm{Hg} _ {2} \\mathbf {X} _ {2} (\\mathrm{g})}\\\\ {\\mathbf {AX} (\\mathrm{g}) + \\mathbf {AX} _ {3} (\\mathrm{g}) \\rightarrow \\mathbf {A} _ {2} \\mathbf {X} _ {4} (\\mathrm{g})}\\\\ {4 \\mathbf {AX} (\\mathrm{g}) \\rightarrow \\mathbf {A} _ {4} \\mathbf {X} _ {4} (\\mathrm{g})}"
-    },
-    {
-      "type": "paragraph",
-      "text": "$$"
-    },
-    {
-      "type": "subpart",
-      "label": "2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "指出 A 和 X 各是什么元素."
-        }
-      ],
-      "partId": "part-002477"
-    },
-    {
-      "type": "subpart",
-      "label": "2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "${ \\mathrm{A} } _ { 4 } { \\mathrm{X} } _ { 4 }$ 具有4个三重旋转轴,每个A原子周围都有4个原子,画出 $\\mathbf { A } _ { 4 } \\mathbf { X } _ { 4 }$ <sub>4</sub>的结构示意图."
-        }
-      ],
-      "partId": "part-002478"
-    },
-    {
-      "type": "subpart",
-      "label": "2-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出 $\\mathbf { AX } _ { 3 }$ $\\mathrm { CH _ { 3 } MgBr }$ 按计量数比为 1:3 反应的方程式."
-        }
-      ],
-      "partId": "part-002479"
-    },
-    {
-      "type": "subpart",
-      "label": "2-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出 $\\mathbf { A } _ { 2 } \\mathbf { X } _ { 4 }$ 与乙醇发生醇解反应的方程式."
-        }
-      ],
-      "partId": "part-002480"
+      "text": "2. 第二步失重后的固态残渣是什么,解释理由。"
     }
   ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  "parts": []
 }

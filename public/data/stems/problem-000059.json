@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000059",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,48 +10,45 @@
   "source": {
     "sourceDocumentId": "source-000013",
     "sourceLabel": "2018-32-CChO-juesai.pdf",
-    "pages": [
-      1
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "blocks": [
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000059-01",
       "label": "1-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "在该系列化合物中,$\\ce{[IrO4]+}$ 有 A、B、C 三种异构体。A 无对称中心,Ir—O 键的键长均为 170.8 pm。B 中 Ir 的配位数为 4,氧化态为 +7,只有两种 Ir—O 键,键长分别为 188.8 pm 和 168.0 pm。C 中只有一个镜面,也只有两种 Ir—O 键,键长分别为 209.6 pm 和 167.9 pm。画出 A、B、C 的结构。"
         }
-      ],
-      "partId": "part-000089"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000059-02",
       "label": "1-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "$\\ce{IrBr3}$ 与 $\\ce{N2O5}$ 可在室温下反应,得到一紫色配合物 $\\ce{Ir3O(NO3)10}$,同时产生一红棕色的液体单质,并释放出具有顺磁性的无色气体。写出该反应的方程式。"
         }
-      ],
-      "partId": "part-000090"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000059-03",
       "label": "1-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "具有三方双锥构型的 $\\ce{Cr(CO)_x(NO)_y}$ 配合物满足 18 电子规则。计算 $x$ 和 $y$。"
         }
-      ],
-      "partId": "part-000091"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000289",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,26 +10,19 @@
   "source": {
     "sourceDocumentId": "source-000037",
     "sourceLabel": "2006-20-CChO-chusai.pdf",
-    "pages": [
-      3
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "blocks": [
-    {
-      "type": "subpart",
-      "label": "10",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "第10题(10分)以氯苯为起始原料,用最佳方法合成1-溴-3-氯苯(限用具有高产率的各反应,标明合成的各个步骤)。"
-        }
-      ],
-      "partId": "part-000637"
-    }
-  ],
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
-  }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "第10题(10分)以氯苯为起始原料,用最佳方法合成1-溴-3-氯苯(限用具有高产率的各反应,标明合成的各个步骤)。"
+    }
+  ],
+  "parts": []
 }

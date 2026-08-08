@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000133",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,159 +8,63 @@
   "examYear": 2021,
   "examStage": "preliminary",
   "source": {
+    "sourceDocumentId": "source-000056",
     "sourceLabel": "2021-35-CChO-chusai-jiangsu.pdf",
-    "pages": [
-      1,
-      2,
-      3,
-      4
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000056"
+    "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第2题 回答下列问题:"
+      "text": "2 · 聚合物合成与热力学"
     },
     {
-      "type": "subpart",
-      "label": "2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "请解释为什么在DNA分子中,腺嘌呤与胸腺嘧啶含量相等,⻦嘌呤与胞嘧啶含量相等."
-        },
-        {
-          "type": "paragraph",
-          "text": "A"
-        },
-        {
-          "type": "paragraph",
-          "text": "C"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000133-figure-001.jpg",
-          "alt": "原卷第2题图1：C",
-          "displayWidth": 70,
-          "assetId": "asset-005338"
-        },
-        {
-          "type": "paragraph",
-          "text": "腺嘌呤(A)"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000133-figure-002.jpg",
-          "alt": "原卷第2题图2：腺嘌呤(A)",
-          "displayWidth": 70,
-          "assetId": "asset-005339"
-        },
-        {
-          "type": "paragraph",
-          "text": "⻦嘌呤(G)"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000133-figure-003.jpg",
-          "alt": "原卷第2题图3：⻦嘌呤(G)",
-          "displayWidth": 70,
-          "assetId": "asset-005340"
-        },
-        {
-          "type": "paragraph",
-          "text": "胸腺嘧啶(T)"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000133-figure-004.jpg",
-          "alt": "原卷第2题图4：胸腺嘧啶(T)",
-          "displayWidth": 70,
-          "assetId": "asset-005341"
-        },
-        {
-          "type": "paragraph",
-          "text": "图1 碱基结构"
-        },
-        {
-          "type": "paragraph",
-          "text": "胞嘧啶(C)"
-        }
-      ],
-      "partId": "part-002064"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000133-figure-001.jpg",
+      "alt": "实验数据图表或热力学曲线（原图）",
+      "caption": "题目配图"
     },
     {
-      "type": "subpart",
-      "label": "2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "钾氩定年法可用于分析火星矿物形成的年代.已知40K衰变时,10.5%为β+衰变生成40Ar,89.5 %为β−衰变生成 $^ { 40 } \\mathrm { Ca }$ ,40K的半衰期为12.5亿年.试求40K发生β+衰变和β−衰变的速率常数 $\\cdot k _ { 1 }$ 和 $k _ { 2 }$ ."
-        }
-      ],
-      "partId": "part-002065"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000133-figure-002.jpg",
+      "alt": "实验数据图表或热力学曲线（原图）",
+      "caption": "题目配图"
     },
     {
-      "type": "subpart",
-      "label": "2-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出与 $\\mathrm { N _ { 2 } H _ { 4 } }$ 质子总数相同且含有非极性键的物质的分子式."
-        }
-      ],
-      "partId": "part-002066"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000133-figure-003.jpg",
+      "alt": "实验数据图表或热力学曲线（原图）",
+      "caption": "题目配图"
     },
     {
-      "type": "subpart",
-      "label": "2-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出分子式为 $\\mathrm { C _ { 3 } O _ { 3 } Cl _ { 6 } }$ 中所有Cl原子等价的物质的结构式."
-        }
-      ],
-      "partId": "part-002067"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000133-figure-004.jpg",
+      "alt": "实验数据图表或热力学曲线（原图）",
+      "caption": "题目配图"
     },
     {
-      "type": "subpart",
-      "label": "2-5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "一般化学交联的聚合物难以进行二次利用,但如图2所示的A,B,C三种单体共聚后经紫外光照射可以形成交联聚合物,且该交联聚合物能够实现回收热塑加 $\\scriptstyle \\sum _ { 0 }$ .请简述该交联聚合物可热塑加工的基本原理."
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000133-figure-005.jpg",
-          "alt": "原卷第2题图5：一般化学交联的聚合物难以进行二次利用,但如图2所示的A,B,C三种单体共聚后经紫外光照射可以形成交联聚合物,且该交联聚合物能够实现回收热塑加",
-          "displayWidth": 70,
-          "assetId": "asset-005342"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000133-figure-006.jpg",
-          "alt": "原卷第2题图6（结构或数据示意）",
-          "displayWidth": 70,
-          "assetId": "asset-005343"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000133-figure-007.jpg",
-          "alt": "原卷第2题图7（结构或数据示意）",
-          "displayWidth": 70,
-          "assetId": "asset-005344"
-        },
-        {
-          "type": "paragraph",
-          "text": "图2 三种单体结构"
-        }
-      ],
-      "partId": "part-002068"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000133-figure-005.jpg",
+      "alt": "实验数据图表或热力学曲线（原图）",
+      "caption": "题目配图"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000133-figure-006.jpg",
+      "alt": "实验数据图表或热力学曲线（原图）",
+      "caption": "题目配图"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000133-figure-007.jpg",
+      "alt": "实验数据图表或热力学曲线（原图）",
+      "caption": "题目配图"
     }
   ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  "parts": []
 }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000250",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,162 +8,32 @@
   "examYear": 2024,
   "examStage": "final",
   "source": {
+    "sourceDocumentId": "source-000032",
     "sourceLabel": "2024年全国中学生化学竞赛决赛试题(第二场).pdf",
-    "pages": [
-      2,
-      4,
-      5,
-      6,
-      8
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000032"
+    "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "## 第1题 铍类化合物的结构和性质"
+      "text": "1-1由于元素铍的高毒性，导致其化学性质知之甚少。作为最轻的元素之一，铍可以为化学键的模型研究提供基础。因此，科学家对铍的性质进行了系统深入的研究。首先，以 $\\mathbf { B e C l } _ { 2 }$ 为原料制备了 $\\mathrm { B e } ( \\mathrm { C } _ { 5 } \\mathrm { H } _ { 5 } ) _ { 2 }$ $$ \\mathrm{BeCl} _ {2} + 2 \\mathrm{NaC} _ {5} \\mathrm{H} _ {5} \\rightarrow \\mathrm{Be} (\\mathrm{C} _ {5} \\mathrm{H} _ {5}) _ {2} + 2 \\mathrm{NaCl} $$ 产物 $\\mathrm { B e } ( \\mathbf { C } _ { 5 } \\mathrm { H } _ { 5 } ) _ { 2 }$ 的偶极矩为2.24D，且铍原子满足八隅律。H和13CNMR的表征表明 $\\mathrm { B e } ( \\mathbf { C } _ { 5 } \\mathbf { H } _ { 5 } ) _ { 2 }$ 中所有氢或碳的化学环境基本一致。 1-1-1 画出 $\\mathrm { B e } ( \\mathrm { C } _ { 5 } \\mathrm { H } _ { 5 } ) _ { 2 }$ 的结构； 1-1-2 解释 H 和 $^ { 1 3 } { \\bf C } { \\bf N M R }$ 图谱为何均只有一个信号峰。 1-2 E $B e ( C _ { 5 } \\mathrm { H } _ { 5 } ) _ { 2 }$ 与 $\\mathbf { M g } _ { 2 } \\mathbf { L } _ { 2 }$ (L代表与 $\\mathbf { M g }$ 配位的一价负离子)反应产生含Be-Be键的$\\mathbf { B } { \\mathsf { e } } _ { 2 } ( \\mathbf { C } _ { 5 } \\mathbf { H } _ { 5 } ) _ { 2 }$ $$ \\mathrm{Mg} _ {2} \\mathrm{L} _ {2} + 2 \\mathrm{Be} (\\mathrm{C} _ {5} \\mathrm{H} _ {5}) _ {2} \\xrightarrow {\\text { PhCH } _ {3}} \\mathrm{Be} _ {2} (\\mathrm{C} _ {5} \\mathrm{H} _ {5}) _ {2} $$ 1-2-1 确定此反应中的氧化剂。 1-2-2 B $e _ { 2 } ( \\mathbf { C } _ { 5 } \\mathbf { H } _ { 5 } ) _ { 2 }$ 与 $\\mathrm { B e } ( \\mathbf { C } _ { 5 } \\mathbf { H } _ { 5 } ) _ { 2 }$ 两者结构之间存在一定的差别，为以下问题提供准确的"
     },
     {
-      "type": "subpart",
-      "label": "1-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "由于元素铍的高毒性,导致其化学性质知之甚少.作为最轻的元素之一,铍可以为化学键的模型研究提供基础.因此,科学家对铍的性质进行了系统深入的研究.首先,以 $\\mathbf { BeCl } _ { 2 }$ 为原料制备了 $\\mathrm { Be } ( \\mathrm { C } _ { 5 } \\mathrm { H } _ { 5 } ) _ { 2 }$"
-        },
-        {
-          "type": "paragraph",
-          "text": "$$"
-        },
-        {
-          "type": "paragraph",
-          "text": "\\mathrm{BeCl} _ {2} + 2 \\mathrm{NaC} _ {5} \\mathrm{H} _ {5} \\rightarrow \\mathrm{Be} (\\mathrm{C} _ {5} \\mathrm{H} _ {5}) _ {2} + 2 \\mathrm{NaCl}"
-        },
-        {
-          "type": "paragraph",
-          "text": "$$"
-        },
-        {
-          "type": "paragraph",
-          "text": "产物 $\\mathrm { Be } ( \\mathbf { C } _ { 5 } \\mathrm { H } _ { 5 } ) _ { 2 }$ 的偶极矩为2.24D,且铍原子满足八隅律.H和13CNMR的表征表明 $\\mathrm { Be } ( \\mathbf { C } _ { 5 } \\mathbf { H } _ { 5 } ) _ { 2 }$ 中所有氢或碳的化学环境基本一致."
-        }
-      ],
-      "partId": "part-002265"
+      "type": "paragraph",
+      "text": "1-2-2-1 Be 氧化态高的是 1-2-2-2 ${ \\tt B e - C s H } _ { 5 }$ 的键长更长的是 1-3为了研究Be-Be键的性质，研究人员继续进行了下列反应："
     },
     {
-      "type": "subpart",
-      "label": "1-1-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出 $\\mathrm { Be } ( \\mathrm { C } _ { 5 } \\mathrm { H } _ { 5 } ) _ { 2 }$ 的结构;"
-        }
-      ],
-      "partId": "part-002266"
+      "type": "paragraph",
+      "text": "B具有对称中心，Be的表观配位数为4。画出B的结构，并确定A中铍的氧化态。"
     },
     {
-      "type": "subpart",
-      "label": "1-1-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "解释 H 和 $^ { 13 } { \\mathrm{C} } { \\mathrm{N} MR }$ 图谱为何均只有一个信号峰."
-        }
-      ],
-      "partId": "part-002267"
-    },
-    {
-      "type": "subpart",
-      "label": "1-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "E $Be ( C _ { 5 } \\mathrm { H } _ { 5 } ) _ { 2 }$ 与 $\\mathbf { Mg } _ { 2 } \\mathbf { L } _ { 2 }$ (L代表与 $\\mathbf { Mg }$ 配位的一价负离子)反应产生含Be-Be键的$\\mathbf { B } { \\mathsf { e } } _ { 2 } ( \\mathbf { C } _ { 5 } \\mathbf { H } _ { 5 } ) _ { 2 }$"
-        },
-        {
-          "type": "paragraph",
-          "text": "$$"
-        },
-        {
-          "type": "paragraph",
-          "text": "\\mathrm{Mg} _ {2} \\mathrm{L} _ {2} + 2 \\mathrm{Be} (\\mathrm{C} _ {5} \\mathrm{H} _ {5}) _ {2} \\xrightarrow {\\text { PhCH } _ {3}} \\mathrm{Be} _ {2} (\\mathrm{C} _ {5} \\mathrm{H} _ {5}) _ {2}"
-        },
-        {
-          "type": "paragraph",
-          "text": "$$"
-        }
-      ],
-      "partId": "part-002268"
-    },
-    {
-      "type": "subpart",
-      "label": "1-2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "确定此反应中的氧化剂."
-        }
-      ],
-      "partId": "part-002269"
-    },
-    {
-      "type": "subpart",
-      "label": "1-2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "B $e _ { 2 } ( \\mathbf { C } _ { 5 } \\mathbf { H } _ { 5 } ) _ { 2 }$ 与 $\\mathrm { Be } ( \\mathbf { C } _ { 5 } \\mathbf { H } _ { 5 } ) _ { 2 }$ 两者结构之间存在一定的差别,为以下问题提供准确的答案:"
-        }
-      ],
-      "partId": "part-002270"
-    },
-    {
-      "type": "subpart",
-      "label": "1-2-2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Be 氧化态高的是"
-        }
-      ],
-      "partId": "part-002271"
-    },
-    {
-      "type": "subpart",
-      "label": "1-2-2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "${ \\mathrm{B} e - CsH } _ { 5 }$ 的键长更长的是"
-        }
-      ],
-      "partId": "part-002272"
-    },
-    {
-      "type": "subpart",
-      "label": "1-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "为了研究Be-Be键的性质,研究人员继续进行了下列反应:"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000250-figure-001.jpg",
-          "alt": "原卷第1题图1：为了研究Be-Be键的性质,研究人员继续进行了下列反应:",
-          "displayWidth": 70,
-          "assetId": "asset-005435"
-        },
-        {
-          "type": "paragraph",
-          "text": "B具有对称中心,Be的表观配位数为4.画出B的结构,并确定A中铍的氧化态."
-        }
-      ],
-      "partId": "part-002273"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000250-figure-001.jpg",
+      "alt": "problem-000250题目配图第1幅（已按原图查看）"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

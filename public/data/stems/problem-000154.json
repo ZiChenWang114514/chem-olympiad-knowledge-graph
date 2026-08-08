@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000154",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,98 +10,31 @@
   "source": {
     "sourceDocumentId": "source-000018",
     "sourceLabel": "2021-35-CChO-juesai-2.pdf",
-    "pages": [
-      4,
-      5
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "blocks": [
-    {
-      "type": "subpart",
-      "label": "4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "4 · 有机酸性与反应性"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000154-figure-001.jpg",
-          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-          "displayWidth": 80,
-          "caption": "图 1",
-          "assetId": "asset-004743"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000154-figure-002.jpg",
-          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-          "displayWidth": 80,
-          "caption": "图 2",
-          "assetId": "asset-004744"
-        }
-      ],
-      "partId": "part-000311"
-    },
-    {
-      "type": "subpart",
-      "label": "4-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出G-C配对所形成的结构。"
-        }
-      ],
-      "partId": "part-000312"
-    },
-    {
-      "type": "subpart",
-      "label": "4-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "在人类染色体的末端发现了一种由4个G形成的平面形结构,它与癌症的发生密切相关。该结构具有一个四重旋转轴,中心需要钾离子来维持稳定,画出该结构。解释钾离子能够稳定该结构的主要原因,以及钾离子比钠离子形成的结构更稳定的原因。"
-        }
-      ],
-      "partId": "part-000313"
-    },
-    {
-      "type": "subpart",
-      "label": "4-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "近期发现在弱酸性条件下,染色体末端转变为i-基元结构,两个C之间形成稳定的配对,画出该配对结构。"
-        }
-      ],
-      "partId": "part-000314"
-    },
-    {
-      "type": "subpart",
-      "label": "4-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "为了测定DNA的导电性能,科学家将DNA的两端分别连接上电子给体和电子受体,两者(A和B)的结构如下。判断何者是电子给体,何者是电子受体,说明原因。"
-        }
-      ],
-      "partId": "part-000315"
-    },
-    {
-      "type": "subpart",
-      "label": "4-5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "测定过程中可利用光将受体(Acceptor)的电子转变至激发态(Acceptor\\*),给体(Donor)的电子将会沿着DNA 传递至受体(Acceptor\\*),以填充受体中空缺出来的轨道。给体由于电子的缺失转变为正离子 Donor+。电子传递过程如下:"
-        }
-      ],
-      "partId": "part-000316"
-    }
-  ],
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
   "renderingHints": {
     "mhchem": true
-  }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "4 · 有机酸性与反应性"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000154-figure-001.jpg",
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 1"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000154-figure-002.jpg",
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 2"
+    }
+  ],
+  "parts": []
 }

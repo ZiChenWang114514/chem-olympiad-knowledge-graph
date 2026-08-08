@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000071",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,65 +8,71 @@
   "examYear": 2019,
   "examStage": "preliminary",
   "source": {
+    "sourceDocumentId": "source-000053",
     "sourceLabel": "2019-33-CChO-chusai.pdf",
-    "pages": [
-      1
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000053"
+    "transcribedAt": "2026-08-08"
   },
-  "blocks": [
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [],
+  "parts": [
     {
-      "type": "paragraph",
-      "text": "第5题 将某镧系元素的无水氯化物和异丙基醇钠在异丙醇中回流,得淡蓝色溶液.该溶液经蒸发浓缩,真空干燥,所得固体在甲苯中低温重结晶,析出淡蓝色针状晶体A,A为稀土离子的配合物,加热至$300 ~ ^ { \\circ } \\mathrm { C }$ 也不分解.进一步分析表征结果如下:"
-    },
-    {
-      "type": "paragraph",
-      "text": "(1) 溶液电导测定显示,A为1:1电离类型,只有一种外界离子.称取6.354g晶体A,溶解后加入足量硝酸银溶液,得到 0.4778g 乳白色沉淀 $\\mathbf { B } _ { \\circ }$"
-    },
-    {
-      "type": "paragraph",
-      "text": "(2) A 的元素分析结果为:C32.02%;H6.17%;O14.35%(均为质量分数)."
-    },
-    {
-      "type": "paragraph",
-      "text": "(3) 单晶X射线衍射分析显示,A的结构中:氯仅有一种环境;稀土离子所处环境完全等同,它与配体结合形成多聚团簇,每个离子周围有5个氧原子;氧原子均参与配位且有三种类型(端基,边桥基和面桥基)."
-    },
-    {
-      "type": "subpart",
-      "label": "5-1",
+      "id": "part-000071-01",
+      "label": "(1)",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算A的相对分子质量."
+          "text": "溶液电导测定显示,A 为 1:1 电离类型,只有一种外界离子。称取 6.354 g 晶体 A,溶解后加入足量硝酸银溶液,得到 0.4778 g 乳白色沉淀 $\\mathrm{B}$。"
         }
-      ],
-      "partId": "part-001982"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000071-02",
+      "label": "(2)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A 的元素分析结果为:C 32.02%;H 6.17%;O 14.35%(均为质量分数)。"
+        }
+      ]
+    },
+    {
+      "id": "part-000071-03",
+      "label": "(3)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "单晶 X 射线衍射分析显示,A 的结构中:氯仅有一种环境;稀土离子所处环境完全等同,它与配体结合形成多聚团簇,每个离子周围有 5 个氧原子;氧原子均参与配位且有三种类型(端基、边桥基和金桥基)。"
+        },
+        {
+          "type": "paragraph",
+          "text": "5-1 计算 A 的相对分子质量。"
+        }
+      ]
+    },
+    {
+      "id": "part-000071-04",
       "label": "5-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "通过计算,推出A的化学式."
+          "text": "通过计算,推出 A 的化学式。"
         }
-      ],
-      "partId": "part-001983"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000071-05",
       "label": "5-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出配合物结构中端基氧,边桥基氧合面桥基氧的数目."
+          "text": "写出配合物结构中端基氧、边桥基氧和金桥基氧的数目。"
         }
-      ],
-      "partId": "part-001984"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

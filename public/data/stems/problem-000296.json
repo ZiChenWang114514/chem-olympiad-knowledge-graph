@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000296",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,57 +8,47 @@
   "examYear": 2006,
   "examStage": "final",
   "source": {
+    "sourceDocumentId": "source-000001",
     "sourceLabel": "2006-20-CChO-juesai.pdf",
-    "pages": [
-      1
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000001"
+    "transcribedAt": "2026-08-08"
   },
-  "blocks": [
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [],
+  "parts": [
     {
-      "type": "paragraph",
-      "text": "第5题 用氨水与硝酸反应得硝酸铵水溶液,经蒸发,结晶得硝酸铵晶体.硝酸铵有多种晶型,其中晶型I,II和III的密度分别为1.73,1.66和 $1.70 \\mathrm { gcm ^ { - 3 } } _ { \\mathrm { { } } }$ .在标准压力,室温下,加热固体硝酸铵到305K,晶型I转变为晶型II,晶变热为1.68kJ $\\mathrm { mol ^ { - } }$ 1;加热到357K时,晶型II转变为晶型III,晶变热为"
-    },
-    {
-      "type": "paragraph",
-      "text": "kJmol−1.单组分体系两相平衡的温度和压力满足克拉⻉⻰方程(可向监考员索要克拉⻉⻰方程,但要在本题得分中扣除 ."
-    },
-    {
-      "type": "subpart",
+      "id": "part-000296-01",
       "label": "5-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "若两种晶型平衡共存的温度和压力呈线性关系,计算三种晶型同时平衡共存的温度和压力."
+          "text": "若两种晶型平衡共存的温度 $T$ 和压力 $p$ 呈线性关系,计算三种晶型同时平衡共存的温度和压力。"
         }
-      ],
-      "partId": "part-002365"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000296-02",
       "label": "5-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "求在三相点由晶型I直接转化为晶型III过程的摩尔焓变和摩尔熵变."
+          "text": "求在三相点由晶型 I 直接转化为晶型 III 过程的摩尔焓变和摩尔熵变。"
         }
-      ],
-      "partId": "part-002366"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000296-03",
       "label": "5-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "根据计算,在 $_ { . } { P - } T$ 坐标图 $( P \\mathbb { H } P ^ { \\ominus }$ 表示,用K表示)上粗略绘出硝酸铵体系的相图,并标明各相区的相态."
+          "text": "根据计算,在 $p$-$T$ 坐标图($p$ 以 $p^{\\ominus}$ 表示,$T$ 用 K 表示)上粗略绘出硝酸铵体系的相图,并标明各相区的相态。"
         }
-      ],
-      "partId": "part-002367"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

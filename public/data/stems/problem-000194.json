@@ -1,246 +1,64 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000194",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "有机分子构象基本概念",
-  "number": "Q7",
+  "number": "7",
   "examYear": 2022,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000022",
     "sourceLabel": "2022-36-CChO-juesai-2.pdf",
-    "pages": [
-      4,
-      5
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "一氧化氮是众所周知的明星分子,不仅在生命体中扮演重要⻆色,在小分子的活化中也起着非常重要的作用。相关过程多涉及NO与金属的配位作用。作为配体,随结合的中心原子得失电子的能力不同,NO可采用阳离子(NO+),中性分子(NO)和阴离子(NO−)的配位模式。"
-    },
-    {
-      "type": "subpart",
-      "label": "7-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "在金属和NO形成的配合物(M-NO)中,有时候很难区分电子在中心金属M和NO配体上的分配状况,基于此,通常采用Feltham-Enemark记号来综合表示。该表示方法为: \\{ \\mathrm { M } ( \\mathrm { N O } ) _ { x } \\} ^ { y } ,其中方向为NO配体的数目,方向为中心金属M的d电子数和所有NO配体的反键轨道π\\*中的电子数之和,其他配体均不出现在记号中,也无需标出配合物的电荷。下面给出了两个M-NO配合物(a和b)及其对应的Feltham-Enemark(F-E)记号。"
-        }
-      ],
-      "partId": "part-001207"
-    },
-    {
-      "type": "table",
-      "headers": [
-        "配合物",
-        "(a)",
-        "(b)",
-        "(c)",
-        "(d)"
-      ],
-      "rows": [
-        [
-          "F-E记号",
-          "$\\{MnNO\\}^6$",
-          "$\\{Fe(NO)_2\\}^9$",
-          "需回答",
-          "需回答"
-        ]
-      ]
-    },
-    {
-      "type": "subpart",
-      "label": "7-1-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出NO的分子轨道表达式(只考虑价层电子)。写出NO+,NO和NO−的键级。"
-        }
-      ],
-      "partId": "part-001208"
-    },
-    {
-      "type": "subpart",
-      "label": "7-1-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出(c)和(d)中配合物的 Feltham-Enemark 记号形式。"
-        }
-      ],
-      "partId": "part-001209"
-    },
-    {
-      "type": "subpart",
-      "label": "7-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "M-NO类型的配合物可以发生氧化还原反应。2019年,研究者用一种三脚氮杂卡宾配体(用TIMENMes表示)和 \\mathrm { F e ^ { 2 + } } 形成配合物A(⻅下图),A在乙腈 \\mathrm { ( C H _ { 3 } C N ) } 溶液中与 \\mathrm { N O B F _ { 4 } } 反应,得到一种含有NO的六配位的配合物离子B,B中配体也包括乙腈分子。在B的乙腈溶液中,加入足量Zn粉,搅拌过夜,得到配合物C,C中不含溶剂分子。磁性测量表明,B显抗磁性,C的磁矩为3.84 \\mu _ { \\mathrm { B o } }"
-        }
-      ],
-      "partId": "part-001210"
+      "text": "7 · 有机分子构象基本概念"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000194-figure-001.jpg",
-      "assetId": "asset-005077",
-      "alt": "有机分子构象基本概念：第1幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "subpart",
-      "label": "7-2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出B的化学式。"
-        }
-      ],
-      "partId": "part-001211"
-    },
-    {
-      "type": "subpart",
-      "label": "7-2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出B中金属离子在配位场(假设为正多面体)作用下的d轨道电子排布。"
-        }
-      ],
-      "partId": "part-001212"
-    },
-    {
-      "type": "subpart",
-      "label": "7-2-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出 C 中阳离子的化学式及相应的 Feltham-Enemark 记号。"
-        }
-      ],
-      "partId": "part-001213"
-    },
-    {
-      "type": "subpart",
-      "label": "7-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "最近,研究者报道了一个非血红素铁氧配合物P,P与NO反应得到配合物Q,Q在无水无氧条件下稳定,其中, \\mathrm { F e { - } N { - } O } 的键⻆为144.5°,且N-O键的键能比预期的小。"
-        }
-      ],
-      "partId": "part-001214"
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 1"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000194-figure-002.jpg",
-      "assetId": "asset-005078",
-      "alt": "有机分子构象基本概念：第2幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "subpart",
-      "label": "7-3-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "实验中所用干燥NO气体是在固体 \\mathrm { N a N O _ { 2 } } 和 \\mathrm { F e S O _ { 4 } } 混合物中加入浓硫酸制备的。写出反应方程式。"
-        }
-      ],
-      "partId": "part-001215"
-    },
-    {
-      "type": "subpart",
-      "label": "7-3-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "分别写出配合物P和Q中铁的氧化数,指出Q中与铁离子配位的NO采用的是哪种形式配位。"
-        }
-      ],
-      "partId": "part-001216"
-    },
-    {
-      "type": "paragraph",
-      "text": "7-3-3Q在干燥的THF溶液中可存在一定时间。但若THF中含水,Q与之接触则立即释放出 \\mathrm { N O } _ { \\circ } 写出反应方程式---式中反应物不必写Q,只需给出Q中与 \\mathrm { N } _ { 2 } \\mathrm { O } 放出对应的物种。"
-    },
-    {
-      "type": "subpart",
-      "label": "7-3-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "配合物 P 与 \\mathrm { O _ { 2 } } 于 - 80 ~ ^ { \\circ } \\mathrm { C } 反应得双核配合物R,将R的溶液加热至 23 ~ ^ { \\circ } \\mathrm { C } 得O原子桥联的双核铁配合物S。若在 ^ { - 196 } \\ ^ { \\circ } \\mathrm { C } 下将R的冷冻溶液光照,得到一单核铁配合物T,T能夺取三叔丁基苯酚上的羟基氢。写出配合物R,S和T的结构简式并给出标明中心离子的氧化态。(含N和含O螯合配体分别用 \\mathrm { L _ { 1 } } 和 \\mathrm { L } _ { 2 } 表示)"
-        }
-      ],
-      "partId": "part-001217"
-    },
-    {
-      "type": "paragraph",
-      "text": "有机题目中可能用到的缩写:AIBN:偶氮二异丁腈;Ar:芳基;;Bu:正丁基;<Bu:叔丁基;cod:环辛二"
-    },
-    {
-      "type": "paragraph",
-      "text": "烯;DCM:二氯甲烷;dr:非对映异构体比例;Et:乙基;Ph:苯基;Ms:甲磺酰基;Me:甲基。"
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 2"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000194-figure-003.jpg",
-      "assetId": "asset-005079",
-      "alt": "有机分子构象基本概念：第3幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 3"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000194-figure-004.jpg",
-      "assetId": "asset-005080",
-      "alt": "有机分子构象基本概念：第4幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 4"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000194-figure-005.jpg",
-      "assetId": "asset-005081",
-      "alt": "有机分子构象基本概念：第5幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 5"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000194-figure-006.jpg",
-      "assetId": "asset-005082",
-      "alt": "有机分子构象基本概念：第6幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "subpart",
-      "label": "7-3-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001218"
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 6"
     }
   ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  "parts": []
 }

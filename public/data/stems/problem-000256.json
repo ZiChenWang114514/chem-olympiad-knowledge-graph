@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000256",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,89 +8,27 @@
   "examYear": 2024,
   "examStage": "final",
   "source": {
+    "sourceDocumentId": "source-000032",
     "sourceLabel": "2024年全国中学生化学竞赛决赛试题(第二场).pdf",
-    "pages": [
-      4,
-      9,
-      12
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000032"
+    "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "## 第 7题 自旋化学"
-    },
-    {
-      "type": "paragraph",
-      "text": "在氮气保护下,将含 0.1mmol $\\mathrm { Co } _ { 4 } ( \\mathrm { O } _ { 2 } \\mathrm { C } _ { 6 } \\mathrm { H } _ { 2 } ( \\mathrm { Bu } ) _ { 2 } ) _ { 8 }$ (其中$[ \\mathrm { O } _ { 2 } \\mathrm { C } _ { 6 } \\mathrm { H } _ { 2 } ( \\mathrm { Bu } ) _ { 2 } ] ^ { - }$ 为 $_ { 3 , 5 - } =$ 叔丁基半醌阴离子自由基,简称DTBSQ,结构如右图)的深蓝绿色甲苯溶液与含0.4mmol $2 , 2 ^ { \\prime } -$ 联吡啶(bpy)的甲苯溶液混合后,溶液迅速变为蓝黑色,蒸发结晶得到化合物1与甲苯的加合物晶体.1的化学式为"
+      "text": "7. 用铅笔"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000256-figure-001.jpg",
-      "alt": "原卷第7题图1：在氮气保护下,将含 0.1mmol $\\mathrm { Co } _ { 4 } ( \\mathrm { O } _ { 2 } \\mat",
-      "displayWidth": 70,
-      "assetId": "asset-005440"
-    },
-    {
-      "type": "paragraph",
-      "text": "$\\mathrm { Co ( O _ { 2 } C _ { 6 } H _ { 2 } ( ^ { Bu } ) _ { 2 } ) _ { 2 } ( bpy ) }$ .实验结果表明,晶体中Co的配位环境为 $O _ { 4 } N _ { 2 } ,$ 磁矩为$1.92 \\mu _ { \\mathsf { B } } ( \\mu _ { \\mathsf { B } }$ 为玻尔磁子).在甲苯溶液中,化合物1的磁矩 $\\mu ( \\mathbf { 1 } )$ 随温度(D)变化如下表所示,进一步升高温度 $\\mathbb { A } ( 1 )$ 趋近于 $4.33 \\mu _ { \\mathrm { B } }$ ,说明1在不同环境下可分别呈现高和低自旋两种状态,分别标记为 $\\mathbf { 1 } _ { \\mathrm { hs } }$ 和 $\\mathbf { 1 } _ { 1 \\mathsf { s } }$ ,实验测量得到的磁矩为两种自旋态的平均磁矩;电子自旋共振谱(EPR)表征证明 $\\textbf { 1 } _ { \\mathrm { ls } }$ 的信号源于配体."
-    },
-    {
-      "type": "paragraph",
-      "text": "<table><tr><td>T/K</td><td>230</td><td>250</td><td>290</td><td>320</td><td>350</td></tr><tr><td> $\\mu(1)/\\mu_B$ </td><td>2.07</td><td>2.41</td><td>3.61</td><td>4.09</td><td>4.26</td></tr></table>"
-    },
-    {
-      "type": "subpart",
-      "label": "7-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "估算 $\\mathbf { 1 } _ { \\mathrm { h } s }$ 和 $\\mathbf { 1 } _ { \\mathsf { L } }$ 的自旋量子数 $\\pmb { S } ;$"
-        }
-      ],
-      "partId": "part-002293"
-    },
-    {
-      "type": "subpart",
-      "label": "7-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出 $\\mathbf { 1 } _ { \\mathrm { h } s }$ 和 $\\mathbf { 1 } _ { 1s }$ 的结构,并标明Co的氧化态,八面体场近似下3d轨道电子占据情况,以及配体上未成对电子的自旋取向(bpy可以简画为 $v ^ { \\sim } N )$ ."
-        }
-      ],
-      "partId": "part-002294"
-    },
-    {
-      "type": "subpart",
-      "label": "7-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "说明由 $\\mathbf { 1 } _ { \\mathsf { Is } }$ 到 $\\mathbf { 1 } _ { \\mathrm { hs } }$ 变化过程中 ${ \\mathsf { Co } } { \\mathsf { - O } }$ ,Co-N配位键的键长变化情况,并简述判断理由."
-        }
-      ],
-      "partId": "part-002295"
-    },
-    {
-      "type": "subpart",
-      "label": "7-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "甲苯溶液中 ${ \\bf1 } _ { \\mathrm { ls } } { \\bf1 } _ { \\mathrm { hs } }$ 室温下转化的焓变ΔH值0和熵变 $\\Delta s$ 值0(填>,$< ,$ 或=)."
-        },
-        {
-          "type": "paragraph",
-          "text": "${ \\bf7 - 51 } _ { 1s }$ 和1bs浓度相等时的温度定义为自旋转变温度,计算自旋转变温度. $\\mathbf { 1 } _ { \\mathrm { hs } }$"
-        }
-      ],
-      "partId": "part-002296"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     }
   ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  "parts": []
 }

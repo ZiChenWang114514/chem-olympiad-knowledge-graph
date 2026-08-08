@@ -1,103 +1,40 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000176",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "环戊烯酮骨架构建",
-  "number": "Q8",
+  "number": "8",
   "examYear": 2022,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000059",
     "sourceLabel": "2022-36-CChO-chusai-2.pdf",
-    "pages": [
-      3,
-      4
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第8题(10分)环戊烷-2-烯-1-酮⻣架的构建"
-    },
-    {
-      "type": "paragraph",
-      "text": "以芳香醛和1-苯基乙-1,2-二醇为原料在酸性条件下可以构建环戊烷-2-烯-1-酮衍生物:"
-    },
-    {
-      "type": "paragraph",
-      "text": "\\mathrm{Ph} - \\underset {\\mathrm{OH}} {\\overset {\\mathrm{OH}} {\\mathrm{C}}} + \\mathrm{PhCHO} \\xrightarrow [ \\mathrm{PhCH} _ {3} , 110 ^ {\\circ} \\mathrm{C} ]{p - \\mathrm{TsOH(0.5eq)}} \\mathrm{Ph} - \\underset {\\mathrm{Ph}} {\\overset {\\mathrm{O}} {\\mathrm{C}}} - \\underset {\\mathrm{Ph}} {\\overset {\\mathrm{Ph}} {\\mathrm{C}}}"
-    },
-    {
-      "type": "paragraph",
-      "text": "该反应在对甲苯磺酸 ( p { \\mathrm { - } } \\mathrm { T s O H } ) 催化下,在甲苯中回流后得到产物(产率70%)。研究表明,苯基环氧乙烷代替1-苯基乙-1,2-二醇在相同条件下反应也转化为同一产物(产率75%)。依据这些信息,回答以下问题:"
-    },
-    {
-      "type": "subpart",
-      "label": "8-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "在酸性条件下,1-苯基乙-1,2-二醇和苯基环氧乙烷均转化为同一中间产物,此中间产物随后与苯甲醛反应转化为最终产物2,4,5-三苯基环戊烷-2-烯-1-酮。画出此中间产物的结构式。"
-        }
-      ],
-      "partId": "part-001180"
-    },
-    {
-      "type": "subpart",
-      "label": "8-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "此反应中苯基环氧乙烷与苯甲醛的比例至少应该为多少方向"
-        }
-      ],
-      "partId": "part-001181"
-    },
-    {
-      "type": "subpart",
-      "label": "8-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "以下转换经历了类似的过程,为以下转换提供关键中间体:"
-        }
-      ],
-      "partId": "part-001182"
+      "text": "8 · 环戊烯酮骨架构建"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000176-figure-001.jpg",
-      "assetId": "asset-005064",
-      "alt": "原卷示意图：(a)",
-      "label": "(a)",
-      "caption": "(a)",
-      "displayWidth": 100
-    },
-    {
-      "type": "subpart",
-      "label": "8-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "依据8-1和8-2的信息,请完成以下反应式(要求立体化学):"
-        }
-      ],
-      "partId": "part-001183"
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 1"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000176-figure-002.jpg",
-      "assetId": "asset-005065",
-      "alt": "原卷示意图：(b)",
-      "label": "(b)",
-      "caption": "(a)",
-      "displayWidth": 100
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 2"
     }
   ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  "parts": []
 }

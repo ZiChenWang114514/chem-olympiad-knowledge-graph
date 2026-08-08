@@ -1,27 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000272",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "晶体交错生长结构",
-  "number": "Q3",
+  "number": "3",
   "examYear": 2025,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000035",
-    "sourceLabel": "2025年第39届全国中学生化学竞赛决赛理论资料（原卷待补）",
-    "pages": [
-      4,
-      5,
-      6
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "sourceLabel": "2025年第39届全国中学生化学竞赛决赛理论试题资料.pdf",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "交错生长/互生结构(Intergrowth)是指两种或多种晶体结构在同一单晶中交替,嵌套式排列的现象。3.1 化合物A 可通过PbBr2和4-氨甲基四氢吡喃(AMTP)在HBr溶液中结晶获得。其晶体结构如图a所示(晶体中有机分子未显示),可看作层状PbBr2结构(I层)与层状钙钛矿结构 I层)交替排列形成的互生相。在I层中,PbBr6八面体以共棱方式连接,可视作PbBr2沿(001)晶面切割所得;在II层中,PbBr八面体以共顶点方式连接,可视作立方钙钛矿型(CH3NH3)PbBr3沿(001)晶面切割所得。在上述三维到层状结构的衍生过程涉及部分Pb-Br键断裂,Pb-Br多面体的尺寸和取向也会发生畸变。I和II层通过质子化的AMTP(AMTPH+)连接,层状结构与对应的三维晶体结构有很强的相似性,同一层内Pb的配位原子的种类和相应的数量都相同。"
+      "text": "交错生长/互生结构(Intergrowth)是指两种或多种晶体结构在同一单晶中交替、嵌套式排列的现象。3.1 化合物A 可通过PbBr2和4-氨甲基四氢吡喃(AMTP)在HBr溶液中结晶获得。其晶体结构如图a所示(晶体中有机分子未显示),可看作层状PbBr2结构(I层)与层状钙钛矿结构(II层)交替排列形成的互生相。在I层中,PbBr6八面体以共棱方式连接,可视作PbBr2沿(001)晶面切割所得;在II层中,PbBr6八面体以共顶点方式连接,可视作立方钙钛矿型(CH3NH3)PbBr3沿(001)晶面切割所得。在上述三维到层状结构的衍生过程涉及部分Pb-Br键断裂,Pb-Br多面体的尺寸和取向也会发生畸变。I和II层通过质子化的AMTP(AMTPH+)连接,层状结构与对应的三维晶体结构有很强的相似性,同一层内Pb的配位原子的种类和相应的数量都相同。"
     },
     {
       "type": "paragraph",
@@ -30,288 +30,43 @@
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000272-figure-001.jpg",
-      "assetId": "asset-005185",
-      "alt": "晶体交错生长结构：第1幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
+      "alt": "化合物A、PbBr2及沿(001)晶面切割所得关联结构的晶体模型示意图",
+      "caption": "图a 化合物A；图b PbBr2晶体结构；图c 沿(001)晶面切割所得关联结构"
     },
     {
       "type": "paragraph",
-      "text": "3.1.1写出 PbBr2晶体结构中 Pb和Br原子的配位数;若存在多种配位数,需给出不同配位数原子之间的比例。答案:Pb:均为7 (1分)Br:3和4 (2分),两个数值各1分各占 50%,或1:1 (1分),共4分"
+      "text": "3.1.1 写出 PbBr2 晶体结构中 Pb 和 Br 原子的配位数;若存在多种配位数,需给出不同配位数原子之间的比例。"
     },
     {
       "type": "paragraph",
-      "text": "3.1.2说明AMTPH与I层,II层的连接方式,需指明参与相互作用的原子或基团,和相互作用的类型。答案:NH3+端:与I层的Pb-Br多面体通过离子键作用 (1分)端:与II层的Pb通过配位键(或共价键)作用 (1分) 共2分"
+      "text": "3.1.2 说明 AMTPH+ 与 I 层、II 层的连接方式,需指明参与相互作用的原子或基团,和相互作用的类型。"
     },
     {
       "type": "paragraph",
-      "text": "3.1.3交错生长/互生的晶体结构之间需具有较高的晶格匹配关系。化合物A中,AMTPH的两个端基在层和 II 层内占据的平均面积之比(I 层/II层)α越接近于1,则晶格匹配程度越高,请利用PbBr2和(CH3NH3)PbBr3的晶胞参数估算α的值。提示:估算时可以忽略结构衍生过程中Pb-Br多面体的畸变。答案:I层结构中 Pb 分上下两层,每个 Pb 对应 PbBr2晶胞中(001)面的面积,故I层中每个Pb所占面积 S _ { 1 } \\mathrm { = } a b \\left( \\mathrm { P b B r } _ { 2 } \\right) \\mathrm { = } 4 . 754 \\times 8 . 237 \\mathrm { = } 39 . 16 \\mathrm { \\AA } ^ { 2 } (1分)III层 Pb 为近平面结构,每个 Pb 对应 ( \\mathrm { C H } _ { 3 } \\mathrm { N H } _ { 3 } ) \\mathrm { P b } \\mathrm { B r } _ { 3 } 晶胞中(001)面的面积故II层中每个Pb所占面积 S _ { 11 } = a ^ { 2 } ( \\mathrm { C H _ { 3 } N H _ { 3 } } ) \\mathrm { P b B r _ { 3 } } ) = 5 . 955 \\times 5 . 955 = 35 . 46 \\mathbb { A } ^ { 2 } \\qquad ( 1 \\mathrm { ~ / ~ } \\dot { \\mathcal { H } } ) 由成键特征,每个 Pb 均与 AMTPH+中的O成配位键;AMTPH+中的 \\mathrm { N H } _ { 3 } { } ^ { + } 填入4个八面体的中心,形成类似于立方钙钛矿的(CH3NH3)PbBr3晶胞。因此每个AMTPH+对应I层中的1个Pb,St和Sn很接近,说明II层中每个四边形中心都有-NH3,即每个 AMTPH+对应II层中的1个 Pb(仅计1侧)。 (1 分)因此 \\alpha = S _ { 1 } / S _ { 11 } = 39 . 16 / 35 . 46 = 1 . 1 (1分) 共4分"
+      "text": "3.1.3 交错生长/互生的晶体结构之间需具有较高的晶格匹配关系。化合物A中,AMTPH+ 的两个端基在 I 层和 II 层内占据的平均面积之比(I层/II层)α越接近于1,则晶格匹配程度越高,请利用 PbBr2 和 (CH3NH3)PbBr3 的晶胞参数估算 α 的值。提示:估算时可以忽略结构衍生过程中 Pb-Br 多面体的畸变。"
     },
     {
       "type": "paragraph",
-      "text": "3.1.4. 推断A的化学式,用各层组分及其最简整数比的形式表示。由3.1.3晶格匹配计算结果,I层中上下两个面的共2个Pb与II层中1个Pb匹配因此 PbBr2与 [ \\mathrm { P b B r } _ { 4 } ] ^ { 2 } 比例为2:1 (1分)由电荷平衡关系,组成为(PbBr2)2(AMTPH)2(PbBr4) (2分) 共3分"
+      "text": "3.1.4 推断 A 的化学式,用各层组分及其最简整数比的形式表示。"
     },
     {
       "type": "paragraph",
-      "text": "由成键关系,I层中每个Pb与1个AMTPH+中的O配位,因此PbBr2与 AMTPH+之比为1:1 (1 分)由电荷平衡关系,得组成为(PbBr2)2(AMTPH+)2(PbBr4) (2分)"
+      "text": "3.2 将氨基乙硫醇(HS-C2H4-NH2)的盐酸盐、Pb(OAc)2·3H2O 和 PbCl2 溶于 6 mol·L−1 的 NaCl 水溶液,结晶可获得化合物 B,其晶体结构具有与化合物 A(将其中所有的 Br 替换成 Cl)非常类似的交错生长结构:III 层的结构与化合物 A 中 II 层结构相同;但在 I 层中一半的 Cl 原子被 S 原子取代,请推断化合物 B 的化学式。"
     },
     {
       "type": "paragraph",
-      "text": "3.2 将氨基乙硫醇(HS-C2H4-NH2)的盐酸盐,Pb(OAc)2·3H2O和PbCl2溶于 6 \\mathrm { m o l } { \\cdot } \\mathrm { L } ^ { - 1 } 的NaCl水溶液,结晶可获得化合物B,其晶体结构具有与化合物A(将其中所有的Br替换成Cl)非常类似的交错生长结构:III层的结构与化合物A 中II层结构相同:但在I层中一半的 Cl原子被 S 原子取代,请推断化合物 B 的化学式。答案:参照化合物A的组成,I层中一半 Cl 原子被 S 原子取代,组成为(PbClS)2 (1分)II层组成为 \\mathrm { P b C l } _ { 4 } { } ^ { 2 - } 氨基乙硫醇的存在形式是-S(CH2)2NH\\_3 (1分)由电荷平衡关系,B的组成为 \\mathrm { | ( P b C l ) _ { 2 } ( S - C _ { 2 } H _ { 4 } N H _ { 3 } ) _ { 2 } ( P b C l _ { 4 } ) / ( S - C _ { 2 } H _ { 4 } N H _ { 3 } ) _ { 2 } P b _ { 3 } C l _ { 6 } } (1分)共3分"
+      "text": "3.3 在氮气保护下,于 150 °C 将 PbCl2 和氨基乙硫醇的 N,N-二甲基甲酰胺溶液混合结晶,可得到化合物 C,其中 Pb 均具有八面体配位结构,单晶结构中无法区分 Cl 和 S 的位置,表明 Cl 和 S 的分布位置是随机的。元素组成为 C:6.76%,H:1.99%,N:3.94%。如果降低反应温度会形成化合物 B。"
     },
     {
       "type": "paragraph",
-      "text": "3.3 在氮气保护下,于 150 ^ { \\circ } \\mathrm { C } 将 PbCl2和氨基乙硫醇的NN-二甲基甲酰胺溶液混合结晶,可得到化合物C,其中 Pb 均具有八面体配位结构,单晶结构中无法区分 Cl 和 S 的位置,表明 Cl 和 S 的占位是随机的。元素组成为C:6.76%,H:1.99%,N:3.94%。如果降低反应温度会形成化合物B。"
-    },
-    {
-      "type": "paragraph",
-      "text": "3.3.1 请推断化合物 C的化学式"
-    },
-    {
-      "type": "paragraph",
-      "text": "答案:"
-    },
-    {
-      "type": "paragraph",
-      "text": "因为氨基乙硫醇为中性分子,假设形成的分子式为 \\mathrm { P b } { \\bf C l } _ { 2 } ( { \\bf C } _ { 2 } \\mathrm { H } _ { 7 } \\mathrm { N S } ) _ { y } (1分)根据C元素的比例:  \\frac { 2 \\times 12 . 01 y } { 278 . 12 + 77 . 15 y } = 0 . 0676 \\  解得 y = 1 (1分)C组分为 \\mathsf { P b C l } _ { 2 } ( \\mathsf C _ { 2 } \\mathsf { H } _ { 7 } \\mathsf { N S } ) (1分) 共3分"
-    },
-    {
-      "type": "paragraph",
-      "text": "3.3.2 请推断C为以下哪一种常见的立方晶系结构:NaCl,CsCl, { \\mathrm { C a F } } _ { 2 } , 立方 { \\tt Z n s } ,立方钙钛矿, \\mathtt { R e O 3 } (即A位原子缺失的立方钙钛矿),并写出氨基乙硫醇的N和S原子在晶体中的位置。位置描述示例:X原子取代了 NaCl 晶体中 Na 的位置。答案:立方钙钛矿ABX3 (1 分)存在形式是 - \\mathbf { S } ( \\mathrm { C H } _ { 2 } ) _ { 2 } \\mathrm { N H } _ { 3 } ^ { + } S与Pb配位,位于X位 (1分){ \\mathrm { - N H } } _ { 3 } { } ^ { + } 位于A位 (1分),共3分"
-    },
-    {
-      "type": "paragraph",
-      "text": "3.3.3 请写出化合物 C中Pb可能的配位结构,若存在立体异构需明确示出,无需考虑对映异构。答案:PbS6,PbClSs,PbCl2S4(cis/trans) \\mathrm { P b } { \\mathsf { C l } } _ { 3 } \\mathrm { S } _ { 3 } ( \\mathrm { f a c / m e r } ) \\mathrm { P b } \\mathrm { C l } _ { 2 } \\mathrm { S } _ { 4 } ( c i s / t r a n s ) ,PbCl5S,PbCl6 (4分)"
-    },
-    {
-      "type": "paragraph",
-      "text": "3.3.4 拉曼光谱显示 C 中存在两种C-S 键伸缩振动模式,请解释其起源。答案:"
-    },
-    {
-      "type": "paragraph",
-      "text": "氨基乙硫醇存在邻位交叉和反式两种构象"
+      "text": "3.3.1 请推断化合物 C 的化学式。"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000272-figure-002.jpg",
-      "assetId": "asset-005186",
-      "alt": "晶体交错生长结构：第2幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "subpart",
-      "label": "3-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001519"
-    },
-    {
-      "type": "subpart",
-      "label": "3-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001520"
-    },
-    {
-      "type": "subpart",
-      "label": "3-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001521"
-    },
-    {
-      "type": "subpart",
-      "label": "3-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001522"
-    },
-    {
-      "type": "subpart",
-      "label": "3-5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001523"
-    },
-    {
-      "type": "subpart",
-      "label": "3-6",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001524"
-    },
-    {
-      "type": "subpart",
-      "label": "3-7",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001525"
-    },
-    {
-      "type": "subpart",
-      "label": "3-8",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001526"
-    },
-    {
-      "type": "subpart",
-      "label": "3-9",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001527"
-    },
-    {
-      "type": "subpart",
-      "label": "3-10",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001528"
-    },
-    {
-      "type": "subpart",
-      "label": "3-1-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001529"
-    },
-    {
-      "type": "subpart",
-      "label": "3-1-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001530"
-    },
-    {
-      "type": "subpart",
-      "label": "3-1-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001531"
-    },
-    {
-      "type": "subpart",
-      "label": "3-1-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001532"
-    },
-    {
-      "type": "subpart",
-      "label": "3-94",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001533"
-    },
-    {
-      "type": "subpart",
-      "label": "3-3-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001534"
-    },
-    {
-      "type": "subpart",
-      "label": "3-3-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001535"
-    },
-    {
-      "type": "subpart",
-      "label": "3-3-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001536"
-    },
-    {
-      "type": "subpart",
-      "label": "3-3-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001537"
+      "alt": "氨基乙硫醇gauche与anti构象的纽曼投影",
+      "caption": "氨基乙硫醇的gauche与anti构象"
     }
   ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  "parts": []
 }

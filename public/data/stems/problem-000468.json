@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000468",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,77 +8,71 @@
   "examYear": 2015,
   "examStage": "final",
   "source": {
+    "sourceDocumentId": "source-000010",
     "sourceLabel": "2015-29-CChO-juesai.pdf",
-    "pages": [
-      2,
-      4,
-      5
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000010"
+    "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第 9 题"
-    },
-    {
-      "type": "paragraph",
-      "text": "Wittig 于 1953 年报道了磷叶立德(Phosphoniumylide,又称 Wittig 试剂)与醛,酮反应,将羰基直接转化为碳碳双键,同时生成副产物三苯氧膦,称之为 Wittig 反应,是构建碳碳双键的重要方法.有关改进和拓展Wittig反应的研究得到了广泛的重视和发展,文献报道了如下所示的类似Wittig反应的研究:"
+      "text": "Wittig 于 1953 年报道了磷叶立德(Phosphoniumylide,又称 Wittig 试剂)与醛、酮反应,将羰基直接转化为碳碳双键,同时生成副产物三苯氧膦,称之为 Wittig 反应,是构建碳碳双键的重要方法。有关改进和拓展Wittig反应的研究得到了广泛的重视和发展,文献报道了如下所示的类似Wittig反应的研究:"
     },
     {
       "type": "figure",
-      "src": "data/stems/assets/problem-000468-figure-001.jpg",
-      "alt": "原卷第9题图1：Wittig 于 1953 年报道了磷叶立德(Phosphoniumylide,又称 Wittig 试剂)与醛,酮反应,将羰基直接转化为碳碳",
-      "displayWidth": 70,
-      "assetId": "asset-005560"
-    },
+      "caption": "类似Wittig反应示意图",
+      "alt": "缺图,请参考原卷",
+      "src": "data/stems/assets/problem-000468-figure-001.jpg"
+    }
+  ],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000468-01",
       "label": "9-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "给出反应物中C=N双键的构型(或)."
+          "text": "给出反应物中C=N双键的构型(E或Z)。"
         }
-      ],
-      "partId": "part-002580"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000468-02",
       "label": "9-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出反应物 $\\mathrm { Ph _ { 3 } P { = } CHCN }$ 的共振结构式."
+          "text": "画出反应物 $\\mathrm{Ph_3P=CHCN}$ 的共振结构式。"
         }
-      ],
-      "partId": "part-002581"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000468-03",
       "label": "9-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "指出下列哪一种1HNMR谱信息可用来测定反应物C=N双键构型.I. 化学位移 II. 磁各向异性 III. 屏蔽效应 IV. NOE 效应"
+          "text": "指出下列哪一种 $^1\\mathrm{H\\ NMR}$ 谱信息可用来测定反应物C=N双键构型。I. 化学位移 II. 磁各向异性 III. 屏蔽效应 IV. NOE 效应"
         }
-      ],
-      "partId": "part-002582"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000468-04",
       "label": "9-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "说明反应物结构中的- $- SO _ { 2 } \\mathrm { Me }$ 基团对该反应的作用."
+          "text": "说明反应物结构中的 $-\\mathrm{SO_2Me}$ 基团对该反应的作用。"
         }
-      ],
-      "partId": "part-002583"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000468-05",
       "label": "9-5",
       "blocks": [
         {
@@ -87,57 +81,45 @@
         },
         {
           "type": "figure",
-          "src": "data/stems/assets/problem-000468-figure-002.jpg",
-          "alt": "原卷第9题图2：研究上述反应机理时,发现如下反应:",
-          "displayWidth": 70,
-          "assetId": "asset-005561"
+          "caption": "反应机理研究示意图",
+          "alt": "缺图,请参考原卷",
+          "src": "data/stems/assets/problem-000468-figure-002.jpg"
         },
         {
           "type": "paragraph",
-          "text": "分别给出生成 ${ { \\bf { M } } _ { 2 } }$ 和 ${ { \\bf { M } } _ { 3 } }$ 的反应机理."
+          "text": "分别给出生成 $\\mathbf{M_2}$ 和 $\\mathbf{M_3}$ 的反应机理。"
         }
-      ],
-      "partId": "part-002584"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000468-06",
       "label": "9-6",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在9-5反应中,以四氢呋喃(THF)为溶剂,室温下反应后,再用福尔⻢林(formalin)淬灭反应,得到如下实验结果:"
+          "text": "在9-5反应中,以四氢呋喃(THF)为溶剂,室温下反应后,再用福尔马林(formalin)淬灭反应,得到如下实验结果:"
         },
         {
           "type": "figure",
-          "src": "data/stems/assets/problem-000468-figure-003.jpg",
-          "alt": "原卷第9题图3：在9-5反应中,以四氢呋喃(THF)为溶剂,室温下反应后,再用福尔⻢林(formalin)淬灭反应,得到如下实验结果:",
-          "displayWidth": 70,
-          "assetId": "asset-005562"
+          "caption": "实验结果示意图",
+          "alt": "缺图,请参考原卷",
+          "src": "data/stems/assets/problem-000468-figure-003.jpg"
         },
         {
           "type": "paragraph",
-          "text": "写出 $\\mathbf { P } _ { 1 \\mathrm { s } }$ ${ \\mathrm{P} } _ { 2 }$ 的结构简式."
-        },
-        {
-          "type": "paragraph",
-          "text": "反应中,用福尔⻢林(formalin)淬灭反应得到了产物 ${ \\mathrm{P} } _ { 1 }$ 和 $\\mathbf { P } _ { 2 }$ ,写出 $\\mathbf { P } _ { 2 }$ 形成过程中关键中间体的结构简式."
+          "text": "写出 $\\mathbf{P_1}$ 和 $\\mathbf{P_2}$ 的结构简式。"
         }
-      ],
-      "partId": "part-002585"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000468-07",
       "label": "9-7",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Wittig 反应一般是在非质子极性溶剂中进行,但在"
+          "text": "Wittig 反应一般是在非质子极性溶剂中进行,但在 9-6 反应中,用福尔马林(formalin)淬灭反应得到了产物 $\\mathbf{P_1}$ 和 $\\mathbf{P_2}$ ,写出 $\\mathbf{P_2}$ 形成过程中关键中间体的结构简式。"
         }
-      ],
-      "partId": "part-002586"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

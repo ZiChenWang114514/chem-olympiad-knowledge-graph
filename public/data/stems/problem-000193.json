@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000193",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,69 +8,21 @@
   "examYear": 2022,
   "examStage": "final",
   "source": {
+    "sourceDocumentId": "source-000022",
     "sourceLabel": "2022-36-CChO-juesai-2.pdf",
-    "pages": [
-      4,
-      7
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000022"
+    "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "## 第6题 金属M及其变化"
-    },
-    {
-      "type": "subpart",
-      "label": "6-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "金属M的硝酸盐与1,3,5-均苯三甲酸(简写为 $\\mathrm { H _ { 3 } BTC }$ ,分子量为210.14)按特定比例在乙二醇和水的混合体系中于 $180 ~ ^ { \\circ } \\mathrm { C }$ 下反应12小时,得到一种具有“孔笼—孔道”结构的金属有机⻣架材料Y,密度 $\\dot { } \\rho _ { } = 0.96 \\mathrm { g }$ $\\mathrm { cm } ^ { - 3 } .$ .单晶X射线衍射分析表明,Y属于立方晶系,其三维⻣架结构主体由M和 $\\mathrm { ( BTC ) ^ { 3 } }$ −组成,呈电中性,结构中带有水分子.元素分析表明,Y中含M,C,O和H四种元素,且M与C的原子比为1:6.热重-质谱联合分析结果显示,样品在 $100 { \\sim } 200 \\ ^ { \\circ } \\mathrm { C }$ 区间失重8.21%,对应于化学式中3个水分子的脱除,而主体⻣架结构依然保持;继续加热到 $350 ~ ^ { \\circ } \\mathrm { C }$ 失重63.7%,之后无明显失重,残渣为金属氧化物 $\\mathbf { M } \\mathrm { O } _ { \\circ }$ 通过计算确认M是何种金属,写出Y的化学式."
-        }
-      ],
-      "partId": "part-002160"
-    },
-    {
-      "type": "subpart",
-      "label": "6-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "将金属M加入到足量的浓硫酸中,微热片刻即有黑色物质A生成,之后A逐渐转变为灰白色物质B.该灰白色物质用过量氨水充分处理,过滤后,向滤液中通入 $\\mathrm { SO _ { 2 } }$ 至微酸性,生成白色沉淀C(反应1).元素分析结果,N含量8.65 %,S含量19.6%,H含量2.49 %.测试分析发现,C的结构中负离子呈三⻆锥形,磁性测量显示抗磁性.C与足量 $\\mathrm { H _ { 2 } SO _ { 4 } }$ 混合并加热,可生成超细粉末态M(反应2)."
-        }
-      ],
-      "partId": "part-002161"
-    },
-    {
-      "type": "subpart",
-      "label": "6-2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出 A,B,C 的化学式."
-        },
-        {
-          "type": "paragraph",
-          "text": "##"
-        }
-      ],
-      "partId": "part-002162"
-    },
-    {
-      "type": "subpart",
-      "label": "6-2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出反应1和反应2的方程式."
-        }
-      ],
-      "partId": "part-002163"
+      "text": "6 · 量子点合成与尺寸效应"
     }
   ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  "parts": []
 }

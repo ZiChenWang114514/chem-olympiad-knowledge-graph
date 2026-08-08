@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000374",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,79 +8,65 @@
   "examYear": 2011,
   "examStage": "preliminary",
   "source": {
+    "sourceDocumentId": "source-000042",
     "sourceLabel": "2011-25-CChO-chusai.pdf",
-    "pages": [
-      1
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000042"
+    "transcribedAt": "2026-08-08"
   },
-  "blocks": [
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [],
+  "parts": [
     {
-      "type": "paragraph",
-      "text": "## 第 2 题"
-    },
-    {
-      "type": "subpart",
+      "id": "part-000374-01",
       "label": "2-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出2,4-戊二酮的钠盐与 $\\mathrm { Mn ^ { 3 } }$ +形成的电中性配合物的结构式(配体用 $\\widehat { \\mathrm { ~ o ~ } \\mathrm { ~ o ~ } }$ 表示)."
+          "text": "画出2,4-戊二酮的钠盐与 $\\mathrm{Mn^{3+}}$ 形成的电中性配合物的结构式(配体用 $\\widehat{\\mathrm{O}\\mathrm{O}}$ 表示)。"
         }
-      ],
-      "partId": "part-002460"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000374-02",
       "label": "2-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "已知该配合物的磁矩为4.9玻尔磁子,配合物中Mn的未成对电子数为"
         }
-      ],
-      "partId": "part-002461"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000374-03",
       "label": "2-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "回答:该化合物有无手性为什么"
+          "text": "回答:该化合物有无心性?为什么?"
         }
-      ],
-      "partId": "part-002462"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000374-04",
       "label": "2-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出 $^ { 2 , 4 }$ 戊二酮负离子的结构简式(必须明确其共轭部分),写出其中离域π键的表示符号."
+          "text": "画出2,4-戊二酮负离子的结构简式(必须明确其共轭部分),写出其中离域π键的表示符号。"
         },
         {
           "type": "paragraph",
-          "text": "橙⻩色固体配合物A的名称是三氯化六氨合钴(III),是将二氯化钴,浓氨水,氯化铵和过氧化氢混合,以活性炭为催化剂合成的.机理研究发现,反应过程中首先得到 $\\mathrm { Co ( NH _ { 3 } ) _ { 6 } } ^ { 2 + }$ 离子,随后发生配体取代反应,得到以新配体为桥键的双核离子 $\\mathbf { B } ^ { 4 + }$ ,接着发生桥键断裂,同时2个中心原子分别将1个电子传递到均裂后的新配体上,得到2个 $\\mathrm { { C ^ { 2 + } } }$ 离子,最后 $\\mathrm { \\mathrm{C} ^ { 2 + } }$ 离子在活性炭表面上发生配体取代反应,并与氯离子结合形成固体配合物 $\\mathbf { A } _ { \\circ }$"
-        }
-      ],
-      "partId": "part-002463"
-    },
-    {
-      "type": "subpart",
-      "label": "2-5",
-      "blocks": [
+          "text": "橙黄色固体配合物A的名称是三氯化六氨合钴(III),是将二氯化钴、浓氨水、氯化铵和过氧化氢混合,以活性炭为催化剂合成的。机理研究发现,反应过程中首先得到 $\\mathrm{Co(NH_3)_6^{2+}}$ 离子,随后发生配体取代反应,得到以新配体为桥键的双核离子 $\\mathbf{B}^{4+}$,接着发生桥键断裂,同时2个中心原子分别将1个电子传递到均裂后的新配体上,得到2个 $\\mathrm{C^{2+}}$ 离子,最后 $\\mathrm{C^{2+}}$ 离子在活性炭表面上发生配体取代反应,并与氯离子结合形成固体配合物 $\\mathbf{A}$。"
+        },
         {
           "type": "paragraph",
-          "text": "写出合成配合物A的总反应方程式;画出 $\\mathbf { B } ^ { 4 + }$ 和 $\\mathrm { { C ^ { 2 + } } }$ 离子的结构式."
+          "text": "2-5 写出合成配合物A的总反应方程式;画出 $\\mathbf{B}^{4+}$ 和 $\\mathrm{C^{2+}}$ 离子的结构式。"
         }
-      ],
-      "partId": "part-002464"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

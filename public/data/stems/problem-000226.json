@@ -1,331 +1,40 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000226",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "量子点尺寸与光学性质",
-  "number": "Q6",
+  "number": "6",
   "examYear": 2023,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000026",
     "sourceLabel": "2023-37-CChO-juesai-2.pdf",
-    "pages": [
-      6,
-      7,
-      8
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "2023 年诺⻉尔化学奖授予巴文迪 (M. G. Bawendi),布鲁斯 (L.E.Brus) 和伊基莫夫 (A.I.Ekimov),以表彰他们在量子点(Quantum Dots, QDs)的发现和发展方面的贡献。量子点是一种粒径约2\\~10 nm的零维纳米晶体,常⻅的量子点体系有I-VII,II-VI,II-V,VI-VI族元素形成的半导体材料及其复合体系,例如CuCl,ME(M=Zn, Cd; E= S, Se, Te)等等。量子点具有组成可调变,亮度高和稳定性好的发光特性,在生命科学,光电子器件,显示技术等方面都具有广泛的应用。"
-    },
-    {
-      "type": "subpart",
-      "label": "6-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "量子点的合成与尺寸调控是决定其性能的关键因素。常用溶液合成法根据溶剂不同分为两大体系:水溶液和有机溶剂体系。巴文迪等人发展的基于金属有机前驱体的有机体系热注入法实现了量子点的精确调控,被认为量子点合成的里程碑事件。但水相体系自有优势,水相体系的量子点控制合成也一直在推进之中。"
-        }
-      ],
-      "partId": "part-001277"
-    },
-    {
-      "type": "subpart",
-      "label": "6-1-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "合成 CdSe 量子点最简便的方法是:在含有保护剂的 \\mathrm { C d C l _ { 2 } } 溶液中加入一定量的 NaHSe 溶液,得到蓝色分散体系。通过加入NaOH使溶液的pH保持在11左右。写出此反应的离子方程式。"
-        }
-      ],
-      "partId": "part-001278"
-    },
-    {
-      "type": "paragraph",
-      "text": "制备时需要注意的是,(a)反应的溶液需要预先除去氧气,反应过程也需要惰性气氛保护;(b)在确定原料的比例时, \\mathrm { C d ^ { 2 + } } 溶液稍稍过量:(c)水相体系中常用的一类保护剂是含有巯基的羧酸类有机物,例如巯基乙酸(HSCHCOOH)。分别简述以上注意事项的原因。"
-    },
-    {
-      "type": "subpart",
-      "label": "6-1-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "鉴于"
-        },
-        {
-          "type": "paragraph",
-          "text": "采用的合成法始终需要惰性气体保护,研究者进行了反应体系的改进。在含有保护剂的 \\mathrm { C d C l _ { 2 } } 溶液中,依次加入一定量的 \\mathrm { N a _ { 2 } S e O _ { 3 } } \\mathrm { N a B H _ { 4 } } 和 \\mathrm { N _ { 2 } H _ { 4 } } 溶液,通过调变反应物浓度和放置时间,可以获得不同尺寸的 { \\mathrm { C d S e } } _ { \\circ } 写出CdSe生成的离子方程式。这里 \\mathrm { N a B H _ { 4 } } 是还原剂,反应中有无色气泡产生,这些气泡也形成了保护气氛。"
-        }
-      ],
-      "partId": "part-001279"
+      "text": "6 · 量子点尺寸与光学性质"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000226-figure-001.jpg",
-      "assetId": "asset-005105",
-      "alt": "原卷示意图：(a)",
-      "label": "(a)",
-      "caption": "(a)",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "Wavelength (nm) 图 6.1 CdSe 的吸收光谱"
-    },
-    {
-      "type": "subpart",
-      "label": "6-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "在半导体量子点光学性质与粒子尺寸关联的物理机制研究中,测得不同尺寸CdSe量子点相应的吸收光谱,如图6.1所示。可以看出,随着量子点尺寸的变化,吸收峰的位置和形状均发生变化。"
-        }
-      ],
-      "partId": "part-001281"
-    },
-    {
-      "type": "subpart",
-      "label": "6-2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "随着量子点尺寸变大,吸收峰的位置发生:( )"
-        }
-      ],
-      "partId": "part-001282"
-    },
-    {
-      "type": "paragraph",
-      "text": "(a) 蓝移(向短波⻓方向移动) (b) 红移(向⻓波⻓方向移动)"
-    },
-    {
-      "type": "subpart",
-      "label": "6-2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "随着量子点尺寸变大,吸收峰的半峰宽:( ) (a) 变窄 (b) 变宽"
-        }
-      ],
-      "partId": "part-001283"
-    },
-    {
-      "type": "paragraph",
-      "text": "解释峰宽发生相应变化的原因。"
-    },
-    {
-      "type": "subpart",
-      "label": "6-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "量子点可作为荧光探针。此处,我们先了解一般发光体系在激发光作用下发射荧光所涉及的基本过程:"
-        }
-      ],
-      "partId": "part-001284"
-    },
-    {
-      "type": "paragraph",
-      "text": "\\mathrm{A} \\xrightarrow {I _ {0}} \\mathrm{A} ^ {*}\\tag{6-1}"
-    },
-    {
-      "type": "paragraph",
-      "text": "\\mathrm{A} ^ {*} \\xrightarrow {k _ {\\mathrm{f}}} \\mathrm{A} + h \\nu\\tag{6-2}"
-    },
-    {
-      "type": "paragraph",
-      "text": "\\mathrm{A} ^ {*} \\xrightarrow {k _ {d}} \\mathrm{A}\\tag{6-3}"
-    },
-    {
-      "type": "paragraph",
-      "text": "这里,A表示基态分子或者物种(如量子点), \\mathrm { A } ^ { \\ast } 为吸收光后产生的激发态分子, I _ { 0 } 为光强(吸光强度)。 k _ { \\mathrm { f } } 为激发态分子发射光子反应的速率常数, k _ { d } 为激发态分子通过无辐射跃迁(如振动耗能)方式返回基态的速率常数。此处对应的反应(6-1)的速率可写作 r _ { 1 } = I _ { 0 ^ { \\circ } } 激发态分子发射光子反应的速率 r _ { \\mathrm { f } } = k _ { \\mathrm { f } } [ \\mathrm { A } ^ { \\ast } ] o"
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 1"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000226-figure-002.jpg",
-      "assetId": "asset-005106",
-      "alt": "原卷示意图：(b)",
-      "label": "(b)",
-      "caption": "(b)",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "荧光量子产率 \\phi 定义为: \\phi = 体系发射的光子数/体系吸收的光子数 = F / I _ { 0 ^ { \\circ } } 。方向为荧光强度。 F = r _ { \\mathrm { f } } ,对于无淬灭剂体系, F 记为 F _ { 0 ^ { \\varsigma } } 。"
-    },
-    {
-      "type": "subpart",
-      "label": "6-3-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "推导上述体系的荧光量子产率 \\phi 的表达式(该 \\phi 记为 \\phi _ { 0 } )"
-        }
-      ],
-      "partId": "part-001285"
-    },
-    {
-      "type": "subpart",
-      "label": "6-3-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "撤去激发光光源后,体系发光也逐渐停止。从激发光截止时刻开始,监测体系荧光强度的变化,定义[ \\mathrm { A } ^ { \\star } ] / [ \\mathrm { A } ^ { \\star } ] _ { 0 } = 1 / e 所经历的时间为荧光寿命 \\tau , ,其中 [ \\mathrm { A } ^ { \\ast } ] 为激发态分子 \\mathrm { A } ^ { \\star } 的浓度, [ \\mathrm { A } ^ { \\ast } ] _ { 0 } 为激发光截止时刻激发态分子的浓度。推导体系的荧光寿命方向的表达式(该方向记为 \\tau _ { 0 } ) C"
-        }
-      ],
-      "partId": "part-001286"
-    },
-    {
-      "type": "subpart",
-      "label": "6-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "荧光淬灭,是指特定物质(淬灭剂)导致发光体系荧光强度减少的现象。荧光淬灭的原因很多,机理复杂,主要包括动态淬灭和静态淬灭两种。"
-        }
-      ],
-      "partId": "part-001287"
-    },
-    {
-      "type": "subpart",
-      "label": "6-4-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "动态淬灭:这是因激发态荧光分子与淬灭剂碰撞使其荧光淬灭的现象,在6-3中所示基本发光过程的基础上,还存在着如下一种消耗A\\*的过程:"
-        }
-      ],
-      "partId": "part-001288"
-    },
-    {
-      "type": "paragraph",
-      "text": "\\mathrm{A} ^ {*} + \\mathrm{Q} \\xrightarrow {k _ {q}} \\mathrm{A}"
-    },
-    {
-      "type": "paragraph",
-      "text": "写出动态淬灭体系的荧光量子产率 \\phi 的表达式。写出此体系荧光寿命方向的表达式。"
-    },
-    {
-      "type": "subpart",
-      "label": "6-4-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "静态淬灭则是因为基态荧光分子A与淬灭剂 \\mathrm { Q } 间通过相互作用形成复合物 \\mathrm { A Q } , ,而该复合物不发出荧光,从而导致荧光淬灭的现象。在6-3中基本发光过程的基础上,还存在一个竞争A的过程:"
-        }
-      ],
-      "partId": "part-001289"
-    },
-    {
-      "type": "paragraph",
-      "text": "\\mathrm{A} ^ {*} + \\mathrm{Q} \\stackrel {K _ {s}} {\\rightleftharpoons} \\mathrm{AQ}"
-    },
-    {
-      "type": "paragraph",
-      "text": "这一竞争导致可以吸收激发光光子的分子数 A 按比例降低。写出静态淬灭体系的荧光量子产率 \\phi 和荧光寿命方向的表达式。"
-    },
-    {
-      "type": "subpart",
-      "label": "6-5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "加入淬灭剂后,体系的荧光强度从 F _ { 0 } 变为 F , ,通常符合关系式: F _ { 0 } / F = 1 + K \\left[ \\mathrm { Q } \\right] ,方向为淬灭系数。"
-        }
-      ],
-      "partId": "part-001290"
-    },
-    {
-      "type": "paragraph",
-      "text": "(提示:淬灭剂浓度通常远大于量子点的浓度。)"
-    },
-    {
-      "type": "subpart",
-      "label": "6-5-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出动态淬灭中淬灭系数方向的表达式。"
-        }
-      ],
-      "partId": "part-001291"
-    },
-    {
-      "type": "subpart",
-      "label": "6-5-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "推导静态淬灭中淬灭系数方向的表达式。"
-        }
-      ],
-      "partId": "part-001292"
-    },
-    {
-      "type": "subpart",
-      "label": "6-6",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "量子点荧光淬灭方法已应用于生物分子的检测。在腺嘌呤脱氧核糖核苷酸(dAMP)对 CdSe 的量子点荧光发射影响的研究中,获得如下实验数据:"
-        }
-      ],
-      "partId": "part-001293"
-    },
-    {
-      "type": "table",
-      "headers": [
-        "dAMP 浓度 $c/(mmol\\ L^{-1})$",
-        "0.00",
-        "1.00",
-        "2.00",
-        "3.00",
-        "4.00",
-        "5.00",
-        "6.00"
-      ],
-      "rows": [
-        [
-          "$F_0/F$",
-          "1.00",
-          "1.17",
-          "1.34",
-          "1.51",
-          "1.69",
-          "1.88",
-          "2.07"
-        ]
-      ]
-    },
-    {
-      "type": "subpart",
-      "label": "6-6-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算腺嘌呤脱氧核糖核苷酸(dAMP)的荧光淬灭系数 K _ { \\mathfrak { c } } 。"
-        }
-      ],
-      "partId": "part-001294"
-    },
-    {
-      "type": "subpart",
-      "label": "6-6-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "典型CdSe量子点的荧光寿命 \\tau _ { 0 } ~ = 40 \\mathrm { n s } ,结合上小题中的数据,若设该过程为动态淬灭,计算淬灭反应速率常数 k _ { q } ;若为静态淬灭,给出 K _ { s \\circ } 。依据这些数据是否能判断实验体系中荧光淬灭是动态还是静态淬灭机制方向若能,请说明理由。若不能,请给出一个简单的实验设计用以判断荧光淬灭机制。"
-        }
-      ],
-      "partId": "part-001295"
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 2"
     }
   ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  "parts": []
 }

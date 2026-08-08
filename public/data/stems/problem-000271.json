@@ -1,22 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000271",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "钴配合物磁性与催化",
-  "number": "Q2",
+  "number": "2",
   "examYear": 2025,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000035",
-    "sourceLabel": "2025年第39届全国中学生化学竞赛决赛理论资料（原卷待补）",
-    "pages": [
-      2,
-      3,
-      4
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "sourceLabel": "2025年第39届全国中学生化学竞赛决赛理论试题资料.pdf",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
@@ -25,358 +25,68 @@
     },
     {
       "type": "paragraph",
-      "text": "Co配合物因其氧化数,配体和结构的不同而呈现出丰富的磁性和催化特性。"
+      "text": "Co配合物因其氧化数、配体和结构的不同而呈现出丰富的磁性和催化特性。"
     },
     {
       "type": "paragraph",
-      "text": "2.1直线形过渡金属配合物在分子磁体的研究中备受关注,其能量状态几平不受Jahn-Teller畸变的影响。2018年,科学家报道了一例二配位的单分子磁体Co(II)配合物 \\mathrm { C o } ( \\mathrm { C } ( \\mathrm { S i M e } _ { 2 } \\mathrm { O N a p h } ) _ { 3 } ) _ { 2 } , ,其中 HONaph 为\\mathfrak { X } ^ { - } 萘酚, \\scriptstyle \\mathbf { C - C o - C } 位于同一条直线上。理论计算表明,该配合物中Co的d轨道裂分为三组能级,从低到高电子的分布几率为42.8%,41.2%和16.0%。"
+      "text": "2.1 直线形过渡金属配合物在分子磁体的研究中备受关注,其能量状态几乎不受Jahn-Teller畸变的影响。2018年,科学家报道了一例二配位的单分子磁体Co(II)配合物 $\\mathrm{Co(C(SiMe_2ONaph)_3)_2}$,其中 HONaph 为 $\\beta$-萘酚, $\\mathrm{C-Co-C}$ 位于同一条直线上。理论计算表明,该配合物中Co的d轨道裂分为三组能级,从低到高电子的分布几率为42.8%、41.2%和16.0%。"
     },
     {
       "type": "paragraph",
-      "text": "2.1.1 假定 \\scriptstyle \\mathbf { C - C o - C } 键沿z 轴方向,依据晶体场理论画出 Co中心价层 d 轨道能级分裂图,标出轨道符号,然后将电子填充在轨道中,用 _ { a } \\{ , 和 a \\vert , 和表示电子不同的自旋状态。答案:"
+      "text": "2.1.1 假定 $\\mathrm{C-Co-C}$ 键沿z轴方向,依据晶体场理论画出Co中心价层d轨道能级分裂图,标出轨道符号,然后将电子填充在轨道中,用 $\\uparrow$ 和 $\\downarrow$ 表示电子不同的自旋状态。"
     },
     {
       "type": "paragraph",
-      "text": "+ \\quad d _ {2}"
+      "text": "$$\n+ \\quad d_{z^2}\n$$"
     },
     {
       "type": "paragraph",
-      "text": "\\frac {1}{1} + \\mathrm{d} _ {\\alpha}, \\mathrm{d} _ {\\gamma}"
+      "text": "$$\n\\frac{1}{1} + \\mathrm{d}_{xz}, \\mathrm{d}_{yz}\n$$"
     },
     {
       "type": "paragraph",
-      "text": "轨道能级分裂图:1分,错一处得0分轨道符号:1分,错一处得0分;电子填充:1分,错一处得0分(共3分)。"
-    },
-    {
-      "type": "paragraph",
-      "text": "\\frac {1}{1} + \\mathrm{d} _ {x ^ {2} - y ^ {2}} \\mathrm{d} _ {x y}"
+      "text": "$$\n\\frac{1}{1} + \\mathrm{d}_{x^2-y^2}, \\mathrm{d}_{xy}\n$$"
     },
     {
       "type": "paragraph",
       "text": "2.1.2 解释该配合物金属中心d电子采用上述电子排布的原因。"
     },
     {
-      "type": "paragraph",
-      "text": "答案: d _ { x ^ { 2 } - y ^ { 2 } } 和 d _ { x y } 轨道在同一平面,填充4个电子,排斥力太大。(2分)"
-    },
-    {
-      "type": "paragraph",
-      "text": "2.2含有端基或桥联氮配体的金属配合物可用于催化合成氨。2020年和2023年,科学家分别将含卤素配体的 { \\mathsf { C o } } 配合物与 { \\bf N a N } _ { 3 } 在THF 中反应,合成了两个N桥联的双核 Co配合物 A和B,其结构如下图所示。 \\pmb { \\mathsf { A } } 中 \\scriptstyle { \\mathsf { C o - N - C o } } 键角为 85 ^ { \\circ } ; B中 \\scriptstyle { \\mathsf { C o - N - C o } } 呈直线,胍基配体的两个N和桥联N呈近似的平面三角构型, { \\bf N } _ { 3 } 基团近似与平面垂直。"
-    },
-    {
       "type": "figure",
       "src": "data/stems/assets/problem-000271-figure-001.jpg",
-      "assetId": "asset-005179",
-      "alt": "原卷示意图：(3分)",
-      "label": "(3分)",
-      "caption": "(3分)",
-      "displayWidth": 100
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000271-figure-002.jpg",
-      "assetId": "asset-005180",
-      "alt": "钴配合物磁性与催化：第2幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "2.2.1 请确定 A 和 B 中 Co 的氧化数。答案:A:+3,B:+3 每个1分,有错就不得分,共2分"
-    },
-    {
-      "type": "paragraph",
-      "text": "2.2.2 研究表明 A可以用于合成氨,A 与氢气等当量反应生成配合物 C。画出 C的结构式,并标明其中 Co 的氧化数。"
-    },
-    {
-      "type": "paragraph",
-      "text": "答案:"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000271-figure-003.jpg",
-      "assetId": "asset-005181",
-      "alt": "钴配合物磁性与催化：第3幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "(3分)"
-    },
-    {
-      "type": "paragraph",
-      "text": "2.2.3 C 无法进一步与氢气反应生成 NH3,但在室温下可与 LutHCl (2.6-二甲基吡啶盐酸盐)在 THF 溶液中反应生成NH3和配合物D,D可以与NaN3等当量反应重新得到A。画出D的结构式,并标明其中Cc氧化数。"
-    },
-    {
-      "type": "paragraph",
-      "text": "答案:"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000271-figure-004.jpg",
-      "assetId": "asset-005182",
-      "alt": "(3分)",
-      "label": "(3分)",
-      "caption": "(3分)",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "(3分)"
-    },
-    {
-      "type": "paragraph",
-      "text": "2.2.4B无法直接与H2反应,其反应惰性与Co-N-Co的成键特性有关,实验和理论计算表明 \\scriptstyle { \\mathsf { C o - N - C o } } 中同时包含σ键和π键。若以Co-N-Co为x轴,Co-N3键方向为z轴,写出参与形成σ键和π键的Co的d轨道和N的轨道名称。"
-    },
-    {
-      "type": "paragraph",
-      "text": "答案:"
-    },
-    {
-      "type": "paragraph",
-      "text": "σ键:两个 Co 的 3 d _ { x ^ { 2 } - y ^ { 2 } } ( 1 分),N的2s和 2 p _ { x } ( 1  分) (共2分)或σ1:Co 的 3 d _ { x ^ { 2 } - y ^ { 2 } } , N的2s(1分),σ2:Co的 3 d _ { x ^ { 2 } - y ^ { 2 } } ,N的2px(1分)π键1:两个Co的 3 d _ { x y } ( 1 分),N的2py(1分) (共2分)π键2:两个Co的3dxz(1分),N的2p2(1分) (共2分) 共6分"
-    },
-    {
-      "type": "paragraph",
-      "text": "2.2.5研究发现溶剂可以激活B 中桥联N的活性,在吡啶存在下 B可以与氢气等当量反应得到配合物E,E中两个Co化学环境相同,均为四面体配位,其中只含有两种等价的配位N 原子。画出E的结构式,需标明其中Co的价态,并写出该反应中除E和溶剂外的其他小分子产物。答案:"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000271-figure-005.jpg",
-      "assetId": "asset-005183",
-      "alt": "(3分)",
-      "label": "(3分)",
-      "caption": "(3分)",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "NaN3,N2"
-    },
-    {
-      "type": "paragraph",
-      "text": "(3分)(1分) 共4分第3页,共25页"
-    },
-    {
-      "type": "paragraph",
-      "text": "2.2.6在研究溶剂激活桥联N的活性时,发现在吡啶存在下B还可以与其他氢给体反应。例如,B与0.5当量的1,4-环己二烯反应,得到配合物F,其中两个Co的配位原子均为N,分别呈四面体和近似的四方锥配位结构。F可以在紫外光照下与H2反应得到E,并释放1当量的N2和1当量的吡啶。画出F的结构,并写出由B转化为F的反应中除F和溶剂外的其他小分子产物。答案:"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000271-figure-006.jpg",
-      "assetId": "asset-005184",
-      "alt": "钴配合物磁性与催化：第6幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "苯,NaN3(3分)(1分)共4分;"
-    },
-    {
-      "type": "subpart",
-      "label": "2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001501"
-    },
-    {
-      "type": "subpart",
-      "label": "2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001502"
-    },
-    {
-      "type": "subpart",
-      "label": "2-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001503"
-    },
-    {
-      "type": "subpart",
-      "label": "2-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001504"
-    },
-    {
-      "type": "subpart",
-      "label": "2-5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001505"
-    },
-    {
-      "type": "subpart",
-      "label": "2-6",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001506"
-    },
-    {
-      "type": "subpart",
-      "label": "2-7",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001507"
-    },
-    {
-      "type": "subpart",
-      "label": "2-8",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001508"
-    },
-    {
-      "type": "subpart",
-      "label": "2-9",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001509"
-    },
-    {
-      "type": "subpart",
-      "label": "2-10",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001510"
-    },
-    {
-      "type": "subpart",
-      "label": "2-1-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001511"
-    },
-    {
-      "type": "subpart",
-      "label": "2-1-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001512"
-    },
-    {
-      "type": "subpart",
-      "label": "2-2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001513"
-    },
-    {
-      "type": "subpart",
-      "label": "2-2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001514"
-    },
-    {
-      "type": "subpart",
-      "label": "2-2-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001515"
-    },
-    {
-      "type": "subpart",
-      "label": "2-2-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001516"
-    },
-    {
-      "type": "subpart",
-      "label": "2-2-5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001517"
-    },
-    {
-      "type": "subpart",
-      "label": "2-2-6",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001518"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     }
   ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  "parts": []
 }

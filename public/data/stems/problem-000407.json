@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000407",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,109 +8,98 @@
   "examYear": 2012,
   "examStage": "final",
   "source": {
+    "sourceDocumentId": "source-000007",
     "sourceLabel": "2012-26-CChO-juesai.pdf",
-    "pages": [
-      1,
-      5
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000007"
+    "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
-    {
-      "type": "paragraph",
-      "text": "第6题 对艾滋病进行化疗,通常采用逆转录酚抑制HIV蛋白酶作用的机制,但易产生抗药性.近年来,科学家们设计合成了一类基于双四氢呋喃配体的HIV酶抑制剂,具有很好的抗HIV病毒活性.这类化合物合成的关键中间物(4),可通过如下两条路线合成."
-    },
     {
       "type": "paragraph",
       "text": "路线 1:"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000407-figure-001.jpg",
-      "alt": "原卷第6题图1：路线 1:",
-      "displayWidth": 70,
-      "assetId": "asset-005551"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000407-figure-002.jpg",
-      "alt": "原卷第6题图2（结构或数据示意）",
-      "displayWidth": 70,
-      "assetId": "asset-005552"
-    },
-    {
       "type": "paragraph",
-      "text": "其中 $\\mathbf { D } \\mathbf { E } + \\mathbf { F }$ 的反应为烯烃复分解反应(2005年诺⻉尔化学奖).以下是烯烃复分解反应的一个实例(Ru配合物(2)为烯烃复分解反应的催化剂):"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000407-figure-003.jpg",
-      "alt": "原卷第6题图3：其中 $\\mathbf { D } \\mathbf { E } + \\mathbf { F }$ 的反应为烯烃复分解反应(2005年诺⻉尔化",
-      "displayWidth": 70,
-      "assetId": "asset-005553"
+      "text": "其中 $\\mathrm{D} + \\mathrm{E} + \\mathrm{F}$ 的反应为烯烃复分解反应(2005年诺贝尔化学奖)。以下是烯烃复分解反应的一个实例(Ru配合物(2)为烯烃复分解反应的催化剂):"
     },
     {
       "type": "paragraph",
       "text": "路线 2:"
     },
     {
+      "type": "paragraph",
+      "text": "(LDA为二异丙基胺基锂,是一个位阻比较大的强碱; $p$-$\\mathrm{TsOH}$ 为对甲苯磺酸)"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000407-figure-001.jpg",
+      "alt": "晶体结构或分子模型示意图（原图）",
+      "caption": "路线1反应示意图"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000407-figure-002.jpg",
+      "alt": "晶体结构或分子模型示意图（原图）",
+      "caption": "路线1反应示意图(续)"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000407-figure-003.jpg",
+      "alt": "晶体结构或分子模型示意图（原图）",
+      "caption": "烯烃复分解反应实例"
+    },
+    {
       "type": "figure",
       "src": "data/stems/assets/problem-000407-figure-004.jpg",
-      "alt": "原卷第6题图4：路线 2:",
-      "displayWidth": 70,
-      "assetId": "asset-005554"
-    },
+      "alt": "晶体结构或分子模型示意图（原图）",
+      "caption": "路线2反应示意图"
+    }
+  ],
+  "parts": [
     {
-      "type": "paragraph",
-      "text": "(LDA为二异丙基胺基锂,是一个位阻比较大的强碱; $p { \\mathrm { - } } \\mathrm { TsOH }$ 为对甲苯磺酸)"
-    },
-    {
-      "type": "subpart",
+      "id": "part-000407-01",
       "label": "6-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出路线1中B,D,E,F,G的结构(不考虑反应过程中的立体化学)和反应条件A和 $\\mathbf { C } _ { \\circ }$"
+          "text": "写出路线1中B、D、E、F、G的结构(不考虑反应过程中的立体化学)和反应条件A和 $\\mathrm{C}$。"
         }
-      ],
-      "partId": "part-002513"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000407-02",
       "label": "6-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出路线2中H,J,M,N的结构(不考虑反应过程中的立体化学)和反应条件 I,K, $\\mathbf { L } _ { \\circ }$"
+          "text": "写出路线2中H、J、M、N的结构(不考虑反应过程中的立体化学)和反应条件 I、K、 $\\mathrm{L}$。"
         }
-      ],
-      "partId": "part-002514"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000407-03",
       "label": "6-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "化合物(4)的一种立体异构体(4-1),在温和条件下氧化得化合物 $\\mathbf { Q } ,$ ,化合物Q经 $\\mathrm { NaBH _ { 4 } }$ 还原得化合物(4-2)."
+          "text": "化合物(4)的一种立体异构体(4-1),在温和条件下氧化得化合物 $\\mathrm{Q}$,化合物Q经 $\\mathrm{NaBH_4}$ 还原得化合物(4-2)。"
+        },
+        {
+          "type": "paragraph",
+          "text": "画出化合物Q和(4-2)的立体构型,并解释为何得到该立体构型的产物。"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000407-figure-005.jpg",
-          "alt": "原卷第6题图5：化合物(4)的一种立体异构体(4-1),在温和条件下氧化得化合物 $\\mathbf { Q } ,$ ,化合物Q经 $\\mathrm { N",
-          "displayWidth": 70,
-          "assetId": "asset-005555"
-        },
-        {
-          "type": "paragraph",
-          "text": "画出化合物Q和(4-2)的立体构型,并解释为何得到该立体构型的产物."
+          "alt": "晶体结构或分子模型示意图（原图）",
+          "caption": "化合物(4)的立体异构体及其转化"
         }
-      ],
-      "partId": "part-002515"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000196",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,55 +10,31 @@
   "source": {
     "sourceDocumentId": "source-000022",
     "sourceLabel": "2022-36-CChO-juesai-2.pdf",
-    "pages": [
-      6
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第9题(12分) 烯烃和卤素的亲电加成反应是有机化学中的基础反应之一。"
+      "text": "第9题（12分） 烯烃和⻧素的亲电加成反应是有机化学中的基础反应之一。 9-1 画出如下反应的关键中间体，并解释形成此主要产物的原因。"
     },
     {
-      "type": "subpart",
-      "label": "9-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出如下反应的关键中间体,并解释形成此主要产物的原因。"
-        }
-      ],
-      "partId": "part-000375"
-    },
-    {
-      "type": "subpart",
-      "label": "9-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出如下反应的关键中间体,解释反应的区域选择性和立体选择性。(提示:PhI(OAc) 2 首先和I 2 反应、生成不稳定的中间体IOH)"
-        }
-      ],
-      "partId": "part-000376"
+      "type": "paragraph",
+      "text": "9-2 画出如下反应的关键中间体，解释反应的区域选择性和⽴体选择性。（提示：PhI(OAc) 2 ⾸先和I 2 反应、生成不稳定的中间体IOH）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000196-figure-001.jpg",
-      "alt": "非经典碳正离子结构相关结构或反应图,第1幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004764"
+      "alt": "problem-000196题目配图第1幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000196-figure-002.jpg",
-      "alt": "非经典碳正离子结构相关结构或反应图,第2幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004765"
+      "alt": "problem-000196题目配图第2幅（已按原图查看）"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

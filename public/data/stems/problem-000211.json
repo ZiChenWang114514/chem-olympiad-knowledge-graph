@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000211",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,349 +8,269 @@
   "examYear": 2023,
   "examStage": "final",
   "source": {
+    "sourceDocumentId": "source-000025",
     "sourceLabel": "2023-37-CChO-juesai-1.pdf",
-    "pages": [
-      2,
-      3
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000025"
+    "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第4题 ,12%)磷的结构化学"
+      "text": "$\\mathrm{Zn-I_2}$ 电池是一种水系二次电池,作为潜在的储能系统,近年来重新受到关注。经典的 $\\mathrm{Zn-I_2}$ 电池正极为单质 $\\mathrm{I_2}$,负极为金属 $\\mathrm{Zn}$,以 $\\mathrm{ZnSO_4}$ 溶液为电解质。研究发现,当负极区的电解质仍为 $\\mathrm{ZnSO_4}$,但正极区电解质变为 $\\mathrm{CuSO_4}$ 或 $\\mathrm{CuCl_2}$ 时,可调变电池正极的反应,对应的标准电极电势和放电容量均有显著变化,提高了该电池的储能密度。以 $\\mathrm{I_2}$ 为正极,几组代表性的充放电实验数据总结于表1中。一些氧化还原电对的标准电极电势和水合离子的标准Gibbs生成自由能变 $\\Delta_{\\mathrm{f}} G_{\\mathrm{m}}^{\\ominus}$ 见表2。"
     },
     {
-      "type": "subpart",
+      "type": "paragraph",
+      "text": "表 1. $\\mathrm{I_2}$ 电极在不同的正极区电解质中充放电实验结果"
+    },
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
+    },
+    {
+      "type": "paragraph",
+      "text": "表2. 可能用到的一些热力学数据"
+    },
+    {
+      "type": "callout",
+      "tone": "info",
+      "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000211-01",
       "label": "4-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "紫磷和纤维红磷是磷的两种晶态同素异形体.紫磷含84个原子,晶胞参数a=0.921nm,c="
-        },
-        {
-          "type": "paragraph",
-          "text": "nm,β=106.1°;由X射线衍射数据可求其晶面间距.请根据以上信息,计算纤维红磷正当晶胞中的磷原子数目."
+          "text": "写出实验1~4对应的正极区电极反应方程式。"
         }
-      ],
-      "partId": "part-002200"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000211-02",
       "label": "4-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "高压条件下制备的蓝磷具有菱方晶格,取体积为素晶格R三倍的三方H格子,晶胞参数$a \\ : = \\ : b \\ : = \\ : 0.3377$$\\mathrm { nm } , \\ c = 0.8806 \\ \\mathrm { nm } , \\ \\gamma = 120 ^ { \\circ }$.取晶胞顶点为对称中心,通过晶胞顶点有三重旋转轴,在(0,0,0.215)处有磷原子.蓝磷晶体中次近邻磷原子间距为( ).A. 0.3524nmB. 0.3377nmC. 0.2854nmD. 0.2127nm"
+          "text": "实验3放电生成一种含碘难溶电解质A,实验4充电生成一种含碘化合物 $\\mathrm{B}$。"
         }
-      ],
-      "partId": "part-002202"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000211-03",
+      "label": "4-2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算A的溶度积常数;"
+        }
+      ]
+    },
+    {
+      "id": "part-000211-04",
+      "label": "4-2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算B的标准Gibbs生成自由能变。"
+        }
+      ]
+    },
+    {
+      "id": "part-000211-05",
       "label": "4-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "磷可以形成种类丰富的磷团簇.组成磷团簇的基本结构单元有两种:单键相连的两个磷原子P2(含有4个未配对电子)和链状的三个磷原子P3(含有5个未配对电子).在基本结构单元基础上,应用以下三个规则可以形成多种磷团簇结构.下图中画出了未成对电子总数≤6和磷原子数≤8的所有情形,每个结构中顶点表示磷原子."
+          "text": "假设电解质中的离子浓度均恒为标态,计算下列两种 $\\mathrm{Zn-I_2}$ 电池的储能密度(基于正负极的总质量,结果以Wh/kg表示)。"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000211-figure-001.jpg",
-          "alt": "原卷第4题图1：磷可以形成种类丰富的磷团簇.组成磷团簇的基本结构单元有两种:单键相连的两个磷原子P2(含有4个未配对电子)和链状的三个磷原子P3(含有5个未",
-          "displayWidth": 70,
-          "assetId": "asset-005389"
-        },
-        {
-          "type": "paragraph",
-          "text": "规则1:团簇中的每个磷原子只能形成两个或三个共价单键;"
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 1"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000211-figure-002.jpg",
-          "alt": "原卷第4题图2：规则1:团簇中的每个磷原子只能形成两个或三个共价单键;",
-          "displayWidth": 70,
-          "assetId": "asset-005390"
-        },
-        {
-          "type": "paragraph",
-          "text": "规则2:增加0或1个磷原子形成新团簇时必须通过磷原子桥成环的方式,且满足:"
-        },
-        {
-          "type": "paragraph",
-          "text": "1 磷原子桥只保护零原子桥和一原子桥;"
-        },
-        {
-          "type": "paragraph",
-          "text": "2 形成新的原子桥时,不允许产生不含内键的四元环,例如:"
-        },
-        {
-          "type": "paragraph",
-          "text": "3 形成新的原子桥后,一定要存在两个磷原子数小于7的环,它们共用新形成的桥,且不共用其他任何原子.例如:"
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 2"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000211-figure-003.jpg",
-          "alt": "原卷第4题图3：3 形成新的原子桥后,一定要存在两个磷原子数小于7的环,它们共用新形成的桥,且不共用其他任何原子.例如:",
-          "displayWidth": 70,
-          "assetId": "asset-005391"
-        },
-        {
-          "type": "paragraph",
-          "text": "规则3:增加2或3个磷原子时只能通过$^ { } 2 ^ { } 3 ^ { \\prime \\prime }$键合,"
-        },
-        {
-          "type": "paragraph",
-          "text": "1 若$^ { } 2 ^ { } 3 ^ { \\prime \\prime }$中的$^ { \\dag } 2 ^ { \\dag }$为P2,则其中的“3”必须是P3或来自于四元环或五元环中相连的3个磷,例如:"
-        },
-        {
-          "type": "paragraph",
-          "text": "其中$^ { * } 2 ^ { * }$和$\" 3 \"$至少要有一个P2或P3,且满足:"
-        },
-        {
-          "type": "paragraph",
-          "text": "2 成环后的结构不能有末端磷原子,例如:"
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 3"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000211-figure-004.jpg",
-          "alt": "原卷第4题图4：2 成环后的结构不能有末端磷原子,例如:",
-          "displayWidth": 70,
-          "assetId": "asset-005392"
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 4"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000211-figure-005.jpg",
-          "alt": "原卷第4题图5（结构或数据示意）",
-          "displayWidth": 70,
-          "assetId": "asset-005393"
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 5"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000211-figure-006.jpg",
-          "alt": "原卷第4题图6（结构或数据示意）",
-          "displayWidth": 70,
-          "assetId": "asset-005394"
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 6"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000211-figure-007.jpg",
-          "alt": "原卷第4题图7（结构或数据示意）",
-          "displayWidth": 70,
-          "assetId": "asset-005395"
-        },
-        {
-          "type": "paragraph",
-          "text": "(注意这里“2”和“3”都是P3)"
-        },
-        {
-          "type": "paragraph",
-          "text": "请在下列结构中选出满足上述磷团簇结构规则,由10个磷原子组成且未成对电子总数≥4的磷团簇.将编号填入答题纸的相应位置.(选错扣分,扣完本小题的分数为止)"
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 7"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000211-figure-008.jpg",
-          "alt": "原卷第4题图8：请在下列结构中选出满足上述磷团簇结构规则,由10个磷原子组成且未成对电子总数≥4的磷团簇.将编号填入答题纸的相应位置.(选错扣分,扣完本小题",
-          "displayWidth": 70,
-          "assetId": "asset-005396"
-        },
-        {
-          "type": "paragraph",
-          "text": "A"
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 8"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000211-figure-009.jpg",
-          "alt": "原卷第4题图9：A",
-          "displayWidth": 70,
-          "assetId": "asset-005397"
-        },
-        {
-          "type": "paragraph",
-          "text": "B"
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 9"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000211-figure-010.jpg",
-          "alt": "原卷第4题图10：B",
-          "displayWidth": 70,
-          "assetId": "asset-005398"
-        },
-        {
-          "type": "paragraph",
-          "text": "C"
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 10"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000211-figure-011.jpg",
-          "alt": "原卷第4题图11：C",
-          "displayWidth": 70,
-          "assetId": "asset-005399"
-        },
-        {
-          "type": "paragraph",
-          "text": "D"
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 11"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000211-figure-012.jpg",
-          "alt": "原卷第4题图12：D",
-          "displayWidth": 70,
-          "assetId": "asset-005400"
-        },
-        {
-          "type": "paragraph",
-          "text": "E"
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 12"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000211-figure-013.jpg",
-          "alt": "原卷第4题图13：E",
-          "displayWidth": 70,
-          "assetId": "asset-005401"
-        },
-        {
-          "type": "paragraph",
-          "text": "F"
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 13"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000211-figure-014.jpg",
-          "alt": "原卷第4题图14：F",
-          "displayWidth": 70,
-          "assetId": "asset-005402"
-        },
-        {
-          "type": "paragraph",
-          "text": "G"
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 14"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000211-figure-015.jpg",
-          "alt": "原卷第4题图15：G",
-          "displayWidth": 70,
-          "assetId": "asset-005403"
-        },
-        {
-          "type": "paragraph",
-          "text": "H"
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 15"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000211-figure-016.jpg",
-          "alt": "原卷第4题图16：H",
-          "displayWidth": 70,
-          "assetId": "asset-005404"
-        },
-        {
-          "type": "paragraph",
-          "text": "I"
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 16"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000211-figure-017.jpg",
-          "alt": "原卷第4题图17：I",
-          "displayWidth": 70,
-          "assetId": "asset-005405"
-        },
-        {
-          "type": "paragraph",
-          "text": "J"
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 17"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000211-figure-018.jpg",
-          "alt": "原卷第4题图18：J",
-          "displayWidth": 70,
-          "assetId": "asset-005406"
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 18"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000211-figure-019.jpg",
-          "alt": "原卷第4题图19（结构或数据示意）",
-          "displayWidth": 70,
-          "assetId": "asset-005407"
-        },
-        {
-          "type": "paragraph",
-          "text": "K"
-        },
-        {
-          "type": "paragraph",
-          "text": "L"
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 19"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000211-figure-020.jpg",
-          "alt": "原卷第4题图20：L",
-          "displayWidth": 70,
-          "assetId": "asset-005408"
-        },
-        {
-          "type": "paragraph",
-          "text": "M"
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 20"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000211-figure-021.jpg",
-          "alt": "原卷第4题图21：M",
-          "displayWidth": 70,
-          "assetId": "asset-005409"
-        },
-        {
-          "type": "paragraph",
-          "text": "N"
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 21"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000211-figure-022.jpg",
-          "alt": "原卷第4题图22：N",
-          "displayWidth": 70,
-          "assetId": "asset-005410"
-        },
-        {
-          "type": "paragraph",
-          "text": "O"
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 22"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000211-figure-023.jpg",
-          "alt": "原卷第4题图23：O",
-          "displayWidth": 70,
-          "assetId": "asset-005411"
-        },
-        {
-          "type": "paragraph",
-          "text": "P"
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 23"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000211-figure-024.jpg",
-          "alt": "原卷第4题图24：P",
-          "displayWidth": 70,
-          "assetId": "asset-005412"
-        },
-        {
-          "type": "paragraph",
-          "text": "Q"
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 24"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000211-figure-025.jpg",
-          "alt": "原卷第4题图25：Q",
-          "displayWidth": 70,
-          "assetId": "asset-005413"
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "caption": "图 25"
+        }
+      ]
+    },
+    {
+      "id": "part-000211-06",
+      "label": "4-3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "正负极均以 $\\mathrm{ZnSO_4}$ 为电解质;"
+        }
+      ]
+    },
+    {
+      "id": "part-000211-07",
+      "label": "4-3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "负极以 $\\mathrm{ZnSO_4}$ 电解质,正极以 $\\mathrm{CuCl_2}$ 为电解质。"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "4-4 某 $\\mathrm{Zn-I_2}$ 电池可表示为:$(-)\\mathrm{Zn(s)|ZnSO_4(1.0\\,M)||CuCl_2(1.0\\,M)||I_2(s)}(+)$"
         },
         {
           "type": "paragraph",
-          "text": "R"
+          "text": "电池正极区和负极区电解质溶液量均为1.0 mL,Zn和 $\\mathrm{I_2}$ 的量均为 2.0 mmol,以200 mA 恒电流放电 482 s,计算电池的电动势(计算时 $\\mathrm{I_2}$、A和B均可以作为不溶物处理)。"
         }
-      ],
-      "partId": "part-002203"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

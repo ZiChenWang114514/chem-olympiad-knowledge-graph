@@ -1,24 +1,21 @@
-import { useEffect, useMemo, useState, type FormEvent, type KeyboardEvent, type ReactNode } from 'react'
+import { useEffect, useMemo, useRef, useState, type FormEvent, type KeyboardEvent, type ReactNode } from 'react'
 import MiniSearch from 'minisearch'
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom'
 import type { AppData } from '../lib/data'
-import { displayDisciplineForNode } from '../lib/displayTaxonomy'
 import { CommandPalette } from './CommandPalette'
 
 const nav = [
-  { to: '/', label: '图谱', icon: 'map' },
-  { to: '/exams', label: '真题', icon: 'archive' },
-  { to: '/statistics', label: '统计', icon: 'chart' },
-  { to: '/about', label: '方法', icon: 'book' },
-] as const
+  { to: '/', label: '总览' },
+  { to: '/graph', label: '知识图谱' },
+  { to: '/exams', label: '真题档案' },
+  { to: '/statistics', label: '统计研究' },
+  { to: '/about', label: '来源与方法' },
+]
 
 type SearchHit = { id: string; kind: string; title: string; subtitle?: string }
 
-function NavIcon({ name }: { name: typeof nav[number]['icon'] }) {
-  if (name === 'map') return <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="12" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M8 11l8-4M8 13l8 4"/></svg>
-  if (name === 'archive') return <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7h14v12H5zM4 4h16v3H4zM9 11h6"/></svg>
-  if (name === 'chart') return <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19V9M12 19V5M19 19v-7"/></svg>
-  return <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A3.5 3.5 0 017.5 2H12v17H7.5A3.5 3.5 0 004 22zM20 5.5A3.5 3.5 0 0016.5 2H12v17h4.5A3.5 3.5 0 0120 22z"/></svg>
+function isMac() {
+  return typeof navigator !== 'undefined' && /Mac|iPhone|iPad/.test(navigator.platform)
 }
 
 export function Shell({ children, data }: { children: ReactNode; data: AppData }) {
@@ -28,23 +25,24 @@ export function Shell({ children, data }: { children: ReactNode; data: AppData }
   const [paletteOpen, setPaletteOpen] = useState(false)
   const navigate = useNavigate()
   const location = useLocation()
+  const formRef = useRef<HTMLFormElement>(null)
 
   const search = useMemo(() => {
-    const index = new MiniSearch({ fields: ['title', 'subtitle', 'text'], storeFields: ['title', 'subtitle', 'kind', 'id'] })
-    index.addAll(data.search)
-    return index
+    const m = new MiniSearch({ fields: ['title', 'subtitle', 'text'], storeFields: ['title', 'subtitle', 'kind', 'id'] })
+    m.addAll(data.search)
+    return m
   }, [data.search])
 
   const suggestions = useMemo(() => {
-    const term = query.trim()
-    if (!term) return [] as SearchHit[]
-    return (search.search(term, { prefix: true, fuzzy: 0.2 }) as unknown as SearchHit[]).slice(0, 8)
+    const q = query.trim()
+    if (!q) return [] as SearchHit[]
+    return (search.search(q, { prefix: true, fuzzy: 0.2 }) as unknown as SearchHit[]).slice(0, 6)
   }, [query, search])
 
   useEffect(() => {
-    const onKey = (event: globalThis.KeyboardEvent) => {
-      if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === 'k') {
-        event.preventDefault()
+    const onKey = (e: globalThis.KeyboardEvent) => {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+        e.preventDefault()
         setPaletteOpen(true)
       }
     }
@@ -60,72 +58,114 @@ export function Shell({ children, data }: { children: ReactNode; data: AppData }
       navigate(`/exams/${hit.id}`)
       return
     }
-    const node = data.graph.nodes.find(item => item.id === hit.id)
-    const discipline = node ? displayDisciplineForNode(node, data.graph).id : undefined
-    const params = new URLSearchParams({ node: hit.id })
-    if (discipline) params.set('discipline', discipline)
-    navigate(`/?${params.toString()}`)
+    const onMap = location.pathname === '/' || location.pathname === '' || location.pathname === '/graph'
+    if (onMap) {
+      navigate({ pathname: location.pathname || '/', search: `?node=${encodeURIComponent(hit.id)}` })
+      return
+    }
+    navigate(`/?node=${encodeURIComponent(hit.id)}`)
   }
 
   const submit = (event: FormEvent) => {
     event.preventDefault()
-    const term = query.trim()
-    const hit = suggestions[active] || suggestions[0]
-    if (hit) goHit(hit)
-    else if (term) navigate(`/exams?q=${encodeURIComponent(term)}`)
-    else setPaletteOpen(true)
+    const q = query.trim()
+    if (!q) {
+      setPaletteOpen(true)
+      return
+    }
+    if (suggestions[active]) {
+      goHit(suggestions[active])
+      return
+    }
+    if (suggestions[0]) {
+      goHit(suggestions[0])
+      return
+    }
+    setOpen(false)
+    navigate(`/exams?q=${encodeURIComponent(q)}`)
   }
 
   const onKeyDown = (event: KeyboardEvent<HTMLInputElement>) => {
     if (event.key === 'Escape') {
       setOpen(false)
       setActive(0)
+      ;(event.target as HTMLInputElement).blur()
       return
     }
     if (!open || !suggestions.length) return
     if (event.key === 'ArrowDown') {
       event.preventDefault()
-      setActive(index => (index + 1) % suggestions.length)
+      setActive(i => (i + 1) % suggestions.length)
     } else if (event.key === 'ArrowUp') {
       event.preventDefault()
-      setActive(index => (index - 1 + suggestions.length) % suggestions.length)
+      setActive(i => (i - 1 + suggestions.length) % suggestions.length)
     }
   }
 
-  const isWorkspace = location.pathname === '/' || location.pathname === '' || location.pathname === '/graph'
+  const isHome = location.pathname === '/' || location.pathname === ''
+  const isGraph = location.pathname === '/graph'
+  const isWorkspace = isHome || isGraph
+  const shortcut = isMac() ? '⌘K' : 'Ctrl K'
 
   return (
     <div className={`app${isWorkspace ? ' is-workspace' : ''}`}>
-      <a className="skip-link" href="#main-content">跳到主要内容</a>
+      <a className="skip-link" href="#main-content">
+        跳到主要内容
+      </a>
       <header className="command-bar">
         <Link to="/" className="brand" aria-label="化学竞赛知识图谱">
           <span className="brand-mark" aria-hidden="true">
             <svg viewBox="0 0 32 32" width="20" height="20" fill="none">
-              <circle cx="11" cy="12" r="3" fill="currentColor" />
-              <circle cx="21" cy="12" r="3" fill="currentColor" />
-              <circle cx="16" cy="21" r="3" fill="currentColor" />
-              <path d="M13.5 13.5L15 18M18.5 13.5L17 18M14 12h4" stroke="currentColor" strokeWidth="1.5" />
+              <circle cx="11" cy="12" r="3.2" fill="currentColor" opacity="0.95" />
+              <circle cx="21" cy="12" r="3.2" fill="currentColor" opacity="0.95" />
+              <circle cx="16" cy="21" r="3.2" fill="currentColor" opacity="0.95" />
+              <path
+                d="M13.2 13.6 L14.8 18.2 M18.8 13.6 L17.2 18.2 M14.2 12 H17.8"
+                stroke="currentColor"
+                strokeWidth="1.6"
+                strokeLinecap="round"
+              />
             </svg>
           </span>
-          <span className="brand-text"><b>化学竞赛知识图谱</b></span>
+          <span className="brand-text">
+            <span className="brand-kicker">化学竞赛</span>
+            <b>知识图谱</b>
+          </span>
         </Link>
 
-        <form className="search desktop-search" onSubmit={submit} role="search">
-          <span className="search-glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></svg></span>
+        <form className="search" ref={formRef} onSubmit={submit} role="search">
+          <span className="search-glyph" aria-hidden="true">
+            ⌕
+          </span>
           <input
             aria-label="搜索知识点、题目或年份"
             aria-expanded={open && suggestions.length > 0}
             aria-controls="search-suggestions"
             aria-autocomplete="list"
             value={query}
-            onChange={event => { setQuery(event.target.value); setOpen(true); setActive(0) }}
+            onChange={event => {
+              setQuery(event.target.value)
+              setOpen(true)
+              setActive(0)
+            }}
             onFocus={() => setOpen(true)}
-            onBlur={() => window.setTimeout(() => setOpen(false), 120)}
+            onBlur={() => {
+              window.setTimeout(() => setOpen(false), 120)
+            }}
             onKeyDown={onKeyDown}
             placeholder="搜索知识点、题目或年份"
             autoComplete="off"
           />
-          {open && suggestions.length > 0 ? (
+          <button
+            type="button"
+            className="search-shortcut"
+            onMouseDown={e => e.preventDefault()}
+            onClick={() => setPaletteOpen(true)}
+            title="打开命令面板"
+          >
+            {shortcut}
+          </button>
+          {open && suggestions.length > 0 && (
             <ul id="search-suggestions" className="search-suggestions" role="listbox">
               {suggestions.map((hit, index) => (
                 <li key={`${hit.kind}-${hit.id}`} role="option" aria-selected={index === active}>
@@ -136,45 +176,53 @@ export function Shell({ children, data }: { children: ReactNode; data: AppData }
                     onMouseDown={event => event.preventDefault()}
                     onClick={() => goHit(hit)}
                   >
-                    <span className="suggest-main"><b>{hit.title}</b>{hit.subtitle ? <small>{hit.subtitle}</small> : null}</span>
-                    <span className="suggest-type">{hit.kind === 'problem' ? '题目' : '知识点'}</span>
+                    <span className={`suggest-kind${hit.kind === 'problem' ? ' is-problem' : ''}`}>
+                      {hit.kind === 'problem' ? '题目' : '知识'}
+                    </span>
+                    <span className="suggest-main">
+                      <b>{hit.title}</b>
+                      {hit.subtitle ? <small>{hit.subtitle}</small> : null}
+                    </span>
                   </button>
                 </li>
               ))}
             </ul>
-          ) : null}
+          )}
         </form>
 
-        <button type="button" className="mobile-search-trigger" onClick={() => setPaletteOpen(true)}>
-          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></svg>
-          搜索
-        </button>
-
-        <nav className="nav desktop-nav" aria-label="主导航">
-          {nav.map(item => <NavLink key={item.to} to={item.to} end={item.to === '/'} className={({ isActive }) => isActive ? 'is-active' : ''}>{item.label}</NavLink>)}
+        <nav className="nav" aria-label="主导航">
+          {nav.map(item => (
+            <NavLink
+              key={item.to}
+              to={item.to}
+              end={item.to === '/'}
+              className={({ isActive }) => (isActive ? 'active' : '')}
+            >
+              {item.label}
+            </NavLink>
+          ))}
         </nav>
+
+        <span className="version" title={data.statistics.note}>
+          演示数据 2026.08
+        </span>
       </header>
 
       <main id="main-content" className={isWorkspace ? 'content home-content' : 'content'}>
-        <div className="page-frame" key={location.pathname}>{children}</div>
+        <div className="page-enter" key={location.pathname}>
+          {children}
+        </div>
       </main>
 
-      {!isWorkspace ? (
-        <footer className="site-footer">
+      {!isWorkspace && (
+        <footer>
           <span>化学竞赛知识图谱</span>
-          <span>{data.statistics.totalProblems} 道题目 · {data.statistics.totalNodes} 个知识节点</span>
-          <span>数据版本 {data.manifest.dataVersion}</span>
+          <span>
+            {data.statistics.totalExams} 组考试 · {data.statistics.totalProblems} 条题目元数据 · 演示数据，映射待核验
+          </span>
+          <Link to="/about">查看资料说明</Link>
         </footer>
-      ) : null}
-
-      <nav className="mobile-nav" aria-label="手机主导航">
-        {nav.map(item => (
-          <NavLink key={item.to} to={item.to} end={item.to === '/'}>
-            <NavIcon name={item.icon} />
-            <span>{item.label}</span>
-          </NavLink>
-        ))}
-      </nav>
+      )}
 
       <CommandPalette data={data} open={paletteOpen} onClose={() => setPaletteOpen(false)} initialQuery={query} />
     </div>

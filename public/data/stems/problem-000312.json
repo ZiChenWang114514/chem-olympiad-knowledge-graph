@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000312",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,82 +10,26 @@
   "source": {
     "sourceDocumentId": "source-000002",
     "sourceLabel": "2007-21-CChO-juesai.pdf",
-    "pages": [
-      1,
-      2
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第2题 高铁酸钾 $\\left( \\mathrm { K _ { 2 } F e O _ { 4 } } \\right)$ 是一种新型选择性氧化剂和超铁电池的正极材料,在水处理、有机合成、电池工业等方面展现出广阔的应用前景。 早在 1951 年,Thompson 等已成功地利用化学方法合成了纯度为 97%\\~99%的 $\\mathrm { K _ { 2 } F e O _ { 4 \\circ } }$ 已知相关物质的标准电极电势如下: \\mathrm {FeO_ {4} ^ {2 - } + 8 H^ {+} + 3 e^ {-} \\rightarrow Fe^ {3 + } + 4 H_ {2} O}&E ^ {\\ominus} = 2. 20 \\mathrm{V}\\\\\\mathrm {FeO_ {4} ^ {2 - } + 4 H_ {2} O + 3 e^ {-} \\rightarrow Fe(OH) _ {3} + 5 OH^ {-}}&E ^ {\\ominus} = 0. 72 \\mathrm{V}\\\\2 \\mathrm{HClO+2H} ^ {+} + 2 \\mathrm{e} ^ {-} \\rightarrow \\mathrm{Cl} _ {2} + 2 \\mathrm{H} _ {2} \\mathrm{O}&E ^ {\\ominus} = 1. 611 \\mathrm{V}\\\\\\mathrm{ClO} ^ {-} + \\mathrm{H} _ {2} \\mathrm{O+2e} ^ {-} \\rightarrow \\mathrm{Cl} ^ {-} + 2 \\mathrm{OH} ^ {-}&E ^ {\\ominus} = 0. 81 \\mathrm{V}\\\\\\mathrm{Cl} _ {2} + 2 \\mathrm{e} ^ {-} \\rightarrow 2 \\mathrm{Cl} ^ {-}&E ^ {\\ominus} = 1. 358 \\mathrm{V} "
+      "text": "第2题 高铁酸钾 $\\left( \\mathrm { K _ { 2 } F e O _ { 4 } } \\right)$ 是一种新型选择性氧化剂和超铁电池的正极材料，在⽔处理、有机合成、电池工业等方面展现出⼴阔的应用前景。 早在 1951 年，Thompson 等已成功地利用化学方法合成了纯度为 97%\\~99%的 $\\mathrm { K _ { 2 } F e O _ { 4 \\circ } }$ 已知相关物质的标准电极电势如下： $$ \\begin{array}{l l}\\mathrm {FeO_ {4} ^ {2 - } + 8 H^ {+} + 3 e^ {-} \\rightarrow Fe^ {3 + } + 4 H_ {2} O}&E ^ {\\ominus} = 2. 2 0 \\mathrm{V}\\\\\\mathrm {FeO_ {4} ^ {2 - } + 4 H_ {2} O + 3 e^ {-} \\rightarrow Fe(OH) _ {3} + 5 OH^ {-}}&E ^ {\\ominus} = 0. 7 2 \\mathrm{V}\\\\2 \\mathrm{HClO+2H} ^ {+} + 2 \\mathrm{e} ^ {-} \\rightarrow \\mathrm{Cl} _ {2} + 2 \\mathrm{H} _ {2} \\mathrm{O}&E ^ {\\ominus} = 1. 6 1 1 \\mathrm{V}\\\\\\mathrm{ClO} ^ {-} + \\mathrm{H} _ {2} \\mathrm{O+2e} ^ {-} \\rightarrow \\mathrm{Cl} ^ {-} + 2 \\mathrm{OH} ^ {-}&E ^ {\\ominus} = 0. 8 1 \\mathrm{V}\\\\\\mathrm{Cl} _ {2} + 2 \\mathrm{e} ^ {-} \\rightarrow 2 \\mathrm{Cl} ^ {-}&E ^ {\\ominus} = 1. 3 5 8 \\mathrm{V}\\end{array} $$"
     },
     {
-      "type": "subpart",
-      "label": "2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "试写出以 $\\mathrm { F e ( N O _ { 3 } ) _ { 3 } }$ 为铁源、KClO为氧化剂,在KOH溶液中制备 $\\mathrm { K _ { 2 } F e O _ { 4 } }$ 的离子方程式。"
-        }
-      ],
-      "partId": "part-000659"
-    },
-    {
-      "type": "subpart",
-      "label": "2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "研究发现, $\\mathrm { F e ( O H ) _ { 3 } }$ 能催化溶液中 $\\mathrm { K _ { 2 } F e O _ { 4 } }$ 的分解。在相同条件下 ,分别以 $\\mathrm { F e ( N O _ { 3 } ) _ { 3 } }$ 3 和 $\\mathrm { K _ { 3 } [ F e F _ { 6 } ] }$ 为原料制备 $\\mathrm { K _ { 2 } F e O _ { 4 } }$ ,哪种铁源制备 $\\mathrm { K _ { 2 } F e O _ { 4 } }$ 的产率较高？简述理由。"
-        }
-      ],
-      "partId": "part-000660"
-    },
-    {
-      "type": "subpart",
-      "label": "2-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "高铁酸在水溶液中有4种形体,其酸常数为 $\\mathsf { p } K _ { a 1 } = 1.6$ $\\mathsf { p } K _ { a 2 } = 3.5 .$ $\\mathrm { p } K _ { a 3 } = 7.3$ O $\\mathrm { p H } = 1.0$ 的该溶液4种形体中哪2种是主要的？写出它们的化学式。"
-        }
-      ],
-      "partId": "part-000661"
-    },
-    {
-      "type": "subpart",
-      "label": "2-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "$\\mathrm { K _ { 2 } F e O _ { 4 } }$ 在 $\\mathrm { K O H }$ 溶液中可将甲苯氧化成苯甲醛, $\\mathrm { F e O } _ { 4 } \\mathrm { . }$ 2-转化为红棕色沉淀和绿色溶液(绿色是由 $\\mathrm { F e O _ { 3 } } ^ { 2 - }$ 呈现的),该绿色溶液与适量 $S ^ { 2 - }$ 发生氧化还原反应生成深色沉淀,组成分析发现该沉淀为3种物质的混合物,写出它们的化学式。"
-        }
-      ],
-      "partId": "part-000662"
-    },
-    {
-      "type": "subpart",
-      "label": "2-5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "以 $\\mathrm { K _ { 2 } F e O _ { 4 } }$ 作为锂离子电池的正极材料,可嵌入/脱嵌Li+离子。1.00 g $\\mathrm { K _ { 2 } F e O _ { 4 } }$ 的理论容量为406 mAh,请通过计算写出 $\\mathrm { K _ { 2 } F e O _ { 4 } }$ 可逆嵌入/脱嵌Li+的方程式。"
-        }
-      ],
-      "partId": "part-000663"
+      "type": "paragraph",
+      "text": "2-1 试写出以 $\\mathrm { F e ( N O _ { 3 } ) _ { 3 } }$ 为铁源、KClO为氧化剂，在KOH溶液中制备 $\\mathrm { K _ { 2 } F e O _ { 4 } }$ 的离⼦方程式。 2-2 研究发现， $\\mathrm { F e ( O H ) _ { 3 } }$ 能催化溶液中 $\\mathrm { K _ { 2 } F e O _ { 4 } }$ 的分解。在相同条件下 ,分别以 $\\mathrm { F e ( N O _ { 3 } ) _ { 3 } }$ 3 和 $\\mathrm { K _ { 3 } [ F e F _ { 6 } ] }$ 为原料制备 $\\mathrm { K _ { 2 } F e O _ { 4 } }$ ，哪种铁源制备 $\\mathrm { K _ { 2 } F e O _ { 4 } }$ 的产率较高？简述理由。 2-3 高铁酸在⽔溶液中有4种形体，其酸常数为 $\\mathsf { p } K _ { a 1 } = 1 . 6$ $\\mathsf { p } K _ { a 2 } = 3 . 5 .$ $\\mathrm { p } K _ { a 3 } = 7 . 3$ O $\\mathrm { p H } = 1 . 0$ 的该溶液4种形体中哪2种是主要的？写出它们的化学式。 2-4 $\\mathrm { K _ { 2 } F e O _ { 4 } }$ 在 $\\mathrm { K O H }$ 溶液中可将甲苯氧化成苯甲醛， $\\mathrm { F e O } _ { 4 } \\mathrm { . }$ 2−转化为红棕色沉淀和绿色溶液（绿色是由 $\\mathrm { F e O _ { 3 } } ^ { 2 - }$ 呈现的），该绿色溶液与适量 $S ^ { 2 - }$ 发生氧化还原反应生成深色沉淀，组成分析发现该沉淀为3种物质的混合物，写出它们的化学式。 2-5 以 $\\mathrm { K _ { 2 } F e O _ { 4 } }$ 作为锂离⼦电池的正极材料，可嵌入/脱嵌Li+离⼦。1.00 g $\\mathrm { K _ { 2 } F e O _ { 4 } }$ 的理论容量为406 mAh，请通过计算写出 $\\mathrm { K _ { 2 } F e O _ { 4 } }$ 可逆嵌入/脱嵌Li+的方程式。"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000312-figure-001.jpg",
-      "alt": "高铁酸钾氧化性质相关结构或反应图,第1幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004896"
+      "alt": "problem-000312题目配图第1幅（已按原图查看）"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

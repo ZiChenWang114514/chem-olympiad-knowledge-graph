@@ -1,98 +1,87 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000241",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "铝配合物结构与范德华力",
-  "number": "Q2",
+  "number": "2",
   "examYear": 2024,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000031",
-    "sourceLabel": "2024年全国中学生化学竞赛决赛试题（第一场）.pdf",
-    "pages": [
-      3,
-      4
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "sourceLabel": "2024年全国中学生化学竞赛决赛试题(第一场).pdf",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "三(8-羟基喹啉)合铝(II)(AIO3)配合物的化学式为 \\mathbf { C } _ { 27 } \\mathbf { H } _ { 18 } \\mathbf { N } _ { 3 } \\mathbf { O } _ { 3 } \\mathbf { A } \\mathbf { l } ,是一种优异的小分子半导体材料,可用于有机显示等领域。"
-    },
+      "text": "三(8-羟基喹啉)合铝(III)(AlQ$_3$)配合物的化学式为 $\\mathrm{C}_{27}\\mathrm{H}_{18}\\mathrm{N}_{3}\\mathrm{O}_{3}\\mathrm{Al}$,是一种优异的小分子半导体材料,可用于有机显示等领域。"
+    }
+  ],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000241-01",
       "label": "2-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "\\mathsf { A l Q } _ { 3 } 分子有两种典型异构体,如图2.1所示。写出它们所属的分子点群。"
+          "text": "AlQ$_3$ 分子有两种典型异构体,如图2.1所示。写出它们所属的分子点群。"
         }
-      ],
-      "partId": "part-001325"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000241-02",
       "label": "2-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "预测 \\mathsf { A l Q } _ { 3 } 配合物中 \\mathsf { A l } - \\mathsf { O } 与 \\mathsf { A l - N } 键长的大小关系,解释原因。"
+          "text": "预测 AlQ$_3$ 配合物中 Al—O 与 Al—N 键长的大小关系,解释原因。"
+        },
+        {
+          "type": "paragraph",
+          "text": "AlQ$_3$ 分子可通过范德华力形成分子晶体。一般地,以范德华力主导的分子间相互作用势能 $E(l)$ 可用 Lennard-Jones 关系表示:"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$E(l) = \\frac{a}{l^{12}} - \\frac{b}{l^{6}}$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "其中,$l$ 是分子质心之间的距离,$a$ 和 $b$ 均为大于0的常数。画出 $E(l)$-$l$ 的关系图,求 AlQ$_3$ 分子的范德华半径。"
         }
-      ],
-      "partId": "part-001326"
+      ]
     },
     {
-      "type": "paragraph",
-      "text": "2 - 3 \\mathsf { A l Q } 3 分子可通过范德华力形成分子晶体。一般地,以范德华力主导的分子间相互作用势能E(l)可用 Lennard-Jones 关系表示"
-    },
-    {
-      "type": "paragraph",
-      "text": "E (l) = \\frac {a}{l ^ {12}} - \\frac {b}{l ^ {6}}"
-    },
-    {
-      "type": "paragraph",
-      "text": "其中,l是分子质心之间的距离,a和b均为大于0的常数。画出E(l)-l的关系图,求 \\mathsf { A l Q } _ { 3 } 分子的范德华半径。"
-    },
-    {
-      "type": "subpart",
+      "id": "part-000241-03",
       "label": "2-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "\\mathsf { A l Q } _ { 3 } 分子可结晶为三斜晶体,一个晶胞里有两个不等价的 \\mathsf { A l Q } _ { 3 } 分子。其晶胞参数为 a = 6 . 1 181 Å, b = 13.27 A, c= 14.43 Å, a = 66 . 06 ^ { \\circ } \\beta = 88 . 56 ^ { \\circ } \\gamma = 84 . 03 ^ { \\circ } 。计算 \\mathsf { A l Q } _ { 3 } 分子晶体的密度(单位: \\mathbf { g } \\mathsf { c m } ^ { - 3 } )"
+          "text": "AlQ$_3$ 分子可结晶为三斜晶体,一个晶胞里有两个不等价的 AlQ$_3$ 分子。其晶胞参数为 $a = 6.181$ Å,$b = 13.27$ Å,$c = 14.43$ Å,$\\alpha = 66.06^\\circ$,$\\beta = 88.56^\\circ$,$\\gamma = 84.03^\\circ$。计算 AlQ$_3$ 分子晶体的密度(单位:$\\mathrm{g\\,cm^{-3}}$)。"
         }
-      ],
-      "partId": "part-001327"
+      ]
     },
     {
-      "type": "paragraph",
-      "text": "2-5研究发现,对8-羟基喹啉配体在羟基对位进行修饰,所得 A l Q _ { 1 } 衍生物分子的发射光谱可在整个可见光范围内调制。对下列衍生物分子发射光谱的峰值波长排序。"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000241-figure-001.jpg",
-      "assetId": "asset-005116",
-      "alt": "原卷示意图：图 2.1 AIO₃ 的两种配位结构",
-      "label": "图 2.1 AIO₃ 的两种配位结构",
-      "caption": "图 2.1 AIO3 的两种配位结构",
-      "displayWidth": 100
-    },
-    {
-      "type": "subpart",
+      "id": "part-000241-04",
       "label": "2-5",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
+          "text": "研究发现,对8-羟基喹啉配体在羟基对位进行修饰,所得 AlQ$_3$ 衍生物分子的发射光谱可在整个可见光范围内调制。对下列衍生物分子发射光谱的峰值波长排序。"
+        },
+        {
+          "type": "figure",
+          "caption": "衍生物分子结构图(缺图)",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "src": "data/stems/assets/problem-000241-figure-001.jpg"
         }
-      ],
-      "partId": "part-001328"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

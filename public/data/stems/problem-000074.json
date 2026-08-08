@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000074",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,215 +10,40 @@
   "source": {
     "sourceDocumentId": "source-000053",
     "sourceLabel": "2019-33-CChO-chusai.pdf",
-    "pages": [
-      3,
-      4
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第8题(14分)"
-    },
-    {
-      "type": "subpart",
-      "label": "8-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "现有如下待完成的反应:$$ \\mathrm{D} _ {\\mathrm{H}} \\\\ \\mathrm{H} _ {3} \\mathrm{C} \\xrightarrow [ \\text {Br} ]{\\text {Br} _ {2}} \\xrightarrow [ h \\nu ]{}$$"
-        }
-      ],
-      "partId": "part-000119"
-    },
-    {
-      "type": "subpart",
-      "label": "8-1-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "-1 判断该反应物手性中心的构型。"
-        }
-      ],
-      "partId": "part-000132"
-    },
-    {
-      "type": "subpart",
-      "label": "8-1-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "-2 画出此单溴化反应所有产物的结构简 __________"
-        }
-      ],
-      "partId": "part-000133"
-    },
-    {
-      "type": "subpart",
-      "label": "8-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "变色眼镜片在阳光下显深色,从而保护人的眼睛;当人进入室内后,镜片逐步转变为无色透明,有利于在弱光下观察周边事物。目前流行的一种变色眼镜的变色原理如下:"
-        }
-      ],
-      "partId": "part-000122"
+      "text": "第8题（14分） 8-1 现有如下待完成的反应：$$\\begin{array}{c} \\mathrm{D} _ {\\mathrm{H}} \\\\ \\mathrm{H} _ {3} \\mathrm{C} \\end{array} \\xrightarrow [ \\text {Br} ]{\\text {Br} _ {2}} \\xrightarrow [ h \\nu ]{}$$8-1-1 判断该反应物⼿性中⼼的构型。 8-1-2 画出此单溴化反应所有产物的结构简 __________ 8-2 变色眼镜⽚在阳光下显深色，从⽽保护人的眼睛；当人进入室内后，镜⽚逐步转变为无色透明，有利于在弱光下观察周边事物。⽬前流⾏的一种变色眼镜的变色原理如下："
     },
     {
       "type": "paragraph",
-      "text": "判断上述变色过程中反应条件c1和${ \\mathrm { c 2 } } .$,简述理由。 8-3 维生素C普遍存在于动植物中,在动物肝脏中以葡萄糖为原料经四步反应合成;工业生产的方式也是以葡萄糖经以下过程合成的:"
-    },
-    {
-      "type": "subpart",
-      "label": "8-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "-1 写出反应a和b的具体条件(可以不写溶剂)。"
-        }
-      ],
-      "partId": "part-000123"
-    },
-    {
-      "type": "subpart",
-      "label": "8-3-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "-2 画出 L-山梨糖和化合物 C 的 Fischer 投影式。"
-        }
-      ],
-      "partId": "part-000135"
-    },
-    {
-      "type": "subpart",
-      "label": "8-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "以下给出四个取代反应,右图为其中某一反应的反应势能图:"
-        }
-      ],
-      "partId": "part-000125"
+      "text": "判断上述变色过程中反应条件c1和${ \\mathrm { c 2 } } .$，简述理由。 8-3 维生素C普遍存在于动植物中，在动物肝脏中以葡萄糖为原料经四步反应合成；工业生产的方式也是以葡萄糖经以下过程合成的："
     },
     {
       "type": "paragraph",
-      "text": "$\\mathrm { C H _ { 3 } C H _ { 2 } B r + N a O C H _ { 3 } }$"
-    },
-    {
-      "type": "paragraph",
-      "text": "$\\mathrm { ( C H _ { 3 } ) _ { 3 } C B r + H O C H _ { 3 } }$"
-    },
-    {
-      "type": "paragraph",
-      "text": "$( \\mathrm { C H _ { 3 } } ) _ { 2 } \\mathrm { C H I } + \\mathrm { K B r }$"
-    },
-    {
-      "type": "paragraph",
-      "text": "$\\mathrm { ( C H _ { 3 } ) _ { 3 } C C l + ( C _ { 6 } H _ { 5 } ) _ { 3 } P }$![](assets/f7cfc0ce1fff_be0f72a06086aabfdb1554d586286f5fe92dfa29fbdd500dfda5dc79aa251d73.jpg)"
-    },
-    {
-      "type": "subpart",
-      "label": "8-4-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "-1 指出哪个反应与此反应势能图相符。"
-        }
-      ],
-      "partId": "part-000136"
-    },
-    {
-      "type": "subpart",
-      "label": "8-4-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "-2 画出过渡态E和F的结构式。"
-        }
-      ],
-      "partId": "part-000137"
+      "text": "8-3-1 写出反应a和b的具体条件（可以不写溶剂）。 8-3-2 画出 L-⼭梨糖和化合物 C 的 Fischer 投影式。 8-4 以下给出四个取代反应，右图为其中某一反应的反应势能图： (1)$\\mathrm { C H _ { 3 } C H _ { 2 } B r + N a O C H _ { 3 } }$(2)$\\mathrm { ( C H _ { 3 } ) _ { 3 } C B r + H O C H _ { 3 } }$(3)$( \\mathrm { C H _ { 3 } } ) _ { 2 } \\mathrm { C H I } + \\mathrm { K B r }$(4)$\\mathrm { ( C H _ { 3 } ) _ { 3 } C C l + ( C _ { 6 } H _ { 5 } ) _ { 3 } P }$![](assets/f7cfc0ce1fff_be0f72a06086aabfdb1554d586286f5fe92dfa29fbdd500dfda5dc79aa251d73.jpg) 8-4-1 指出哪个反应与此反应势能图相符。 8-4-2 画出过渡态E和F的结构式。"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000074-figure-001.jpg",
-      "alt": "有机反应机理相关结构或反应图,第1幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004654"
+      "alt": "problem-000074题目配图第1幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000074-figure-002.jpg",
-      "alt": "有机反应机理相关结构或反应图,第2幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004655"
+      "alt": "problem-000074题目配图第2幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000074-figure-003.jpg",
-      "alt": "有机反应机理相关结构或反应图,第3幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004656"
-    },
-    {
-      "type": "subpart",
-      "label": "8-1-2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出此单溴化反应所有产物的结构简 __________"
-        }
-      ],
-      "partId": "part-002589"
-    },
-    {
-      "type": "subpart",
-      "label": "8-3-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出反应a和b的具体条件(可以不写溶剂)。"
-        }
-      ],
-      "partId": "part-000134"
-    },
-    {
-      "type": "subpart",
-      "label": "8-3-2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出 L-山梨糖和化合物 C 的 Fischer 投影式。"
-        }
-      ],
-      "partId": "part-002590"
-    },
-    {
-      "type": "subpart",
-      "label": "8-4-1-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "指出哪个反应与此反应势能图相符。"
-        }
-      ],
-      "partId": "part-002591"
-    },
-    {
-      "type": "subpart",
-      "label": "8-4-2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出过渡态E和F的结构式。"
-        }
-      ],
-      "partId": "part-002592"
+      "alt": "problem-000074题目配图第3幅（已按原图查看）"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

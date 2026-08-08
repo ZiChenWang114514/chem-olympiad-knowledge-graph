@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000422",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,64 +8,19 @@
   "examYear": 2013,
   "examStage": "final",
   "source": {
+    "sourceDocumentId": "source-000008",
     "sourceLabel": "2013-27-CChO-juesai.pdf",
-    "pages": [
-      3
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000008"
+    "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第6题 将1mol水在 $100 \\ ^ { \\circ } \\mathrm { C } ,$ 101.3kPa下全部蒸发为水蒸气,再沿着 $p / V = a$ (常数)的可逆过程,终态压力为152.0kPa.设水蒸气为理想气体,在此过程温度范围内,它的摩尔等压热容 $C _ { p , m } = 33.20 \\mathrm { J } \\mathrm { mol } ^ { - 1 }$ K−1.水的气化热为40.66kJmol−1(假设一定温度范围内水的气化热不变)."
-    },
-    {
-      "type": "subpart",
-      "label": "6-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算整个过程终态的热力学温度 $T _ { 2 ^ { \\varsigma } }$ ."
-        }
-      ],
-      "partId": "part-002527"
-    },
-    {
-      "type": "subpart",
-      "label": "6-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "通过计算,判断终态时体系中是否存在液态水,若存在,液态水的量是多少."
-        }
-      ],
-      "partId": "part-002528"
-    },
-    {
-      "type": "subpart",
-      "label": "6-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算整个过程发生后,体系的焓变 $\\Delta H _ { \\circ }$"
-        }
-      ],
-      "partId": "part-002529"
-    },
-    {
-      "type": "subpart",
-      "label": "6-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "若整个过程的熵变为132.5JK−1,推算可逆过程的熵变 $\\Delta S _ { \\mathrm { c } }$ ."
-        }
-      ],
-      "partId": "part-002530"
+      "text": "第6题（9分）将1 mol⽔在 $1 0 0 \\ ^ { \\circ } \\mathrm { C } ,$ 101.3kPa下全部蒸发为⽔蒸气，再沿着 $p / V = a$ （常数）的可逆过程，终态压力为152.0 kPa。设⽔蒸气为理想气体，在此过程温度范围内，它的摩尔等压热容 $C _ { p , m } = 3 3 . 2 0 \\mathrm { J } \\mathrm { m o l } ^ { - 1 }$ K−1。⽔的气化热为40.66kJ mol−1（假设一定温度范围内⽔的气化热不变）。 6-1 计算整个过程终态的热力学温度 $T _ { 2 ^ { \\varsigma } }$ 。 6-2 通过计算，判断终态时体系中是否存在液态⽔，若存在，液态⽔的量是多少。 6-3 计算整个过程发生后，体系的焓变 $\\Delta H _ { \\circ }$ 6-4 若整个过程的熵变为132.5J K−1，推算可逆过程的熵变 $\\Delta S _ { \\mathrm { c } }$ 。"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

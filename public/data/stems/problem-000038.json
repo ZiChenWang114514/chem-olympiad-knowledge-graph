@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000038",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,15 +10,18 @@
   "source": {
     "sourceDocumentId": "source-000051",
     "sourceLabel": "2017-31-CChO-chusai.pdf",
-    "pages": [
-      3
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "blocks": [
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000038-01",
       "label": "8-1",
       "blocks": [
         {
@@ -27,16 +30,14 @@
         },
         {
           "type": "figure",
-          "src": "data/stems/assets/problem-000038-figure-001.jpg",
+          "caption": "",
           "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-          "displayWidth": 80,
-          "assetId": "asset-004642"
+          "src": "data/stems/assets/problem-000038-figure-001.jpg"
         }
-      ],
-      "partId": "part-000076"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000038-02",
       "label": "8-2",
       "blocks": [
         {
@@ -45,16 +46,11 @@
         },
         {
           "type": "figure",
-          "src": "data/stems/assets/problem-000038-figure-002.jpg",
+          "caption": "",
           "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-          "displayWidth": 80,
-          "assetId": "asset-004643"
+          "src": "data/stems/assets/problem-000038-figure-002.jpg"
         }
-      ],
-      "partId": "part-000077"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

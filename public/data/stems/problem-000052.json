@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000052",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,119 +8,19 @@
   "examYear": 2018,
   "examStage": "preliminary",
   "source": {
+    "sourceDocumentId": "source-000052",
     "sourceLabel": "2018-32-CChO-chusai.pdf",
-    "pages": [
-      1
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000052"
+    "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第4题"
-    },
-    {
-      "type": "subpart",
-      "label": "4-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "利用双离子交换膜电解法可以从含硝酸氨的工业废水中生产硝酸和氨."
-        }
-      ],
-      "partId": "part-001938"
-    },
-    {
-      "type": "subpart",
-      "label": "4-1-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "阳极室得到的是哪种物质写出阳极半反应方程式."
-        }
-      ],
-      "partId": "part-001939"
-    },
-    {
-      "type": "subpart",
-      "label": "4-1-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "阴极室得到的是哪种物质写出阴极半反应及获得相应物质的方程式."
-        }
-      ],
-      "partId": "part-001940"
-    },
-    {
-      "type": "subpart",
-      "label": "4-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "电解乙酸钠水溶液,在阳极收集到X和Y的混合气体.气体通过新制的澄清石灰水,X被完全吸收,得到白色沉淀.纯净的气体Y冷却到90.23K,析出无色晶体,X射线衍射表明,该晶体属立方晶系,体心立方点阵,晶胞参数 = 530.4pm, = 2,密度 $\\rho _ { \\mathrm { \\ell } } = 0.669 \\mathrm { gcm ^ { - 3 } }$ .继续冷却,晶体转换为单斜晶体, $a = 422.6$ pm, $b = 562.3 \\mathrm { pm }$ $c = 584.5 \\mathrm { pm }$ $\\beta = 90.41 ^ { \\circ } .$"
-        }
-      ],
-      "partId": "part-001941"
-    },
-    {
-      "type": "subpart",
-      "label": "4-2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出X的化学式;写出X与石灰水反应的方程式."
-        }
-      ],
-      "partId": "part-001942"
-    },
-    {
-      "type": "subpart",
-      "label": "4-2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "通过计算推出Y的化学式(Y分子中存在三次旋转轴)."
-        }
-      ],
-      "partId": "part-001943"
-    },
-    {
-      "type": "subpart",
-      "label": "4-2-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出点解乙酸钠水溶液时阳极板反应的方程式."
-        }
-      ],
-      "partId": "part-001944"
-    },
-    {
-      "type": "subpart",
-      "label": "4-2-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出单斜晶系的晶胞中Y分子的数目."
-        }
-      ],
-      "partId": "part-001945"
-    },
-    {
-      "type": "subpart",
-      "label": "4-2-5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "降温过程中晶体转换为对称性较低的单斜晶体,简述原因."
-        }
-      ],
-      "partId": "part-001946"
+      "text": "第4题（12分） 4-1 利用双离⼦交换膜电解法可以从含硝酸氨的工业废⽔中生产硝酸和氨。 4-1-1 阳极室得到的是哪种物质？写出阳极半反应方程式。 4-1-2 阴极室得到的是哪种物质？写出阴极半反应及获得相应物质的方程式。 4-2 电解⼄酸钠⽔溶液，在阳极收集到X和Y的混合气体。气体通过新制的澄清⽯灰⽔，X被完全吸收，得到白色沉淀。纯净的气体Y冷却到90.23K，析出无色晶体，X射线衍射表明，该晶体属⽴方晶系，体⼼⽴方点阵，晶胞参数? = 530.4 pm，? = 2，密度 $\\rho _ { \\mathrm { \\ell } } = 0 . 6 6 9 \\mathrm { g c m ^ { - 3 } }$ 。继续冷却，晶体转换为单斜晶体， $a = 4 2 2 . 6$ pm， $b = 5 6 2 . 3 \\mathrm { p m }$ $c = 5 8 4 . 5 \\mathrm { p m }$ $\\beta = 9 0 . 4 1 ^ { \\circ } .$ 4-2-1 写出X的化学式；写出X与⽯灰⽔反应的方程式。 4-2-2 通过计算推出Y的化学式（Y分⼦中存在三次旋转轴）。 4-2-3 写出点解⼄酸钠⽔溶液时阳极板反应的方程式。 4-2-4 写出单斜晶系的晶胞中Y分⼦的数⽬。 4-2-5 降温过程中晶体转换为对称性较低的单斜晶体，简述原因。"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

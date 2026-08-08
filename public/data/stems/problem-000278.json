@@ -1,40 +1,35 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000278",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "四级碳手性中心构建",
-  "number": "Q9",
+  "number": "9",
   "examYear": 2025,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000035",
-    "sourceLabel": "2025年第39届全国中学生化学竞赛决赛理论资料（原卷待补）",
-    "pages": [
-      19,
-      20,
-      21,
-      22
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "sourceLabel": "2025年第39届全国中学生化学竞赛决赛理论试题资料.pdf",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
+  },
   "blocks": [
-    {
-      "type": "paragraph",
-      "text": "第9题 四级碳手性中心的构建(29分)"
-    },
     {
       "type": "paragraph",
       "text": "sp3杂化四级碳上的亲核取代反应是有机合成中的重要反应,对构建碳碳键和碳杂原子键至关重要。但是,在四级碳原子上实现立体化学控制仍极具挑战性。"
     },
     {
       "type": "paragraph",
-      "text": "9.12019年,LMarek等人报道了通过分子内烷基化反应,对环丙烷进行非对映选择性开环,合成了含有四级碳手性中心的并环骨架。该转化发生在烷基化程度较高的碳中心上,且该碳原子的构型保持。他们同时通过理论计算研究了甲氧基对B-碳正离子的稳定性影响,结果如下:"
+      "text": "9.1 2019年,L. Marek等人报道了通过分子内烷基化反应,对环丙烷进行非对映选择性开环,合成了含有四级碳手性中心的并环骨架。该转化发生在烷基化程度较高的碳中心上,且该碳原子的构型保持。他们同时通过理论计算研究了甲氧基对β-碳正离子的稳定性影响,结果如下:"
     },
     {
       "type": "paragraph",
-      "text": "\\mathrm{CH} _ {3} \\mathrm{OCH} _ {3} + \\mathrm{HCH} _ {2} \\mathrm{CH} _ {3} \\xrightarrow [ \\Delta H = - 3 . 9 \\mathrm{kcal/mol} ]{\\Delta G = - 2 . 5 \\mathrm{kcal/mol}} \\mathrm{CH} _ {2} \\mathrm{OCH} _ {3} + \\mathrm{CH} _ {2} \\mathrm{CH} _ {3}"
+      "text": "$\\mathrm{CH_3OCH_3} + \\mathrm{CH_3CH_3} \\xrightarrow[\\Delta H = -3.9\\ \\mathrm{kcal/mol}]{\\Delta G = -2.5\\ \\mathrm{kcal/mol}} \\mathrm{CH_2OCH_3} + \\mathrm{CH_2CH_3}$"
     },
     {
       "type": "paragraph",
@@ -43,439 +38,93 @@
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000278-figure-001.jpg",
-      "assetId": "asset-005196",
-      "alt": "原卷示意图：每个2分，骨架1分，手性1分；骨架错误，手性也不得分，共6分",
-      "label": "每个2分，骨架1分，手性1分；骨架错误，手性也不得分，共6分",
-      "caption": "每个2分，骨架1分，手性1分；骨架错误，手性也不得分，共6分",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "答案:甲氧基亚甲基取代: s ; 丁基取代的位置:R"
-    },
-    {
-      "type": "paragraph",
-      "text": "骨架要求苯环并六元环,少任何一个取代基或双键位置不合理都可以认为骨架不准确;1分;"
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "反应式(图)"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000278-figure-002.jpg",
-      "assetId": "asset-005197",
-      "alt": "四级碳手性中心构建：第2幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "第19页,共25页"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000278-figure-003.jpg",
-      "assetId": "asset-005198",
-      "alt": "四级碳手性中心构建：第3幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "立体化学准确;要求甲氧基亚甲基与甲基顺式(要求两个甲基处反式,这个是绝对构型);1分;手性判断;各1分;2分;共4分"
-    },
-    {
-      "type": "paragraph",
-      "text": "9.22020年,J.Marek在前面工作的基础上报道了环丙基甲醇衍生物为原料经分子间亲核取代反应制备手性高烯丙基衍生物的通用方法。在此转换过程中,环丙基甲醇衍生物在四级碳中心发生区域选择性利立体选择性的亲核取代反应,且构型翻转,最终非对映选择性生成高烯丙基衍生物。具体转换过程如下:"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000278-figure-004.jpg",
-      "assetId": "asset-005199",
-      "alt": "四级碳手性中心构建：第4幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "随后,2022年的研究工作表明,该反应可以拓展到不同的取代基和亲核基团。依据以上信息,完成以下问题:"
-    },
-    {
-      "type": "paragraph",
-      "text": "9.2.1完成反应式,画出其主要产物的结构式(要求立体化学):"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000278-figure-005.jpg",
-      "assetId": "asset-005200",
-      "alt": "四级碳手性中心构建：第5幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "骨架1分,手性1分;骨架错误,手性也不得分,共2分"
-    },
-    {
-      "type": "paragraph",
-      "text": "9.2.2完成反应式,画出其主要产物的结构式(要求立体化学):"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000278-figure-006.jpg",
-      "assetId": "asset-005201",
-      "alt": "四级碳手性中心构建：第6幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "9.3 2025年,I. Marek 通过邻基参与实现了高烯丙醇中手性四级碳的立体专一性 SN1 反应。此方法已成功应用于高烯丙基叔卤化物,醚,硫氰酸酯及叠氮化物的非对映选择性合成,为构建复杂分子结构开辟了新途径。实验结果表明,双键的构型保持不变。"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000278-figure-007.jpg",
-      "assetId": "asset-005202",
-      "alt": "四级碳手性中心构建：第7幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "9.3.1 依据以上信息完成以下反应式:"
-    },
-    {
-      "type": "paragraph",
-      "text": "9.3.1.1"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000278-figure-008.jpg",
-      "assetId": "asset-005203",
-      "alt": "四级碳手性中心构建：第8幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "骨架1分,手性1分;骨架错误,手性也不得分,共2分"
-    },
-    {
-      "type": "paragraph",
-      "text": "第20页,共25页"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000278-figure-009.jpg",
-      "assetId": "asset-005204",
-      "alt": "四级碳手性中心构建：第9幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "答案:"
-    },
-    {
-      "type": "paragraph",
-      "text": "9.3.1.3"
-    },
-    {
-      "type": "paragraph",
-      "text": "OMe骨架1分,手性1分;骨架错误,手性也不得分,共2分"
-    },
-    {
-      "type": "paragraph",
-      "text": "答案:"
-    },
-    {
-      "type": "paragraph",
-      "text": "9.3.2用Newman 投影式表示以下底物参与反应的优势构象,并确定此底物在 \\mathrm { F e C l } _ { 3 } 作用下与 TMSCl 转化为产物的关键中间体(要求立体化学):"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000278-figure-010.jpg",
-      "assetId": "asset-005205",
-      "alt": "四级碳手性中心构建：第10幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "答案:"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000278-figure-011.jpg",
-      "assetId": "asset-005206",
-      "alt": "四级碳手性中心构建：第11幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "9.4类似的在四级碳上构建理想手性构型的方法也在其他研究中被广泛关注。Texas大学 的U.KTambar 小组进行了 Trigonoliimine C 的全合成研究。他们尝试,将原料 A 与4M HCl 的二氧六环(dioxane)溶液混合后,在二甲基乙酰胺(DMA)作溶剂下,以56%产率转化为化合物B,构建了TrigonoliimineC分子中的四级碳原子手性中心。"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000278-figure-012.jpg",
-      "assetId": "asset-005207",
-      "alt": "四级碳手性中心构建：第12幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "画出化合物B的立体结构,确定产物B中手性碳的绝对构型。"
-    },
-    {
-      "type": "paragraph",
-      "text": "答案:"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000278-figure-013.jpg",
-      "assetId": "asset-005208",
-      "alt": "四级碳手性中心构建：第13幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "NHR,骨架1分,手性1分;骨架错误,手性也不得分,共2分手性碳的构型为R(1分),共3分"
-    },
-    {
-      "type": "paragraph",
-      "text": "第21页,共25页"
-    },
-    {
-      "type": "paragraph",
-      "text": "9.5进一步研究发现,当原料 A在 S c ( O \\mathrm { T f } ) _ { 3 } 催化下转换形成产物C,画出此转换过程的关键中间体。"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000278-figure-014.jpg",
-      "assetId": "asset-005209",
-      "alt": "四级碳手性中心构建：第14幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "答案:"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000278-figure-015.jpg",
-      "assetId": "asset-005210",
-      "alt": "每个2分,骨架1分,手性1分;骨架错误,手性也不得分,共6分",
-      "label": "每个2分,骨架1分,手性1分;骨架错误,手性也不得分,共6分",
-      "caption": "每个2分,骨架1分,手性1分;骨架错误,手性也不得分,共6分",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "每个2分,骨架1分,手性1分;骨架错误,手性也不得分,共6分"
-    },
-    {
-      "type": "subpart",
-      "label": "9-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001577"
-    },
-    {
-      "type": "subpart",
-      "label": "9-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001578"
-    },
-    {
-      "type": "subpart",
-      "label": "9-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001579"
-    },
-    {
-      "type": "subpart",
-      "label": "9-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001580"
-    },
-    {
-      "type": "subpart",
-      "label": "9-5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001581"
-    },
-    {
-      "type": "subpart",
-      "label": "9-6",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001582"
-    },
-    {
-      "type": "subpart",
-      "label": "9-7",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001583"
-    },
-    {
-      "type": "subpart",
-      "label": "9-8",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001584"
-    },
-    {
-      "type": "subpart",
-      "label": "9-9",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001585"
-    },
-    {
-      "type": "subpart",
-      "label": "9-10",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001586"
-    },
-    {
-      "type": "subpart",
-      "label": "9-11",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001587"
-    },
-    {
-      "type": "subpart",
-      "label": "9-2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001590"
-    },
-    {
-      "type": "subpart",
-      "label": "9-2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001591"
-    },
-    {
-      "type": "subpart",
-      "label": "9-3-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001592"
-    },
-    {
-      "type": "subpart",
-      "label": "9-3-1-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001593"
-    },
-    {
-      "type": "subpart",
-      "label": "9-3-1-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001594"
-    },
-    {
-      "type": "subpart",
-      "label": "9-3-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001595"
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
     }
   ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  "parts": []
 }

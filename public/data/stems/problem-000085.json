@@ -1,135 +1,62 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000085",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "聚合物合成与热力学",
-  "number": "Q1",
+  "number": "1",
   "examYear": 2020,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000054",
     "sourceLabel": "2020-34-CChO-chusai.pdf",
-    "pages": [
-      1
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第1题(8分)"
-    },
-    {
-      "type": "subpart",
-      "label": "1-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出小分子 \\mathrm { C _ { 3 } F _ { 4 } } 可能的Lewis结构,标出三个碳原子成键时所采用的杂化轨道。"
-        }
-      ],
-      "partId": "part-001037"
-    },
-    {
-      "type": "subpart",
-      "label": "1-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "现有铝镁合金样品一份,称取 2.56 g 样品溶于 HCl,产生 2.80 L H<sub>2</sub> (101.325 kPa, 0 ~ ^ { \\circ } \\mathrm { C } ) ,通过计算,确定此合金组成。"
-        }
-      ],
-      "partId": "part-001038"
-    },
-    {
-      "type": "subpart",
-      "label": "1-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "构筑可循环再生的聚合物材料是解决目前白色污染的有效途径之一。"
-        }
-      ],
-      "partId": "part-001039"
-    },
-    {
-      "type": "subpart",
-      "label": "1-3-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "通常单官能度的单体无法参与聚合反应中的链增⻓,但单体A可以与B发生反应形成聚合物。画出该聚合物的结构式。"
-        }
-      ],
-      "partId": "part-001040"
-    },
-    {
-      "type": "subpart",
-      "label": "1-3-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "单体A,C,D按物质的量比例6:3:2进行共聚合,得到的聚合物不能进行热加工和循环利用;但若在共聚合时加入一定量(\\~10%)的B,得到的聚合物又具备了可热加工和循环利用的性能。简述原因。"
-        }
-      ],
-      "partId": "part-001041"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000085-figure-001.jpg",
-      "assetId": "asset-004990",
-      "alt": "聚合物合成与热力学：第1幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
+      "text": "第1题（8分） 1-1 画出小分⼦ $\\mathrm { C _ { 3 } F _ { 4 } }$ 可能的Lewis结构，标出三个碳原⼦成键时所采用的杂化轨道。 1-2 现有铝镁合金样品一份，称取 2.56 g 样品溶于 HCl，产生 2.80 L H 2 (101.325 kPa, $0 ~ ^ { \\circ } \\mathrm { C } )$ ，通过计算，确定此合金组成。 1-3 构筑可循环再生的聚合物材料是解决⽬前白色污染的有效途径之一。 1-3-1 通常单官能度的单体无法参与聚合反应中的链增长，但单体A可以与B发生反应形成聚合物。画出该聚合物的结构式。 1-3-2 单体A、C、D按物质的量比例6:3:2进⾏共聚合，得到的聚合物不能进⾏热加工和循环利用；但若在共聚合时加入一定量(\\~10%)的B，得到的聚合物⼜具备了可热加工和循环利用的性能。简述原因。"
     },
     {
       "type": "paragraph",
       "text": "A"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000085-figure-002.jpg",
-      "assetId": "asset-004991",
-      "alt": "聚合物合成与热力学：第2幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
       "type": "paragraph",
       "text": "B"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000085-figure-003.jpg",
-      "assetId": "asset-004992",
-      "alt": "聚合物合成与热力学：第3幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
     },
     {
       "type": "paragraph",
       "text": "C"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000085-figure-004.jpg",
-      "assetId": "asset-004993",
-      "alt": "聚合物合成与热力学：第4幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
       "type": "paragraph",
       "text": "D"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000085-figure-001.jpg",
+      "alt": "problem-000085题目配图第1幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000085-figure-002.jpg",
+      "alt": "problem-000085题目配图第2幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000085-figure-003.jpg",
+      "alt": "problem-000085题目配图第3幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000085-figure-004.jpg",
+      "alt": "problem-000085题目配图第4幅（已按原图查看）"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

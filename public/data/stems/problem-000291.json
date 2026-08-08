@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000291",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,61 +8,61 @@
   "examYear": 2006,
   "examStage": "preliminary",
   "source": {
+    "sourceDocumentId": "source-000037",
     "sourceLabel": "2006-20-CChO-chusai.pdf",
-    "pages": [
-      3
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000037"
+    "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第 12 题 有人设计了如下甲醇(methanol)合成工艺:"
+      "text": "其中,1为甲烷气源,压强250.0 kPa,温度25 °C,流速55.0 m3 s−1。2为水蒸气源,压强200.0 kPa,温度150 °C,流速150.0 m3 s−1。合成气和剩余反应物的混合物经管路3进入25 °C的冷凝器(condenser),冷凝物由管路5流出。在B中合成的甲醇和剩余反应物的混合物经6进入25 °C的冷凝器,甲醇冷凝后经管路7流出,其密度为0.791 g mL−1。"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000291-figure-001.jpg",
-      "alt": "原卷第12题图1：第 12 题 有人设计了如下甲醇(methanol)合成工艺:",
-      "displayWidth": 70,
-      "assetId": "asset-005485"
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "甲醇合成流程图"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-000291-01",
+      "label": "12-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "分别写出在步骤A和步骤B中所发生的化学反应的方程式。"
+        }
+      ]
     },
     {
-      "type": "paragraph",
-      "text": "其中,1为甲烷气源,压强250.0kPa,温度 $25 \\ { } ^ { \\circ } \\mathrm { C } ,$ 流速 $55.0 \\mathrm { m } ^ { 3 } \\mathrm { s } ^ { - 1 } ,$ .2为水蒸气源,压强200.0kPa,温度 $150 ~ ^ { \\circ } \\mathrm { C } ,$ 流速 $150.0 \\mathrm { { m } ^ { 3 } \\mathrm { { s } ^ { - 1 } } }$ .合成气和剩余反应物的混合物经管路3进入 $25 ~ ^ { \\circ } \\mathrm { C }$ 的冷凝器(condenser),冷凝物由管路5流 $\\mathbb { H } _ { \\circ }$ .在B中合成的甲醇和剩余反应物的混合物经6进入 $25 ~ ^ { \\circ } \\mathrm { C }$ 的冷凝器,甲醇冷凝后经管路7流出,其密度为 0.791gmL−1."
-    },
-    {
-      "type": "paragraph",
-      "text": "12- 别写出在步骤A和步骤B中所发生的化学反应的方程式."
-    },
-    {
-      "type": "subpart",
+      "id": "part-000291-02",
       "label": "12-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "假定:所有气体皆为理想气体,在步骤A和B中完全转化,气液在冷凝器中完全分离,计算经步骤A和步骤B后,在一秒钟内剩余物的量."
+          "text": "假定:所有气体皆为理想气体,在步骤A和B中完全转化,气液在冷凝器中完全分离,计算经步骤A和步骤B后,在一秒钟内剩余物的量。"
         }
-      ],
-      "partId": "part-002353"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000291-03",
       "label": "12-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "实际上,在步骤B中CO的转化率只有三分之二.计算在管路6中CO, $\\mathrm { H } _ { 2 }$ 和 $\\mathrm { CH _ { 3 } OH }$ 的分压(总压强为"
-        },
-        {
-          "type": "paragraph",
-          "text": "MPa)."
+          "text": "实际上,在步骤B中CO的转化率只有三分之二。计算在管路6中CO、H2和CH3OH的分压(总压强为10.0 MPa)。"
         }
-      ],
-      "partId": "part-002354"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000291-04",
       "label": "12-4",
       "blocks": [
         {
@@ -71,25 +71,13 @@
         },
         {
           "type": "paragraph",
-          "text": "$$"
+          "text": "$$K_p = \\frac{p(\\mathrm{CH_3OH}) \\cdot p_0^2}{p(\\mathrm{CO}) \\cdot p^2(\\mathrm{H_2})}$$"
         },
         {
           "type": "paragraph",
-          "text": "K _ {p} = \\frac {p (\\mathrm{CH} _ {3} \\mathrm{OH}) \\timesp _ {0} ^ {2}}{p (\\mathrm{CO}) \\timesp ^ {2} (\\mathrm{H} _ {2})}"
-        },
-        {
-          "type": "paragraph",
-          "text": "$$"
-        },
-        {
-          "type": "paragraph",
-          "text": "式中 ${ } ^ { 1 } p _ { 0 } \\ = 0.100 \\ \\mathrm { MPa }$ ,计算平衡常数 $K _ { p } .$ ."
+          "text": "式中 $p_0 = 0.100\\ \\mathrm{MPa}$,计算平衡常数 $K_p$。"
         }
-      ],
-      "partId": "part-002356"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

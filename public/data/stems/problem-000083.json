@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000083",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,31 +8,21 @@
   "examYear": 2019,
   "examStage": "final",
   "source": {
+    "sourceDocumentId": "source-000014",
     "sourceLabel": "2019-33-CChO-juesai.pdf",
-    "pages": [
-      4
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000014"
+    "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
-      "type": "subpart",
-      "label": "7-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "## 第7题"
-        },
-        {
-          "type": "paragraph",
-          "text": "目前家用小型制氧机大多以变压吸附方式工作,其原理是以空气为原料,在加压时吸附剂将空气中大部分氮气吸附,氧气和未被吸附的少量氮气被收集起来,得到富氧空气.被吸附的氮气在减压条件下通过尾气管排至大气.某小型家用常压制氧机的标称参数为额定功率100W,输出富氧空气中氧气浓度91%(体积分数),输出富氧空气流量为 $1.8 \\ : \\mathrm { L } \\ : \\mathrm { min ^ { - 1 } }$ ,工作温度为 $25 ~ ^ { \\circ } \\mathrm { C } _ { \\circ }$ 以空气进气量10mol为对象,计算达到分离效果所需要的最小能量以及该家用制氧机的能量效率.空气由体积分数为20%的氧气和80%的氮气组成,排出的尾气中只有氮气.所有气体均视作理想气体."
-        }
-      ],
-      "partId": "part-001995"
+      "type": "paragraph",
+      "text": "目前家用小型制氧机大多以变压吸附方式工作,其原理是以空气为原料,在加压时吸附剂将空气中大部分氮气吸附,氧气和未被吸附的少量氮气被收集起来,得到富氧空气。被吸附的氮气在减压条件下通过尾气管排至大气。某小型家用常压制氧机的标称参数为额定功率 100 W,输出富氧空气中氧气浓度 91%(体积分数),输出富氧空气流量为 $1.8\\ \\mathrm{L\\ min^{-1}}$,工作温度为 $25\\ ^\\circ\\mathrm{C}$。以空气进气量 10 mol 为对象,计算达到分离效果所需要的最小能量以及该家用制氧机的能量效率。空气由体积分数为 20% 的氧气和 80% 的氮气组成,排出的尾气中只有氮气。所有气体均视作理想气体。"
     }
   ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  "parts": []
 }

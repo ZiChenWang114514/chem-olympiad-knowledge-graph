@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000095",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,80 +8,80 @@
   "examYear": 2020,
   "examStage": "final",
   "source": {
+    "sourceDocumentId": "source-000015",
     "sourceLabel": "2020-34-CChO-juesai-1.pdf",
-    "pages": [
-      1,
-      5,
-      7
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000015"
+    "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "第1题 具有 $\\mathrm { R _ { 2 } C } \\mathrm { : }$ :形式的有机中间体称为卡宾,M.Driess等报道了基于呫吨⻣架的双X卡宾1和 ${ \\mathrm{Y} } _ { 4 }$ 进行反应,首次分离得到双X卡宾稳定的零价 $\\mathbf { Y } _ { 2 }$ 加合物 $2 _ { \\circ }$ .单晶X射线衍射实验测定显示,2中Y—Y键⻓为223.69pm,两个 X—Y 键⻓分别为 213.07pm 和 212.63pm,C—O—C 键⻆为 121.1°.已知某些原子的共价单键半径(pm)为:B, 82; C, 77; N, 75; O, 73; F, 72; A1, 118; Si, 117; P, 106; S, 102; Cl, 99"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000095-figure-001.jpg",
+      "alt": "晶体结构或分子模型示意图（原图）",
+      "caption": "模型A"
     },
     {
       "type": "figure",
-      "src": "data/stems/assets/problem-000095-figure-001.jpg",
-      "alt": "原卷第1题图1：第1题 具有 $\\mathrm { R _ { 2 } C } \\mathrm { : }$ :形式的有机中间体称为卡宾,M.Driess等",
-      "displayWidth": 70,
-      "assetId": "asset-005310"
-    },
+      "src": "data/stems/assets/problem-000095-figure-002.jpg",
+      "alt": "晶体结构或分子模型示意图（原图）",
+      "caption": "模型B"
+    }
+  ],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000095-01",
       "label": "1-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "工业上利用直接还原的方法将Y矿中的Y元素转化为单质 $\\mathbf { Y } _ { 4 \\mathrm { c } }$ .写出X和Y元素并画出 ${ \\mathrm{Y} } _ { 4 }$ 的几何构型,描述 ${ \\mathrm{Y} } _ { 4 }$ 中的Y—Y化学键形状."
+          "text": "电子工业中硅器件的腐蚀可以使用重铬酸盐溶液(反应1)或者氢氟酸和浓硝酸的混合液(反应2),写出反应1的离子反应方程式和反应2的化学反应方程式。"
         }
-      ],
-      "partId": "part-002007"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000095-02",
       "label": "1-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "研究发现, $\\mathrm { Li _ { 3 } N }$ 和 $\\mathrm { Y } _ { 2 } \\mathrm { S } _ { 5 }$ 按摩尔比3:2混合球磨反应1h,产生 $\\mathrm { Li } _ { 2 } \\mathrm { S } ,$ ,红色Y,氮气,化合物 $\\mathbf { A } ;$ ;进一步球磨,A与 $\\mathrm { Li } _ { 2 } \\mathrm { S }$ 反应产生B和红色 $\\mathbf { Y } _ { \\circ }$ .A和B可用于全固态锂离子可充电电池材料.A中阴离子含有Y—Y键,A中Y含量为21.95%;B中Y的含量为17.20%,B中阴离子具有四面体结构.推断A和B的化学式."
+          "text": "硅酸盐的结构和性质研究是无机化学内一个重要的方向。"
+        },
+        {
+          "type": "paragraph",
+          "text": "-1 硅酸盐基本结构单元 $[\\mathrm{SiO_4}]^{4-}$ 中的 Si—O 平均键长为 162 pm,从 Si、O 原子间的成键特征角度解释为何该平均键长小于 Si 和 O 原子的共价单键半径之和(190 pm)。"
+        },
+        {
+          "type": "paragraph",
+          "text": "-2 上述硅酸盐结构中的 Si(IV) 被 Al(III) 部分同构取代后会产生 Brönsted(布朗斯特)酸位,有如下图所示的模型 A 和 B 被提出来解释该酸性的产生。哪种模型结构中的羟基更易脱去质子?原因是什么?"
         }
-      ],
-      "partId": "part-002008"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000095-03",
       "label": "1-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出化合物2中O和X的杂化轨道."
-        }
-      ],
-      "partId": "part-002009"
-    },
-    {
-      "type": "subpart",
-      "label": "1-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "化合物2与N-杂环卡宾作用产生化合物3,化合物3进一步与[PhC(N!Bu)<sub>2</sub>]GeCl作用生成化合物C和含Ge的D;C和D含Y的质量百分数分别为3.90%和6.74%,D中Ge的配位数为 $3 _ { \\circ }$ .写出C和D的结构."
+          "text": "硅烷是一类重要的有机硅化合物,以π型官能化硅烷和杂原子型官能化硅烷为配体合成得到的配位化合物在催化和光电领域有可观的应用。"
         },
         {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000095-figure-002.jpg",
-          "alt": "原卷第1题图2：化合物2与N-杂环卡宾作用产生化合物3,化合物3进一步与[PhC(N!Bu)<sub>2</sub>]GeCl作用生成化合物C和含Ge的D;",
-          "displayWidth": 70,
-          "assetId": "asset-005311"
+          "type": "paragraph",
+          "text": "-1 研究表明,以硅原子为桥的二茂铁配合物 $[\\mathrm{Fe}(\\eta-C_5H_4)_2SiR_2]$ (R为烷基)可发生开环聚合而生成配位聚合物。画出 R 为甲基时该配合物和相应聚合产物的结构。"
+        },
+        {
+          "type": "paragraph",
+          "text": "-2 配合物 $[\\mathrm{Fe}(\\eta-C_5H_4)_2SiR_2]$ 的 R 基团为乙基时生成的配位聚合物记为 A,R 基团为正丁基时生成的配位聚合物记为 B;A 和 B 的聚合度相同。A 和 B 中哪一种具有较低的玻璃化转变温度?简述理由。"
+        },
+        {
+          "type": "paragraph",
+          "text": "-3 如下图所示的杂原子官能化硅烯在正己烷溶液中和羰基配合物 $\\mathrm{Ni(CO)_4}$ 发生配体取代反应释放出等物质的量的 $\\mathrm{CO}$,生成化合物 C;C 继续和该硅烯发生配体取代反应释放出等物质的量的 $\\mathrm{CO}$,生成化合物 D;上述反应前后配合物的空间构型不变,画出化合物 C 和 D 的结构式。"
         }
-      ],
-      "partId": "part-002010"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000344",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,147 +10,105 @@
   "source": {
     "sourceDocumentId": "source-000040",
     "sourceLabel": "2009-23-CChO-chusai.pdf",
-    "pages": [
-      3
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "blocks": [
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000344-01",
       "label": "8-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "化合物A是一种重要化工产品,用于生产染料、光电材料和治疗疣的药物等。A由第一、二周期元素组成,白色晶体,摩尔质量 $114.06\\ \\mathrm{g\\ mol^{-1}}$,熔点 $293\\ ^\\circ\\mathrm{C}$,酸常数 $\\mathrm{p}K_{a1}=1.5$,$\\mathrm{p}K_{a2}=3.4$;酸根离子 $\\mathrm{A}^{2-}$ 中同种化学键是等长的,存在一根四重旋转轴。"
         }
-      ],
-      "partId": "part-000717"
+      ]
     },
     {
-      "type": "subpart",
-      "label": "8-1-1",
+      "id": "part-000344-02",
+      "label": "8-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "-1 画出A的结构简式。"
         }
-      ],
-      "partId": "part-000726"
+      ]
     },
     {
-      "type": "subpart",
-      "label": "8-1-2",
+      "id": "part-000344-03",
+      "label": "8-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 为什么 $\\mathrm{A}^{2-}$ 离子中同种化学键是等长的？"
+          "text": "-2 为什么 $\\mathrm{A}^{2-}$ 离子中同种化学键是等长的?"
         }
-      ],
-      "partId": "part-000727"
+      ]
     },
     {
-      "type": "subpart",
-      "label": "8-1-3",
+      "id": "part-000344-04",
+      "label": "8-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-3 $\\mathrm{A}^{2-}$ 离子有几个镜面？"
+          "text": "-3 $\\mathrm{A}^{2-}$ 离子有几个镜面?"
         }
-      ],
-      "partId": "part-000728"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000344-05",
       "label": "8-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "顺(反)丁烯二酸的四个酸常数为 $1.17\\times 10^{-2}$,$9.3\\times 10^{-4}$,$2.9\\times 10^{-5}$ 和 $2.60\\times 10^{-7}$。指出这些常数分别是哪个酸的几级酸常数,并从结构与性质的角度简述你做出判断的理由。"
         }
-      ],
-      "partId": "part-000721"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000344-06",
       "label": "8-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "氨基磺酸是一种重要的无机酸,用途广泛,全球年产量逾40万吨,分子量为 $97.09$。晶体结构测定证实分子中有三种化学键,键长分别为 102、144 和 176 pm。氨基磺酸易溶于水,在水中的酸常数 $K_a = 1.01\\times 10^{-1}$,其酸根离子中也有三种键长,分别为 100、146 和 167 pm。"
         }
-      ],
-      "partId": "part-000722"
+      ]
     },
     {
-      "type": "subpart",
-      "label": "8-3-1",
+      "id": "part-000344-07",
+      "label": "8-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "-1 计算0.10 M氨基磺酸水溶液的 $\\mathrm{pH}$ 值。"
         }
-      ],
-      "partId": "part-000729"
+      ]
     },
     {
-      "type": "subpart",
-      "label": "8-3-2",
+      "id": "part-000344-08",
+      "label": "8-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 从结构与性质的关系解释为什么氨基磺酸是强酸？"
+          "text": "-2 从结构与性质的关系解释为什么氨基磺酸是强酸?"
         }
-      ],
-      "partId": "part-000730"
+      ]
     },
     {
-      "type": "subpart",
-      "label": "8-3-3",
+      "id": "part-000344-09",
+      "label": "8-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "-3 氨基磺酸可用作游泳池消毒剂氯水的稳定剂,这是因为氨基磺酸与 $\\mathrm{Cl_2}$ 的反应产物一氯代物能缓慢释放次氯酸。写出形成一氯代物以及一氯代物与水反应的方程式。"
         }
-      ],
-      "partId": "part-000731"
-    },
-    {
-      "type": "subpart",
-      "label": "8-1-1-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出A的结构简式。"
-        }
-      ],
-      "partId": "part-002603"
-    },
-    {
-      "type": "subpart",
-      "label": "8-3-1-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算0.10 M氨基磺酸水溶液的 $\\mathrm { p H }$ 值。"
-        }
-      ],
-      "partId": "part-002604"
-    },
-    {
-      "type": "subpart",
-      "label": "8-3-2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "从结构与性质的关系解释为什么氨基磺酸是强酸？"
-        }
-      ],
-      "partId": "part-002605"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

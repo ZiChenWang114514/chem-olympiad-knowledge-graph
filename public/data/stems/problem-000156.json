@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000156",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,67 +8,38 @@
   "examYear": 2021,
   "examStage": "final",
   "source": {
+    "sourceDocumentId": "source-000018",
     "sourceLabel": "2021-35-CChO-juesai-2.pdf",
-    "pages": [
-      6
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000018"
+    "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "## 第6题 有机反应的溶剂效应"
+      "text": "溶剂往往对有机反应的动力学和历程都具有重要的影响，被称为“溶剂效应”。 6-1 研究表明，无论使用⼄腈还是环⼰烷作溶剂，异戊二烯与⻢来酸酐的Diels-Alder反应的反应速率常数基本相同。然⽽，以下两个反应在⼄腈和环⼰烷中的速率常数却显著不同，分别对这两个反应的溶剂效应进⾏合理的解释："
     },
     {
       "type": "paragraph",
-      "text": "溶剂往往对有机反应的动力学和历程都具有重要的影响,被称为“溶剂效应”."
+      "text": "6-2 萘酚氧负离⼦具有两可亲核性质，可在不同的溶剂中进⾏氧端或碳端为主的烷基化反应。分析以下实验数据，对此结果给出合理的解释。"
     },
     {
-      "type": "subpart",
-      "label": "6-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "研究表明,无论使用乙腈还是环己烷作溶剂,异戊二烯与⻢来酸酐的Diels-Alder反应的反应速率常数基本相同.然而,以下两个反应在乙腈和环己烷中的速率常数却显著不同,分别对这两个反应的溶剂效应进行合理的解释:"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000156-figure-001.jpg",
-          "alt": "原卷第6题图1：研究表明,无论使用乙腈还是环己烷作溶剂,异戊二烯与⻢来酸酐的Diels-Alder反应的反应速率常数基本相同.然而,以下两个反应在乙腈和环己",
-          "displayWidth": 70,
-          "assetId": "asset-005362"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000156-figure-002.jpg",
-          "alt": "原卷第6题图2（结构或数据示意）",
-          "displayWidth": 70,
-          "assetId": "asset-005363"
-        }
-      ],
-      "partId": "part-002110"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000156-figure-001.jpg",
+      "alt": "problem-000156题目配图第1幅（已按原图查看）"
     },
     {
-      "type": "subpart",
-      "label": "6-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "萘酚氧负离子具有两可亲核性质,可在不同的溶剂中进行氧端或碳端为主的烷基化反应.分析以下实验数据,对此结果给出合理的解释."
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000156-figure-003.jpg",
-          "alt": "原卷第6题图3：萘酚氧负离子具有两可亲核性质,可在不同的溶剂中进行氧端或碳端为主的烷基化反应.分析以下实验数据,对此结果给出合理的解释.",
-          "displayWidth": 70,
-          "assetId": "asset-005364"
-        }
-      ],
-      "partId": "part-002111"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000156-figure-002.jpg",
+      "alt": "problem-000156题目配图第2幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000156-figure-003.jpg",
+      "alt": "problem-000156题目配图第3幅（已按原图查看）"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

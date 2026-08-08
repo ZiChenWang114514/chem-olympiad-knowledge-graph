@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000431",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,43 +8,37 @@
   "examYear": 2014,
   "examStage": "preliminary",
   "source": {
+    "sourceDocumentId": "source-000048",
     "sourceLabel": "2014-28-CChO-chusai.pdf",
-    "pages": [
-      1,
-      2
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000048"
+    "transcribedAt": "2026-08-08"
   },
-  "blocks": [
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [],
+  "parts": [
     {
-      "type": "paragraph",
-      "text": "第 4 题 2014 年 6 月 18 日,发明开夫拉(Kevlar)的波兰裔美国女化学家 StephanieKwolek 谢世,享年90岁.开夫拉的强度比钢丝高5倍,用于制防弹衣,也用于制从⻜机,装甲⻋,帆船到手机的多种部件.开夫拉可由对苯二胺和对苯二甲酸缩合而成."
-    },
-    {
-      "type": "subpart",
+      "id": "part-000431-01",
       "label": "4-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出用结构简式表达的生成链状高分子的反应式."
+          "text": "写出用结构简式表达的生成链状高分子的反应式。"
         }
-      ],
-      "partId": "part-002535"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000431-02",
       "label": "4-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出开夫拉高分子链间存在的3种主要分子间作用力."
+          "text": "写出开夫拉高分子链间存在的3种主要分子间作用力。"
         }
-      ],
-      "partId": "part-002536"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

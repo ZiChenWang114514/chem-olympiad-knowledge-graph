@@ -1,96 +1,40 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000233",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "盘状双层胶束电荷",
-  "number": "Q4",
+  "number": "4",
   "examYear": 2024,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000062",
     "sourceLabel": "2024-38-CChO-chusai.pdf",
-    "pages": [
-      2,
-      3
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "盘状双层胶束(bicelles)可用于模拟生物膜,研究膜蛋白与脂双层膜的相互作用。盘状双层胶束是扁平状的,厚度约为40 Å,直径约为400\\~600 Å。单一脂质在水环境中可形成双层胶束,形成的原理非常简单。"
+      "text": "盘状双层胶束(bicelles)可用于模拟生物膜，研究膜蛋白与脂双层膜的相互作用。盘状双层胶束是扁平状的，厚度约为40 Å，直径约为400\\~600 Å。单一脂质在水环境中可形成双层胶束，形成的原理非常简单。 向 DMPE 中加入缓冲液，振荡过夜，可制得盘状双层胶束。假设 DMPE 的 $pK_{a1}=1.0,\\quad pK_{a2}=9.0$ 。 1,2-Dimyristoyl-sn-glycero-3-phosphoethanolamine (DMPE)"
     },
     {
       "type": "paragraph",
-      "text": "向 DMPE 中加入缓冲液,振荡过夜,可制得盘状双层胶束。假设 DMPE 的 pK_{a1}=1.0,\\quad pK_{a2}=9.0 。"
-    },
-    {
-      "type": "paragraph",
-      "text": "1,2-Dimyristoyl-sn-glycero-3-phosphoethanolamine (DMPE)"
+      "text": "盘状双层胶束 4-1 若每个盘状双层胶束中含有 1000 个 DMPE 分子。计算此胶束分别在 pH 为 9.0 和 7.0 时所带的电荷数 (以电子电量 e⁻ 为单位)。 4-2 计算此胶束所带电荷小于 1 个电子电量时的 pH 范围。 4-3 列出与盘状双层胶束形状形成相关的作用力。 4- 4 将 $\\mathrm{pH}$ 值提高到9.0以上, 盘状双层胶束的形状将如何转变? 并给出你的理由。"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000233-figure-001.jpg",
-      "assetId": "asset-005107",
-      "alt": "原卷示意图：1,2-Dimyristoyl-sn-glycero-3-phosphoethanolamine (DMPE)",
-      "label": "1,2-Dimyristoyl-sn-glycero-3-phosphoethanolamine (DMPE)",
-      "caption": "1,2-Dimyristoyl-sn-glycero-3-phosphoethanolamine (DMPE)",
-      "displayWidth": 100
+      "alt": "problem-000233题目配图第1幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000233-figure-002.jpg",
-      "assetId": "asset-005108",
-      "alt": "原卷示意图：盘状双层胶束",
-      "label": "盘状双层胶束",
-      "caption": "盘状双层胶束",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "盘状双层胶束"
-    },
-    {
-      "type": "subpart",
-      "label": "4-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "若每个盘状双层胶束中含有 1000 个 DMPE 分子。计算此胶束分别在 pH 为 9.0 和 7.0 时所带的电荷数 (以电子电量 e− 为单位)。"
-        }
-      ],
-      "partId": "part-001297"
-    },
-    {
-      "type": "subpart",
-      "label": "4-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算此胶束所带电荷小于 1 个电子电量时的 pH 范围。"
-        }
-      ],
-      "partId": "part-001298"
-    },
-    {
-      "type": "subpart",
-      "label": "4-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "列出与盘状双层胶束形状形成相关的作用力。"
-        }
-      ],
-      "partId": "part-001299"
-    },
-    {
-      "type": "paragraph",
-      "text": "4- 4 将 \\mathrm{pH} 值提高到9.0以上, 盘状双层胶束的形状将如何转变方向 并给出你的理由。"
+      "alt": "problem-000233题目配图第2幅（已按原图查看）"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

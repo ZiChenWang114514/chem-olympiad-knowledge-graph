@@ -1,92 +1,49 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000308",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "过氧化氢醛反应合成",
-  "number": "Q9",
+  "number": "9",
   "examYear": 2007,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000038",
     "sourceLabel": "2007-21-CChO-chusai.pdf",
-    "pages": [
-      3
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第9题(10分)根据文献报道,醛基可和双氧水发生如下反应:"
+      "text": "第9题（10分）根据文献报道，醛基可和双氧⽔发生如下反应："
+    },
+    {
+      "type": "paragraph",
+      "text": "为了合成一类新药，选择了下列合成路线："
+    },
+    {
+      "type": "paragraph",
+      "text": "9-1 请写出A的化学式，画出B、C、D和缩醛G的结构式。 9-2 由E生成F和F生成G的反应分别属于哪类基本有机反应类型。 9-3 请画出化合物G的所有光活异构体。"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000308-figure-001.jpg",
-      "assetId": "asset-005219",
-      "alt": "过氧化氢醛反应合成：第1幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "为了合成一类新药,选择了下列合成路线:"
+      "alt": "problem-000308题目配图第1幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000308-figure-002.jpg",
-      "assetId": "asset-005220",
-      "alt": "过氧化氢醛反应合成：第2幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
+      "alt": "problem-000308题目配图第2幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000308-figure-003.jpg",
-      "assetId": "asset-005221",
-      "alt": "过氧化氢醛反应合成：第3幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "subpart",
-      "label": "9-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "请写出A的化学式,画出B,C,D和缩醛G的结构式。"
-        }
-      ],
-      "partId": "part-001632"
-    },
-    {
-      "type": "subpart",
-      "label": "9-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "由E生成F和F生成G的反应分别属于哪类基本有机反应类型。"
-        }
-      ],
-      "partId": "part-001633"
-    },
-    {
-      "type": "subpart",
-      "label": "9-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "请画出化合物G的所有光活异构体。"
-        }
-      ],
-      "partId": "part-001634"
+      "alt": "problem-000308题目配图第3幅（已按原图查看）"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

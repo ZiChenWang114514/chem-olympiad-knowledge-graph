@@ -1,95 +1,89 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000026",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "杂化钙钛矿晶体结构",
-  "number": "Q5",
+  "number": "5",
   "examYear": 2016,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000011",
     "sourceLabel": "2016-30-CChO-juesai.pdf",
-    "pages": [
-      2,
-      3
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "近年来,光电材料领域有一类有机/无机杂化材料获得突破,某该类材料由三种离子组成,其晶体的晶胞有4条沿体对⻆线的 \\lvert C _ { 3 } 轴,A为显正一价的阳离子或基团,其分数坐标为:(0, 0, 0);B为金属 \\mathrm { P b ^ { 2 + } } , \\mathrm { S n ^ { 2 + } } 等阳离子,其分数坐标为:(1/2, 1/2, 1/2);X 为 Cl−,Br−,I−等⻧素离子,分数坐标为:(0, 1/2, 1/2);(1/2, 0, 1/2);( 1 / 2 , 1 / 2 , 0 ) Q"
-    },
+      "text": "近年来,光电材料领域有一类有机/无机杂化材料获得突破,某该类材料由三种离子组成,其晶体的晶胞有4条沿体对角线的 $C_3$ 轴,A为显正一价的阳离子或基团,其分数坐标为 (0, 0, 0);B为金属 $\\mathrm{Pb^{2+}}$、$\\mathrm{Sn^{2+}}$ 等阳离子,其分数坐标为 (1/2, 1/2, 1/2);X 为 Cl−、Br−、I− 等卤素离子,分数坐标为 (0, 1/2, 1/2)、(1/2, 0, 1/2)、(1/2, 1/2, 0)。"
+    }
+  ],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000026-01",
       "label": "5-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "分别以●,⦁和○代表A,B和X离子,画出该晶体的正当晶胞。"
+          "text": "分别以●、⦁和○代表A、B和X离子,画出该晶体的正当晶胞。"
         }
-      ],
-      "partId": "part-000963"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000026-02",
       "label": "5-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出 A 为 \\mathrm { C H _ { 3 } N H _ { 3 } } ^ { + } ,B为Pb2+,X为I−形成晶体的化学式。"
+          "text": "写出 A 为 $\\mathrm{CH_3NH_3^+}$、B为 $\\mathrm{Pb^{2+}}$、X为 $\\mathrm{I^-}$ 形成晶体的化学式。"
         }
-      ],
-      "partId": "part-000964"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000026-03",
       "label": "5-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "指出A,B,X的配位数,并推断该晶体是否存在分离的配位离子。"
+          "text": "指出A、B、X的配位数,并推断该晶体是否存在分离的配位离子。"
         }
-      ],
-      "partId": "part-000965"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000026-04",
       "label": "5-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "某该类晶体材料的带隙 E _ { \\mathrm { g } } 为1.55 eV,计算其吸收光的波⻓。"
+          "text": "某该类晶体材料的带隙 $E_{\\mathrm{g}}$ 为1.55 eV,计算其吸收光的波长。"
         }
-      ],
-      "partId": "part-000966"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000026-05",
       "label": "5-5",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "通过改变晶体中的阳离子和/或阴离子,可能对其光电性能进行调节,但是为了使该晶体结构保持稳定,离子尺寸受到限制,即要求填隙离子半径与空隙半径比 方向 在一定范围。现有一同类晶体,B 位 Pb2+ 半径为 133 pm,X 位 I− 半径为 203 pm,如 方向 为 0.9‒1.05,试估算 A 位阳离子的半径范围。"
+          "text": "通过改变晶体中的阳离子和/或阴离子,可能对其光电性能进行调节,但是为了使该晶体结构保持稳定,离子尺寸受到限制,即要求填隙离子半径与空隙半径比 $r$ 在一定范围。现有一同类晶体,B 位 $\\mathrm{Pb^{2+}}$ 半径为 133 pm,X 位 $\\mathrm{I^-}$ 半径为 203 pm,如 $r$ 为 0.9‒1.05,试估算 A 位阳离子的半径范围。"
         }
-      ],
-      "partId": "part-000967"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000026-06",
       "label": "5-6",
       "blocks": [
         {
           "type": "paragraph",
           "text": "此类有机/无机杂化薄膜太阳能电池材料的优异特性源于其无机组分和有机组分特性的优异组合,请分别指出各自特性所起的作用。"
         }
-      ],
-      "partId": "part-000968"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

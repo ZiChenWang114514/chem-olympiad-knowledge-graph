@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000187",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,79 +10,42 @@
   "source": {
     "sourceDocumentId": "source-000021",
     "sourceLabel": "2022-36-CChO-juesai-1.pdf",
-    "pages": [
-      7,
-      8
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000187-figure-001.jpg",
-      "alt": "化学结构示意图(原图)",
-      "displayWidth": 80,
-      "caption": "题目配图",
-      "assetId": "asset-004756"
-    },
+      "alt": "化学结构示意图（原图）",
+      "caption": "题目配图"
+    }
+  ],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000187-01",
       "label": "9-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "画出如下反应的关键中间体,并解释形成此主要产物的原因。"
         }
-      ],
-      "partId": "part-000357"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000187-02",
       "label": "9-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "画出如下反应的关键中间体,解释反应的区域选择性和立体选择性。(提示:$\\mathrm{PhI(OAc)_2}$ 首先和 $\\mathrm{I_2}$ 反应,生成不稳定的中间体 $\\mathrm{IOH}$)"
         }
-      ],
-      "partId": "part-000358"
-    },
-    {
-      "type": "subpart",
-      "label": "9-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "研究发现,在D转变为E的过程中,如果不经反应1,直接在6M盐酸中, $135 ~ ^ { \\circ } \\mathrm { C }$ (封管反应)下进行水解,结果会有 50%收率的产物 F 生成,F 的 1H-NMR (500 MHz, CDCl<sub>3</sub>):δH 7.52-7.46 (m, 2H), 7.37 (brs, 1H), 7.02-6.95 (m, 2H), 2.93 (s,3H), 2.03 (dd, ？ = 14.5, 5.5 Hz, 1H), 1.97 (dd, ？ = 14.5, 7.2 Hz, 1H),1.64-1.52 (m, 1H), 0.82 (d, ？ = 6.6 Hz, 3H), 0.78 (d, $J = 6.7 \\ : \\mathrm { H z } , 3 \\mathrm { H } )$ 。(m表示多重峰,br表示宽峰,s表示单峰,dd表示双二重峰,d表示二重峰,？为耦合常数)。"
-        }
-      ],
-      "partId": "part-000359"
-    },
-    {
-      "type": "subpart",
-      "label": "9-3-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出D转化为E过程中反应1所得产物的结构式。"
-        }
-      ],
-      "partId": "part-000360"
-    },
-    {
-      "type": "subpart",
-      "label": "9-3-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出F的结构式。"
-        }
-      ],
-      "partId": "part-000361"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

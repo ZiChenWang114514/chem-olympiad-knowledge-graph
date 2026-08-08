@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000017",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,85 +10,17 @@
   "source": {
     "sourceDocumentId": "source-000050",
     "sourceLabel": "2016-30-CChO-chusai.pdf",
-    "pages": [
-      2
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第6题(14分) $\\mathrm { N _ { 2 } O _ { 4 } }$ 和 $\\mathrm { N O _ { 2 } }$ 的相互转化 $\\mathrm { N } _ { 2 } \\mathrm { O } _ { 4 } ( \\mathrm { g } ) 2 \\mathrm { N O } _ { 2 } ( \\mathrm { g } )$ 是讨论化学平衡问题的常用体系。已知该反应在295K和315K温度下平衡常数？⊖分别为0.100和0.400。将一定量的气体充入一个带活塞的特制容器,通过活塞移动使体系总压恒为 $1 \\mathrm { b a r } ( 1 \\mathrm { b a r } = 100 \\mathrm { k P a } )$ )。"
-    },
-    {
-      "type": "subpart",
-      "label": "6-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算295K下体系达平衡时 $\\mathrm { N _ { 2 } O _ { 4 } }$ 和 $\\mathrm { N O _ { 2 } }$ 的分压。"
-        }
-      ],
-      "partId": "part-000038"
-    },
-    {
-      "type": "subpart",
-      "label": "6-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "将上述体系温度升至315K,计算达平衡时 $\\mathrm { N _ { 2 } O _ { 4 } }$ 和 $\\mathrm { N O _ { 2 } }$ 的分压。"
-        }
-      ],
-      "partId": "part-000039"
-    },
-    {
-      "type": "subpart",
-      "label": "6-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算恒压下体系分别在315K和295K达平衡时的体积比及物质的量之比。"
-        }
-      ],
-      "partId": "part-000040"
-    },
-    {
-      "type": "subpart",
-      "label": "6-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "保持恒压条件下,不断升高温度,体系中NO 2 分压最大值的理论趋近值是多少(不考虑其他反应)？根据平衡关系式给出证明。"
-        }
-      ],
-      "partId": "part-000041"
-    },
-    {
-      "type": "subpart",
-      "label": "6-5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "上述体系在保持恒外压的条件下,温度从295K升至315K,下列说法正确的是: (a) 平衡向左移动 (b) 平衡不移动 (c) 平衡向右移动 (d) 三者均有可能"
-        }
-      ],
-      "partId": "part-000042"
-    },
-    {
-      "type": "subpart",
-      "label": "6-6",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "与体系在恒容条件下温度从295K升至315K的变化相比,恒压下体系温度升高,下列说法正确的是(简述理由,不要求计算): (a) 平衡移动程度更大 (b) 平衡移动程度更小 (c) 平衡移动程度不变 (d) 三者均有可能"
-        }
-      ],
-      "partId": "part-000043"
+      "text": "第6题（14分） $\\mathrm { N _ { 2 } O _ { 4 } }$ 和 $\\mathrm { N O _ { 2 } }$ 的相互转化 $\\mathrm { N } _ { 2 } \\mathrm { O } _ { 4 } ( \\mathrm { g } ) 2 \\mathrm { N O } _ { 2 } ( \\mathrm { g } )$ 是讨论化学平衡问题的常用体系。已知该反应在295K和315K温度下平衡常数?⊖分别为0.100和0.400。将一定量的气体充入一个带活塞的特制容器，通过活塞移动使体系总压恒为 $1 \\mathrm { b a r } ( 1 \\mathrm { b a r } = 1 0 0 \\mathrm { k P a } )$ )。 6-1 计算295K下体系达平衡时 $\\mathrm { N _ { 2 } O _ { 4 } }$ 和 $\\mathrm { N O _ { 2 } }$ 的分压。 6-2 将上述体系温度升⾄315K，计算达平衡时 $\\mathrm { N _ { 2 } O _ { 4 } }$ 和 $\\mathrm { N O _ { 2 } }$ 的分压。 6-3 计算恒压下体系分别在315K和295K达平衡时的体积比及物质的量之比。 6-4 保持恒压条件下，不断升高温度，体系中NO 2 分压最大值的理论趋近值是多少（不考虑其他反应）？根据平衡关系式给出证明。 6-5 上述体系在保持恒外压的条件下，温度从295K升⾄315K，下列说法正确的是： (a) 平衡向左移动 (b) 平衡不移动 (c) 平衡向右移动 (d) 三者均有可能 6-6 与体系在恒容条件下温度从295K升⾄315K的变化相比，恒压下体系温度升高，下列说法正确的是(简述理由，不要求计算)： (a) 平衡移动程度更大 (b) 平衡移动程度更小 (c) 平衡移动程度不变 (d) 三者均有可能"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

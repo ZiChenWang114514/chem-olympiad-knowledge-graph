@@ -1,136 +1,215 @@
 import { forwardRef, useEffect, useState, type CSSProperties } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import type { AppData } from '../lib/data'
-import { displayDisciplineForNode, displayTopicForNode } from '../lib/displayTaxonomy'
 import { displayProblemTitle, examStageLabel } from '../lib/format'
-import { getFollowOns, getNeighbors, getPrerequisites, getRelatedProblems, nodeTypeLabel, relationLabel } from '../lib/graph'
+import {
+  disciplineColor,
+  getFollowOns,
+  getNeighbors,
+  getPrerequisites,
+  getRelatedProblems,
+  nodeTypeLabel,
+  relationLabel,
+} from '../lib/graph'
 import type { GraphNode } from '../types'
+import { NodePicker } from './NodePicker'
 
 type Props = {
   data: AppData
   selected: GraphNode | null
   onSelect: (id: string) => void
   onClear: () => void
+  compact?: boolean
 }
 
 const RELATED_PREVIEW = 6
 
 export const Inspector = forwardRef<HTMLElement, Props>(function Inspector(
-  { data, selected, onSelect, onClear },
+  { data, selected, onSelect, onClear, compact = false },
   ref,
 ) {
+  const navigate = useNavigate()
+  const [pickerFilter, setPickerFilter] = useState('')
   const [showAllRelated, setShowAllRelated] = useState(false)
 
-  useEffect(() => setShowAllRelated(false), [selected?.id])
-  if (!selected) return null
+  useEffect(() => {
+    setShowAllRelated(false)
+  }, [selected?.id])
 
   const relationName = (id: string) => {
-    const rel = data.taxonomy.relations.find(item => item.id === id || item.predicate === id || item.name === id)
+    const rel = data.taxonomy.relations.find(r => r.id === id || r.predicate === id || r.name === id)
     return relationLabel(id, rel?.name)
   }
-  const neighbors = getNeighbors(selected.id, data.graph.edges, data.graph.nodes)
-  const prereq = getPrerequisites(selected.id, data.graph.edges, data.graph.nodes)
-  const follow = getFollowOns(selected.id, data.graph.edges, data.graph.nodes)
-  const related = getRelatedProblems(selected.id, data.problems)
+  const neighbors = selected ? getNeighbors(selected.id, data.graph.edges, data.graph.nodes) : []
+  const prereq = selected ? getPrerequisites(selected.id, data.graph.edges, data.graph.nodes) : []
+  const follow = selected ? getFollowOns(selected.id, data.graph.edges, data.graph.nodes) : []
+  const related = selected ? getRelatedProblems(selected.id, data.problems) : []
   const relatedShown = showAllRelated ? related : related.slice(0, RELATED_PREVIEW)
-  const discipline = displayDisciplineForNode(selected, data.graph)
-  const topic = displayTopicForNode(selected.id, data.graph)
+  const accent = selected ? disciplineColor(data.taxonomy.disciplines, selected.discipline) : undefined
 
   return (
     <aside
-      className="map-panel inspector has-selection"
+      className={`map-panel inspector${selected ? ' has-selection' : ''}${compact ? ' is-compact' : ''}`}
       ref={ref}
       data-testid="map-panel"
-      style={{ '--panel-accent': discipline.color } as CSSProperties}
     >
       <div className="sheet-handle" aria-hidden="true" />
-      <header className="panel-head">
-        <div className="panel-context">
-          {discipline.name}{topic ? ` / ${topic.name}` : ''} / {nodeTypeLabel(selected.type)}
-        </div>
-        <h2 data-testid="panel-title">{selected.label}</h2>
-        <button type="button" className="panel-clear" onClick={onClear}>清除选择</button>
-      </header>
 
-      <div className="panel-scroll">
-        {prereq.length ? (
-          <section className="panel-section">
-            <h3>建议先学 <small>{prereq.length}</small></h3>
-            <ul className="relation-list">
-              {prereq.map(node => (
-                <li key={node.id}>
-                  <span>先修</span>
-                  <button type="button" onClick={() => onSelect(node.id)} data-testid={`prereq-${node.id}`}>
-                    {node.label}
-                  </button>
-                </li>
-              ))}
-            </ul>
-          </section>
-        ) : null}
-
-        {follow.length ? (
-          <section className="panel-section">
-            <h3>后续知识 <small>{follow.length}</small></h3>
-            <ul className="relation-list">
-              {follow.map(node => (
-                <li key={node.id}>
-                  <span>后续</span>
-                  <button type="button" onClick={() => onSelect(node.id)} data-testid={`follow-${node.id}`}>
-                    {node.label}
-                  </button>
-                </li>
-              ))}
-            </ul>
-          </section>
-        ) : null}
-
-        {neighbors.length ? (
-          <section className="panel-section">
-            <h3>相关知识 <small>{neighbors.length}</small></h3>
-            <ul className="relation-list">
-              {neighbors.slice(0, 16).map(item => (
-                <li key={item.edgeId}>
-                  <span>{relationName(item.relation)}</span>
-                  <button type="button" onClick={() => onSelect(item.other.id)} data-testid={`neighbor-${item.other.id}`}>
-                    {item.other.label}
-                  </button>
-                </li>
-              ))}
-            </ul>
-          </section>
-        ) : null}
-
-        {related.length ? (
-          <section className="panel-section">
-            <h3>历年题目 <small>{related.length}</small></h3>
-            <ul className="problem-mini-list">
-              {relatedShown.map(problem => {
-                const exam = data.exams.find(item => item.id === problem.examId)
-                return (
-                  <li key={problem.id}>
-                    <Link to={`/exams/${problem.id}`} data-testid={`related-problem-${problem.id}`}>
-                      <b>{exam?.year} · {exam ? examStageLabel(exam.stage) : ''} · {problem.number}</b>
-                      <span>{displayProblemTitle(problem.title)}</span>
-                    </Link>
-                  </li>
-                )
-              })}
-            </ul>
-            {related.length > RELATED_PREVIEW ? (
-              <button type="button" className="text-action" onClick={() => setShowAllRelated(value => !value)}>
-                {showAllRelated ? '显示前六题' : `显示全部 ${related.length} 题`}
+      {selected ? (
+        <>
+          <div className="panel-head" style={{ '--panel-accent': accent } as CSSProperties}>
+            <div className="panel-head-row">
+              <h2 data-testid="panel-title">{selected.label}</h2>
+              <button type="button" className="panel-close" onClick={onClear} aria-label="清除选中" title="清除选中">
+                ×
               </button>
-            ) : null}
-          </section>
-        ) : null}
-      </div>
+            </div>
+            <p className="panel-meta">
+              <span className="panel-meta-pill">
+                {data.taxonomy.disciplines.find(d => d.id === selected.discipline || d.name === selected.discipline)
+                  ?.name || selected.discipline}
+              </span>
+              <span className="panel-meta-pill">{nodeTypeLabel(selected.type)}</span>
+              {typeof selected.importance === 'number' ? (
+                <span className="panel-meta-pill is-soft">重要度 {selected.importance}/5</span>
+              ) : null}
+            </p>
+          </div>
 
-      <footer className="panel-actions">
-        <Link className="btn-primary full" to={`/knowledge/${selected.id}`} data-testid="open-knowledge">
-          查看知识点
-        </Link>
-      </footer>
+          <div className="panel-scroll">
+            <section className="panel-section">
+              <h3>
+                相邻知识 <small>{neighbors.length}</small>
+              </h3>
+              {neighbors.length ? (
+                <ul className="relation-list">
+                  {neighbors.map(item => (
+                    <li key={item.edgeId}>
+                      <span className="relation-type">{relationName(item.relation)}</span>
+                      <button
+                        type="button"
+                        onClick={() => onSelect(item.other.id)}
+                        data-testid={`neighbor-${item.other.id}`}
+                      >
+                        {item.other.label}
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <p className="muted">暂无相邻关系标注。</p>
+              )}
+            </section>
+
+            <section className="panel-section">
+              <h3>
+                建议先学 <small>{prereq.length}</small>
+              </h3>
+              {prereq.length ? (
+                <ul className="relation-list">
+                  {prereq.map(node => (
+                    <li key={node.id}>
+                      <span className="relation-type">先修于当前</span>
+                      <button type="button" onClick={() => onSelect(node.id)} data-testid={`prereq-${node.id}`}>
+                        {node.label}
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <p className="muted">暂无先修标注。</p>
+              )}
+            </section>
+
+            <section className="panel-section">
+              <h3>
+                可继续学习 <small>{follow.length}</small>
+              </h3>
+              {follow.length ? (
+                <ul className="relation-list">
+                  {follow.map(node => (
+                    <li key={node.id}>
+                      <span className="relation-type">以当前为先修</span>
+                      <button type="button" onClick={() => onSelect(node.id)} data-testid={`follow-${node.id}`}>
+                        {node.label}
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <p className="muted">暂无后续标注。</p>
+              )}
+            </section>
+
+            <section className="panel-section">
+              <h3>
+                相关历年题目 <small>{related.length}</small>
+              </h3>
+              {related.length ? (
+                <>
+                  <ul className="problem-mini-list">
+                    {relatedShown.map(problem => {
+                      const exam = data.exams.find(e => e.id === problem.examId)
+                      return (
+                        <li key={problem.id}>
+                          <Link to={`/exams/${problem.id}`} data-testid={`related-problem-${problem.id}`}>
+                            <b>
+                              {exam?.year} · {exam ? examStageLabel(exam.stage) : ''} · {problem.number}
+                            </b>
+                            <span>{displayProblemTitle(problem.title)}</span>
+                          </Link>
+                        </li>
+                      )
+                    })}
+                  </ul>
+                  {related.length > RELATED_PREVIEW ? (
+                    <button
+                      type="button"
+                      className="node-picker-more"
+                      onClick={() => setShowAllRelated(v => !v)}
+                    >
+                      {showAllRelated ? '收起题目列表' : `查看全部 ${related.length} 题`}
+                    </button>
+                  ) : null}
+                </>
+              ) : (
+                <p className="muted" data-testid="problems-pending">
+                  该节点尚无公开的节点级题目映射，待标注。
+                </p>
+              )}
+            </section>
+          </div>
+
+          <div className="panel-actions">
+            <button
+              type="button"
+              className="btn-primary full"
+              onClick={() => navigate(`/knowledge/${selected.id}`)}
+              data-testid="open-knowledge"
+            >
+              打开知识页
+            </button>
+          </div>
+        </>
+      ) : (
+        <>
+          <div className="panel-idle-head">
+            <h2>选择知识节点</h2>
+            <p className="muted">点图中节点，或从列表选择。双击节点可直接打开知识页。</p>
+            <label className="picker-filter">
+              <span className="visually-hidden">过滤节点</span>
+              <input
+                type="search"
+                value={pickerFilter}
+                onChange={e => setPickerFilter(e.target.value)}
+                placeholder="过滤列表…（支持名称）"
+                autoComplete="off"
+              />
+            </label>
+          </div>
+          <NodePicker data={data} onSelect={onSelect} filter={pickerFilter} />
+        </>
+      )}
     </aside>
   )
 })

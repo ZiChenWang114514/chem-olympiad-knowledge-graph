@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000444",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,114 +10,19 @@
   "source": {
     "sourceDocumentId": "source-000009",
     "sourceLabel": "2014-28-CChO-juesai.pdf",
-    "pages": [
-      3
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "blocks": [
-    {
-      "type": "subpart",
-      "label": "6",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "6 · 自由能关系式判断"
-        }
-      ],
-      "partId": "part-000902"
-    },
-    {
-      "type": "subpart",
-      "label": "6-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算在 298 K 时,当 $\\mathrm { { N a H C O _ { 3 } ( s ) } }$ $\\mathrm { N a _ { 2 } C O _ { 3 } ( s ) }$ 和 $\\mathrm { N H _ { 4 } H C O _ { 3 } ( s ) }$ 平衡共存时氨的分压 $p _ { \\mathrm { N H } _ { 3 } }$"
-        }
-      ],
-      "partId": "part-000903"
-    },
-    {
-      "type": "subpart",
-      "label": "6-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "将 NaHCO<sub>3</sub>(s), $\\mathrm { N a _ { 2 } C O _ { 3 } ( s ) }$ 和 $\\mathrm { N H _ { 4 } H C O _ { 3 } ( s ) }$ 放入一个真空容器中平衡后,体系的独立组分数？,相数 $\\scriptstyle \\cdot \\varphi$ 和自由度？各为多少？"
-        }
-      ],
-      "partId": "part-000904"
-    },
-    {
-      "type": "subpart",
-      "label": "6-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算当 $p _ { \\mathrm { N H } _ { 3 } } = p ^ { \\ominus } / 2 \\sharp \\updownarrow$ $\\mathrm { { N a H C O _ { 3 } ( s ) } }$ $\\mathrm { N a _ { 2 } C O _ { 3 } ( s ) }$ 和 $\\mathrm { N H _ { 4 } H C O _ { 3 } ( s ) }$ 平衡共存的温度。"
-        }
-      ],
-      "partId": "part-000905"
-    },
-    {
-      "type": "subpart",
-      "label": "6-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "在 298 K 时,将 $\\mathrm { { N a H C O _ { 3 } ( s ) } }$ $\\mathrm { N a _ { 2 } C O _ { 3 } ( s ) }$ 和 $\\mathrm { N H _ { 4 } H C O _ { 3 } ( s ) }$ 共同置于密闭容器中,使 $\\mathrm { N H _ { 4 } H C O _ { 3 } ( s ) }$ 免受更多的分解,这种设想能否实现？请用热力学原理计算说明。"
-        }
-      ],
-      "partId": "part-000906"
-    },
-    {
-      "type": "subpart",
-      "label": "6-5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "在 373 K, $p ^ { \\ominus }$ 条件下,将含有 $\\mathrm { H _ { 2 } O ( g ) }$ 和 $\\mathrm { C O _ { 2 } ( g ) }$ 通过 $\\mathrm { { N a H C O _ { 3 } ( s ) } }$ ,计算:为避免 $\\mathrm { { N a H C O _ { 3 } ( s ) } }$ 分解,气流中水的摩尔分数。"
-        }
-      ],
-      "partId": "part-000907"
-    },
-    {
-      "type": "subpart",
-      "label": "6-6",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "CO<sub>2</sub>(g)温室气体,焙烧 $\\mathrm { C a C O _ { 3 } } ( s )$ 时产生过程有两种:"
-        }
-      ],
-      "partId": "part-000908"
-    },
-    {
-      "type": "subpart",
-      "label": "6-6-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "$\\mathrm { C a C O _ { 3 } ( s ) }$ 热分解制生石灰,不同温度下的分解压力即 $\\mathrm { C O _ { 2 } }$ 点平衡压力示于下表。由 $\\mathrm { C a C O _ { 3 } ( s ) }$ 烧制生石灰时,若窑中气体不与外界对流,则窑温至少应维持多少度？"
-        }
-      ],
-      "partId": "part-000909"
-    },
-    {
-      "type": "subpart",
-      "label": "6-6-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "用焦炭作燃料产生 $\\mathrm { C O } _ { 2 } \\mathrm { { : } }$ :若通入空气的量恰好能使其中的 $\\mathrm { O _ { 2 } }$ 完全转化为 $\\mathrm { C O } _ { 2 } ,$ ,燃烧后的气体从窖顶逸出,欲使 $\\mathrm { C a C O _ { 3 } ( s ) }$ 不断分解,窑的温度最低维持多少？(设空气体积分数为 $21.0 \\% \\mathrm { O } _ { 2 }$ 和 $79.0 \\% \\mathrm { N } _ { 2 } .$ ,每种气体均看作理想气体)"
-        }
-      ],
-      "partId": "part-000910"
-    }
-  ],
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
   "renderingHints": {
     "mhchem": true
-  }
+  },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "6 · 自由能关系式判断"
+    }
+  ],
+  "parts": []
 }

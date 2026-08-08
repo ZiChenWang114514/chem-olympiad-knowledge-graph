@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000094",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,140 +10,62 @@
   "source": {
     "sourceDocumentId": "source-000054",
     "sourceLabel": "2020-34-CChO-chusai.pdf",
-    "pages": [
-      4,
-      5
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第10题(16分)反应中间体和反应式"
-    },
-    {
-      "type": "subpart",
-      "label": "10-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "请为以下转换提供合理的中间体"
-        },
-        {
-          "type": "paragraph",
-          "text": "中的转换方式,画出以下反应主要产物的结构简式。"
-        }
-      ],
-      "partId": "part-000174"
-    },
-    {
-      "type": "subpart",
-      "label": "10-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "参照"
-        }
-      ],
-      "partId": "part-000175"
-    },
-    {
-      "type": "subpart",
-      "label": "10-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "以下反应是天然产物顺式茉莉酮全合成中的一步:"
-        }
-      ],
-      "partId": "part-000177"
+      "text": "第10题（16分）反应中间体和反应式 10-1 请为以下转换提供合理的中间体"
     },
     {
       "type": "paragraph",
-      "text": "仔细分析这个反应转换过程三元环的作用,并在此基础上完成10-3-1和10-3-2中的反应,画出主要产物的结构简式(不考虑产物的立体化学): 10-3-1"
+      "text": "10-2 参照10-1中的转换方式，画出以下反应主要产物的结构简式。"
     },
     {
-      "type": "subpart",
-      "label": "10-3-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "-2"
-        }
-      ],
-      "partId": "part-000182"
+      "type": "paragraph",
+      "text": "10-3 以下反应是天然产物顺式茉莉酮全合成中的一步："
     },
     {
-      "type": "subpart",
-      "label": "10-3-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "-3 画出"
-        }
-      ],
-      "partId": "part-000183"
+      "type": "paragraph",
+      "text": "仔细分析这个反应转换过程三元环的作用，并在此基础上完成10-3-1和10-3-2中的反应，画出主要产物的结构简式（不考虑产物的⽴体化学）： 10-3-1"
     },
     {
-      "type": "subpart",
-      "label": "10-3-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "-1转换中中间体的结构简式。"
-        }
-      ],
-      "partId": "part-000181"
+      "type": "paragraph",
+      "text": "10-3-2"
+    },
+    {
+      "type": "paragraph",
+      "text": "10-3-3 画出10-3-1转换中中间体的结构简式。"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000094-figure-001.jpg",
-      "alt": "有机合成与机理相关结构或反应图,第1幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004681"
+      "alt": "problem-000094题目配图第1幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000094-figure-002.jpg",
-      "alt": "有机合成与机理相关结构或反应图,第2幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004682"
+      "alt": "problem-000094题目配图第2幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000094-figure-003.jpg",
-      "alt": "有机合成与机理相关结构或反应图,第3幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004683"
+      "alt": "problem-000094题目配图第3幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000094-figure-004.jpg",
-      "alt": "有机合成与机理相关结构或反应图,第4幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004684"
+      "alt": "problem-000094题目配图第4幅（已按原图查看）"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000094-figure-005.jpg",
-      "alt": "有机合成与机理相关结构或反应图,第5幅,保留原卷标注",
-      "displayWidth": 80,
-      "assetId": "asset-004685"
-    },
-    {
-      "type": "subpart",
-      "label": "10-3-3-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出10-3-1转换中中间体的结构简式。"
-        }
-      ],
-      "partId": "part-002594"
+      "alt": "problem-000094题目配图第5幅（已按原图查看）"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

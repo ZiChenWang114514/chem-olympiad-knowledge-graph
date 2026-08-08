@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000412",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,80 +8,66 @@
   "examYear": 2013,
   "examStage": "preliminary",
   "source": {
+    "sourceDocumentId": "source-000047",
     "sourceLabel": "2013-27-CChO-chusai.pdf",
-    "pages": [
-      1
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000047"
+    "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第5题 $\\mathbf { M } _ { 3 } \\mathbf { X } \\mathbf { Y }$ 呈反钙钛矿结构,是一种良好的离子导体.M为金属元素,X和Y为非金属元素,三者均为短周期元素且原子序数 $( \\mathbf { X } ) < Z ( \\mathbf { M } ) < Z ( \\mathbf { Y } )$ $\\mathbf { M } _ { 3 } \\mathbf { X } \\mathbf { Y }$ 可由M和X,M和Y的二元化合物在约500K,3MPa的惰性气氛中反应得到.为避免采用高压条件,研究者发展了常压下的合成反应:"
+      "text": "$$\\mathbf{M} + \\mathbf{MXA} + \\mathbf{MY} \\rightarrow \\mathbf{M_3XY} + \\frac{1}{2}\\mathrm{A_2(g)}$$"
     },
     {
       "type": "paragraph",
-      "text": "$$"
-    },
+      "text": "$\\mathbf{A_2}$ 无色无味。反应消耗 0.93 g M 可获得 0.50 L $\\mathbf{A_2}$ 气体 $(25~^{\\circ}\\mathrm{C}, 100\\,\\mathrm{kPa})$。(气体常量 $R = 8.314\\,\\mathrm{kPa\\,L\\,mol^{-1}\\,K^{-1}}$)"
+    }
+  ],
+  "parts": [
     {
-      "type": "paragraph",
-      "text": "\\mathbf {M} + \\mathbf {MXA} + \\mathbf {MY} \\rightarrow \\mathbf {M} _ {3} \\mathbf {XY} + 1 / 2 \\mathrm{A} _ {2} (\\mathrm{g})"
-    },
-    {
-      "type": "paragraph",
-      "text": "$$"
-    },
-    {
-      "type": "paragraph",
-      "text": "$\\mathbf { A } _ { 2 }$ 无色无味.反应消耗 0.93gM 可获得 0.50L $\\mathbf { A } _ { 2 }$ 气体 $( 25 ~ ^ { \\circ } \\mathrm { C } , 100 \\mathrm { kPa } )$ .(气体常量 $R = 8.314 \\mathrm { { kPa } } \\dot { . }$ L$\\mathrm { mol ^ { - 1 } K ^ { - 1 } } )$"
-    },
-    {
-      "type": "subpart",
+      "id": "part-000412-01",
       "label": "5-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算M的摩尔质量."
+          "text": "计算 M 的摩尔质量。"
         }
-      ],
-      "partId": "part-002516"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000412-02",
       "label": "5-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "A,M,X,Y各是什么"
+          "text": "A、M、X、Y 各是什么?"
         }
-      ],
-      "partId": "part-002517"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000412-03",
       "label": "5-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出 $\\mathbf { M } _ { 3 } \\mathbf { X } \\mathbf { Y }$ 发生水解的方程式."
+          "text": "写出 $\\mathbf{M_3XY}$ 发生水解的方程式。"
         }
-      ],
-      "partId": "part-002518"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000412-04",
       "label": "5-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$\\mathbf { M } _ { 3 } \\mathbf { X } \\mathbf { Y }$ 晶体属于立方晶系,若以X为正当晶胞的顶点,写出M和Y的坐标以及该晶体的最小重复单位."
+          "text": "$\\mathbf{M_3XY}$ 晶体属于立方晶系,若以 X 为正当晶胞的顶点,写出 M 和 Y 的坐标以及该晶体的最小重复单位。"
         }
-      ],
-      "partId": "part-002519"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

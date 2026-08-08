@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000203",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,107 +10,100 @@
   "source": {
     "sourceDocumentId": "source-000060",
     "sourceLabel": "2023-37-CChO-chusai.pdf",
-    "pages": [
-      3
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "MAX相是一大类具有层状结构的金属碳化物或氮化物的总称,其中M为Ti、V、Nb等前过渡金属,X为碳或氮,A为Al、Sn、Ge、Sb等p区元素。MAX的结构中,M原子形成理想的密置层,M层之间采取密堆积(可连续分布)与简单六方堆积(通常以单层呈现)按一定方式有序堆叠形成三维结构。结构中,X填充在M层密堆积形成的所有八面体空隙中,A则有序占据M层简单六方堆积所形成空隙的一半,将其中的A元素选择性除去,可以分离得到二维的层状结构,称为MXene。MXene层中,最外层M可进一步与卤素、羟基等-1价端基T按1:1结合,形成端基T功能化的MXene (T-MXene)。因此,MXene的组成和结构多样且可调控,是当前二维材料的研究热点。"
-    },
+      "text": "MAX相是一大类具有层状结构的金属碳化物或氮化物的总称,其中M为Ti、V、Nb等前过渡金属,X为碳或氮,A为Al、Sn、Ge、Sb等p区元素。MAX的结构中,M原子形成理想的密置层,M层之间采取密堆积(可连续分布)与简单六方堆积(通常以单层呈现)按一定方式有序堆叠形成三维结构。结构中,X填充在M层密堆积形成的所有八面体空隙中,A则有序占据M层简单六方堆积所形成空隙的一半,将其中的A元素选择性除去,可以分离得到二维的层状结构,称为MXene。MXene层中,最外层M可进一步与卤素、羟基等−1价端基T按1:1结合,形成端基T功能化的MXene (T-MXene)。因此,MXene的组成和结构多样且可调控,是当前二维材料的研究热点。"
+    }
+  ],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000203-01",
       "label": "6-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "若 MAX 相中 M 和 A 的原子数比为？,写出 MAX 相(O)、二维 MXene 层(P)和 T-MXene(Q)的组成通式。Q中T为-1价端基。"
+          "text": "若 MAX 相中 M 和 A 的原子数比为?,写出 MAX 相(O)、二维 MXene 层(P)和 T-MXene(Q)的组成通式。Q中T为−1价端基。"
         }
-      ],
-      "partId": "part-000383"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000203-02",
       "label": "6-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "某碳化物MAX相 $\\mathrm{Ti}_{x}\\mathrm{Al}_{y}\\mathrm{C}_{z}$ 结构属六方晶系,Ti 层的排列方式为...ABCCBAABCCBA...。"
         }
-      ],
-      "partId": "part-000384"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000203-03",
       "label": "6-2-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "写出 $\\mathrm{Ti}_{x}\\mathrm{Al}_{y}\\mathrm{C}_{z}$ 晶胞的组成"
         }
-      ],
-      "partId": "part-000385"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000203-04",
       "label": "6-2-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "已知 $\\mathrm{Ti}_{x}\\mathrm{Al}_{y}\\mathrm{C}_{z}$ 晶胞参数 $a=0.306\\ \\mathrm{nm}$,$c=1.856\\ \\mathrm{nm}$。将M层密堆积形成的八面体近似为正八面体,计算简单六方排布相邻层的间距$d$(单位:nm)。"
         }
-      ],
-      "partId": "part-000386"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000203-05",
       "label": "6-2-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "$\\mathrm{Ti}_{x}\\mathrm{Al}_{y}\\mathrm{C}_{z}$ 结构中,碳原子处在Ti层密堆积形成的八面体中。若将晶胞原点选在处于堆积中B层的Ti上,此时所有的Al恰好均处在$c$轴上。写出晶胞中所有碳原子的坐标参数。"
         }
-      ],
-      "partId": "part-000387"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000203-06",
       "label": "6-2-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "将 $\\mathrm{Ti}_{x}\\mathrm{Al}_{y}\\mathrm{C}_{z}$ 在HF溶液中超声处理,可选择去除其中的Al层,得到二维结构的MXene片层 $\\mathrm{Ti}_{x}\\mathrm{C}_{z}$ (反应1),$\\mathrm{Ti}_{x}\\mathrm{C}_{z}$ 进一步与F-反应形成F-MXene(反应2)。写出反应1和2的化学方程式。"
+          "text": "将 $\\mathrm{Ti}_{x}\\mathrm{Al}_{y}\\mathrm{C}_{z}$ 在HF溶液中超声处理,可选择去除其中的Al层,得到二维结构的MXene片层 $\\mathrm{Ti}_{x}\\mathrm{C}_{z}$ (反应1),$\\mathrm{Ti}_{x}\\mathrm{C}_{z}$ 进一步与F−反应形成F-MXene(反应2)。写出反应1和2的化学方程式。"
         }
-      ],
-      "partId": "part-000388"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000203-07",
       "label": "6-2-5",
       "blocks": [
         {
           "type": "paragraph",
           "text": "T-MXene的性质与端基T密切相关,利用熔融 $\\mathrm{ZnCl}_{2}$ 与 $\\mathrm{Ti}_{x}\\mathrm{Al}_{y}\\mathrm{C}_{z}$ 在 $550\\ ^{\\circ}\\mathrm{C}$ 反应5h,可以得到Cl为端基的 Cl-MXene(反应 3)。将 Cl-MXene 在 CsCl-KCl-LiCl 混合熔盐与 $\\mathrm{Li}_{2}\\mathrm{Se}$ 反应 18 h,可以得到端基为Se的Se-MXene(反应4)。写出反应3和4的化学方程式。"
         }
-      ],
-      "partId": "part-000389"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000203-08",
       "label": "6-2-6",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "对于6-2-4中用HF水溶液处理得到的F-MXene,能否发生与6-2-5中反应4类似的反应？简述原因。"
+          "text": "对于6-2-4中用HF水溶液处理得到的F-MXene,能否发生与6-2-5中反应4类似的反应?简述原因。"
         }
-      ],
-      "partId": "part-000390"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

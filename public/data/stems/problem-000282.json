@@ -1,124 +1,62 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000282",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "异构化过程图解",
-  "number": "Q3",
+  "number": "3",
   "examYear": 2006,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000037",
     "sourceLabel": "2006-20-CChO-chusai.pdf",
-    "pages": [
-      1
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第3题(8分)下面四张图是用计算机制作的在密闭容器里,在不同条件下进行的异构化反应X ⇌ Y的进程图解。图中的◇是 X,◆是 \\mathbf { Y } _ { \\circ }"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000282-figure-001.jpg",
-      "assetId": "asset-005211",
-      "alt": "异构化过程图解：第1幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
+      "text": "第3题（8分）下面四张图是用计算机制作的在密闭容器⾥，在不同条件下进⾏的异构化反应X ⇌ Y的进程图解。图中的◇是 X，◆是 $\\mathbf { Y } _ { \\circ }$"
     },
     {
       "type": "paragraph",
       "text": "A"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000282-figure-002.jpg",
-      "assetId": "asset-005212",
-      "alt": "异构化过程图解：第2幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
       "type": "paragraph",
       "text": "B"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000282-figure-003.jpg",
-      "assetId": "asset-005213",
-      "alt": "异构化过程图解：第3幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
     },
     {
       "type": "paragraph",
       "text": "C"
     },
     {
+      "type": "paragraph",
+      "text": "D 3-1 图中的纵坐标表示 （填入物理量，下同）；横坐标表示 0 3-2 平衡常数?最小的图是 C 3-3 平衡常数?最大的图是 3-4 平衡常数? = 1的图是"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000282-figure-001.jpg",
+      "alt": "problem-000282题目配图第1幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000282-figure-002.jpg",
+      "alt": "problem-000282题目配图第2幅（已按原图查看）"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000282-figure-003.jpg",
+      "alt": "problem-000282题目配图第3幅（已按原图查看）"
+    },
+    {
       "type": "figure",
       "src": "data/stems/assets/problem-000282-figure-004.jpg",
-      "assetId": "asset-005214",
-      "alt": "异构化过程图解：第4幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "D"
-    },
-    {
-      "type": "subpart",
-      "label": "3-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "图中的纵坐标表示 (填入物理量,下同);横坐标表示 0"
-        }
-      ],
-      "partId": "part-001596"
-    },
-    {
-      "type": "subpart",
-      "label": "3-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "平衡常数方向最小的图是 C"
-        }
-      ],
-      "partId": "part-001597"
-    },
-    {
-      "type": "subpart",
-      "label": "3-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "平衡常数方向最大的图是"
-        }
-      ],
-      "partId": "part-001598"
-    },
-    {
-      "type": "subpart",
-      "label": "3-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "平衡常数方向 = 1的图是"
-        }
-      ],
-      "partId": "part-001599"
+      "alt": "problem-000282题目配图第4幅（已按原图查看）"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

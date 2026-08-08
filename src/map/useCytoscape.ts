@@ -2,8 +2,7 @@ import { useEffect, useRef } from 'react'
 import cytoscape, { type Core, type EventObject } from 'cytoscape'
 import { useNavigate } from 'react-router-dom'
 import type { AppData } from '../lib/data'
-import type { GraphData, GraphNode } from '../types'
-import { displayTaxonomyDisciplines } from '../lib/displayTaxonomy'
+import type { GraphNode } from '../types'
 import { buildCyStyle, defaultLayoutOptions } from './cyStyle'
 import { buildClusterPositions, shouldUseClusterLayout } from './layoutCluster'
 
@@ -56,13 +55,12 @@ function applyLabelVisibility(cy: Core, nodeCount: number, selectedId?: string |
 
 type Options = {
   data: AppData
-  graph: GraphData
   selectedId?: string | null
   onSelect: (nodeId: string | null) => void
   expanded?: boolean
 }
 
-export function useCytoscape({ data, graph, selectedId = null, onSelect, expanded = false }: Options) {
+export function useCytoscape({ data, selectedId = null, onSelect, expanded = false }: Options) {
   const container = useRef<HTMLDivElement>(null)
   const cyRef = useRef<Core | null>(null)
   const onSelectRef = useRef(onSelect)
@@ -76,18 +74,18 @@ export function useCytoscape({ data, graph, selectedId = null, onSelect, expande
   useEffect(() => {
     if (!container.current) return
     const compact = isCompactViewport()
-    const nodeCount = graph.nodes.length
+    const nodeCount = data.graph.nodes.length
     const useCluster = shouldUseClusterLayout(nodeCount)
 
     const positions = useCluster
-      ? buildClusterPositions(graph.nodes, graph.edges, displayTaxonomyDisciplines(), {
+      ? buildClusterPositions(data.graph.nodes, data.graph.edges, data.taxonomy.disciplines, {
           compact,
           expanded,
         })
       : null
 
     const degree = new Map<string, number>()
-    for (const e of graph.edges) {
+    for (const e of data.graph.edges) {
       degree.set(e.source, (degree.get(e.source) || 0) + 1)
       degree.set(e.target, (degree.get(e.target) || 0) + 1)
     }
@@ -95,14 +93,14 @@ export function useCytoscape({ data, graph, selectedId = null, onSelect, expande
     const cy = cytoscape({
       container: container.current,
       elements: [
-        ...graph.nodes.map(node => ({
+        ...data.graph.nodes.map(node => ({
           data: {
             ...node,
             isolate: node.type !== 'discipline' && (degree.get(node.id) || 0) === 0 ? 1 : 0,
           },
           ...(positions ? { position: positions.get(node.id) } : {}),
         })),
-        ...graph.edges.map(edge => ({ data: { ...edge } })),
+        ...data.graph.edges.map(edge => ({ data: { ...edge } })),
       ],
       style: buildCyStyle(data, nodeCount) as cytoscape.StylesheetStyle[],
       layout: useCluster
@@ -110,6 +108,7 @@ export function useCytoscape({ data, graph, selectedId = null, onSelect, expande
         : defaultLayoutOptions(compact, expanded, nodeCount),
       minZoom: 0.15,
       maxZoom: 3.2,
+      wheelSensitivity: 0.16,
       textureOnViewport: nodeCount > 200,
       hideEdgesOnViewport: nodeCount > 400,
       pixelRatio: typeof window !== 'undefined' ? Math.min(window.devicePixelRatio || 1, 2) : 1,
@@ -124,7 +123,7 @@ export function useCytoscape({ data, graph, selectedId = null, onSelect, expande
     }
     const onDblTap = (event: EventObject) => {
       const id = event.target.id()
-      if (id && !event.target.data('virtual')) navigate(`/knowledge/${id}`)
+      if (id) navigate(`/knowledge/${id}`)
     }
     const onMouseOver = (event: EventObject) => {
       event.target.addClass('is-hover')
@@ -161,14 +160,14 @@ export function useCytoscape({ data, graph, selectedId = null, onSelect, expande
       cyRef.current = null
       cy.destroy()
     }
-  }, [data, graph, expanded, navigate])
+  }, [data, expanded, navigate])
 
   useEffect(() => {
     const cy = cyRef.current
     if (!cy) return
     applySelection(cy, selectedId, reduceMotion)
-    applyLabelVisibility(cy, graph.nodes.length, selectedId)
-  }, [selectedId, reduceMotion, graph])
+    applyLabelVisibility(cy, data.graph.nodes.length, selectedId)
+  }, [selectedId, reduceMotion, data])
 
   const resetView = () => {
     onSelectRef.current(null)
@@ -179,7 +178,7 @@ export function useCytoscape({ data, graph, selectedId = null, onSelect, expande
     const padding = isCompactViewport() ? 28 : 44
     if (reduceMotion) cy.fit(undefined, padding)
     else cy.animate({ fit: { eles: cy.elements(), padding } }, { duration: 280 })
-    applyLabelVisibility(cy, graph.nodes.length, null)
+    applyLabelVisibility(cy, data.graph.nodes.length, null)
   }
 
   const focusNeighborhood = () => {

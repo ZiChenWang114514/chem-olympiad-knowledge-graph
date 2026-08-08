@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000101",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,79 +8,149 @@
   "examYear": 2020,
   "examStage": "final",
   "source": {
+    "sourceDocumentId": "source-000015",
     "sourceLabel": "2020-34-CChO-juesai-1.pdf",
-    "pages": [
-      1,
-      6
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000015"
+    "transcribedAt": "2026-08-08"
   },
-  "blocks": [
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
+  "blocks": [],
+  "parts": [
     {
-      "type": "paragraph",
-      "text": "第 7 题"
-    },
-    {
-      "type": "subpart",
+      "id": "part-000101-01",
       "label": "7-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "环氧化合物(,)-1 与 $\\mathrm { TiCl } _ { 4 }$ 反应得到开环产物(,)-2;(,)-2可被高价碘试剂DMP氧化为化合物3.化合物3在低温下先与甲基格氏试剂反应.然后用碱处理,得到化合物4.推测第一步反应经历的关键中间体结构,并画出化合物3和4的结构简式(考虑立体化学)."
+          "text": "下列 3 种共轭二烯与丙烯腈发生 Diels-Alder 反应速率最快的是"
         },
         {
           "type": "figure",
-          "src": "data/stems/assets/problem-000101-figure-001.jpg",
-          "alt": "原卷第7题图1：环氧化合物(,)-1 与 $\\mathrm { TiCl } _ { 4 }$ 反应得到开环产物(,)-2;(,)-2可被高价碘试剂DMP氧",
-          "displayWidth": 70,
-          "assetId": "asset-005312"
+          "caption": "选项 A",
+          "alt": "选项 A 结构图",
+          "src": "data/stems/assets/problem-000101-figure-001.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "A"
+        },
+        {
+          "type": "figure",
+          "caption": "选项 B",
+          "alt": "选项 B 结构图",
+          "src": "data/stems/assets/problem-000101-figure-002.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "B"
+        },
+        {
+          "type": "figure",
+          "caption": "选项 C",
+          "alt": "选项 C 结构图",
+          "src": "data/stems/assets/problem-000101-figure-003.jpg"
+        },
+        {
+          "type": "paragraph",
+          "text": "C"
         }
-      ],
-      "partId": "part-002017"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000101-02",
       "label": "7-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在如下化合物9的合成路线中构筑了连续三个手性碳,其中第三步反应(即从7到9的转化)经历了一个中间产物8.画出6,7和8的结构简式."
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000101-figure-002.jpg",
-          "alt": "原卷第7题图2：在如下化合物9的合成路线中构筑了连续三个手性碳,其中第三步反应(即从7到9的转化)经历了一个中间产物8.画出6,7和8的结构简式.",
-          "displayWidth": 70,
-          "assetId": "asset-005313"
+          "text": "下列 2 种内酰胺在碱性条件下水解的反应速率较快的是"
         },
         {
           "type": "paragraph",
-          "text": "上式中CPBA为间氯过氧苯甲酸,8Pr为异丙基"
+          "text": "A"
+        },
+        {
+          "type": "paragraph",
+          "text": "B"
         }
-      ],
-      "partId": "part-002018"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000101-03",
       "label": "7-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出下面反应的关键中间体结构简式(考虑反应的立体化学)."
+          "text": "如下二烯烃与间氯过氧苯甲酸(mCPBA)发生环氧化反应的主要产物是"
         },
         {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000101-figure-003.jpg",
-          "alt": "原卷第7题图3：画出下面反应的关键中间体结构简式(考虑反应的立体化学).",
-          "displayWidth": 70,
-          "assetId": "asset-005314"
+          "type": "paragraph",
+          "text": "A"
+        },
+        {
+          "type": "paragraph",
+          "text": "B"
         }
-      ],
-      "partId": "part-002019"
+      ]
+    },
+    {
+      "id": "part-000101-04",
+      "label": "7-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "下列 2-苯基丙醛与乙基格氏试剂反应,生成的主要产物是"
+        }
+      ]
+    },
+    {
+      "id": "part-000101-05",
+      "label": "7-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "下列 2 种 α-羟基酮的合成方法(A 和 B)合理的是"
+        },
+        {
+          "type": "paragraph",
+          "text": "方法 A:"
+        },
+        {
+          "type": "paragraph",
+          "text": "方法 B:"
+        }
+      ]
+    },
+    {
+      "id": "part-000101-06",
+      "label": "7-6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "下列 Cope 重排反应的主要产物是"
+        }
+      ]
+    },
+    {
+      "id": "part-000101-07",
+      "label": "7-7",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "下列 2 种化合物中酸性较强的是"
+        },
+        {
+          "type": "paragraph",
+          "text": "A"
+        },
+        {
+          "type": "paragraph",
+          "text": "B"
+        }
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

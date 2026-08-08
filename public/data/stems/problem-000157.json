@@ -1,213 +1,70 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000157",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "含磷小分子反应",
-  "number": "Q7",
+  "number": "7",
   "examYear": 2021,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000018",
     "sourceLabel": "2021-35-CChO-juesai-2.pdf",
-    "pages": [
-      6,
-      7,
-      8
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
-      "type": "subpart",
-      "label": "7-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Mitsunobu反应是将一级或二级醇羟基转化为其它官能团的有效方法。经典的Mitsunobu反应需使用化学倍量的膦试剂和偶氮试剂,因此不可避免地产生化学倍量的副产物,不仅原子经济性差,也给产物的分离纯化带来了困难(如下图):"
-        }
-      ],
-      "partId": "part-001146"
+      "type": "paragraph",
+      "text": "7 · 含磷小分子反应"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000157-figure-001.jpg",
-      "assetId": "asset-005047",
-      "alt": "含磷小分子反应：第1幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "2019年,英国科学家设计了一种有机膦试剂A,实现了催化的Mitsunobu反应,唯一的副产物是H O(如下图)。此改进符合现今倡导的绿色可持续化学理念:"
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000157-figure-002.jpg",
-      "assetId": "asset-005048",
-      "alt": "含磷小分子反应：第2幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "同位素标记研究表明(⻅下图), ^ { 18 } \\mathrm { O } 标记的1-癸醇与2,4-二硝基苯甲酸在催化剂A作用下形成的产物不含 ^ { 18 } \\mathrm { O } 标记,但回收的催化剂A却被18O标记。A的类似物B和C都不具有催化活性。此外,A与三氟甲磺酸酐"
-    },
-    {
-      "type": "paragraph",
-      "text": "(Tf<sub>2</sub>O)反应形成的离子化合物D具有和A一样的催化活性。D与1-癸醇反应形成离子化合物E。A,D和E中磷原子具有相同的价态,E与经典Mitsunobu反应机理中的关键中间体结构类似。"
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000157-figure-003.jpg",
-      "assetId": "asset-005049",
-      "alt": "含磷小分子反应：第3幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000157-figure-004.jpg",
-      "assetId": "asset-005050",
-      "alt": "含磷小分子反应：第4幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "分析上述反应式和研究结果,回答下列问题:"
-    },
-    {
-      "type": "subpart",
-      "label": "7-1-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "推断D和E的结构简式,并简要解释为什么A,B,C中只有A可以催化Mitsunobu反应。"
-        }
-      ],
-      "partId": "part-001147"
-    },
-    {
-      "type": "subpart",
-      "label": "7-1-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "1-癸醇在A和TfOH的共催化下可发生如下反应。画出反应产物F的结构简式。"
-        }
-      ],
-      "partId": "part-001148"
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000157-figure-005.jpg",
-      "assetId": "asset-005051",
-      "alt": "含磷小分子反应：第5幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "subpart",
-      "label": "7-1-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "进一步研究发现,方向方向方向-norborneol和2,4-二硝基苯甲酸在该催化反应条件下所形成的产物仍为方向方向方向构型(如下图)。画出该反应历程关键中间体的结构简式,并解释产物构型保持的原因。"
-        }
-      ],
-      "partId": "part-001149"
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000157-figure-006.jpg",
-      "assetId": "asset-005052",
-      "alt": "含磷小分子反应：第6幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "subpart",
-      "label": "7-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "方向-羟甲基-方向-氨甲基酮衍生物是一类非常有用的药物合成中间体,有机化学家对其合成进行了深入研究。实验结果表明,化合物1和2在碱的作用下可生成该类化合物3(如下图)。"
-        }
-      ],
-      "partId": "part-001150"
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "题目配图"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000157-figure-007.jpg",
-      "assetId": "asset-005053",
-      "alt": "含磷小分子反应：第7幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "为了探究该反应的历程,研究人员进行了如下实验:"
-    },
-    {
-      "type": "paragraph",
-      "text": "实验一 在1 h停止上述反应(其余条件相同),分离得到产物A(分子式 \\mathrm { C _ { 11 } H _ { 10 } O ) } 与产物B(分子式\\mathrm { C _ { 21 } H _ { 25 } N _ { 2 } O _ { 8 } P S ) } ;"
-    },
-    {
-      "type": "paragraph",
-      "text": "实验二 A与1.5倍量的化合物2进行上述反应(不加入原料1,其余条件相同),15 h后得到产物3;而B在相同条件下不能转化为3;"
-    },
-    {
-      "type": "paragraph",
-      "text": "实验三 化合物2与5倍量的碱在室温下反应(以未经干燥处理的二氯甲烷为溶剂),5 min后生成一不稳定化合物C(分子量为244.22)。C继续在室温下反应,30 min后完全分解。减压浓缩后,只检测到一种化合物D,其分子量为202.18。"
-    },
-    {
-      "type": "paragraph",
-      "text": "依据以上实验结果,回答以下问题:"
-    },
-    {
-      "type": "subpart",
-      "label": "7-2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "画出化合物A,B,C以及D的结构简式。"
-        }
-      ],
-      "partId": "part-001151"
-    },
-    {
-      "type": "subpart",
-      "label": "7-2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "除了D以外,C的分解产物还有什么方向"
-        }
-      ],
-      "partId": "part-001152"
-    },
-    {
-      "type": "subpart",
-      "label": "7-2-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "解释在实验二中B为什么不能转化成3。"
-        }
-      ],
-      "partId": "part-001153"
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "题目配图"
     }
   ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  "parts": []
 }

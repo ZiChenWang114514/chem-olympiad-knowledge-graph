@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000461",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,64 +8,28 @@
   "examYear": 2015,
   "examStage": "final",
   "source": {
+    "sourceDocumentId": "source-000010",
     "sourceLabel": "2015-29-CChO-juesai.pdf",
-    "pages": [
-      1
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
-    "sourceDocumentId": "source-000010"
+    "transcribedAt": "2026-08-08"
+  },
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第 2 题 将银电极插入298K的 1.000 × 10^-1molL ^ - 1NH _ 4NO _ 3 和1.000 × 10^-3molL−1AgNO _ 3 混合溶液中,测得其电极电势varphi _ Ag ^ + / Ag 随溶液pH的变化如下图所示:"
+      "text": "将银电极插入298 K的 $1.000\\times 10^{-1}\\ \\mathrm{mol\\ L^{-1}\\ NH_4NO_3}$ 和 $1.000\\times 10^{-3}\\ \\mathrm{mol\\ L^{-1}\\ AgNO_3}$ 混合溶液中,测得其电极电势 $\\varphi_{\\mathrm{Ag^+/Ag}}$ 随溶液pH的变化如下图所示:"
+    },
+    {
+      "type": "paragraph",
+      "text": "已知氨水的解离常数 $K_b = 1.780\\times 10^{-5}$,理想气体常数 $R = 8.314\\ \\mathrm{J\\ mol^{-1}\\ K^{-1}}$,法拉第常数 $F = 96500\\ \\mathrm{C\\ mol^{-1}}$"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000461-figure-001.jpg",
-      "alt": "原卷第2题图1：第 2 题 将银电极插入298K的 1.000 × 10^-1molL ^ - 1NH _ 4NO _ 3 和1.000 × 10^-3mo",
-      "displayWidth": 70,
-      "assetId": "asset-005559"
-    },
-    {
-      "type": "paragraph",
-      "text": "已知氨水的解离常数K_b = 1.780 × 10^-5 ,理想气体常数R = 8.314Jmol ^ - 1K ^ - 1 ,法拉第常数F = 96500C ( mol ^ - 1c )"
-    },
-    {
-      "type": "subpart",
-      "label": "2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算298K中银电极的标准电极电势varphi _ Ag ^ + / Ag ^ ° ^ ⊖"
-        }
-      ],
-      "partId": "part-002568"
-    },
-    {
-      "type": "subpart",
-      "label": "2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算银氨配合物离子的逐级稳定常数K _ 1 ^ ⊖ 和K _ 2 ^ ⊖"
-        }
-      ],
-      "partId": "part-002569"
-    },
-    {
-      "type": "subpart",
-      "label": "2-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "利用银离子的配合反应设计一个原电池,其电池反应方程式为:Ag ^ + (aq) + 2NH _ 3 (aq) → Ag (NH _ 3) _ 2 ^ + (aq)计算该原电池的标准电动势.若未能算出银氨配合物离子一,二级逐级标准稳定常数,可假设都是1.00 × 10^3sO"
-        }
-      ],
-      "partId": "part-002570"
+      "alt": "problem-000461题目配图第1幅（已按原图查看）"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

@@ -1,59 +1,55 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000028",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "醇转氯代烃立体机理",
-  "number": "Q7",
+  "number": "7",
   "examYear": 2016,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000011",
     "sourceLabel": "2016-30-CChO-juesai.pdf",
-    "pages": [
-      4
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "醇转化为相应的⻧代烃,是一类重要的反应。下列由醇制备相应氯代烃的方法具有高的立体选择性。其反应机理可以用下图表示:"
+      "text": "醇转化为相应的卤代烃,是一类重要的反应。下列由醇制备相应氯代烃的方法具有高的立体选择性。其反应机理可以用下图表示:"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000028-figure-001.jpg",
-      "assetId": "asset-004959",
-      "alt": "醇转氯代烃立体机理：第1幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
+      "alt": "化学反应路线与结构式示意图（原图）",
+      "caption": "反应机理图"
+    }
+  ],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000028-01",
       "label": "7-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "请给出活性中间体A,B及另一产物C的结构简式。标出电子的流向,并表明其立体化学。"
+          "text": "请给出活性中间体 A、B 及另一产物 C 的结构简式。标出电子的流向,并表明其立体化学。"
         }
-      ],
-      "partId": "part-000969"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000028-02",
       "label": "7-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "该反应的活性大小主要取决于 。如果用 \\mathrm { | { \\boldsymbol { p } } { - } \\mathrm { { O } } _ { 2 } N \\mathrm { { C } } _ { 6 } H _ { 4 } C O C l } 代替 PhCOCl,该反应的速率将 (增大/减小/不变)。"
+          "text": "该反应的活性大小主要取决于 ______。如果用 $p\\text{-}\\mathrm{O_2NC_6H_4COCl}$ 代替 $\\mathrm{PhCOCl}$,该反应的速率将 ______(增大/减小/不变)。"
         }
-      ],
-      "partId": "part-000970"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

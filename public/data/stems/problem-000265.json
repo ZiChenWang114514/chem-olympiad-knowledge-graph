@@ -1,35 +1,31 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000265",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "多氮化合物与全氮离子",
-  "number": "Q7",
+  "number": "7",
   "examYear": 2025,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000063",
     "sourceLabel": "2025-39-CChO-chusai.pdf",
-    "pages": [
-      17,
-      18,
-      19
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
+  },
   "blocks": [
-    {
-      "type": "paragraph",
-      "text": "第 7 题 含能材料多氮化合物 (34 分, 14%)"
-    },
     {
       "type": "paragraph",
       "text": "多氮化合物是重要的高含能材料。目前,已经发展了多种方法来制备多氮化合物。下面介绍三种制备多氮化合物的方法。"
     },
     {
       "type": "paragraph",
-      "text": "7.1 常压下可以合成一种含具有一定稳定性的全氮正离子盐 B。液氮温度下在聚氯氟乙烯的容器中,将顺式的 N_{2}F_{2} 与 AsF_{5} 以摩尔比 1:1 混合,缓慢升温至室温反应 1\\~2 h,抽真空除去挥发性副产物和原料,得到白色固体 A。在聚四氟乙烯安瓿中,将固体 A 小心溶于无水 HF 中,降温至液氮温度,通入 HN_{3} 气体,缓慢升温至 -78 °C。在该温度下反应 3 天后,升温至 -64 °C 下抽真空除去挥发性物质,得到主要成分为 B 的白色固体。B 中含有一种几何结构为 V 形的全氮正离子。该全氮正离子极易爆炸分解,遇水剧烈反应,放出两种气体,其摩尔比为 10:1。"
+      "text": "7.1 常压下可以合成一种含具有一定稳定性的全氮正离子盐 B。液氮温度下在聚氯氟乙烯的容器中,将顺式的 $N_{2}F_{2}$ 与 $AsF_{5}$ 以摩尔比 1:1 混合,缓慢升温至室温反应 1~2 h,抽真空除去挥发性副产物和原料,得到白色固体 A。在聚四氟乙烯安瓿中,将固体 A 小心溶于无水 HF 中,降温至液氮温度,通入 $HN_{3}$ 气体,缓慢升温至 -78 °C。在该温度下反应 3 天后,升温至 -64 °C 下抽真空除去挥发性物质,得到主要成分为 B 的白色固体。B 中含有一种几何结构为 V 形的全氮正离子。该全氮正离子极易爆炸分解,遇水剧烈反应,放出两种气体,其摩尔比为 10:1。"
     },
     {
       "type": "paragraph",
@@ -41,7 +37,7 @@
     },
     {
       "type": "paragraph",
-      "text": "A: N_{2}F^{+} (2 分); B: N_{5}^{+} (2 分);"
+      "text": "A: $N_{2}F^{+}$ (2 分); B: $N_{5}^{+}$ (2 分);"
     },
     {
       "type": "paragraph",
@@ -53,12 +49,9 @@
     },
     {
       "type": "figure",
-      "src": "data/stems/assets/problem-000265-figure-001.jpg",
-      "assetId": "asset-005139",
-      "alt": "多氮化合物与全氮离子：第1幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
+      "caption": "(图:)",
+      "alt": "缺图,请参考官方试卷",
+      "src": "data/stems/assets/problem-000265-figure-001.jpg"
     },
     {
       "type": "paragraph",
@@ -78,7 +71,7 @@
     },
     {
       "type": "paragraph",
-      "text": "4N_{5}^{+} + 2H_{2}O = 10N_{2} + 4H^{+} + O_{2}"
+      "text": "$4N_{5}^{+} + 2H_{2}O = 10N_{2} + 4H^{+} + O_{2}$"
     },
     {
       "type": "paragraph",
@@ -86,7 +79,7 @@
     },
     {
       "type": "paragraph",
-      "text": "4N_{5}AsF_{6}+2H_{2}O=10N_{2}+4HAsF_{6}+O_{2} 也可得2分"
+      "text": "$4N_{5}AsF_{6}+2H_{2}O=10N_{2}+4HAsF_{6}+O_{2}$ 也可得2分"
     },
     {
       "type": "paragraph",
@@ -94,7 +87,7 @@
     },
     {
       "type": "paragraph",
-      "text": "7.2 B 的全氮正离子也可以通过另一种方法制备:将 NF_{3} 和 O_{2} 通入放电管中放电发生反应,将产生的气体冷却至液氮温度,缓慢升温分馏,在 -183^{\\circ}C 得到的馏分主要是化合物 C。在类似于 A 的合成条件下,C 与 SbF_{5} 生成 D。在类似于 B 的合成条件下,D 与过量 HN_{3} 反应得到与 B 中一样的全氮离子;但 D 与 HN_{3} 按摩尔比 1:1 反应生成 E。E 的正离子具有顺反两种异构体,加热至 50 \\sim 60^{\\circ}C 时发生分解,得到一种白色固体和摩尔比为 1:4 的两种气体。"
+      "text": "7.2 B 的全氮正离子也可以通过另一种方法制备:将 $NF_{3}$ 和 $O_{2}$ 通入放电管中放电发生反应,将产生的气体冷却至液氮温度,缓慢升温分馏,在 $-183^{\\circ}C$ 得到的馏分主要是化合物 C。在类似于 A 的合成条件下,C 与 $SbF_{5}$ 生成 D。在类似于 B 的合成条件下,D 与过量 $HN_{3}$ 反应得到与 B 中一样的全氮离子;但 D 与 $HN_{3}$ 按摩尔比 1:1 反应生成 E。E 的正离子具有顺反两种异构体,加热至 $50 \\sim 60^{\\circ}C$ 时发生分解,得到一种白色固体和摩尔比为 1:4 的两种气体。"
     },
     {
       "type": "paragraph",
@@ -106,11 +99,11 @@
     },
     {
       "type": "paragraph",
-      "text": "C: NOF_{3} 2 分,四面体 2 分;"
+      "text": "C: $NOF_{3}$ 2 分,四面体 2 分;"
     },
     {
       "type": "paragraph",
-      "text": "D: NOF_{2}^{+}SbF_{6}^{-} 或 (NOF_{2})(SbF_{6}) 2 分,平面三角 2 分。"
+      "text": "D: $NOF_{2}^{+}SbF_{6}^{-}$ 或 $(NOF_{2})(SbF_{6})$ 2 分,平面三角 2 分。"
     },
     {
       "type": "paragraph",
@@ -130,11 +123,11 @@
     },
     {
       "type": "paragraph",
-      "text": "\\mathrm{NO} ^ {+} \\mathrm{SbF} _ {6} ^ {-}"
+      "text": "$\\mathrm{NO}^{+}\\mathrm{SbF}_{6}^{-}$"
     },
     {
       "type": "paragraph",
-      "text": "(\\mathrm{NO}) (\\mathrm{SbF} _ {6})"
+      "text": "$(\\mathrm{NO})(\\mathrm{SbF}_{6})$"
     },
     {
       "type": "paragraph",
@@ -142,12 +135,9 @@
     },
     {
       "type": "figure",
-      "src": "data/stems/assets/problem-000265-figure-002.jpg",
-      "assetId": "asset-005140",
-      "alt": "多氮化合物与全氮离子：第2幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
+      "caption": "(图:)",
+      "alt": "缺图,请参考官方试卷",
+      "src": "data/stems/assets/problem-000265-figure-002.jpg"
     },
     {
       "type": "paragraph",
@@ -159,19 +149,19 @@
     },
     {
       "type": "paragraph",
-      "text": "\\- 顺反错误扣1分;画出无法体现出顺反异构但形式正确的共振式也扣1分;"
+      "text": "- 顺反错误扣1分;画出无法体现出顺反异构但形式正确的共振式也扣1分;"
     },
     {
       "type": "paragraph",
-      "text": "\\- 孤对电子错1处扣1分,形式电荷错1个扣1分,直至扣至0分。"
+      "text": "- 孤对电子错1处扣1分,形式电荷错1个扣1分,直至扣至0分。"
     },
     {
       "type": "paragraph",
-      "text": "\\- 其他组成或键连结构不得分。"
+      "text": "- 其他组成或键连结构不得分。"
     },
     {
       "type": "paragraph",
-      "text": "7.2.3 写出 D 与过量 HN_{3} 反应生成全氮离子的反应方程式。"
+      "text": "7.2.3 写出 D 与过量 $HN_{3}$ 反应生成全氮离子的反应方程式。"
     },
     {
       "type": "paragraph",
@@ -179,7 +169,7 @@
     },
     {
       "type": "paragraph",
-      "text": "\\mathrm{NOF} _ {2} ^ {+} + 2 \\mathrm{HN} _ {3} = 2 \\mathrm{HF} + \\mathrm{N} _ {5} ^ {+} + \\mathrm{N} _ {2} \\mathrm{O}; \\text {或} \\mathrm{NOF} _ {2} (\\mathrm{SbF} _ {6}) + 2 \\mathrm{HN} _ {3} = 2 \\mathrm{HF} + \\mathrm{N} _ {5} (\\mathrm{SbF} _ {6}) + \\mathrm{N} _ {2} \\mathrm{O}"
+      "text": "$\\mathrm{NOF}_{2}^{+} + 2\\mathrm{HN}_{3} = 2\\mathrm{HF} + \\mathrm{N}_{5}^{+} + \\mathrm{N}_{2}\\mathrm{O}$;或 $\\mathrm{NOF}_{2}(\\mathrm{SbF}_{6}) + 2\\mathrm{HN}_{3} = 2\\mathrm{HF} + \\mathrm{N}_{5}(\\mathrm{SbF}_{6}) + \\mathrm{N}_{2}\\mathrm{O}$"
     },
     {
       "type": "paragraph",
@@ -191,7 +181,7 @@
     },
     {
       "type": "paragraph",
-      "text": "7.2.4 写出 E 在 50\\~60 °C 受热分解的反应方程式。"
+      "text": "7.2.4 写出 E 在 50~60 °C 受热分解的反应方程式。"
     },
     {
       "type": "paragraph",
@@ -199,7 +189,7 @@
     },
     {
       "type": "paragraph",
-      "text": "3N_{3}NOF^{+}=3NO^{+}+4N_{2}+NF_{3} ; 或 3(N_{3}NOF)(SbF_{6})=3NO(SbF_{6})+4N_{2}+NF_{3}"
+      "text": "$3N_{3}NOF^{+}=3NO^{+}+4N_{2}+NF_{3}$;或 $3(N_{3}NOF)(SbF_{6})=3NO(SbF_{6})+4N_{2}+NF_{3}$"
     },
     {
       "type": "paragraph",
@@ -211,29 +201,23 @@
     },
     {
       "type": "figure",
-      "src": "data/stems/assets/problem-000265-figure-003.jpg",
-      "assetId": "asset-005141",
-      "alt": "多氮化合物与全氮离子：第3幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
+      "caption": "(图:)",
+      "alt": "缺图,请参考官方试卷",
+      "src": "data/stems/assets/problem-000265-figure-003.jpg"
     },
     {
       "type": "figure",
-      "src": "data/stems/assets/problem-000265-figure-004.jpg",
-      "assetId": "asset-005142",
-      "alt": "多氮化合物与全氮离子：第4幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
+      "caption": "(图:)",
+      "alt": "缺图,请参考官方试卷",
+      "src": "data/stems/assets/problem-000265-figure-004.jpg"
     },
     {
       "type": "paragraph",
-      "text": "7.3 高压是制备多氮化合物的有效手段。在 100 GPa 的高压下,通过激光加热金属 Re,使其和 N_{2} 反应,生成一种具有正交晶系的化合物 ReN_{x}\\cdot yN_{2} ,晶胞参数为 a=3.4475\\ \\AA, b=6.4911\\ \\AA, c=6.0483\\ \\AA 。其晶体结构如右图所示,其中包含两种 N 原子 N1 和 N2,其中 N1 形成共平面的一维链状结构与 Re 配位,形成如右图所示的平面结构,并沿 c 方向形成四边形孔道;N2 构成二聚体 (N2-N2) 填充于孔道中。一维链中的 N1-N1 键长较为接近,N2 原子的坐标为 (0.336, 0.5, 0),N2-N2 键长与 N_{2} 中接近。"
+      "text": "7.3 高压是制备多氮化合物的有效手段。在 100 GPa 的高压下,通过激光加热金属 Re,使其和 $N_{2}$ 反应,生成一种具有正交晶系的化合物 $ReN_{x}\\cdot yN_{2}$,晶胞参数为 $a=3.4475\\ \\AA, b=6.4911\\ \\AA, c=6.0483\\ \\AA$。其晶体结构如右图所示,其中包含两种 N 原子 N1 和 N2,其中 N1 形成共平面的一维链状结构与 Re 配位,形成如右图所示的平面结构,并沿 c 方向形成四边形孔道;N2 构成二聚体 (N2-N2) 填充于孔道中。一维链中的 N1-N1 键长较为接近,N2 原子的坐标为 (0.336, 0.5, 0),N2-N2 键长与 $N_{2}$ 中接近。"
     },
     {
       "type": "paragraph",
-      "text": "7.3.1 写出 ReN_{x} \\cdot yN_{2} 中 x 和 y 的数值。"
+      "text": "7.3.1 写出 $ReN_{x} \\cdot yN_{2}$ 中 x 和 y 的数值。"
     },
     {
       "type": "paragraph",
@@ -241,7 +225,12 @@
     },
     {
       "type": "paragraph",
-      "text": "x=81分;y=11分"
+      "text": "x=8 1分;y=1 1分"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "给分原则:"
     },
     {
       "type": "paragraph",
@@ -257,7 +246,7 @@
     },
     {
       "type": "paragraph",
-      "text": "82分,"
+      "text": "8 2分,"
     },
     {
       "type": "paragraph",
@@ -273,12 +262,9 @@
     },
     {
       "type": "figure",
-      "src": "data/stems/assets/problem-000265-figure-005.jpg",
-      "assetId": "asset-005143",
-      "alt": "多氮化合物与全氮离子：第5幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
+      "caption": "(图:)",
+      "alt": "缺图,请参考官方试卷",
+      "src": "data/stems/assets/problem-000265-figure-005.jpg"
     },
     {
       "type": "paragraph",
@@ -294,7 +280,7 @@
     },
     {
       "type": "paragraph",
-      "text": "7.3.4 通过计算确定 N2-N2 二聚体的键长为多少 Å (保留二位小数)。 解答:"
+      "text": "7.3.4 通过计算确定 N2-N2 二聚体的键长为多少 Å (保留二位小数)。\n解答:"
     },
     {
       "type": "paragraph",
@@ -302,11 +288,11 @@
     },
     {
       "type": "paragraph",
-      "text": "\\mathrm{d} (\\mathrm{N} 2 - \\mathrm{N} 2) = a (1 - 2 \\times 0. 336)"
+      "text": "$\\mathrm{d}(\\mathrm{N}2-\\mathrm{N}2) = a(1 - 2 \\times 0.336)$"
     },
     {
       "type": "paragraph",
-      "text": "= 3.4475(1 - 2\\times 0.336) = 1.13\\AA 1分"
+      "text": "$= 3.4475(1 - 2\\times 0.336) = 1.13\\AA$ 1分"
     },
     {
       "type": "paragraph",
@@ -315,339 +301,6 @@
     {
       "type": "paragraph",
       "text": "计算式 2 分,结果 1 分,共 3 分,没有代入数据扣 1 分。"
-    },
-    {
-      "type": "subpart",
-      "label": "7-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001426"
-    },
-    {
-      "type": "subpart",
-      "label": "7-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001427"
-    },
-    {
-      "type": "subpart",
-      "label": "7-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001428"
-    },
-    {
-      "type": "subpart",
-      "label": "7-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001429"
-    },
-    {
-      "type": "subpart",
-      "label": "7-5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001430"
-    },
-    {
-      "type": "subpart",
-      "label": "7-6",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001431"
-    },
-    {
-      "type": "subpart",
-      "label": "7-7",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001432"
-    },
-    {
-      "type": "subpart",
-      "label": "7-8",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001433"
-    },
-    {
-      "type": "subpart",
-      "label": "7-9",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001434"
-    },
-    {
-      "type": "subpart",
-      "label": "7-10",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001435"
-    },
-    {
-      "type": "subpart",
-      "label": "7-11",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001436"
-    },
-    {
-      "type": "subpart",
-      "label": "7-12",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001437"
-    },
-    {
-      "type": "subpart",
-      "label": "7-13",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001438"
-    },
-    {
-      "type": "subpart",
-      "label": "7-14",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001439"
-    },
-    {
-      "type": "subpart",
-      "label": "7-15",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001440"
-    },
-    {
-      "type": "subpart",
-      "label": "7-16",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001441"
-    },
-    {
-      "type": "subpart",
-      "label": "7-17",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001442"
-    },
-    {
-      "type": "subpart",
-      "label": "7-18",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001443"
-    },
-    {
-      "type": "subpart",
-      "label": "7-19",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001444"
-    },
-    {
-      "type": "subpart",
-      "label": "7-1-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001446"
-    },
-    {
-      "type": "subpart",
-      "label": "7-1-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001447"
-    },
-    {
-      "type": "subpart",
-      "label": "7-1-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001448"
-    },
-    {
-      "type": "subpart",
-      "label": "7-2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001449"
-    },
-    {
-      "type": "subpart",
-      "label": "7-2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001450"
-    },
-    {
-      "type": "subpart",
-      "label": "7-2-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001451"
-    },
-    {
-      "type": "subpart",
-      "label": "7-2-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001452"
-    },
-    {
-      "type": "subpart",
-      "label": "7-3-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001453"
-    },
-    {
-      "type": "subpart",
-      "label": "7-3-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001454"
-    },
-    {
-      "type": "subpart",
-      "label": "7-3-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001455"
-    },
-    {
-      "type": "subpart",
-      "label": "7-3-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001456"
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }

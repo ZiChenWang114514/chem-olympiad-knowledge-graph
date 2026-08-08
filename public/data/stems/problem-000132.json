@@ -1,79 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000132",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "化学反应与结构综合分析",
-  "number": "Q1",
+  "number": "1",
   "examYear": 2021,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000056",
     "sourceLabel": "2021-35-CChO-chusai-jiangsu.pdf",
-    "pages": [
-      1
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
-      "type": "subpart",
-      "label": "1-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "钒铁(FeV)用 \\mathrm { C l } _ { 2 } 充分氯化。"
-        }
-      ],
-      "partId": "part-001123"
-    },
-    {
-      "type": "subpart",
-      "label": "1-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "\\mathrm { { C r } _ { 2 } O _ { 3 } } 与 \\mathrm { K C l O _ { 3 } } 固体混合物高温下熔融,放出的气体均为⻩绿色。"
-        }
-      ],
-      "partId": "part-001124"
-    },
-    {
-      "type": "subpart",
-      "label": "1-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "\\mathrm { T i C l _ { 3 } } 溶液与 \\mathrm { C u C l _ { 2 } } 溶液反应。"
-        }
-      ],
-      "partId": "part-001125"
-    },
-    {
-      "type": "subpart",
-      "label": "1-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "雌⻩用SnCl<sub>2</sub>的盐酸溶液还原为雄⻩(已知雌⻩和雄⻩中砷含量分别为60.91%和70.03%)。"
-        }
-      ],
-      "partId": "part-001126"
-    },
-    {
-      "type": "subpart",
-      "label": "1-5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "\\mathrm { M g _ { 2 } C _ { 3 } } 与足量水反应。"
-        }
-      ],
-      "partId": "part-001127"
+      "type": "paragraph",
+      "text": "1 · 化学反应与结构综合分析"
     }
   ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  "parts": []
 }

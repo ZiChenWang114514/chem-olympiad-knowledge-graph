@@ -1,436 +1,115 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000275",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "光致酸碱化与二氧化碳",
-  "number": "Q6",
+  "number": "6",
   "examYear": 2025,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000035",
-    "sourceLabel": "2025年第39届全国中学生化学竞赛决赛理论资料（原卷待补）",
-    "pages": [
-      13,
-      14,
-      15,
-      16
-    ],
-    "transcriptionMethod": "ocr_reviewed",
+    "sourceLabel": "2025年第39届全国中学生化学竞赛决赛理论试题资料.pdf",
+    "page": null,
+    "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "光敏分子可以通过光化学反应实现对溶液pH值的调控,从而能够实现 C 0 _ { 2 } 的可逆吸收和释放,在C O _ { 2 } 富集领域有潜在应用。"
+      "text": "光敏分子可以通过光化学反应实现对溶液pH值的调控,从而能够实现 CO2 的可逆吸收和释放,在 CO2 富集领域有潜在应用。"
     },
     {
       "type": "paragraph",
-      "text": "6.1 花青素类分子 MC 在酸性水溶液中可以质子化为 MC-H+,使溶液 pH 值升高,从而吸收 \\mathrm { C O } _ { 2 } , 将其转化为 H C O _ { 3 } ^ { - } 。在光照下MC可以转化成螺吡喃型分子 \\mathtt { s p } ,促进MC-H+释放H+使溶液 \\mathfrak { p H } 下降,从而将溶液中的 H C O _ { 3 } 转化成 { \\bf C O } _ { 2 } 释放,上述“光致酸化”可以实现 \\mathbf { C O } _ { 2 } 的富集。该反应体系中有机光敏分子的相互转化关系和相应的平衡常数如下图所示:"
+      "text": "6.1 花青素类分子 MC 在酸性水溶液中可以质子化为 MC-H+,使溶液 pH 值升高,从而吸收 CO2,将其转化为 HCO3−。在光照下 MC 可以转化成螺吡喃型分子 SP,促进 MC-H+ 释放 H+ 使溶液 pH 下降,从而将溶液中的 HCO3− 转化成 CO2 释放,上述“光致酸化”可以实现 CO2 的富集。该反应体系中有机光敏分子的相互转化关系和相应的平衡常数如下图所示:"
     },
     {
       "type": "figure",
-      "src": "data/stems/assets/problem-000275-figure-001.jpg",
-      "assetId": "asset-005188",
-      "alt": "原卷示意图：答案：",
-      "label": "答案：",
-      "caption": "答案：",
-      "displayWidth": 100
+      "caption": "有机光敏分子相互转化关系及平衡常数示意图",
+      "alt": "缺图:显示 MC、MC-H+、SP 之间的转化及平衡常数 K0 等",
+      "src": "data/stems/assets/problem-000275-figure-001.jpg"
     },
     {
       "type": "paragraph",
-      "text": "6.1.1 通过改变取代基 \\mathtt { R } _ { 1 } 和 \\mathtt { R } _ { 2 } 可以得到一系列 MC-H+衍生物,研究表明MC-H+的酸性对 \\mathbf { C O } _ { 2 } 的富集有重要影响。当 C 0 _ { 2 } 吸收一释放可逆反应的平衡常数为1时具有最佳的 { \\bf C } { \\bf O } _ { 2 } 富集性能,请推导此时 K _ { \\mathrm { a } } ( { \\mathsf { M C } } \\cdot H+)应满足的条件,用光照下 MC 转化为 SP的平衡常数 { \\pmb K } _ { 0 } 和反应 \\mathrm { C O } _ { 2 } ( \\mathrm { g } ) + \\mathrm { H } _ { 2 } \\mathrm { O } \\implies \\mathrm { H C O } _ { 3 } ^ { - } + H+的平衡常数 K _ { \\mathfrak { a l } } ( \\mathbf { C O } _ { 2 } ) 表示。答案:体系对 C O _ { 2 } 的可逆吸放反应式为\\mathsf { M C - H ^ { + } } + \\mathsf { H C O _ { 3 } ^ { - } } \\mathsf C 0 _ { 2 } + \\mathsf { H _ { 2 } O } + \\mathsf { M C } ^ { \\prime } 其中MC’为非质子化的光敏分子,即 [ \\mathsf { M C } ^ { \\prime } ] = [ \\mathsf { M C } ] + [ \\mathsf { S P } ] 平衡常数K  { \\dot { \\mathbf { \\eta } } = \\frac { [ \\mathsf { C O } _ { 2 } ] [ \\mathsf { M C } ^ { \\prime } \\mathbf { \\eta } ] } { [ \\mathsf { M C } - \\mathsf { H } ^ { + } ] [ \\mathsf { H C O } _ { 3 } ^ { - } ] } = 1 }  1 = \\frac { \\vert C 0 _ { 2 } \\vert ( \\vert M C \\vert + \\vert S P \\vert ) } { \\vert M C - H + \\vert \\vert H C 0 _ { 3 } ^ { - } \\vert } (1分)= \\frac { | { \\mathsf { C O } } _ { 2 } | | { \\mathsf { M C } } | ( 1 + K _ { 0 } ) } { [ \\mathsf { M C } - \\mathsf { H } ^ { + } ] [ \\mathsf { H C O } _ { 3 } ^ { - } ] } (1分)= \\frac { K _ { a } ( \\mathsf { M C - H ^ { + } } ) ( 1 + K _ { 0 } ) } { K _ { a 1 } ( \\mathsf { C } 0 _ { 2 } ) } (1分) { K _ { a } ( \\mathrm { M C } - \\mathrm { H } ^ { + } ) = \\frac { K _ { a 1 } ( \\mathrm { C } 0 _ { 2 } ) } { 1 + K _ { 0 } } }  (1分) 共4分"
+      "text": "6.1.1 通过改变取代基 R1 和 R2 可以得到一系列 MC-H+ 衍生物,研究表明 MC-H+ 的酸性对 CO2 的富集有重要影响。当 CO2 吸收-释放可逆反应的平衡常数为 1 时具有最佳的 CO2 富集性能,请推导此时 Ka(MC-H+) 应满足的条件,用光照下 MC 转化为 SP 的平衡常数 K0 和反应 CO2(g) + H2O ⇌ HCO3− + H+ 的平衡常数 Ka1(CO2) 表示。"
     },
     {
       "type": "paragraph",
-      "text": "6.1.2 研究表明 \\mathrm { R } _ { 1 } = p { \\cdot } { \\mathrm { O M e } } { \\tt R } _ { 2 } = { \\tt H } 时具有较好的 { \\bf C O } _ { 2 } 富集性能;而当 \\mathrm { R } _ { 1 } = p { \\cdot } 0 \\mathrm { M e } \\ R _ { 2 } = { \\cal C } { \\sf N } 时则难以实现 { \\bf C } { \\bf O } _ { 2 } 富集,其主要原因是:(A)光照下 MC 难以转化成 SP (B) 停止光照后 SP 难以重新转化成 MC(C) MC 难以质子化 (D) MC-H+难以去质子化答案:B (2分)"
+      "text": "6.1.2 研究表明 R1 = p-OMe、R2 = H 时具有较好的 CO2 富集性能;而当 R1 = p-OMe、R2 = CN 时则难以实现 CO2 富集,其主要原因是:(A) 光照下 MC 难以转化成 SP (B) 停止光照后 SP 难以重新转化成 MC (C) MC 难以质子化 (D) MC-H+ 难以去质子化"
     },
     {
       "type": "paragraph",
-      "text": "6.2受“光致酸化”启发,科学家进一步提出“光致碱化”体系,利用结构如右图所示的芴基光敏分子PBOH,其水溶液在光照下可以释放出 \\mathrm { H O } ^ { - } 同时形成PB+,pH值在7\\~12之间变化,可实现 { \\bf C O } _ { 2 } 捕集和富集。6.2.1 画出 PB+最稳定的共振式。"
+      "text": "6.2 受“光致酸化”启发,科学家进一步提出“光致碱化”体系,利用结构如右图所示的芴基光敏分子 PBOH,其水溶液在光照下可以释放出 HO− 同时形成 PB+,pH 值在 7~12 之间变化,可实现 CO2 捕集和富集。"
     },
     {
       "type": "paragraph",
-      "text": "答案:"
+      "text": "6.2.1 画出 PB+ 最稳定的共振式。"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000275-figure-002.jpg",
-      "assetId": "asset-005189",
-      "alt": "光致酸碱化与二氧化碳：第2幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 2"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000275-figure-003.jpg",
-      "assetId": "asset-005190",
-      "alt": "光致酸碱化与二氧化碳：第3幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "6.2.2 PBOH 的 \\mathbf { C O } _ { 2 } 富集性能优于“光致酸化”体系,原因之一在于生成PB+的量子产率φ更高。φ定义为PBOH溶液每吸收一个光子可以生成的PB+数量,与激发光的波长有关。研究人员利用如下图a所示的超快光谱方法测量生成PB+的量子产率:首先用波长为λ的飞秒脉冲激光照射吸收池中的 PBOH溶液,瞬间产生 \\ P B ^ { + } ; 随后利用光度法测量激发后溶液中的PB+浓度,根据比尔-朗伯定律,PB+的浓度与其特征吸收波长λ2处的吸光度相对于未光照时的改变值的绝对值 \\Delta A ( \\lambda _ { 2 } ) 成正比。实验中吸收池中溶液的体积为 V , 光程长度为 ^ { l , } 每个激光脉冲照射到吸收池中溶液的光子数为 N , 其中仅有部分被吸收。测得 PBOH 溶液在 : \\lambda _ { 1 } 下的吸光度为 A ( \\lambda _ { 1 } ) ,相应的摩尔吸光系数为 \\varepsilon ( \\lambda _ { 1 } ) ; ;PB+在 \\cdot \\lambda _ { 2 } 处的吸光度改变值为\\Delta A ( \\lambda _ { 2 } ) ,相应的摩尔吸光系数为 \\mathfrak { E } ( \\lambda _ { 2 } ) 。推导出生成 \\mathsf { P B } ^ { + } 量子产率φ的表达式,用6.2.2中的变量表示。"
-    },
-    {
-      "type": "paragraph",
-      "text": "第14页,共25页"
-    },
-    {
-      "type": "paragraph",
-      "text": "答案:"
-    },
-    {
-      "type": "paragraph",
-      "text": "N个照射到溶液的光子中被吸收的光子数为 N _ { \\mathrm { { a b s } } } , ,由吸光度定义:"
-    },
-    {
-      "type": "paragraph",
-      "text": "A (\\lambda_ {1}) = \\lg \\frac {I _ {0}}{I} = \\lg \\frac {N}{N - N _ {a b s}}\\tag{1 分}"
-    },
-    {
-      "type": "paragraph",
-      "text": "\\mathrm{故} N _ {a b s} = N (1 - 10 ^ {- A (\\lambda_ {1})})\\tag{1 分}"
-    },
-    {
-      "type": "paragraph",
-      "text": "\\Phi = \\frac {N (\\mathsf {P B} ^ {+})}{N _ {a b s}} = \\frac {\\Delta A (\\lambda_ {2}) V}{\\varepsilon (\\lambda_ {2}) l} \\cdot \\frac {1}{N _ {a b s}}\\tag{1 分}"
-    },
-    {
-      "type": "paragraph",
-      "text": "= \\frac {\\Delta A (\\lambda_ {2}) V}{\\varepsilon (\\lambda_ {2}) \\cdot l \\cdot N (1 - 10 ^ {- A (\\lambda_ {1})})}\\tag{1 分) 共 4 分}"
-    },
-    {
-      "type": "paragraph",
-      "text": "6.3 每个激光脉冲照射到吸收池中溶液的光子数N是恒定的,但具体数值难以准确测量,故实验上通常采用成熟的光敏探针配合物 \\mathtt { R u ( b p y ) 3 } ^ { 2 + } 为外标进行量子产率测定。 \\mathrm { R u ( b p y ) _ { 3 } } ^ { 2 + } / \\pm \\lambda _ { 1 } = 300 \\sim 500 n m 激发下会以100%的量子产率转化为激发态 \\scriptstyle \\mathsf { R } \\displaystyle \\mathsf { u } ^ { \\star } ; Ru\\*在448nm 具有显著吸收度变化,摩尔吸光系数ε(Ru\\*,448\\mathrm { n m } ) = 11300 \\mathrm { L } { \\cdot } \\mathrm { m o l } ^ { - 1 } \\mathrm { c m } ^ { - 1 } 。PB+在 515 nm处吸光度有明显变化,摩尔吸光系数ε ( \\mathsf { P B } ^ { + } , 515 \\ \\mathrm { n m } ) = 26600 \\mathrm { L } { \\cdot } \\mathrm { m o l } ^ { - 1 } \\mathrm { c m } ^ { - 1 } 。外标法要求基态的外标和样品溶液在激发波长下吸收的光子数相同。在某次实验中,选用合适浓度的 PBOH和 \\mathrm { R u ( b p y ) } _ { 3 } ^ { 2 + } 溶液,其稳态吸收光谱如下图b所示;被波 f ( - \\lambda _ { 1 } 的脉冲激光激发后,其瞬态吸收光谱如下图c所示,吸光度改变值 \\Delta A ( 515 \\mathrm { n m } ) = 13 \\times 10 ^ { - 3 } \\vec { \\mathcal { F } } | | \\Delta A ( 448 \\mathrm { n m } ) = 42 \\times 10 ^ { - 3 } 0"
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 3"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000275-figure-004.jpg",
-      "assetId": "asset-005191",
-      "alt": "光致酸碱化与二氧化碳：第4幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 4"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000275-figure-005.jpg",
-      "assetId": "asset-005192",
-      "alt": "光致酸碱化与二氧化碳：第5幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 5"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000275-figure-006.jpg",
-      "assetId": "asset-005193",
-      "alt": "答案:",
-      "label": "答案:",
-      "caption": "答案:",
-      "displayWidth": 100
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 6"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000275-figure-007.jpg",
-      "assetId": "asset-005194",
-      "alt": "光致酸碱化与二氧化碳：第7幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "6.3.1 导出 \\mathtt { P B } ^ { + } 的量子产率计算表达式,并计算其数值。"
-    },
-    {
-      "type": "paragraph",
-      "text": "答案:"
-    },
-    {
-      "type": "paragraph",
-      "text": "由6.3.2的结果,有"
-    },
-    {
-      "type": "paragraph",
-      "text": "(1分)"
-    },
-    {
-      "type": "paragraph",
-      "text": "N = \\frac {\\Delta A (448 \\mathrm{nm}) V}{\\varepsilon (\\mathrm{Ru} ^ {*} , 448 \\mathrm{nm}) l \\cdot (1 - 10 ^ {- A (\\lambda_ {1})})}\\tag{1 分}"
-    },
-    {
-      "type": "paragraph",
-      "text": "因此当 \\mathrm { R u ( b p y ) 3 } ^ { 2 + } 和PBOH在 \\lambda _ { 1 } 处的吸光度 A ( \\lambda _ { 1 } ) 相等时,有"
-    },
-    {
-      "type": "paragraph",
-      "text": "\\Phi = \\frac {\\Delta A (\\lambda_ {2}) V}{\\varepsilon (\\lambda_ {2}) \\cdot l \\cdot N (1 - 10 ^ {- A (\\lambda_ {1})})} = \\frac {\\Delta A (515 \\mathrm{nm}) \\cdot \\varepsilon (\\mathrm{Ru} ^ {*} , 448 \\mathrm{nm})}{\\Delta A (448 \\mathrm{nm}) \\cdot \\varepsilon (\\mathrm{PB} ^ {*} , 515 \\mathrm{nm})}\\tag{1 分}"
-    },
-    {
-      "type": "paragraph",
-      "text": "= \\frac {12 \\times 10 ^ {- 3} \\times 11300}{42 \\times 10 ^ {- 3} \\times 26600} = 12 \\%"
-    },
-    {
-      "type": "paragraph",
-      "text": "(1分)共4分"
-    },
-    {
-      "type": "paragraph",
-      "text": "6.3.2该实验中激发波长λ1应该为:360 nm,395nm,448 nm,515 nm方向说明你选择的原因。答案:"
-    },
-    {
-      "type": "paragraph",
-      "text": "395 nm (1 分)"
-    },
-    {
-      "type": "paragraph",
-      "text": "Ru配合物和PBOH在激发波长下的吸光度应当相同(1分),共2分;其他答案不得分"
-    },
-    {
-      "type": "paragraph",
-      "text": "6.4 对停止光照后 { \\mathsf { C O } } _ { 2 } \\ P B ^ { + } 溶液中释放过程提出了如下机理:\\mathrm { H C O } _ { 3 } ^ { - } = \\mathrm { C O } _ { 2 } ( \\mathbf { g } ) + \\mathrm { H O } ^ { - } 快,平衡常数为 K _ { 1 }"
-    },
-    {
-      "type": "paragraph",
-      "text": "第15页,共25页"
-    },
-    {
-      "type": "paragraph",
-      "text": "为验证上述机理的合理性,对PBOH溶液用脉冲激光激发后,在无 { \\bf C } { \\bf O } _ { 2 } 和通入1barCO2的条件下,分别用光度法测量了PB的浓度[PB+]随时间的变化,结果如右图所示。6 . 4 . 1 \\ C O _ { 2 } 的释放相对于PB+的反应级数是多少方向答案:2 (1 分)"
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 7"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000275-figure-008.jpg",
-      "assetId": "asset-005195",
-      "alt": "光致酸碱化与二氧化碳：第8幅原卷结构或数据示意",
-      "label": "",
-      "caption": "",
-      "displayWidth": 100
-    },
-    {
-      "type": "paragraph",
-      "text": "6.4.2 从上述机理出发,推导出无 \\mathbf { C O } _ { 2 } 时[PB+]随时间 t 变化的函数关系(积分式)。答案: d [ { \\bf P B } ^ { + } ] / d t = - k _ { 2 } [ { \\bf P B } ^ { + } ] [ { \\bf O H ^ { - } } ] (1 分)根据电荷守恒 [ \\mathrm { O H ^ { - } } ] = [ \\mathsf { P B ^ { + } } ] + [ \\mathrm { H ^ { + } } ] , 因光激发后 PBOH 溶液呈显著的碱性,故[OH]≈[PB+] (1分)因此 d [ \\mathsf { P B } ^ { + } ] / d t = - k _ { 2 } [ \\mathsf { P B } ^ { + } ] ^ { 2 } (1分)积分得 1 / [ \\mathsf { P B } ^ { + } ] = 1 / [ \\mathsf { P B } ^ { + } ] _ { 0 } + k _ { 2 } t (1分) 共4分"
-    },
-    {
-      "type": "paragraph",
-      "text": "6.4.3 根据该实验结果,判断上述机理是否合理,说明理由。答案:不合理 (1分)该机理速率正比于[OH],有 C 0 _ { 2 } 时速率应降低几个数量级,但实验结果仅略低 (1分),共2分其他答案不得分"
-    },
-    {
-      "type": "subpart",
-      "label": "6-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001558"
-    },
-    {
-      "type": "subpart",
-      "label": "6-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001559"
-    },
-    {
-      "type": "subpart",
-      "label": "6-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001560"
-    },
-    {
-      "type": "subpart",
-      "label": "6-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001561"
-    },
-    {
-      "type": "subpart",
-      "label": "6-5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001562"
-    },
-    {
-      "type": "subpart",
-      "label": "6-6",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001563"
-    },
-    {
-      "type": "subpart",
-      "label": "6-7",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001564"
-    },
-    {
-      "type": "subpart",
-      "label": "6-8",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001565"
-    },
-    {
-      "type": "subpart",
-      "label": "6-9",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001566"
-    },
-    {
-      "type": "subpart",
-      "label": "6-10",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001567"
-    },
-    {
-      "type": "subpart",
-      "label": "6-11",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001568"
-    },
-    {
-      "type": "subpart",
-      "label": "6-1-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001569"
-    },
-    {
-      "type": "subpart",
-      "label": "6-1-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001570"
-    },
-    {
-      "type": "subpart",
-      "label": "6-2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001571"
-    },
-    {
-      "type": "subpart",
-      "label": "6-2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001572"
-    },
-    {
-      "type": "subpart",
-      "label": "6-3-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001573"
-    },
-    {
-      "type": "subpart",
-      "label": "6-3-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001574"
-    },
-    {
-      "type": "subpart",
-      "label": "6-4-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001575"
-    },
-    {
-      "type": "subpart",
-      "label": "6-4-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "按原卷题干完成本小问。"
-        }
-      ],
-      "partId": "part-001576"
+      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+      "caption": "图 8"
     }
   ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  "parts": [
+    {
+      "id": "6.1.1",
+      "type": "derivation",
+      "text": "推导 Ka(MC-H+) 满足的条件,用 K0 和 Ka1(CO2) 表示。",
+      "blocks": []
+    },
+    {
+      "id": "6.1.2",
+      "type": "multiple_choice",
+      "text": "选择难以实现 CO2 富集的主要原因。",
+      "blocks": []
+    },
+    {
+      "id": "6.2.1",
+      "type": "drawing",
+      "text": "画出 PB+ 最稳定的共振式。",
+      "blocks": []
+    }
+  ]
 }

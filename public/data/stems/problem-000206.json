@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "problemId": "problem-000206",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,20 +10,23 @@
   "source": {
     "sourceDocumentId": "source-000060",
     "sourceLabel": "2023-37-CChO-chusai.pdf",
-    "pages": [
-      5,
-      6
-    ],
+    "page": null,
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
+  },
+  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
+  "renderingHints": {
+    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
       "text": "有机合成涉及的选择性主要有化学选择性、区域选择性和立体选择性等,是学习的重点。"
-    },
+    }
+  ],
+  "parts": [
     {
-      "type": "subpart",
+      "id": "part-000206-01",
       "label": "9-1",
       "blocks": [
         {
@@ -33,16 +36,13 @@
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000206-figure-001.jpg",
-          "alt": "化学反应路线与结构式示意图(原图)",
-          "displayWidth": 80,
-          "caption": "氧化反应示意图",
-          "assetId": "asset-004767"
+          "alt": "化学反应路线与结构式示意图（原图）",
+          "caption": "氧化反应示意图"
         }
-      ],
-      "partId": "part-000406"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000206-02",
       "label": "9-2",
       "blocks": [
         {
@@ -52,49 +52,43 @@
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000206-figure-002.jpg",
-          "alt": "化学反应路线与结构式示意图(原图)",
-          "displayWidth": 80,
-          "caption": "合成路线示意图",
-          "assetId": "asset-004768"
+          "alt": "化学反应路线与结构式示意图（原图）",
+          "caption": "合成路线示意图"
         }
-      ],
-      "partId": "part-000407"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000206-03",
       "label": "9-2-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "画出产物 D 的立体结构式,并判断哪些属于主要产物(在你所画的结构式上圈出即可)。"
         }
-      ],
-      "partId": "part-000408"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000206-04",
       "label": "9-2-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "由 D 到 E 的转化过程属于哪类重排反应类型？"
+          "text": "由 D 到 E 的转化过程属于哪类重排反应类型?"
         }
-      ],
-      "partId": "part-000409"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000206-05",
       "label": "9-2-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "画出关键中间体 F 的立体结构式,并判断产物 G1 中三个手性中心的绝对构型。"
         }
-      ],
-      "partId": "part-000410"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000206-06",
       "label": "9-3",
       "blocks": [
         {
@@ -104,38 +98,30 @@
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000206-figure-003.jpg",
-          "alt": "化学反应路线与结构式示意图(原图)",
-          "displayWidth": 80,
-          "caption": "反应示意图",
-          "assetId": "asset-004769"
+          "alt": "化学反应路线与结构式示意图（原图）",
+          "caption": "反应示意图"
         }
-      ],
-      "partId": "part-000411"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000206-07",
       "label": "9-3-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "依据以上信息,画出关键中间体 I 和 J 及产物 K 和 L 的立体结构式(分离后没有得到六元环并六元环的产物,K 含氧杂氮杂五元环,L 含六元环并七元环)。"
         }
-      ],
-      "partId": "part-000412"
+      ]
     },
     {
-      "type": "subpart",
+      "id": "part-000206-08",
       "label": "9-3-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "简述为何在 $\\mathrm{BF_3\\cdot Et_2O}$ 催化下的产物为 $\\mathrm{K}$。"
         }
-      ],
-      "partId": "part-000413"
+      ]
     }
-  ],
-  "renderingHints": {
-    "mhchem": true
-  }
+  ]
 }
