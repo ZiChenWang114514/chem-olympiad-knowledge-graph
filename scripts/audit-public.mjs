@@ -65,7 +65,10 @@ for (const entry of manifest.files) {
     console.error('public-data-audit failed: invalid manifest file entry')
     process.exit(1)
   }
-  const bytes = (await readFile(new URL(`../public/${entry.path}`, import.meta.url))).byteLength
+  const file = await readFile(new URL(`../public/${entry.path}`, import.meta.url))
+  const bytes = entry.path.endsWith('.json')
+    ? Buffer.byteLength(file.toString('utf8').replace(/\r\n/g, '\n'))
+    : file.byteLength
   if (bytes !== entry.bytes) {
     console.error(`public-data-audit failed: file size mismatch: ${entry.path}`)
     process.exit(1)

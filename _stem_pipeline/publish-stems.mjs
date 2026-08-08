@@ -23,6 +23,12 @@ function walk(dir, acc = []) {
   return acc
 }
 
+function repositoryBytes(filePath) {
+  const raw = fs.readFileSync(filePath)
+  if (!filePath.endsWith('.json')) return raw.byteLength
+  return Buffer.byteLength(raw.toString('utf8').replace(/\r\n/g, '\n'))
+}
+
 const files = fs.readdirSync(SRC).filter(f => f.endsWith('.json') && f.startsWith('problem-'))
 const passed = []
 const failed = []
@@ -89,7 +95,7 @@ let filesList = allJson
   .filter(p => path.basename(p) !== 'manifest.json')
   .map(p => ({
     path: 'data/' + path.relative(DATA, p).split(path.sep).join('/'),
-    bytes: fs.statSync(p).size,
+    bytes: repositoryBytes(p),
   }))
 for (let i = 0; i < 4; i++) {
   const payload = {
