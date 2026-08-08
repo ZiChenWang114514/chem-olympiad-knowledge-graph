@@ -38,7 +38,7 @@
           "src": "data/stems/assets/problem-000210-figure-001.jpg",
           "alt": "原卷第3题图1：比较A(一种NHB)与B(一种NHC)的σ给电子能力强弱,并解释原因.",
           "displayWidth": 70,
-          "assetId": "asset-003532"
+          "assetId": "asset-005386"
         },
         {
           "type": "paragraph",
@@ -60,7 +60,7 @@
           "src": "data/stems/assets/problem-000210-figure-002.jpg",
           "alt": "原卷第3题图2：研究者利用NHB合成了1,2-双锂化二硅烯 $\\mathbf { C } \\left( \\mathrm { Ar } = 2 , 6 \\ma",
           "displayWidth": 70,
-          "assetId": "asset-003533"
+          "assetId": "asset-005387"
         }
       ],
       "partId": "part-002194"
@@ -100,7 +100,7 @@
           "src": "data/stems/assets/problem-000210-figure-003.jpg",
           "alt": "原卷第3题图3：研究者利用NHB合成了二硅炔化合物F,F可分别与甲苯及一氧化碳反应.",
           "displayWidth": 70,
-          "assetId": "asset-003534"
+          "assetId": "asset-005388"
         }
       ],
       "partId": "part-002197"

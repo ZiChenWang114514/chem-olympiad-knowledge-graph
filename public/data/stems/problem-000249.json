@@ -89,7 +89,7 @@
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000249-figure-001.jpg",
-      "assetId": "asset-003272",
+      "assetId": "asset-005126",
       "alt": "原卷示意图：图10.1 EPR 中电子自旋磁能级的能量分裂示意图",
       "label": "图10.1 EPR 中电子自旋磁能级的能量分裂示意图",
       "caption": "图10.1 EPR 中电子自旋磁能级的能量分裂示意图",
@@ -106,7 +106,7 @@
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000249-figure-002.jpg",
-      "assetId": "asset-003273",
+      "assetId": "asset-005127",
       "alt": "原卷示意图：第15页 共17页",
       "label": "第15页 共17页",
       "caption": "图10.1 EPR 中电子自旋磁能级的能量分裂示意图；第15页 共17页",
@@ -138,7 +138,7 @@
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000249-figure-003.jpg",
-      "assetId": "asset-003274",
+      "assetId": "asset-005128",
       "alt": "原卷示意图：图10.4 磁致冷过程的热力学循环示意图",
       "label": "图10.4 磁致冷过程的热力学循环示意图",
       "caption": "图10.4 磁致冷过程的热力学循环示意图",
@@ -212,7 +212,7 @@
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000249-figure-004.jpg",
-      "assetId": "asset-003275",
+      "assetId": "asset-005129",
       "alt": "富勒烯材料与磁共振：第4幅原卷结构或数据示意",
       "label": "",
       "caption": "",
@@ -294,7 +294,7 @@
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000249-figure-005.jpg",
-      "assetId": "asset-003276",
+      "assetId": "asset-005130",
       "alt": "富勒烯材料与磁共振：第5幅原卷结构或数据示意",
       "label": "",
       "caption": "",

@@ -28,7 +28,7 @@
       "alt": "呋喃衍生物发生 Achmatowicz 重排的反应式",
       "displayWidth": 80,
       "caption": "反应示意图",
-      "assetId": "asset-002891"
+      "assetId": "asset-004745"
     },
     {
       "type": "subpart",
@@ -59,7 +59,7 @@
           "alt": "AchR 重排反应底物",
           "displayWidth": 80,
           "caption": "反应式",
-          "assetId": "asset-002892"
+          "assetId": "asset-004746"
         }
       ],
       "partId": "part-000318"
@@ -78,7 +78,7 @@
           "alt": "AchR 重排与 [5+2] 环加成结合的反应流程",
           "displayWidth": 80,
           "caption": "反应流程",
-          "assetId": "asset-002893"
+          "assetId": "asset-004747"
         },
         {
           "type": "paragraph",
@@ -101,7 +101,7 @@
           "alt": "C4 位取代的呋喃衍生物反应",
           "displayWidth": 80,
           "caption": "反应式",
-          "assetId": "asset-002894"
+          "assetId": "asset-004748"
         },
         {
           "type": "figure",
@@ -109,7 +109,7 @@
           "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
           "displayWidth": 80,
           "caption": "图 5",
-          "assetId": "asset-002895"
+          "assetId": "asset-004749"
         }
       ],
       "partId": "part-000320"

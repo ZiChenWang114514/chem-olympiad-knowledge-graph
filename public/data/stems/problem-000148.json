@@ -45,7 +45,7 @@
           "src": "data/stems/assets/problem-000148-figure-001.jpg",
           "alt": "原卷第7题图1：苯甲酸衍生物的酸性与其取代基的性质紧密相关.如下所示,化合物B的 ${ \\mathfrak { o } } K _ { a }$ 值显著小于",
           "displayWidth": 70,
-          "assetId": "asset-003504"
+          "assetId": "asset-005358"
         }
       ],
       "partId": "part-002098"
@@ -73,15 +73,22 @@
       "partId": "part-002626"
     },
     {
-      "type": "paragraph",
-      "text": "年,英国的科研团队首次合成了全顺式的1,2,3,4,5,6-六氟环己烷(1).这是迄今已知极性最大的非离子型有机化合物.1的合成路线如下图所示:以肌醇(myo-inositol, 2)为起始原料,通过6步转化合成中间体3,再经过以脱氧氟化和亲核氟化为关键步骤的6步反应制备1.(提示:DeoxoFluor是一种常用的脱氧氟化试剂,可将羟基转化为氟,并生成 $\\mathrm { SOF _ { 2c } }$ .Et<sub>3</sub>N·3HF是一种常用的亲核氟化试剂)"
+      "type": "subpart",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "2015年,英国的科研团队首次合成了全顺式的1,2,3,4,5,6-六氟环己烷(1).这是迄今已知极性最大的非离子型有机化合物.1的合成路线如下图所示:以肌醇(myo-inositol, 2)为起始原料,通过6步转化合成中间体3,再经过以脱氧氟化和亲核氟化为关键步骤的6步反应制备1.(提示:DeoxoFluor是一种常用的脱氧氟化试剂,可将羟基转化为氟,并生成 $\\mathrm { SOF _ { 2c } }$ .Et<sub>3</sub>N·3HF是一种常用的亲核氟化试剂)"
+        }
+      ],
+      "partId": "part-002629"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000148-figure-002.jpg",
       "alt": "原卷第7题图2：年,英国的科研团队首次合成了全顺式的1,2,3,4,5,6-六氟环己烷(1).这是迄今已知极性最大的非离子型有机化合物.1的合成路线如下图所",
       "displayWidth": 70,
-      "assetId": "asset-003505"
+      "assetId": "asset-005359"
     },
     {
       "type": "subpart",

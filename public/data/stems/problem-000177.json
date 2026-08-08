@@ -29,7 +29,7 @@
       "src": "data/stems/assets/problem-000177-figure-001.jpg",
       "alt": "原卷第9题图1：如下所示,呋喃衍生物发生Achmatowicz (AchR)重排是制备六元杂环化合物的有效方法:",
       "displayWidth": 70,
-      "assetId": "asset-003515"
+      "assetId": "asset-005369"
     },
     {
       "type": "subpart",
@@ -59,7 +59,7 @@
           "src": "data/stems/assets/problem-000177-figure-002.jpg",
           "alt": "原卷第9题图2：利用 $\\mathrm { oxone / KBr ( oxone : K _ { 2 } SO _ { 4 } / KHSO _ { 4 ",
           "displayWidth": 70,
-          "assetId": "asset-003516"
+          "assetId": "asset-005370"
         }
       ],
       "partId": "part-002135"
@@ -77,7 +77,7 @@
           "src": "data/stems/assets/problem-000177-figure-003.jpg",
           "alt": "原卷第9题图3：AchR重排和[5+2]环加成反应相结合,可以构筑[3.2.1]双环骨架. $\\mathrm { ( Ac ; CH _ { 3 } CO ",
           "displayWidth": 70,
-          "assetId": "asset-003517"
+          "assetId": "asset-005371"
         },
         {
           "type": "paragraph",
@@ -99,7 +99,7 @@
           "src": "data/stems/assets/problem-000177-figure-004.jpg",
           "alt": "原卷第9题图4：当呋喃环C4位有取代基时,也可以进行类似9-3的反应,画出D,E,F的结构(要求立体化学).",
           "displayWidth": 70,
-          "assetId": "asset-003518"
+          "assetId": "asset-005372"
         }
       ],
       "partId": "part-002137"

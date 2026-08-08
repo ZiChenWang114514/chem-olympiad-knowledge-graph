@@ -29,7 +29,7 @@
       "src": "data/stems/assets/problem-000184-figure-001.jpg",
       "alt": "原卷第6题图1：烯烃的硼氢化是有机合成中的常用反应.简单烯烃与 $\\mathrm { BH _ { 3 } { \\cdot } THF }$ (THF:四氢",
       "displayWidth": 70,
-      "assetId": "asset-003519"
+      "assetId": "asset-005373"
     },
     {
       "type": "subpart",
@@ -63,14 +63,14 @@
           "src": "data/stems/assets/problem-000184-figure-002.jpg",
           "alt": "原卷第6题图2：如下图所示,胆固醇(Cholesterol) $\\mathrm { 4E ^ { - } } 20 \\ ^ { \\circ } \\mathr",
           "displayWidth": 70,
-          "assetId": "asset-003520"
+          "assetId": "asset-005374"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000184-figure-003.jpg",
           "alt": "原卷第6题图3（结构或数据示意）",
           "displayWidth": 70,
-          "assetId": "asset-003521"
+          "assetId": "asset-005375"
         }
       ],
       "partId": "part-002144"
@@ -88,7 +88,7 @@
           "src": "data/stems/assets/problem-000184-figure-004.jpg",
           "alt": "原卷第6题图4：对烯烃异构体D和G进行硼氢化-氧化反应所得产物如下图所示.试据此给出D → E的转化过程中,在加入 NaOH 和 $\\mathrm { H ",
           "displayWidth": 70,
-          "assetId": "asset-003522"
+          "assetId": "asset-005376"
         }
       ],
       "partId": "part-002145"
@@ -106,7 +106,7 @@
           "src": "data/stems/assets/problem-000184-figure-005.jpg",
           "alt": "原卷第6题图5：如下图所示,双环烯烃I经硼氢化和后续转化可生成含氮不含硼且具有顺式并环结构的外消旋产物J.已知硼烷和三氯化硼反应可生成氯代硼烷,产物J不含季",
           "displayWidth": 70,
-          "assetId": "asset-003523"
+          "assetId": "asset-005377"
         }
       ],
       "partId": "part-002146"

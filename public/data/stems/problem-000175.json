@@ -29,7 +29,7 @@
       "src": "data/stems/assets/problem-000175-figure-001.jpg",
       "alt": "原卷第7题图1：2022年9月9日,国家航天局,国家原子能机构联合发布:我国科学家在嫦娥五号月壞样品中发现一种新矿物,命名为“嫦娥石”,英文名称Change",
       "displayWidth": 70,
-      "assetId": "asset-003512"
+      "assetId": "asset-005366"
     },
     {
       "type": "subpart",
@@ -125,7 +125,7 @@
           "src": "data/stems/assets/problem-000175-figure-002.jpg",
           "alt": "原卷第7题图2：初步研究表明,嫦娥石中含有 $^ { 3 } \\mathrm { He }$ , $\\mathrm { FeO } _ { 6 }$ 和 $",
           "displayWidth": 70,
-          "assetId": "asset-003513"
+          "assetId": "asset-005367"
         },
         {
           "type": "paragraph",
@@ -136,7 +136,7 @@
           "src": "data/stems/assets/problem-000175-figure-003.jpg",
           "alt": "原卷第7题图3：(a)",
           "displayWidth": 70,
-          "assetId": "asset-003514"
+          "assetId": "asset-005368"
         },
         {
           "type": "paragraph",

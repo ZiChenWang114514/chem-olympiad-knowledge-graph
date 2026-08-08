@@ -27,7 +27,7 @@
       "src": "data/stems/assets/problem-000095-figure-001.jpg",
       "alt": "原卷第1题图1：第1题 具有 $\\mathrm { R _ { 2 } C } \\mathrm { : }$ :形式的有机中间体称为卡宾,M.Driess等",
       "displayWidth": 70,
-      "assetId": "asset-003456"
+      "assetId": "asset-005310"
     },
     {
       "type": "subpart",
@@ -75,7 +75,7 @@
           "src": "data/stems/assets/problem-000095-figure-002.jpg",
           "alt": "原卷第1题图2：化合物2与N-杂环卡宾作用产生化合物3,化合物3进一步与[PhC(N!Bu)<sub>2</sub>]GeCl作用生成化合物C和含Ge的D;",
           "displayWidth": 70,
-          "assetId": "asset-003457"
+          "assetId": "asset-005311"
         }
       ],
       "partId": "part-002010"

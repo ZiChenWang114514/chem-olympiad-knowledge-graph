@@ -29,7 +29,7 @@
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000221-figure-001.jpg",
-      "assetId": "asset-003247",
+      "assetId": "asset-005101",
       "alt": "原卷示意图：图 1.1 DNA 双螺旋及其组装",
       "label": "图 1.1 DNA 双螺旋及其组装",
       "caption": "图 1.1 DNA 双螺旋及其组装",
@@ -64,7 +64,7 @@
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000221-figure-002.jpg",
-      "assetId": "asset-003248",
+      "assetId": "asset-005102",
       "alt": "原卷示意图：图 1.2 DNA 砖块 A 和砖块 B 结合形成 C",
       "label": "图 1.2 DNA 砖块 A 和砖块 B 结合形成 C",
       "caption": "图 1.2 DNA 砖块 A 和砖块 B 结合形成 C",
@@ -113,7 +113,7 @@
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000221-figure-003.jpg",
-      "assetId": "asset-003249",
+      "assetId": "asset-005103",
       "alt": "原卷示意图：图 1.3 DNA 纳⽶弹簧及其与蛋⽩质的作⽤",
       "label": "图 1.3 DNA 纳⽶弹簧及其与蛋⽩质的作⽤",
       "caption": "图 1.3 DNA 纳米弹簧及其与蛋白质的作用",
@@ -137,7 +137,7 @@
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000221-figure-004.jpg",
-      "assetId": "asset-003250",
+      "assetId": "asset-005104",
       "alt": "DNA砖块纳米结构：第4幅原卷结构或数据示意",
       "label": "",
       "caption": "",

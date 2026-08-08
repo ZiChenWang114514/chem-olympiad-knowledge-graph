@@ -75,7 +75,7 @@
           "src": "data/stems/assets/problem-000315-figure-001.jpg",
           "alt": "原卷第5题图1：荧光分子 $\\mathrm { FL } _ { 5 } \\left( \\mathrm { C } _ { 32 } \\mathrm { H",
           "displayWidth": 70,
-          "assetId": "asset-003638"
+          "assetId": "asset-005492"
         },
         {
           "type": "paragraph",
@@ -90,7 +90,7 @@
           "src": "data/stems/assets/problem-000315-figure-002.jpg",
           "alt": "原卷第5题图2：()",
           "displayWidth": 70,
-          "assetId": "asset-003639"
+          "assetId": "asset-005493"
         },
         {
           "type": "paragraph",
@@ -101,7 +101,7 @@
           "src": "data/stems/assets/problem-000315-figure-003.jpg",
           "alt": "原卷第5题图3：()",
           "displayWidth": 70,
-          "assetId": "asset-003640"
+          "assetId": "asset-005494"
         }
       ],
       "partId": "part-002383"

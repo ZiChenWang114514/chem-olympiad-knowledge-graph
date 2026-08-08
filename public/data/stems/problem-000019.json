@@ -33,7 +33,7 @@
           "src": "data/stems/assets/problem-000019-figure-001.jpg",
           "alt": "原卷第8题图1：画出以下反应过程中化合物A-F的结构简式.",
           "displayWidth": 70,
-          "assetId": "asset-003430"
+          "assetId": "asset-005284"
         }
       ],
       "partId": "part-001884"
@@ -51,7 +51,7 @@
           "src": "data/stems/assets/problem-000019-figure-002.jpg",
           "alt": "原卷第8题图2：某同学设计了以下反应,希望能同时保护氨基和羟基.",
           "displayWidth": 70,
-          "assetId": "asset-003431"
+          "assetId": "asset-005285"
         },
         {
           "type": "paragraph",
@@ -89,7 +89,7 @@
           "src": "data/stems/assets/problem-000019-figure-003.jpg",
           "alt": "原卷第8题图3：理论计算表明,甲酸的和-型两种异构体存在一定的能量差别.",
           "displayWidth": 70,
-          "assetId": "asset-003432"
+          "assetId": "asset-005286"
         },
         {
           "type": "paragraph",

@@ -24,7 +24,7 @@
       "alt": "分子机器示意图(原卷配图)",
       "displayWidth": 80,
       "caption": "题图",
-      "assetId": "asset-002870"
+      "assetId": "asset-004724"
     },
     {
       "type": "subpart",
@@ -62,7 +62,7 @@
           "alt": "分子泵示意图(原卷配图)",
           "displayWidth": 80,
           "caption": "图 5-2",
-          "assetId": "asset-002871"
+          "assetId": "asset-004725"
         },
         {
           "type": "figure",
@@ -70,7 +70,7 @@
           "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
           "displayWidth": 80,
           "caption": "图 3",
-          "assetId": "asset-002872"
+          "assetId": "asset-004726"
         },
         {
           "type": "figure",
@@ -78,7 +78,7 @@
           "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
           "displayWidth": 80,
           "caption": "图 4",
-          "assetId": "asset-002873"
+          "assetId": "asset-004727"
         },
         {
           "type": "figure",
@@ -86,7 +86,7 @@
           "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
           "displayWidth": 80,
           "caption": "图 5",
-          "assetId": "asset-002874"
+          "assetId": "asset-004728"
         },
         {
           "type": "figure",
@@ -94,7 +94,7 @@
           "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
           "displayWidth": 80,
           "caption": "图 6",
-          "assetId": "asset-002875"
+          "assetId": "asset-004729"
         },
         {
           "type": "figure",
@@ -102,7 +102,7 @@
           "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
           "displayWidth": 80,
           "caption": "图 7",
-          "assetId": "asset-002876"
+          "assetId": "asset-004730"
         }
       ],
       "partId": "part-000268"

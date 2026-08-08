@@ -68,7 +68,7 @@
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000104-figure-001.jpg",
-      "assetId": "asset-003155",
+      "assetId": "asset-005009",
       "alt": "原卷示意图：模型A",
       "label": "模型A",
       "caption": "模型A",
@@ -81,7 +81,7 @@
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000104-figure-002.jpg",
-      "assetId": "asset-003156",
+      "assetId": "asset-005010",
       "alt": "原卷示意图：模型B",
       "label": "模型B",
       "caption": "模型B",
@@ -138,7 +138,7 @@
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000104-figure-003.jpg",
-      "assetId": "asset-003157",
+      "assetId": "asset-005011",
       "alt": "聚合物合成与热力学：第3幅原卷结构或数据示意",
       "label": "",
       "caption": "",

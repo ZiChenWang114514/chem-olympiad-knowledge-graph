@@ -28,42 +28,42 @@
       "src": "data/stems/assets/problem-000266-figure-011.jpg",
       "alt": "原卷第8题图11：题干配图，具体相邻文字需人工复核",
       "displayWidth": 70,
-      "assetId": "asset-003597"
+      "assetId": "asset-005451"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000266-figure-012.jpg",
       "alt": "原卷第8题图12：题干配图，具体相邻文字需人工复核",
       "displayWidth": 70,
-      "assetId": "asset-003598"
+      "assetId": "asset-005452"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000266-figure-013.jpg",
       "alt": "原卷第8题图13：题干配图，具体相邻文字需人工复核",
       "displayWidth": 70,
-      "assetId": "asset-003599"
+      "assetId": "asset-005453"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000266-figure-014.jpg",
       "alt": "原卷第8题图14：题干配图，具体相邻文字需人工复核",
       "displayWidth": 70,
-      "assetId": "asset-003600"
+      "assetId": "asset-005454"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000266-figure-015.jpg",
       "alt": "原卷第8题图15：题干配图，具体相邻文字需人工复核",
       "displayWidth": 70,
-      "assetId": "asset-003601"
+      "assetId": "asset-005455"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000266-figure-016.jpg",
       "alt": "原卷第8题图16：题干配图，具体相邻文字需人工复核",
       "displayWidth": 70,
-      "assetId": "asset-003602"
+      "assetId": "asset-005456"
     },
     {
       "type": "subpart",
@@ -183,7 +183,7 @@
           "src": "data/stems/assets/problem-000266-figure-001.jpg",
           "alt": "原卷第8题图1：比较 gauche-3 和 staggered-3 两个构象,哪一个构象更稳定给出你判断的理由.",
           "displayWidth": 70,
-          "assetId": "asset-003603"
+          "assetId": "asset-005457"
         },
         {
           "type": "paragraph",
@@ -194,7 +194,7 @@
           "src": "data/stems/assets/problem-000266-figure-002.jpg",
           "alt": "原卷第8题图2：gauche-3",
           "displayWidth": 70,
-          "assetId": "asset-003604"
+          "assetId": "asset-005458"
         },
         {
           "type": "paragraph",
@@ -246,7 +246,7 @@
           "src": "data/stems/assets/problem-000266-figure-003.jpg",
           "alt": "原卷第8题图3：以下四个构象中,哪一个最稳定哪一个最不稳定",
           "displayWidth": 70,
-          "assetId": "asset-003605"
+          "assetId": "asset-005459"
         },
         {
           "type": "paragraph",
@@ -257,7 +257,7 @@
           "src": "data/stems/assets/problem-000266-figure-004.jpg",
           "alt": "原卷第8题图4：A",
           "displayWidth": 70,
-          "assetId": "asset-003606"
+          "assetId": "asset-005460"
         },
         {
           "type": "paragraph",
@@ -268,7 +268,7 @@
           "src": "data/stems/assets/problem-000266-figure-005.jpg",
           "alt": "原卷第8题图5：B",
           "displayWidth": 70,
-          "assetId": "asset-003607"
+          "assetId": "asset-005461"
         },
         {
           "type": "paragraph",
@@ -279,7 +279,7 @@
           "src": "data/stems/assets/problem-000266-figure-006.jpg",
           "alt": "原卷第8题图6：C",
           "displayWidth": 70,
-          "assetId": "asset-003608"
+          "assetId": "asset-005462"
         },
         {
           "type": "paragraph",
@@ -331,7 +331,7 @@
           "src": "data/stems/assets/problem-000266-figure-007.jpg",
           "alt": "原卷第8题图7：以下四个化合物中,红外中羰基伸缩振动波数最大的是哪一个最小的是哪一个",
           "displayWidth": 70,
-          "assetId": "asset-003609"
+          "assetId": "asset-005463"
         },
         {
           "type": "paragraph",
@@ -447,7 +447,7 @@
           "src": "data/stems/assets/problem-000266-figure-008.jpg",
           "alt": "原卷第8题图8：个 ,选 3 个以下不得分;答案 e 可选可不选",
           "displayWidth": 70,
-          "assetId": "asset-003610"
+          "assetId": "asset-005464"
         },
         {
           "type": "paragraph",
@@ -469,14 +469,14 @@
           "src": "data/stems/assets/problem-000266-figure-009.jpg",
           "alt": "原卷第8题图9：下面两个示意图是 2-甲基环己酮分别在两种碱(LDA 和 NaOH)的作用下形成两种烯醇负离子(X 和 Y)的反应进程图(A 图和 B 图)",
           "displayWidth": 70,
-          "assetId": "asset-003611"
+          "assetId": "asset-005465"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000266-figure-010.jpg",
           "alt": "原卷第8题图10（结构或数据示意）",
           "displayWidth": 70,
-          "assetId": "asset-003612"
+          "assetId": "asset-005466"
         }
       ],
       "partId": "part-002332"

@@ -33,7 +33,7 @@
       "alt": "图 6.1 包含两个子图:(a) A 的晶体结构示意图;(b) B 的热重曲线图。",
       "displayWidth": 80,
       "caption": "图 6.1 (a) A 的晶体结构;(b) B 的热重曲线",
-      "assetId": "asset-002964"
+      "assetId": "asset-004818"
     },
     {
       "type": "paragraph",
@@ -45,7 +45,7 @@
       "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
       "displayWidth": 80,
       "caption": "图 9",
-      "assetId": "asset-002965"
+      "assetId": "asset-004819"
     },
     {
       "type": "subpart",
@@ -94,7 +94,7 @@
           "alt": "配合物 C 与烯丙基氯代物 D 的反应方程式。",
           "displayWidth": 80,
           "caption": "反应示意图",
-          "assetId": "asset-002966"
+          "assetId": "asset-004820"
         },
         {
           "type": "paragraph",
@@ -110,7 +110,7 @@
           "alt": "机理 I 的反应过程图示。",
           "displayWidth": 80,
           "caption": "机理 I 示意图",
-          "assetId": "asset-002967"
+          "assetId": "asset-004821"
         },
         {
           "type": "paragraph",
@@ -122,7 +122,7 @@
           "alt": "机理 II 的反应过程图示。",
           "displayWidth": 80,
           "caption": "机理 II 示意图",
-          "assetId": "asset-002968"
+          "assetId": "asset-004822"
         },
         {
           "type": "paragraph",
@@ -154,7 +154,7 @@
           "alt": "Ti 配合物与芳基端炔的反应方程式。",
           "displayWidth": 80,
           "caption": "反应示意图",
-          "assetId": "asset-002969"
+          "assetId": "asset-004823"
         },
         {
           "type": "paragraph",
@@ -166,7 +166,7 @@
           "alt": "图 6.2 展示了理论计算得到的反应路径自由能变化图。",
           "displayWidth": 80,
           "caption": "图 6.2 理论计算得到的可能的反应路径图",
-          "assetId": "asset-002970"
+          "assetId": "asset-004824"
         }
       ],
       "partId": "part-000535"
@@ -231,14 +231,14 @@
       "src": "data/stems/assets/problem-000245-figure-006.jpg",
       "alt": "锆钛配合物反应机理与能量图，第6幅，保留原卷标注",
       "displayWidth": 80,
-      "assetId": "asset-002971"
+      "assetId": "asset-004825"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000245-figure-009.jpg",
       "alt": "锆钛配合物反应机理与能量图，第9幅，保留原卷标注",
       "displayWidth": 80,
-      "assetId": "asset-002972"
+      "assetId": "asset-004826"
     }
   ],
   "renderingHints": {

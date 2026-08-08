@@ -78,14 +78,14 @@
           "src": "data/stems/assets/problem-000405-figure-001.jpg",
           "alt": "原卷第4题图1：冰- $\\boldsymbol { \\cdot } \\boldsymbol { I } _ { \\mathrm { c } } .$ 是一种",
           "displayWidth": 70,
-          "assetId": "asset-003694"
+          "assetId": "asset-005548"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000405-figure-002.jpg",
           "alt": "原卷第4题图2（结构或数据示意）",
           "displayWidth": 70,
-          "assetId": "asset-003695"
+          "assetId": "asset-005549"
         },
         {
           "type": "paragraph",
@@ -96,7 +96,7 @@
           "src": "data/stems/assets/problem-000405-figure-003.jpg",
           "alt": "原卷第4题图3：五⻆十二面体",
           "displayWidth": 70,
-          "assetId": "asset-003696"
+          "assetId": "asset-005550"
         },
         {
           "type": "paragraph",

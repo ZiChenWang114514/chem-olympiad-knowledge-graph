@@ -43,7 +43,7 @@
           "src": "data/stems/assets/problem-000253-figure-001.jpg",
           "alt": "原卷第4题图1：B",
           "displayWidth": 70,
-          "assetId": "asset-003582"
+          "assetId": "asset-005436"
         },
         {
           "type": "paragraph",
@@ -54,21 +54,21 @@
           "src": "data/stems/assets/problem-000253-figure-002.jpg",
           "alt": "原卷第4题图2：A",
           "displayWidth": 70,
-          "assetId": "asset-003583"
+          "assetId": "asset-005437"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000253-figure-003.jpg",
           "alt": "原卷第4题图3（结构或数据示意）",
           "displayWidth": 70,
-          "assetId": "asset-003584"
+          "assetId": "asset-005438"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000253-figure-004.jpg",
           "alt": "原卷第4题图4（结构或数据示意）",
           "displayWidth": 70,
-          "assetId": "asset-003585"
+          "assetId": "asset-005439"
         },
         {
           "type": "paragraph",

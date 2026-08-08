@@ -33,7 +33,7 @@
       "src": "data/stems/assets/problem-000246-figure-001.jpg",
       "alt": "原卷第7题图1：1871年发现的vonRichter重排反应(如下图)是有机机理研究领域中非常有趣的一个反应,其反应机理被反复推倒,重建,历经百年才被逐步证",
       "displayWidth": 70,
-      "assetId": "asset-003576"
+      "assetId": "asset-005430"
     },
     {
       "type": "paragraph",
@@ -44,7 +44,7 @@
       "src": "data/stems/assets/problem-000246-figure-002.jpg",
       "alt": "原卷第7题图2：早期化学家提出了一系列简单的反应机理,但相继被否定.上世纪50年代,通过一系列实验研究,Bunnett 和Rauhut 提出了如下机理",
       "displayWidth": 70,
-      "assetId": "asset-003577"
+      "assetId": "asset-005431"
     },
     {
       "type": "paragraph",
@@ -55,8 +55,15 @@
       "text": "第38届中国化学奥林匹克(决赛)理论第一场试题 2024年10月26日广州"
     },
     {
-      "type": "paragraph",
-      "text": "年的实验研究表明,反应的含N产物主要为N2,从而对上述机理提出了质$\\mathrm{N} _ { 2 } ,$疑.尽管有人辩解称,上述机理中A水解产生的NH3可被后面解离的$\\mathrm { NO } _ { 2 } ^ { - }$或活性中间体 B 氧化生成$\\mathrm{N}_2 ,$但该机理还是被当年的$^ { 15 } \\mathsf { N }$同位素示踪实验所否定.用何种15N同位素试剂可实现上述目的"
+      "type": "subpart",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "1960年的实验研究表明,反应的含N产物主要为N2,从而对上述机理提出了质$\\mathrm{N} _ { 2 } ,$疑.尽管有人辩解称,上述机理中A水解产生的NH3可被后面解离的$\\mathrm { NO } _ { 2 } ^ { - }$或活性中间体 B 氧化生成$\\mathrm{N}_2 ,$但该机理还是被当年的$^ { 15 } \\mathsf { N }$同位素示踪实验所否定.用何种15N同位素试剂可实现上述目的"
+        }
+      ],
+      "partId": "part-002631"
     },
     {
       "type": "subpart",
@@ -71,7 +78,7 @@
           "src": "data/stems/assets/problem-000246-figure-003.jpg",
           "alt": "原卷第7题图3：目前确立下来 vonRichter 重排的部分机理如下",
           "displayWidth": 70,
-          "assetId": "asset-003578"
+          "assetId": "asset-005432"
         },
         {
           "type": "paragraph",
@@ -97,7 +104,7 @@
           "src": "data/stems/assets/problem-000246-figure-004.jpg",
           "alt": "原卷第7题图4：为模拟 BTZ043与酶中半胱氨酸残基的作用,在$\\mathrm{p} H11 \\sim12$的乙腈-水溶剂中用Boc-cysteamine",
           "displayWidth": 70,
-          "assetId": "asset-003579"
+          "assetId": "asset-005433"
         }
       ],
       "partId": "part-002259"
@@ -115,7 +122,7 @@
           "src": "data/stems/assets/problem-000246-figure-005.jpg",
           "alt": "原卷第7题图5：为进一步探讨亲核试剂对 BTZ043的作用,在乙腈-水混合溶剂中用 KCN 处理BTZ043,分离得到两种主要产物J和K,并在过程中产生另一",
           "displayWidth": 70,
-          "assetId": "asset-003580"
+          "assetId": "asset-005434"
         },
         {
           "type": "paragraph",

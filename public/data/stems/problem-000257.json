@@ -105,7 +105,7 @@
           "src": "data/stems/assets/problem-000257-figure-001.jpg",
           "alt": "原卷第8题图1：用纽曼投影式表示以下化合物的优势构象(A 以C(3)-C(4)轴,B 以C(2)-C(3)轴):",
           "displayWidth": 70,
-          "assetId": "asset-003587"
+          "assetId": "asset-005441"
         },
         {
           "type": "paragraph",
@@ -116,7 +116,7 @@
           "src": "data/stems/assets/problem-000257-figure-002.jpg",
           "alt": "原卷第8题图2：A",
           "displayWidth": 70,
-          "assetId": "asset-003588"
+          "assetId": "asset-005442"
         },
         {
           "type": "paragraph",
@@ -138,7 +138,7 @@
           "src": "data/stems/assets/problem-000257-figure-003.jpg",
           "alt": "原卷第8题图3：以下化合物中哪个氢更易被正丁基锂去质子化",
           "displayWidth": 70,
-          "assetId": "asset-003589"
+          "assetId": "asset-005443"
         }
       ],
       "partId": "part-002303"
@@ -156,7 +156,7 @@
           "src": "data/stems/assets/problem-000257-figure-004.jpg",
           "alt": "原卷第8题图4：判断以下哪个化合物中羰基的伸缩振动频率更大",
           "displayWidth": 70,
-          "assetId": "asset-003590"
+          "assetId": "asset-005444"
         }
       ],
       "partId": "part-002304"

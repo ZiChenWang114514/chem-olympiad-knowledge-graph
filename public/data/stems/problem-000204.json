@@ -41,7 +41,7 @@
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000204-figure-001.jpg",
-      "assetId": "asset-003230",
+      "assetId": "asset-005084",
       "alt": "原卷示意图：(b) 磷脂双分⼦层",
       "label": "(b) 磷脂双分⼦层",
       "caption": "(b) 磷脂双分⼦层",
@@ -50,7 +50,7 @@
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000204-figure-002.jpg",
-      "assetId": "asset-003231",
+      "assetId": "asset-005085",
       "alt": "原卷示意图：(c) 脂质体",
       "label": "(c) 脂质体",
       "caption": "(b) 磷脂双分子层",
@@ -63,7 +63,7 @@
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000204-figure-003.jpg",
-      "assetId": "asset-003232",
+      "assetId": "asset-005086",
       "alt": "原卷示意图：7-1-1 依据磷脂双层膜结构的特征，解释为什么⽔溶液中的离⼦⽆法⾃由通过磷脂双层膜。",
       "label": "7-1-1 依据磷脂双层膜结构的特征，解释为什么⽔溶液中的离⼦⽆法⾃由通过磷脂双层膜。",
       "caption": "(c) 脂质体",
@@ -76,7 +76,7 @@
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000204-figure-004.jpg",
-      "assetId": "asset-003233",
+      "assetId": "asset-005087",
       "alt": "7-1-1 依据磷脂双层膜结构的特征,解释为什么水溶液中的离子无法自由通过磷脂双层膜。",
       "label": "7-1-1 依据磷脂双层膜结构的特征,解释为什么水溶液中的离子无法自由通过磷脂双层膜。",
       "caption": "7-1-1 依据磷脂双层膜结构的特征,解释为什么水溶液中的离子无法自由通过磷脂双层膜。",
@@ -199,7 +199,7 @@
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000204-figure-005.jpg",
-      "assetId": "asset-003234",
+      "assetId": "asset-005088",
       "alt": "磷脂膜与蛋白质结构：第5幅原卷结构或数据示意",
       "label": "",
       "caption": "",

@@ -40,7 +40,7 @@
       "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
       "displayWidth": 80,
       "caption": "反应路线示意图(原图缺失)",
-      "assetId": "asset-002926"
+      "assetId": "asset-004780"
     },
     {
       "type": "subpart",
@@ -67,7 +67,7 @@
           "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
           "displayWidth": 80,
           "caption": "图 2",
-          "assetId": "asset-002927"
+          "assetId": "asset-004781"
         }
       ],
       "partId": "part-000432"

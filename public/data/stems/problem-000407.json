@@ -30,14 +30,14 @@
       "src": "data/stems/assets/problem-000407-figure-001.jpg",
       "alt": "原卷第6题图1：路线 1:",
       "displayWidth": 70,
-      "assetId": "asset-003697"
+      "assetId": "asset-005551"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000407-figure-002.jpg",
       "alt": "原卷第6题图2（结构或数据示意）",
       "displayWidth": 70,
-      "assetId": "asset-003698"
+      "assetId": "asset-005552"
     },
     {
       "type": "paragraph",
@@ -48,7 +48,7 @@
       "src": "data/stems/assets/problem-000407-figure-003.jpg",
       "alt": "原卷第6题图3：其中 $\\mathbf { D } \\mathbf { E } + \\mathbf { F }$ 的反应为烯烃复分解反应(2005年诺⻉尔化",
       "displayWidth": 70,
-      "assetId": "asset-003699"
+      "assetId": "asset-005553"
     },
     {
       "type": "paragraph",
@@ -59,7 +59,7 @@
       "src": "data/stems/assets/problem-000407-figure-004.jpg",
       "alt": "原卷第6题图4：路线 2:",
       "displayWidth": 70,
-      "assetId": "asset-003700"
+      "assetId": "asset-005554"
     },
     {
       "type": "paragraph",
@@ -100,7 +100,7 @@
           "src": "data/stems/assets/problem-000407-figure-005.jpg",
           "alt": "原卷第6题图5：化合物(4)的一种立体异构体(4-1),在温和条件下氧化得化合物 $\\mathbf { Q } ,$ ,化合物Q经 $\\mathrm { N",
           "displayWidth": 70,
-          "assetId": "asset-003701"
+          "assetId": "asset-005555"
         },
         {
           "type": "paragraph",

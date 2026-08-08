@@ -32,7 +32,7 @@
           "alt": "晶体A的晶胞示意图(大球为氯原子,小球为钠原子)",
           "displayWidth": 80,
           "caption": "晶体A的晶胞",
-          "assetId": "asset-002784"
+          "assetId": "asset-004638"
         },
         {
           "type": "paragraph",
@@ -44,7 +44,7 @@
           "alt": "晶体B的晶胞示意图(大球为氯原子,小球为钠原子)",
           "displayWidth": 80,
           "caption": "晶体B的晶胞",
-          "assetId": "asset-002785"
+          "assetId": "asset-004639"
         },
         {
           "type": "paragraph",
@@ -56,7 +56,7 @@
           "alt": "晶体C的晶胞示意图(大球为氯原子,小球为钠原子)",
           "displayWidth": 80,
           "caption": "晶体C的晶胞",
-          "assetId": "asset-002786"
+          "assetId": "asset-004640"
         },
         {
           "type": "paragraph",
@@ -79,7 +79,7 @@
           "alt": "钠离子简单立方排布,形成Na8立方体空隙,电子对和氦原子交替填充",
           "displayWidth": 80,
           "caption": "钠氦化合物结构示意图",
-          "assetId": "asset-002787"
+          "assetId": "asset-004641"
         }
       ],
       "partId": "part-000068"

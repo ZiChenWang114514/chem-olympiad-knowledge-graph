@@ -25,70 +25,70 @@
       "src": "data/stems/assets/problem-000276-figure-002.jpg",
       "alt": "原卷第7题图2：题干配图，具体相邻文字需人工复核",
       "displayWidth": 70,
-      "assetId": "asset-003614"
+      "assetId": "asset-005468"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000276-figure-003.jpg",
       "alt": "原卷第7题图3：题干配图，具体相邻文字需人工复核",
       "displayWidth": 70,
-      "assetId": "asset-003615"
+      "assetId": "asset-005469"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000276-figure-004.jpg",
       "alt": "原卷第7题图4：题干配图，具体相邻文字需人工复核",
       "displayWidth": 70,
-      "assetId": "asset-003616"
+      "assetId": "asset-005470"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000276-figure-005.jpg",
       "alt": "原卷第7题图5：题干配图，具体相邻文字需人工复核",
       "displayWidth": 70,
-      "assetId": "asset-003617"
+      "assetId": "asset-005471"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000276-figure-006.jpg",
       "alt": "原卷第7题图6：题干配图，具体相邻文字需人工复核",
       "displayWidth": 70,
-      "assetId": "asset-003618"
+      "assetId": "asset-005472"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000276-figure-007.jpg",
       "alt": "原卷第7题图7：题干配图，具体相邻文字需人工复核",
       "displayWidth": 70,
-      "assetId": "asset-003619"
+      "assetId": "asset-005473"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000276-figure-008.jpg",
       "alt": "原卷第7题图8：题干配图，具体相邻文字需人工复核",
       "displayWidth": 70,
-      "assetId": "asset-003620"
+      "assetId": "asset-005474"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000276-figure-009.jpg",
       "alt": "原卷第7题图9：题干配图，具体相邻文字需人工复核",
       "displayWidth": 70,
-      "assetId": "asset-003621"
+      "assetId": "asset-005475"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000276-figure-010.jpg",
       "alt": "原卷第7题图10：题干配图，具体相邻文字需人工复核",
       "displayWidth": 70,
-      "assetId": "asset-003622"
+      "assetId": "asset-005476"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000276-figure-011.jpg",
       "alt": "原卷第7题图11：题干配图，具体相邻文字需人工复核",
       "displayWidth": 70,
-      "assetId": "asset-003623"
+      "assetId": "asset-005477"
     },
     {
       "type": "subpart",
@@ -107,7 +107,7 @@
           "src": "data/stems/assets/problem-000276-figure-001.jpg",
           "alt": "原卷第7题图1：在答题纸骨架结构上的画图方法说明:下图的例子给出了如何在带六个取代基的六元环骨架上画出4-苯基吡啶,图中NA代表该原子上无取代基.",
           "displayWidth": 70,
-          "assetId": "asset-003624"
+          "assetId": "asset-005478"
         }
       ],
       "partId": "part-002344"

@@ -24,7 +24,7 @@
       "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
       "displayWidth": 80,
       "caption": "图 3",
-      "assetId": "asset-002796"
+      "assetId": "asset-004650"
     },
     {
       "type": "subpart",
@@ -40,7 +40,7 @@
           "alt": "化合物1与化合物2的结构示意图",
           "displayWidth": 80,
           "caption": "图:化合物1与化合物2的结构示意图(原图缺失)",
-          "assetId": "asset-002797"
+          "assetId": "asset-004651"
         }
       ],
       "partId": "part-000103"
@@ -138,7 +138,7 @@
       "src": "data/stems/assets/problem-000065-figure-003.jpg",
       "alt": "荧光识别与反应机理图，第3幅，保留原卷标注",
       "displayWidth": 80,
-      "assetId": "asset-002798"
+      "assetId": "asset-004652"
     }
   ],
   "renderingHints": {

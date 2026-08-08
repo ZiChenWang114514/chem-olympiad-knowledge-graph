@@ -60,7 +60,7 @@
           "src": "data/stems/assets/problem-000211-figure-001.jpg",
           "alt": "原卷第4题图1：磷可以形成种类丰富的磷团簇.组成磷团簇的基本结构单元有两种:单键相连的两个磷原子P2(含有4个未配对电子)和链状的三个磷原子P3(含有5个未",
           "displayWidth": 70,
-          "assetId": "asset-003535"
+          "assetId": "asset-005389"
         },
         {
           "type": "paragraph",
@@ -71,7 +71,7 @@
           "src": "data/stems/assets/problem-000211-figure-002.jpg",
           "alt": "原卷第4题图2：规则1:团簇中的每个磷原子只能形成两个或三个共价单键;",
           "displayWidth": 70,
-          "assetId": "asset-003536"
+          "assetId": "asset-005390"
         },
         {
           "type": "paragraph",
@@ -94,7 +94,7 @@
           "src": "data/stems/assets/problem-000211-figure-003.jpg",
           "alt": "原卷第4题图3：3 形成新的原子桥后,一定要存在两个磷原子数小于7的环,它们共用新形成的桥,且不共用其他任何原子.例如:",
           "displayWidth": 70,
-          "assetId": "asset-003537"
+          "assetId": "asset-005391"
         },
         {
           "type": "paragraph",
@@ -117,28 +117,28 @@
           "src": "data/stems/assets/problem-000211-figure-004.jpg",
           "alt": "原卷第4题图4：2 成环后的结构不能有末端磷原子,例如:",
           "displayWidth": 70,
-          "assetId": "asset-003538"
+          "assetId": "asset-005392"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000211-figure-005.jpg",
           "alt": "原卷第4题图5（结构或数据示意）",
           "displayWidth": 70,
-          "assetId": "asset-003539"
+          "assetId": "asset-005393"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000211-figure-006.jpg",
           "alt": "原卷第4题图6（结构或数据示意）",
           "displayWidth": 70,
-          "assetId": "asset-003540"
+          "assetId": "asset-005394"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000211-figure-007.jpg",
           "alt": "原卷第4题图7（结构或数据示意）",
           "displayWidth": 70,
-          "assetId": "asset-003541"
+          "assetId": "asset-005395"
         },
         {
           "type": "paragraph",
@@ -153,7 +153,7 @@
           "src": "data/stems/assets/problem-000211-figure-008.jpg",
           "alt": "原卷第4题图8：请在下列结构中选出满足上述磷团簇结构规则,由10个磷原子组成且未成对电子总数≥4的磷团簇.将编号填入答题纸的相应位置.(选错扣分,扣完本小题",
           "displayWidth": 70,
-          "assetId": "asset-003542"
+          "assetId": "asset-005396"
         },
         {
           "type": "paragraph",
@@ -164,7 +164,7 @@
           "src": "data/stems/assets/problem-000211-figure-009.jpg",
           "alt": "原卷第4题图9：A",
           "displayWidth": 70,
-          "assetId": "asset-003543"
+          "assetId": "asset-005397"
         },
         {
           "type": "paragraph",
@@ -175,7 +175,7 @@
           "src": "data/stems/assets/problem-000211-figure-010.jpg",
           "alt": "原卷第4题图10：B",
           "displayWidth": 70,
-          "assetId": "asset-003544"
+          "assetId": "asset-005398"
         },
         {
           "type": "paragraph",
@@ -186,7 +186,7 @@
           "src": "data/stems/assets/problem-000211-figure-011.jpg",
           "alt": "原卷第4题图11：C",
           "displayWidth": 70,
-          "assetId": "asset-003545"
+          "assetId": "asset-005399"
         },
         {
           "type": "paragraph",
@@ -197,7 +197,7 @@
           "src": "data/stems/assets/problem-000211-figure-012.jpg",
           "alt": "原卷第4题图12：D",
           "displayWidth": 70,
-          "assetId": "asset-003546"
+          "assetId": "asset-005400"
         },
         {
           "type": "paragraph",
@@ -208,7 +208,7 @@
           "src": "data/stems/assets/problem-000211-figure-013.jpg",
           "alt": "原卷第4题图13：E",
           "displayWidth": 70,
-          "assetId": "asset-003547"
+          "assetId": "asset-005401"
         },
         {
           "type": "paragraph",
@@ -219,7 +219,7 @@
           "src": "data/stems/assets/problem-000211-figure-014.jpg",
           "alt": "原卷第4题图14：F",
           "displayWidth": 70,
-          "assetId": "asset-003548"
+          "assetId": "asset-005402"
         },
         {
           "type": "paragraph",
@@ -230,7 +230,7 @@
           "src": "data/stems/assets/problem-000211-figure-015.jpg",
           "alt": "原卷第4题图15：G",
           "displayWidth": 70,
-          "assetId": "asset-003549"
+          "assetId": "asset-005403"
         },
         {
           "type": "paragraph",
@@ -241,7 +241,7 @@
           "src": "data/stems/assets/problem-000211-figure-016.jpg",
           "alt": "原卷第4题图16：H",
           "displayWidth": 70,
-          "assetId": "asset-003550"
+          "assetId": "asset-005404"
         },
         {
           "type": "paragraph",
@@ -252,7 +252,7 @@
           "src": "data/stems/assets/problem-000211-figure-017.jpg",
           "alt": "原卷第4题图17：I",
           "displayWidth": 70,
-          "assetId": "asset-003551"
+          "assetId": "asset-005405"
         },
         {
           "type": "paragraph",
@@ -263,14 +263,14 @@
           "src": "data/stems/assets/problem-000211-figure-018.jpg",
           "alt": "原卷第4题图18：J",
           "displayWidth": 70,
-          "assetId": "asset-003552"
+          "assetId": "asset-005406"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000211-figure-019.jpg",
           "alt": "原卷第4题图19（结构或数据示意）",
           "displayWidth": 70,
-          "assetId": "asset-003553"
+          "assetId": "asset-005407"
         },
         {
           "type": "paragraph",
@@ -285,7 +285,7 @@
           "src": "data/stems/assets/problem-000211-figure-020.jpg",
           "alt": "原卷第4题图20：L",
           "displayWidth": 70,
-          "assetId": "asset-003554"
+          "assetId": "asset-005408"
         },
         {
           "type": "paragraph",
@@ -296,7 +296,7 @@
           "src": "data/stems/assets/problem-000211-figure-021.jpg",
           "alt": "原卷第4题图21：M",
           "displayWidth": 70,
-          "assetId": "asset-003555"
+          "assetId": "asset-005409"
         },
         {
           "type": "paragraph",
@@ -307,7 +307,7 @@
           "src": "data/stems/assets/problem-000211-figure-022.jpg",
           "alt": "原卷第4题图22：N",
           "displayWidth": 70,
-          "assetId": "asset-003556"
+          "assetId": "asset-005410"
         },
         {
           "type": "paragraph",
@@ -318,7 +318,7 @@
           "src": "data/stems/assets/problem-000211-figure-023.jpg",
           "alt": "原卷第4题图23：O",
           "displayWidth": 70,
-          "assetId": "asset-003557"
+          "assetId": "asset-005411"
         },
         {
           "type": "paragraph",
@@ -329,7 +329,7 @@
           "src": "data/stems/assets/problem-000211-figure-024.jpg",
           "alt": "原卷第4题图24：P",
           "displayWidth": 70,
-          "assetId": "asset-003558"
+          "assetId": "asset-005412"
         },
         {
           "type": "paragraph",
@@ -340,7 +340,7 @@
           "src": "data/stems/assets/problem-000211-figure-025.jpg",
           "alt": "原卷第4题图25：Q",
           "displayWidth": 70,
-          "assetId": "asset-003559"
+          "assetId": "asset-005413"
         },
         {
           "type": "paragraph",

@@ -48,7 +48,7 @@
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000097-figure-001.jpg",
-      "assetId": "asset-003149",
+      "assetId": "asset-005003",
       "alt": "原卷示意图：B",
       "label": "B",
       "caption": "B",
@@ -57,7 +57,7 @@
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000097-figure-002.jpg",
-      "assetId": "asset-003150",
+      "assetId": "asset-005004",
       "alt": "原卷示意图：图A",
       "label": "图A",
       "caption": "图A",
@@ -70,7 +70,7 @@
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000097-figure-003.jpg",
-      "assetId": "asset-003151",
+      "assetId": "asset-005005",
       "alt": "原卷示意图：图B",
       "label": "图B",
       "caption": "B",
@@ -90,7 +90,7 @@
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000097-figure-004.jpg",
-      "assetId": "asset-003152",
+      "assetId": "asset-005006",
       "alt": "原卷示意图：3-4-1 写出四⽅相能表⽰出超氧和过氧特点的化学式；写出⽴⽅相晶体结构中双氧负离⼦的氧化数。",
       "label": "3-4-1 写出四⽅相能表⽰出超氧和过氧特点的化学式；写出⽴⽅相晶体结构中双氧负离⼦的氧化数。",
       "caption": "3-4-1 写出四⽅相能表⽰出超氧和过氧特点的化学式；写出⽴⽅相晶体结构中双氧负离⼦的氧化数。",
@@ -110,7 +110,7 @@
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000097-figure-005.jpg",
-      "assetId": "asset-003153",
+      "assetId": "asset-005007",
       "alt": "原卷示意图：3-4-2 指出四⽅相中平⾏于�轴的 $O _ { 2 } ^ { n - }$ 0是 $\\mathrm { O _ { 2 } } ^ { - }$ −还是 $\\mathrm { O } _ { 2 } { } ^ { 2 - 2 }$",
       "label": "3-4-2 指出四⽅相中平⾏于�轴的 $O _ { 2 } ^ { n - }$ 0是 $\\mathrm { O _ { 2 } } ^ { - }$ −还是 $\\mathrm { O } _ { 2 } { } ^ { 2 - 2 }$",
       "caption": "3-4-2 指出四⽅相中平⾏于�轴的 $O _ { 2 } ^ { n - }$ 0是 $\\mathrm { O _ { 2 } } ^ { - }$ −还是 $\\mathrm { O } _ { 2 } { } ^ { 2 - 2 }$",
@@ -123,7 +123,7 @@
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000097-figure-006.jpg",
-      "assetId": "asset-003154",
+      "assetId": "asset-005008",
       "alt": "图A",
       "label": "图A",
       "caption": "图A",

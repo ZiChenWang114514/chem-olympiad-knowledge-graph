@@ -45,7 +45,7 @@
               "blocks": [
                 {
                   "type": "paragraph",
-                  "text": "如果 A 位离子价态保持不变,当结构由(a)变为(c)时,B 位离子的价态如何变化方向"
+                  "text": "如果A位离子价态保持不变，当结构由(a)变为(c)时，B位离子的价态如何变化？"
                 }
               ],
               "partId": "part-000933"
@@ -69,7 +69,7 @@
             {
               "type": "figure",
               "src": "data/stems/assets/problem-000011-figure-001.jpg",
-              "assetId": "asset-003100",
+              "assetId": "asset-004954",
               "alt": "（a）钙钛矿立方晶胞，A、B 和 O 原子位置示意",
               "label": "（a）",
               "caption": "（a）钙钛矿立方晶胞",
@@ -78,7 +78,7 @@
             {
               "type": "figure",
               "src": "data/stems/assets/problem-000011-figure-002.jpg",
-              "assetId": "asset-003101",
+              "assetId": "asset-004955",
               "alt": "（b）钙钛矿层的多面体连接投影，标出 A、B、O 和晶轴",
               "label": "（b）",
               "caption": "（b）多面体连接投影",
@@ -87,7 +87,7 @@
             {
               "type": "figure",
               "src": "data/stems/assets/problem-000011-figure-003.jpg",
-              "assetId": "asset-003102",
+              "assetId": "asset-004956",
               "alt": "（c）含钙钛矿单层的 Ruddlesden–Popper 衍生结构，含 BO6 八面体",
               "label": "（c）",
               "caption": "（c）RP 相衍生物结构示意图",

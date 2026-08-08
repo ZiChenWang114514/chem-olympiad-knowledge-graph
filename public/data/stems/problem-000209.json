@@ -98,8 +98,15 @@
       "partId": "part-002188"
     },
     {
-      "type": "paragraph",
-      "text": "年,费舍尔率先将 $\\mathrm { ScCl _ { 3 } }$ 与LiCl-KCl的低共融体系作为原料,以液态金属Zn为阴极,通过电解的方法制备Sc金属."
+      "type": "subpart",
+      "label": "2-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "1937年,费舍尔率先将 $\\mathrm { ScCl _ { 3 } }$ 与LiCl-KCl的低共融体系作为原料,以液态金属Zn为阴极,通过电解的方法制备Sc金属."
+        }
+      ],
+      "partId": "part-002630"
     },
     {
       "type": "subpart",

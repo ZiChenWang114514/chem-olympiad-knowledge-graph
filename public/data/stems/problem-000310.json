@@ -46,7 +46,7 @@
       "src": "data/stems/assets/problem-000310-figure-001.jpg",
       "alt": "原卷第11题图1：反应 2:",
       "displayWidth": 70,
-      "assetId": "asset-003635"
+      "assetId": "asset-005489"
     },
     {
       "type": "paragraph",
@@ -73,7 +73,7 @@
       "src": "data/stems/assets/problem-000310-figure-002.jpg",
       "alt": "原卷第11题图2：反应 4:",
       "displayWidth": 70,
-      "assetId": "asset-003636"
+      "assetId": "asset-005490"
     },
     {
       "type": "paragraph",
@@ -122,7 +122,7 @@
           "src": "data/stems/assets/problem-000310-figure-003.jpg",
           "alt": "原卷第11题图3：## 第 4 题图:",
           "displayWidth": 70,
-          "assetId": "asset-003637"
+          "assetId": "asset-005491"
         }
       ],
       "partId": "part-002380"

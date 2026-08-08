@@ -35,28 +35,28 @@
           "src": "data/stems/assets/problem-000192-figure-001.jpg",
           "alt": "冰的晶型与氢键结构相关结构或反应图,第1幅,保留原卷标注",
           "displayWidth": 80,
-          "assetId": "asset-002903"
+          "assetId": "asset-004757"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000192-figure-002.jpg",
           "alt": "冰的晶型与氢键结构相关结构或反应图,第2幅,保留原卷标注",
           "displayWidth": 80,
-          "assetId": "asset-002904"
+          "assetId": "asset-004758"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000192-figure-003.jpg",
           "alt": "冰的晶型与氢键结构相关结构或反应图,第3幅,保留原卷标注",
           "displayWidth": 80,
-          "assetId": "asset-002905"
+          "assetId": "asset-004759"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000192-figure-004.jpg",
           "alt": "冰的晶型与氢键结构相关结构或反应图,第4幅,保留原卷标注",
           "displayWidth": 80,
-          "assetId": "asset-002906"
+          "assetId": "asset-004760"
         }
       ],
       "partId": "part-000362"

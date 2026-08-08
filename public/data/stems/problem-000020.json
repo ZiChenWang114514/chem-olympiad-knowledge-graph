@@ -33,7 +33,7 @@
           "src": "data/stems/assets/problem-000020-figure-001.jpg",
           "alt": "原卷第9题图1：氨基乙醇在盐酸中与乙酸酐反应如下:",
           "displayWidth": 70,
-          "assetId": "asset-003433"
+          "assetId": "asset-005287"
         },
         {
           "type": "paragraph",
@@ -88,7 +88,7 @@
           "src": "data/stems/assets/problem-000020-figure-002.jpg",
           "alt": "原卷第9题图2：某同学设计如下反应条件,欲制备化合物C.但反应后实际得到其同分异构体E.",
           "displayWidth": 70,
-          "assetId": "asset-003434"
+          "assetId": "asset-005288"
         }
       ],
       "partId": "part-001891"
@@ -110,7 +110,7 @@
           "src": "data/stems/assets/problem-000020-figure-003.jpg",
           "alt": "原卷第9题图3：在下面的反应中,化合物F与二氯亚砜在吡啶-乙醚溶液中发生反应时未能得到氯代产物,而是得到了两种含有碳碳双键的同分异构体G和H;没有得到另一个",
           "displayWidth": 70,
-          "assetId": "asset-003435"
+          "assetId": "asset-005289"
         }
       ],
       "partId": "part-001892"
