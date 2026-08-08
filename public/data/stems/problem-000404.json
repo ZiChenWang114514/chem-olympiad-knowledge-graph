@@ -1,153 +1,214 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000404",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "双氧物种与电子结构",
-  "number": "3",
+  "number": "Q3",
   "examYear": 2012,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000007",
     "sourceLabel": "2012-26-CChO-juesai.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      2,
+      3
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "已知:若 $\\dot{y} = a x + b z$ ,则 $\\dfrac{\\mathrm{d} y}{\\mathrm{d} t} = a \\dfrac{\\mathrm{d} x}{\\mathrm{d} t}$ 。式中, $a$、$b$ 均为与 $t$ 无关的常数。"
+      "text": "第3题(20分)铁卟啉(FeP)是细胞色素(P-450)的活性中心,具有将各种氧供体的氧原子活化并转移至底物的能力。研究人员为模拟活体内的加氧酶催化β-胡萝卜素(P)分解为维生素A(VA)的反应,以FeP为催化剂,间氯过氧化苯甲酸(CPBA)为氧化剂,研究了β-胡萝卜素的分解反应动力学。研究中FeP和CPBA的浓度可视为不变。无论是否存在催化剂FeP,该分解反应对β-胡萝卜素均为一级反应。"
     },
     {
       "type": "paragraph",
-      "text": "实验A. 在无FeP情况下,β-胡萝卜素-间氯过氧化苯甲酸反应体系(β-CPBA)的反应机理1如下(其中β*CPBA为反应中间物,CBA为间氯苯甲酸):"
+      "text": "己知:若 { \\dot { \\boldsymbol { y } } } = a { \\boldsymbol { x } } + b _ { \\dot { \\boldsymbol { z } } } ,则  { \\lceil \\frac { \\mathrm { d } y } { \\mathrm { d } t } = a \\frac { \\mathrm { d } x } { \\mathrm { d } t } \\rceil }  。式中,方向,方向均为与方向无关的常数。"
     },
     {
       "type": "paragraph",
-      "text": "$$\n\\begin{array}{l l} \\text{(i)} & \\beta + \\text{CPBA} \\xleftrightarrow {K_{i} ^{\\prime}} \\beta^{*} \\text{CPBA} \\\\ \\text{(ii)} & \\beta^{*} \\text{CPBA} \\xrightarrow {k_{2} ^{\\prime}} \\text{VA} + \\text{CBA} \\end{array}\n$$"
+      "text": "实验A. 在无FeP情况下,β-胡萝卜素-间氯过氧化苯甲酸反应体系(β-CPBA)的反应机理1如下(其中β\\*CPBA为反应中间物,CBA为间氯苯甲酸):"
     },
     {
       "type": "paragraph",
-      "text": "实验B. 以FeP为催化剂,β-胡萝卜素-间氯过氧化苯甲酸-铁卟啉反应体系(β-CPBA-FeP)的反应机理2如下(其中 $\\mathrm{FeOP}^{*}\\mathrm{CBA}$、$\\beta^{*}\\mathrm{FeOP}^{*}\\mathrm{CBA}$、$\\beta^{*}\\mathrm{CPBA}$ 为反应中间物):"
+      "text": " \\text {(i)} & \\beta + \\text {CPBA} \\xleftrightarrow {K _ {i} ^ {\\prime}} \\beta^ {*} \\text {CPBA} \\\\ \\text {(ii)} & \\beta^ {*} \\text {CPBA} \\xrightarrow {k _ {2} ^ {\\prime}} \\text {VA} + \\text {CBA} "
     },
     {
       "type": "paragraph",
-      "text": "$$\n\\begin{array}{l l} \\text{(iii)} & \\mathrm{FeP} + \\mathrm{CPBA} \\xleftrightarrow {K_{1}} \\mathrm{FeOP} ^{*} \\mathrm{CBA} \\\\ \\text{(iv)} & \\mathrm{FeOP} ^{*} \\mathrm{CBA} + \\beta \\xleftrightarrow {K_{2}} \\beta^{*} \\mathrm{FeOP} ^{*} \\mathrm{CBA} \\\\ \\text{(v)} & \\beta^{*} \\mathrm{FeOP} ^{*} \\mathrm{CBA} \\xrightarrow {k_{1}} \\mathrm{VA} + \\mathrm{FeP} + \\mathrm{CBA} \\\\ \\text{(vi)} & \\beta + \\mathrm{CPBA} \\xleftrightarrow {k_{i}} \\beta^{*} \\mathrm{CPBA} \\\\ \\text{(vii)} & \\beta^{*} \\mathrm{CPBA} \\xleftrightarrow {k_{2}} \\mathrm{VA} + \\mathrm{CBA} \\end{array} \\quad \\text{快速平衡}\n$$"
+      "text": "实验B. 以FeP为催化剂,β-胡萝卜素-间氯过氧化苯甲酸-铁卟啉反应体系(β-CPBA-FeP)的反应机理2如下(其中 \\mathrm { F e O P ^ { * } C B A } , ,β\\* { \\mathrm { F e O P } } ^ { * } { \\mathrm { C B A } } , ,β\\*CPBA为反应中间物):"
     },
     {
       "type": "paragraph",
-      "text": "对该体系的实验结果进行曲线拟合,可得表3-1数据( $k_{\\mathrm{obs}}$ 为反应的表观速率常数);"
+      "text": " \\text {(iii)} & \\mathrm{FeP} + \\mathrm{CPBA} \\xleftrightarrow {K _ {1}} \\mathrm{FeOP} ^ {*} \\mathrm{CBA} \\\\ \\text {(iv)} & \\mathrm{FeOP} ^ {*} \\mathrm{CBA} + \\beta \\xleftrightarrow {K _ {2}} \\beta^ {*} \\mathrm{FeOP} ^ {*} \\mathrm{CBA} \\\\ \\text {(v)} & \\beta^ {*} \\mathrm{FeOP} ^ {*} \\mathrm{CBA} \\xrightarrow {k _ {1}} \\mathrm{VA} + \\mathrm{FeP} + \\mathrm{CBA} \\\\ \\text {(vi)} & \\beta + \\mathrm{CPBA} \\xleftrightarrow {k _ {i}} \\beta^ {*} \\mathrm{CPBA} \\\\ \\text {(vii)} & \\beta^ {*} \\mathrm{CPBA} \\xleftrightarrow {k _ {2}} \\mathrm{VA} + \\mathrm{CBA}  \\quad \\text {快速平衡}"
+    },
+    {
+      "type": "paragraph",
+      "text": "对该体系的实验结果进行曲线拟合,可得表3-1数据 ( k _ { \\mathrm { o b s } } 为反应的表观速率常数);"
     },
     {
       "type": "paragraph",
       "text": "表 3-1"
     },
     {
-      "type": "callout",
-      "tone": "info",
-      "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
-    }
-  ],
-  "parts": [
+      "type": "table",
+      "headers": [
+        "T/K",
+        "$k_1/s^{-1}$",
+        "$k_2/s^{-1}$",
+        "$k_{obs}/s^{-1}$"
+      ],
+      "rows": [
+        [
+          "293.2",
+          "$4.869\\times 10^{-3}$",
+          "$1.350\\times 10^{-4}$",
+          "$5.865\\times 10^{-4}$"
+        ],
+        [
+          "301.2",
+          "$7.731\\times 10^{-3}$",
+          "$2.398\\times 10^{-4}$",
+          "$9.795\\times 10^{-4}$"
+        ]
+      ]
+    },
     {
-      "id": "part-000404-01",
+      "type": "subpart",
       "label": "3-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "对β-CPBA体系,根据实验测得的表观速率常数 $k_{\\mathrm{obs}}^{\\prime}(293.2\\ \\mathrm{K}) = 4.795 \\times 10^{-4}\\ \\mathrm{s}^{-1}$ , $k_{\\mathrm{obs}}^{\\prime}(301.2\\ \\mathrm{K}) = 8.285 \\times 10^{-4}\\ \\mathrm{s}^{-1}$ 。求反应的表观活化能 $E_{a,\\mathrm{obs}}^{\\prime}$ 。"
+          "text": "对β-CBPA体系,根据实验测得的表观速率常数 \\cdot k _ { \\mathrm { o b s } } ^ { \\prime } ( 293 . 2 ~ \\mathrm { K } ) = 4 . 795 \\times 10 ^ { - 4 } ~ \\mathrm { s } ^ { - 1 } , ~ k _ { \\mathrm { o b s } } ^ { \\prime } ( 301 . 2 ~ \\mathrm { K } ) = 8 . 285 \\times 10 ^ { - 4 } \\mathrm { { s ^ { - 1 } } _ { \\mathrm { { o } } } } 。求反应的表观活化能 E _ { a , \\mathbf { o b s } ^ { \\mathsf { c } } } ^ { \\prime }"
         }
-      ]
+      ],
+      "partId": "part-001778"
     },
     {
-      "id": "part-000404-02",
+      "type": "subpart",
       "label": "3-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "根据反应机理2推导 $-\\dfrac{\\mathrm{d}[\\beta]}{\\mathrm{d}t}$ 与 $[\\beta]$ 间关系的速率方程,并给出 $k_{\\mathrm{obs}}$ 的表达式。"
+          "text": "根据反应机理2推导− \\cdot \\frac { \\mathrm { d } [ \\beta ] } { \\mathrm { d } t } \\overset { \\_ } { \\ } [β]间关系的速率方程,并给出 \\updownarrow k _ { \\mathrm { o b s } } 的表达式。"
         }
-      ]
+      ],
+      "partId": "part-001779"
     },
     {
-      "id": "part-000404-03",
+      "type": "subpart",
       "label": "3-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "已知 β-CPBA-FeP 体系反应的表观活化能 $E_{a,\\mathrm{obs}} = 47.02\\ \\mathrm{kJ\\ mol^{-1}}$ 和机理2中(v)步的活化能 $E_{a,1} = 42.43\\ \\mathrm{kJ\\ mol^{-1}}$ ,计算(vii)步的活化能 $E_{a,2}$ 。"
+          "text": "已知 β-CPBA-FeP 体系反应的表观活化能 E _ { a , 0 \\mathrm { b } s } = 47 . 02 kJ \\mathrm { m o l ^ { - 1 } } 和机理2中(v)步的活化能 E _ { a , 1 } = 42 . 43 kJ mol−1,计算(vii)步的活化能 E _ { a , 2 \\circ }"
         }
-      ]
+      ],
+      "partId": "part-001780"
     },
     {
-      "id": "part-000404-04",
+      "type": "subpart",
       "label": "3-4",
       "blocks": [
         {
           "type": "paragraph",
           "text": "分别根据以下条件,说明β-CPBA和β-CPBA-FeP中哪一个体系反应更为有利。"
-        },
-        {
-          "type": "paragraph",
-          "text": "(1) $E_{a,1}$ 与 $E_{a,2}$ 的结果及题中所给其他数据。"
-        },
-        {
-          "type": "paragraph",
-          "text": "(2) $E_{a,\\mathrm{obs}}^{\\prime}$ 与 $E_{a,\\mathrm{obs}}$ 的结果及题中所给其他数据。"
         }
+      ],
+      "partId": "part-001781"
+    },
+    {
+      "type": "subpart",
+      "label": "3-4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "E _ { a , 1 } 与 E _ { a , 2 } 的结果及题中所给其他数据。"
+        }
+      ],
+      "partId": "part-001782"
+    },
+    {
+      "type": "subpart",
+      "label": "3-4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "E _ { a , \\mathbf { o b s } } ^ { \\prime } 与 E _ { a , \\mathrm { o b s } } 的结果及题中所给其他数据。"
+        }
+      ],
+      "partId": "part-001783"
+    },
+    {
+      "type": "paragraph",
+      "text": "实验C. 在金属卟啉催化氧化反应体系中加入一些含氮小分子,会加速反成。为揭示反应机理,研究了FeP与咪唑类(Im)含氮小分子的配位反应热力学。"
+    },
+    {
+      "type": "paragraph",
+      "text": "\\mathrm{FeP} + 2 \\mathrm{Im} \\rightleftharpoons \\mathrm{FePIm} _ {2}"
+    },
+    {
+      "type": "paragraph",
+      "text": "表 3-2"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "T/K",
+        "293.2",
+        "297.2",
+        "301.2",
+        "305.2"
+      ],
+      "rows": [
+        [
+          "$K_i^{\\ominus}$",
+          "$2.775\\times 10^{5}$",
+          "$1.012\\times 10^{5}$",
+          "$4.080\\times 10^{4}$",
+          "$1.458\\times 10^{4}$"
+        ]
       ]
     },
     {
-      "id": "part-000404-05",
+      "type": "subpart",
       "label": "3-5",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "实验C. 在金属卟啉催化氧化反应体系中加入一些含氮小分子,会加速反应。为揭示反应机理,研究了FeP与咪唑类(Im)含氮小分子的配位反应热力学。"
+          "text": "请根据表"
         },
         {
           "type": "paragraph",
-          "text": "$$\n\\mathrm{FeP} + 2\\ \\mathrm{Im} \\rightleftharpoons \\mathrm{FePIm}_{2}\n$$"
-        },
-        {
-          "type": "paragraph",
-          "text": "表 3-2"
-        },
-        {
-          "type": "callout",
-          "tone": "info",
-          "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
-        },
-        {
-          "type": "paragraph",
-          "text": "请根据表 3-2 中 293.2 K 和 301.2 K 的平衡常数计算反应 1 的 $\\Delta_{\\mathrm{r}}H_{\\mathrm{m}}^{\\ominus}$ 和 $\\Delta_{\\mathrm{r}}S_{\\mathrm{m}}^{\\ominus}$ 。已知 $273\\sim 400\\ \\mathrm{K}$ 间 $\\Delta C_{p}^{\\ominus} = 0$ 。"
+          "text": "中 293.2 K 和 301.2K 的平衡常数计算反应 1 的 \\Delta _ { \\mathrm { r } } H _ { \\mathrm { m } } ^ { \\ominus } 和 | \\Delta _ { \\mathrm { { r } } } S _ { \\mathrm { { m } } } ^ { \\ominus } 。己知 273 { \\sim } 400 \\ \\mathrm { K } 间 \\Delta C _ { p } ^ { \\ominus } \\ = 0 _ { \\circ }"
         }
-      ]
+      ],
+      "partId": "part-001784"
     },
     {
-      "id": "part-000404-06",
+      "type": "subpart",
       "label": "3-6",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "用表3-2中所给数据和3-5的计算结果分别解释温度对反应1的影响。"
+          "text": "用表3-2中所给数据和3-5的计算结果分別解释温度对反应1的影响。"
         }
-      ]
+      ],
+      "partId": "part-001786"
     },
     {
-      "id": "part-000404-07",
+      "type": "subpart",
       "label": "3-7",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "已知在一定温度下反应方向会发生变化,请计算反应的转向温度。"
+          "text": "己知在一定温度下反应方向会发生变化,请计算反应的转向温度。"
         }
-      ]
+      ],
+      "partId": "part-001787"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

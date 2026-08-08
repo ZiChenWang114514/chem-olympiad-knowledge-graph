@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000035",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,17 +10,52 @@
   "source": {
     "sourceDocumentId": "source-000051",
     "sourceLabel": "2017-31-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      2
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第5题（10分）由元素X和Y形成的化合物A是一种重要的化工产品，可用于制备润滑剂、杀⾍剂等。A可由生产X单质的副产物 $\\mathrm { F e P _ { 2 } }$ 与⻩铁矿反应制备，同时得到另一个二元化合物 $\\mathbf { B } _ { \\circ } \\ \\mathbf { B }$ 溶于稀硫酸放出气体C，⽽与浓硫酸反应放出二氧化硫。C与大多数金属离⼦发生沉淀反应。纯净的A呈⻩色，对热稳定，但遇潮湿空气极易分解⽽有臭鸡蛋味。A在⼄醇中发生醇解，得到以X为单中⼼的二酯化合物D并放出气体C，D与Cl 反应生成制备杀⾍剂的原料E、放出刺激性的酸性气体F并得到Y的单质（产物的摩尔比为1:1:1）。A与五氧化二磷混合加热，可得到两种与A结构对称性相同的化合物G1和 $\\mathbf { G 2 } _ { \\mathsf { c } }$ 5-1 写出A、C到F以及G1和G2的分⼦式。 5-2 写出由生产X单质的副产物 $\\mathrm { F e P _ { 2 } }$ 与⻩铁矿反应制备A的方程式。 5-3 写出B与浓硫酸反应的方程式。"
+      "text": "第5题(10分)由元素X和Y形成的化合物A是一种重要的化工产品,可用于制备润滑剂、杀虫剂等。A可由生产X单质的副产物 $\\mathrm { F e P _ { 2 } }$ 与黄铁矿反应制备,同时得到另一个二元化合物 $\\mathbf { B } _ { \\circ } \\ \\mathbf { B }$ 溶于稀硫酸放出气体C,而与浓硫酸反应放出二氧化硫。C与大多数金属离子发生沉淀反应。纯净的A呈黄色,对热稳定,但遇潮湿空气极易分解而有臭鸡蛋味。A在乙醇中发生醇解,得到以X为单中心的二酯化合物D并放出气体C,D与Cl 反应生成制备杀虫剂的原料E、放出刺激性的酸性气体F并得到Y的单质(产物的摩尔比为1:1:1)。A与五氧化二磷混合加热,可得到两种与A结构对称性相同的化合物G1和 $\\mathbf { G 2 } _ { \\mathsf { c } }$"
+    },
+    {
+      "type": "subpart",
+      "label": "5-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出A、C到F以及G1和G2的分子式。"
+        }
+      ],
+      "partId": "part-000073"
+    },
+    {
+      "type": "subpart",
+      "label": "5-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出由生产X单质的副产物 $\\mathrm { F e P _ { 2 } }$ 与黄铁矿反应制备A的方程式。"
+        }
+      ],
+      "partId": "part-000074"
+    },
+    {
+      "type": "subpart",
+      "label": "5-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出B与浓硫酸反应的方程式。"
+        }
+      ],
+      "partId": "part-000075"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

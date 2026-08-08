@@ -12,6 +12,8 @@ import {
   getPrerequisites,
   getRelatedProblems,
 } from '../src/lib/graph'
+import { DISPLAY_DISCIPLINES, displayDisciplineFor, validateDisplayTaxonomy, validateDisplayTopics } from '../src/lib/displayTaxonomy'
+import { buildVisibleGraph } from '../src/lib/visibleGraph'
 import type { GraphEdge, GraphNode, Problem } from '../src/types'
 
 const examDir = join(__dirname, '../public/data/exams')
@@ -29,7 +31,7 @@ describe('公开数据完整性', () => {
     expect(manifest.dataVersion).toBeTruthy()
     expect(manifest.schemaVersion).toBe(2)
     expect(Number.isInteger(manifest.releaseSequence)).toBe(true)
-    expect(manifest.rightsPolicy).toMatch(/^metadata_public/)
+    expect(manifest.rightsPolicy).toMatch(/^metadata_.*public$/)
   })
 
   it('题干索引与文件一致且绑定已有题目', () => {
@@ -43,8 +45,10 @@ describe('公开数据完整性', () => {
       expect(require('node:fs').existsSync(abs)).toBe(true)
       const stem = JSON.parse(require('node:fs').readFileSync(abs, 'utf8'))
       expect(stem.problemId).toBe(item.problemId)
-      expect(stem.schemaVersion).toBe(1)
-      expect(['stem_demo', 'stem_public', 'fulltext_authorized']).toContain(stem.rightsState)
+      expect(stem.schemaVersion).toBe(2)
+      expect(['stem_public', 'fulltext_authorized']).toContain(stem.rightsState)
+      expect(stem.source.pages.length).toBeGreaterThan(0)
+      expect(stem.source.pages.every((page: number) => Number.isInteger(page) && page > 0)).toBe(true)
       expect(stem.answer || stem.solution || stem.answerText).toBeFalsy()
     }
   })
@@ -110,10 +114,31 @@ describe('公开数据完整性', () => {
       expect(entry.path).toMatch(/^data\//)
       expect(entry.bytes).toBeGreaterThan(0)
     }
+    expect(manifest.recordCounts.problemStems).toBe(457)
+    expect(manifest.recordCounts.stemAssets).toBe(927)
   })
 })
 
 describe('图谱查询纯函数', () => {
+  it('六个一级学科与 26 个专题完整归类', () => {
+    expect(() => validateDisplayTaxonomy(taxonomy.disciplines)).not.toThrow()
+    expect(() => validateDisplayTopics({ nodes, edges })).not.toThrow()
+    expect(DISPLAY_DISCIPLINES).toHaveLength(6)
+    const topicNodes = nodes.filter(node => node.type === 'topic')
+    const assigned = [...taxonomy.disciplines.map(item => displayDisciplineFor(item.id).id), ...topicNodes.map(item => displayDisciplineFor(item.id).id)]
+    expect(assigned).toHaveLength(32)
+    expect(assigned.every(id => DISPLAY_DISCIPLINES.some(item => item.id === id))).toBe(true)
+  })
+
+  it('首页图谱与局部图谱遵守节点数量限制', () => {
+    const initial = buildVisibleGraph({ nodes, edges })
+    expect(initial.nodes.length).toBeGreaterThanOrEqual(60)
+    expect(initial.nodes.length).toBeLessThanOrEqual(100)
+    const selected = buildVisibleGraph({ nodes, edges }, { nodeId: 'kn-topic-000025' })
+    expect(selected.nodes.length).toBeLessThanOrEqual(180)
+    expect(selected.nodes.some(node => node.id === 'kn-topic-000025')).toBe(true)
+  })
+
   it('相邻知识不截断、可读', () => {
     const neighbors = getNeighbors('kn-concept-000002', edges, nodes)
     expect(neighbors.length).toBeGreaterThan(1)
@@ -121,10 +146,10 @@ describe('图谱查询纯函数', () => {
   })
 
   it('相关题目仅依据 nodeIds', () => {
-    const related = getRelatedProblems('kn-concept-000005', problems)
+    const related = getRelatedProblems('kn-topic-000025', problems)
     expect(related.length).toBeGreaterThan(0)
     expect(related.map(p => p.id)).toContain('problem-000006')
-    expect(related.every(p => Array.isArray(p.nodeIds) && p.nodeIds.includes('kn-concept-000005'))).toBe(true)
+    expect(related.every(p => Array.isArray(p.nodeIds) && p.nodeIds.includes('kn-topic-000025'))).toBe(true)
     const redox = getRelatedProblems('kn-method-000004', problems)
     expect(redox.some(p => p.id === 'problem-000008')).toBe(true)
   })

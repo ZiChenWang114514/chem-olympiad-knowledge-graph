@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000448",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,13 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000009",
     "sourceLabel": "2014-28-CChO-juesai.pdf",
-    "page": null,
+    "pages": [
+      5
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
@@ -25,37 +23,44 @@
     },
     {
       "type": "figure",
-      "caption": "反应示意图",
+      "src": "data/stems/assets/problem-000448-figure-001.jpg",
       "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-      "src": "data/stems/assets/problem-000448-figure-001.jpg"
+      "displayWidth": 80,
+      "caption": "反应示意图",
+      "assetId": "asset-003096"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000448-figure-002.jpg",
       "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-      "caption": "图 2"
-    }
-  ],
-  "parts": [
+      "displayWidth": 80,
+      "caption": "图 2",
+      "assetId": "asset-003097"
+    },
     {
-      "id": "part-000448-01",
+      "type": "subpart",
       "label": "10-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "喹啉、苯甲酰氯、氰化钾反应生成中间体 B,B 在一定的条件下与水反应生成喹啉衍生物 C、另一个有机化合物 D 和无机化合物 $\\mathrm{E}$。画出 B、C 和 D 的结构简式,写出 E 的分子式。"
         }
-      ]
+      ],
+      "partId": "part-000911"
     },
     {
-      "id": "part-000448-02",
+      "type": "subpart",
       "label": "10-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "B 与 F 反应生成 G,G 在四丁基氰化铵(TBACN)催化下发生重排反应生成 H。画出 G 的结构简式。写出 G 重排生成 H 的反应机理(用箭头标出电子的流向),说明重排反应的驱动力。"
         }
-      ]
+      ],
+      "partId": "part-000912"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

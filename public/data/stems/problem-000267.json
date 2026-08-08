@@ -1,24 +1,30 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000267",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "N-酰基亚胺盐反应",
-  "number": "9",
+  "number": "Q9",
   "examYear": 2025,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000063",
     "sourceLabel": "2025-39-CChO-chusai.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
-  },
   "blocks": [
+    {
+      "type": "paragraph",
+      "text": "第 9 题 N-酰基亚胺盐化学 (39 分, 15%)"
+    },
     {
       "type": "paragraph",
       "text": "N-酰基亚胺盐是一类重要的双亲电试剂,具有丰富的化学反应性质,作为合成子在有机合成中起着重要的作用。"
@@ -29,11 +35,24 @@
     },
     {
       "type": "paragraph",
-      "text": "9.1.1 画出中间产物 $\\mathbf{A}(\\mathrm{C}_{12}\\mathrm{H}_{14}\\mathrm{ClN}_3\\mathrm{O})$ 的结构式。"
+      "text": "9.1.1 画出中间产物 \\mathbf{A}(\\mathrm{C}_{12}\\mathrm{H}_{14}\\mathrm{ClN}_3\\mathrm{O}) 的结构式。"
     },
     {
       "type": "paragraph",
-      "text": "2 分,"
+      "text": "解答:"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-001.jpg",
+      "assetId": "asset-003290",
+      "alt": "原卷示意图：or",
+      "label": "or",
+      "caption": "or",
+      "displayWidth": 100
+    },
+    {
+      "type": "paragraph",
+      "text": "2 分,其他答案不得分。"
     },
     {
       "type": "paragraph",
@@ -41,39 +60,100 @@
     },
     {
       "type": "paragraph",
-      "text": "每个 2 分,共 8 分;骨架错误的不得分。"
+      "text": "解答:"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-002.jpg",
+      "assetId": "asset-003291",
+      "alt": "N-酰基亚胺盐反应：第2幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
+    },
+    {
+      "type": "paragraph",
+      "text": "每个 2 分,共 8 分;"
+    },
+    {
+      "type": "paragraph",
+      "text": "给分原则:从答案中选择符合要求的给分。骨架错误的不得分。"
     },
     {
       "type": "paragraph",
       "text": "9.2 如下反应有很好的非对映选择性:"
     },
     {
-      "type": "paragraph",
-      "text": "9.2.1 最终的关环产物中标黑的两个氢之间的关系是:(a) 顺式;(b) 反式;(c) 无法判断。"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-003.jpg",
+      "assetId": "asset-003292",
+      "alt": "N-酰基亚胺盐反应：第3幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
     },
     {
       "type": "paragraph",
-      "text": "a,1 分,"
+      "text": "9.2.1 最终的关环产物中标黑的两个氢之间的关系是:(a) 顺式;(b) 反式;(c) 无法判断。解答:"
     },
     {
       "type": "paragraph",
-      "text": "9.2.2 用苯代替甲苯,写出上述反应过程中的关键中间体(要求立体化学)。"
+      "text": "a, 1 分,其他答案不得分。"
     },
     {
       "type": "paragraph",
-      "text": "一共 4 个,每个 2 分,共 8 分;骨架正确,立体化学错误得 1 分。立体化学只要求五元环的三个取代基为顺式即可。骨架错误得 0 分。"
+      "text": "9.2.2 用苯代替甲苯,写出上述反应过程中的关键中间体(要求立体化学)。 解答:"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-004.jpg",
+      "assetId": "asset-003293",
+      "alt": "N-酰基亚胺盐反应：第4幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-005.jpg",
+      "assetId": "asset-003294",
+      "alt": "N-酰基亚胺盐反应：第5幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
+    },
+    {
+      "type": "paragraph",
+      "text": "一共4个,每个2分,共8分;"
+    },
+    {
+      "type": "paragraph",
+      "text": "给分原则:骨架 1 分,立体化学 1 分;骨架正确,立体化学错误得 1 分。立体化学只要求五元环的三个取代基为顺式即可。骨架错误得 0 分。"
     },
     {
       "type": "paragraph",
       "text": "9.2.3 用末端烯烃替代炔烃,画出此反应产物的结构式(要求立体化学)。"
     },
     {
-      "type": "paragraph",
-      "text": "$\\mathrm{BF}_3\\cdot\\mathrm{OEt}_2$,甲苯"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-006.jpg",
+      "assetId": "asset-003295",
+      "alt": "N-酰基亚胺盐反应：第6幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
     },
     {
       "type": "paragraph",
-      "text": "$78^\\circ\\mathrm{C}$,$5\\ \\mathrm{min}$"
+      "text": "\\mathsf {B F} _ {3} \\cdot \\mathsf {O E t} _ {2}, \\mathrm{甲苯}"
+    },
+    {
+      "type": "paragraph",
+      "text": "- 78 ^ {\\circ} \\mathrm{C}, 5 \\mathrm{min}"
+    },
+    {
+      "type": "paragraph",
+      "text": "解答:"
     },
     {
       "type": "paragraph",
@@ -84,42 +164,85 @@
       "text": "每个 2 分,共 4 分;如果没有准确标出甲基取代方式,立体化学准确的得 2 分,立体化学不准确继续扣分;产物为以下结构的任意一个,且立体化学准确的可得 1 分"
     },
     {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-007.jpg",
+      "assetId": "asset-003296",
+      "alt": "N-酰基亚胺盐反应：第7幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-008.jpg",
+      "assetId": "asset-003297",
+      "alt": "N-酰基亚胺盐反应：第8幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
+    },
+    {
       "type": "paragraph",
-      "text": "骨架正确,立体化学错误得 1 分,立体化学只要求五元环的三个取代基为顺式即可。不要求甲苯取代基的立体化学。甲基取代基在间位不得分。"
+      "text": "给分原则:"
+    },
+    {
+      "type": "paragraph",
+      "text": "骨架 1 分,立体化学 1 分;骨架正确,立体化学错误得 1 分,立体化学只要求五元环的三个取代基为顺式即可。不要求甲苯取代基的立体化学。甲基取代基在间位不得分。"
     },
     {
       "type": "paragraph",
       "text": "9.3 研究结果表明,如下反应有很好的对映选择性。"
     },
     {
-      "type": "paragraph",
-      "text": "9.3.1 确定此反应原料中 C1 和 C2 的绝对构型。"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-009.jpg",
+      "assetId": "asset-003298",
+      "alt": "N-酰基亚胺盐反应：第9幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
     },
     {
       "type": "paragraph",
-      "text": "C1:1S,C2:2R"
+      "text": "9.3.1 确定此反应原料中 C1 和 C2 的绝对构型。 解答:"
     },
     {
       "type": "paragraph",
-      "text": "9.3.2 画出中间产物 A 的结构式(要求示出手性中心的绝对构型)。"
+      "text": "C1: 1S, C2: 2R"
+    },
+    {
+      "type": "paragraph",
+      "text": "给分原则:每个1分,共2分,其他答案不得分。"
+    },
+    {
+      "type": "paragraph",
+      "text": "9.3.2 画出中间产物 A 的结构式(要求示出手性中心的绝对构型)。 解答:"
     },
     {
       "type": "paragraph",
       "text": "or"
     },
     {
-      "type": "heading",
-      "level": 3,
-      "text": "共 2 分"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-010.jpg",
+      "assetId": "asset-003299",
+      "alt": "N-酰基亚胺盐反应：第10幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
     },
     {
       "type": "paragraph",
       "text": "没有形成亚胺正离子,形成以下结构的得 1 分"
     },
     {
-      "type": "heading",
-      "level": 3,
-      "text": "给分原则:"
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-011.jpg",
+      "assetId": "asset-003300",
+      "alt": "or",
+      "label": "or",
+      "caption": "or",
+      "displayWidth": 100
     },
     {
       "type": "paragraph",
@@ -127,15 +250,45 @@
     },
     {
       "type": "paragraph",
-      "text": "9.3.3 判断化合物 B 中 C5 位 H 与酯基的立体关系,并说明理由。"
+      "text": "9.3.3 判断化合物 B 中 C5 位 H 与酯基的立体关系,并说明理由。 解答:"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-012.jpg",
+      "assetId": "asset-003301",
+      "alt": "N-酰基亚胺盐反应：第12幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
     },
     {
       "type": "paragraph",
-      "text": "顺式:1 分;成环的构型取决于酯基;酯基为了避免和酰胺中羰基的排斥,取直立键,或写 1,3-排斥作用;成环时红色的 2 个 H 取反式。2 分。共 3 分"
+      "text": "顺式:1 分;"
+    },
+    {
+      "type": "paragraph",
+      "text": "成环的构型取决于酯基;酯基为了避免和酰胺中羰基的排斥,取直立键,或写 1,3-排斥作用;成环时红色的 2 个 H 取反式。2 分。共 3 分"
+    },
+    {
+      "type": "paragraph",
+      "text": "给分原则:"
+    },
+    {
+      "type": "paragraph",
+      "text": "其他答案不得分。"
     },
     {
       "type": "paragraph",
       "text": "9.4 仔细观察下述反应的底物结构,完成以下反应式,并回答相关问题:"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-013.jpg",
+      "assetId": "asset-003302",
+      "alt": "N-酰基亚胺盐反应：第13幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
     },
     {
       "type": "paragraph",
@@ -143,24 +296,38 @@
     },
     {
       "type": "paragraph",
-      "text": "六元环并六元环骨架正确得 1 分,直立键上的 H 与酯基顺式:1 分;苯基与酯基为顺式:1 分,共 3 分;"
+      "text": "解答:"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-014.jpg",
+      "assetId": "asset-003303",
+      "alt": "N-酰基亚胺盐反应：第14幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-015.jpg",
+      "assetId": "asset-003304",
+      "alt": "N-酰基亚胺盐反应：第15幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-016.jpg",
+      "assetId": "asset-003305",
+      "alt": "N-酰基亚胺盐反应：第16幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
     },
     {
       "type": "paragraph",
-      "text": "9.4.2 画出反应的过渡态结构式。"
-    },
-    {
-      "type": "paragraph",
-      "text": "过渡态结构:"
-    },
-    {
-      "type": "paragraph",
-      "text": "骨架正确 1 分;立体化学 1 分,过渡态符号(方括号和≠)1 分;苯基、Cbz、直立键上 H 和甲酯基均处在顺式,如有任何一个立体化学关系错误得 0 分,共 3 分。"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "给分原则:"
+      "text": "六元环并六元环骨架正确得 1 分,直立键上的 H 与酯基顺式:1 分;苯基与酯基为顺式:1 分,共 3 分;给分原则:"
     },
     {
       "type": "paragraph",
@@ -168,7 +335,40 @@
     },
     {
       "type": "paragraph",
-      "text": "9.4.3 并依据此过渡态结构分析,与题 9.3 相比,题 9.4 产物中 H 与酯基的立体化学关系是否有变化?(a) 有变化;(c) 没有变化。"
+      "text": "9.4.2 画出反应的过渡态结构式。"
+    },
+    {
+      "type": "paragraph",
+      "text": "解答:"
+    },
+    {
+      "type": "paragraph",
+      "text": "过渡态结构:"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-017.jpg",
+      "assetId": "asset-003306",
+      "alt": "N-酰基亚胺盐反应：第17幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
+    },
+    {
+      "type": "paragraph",
+      "text": "骨架正确 1 分;立体化学 1 分,过渡态符号(方括号和≠)1 分;苯基,Cbz,直立键上 H 和甲酯基均处在顺式,如有任何一个立体化学关系错误得 0 分,共 3 分。"
+    },
+    {
+      "type": "paragraph",
+      "text": "骨架错误,后续正确都不得分。"
+    },
+    {
+      "type": "paragraph",
+      "text": "9.4.3 并依据此过渡态结构分析,与题 9.3 相比,题 9.4 产物中 H 与酯基的立体化学关系是否有变化方向(a) 有变化;(c) 没有变化。"
+    },
+    {
+      "type": "paragraph",
+      "text": "解答:"
     },
     {
       "type": "paragraph",
@@ -176,7 +376,7 @@
     },
     {
       "type": "paragraph",
-      "text": "9.4.4 此转换的非对映过量值(dr)是升高还是降低?(a) 升高;(b) 降低;(c) 没有变化。"
+      "text": "9.4.4 此转换的非对映过量值(dr)是升高还是降低方向(a) 升高;(b) 降低;(c) 没有变化。 解答:"
     },
     {
       "type": "paragraph",
@@ -188,125 +388,368 @@
     },
     {
       "type": "paragraph",
-      "text": "酰胺的羰基与酯基成反式,使得亚胺正离子的加成反应从环下方或从酯基的反位进行,与苯基的立体化学无关。共 1 分。"
+      "text": "解答:"
+    },
+    {
+      "type": "paragraph",
+      "text": "酰胺的羰基与酯基成反式,使得亚胺正离子的加成反应从环下方或从酯基的反位进行,与苯基的立体化学无关。共1分。"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000267-figure-018.jpg",
+      "assetId": "asset-003307",
+      "alt": "N-酰基亚胺盐反应：第18幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
     },
     {
       "type": "paragraph",
       "text": "也可以"
     },
     {
-      "type": "heading",
-      "level": 3,
-      "text": "2025 年 9 月 11 日评分材料"
+      "type": "subpart",
+      "label": "9-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001457"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000267-figure-001.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "(图:中间产物 A 的结构式)"
+      "type": "subpart",
+      "label": "9-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001458"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000267-figure-002.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "(图:关键中间体)"
+      "type": "subpart",
+      "label": "9-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001459"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000267-figure-003.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "(图:反应式)"
+      "type": "subpart",
+      "label": "9-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001460"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000267-figure-004.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "(图:关键中间体)"
+      "type": "subpart",
+      "label": "9-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001461"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000267-figure-005.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "(图:关键中间体)"
+      "type": "subpart",
+      "label": "9-6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001462"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000267-figure-006.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "(图:反应条件)"
+      "type": "subpart",
+      "label": "9-7",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001463"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000267-figure-007.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "(图:产物结构)"
+      "type": "subpart",
+      "label": "9-8",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001464"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000267-figure-008.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "(图:产物结构)"
+      "type": "subpart",
+      "label": "9-9",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001465"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000267-figure-009.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "(图:反应式)"
+      "type": "subpart",
+      "label": "9-10",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001466"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000267-figure-010.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "(图:中间产物 A)"
+      "type": "subpart",
+      "label": "9-11",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001467"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000267-figure-011.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "(图:副产物结构)"
+      "type": "subpart",
+      "label": "9-12",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001468"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000267-figure-012.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "(图:化合物 B)"
+      "type": "subpart",
+      "label": "9-13",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001469"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000267-figure-013.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "(图:反应式)"
+      "type": "subpart",
+      "label": "9-14",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001470"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000267-figure-014.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "(图:产物结构)"
+      "type": "subpart",
+      "label": "9-15",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001471"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000267-figure-015.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "(图:产物结构)"
+      "type": "subpart",
+      "label": "9-16",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001472"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000267-figure-016.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "(图:产物结构)"
+      "type": "subpart",
+      "label": "9-17",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001473"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000267-figure-017.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "(图:过渡态结构)"
+      "type": "subpart",
+      "label": "9-18",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001474"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000267-figure-018.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "(图:解释示意图)"
+      "type": "subpart",
+      "label": "9-1-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001475"
+    },
+    {
+      "type": "subpart",
+      "label": "9-1-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001476"
+    },
+    {
+      "type": "subpart",
+      "label": "9-2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001477"
+    },
+    {
+      "type": "subpart",
+      "label": "9-2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001478"
+    },
+    {
+      "type": "subpart",
+      "label": "9-2-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001479"
+    },
+    {
+      "type": "subpart",
+      "label": "9-3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001480"
+    },
+    {
+      "type": "subpart",
+      "label": "9-3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001481"
+    },
+    {
+      "type": "subpart",
+      "label": "9-3-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001482"
+    },
+    {
+      "type": "subpart",
+      "label": "9-4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001483"
+    },
+    {
+      "type": "subpart",
+      "label": "9-4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001484"
+    },
+    {
+      "type": "subpart",
+      "label": "9-4-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001485"
+    },
+    {
+      "type": "subpart",
+      "label": "9-4-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001486"
+    },
+    {
+      "type": "subpart",
+      "label": "9-4-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001487"
     }
   ],
-  "parts": []
+  "renderingHints": {
+    "mhchem": true
+  }
 }

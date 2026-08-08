@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000027",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,13 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000011",
     "sourceLabel": "2016-30-CChO-juesai.pdf",
-    "page": null,
+    "pages": [
+      3
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
@@ -27,51 +25,53 @@
       "type": "callout",
       "tone": "info",
       "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
-    }
-  ],
-  "parts": [
+    },
     {
-      "id": "part-000027-01",
+      "type": "subpart",
       "label": "6-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "估算400.0 K,总压为100.0 kPa时甲醇裂解制氢反应的平衡常数(设反应的 $\\Delta_{\\mathrm{r}}H_{\\mathrm{m}}^{\\ominus}$ 和 $\\Delta_{\\mathrm{r}}S_{\\mathrm{m}}^{\\ominus}$ 不随温度变化,下同)。"
         }
-      ]
+      ],
+      "partId": "part-000053"
     },
     {
-      "id": "part-000027-02",
+      "type": "subpart",
       "label": "6-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "将0.426 g甲醇置于体积为1.00 L的抽真空刚性容器中,维持温度为298 K时,甲醇在气相与液相的质量比为多少?已知甲醇在大气中的沸点为337.7 K。"
+          "text": "将0.426 g甲醇置于体积为1.00 L的抽真空刚性容器中,维持温度为298 K时,甲醇在气相与液相的质量比为多少？已知甲醇在大气中的沸点为337.7 K。"
         }
-      ]
+      ],
+      "partId": "part-000054"
     },
     {
-      "id": "part-000027-03",
+      "type": "subpart",
       "label": "6-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "由甲醇制氢的实际生产工艺通常是在催化剂的作用下利用水煤气转化反应与裂解反应耦合,以提高甲醇的平衡转化率。请写出耦合后的总反应方程式,并求总压为 100.0 kPa,甲醇与水蒸气体积进料比为 1:1 时,使甲醇平衡转化率达到99.0%所需的温度。"
         }
-      ]
+      ],
+      "partId": "part-000055"
     },
     {
-      "id": "part-000027-04",
+      "type": "subpart",
       "label": "6-4",
       "blocks": [
         {
           "type": "paragraph",
           "text": "设想利用太阳能推动反应进行,可将甲醇裂解反应设计为光电化学电池,请写出电极反应,并指出需要解决的两个最关键的问题。"
         }
-      ]
+      ],
+      "partId": "part-000056"
     },
     {
-      "id": "part-000027-05",
+      "type": "subpart",
       "label": "6-5",
       "blocks": [
         {
@@ -80,23 +80,28 @@
         },
         {
           "type": "paragraph",
-          "text": "$$\n\\begin{array}{c}\n\\ce{CH3OH(g) + S <=>[k_1][k_{-1}] CH3OH(ad)}\\\\\n\\ce{CH3OH(ad) ->[k_2] CH3O(ad) + H(ad)}\\\\\n\\ce{CH3O(ad) ->[k_3] CH2O(ad) + H(ad)}\\\\\n\\ce{CH2O(ad) ->[k_4] CHO(ad) + H(ad)}\\\\\n\\ce{CHO(ad) ->[k_5] CO(ad) + H(ad)}\\\\\n\\ce{CO(ad) ->[k_6] CO(g) + S}\\\\\n\\ce{2H(ad) ->[k_7] H2(g)}\n\\end{array}\n$$"
+          "text": "$$\n\n\\ce{CH3OH(g) + S <=>[k_1][k_{-1}] CH3OH(ad)}\\\\\n\\ce{CH3OH(ad) ->[k_2] CH3O(ad) + H(ad)}\\\\\n\\ce{CH3O(ad) ->[k_3] CH2O(ad) + H(ad)}\\\\\n\\ce{CH2O(ad) ->[k_4] CHO(ad) + H(ad)}\\\\\n\\ce{CHO(ad) ->[k_5] CO(ad) + H(ad)}\\\\\n\\ce{CO(ad) ->[k_6] CO(g) + S}\\\\\n\\ce{2H(ad) ->[k_7] H2(g)}\n\n$$"
         },
         {
           "type": "paragraph",
           "text": "以上各式中“S”表示表面活性中心,“g”表示气态,“ad”表示吸附态。设S的浓度仅随甲醇吸附而变化,请根据以上机理用稳态近似推导反应速率方程,并对结果进行讨论。"
         }
-      ]
+      ],
+      "partId": "part-000057"
     },
     {
-      "id": "part-000027-06",
+      "type": "subpart",
       "label": "6-6",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "金属催化剂的表面活性与表面原子的能量有关,假设表面为完整的二维结构,表面能量由原子的断键引起。请估算Pd金属(110)面(即与二重轴垂直的面)的单位表面能量。已知Pd为立方最密堆积,Pd原子半径为179 pm,原子化热为 351.6 kJ mol−1。"
+          "text": "金属催化剂的表面活性与表面原子的能量有关,假设表面为完整的二维结构,表面能量由原子的断键引起。请估算Pd金属(110)面(即与二重轴垂直的面)的单位表面能量。已知Pd为立方最密堆积,Pd原子半径为179 pm,原子化热为 351.6 kJ mol-1。"
         }
-      ]
+      ],
+      "partId": "part-000058"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

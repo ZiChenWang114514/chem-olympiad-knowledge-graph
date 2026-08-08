@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000205",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,84 +10,109 @@
   "source": {
     "sourceDocumentId": "source-000060",
     "sourceLabel": "2023-37-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      5
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "对题目8-1至8-5所提问题进行判断并提供合理解释,对题目8-6和8-7则按所给条件和要求"
-    }
-  ],
-  "parts": [
+      "text": "对题目"
+    },
     {
-      "id": "part-000205-01",
+      "type": "subpart",
       "label": "8-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "丙酮和六氟丙酮中哪个分子偶极矩更大?"
-        }
-      ]
-    },
-    {
-      "id": "part-000205-02",
-      "label": "8-2",
-      "blocks": [
+          "text": "至"
+        },
         {
           "type": "paragraph",
-          "text": "2,4-戊二酮的烯醇含量在水中还是在正己烷中高?将溶剂水换成二甲亚砜,2,4-戊二酮的 $pK_a$ 是降低还是升高?"
+          "text": "丙酮和六氟丙酮中哪个分子偶极矩更大？"
         }
-      ]
+      ],
+      "partId": "part-000391"
     },
     {
-      "id": "part-000205-03",
-      "label": "8-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "$(2E,4Z,6E)$-辛-2,4,6-三烯在光照下关环后两个甲基是顺式的还是反式的?"
-        }
-      ]
-    },
-    {
-      "id": "part-000205-04",
-      "label": "8-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "乙酸乙酯、乙酰氯、N,N-二甲基乙酰胺中哪个化合物α-氢酸性最强?"
-        }
-      ]
-    },
-    {
-      "id": "part-000205-05",
+      "type": "subpart",
       "label": "8-5",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "吡啶和六氢吡啶哪个分子偶极矩更大?"
+          "text": "所提问题进行判断并提供合理解释,对题目"
+        },
+        {
+          "type": "paragraph",
+          "text": "吡啶和六氢吡啶哪个分子偶极矩更大？"
         }
-      ]
+      ],
+      "partId": "part-000392"
     },
     {
-      "id": "part-000205-06",
+      "type": "subpart",
       "label": "8-6",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "2-氟-5-三氟甲基吡啶与乙醇钠/乙醇的反应速率要比 2,5-二氟吡啶快得多。为什么?"
+          "text": "和"
+        },
+        {
+          "type": "paragraph",
+          "text": "2-氟-5-三氟甲基吡啶与乙醇钠/乙醇的反应速率要比 2,5-二氟吡啶快得多。为什么？"
         }
-      ]
+      ],
+      "partId": "part-000393"
     },
     {
-      "id": "part-000205-07",
+      "type": "subpart",
       "label": "8-7",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "则按所给条件和要求"
+        }
+      ],
+      "partId": "part-000394"
+    },
+    {
+      "type": "subpart",
+      "label": "8-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "2,4-戊二酮的烯醇含量在水中还是在正己烷中高？将溶剂水换成二甲亚砜,2,4-戊二酮的 $pK_a$ 是降低还是升高？"
+        }
+      ],
+      "partId": "part-000396"
+    },
+    {
+      "type": "subpart",
+      "label": "8-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "$(2E,4Z,6E)$-辛-2,4,6-三烯在光照下关环后两个甲基是顺式的还是反式的？"
+        }
+      ],
+      "partId": "part-000397"
+    },
+    {
+      "type": "subpart",
+      "label": "8-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "乙酸乙酯、乙酰氯、N,N-二甲基乙酰胺中哪个化合物α-氢酸性最强？"
+        }
+      ],
+      "partId": "part-000398"
+    },
+    {
+      "type": "subpart",
+      "label": "8-7-2",
       "blocks": [
         {
           "type": "paragraph",
@@ -96,20 +121,38 @@
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000205-figure-001.jpg",
-          "alt": "化学反应路线与结构式示意图（原图）",
-          "caption": "(图:)"
+          "alt": "化学反应路线与结构式示意图(原图)",
+          "displayWidth": 80,
+          "caption": "(图:)",
+          "assetId": "asset-002912"
         }
-      ]
+      ],
+      "partId": "part-000404"
     },
     {
-      "id": "part-000205-08",
-      "label": "8-7",
+      "type": "subpart",
+      "label": "8-7-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 PPh$_3$, CBrCl$_3$  8-7-2 CyN=C=NCy  8-7-3 Ac$_2$O"
+          "text": "-1 PPh$_3$, CBrCl$_3$ 8-7-2 CyN=C=NCy 8-7-3 Ac$_2$O"
         }
-      ]
+      ],
+      "partId": "part-000403"
+    },
+    {
+      "type": "subpart",
+      "label": "8-7-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "8-7-1 PPh3, CBrCl38-7-2 $\\mathrm { C y N = C = N C y }$ 8-7-3 Ac2O"
+        }
+      ],
+      "partId": "part-000405"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

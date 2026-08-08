@@ -1,28 +1,39 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000456",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "锡氯化合物反应链",
-  "number": "8",
+  "number": "Q8",
   "examYear": 2015,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000049",
     "sourceLabel": "2015-29-CChO-chusai.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      3
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第8题(9分)金属A常用于铁的防护。A与氯气反应,生成易挥发的液态物质B,B和过量A反应生成具有还原性的物质C,C可以还原Fe^{3+};B和格氏试剂(C6H5MgBr)反应生成D(只含元素A、碳和氢)。D和B反应得到E,E水解、聚合成链状的F并放出HCl。向B的盐酸溶液中通入H2S,得到金黄色沉淀G(俗名“金粉”),G溶于硫化铵溶液得到H。向C的盐酸溶液中通入H2S,得到黑色沉淀I,I可溶于多硫化铵溶液但不溶于硫化铵溶液。写出A~I的化学式。"
+      "text": "第8题(9分)金属A常用于铁的防护。A与氯气反应,生成易挥发的液态物质B,B和过量A反应生成具有还原性的物质 \\mathbf { C } , ,C可以还原 \\mathrm { F e ^ { 3 + } } ;B和格氏试剂 \\mathrm { ( C _ { 6 } H _ { 5 } M g B r ) } 反应生成D(只含元素A,碳和氢)。D和B反应得到E,E水解,聚合成链状的F并放出 \\mathrm { H C l } _ { \\mathfrak { c } } 。向B的盐酸溶液中通入 \\mathrm { H } _ { 2 } \\mathrm { S } ,得到金⻩色沉淀G(俗名“金粉”),G溶于硫化铵溶液得到H。向C的盐酸溶液中通入 \\mathrm { H } _ { 2 } \\mathrm { S } _ { \\mathrm { \\ell } } ,得到黑色沉淀I,I可溶于多硫化铵溶液但不溶于硫化铵溶液。写出A\\~I的化学式。"
+    },
+    {
+      "type": "subpart",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001842"
     }
   ],
-  "parts": []
+  "renderingHints": {
+    "mhchem": true
+  }
 }

@@ -1,74 +1,83 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000041",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "铝黄铜组成与超细铜制备",
-  "number": "1",
+  "number": "Q1",
   "examYear": 2017,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000012",
     "sourceLabel": "2017-31-CChO-juesai.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      1
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000041-01",
+      "type": "paragraph",
+      "text": "第 1 题(11 分)"
+    },
+    {
+      "type": "subpart",
       "label": "1-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "1.000 g 铝黄铜合金(设只含铜、锌、铝)与 $0.100\\ \\mathrm{mol\\,L^{-1}}$ 硫酸反应,在 $25^\\circ\\mathrm{C}$ 和 101.325 kPa 下测得放出的气体的体积为 149.3 mL。将相同质量的该合金溶于足量热浓硫酸,在相同温度和压强下测得放出的气体的体积为 $411.1\\ \\mathrm{mL}$。计算此铝黄铜合金中各组分的质量分数。"
+          "text": "1.000 g 铝⻩铜合金(设只含铜,锌,铝)与 0.100 mol L−1硫酸反应,在 25 ^ { \\circ } \\mathrm { C } 和 101.325 kPa 下测得放出的气体的体积为149.3 mL。将相同质量的该合金溶于足量热浓硫酸,在相同温度和压强下测得放出的气体的体积为 411 . 1 \\mathrm { m L } _ { \\circ } 计算此铝⻩铜合金中各组分的质量分数。"
         }
-      ]
+      ],
+      "partId": "part-000985"
     },
     {
-      "id": "part-000041-02",
+      "type": "subpart",
       "label": "1-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "向 $\\ce{[Cu(NH3)4]SO4}$ 水溶液中通入 $\\ce{SO2}$ 气体至溶液呈微酸性,析出白色沉淀 $\\ce{CuNH4SO3}$。$\\ce{CuNH4SO3}$ 与足量的硫酸混合并微热,得到金属 $\\ce{Cu}$ 等物质,本法制得的 $\\ce{Cu}$ 呈超细粉末状,有重要用途。"
+          "text": "向 \\mathrm { [ C u ( N H _ { 3 } ) _ { 4 } ] S O _ { 4 } } 水溶液中通入 \\mathrm { S O } _ { 2 } 气体至溶液呈微酸性,析出白色沉淀 \\mathrm { C u N H _ { 4 } S O _ { 3 \\circ } } \\mathrm { C u N H _ { 4 } S O _ { 3 } } 与足量的硫酸混合并微热,得到金属 \\mathrm { C u } 等物质,本法制得的Cu呈超细粉末状,有重要用途。"
         }
-      ]
+      ],
+      "partId": "part-000986"
     },
     {
-      "id": "part-000041-03",
+      "type": "subpart",
       "label": "1-2-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出生成 $\\ce{CuNH4SO3}$ 的反应方程式。"
+          "text": "写出生成 \\mathrm { C u N H _ { 4 } S O _ { 3 } } 的反应方程式。"
         }
-      ]
+      ],
+      "partId": "part-000987"
     },
     {
-      "id": "part-000041-04",
+      "type": "subpart",
       "label": "1-2-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出 $\\ce{CuNH4SO3}$ 与 $\\ce{H2SO4}$ 作用的反应方程式。若反应在敞开反应器中进行,计算反应物中的 $\\ce{Cu}$ 元素变成超细粉末 $\\ce{Cu}$ 的转化率。"
+          "text": "写出 \\mathrm { C u N H _ { 4 } S O _ { 3 } } 与 H \\mathrm { _ { 2 S O _ { 4 } } } 作用的反应方程式,若反应在敞开反应器中进行,计算反应物中的Cu元素变成超细粉末Cu的转化率。"
         }
-      ]
+      ],
+      "partId": "part-000988"
     },
     {
-      "id": "part-000041-05",
+      "type": "subpart",
       "label": "1-2-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "若反应在密闭容器中进行,且酸量充足,计算反应物中的 $\\ce{Cu}$ 元素变成超细粉末 $\\ce{Cu}$ 的转化率,并对此做出解释。"
+          "text": "若反应在密闭容器中进行,且酸量充足,计算反应物中的Cu元素变成超细粉末Cu的转化率。并对此做出解释。"
         }
-      ]
+      ],
+      "partId": "part-000989"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

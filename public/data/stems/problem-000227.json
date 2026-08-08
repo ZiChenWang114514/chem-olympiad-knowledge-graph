@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000227",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,73 +10,187 @@
   "source": {
     "sourceDocumentId": "source-000026",
     "sourceLabel": "2023-37-CChO-juesai-2.pdf",
-    "page": null,
+    "pages": [
+      8,
+      9
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
-  },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "7 · 有机分子构象与自由基"
+      "type": "subpart",
+      "label": "7",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "7 · 有机分子构象与自由基"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000227-figure-001.jpg",
+          "alt": "化学反应路线与结构式示意图(原图)",
+          "displayWidth": 80,
+          "caption": "题目配图",
+          "assetId": "asset-002932"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000227-figure-002.jpg",
+          "alt": "化学反应路线与结构式示意图(原图)",
+          "displayWidth": 80,
+          "caption": "题目配图",
+          "assetId": "asset-002933"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000227-figure-003.jpg",
+          "alt": "化学反应路线与结构式示意图(原图)",
+          "displayWidth": 80,
+          "caption": "题目配图",
+          "assetId": "asset-002934"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000227-figure-004.jpg",
+          "alt": "化学反应路线与结构式示意图(原图)",
+          "displayWidth": 80,
+          "caption": "题目配图",
+          "assetId": "asset-002935"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000227-figure-005.jpg",
+          "alt": "化学反应路线与结构式示意图(原图)",
+          "displayWidth": 80,
+          "caption": "题目配图",
+          "assetId": "asset-002936"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000227-figure-006.jpg",
+          "alt": "化学反应路线与结构式示意图(原图)",
+          "displayWidth": 80,
+          "caption": "题目配图",
+          "assetId": "asset-002937"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000227-figure-007.jpg",
+          "alt": "化学反应路线与结构式示意图(原图)",
+          "displayWidth": 80,
+          "caption": "题目配图",
+          "assetId": "asset-002938"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000227-figure-008.jpg",
+          "alt": "化学反应路线与结构式示意图(原图)",
+          "displayWidth": 80,
+          "caption": "题目配图",
+          "assetId": "asset-002939"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000227-figure-009.jpg",
+          "alt": "化学反应路线与结构式示意图(原图)",
+          "displayWidth": 80,
+          "caption": "题目配图",
+          "assetId": "asset-002940"
+        }
+      ],
+      "partId": "part-000454"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000227-figure-001.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "题目配图"
+      "type": "subpart",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "分别画出三氟甲氧基苯和2-甲氧基吡啶的优势构象。"
+        }
+      ],
+      "partId": "part-000455"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000227-figure-002.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "题目配图"
+      "type": "subpart",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "试比较以下两组自由基断裂化反应的相对速率(断裂的键已用箭头标出),并简要解释你的判断。"
+        }
+      ],
+      "partId": "part-000456"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000227-figure-003.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "题目配图"
+      "type": "subpart",
+      "label": "7-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "给以下三个化合物的电离势从高到低进行排序。"
+        }
+      ],
+      "partId": "part-000459"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000227-figure-004.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "题目配图"
+      "type": "subpart",
+      "label": "7-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在1H-NMR表征中,H核受屏蔽作用影响展现不同的化学位移。屏蔽作用随电子密度增大而增大,对应H的化学位移 (ppm) 数值则减小。"
+        }
+      ],
+      "partId": "part-000460"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000227-figure-005.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "题目配图"
+      "type": "subpart",
+      "label": "7-4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "将以下两种化合物中心C原子所连接H的化学位移从大到小进行排列。"
+        }
+      ],
+      "partId": "part-000461"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000227-figure-006.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "题目配图"
+      "type": "subpart",
+      "label": "7-4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出以下两个化合物的立体结构,并对箭头所指H的化学位移从大到小进行排列。"
+        }
+      ],
+      "partId": "part-000462"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000227-figure-007.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "题目配图"
+      "type": "subpart",
+      "label": "7-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在有机合成中,常需要使用无水溶剂,如四氢呋喃常用与金属钠混合回流,确定无水后重蒸即可。以下可用于此四氢呋喃/钠体系达致无水的指示剂的有:( )a) 二苯酮; b) 苯酚; c) 苯甲醛; d) 苯乙酮"
+        }
+      ],
+      "partId": "part-000463"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000227-figure-008.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "题目配图"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000227-figure-009.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "题目配图"
+      "type": "subpart",
+      "label": "7-6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在有机化合物的提纯方法中,蒸馏是常见的方法。以下可利用水蒸气蒸馏法提纯的化合物有:( )a) 乙酸乙酯; b) 硝基苯; c) 苯甲酸乙酯; d) 苯胺"
+        }
+      ],
+      "partId": "part-000464"
     }
   ],
-  "parts": []
+  "renderingHints": {
+    "mhchem": true
+  }
 }

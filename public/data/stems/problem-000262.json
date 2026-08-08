@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000262",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,97 +10,130 @@
   "source": {
     "sourceDocumentId": "source-000063",
     "sourceLabel": "2025-39-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      7
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
-  },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "3. 有机题要求首先骨架准确,接着键的链接方式即结构准确,然后是立体化学。"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000262-figure-001.jpg",
-      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-      "caption": "图 1"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000262-figure-002.jpg",
-      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-      "caption": "图 2"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000262-figure-003.jpg",
-      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-      "caption": "图 3"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000262-figure-004.jpg",
-      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-      "caption": "图 4"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000262-figure-005.jpg",
-      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-      "caption": "图 5"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000262-figure-006.jpg",
-      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-      "caption": "图 6"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000262-figure-007.jpg",
-      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-      "caption": "图 7"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000262-figure-008.jpg",
-      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-      "caption": "图 8"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000262-figure-009.jpg",
-      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-      "caption": "图 9"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000262-figure-010.jpg",
-      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-      "caption": "图 10"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000262-figure-011.jpg",
-      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-      "caption": "图 11"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000262-figure-012.jpg",
-      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-      "caption": "图 12"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000262-figure-013.jpg",
-      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-      "caption": "图 13"
+      "type": "subpart",
+      "label": "3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "3. 有机题要求首先骨架准确,接着键的链接方式即结构准确,然后是立体化学。"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000262-figure-001.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "displayWidth": 80,
+          "caption": "图 1",
+          "assetId": "asset-002992"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000262-figure-002.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "displayWidth": 80,
+          "caption": "图 2",
+          "assetId": "asset-002993"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000262-figure-003.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "displayWidth": 80,
+          "caption": "图 3",
+          "assetId": "asset-002994"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000262-figure-004.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "displayWidth": 80,
+          "caption": "图 4",
+          "assetId": "asset-002995"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000262-figure-005.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "displayWidth": 80,
+          "caption": "图 5",
+          "assetId": "asset-002996"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000262-figure-006.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "displayWidth": 80,
+          "caption": "图 6",
+          "assetId": "asset-002997"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000262-figure-007.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "displayWidth": 80,
+          "caption": "图 7",
+          "assetId": "asset-002998"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000262-figure-008.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "displayWidth": 80,
+          "caption": "图 8",
+          "assetId": "asset-002999"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000262-figure-009.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "displayWidth": 80,
+          "caption": "图 9",
+          "assetId": "asset-003000"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000262-figure-010.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "displayWidth": 80,
+          "caption": "图 10",
+          "assetId": "asset-003001"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000262-figure-011.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "displayWidth": 80,
+          "caption": "图 11",
+          "assetId": "asset-003002"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000262-figure-012.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "displayWidth": 80,
+          "caption": "图 12",
+          "assetId": "asset-003003"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000262-figure-013.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "displayWidth": 80,
+          "caption": "图 13",
+          "assetId": "asset-003004"
+        }
+      ],
+      "partId": "part-000591"
     }
   ],
-  "parts": []
+  "renderingHints": {
+    "mhchem": true
+  }
 }

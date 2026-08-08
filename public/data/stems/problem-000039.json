@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000039",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,29 +8,55 @@
   "examYear": 2017,
   "examStage": "preliminary",
   "source": {
-    "sourceDocumentId": "source-000051",
     "sourceLabel": "2017-31-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      3
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000051"
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "$\\ce{N ->[EtONa, (COOEt)2][EtOH, -15°C, 2h] A ->[LiH, HCHO][THF, 20°C, 25min] B}$"
-    },
-    {
-      "type": "paragraph",
-      "text": "$\\ce{->[NaHCO3, CH2Cl2][20°C, 20min] [C -> D] -> E}$"
-    },
-    {
-      "type": "paragraph",
-      "text": "元素分析结果表明化合物 E 含 C 64.84%、H 8.16%、N 12.60%。化合物 B 不含羟基。"
+      "type": "subpart",
+      "label": "9-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "第9题 画出以下转换的中间体和产物(A\\~E)的结构简式."
+        },
+        {
+          "type": "paragraph",
+          "text": "$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "\\mathrm{N} \\stackrel {\\mid} {\\longrightarrow} \\mathrm{O} \\xrightarrow [ \\mathrm{EtOH} , - 15 ^ {\\circ} \\mathrm{C} , 2 \\mathrm{h} ]{\\mathrm{EtONa} , (\\mathrm{COOEt}) _ {2}} \\mathrm{A} \\xrightarrow [ \\mathrm{THF} , 20 ^ {\\circ} \\mathrm{C} , 25 \\mathrm{min} ]{\\mathrm{LiH} , \\mathrm{HCHO}} \\mathrm{B}"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "\\xrightarrow [ 20 ^ {\\circ} \\mathrm{C} , 20 \\min ]{\\mathrm{NaHCO} _ {3} , \\mathrm{CH} _ {2} \\mathrm{Cl} _ {2}} \\left[ {ccc} \\mathbf {C} \\longrightarrow \\mathbf {D} \\right] \\longrightarrow \\mathbf {E}"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "元素分析结果表明化合物 E 含 C64.84%,H8.16%,N12.60%.化合物 B 不含羟基."
+        }
+      ],
+      "partId": "part-001908"
     }
   ],
-  "parts": []
+  "renderingHints": {
+    "mhchem": true
+  }
 }

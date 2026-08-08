@@ -1,94 +1,105 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000360",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "晶体结构与晶胞",
-  "number": "6",
+  "number": "Q6",
   "examYear": 2010,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000041",
     "sourceLabel": "2010-24-CChO-chusai.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      2
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000360-01",
+      "type": "paragraph",
+      "text": "第 6 题(8 分)在我国⻘海,西藏等地有许多干涸盐湖盛产一种钠盐 Q。Q 为一种易溶于水的白色固体。Q 的水溶液用硫酸酸化,得到弱酸X。X为无色小片状透明晶体。X和甲醇在浓硫酸存在下生成易挥发的E。E在空气中点燃呈现绿色火焰。E和NaH反应得到易溶于水的白色固态化合物Z(分子量37.83)。"
+    },
+    {
+      "type": "subpart",
       "label": "6-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "写出由Q得到X的离子方程式。"
         }
-      ]
+      ],
+      "partId": "part-001712"
     },
     {
-      "id": "part-000360-02",
+      "type": "subpart",
       "label": "6-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "写出X在水中的电离方程式。"
         }
-      ]
+      ],
+      "partId": "part-001713"
     },
     {
-      "id": "part-000360-03",
+      "type": "subpart",
       "label": "6-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "写出X和甲醇在浓硫酸存在下生成E的化学方程式。"
         }
-      ]
+      ],
+      "partId": "part-001714"
     },
     {
-      "id": "part-000360-04",
+      "type": "subpart",
       "label": "6-4",
       "blocks": [
         {
           "type": "paragraph",
           "text": "写出E燃烧反应的化学方程式。"
         }
-      ]
+      ],
+      "partId": "part-001715"
     },
     {
-      "id": "part-000360-05",
+      "type": "subpart",
       "label": "6-5",
       "blocks": [
         {
           "type": "paragraph",
           "text": "写出由E和NaH制备Z的化学反应方程式。"
         }
-      ]
+      ],
+      "partId": "part-001716"
     },
     {
-      "id": "part-000360-06",
+      "type": "subpart",
       "label": "6-6",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Z在水溶液里的稳定性与溶液pH有关,pH越大越稳定。为什么?"
+          "text": "Z在水溶液里的稳定性与溶液pH有关,pH越大越稳定。为什么方向"
         }
-      ]
+      ],
+      "partId": "part-001717"
     },
     {
-      "id": "part-000360-07",
+      "type": "subpart",
       "label": "6-7",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "近年来,用Z和过氧化氢构建一种新型碱性电池已成为热门的研究课题。该电池放电时,每摩尔Z释放8摩尔电子,标准电动势大于 $2\\mathrm{V}$ 。写出这种电池放电反应的离子方程式。"
+          "text": "近年来,用Z和过氧化氢构建一种新型碱性电池已成为热⻔的研究课题。该电池放电时,每摩尔Z释放8摩尔电子,标准电动势大于 2 \\mathrm { { V } _ { \\circ } } 。写出这种电池放电反应的离子方程式。"
         }
-      ]
+      ],
+      "partId": "part-001718"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

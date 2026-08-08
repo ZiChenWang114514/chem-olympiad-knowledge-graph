@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000464",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,72 +8,79 @@
   "examYear": 2015,
   "examStage": "final",
   "source": {
-    "sourceDocumentId": "source-000010",
     "sourceLabel": "2015-29-CChO-juesai.pdf",
-    "page": null,
+    "pages": [
+      2
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000010"
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "MAX(M代表过渡金属元素,A代表主族元素,X代表碳或氮)相是一类备受关注的新型陶瓷材料。由于独特的层状晶体结构,其具有自润滑、高韧性、可导电等性能,可作为高温结构材料、电极材料和化学防腐材料。某MAX相材料含有Ti,Al,N3种原子,属六方晶系,Ti原子的堆积方式为...BACBBCABBACBBCAB...,其中A、B、C 都是密置单层。N 原子占据所有的正八面体空隙,而Al 原子占据一半的三棱柱空隙。如果Ti 原子层上下同时接触N和Al原子,则沿着晶胞c轴方向,Al和N原子的投影重合。"
-    }
-  ],
-  "parts": [
+      "text": "第5题"
+    },
     {
-      "id": "part-000464-01",
+      "type": "paragraph",
+      "text": "MAX(M代表过渡金属元素,A代表主族元素,X代表碳或氮)相是一类备受关注的新型陶瓷材料.由于独特的层状晶体结构,其具有自润滑,高韧性,可导电等性能,可作为高温结构材料,电极材料和化学防腐材料.某MAX相材料含有Ti,Al,N3种原子,属六方晶系,Ti原子的堆积方式为...BACBBCABBACBBCAB...,其中A,B,C 都是密置单层.N 原子占据所有的正八面体空隙,而Al 原子占据一半的三棱柱空隙.如果Ti 原子层上下同时接触N和Al原子,则沿着晶胞轴方向,Al和N原子的投影重合."
+    },
+    {
+      "type": "subpart",
       "label": "5-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出该化合物的化学式,及每个正当晶胞中的原子种类和个数。"
+          "text": "写出该化合物的化学式,及每个正当晶胞中的原子种类和个数."
         }
-      ]
+      ],
+      "partId": "part-002571"
     },
     {
-      "id": "part-000464-02",
+      "type": "subpart",
       "label": "5-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "沿着晶胞c轴方向,画一条同时含有Al和N原子的直线,标出直线上的原子排列(无需考虑原子间距离,直线上总原子数不少于10个。Al,Ti,N分别用○,△,□表示)。"
+          "text": "沿着晶胞轴方向,画一条同时含有Al和N原子的直线,标出直线上的原子排列(无需考虑原子间距离,直线上总原子数不少于10个.Al,Ti,N分别用○,△,表示)."
         }
-      ]
+      ],
+      "partId": "part-002572"
     },
     {
-      "id": "part-000464-03",
+      "type": "subpart",
       "label": "5-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "已知 Ti,N 原子之间的平均键长为 210.0 pm,Ti,Al 原子之间的平均键长为 281.8 pm,估算晶体的理论密度(原子量:Ti: 47.87,Al: 26.98,N: 14.01, $N_{\\mathrm{A}} = 6.02 \\times 10^{23} \\mathrm{mol^{-1}}$)。"
+          "text": "已知 Ti,N 原子之间的平均键⻓为 210.0pm,Ti,Al 原子之间的平均键⻓为 281.8pm,估算晶体的理论密度(原子量:Ti: 47.87,Al: 26.98,N: 14.01, $N _ { \\mathrm { A } } = 6.02 { \\times } 10 ^ { 23 } \\mathrm { mol ^ { - 1 } } )$ o"
         }
-      ]
+      ],
+      "partId": "part-002573"
     },
     {
-      "id": "part-000464-04",
+      "type": "subpart",
       "label": "5-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "晶粒尺寸会影响上述材料的性质,所以高温制备时一般通过延长保温时间来增加晶粒尺寸。判断常温下晶粒生长过程的熵变、焓变和自由能变化的正负,并从化学热力学角度判断常温下该晶粒生长过程是否自发。"
+          "text": "晶粒尺寸会影响上述材料的性质,所以高温制备时一般通过延⻓保温时间来增加晶粒尺寸 $\\mathbf { \\rho } _ { \\circ }$ .判断常温下晶粒生⻓过程的熵变,焓变和自由能变化的正负,并从化学热力学⻆度判断常温下该晶粒生⻓过程是否自发."
         }
-      ]
+      ],
+      "partId": "part-002574"
     },
     {
-      "id": "part-000464-05",
+      "type": "subpart",
       "label": "5-5",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "以上描述均针对完美晶体。一般情况下,晶粒中会出现缺陷。从热力学角度证明:对于足够大的晶体,出现缺陷是自发的。"
+          "text": "以上描述均针对完美晶体.一般情况下,晶粒中会出现缺陷.从热力学⻆度证明:对于足够大的晶体,出现缺陷是自发的."
         }
-      ]
+      ],
+      "partId": "part-002575"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

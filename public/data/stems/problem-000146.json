@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000146",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,45 +10,46 @@
   "source": {
     "sourceDocumentId": "source-000017",
     "sourceLabel": "2021-35-CChO-juesai-1.pdf",
-    "page": null,
+    "pages": [
+      4,
+      5
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "figure",
+      "src": "data/stems/assets/problem-000146-figure-001.jpg",
+      "alt": "分子机器示意图(原卷配图)",
+      "displayWidth": 80,
       "caption": "题图",
-      "alt": "分子机器示意图(缺图)",
-      "src": "data/stems/assets/problem-000146-figure-001.jpg"
-    }
-  ],
-  "parts": [
+      "assetId": "asset-002870"
+    },
     {
-      "id": "part-000146-01",
+      "type": "subpart",
       "label": "5-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "指出 DB 和 CBPQT 分子所带电荷数(表明正负)。"
         }
-      ]
+      ],
+      "partId": "part-000266"
     },
     {
-      "id": "part-000146-02",
+      "type": "subpart",
       "label": "5-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "通常条件下 DB 是无法穿入到 CBPQT 的环中,CBPQT 在经过 2 个电子还原形成自由基之后,可以被 DB 的左端穿入,与经过 1 个电子还原之后的片段 V 结合,简述其原因并画出 CBPQT 在接受了 2 个电子之后的还原产物最稳定的结构简式并注明电荷和自由基的位置。"
         }
-      ]
+      ],
+      "partId": "part-000267"
     },
     {
-      "id": "part-000146-03",
+      "type": "subpart",
       "label": "5-3",
       "blocks": [
         {
@@ -57,44 +58,57 @@
         },
         {
           "type": "figure",
+          "src": "data/stems/assets/problem-000146-figure-002.jpg",
+          "alt": "分子泵示意图(原卷配图)",
+          "displayWidth": 80,
           "caption": "图 5-2",
-          "alt": "分子泵示意图(缺图)",
-          "src": "data/stems/assets/problem-000146-figure-002.jpg"
+          "assetId": "asset-002871"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000146-figure-003.jpg",
           "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-          "caption": "图 3"
+          "displayWidth": 80,
+          "caption": "图 3",
+          "assetId": "asset-002872"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000146-figure-004.jpg",
           "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-          "caption": "图 4"
+          "displayWidth": 80,
+          "caption": "图 4",
+          "assetId": "asset-002873"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000146-figure-005.jpg",
           "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-          "caption": "图 5"
+          "displayWidth": 80,
+          "caption": "图 5",
+          "assetId": "asset-002874"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000146-figure-006.jpg",
           "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-          "caption": "图 6"
+          "displayWidth": 80,
+          "caption": "图 6",
+          "assetId": "asset-002875"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000146-figure-007.jpg",
           "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-          "caption": "图 7"
+          "displayWidth": 80,
+          "caption": "图 7",
+          "assetId": "asset-002876"
         }
-      ]
+      ],
+      "partId": "part-000268"
     },
     {
-      "id": "part-000146-04",
+      "type": "subpart",
       "label": "5-4",
       "blocks": [
         {
@@ -107,9 +121,13 @@
         },
         {
           "type": "paragraph",
-          "text": "反应第一步采用 Zn 作为还原剂(标准电极电势为 −0.76 V),将 CBPQT 和 DB 还原为 [CBPQT-DB]$^{3-}$。反应第二步采用 MB$^+$ 作为氧化剂(标准电极电势为 1.22 V),将 [CBPQT-DB]$^{3-}$ 氧化为 CBPQT-DB,MB$^+$ 则转变为 MB。DB/DB$^-$ 和 CBPQT/CBPQT$^{2-}$ 的标准电极电势分别为 −0.32 V 和 −0.26 V,计算分子泵的理论工作效率 η。"
+          "text": "反应第一步采用 Zn 作为还原剂(标准电极电势为 -0.76 V),将 CBPQT 和 DB 还原为 [CBPQT-DB]$^{3-}$。反应第二步采用 MB$^+$ 作为氧化剂(标准电极电势为 1.22 V),将 [CBPQT-DB]$^{3-}$ 氧化为 CBPQT-DB,MB$^+$ 则转变为 MB。DB/DB$^-$ 和 CBPQT/CBPQT$^{2-}$ 的标准电极电势分别为 -0.32 V 和 -0.26 V,计算分子泵的理论工作效率 η。"
         }
-      ]
+      ],
+      "partId": "part-000269"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000207",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,23 +10,20 @@
   "source": {
     "sourceDocumentId": "source-000060",
     "sourceLabel": "2023-37-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      6,
+      7
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
       "text": "利用阴离子传递(ARC)的多组分反应可以高效构筑复杂分子的骨架体系。"
-    }
-  ],
-  "parts": [
+    },
     {
-      "id": "part-000207-01",
+      "type": "subpart",
       "label": "10-1",
       "blocks": [
         {
@@ -36,13 +33,16 @@
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000207-figure-001.jpg",
-          "alt": "化学反应路线与结构式示意图（原图）",
-          "caption": "反应步骤图"
+          "alt": "化学反应路线与结构式示意图(原图)",
+          "displayWidth": 80,
+          "caption": "反应步骤图",
+          "assetId": "asset-002916"
         }
-      ]
+      ],
+      "partId": "part-000414"
     },
     {
-      "id": "part-000207-02",
+      "type": "subpart",
       "label": "10-2",
       "blocks": [
         {
@@ -52,13 +52,16 @@
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000207-figure-002.jpg",
-          "alt": "化学反应路线与结构式示意图（原图）",
-          "caption": "反应示意图"
+          "alt": "化学反应路线与结构式示意图(原图)",
+          "displayWidth": 80,
+          "caption": "反应示意图",
+          "assetId": "asset-002917"
         }
-      ]
+      ],
+      "partId": "part-000415"
     },
     {
-      "id": "part-000207-03",
+      "type": "subpart",
       "label": "10-3",
       "blocks": [
         {
@@ -68,13 +71,16 @@
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000207-figure-003.jpg",
-          "alt": "化学反应路线与结构式示意图（原图）",
-          "caption": "产物结构图"
+          "alt": "化学反应路线与结构式示意图(原图)",
+          "displayWidth": 80,
+          "caption": "产物结构图",
+          "assetId": "asset-002918"
         }
-      ]
+      ],
+      "partId": "part-000416"
     },
     {
-      "id": "part-000207-04",
+      "type": "subpart",
       "label": "10-4",
       "blocks": [
         {
@@ -84,64 +90,81 @@
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000207-figure-004.jpg",
-          "alt": "化学反应路线与结构式示意图（原图）",
-          "caption": "双环骨架构筑示意图"
+          "alt": "化学反应路线与结构式示意图(原图)",
+          "displayWidth": 80,
+          "caption": "双环骨架构筑示意图",
+          "assetId": "asset-002919"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000207-figure-005.jpg",
-          "alt": "化学反应路线与结构式示意图（原图）",
-          "caption": "选项V"
+          "alt": "化学反应路线与结构式示意图(原图)",
+          "displayWidth": 80,
+          "caption": "选项V",
+          "assetId": "asset-002920"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000207-figure-006.jpg",
-          "alt": "化学反应路线与结构式示意图（原图）",
-          "caption": "选项S"
+          "alt": "化学反应路线与结构式示意图(原图)",
+          "displayWidth": 80,
+          "caption": "选项S",
+          "assetId": "asset-002921"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000207-figure-007.jpg",
-          "alt": "化学反应路线与结构式示意图（原图）",
-          "caption": "选项T"
+          "alt": "化学反应路线与结构式示意图(原图)",
+          "displayWidth": 80,
+          "caption": "选项T",
+          "assetId": "asset-002922"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000207-figure-008.jpg",
-          "alt": "化学反应路线与结构式示意图（原图）",
-          "caption": "选项U"
+          "alt": "化学反应路线与结构式示意图(原图)",
+          "displayWidth": 80,
+          "caption": "选项U",
+          "assetId": "asset-002923"
         }
-      ]
+      ],
+      "partId": "part-000417"
     },
     {
-      "id": "part-000207-05",
+      "type": "subpart",
       "label": "10-4-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "写出中间体P、Q及R的结构式(要求立体化学)。"
         }
-      ]
+      ],
+      "partId": "part-000418"
     },
     {
-      "id": "part-000207-06",
+      "type": "subpart",
       "label": "10-4-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "判断S-V中的哪一个为此转换的主要产物。"
         }
-      ]
+      ],
+      "partId": "part-000419"
     },
     {
-      "id": "part-000207-07",
+      "type": "subpart",
       "label": "10-5",
       "blocks": [
         {
           "type": "paragraph",
           "text": "S和T两者之间的关系为:a) 对映异构体;b) 差向异构体;c) 非对映异构体。"
         }
-      ]
+      ],
+      "partId": "part-000420"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

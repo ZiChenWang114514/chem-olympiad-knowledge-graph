@@ -1,99 +1,150 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000212",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "甲醛时钟反应动力学",
-  "number": "5",
+  "number": "Q5",
   "examYear": 2023,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000025",
     "sourceLabel": "2023-37-CChO-juesai-1.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      4,
+      5
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "水结冰是我们非常熟悉的自然现象。冰中水分子通过氢键连接,随着温度、压力的变化,可以形成不同的晶型,迄今已发现了 19 种形态的冰。其中,六方相的天然冰(I$_h$)最为常见,它构造出晶莹美妙的冰雪世界;而立方相的“冰 VII”最引人注目,将液态水在高于 3 GPa 的压力下降低到环境温度即可形成,它可以在很宽的温度和压力范围内存在。2018 年科学家在钻石中发现了天然存在的冰 VII,在地幔、太阳系行星和冰冷卫星中也发现了冰 VII,又将冰与行星的演化及地外生命的探索联系起来。"
+      "text": "水结冰是我们非常熟悉的自然现象。冰中水分子通过氢键连接,随着温度,压力的变化,可以形成不同的晶型,迄今已发现了 19 种形态的冰。其中,六方相的天然冰(I_h)最为常见,它构造出晶莹美妙的冰雪世界;而立方相的“冰 VII”最引人注目,将液态水在高于 3 GPa 的压力下降低到环境温度即可形成,它可以在很宽的温度和压力范围内存在。2018 年科学家在钻石中发现了天然存在的冰 VII,在地幔,太阳系行星和冰冷卫星中也发现了冰 VII,又将冰与行星的演化及地外生命的探索联系起来。"
+    },
+    {
+      "type": "subpart",
+      "label": "5-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001238"
+    },
+    {
+      "type": "subpart",
+      "label": "5-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001239"
+    },
+    {
+      "type": "subpart",
+      "label": "5-2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001240"
+    },
+    {
+      "type": "subpart",
+      "label": "5-2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001241"
+    },
+    {
+      "type": "subpart",
+      "label": "5-2-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001242"
+    },
+    {
+      "type": "subpart",
+      "label": "5-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001243"
+    },
+    {
+      "type": "subpart",
+      "label": "5-3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001244"
+    },
+    {
+      "type": "subpart",
+      "label": "5-3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001245"
+    },
+    {
+      "type": "subpart",
+      "label": "5-3-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001246"
+    },
+    {
+      "type": "subpart",
+      "label": "5-10",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001247"
+    },
+    {
+      "type": "subpart",
+      "label": "5-36",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001248"
     }
   ],
-  "parts": [
-    {
-      "id": "part-000212-01",
-      "label": "5-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "氢键的作用赋予天然冰空旷的结构和低于水的密度($0.920\\ \\mathrm{g\\ cm^{-3}}$)。关于冰中氢的位置,一直是备受关注的科学问题。1930 年代,根据 X 射线衍射分析,科学家提出了我们熟知的天然冰 $\\mathrm{I_h}$ 的有序结构模型,如图 5.1(a) 所示,晶胞参数为 $a = 0.782\\ \\mathrm{nm}$,$c = 0.736\\ \\mathrm{nm}$。然而,随着科学技术的发展,对天然冰的中子衍射结果确认,冰中的氢分布存在一定的无序。天然冰的实际结构如图 5.1(b) 所示,可以看出,结构中氢原子在氧原子周围呈现正四面体分布,但在这些位置的占有率均为 1/2,也就是说水分子存在不同的取向。天然冰仍属六方晶系,晶胞参数为 $a = 0.451\\ \\mathrm{nm}$,$c = 0.736\\ \\mathrm{nm}$。"
-        }
-      ]
-    },
-    {
-      "id": "part-000212-02",
-      "label": "5-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "(1)5.1(b) 所示冰的结构中,单个水分子有几种可能的取向?"
-        }
-      ]
-    },
-    {
-      "id": "part-000212-03",
-      "label": "5-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "(2)关于冰中氢的位置以及水的取向问题,Pauling 早就有研究。他指出,如果冰中水分子取向如图 5.1(a) 所示完全有序,则构型残余熵为零;如果水分子的取向不单一,则存在残余的构型熵 $S$,$S = k_{\\mathrm{B}} \\ln \\Omega$,其中 $k_{\\mathrm{B}}$ 是玻尔兹曼常数,$\\Omega$ 是氢可能占据位置的微观状态数。写出含 1 mol 水分子的冰的 $S$ 值(给出含常数的表达式即可),计算 5.1(b) 结构中的残余熵(单位:$\\mathrm{J\\ K^{-1}\\ mol^{-1}}$)。"
-        }
-      ]
-    },
-    {
-      "id": "part-000212-04",
-      "label": "5-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "冰 VII 的结构示于图 5.1(c),晶胞参数 $a = 0.330\\ \\mathrm{nm}$,O−H 键的键长为 0.0972 nm,结构中 H−O−H 的键角为 109.5°。该结构同样存在着水分子不同取向的情况。"
-        }
-      ]
-    },
-    {
-      "id": "part-000212-05",
-      "label": "5-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "(1)写出晶胞中所有原子可能占据位置的坐标参数。"
-        }
-      ]
-    },
-    {
-      "id": "part-000212-06",
-      "label": "5-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "(2)计算冰 VII 晶体的密度。"
-        }
-      ]
-    },
-    {
-      "id": "part-000212-07",
-      "label": "5-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "(3)将冰 VII 的密度与冰 $\\mathrm{I_h}$ 比较,并仔细观察图 5.1 所示结构,指出存在如此差别的根本原因。"
-        }
-      ]
-    }
-  ]
+  "renderingHints": {
+    "mhchem": true
+  }
 }

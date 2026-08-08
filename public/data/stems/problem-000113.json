@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000113",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,71 +8,111 @@
   "examYear": 2021,
   "examStage": "preliminary",
   "source": {
-    "sourceDocumentId": "source-000057",
     "sourceLabel": "2021-35-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      1,
+      2,
+      5
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
+    "sourceDocumentId": "source-000057"
   },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000113-01",
+      "type": "paragraph",
+      "text": "第2题 多样的氧物种"
+    },
+    {
+      "type": "paragraph",
+      "text": "常⻅的氧单质有 $O _ { 2 } ,$ ,和 $\\mathrm { O } _ { 3 \\mathrm { c } }$ .氧可参与形成氧化物,过氧化物,超氧化物,臭氧化物,等等."
+    },
+    {
+      "type": "subpart",
       "label": "2-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "请解释为什么在DNA分子中,腺嘌呤与胸腺嘧啶含量相等,鸟嘌呤与胞嘧啶含量相等。"
+          "text": "臭氧化钾生成与分解.已知如下反应及其标准摩尔焓变:"
         },
         {
           "type": "paragraph",
-          "text": "图1 碱基结构"
+          "text": "(1) $\\mathrm { K ( s ) + O _ { 2 } ( g ) KO _ { 2 } ( s ) }$ $\\Delta { H } _ { 1 } ^ { \\ominus } \\ = \\ - 285 \\mathrm { kJmol ^ { - 1 } }$ (2) $\\mathrm { KO _ { 2 } ( s ) + O _ { 3 } ( g ) \\mathrm { KO _ { 3 } ( s ) + O _ { 2 } ( g ) } }$ $\\Delta H _ { 2 } ^ { \\ominus } \\ = \\ - 119 \\mathrm { kJmol ^ { - 1 } }$ (3) $\\mathrm { O } _ { 2 } ( \\mathrm { g } ) 2 \\mathrm { O } ( \\mathrm { g } )$ $\\Delta H _ { 3 } ^ { \\ominus } = 498 \\mathrm { kJmol ^ { - 1 } }$ (4) $2 \\mathrm { KO _ { 3 } ( s ) } 2 \\mathrm { KO _ { 2 } ( s ) } + \\mathrm { O _ { 2 } ( g ) }$ $\\Delta H _ { 4 } ^ { \\ominus } \\ = \\ - 46 \\ \\mathrm { kJ \\ mol ^ { - 1 } }$"
         }
-      ]
+      ],
+      "partId": "part-002040"
     },
     {
-      "id": "part-000113-02",
+      "type": "subpart",
+      "label": "2-1-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算反应(5) $\\mathrm { K ( s ) + O _ { 3 } ( g ) KO _ { 3 } ( s ) }$ 的标准摩尔焓变 $\\Delta H _ { 5 } ^ { \\ominus }$ o"
+        }
+      ],
+      "partId": "part-002041"
+    },
+    {
+      "type": "subpart",
+      "label": "2-1-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算反应(6) $\\mathrm { O _ { 3 } ( g ) O _ { 2 } ( g ) + O ( g ) }$ 的标准摩尔烙变 $\\Delta H _ { 6 } ^ { \\ominus }$ o"
+        }
+      ],
+      "partId": "part-002042"
+    },
+    {
+      "type": "subpart",
       "label": "2-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "钾氩定年法可用于分析火星矿物形成的年代。已知 $^{40}\\mathrm{K}$ 衰变时,10.5%为 $\\beta^+$ 衰变生成 $^{40}\\mathrm{Ar}$,89.5%为 $\\beta^-$ 衰变生成 $^{40}\\mathrm{Ca}$,$^{40}\\mathrm{K}$ 的半衰期为12.5亿年。试求 $^{40}\\mathrm{K}$ 发生 $\\beta^+$ 衰变和 $\\beta^-$ 衰变的速率常数 $k_1$ 和 $k_2$。"
+          "text": "高压 (\\~50GPa)下: $\\mathrm { CaO ( s ) + O _ { 2 } ( s ) \\to CaO _ { 3 } ( s ) }$ $\\mathrm { CaO _ { 3 } }$ 中钙仍保持+2价."
         }
-      ]
+      ],
+      "partId": "part-002043"
     },
     {
-      "id": "part-000113-03",
-      "label": "2-3",
+      "type": "subpart",
+      "label": "2-2-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出与 $\\mathrm{N_2H_4}$ 质子总数相同且含有非极性键的物质的分子式。"
+          "text": "指出促使上述反应发生的主要因素(单选):"
+        },
+        {
+          "type": "paragraph",
+          "text": "(a) $\\mathrm { CaO _ { 3 } }$ 比 $\\mathrm { CaO }$ 晶格能大;(b) 反应的放热效应显著;(c) 反应的熵增大;(d) 反应中体积减小."
         }
-      ]
+      ],
+      "partId": "part-002044"
     },
     {
-      "id": "part-000113-04",
-      "label": "2-4",
+      "type": "subpart",
+      "label": "2-2-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出分子式为 $\\mathrm{C_3O_3Cl_6}$ 中所有Cl原子等价的物质的结构式。"
+          "text": "画出 $\\mathrm { CaO _ { 3 } }$ 中阴离子的Lewis结构."
         }
-      ]
+      ],
+      "partId": "part-002045"
     },
     {
-      "id": "part-000113-05",
-      "label": "2-5",
+      "type": "subpart",
+      "label": "2-2-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "一般化学交联的聚合物难以进行二次利用,但如图2所示的A、B、C三种单体共聚后经紫外光照射可以形成交联聚合物,且该交联聚合物能够实现回收热塑加工。请简述该交联聚合物可热塑加工的基本原理。"
+          "text": "$\\mathrm { CaO _ { 3 } }$ $\\mathrm { Ca ^ { 2 + } }$ 位于氧原子形成的立方体空隙中,写出阴离子端基氧的化学环境."
         }
-      ]
+      ],
+      "partId": "part-002046"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

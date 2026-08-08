@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000150",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,13 +10,12 @@
   "source": {
     "sourceDocumentId": "source-000017",
     "sourceLabel": "2021-35-CChO-juesai-1.pdf",
-    "page": null,
+    "pages": [
+      8,
+      9
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
@@ -25,9 +24,11 @@
     },
     {
       "type": "figure",
-      "caption": "瑞德西韦和莫努匹韦的结构图(原图缺失)",
+      "src": "data/stems/assets/problem-000150-figure-001.jpg",
       "alt": "瑞德西韦和莫努匹韦的结构图",
-      "src": "data/stems/assets/problem-000150-figure-001.jpg"
+      "displayWidth": 80,
+      "caption": "瑞德西韦和莫努匹韦的结构图(原图缺失)",
+      "assetId": "asset-002880"
     },
     {
       "type": "paragraph",
@@ -35,44 +36,47 @@
     },
     {
       "type": "figure",
-      "caption": "部分合成路线图(原图缺失)",
+      "src": "data/stems/assets/problem-000150-figure-002.jpg",
       "alt": "部分合成路线图",
-      "src": "data/stems/assets/problem-000150-figure-002.jpg"
-    }
-  ],
-  "parts": [
+      "displayWidth": 80,
+      "caption": "部分合成路线图(原图缺失)",
+      "assetId": "asset-002881"
+    },
     {
-      "id": "part-000150-01",
+      "type": "subpart",
       "label": "9-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "标出remdesivir分子结构中1号位碳(C1)和磷的绝对构型。"
         }
-      ]
+      ],
+      "partId": "part-000275"
     },
     {
-      "id": "part-000150-02",
+      "type": "subpart",
       "label": "9-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "画出第一步反应中间体4(未经分离提纯,直接用于下一步反应)和原料5的结构简式,并解释第一步反应的作用。"
         }
-      ]
+      ],
+      "partId": "part-000276"
     },
     {
-      "id": "part-000150-03",
+      "type": "subpart",
       "label": "9-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "本路线所合成的化合物6是一对C1位差向异构体的混合物 $(\\beta : \\alpha = 3 : 1)$,但化合物7为单一构型产物。画出7的结构简式,并利用反应中间体解释6转化为单一构型7的历程。"
         }
-      ]
+      ],
+      "partId": "part-000277"
     },
     {
-      "id": "part-000150-04",
+      "type": "subpart",
       "label": "9-4",
       "blocks": [
         {
@@ -81,11 +85,17 @@
         },
         {
           "type": "figure",
-          "caption": "碱基配对示意图(原图缺失)",
+          "src": "data/stems/assets/problem-000150-figure-003.jpg",
           "alt": "碱基配对示意图",
-          "src": "data/stems/assets/problem-000150-figure-003.jpg"
+          "displayWidth": 80,
+          "caption": "碱基配对示意图(原图缺失)",
+          "assetId": "asset-002882"
         }
-      ]
+      ],
+      "partId": "part-000278"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

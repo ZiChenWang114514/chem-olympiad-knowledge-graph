@@ -1,7 +1,6 @@
-import type { CSSProperties, ReactNode } from 'react'
+import type { ReactNode } from 'react'
 import { renderChem, renderLatex, renderRichText } from '../lib/katexRender'
-import { isDemoStem } from '../lib/stem'
-import type { ProblemStem, StemBlock, StemPart } from '../types'
+import type { ProblemStem, StemBlock } from '../types'
 
 function Html({ html, className }: { html: string; className?: string }) {
   return <span className={className} dangerouslySetInnerHTML={{ __html: html }} />
@@ -46,7 +45,10 @@ function BlockView({ block, baseUrl }: { block: StemBlock; baseUrl: string }): R
     case 'subpart':
       return (
         <div className="stem-subpart">
-          <div className="stem-subpart-label">{block.label}</div>
+          <div className="stem-subpart-head">
+            <div className="stem-subpart-label">{block.label}</div>
+            {typeof block.score === 'number' ? <span className="stem-part-score">{block.score} 分</span> : null}
+          </div>
           {block.prompt ? (
             <p className="stem-p">
               <Html html={renderRichText(block.prompt)} />
@@ -62,7 +64,8 @@ function BlockView({ block, baseUrl }: { block: StemBlock; baseUrl: string }): R
       if (!src) return null
       return (
         <figure className="stem-figure">
-          <img src={src} alt={block.alt} loading="lazy" />
+          <img src={src} alt={block.alt} loading="lazy" style={block.displayWidth ? { width: `${block.displayWidth}%` } : undefined} />
+          {block.label ? <div className="stem-figure-label">{block.label}</div> : null}
           {block.caption ? <figcaption>{block.caption}</figcaption> : null}
         </figure>
       )
@@ -101,59 +104,41 @@ function BlockView({ block, baseUrl }: { block: StemBlock; baseUrl: string }): R
           <Html html={renderRichText(block.text)} />
         </div>
       )
+    case 'layout':
+      return (
+        <div className="stem-layout-scroll">
+          <div
+            className="stem-layout"
+            style={{
+              minWidth: block.minWidth ? `${block.minWidth}px` : undefined,
+              gridTemplateColumns: block.columns.map(column => `${column.span}fr`).join(' '),
+            }}
+          >
+            {block.columns.map((column, columnIndex) => (
+              <div className="stem-layout-column" key={columnIndex}>
+                {column.blocks.map((child, childIndex) => (
+                  <BlockView key={childIndex} block={child} baseUrl={baseUrl} />
+                ))}
+              </div>
+            ))}
+          </div>
+        </div>
+      )
     default:
       return null
   }
 }
 
-function PartView({ part, baseUrl }: { part: StemPart; baseUrl: string }) {
-  return (
-    <section className="stem-part">
-      <header className="stem-part-head">
-        <span className="stem-part-label">{part.label}</span>
-        {typeof part.score === 'number' ? <span className="stem-part-score">{part.score} 分</span> : null}
-      </header>
-      <div className="stem-part-body">
-        {part.blocks.map((block, i) => (
-          <BlockView key={i} block={block} baseUrl={baseUrl} />
-        ))}
-      </div>
-    </section>
-  )
-}
-
 export function StemRenderer({ stem }: { stem: ProblemStem }) {
   const baseUrl = import.meta.env.BASE_URL
-  const demo = isDemoStem(stem)
-
   return (
     <article
-      className={`stem-doc${demo ? ' is-demo' : ''}`}
+      className="stem-doc"
       data-testid="problem-stem"
-      style={{ '--stem-accent': demo ? '#bc8a2f' : 'var(--teal)' } as CSSProperties}
     >
-      <header className="stem-doc-head">
-        <div className="stem-doc-kicker">
-          <span>题目</span>
-          {demo ? <span className="stem-badge demo">演示排版</span> : null}
-        </div>
-        <h2 className="stem-doc-title">
-          {stem.number} · {stem.title}
-        </h2>
-        <p className="stem-doc-meta">
-          {stem.examYear ? `${stem.examYear} · ` : ''}
-          来源 {stem.source.sourceLabel}
-          {stem.source.page != null ? ` · 页 ${stem.source.page}` : ''}
-        </p>
-        {stem.provenanceNote ? <p className="stem-provenance">{stem.provenanceNote}</p> : null}
-      </header>
-
       <div className="stem-body">
-        {(stem.blocks || []).map((block, i) => (
+        {stem.blocks.map((block, i) => (
           <BlockView key={`b-${i}`} block={block} baseUrl={baseUrl} />
-        ))}
-        {(stem.parts || []).map(part => (
-          <PartView key={part.id} part={part} baseUrl={baseUrl} />
         ))}
       </div>
     </article>
@@ -175,7 +160,7 @@ export function StemUnavailable({ reason }: { reason?: string }) {
       <b>题文暂不公开</b>
       <p>
         {reason ||
-          '本题尚未提供结构化题干文件。公开站仅在来源许可时加载题干内容；答案与评分永不发布。'}
+          '本题尚未提供可公开阅读的结构化题干。'}
       </p>
     </div>
   )

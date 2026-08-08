@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000357",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,78 +8,60 @@
   "examYear": 2010,
   "examStage": "preliminary",
   "source": {
-    "sourceDocumentId": "source-000041",
     "sourceLabel": "2010-24-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      1
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
+    "sourceDocumentId": "source-000041"
   },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000357-01",
+      "type": "paragraph",
+      "text": "第3题 早在19世纪人们就用金属硼化物和碳反应得到了碳化硼.它是迄今已知的除金刚石和氮化硼外最硬的固体.1930年确定了它的理想化学式.右图是2007年发表的一篇研究论文给出的碳化硼晶胞简图:"
+    },
+    {
+      "type": "subpart",
       "label": "3-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "该图给出了晶胞中的所有原子,除“三原子”(中心原子和与其相连的2个原子)外,晶胞的其余原子都是 $\\mathrm{B_{12}}$ 多面体中的1个原子,$\\mathrm{B_{12}}$ 多面体的其他原子都不在晶胞内,均未画出。图中原子旁的短棍表示该原子与其他原子相连。若上述“三原子”都是碳原子,写出碳化硼的化学式。"
+          "text": "该图给出了晶胞中的所有原子,除“三原子”(中心原子和与其相连的2个原子)外,晶胞的其余原子都是 $\\mathrm { B _ { 12 } }$ 多面体中的1个原子, $\\mathrm { B _ { 12 } }$ 多面体的其他原子都不在晶胞内,均未画出.图中原子旁的短棍表示该原子与其他原子相连.若上述“三原子”都是碳原子,写出碳化硼的化学式."
         }
-      ]
+      ],
+      "partId": "part-002447"
     },
     {
-      "id": "part-000357-02",
+      "type": "subpart",
       "label": "3-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "该图有什么旋转轴?有无对称中心和镜面?若有,指出个数及它们在图中的位置(未指出位置不得分)。"
+          "text": "该图有什么旋转轴有无对称中心和镜面若有,指出个数及它们在图中的位置(未指出位置不得分)."
         },
         {
           "type": "figure",
-          "caption": "(图:晶胞结构示意图)",
-          "alt": "晶胞结构示意图,图中标注原子及连接关系。",
-          "src": "data/stems/assets/problem-000357-figure-001.jpg"
+          "src": "data/stems/assets/problem-000357-figure-001.jpg",
+          "alt": "原卷第3题图1：该图有什么旋转轴有无对称中心和镜面若有,指出个数及它们在图中的位置(未指出位置不得分).",
+          "displayWidth": 70,
+          "assetId": "asset-003657"
         }
-      ]
+      ],
+      "partId": "part-002448"
     },
     {
-      "id": "part-000357-03",
+      "type": "subpart",
       "label": "3-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "该晶胞的形状属于国际晶体学联合会在1983年定义的布拉维系七种晶胞中的哪一种?注:国际晶体学联合会已于2002年改称布拉维系(Bravais system)为晶系(lattice system)。"
+          "text": "该晶胞的形状属于国际晶体学联合会在1983年定义的布拉维系七种晶胞中的哪一种注:国际晶体学联合会已于 2002 年改称布拉维系(Bravaissystem)为晶系(latticesystem)."
         }
-      ]
-    },
-    {
-      "id": "part-000357-04",
-      "label": "4-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "分别将 $\\mathrm{O_2}$、$\\mathrm{KO_2}$、$\\mathrm{BaO_2}$ 和 $\\mathrm{O_2[AsF_6]}$ 填入与O—O键长相对应的空格中。"
-        },
-        {
-          "type": "callout",
-          "tone": "info",
-          "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
-        }
-      ]
-    },
-    {
-      "id": "part-000357-05",
-      "label": "4-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "在配合物A和B中,$\\mathrm{O_2}$ 为配体与中心金属离子配位。A 的化学式为 $\\mathrm{[Co_2O_2(NH_3)_{10}]^{4+}}$,其O—O的键长为 147 pm;B 的化学式为 $\\mathrm{Co(bzacen)PyO_2}$,其 O—O 的键长为 126 pm,Py 是吡啶 $\\mathrm{(C_5H_5N)}$,bzacen 是四齿配体 $[\\mathrm{C_6H_5-C(O^-)=CH-C(CH_3)=NCH_2-}]_2$。B具有室温吸氧、加热脱氧的功能,可作为人工载氧体。画出A和B的结构简图(图中必须明确表明O—O与金属离子间的空间关系),并分别指出A和B中Co的氧化态。"
-        }
-      ]
+      ],
+      "partId": "part-002449"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

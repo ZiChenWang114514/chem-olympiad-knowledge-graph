@@ -1,54 +1,62 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000388",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "分析化学定量方法",
-  "number": "6",
+  "number": "Q6",
   "examYear": 2011,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000006",
     "sourceLabel": "2011-25-CChO-juesai.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      4,
+      5
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000388-01",
+      "type": "paragraph",
+      "text": "第6题(8分)甲酸和乙酸都是重要的化工原料。移取20.00mL甲酸和乙酸的混合溶液,以0.1000mol L−1NaOH 标准溶液滴定至终点,消耗 25.00 mL。另取 20.00 mL 上述混合溶液,加入 50.00 mL 0.02500 molL−1 \\mathrm { K M n O } _ { 4 } 强碱性溶液,反应完全后,调节至酸性,加入40.00mL 0.2000mol L−1 Fe2+标准溶液,用上述\\mathrm { K M n O _ { 4 } } 标准溶液滴定至终点,消耗24.00mL。"
+    },
+    {
+      "type": "subpart",
       "label": "6-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "计算混合溶液中甲酸和乙酸的总量。"
         }
-      ]
+      ],
+      "partId": "part-001764"
     },
     {
-      "id": "part-000388-02",
+      "type": "subpart",
       "label": "6-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "写出氧化还原滴定反应的化学方程式。"
         }
-      ]
+      ],
+      "partId": "part-001765"
     },
     {
-      "id": "part-000388-03",
+      "type": "subpart",
       "label": "6-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "计算混合酸溶液中甲酸和乙酸的浓度。"
         }
-      ]
+      ],
+      "partId": "part-001766"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

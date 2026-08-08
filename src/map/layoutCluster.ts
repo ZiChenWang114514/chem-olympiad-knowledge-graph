@@ -10,6 +10,7 @@ function hashAngle(id: string): number {
 
 function matchDiscipline(node: GraphNode, d: Discipline): boolean {
   return (
+    node.displayDisciplineId === d.id ||
     node.discipline === d.id ||
     node.discipline === d.name ||
     node.id === d.id ||

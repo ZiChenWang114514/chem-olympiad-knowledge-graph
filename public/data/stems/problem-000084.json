@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000084",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,22 +10,33 @@
   "source": {
     "sourceDocumentId": "source-000014",
     "sourceLabel": "2019-33-CChO-juesai.pdf",
-    "page": null,
+    "pages": [
+      4
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "renderingHints": {
-    "mhchem": true
-  },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "第 8 题（11 分） 佐⽶曲坦 $\\left( \\mathrm { C _ { 1 6 } H N _ { 2 1 } O _ { 2 } } \\right)$ 是治疗偏头疼的药物，其合成路线如下。画出A、B、C、D和E的结构简式。"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000084-figure-001.jpg",
-      "alt": "problem-000084题目配图第1幅（已按原图查看）"
+      "type": "subpart",
+      "label": "8",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "第 8 题(11 分) 佐米曲坦 $\\left( \\mathrm { C _ { 16 } H N _ { 21 } O _ { 2 } } \\right)$ 是治疗偏头疼的药物,其合成路线如下。画出A、B、C、D和E的结构简式。"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000084-figure-001.jpg",
+          "alt": "有机合成与机理相关结构或反应图,第1幅,保留原卷标注",
+          "displayWidth": 80,
+          "assetId": "asset-002810"
+        }
+      ],
+      "partId": "part-000165"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

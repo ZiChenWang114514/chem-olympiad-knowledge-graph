@@ -1,81 +1,131 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000349",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "多钒酸盐组成分析",
-  "number": "3",
+  "number": "Q3",
   "examYear": 2009,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000004",
     "sourceLabel": "2009-23-CChO-juesai.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      2,
+      3
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "实验1:准确称取0.9291 g A于三颈瓶中,加100 mL蒸馏水和150 mL 20% NaOH溶液,加热煮沸,生成的氨气用50.00 mL 0.1000 mol L−1 HCl标准溶液吸收。加入酸碱指示剂,用0.1000 mol L−1 NaOH标准溶液滴定剩余的HCl标准溶液,终点时消耗19.88 mL NaOH标准溶液。"
+      "text": "第3题(9分)钒在生物医学,机械,催化等领域具有广泛的应用。多钒酸盐阴离子具有生物活性。溶液中五价钒的存在形体与溶液酸度和浓度有关,在弱酸性溶液中易形成多钒酸根阴离子,如十钒酸根 \\mathrm { V _ { 10 } O _ { 28 } } ^ { 6 - } ,\\mathrm { H V _ { 10 } O _ { 28 } { } ^ { 5 - } } \\mathrm { H _ { 2 } V _ { 10 } O _ { 28 } } ^ { 4 - } 等。将 \\mathrm { N H _ { 4 } V O _ { 3 } } 溶于弱酸性介质中,加人乙醇可以得到橙色的十钒酸铵晶体 \\left( \\mathrm { N H } _ { 4 } \\right) _ { x } \\mathrm { H } _ { 6 - x } \\mathrm { V } _ { 10 } \\mathrm { O } _ { 28 } { \\cdot } n \\mathrm { H } _ { 2 } \\mathrm { O } (用A表示)。元素分析结果表明,A中氢的质量分数为3.13%。用下述实验对该化合物进行分析,以确定其组成。"
     },
     {
       "type": "paragraph",
-      "text": "实验2:准确称取0.3097 g A于锥形瓶中,加入40 mL 1.5 mol L−1 H2SO4,微热使之溶解。加入50 mL蒸馏水和1 g NaHSO3,搅拌5分钟,使反应完全,五价钒被还原成四价。加热煮沸15分钟,然后用0.02005 mol L−1 KMnO4标准溶液滴定,终点时消耗25.10 mL KMnO4标准溶液。"
-    }
-  ],
-  "parts": [
+      "text": "实验1:准确称取0.9291 g A于三颈瓶中,加100 ml 蒸馏水和150 mL 20% NaOH溶液,加热煮沸,生成的氨气用50.00 mL 0. 1000 mol L−1 HCl 标准溶液吸收。加入酸碱指示剂,用0.1000 mol L−1 \\mathrm { N a O H } 标准溶液滴定剩余的HCl标准溶液,终点时消耗19.88 mL NaOH 标准溶液。"
+    },
     {
-      "id": "part-000349-01",
+      "type": "paragraph",
+      "text": "实验 2:确称取 0.3097 g A 于锥形瓶中,加入40 mL 1.5 mol L−1 H { } _ { 2 } S O _ { 4 } ,微热使之溶解。加入50 mL蒸馏水和 1 \\mathrm { g N a H S O _ { 3 } , } 搅拌5分钟,使反应完全,五价钒被还原成四价。加热煮沸15分钟,然后用0.02005 mol L−1\\mathrm { K M n O } _ { 4 } 标准溶液滴定,终点时消耗25.10 mL \\mathrm { K M n O } _ { 4 } 标准溶液。"
+    },
+    {
+      "type": "subpart",
       "label": "3-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "图3.1为滴定曲线图,请回答哪一个图为实验1的滴定曲线;请根据此滴定曲线选择一种最佳酸碱指示剂,并简述做出选择的理由。有关指示剂的变色范围如下:甲基橙(pH 3.1~4.4),溴甲酚绿(pH 3.8~5.4),酚酞(pH 8.0~10.0)。"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000349-figure-001.jpg",
-          "alt": "实验数据图表或热力学曲线（原图）",
-          "caption": "图3.1 滴定曲线图"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000349-figure-002.jpg",
-          "alt": "化学结构示意图（原图）",
-          "caption": "题目配图"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000349-figure-003.jpg",
-          "alt": "化学结构示意图（原图）",
-          "caption": "题目配图"
+          "text": "图3.1为滴定曲线图,请回答哪一个图为实验1的滴定曲线;请根据此滴定曲线选择一种最佳酸碱指示剂,并简述做出选择的理由。有关指示剂的变色范围如下:甲基橙(pH 3.1\\~4.4),溴甲酚绿(pH3.8\\~5.4),酚酞(pH 8.0\\~10.0)。"
         }
-      ]
+      ],
+      "partId": "part-001689"
     },
     {
-      "id": "part-000349-02",
+      "type": "figure",
+      "src": "data/stems/assets/problem-000349-figure-001.jpg",
+      "assetId": "asset-003378",
+      "alt": "原卷示意图：图 4.1",
+      "label": "图 4.1",
+      "caption": "图 4.1",
+      "displayWidth": 100
+    },
+    {
+      "type": "paragraph",
+      "text": "(a)"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000349-figure-002.jpg",
+      "assetId": "asset-003379",
+      "alt": "原卷示意图：图 4.2",
+      "label": "图 4.2",
+      "caption": "图 4.2",
+      "displayWidth": 100
+    },
+    {
+      "type": "paragraph",
+      "text": "(b) 图 3.1"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000349-figure-003.jpg",
+      "assetId": "asset-003380",
+      "alt": "原卷示意图：d)",
+      "label": "d)",
+      "caption": "d)",
+      "displayWidth": 100
+    },
+    {
+      "type": "paragraph",
+      "text": "(c)"
+    },
+    {
+      "type": "subpart",
       "label": "3-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在实验2中,加 NaHSO3 还原 V10O28^6−,反应完全后需要加热煮沸15分钟。煮沸的目的是什么?写出 KMnO4 滴定反应的离子方程式。"
+          "text": "在实验2中,加 \\mathrm { N a H S O _ { 3 } } 还原 \\mathrm { V _ { 10 } O _ { 28 } } ^ { 6 - } ,反应完全后需要加热煮沸15分钟。煮沸的目的是什么方向写出\\mathrm { K M n O } _ { 4 } 滴定反应的离子方程式。"
         }
-      ]
+      ],
+      "partId": "part-001690"
     },
     {
-      "id": "part-000349-03",
+      "type": "subpart",
       "label": "3-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "根据实验结果,计算试样 A 中 NH4+ 和 V10O28^6− 的质量分数,结合元素分析结果确定A的化学式(x和y取整数)。"
+          "text": "根据实验结果,计算试样 A 中 \\mathrm { N H } _ { 4 } +和 \\mathrm { V _ { 10 } O _ { 28 } } ^ { 6 - } −的质量分数,结合元素分析结果确定A的化学式(方向和方向取整数)。"
         }
-      ]
+      ],
+      "partId": "part-001691"
+    },
+    {
+      "type": "subpart",
+      "label": "3-13",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001692"
+    },
+    {
+      "type": "subpart",
+      "label": "3-8",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001693"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

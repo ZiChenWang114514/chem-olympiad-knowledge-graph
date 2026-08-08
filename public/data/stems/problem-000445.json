@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000445",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,166 +8,138 @@
   "examYear": 2014,
   "examStage": "final",
   "source": {
-    "sourceDocumentId": "source-000009",
     "sourceLabel": "2014-28-CChO-juesai.pdf",
-    "page": null,
+    "pages": [
+      3
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000009"
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "在 298.2 K, $p^{\\ominus}$ 时,以 Cu 为阴极,石墨为阳极,电解含有 PbCl (0.0100 mol L−1)和 $\\mathrm{CuCl_2} (0.0500\\ \\mathrm{mol\\ L^{-1}})$ 的水溶液(不用盐桥),忽略电解过程中的超电势,活度因子均为1.00。已知 $\\varphi^{\\ominus}(\\mathrm{Pb^{2+}/Pb}) = -0.125\\ \\mathrm{V}$, $\\varphi^{\\ominus}(\\mathrm{Cu^{2+}/Cu}) = 0.337\\ \\mathrm{V}$, $\\varphi^{\\ominus}(\\mathrm{Cl_2/Cl^-}) = 1.36\\ \\mathrm{V}$, $\\varphi^{\\ominus}(\\mathrm{O_2/H_2O}) = 1.229\\ \\mathrm{V}$, 水的 $K_{\\mathrm{w}} = 1.00 \\times 10^{-14}$。通过计算说明:7-1 为使第二种金属析出,至少需要加多大电压?此时第一种金属离子的浓度是多少?"
-    }
-  ],
-  "parts": [
+      "text": "## 第7题"
+    },
     {
-      "id": "part-000445-01",
+      "type": "paragraph",
+      "text": "在 298.2K,$p ^ { \\ominus }$时,以 Cu 为阴极,石墨为阳极,电解含有 PbCl (0.0100molL−1)和$\\mathrm { CuCl _ { 2 } } \\left( 0.0500 \\mathrm { mol } \\right.$L−1) 的水溶液(不用盐桥),忽略电解过程中的超电势,活度因子均为1.00.已知$\\mathsf { J } \\varphi ^ { \\ominus } ( \\mathrm { Pb ^ { 2 + } } / \\mathrm { Pb } ) = - 0.125 \\mathrm { V } , \\ \\varphi ^ { \\ominus }$(Cu2+/Cu) = 0.337V,$\\varphi ^ { \\ominus } ( \\mathrm { Cl _ { 2 } } / \\mathrm { Cl ^ { - } } ) = 1.36 ~ \\mathrm { V } ,$$\\varphi ^ { \\ominus } ( \\mathrm { O _ { 2 } / H _ { 2 } O } ) = 1.229 \\mathrm { V } .$,水的$K _ { \\mathrm { w } } = 1.00 \\times10 ^ { - 14 } \\mathrm { , }$.通过计算说明:"
+    },
+    {
+      "type": "subpart",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "为使第二种金属析出,至少需要加多大电压此时第一种金属离子的浓度是多少"
+        }
+      ],
+      "partId": "part-002547"
+    },
+    {
+      "type": "subpart",
       "label": "7-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "若很短时间即停止通电,此时 $\\mathrm{CuCl_2}$ 的浓度为 0.0400 mol L−1,反应槽 $\\mathrm{pH} = 4.00$,温度同上,放置一段时间后是否有 CuOH 生成?(不需要考虑是否进一步生成 $\\mathrm{Cu_2O}$ 等)"
+          "text": "若很短时间即停止通电,此时$\\mathrm { CuCl _ { 2 } }$的浓度为 0.0400molL−1,反应槽$\\mathrm { pH } = 4.00$,温度同上,放置一段时间后是否有CuOH生成(不需要考虑是否进一步生成$\\mathrm { Cu _ { 2 } O }$等)$$\\text { 已知 } K _ {\\mathrm{sp}} ^ {\\ominus} = 10 ^ {- 14}, \\varphi^ {\\ominus} (\\mathrm{Cu} ^ {2 +} / \\mathrm{Cu}) = 0.160 \\mathrm{V} .$$"
         },
         {
           "type": "paragraph",
-          "text": "已知 $K_{\\mathrm{sp}}^{\\ominus} = 10^{-14}$, $\\varphi^{\\ominus}(\\mathrm{Cu^{2+}/Cu}) = 0.160\\ \\mathrm{V}$。"
+          "text": "7- 析纯的CuCl<sub>2</sub>溶于蒸馏水后,加酸调$\\mathrm { pH } = 3.00$$\\mathrm { Cu ^ { 2 + } }$仍可水解,此时假定只生成$\\mathrm { [ Cu ( OH ) ] }$+,若此水解反应的平衡常数$K = 0.125$,计算1升蒸馏水中溶解的$\\mathrm { CuCl _ { 2 } }$的质量."
         }
-      ]
+      ],
+      "partId": "part-002548"
     },
     {
-      "id": "part-000445-02",
-      "label": "7-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "分析纯的 CuCl2 溶于蒸馏水后,加酸调 $\\mathrm{pH} = 3.00$, $\\mathrm{Cu^{2+}}$ 仍可水解,此时假定只生成 $[\\mathrm{Cu(OH)}]^+$,若此水解反应的平衡常数 $K = 0.125$,计算 1 升蒸馏水中溶解的 $\\mathrm{CuCl_2}$ 的质量。"
-        }
-      ]
-    },
-    {
-      "id": "part-000445-03",
+      "type": "subpart",
       "label": "7-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "电化学中通常将实际分解电压与理论分解电压之间的差称为超电压或超电势。$\\mathrm{O_2(g)}$ 在石墨上析出存在超电势,若其超电势为 0.800 V,通过计算说明用氯碱工业(电解饱和食盐水)法制 Cl2 是否可行?(设 Cl− 的浓度为 0.120 mol L−1)"
+          "text": "电化学中通常将实际分解电压与理论分解电压之间的差称为超电压或超电势.$\\mathrm { O _ { 2 } ( g ) }$在石墨上析出存在超电势,若其超电势为0.800V,通过计算说明用氯碱工业(电解饱和⻝盐水)法制Cl 是否可行(设Cl−的浓度为0.120molL−1)"
         }
-      ]
+      ],
+      "partId": "part-002549"
     },
     {
-      "id": "part-000445-04",
+      "type": "subpart",
       "label": "7-5",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "上个世纪五十年代末开发的在均相溶液中用 $\\mathrm{PdCl_2/CuCl_2}$ 催化剂在温和条件将乙烯氧化制乙醛,是过渡金属催化剂在工业上著名的应用实例。其总反应可表示为如下 3 个催化流程:"
-        },
-        {
-          "type": "paragraph",
-          "text": "$$\\begin{array}{r l} &\\mathrm{PdCl_2} + \\mathrm{C_2H_4} + \\mathrm{H_2O} \\rightarrow \\mathrm{CH_3CHO} + \\mathrm{Pd} + 2\\mathrm{HCl} \\\\ &\\mathrm{Pd} + 2\\mathrm{CuCl_2} \\rightarrow \\mathrm{PdCl_2} + 2\\mathrm{CuCl} \\\\ &2\\mathrm{CuCl} + 2\\mathrm{HCl} + 1/2\\mathrm{O_2} \\rightarrow 2\\mathrm{CuCl_2} + \\mathrm{H_2O} \\end{array}$$"
-        },
-        {
-          "type": "paragraph",
-          "text": "乙烯氧化制乙醛的反应速率可以通过反应过程中乙烯体积的减少或压强的降低来测定。实验发现,当反应刚开始时,乙烯很快地被溶液吸收,且吸收量超过了饱和该溶液所需要的量,随后吸收速率减慢。在中等的 H+ 和氯化物浓度下,其实验速率方程可表示为:"
-        },
-        {
-          "type": "paragraph",
-          "text": "$$r = \\frac{\\mathrm{d}c(\\mathrm{C_2H_4})}{\\mathrm{d}t} = k c(\\mathrm{PdCl_4^{2-}})^x c(\\mathrm{C_2H_4})^y c(\\mathrm{H^+})^z c(\\mathrm{Cl^-})^{\\omega}$$"
-        },
-        {
-          "type": "paragraph",
-          "text": "目前学术界公认的机理为:"
-        },
-        {
-          "type": "paragraph",
-          "text": "$$1\\ [\\mathrm{PdCl_4}]^{2-} + \\mathrm{C_2H_4} \\underset{k_{-1}}{\\overset{k_1}{\\rightleftharpoons}} [\\mathrm{PdCl_3(C_2H_4)}]^- + \\mathrm{Cl^-} \\quad \\text{快反应}$$"
-        },
-        {
-          "type": "paragraph",
-          "text": "$$2\\ [\\mathrm{PdCl_3(C_2H_4)}]^- + \\mathrm{H_2O} \\underset{k_{-2}}{\\overset{k_2}{\\rightleftharpoons}} [\\mathrm{PdCl_2(H_2O)(C_2H_4)}] + \\mathrm{Cl^-} \\quad \\text{快反应}$$"
-        },
-        {
-          "type": "paragraph",
-          "text": "$$3\\ [\\mathrm{PdCl_2(H_2O)(C_2H_4)}] \\underset{k_{-3}}{\\overset{k_3}{\\rightleftharpoons}} [\\mathrm{PdCl_2(OH)(C_2H_4)}]^- + \\mathrm{H^+} \\quad \\text{快反应}$$"
-        },
-        {
-          "type": "paragraph",
-          "text": "$$4\\ [\\mathrm{PdCl_2(OH)(C_2H_4)}]^- \\xrightarrow{k_4} [\\mathrm{Cl_2PdCH_2CH_2OH}]^-$$"
-        },
-        {
-          "type": "paragraph",
-          "text": "$$5\\ [\\mathrm{Cl_2PdCH_2CH_2OH}]^- \\xrightarrow{k_5} \\mathrm{CH_3CHO} + \\mathrm{Pd} + \\mathrm{HCl} + \\mathrm{Cl^-}$$"
-        },
-        {
-          "type": "paragraph",
-          "text": "同位素示踪表明 $\\mathrm{C_2H_4}$ 在 $\\mathrm{D_2O}$ 中氧化不含 D, $\\mathrm{C_2D_4}$ 的氧化产物只有 $\\mathrm{CD_3CDO}$ 且 $\\mathrm{C_2H_4}$ 和 $\\mathrm{C_2D_4}$ 的反应速率基本相同。"
+          "text": "上个世纪五十年代末开发的在均相溶液中用$\\mathrm { PdCl _ { 2 } / CuCl _ { 2 } }$催化剂在温和条件将乙烯氧化制乙醛,是过渡金属催化剂在工业上著名的应用实例.其总反应可表示为下面3个催化流程:$${rl} \\mathrm {PdCl_ {2}} + \\mathrm {C_ {2} H_ {4}} + \\mathrm {H_ {2} O} \\rightarrow \\mathrm {CH_ {3} CHO} + \\mathrm{Pd} + 2 \\mathrm{HCl}\\\\ \\mathrm {Pd + 2CuCl_ {2}} \\rightarrow \\mathrm {PdCl_ {2}} + 2 \\mathrm{CuCl}\\\\ 2 \\mathrm{CuCl} + 2 \\mathrm{HCl} + 1 / 2 \\mathrm {O_ {2}} \\rightarrow2 \\mathrm {CuCl_ {2}} + \\mathrm {H_ {2} O}$$乙烯氧化制乙醛的反应速率可以通过反应过程中乙烯体积的减少或压强的降低来测定.实验发现,当反应刚开始时,乙烯很快地被溶液吸收,且吸收量超过了饱和该溶液所需要的量,随后吸收速率减慢.在中等的 H+和氯化物浓度下,其实验速率方程可表示为:$$r = \\frac {\\mathrm{d} c (\\mathrm{C} _ {2} \\mathrm{H} _ {4})}{\\mathrm{d} t} = kc (\\mathrm{PdCl} _ {4} ^ {2 -}) ^ {x} c (\\mathrm{C} _ {2} \\mathrm{H} _ {4}) ^ {y} c (\\mathrm{H} ^ {+}) ^ {z} c (\\mathrm{Cl} ^ {-}) ^ {\\omega}$$目前学术界公认的机理为:$$1 \\left[ \\mathrm{PdCl} _ {4} \\right] ^ {2 -} + \\mathrm{C} _ {2} \\mathrm{H} _ {4} \\underset {k = 1} {\\overset {k _ {1}} {\\rightleftharpoons}} \\left[ \\mathrm{PdCl} _ {3} (\\mathrm{C} _ {2} \\mathrm{H} _ {4}) \\right] ^ {-} + \\mathrm{Cl} ^ {-} \\quad \\text { 快反应 }$$$$2 \\left[ \\mathrm{PdCl} _ {3} (\\mathrm{C} _ {2} \\mathrm{H} _ {4}) \\right] ^ {-} + \\mathrm{H} _ {2} \\mathrm{O} \\underset {k _ {- 2}} {\\overset {k _ {2}} {\\rightleftharpoons}} \\left[ \\mathrm{PdCl} _ {2} (\\mathrm{H} _ {2} \\mathrm{O}) (\\mathrm{C} _ {2} \\mathrm{H} _ {4}) \\right] + \\mathrm{Cl} ^ {-} \\quad \\text { 快反应 }$$$$3 \\left[ \\mathrm{PdCl} _ {2} (\\mathrm{H} _ {2} \\mathrm{O}) (\\mathrm{C} _ {2} \\mathrm{H} _ {4}) \\right] \\underset {k _ {- 3}} {\\overset {k _ {3}} {\\rightleftharpoons}} \\left[ \\mathrm{PdCl} _ {2} (\\mathrm{OH}) (\\mathrm{C} _ {2} \\mathrm{H} _ {4}) \\right] ^ {-} + \\mathrm{H} ^ {+} \\quad \\text { 快反应 }$$$$4 [ \\mathrm{PdCl} _ {2} (\\mathrm{OH}) (\\mathrm{C} _ {2} \\mathrm{H} _ {4}) ] ^ {-} \\xrightarrow {\\kappa_ {4}} [ \\mathrm{Cl} _ {2} \\mathrm{PdCH} _ {2} \\mathrm{CH} _ {2} \\mathrm{OH}) ] ^ {-}$$$$5 \\left[ \\mathrm{Cl} _ {2} \\mathrm{PdCH} _ {2} \\mathrm{CH} _ {2} \\mathrm{OH}) \\right] ^ {-} \\xrightarrow {k _ {5}} \\mathrm{CH} _ {3} \\mathrm{CHO} + \\mathrm{Pd} + \\mathrm{HCl} + \\mathrm{Cl} ^ {-}$$同位素示踪表明$\\mathrm { C _ { 2 } H _ { 4 } }$在$\\mathrm { D } _ { 2 } \\mathrm { O }$中氧化不含 D,$\\mathrm { C _ { 2 } D _ { 4 } }$的氧化产物只有$\\mathrm { CD _ { 3 } CDO }$且$\\mathrm { C _ { 2 } H _ { 4 } }$和$\\mathrm { C _ { 2 } D _ { 4 } }$的反应速率基本相同."
         }
-      ]
+      ],
+      "partId": "part-002550"
     },
     {
-      "id": "part-000445-05",
+      "type": "subpart",
       "label": "7-5-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "通过所给机理及相关信息,判断 4 和 5 哪个是决速步骤,并推导 $x$、$y$、$z$、$\\omega$ 的值。"
+          "text": "通过所给机理及相关信息,判断4和5哪个是决速步骤,并推导,,,的值."
         }
-      ]
+      ],
+      "partId": "part-002551"
     },
     {
-      "id": "part-000445-06",
+      "type": "subpart",
       "label": "7-5-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "为何在反应开始阶段,乙烯吸收速率很快且是过量的,随后吸收减少?"
+          "text": "为何在反应开始阶段,乙烯吸收速率很快且是过量的,随后吸收减少"
         }
-      ]
+      ],
+      "partId": "part-002552"
     },
     {
-      "id": "part-000445-07",
+      "type": "subpart",
       "label": "7-5-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在历程 3 中,经历五配位中间体,请判断产物 $[\\mathrm{PdCl_2(OH)(C_2H_4)}]^-$ 是顺式还是反式更有利于后续的反应?"
+          "text": "在历程3中,经历五配位中间体,请判断产物$\\mathrm { PdCl _ { 2 } ( OH ) ( C _ { 2 } H _ { 4 } ) } ]$−是顺式还是反式更有利于后续的反应"
         }
-      ]
+      ],
+      "partId": "part-002553"
     },
     {
-      "id": "part-000445-08",
+      "type": "subpart",
       "label": "7-5-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "历程 5 重排过程中,有一个 Pd 的四配位中间体,画出该中间体的立体结构。"
+          "text": "历程5重排过程中,有一个Pd的四配位中间体,画出该中间体的立体结构."
         }
-      ]
+      ],
+      "partId": "part-002554"
     },
     {
-      "id": "part-000445-09",
+      "type": "subpart",
       "label": "7-5-5",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在实际工业生产中,要求控制 Cl/Pd(原子比个数)在一个合理的范围内,试说明两个主要的原因。"
+          "text": "在实际工业生产中,要求控制Cl/Pd(原子比个数)在一个合理的范围内,试说明两个主要的原因."
         }
-      ]
+      ],
+      "partId": "part-002555"
     },
     {
-      "id": "part-000445-10",
+      "type": "subpart",
       "label": "7-5-6",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "原料乙烯需预先纯化除去 $\\mathrm{C_2H_2}$,试说明理由。"
+          "text": "原料乙烯需预先纯化除去$\\mathrm { C _ { 2 } H _ { 2 } } .$,试说明理由."
         }
-      ]
+      ],
+      "partId": "part-002556"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

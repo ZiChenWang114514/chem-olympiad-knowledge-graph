@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000100",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,46 +10,126 @@
   "source": {
     "sourceDocumentId": "source-000015",
     "sourceLabel": "2020-34-CChO-juesai-1.pdf",
-    "page": null,
+    "pages": [
+      5,
+      6
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
-  },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "实验测得乙醇在37.8 °C的一组数据如下表:"
+      "type": "subpart",
+      "label": "6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "实验测得乙醇在37.8 °C的一组数据如下表:"
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
+        },
+        {
+          "type": "paragraph",
+          "text": "乙醇在该温度下的饱和蒸气压 $p^* = \\qquad \\sigma_0$ O"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000100-figure-001.jpg",
+          "alt": "晶体结构或分子模型示意图(原图)",
+          "displayWidth": 80,
+          "caption": "题目配图",
+          "assetId": "asset-002832"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000100-figure-002.jpg",
+          "alt": "晶体结构或分子模型示意图(原图)",
+          "displayWidth": 80,
+          "caption": "题目配图",
+          "assetId": "asset-002833"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000100-figure-003.jpg",
+          "alt": "晶体结构或分子模型示意图(原图)",
+          "displayWidth": 80,
+          "caption": "题目配图",
+          "assetId": "asset-002834"
+        }
+      ],
+      "partId": "part-000184"
     },
     {
-      "type": "callout",
-      "tone": "info",
-      "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
+      "type": "subpart",
+      "label": "6-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "利用廉价的铁催化剂与原料(苯和N<sub>2</sub>)合成苯胺具有许多优越性,缺点是此反应需要较为苛刻的条件,实用性不大;但对于固氮、C—H键活化、铁催化剂开发等三个研究领域有重要意义。"
+        }
+      ],
+      "partId": "part-000185"
     },
     {
-      "type": "paragraph",
-      "text": "乙醇在该温度下的饱和蒸气压 $p^* = \\qquad \\sigma_0$ O"
+      "type": "subpart",
+      "label": "6-1-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "化合物 7 中 $\\mathrm { N } _ { 2 }$ 的配位方式是端位;若 $\\mathrm { N } _ { 2 }$ 是侧基配位(其它配体的配位方式不变),写出中心Fe原子的配位数。"
+        }
+      ],
+      "partId": "part-000186"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000100-figure-001.jpg",
-      "alt": "晶体结构或分子模型示意图（原图）",
-      "caption": "题目配图"
+      "type": "subpart",
+      "label": "6-1-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "推断化合物4和8的结构。其中化合物8是一个肼类化合物。"
+        }
+      ],
+      "partId": "part-000187"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000100-figure-002.jpg",
-      "alt": "晶体结构或分子模型示意图（原图）",
-      "caption": "题目配图"
+      "type": "subpart",
+      "label": "6-1-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "若用 $^ { 15 } \\mathrm { N } _ { 2 }$ 和 $\\mathrm { C } _ { 6 } \\mathrm { D } _ { 6 }$ 作为底物,依据上述可能的机理,推断苯胺衍生物的结构。"
+        }
+      ],
+      "partId": "part-000188"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000100-figure-003.jpg",
-      "alt": "晶体结构或分子模型示意图（原图）",
-      "caption": "题目配图"
+      "type": "subpart",
+      "label": "6-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "上述活化 $\\mathrm { N } _ { 2 }$ 的方法,所用条件较为苛刻。最近中国科学家利用锕系金属和生族元素协同裂解 $\\mathrm { N } _ { 2 }$ ,不使用外部还原剂实现了室温N 的活化分裂;以H O作为质子源,可从含氮裂解产物制备出含氮有机物和氨,反应过程示意如下: $( \\mathrm { P } ^ { i } \\mathrm { P r } _ { 2 }$ 为二异丙基膦基,TMEDA为四甲基乙二胺)"
+        }
+      ],
+      "partId": "part-000189"
+    },
+    {
+      "type": "subpart",
+      "label": "6-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "双金属Rh-U配合物11能有效活化 $\\mathrm { N } _ { 2 }$ ,可形成配合物A和B(如下图所示)。已知在A和B中U的氧化态都是+IV。写出Rh原子的价电子组态、A和B中Rh的氧化态。"
+        }
+      ],
+      "partId": "part-000190"
     }
   ],
-  "parts": []
+  "renderingHints": {
+    "mhchem": true
+  }
 }

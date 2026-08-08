@@ -1,71 +1,77 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000420",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "漂白粉有效氯分析",
-  "number": "4",
+  "number": "Q4",
   "examYear": 2013,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000008",
     "sourceLabel": "2013-27-CChO-juesai.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      2
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "准确称取 7.630 g 研细试样,用蒸馏水溶解,定容于 1000 mL 容量瓶。"
+      "text": "第4题(10分)工业漂白粉由次氯酸钙,氢氧化钙,氯化钙和水组成,有效成分为次氯酸钙。"
     },
     {
       "type": "paragraph",
-      "text": "移取 25.00 mL 该试样溶液至 250 mL 锥形瓶中,加入过量 KI 水溶液,以足量的 1:1 乙酸溶液酸化,以 $0.1076\\ \\mathrm{mol\\,L^{-1}}$ 的 $\\mathrm{Na_2S_2O_3}$ 标准溶液滴定至终点,消耗 18.54 mL。"
+      "text": "准确称取7.630g研细试样,用蒸馏水溶解,定容于1000mL容量瓶。"
     },
     {
       "type": "paragraph",
-      "text": "移取 25.00 mL 试样溶液至 250 mL 锥形瓶中,缓慢加入足量的 $3\\%\\ \\mathrm{H_2O_2}$ 水溶液,搅拌至不再产生气泡。以 $0.1008\\ \\mathrm{mol\\,L^{-1}}$ 的 $\\mathrm{AgNO_3}$ 标准溶液滴定至终点,消耗 20.36 mL。"
+      "text": "移取25.00mL该试样溶液至250mL锥形瓶中,加入过量的KI水溶液,以足量的1:1乙酸溶液酸化,以 0.1076 mol L−1 的 \\mathrm { N a _ { 2 } S _ { 2 } O _ { 3 } } 标准溶液滴定至终点,消耗18.54 mL。"
     },
     {
       "type": "paragraph",
-      "text": "移取 25.00 mL 试样溶液至 100.0 mL 容量瓶中,以蒸馏水稀释到刻度。移取 25.00 mL 该稀释液至 250 mL 锥形瓶中,以足量的 $3\\%\\ \\mathrm{H_2O_2}$ 水溶液处理至不再产生气泡。于氨性缓冲液中以 $0.01988\\ \\mathrm{mol\\,L^{-1}}$ 的 EDTA 标准溶液滴定至终点,消耗 24.43 mL。"
-    }
-  ],
-  "parts": [
+      "text": "移取25.00mL试样溶液至250mL锥形瓶中,缓慢加入足量的 3 \\% \\mathrm { H } _ { 2 } \\mathrm { O } _ { 2 } 水溶液,搅拌至不再产生气泡。以 0.1008mol L−1 的 \\mathrm { A g N O _ { 3 } } 标准溶液滴定至终点,消耗20.36mL。"
+    },
     {
-      "id": "part-000420-01",
+      "type": "paragraph",
+      "text": "移取25.00mL试样溶液至100.0 mL容量瓶中,以蒸馏水稀释到刻度。移取25.00mL该稀释液至250mL锥形瓶中,以足量的 3 \\% \\mathrm { H } _ { 2 } \\mathrm { O } _ { 2 } 水溶液处理至不再产生气泡。于氨性缓冲液中以0.01988mol L−1的EDTA标准溶液滴定至终点,消耗24.43mL。"
+    },
+    {
+      "type": "subpart",
       "label": "4-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算该漂白粉中有效氯的百分含量(以 $\\mathrm{Cl_2}$ 计)。"
+          "text": "计算该漂白粉中有效氯的百分含量(以 \\mathrm { C l } _ { 2 } 计)"
         }
-      ]
+      ],
+      "partId": "part-001806"
     },
     {
-      "id": "part-000420-02",
+      "type": "subpart",
       "label": "4-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算总氯百分含量。"
+          "text": "计算总氯百分含量"
         }
-      ]
+      ],
+      "partId": "part-001807"
     },
     {
-      "id": "part-000420-03",
+      "type": "subpart",
       "label": "4-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算总钙百分含量。"
+          "text": "计算总钙百分含量"
         }
-      ]
+      ],
+      "partId": "part-001808"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

@@ -10,6 +10,7 @@
     "test": "vitest run",
     "test:e2e": "playwright test",
     "audit:public": "node scripts/audit-public.mjs",
+    "audit:joint": "node _stem_pipeline/quality-review/validate_joint_outputs.mjs",
     "check:schema": "npm test -- --run",
     "import:release": "node scripts/import-release.mjs"
   },

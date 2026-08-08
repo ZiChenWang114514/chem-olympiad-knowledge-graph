@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000108",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,25 +10,101 @@
   "source": {
     "sourceDocumentId": "source-000016",
     "sourceLabel": "2020-34-CChO-juesai-2.pdf",
-    "page": null,
+    "pages": [
+      4,
+      5
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
-  },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "5 · 化学反应与结构综合分析"
+      "type": "subpart",
+      "label": "5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "5 · 化学反应与结构综合分析"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000108-figure-001.jpg",
+          "alt": "化学反应路线与结构式示意图(原图)",
+          "displayWidth": 80,
+          "caption": "题目配图",
+          "assetId": "asset-002842"
+        }
+      ],
+      "partId": "part-000201"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000108-figure-001.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "题目配图"
+      "type": "subpart",
+      "label": "5-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "已知 298.15 K 时, $\\mathrm { N } _ { 2 } ( \\mathrm { g } )$ $\\mathrm { H } _ { 2 } ( \\mathrm { g } )$ 和 $\\mathrm { { N H _ { 3 } ( g ) } }$ 的标准摩尔熵 $S _ { m } ^ { \\ominus }$ 分别为 191.61 J $\\mathrm { K ^ { - 1 } m o l ^ { - 1 } }$ 、130.68 J $\\mathrm { K } ^ { - 1 }$ $\\mathrm { m o l ^ { - 1 } }$ 和 $192.45 \\mathrm { J } \\mathrm { K } ^ { - 1 } \\mathrm { m o l } ^ { - 1 }$ $\\mathrm { { N H _ { 3 } ( g ) } }$ 的标准摩尔生成焓 $\\Delta _ { \\mathrm { f } } H _ { \\mathrm { m } } ^ { \\ominus }$ 为-46.11 kJ $\\mathrm { m o l ^ { - 1 } c }$ 。计算298.15 K时合成氨反应$0.5 \\mathrm { N } _ { 2 } ( \\mathrm { g } ) + 1.5 \\mathrm { H } _ { 2 } ( \\mathrm { g } ) \\mathrm { N H } _ { 3 } ( \\mathrm { g } )$ 的标准平衡常数。"
+        }
+      ],
+      "partId": "part-000202"
+    },
+    {
+      "type": "subpart",
+      "label": "5-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "假设上述合成氨反应在 298.15\\~723.15 K 温度范围内的标准摩尔反应焓为-49.31 kJ $\\mathrm { m o l ^ { - 1 } } _ { c }$ 。计算 723.15K时的标准平衡常数。"
+        }
+      ],
+      "partId": "part-000203"
+    },
+    {
+      "type": "subpart",
+      "label": "5-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "以 $\\mathrm { H } _ { 2 } ( \\mathrm { g } )$ 和 $\\mathrm { N } _ { 2 } ( \\mathrm { g } )$ 的物质的量之比为？:1投入原料气(除催化剂外,不含其他组分),在723.15 K和30.0MPa下反应,平衡气相中 $\\mathrm { N H } _ { 3 } ( \\mathrm { g } )$ 的物质的量分数为 $| y _ { \\circ }$ 。试推导出仅含？与？为变量的关系式。"
+        }
+      ],
+      "partId": "part-000204"
+    },
+    {
+      "type": "subpart",
+      "label": "5-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "绘出上述？随？变化曲线的示意图(须标注出极值点的坐标)。"
+        }
+      ],
+      "partId": "part-000205"
+    },
+    {
+      "type": "subpart",
+      "label": "5-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "实验测得合成氨反应 0.5 N₂(g) + 1.5 H₂(g) ⇌ NH₃(g) 在 723.15 K 和不同压力下，Kp = p(NH₃) / [p(N₂)^(1/2) p(H₂)^(3/2)] 如下表。试解释不同压力下的 Kp 为何不是常数。"
+        }
+      ],
+      "partId": "part-000206"
+    },
+    {
+      "type": "subpart",
+      "label": "5-6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "以水和氮气为原料,采用合适的催化剂,可以实现常温常压非均相催化电化学合成氨,从而实现氨的绿色合成。若以 $\\mathrm { N a H C O _ { 3 } }$ 水溶液为电解质,试写出两个电极上的反应。"
+        }
+      ],
+      "partId": "part-000208"
     }
   ],
-  "parts": []
+  "renderingHints": {
+    "mhchem": true
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000287",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,62 +10,67 @@
   "source": {
     "sourceDocumentId": "source-000037",
     "sourceLabel": "2006-20-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      2
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "figure",
-      "caption": "四种氮化铂立方晶体结构示意图",
+      "src": "data/stems/assets/problem-000287-figure-001.jpg",
       "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-      "src": "data/stems/assets/problem-000287-figure-001.jpg"
-    }
-  ],
-  "parts": [
+      "displayWidth": 80,
+      "caption": "四种氮化铂立方晶体结构示意图",
+      "assetId": "asset-003038"
+    },
     {
-      "id": "part-000287-01",
+      "type": "subpart",
       "label": "8-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "氮化铂的上述四种立方晶体在结构上有什么共同点?"
+          "text": "氮化铂的上述四种立方晶体在结构上有什么共同点？"
         }
-      ]
+      ],
+      "partId": "part-000633"
     },
     {
-      "id": "part-000287-02",
+      "type": "subpart",
       "label": "8-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "分别给出上述四种氮化铂结构的化学式。"
         }
-      ]
+      ],
+      "partId": "part-000634"
     },
     {
-      "id": "part-000287-03",
+      "type": "subpart",
       "label": "8-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "试在图上挑选一个氮原子,不添加原子,用粗线画出所选氮原子的配位多面体。"
         }
-      ]
+      ],
+      "partId": "part-000635"
     },
     {
-      "id": "part-000287-04",
+      "type": "subpart",
       "label": "8-4",
       "blocks": [
         {
           "type": "paragraph",
           "text": "请在本题的附图上添加六个氮原子(添加的氮请尽可能靠前)。"
         }
-      ]
+      ],
+      "partId": "part-000636"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

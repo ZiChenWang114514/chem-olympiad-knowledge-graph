@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000105",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,49 +10,144 @@
   "source": {
     "sourceDocumentId": "source-000016",
     "sourceLabel": "2020-34-CChO-juesai-2.pdf",
-    "page": null,
+    "pages": [
+      1,
+      2
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
-  },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "2 · 配位化学与氧化态"
+      "type": "subpart",
+      "label": "2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "2 · 配位化学与氧化态"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000105-figure-001.jpg",
+          "alt": "晶体结构或分子模型示意图(原图)",
+          "displayWidth": 80,
+          "caption": "题目配图",
+          "assetId": "asset-002837"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000105-figure-002.jpg",
+          "alt": "晶体结构或分子模型示意图(原图)",
+          "displayWidth": 80,
+          "caption": "题目配图",
+          "assetId": "asset-002838"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000105-figure-003.jpg",
+          "alt": "晶体结构或分子模型示意图(原图)",
+          "displayWidth": 80,
+          "caption": "题目配图",
+          "assetId": "asset-002839"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000105-figure-004.jpg",
+          "alt": "晶体结构或分子模型示意图(原图)",
+          "displayWidth": 80,
+          "caption": "题目配图",
+          "assetId": "asset-002840"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000105-figure-005.jpg",
+          "alt": "晶体结构或分子模型示意图(原图)",
+          "displayWidth": 80,
+          "caption": "题目配图",
+          "assetId": "asset-002841"
+        }
+      ],
+      "partId": "part-000193"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000105-figure-001.jpg",
-      "alt": "晶体结构或分子模型示意图（原图）",
-      "caption": "题目配图"
+      "type": "subpart",
+      "label": "2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "等物质的量的二氧化碳可和钛配合物Cp TiMe (下图)在戊烷溶液中光照(350 nm)条件下发生“插入”反应。画出该反应产物的结构式。"
+        }
+      ],
+      "partId": "part-000194"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000105-figure-002.jpg",
-      "alt": "晶体结构或分子模型示意图（原图）",
-      "caption": "题目配图"
+      "type": "subpart",
+      "label": "2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "二氧化碳“插入”到过渡金属配合物中的M—N键中生成相应的配合物。一个例子是配合物 $\\boldsymbol \\eta ^ { 5 } \\cdot$ CpRu(NH<sub>2</sub>)dcpe $\\mathrm { ( d c p e = C y _ { 2 } P C H _ { 2 } C H _ { 2 } P C y _ { 2 } , C y }$ : 环已基,见下图,配体dcpe省略)和二氧化碳在THF(四氢呋喃)中的反应。画出该反应的关键中间体和产物的结构式。"
+        }
+      ],
+      "partId": "part-000195"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000105-figure-003.jpg",
-      "alt": "晶体结构或分子模型示意图（原图）",
-      "caption": "题目配图"
+      "type": "subpart",
+      "label": "2-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "二氧化碳可“插入”到双金属配合物内的M—M′键得以固定。有研究表明,Fe-Zr双金属配合物$\\mathrm { C p ( C O ) _ { 2 } F e - Z r ( C l ) C p _ { 2 } }$ (下图)中插入等物质的量的二氧化碳的反应过程经过一四元环过渡态进而形成产物。画出该过渡态和产物的结构式。"
+        }
+      ],
+      "partId": "part-000196"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000105-figure-004.jpg",
-      "alt": "晶体结构或分子模型示意图（原图）",
-      "caption": "题目配图"
+      "type": "subpart",
+      "label": "2-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "用于二氧化碳催化转化的钳型铱配合物(PNPyP)IrH X(X =Me, OH; Me为甲基)的结构如下图所示。研究表明,该结构中 $\\mathrm { I r { - } H _ { a } }$ 键的键⻓较 $\\mathrm { I r { - } H _ { b } }$ 键为短。"
+        }
+      ],
+      "partId": "part-000197"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000105-figure-005.jpg",
-      "alt": "晶体结构或分子模型示意图（原图）",
-      "caption": "题目配图"
+      "type": "subpart",
+      "label": "2-4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "该配合物可以和等物质的量的二氧化碳发生“插入”反应。画出相应产物的结构式。"
+        }
+      ],
+      "partId": "part-000198"
+    },
+    {
+      "type": "subpart",
+      "label": "2-4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "配合物(PNPyP)IrH<sub>2</sub>X中配体X为Me时记为A,X为OH时记为B。A和B哪个更易发生上述二氧化碳“插入”反应？"
+        }
+      ],
+      "partId": "part-000199"
+    },
+    {
+      "type": "subpart",
+      "label": "2-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "二氧化碳和如下图所示的化合物 $\\left( \\mathrm { A r { \\mathrm { - } } 2 } , 6 { \\mathrm { - } } ^ { i } \\mathrm { P r } _ { 2 } \\mathrm { C } _ { 6 } \\mathrm { H } _ { 3 } \\right)$ 在甲苯中发生1:1加成反应;较之反应物,产物内的磷-磷键⻓变短而磷-镓键⻓变⻓。画出该产物的结构式。"
+        }
+      ],
+      "partId": "part-000200"
     }
   ],
-  "parts": []
+  "renderingHints": {
+    "mhchem": true
+  }
 }

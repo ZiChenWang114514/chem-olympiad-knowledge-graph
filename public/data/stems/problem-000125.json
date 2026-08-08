@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000125",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,26 +10,70 @@
   "source": {
     "sourceDocumentId": "source-000055",
     "sourceLabel": "2021-35-CChO-chusai-fujian.pdf",
-    "page": null,
+    "pages": [
+      2
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "有一⽴方晶系二元合金，单胞参数 $\\dot { a } = 7 0 3 . 4 \\mathrm { p m } _ { \\circ }$ 单胞中的金属A原⼦与金刚⽯中碳原⼦位置相同，原⼦处于密堆积状态。在单胞中有若⼲金属B原⼦，每4个B原⼦构成一个正四面体(B 4 )，已知晶胞中 $\\mathrm { { B } } _ { 4 }$ 的位置可看成填充于A原⼦堆积形成的四面体孔隙中，沿轴向的单胞投影示意图如图所示。"
+      "text": "有一立方晶系二元合金,单胞参数 $\\dot { a } = 703.4 \\mathrm { p m } _ { \\circ }$ 单胞中的金属A原子与金刚石中碳原子位置相同,原子处于密堆积状态。在单胞中有若干金属B原子,每4个B原子构成一个正四面体(B 4 ),已知晶胞中 $\\mathrm { { B } } _ { 4 }$ 的位置可看成填充于A原子堆积形成的四面体孔隙中,沿轴向的单胞投影示意图如图所示。"
     },
     {
-      "type": "paragraph",
-      "text": "4-1 写出二元合金的化学式。 4-2 已知金属A和B的原⼦量分别为24.31和53.55，计算合金的理论密度。 4-3 晶胞的单位点阵型式。 4-4 实际上，大部分该类结构二元合金的原⼦半径比 $r _ { \\mathrm { A } } / r _ { \\mathrm { B } }$ 处于1.1\\~1.4 之间，假设沿单胞面对角线方向上的B原⼦在整个结构紧密接触，计算金属B的原⼦半径和 $r _ { \\mathrm { A } } / r _ { \\mathrm { B } }$ 值。"
+      "type": "subpart",
+      "label": "4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出二元合金的化学式。"
+        }
+      ],
+      "partId": "part-000246"
+    },
+    {
+      "type": "subpart",
+      "label": "4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "已知金属A和B的原子量分别为24.31和53.55,计算合金的理论密度。"
+        }
+      ],
+      "partId": "part-000247"
+    },
+    {
+      "type": "subpart",
+      "label": "4-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "晶胞的单位点阵型式。"
+        }
+      ],
+      "partId": "part-000248"
+    },
+    {
+      "type": "subpart",
+      "label": "4-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "实际上,大部分该类结构二元合金的原子半径比 $r _ { \\mathrm { A } } / r _ { \\mathrm { B } }$ 处于1.1\\~1.4 之间,假设沿单胞面对角线方向上的B原子在整个结构紧密接触,计算金属B的原子半径和 $r _ { \\mathrm { A } } / r _ { \\mathrm { B } }$ 值。"
+        }
+      ],
+      "partId": "part-000249"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000125-figure-001.jpg",
-      "alt": "problem-000125题目配图第1幅（已按原图查看）"
+      "alt": "晶体结构与晶胞相关结构或反应图,第1幅,保留原卷标注",
+      "displayWidth": 80,
+      "assetId": "asset-002864"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

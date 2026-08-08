@@ -11,7 +11,8 @@ const KATEX_OPTS: katex.KatexOptions = {
 
 /** Render a pure LaTeX math string */
 export function renderLatex(latex: string, display = false): string {
-  return katex.renderToString(latex, { ...KATEX_OPTS, displayMode: display })
+  const normalized = latex.replace(/\\\\(?=[A-Za-z])/g, '\\')
+  return katex.renderToString(normalized, { ...KATEX_OPTS, displayMode: display })
 }
 
 /** Render mhchem expression (wraps with \ce if needed) */
@@ -34,7 +35,7 @@ export function renderRichText(text: string): string {
   let match: RegExpExecArray | null
   while ((match = re.exec(text))) {
     if (match.index > last) {
-      parts.push(escapeHtml(text.slice(last, match.index)))
+      parts.push(renderBareLatex(text.slice(last, match.index)))
     }
     if (match[1] != null) {
       parts.push(renderLatex(match[1], true))
@@ -43,7 +44,21 @@ export function renderRichText(text: string): string {
     }
     last = match.index + match[0].length
   }
-  if (last < text.length) parts.push(escapeHtml(text.slice(last)))
+  if (last < text.length) parts.push(renderBareLatex(text.slice(last)))
+  return parts.join('')
+}
+
+function renderBareLatex(value: string): string {
+  const parts: string[] = []
+  const re = /(?:[A-Za-z]\s*=\s*[-+]?\d+(?:\.\d+)?\\,\\mathrm\{[^{}]+\}|\\(?:mathbf|mathrm|mathit|ce)\{[^{}]+\})/g
+  let last = 0
+  let match: RegExpExecArray | null
+  while ((match = re.exec(value))) {
+    if (match.index > last) parts.push(escapeHtml(value.slice(last, match.index)))
+    parts.push(renderLatex(match[0], false))
+    last = match.index + match[0].length
+  }
+  if (last < value.length) parts.push(escapeHtml(value.slice(last)))
   return parts.join('')
 }
 

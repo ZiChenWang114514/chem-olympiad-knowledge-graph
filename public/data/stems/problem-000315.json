@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000315",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,78 +8,106 @@
   "examYear": 2007,
   "examStage": "final",
   "source": {
-    "sourceDocumentId": "source-000002",
     "sourceLabel": "2007-21-CChO-juesai.pdf",
-    "page": null,
+    "pages": [
+      4
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000002"
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "最近,化学家合成了一组荧光分子 $\\mathrm{FL_1 \\sim FL_5}$,可用于生物体内 NO 的实时检测。先将荧光分子与 $\\mathrm{CuCl_2}$ 制成配合物,当体系中有 NO 出现时,NO 与配合物相互作用,从中置换出铜(I),通过对比反应前后体系荧光光谱的变化,即可检测 NO。原理示意如下(FL 代表荧光配体):"
+      "text": "第5题 NO可经氮氧化物酶催化在生命过程中产生,并在此过程中起重要作用,但是,人们至今尚未探明NO参与代谢的细 $\\dagger \\dagger _ { \\circ }$ .因此,发展能够在生物环境下实时检测NO的方法,成为摆在化学家,生物学家以及工程师们面前的课题.小分子荧光检测器在实时检测生物体内NO的领域具有良好的应用前景."
     },
     {
       "type": "paragraph",
-      "text": "$$\n\\mathrm{FL} + \\mathrm{Cu(II)} \\rightleftharpoons [\\mathrm{Cu(II)FL}] \\xrightarrow{\\mathrm{NO}} \\mathrm{Cu(I)} + \\mathrm{FL-NO}\n$$"
+      "text": "最近,化学家合成了一组荧光分子 $\\mathrm { ( FL _ { 1 } \\sim FL _ { 5 } ) }$ ,可用于生物体内NO的实时检测.先将荧光分子与 $\\mathrm { CuCl _ { 2 } }$ 制成配合物,当体系中有NO出现时, $\\mathrm { NO }$ 与配合物相互作用,从中置换出铜(I),通过对比反应前后体系荧光光谱的变化,即可检测 $\\mathrm { NO } _ { \\circ }$ 原理示意如下(FL代表荧光配体):"
     },
     {
       "type": "paragraph",
-      "text": "合成的荧光配体 $\\mathrm{FL_1}$ 见右图:"
-    }
-  ],
-  "parts": [
+      "text": "$$"
+    },
     {
-      "id": "part-000315-01",
+      "type": "paragraph",
+      "text": "\\mathrm{FL} + \\mathrm{Cu(II)} \\rightleftharpoons [ \\mathrm{Cu(II)FL} ] \\xrightarrow {\\mathrm{NO}} \\mathrm{Cu(I)} + \\mathrm{FL-NO}"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "合成的荧光配体 $\\mathrm { FL _ { 1 } }$ ⻅右图:"
+    },
+    {
+      "type": "subpart",
       "label": "5-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "已知 $\\mathrm{FL_1}$ 与 $\\mathrm{CuCl_2}$ 生成的配合物分子式为 $\\mathrm{C_{30}H_{18}N_2O_5Cl_2Cu}$,其中铜为 4 配位,试写出该配合物的结构式。"
+          "text": "已知 $\\mathrm { FL _ { 1 } }$ 与CuCl<sub>2</sub>生成的配合物分子式为 $\\mathrm { C _ { 30 } H _ { 18 } N _ { 2 } O _ { 5 } Cl _ { 2 } Cu }$ ,其中铜为4配位,试写出该配合物的结构式."
         }
-      ]
+      ],
+      "partId": "part-002381"
     },
     {
-      "id": "part-000315-02",
+      "type": "subpart",
       "label": "5-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "NO 与 5-1 中的配合物作用,生成分子式为 $\\mathrm{C_{30}H_{18}N_3O_6Cl}$ 的化合物和 $\\mathrm{CuCl}$,试写出该化合物最可能的结构式。"
+          "text": "NO与5-1中的配合物作用,生成分子式为 $\\mathrm { C _ { 30 } H _ { 18 } N _ { 3 } O _ { 6 } Cl }$ 的化合物和$\\mathrm { CuCl }$ ,试写出该化合物最可能的结构式."
         }
-      ]
+      ],
+      "partId": "part-002382"
     },
     {
-      "id": "part-000315-03",
+      "type": "subpart",
       "label": "5-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "荧光分子 $\\mathrm{FL_5} \\left( \\mathrm{C_{32}H_{21}N_2O_7Cl} \\right)$ 的合成路线如下,请写出 A、B、C、D、E 以及 $\\mathrm{FL_5}$ 的结构式。"
+          "text": "荧光分子 $\\mathrm { FL } _ { 5 } \\left( \\mathrm { C } _ { 32 } \\mathrm { H } _ { 21 } \\mathrm { N } _ { 2 } \\mathrm { O } _ { 7 } \\mathrm { Cl } \\right)$ 的合成路线如下,请写出A,B,C,"
         },
         {
           "type": "figure",
-          "caption": "合成路线图(一)",
-          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-          "src": "data/stems/assets/problem-000315-figure-001.jpg"
+          "src": "data/stems/assets/problem-000315-figure-001.jpg",
+          "alt": "原卷第5题图1：荧光分子 $\\mathrm { FL } _ { 5 } \\left( \\mathrm { C } _ { 32 } \\mathrm { H",
+          "displayWidth": 70,
+          "assetId": "asset-003638"
+        },
+        {
+          "type": "paragraph",
+          "text": "D,E以及 $\\mathrm { FL } _ { 5 }$ 的结构式."
+        },
+        {
+          "type": "paragraph",
+          "text": "()"
         },
         {
           "type": "figure",
-          "caption": "合成路线图(二)",
-          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-          "src": "data/stems/assets/problem-000315-figure-002.jpg"
+          "src": "data/stems/assets/problem-000315-figure-002.jpg",
+          "alt": "原卷第5题图2：()",
+          "displayWidth": 70,
+          "assetId": "asset-003639"
+        },
+        {
+          "type": "paragraph",
+          "text": "()"
         },
         {
           "type": "figure",
-          "caption": "合成路线图(三)",
-          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-          "src": "data/stems/assets/problem-000315-figure-003.jpg"
+          "src": "data/stems/assets/problem-000315-figure-003.jpg",
+          "alt": "原卷第5题图3：()",
+          "displayWidth": 70,
+          "assetId": "asset-003640"
         }
-      ]
+      ],
+      "partId": "part-002383"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

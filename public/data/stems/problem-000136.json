@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000136",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,28 +8,94 @@
   "examYear": 2021,
   "examStage": "preliminary",
   "source": {
-    "sourceDocumentId": "source-000056",
     "sourceLabel": "2021-35-CChO-chusai-jiangsu.pdf",
-    "page": null,
+    "pages": [
+      2
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000056"
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第5题（10分）金属氮化物晶体结构 金属氮化物材料具有高硬度、高熔点、高热稳定性特点。最近，科学家研究的某三元氮化物表现出特殊导电性质。该晶体结构如图4所示。每一层氮原⼦都是密置层，且层间距相等。铁原⼦和钨原⼦相间填充在两层氮原⼦之间，钨原⼦填充在氮原⼦形成的三棱柱配位体中⼼，铁原⼦填充在氮原⼦形成的八面配位体中⼼。"
+      "text": "第5题 金属氮化物晶体结构"
     },
     {
       "type": "paragraph",
-      "text": "图4 三元氮化物结构 5-1 请根据晶体结构画出一个晶胞（N放在顶点位置，以●表示N原⼦，以◯表示Fe原⼦，以ⓧ表示W原⼦），并写出晶胞中金属原⼦的分数坐标。 5-2 分别用 $\\mathrm { A / B / C }$ 表示氮原⼦，a/b/c表示铁原⼦， $\\mathrm { a ^ { \\prime } / b ^ { \\prime } / c ^ { \\prime } }$ 表示钨原⼦的堆积位置，请表示出沿?轴方向原⼦的堆积方式（如 $\\mathrm { { A c B a ^ { \\prime } C b A } ) }$ o 5-3 已知晶胞参数 $a \\ = 0 . 2 8 7 6 \\ \\mathrm { n m } , \\ c \\ = 1 . 0 9 3 \\ \\mathrm { n m } \\circ$ 5-3-1 计算该晶体的密度?。 5-3-2 计算该晶体中W原⼦与N原⼦的最短核间距?。 5-4 该晶体中金属原⼦与氮原⼦之间的作用力有明显的共价成分，表现出各向异性的金属导电性，请指出晶体的导电方向，并简要说明理由。"
+      "text": "金属氮化物材料具有高硬度,高熔点,高热稳定性特点.最近,科学家研究的某三元氮化物表现出特殊导电性质.该晶体结构如图4所示.每一层氮原子都是密置层,且层间距相等.铁原子和钨原子相间填充在两层氮原子之间,钨原子填充在氮原子形成的三棱柱配位体中心,铁原子填充在氮原子形成的八面配位体中心."
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000136-figure-001.jpg",
-      "alt": "problem-000136题目配图第1幅（已按原图查看）"
+      "alt": "原卷第5题图1：金属氮化物材料具有高硬度,高熔点,高热稳定性特点.最近,科学家研究的某三元氮化物表现出特殊导电性质.该晶体结构如图4所示.每一层氮原子都是密",
+      "displayWidth": 70,
+      "assetId": "asset-003491"
+    },
+    {
+      "type": "paragraph",
+      "text": "图4 三元氮化物结构"
+    },
+    {
+      "type": "subpart",
+      "label": "5-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "请根据晶体结构画出一个晶胞(N放在顶点位置,以●表示N原子,以◯表示Fe原子,以x表示W原子),并写出晶胞中金属原子的分数坐标."
+        },
+        {
+          "type": "paragraph",
+          "text": "5- 别用 $\\mathrm { A / B / C }$ 表示氮原子,a/b/c表示铁原子, $\\mathrm { a ^ { \\prime } / b ^ { \\prime } / c ^ { \\prime } }$ 表示钨原子的堆积位置,请表示出沿轴方向原子的堆积方式(如 $\\mathrm { { AcBa ^ { \\prime } CbA } ) }$ o"
+        }
+      ],
+      "partId": "part-002072"
+    },
+    {
+      "type": "subpart",
+      "label": "5-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "已知晶胞参数 $a \\ = 0.2876 \\ \\mathrm { nm } , \\ c \\ = 1.093 \\ \\mathrm { nm } \\circ$"
+        }
+      ],
+      "partId": "part-002073"
+    },
+    {
+      "type": "subpart",
+      "label": "5-3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算该晶体的密度."
+        }
+      ],
+      "partId": "part-002074"
+    },
+    {
+      "type": "subpart",
+      "label": "5-3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算该晶体中W原子与N原子的最短核间距."
+        }
+      ],
+      "partId": "part-002075"
+    },
+    {
+      "type": "subpart",
+      "label": "5-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "该晶体中金属原子与氮原子之间的作用力有明显的共价成分,表现出各向异性的金属导电性,请指出晶体的导电方向,并简要说明理由."
+        }
+      ],
+      "partId": "part-002076"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

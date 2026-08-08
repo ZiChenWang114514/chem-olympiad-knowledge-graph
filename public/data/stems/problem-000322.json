@@ -1,64 +1,74 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000322",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "水合碳酸钙晶体",
-  "number": "5",
+  "number": "Q5",
   "examYear": 2008,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000039",
     "sourceLabel": "2008-22-CChO-chusai.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      2
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000322-01",
+      "type": "paragraph",
+      "text": "第5题(5分)1963年在格陵兰Ika峡湾发现一种水合碳酸钙矿物ikaite。它形成于冷的海水中,温度达到8 \\textrm { } ^ { \\circ } \\mathrm { C } 即分解为方解石和水。1994年的文献指出:该矿物晶体中的 \\mathrm { { C a ^ { 2 + } } } 离子被氧原子包围,其中2个氧原子来自同一个碳酸根离子,其余6个氧原子来自6个水分子。它的单斜晶胞的参数为: a = 887 \\mathrm { p m } ,方向 = 823pm, c = 1102 \\mathrm { p m } \\beta = 110 . 2 ^ { \\circ } ,密度 d \\ : = \\ : 1 . 83 \\ : \\mathrm { g \\ c m ^ { - 3 } } Z = 4 _ { \\mathrm { c } }"
+    },
+    {
+      "type": "subpart",
       "label": "5-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "通过计算得出这种晶体的化学式。"
         }
-      ]
+      ],
+      "partId": "part-001651"
     },
     {
-      "id": "part-000322-02",
+      "type": "subpart",
       "label": "5-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "研究了这种晶体在加压下受热膨胀体积增大的情形,并与冰及钙离子配位数也是8的二水合石膏晶体(gypsum)作了对比,结果如下图所示(纵坐标为相对体积):"
-        },
-        {
-          "type": "paragraph",
-          "text": "为什么选取冰和二水合石膏作对比?实验结果说明什么?"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000322-figure-001.jpg",
-          "alt": "晶体结构或分子模型示意图（原图）",
-          "caption": "相对体积随温度变化示意图"
         }
-      ]
+      ],
+      "partId": "part-001652"
     },
     {
-      "id": "part-000322-03",
+      "type": "figure",
+      "src": "data/stems/assets/problem-000322-figure-001.jpg",
+      "assetId": "asset-003370",
+      "alt": "水合碳酸钙晶体：第1幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
+    },
+    {
+      "type": "paragraph",
+      "text": "为什么选取冰和二水合石膏作对比方向实验结果说明什么方向"
+    },
+    {
+      "type": "subpart",
       "label": "5-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "这种晶体属于哪种类型的晶体?简述理由。"
+          "text": "这种晶体属于哪种类型的晶体方向简述理由。"
         }
-      ]
+      ],
+      "partId": "part-001653"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

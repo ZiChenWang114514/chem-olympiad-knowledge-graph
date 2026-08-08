@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000345",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,132 +8,64 @@
   "examYear": 2009,
   "examStage": "preliminary",
   "source": {
-    "sourceDocumentId": "source-000040",
     "sourceLabel": "2009-23-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      3
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000040"
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第9题(15分) 有机骨架与杂化分析"
-    }
-  ],
-  "parts": [
+      "text": "第9题 请根据以下转换填空:"
+    },
     {
-      "id": "part-000345-01",
+      "type": "figure",
+      "src": "data/stems/assets/problem-000345-figure-001.jpg",
+      "alt": "原卷第9题图1：第9题 请根据以下转换填空:",
+      "displayWidth": 70,
+      "assetId": "asset-003650"
+    },
+    {
+      "type": "subpart",
       "label": "9-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "(1)的反应条件是什么?(1)的反应类别是什么?(2)的反应类别是什么?"
-        }
-      ]
-    },
-    {
-      "id": "part-000345-02",
-      "label": "9-2",
-      "blocks": [
+          "text": "(1)的反应条件是什么(1)的反应类别是什么(2)的反应类别是什么"
+        },
         {
           "type": "paragraph",
-          "text": "分子 A 中有 个一级碳原子,有 个二级碳原子,有 个三级碳原子,有 个四级碳原子,至少有 个氢原子共平面。"
+          "text": "9- 子 A 中有 个一级碳原子,有 个二级碳原子,有 个三级碳原子,有 个四级碳原子,至少有个氢原子共平面."
         }
-      ]
+      ],
+      "partId": "part-002422"
     },
     {
-      "id": "part-000345-03",
+      "type": "subpart",
       "label": "9-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "B的同分异构体D的结构简式是:"
         }
-      ]
+      ],
+      "partId": "part-002423"
     },
     {
-      "id": "part-000345-04",
+      "type": "subpart",
       "label": "9-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "E是A的一种同分异构体,E含有sp、sp2、sp3杂化的碳原子,分子中没有甲基,E的结构简式是:"
-        },
-        {
-          "type": "figure",
-          "caption": "第9题反应流程图",
-          "alt": "第9题反应流程图(缺图)",
-          "src": "data/stems/assets/problem-000345-figure-001.jpg"
+          "text": "E是A的一种同分异构体,E含有sp,sp2,sp3杂化的碳原子,分子中没有甲基,E的结构简式是:"
         }
-      ]
-    },
-    {
-      "id": "part-000345-05",
-      "label": "10-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "第10题(15分) 高效低毒杀虫剂氯菊酯(I)可通过下列合成路线制备:"
-        },
-        {
-          "type": "paragraph",
-          "text": "化合物A能使溴的四氯化碳溶液褪色且不存在几何异构体。画出A和B的结构简式。"
-        }
-      ]
-    },
-    {
-      "id": "part-000345-06",
-      "label": "10-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "化合物E的系统名称是 ,化合物I中官能团的名称是 。"
-        }
-      ]
-    },
-    {
-      "id": "part-000345-07",
-      "label": "10-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "由化合物E生成化合物F经历了 步反应。每步反应的反应类别分别是 。"
-        }
-      ]
-    },
-    {
-      "id": "part-000345-08",
-      "label": "10-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "在化合物E转化成化合物F的反应中,能否用 $\\mathrm{NaOH/C_2H_5OH}$ 代替 $\\mathrm{C_2H_5ONa/C_2H_5OH}$ 溶液?为什么?"
-        }
-      ]
-    },
-    {
-      "id": "part-000345-09",
-      "label": "10-5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "化合物G和H反应生成化合物I、 $\\mathrm{N(CH_2CH_3)_3}$ 和 $\\mathrm{NaCl}$ ,由此可推断:H 的结构简式是 ,H 分子中氧原子至少与 个原子共平面。"
-        }
-      ]
-    },
-    {
-      "id": "part-000345-10",
-      "label": "10-6",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "芳香化合物J比F少两个氢,J中有三种不同化学环境的氢,它们的数目比是9:2:1,则J可能的结构为(用结构简式表示):"
-        }
-      ]
+      ],
+      "partId": "part-002424"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

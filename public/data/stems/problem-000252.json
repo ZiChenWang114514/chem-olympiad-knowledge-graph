@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000252",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,17 +10,140 @@
   "source": {
     "sourceDocumentId": "source-000032",
     "sourceLabel": "2024年全国中学生化学竞赛决赛试题(第二场).pdf",
-    "page": null,
+    "pages": [
+      4
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "通过观察氢原子光谱的展宽现象发现了氢的同位素氘，氘的发现加深了人们对同位素性质的理解，从而扩展了同位素的应用。本题涉及的有关计算中，采用氢的相对原子质量为1.008，氘的相对原子质量为2.014。 化学键的伸缩振动可近似用简谐振动描述，其频率 $\\nu = \\sqrt { \\kappa / \\mu } / 2 \\pi$ ，式中κ为力常数，可以认为H与D参与成键的力常数κ相等： $\\mu \\dot { \\tau }$ 为约化质量，以C-H键为例，$\\mu { = } m _ { \\mathrm { c } } m _ { \\mathrm { H } } / ( m _ { \\mathrm { c } } + m _ { \\mathrm { H } } )$ 。在振动基态时的能量称为零点能 $E _ { 0 } , \\quad E _ { 0 } = h \\nu / 2$ ，式中h为普朗克常数。化学键的键能定义为能量零点(原子相距无限远时)和相应化学键振动零点能的差值大小，因此用D取代H后会使化学键的键能发生微小的改变。 3-1 若 $\\mathrm { H } _ { 2 }$ 分子的振动频率为 $4 4 0 0 \\mathrm { c m } ^ { - 1 }$ ，HI的振动频率为 $2 3 1 0 \\mathrm { c m ^ { - 1 } }$ ，计算HD与DI分子的振动频率(单位： $\\mathsf { c m } ^ { - 1 } )$ o 3-2 对气相同位素交换反应 $\\mathrm { H } _ { 2 } ( \\mathbf { g } ) + \\mathrm { D I } ( \\mathbf { g } ) = \\mathrm { H D } ( \\mathbf { g } ) + \\mathrm { H I } ( \\mathbf { g } )$ 进行了研究，假设其在很大的温差范围内都可以发生，且无需考虑其他副反应及相变。 3-2-1利用所给数据和3-1的结果，估算该反应的焓变（单位：kJ $\\mathrm { m o l ^ { - 1 } } )$ 3-2-2估算极高温度下该反应的平衡常数； 3-2-3估算接近0K时该反应的平衡常数。 3-3 在 298 K下，将 $\\mathrm { H } _ { 2 } \\mathrm { O ( l ) }$ (密度 $0 . 9 9 7 \\ \\mathrm { g } \\ \\mathrm { c m } ^ { - 3 } )$ 与 $\\mathbf { D } _ { 2 } \\mathbf { O } ( \\mathrm { I } )$ (密度 $1 . 1 0 4 \\ \\mathrm { g } \\ \\mathrm { c m } ^ { - 3 } )$ 混和，会发生如下同位素交换反应： $\\mathrm { H } _ { 2 } \\mathrm { O } ( \\mathrm { l } ) + \\mathrm { D } _ { 2 } \\mathrm { O } ( \\mathrm { l } ) = 2 \\mathrm { H } \\mathrm { O D } ( \\mathrm { l } )$ ， $K ^ { \\circ } = 3 . 8 6$ o 3-3-1 定性判断该反应是焓驱动还是熵驱动？简要解释原因。 3-3-2 将80.00 mL 水和 20.00 mL 重水在 298 K 下混合，计算各物种的平衡浓度(假设液体混合过程体积具有加和性，发生反应前后体积不变)。 3-4电解法可以实现氘的富集，其原理在于 $\\mathrm { H } ^ { + } ( { \\mathsf { a q } } )$ 和 $\\mathbf { D } ^ { + } ( { \\mathsf { a q } } )$ 组成氢气电极的电极电势存在微小的差别，长时间电解水可以实现氘的富集。已知电极反应 $\\mathrm { H } ^ { + } ( { \\mathsf { a q } } ) ^ { + }$ $\\mathbf { D } ^ { + } ( \\mathrm { a q } ) + 2 \\mathbf { e } ^ { - } = \\mathrm { H D } ( \\mathbf { g } )$ 的标准电极电势（以SHE为参比）为-7.6mV，判断电解过程中哪个电极(阴极、阳极)处HOD(1)的浓度更高，并给出合适的解释。"
+      "text": "通过观察氢原子光谱的展宽现象发现了氢的同位素氘,氘的发现加深了人们对同位素性质的理解,从而扩展了同位素的应用。本题涉及的有关计算中,采用氢的相对原子质量为1.008,氘的相对原子质量为2.014。 化学键的伸缩振动可近似用简谐振动描述,其频率 $\\nu = \\sqrt { \\kappa / \\mu } / 2 \\pi$ ,式中κ为力常数,可以认为H与D参与成键的力常数κ相等: $\\mu \\dot { \\tau }$ 为约化质量,以C-H键为例,$\\mu { = } m _ { \\mathrm { c } } m _ { \\mathrm { H } } / ( m _ { \\mathrm { c } } + m _ { \\mathrm { H } } )$ 。在振动基态时的能量称为零点能 $E _ { 0 } , \\quad E _ { 0 } = h \\nu / 2$ ,式中h为普朗克常数。化学键的键能定义为能量零点(原子相距无限远时)和相应化学键振动零点能的差值大小,因此用D取代H后会使化学键的键能发生微小的改变。"
+    },
+    {
+      "type": "subpart",
+      "label": "3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "若 $\\mathrm { H } _ { 2 }$ 分子的振动频率为 $4400 \\mathrm { c m } ^ { - 1 }$ ,HI的振动频率为 $2310 \\mathrm { c m ^ { - 1 } }$ ,计算HD与DI分子的振动频率(单位: $\\mathsf { c m } ^ { - 1 } )$ o"
+        }
+      ],
+      "partId": "part-000555"
+    },
+    {
+      "type": "subpart",
+      "label": "3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "对气相同位素交换反应 $\\mathrm { H } _ { 2 } ( \\mathbf { g } ) + \\mathrm { D I } ( \\mathbf { g } ) = \\mathrm { H D } ( \\mathbf { g } ) + \\mathrm { H I } ( \\mathbf { g } )$ 进行了研究,假设其在很大的温差范围内都可以发生,且无需考虑其他副反应及相变。"
+        }
+      ],
+      "partId": "part-000556"
+    },
+    {
+      "type": "subpart",
+      "label": "3-2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1利用所给数据和"
+        }
+      ],
+      "partId": "part-000565"
+    },
+    {
+      "type": "subpart",
+      "label": "3-1-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "的结果,估算该反应的焓变(单位:kJ $\\mathrm { m o l ^ { - 1 } } )$"
+        }
+      ],
+      "partId": "part-002601"
+    },
+    {
+      "type": "subpart",
+      "label": "3-2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2估算极高温度下该反应的平衡常数;"
+        }
+      ],
+      "partId": "part-000566"
+    },
+    {
+      "type": "subpart",
+      "label": "3-2-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-3估算接近0K时该反应的平衡常数。"
+        }
+      ],
+      "partId": "part-000567"
+    },
+    {
+      "type": "subpart",
+      "label": "3-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在 298 K下,将 $\\mathrm { H } _ { 2 } \\mathrm { O ( l ) }$ (密度 $0.997 \\ \\mathrm { g } \\ \\mathrm { c m } ^ { - 3 } )$ 与 $\\mathbf { D } _ { 2 } \\mathbf { O } ( \\mathrm { I } )$ (密度 $1.104 \\ \\mathrm { g } \\ \\mathrm { c m } ^ { - 3 } )$ 混和,会发生如下同位素交换反应: $\\mathrm { H } _ { 2 } \\mathrm { O } ( \\mathrm { l } ) + \\mathrm { D } _ { 2 } \\mathrm { O } ( \\mathrm { l } ) = 2 \\mathrm { H } \\mathrm { O D } ( \\mathrm { l } )$ , $K ^ { \\circ } = 3.86$ o"
+        }
+      ],
+      "partId": "part-000561"
+    },
+    {
+      "type": "subpart",
+      "label": "3-3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 定性判断该反应是焓驱动还是熵驱动？简要解释原因。"
+        }
+      ],
+      "partId": "part-000568"
+    },
+    {
+      "type": "subpart",
+      "label": "3-3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 将80.00 mL 水和 20.00 mL 重水在 298 K 下混合,计算各物种的平衡浓度(假设液体混合过程体积具有加和性,发生反应前后体积不变)。"
+        }
+      ],
+      "partId": "part-000569"
+    },
+    {
+      "type": "subpart",
+      "label": "3-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "电解法可以实现氘的富集,其原理在于 $\\mathrm { H } ^ { + } ( { \\mathsf { a q } } )$ 和 $\\mathbf { D } ^ { + } ( { \\mathsf { a q } } )$ 组成氢气电极的电极电势存在微小的差别,长时间电解水可以实现氘的富集。已知电极反应 $\\mathrm { H } ^ { + } ( { \\mathsf { a q } } ) ^ { + }$ $\\mathbf { D } ^ { + } ( \\mathrm { a q } ) + 2 \\mathbf { e } ^ { - } = \\mathrm { H D } ( \\mathbf { g } )$ 的标准电极电势(以SHE为参比)为-7.6mV,判断电解过程中哪个电极(阴极、阳极)处HOD(1)的浓度更高,并给出合适的解释。"
+        }
+      ],
+      "partId": "part-000564"
+    },
+    {
+      "type": "subpart",
+      "label": "3-3-1-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "定性判断该反应是焓驱动还是熵驱动？简要解释原因。"
+        }
+      ],
+      "partId": "part-002602"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

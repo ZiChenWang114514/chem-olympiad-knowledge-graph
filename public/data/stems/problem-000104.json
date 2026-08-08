@@ -1,46 +1,151 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000104",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "聚合物合成与热力学",
-  "number": "1",
+  "number": "Q1",
   "examYear": 2020,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000016",
     "sourceLabel": "2020-34-CChO-juesai-2.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      1
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "聚合物合成与热力学"
+      "text": "第1题(15分)硅是地壳中除氧外丰度最高的元素,单质硅是电子工业尤其是芯片制造的核心原料,硅化学是化学科学一个重要的研究领域。"
+    },
+    {
+      "type": "subpart",
+      "label": "1-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "电子工业中硅器件的腐蚀可以使用重铬酸盐溶液(反应1)或者氢氟酸和浓硝酸的混合液(反应2),写出反应1的离子反应方程式和反应2的化学反应方程式。"
+        }
+      ],
+      "partId": "part-001072"
+    },
+    {
+      "type": "subpart",
+      "label": "1-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "硅酸盐的结构和性质研究是无机化学内一个重要的方向。"
+        }
+      ],
+      "partId": "part-001073"
+    },
+    {
+      "type": "subpart",
+      "label": "1-2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "硅酸盐基本结构单元 \\mathrm { [ S i O _ { 4 } ] ^ { 4 } } −中的Si-O平均键⻓为162 pm,从Si,O原子间的成键特征⻆度解释为何该平均键⻓小于Si和O原子的共价单键半径之和(190pm)。"
+        }
+      ],
+      "partId": "part-001074"
+    },
+    {
+      "type": "subpart",
+      "label": "1-2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "上述硅酸盐结构中的Si(IV)被Al(III)部分同构取代后会产生Brönsted(布朗斯特)酸位,有如下图所示的模型A和B被提出来解释该酸性的产生。哪种模型结构中的羟基更易脱去质子方向原因是什么方向"
+        }
+      ],
+      "partId": "part-001075"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000104-figure-001.jpg",
-      "alt": "实验数据图表或热力学曲线（原图）",
-      "caption": "题目配图"
+      "assetId": "asset-003155",
+      "alt": "原卷示意图：模型A",
+      "label": "模型A",
+      "caption": "模型A",
+      "displayWidth": 100
+    },
+    {
+      "type": "paragraph",
+      "text": "模型A"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000104-figure-002.jpg",
-      "alt": "实验数据图表或热力学曲线（原图）",
-      "caption": "题目配图"
+      "assetId": "asset-003156",
+      "alt": "原卷示意图：模型B",
+      "label": "模型B",
+      "caption": "模型B",
+      "displayWidth": 100
+    },
+    {
+      "type": "paragraph",
+      "text": "模型B"
+    },
+    {
+      "type": "subpart",
+      "label": "1-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "硅烷是一类重要的有机硅化合物,以π型官能化硅烷和杂原子型官能化硅烷为配体合成得到的配位化合物在催化和光电领域有可观的应用。"
+        }
+      ],
+      "partId": "part-001076"
+    },
+    {
+      "type": "subpart",
+      "label": "1-3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "研究表明,以硅原子为桥的二茂铁配合物 \\mathrm { [ F e ( n - C _ { 5 } H _ { 4 } ) _ { 2 } S i R _ { 2 } ] } (R为烷基)可发生开环聚合而生成配位聚合物。画出R为甲基时该配合物和相应聚合产物的结构 \\updownarrow \\updownarrow _ { \\updownarrow }"
+        }
+      ],
+      "partId": "part-001077"
+    },
+    {
+      "type": "subpart",
+      "label": "1-3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "配合物 \\mathrm { { [ F e ( n - C _ { 5 } H _ { 4 } ) _ { 2 } S i R _ { 2 } } } ]的R基团为乙基时生成的配位聚合物记为A,R基团为正丁基时生成的配位聚合物记为B;A和B的聚合度相同。A和B中哪一种具有较低的玻璃化转变温度方向简述理由。"
+        }
+      ],
+      "partId": "part-001078"
+    },
+    {
+      "type": "subpart",
+      "label": "1-3-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "如下图所示的杂原子官能化硅烯在正已烷溶液中和羰基配合物 \\mathrm { N i ( C O ) _ { 4 } } <sub>4</sub>,发生配体取代反应释放出等物质的量的 \\mathrm { C O } , ,生成化合物 \\mathrm { c } ; ;C继续和该硅烯发生配体取代反应释放出等物质的量的 \\mathrm { C O } _ { \\mathrm { { z } } } ,生成化合物D;上述反应前后配合物的空间构型不变,画出化合物C和D的结构式。"
+        }
+      ],
+      "partId": "part-001079"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000104-figure-003.jpg",
-      "alt": "实验数据图表或热力学曲线（原图）",
-      "caption": "题目配图"
+      "assetId": "asset-003157",
+      "alt": "聚合物合成与热力学：第3幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
     }
   ],
-  "parts": []
+  "renderingHints": {
+    "mhchem": true
+  }
 }

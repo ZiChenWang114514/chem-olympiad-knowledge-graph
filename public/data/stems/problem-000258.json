@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000258",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,61 +10,116 @@
   "source": {
     "sourceDocumentId": "source-000032",
     "sourceLabel": "2024年全国中学生化学竞赛决赛试题(第二场).pdf",
-    "page": null,
+    "pages": [
+      11,
+      12
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
-  },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "10. 附草稿纸一张,不得将任何纸张带入考场。"
+      "type": "subpart",
+      "label": "9",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "10. 附草稿纸一张,不得将任何纸张带入考场。"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000258-figure-001.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "displayWidth": 80,
+          "caption": "图 1",
+          "assetId": "asset-002985"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000258-figure-002.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "displayWidth": 80,
+          "caption": "图 2",
+          "assetId": "asset-002986"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000258-figure-003.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "displayWidth": 80,
+          "caption": "图 3",
+          "assetId": "asset-002987"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000258-figure-004.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "displayWidth": 80,
+          "caption": "图 4",
+          "assetId": "asset-002988"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000258-figure-005.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "displayWidth": 80,
+          "caption": "图 5",
+          "assetId": "asset-002989"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000258-figure-006.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "displayWidth": 80,
+          "caption": "图 6",
+          "assetId": "asset-002990"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000258-figure-007.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "displayWidth": 80,
+          "caption": "图 7",
+          "assetId": "asset-002991"
+        }
+      ],
+      "partId": "part-000579"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000258-figure-001.jpg",
-      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-      "caption": "图 1"
+      "type": "subpart",
+      "label": "9-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出 A与1 equiv. D+反应后所形成正离子物种的分子轨道(提示:只需要画考虑参与反应的原子)。"
+        }
+      ],
+      "partId": "part-000583"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000258-figure-002.jpg",
-      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-      "caption": "图 2"
+      "type": "subpart",
+      "label": "9-6-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出中间产物F、G 和 H的结构式。"
+        }
+      ],
+      "partId": "part-000586"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000258-figure-003.jpg",
-      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-      "caption": "图 3"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000258-figure-004.jpg",
-      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-      "caption": "图 4"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000258-figure-005.jpg",
-      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-      "caption": "图 5"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000258-figure-006.jpg",
-      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-      "caption": "图 6"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000258-figure-007.jpg",
-      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-      "caption": "图 7"
+      "type": "subpart",
+      "label": "9-6-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出D转化为E过程中的关键中间体。"
+        }
+      ],
+      "partId": "part-000587"
     }
   ],
-  "parts": []
+  "renderingHints": {
+    "mhchem": true
+  }
 }

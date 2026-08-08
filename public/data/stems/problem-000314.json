@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000314",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,13 +10,12 @@
   "source": {
     "sourceDocumentId": "source-000002",
     "sourceLabel": "2007-21-CChO-juesai.pdf",
-    "page": null,
+    "pages": [
+      3,
+      4
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
@@ -24,45 +23,56 @@
       "text": "近期化学家合成了一种结构非常特殊的超分子,其设计思路是,利用分子自我识别与自我组装的能力,将3个环状化合物套入Y型分子的骨架上,再通过化学反应将3个环状化合物的侧链进行关环形成第4个环。图示如下:"
     },
     {
-      "type": "paragraph",
-      "text": "4-1 已知化合物A、B的结构分别如下图所示,试问:它们通过什么作用进行自我识别与自我组装?"
+      "type": "subpart",
+      "label": "4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "已知化合物A、B的结构分别如下图所示,试问:它们通过什么作用进行自我识别与自我组装？"
+        }
+      ],
+      "partId": "part-000664"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000314-figure-001.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "超分子合成示意图"
+      "alt": "化学反应路线与结构式示意图(原图)",
+      "displayWidth": 80,
+      "caption": "超分子合成示意图",
+      "assetId": "asset-003043"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000314-figure-002.jpg",
-      "alt": "化学结构示意图（原图）",
-      "caption": "化合物A和B的结构"
-    }
-  ],
-  "parts": [
+      "alt": "化学结构示意图(原图)",
+      "displayWidth": 80,
+      "caption": "化合物A和B的结构",
+      "assetId": "asset-003044"
+    },
     {
-      "id": "part-000314-01",
+      "type": "subpart",
       "label": "4-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在用邻苯二酚和1,8-二氯-3,6-二氧杂辛烷进行[2+2]环化合成化合物A中的大环冠醚部分时,需用到2种方法以提高成环产率,即高度稀释和加入金属离子(模板离子)。试说明为什么加入模板离子会提高产率?对Na+、K+、Rb+、Cs+而言哪种离子作模板产率最高?为什么?"
+          "text": "在用邻苯二酚和1,8-二氯-3,6-二氧杂辛烷进行[2+2]环化合成化合物A中的大环冠醚部分时,需用到2种方法以提高成环产率,即高度稀释和加入金属离子(模板离子)。试说明为什么加入模板离子会提高产率？对Na+、K+、Rb+、Cs+而言哪种离子作模板产率最高？为什么？"
         }
-      ]
+      ],
+      "partId": "part-000665"
     },
     {
-      "id": "part-000314-02",
+      "type": "subpart",
       "label": "4-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "将超分子C转变为D时使用的化学反应通常称之为烯烃复分解反应,生成D的同时,还生成另一种化合物 $\\mathrm{E}$ 。已知D中的第4个环为三十三元环,试问,化合物E是什么?反应过程中每生成一个D同时生成几个E?"
+          "text": "将超分子C转变为D时使用的化学反应通常称之为烯烃复分解反应,生成D的同时,还生成另一种化合物 $\\mathrm{E}$ 。已知D中的第4个环为三十三元环,试问,化合物E是什么？反应过程中每生成一个D同时生成几个E？"
         }
-      ]
+      ],
+      "partId": "part-000666"
     },
     {
-      "id": "part-000314-03",
+      "type": "subpart",
       "label": "4-4",
       "blocks": [
         {
@@ -73,10 +83,11 @@
           "type": "paragraph",
           "text": "$$\\mathrm{E} \\xrightarrow[\\mathrm{CCl}_4]{\\mathrm{F}} \\mathrm{G} \\xrightarrow[\\mathrm{Br}_2]{\\mathrm{H}} \\frac{(\\mathrm{CH}_3)_3\\mathrm{CONa}}{(\\mathrm{CH}_3)_3\\mathrm{COH}} \\xrightarrow[\\mathrm{I}]{\\mathrm{Mg}} \\mathrm{J} \\xrightarrow[\\mathrm{THF}]{1.\\mathrm{G}} \\mathrm{K}$$"
         }
-      ]
+      ],
+      "partId": "part-000667"
     },
     {
-      "id": "part-000314-04",
+      "type": "subpart",
       "label": "4-5",
       "blocks": [
         {
@@ -87,7 +98,11 @@
           "type": "paragraph",
           "text": "$$\\mathrm{L} \\xrightarrow{\\mathrm{H}_2\\mathrm{O}} \\mathrm{M} \\xrightarrow{\\mathrm{NaNH}_2} \\mathrm{N} \\xrightarrow[2.\\mathrm{H}_2\\mathrm{O}]{1.\\mathrm{G}} \\mathrm{O} \\xrightarrow[\\text{Lindlar Pd}]{\\mathrm{H}_2} \\mathrm{K}$$"
         }
-      ]
+      ],
+      "partId": "part-000668"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

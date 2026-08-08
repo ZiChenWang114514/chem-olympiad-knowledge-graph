@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000145",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,88 +8,116 @@
   "examYear": 2021,
   "examStage": "final",
   "source": {
-    "sourceDocumentId": "source-000017",
     "sourceLabel": "2021-35-CChO-juesai-1.pdf",
-    "page": null,
+    "pages": [
+      1,
+      3
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000017"
   },
   "blocks": [
     {
+      "type": "paragraph",
+      "text": "第4题 绿色荧光蛋白的发现荣获了2008年诺⻉尔化学奖.绿色荧光蛋白的发色团由苏氨酸,酪氨酸和甘氨酸经过分子内缩合,脱水,氧化脱氢三步形成.酪氨酸,组氨酸以及反应最终产物的发色团结构如图4-所示:"
+    },
+    {
       "type": "figure",
       "src": "data/stems/assets/problem-000145-figure-001.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "图 4-1"
+      "alt": "原卷第4题图1：第4题 绿色荧光蛋白的发现荣获了2008年诺⻉尔化学奖.绿色荧光蛋白的发色团由苏氨酸,酪氨酸和甘氨酸经过分子内缩合,脱水,氧化脱氢三步形成.",
+      "displayWidth": 70,
+      "assetId": "asset-003496"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000145-figure-002.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "图 4-2"
-    }
-  ],
-  "parts": [
+      "alt": "原卷第4题图2（结构或数据示意）",
+      "displayWidth": 70,
+      "assetId": "asset-003497"
+    },
     {
-      "id": "part-000145-01",
+      "type": "paragraph",
+      "text": "图 4-1"
+    },
+    {
+      "type": "subpart",
       "label": "4-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "为了调节荧光蛋白的吸收光谱,可以对其氨基酸序列进行改进。一种改进方法是将酪氨酸突变为组氨酸,其吸收峰发生蓝移。画出对应的发色团结构简式(不要求立体构型)。"
+          "text": "为了调节荧光蛋白的吸收光谱,可以对其氨基酸序列进行改进.一种改进方法是将酪氨酸突变为组氨酸,其吸收峰发生蓝移.画出对应的发色团结构简式(不要求立体构型)."
         }
-      ]
+      ],
+      "partId": "part-002087"
     },
     {
-      "id": "part-000145-02",
+      "type": "subpart",
       "label": "4-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "另一种改进方式是引入一个新的酪氨酸,其侧链残基恰好位于原有的酪氨酸上方,结构如图4-2所示。该发色团吸收峰与绿色荧光蛋白相比发生了红移,简述原因。"
+          "text": "另一种改进方式是引入一个新的酪氨酸,其侧链残基恰好位于原有的酪氨酸上方,结构如图4-2所示.该发色团吸收峰与绿色荧光蛋白相比发生了红移,简述原因."
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000145-figure-003.jpg",
-          "alt": "化学反应路线与结构式示意图（原图）",
-          "caption": "图 4-3"
+          "alt": "原卷第4题图3：另一种改进方式是引入一个新的酪氨酸,其侧链残基恰好位于原有的酪氨酸上方,结构如图4-2所示.该发色团吸收峰与绿色荧光蛋白相比发生了红移,简述",
+          "displayWidth": 70,
+          "assetId": "asset-003498"
+        },
+        {
+          "type": "paragraph",
+          "text": "图 4-2"
         }
-      ]
+      ],
+      "partId": "part-002088"
     },
     {
-      "id": "part-000145-03",
+      "type": "subpart",
       "label": "4-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "一种红色荧光蛋白其发色团胆绿素经由血红素氧化而产生,同时释放亚铁离子。反应过程如图4-3所示。给出亚铁离子离去的主要原因。"
+          "text": "一种红色荧光蛋白其发色团胆绿素经由血红素氧化而产生,同时释放亚铁离子.反应过程如图4-3所示.给出亚铁离子离去的主要原因."
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000145-figure-004.jpg",
-          "alt": "化学反应路线与结构式示意图（原图）",
-          "caption": "图 4-4"
+          "alt": "原卷第4题图4：一种红色荧光蛋白其发色团胆绿素经由血红素氧化而产生,同时释放亚铁离子.反应过程如图4-3所示.给出亚铁离子离去的主要原因.",
+          "displayWidth": 70,
+          "assetId": "asset-003499"
+        },
+        {
+          "type": "paragraph",
+          "text": "图 4-3"
         }
-      ]
+      ],
+      "partId": "part-002089"
     },
     {
-      "id": "part-000145-04",
+      "type": "subpart",
       "label": "4-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "绿色荧光蛋白在pH=7.40下总电荷数为−7.88,其氨基酸序列中侧链残基带电荷的所有氨基酸种类以及他们的侧链 $K_a$ 如下图所示(可忽略水的电离的影响,和形成多肽对侧链 $pK_a$ 的影响)。已知绿色荧光蛋白的氨基酸序列中赖氨酸数目为20个,天冬氨酸数目为18个,谷氨酸数目为16个,精氨酸数目 $(n_{\\mathrm{R}})$ 小于10个,组氨酸的数目 $(n_{\\mathrm{H}})$ 大于5个,组氨酸和半胱氨酸的数目之和 $(n_{\\mathrm{H}} + n_{\\mathrm{C}})$ 为12个。计算 $n_{\\mathrm{R}}$、$n_{\\mathrm{H}}$ 和 $n_{\\mathrm{C}}$ 值。"
+          "text": "绿色荧光蛋白在pH=7.40下总电荷数为−7.88,其氨基酸序列中侧链残基带电荷的所有氨基酸种类以及他们的侧链 $) K _ { a }$ 如下图所示(可忽略水的电离的影响,和形成多肽对侧链 $\\mathsf { p } K _ { a }$ 的影响).已知绿色荧光蛋白的氨基酸序列中赖氨酸数目为20个,天冬氨酸数目为18个,谷氨酸数目为16个,精氨酸数目 $\\left( n _ { \\mathrm { R } } \\right)$ 小于10个,组氨酸的数目 $( n _ { \\mathrm { H } } )$ 大于5个,组氨酸和半胱氨酸的数目之和 $( n _ { \\mathrm { H } } + n _ { \\mathrm { C } } )$ 为12个.计算 $n _ { \\mathrm { R } } .$ , $n _ { \\mathrm { H } } ^ { \\mathrm { } } .$ 和 值."
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000145-figure-005.jpg",
-          "alt": "化学反应路线与结构式示意图（原图）",
-          "caption": "题目配图"
+          "alt": "原卷第4题图5：绿色荧光蛋白在pH=7.40下总电荷数为−7.88,其氨基酸序列中侧链残基带电荷的所有氨基酸种类以及他们的侧链 $) K _ { a }$ ",
+          "displayWidth": 70,
+          "assetId": "asset-003500"
+        },
+        {
+          "type": "paragraph",
+          "text": "图 4-4"
         }
-      ]
+      ],
+      "partId": "part-002090"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

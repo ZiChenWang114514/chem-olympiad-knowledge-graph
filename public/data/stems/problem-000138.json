@@ -1,34 +1,74 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000138",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "晶体结构与晶胞",
-  "number": "7",
+  "number": "Q7",
   "examYear": 2021,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000056",
     "sourceLabel": "2021-35-CChO-chusai-jiangsu.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      3
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "7 · 晶体结构与晶胞"
+      "text": "菲啶(Phend)形成的铜配合物因在太阳能转化,发光二极管,荧光探针和抗癌荧光等光伏领域的应用而受到研究人员的重视。某实验将 0.089 g 菲啶(Phend)和 0.131 g \\mathrm { P P h } _ { 3 } 的25 mL甲醇溶液室温下搅拌10分钟,然后加入含0.049g氯化亚铜的25 mL甲醇溶液,室温搅拌3小时得到⻩绿色沉淀。过滤,滤液室温下放置10天,随着溶剂的缓慢蒸发,得到0.253 g⻩色晶体 \\mathbf { A } _ { \\circ } 。晶体 A 的元素分析结果为(%):C 68.74 (68.89), H 4.53(4.47), N 2.27 (2.60),括号内为理论值。晶体结构表明Cu的配位数为4。菲啶的结构⻅图5。"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000138-figure-001.jpg",
-      "alt": "晶体结构或分子模型示意图（原图）",
-      "caption": "题目配图"
+      "assetId": "asset-003173",
+      "alt": "原卷示意图：图5 菲啶结构",
+      "label": "图5 菲啶结构",
+      "caption": "图5 菲啶结构",
+      "displayWidth": 100
+    },
+    {
+      "type": "paragraph",
+      "text": "图5 菲啶结构"
+    },
+    {
+      "type": "subpart",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "请通过计算和分析,写出⻩色晶体A的化学式。"
+        }
+      ],
+      "partId": "part-001128"
+    },
+    {
+      "type": "subpart",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出A的结构,写出形成体的价电子构型和杂化方式。"
+        }
+      ],
+      "partId": "part-001129"
+    },
+    {
+      "type": "subpart",
+      "label": "7-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出A可能的异构体结构。"
+        }
+      ],
+      "partId": "part-001130"
     }
   ],
-  "parts": []
+  "renderingHints": {
+    "mhchem": true
+  }
 }

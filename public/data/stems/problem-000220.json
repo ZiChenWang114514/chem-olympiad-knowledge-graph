@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000220",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,28 +8,79 @@
   "examYear": 2023,
   "examStage": "final",
   "source": {
-    "sourceDocumentId": "source-000025",
     "sourceLabel": "2023-37-CChO-juesai-1.pdf",
-    "page": null,
+    "pages": [
+      12
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000025"
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第13题（14分, 7.5%）长春碱类天然产物合成 长春碱是从长春花中提取的一类重要生物碱，具有显著的抗癌活性。天然产物 N- methylaspidospermidine (K)含有长春碱的关键⾻架，其合成路线如 $\\mathsf { F } _ { \\circ }$ 。（作答时所有结构不要求画出⽴体化学）"
+      "text": "第13题 , 7.5%)⻓春碱类天然产物合成"
     },
     {
       "type": "paragraph",
-      "text": "13-1 画出B、C、D、E和F的结构。 13-2 化合物E转化为F的过程中依次经历中间体E1及E2，分别画出其结构。 13-3 画出下转化为G的过程中最后一个中间体F1的结构。 13-4 画出H、I和J的结构。"
+      "text": "⻓春碱是从⻓春花中提取的一类重要生物碱,具有显著的抗癌活性.天然产物 N-"
+    },
+    {
+      "type": "paragraph",
+      "text": "methylaspidospermidine (K)含有⻓春碱的关键骨架,其合成路线如 $\\mathsf { F } _ { \\circ }$ .(作答时所有结构不要求画出立体化学)"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000220-figure-001.jpg",
-      "alt": "problem-000220题目配图第1幅（已按原图查看）"
+      "alt": "原卷第13题图1：methylaspidospermidine (K)含有⻓春碱的关键骨架,其合成路线如 $\\mathsf { F } _ { \\circ }",
+      "displayWidth": 70,
+      "assetId": "asset-003560"
+    },
+    {
+      "type": "subpart",
+      "label": "13-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出B,C,D,E和F的结构."
+        }
+      ],
+      "partId": "part-002211"
+    },
+    {
+      "type": "subpart",
+      "label": "13-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "化合物E转化为F的过程中依次经历中间体E1及E2,分别画出其结构."
+        }
+      ],
+      "partId": "part-002212"
+    },
+    {
+      "type": "subpart",
+      "label": "13-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出下转化为G的过程中最后一个中间体F1的结构."
+        }
+      ],
+      "partId": "part-002213"
+    },
+    {
+      "type": "subpart",
+      "label": "13-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出H,I和J的结构."
+        }
+      ],
+      "partId": "part-002214"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

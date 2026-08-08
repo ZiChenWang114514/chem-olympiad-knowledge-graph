@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000413",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,19 +8,27 @@
   "examYear": 2013,
   "examStage": "preliminary",
   "source": {
-    "sourceDocumentId": "source-000047",
     "sourceLabel": "2013-27-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      2
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000047"
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "第6题（10分）某同学从书上得知，一定浓度的 $\\mathrm { F e ^ { 2 + } }$ 、 $\\mathrm { C r ( O H ) _ { 4 } } ^ { - } ,$ $\\mathrm { N i ^ { 2 + } }$ 、 $\\mathrm { M n O _ { 4 } }$ 2−和 $\\mathrm { C u C l _ { 3 } }$ −的⽔溶液都呈绿$\\mathtt { \\ E q } _ { \\mathtt { o } }$ 于是，请⽼师配制了这些离⼦的溶液。⽼师要求该同学用蒸馏⽔、稀硫酸以及试管、胶头滴管、白色点滴板等物品和尽可能少的步骤鉴别它们，从⽽了解这些离⼦溶液的颜色。请为该同学设计一个鉴别方案，用离⼦方程式表述反应并说明发生的现象（若A与B混合，必须写清是将A滴加到B中还是将B滴加到A中）。"
+      "type": "subpart",
+      "label": "6-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "第6题 某同学从书上得知,一定浓度的 $\\mathrm { Fe ^ { 2 + } }$ , $\\mathrm { Cr ( OH ) _ { 4 } } ^ { - } ,$ $\\mathrm { Ni ^ { 2 + } }$ , $\\mathrm { MnO _ { 4 } }$ 2−和 $\\mathrm { CuCl _ { 3 } }$ −的水溶液都呈绿$\\mathtt { \\ Eq } _ { \\mathtt { o } }$ 于是,请老师配制了这些离子的溶液.老师要求该同学用蒸馏水,稀硫酸以及试管,胶头滴管,白色点滴板等物品和尽可能少的步骤鉴别它们,从而了解这些离子溶液的颜色.请为该同学设计一个鉴别方案,用离子方程式表述反应并说明发生的现象(若A与B混合,必须写清是将A滴加到B中还是将B滴加到A中)."
+        }
+      ],
+      "partId": "part-002520"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

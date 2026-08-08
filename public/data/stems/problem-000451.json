@@ -1,74 +1,88 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000451",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "DulongPetit原子量估算",
-  "number": "3",
+  "number": "Q3",
   "examYear": 2015,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000049",
     "sourceLabel": "2015-29-CChO-chusai.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      1,
+      2
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000451-01",
+      "type": "paragraph",
+      "text": "第3题(10分)"
+    },
+    {
+      "type": "subpart",
       "label": "3-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "早在19世纪初期,法国科学家Dulong和Petit测定比热时,发现金属的比热 $c_m$ 与其原子量的乘积近似为常数 $6\\ \\mathrm{cal\\,g^{-1}\\,^{\\circ}C^{-1}}$($1\\ \\mathrm{cal}=4.18\\ \\mathrm{J}$)。当时已知的原子量数据很少,因此,可利用比热推算原子量,进而采用其他方法分析得到更精确的原子量。"
+          "text": "早在19世纪初期,法国科学家Dulong和Petit测定比热时,发现金属的比热 \\left( c _ { m } \\right) 与其原子量的乘积近似为常数 6 \\operatorname { c a l } \\mathrm { g } ^ { - 1 } \\ { } ^ { \\circ } \\mathrm { C } ^ { - 1 } \\left( 1 \\operatorname { c a l } = 4 . 18 \\operatorname { J } \\right) )。当时已知的原子量数据很少,因此,可利用比热推算原子量,进而采用其他方法分析得到更精确的原子量。"
         }
-      ]
+      ],
+      "partId": "part-001833"
     },
     {
-      "id": "part-000451-02",
-      "label": "3-1",
+      "type": "subpart",
+      "label": "3-1-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "(1)将 $40.0\\ \\mathrm{g}$ 金属M块状样品加热到 $100\\ ^{\\circ}\\mathrm{C}$,投入 $50.0\\ \\mathrm{g}$ 温度为 $15.2\\ ^{\\circ}\\mathrm{C}$ 的水中,体系的温度为 $17.2\\ ^{\\circ}\\mathrm{C}$。推算该金属的摩尔质量。"
+          "text": "将 40 . 0 \\mathrm { g } 金属M块状样品加热到 100 \\ ^ { \\circ } \\mathrm { C } , ,投入 50.0 g 温度为 15 . 2 ~ ^ { \\circ } \\mathrm { C } 的水中,体系的温度为 17 . 2 ~ ^ { \\circ } \\mathrm { C } _ { \\circ } 推算该金属的摩尔质量。"
         }
-      ]
+      ],
+      "partId": "part-001834"
     },
     {
-      "id": "part-000451-03",
-      "label": "3-1",
+      "type": "subpart",
+      "label": "3-1-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "(2)取金属M的粉末样品 $1.000\\ \\mathrm{g}$,加热与氧气充分反应,得氧化物 $1.336\\ \\mathrm{g}$。计算该金属的摩尔质量,推测其氧化物的化学式(金属与氧的比例为简单整数比)。"
+          "text": "取金属M的粉末样品1.000 g,加热与氧气充分反应,得氧化物1.336 { \\mathrm { g } } _ { \\circ } 。计算该金属的摩尔质量,推测其氧化物的化学式(金属与氧的比例为简单整数比)。"
         }
-      ]
+      ],
+      "partId": "part-001835"
     },
     {
-      "id": "part-000451-04",
-      "label": "3-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "(3)M是哪种金属?"
-        }
-      ]
+      "type": "paragraph",
+      "text": "3-1-3M是哪种金属方向"
     },
     {
-      "id": "part-000451-05",
+      "type": "subpart",
       "label": "3-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "电解法生产铝须用纯净的氧化铝。铝矿中常含石英、硅酸盐等杂质,需预先除去。在拜耳法处理过程中,硅常以硅铝酸盐 $\\mathrm{Na_6Al_6Si_5O_{22}\\cdot 5H_2O}$ “泥”的形式沉积下来。现有一种含 $10.0\\ \\mathrm{wt\\%}$ 高岭土 $\\mathrm{Al_2Si_2O_7\\cdot 2H_2O}$ 的水铝石 $\\mathrm{Al(OH)_3}$ 原料,计算纯化处理中铝的损失率。"
+          "text": "电解法生产铝须用纯净的氧化铝。铝矿中常含石英,硅酸盐等杂质,需预先除去。在拜耳法处理过程中,硅常以硅铝酸盐 ( \\mathrm { N a _ { 6 } A l _ { 6 } S i _ { 5 } O _ { 22 } { \\cdot } 5 H _ { 2 } O } ) “泥”的形式沉积下来。现有一种含10.0 wt%高岭土 \\mathrm { . ( A l _ { 2 } S i _ { 2 } O _ { 7 } { \\cdot } 2 H _ { 2 } O ) } 的水铝石 \\mathrm { \\cdot { A l } ( O H ) _ { 3 } ] } 原料,计算纯化处理中铝的损失率。"
         }
-      ]
+      ],
+      "partId": "part-001836"
+    },
+    {
+      "type": "subpart",
+      "label": "3-1-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001837"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

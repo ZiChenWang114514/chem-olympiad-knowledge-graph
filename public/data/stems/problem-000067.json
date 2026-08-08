@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000067",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,17 +10,49 @@
   "source": {
     "sourceDocumentId": "source-000053",
     "sourceLabel": "2019-33-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      1
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第1题（10分）简要回答问题。 1-1 利用不同的催化剂，⼄烯催化氧化可选择性地生成不同产物。产物A可使⽯灰⽔变浑浊。写出与A相对分⼦质量相等的其他所有产物的分⼦式和结构简式。 1-2 化合物 $\\mathrm { C s A u C l _ { 3 } }$ 呈抗磁性。每个Cs+周围有12个Cl−离⼦，每个Cl−离⼦周围有5个金属离⼦。金离⼦处在Cl−围成的配位中⼼（也是对称中⼼）。写出该化合物中Au的氧化态及其对应的配位⼏何构型。 1-3 2019年1月，嫦娥四号成功在月球着陆。探测器上的五星红旗由一类特殊的聚酰亚胺制成。以下为某种芳⾹族聚酰亚胺的合成路线："
+      "text": "第1题(10分)简要回答问题。"
+    },
+    {
+      "type": "subpart",
+      "label": "1-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "利用不同的催化剂,乙烯催化氧化可选择性地生成不同产物。产物A可使石灰水变浑浊。写出与A相对分子质量相等的其他所有产物的分子式和结构简式。"
+        }
+      ],
+      "partId": "part-000115"
+    },
+    {
+      "type": "subpart",
+      "label": "1-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "化合物 $\\mathrm { C s A u C l _ { 3 } }$ 呈抗磁性。每个Cs+周围有12个Cl-离子,每个Cl-离子周围有5个金属离子。金离子处在Cl-围成的配位中心(也是对称中心)。写出该化合物中Au的氧化态及其对应的配位几何构型。"
+        }
+      ],
+      "partId": "part-000116"
+    },
+    {
+      "type": "subpart",
+      "label": "1-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "2019年1月,嫦娥四号成功在月球着陆。探测器上的五星红旗由一类特殊的聚酰亚胺制成。以下为某种芳香族聚酰亚胺的合成路线:"
+        }
+      ],
+      "partId": "part-000117"
     },
     {
       "type": "paragraph",
@@ -29,7 +61,12 @@
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000067-figure-001.jpg",
-      "alt": "problem-000067题目配图第1幅（已按原图查看）"
+      "alt": "配位化学与氧化态相关结构或反应图,第1幅,保留原卷标注",
+      "displayWidth": 80,
+      "assetId": "asset-002799"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

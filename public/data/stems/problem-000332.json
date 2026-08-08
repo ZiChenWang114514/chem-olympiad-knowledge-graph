@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000332",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,65 +10,70 @@
   "source": {
     "sourceDocumentId": "source-000003",
     "sourceLabel": "2008-22-CChO-juesai.pdf",
-    "page": null,
+    "pages": [
+      3
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000332-01",
+      "type": "subpart",
       "label": "4-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "分别画出 $\\mathrm{Li_2N^-}$ 层的结构、最小重复单位以及 $\\alpha$-$\\mathrm{Li_3N}$ 的晶胞。"
         }
-      ]
+      ],
+      "partId": "part-000699"
     },
     {
-      "id": "part-000332-02",
+      "type": "subpart",
       "label": "4-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "确定该晶体的结构基元、点阵型式以及 $\\mathrm{N^{3-}}$ 的 $\\mathrm{Li^+}$ 离子配位数。"
         }
-      ]
+      ],
+      "partId": "part-000700"
     },
     {
-      "id": "part-000332-03",
+      "type": "subpart",
       "label": "4-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "计算 $\\mathrm{Li_2N}$ 层 Li—N 中间距离。"
         }
-      ]
+      ],
+      "partId": "part-000701"
     },
     {
-      "id": "part-000332-04",
+      "type": "subpart",
       "label": "4-4",
       "blocks": [
         {
           "type": "paragraph",
           "text": "通过计算说明 $\\alpha$-$\\mathrm{Li_3N}$ 晶体导电的原因。假如 $\\mathrm{N^{3-}}$ 作六方最密堆积(hcp),指出 $\\mathrm{Li^+}$ 离子占据空隙类型及占据百分数,回答该结构的 $\\mathrm{Li_3N}$ 能否导电,简述理由。"
         }
-      ]
+      ],
+      "partId": "part-000702"
     },
     {
-      "id": "part-000332-05",
+      "type": "subpart",
       "label": "4-5",
       "blocks": [
         {
           "type": "paragraph",
           "text": "金属 Li 在高温下与 $\\mathrm{TiO_2}$ 反应可生成多种晶型的 $\\mathrm{LiTi_2O_4}$,其中尖晶石型 $\\mathrm{LiTi_2O_4}$ 为立方结构。$\\mathrm{O^{2-}}$ 作立方最密堆积($\\mathrm{ccp}$),若 $\\mathrm{Li^+}$ 离子有序地占据四面体空隙,$\\mathrm{Ti^{4+}}$ 和 $\\mathrm{Ti^{3+}}$ 离子占据八面体空隙。已知晶胞参数 $a = 840.5\\ \\mathrm{pm}$,晶体密度 $D = 3.730\\ \\mathrm{g\\,cm^{-3}}$。请分别计算晶胞中所含原子数目和 $\\mathrm{O^{2-}}$ 离子半径的最大可能值。若不计其他离子,给出以 $\\mathrm{Li^+}$ 离子为顶点的最小单位。"
         }
-      ]
+      ],
+      "partId": "part-000703"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

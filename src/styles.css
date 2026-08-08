@@ -1867,9 +1867,6 @@ footer a:hover { color: var(--teal-deep); }
   overflow: hidden;
   border-left: 3px solid var(--stem-accent, var(--teal));
 }
-.stem-doc.is-demo {
-  background: linear-gradient(180deg, #fffdf8 0%, #ffffff 48px);
-}
 .stem-doc-head {
   padding: 18px 20px 12px;
   border-bottom: 1px solid var(--line);
@@ -1892,11 +1889,6 @@ footer a:hover { color: var(--teal-deep); }
   border: 1px solid var(--line);
   background: #f4f7f6;
   color: var(--ink-soft);
-}
-.stem-badge.demo {
-  background: #fdf3e3;
-  border-color: #e8c98a;
-  color: #8a5a12;
 }
 .stem-badge.live {
   background: var(--teal-soft);
@@ -1980,6 +1972,18 @@ footer a:hover { color: var(--teal-deep); }
   color: var(--teal-deep);
   font-size: 15px;
 }
+.stem-subpart {
+  margin: 16px 0;
+}
+.stem-subpart-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+.stem-subpart > .stem-p:first-of-type {
+  margin-top: 6px;
+}
 .stem-part-score {
   font-size: 11px;
   font-weight: 700;
@@ -2014,6 +2018,12 @@ footer a:hover { color: var(--teal-deep); }
   border-radius: 10px;
   border: 1px solid var(--line);
 }
+.stem-figure-label {
+  margin-top: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--ink-soft);
+}
 .stem-figure figcaption {
   margin-top: 8px;
   font-size: 12px;
@@ -2040,6 +2050,28 @@ footer a:hover { color: var(--teal-deep); }
 .stem-table th {
   background: #f4f8f7;
   font-weight: 700;
+}
+.stem-layout-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  margin: 16px 0;
+}
+.stem-layout {
+  display: grid;
+  gap: 20px;
+  align-items: start;
+}
+.stem-layout-column {
+  min-width: 0;
+}
+@media (max-width: 640px) {
+  .stem-body {
+    padding-inline: 14px;
+  }
+  .stem-layout {
+    gap: 14px;
+  }
 }
 .stem-loading,
 .stem-unavailable {
@@ -2077,6 +2109,38 @@ footer a:hover { color: var(--teal-deep); }
 .stem-meta-summary span {
   font-weight: 700;
   color: var(--ink-soft);
+}
+.part-mapping-list {
+  margin-top: 22px;
+  display: grid;
+  gap: 12px;
+}
+.part-mapping-list section {
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+}
+.part-mapping-list h3 {
+  margin: 0 0 8px;
+  font-size: 13px;
+}
+.part-mapping-list section > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.part-mapping-list a {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 6px 9px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--ink);
+  text-decoration: none;
+  background: var(--paper);
+}
+.part-mapping-list small {
+  color: var(--muted);
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000352",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,98 +8,104 @@
   "examYear": 2009,
   "examStage": "final",
   "source": {
-    "sourceDocumentId": "source-000004",
     "sourceLabel": "2009-23-CChO-juesai.pdf",
-    "page": null,
+    "pages": [
+      5
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000004"
   },
   "blocks": [
     {
+      "type": "paragraph",
+      "text": "第6题 木犀草素(Luteolin)是有良好抗菌活性和抗氧化能力的⻩酮类化合物,以从植物中提取的芦丁(Rutin)为原料制取木犀草素是比较实用的一条工艺路线:在微波辅助下,芦丁与 $\\mathrm { Na _ { 2 } S _ { 2 } O _ { 4 } }$ 在NaOH溶液中回流1.5小时生成木犀草素,产率83%."
+    },
+    {
       "type": "figure",
       "src": "data/stems/assets/problem-000352-figure-001.jpg",
-      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-      "caption": "图 1"
-    }
-  ],
-  "parts": [
+      "alt": "原卷第6题图1：第6题 木犀草素(Luteolin)是有良好抗菌活性和抗氧化能力的⻩酮类化合物,以从植物中提取的芦丁(Rutin)为原料制取木犀草素是比较实",
+      "displayWidth": 70,
+      "assetId": "asset-003654"
+    },
     {
-      "id": "part-000352-01",
+      "type": "subpart",
       "label": "6-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "实验测得,$40~^{\\circ}\\mathrm{C}$ 时木犀草素在乙醇(EtOH)中的溶解度(以物质的量分数计)为 $2.68\\times 10^{-3}$。已知 $20\\sim 60~^{\\circ}\\mathrm{C}$ 木犀草素在乙醇中的溶解焓为 $20.28\\ \\mathrm{kJ\\ mol^{-1}}$。请估算 $25~^{\\circ}\\mathrm{C}$ 时木犀草素在乙醇中的溶解度。"
+          "text": "实验测得, $40 ~ ^ { \\circ } \\mathrm { C }$ 时木犀草素在乙醇(EtOH)中的溶解度(以物质的量分数计)为 $2.68 \\times10 ^ { - 3 }$ .已知$20 { \\sim } 60 ~ ^ { \\circ } \\mathrm { C }$ 木犀草素在乙醇中的溶解焓为20.28kJ $\\mathrm { mol ^ { - 1 } s }$ .请估算 $25 ^ { \\circ } \\mathrm { C }$ 时木犀草素在乙醇中的溶解度."
         }
-      ]
+      ],
+      "partId": "part-002442"
     },
     {
-      "id": "part-000352-02",
+      "type": "subpart",
       "label": "6-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$40~^{\\circ}\\mathrm{C}$ 时,芦丁和木犀草素在乙醇-水混合溶剂中的溶解度曲线如图6.1。根据图示,设计提纯木犀草素的具体方案。"
+          "text": "$40 ~ ^ { \\circ } \\mathrm { C }$ 时,芦丁和木犀草素在乙醇-水混合溶剂中的溶解度曲线如图6.1.根据图示,设计提纯木犀草素的具体方案."
         }
-      ]
+      ],
+      "partId": "part-002443"
     },
     {
-      "id": "part-000352-03",
+      "type": "subpart",
       "label": "6-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "木犀草素有 $\\alpha$ 和 $\\beta$ 两种晶相,在热力学上,$\\beta$ 相比 $\\alpha$ 相稳定。在恒压下,液态、$\\alpha$ 相和 $\\beta$ 相的摩尔 Gibbs 自由能 $G_{\\mathrm{m}}$ 随温度的变化关系如图6.2所示。"
+          "text": "木犀草素有α和β两种晶相,在热力学上,β相比α相稳定.在恒压下,液态,α相和β相的摩尔Gibbs自由能 $G _ { \\mathrm { m } }$ 随温度的变化关系如图6.2所示."
         }
-      ]
+      ],
+      "partId": "part-002444"
     },
     {
-      "id": "part-000352-04",
+      "type": "subpart",
       "label": "6-3-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "请回答哪条线对应 $\\alpha$ 相、$\\beta$ 相,说明理由。"
+          "text": "请回答哪条线对应α相,β相,说明理由."
         }
-      ]
+      ],
+      "partId": "part-002445"
     },
     {
-      "id": "part-000352-05",
+      "type": "subpart",
       "label": "6-3-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在相同温度下,$\\alpha$ 相和 $\\beta$ 相哪个熵更大?简述理由。"
+          "text": "在相同温度下,α相和β相哪个熵更大简述理由."
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000352-figure-002.jpg",
-          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-          "caption": "图 2"
+          "alt": "原卷第6题图2：在相同温度下,α相和β相哪个熵更大简述理由.",
+          "displayWidth": 70,
+          "assetId": "asset-003655"
+        },
+        {
+          "type": "paragraph",
+          "text": "图 6.1"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000352-figure-003.jpg",
-          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-          "caption": "图 3"
+          "alt": "原卷第6题图3：图 6.1",
+          "displayWidth": 70,
+          "assetId": "asset-003656"
+        },
+        {
+          "type": "paragraph",
+          "text": "图 6.2"
         }
-      ]
+      ],
+      "partId": "part-002446"
     }
   ],
-  "figures": [
-    {
-      "id": "fig-000352-01",
-      "caption": "图6.1 芦丁和木犀草素在乙醇-水混合溶剂中的溶解度曲线",
-      "alt": "溶解度曲线图,横轴为乙醇-水组成,纵轴为溶解度,两条曲线分别对应芦丁和木犀草素。"
-    },
-    {
-      "id": "fig-000352-02",
-      "caption": "图6.2 液态、α相和β相的摩尔Gibbs自由能随温度变化关系",
-      "alt": "G-T 图,三条曲线分别代表液态、α相和β相,β相在低温下稳定。"
-    }
-  ]
+  "renderingHints": {
+    "mhchem": true
+  }
 }

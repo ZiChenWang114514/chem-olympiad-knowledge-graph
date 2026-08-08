@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000298",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,18 +10,16 @@
   "source": {
     "sourceDocumentId": "source-000001",
     "sourceLabel": "2006-20-CChO-juesai.pdf",
-    "page": null,
+    "pages": [
+      3,
+      4
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000298-01",
+      "type": "subpart",
       "label": "7-1",
       "blocks": [
         {
@@ -30,14 +28,17 @@
         },
         {
           "type": "figure",
+          "src": "data/stems/assets/problem-000298-figure-001.jpg",
+          "alt": "聚乙炔液晶材料合成路线图(原卷配图)",
+          "displayWidth": 80,
           "caption": "合成路线图",
-          "alt": "聚乙炔液晶材料合成路线图(缺图)",
-          "src": "data/stems/assets/problem-000298-figure-001.jpg"
+          "assetId": "asset-003039"
         }
-      ]
+      ],
+      "partId": "part-000646"
     },
     {
-      "id": "part-000298-02",
+      "type": "subpart",
       "label": "7-2",
       "blocks": [
         {
@@ -46,41 +47,50 @@
         },
         {
           "type": "figure",
+          "src": "data/stems/assets/problem-000298-figure-002.jpg",
+          "alt": "聚乙炔衍生物分子结构式(原卷配图)",
+          "displayWidth": 80,
           "caption": "聚乙炔衍生物结构式",
-          "alt": "聚乙炔衍生物分子结构式(缺图)",
-          "src": "data/stems/assets/problem-000298-figure-002.jpg"
+          "assetId": "asset-003040"
         }
-      ]
+      ],
+      "partId": "part-000647"
     },
     {
-      "id": "part-000298-03",
+      "type": "subpart",
       "label": "7-2-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "写出 A 中药物性小分子羧酸的结构式并命名。"
         }
-      ]
+      ],
+      "partId": "part-000648"
     },
     {
-      "id": "part-000298-04",
+      "type": "subpart",
       "label": "7-2-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "写出 B 中氨基酸的结构式并命名。"
         }
-      ]
+      ],
+      "partId": "part-000649"
     },
     {
-      "id": "part-000298-05",
+      "type": "subpart",
       "label": "7-2-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "写出 C 中糖分子的费歇尔投影式,并给出该糖的名称。"
         }
-      ]
+      ],
+      "partId": "part-000650"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

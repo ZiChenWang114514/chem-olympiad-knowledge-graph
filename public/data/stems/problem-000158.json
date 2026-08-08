@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000158",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,27 +8,64 @@
   "examYear": 2021,
   "examStage": "final",
   "source": {
-    "sourceDocumentId": "source-000018",
     "sourceLabel": "2021-35-CChO-juesai-2.pdf",
-    "page": null,
+    "pages": [
+      8
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000018"
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "8 · 化学反应与结构综合分析"
+      "text": "## 第8题 天然产物全合成"
+    },
+    {
+      "type": "paragraph",
+      "text": "Strychnine亦称番木鳖碱,是从中药⻢钱子中分离得到的一种吲哚生物碱,其复杂的稠环结构和生理活性引起了科学家的广泛研究兴趣.1952年,科学家第一次合成了Strychnine,但只有0.0009%的总收率.2011年,化学家利用不对称有机催化和串联反应,仅需12步就完成了Strychnine的全合成,效率提高了7000倍.该合成的部分路线如下图所示:"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000158-figure-001.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "题目配图"
+      "alt": "原卷第8题图1：Strychnine亦称番木鳖碱,是从中药⻢钱子中分离得到的一种吲哚生物碱,其复杂的稠环结构和生理活性引起了科学家的广泛研究兴趣.1952年",
+      "displayWidth": 70,
+      "assetId": "asset-003511"
+    },
+    {
+      "type": "subpart",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出上图中化合物B和F的结构简式."
+        }
+      ],
+      "partId": "part-002112"
+    },
+    {
+      "type": "subpart",
+      "label": "8-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "B+ C → D的转化经历了三步基本反应.画出该串联过程中两个关键中间体的结构简式."
+        }
+      ],
+      "partId": "part-002113"
+    },
+    {
+      "type": "subpart",
+      "label": "8-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "不对称有机催化反应的相关研究获得了2021年的诺⻉尔化学奖.题8-2所述串联反应的第一步是不对称有机催化反应的代表性应用,实现了手性中心的对映选择性构筑.画出该步反应的立体化学控制模式示意图,并解释该过程中三溴乙酸的作用."
+        }
+      ],
+      "partId": "part-002114"
     }
   ],
-  "parts": []
+  "renderingHints": {
+    "mhchem": true
+  }
 }

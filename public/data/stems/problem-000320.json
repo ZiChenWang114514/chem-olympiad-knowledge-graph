@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000320",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,19 +8,83 @@
   "examYear": 2008,
   "examStage": "preliminary",
   "source": {
-    "sourceDocumentId": "source-000039",
     "sourceLabel": "2008-22-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      1
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000039"
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "第3题（4分）甲醛是一种重要的化工产品，可利用甲醇脱氢制备，反应式如下： $$ \\mathrm{CH} _ {3} \\mathrm{OH(g)} \\xrightarrow {\\text {催化剂，} 7 0 0 ^ {\\circ} \\mathrm{C}} \\mathrm{CH} _ {2} \\mathrm{O(g)} + \\mathrm{H} _ {2} (\\mathrm{g}) $$ $$ H _ {m} ^ {\\ominus} = 8 4. 2 \\mathrm{kJ} \\mathrm{mol} ^ {- 1}\\tag{1} $$ 向体系中通入空气，通过以下反应提供反应(1)所需热量： $$ \\mathrm{H} _ {2} (\\mathrm{g}) + 0. 5 \\mathrm{O} _ {2} (\\mathrm{g}) \\rightarrow \\mathrm{H} _ {2} \\mathrm{O} (\\mathrm{g}) $$ $$ H _ {m} ^ {\\ominus} = - 2 4 1. 8 \\mathrm{kJ} \\mathrm{mol} ^ {- 1}\\tag{2} $$ 要使反应温度维持在 $7 0 0 ~ ^ { \\circ } \\mathrm { C }$ ，计算进料中甲醇与空气的摩尔数之比。已知空气中氧气的体积分数为0.20。"
+      "type": "subpart",
+      "label": "3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "第3题 甲醛是一种重要的化工产品,可利用甲醇脱氢制备,反应式如下:"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "\\mathrm{CH} _ {3} \\mathrm{OH(g)} \\xrightarrow {\\text {催化剂,} 700 ^ {\\circ} \\mathrm{C}} \\mathrm{CH} _ {2} \\mathrm{O(g)} + \\mathrm{H} _ {2} (\\mathrm{g})"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "H _ {m} ^ {\\ominus} = 84.2 \\mathrm{kJ} \\mathrm{mol} ^ {- 1}\\tag{1}"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "向体系中通入空气,通过以下反应提供反应(1)所需热量:"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "\\mathrm{H} _ {2} (\\mathrm{g}) + 0.5 \\mathrm{O} _ {2} (\\mathrm{g}) \\rightarrow \\mathrm{H} _ {2} \\mathrm{O} (\\mathrm{g})"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "H _ {m} ^ {\\ominus} = - 241.8 \\mathrm{kJ} \\mathrm{mol} ^ {- 1}\\tag{2}"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "要使反应温度维持在 $700 ~ ^ { \\circ } \\mathrm { C }$ ,计算进料中甲醇与空气的摩尔数之比.已知空气中氧气的体积分数为0.20."
+        }
+      ],
+      "partId": "part-002395"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

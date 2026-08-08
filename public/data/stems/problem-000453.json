@@ -1,35 +1,81 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000453",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "锆钨复合氧化物晶胞",
-  "number": "5",
+  "number": "Q5",
   "examYear": 2015,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000049",
     "sourceLabel": "2015-29-CChO-chusai.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      2
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第5题（8分）有一类复合氧化物具有奇特的性质：受热密度不降反升。这类复合氧化物的理想结构属⽴方晶系，下为晶胞示意图。图中八面体中⼼是锆原⼦，位于晶胞的顶角和面⼼；四面体中⼼是钨原⼦，均在晶胞中。八面体和四面体之间通过共用顶点（氧原⼦）连接。锆和钨的氧化数分别等于它们在周期表⾥的族数。"
-    },
-    {
-      "type": "paragraph",
-      "text": "5-1 写出晶胞中锆原⼦和钨原⼦的数⽬。 5-2 写出这种复合氧化物的化学式。 5-3 晶体中，氧原⼦的化学环境有⼏种？各是什么类型？在一个晶胞中各有多少？ 5-4 已知晶胞参数 $\\dot { a } = 0 . 9 1 6 \\mathrm { n m }$ ，计算该晶体的密度（以 $\\mathrm { g c m ^ { - 3 } }$ 为单位）。"
+      "text": "第5题(8分)有一类复合氧化物具有奇特的性质:受热密度不降反升。这类复合氧化物的理想结构属立方晶系,下为晶胞示意图。图中八面体中心是锆原子,位于晶胞的顶⻆和面心;四面体中心是钨原子,均在晶胞中。八面体和四面体之间通过共用顶点(氧原子)连接。锆和钨的氧化数分别等于它们在周期表里的族数。"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000453-figure-001.jpg",
-      "alt": "problem-000453题目配图第1幅（已按原图查看）"
+      "assetId": "asset-003421",
+      "alt": "锆钨复合氧化物晶胞：第1幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
+    },
+    {
+      "type": "subpart",
+      "label": "5-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出晶胞中锆原子和钨原子的数目。"
+        }
+      ],
+      "partId": "part-001838"
+    },
+    {
+      "type": "subpart",
+      "label": "5-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出这种复合氧化物的化学式。"
+        }
+      ],
+      "partId": "part-001839"
+    },
+    {
+      "type": "subpart",
+      "label": "5-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "晶体中,氧原子的化学环境有几种方向各是什么类型方向在一个晶胞中各有多少方向"
+        }
+      ],
+      "partId": "part-001840"
+    },
+    {
+      "type": "subpart",
+      "label": "5-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "已知晶胞参数 \\dot { a } = 0 . 916 \\mathrm { n m } ,计算该晶体的密度(以 \\mathrm { g c m ^ { - 3 } } 为单位)。"
+        }
+      ],
+      "partId": "part-001841"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

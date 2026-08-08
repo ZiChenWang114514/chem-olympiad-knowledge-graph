@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000072",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,63 +8,71 @@
   "examYear": 2019,
   "examStage": "preliminary",
   "source": {
-    "sourceDocumentId": "source-000053",
     "sourceLabel": "2019-33-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      2
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
+    "sourceDocumentId": "source-000053"
   },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000072-01",
+      "type": "paragraph",
+      "text": "第6题 某晶体属六方晶系,晶胞参数 = 0.4780nm, $c = 0.7800 \\mathrm { nm }$ .晶胞沿不同方向投影图如下,其中灰色球代表A原子,蓝色球代表B原子(化学环境完全等同).已知A2原子的坐标参数为(0.8300,0.1700, 0.2500),B1 原子沿方向原子坐标参数 $z = 0.0630$ o"
+    },
+    {
+      "type": "subpart",
       "label": "6-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出该晶体的化学式。"
+          "text": "写出该晶体的化学式."
         }
-      ]
+      ],
+      "partId": "part-001985"
     },
     {
-      "id": "part-000072-02",
+      "type": "subpart",
       "label": "6-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出位于晶胞顶点和棱上的A原子的坐标参数;计算A1‒A2距离。"
+          "text": "写出位于晶胞顶点和棱上的A原子的坐标参数;计算A1‒A2距离."
         }
-      ]
+      ],
+      "partId": "part-001986"
     },
     {
-      "id": "part-000072-03",
+      "type": "subpart",
       "label": "6-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出所有B原子的坐标参数。"
+          "text": "出所有B原子的坐标参数."
         }
-      ]
+      ],
+      "partId": "part-001987"
     },
     {
-      "id": "part-000072-04",
+      "type": "subpart",
       "label": "6-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "若将晶胞中顶角和棱上的A用另一种原子C替换,写出所得晶体的化学式。"
+          "text": "若将晶胞中顶⻆和棱上的A用另一种原子C替换,写出所得晶体的化学式."
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000072-figure-001.jpg",
-          "alt": "晶体结构或分子模型示意图（原图）",
-          "caption": "题目配图"
+          "alt": "原卷第6题图1：若将晶胞中顶⻆和棱上的A用另一种原子C替换,写出所得晶体的化学式.",
+          "displayWidth": 70,
+          "assetId": "asset-003455"
         }
-      ]
+      ],
+      "partId": "part-001988"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

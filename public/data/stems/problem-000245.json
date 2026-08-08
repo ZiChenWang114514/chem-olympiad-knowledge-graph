@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000245",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,13 +10,13 @@
   "source": {
     "sourceDocumentId": "source-000031",
     "sourceLabel": "2024年全国中学生化学竞赛决赛试题(第一场).pdf",
-    "page": null,
+    "pages": [
+      9,
+      10,
+      11
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
@@ -29,9 +29,11 @@
     },
     {
       "type": "figure",
-      "caption": "图 6.1 (a) A 的晶体结构;(b) B 的热重曲线",
+      "src": "data/stems/assets/problem-000245-figure-001.jpg",
       "alt": "图 6.1 包含两个子图:(a) A 的晶体结构示意图;(b) B 的热重曲线图。",
-      "src": "data/stems/assets/problem-000245-figure-001.jpg"
+      "displayWidth": 80,
+      "caption": "图 6.1 (a) A 的晶体结构;(b) B 的热重曲线",
+      "assetId": "asset-002964"
     },
     {
       "type": "paragraph",
@@ -39,65 +41,48 @@
     },
     {
       "type": "figure",
-      "src": "data/stems/assets/problem-000245-figure-009.jpg",
+      "src": "data/stems/assets/problem-000245-figure-002.jpg",
       "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-      "caption": "图 9"
-    }
-  ],
-  "parts": [
+      "displayWidth": 80,
+      "caption": "图 9",
+      "assetId": "asset-002965"
+    },
     {
-      "id": "part-000245-01",
+      "type": "subpart",
       "label": "6-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "写出 A 的化学式。"
         }
-      ]
+      ],
+      "partId": "part-000528"
     },
     {
-      "id": "part-000245-02",
-      "label": "6-1",
+      "type": "subpart",
+      "label": "6-1-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "已知热重曲线中第一阶段释放的物质是水,解释其原因。"
         }
-      ]
+      ],
+      "partId": "part-000540"
     },
     {
-      "id": "part-000245-03",
-      "label": "6-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出 B 转化为 A 的化学方程式。"
-        }
-      ]
-    },
-    {
-      "id": "part-000245-04",
-      "label": "6-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出生成 B 的化学方程式。"
-        }
-      ]
-    },
-    {
-      "id": "part-000245-05",
+      "type": "subpart",
       "label": "6-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "IVB 族元素的配合物参与的有机反应受到了广泛关注,含有金属—杂原子多重键的 Ti、Zr 的配合物可与烯丙基卤代烃或烯丙基硅醚等化合物发生 $\\mathrm{S_N2'}$ 反应,是一种能实现高区域选择性和立体选择性制备烯丙基化合物的方法。"
         }
-      ]
+      ],
+      "partId": "part-000532"
     },
     {
-      "id": "part-000245-06",
-      "label": "6-2",
+      "type": "subpart",
+      "label": "6-2-2",
       "blocks": [
         {
           "type": "paragraph",
@@ -105,9 +90,11 @@
         },
         {
           "type": "figure",
-          "caption": "反应示意图",
+          "src": "data/stems/assets/problem-000245-figure-003.jpg",
           "alt": "配合物 C 与烯丙基氯代物 D 的反应方程式。",
-          "src": "data/stems/assets/problem-000245-figure-002.jpg"
+          "displayWidth": 80,
+          "caption": "反应示意图",
+          "assetId": "asset-002966"
         },
         {
           "type": "paragraph",
@@ -119,9 +106,11 @@
         },
         {
           "type": "figure",
-          "caption": "机理 I 示意图",
+          "src": "data/stems/assets/problem-000245-figure-004.jpg",
           "alt": "机理 I 的反应过程图示。",
-          "src": "data/stems/assets/problem-000245-figure-003.jpg"
+          "displayWidth": 80,
+          "caption": "机理 I 示意图",
+          "assetId": "asset-002967"
         },
         {
           "type": "paragraph",
@@ -129,9 +118,11 @@
         },
         {
           "type": "figure",
-          "caption": "机理 II 示意图",
+          "src": "data/stems/assets/problem-000245-figure-005.jpg",
           "alt": "机理 II 的反应过程图示。",
-          "src": "data/stems/assets/problem-000245-figure-004.jpg"
+          "displayWidth": 80,
+          "caption": "机理 II 示意图",
+          "assetId": "asset-002968"
         },
         {
           "type": "paragraph",
@@ -146,30 +137,11 @@
           "type": "paragraph",
           "text": "为研究反应机理,进行了动力学实验,获得的部分数据如表 6.1。写出机理 I 和 II 对应 $\\mathrm{d}c(\\mathrm{C})/\\mathrm{d}t$ 的反应速率方程,并结合表中数据判断哪种机理更合理。"
         }
-      ]
+      ],
+      "partId": "part-000544"
     },
     {
-      "id": "part-000245-07",
-      "label": "6-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "对于下列 Zr 配合物与烯丙基化合物的反应:"
-        },
-        {
-          "type": "figure",
-          "caption": "反应示意图",
-          "alt": "Zr 配合物与烯丙基化合物的反应方程式。",
-          "src": "data/stems/assets/problem-000245-figure-005.jpg"
-        },
-        {
-          "type": "paragraph",
-          "text": "写出 F、G、H、I 的结构,其中手性中心的构型与双键的 Z、E 构型需画出,并画出生成 F 的关键过渡态结构。"
-        }
-      ]
-    },
-    {
-      "id": "part-000245-08",
+      "type": "subpart",
       "label": "6-3",
       "blocks": [
         {
@@ -178,9 +150,11 @@
         },
         {
           "type": "figure",
-          "caption": "反应示意图",
+          "src": "data/stems/assets/problem-000245-figure-007.jpg",
           "alt": "Ti 配合物与芳基端炔的反应方程式。",
-          "src": "data/stems/assets/problem-000245-figure-006.jpg"
+          "displayWidth": 80,
+          "caption": "反应示意图",
+          "assetId": "asset-002969"
         },
         {
           "type": "paragraph",
@@ -188,47 +162,86 @@
         },
         {
           "type": "figure",
-          "caption": "图 6.2 理论计算得到的可能的反应路径图",
+          "src": "data/stems/assets/problem-000245-figure-008.jpg",
           "alt": "图 6.2 展示了理论计算得到的反应路径自由能变化图。",
-          "src": "data/stems/assets/problem-000245-figure-007.jpg"
+          "displayWidth": 80,
+          "caption": "图 6.2 理论计算得到的可能的反应路径图",
+          "assetId": "asset-002970"
         }
-      ]
+      ],
+      "partId": "part-000535"
     },
     {
-      "id": "part-000245-09",
-      "label": "6-3",
+      "type": "subpart",
+      "label": "6-3-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "画出 TS-a-H 和 TS-b-H 的结构(不参与反应的配体可用 [N] 和 [B] 表示)。"
         }
-      ]
+      ],
+      "partId": "part-000546"
     },
     {
-      "id": "part-000245-10",
-      "label": "6-3",
+      "type": "subpart",
+      "label": "6-1-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "根据图 6.2,计算生成 J 和 K 的过程在 298.15 K 下的 KIE ($k_H/k_D$) 值。"
+          "text": "写出B转化为A的化学方程式。"
         }
-      ]
+      ],
+      "partId": "part-000541"
     },
     {
-      "id": "part-000245-11",
-      "label": "6-3",
+      "type": "subpart",
+      "label": "6-2-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "化合物 $\\mathrm{L} (\\mathrm{Ar^F} = \\mathrm{C_6F_5})$ 在长时间加热后,可发生分子内重排转化为化合物 M。已知重排后生成了一个新的 C—C 键和一个 Ti—F 键。画出 M 的结构(不参与反应的配体可用 [N] 和 [B] 表示)。"
-        },
-        {
-          "type": "figure",
-          "caption": "反应示意图",
-          "alt": "化合物 L 转化为 M 的反应方程式。",
-          "src": "data/stems/assets/problem-000245-figure-008.jpg"
+          "text": "含 ${ \\bf z } { \\bf r } { = } 0$ 的配合物C可与烯丙基氯代物D发生如下反应"
         }
-      ]
+      ],
+      "partId": "part-000543"
+    },
+    {
+      "type": "subpart",
+      "label": "6-3-2-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "根据图 6.2,计算生成J和K的过程在 298.15 K下的 KIE(k/kp)值。"
+        }
+      ],
+      "partId": "part-002600"
+    },
+    {
+      "type": "subpart",
+      "label": "6-3-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "化合物 $\\mathbf { L } \\left( \\mathbf { A } \\mathbf { r } ^ { \\mathsf { F } } { = } \\mathbf { C } _ { 6 } \\mathbf { F } _ { 5 } \\right)$ 在长时间加热后,可发生分子内重排转化为化合物M。已知重排后生成了一个新的C一C键和一个Ti一F键。画出M的结构(不参与反应的配体可用[N]和[B]表示)。"
+        }
+      ],
+      "partId": "part-000547"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000245-figure-006.jpg",
+      "alt": "锆钛配合物反应机理与能量图，第6幅，保留原卷标注",
+      "displayWidth": 80,
+      "assetId": "asset-002971"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000245-figure-009.jpg",
+      "alt": "锆钛配合物反应机理与能量图，第9幅，保留原卷标注",
+      "displayWidth": 80,
+      "assetId": "asset-002972"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

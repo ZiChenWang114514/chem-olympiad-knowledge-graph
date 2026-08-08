@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000342",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,20 +8,20 @@
   "examYear": 2009,
   "examStage": "preliminary",
   "source": {
-    "sourceDocumentId": "source-000040",
     "sourceLabel": "2009-23-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      2
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
+    "sourceDocumentId": "source-000040"
   },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000342-01",
+      "type": "paragraph",
+      "text": "第 6 题"
+    },
+    {
+      "type": "subpart",
       "label": "6-1",
       "blocks": [
         {
@@ -30,18 +30,20 @@
         },
         {
           "type": "figure",
-          "caption": "方解石晶体结构示意图",
-          "alt": "方解石晶体结构图(缺图)",
-          "src": "data/stems/assets/problem-000342-figure-001.jpg"
+          "src": "data/stems/assets/problem-000342-figure-001.jpg",
+          "alt": "原卷第6题图1：文献中常用下图表达方解石的晶体结构:",
+          "displayWidth": 70,
+          "assetId": "asset-003648"
         },
         {
           "type": "paragraph",
-          "text": "图中的平行六面体是不是方解石的一个晶胞?简述理由。"
+          "text": "图中的平行六面体是不是方解石的一个晶胞简述理由."
         }
-      ]
+      ],
+      "partId": "part-002416"
     },
     {
-      "id": "part-000342-02",
+      "type": "subpart",
       "label": "6-2",
       "blocks": [
         {
@@ -50,55 +52,64 @@
         },
         {
           "type": "figure",
-          "caption": "氟磷灰石晶体结构示意图",
-          "alt": "氟磷灰石晶体结构图(缺图)",
-          "src": "data/stems/assets/problem-000342-figure-002.jpg"
+          "src": "data/stems/assets/problem-000342-figure-002.jpg",
+          "alt": "原卷第6题图2：文献中常用下图表达六方晶体氟磷灰石的晶体结构:",
+          "displayWidth": 70,
+          "assetId": "asset-003649"
         },
         {
           "type": "paragraph",
-          "text": "该图是 $c$ 轴投影图,位于图中手的球是氟,大球是钙,四面体是磷酸根(氧原子未画出)。试以此图为基础用粗线画出氟磷灰石晶胞的 $c$ 轴投影图,设晶胞顶角为氟原子,其他原子可不补全。"
+          "text": "该图是轴投影图,位于图中心的球是氟,大球是钙,四面体是磷酸根(氧原子未画出).试以此图为基础用粗线画出氟磷灰石晶胞的轴投影图,设晶胞顶⻆为氟原子,其他原子可不补全."
         }
-      ]
+      ],
+      "partId": "part-002417"
     },
     {
-      "id": "part-000342-03",
+      "type": "subpart",
       "label": "6-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "某晶体的晶胞参数为: $a = 250.4\\ \\mathrm{pm}$, $c = 666.1\\ \\mathrm{pm}$, $\\gamma = 120^\\circ$;原子A的原子坐标为 $(0,0,1/2)$ 和 $(1/3,2/3,0)$,原子B的原子坐标为 $(1/3,2/3,1/2)$ 和 $(0,0,0)$。"
+          "text": "某晶体的晶胞参数为: $a = 250.4 \\mathrm { pm }$ 1, $c = 666.1 \\mathrm { pm }$ $\\gamma = 120 ^ { \\circ }$ ;原子A的原子坐标为 $( 0 , 0 , 1 / 2 )$ 和(1/3, 2/3, 0),原子 B 的原子坐标为(1/3, 2/3, 1/2)和(0, 0, 0)."
         }
-      ]
+      ],
+      "partId": "part-002418"
     },
     {
-      "id": "part-000342-04",
+      "type": "subpart",
       "label": "6-3-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "试画出该晶体的晶胞透视图(设晶胞底面即 $ab$ 面垂直于纸面,A原子用 $\\bigcirc$ 表示,B原子用 $\\bullet$ 表示)。"
+          "text": "试画出该晶体的晶胞透视图(设晶胞底面即面垂直于纸面,A原子用 $^ { 66 } \\bigcirc ^ { 5 }$ 表示,B原子用 $\" \\bullet \\bullet \\bullet \\bullet$ 表示)."
         }
-      ]
+      ],
+      "partId": "part-002419"
     },
     {
-      "id": "part-000342-05",
+      "type": "subpart",
       "label": "6-3-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算上述晶体中A和B两原子间的最小核间距 $d(\\mathrm{AB})$。"
+          "text": "计算上述晶体中A和B两原子间的最小核间距 $d ( \\mathbf { AB } )$ o"
         }
-      ]
+      ],
+      "partId": "part-002420"
     },
     {
-      "id": "part-000342-06",
+      "type": "subpart",
       "label": "6-3-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "共价晶体的导热是共价键的振动传递的。实验证实,该晶体垂直于 $c$ 轴的导热性比平行于 $c$ 轴的导热性高20倍。用上述计算结果说明该晶体的结构与导热性的关系。"
+          "text": "共价晶体的导热是共价键的振动传递的.实验证实,该晶体垂直于轴的导热性比平行于轴的导热性高20倍.用上述计算结果说明该晶体的结构与导热性的关系."
         }
-      ]
+      ],
+      "partId": "part-002421"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

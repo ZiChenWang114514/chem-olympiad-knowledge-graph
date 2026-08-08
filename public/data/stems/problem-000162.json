@@ -1,59 +1,51 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000162",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "二价铬氧化反应机理",
-  "number": "4",
+  "number": "Q4",
   "examYear": 2022,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000058",
     "sourceLabel": "2022-36-CChO-chusai-1.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      1,
+      2
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "金属M与单质碘在无水醋酸中反应,得到化合物 $\\ce{MI_n}$,提纯干燥后测得其熔点为 $144.5\\,^\\circ\\mathrm{C}$。为确定 $\\ce{MI_n}$ 的组成,进行以下实验:称取 $0.6263\\,\\mathrm{g}$ $\\ce{MI_n}$,置于特制的梨形瓶中,加入 $50\\,\\mathrm{mL}$ $6\\,\\mathrm{M}$ 的盐酸,同时加入适量 $\\ce{CCl4}$,用 $0.1000\\,\\mathrm{M}$ 的碘酸钾溶液进行滴定。随着碘酸钾溶液的加入,可观察到 $\\ce{CCl4}$ 层呈紫色,后逐渐变浅,滴至紫色褪去为终点,此时 $\\ce{CCl4}$ 层呈淡黄色,滴定消耗碘酸钾溶液 $20.00\\,\\mathrm{mL}$。在 $\\ce{CCl4}$ 中显黄色的物种历史上曾被误认为 $\\ce{Br2}$。"
-    }
-  ],
-  "parts": [
+      "text": "\\mathrm { C r ^ { 2 + } } 在酸性水溶液中以 \\mathrm { C r ( H _ { 2 } O ) _ { 6 } } ^ { 2 - } +形式存在,与 \\mathrm { O _ { 2 } } 反应可生成羟基桥连的双核配合物A(反应1),其中 \\mathrm { C r / O } 比为1:5,中心离子为六配位。机理研究表明 \\mathrm { C r ^ { 2 + } } 的氧化反应涉及高价Cr的中间体。将较稀的 \\mathrm { C r ^ { 2 + } } 溶液缓慢加入被 \\mathrm { O _ { 2 } } 饱和的酸性溶液中, \\mathrm { C r ^ { 2 + } } 与 \\mathrm { O _ { 2 } } 配位得到较稳定的中间体B(反应2)。B进一步与 \\mathrm { C r ^ { 2 + } } 按1:1反应得到寿命较短的中间体C(反应3),C与 \\mathrm { C r ^ { 2 + } } +进一步反应是生成A最有可能的途径:C也可以与Ph<sub>3</sub>P(Ph为苯基)反应,重新转变为 \\mathrm { C r ^ { 2 + } } 。B在酸性溶液中与 \\mathrm { F e ^ { 2 + } } 按1:1反应得到D(反应4),D可以看成 \\mathrm { H _ { 2 } O _ { 2 } } 的衍生物,与 \\mathrm { C e ^ { 4 + } } 反应重新得到B。A\\~D中金属离子均为铬离子。"
+    },
     {
-      "id": "part-000162-01",
+      "type": "subpart",
       "label": "4-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "依据滴定过程中所观察到的现象,分别写出紫色出现(反应1)和紫色消失(反应2)所发生反应的离子方程式。写出滴定反应的总离子方程式(反应3)。"
+          "text": "写出生成A的离子方程式(反应1),画出双核配合物A的结构(示出配位几何)"
         }
-      ]
+      ],
+      "partId": "part-001156"
     },
     {
-      "id": "part-000162-02",
+      "type": "subpart",
       "label": "4-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "通过计算,确定金属元素M及其碘化物 $\\ce{MI_n}$ 的化学式。"
+          "text": "写出B\\~D的化学式(可忽略水分子);写出生成B\\~D的离子方程式(反应2\\~4)"
         }
-      ]
-    },
-    {
-      "id": "part-000162-03",
-      "label": "4-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "将 $\\ce{MI_n}$ 与 $\\ce{(CH3)3SI}$ 按计量比 $1:2$ 反应,得到一种稳定、无毒、高效的化合物T,T可用作染料太阳能电池中的空穴传输材料。写出T的化学式。"
-        }
-      ]
+      ],
+      "partId": "part-001157"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

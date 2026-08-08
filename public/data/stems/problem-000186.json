@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000186",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,37 +8,120 @@
   "examYear": 2022,
   "examStage": "final",
   "source": {
-    "sourceDocumentId": "source-000021",
     "sourceLabel": "2022-36-CChO-juesai-1.pdf",
-    "page": null,
+    "pages": [
+      6
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000021"
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "烯烃氧化裂解成醛（酮）的反应是重要有机化学反应之一，反应通常用臭氧作氧化剂。最近，研究发现，光照条件下，硝基苯类化合物也可以将烯烃氧化裂解成醛（酮），如下反应式所示："
+      "text": "## 第8题 烯烃的氧化裂解"
     },
     {
       "type": "paragraph",
-      "text": "在−40 °C和光照（波长为395 nm）下，对上述反应进⾏19F-NMR监测（19F-NMR可用于监测含氟有机化合物），发现有A和B中间体，且A的浓度明显高于B的浓度；当反应温度升⾄ $- 2 0 ~ ^ { \\circ } \\mathrm { C }$ 时，19F-NMR 监测发现，A和B快速分解，生成物中有化合物C（分⼦式为 $\\mathrm { C _ { 1 4 } H _ { 9 } F N _ { 2 } O ) }$ ，且C的浓度逐渐升高。8-1-1 画出A、B和C的结构式。 8-1-2 研究发现， $- 2 0 ~ ^ { \\circ } \\mathrm { C }$ 光照下，化合物C易转化为化合物D；升温⾄ $2 5 ~ ^ { \\circ } \\mathrm { C } ,$ ，反应24h后，D⼏乎全部重排成副产物 $\\mathbf { E } ,$ ，已知C、D和E互为同分异构体，画出D和E的结构式。 近来，研究人员巧妙地利用烯烃下F和硝基苯衍生物G合成出了较为稳定的化合物H，H和A具有部分相同的⻣架结构。通过H在不同溶剂中的反应，对该类氧化反应的机理做了进一步的探究。反应如下所示："
-    },
-    {
-      "type": "paragraph",
-      "text": "8-2-1 画出H、J和K的结构式。 8-2-2 请说明将H用作底物进⾏上述反应来探究氧化机理的原因。"
+      "text": "烯烃氧化裂解成醛(酮)的反应是重要有机化学反应之一,反应通常用臭氧作氧化剂.最近,研究发现,光照条件下,硝基苯类化合物也可以将烯烃氧化裂解成醛(酮),如下反应式所示:"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000186-figure-001.jpg",
-      "alt": "problem-000186题目配图第1幅（已按原图查看）"
+      "alt": "原卷第8题图1：烯烃氧化裂解成醛(酮)的反应是重要有机化学反应之一,反应通常用臭氧作氧化剂.最近,研究发现,光照条件下,硝基苯类化合物也可以将烯烃氧化裂解成",
+      "displayWidth": 70,
+      "assetId": "asset-003524"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000186-figure-002.jpg",
-      "alt": "problem-000186题目配图第2幅（已按原图查看）"
+      "type": "paragraph",
+      "text": "##"
+    },
+    {
+      "type": "subpart",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "氧化反应机理探究一"
+        },
+        {
+          "type": "paragraph",
+          "text": "在−40 °C和光照(波⻓为395nm)下,对上述反应进行19F-NMR监测(19F-NMR可用于监测含氟有机化合物),发现有A和B中间体,且A的浓度明显高于B的浓度;当反应温度升至 $- 20 ~ ^ { \\circ } \\mathrm { C }$ 时,19F-NMR 监测发现,A和B快速分解,生成物中有化合物C(分子式为 $\\mathrm { C _ { 14 } H _ { 9 } FN _ { 2 } O ) }$ ,且C的浓度逐渐升高."
+        }
+      ],
+      "partId": "part-002148"
+    },
+    {
+      "type": "subpart",
+      "label": "8-1-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出A,B和C的结构式."
+        }
+      ],
+      "partId": "part-002149"
+    },
+    {
+      "type": "subpart",
+      "label": "8-1-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "研究发现, $- 20 ~ ^ { \\circ } \\mathrm { C }$ 光照下,化合物C易转化为化合物D;升温至 $25 ~ ^ { \\circ } \\mathrm { C } ,$ ,反应24h后,D几乎全部重排成副产物 $\\mathbf { E } ,$ ,已知C,D和E互为同分异构体,画出D和E的结构式."
+        },
+        {
+          "type": "paragraph",
+          "text": "##"
+        }
+      ],
+      "partId": "part-002150"
+    },
+    {
+      "type": "subpart",
+      "label": "8-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "氧化反应机理探究二"
+        },
+        {
+          "type": "paragraph",
+          "text": "近来,研究人员巧妙地利用烯烃下F和硝基苯衍生物G合成出了较为稳定的化合物H,H和A具有部分相同的⻣架结构.通过H在不同溶剂中的反应,对该类氧化反应的机理做了进一步的探究.反应如下所示:"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000186-figure-002.jpg",
+          "alt": "原卷第8题图2：近来,研究人员巧妙地利用烯烃下F和硝基苯衍生物G合成出了较为稳定的化合物H,H和A具有部分相同的⻣架结构.通过H在不同溶剂中的反应,对该类氧",
+          "displayWidth": 70,
+          "assetId": "asset-003525"
+        }
+      ],
+      "partId": "part-002151"
+    },
+    {
+      "type": "subpart",
+      "label": "8-2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出H,J和K的结构式."
+        }
+      ],
+      "partId": "part-002152"
+    },
+    {
+      "type": "subpart",
+      "label": "8-2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "请说明将H用作底物进行上述反应来探究氧化机理的原因."
+        }
+      ],
+      "partId": "part-002153"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

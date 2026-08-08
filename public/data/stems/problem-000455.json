@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000455",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,41 +10,46 @@
   "source": {
     "sourceDocumentId": "source-000049",
     "sourceLabel": "2015-29-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      2,
+      3
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000455-01",
+      "type": "subpart",
       "label": "7-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在如下反应中,反应前后钒的氧化数和配位数各是多少?N—N 键长如何变化?"
+          "text": "在如下反应中,反应前后钒的氧化数和配位数各是多少？N—N 键长如何变化？"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000455-figure-001.jpg",
-          "alt": "化学结构示意图（原图）",
-          "caption": "题目配图"
+          "alt": "化学结构示意图(原图)",
+          "displayWidth": 80,
+          "caption": "题目配图",
+          "assetId": "asset-003098"
         }
-      ]
+      ],
+      "partId": "part-000916"
     },
     {
-      "id": "part-000455-02",
+      "type": "subpart",
       "label": "7-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "单晶衍射实验证实,配合物 $\\ce{[Cr3O(CH3CO2)6(H2O)3]Cl . 8H2O}$ 中,3 个铬原子的化学环境完全相同,乙酸根为桥连配体,水分子为单齿配体。画出该配合物中阳离子的结构示意图。"
         }
-      ]
+      ],
+      "partId": "part-000917"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

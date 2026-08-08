@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000440",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,13 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000009",
     "sourceLabel": "2014-28-CChO-juesai.pdf",
-    "page": null,
+    "pages": [
+      1
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
@@ -30,48 +28,53 @@
     {
       "type": "paragraph",
       "text": "起始时物质的量已标在图中。某温度和100 kPa下实现平衡时,各部分的体积分别为 $V_{\\text{甲}}$、$V_{\\text{乙}}$、$V_{\\text{丙}}$ 和 $V_{\\text{丁}}$。这时若是去掉活塞1或3,均不会引起其它活塞移动。"
-    }
-  ],
-  "parts": [
+    },
     {
-      "id": "part-000440-01",
+      "type": "subpart",
       "label": "2-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "已知平衡常数 $K$ 和反应商 $Q$,如何判断反应进行方向?"
+          "text": "已知平衡常数 $K$ 和反应商 $Q$,如何判断反应进行方向？"
         }
-      ]
+      ],
+      "partId": "part-000898"
     },
     {
-      "id": "part-000440-02",
+      "type": "subpart",
       "label": "2-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "求算 $V_{\\text{甲}}$ 与 $V_{\\text{乙}}$ 之比;"
         }
-      ]
+      ],
+      "partId": "part-000899"
     },
     {
-      "id": "part-000440-03",
+      "type": "subpart",
       "label": "2-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "求算 $K^{\\ominus}$ 值;"
         }
-      ]
+      ],
+      "partId": "part-000900"
     },
     {
-      "id": "part-000440-04",
+      "type": "subpart",
       "label": "2-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "去掉活塞2后再次达到平衡时,活塞3向哪个方向发生了移动?试通过计算加以解释,可以假定反应的 $K^{\\ominus}$ 等于 1。"
+          "text": "去掉活塞2后再次达到平衡时,活塞3向哪个方向发生了移动？试通过计算加以解释,可以假定反应的 $K^{\\ominus}$ 等于 1。"
         }
-      ]
+      ],
+      "partId": "part-000901"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

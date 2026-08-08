@@ -1,60 +1,66 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000198",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "镓氯化合物与团簇",
-  "number": "1",
+  "number": "Q1",
   "examYear": 2023,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000060",
     "sourceLabel": "2023-37-CChO-chusai.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      1
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000198-01",
+      "type": "subpart",
       "label": "1-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "半导体工业中通过刻蚀制造微纳结构。GaN是重要的半导体材料,通常采用含氯气体在放电条件下进行刻蚀。写出利用 $\\mathrm{Ar-Cl_2}$ 混合气体放电刻蚀GaN的化学方程式。"
+          "text": "半导体工业中通过刻蚀制造微纳结构。GaN是重要的半导体材料,通常采用含氯气体在放电条件下进行刻蚀。写出利用 \\mathrm { A r } { - } \\mathrm { C l } _ { 2 } 混合气体放电刻蚀GaN的化学方程式。"
         }
-      ]
+      ],
+      "partId": "part-001219"
     },
     {
-      "id": "part-000198-02",
+      "type": "subpart",
       "label": "1-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "金属镓熔点很低但沸点很高,其中存在二聚体 $\\mathrm{Ga_2}$ 。1990年,科学家将液态Ga和 $\\mathrm{I_2}$ 在甲苯中超声处理,得到了组成为GaI的物质。该物质中含有多种不同氧化态的Ga,具有两种可能的结构,分子式分别为 $\\mathrm{Ga_4I_4(A)}$ 和 $\\mathrm{Ga_6I_6(B)}$ ,二者对应的阴离子分别为C和D,两种阴离子均由Ga和I构成且其中所有原子的价层均满足8电子。写出示出A和B组成特点的结构简式并标出Ga的氧化态,画出C和D的结构。"
+          "text": "金属镓熔点很低但沸点很高,其中存在二聚体 \\mathrm { G a _ { 2 } } _ { \\mathrm { { c } } } 。1990年,科学家将液态Ga和 \\mathrm { I } _ { 2 } 在甲苯中超声处理,得到了组成为GaI的物质。该物质中含有多种不同氧化态的Ga,具有两种可能的结构,分子式分别为\\mathrm { G a } _ { 4 } \\mathrm { I } _ { 4 } \\left( \\mathrm { A } \\right) 和 \\mathrm { G a } _ { 6 } \\mathrm { I } _ { 6 } \\left( \\mathrm { B } \\right) ,二者对应的阴离子分别为C和D,两种阴离子均由Ga和I构成且其中所有原子的价层均满足8电子。写出示出A和B组成特点的结构简式并标出Ga的氧化态,画出C和D的结构。"
         }
-      ]
+      ],
+      "partId": "part-001220"
     },
     {
-      "id": "part-000198-03",
+      "type": "subpart",
       "label": "1-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "GaI常用于合成低价Ga的化合物。将GaI与 $\\mathrm{Ar'Li}$ (Ar′基如图所示,解答中直接采用简写 $\\mathrm{Ar'}$ )在 $-78~^{\\circ}\\mathrm{C}$ 的甲苯溶液中反应,得到晶体E,E中含有2个Ga原子;E在乙醚溶液中与金属钠反应得到晶体F,X射线晶体学表明,F中的Ga-Ga键长比E中短0.028nm。关于F中Ga-Ga的键级历史上曾有过争议,其中一种观点认为,F中的Ga价层满足8电子。基于该观点,画出E和F的结构式。"
-        },
-        {
-          "type": "figure",
-          "caption": "Ar′基结构图(原题附图)",
-          "alt": "Ar′基的结构简式,解答中直接采用简写 Ar′",
-          "src": "data/stems/assets/problem-000198-figure-001.jpg"
+          "text": "GaI常用于合成低价Ga的化合物。将GaI与 \\mathrm { A r ^ { \\prime } L i } (Ar′基如图所示,解答中直接采用简写 \\mathrm { A r ^ { \\prime } } ) )在−78 ~ ^ { \\circ } \\mathrm { C } 的甲苯溶液中反应,得到晶体E,E中含有2个Ga原子;E在乙醚溶液中与金属钠反应得到晶体F,X射线晶体学表明,F中的Ga-Ga键⻓比E中短0.028nm。关于F中Ga-Ga的键级历史上曾有过争议,其中一种观点认为,F中的Ga价层满足8电子。基于该观点,画出E和F的结构式。"
         }
-      ]
+      ],
+      "partId": "part-001221"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000198-figure-001.jpg",
+      "assetId": "asset-003229",
+      "alt": "镓氯化合物与团簇：第1幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

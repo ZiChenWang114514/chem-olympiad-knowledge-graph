@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000114",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,28 +8,130 @@
   "examYear": 2021,
   "examStage": "preliminary",
   "source": {
-    "sourceDocumentId": "source-000057",
     "sourceLabel": "2021-35-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      1
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000057"
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第3题（12分）硼的化合物 $\\mathrm { B ( O H ) _ { 3 } }$ 是一种重要的无机化合物。在尝试合成硫代硼酸的过程中，得到了最简式为 $\\mathrm { H B S _ { 2 } }$ 的化合物，结构研究发现，这类物质主要以二聚(HBS ) (A)或三聚(HBS ) (B)的形式存在，其中的B均为三配位。 3-1 画出A和B的结构。 3-2 A 和 $\\mathrm { B C l _ { 3 } }$ 按计量系数1:1反应，得到相同计量系数的 $\\mathrm { H } _ { 2 } \\mathrm { S }$ 和另一产物C（反应1），C受热分解为D和$\\mathrm { B C l _ { 3 } }$ （反应2）。在低温惰性介质中D可以单分⼦形式存在，结构中有且仅有二次旋转轴以及过二次轴的两个 3-2-1 写出C生成（反应1）和分解（反应2）的反应方程式。 3-2-2C易⽔解。写出C发生⽔解的反应方程式 3-2-3 画出 C 和 D 的结构。 3-3 D 和单质 S 在 $3 0 0 ~ ^ { \\circ } \\mathrm { C }$ 反应，生成白色固体E，E的分⼦采用类似卟吩的平面大环结构（⻅右图，每个圆圈代表一个原⼦）。"
+      "text": "第3题 硼的化合物"
     },
     {
       "type": "paragraph",
-      "text": "3-3-1 写出E的分⼦式（要求给出表示其组成特点的结构简式，并示出元素的氧化态）。 3-3-2 画出E的经典Lewis结构（只需给出一种） 3-3-3 依据休克尔规则判断此结构是否有芳⾹性。"
+      "text": "$\\mathrm { B ( OH ) _ { 3 } }$ 是一种重要的无机化合物.在尝试合成硫代硼酸的过程中,得到了最简式为 $\\mathrm { HBS _ { 2 } }$ 的化合物,结构研究发现,这类物质主要以二聚(HBS ) (A)或三聚(HBS ) (B)的形式存在,其中的B均为三配位."
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000114-figure-001.jpg",
-      "alt": "problem-000114题目配图第1幅（已按原图查看）"
+      "type": "subpart",
+      "label": "3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出A和B的结构."
+        }
+      ],
+      "partId": "part-002047"
+    },
+    {
+      "type": "subpart",
+      "label": "3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A 和 $\\mathrm { BCl _ { 3 } }$ 按计量系数1:1反应,得到相同计量系数的 $\\mathrm { H } _ { 2 } \\mathrm { S }$ 和另一产物C(反应1),C受热分解为D和$\\mathrm { BCl _ { 3 } }$ (反应2).在低温惰性介质中D可以单分子形式存在,结构中有且仅有二次旋转轴以及过二次轴的两个"
+        }
+      ],
+      "partId": "part-002048"
+    },
+    {
+      "type": "subpart",
+      "label": "3-2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出C生成(反应1)和分解(反应2)的反应方程式."
+        }
+      ],
+      "partId": "part-002049"
+    },
+    {
+      "type": "subpart",
+      "label": "3-2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "C易水解.写出C发生水解的反应方程式"
+        }
+      ],
+      "partId": "part-002050"
+    },
+    {
+      "type": "subpart",
+      "label": "3-2-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出 C 和 D 的结构."
+        }
+      ],
+      "partId": "part-002051"
+    },
+    {
+      "type": "subpart",
+      "label": "3-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "D 和单质 S 在 $300 ~ ^ { \\circ } \\mathrm { C }$ 反应,生成白色固体E,E的分子采用类似卟吩的平面大环结构(⻅右图,每个圆圈代表一个原子)."
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000114-figure-001.jpg",
+          "alt": "原卷第3题图1：D 和单质 S 在 $300 ~ ^ { \\circ } \\mathrm { C }$ 反应,生成白色固体E,E的分子采用类似卟吩的平面大环",
+          "displayWidth": 70,
+          "assetId": "asset-003479"
+        }
+      ],
+      "partId": "part-002052"
+    },
+    {
+      "type": "subpart",
+      "label": "3-3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出E的分子式(要求给出表示其组成特点的结构简式,并示出元素的氧化态)."
+        }
+      ],
+      "partId": "part-002053"
+    },
+    {
+      "type": "subpart",
+      "label": "3-3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出E的经典Lewis结构(只需给出一种)"
+        }
+      ],
+      "partId": "part-002054"
+    },
+    {
+      "type": "subpart",
+      "label": "3-3-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "依据休克尔规则判断此结构是否有芳香性."
+        }
+      ],
+      "partId": "part-002055"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

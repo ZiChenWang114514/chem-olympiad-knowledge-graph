@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000147",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,46 +8,147 @@
   "examYear": 2021,
   "examStage": "final",
   "source": {
-    "sourceDocumentId": "source-000017",
     "sourceLabel": "2021-35-CChO-juesai-1.pdf",
-    "page": null,
+    "pages": [
+      5
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000017"
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第6题（6分）同位素效应同位素取代，如D(2H)对H(1H)的取代，可能引起平衡常数与反应速率的变化，称之为热力学同位素效应和动力学同位素效应。 6-1 动力学同位素效应可用于反应机理研究。人们研究了苯基异丙基酮溴化反应的动力学，298 K的数据如下表，设其速率方程为 $r = k _ { \\neq \\neq \\forall \\downarrow } [ \\mathrm { K } - \\mathrm { H } ] ^ { \\alpha } [ \\mathrm { H } ^ { + } ] ^ { \\beta } [ \\mathrm { B r } _ { 2 } ] ^ { \\gamma }$ ，指出各反应物的分级数并计算表观速率常数。 如下图所示，K-H表示苯基异丙基酮分⼦，K-D表示其氘取代分⼦。"
+      "text": "第6题 同位素效应同位素取代,如D(2H)对H(1H)的取代,可能引起平衡常数与反应速率的变化,称之为热力学同位素效应和动力学同位素效应."
     },
     {
-      "type": "paragraph",
-      "text": "K-H"
+      "type": "subpart",
+      "label": "6-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "动力学同位素效应可用于反应机理研究.人们研究了苯基异丙基酮溴化反应的动力学,298K的数据如下表,设其速率方程为 $r = k _ { \\neq \\neq \\forall \\downarrow } [ \\mathrm { K } - \\mathrm { H } ] ^ { \\alpha } [ \\mathrm { H } ^ { + } ] ^ { \\beta } [ \\mathrm { Br } _ { 2 } ] ^ { \\gamma }$ ,指出各反应物的分级数并计算表观速率常数."
+        },
+        {
+          "type": "paragraph",
+          "text": "<table><tr><td>序号</td><td>缓冲液 pH</td><td> $[K-H]_0$ (molL $^{-1}$ )</td><td> $[Br_2]_0$ (molL $^{-1}$ )</td><td>初始速率 $r_0$ (molL $^{-1}$ h $^{-1}$ )</td></tr><tr><td>1</td><td>2.70</td><td> $1.00 \\times10^{-3}$ </td><td> $1.00 \\times10^{-3}$ </td><td> $2.3 \\times10^{-4}$ </td></tr><tr><td>2</td><td>2.70</td><td> $2.00 \\times10^{-3}$ </td><td> $1.00 \\times10^{-3}$ </td><td> $4.6 \\times10^{-4}$ </td></tr><tr><td>3</td><td>3.70</td><td> $1.00 \\times10^{-2}$ </td><td> $1.00 \\times10^{-2}$ </td><td> $2.3 \\times10^{-4}$ </td></tr><tr><td>4</td><td>3.70</td><td> $1.00 \\times10^{-2}$ </td><td> $2.00 \\times10^{-2}$ </td><td> $2.3 \\times10^{-4}$ </td></tr></table>"
+        },
+        {
+          "type": "paragraph",
+          "text": "如下图所示,K-H表示苯基异丙基酮分子,K-D表示其氘取代分子."
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000147-figure-001.jpg",
+          "alt": "原卷第6题图1：如下图所示,K-H表示苯基异丙基酮分子,K-D表示其氘取代分子.",
+          "displayWidth": 70,
+          "assetId": "asset-003501"
+        },
+        {
+          "type": "paragraph",
+          "text": "K-H"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000147-figure-002.jpg",
+          "alt": "原卷第6题图2：K-H",
+          "displayWidth": 70,
+          "assetId": "asset-003502"
+        },
+        {
+          "type": "paragraph",
+          "text": "图"
+        },
+        {
+          "type": "paragraph",
+          "text": "K-D"
+        }
+      ],
+      "partId": "part-002091"
     },
     {
-      "type": "paragraph",
-      "text": "K-D 6-2 苯基异丙基酮的溴化是酸催化反应。一般认为可能的机理为： $$ \\begin{array}{l} \\mathrm {K - H+ H^ {+} \\xleftrightarrow [ k_{-1} ]{k_ {1}} HK- H^ {+}} \\\\ \\mathrm {HK- H^ {+} \\xrightarrow {k_ {2}} Enol(烯醇)+ H^ {+}} \\\\ \\mathrm {Enol + Br_ {2} \\xrightarrow {k_ {3}} K - Br+ H^ {+} + Br^ {-}} \\end{array} $$ 采用稳态近似，做合理近似，推导总反应的速率方程。指出此反应的速控步并说明理由。 6-3 保持反应物浓度以及缓冲溶液pH值不变，308 K下苯基异丙基酮溴化反应速率相比298 K时加倍，试估算该反应速控步的活化能。已知反应 $\\mathrm { K \\mathrm { - } H + H ^ { + } H K } .$ -H+的Δ? = 30 kJ mol−1。 6-4 以C—H键解离反应的动力学同位素效应为例，说明如下。键伸缩振动可近似用简谐振动描述，简谐振动频率 $\\begin{array} { r } { \\mathsf { v } = \\frac { 1 } { 2 \\pi } \\sqrt { \\frac { \\kappa } { \\mu } } , } \\end{array}$ 式中?为力常数（C—H与C—D的力常数?相等），?为折合质量，以C—H为例： $\\mu =$ $\\frac { m _ { \\mathrm { C } } m _ { \\mathrm { H } } } { m _ { \\mathrm { C } } + m _ { \\mathrm { H } } } { \\mathrm { ^ c } }$ 。分⼦在振动基态时的能量称为零点能 $E _ { 0 }$ ， $\\begin{array} { r } { E _ { 0 } = \\frac 1 2 h \\nu } \\end{array}$ ，式中ℎ为普朗克常数。如下图所示，C—D与C—H反应物的零点能不同，但是因过渡态伸缩振动的力常数很小，C—D与C—H过渡态(TS)零点能的差值通常可以忽略，因此，C—D键解离比C—H键解离的活化能更大。近似认为两种反应的Arrhenius指前因⼦相等，则反应速率常数的变化可以定量计算。计算K—H和K—D在298K时溴化反应速控步的速率常数比值。已知$\\widetilde { \\nu } _ { \\mathrm { C - H } } = 2 9 5 0 \\mathrm { c m } ^ { - 1 }$ ，H，D相对原⼦质量分别为1.007，2.000。"
+      "type": "subpart",
+      "label": "6-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "苯基异丙基酮的溴化是酸催化反应.一般认为可能的机理为:"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "{l} \\mathrm {K - H+ H^ {+} \\xleftrightarrow [ k_{-1} ]{k_ {1}} HK- H^ {+}} \\\\ \\mathrm {HK- H^ {+} \\xrightarrow {k_ {2}} Enol(烯醇)+ H^ {+}} \\\\ \\mathrm {Enol + Br_ {2} \\xrightarrow {k_ {3}} K - Br+ H^ {+} + Br^ {-}}"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "采用稳态近似,做合理近似,推导总反应的速率方程.指出此反应的速控步并说明理由."
+        }
+      ],
+      "partId": "part-002092"
     },
     {
-      "type": "paragraph",
-      "text": "6-5 碱性条件下，K-H氯代反应的反应机理会发生变化，总反应的表观速率方程为： $r = k [ \\mathrm { C l ^ { - } } ] [ \\mathrm { O H ^ { - } } ] [ \\mathrm { K \\mathrm { - } H } ]$ 试拟定K-H氯代反应的反应机理。 6-6 氘代对化学反应平衡常数的影响也可以从零点能出发，类似讨论。已知298K下，醋酸电离反应HOAc$+ \\mathrm { H } _ { 2 } \\mathrm { O } \\mathrm { O A c } ^ { - } + \\mathrm { H } _ { 3 } \\mathrm { O } ^ { + }$ 的 $\\mathsf { p } K _ { a } = 4 . 7 4$ $\\mathrm { H _ { 3 } O ^ { + } }$ 与HOAc中O—H键的振动波数分别为 $3 0 0 0 \\mathrm { c m } ^ { - 1 }$ 和 $2 8 0 0 \\mathrm { c m } ^ { - }$ $^ 1 \\circ$ 判断 HOAc 在 $\\mathrm { D } _ { 3 } \\mathrm { O } ^ { + }$ 中电离反应 $\\mathsf { p } K _ { a }$ 相比 HOAc 在 $\\mathrm { H _ { 3 } O ^ { - } }$ +中电离反应的 $\\mathsf { p } K _ { a }$ 如何变化并说明理由（不要求计算$\\mathsf { p } K _ { a }$ 数值）。"
+      "type": "subpart",
+      "label": "6-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "保持反应物浓度以及缓冲溶液pH值不变,308K下苯基异丙基酮溴化反应速率相比298K时加倍,试估算该反应速控步的活化能.已知反应 $\\mathrm { K \\mathrm { - } H + H ^ { + } HK } .$ -H+的Δ = 30kJmol−1."
+        }
+      ],
+      "partId": "part-002093"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000147-figure-001.jpg",
-      "alt": "problem-000147题目配图第1幅（已按原图查看）"
+      "type": "subpart",
+      "label": "6-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "以C—H键解离反应的动力学同位素效应为例,说明如下.键伸缩振动可近似用简谐振动描述,简谐振动频率 $ { r } { \\mathsf { v } = \\frac { 1 } { 2 \\pi } \\sqrt { \\frac { \\kappa } { \\mu } } , } $ 式中为力常数(C—H与C—D的力常数相等),为折合质量,以C—H为例: $\\mu =$ $\\frac { m _ { \\mathrm { C } } m _ { \\mathrm { H } } } { m _ { \\mathrm { C } } + m _ { \\mathrm { H } } } { \\mathrm { ^ c } }$ .分子在振动基态时的能量称为零点能 $E _ { 0 }$ , $ { r } { E _ { 0 } = \\frac12h \\nu } $ ,式中h为普朗克常数.如下图所示,C—D与C—H反应物的零点能不同,但是因过渡态伸缩振动的力常数很小,C—D与C—H过渡态(TS)零点能的差值通常可以忽略,因此,C—D键解离比C—H键解离的活化能更大.近似认为两种反应的Arrhenius指前因子相等,则反应速率常数的变化可以定量计算.计算K—H和K—D在298K时溴化反应速控步的速率常数比值.已知$\\widetilde { \\nu } _ { \\mathrm { C - H } } = 2950 \\mathrm { cm } ^ { - 1 }$ ,H,D相对原子质量分别为1.007,2.000."
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000147-figure-003.jpg",
+          "alt": "原卷第6题图3：以C—H键解离反应的动力学同位素效应为例,说明如下.键伸缩振动可近似用简谐振动描述,简谐振动频率 $ { r } { \\mathsf { v",
+          "displayWidth": 70,
+          "assetId": "asset-003503"
+        },
+        {
+          "type": "paragraph",
+          "text": "图 6-2"
+        }
+      ],
+      "partId": "part-002094"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000147-figure-002.jpg",
-      "alt": "problem-000147题目配图第2幅（已按原图查看）"
+      "type": "subpart",
+      "label": "6-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "碱性条件下,K-H氯代反应的反应机理会发生变化,总反应的表观速率方程为: $r = k [ \\mathrm { Cl ^ { - } } ] [ \\mathrm { OH ^ { - } } ] [ \\mathrm { K \\mathrm { - } H } ]$ 试拟定K-H氯代反应的反应机理."
+        }
+      ],
+      "partId": "part-002095"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000147-figure-003.jpg",
-      "alt": "problem-000147题目配图第3幅（已按原图查看）"
+      "type": "subpart",
+      "label": "6-6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "氘代对化学反应平衡常数的影响也可以从零点能出发,类似讨论.已知298K下,醋酸电离反应HOAc$+ \\mathrm { H } _ { 2 } \\mathrm { O } \\mathrm { OAc } ^ { - } + \\mathrm { H } _ { 3 } \\mathrm { O } ^ { + }$ 的 $\\mathsf { p } K _ { a } = 4.74$ $\\mathrm { H _ { 3 } O ^ { + } }$ 与HOAc中O—H键的振动波数分别为 $3000 \\mathrm { cm } ^ { - 1 }$ 和 $2800 \\mathrm { cm } ^ { - }$ $^ 1 \\circ$ 判断 HOAc 在 $\\mathrm { D } _ { 3 } \\mathrm { O } ^ { + }$ 中电离反应 $\\mathsf { p } K _ { a }$ 相比 HOAc 在 $\\mathrm { H _ { 3 } O ^ { - } }$ +中电离反应的 $\\mathsf { p } K _ { a }$ 如何变化并说明理由(不要求计算$\\mathsf { p } K _ { a }$ 数值)."
+        }
+      ],
+      "partId": "part-002096"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

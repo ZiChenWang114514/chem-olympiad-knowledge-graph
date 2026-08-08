@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000316",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,73 +10,80 @@
   "source": {
     "sourceDocumentId": "source-000002",
     "sourceLabel": "2007-21-CChO-juesai.pdf",
-    "page": null,
+    "pages": [
+      5
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000316-figure-001.jpg",
-      "alt": "化学结构示意图（原图）",
-      "caption": "图1"
+      "alt": "化学结构示意图(原图)",
+      "displayWidth": 80,
+      "caption": "图1",
+      "assetId": "asset-003045"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000316-figure-002.jpg",
-      "alt": "化学结构示意图（原图）",
-      "caption": "图2"
+      "alt": "化学结构示意图(原图)",
+      "displayWidth": 80,
+      "caption": "图2",
+      "assetId": "asset-003046"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000316-figure-003.jpg",
-      "alt": "化学结构示意图（原图）",
-      "caption": "题目配图"
+      "alt": "化学结构示意图(原图)",
+      "displayWidth": 80,
+      "caption": "题目配图",
+      "assetId": "asset-003047"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000316-figure-004.jpg",
-      "alt": "化学结构示意图（原图）",
-      "caption": "题目配图"
-    }
-  ],
-  "parts": [
+      "alt": "化学结构示意图(原图)",
+      "displayWidth": 80,
+      "caption": "题目配图",
+      "assetId": "asset-003048"
+    },
     {
-      "id": "part-000316-01",
+      "type": "subpart",
       "label": "6-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在C层和D层的单位晶格(即图2中的方框)内分别有几个处于由体相暴露出来的四面体空隙中的 $\\mathrm{Al^{3+}}$ 和八面体空隙中的 $\\mathrm{Al^{3+}}$?"
+          "text": "在C层和D层的单位晶格(即图2中的方框)内分别有几个处于由体相暴露出来的四面体空隙中的 $\\mathrm{Al^{3+}}$ 和八面体空隙中的 $\\mathrm{Al^{3+}}$？"
         }
-      ]
+      ],
+      "partId": "part-000669"
     },
     {
-      "id": "part-000316-02",
+      "type": "subpart",
       "label": "6-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$\\mathrm{NiO/\\gamma-Al_2O_3}$ 催化剂中分散在表面的NiO的 $\\mathrm{Ni^{2+}}$ 进入能形成表面四面体配位和八面体配位的位置,且与 $\\mathrm{Ni^{2+}}$ 相伴的 $\\mathrm{O^{2-}}$ 按 $\\gamma\\mathrm{-Al_2O_3}$ 堆积方式外延(假定只形成“单分子层”),请问在C层和D层的单位晶格中各能容纳几个 $\\mathrm{Ni^{2+}}$?"
+          "text": "$\\mathrm{NiO/\\gamma-Al_2O_3}$ 催化剂中分散在表面的NiO的 $\\mathrm{Ni^{2+}}$ 进入能形成表面四面体配位和八面体配位的位置,且与 $\\mathrm{Ni^{2+}}$ 相伴的 $\\mathrm{O^{2-}}$ 按 $\\gamma\\mathrm{-Al_2O_3}$ 堆积方式外延(假定只形成“单分子层”),请问在C层和D层的单位晶格中各能容纳几个 $\\mathrm{Ni^{2+}}$？"
         }
-      ]
+      ],
+      "partId": "part-000670"
     },
     {
-      "id": "part-000316-03",
+      "type": "subpart",
       "label": "6-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "将 NiO 换为 $\\mathrm{CuO}$,文献报道 $\\mathrm{Cu^{2+}}$ 只能存在于表面的八面体空隙中,如果用氢还原不同配位环境的铜($\\mathrm{Cu^{2+}\\to Cu^{0}}$),请估计还原温度较低的表面 $\\mathrm{Cu^{2+}}$ 分布在C层还是D层中?简述理由。"
+          "text": "将 NiO 换为 $\\mathrm{CuO}$,文献报道 $\\mathrm{Cu^{2+}}$ 只能存在于表面的八面体空隙中,如果用氢还原不同配位环境的铜($\\mathrm{Cu^{2+}\\to Cu^{0}}$),请估计还原温度较低的表面 $\\mathrm{Cu^{2+}}$ 分布在C层还是D层中？简述理由。"
         }
-      ]
+      ],
+      "partId": "part-000671"
     },
     {
-      "id": "part-000316-04",
+      "type": "subpart",
       "label": "6-4",
       "blocks": [
         {
@@ -91,10 +98,11 @@
           "type": "paragraph",
           "text": "已知298 K 下的热力学数据:$\\Delta_{\\mathrm{f}}H_{\\mathrm{m}}^\\ominus(\\mathrm{CO,g})=-110.5\\ \\mathrm{kJ\\ mol^{-1}}$,$\\Delta_{\\mathrm{f}}H_{\\mathrm{m}}^\\ominus(\\mathrm{CO_2,g})=-393.5\\ \\mathrm{kJ\\ mol^{-1}}$,在温度 $T=298\\sim500\\ \\mathrm{K}$ 范围内热容 $C_{\\mathrm{p,m}}(\\mathrm{CO,g})=29.556\\ \\mathrm{J\\ K^{-1}\\ mol^{-1}}$,$C_{\\mathrm{p,m}}(\\mathrm{O_2,g})=29.526\\ \\mathrm{J\\ K^{-1}\\ mol^{-1}}$,$C_{\\mathrm{p,m}}(\\mathrm{CO_2,g})=27.437\\ \\mathrm{J\\ K^{-1}\\ mol^{-1}}$。"
         }
-      ]
+      ],
+      "partId": "part-000672"
     },
     {
-      "id": "part-000316-05",
+      "type": "subpart",
       "label": "6-6",
       "blocks": [
         {
@@ -103,13 +111,17 @@
         },
         {
           "type": "paragraph",
-          "text": "$$\n\\begin{array}{l}\n\\text{(1) CO + M} \\xleftrightarrow[k_{-1}]{k_1} \\mathrm{CO_{(ads)}} \\\\\n\\text{(2) O_2 + 2M} \\xrightarrow{k_2} 2\\mathrm{O_{(ads)}} \\\\\n\\text{(3) CO_{(ads)} + O_{(ads)}} \\xrightarrow{k_3} \\mathrm{CO_{2(ads)}} + \\mathrm{M} \\\\\n\\text{(4) CO_{2(ads)}} \\xrightarrow{k_4} \\mathrm{CO_2} + \\mathrm{M}\n\\end{array}\n$$"
+          "text": "（1）CO + M ⇌ CO(ads)\n（2）O₂ + 2M → 2O(ads)\n（3）CO(ads) + O(ads) → CO₂(ads) + M\n（4）CO₂(ads) → CO₂ + M"
         },
         {
           "type": "paragraph",
           "text": "式中M为表面活性位,在该实验条件下M的数量为定值,下标ads表示吸附态。请用稳态近似法推导其速率方程,速率用 $\\frac{\\mathrm{d}[\\mathrm{CO_2}]}{\\mathrm{d}t}$ 表示。"
         }
-      ]
+      ],
+      "partId": "part-000673"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

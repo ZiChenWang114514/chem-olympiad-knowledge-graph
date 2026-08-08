@@ -1,85 +1,107 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000165",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "镁铁氢化物晶体结构",
-  "number": "7",
+  "number": "Q7",
   "examYear": 2022,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000058",
     "sourceLabel": "2022-36-CChO-chusai-1.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      3
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "2022年9月9日,国家航天局、国家原子能机构联合发布:我国科学家在嫦娥五号月壤样品中发现一种新矿物,命名为“嫦娥石”,英文名称Changesite-(Y)。嫦娥石是一种磷酸盐矿,属于陨磷钠镁钙石(Merrillite)族。"
-    }
-  ],
-  "parts": [
+      "text": "尽管 ^ { 66 } \\mathrm { M g _ { 2 } F e } ^ { 33 } 不稳定,但在储氢材料的探索中得到了其稳定的具有客观储氢量的氢化物。这种氢化物结构属立方晶系,面心立方点阵,晶胞参数 a = 644 . 58 \\mathrm { p m } ,晶胞如下图所示(氢未示出)。可以认为,结构中,Fe原子采取立方密堆积,Mg占据其堆积形成的所有四面体空隙且处于中心位置,H原子以正八面体的配位模式有序分布在Fe的周围,H原子与Fe原子之间的最短距离等于晶胞参数的1/4。(要求:以下凡涉及计算的,结果均保留三位有效数字)"
+    },
     {
-      "id": "part-000165-01",
+      "type": "figure",
+      "src": "data/stems/assets/problem-000165-figure-001.jpg",
+      "assetId": "asset-003200",
+      "alt": "原卷示意图：$^ { 6 6 } \\mathrm { M g _ { 2 } F e } ^ { 3 5 }$ 氢化物的晶胞（氢未⽰出）",
+      "label": "$^ { 6 6 } \\mathrm { M g _ { 2 } F e } ^ { 3 5 }$ 氢化物的晶胞（氢未⽰出）",
+      "caption": "$^ { 6 6 } \\mathrm { M g _ { 2 } F e } ^ { 3 5 }$ 氢化物的晶胞(氢未示出)",
+      "displayWidth": 100
+    },
+    {
+      "type": "paragraph",
+      "text": "^ { 66 } \\mathrm { M g _ { 2 } F e } ^ { 35 } 氢化物的晶胞(氢未示出)"
+    },
+    {
+      "type": "subpart",
       "label": "7-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Merrillite 理想组成为 $\\mathrm{Ca_9NaMg(PO_4)_7}$,晶体结构属三方晶系,晶胞参数 $a = 1.029\\ \\mathrm{nm}$, $c = 3.687\\ \\mathrm{nm}$。晶胞示意图见图7.1,其中(b)给出 $\\mathrm{Mg^{2+}}$ 在晶胞中的分布,可以看成沿$c$方向采用ABCABC方式排布。"
-        },
-        {
-          "type": "paragraph",
-          "text": "7-1-1 写出晶胞中化学式的数目。"
-        },
-        {
-          "type": "paragraph",
-          "text": "7-1-2 写出图7.1所示晶胞中所有 $\\mathrm{Mg^{2+}}$ 的分数坐标。(注意坐标轴的关系。要求按$c$值从小到大排列。)"
-        },
-        {
-          "type": "paragraph",
-          "text": "7-1-3 计算 $\\mathrm{Mg^{2+}}$ 离子之间的最短距离。"
+          "text": "写出该氢化物的化学式和晶胞中H原子的总数 m _ { \\mathfrak { c } }"
         }
-      ]
+      ],
+      "partId": "part-001158"
     },
     {
-      "id": "part-000165-02",
+      "type": "subpart",
       "label": "7-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "有趣的是,嫦娥石中含有稀土元素钇,这也是其英文名称后缀Y的由来。若Merrillite中所有 $\\mathrm{Mg^{2+}}$ 均被 $\\mathrm{Fe^{2+}}$ 取代,1/9 的 $\\mathrm{Ca^{2+}}$ 被 $\\mathrm{Y^{3+}}$ 取代同时脱除 $\\mathrm{Na^{+}}$ 以保持电荷平衡,即为嫦娥石,基本晶体结构和晶胞参数保持不变。"
-        },
-        {
-          "type": "paragraph",
-          "text": "7-2-1 写出嫦娥石的化学式。"
-        },
-        {
-          "type": "paragraph",
-          "text": "7-2-2 计算嫦娥石的密度(单位: $\\mathrm{g\\ cm^{-3}}$)。"
+          "text": "计算 \\mathrm { F e - H } 键⻓, \\mathrm { M g - H } 键⻓和 H-H 最短距离;写出与 Mg 配位的 H 原子数方向。"
         }
-      ]
+      ],
+      "partId": "part-001159"
     },
     {
-      "id": "part-000165-03",
+      "type": "subpart",
       "label": "7-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "初步研究表明,嫦娥石中含有 $^{3}\\mathrm{He}$, $\\mathrm{FeO_6}$ 和 $\\mathrm{PO_4}$ 可能是其吸附位置。$^{3}\\mathrm{He}$ 已用于中子探测,也很可能成为人类未来的能源。$^{3}\\mathrm{He}$ 与中子作用产生质子和氚,写出核反应方程式。"
-        },
-        {
-          "type": "figure",
-          "caption": "图 7.1 陨磷钠镁钙石(Merrillite)的结构",
-          "alt": "陨磷钠镁钙石(Merrillite)的晶体结构示意图,包含(a)和(b)两个子图",
-          "src": "data/stems/assets/problem-000165-figure-001.jpg"
+          "text": "计算该氢化物中氢的密度方向(单位:gcm−3)及标况(1 atm, 273 K)下氢气密度 \\rho _ { 0 ; } ,给出二者的比值 R _ { \\circ }"
         }
-      ]
+      ],
+      "partId": "part-001160"
+    },
+    {
+      "type": "subpart",
+      "label": "7-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "判断下列说法是否合理,给出正确的选项。"
+        }
+      ],
+      "partId": "part-001161"
+    },
+    {
+      "type": "subpart",
+      "label": "7-4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在描述结构时,可以认为镁原子和氢原子共同形成立方密堆积:(a) 正确; (b) 错误。"
+        }
+      ],
+      "partId": "part-001162"
+    },
+    {
+      "type": "subpart",
+      "label": "7-4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "结构中,铁原子占据全部由氢原子形成的八面体空隙的一半且交替分布:(a) 正确; (b) 错误。"
+        }
+      ],
+      "partId": "part-001163"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

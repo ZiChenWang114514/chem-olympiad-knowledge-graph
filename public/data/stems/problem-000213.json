@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000213",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,13 +10,12 @@
   "source": {
     "sourceDocumentId": "source-000025",
     "sourceLabel": "2023-37-CChO-juesai-1.pdf",
-    "page": null,
+    "pages": [
+      5,
+      6
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
@@ -26,13 +25,13 @@
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000213-figure-001.jpg",
-      "alt": "化学结构示意图（原图）",
-      "caption": "图 6.1 CdSe 的吸收光谱"
-    }
-  ],
-  "parts": [
+      "alt": "化学结构示意图(原图)",
+      "displayWidth": 80,
+      "caption": "图 6.1 CdSe 的吸收光谱",
+      "assetId": "asset-002924"
+    },
     {
-      "id": "part-000213-01",
+      "type": "subpart",
       "label": "6-1",
       "blocks": [
         {
@@ -51,10 +50,11 @@
           "type": "paragraph",
           "text": "-2 鉴于 6-1-1 采用的合成法始终需要惰性气体保护,研究者进行了反应体系的改进。在含有保护剂的 $\\mathrm{CdCl_2}$ 溶液中,依次加入一定量的 $\\mathrm{Na_2SeO_3}$、$\\mathrm{NaBH_4}$ 和 $\\mathrm{N_2H_4}$ 溶液,通过调变反应物浓度和放置时间,可以获得不同尺寸的 $\\mathrm{CdSe}$。写出CdSe生成的离子方程式。这里 $\\mathrm{NaBH_4}$ 是还原剂,反应中有无色气泡产生,这些气泡也形成了保护气氛。"
         }
-      ]
+      ],
+      "partId": "part-000421"
     },
     {
-      "id": "part-000213-04",
+      "type": "subpart",
       "label": "6-2",
       "blocks": [
         {
@@ -77,10 +77,11 @@
           "type": "paragraph",
           "text": "解释峰宽发生相应变化的原因。"
         }
-      ]
+      ],
+      "partId": "part-000422"
     },
     {
-      "id": "part-000213-07",
+      "type": "subpart",
       "label": "6-3",
       "blocks": [
         {
@@ -89,15 +90,15 @@
         },
         {
           "type": "paragraph",
-          "text": "$$\\mathrm{A} \\xrightarrow{I_0} \\mathrm{A}^* \\tag{6-1}$$"
+          "text": "$$\\mathrm{A} \\xrightarrow{I_0} \\mathrm{A}^* $$"
         },
         {
           "type": "paragraph",
-          "text": "$$\\mathrm{A}^* \\xrightarrow{k_{\\mathrm{f}}} \\mathrm{A} + h\\nu \\tag{6-2}$$"
+          "text": "$$\\mathrm{A}^* \\xrightarrow{k_{\\mathrm{f}}} \\mathrm{A} + h\\nu $$"
         },
         {
           "type": "paragraph",
-          "text": "$$\\mathrm{A}^* \\xrightarrow{k_d} \\mathrm{A} \\tag{6-3}$$"
+          "text": "$$\\mathrm{A}^* \\xrightarrow{k_d} \\mathrm{A} $$"
         },
         {
           "type": "paragraph",
@@ -115,10 +116,11 @@
           "type": "paragraph",
           "text": "-2 撤去激发光光源后,体系发光也逐渐停止。从激发光截止时刻开始,监测体系荧光强度的变化,定义 $[\\mathrm{A}^*]/[\\mathrm{A}^*]_0 = 1/e$ 所经历的时间为荧光寿命 $\\tau$,其中 $[\\mathrm{A}^*]$ 为激发态分子 $\\mathrm{A}^*$ 的浓度,$[\\mathrm{A}^*]_0$ 为激发光截止时刻激发态分子的浓度。推导体系的荧光寿命 $\\tau$ 的表达式(该 $\\tau$ 记为 $\\tau_0$)。"
         }
-      ]
+      ],
+      "partId": "part-000423"
     },
     {
-      "id": "part-000213-10",
+      "type": "subpart",
       "label": "6-4",
       "blocks": [
         {
@@ -152,13 +154,16 @@
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000213-figure-002.jpg",
-          "alt": "化学结构示意图（原图）",
-          "caption": "题目配图"
+          "alt": "化学结构示意图(原图)",
+          "displayWidth": 80,
+          "caption": "题目配图",
+          "assetId": "asset-002925"
         }
-      ]
+      ],
+      "partId": "part-000424"
     },
     {
-      "id": "part-000213-13",
+      "type": "subpart",
       "label": "6-5",
       "blocks": [
         {
@@ -177,10 +182,11 @@
           "type": "paragraph",
           "text": "-2 推导静态淬灭中淬灭系数 $K$ 的表达式。"
         }
-      ]
+      ],
+      "partId": "part-000425"
     },
     {
-      "id": "part-000213-16",
+      "type": "subpart",
       "label": "6-6",
       "blocks": [
         {
@@ -197,9 +203,13 @@
         },
         {
           "type": "paragraph",
-          "text": "-2 典型CdSe量子点的荧光寿命 $\\tau_0 = 40 \\mathrm{ns}$,结合上小题中的数据,若设该过程为动态淬灭,计算淬灭反应速率常数 $k_q$;若为静态淬灭,给出 $K_s$。依据这些数据是否能判断实验体系中荧光淬灭是动态还是静态淬灭机制?若能,请说明理由。若不能,请给出一个简单的实验设计用以判断荧光淬灭机制。"
+          "text": "-2 典型CdSe量子点的荧光寿命 $\\tau_0 = 40 \\mathrm{ns}$,结合上小题中的数据,若设该过程为动态淬灭,计算淬灭反应速率常数 $k_q$;若为静态淬灭,给出 $K_s$。依据这些数据是否能判断实验体系中荧光淬灭是动态还是静态淬灭机制？若能,请说明理由。若不能,请给出一个简单的实验设计用以判断荧光淬灭机制。"
         }
-      ]
+      ],
+      "partId": "part-000426"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

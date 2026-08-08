@@ -1,16 +1,16 @@
 import { useEffect, useMemo, useRef, useState, type KeyboardEvent } from 'react'
 import MiniSearch from 'minisearch'
-import { useLocation, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import type { AppData } from '../lib/data'
+import { displayDisciplineForNode } from '../lib/displayTaxonomy'
 
 type SearchHit = { id: string; kind: string; title: string; subtitle?: string }
 
 const NAV_ACTIONS: SearchHit[] = [
-  { id: '/', kind: 'nav', title: '总览工作台', subtitle: '知识网络地图' },
-  { id: '/graph', kind: 'nav', title: '完整图谱', subtitle: '扩展布局' },
-  { id: '/exams', kind: 'nav', title: '真题档案', subtitle: '题目元数据' },
-  { id: '/statistics', kind: 'nav', title: '统计研究', subtitle: '覆盖与分布' },
-  { id: '/about', kind: 'nav', title: '来源与方法', subtitle: '公开范围说明' },
+  { id: '/', kind: 'nav', title: '图谱', subtitle: '浏览知识关系' },
+  { id: '/exams', kind: 'nav', title: '真题', subtitle: '按年份和阶段查找' },
+  { id: '/statistics', kind: 'nav', title: '统计', subtitle: '查看覆盖与年份变化' },
+  { id: '/about', kind: 'nav', title: '方法', subtitle: '资料来源与标注规则' },
 ]
 
 type Props = {
@@ -25,7 +25,6 @@ export function CommandPalette({ data, open, onClose, initialQuery = '' }: Props
   const [active, setActive] = useState(0)
   const inputRef = useRef<HTMLInputElement>(null)
   const navigate = useNavigate()
-  const location = useLocation()
 
   const search = useMemo(() => {
     const m = new MiniSearch({ fields: ['title', 'subtitle', 'text'], storeFields: ['title', 'subtitle', 'kind', 'id'] })
@@ -80,12 +79,10 @@ export function CommandPalette({ data, open, onClose, initialQuery = '' }: Props
       return
     }
     // knowledge → prefer map workspace selection
-    const onMap = location.pathname === '/' || location.pathname === '' || location.pathname === '/graph'
-    if (onMap) {
-      navigate({ pathname: location.pathname || '/', search: `?node=${encodeURIComponent(hit.id)}` })
-      return
-    }
-    navigate(`/?node=${encodeURIComponent(hit.id)}`)
+    const node = data.graph.nodes.find(item => item.id === hit.id)
+    const params = new URLSearchParams({ node: hit.id })
+    if (node) params.set('discipline', displayDisciplineForNode(node, data.graph).id)
+    navigate(`/?${params.toString()}`)
   }
 
   const onKeyDown = (event: KeyboardEvent<HTMLInputElement>) => {
@@ -118,12 +115,12 @@ export function CommandPalette({ data, open, onClose, initialQuery = '' }: Props
         className="palette"
         role="dialog"
         aria-modal="true"
-        aria-label="命令面板"
+        aria-label="搜索全站"
         onMouseDown={e => e.stopPropagation()}
       >
         <div className="palette-search">
           <span className="palette-glyph" aria-hidden="true">
-            ⌕
+            <svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></svg>
           </span>
           <input
             ref={inputRef}
@@ -131,7 +128,7 @@ export function CommandPalette({ data, open, onClose, initialQuery = '' }: Props
             onChange={e => setQuery(e.target.value)}
             onKeyDown={onKeyDown}
             placeholder="搜索知识点、题目，或跳转页面…"
-            aria-label="命令面板搜索"
+            aria-label="搜索全站"
             autoComplete="off"
           />
           <kbd className="palette-kbd">Esc</kbd>

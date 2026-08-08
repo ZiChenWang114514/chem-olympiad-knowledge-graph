@@ -1,97 +1,117 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000168",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "十氢合萘并环反应",
-  "number": "10",
+  "number": "Q10",
   "examYear": 2022,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000058",
     "sourceLabel": "2022-36-CChO-chusai-1.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      5,
+      6
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
+      "type": "paragraph",
+      "text": "第10题(11分)十氢合萘化学"
+    },
+    {
+      "type": "paragraph",
+      "text": "在萜类天然产物中,氧化态升高与抗癌,抗病毒和免疫抑制的生物活性提高密切相关。以下反应发展了并环构建萜类化合物的方法(TBS为叔丁基二甲基硅基, { i } _ { \\mathrm { P r } } 为异丙基):"
+    },
+    {
       "type": "figure",
       "src": "data/stems/assets/problem-000168-figure-001.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "1,2-二氟乙烷的构象示意图"
-    }
-  ],
-  "parts": [
+      "assetId": "asset-003208",
+      "alt": "十氢合萘并环反应：第1幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
+    },
     {
-      "id": "part-000168-01",
+      "type": "subpart",
       "label": "10-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "下图是1,2-二氟乙烷的邻位交叉式构象和全交叉式构象,其中邻位交叉式构象更稳定,此现象称为邻位交叉效应。写出1,2-二氟乙烷邻位交叉构象稳定的理由。"
+          "text": "在环己烷椅式构象中, \\mathrm { C H _ { 3 } - H } 之间1,3-直立键的相互作用力和丁烷邻交叉作用力相当,在298K下,假定丁烷的对交叉构象能量为0 kJ \\mathrm { m o l ^ { - 1 } } ,邻交叉构象能量约为3.8 kJ \\mathrm { m o l ^ { - 1 } } ,重叠构象能量约为 21.4 kJ \\mathrm { m o l ^ { - 1 } } _ { c }"
         }
-      ]
+      ],
+      "partId": "part-001170"
     },
     {
-      "id": "part-000168-02",
+      "type": "subpart",
+      "label": "10-1-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算顺式十氢合萘与反式十氢合萘的能量差。"
+        }
+      ],
+      "partId": "part-001171"
+    },
+    {
+      "type": "subpart",
+      "label": "10-1-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算顺式9-甲基十氢合萘与反式9-甲基十氢合萘的能量差。"
+        }
+      ],
+      "partId": "part-001172"
+    },
+    {
+      "type": "subpart",
       "label": "10-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "氟和亚胺正离子之间的邻位交叉效应使得不对称诱导效果得到大幅提高。以下反应用A做催化剂,对映体过量值为84%;用B做催化剂,对映体过量值为 $96\\%$。画出B做催化剂时亚胺盐中间体的稳定构象。"
+          "text": "画出产物A的结构简式(不要求立体化学)。写出A可能的立体异构体的数目。"
         }
-      ]
+      ],
+      "partId": "part-001173"
     },
     {
-      "id": "part-000168-03",
+      "type": "subpart",
       "label": "10-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "1,1,1,3,3,3-六氟异丙醇(HFIP)是独特的有机溶剂,它既是氢键给体又是氢键受体;和异丙醇相比,其介电常数(ε = 16.7)小,沸点 $\\mathrm{bp} = 58.6^\\circ\\mathrm{C}$ 低,酸性强 $\\mathrm{p}K_{\\mathrm{a}} = 9.3$。HFIP有多少个氢键供体,多少个氢键受体?"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000168-figure-002.jpg",
-          "alt": "化学反应路线与结构式示意图（原图）",
-          "caption": "反应示意图"
+          "text": "画出上述转换的关键中间体(不要求立体化学)。"
         }
-      ]
+      ],
+      "partId": "part-001174"
     },
     {
-      "id": "part-000168-04",
+      "type": "figure",
+      "src": "data/stems/assets/problem-000168-figure-002.jpg",
+      "assetId": "asset-003209",
+      "alt": "十氢合萘并环反应：第2幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
+    },
+    {
+      "type": "subpart",
       "label": "10-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 利用HFIP作溶剂,芳香烃的硝化反应条件变得更加温和(如下所示),画出苯硝化反应决速步的过渡态结构,写出HFIP在稳定这个过渡态结构中的作用。"
+          "text": "画出以下转换中中间产物B,C和产物D的结构简式。"
         }
-      ]
-    },
-    {
-      "id": "part-000168-05",
-      "label": "10-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "-2 HFIP还能促进芳香亲核取代反应。用异丙醇作溶剂时,反应不发生;用HFIP作溶剂时,产物的收率为94%。画出2-氯吡嗪与苯硫酚反应决速步的过渡态结构,写出HFIP在稳定这个过渡态结构中的作用。"
-        }
-      ]
-    },
-    {
-      "id": "part-000168-06",
-      "label": "10-5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "HFIP的参与能提高反应的非对映选择性。如下所示的亲电环化反应,产率为72%,非对映选择性大于95:5。画出产物A的结构(要求立体化学)。"
-        }
-      ]
+      ],
+      "partId": "part-001175"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

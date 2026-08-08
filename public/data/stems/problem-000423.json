@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000423",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,48 +8,53 @@
   "examYear": 2013,
   "examStage": "final",
   "source": {
-    "sourceDocumentId": "source-000008",
     "sourceLabel": "2013-27-CChO-juesai.pdf",
-    "page": null,
+    "pages": [
+      2
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000008"
   },
   "blocks": [
     {
+      "type": "paragraph",
+      "text": "第7题 某酸碱催化反应(E和S是反应物,P是产物)机理如下:"
+    },
+    {
       "type": "figure",
-      "caption": "反应机理图(原图缺失)",
-      "alt": "反应机理示意图",
-      "src": "data/stems/assets/problem-000423-figure-001.jpg"
+      "src": "data/stems/assets/problem-000423-figure-001.jpg",
+      "alt": "原卷第7题图1：第7题 某酸碱催化反应(E和S是反应物,P是产物)机理如下:",
+      "displayWidth": 70,
+      "assetId": "asset-003703"
     },
     {
       "type": "paragraph",
-      "text": "$k_1 = 1.0 \\times 10^7 \\ \\mathrm{mol^{-1} L s^{-1}}$,$k_2 = 1.0 \\times 10^2 \\ \\mathrm{mol^{-1} L s^{-1}}$,$\\mathrm{p}K_a = 5.0$,反应决速步骤为中间物 $\\mathrm{HES^{\\ddagger}}$ 和 $\\mathrm{ES^{\\ddagger}}$ 之生成。"
-    }
-  ],
-  "parts": [
+      "text": "$k _ { 1 } = 1.0 \\times10 ^ { 7 } \\mathrm { mol ^ { - 1 } Ls ^ { - 1 } } , k _ { 2 } = 1.0 \\times10 ^ { 2 } \\mathrm { mol ^ { - 1 } Ls ^ { - 1 } } , \\mathsf { p } K _ { a } = 5.0 ,$ ,反应决速步骤为中间物 $\\mathbf { HES ^ { \\ddagger } }$ 和 $\\mathbf { E } \\mathbf { S } ^ { \\ddagger }$ 之生成."
+    },
     {
-      "id": "part-000423-01",
+      "type": "subpart",
       "label": "7-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "推导表观反应速率常数 $k_{\\mathrm{exp}}$ 的表达式,式中只能含有基元反应的速率常数 $k_1$、$k_2$ 以及氢离子浓度 $[\\mathrm{H^+}]$ 和 E 的电离平衡常数 $K_a$。"
+          "text": "推导表观反应速率常数 $k _ { exp }$ 的表达式,式中只能含有基元反应的速率常数 ${ \\mathrm { \\tilde { \\mathbf { \\mathit { k } } } } _ { 1 } \\mathrm { \\tilde { \\hbar } } \\mathrm { \\tilde { \\mathbf { \\mathit { k } } } } _ { 2 } }$ 以及氢离子浓度[H+]和E的电离平衡常数 $X _ { a }$ ."
         }
-      ]
+      ],
+      "partId": "part-002531"
     },
     {
-      "id": "part-000423-02",
+      "type": "subpart",
       "label": "7-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "推断上述反应属于酸催化还是碱催化。若控制此反应缓慢进行,通过计算,判断 pH 在什么范围,$k_{\\mathrm{exp}}$ 基本不随 pH 发生变化(在 1% 以内)。"
+          "text": "推断上述反应属于酸催化还是碱催化.若控制此反应缓慢进行,通过计算,判断pH在什么范围, $k _ { exp }$ 基本不随pH发生变化(在1%以内)."
         }
-      ]
+      ],
+      "partId": "part-002532"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

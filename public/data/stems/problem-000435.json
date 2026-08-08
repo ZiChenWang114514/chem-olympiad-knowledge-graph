@@ -1,89 +1,99 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000435",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "溴化汞氨配合物",
-  "number": "8",
+  "number": "Q8",
   "examYear": 2014,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000048",
     "sourceLabel": "2014-28-CChO-chusai.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      2,
+      3
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "从 A 到 D 的结构中,$\\mathrm{Hg(II)}$ 与 N 的结合随 N 上所连氢原子的数目而变化,N 均成 4 个键,$\\mathrm{N{-}Hg{-}N}$ 键角为 180°。A 中,$\\mathrm{Br^-}$ 作简单立方堆积,两个立方体共用的面中心存在一个 $\\mathrm{Hg(II)}$,$\\mathrm{NH_3}$ 位于立方体的体心。B 中,$\\mathrm{Hg(II)}$ 与氨基形成一维链。C 中存在 $\\mathrm{Hg(II)}$ 与亚氨基形成的按六边形扩展的二维结构,$\\mathrm{Br^-}$ 位于六边形中心。D 中,$\\mathrm{(Hg_2N)^+}$ 形成具有类似 $\\mathrm{SiO_2}$ 的三维结构。"
-    }
-  ],
-  "parts": [
+      "text": "第8题(14分)不同条件下, \\mathrm { H g B r _ { 2 } } 溶液(必要时加HgO)与氨反应可得不同产物。向 \\mathrm { H g B r _ { 2 } } 溶液中加入氨性缓冲溶液,得到二氨合溴化汞 \\mathbf { A } _ { \\circ } 。向浓度适中的 \\mathrm { H g B r _ { 2 } } 溶液中加入氨水,得到白色沉淀B,B的化学式中汞离子,氨基和 \\mathrm { B r ^ { - } } 的比例为 1 { : } 1 { : } 1 _ { \\cdot } 。将含 \\mathrm { N H _ { 4 } B r } 的 \\mathrm { H g B r _ { 2 } } 浓溶液与 HgO 混合,得到化合物 \\mathbf { C } , ,C 中汞离子,亚氨基和 Br−的比例为 2:1:2。 \\mathrm { H g B r _ { 2 } } 的浓溶液在搅拌下加入稀氨水,得到浅⻩色沉淀D,D是一水合溴氮化汞。"
+    },
     {
-      "id": "part-000435-01",
+      "type": "paragraph",
+      "text": "从A到D的结构中, \\operatorname { H g } ( \\operatorname { I I } ) 与N的结合随N上所连氢原子的数目而变化,N均成4个键, \\mathrm { N { - } H g { - } N } 键⻆为180°。A中,Br−作简单立方堆积,两个立方体共用的面中心存在一个 \\operatorname { H g } ( \\operatorname { I I } ) \\mathrm { N H _ { 3 } } 位于立方体的体\\therefore E _ { \\circ } B 中,Hg(II)与氨基形成一维链。C 中存在 \\operatorname { H g } ( \\operatorname { I I } ) 与亚氨基形成的按六边形扩展的二维结构,Br−位于六边形中心。D中, \\mathrm { ( H g _ { 2 } N ) } ^ { . } +形成具有类似 \\mathrm { S i O _ { 2 } } 的三维结构。"
+    },
+    {
+      "type": "subpart",
       "label": "8-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出生成 C 和 D 的方程式。"
+          "text": "写出生成C和D的方程式。"
         }
-      ]
+      ],
+      "partId": "part-001811"
     },
     {
-      "id": "part-000435-02",
+      "type": "subpart",
       "label": "8-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出 A 的结构示意图($\\mathrm{NH_3}$ 以 N 表示)。"
+          "text": "画出A的结构示意图 \\mathrm { ( N H _ { 3 } } 以N表示)。"
         }
-      ]
+      ],
+      "partId": "part-001812"
     },
     {
-      "id": "part-000435-03",
+      "type": "subpart",
       "label": "8-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出 B 中 $\\mathrm{Hg(II)}$ 与氨基(以 N 表示)形成的一维链式结构示意图。"
+          "text": "画出 B 中 \\operatorname { H g } ( \\operatorname { I I } ) 与氨基(以N表示)形成的一维链式结构示意图。"
         }
-      ]
+      ],
+      "partId": "part-001813"
     },
     {
-      "id": "part-000435-04",
+      "type": "subpart",
       "label": "8-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出 C 中二维层的结构示意图,写出其组成式。层间还存在哪些物种?给出其比例。"
+          "text": "画出C中二维层的结构示意图,写出其组成式。层间还存在哪些物种方向给出其比例。"
         }
-      ]
+      ],
+      "partId": "part-001814"
     },
     {
-      "id": "part-000435-05",
+      "type": "subpart",
       "label": "8-5",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出 D 中 $\\mathrm{(Hg_2N)^+}$ 的三维结构示意图(示出 $\\mathrm{Hg}$ 与 N 的连接方式即可)。"
+          "text": "画出 D 中 \\mathrm { ( H g _ { 2 } N ) } +的三维结构示意图(示出 \\mathrm { H g } 与N的连接方式即可)。"
         }
-      ]
+      ],
+      "partId": "part-001815"
     },
     {
-      "id": "part-000435-06",
+      "type": "subpart",
       "label": "8-6",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "令人惊奇的是,组成为 $\\mathrm{HgNH_2F}$ 的化合物并非与 $\\mathrm{HgNH_2X\\,(X=Cl,Br,I)}$ 同构,而与 D 相似,存在三维结构的 $\\mathrm{(Hg_2N)^+}$。写出表达 $\\mathrm{HgNH_2F}$ 结构特点的结构简式。"
+          "text": "令人惊奇的是,组成为 HgNH<sub>2</sub>F 的化合物并非与 \\mathrm { { H g N H _ { 2 } X ( X = C l , \\Delta \\mathrm { { B r } } } } ,I)同构,而与D相似,存在三维结构的 \\mathrm { ( H g 2 N ) _ { \\circ } ^ { + } } 写出表达 \\mathrm { H g N H _ { 2 } F } 结构特点的结构简式。"
         }
-      ]
+      ],
+      "partId": "part-001816"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

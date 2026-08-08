@@ -1,16 +1,15 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://zichenwang114514.github.io/chem-olympiad-knowledge-graph/schemas/problem-stem.schema.json",
-  "title": "ProblemStem",
-  "description": "公开站题干结构化文档 schemaVersion=1。见 docs/problem-stem-format.md。",
+  "title": "ProblemStemV2",
   "type": "object",
   "additionalProperties": false,
-  "required": ["schemaVersion", "problemId", "rightsState", "language", "title", "number", "source"],
+  "required": ["schemaVersion", "problemId", "rightsState", "language", "title", "number", "source", "blocks"],
   "properties": {
-    "schemaVersion": { "const": 1 },
+    "schemaVersion": { "const": 2 },
     "problemId": { "type": "string", "pattern": "^problem-[0-9]{6}$" },
-    "rightsState": { "enum": ["stem_public", "stem_demo", "fulltext_authorized"] },
-    "language": { "type": "string", "minLength": 2 },
+    "rightsState": { "enum": ["stem_public", "fulltext_authorized"] },
+    "language": { "const": "zh-CN" },
     "title": { "type": "string", "minLength": 1 },
     "number": { "type": "string", "minLength": 1 },
     "examYear": { "type": "integer", "minimum": 1980, "maximum": 2100 },
@@ -18,132 +17,60 @@
     "source": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["sourceLabel", "transcriptionMethod"],
+      "required": ["sourceLabel", "pages", "transcriptionMethod"],
       "properties": {
-        "sourceDocumentId": { "type": "string" },
+        "sourceDocumentId": { "type": "string", "pattern": "^source-[0-9]{6}$" },
         "sourceLabel": { "type": "string", "minLength": 1 },
-        "page": { "type": "integer", "minimum": 0 },
-        "transcriptionMethod": { "enum": ["manual", "ocr_reviewed", "deepseek_polished", "synthetic_demo"] },
+        "pages": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "integer", "minimum": 1 } },
+        "transcriptionMethod": { "enum": ["manual", "ocr_reviewed", "deepseek_polished"] },
         "transcribedAt": { "type": "string" }
       }
     },
-    "blocks": { "type": "array", "items": { "$ref": "#/$defs/stemBlock" } },
-    "parts": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": ["id", "label", "blocks"],
-        "properties": {
-          "id": { "type": "string" },
-          "label": { "type": "string" },
-          "score": { "type": "number" },
-          "blocks": { "type": "array", "items": { "$ref": "#/$defs/stemBlock" }, "minItems": 1 }
-        }
-      }
-    },
-    "provenanceNote": { "type": "string" },
+    "blocks": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/stemBlock" } },
     "renderingHints": {
       "type": "object",
       "additionalProperties": false,
-      "properties": {
-        "mhchem": { "type": "boolean" },
-        "katexTrust": { "type": "boolean" }
-      }
+      "properties": { "mhchem": { "type": "boolean" }, "katexTrust": { "type": "boolean" } }
     }
   },
-  "anyOf": [
-    { "required": ["blocks"], "properties": { "blocks": { "minItems": 1 } } },
-    { "required": ["parts"], "properties": { "parts": { "minItems": 1 } } }
-  ],
   "$defs": {
+    "blockArray": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/stemBlock" } },
     "stemBlock": {
       "type": "object",
       "required": ["type"],
       "oneOf": [
+        { "properties": { "type": { "const": "paragraph" }, "text": { "type": "string", "minLength": 1 } }, "required": ["type", "text"], "additionalProperties": false },
+        { "properties": { "type": { "const": "formula" }, "latex": { "type": "string", "minLength": 1 }, "display": { "type": "boolean" } }, "required": ["type", "latex"], "additionalProperties": false },
+        { "properties": { "type": { "const": "chem" }, "latex": { "type": "string", "minLength": 1 }, "display": { "type": "boolean" } }, "required": ["type", "latex"], "additionalProperties": false },
+        { "properties": { "type": { "const": "heading" }, "level": { "type": "integer", "minimum": 2, "maximum": 4 }, "text": { "type": "string", "minLength": 1 } }, "required": ["type", "level", "text"], "additionalProperties": false },
+        { "properties": { "type": { "const": "list" }, "ordered": { "type": "boolean" }, "items": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } } }, "required": ["type", "items"], "additionalProperties": false },
         {
           "properties": {
-            "type": { "const": "paragraph" },
-            "text": { "type": "string" }
+            "type": { "const": "subpart" }, "localRef": { "type": "string", "pattern": "^[a-z][a-z0-9_-]*$" },
+            "partId": { "type": "string", "pattern": "^part-[0-9]{6}$" }, "label": { "type": "string", "minLength": 1 },
+            "score": { "type": "number" }, "prompt": { "type": "string" }, "blocks": { "$ref": "#/$defs/blockArray" }
           },
-          "required": ["type", "text"],
-          "additionalProperties": false
+          "required": ["type", "label", "blocks"], "anyOf": [{ "required": ["localRef"] }, { "required": ["partId"] }], "additionalProperties": false
         },
         {
           "properties": {
-            "type": { "const": "formula" },
-            "latex": { "type": "string" },
-            "display": { "type": "boolean" }
+            "type": { "const": "figure" }, "src": { "type": "string", "pattern": "^data/stems/assets/problem-[0-9]{6}-figure-[0-9]{3}\\.(jpg|jpeg|png|webp|gif|svg)$" },
+            "alt": { "type": "string", "minLength": 2 }, "label": { "type": "string" }, "caption": { "type": "string" },
+            "assetId": { "type": "string", "pattern": "^asset-[0-9]{6}$" }, "displayWidth": { "type": "number", "exclusiveMinimum": 0, "maximum": 100 }
           },
-          "required": ["type", "latex"],
-          "additionalProperties": false
+          "required": ["type", "src", "alt"], "additionalProperties": false
         },
+        { "properties": { "type": { "const": "table" }, "caption": { "type": "string" }, "headers": { "type": "array", "items": { "type": "string" } }, "rows": { "type": "array", "minItems": 1, "items": { "type": "array", "items": { "type": "string" } } } }, "required": ["type", "headers", "rows"], "additionalProperties": false },
+        { "properties": { "type": { "const": "callout" }, "tone": { "enum": ["info", "warn"] }, "text": { "type": "string", "minLength": 1 } }, "required": ["type", "text"], "additionalProperties": false },
         {
           "properties": {
-            "type": { "const": "chem" },
-            "latex": { "type": "string" },
-            "display": { "type": "boolean" }
+            "type": { "const": "layout" }, "minWidth": { "type": "integer", "minimum": 320, "maximum": 1600 },
+            "columns": {
+              "type": "array", "minItems": 2, "maxItems": 4,
+              "items": { "type": "object", "additionalProperties": false, "required": ["span", "blocks"], "properties": { "span": { "type": "number", "exclusiveMinimum": 0 }, "blocks": { "$ref": "#/$defs/blockArray" } } }
+            }
           },
-          "required": ["type", "latex"],
-          "additionalProperties": false
-        },
-        {
-          "properties": {
-            "type": { "const": "heading" },
-            "level": { "type": "integer", "minimum": 2, "maximum": 4 },
-            "text": { "type": "string" }
-          },
-          "required": ["type", "level", "text"],
-          "additionalProperties": false
-        },
-        {
-          "properties": {
-            "type": { "const": "list" },
-            "ordered": { "type": "boolean" },
-            "items": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
-          },
-          "required": ["type", "items"],
-          "additionalProperties": false
-        },
-        {
-          "properties": {
-            "type": { "const": "subpart" },
-            "label": { "type": "string" },
-            "prompt": { "type": "string" },
-            "blocks": { "type": "array", "items": { "$ref": "#/$defs/stemBlock" } }
-          },
-          "required": ["type", "label", "blocks"],
-          "additionalProperties": false
-        },
-        {
-          "properties": {
-            "type": { "const": "figure" },
-            "src": { "type": "string" },
-            "alt": { "type": "string" },
-            "caption": { "type": "string" },
-            "assetId": { "type": "string" }
-          },
-          "required": ["type", "alt"],
-          "additionalProperties": false
-        },
-        {
-          "properties": {
-            "type": { "const": "table" },
-            "caption": { "type": "string" },
-            "headers": { "type": "array", "items": { "type": "string" } },
-            "rows": { "type": "array", "items": { "type": "array", "items": { "type": "string" } } }
-          },
-          "required": ["type", "headers", "rows"],
-          "additionalProperties": false
-        },
-        {
-          "properties": {
-            "type": { "const": "callout" },
-            "tone": { "enum": ["info", "warn"] },
-            "text": { "type": "string" }
-          },
-          "required": ["type", "text"],
-          "additionalProperties": false
+          "required": ["type", "columns"], "additionalProperties": false
         }
       ]
     }

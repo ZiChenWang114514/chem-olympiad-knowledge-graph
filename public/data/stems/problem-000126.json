@@ -1,28 +1,59 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000126",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "化学反应与结构综合分析",
-  "number": "5",
+  "number": "Q5",
   "examYear": 2021,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000055",
     "sourceLabel": "2021-35-CChO-chusai-fujian.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      2,
+      3
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "5 · 化学反应与结构综合分析"
+      "text": "环辛四烯 \\left( \\mathrm { C O T } , \\mathrm { C _ { 8 } H _ { 8 } } \\right) 最稳定的结构为船型,与钾作用还原可得平面结构的环辛四烯双负离子 \\left( \\mathrm { C O T ^ { 2 - } } \\right) )。"
+    },
+    {
+      "type": "subpart",
+      "label": "5-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "简要解释环辛四烯与其双负离子具有不同稳定构型的原因。"
+        }
+      ],
+      "partId": "part-001114"
+    },
+    {
+      "type": "subpart",
+      "label": "5-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "封闭的圆环中粒子的能级为"
+        }
+      ],
+      "partId": "part-001115"
+    },
+    {
+      "type": "paragraph",
+      "text": "E _ {n} = \\frac {n ^ {2} h ^ {2}}{8 \\pi^ {2} m R ^ {2}}, \\qquad n = 0, \\pm 1, \\pm 2, \\pm 3 \\dots"
+    },
+    {
+      "type": "paragraph",
+      "text": "式中方向为描述能级的量子数,方向是圆环的半径。方向,h分别为电子的质量和Planck常数。若环辛四烯双负离子\\left( \\mathrm { C O T ^ { 2 - } } \\right) 的离域π电子可近似描述为圆环中粒子,取 : R = 190 \\mathrm { p m } ,试求其电子基态跃起到第一激发态所吸收光的波⻓。"
     }
   ],
-  "parts": []
+  "renderingHints": {
+    "mhchem": true
+  }
 }

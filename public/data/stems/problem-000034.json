@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000034",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,18 +10,16 @@
   "source": {
     "sourceDocumentId": "source-000051",
     "sourceLabel": "2017-31-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      1,
+      2
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000034-01",
+      "type": "subpart",
       "label": "4-1",
       "blocks": [
         {
@@ -30,9 +28,11 @@
         },
         {
           "type": "figure",
-          "caption": "晶体A的晶胞",
+          "src": "data/stems/assets/problem-000034-figure-001.jpg",
           "alt": "晶体A的晶胞示意图(大球为氯原子,小球为钠原子)",
-          "src": "data/stems/assets/problem-000034-figure-001.jpg"
+          "displayWidth": 80,
+          "caption": "晶体A的晶胞",
+          "assetId": "asset-002784"
         },
         {
           "type": "paragraph",
@@ -40,9 +40,11 @@
         },
         {
           "type": "figure",
-          "caption": "晶体B的晶胞",
+          "src": "data/stems/assets/problem-000034-figure-002.jpg",
           "alt": "晶体B的晶胞示意图(大球为氯原子,小球为钠原子)",
-          "src": "data/stems/assets/problem-000034-figure-002.jpg"
+          "displayWidth": 80,
+          "caption": "晶体B的晶胞",
+          "assetId": "asset-002785"
         },
         {
           "type": "paragraph",
@@ -50,71 +52,84 @@
         },
         {
           "type": "figure",
-          "caption": "晶体C的晶胞",
+          "src": "data/stems/assets/problem-000034-figure-003.jpg",
           "alt": "晶体C的晶胞示意图(大球为氯原子,小球为钠原子)",
-          "src": "data/stems/assets/problem-000034-figure-003.jpg"
+          "displayWidth": 80,
+          "caption": "晶体C的晶胞",
+          "assetId": "asset-002786"
         },
         {
           "type": "paragraph",
           "text": "C"
         }
-      ]
+      ],
+      "partId": "part-000067"
     },
     {
-      "id": "part-000034-02",
+      "type": "subpart",
       "label": "4-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在超高压(300GPa)下,金属钠和氦可形成化合物。结构中,钠离子按简单立方排布,形成 $\\mathrm{Na_8}$ 立方体空隙(如右图所示),电子对(2e−)和氦原子交替分布填充在立方体的中心。"
+          "text": "在超高压(300GPa)下,金属钠和氦可形成化合物。结构中,钠离子按简单立方排布,形成 $\\mathrm{Na_8}$ 立方体空隙(如右图所示),电子对(2e-)和氦原子交替分布填充在立方体的中心。"
         },
         {
           "type": "figure",
-          "caption": "钠氦化合物结构示意图",
+          "src": "data/stems/assets/problem-000034-figure-004.jpg",
           "alt": "钠离子简单立方排布,形成Na8立方体空隙,电子对和氦原子交替填充",
-          "src": "data/stems/assets/problem-000034-figure-004.jpg"
+          "displayWidth": 80,
+          "caption": "钠氦化合物结构示意图",
+          "assetId": "asset-002787"
         }
-      ]
+      ],
+      "partId": "part-000068"
     },
     {
-      "id": "part-000034-03",
+      "type": "subpart",
       "label": "4-2-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "写出晶胞中的钠离子数。"
         }
-      ]
+      ],
+      "partId": "part-000069"
     },
     {
-      "id": "part-000034-04",
+      "type": "subpart",
       "label": "4-2-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "写出体现该化合物结构特点的化学式。"
         }
-      ]
+      ],
+      "partId": "part-000070"
     },
     {
-      "id": "part-000034-05",
+      "type": "subpart",
       "label": "4-2-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "若将氦原子放在晶胞顶点,写出所有电子对 $(2\\mathrm{e^-})$ 在晶胞中的位置。"
         }
-      ]
+      ],
+      "partId": "part-000071"
     },
     {
-      "id": "part-000034-06",
+      "type": "subpart",
       "label": "4-2-4",
       "blocks": [
         {
           "type": "paragraph",
           "text": "晶胞边长 $a = 395\\,\\mathrm{pm}$,计算此结构中 $\\mathrm{Na-He}$ 的间距和晶体的密度(单位:$\\mathrm{g\\,cm^{-3}}$)。"
         }
-      ]
+      ],
+      "partId": "part-000072"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

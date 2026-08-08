@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000454",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,62 +8,68 @@
   "examYear": 2015,
   "examStage": "preliminary",
   "source": {
-    "sourceDocumentId": "source-000049",
     "sourceLabel": "2015-29-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      2
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000049"
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "墨;电解质为烃基取代咪唑阳离子(R+)和 $\\mathrm{AlCl_4^-}$ 阴离子组成的离子液体。电池放电时,在负极附近形成双核配合物。充放电过程中离子液体中的阳离子始终不变。"
-    }
-  ],
-  "parts": [
+      "text": "第6题 最近报道了一种新型可逆电池.该电池的负极为金属铝,正极为 $\\mathrm { C } _ { n } [ \\mathrm { AlCl } _ { 4 } ]$ ,式中 $\\mathrm { C } _ { n }$ 表示石"
+    },
     {
-      "id": "part-000454-01",
+      "type": "paragraph",
+      "text": "墨;电解质为烃基取代咪唑阳离子(R+)和 $\\mathrm { { AlCl } _ { 4 } } ^ { - }$ −阴离子组成的离子液体.电池放电时,在负极附近形成双核配合物.充放电过程中离子液体中的阳离子始终不变."
+    },
+    {
+      "type": "subpart",
       "label": "6-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出电池放电时,正极、负极以及电池反应方程式。"
+          "text": "写出电池放电时,正极,负极以及电池反应方程式."
         }
-      ]
+      ],
+      "partId": "part-002564"
     },
     {
-      "id": "part-000454-02",
+      "type": "subpart",
       "label": "6-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "该电池所用石墨按如下方法制得:甲烷在大量氢气存在下热解,所得碳沉积在泡沫状镍模板表面。写出甲烷热解反应的方程式。采用泡沫状镍的作用何在?简述理由。"
+          "text": "该电池所用石墨按如下方法制得:甲烷在大量氢气存在下热解,所得碳沉积在泡沫状镍模板表面.写出甲烷热解反应的方程式.采用泡沫状镍的作用何在简述理由."
         }
-      ]
+      ],
+      "partId": "part-002565"
     },
     {
-      "id": "part-000454-03",
+      "type": "subpart",
       "label": "6-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出除去制得石墨后的镍的反应方程式。"
+          "text": "写出除去制得石墨后的镍的反应方程式."
         }
-      ]
+      ],
+      "partId": "part-002566"
     },
     {
-      "id": "part-000454-04",
+      "type": "subpart",
       "label": "6-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "该电池的电解质是将无水三氯化铝溶入烃代咪唑氯化物离子液体中制得,写出方程式。"
+          "text": "该电池的电解质是将无水三氯化铝溶入烃代咪唑氯化物离子液体中制得,写出方程式."
         }
-      ]
+      ],
+      "partId": "part-002567"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

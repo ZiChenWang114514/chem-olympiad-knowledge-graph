@@ -1,122 +1,159 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000387",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "反应动力学与催化",
-  "number": "5",
+  "number": "Q5",
   "examYear": 2011,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000006",
     "sourceLabel": "2011-25-CChO-juesai.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      4
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "$\\ce{CH3COCH3 ->[k1] CH3. + CH3CO.}$"
+      "text": "第5题(14分)高温条件下反应机理的研究一直是化学反应动力学的基本课题,1956年的诺⻉尔化学奖获得者在该领域做出过杰出的贡献。科研工作者研究了1000 K下丙酮的热分解反应并提出了如下反应历程:"
     },
     {
       "type": "paragraph",
-      "text": "$E_a(1) = 351\\ \\mathrm{kJ\\ mol^{-1}}$"
+      "text": "\\mathrm{CH} _ {3} \\mathrm{COCH} _ {3} \\xrightarrow {k _ {1}} \\mathrm{CH} _ {3} \\cdot + \\mathrm{CH} _ {3} \\mathrm{CO} \\cdot"
     },
     {
       "type": "paragraph",
-      "text": "$\\ce{CH3CO. ->[k2] CH3. + CO}$"
+      "text": "E _ {a} (1) = 351 \\mathrm{kJ} \\mathrm{mol} ^ {- 1}"
     },
     {
       "type": "paragraph",
-      "text": "$E_a(2) = 42\\ \\mathrm{kJ\\ mol^{-1}}$"
+      "text": "\\mathrm{CH} _ {3} \\mathrm{CO} \\cdot \\xrightarrow {k _ {2}} \\mathrm{CH} _ {3} \\cdot + \\mathrm{CO}"
     },
     {
       "type": "paragraph",
-      "text": "$\\ce{CH3. + CH3COCH3 ->[k3] CH4 + CH3COCH2.}$"
+      "text": "E _ {a} (2) = 42 \\mathrm{kJ} \\mathrm{mol} ^ {- 1}"
     },
     {
       "type": "paragraph",
-      "text": "$E_a(3) = 63\\ \\mathrm{kJ\\ mol^{-1}}$"
+      "text": "\\mathrm{CH} _ {3} \\cdot + \\mathrm{CH} _ {3} \\mathrm{COCH} _ {3} \\xrightarrow {k _ {3}} \\mathrm{CH} _ {4} + \\mathrm{CH} _ {3} \\mathrm{COCH} _ {2} \\cdot"
     },
     {
       "type": "paragraph",
-      "text": "$\\ce{CH3COCH2. ->[k4] CH3. + CH2CO}$"
+      "text": "E _ {a} (3) = 63 \\mathrm{kJ} \\mathrm{mol} ^ {- 1}"
     },
     {
       "type": "paragraph",
-      "text": "$E_a(4) = 200\\ \\mathrm{kJ\\ mol^{-1}}$"
+      "text": "\\mathrm{CH} _ {3} \\mathrm{COCH} _ {2} \\cdot \\xrightarrow {k _ {4}} \\mathrm{CH} _ {3} \\cdot + \\mathrm{CH} _ {2} \\mathrm{CO}\\tag{4}"
     },
     {
       "type": "paragraph",
-      "text": "$\\ce{CH3. + CH3COCH2. ->[k5] C2H5COCH3}$"
+      "text": "E _ {a} (4) = 200 \\mathrm{kJ} \\mathrm{mol} ^ {- 1}"
     },
     {
       "type": "paragraph",
-      "text": "$E_a(5) = 21\\ \\mathrm{kJ\\ mol^{-1}}$"
-    }
-  ],
-  "parts": [
+      "text": "\\mathrm{CH} _ {3} \\cdot + \\mathrm{CH} _ {3} \\mathrm{COCH} _ {2} \\cdot \\xrightarrow {k _ {5}} \\mathrm{C} _ {2} \\mathrm{H} _ {5} \\mathrm{COCH} _ {3}"
+    },
     {
-      "id": "part-000387-01",
+      "type": "paragraph",
+      "text": "E _ {a} (5) = 21 \\mathrm{kJ} \\mathrm{mol} ^ {- 1}"
+    },
+    {
+      "type": "subpart",
       "label": "5-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "上述历程是根据两个平行反应而提出的,请写出反应方程式。"
         }
-      ]
+      ],
+      "partId": "part-001760"
     },
     {
-      "id": "part-000387-02",
+      "type": "subpart",
       "label": "5-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "实验测得1000 K下热分解反应对丙酮为一级反应,试推出反应的速率方程。提示:1消耗丙酮的主要基元步骤是反应(3);2可忽略各基元反应指前因子的影响。"
+          "text": "实验测得1000K下热分解反应对丙酮为一级反应,试推出反应的速率方程。提示:1消耗丙酮的主要基元步骤是反应(3);2可忽略各基元反应指前因子的影响。"
         }
-      ]
+      ],
+      "partId": "part-001761"
     },
     {
-      "id": "part-000387-03",
+      "type": "subpart",
       "label": "5-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "根据5-2推出的速率方程,计算表观活化能。"
         }
-      ]
+      ],
+      "partId": "part-001762"
     },
     {
-      "id": "part-000387-04",
+      "type": "subpart",
       "label": "5-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "分解产物中 $\\ce{CH4}$ 可以和水蒸气反应制备 $\\ce{H2}$:"
-        },
-        {
-          "type": "paragraph",
-          "text": "$\\ce{CH4(g) + H2O(g) -> 3H2(g) + CO(g)}$"
-        },
-        {
-          "type": "paragraph",
-          "text": "试根据下表数据计算该反应在298 K时 $\\Delta_r G_m^{\\ominus}$ 和平衡常数 $K^{\\ominus}$,并指出平衡常数随温度的变化趋势。"
-        },
-        {
-          "type": "paragraph",
-          "text": "相关物质热力学数据(298 K)"
-        },
-        {
-          "type": "callout",
-          "tone": "info",
-          "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
+          "text": "分解产物中 \\mathrm { C H _ { 4 } } 可以和水蒸气反应制备H<sub>2</sub>:"
         }
+      ],
+      "partId": "part-001763"
+    },
+    {
+      "type": "paragraph",
+      "text": "\\mathrm{CH} _ {4} (\\mathrm{g}) + \\mathrm{H} _ {2} \\mathrm{O} (\\mathrm{g}) \\rightarrow 3 \\mathrm{H} _ {2} (\\mathrm{g}) + \\mathrm{CO} (\\mathrm{g})"
+    },
+    {
+      "type": "paragraph",
+      "text": "试根据下表数据计算该反应在298K时 \\Delta _ { r } G _ { m } ^ { \\ominus } 和平衡常数 K ^ { \\ominus } ,并指出平衡常数随温度的变化趋势。"
+    },
+    {
+      "type": "paragraph",
+      "text": "相关物质热力学数据(298K)"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "物质",
+        "$\\Delta_r G_m^{\\ominus} / \\text{kJ mol}^{-1}$",
+        "$S_m^{\\ominus} / \\text{J mol}^{-1} \\text{K}^{-1}$"
+      ],
+      "rows": [
+        [
+          "$\\text{CH}_4(\\text{g})$",
+          "-74.4",
+          "186.3"
+        ],
+        [
+          "$\\text{H}_2\\text{O}(\\text{g})$",
+          "-241.8",
+          "188.8"
+        ],
+        [
+          "$\\text{H}_2(\\text{g})$",
+          "0",
+          "130.7"
+        ],
+        [
+          "$\\text{CO}(\\text{g})$",
+          "-110.5",
+          "197.7"
+        ],
+        [
+          "$\\text{H}_2\\text{O}(\\text{l})$",
+          "-285.8",
+          "69.9"
+        ]
       ]
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

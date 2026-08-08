@@ -1,28 +1,209 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000224",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "锌碘铜电池电势",
-  "number": "4",
+  "number": "Q4",
   "examYear": 2023,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000026",
     "sourceLabel": "2023-37-CChO-juesai-2.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      5
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "4 · 锌碘铜电池电势"
+      "text": "\\mathrm { Z n \\mathrm { - } I _ { 2 } } 电池是一种水系二次电池,作为潜在的储能系统,近年来重新受到关注。经典的 \\mathrm { Z n \\mathrm { - } I _ { 2 } } 电池正极为单质 \\mathrm { I } _ { 2 } , ,负极为金属 Z \\mathrm { n } ,以 \\mathrm { Z n S O _ { 4 } } 溶液为电解质。研究发现,当负极区的电解质仍为 \\mathrm { Z n S O _ { 4 } } ,但正极区电解质变为 \\mathrm { C u S O _ { 4 } } 或 \\mathrm { C u C l _ { 2 } } 时,可调变电池正极的反应,对应的标准电极电势和放电容量均有显著变化,提高了该电池的储能密度。以I 为正极,几组代表性的充放电实验数据总结于表1中。一些氧化还原电对的标准电极电势和水合离子的标准Gibbs生成自由能变 \\Delta _ { \\mathrm { f } } G _ { \\mathrm { m } } ^ { \\ominus } ⻅表2。"
+    },
+    {
+      "type": "paragraph",
+      "text": "表 1. \\mathrm { I } _ { 2 } 电极在不同的正极区电解质中充放电实验结果"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "实验",
+        "电解质",
+        "操作",
+        "标准电极电势 $E^{\\ominus}$ /V",
+        "容量/mAh(g $I_2$ )-1"
+      ],
+      "rows": [
+        [
+          "1",
+          "$CuSO_4$",
+          "放电",
+          "+0.536",
+          "175"
+        ],
+        [
+          "2",
+          "$CuSO_4$",
+          "放电",
+          "+0.70",
+          "348"
+        ],
+        [
+          "3",
+          "$CuCl_2$",
+          "放电",
+          "+0.70",
+          "348"
+        ],
+        [
+          "4",
+          "$CuCl_2$",
+          "充电",
+          "+1.20",
+          "182"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "表2. 可能用到的一些热力学数据"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "氧化还原电对",
+        "标准电极电势 $E^{\\ominus}$ /V",
+        "水合离子",
+        "$\\Delta_{\\text{f}}G_{m}^{\\ominus}$ /kJ mol $^{-1}$"
+      ],
+      "rows": [
+        [
+          "$Zn^{2+}/Zn$",
+          "-0.762",
+          "$Cu^{2+}$",
+          "65.5"
+        ],
+        [
+          "$I_2/I^-$",
+          "+0.536",
+          "$Cu^+$",
+          "50.0"
+        ],
+        [
+          "$Cu^{2+}/Cu^+$",
+          "+0.159",
+          "$Zn^{2+}$",
+          "-147.1"
+        ],
+        [
+          "$Cu^{2+}/Cu$",
+          "+0.340",
+          "$Cl^-$",
+          "-131.2"
+        ],
+        [
+          "",
+          "",
+          "$I^-$",
+          "-51.6"
+        ]
+      ]
+    },
+    {
+      "type": "subpart",
+      "label": "4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出实验1\\~4对应的正极区电极反应方程式。"
+        }
+      ],
+      "partId": "part-001269"
+    },
+    {
+      "type": "subpart",
+      "label": "4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "实验3放电生成一种含碘难溶电解质A,实验4充电生成一种含碘化合物 \\mathbf { B } _ { \\circ }"
+        }
+      ],
+      "partId": "part-001270"
+    },
+    {
+      "type": "subpart",
+      "label": "4-2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算A的溶度积常数;"
+        }
+      ],
+      "partId": "part-001271"
+    },
+    {
+      "type": "subpart",
+      "label": "4-2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算B的标准Gibbs生成自由能变。"
+        }
+      ],
+      "partId": "part-001272"
+    },
+    {
+      "type": "subpart",
+      "label": "4-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "假设电解质中的离子浓度均恒为标态,计算下列两种 \\mathrm { Z n \\mathrm { - } I _ { 2 } } 电池的储能密度(基于正负极的总质量,结果以Wh/kg表示)。"
+        }
+      ],
+      "partId": "part-001273"
+    },
+    {
+      "type": "subpart",
+      "label": "4-3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "正负极均以 \\mathrm { Z n S O _ { 4 } } 为电解质;"
+        }
+      ],
+      "partId": "part-001274"
+    },
+    {
+      "type": "subpart",
+      "label": "4-3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "负极以 \\mathrm { Z n S O _ { 4 } } 电解质,正极以 \\mathrm { C u C l _ { 2 } } 为电解质。"
+        }
+      ],
+      "partId": "part-001275"
+    },
+    {
+      "type": "paragraph",
+      "text": "电池正极区和负极区电解质溶液量均为1.0 mL,Zn和 \\mathrm { I } _ { 2 } 的量均为 2.0 mmol,以200 mA 恒电流放电 482\\mathsf { s } \\varlimsup ,计算电池的电动势(计算时 \\mathrm { I } _ { 2 \\mathrm { \\Delta } } ,A和B均可以作为不溶物处理)。"
+    },
+    {
+      "type": "subpart",
+      "label": "4-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001276"
     }
   ],
-  "parts": []
+  "renderingHints": {
+    "mhchem": true
+  }
 }

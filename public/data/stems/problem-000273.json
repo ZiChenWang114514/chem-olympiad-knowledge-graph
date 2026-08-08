@@ -1,51 +1,484 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000273",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "电化学二氧化碳还原",
-  "number": "4",
+  "number": "Q4",
   "examYear": 2025,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000035",
-    "sourceLabel": "2025年第39届全国中学生化学竞赛决赛理论试题资料.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "sourceLabel": "2025年第39届全国中学生化学竞赛决赛理论资料（原卷待补）",
+    "pages": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第4题 电化学CO₂还原(28分) 利用电化学方法将 ${ \\bf C O } _ { 2 }$ 还原转化为高附加值化学品是重要的碳中和技术。在固态氧化物电解池或水溶液电解池中均可以实现 ${ \\bf C } { \\bf O } _ { 2 }$ 的电化学还原。4.1 固态氧化物电解池以具有较高 $0 ^ { 2 - }$ 迁移率的固体氧化物为电解质，在高温下进行电解，可以将 ${ \\bf C } { \\bf O } _ { 2 }$ 还原成 CO(反应1): $$ \\mathrm{CO} _ {2} (\\mathrm{g}) \\rightarrow \\mathrm{CO} (\\mathrm{g}) + 1 / 2 \\mathrm{O} _ {2} (\\mathrm{g}) \\quad (\\text { 反 应 } 1) $$ 4.1.1 已知 298 K下 $\\Delta _ { \\mathrm { f } } G _ { \\mathrm { m } } ^ { \\ominus } ( \\mathrm { C O } _ { 2 } ) = - 3 9 4 . 4$ kJ $\\mathfrak { m o l } ^ { - 1 }$ $\\Delta _ { \\mathrm { f } } G _ { \\mathrm { m } } \\Theta ( \\mathrm { C O } ) = - 1 3 7 . 2 \\mathrm { k J } \\mathrm { m o l ^ { - 1 } }$ ，求反应1在298 K、标准状态下的理论分解电压。 4.1.2 实验测得1298K时反应1在标准状态下的理论分解电压为0.92 V。假设反应焓变和熵变不随温度变化，求反应1在1000K可逆进行时的反应热。"
+      "text": "第4题 电化学CO2还原(28分)"
     },
     {
       "type": "paragraph",
-      "text": "4.1.3 电解过程的理论分解电压与温度有关，其温度系数定义为单位温度变化造成的理论分解电压变化。如果电解过程在初始环境为 $p ( \\mathrm { C O _ { 2 } } ) = p ^ { \\Theta } , ~ p ( \\mathrm { C O } ) = 0 . 0 1 0 p ^ { \\Theta } , ~ p ( \\mathrm { O _ { 2 } } ) = 0 . 2 1 p ^ { \\Theta }$ 下可逆进行，各气体可视为理想气体，计算开始电解时理论分解电压的温度系数。 4.1.4若电解在封闭体系下进行，电解过程中理论分解电压的温度系数的绝对值将如何变化？A. 增大 B. 减小 C. 不变 D. 先增大后减小 E. 先减小后增大"
+      "text": "利用电化学方法将 { \\bf C O } _ { 2 } 还原转化为高附加值化学品是重要的碳中和技术。在固态氧化物电解池或水溶液电解池中均可以实现 { \\bf C } { \\bf O } _ { 2 } 的电化学还原。4.1 固态氧化物电解池以具有较高 0 ^ { 2 - } 迁移率的固体氧化物为电解质,在高温下进行电解,可以将 { \\bf C } { \\bf O } _ { 2 } 还原成 CO(反应1):"
     },
     {
       "type": "paragraph",
-      "text": "4.2 在水溶液中，以特定金属做阴极可实现 $\\mathbf { C O } _ { 2 }$ 的选择性电化学还原，产物与电极材料、溶液成分和电解电压等因素都有关。甲酸和 $\\mathtt { c o }$ 是最常见的 $\\mathbf { C O } _ { 2 }$ 还原产物，其中甲酸附加值较高，将 ${ \\mathsf { C O } } _ { 2 }$ 高选择性还原成甲酸或甲酸盐是重要的研究课题。 4.2.1已知在298K的条件下的下列数据： $$ \\begin{array}{l l}\\mathrm {CO_ {2} (g) + 2H^ {+} (aq) + 2e^ {-} \\rightarrow CO(g)+ H_ {2} O(l)}&\\varphi_ {1} ^ {\\ominus} = - 0. 1 0 5 \\mathrm{V}\\\\\\mathrm {CO_ {2} (g) + H^ {+} (aq) + 2e^ {-} \\rightarrow HCOO^ {-} (aq)}&\\varphi_ {2} ^ {\\ominus} = - 0. 2 2 3 \\mathrm{V}\\end{array} $$ 电解产物与 pH相关，右侧为 ${ \\bf C } { \\bf O } _ { 2 }$ 及其电化学还原产物的电势-pH图，其中含碳物种均为标态，请写出图中A、B、C区域对应的物种。 4.2.2 只考虑上述两个电极反应，若希望得到甲酸或甲酸盐而非CO，应如何控制溶液的 $\\mathsf { p H }$ 值？"
+      "text": "\\mathrm{CO} _ {2} (\\mathrm{g}) \\rightarrow \\mathrm{CO} (\\mathrm{g}) + 1 / 2 \\mathrm{O} _ {2} (\\mathrm{g}) \\quad (\\text { 反   应 } 1)"
     },
     {
       "type": "paragraph",
-      "text": "4.2.3 在水溶液中 $\\mathbf { C O } _ { 2 }$ 电化学还原的主要挑战之一是在还原 ${ \\bf C } { \\bf O } _ { 2 }$ 的同时也会将水还原为氢 $\\varepsilon ,$ 导致 $C O _ { 2 }$ 还原效率严重降低。若含碳物种浓度为标准状态，请通过计算说明能否通过控制pH值，在热力学上高选择性地获得甲酸或甲酸盐而避免氢气生成？如果可以，应如何控制 $\\mathfrak { p H }$ 值。如果不可以，请说明理由。"
+      "text": "4.1.1 已知 298 K下 \\Delta _ { \\mathrm { f } } G _ { \\mathrm { m } } ^ { \\ominus } ( \\mathrm { C O } _ { 2 } ) = - 394 . 4 kJ \\mathfrak { m o l } ^ { - 1 } \\Delta _ { \\mathrm { f } } G _ { \\mathrm { m } } \\Theta ( \\mathrm { C O } ) = - 137 . 2 \\mathrm { k J } \\mathrm { m o l ^ { - 1 } } ,求反应1在298 K,标准状态下的理论分解电压。"
     },
     {
       "type": "paragraph",
-      "text": "4.3 为实现高效的 ${ \\bf C O } _ { 2 }$ 电化学还原制备甲酸，研究人员设计了如右图所示的电解系统，其中包含阴阳离子交换膜和固态H+导体电解质，在阴极和阳极区分别通入 ${ \\bf C } { \\bf O } _ { 2 }$ 和 ${ \\tt H } _ { 2 } ,$ ，在固态电解质区域通入去离子水将生成的甲酸溶解分离。在某次实验中， $C 0 _ { 2 }$ 和 $\\mathrm { H } _ { 2 }$ 均为标态，通入速率均为 $0 . 0 5 4 ~ \\mathrm { m o l } ~ \\mathrm { h } ^ { - 1 }$ ，在298K，150mA 的恒定电流下电解100.h，电解过程平均电压为1.1.V，获得浓度为 $0 . 1 1 \\mathrm { m o l } \\mathrm { L } ^ { - 1 }$ 的HCOOH溶液2.1L 及 H2、CO等还原副产物。已知甲酸的 $K _ { \\mathrm { a } } = 1 . 8 \\times 1 0 ^ { - 4 }$ 。 第8页，共25页 4.3.1.在有多种产物的电化学反应中，常用法拉第效率表示产物选择性，其定义为生成特定产物的电流和总电流之比。计算上述电化学还原过程中生成HCOOH的平均法拉第效率。"
+      "text": "答案:"
     },
     {
       "type": "paragraph",
-      "text": "4.3.2计算上述电化学还原过程生产HCOOH的能量效率。"
+      "text": "电解反应 \\mathrm { C O _ { 2 } ( g ) } \\mathrm { C O ( g ) } + 1 / 2 \\mathrm { O } _ { 2 } ( \\mathrm { g } )"
+    },
+    {
+      "type": "paragraph",
+      "text": "\\Delta_ {\\mathrm{r}} G _ {\\mathrm{m}} \\ominus = \\Delta_ {\\mathrm{f}} G _ {\\mathrm{m}} \\ominus (\\mathrm{CO}) - \\Delta_ {\\mathrm{f}} G _ {\\mathrm{m}} \\ominus (\\mathrm{CO} _ {2})"
+    },
+    {
+      "type": "paragraph",
+      "text": "= - 137. 2 - (- 394. 4) = + 257. 2 \\left(\\mathrm{kJ} \\mathrm{mol} ^ {- 1}\\right)\\tag{1 分}"
+    },
+    {
+      "type": "paragraph",
+      "text": "每 mol 反应转移 2 mol 电子,因此标准电池电动势为"
+    },
+    {
+      "type": "paragraph",
+      "text": " E ^ {\\ominus} = - \\frac {\\Delta_ {r} G _ {m} ^ {\\ominus}}{2 F} \\\\ = - \\frac {257200}{2 \\times 96485} = - 1. 333 (\\mathrm{V}) \\tag{1 分}"
+    },
+    {
+      "type": "paragraph",
+      "text": "所以电解时应维持的分解电压为  { 1 { - } E ^ { \\ominus } = 1 . 333 \\mathrm { V } _ { \\circ } } "
+    },
+    {
+      "type": "paragraph",
+      "text": "(1分) 共3分"
+    },
+    {
+      "type": "paragraph",
+      "text": "分解电压要求修约为4位有效数字。"
+    },
+    {
+      "type": "paragraph",
+      "text": "4.1.2 实验测得1298K时反应1在标准状态下的理论分解电压为0.92 V。假设反应焓变和熵变不随温度变化,求反应1在1000K可逆进行时的反应热。答案: 答案:"
+    },
+    {
+      "type": "paragraph",
+      "text": "分解电压是可逆电池电动势的相反数。"
+    },
+    {
+      "type": "paragraph",
+      "text": "1298K时上述反应的 \\Delta _ { \\mathrm { r } } G _ { \\mathfrak { m } } \\Theta ( 1298 \\mathrm { K } ) = - 2 F E \\Theta = 2 \\times 96485 \\times 0 . 92 = 177 . 532 \\mathrm { ~ k J ~ m o l ^ { - 1 } }"
+    },
+    {
+      "type": "paragraph",
+      "text": "(1分)"
+    },
+    {
+      "type": "paragraph",
+      "text": "因为 \\Delta _ { \\mathrm { r } } G _ { \\mathrm { m } } \\Theta = \\Delta _ { \\mathrm { r } } H _ { \\mathrm { m } } \\Theta - T \\Delta _ { \\mathrm { r } } S _ { \\mathrm { m } } \\Theta ,而焓变与熵变为定值,所以"
+    },
+    {
+      "type": "paragraph",
+      "text": "\\Delta_ {r} S _ {m} ^ {\\ominus} = \\frac {\\Delta_ {r} G _ {m} ^ {\\ominus} (298 \\mathrm{K}) - \\Delta_ {r} G _ {m} ^ {\\ominus} (1298 \\mathrm{K})}{1298 - 298} = \\frac {(257200 - 177532)}{1298 - 298} = + 79. 67 \\mathrm{Jmol} ^ {- 1} \\mathrm{K} ^ {- 1}\\tag{1 分}"
+    },
+    {
+      "type": "paragraph",
+      "text": " Q _ {r e v} & = T \\Delta_ {r} S _ {m} ^ {\\ominus} \\\\ & = 1000 \\times 79. 67 = 7. 967 \\times 10 ^ {4} \\mathrm{Jmol} ^ {- 1} \\tag{1 分}"
+    },
+    {
+      "type": "paragraph",
+      "text": "(1分) 共4分"
+    },
+    {
+      "type": "paragraph",
+      "text": "4.1.3 电解过程的理论分解电压与温度有关,其温度系数定义为单位温度变化造成的理论分解电压变化。如果电解过程在初始环境为 p ( \\mathrm { C O _ { 2 } } ) = p ^ { \\Theta } , ~ p ( \\mathrm { C O } ) = 0 . 010 p ^ { \\Theta } , ~ p ( \\mathrm { O _ { 2 } } ) = 0 . 21 p ^ { \\Theta } 下可逆进行,各气体可视为理想气体,计算开始电解时理论分解电压的温度系数。"
+    },
+    {
+      "type": "paragraph",
+      "text": "答案:"
+    },
+    {
+      "type": "paragraph",
+      "text": "对反应 \\mathrm { C O _ { 2 } ( g ) } \\mathrm { C O ( g ) } + 1 / 2 \\mathrm { O } _ { 2 } ( \\mathrm { g } )"
+    },
+    {
+      "type": "paragraph",
+      "text": "由 Nernst 方程,可逆电池电动势"
+    },
+    {
+      "type": "paragraph",
+      "text": "E = E ^ {\\ominus} - \\frac {R T}{2 F} \\ln \\left(\\frac {\\sqrt {p (\\mathrm{O} _ {2}) / p ^ {\\ominus}} \\cdot p (\\mathrm{CO}) / p ^ {\\ominus}}{p (\\mathrm{CO} _ {2}) / p ^ {\\ominus}}\\right)\\tag{1 分}"
+    },
+    {
+      "type": "paragraph",
+      "text": "后一项中的分压不随温度变化,所以可逆电池电动势的温度系数为"
+    },
+    {
+      "type": "paragraph",
+      "text": "\\left(\\frac {\\partial E}{\\partial T}\\right) _ {p} = \\left(\\frac {\\partial E ^ {\\ominus}}{\\partial T}\\right) _ {p} - \\frac {R}{2 F} \\ln \\left(\\frac {\\sqrt {p (\\mathrm{O} _ {2}) / p ^ {\\ominus}} \\cdot p (\\mathrm{CO})}{p (\\mathrm{CO} _ {2})}\\right) = \\frac {\\Delta_ {r} S _ {m} ^ {\\ominus}}{2 F} - \\frac {R}{2 F} \\ln \\left(\\frac {\\sqrt {p (\\mathrm{O} _ {2}) / p ^ {\\ominus}} \\cdot p (\\mathrm{CO})}{p (\\mathrm{CO} _ {2})}\\right)\\tag{1 分}"
+    },
+    {
+      "type": "paragraph",
+      "text": "= \\frac {79 . 67}{2 \\times 96485} - \\frac {8 . 314}{2 \\times 96485} \\ln \\left(\\frac {\\sqrt {0 . 21 \\cdot 0 . 01}}{1}\\right) = 6. 449 \\times 10 ^ {- 4} \\mathrm{VK} ^ {- 1}"
+    },
+    {
+      "type": "paragraph",
+      "text": "分解电压为可逆电池电动势的相反数,其温度系数为 - 6 . 449 \\times 10 ^ { - 4 } \\mathrm { V } \\mathrm { K } ^ { - 1 } (1分)共3分"
+    },
+    {
+      "type": "paragraph",
+      "text": "4.1.4若电解在封闭体系下进行,电解过程中理论分解电压的温度系数的绝对值将如何变化方向A. 增大 B. 减小 C. 不变 D. 先增大后减小 E. 先减小后增大答案:"
+    },
+    {
+      "type": "paragraph",
+      "text": "E (1分)"
+    },
+    {
+      "type": "paragraph",
+      "text": "封闭体系,随反应进行,产物压强增加,反应物压强减少,所以温度系数随时间逐渐增加,从负值变为正值,绝对值先变小后变大"
+    },
+    {
+      "type": "paragraph",
+      "text": "4.2 在水溶液中,以特定金属做阴极可实现 \\mathbf { C O } _ { 2 } 的选择性电化学还原,产物与电极材料,溶液成分和电解电压等因素都有关。甲酸和 \\mathtt { c o } 是最常见的 \\mathbf { C O } _ { 2 } 还原产物,其中甲酸附加值较高,将 { \\mathsf { C O } } _ { 2 } 高选择性还原成甲酸或甲酸盐是重要的研究课题。"
+    },
+    {
+      "type": "paragraph",
+      "text": "4.2.1已知在298K的条件下的下列数据:"
+    },
+    {
+      "type": "paragraph",
+      "text": "\\mathrm {CO_ {2} (g) + 2H^ {+} (aq) + 2e^ {-} \\rightarrow CO(g)+ H_ {2} O(l)}&\\varphi_ {1} ^ {\\ominus} = - 0. 105 \\mathrm{V}\\\\\\mathrm {CO_ {2} (g) + H^ {+} (aq) + 2e^ {-} \\rightarrow HCOO^ {-} (aq)}&\\varphi_ {2} ^ {\\ominus} = - 0. 223 \\mathrm{V}"
+    },
+    {
+      "type": "paragraph",
+      "text": "电解产物与 pH相关,右侧为 { \\bf C } { \\bf O } _ { 2 } 及其电化学还原产物的电势-pH图,其中含碳物种均为标态,请写出图中A,B,C区域对应的物种。"
+    },
+    {
+      "type": "paragraph",
+      "text": "答案:"
+    },
+    {
+      "type": "paragraph",
+      "text": "A: CO;B: HCOO/HCOOH;C: CO2"
+    },
+    {
+      "type": "paragraph",
+      "text": "每个1分,共3分"
+    },
+    {
+      "type": "paragraph",
+      "text": "4.2.2 只考虑上述两个电极反应,若希望得到甲酸或甲酸盐而非CO,应如何控制溶液的 \\mathsf { p H } 值方向答案:"
+    },
+    {
+      "type": "paragraph",
+      "text": " & {\\varphi_ {1} = \\varphi_ {1} ^ {\\ominus} - \\frac {R T}{2 F} \\mathrm{ln} \\left(\\frac {p (\\mathrm{CO}) (c ^ {\\ominus}) ^ {2}}{p (\\mathrm{CO} _ {2}) (c (\\mathrm{H} ^ {+}) ^ {2})}\\right) = \\varphi_ {1} ^ {\\ominus} - \\frac {R T}{2 F} \\mathrm{ln} \\left(\\frac {p (\\mathrm{CO})}{p (\\mathrm{CO} _ {2})}\\right) - \\frac {R T}{2 F} \\mathrm{ln} \\left(\\frac {(c ^ {\\ominus}) ^ {2}}{(c (\\mathrm{H} ^ {+}) ^ {2})}\\right)} \\\\ & {= \\varphi_ {1} ^ {\\ominus} - \\frac {R T \\mathrm{ln} 10}{F} \\mathrm{pH} \\qquad \\qquad \\qquad \\qquad \\qquad (1 \\text {分})} \\\\ & {\\varphi_ {2} = \\varphi_ {2} ^ {\\ominus} - \\frac {R T}{2 F} \\mathrm{ln} \\left(\\frac {c (\\mathrm{HCOO} ^ {-}) p ^ {\\ominus}}{p (\\mathrm{CO} _ {2}) c (\\mathrm{H} ^ {+})}\\right) = \\varphi_ {2} ^ {\\ominus} - \\frac {R T}{2 F} \\mathrm{ln} \\left(\\frac {c (\\mathrm{HCOO} ^ {-}) p ^ {\\ominus}}{p (\\mathrm{CO} _ {2}) c ^ {\\ominus}}\\right) - \\frac {R T}{2 F} \\mathrm{ln} \\left(\\frac {c ^ {\\ominus}}{c (\\mathrm{H} ^ {+})}\\right)} \\\\ & {= \\varphi_ {2} ^ {\\ominus} - \\frac {R T \\mathrm{ln} 10}{2 F} \\mathrm{pH} \\qquad \\qquad \\qquad \\qquad (1 \\text {分})} "
+    },
+    {
+      "type": "paragraph",
+      "text": "要选择性得到甲酸,则有 \\varphi _ { 1 } < \\varphi _ { 2 } 即有 - 0 . 105 - \\frac { R T \\ln { 10 } } { F } pH  { < - 0 . 223 - \\frac { R T \\ln { 10 } } { 2 F } \\mathrm { p H } }  (1分)解得 \\mathsf { p H } > 3 . 99 (1 分)"
+    },
+    {
+      "type": "paragraph",
+      "text": "对应图中垂直线,因此要高选择性获得甲酸而非CO,应控制溶液的pH大于3.99。"
+    },
+    {
+      "type": "paragraph",
+      "text": "4.2.3 在水溶液中 \\mathbf { C O } _ { 2 } 电化学还原的主要挑战之一是在还原 { \\bf C } { \\bf O } _ { 2 } 的同时也会将水还原为氢 \\varepsilon , 导致 C O _ { 2 } 还原效率严重降低。若含碳物种浓度为标准状态,请通过计算说明能否通过控制pH值,在热力学上高选择性地获得甲酸或甲酸盐而避免氢气生成方向如果可以,应如何控制 \\mathfrak { p H } 值。如果不可以,请说明理由。"
+    },
+    {
+      "type": "paragraph",
+      "text": "答案:"
+    },
+    {
+      "type": "paragraph",
+      "text": "氢析出反应(反应3): 2 \\mathrm { H } ^ { + } ( { \\mathrm { a q } } ) + 2 \\mathrm { e } ^ { - } \\mathrm { H } _ { 2 } ( \\mathrm { g } ) , \\mathrm { } \\varphi _ { 3 } ^ { \\ominus } = 0 \\mathrm { V } \\mathrm { e }"
+    },
+    {
+      "type": "paragraph",
+      "text": "\\varphi_ {3} = \\varphi_ {3} ^ {\\ominus} + \\frac {R T}{2 F} \\ln \\left(\\frac {c (\\mathrm{H} ^ {+})}{c ^ {\\ominus}}\\right) ^ {2} = - \\frac {R T \\ln 10}{F} \\mathrm{pH}"
+    },
+    {
+      "type": "paragraph",
+      "text": "\\varphi_ {2} > \\varphi_ {3}\\tag{1 分}"
+    },
+    {
+      "type": "paragraph",
+      "text": "\\varphi_ {2} ^ {\\ominus} - \\frac {R T \\ln 10}{2 F} \\mathrm{pH} > - \\frac {R T \\ln 10}{F} \\mathrm{pH}\\tag{1 分}"
+    },
+    {
+      "type": "paragraph",
+      "text": "\\mathrm{pH} = - \\frac {2 F \\varphi_ {2} ^ {\\ominus}}{R T \\ln 10} = - \\frac {2 \\times 96485 \\times (- 0 . 223)}{8 . 314 \\times 298 \\times \\ln 10} = 7. 54\\tag{1 分}"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000273-figure-001.jpg",
-      "alt": "problem-000273题目配图第1幅（已按原图查看）"
+      "assetId": "asset-003333",
+      "alt": "电化学二氧化碳还原：第1幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
+    },
+    {
+      "type": "paragraph",
+      "text": "因此可以通过控制pH值,在热力学上高选择性地获得HCOO,需要控制pH大于7.54。(1分)共4分"
+    },
+    {
+      "type": "paragraph",
+      "text": "CO.电化学还原制HCOOH装置示意图"
+    },
+    {
+      "type": "paragraph",
+      "text": "4.3 为实现高效的 { \\bf C O } _ { 2 } 电化学还原制备甲酸,研究人员设计了如右图所示的电解系统,其中包含阴阳离子交换膜和固态H+导体电解质,在阴极和阳极区分别通入 { \\bf C } { \\bf O } _ { 2 } 和 { \\tt H } _ { 2 } , ,在固态电解质区域通入去离子水将生成的甲酸溶解分离。在某次实验中, C 0 _ { 2 } 和 \\mathrm { H } _ { 2 } 均为标态,通入速率均为 0 . 054 ~ \\mathrm { m o l } ~ \\mathrm { h } ^ { - 1 } ,在298K,150mA 的恒定电流下电解100.h,电解过程平均电压为1.1.V,获得浓度为 0 . 11 \\mathrm { m o l } \\mathrm { L } ^ { - 1 } 的HCOOH溶液2.1L 及 H2,CO等还原副产物。已知甲酸的 K _ { \\mathrm { a } } = 1 . 8 \\times 10 ^ { - 4 } 。"
+    },
+    {
+      "type": "paragraph",
+      "text": "第8页,共25页"
+    },
+    {
+      "type": "paragraph",
+      "text": "4.3.1.在有多种产物的电化学反应中,常用法拉第效率表示产物选择性,其定义为生成特定产物的电流和总电流之比。计算上述电化学还原过程中生成HCOOH的平均法拉第效率。答案: { F E = \\frac { I _ { H C O O H } } { I } = \\frac { 2 n _ { H C O O H } F } { I \\Delta t } } \\\\ { = \\frac { 2 \\times 0 . 11 \\times 2 . 1 \\times 96485 } { 0 . 150 \\times 3600 \\times 100 } = 83 \\% }  (1 分)(1 分) 共2分"
+    },
+    {
+      "type": "paragraph",
+      "text": "4.3.2计算上述电化学还原过程生产HCOOH的能量效率。答案: { \\mathrm { H } ^ { + } + \\mathrm { C O } _ { 2 } \\left( \\mathrm { g } \\right) + 2 \\mathrm { e } = \\mathrm { H } \\mathrm { C O } \\mathrm { O } ^ { - } }   { G ^ { \\circ } { _ 2 } { = } { - } 2 F \\varphi ^ { \\circ } { _ 2 } }  2H+ + 2e = H2 (g) Δ \\mathcal { G } ^ { \\circ } { } _ { 3 } = 0 \\mathrm { H } ^ { + } + \\mathrm { H C O O } ^ { - } = \\mathrm { H C O O H } \\scriptstyle G ^ { \\circ } _ { 4 } = - R T \\ln K _ { \\mathrm { a } } ^ { \\cdot } 总反应为:H : ( \\mathrm { g } ) + \\mathrm { C O } _ { 2 } ( \\mathrm { g } ) = \\mathrm { H C O O H } ( \\mathrm { a q } ) 理论所需电能即为该反应的△G\\Delta G ^ { \\circ } = \\Delta G ^ { \\circ } { } _ { 2 } - \\Delta G ^ { \\circ } { } _ { 3 } + \\Delta G ^ { \\circ } { } _ { 4 } = - 2 F \\varphi ^ { \\circ } { } _ { 2 } + R T \\mathfrak { n } K \\mathfrak { a } \\Delta G = \\Delta G ^ { \\circ } + { \\cal R } T \\mathrm { l n } \\left[ c ( \\mathrm { H C O O H } ) / c ^ { \\circ } \\right] = - 2 F \\varphi ^ { \\circ } { _ 2 } + { R T } \\mathrm { l n } \\left[ K _ { \\circ } { \\cdot } c ( \\mathrm { H C O O H } ) / c ^ { \\circ } \\right] (1 分)= - 2 \\times 96485 \\times ( - 0 . 223 ) + 8 . 314 \\times 298 \\times \\ln { ( 1 . 8 \\times 10 ^ { - 4 } \\times 0 . 11 ) } = 16200 ( \\mathrm { J } \\mathrm { m o l } ^ { - 1 } ) (1分)实际电解做功: W = U I \\Delta t = 1 . 1 \\times 0 . 150 \\times 3600 \\times 100 = 59400 ( \\mathrm { J } ) (1 分)\\eta = n \\left( \\mathrm { H C O O H } \\right) \\cdot \\Delta G / W = 0 . 11 \\times 2 . 1 \\times 16200 / 59400 = 6 . 3 \\% (1分)共4分"
+    },
+    {
+      "type": "subpart",
+      "label": "4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001538"
+    },
+    {
+      "type": "subpart",
+      "label": "4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001539"
+    },
+    {
+      "type": "subpart",
+      "label": "4-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001540"
+    },
+    {
+      "type": "subpart",
+      "label": "4-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001541"
+    },
+    {
+      "type": "subpart",
+      "label": "4-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001542"
+    },
+    {
+      "type": "subpart",
+      "label": "4-6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001543"
+    },
+    {
+      "type": "subpart",
+      "label": "4-7",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001544"
+    },
+    {
+      "type": "subpart",
+      "label": "4-8",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001545"
+    },
+    {
+      "type": "subpart",
+      "label": "4-9",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001546"
+    },
+    {
+      "type": "subpart",
+      "label": "4-10",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001547"
+    },
+    {
+      "type": "subpart",
+      "label": "4-11",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001548"
+    },
+    {
+      "type": "subpart",
+      "label": "4-1-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001549"
+    },
+    {
+      "type": "subpart",
+      "label": "4-1-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001550"
+    },
+    {
+      "type": "subpart",
+      "label": "4-1-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001551"
+    },
+    {
+      "type": "subpart",
+      "label": "4-1-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001552"
+    },
+    {
+      "type": "subpart",
+      "label": "4-2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001553"
+    },
+    {
+      "type": "subpart",
+      "label": "4-2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001554"
+    },
+    {
+      "type": "subpart",
+      "label": "4-2-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001555"
+    },
+    {
+      "type": "subpart",
+      "label": "4-3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001556"
+    },
+    {
+      "type": "subpart",
+      "label": "4-3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001557"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

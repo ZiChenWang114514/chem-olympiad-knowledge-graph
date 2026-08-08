@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000005",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,18 +10,48 @@
   "source": {
     "sourceDocumentId": "source-000058",
     "sourceLabel": "2022-36-CChO-chusai-1.pdf",
-    "page": null,
+    "pages": [
+      1
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
-  },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "Q2 · 高压碳酸盐聚合结构"
+      "type": "subpart",
+      "label": "Q2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Q2 · 高压碳酸盐聚合结构"
+        }
+      ],
+      "partId": "part-000002"
+    },
+    {
+      "type": "subpart",
+      "label": "2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在20 Gpa高压下,用激光加热 $\\mathrm { S r C O _ { 3 } }$ 和 $\\mathrm { S r O }$ 的混合物,得到组成为 $\\mathrm { S r _ { 3 } C O _ { 5 } }$ 的物质,其结构类似于钙钛 $\\mathrm { \\bf \\ddot { \\Delta } H ^ { \\mu } \\mathbf { A B X _ { 3 } } } ,$ ,其中 $\\mathbf { B X } _ { 6 }$ 八面体共顶点连接,写出 $\\mathrm { S r _ { 3 } C O _ { 5 } }$ 中分别对应于A、B、X的离子(须注明电荷)。"
+        }
+      ],
+      "partId": "part-000003"
+    },
+    {
+      "type": "subpart",
+      "label": "2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在 82\\~138 Gpa 的高压下, $\\mathrm { M g C O _ { 3 } }$ 中碳酸根形成环状三聚体(C),画出C的结构示意图。在30\\~40 Gpa的高压下,用激光加热 $\\mathbf { M C O _ { 3 } } \\left( \\mathbf { M } = \\mathbf { C a } \\right.$ 或Sr)和干冰的混合物,得到组成为 $\\mathbf { M C } _ { 2 } \\mathrm { O } _ { 5 }$ 的物质。 $\\mathrm { C a C _ { 2 } O _ { 5 } }$ 中,碳酸根以四聚形式(D)存在; $\\mathrm { S r C _ { 2 } O _ { 5 } }$ 中,碳酸根以二聚形式(E)存在,画出D和E的结构。"
+        }
+      ],
+      "partId": "part-000004"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

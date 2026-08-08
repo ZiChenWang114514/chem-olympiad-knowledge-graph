@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000305",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,17 +10,63 @@
   "source": {
     "sourceDocumentId": "source-000038",
     "sourceLabel": "2007-21-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      2
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第6题（12分）在给定实验条件下，一元弱酸HA在苯(B)和⽔(W)的分配系数 $\\dot { K } _ { D } = \\mathrm { [ H A ] _ { B } / [ H A ] _ { W } = 1 } . 0 0 _ { \\circ }$ 。已知⽔相和苯相中HA的分析浓度分别为 $3 . 0 5 \\times 1 0 ^ { - 3 }$ 和 $3 . 9 6 \\times 1 0 ^ { - 3 } \\mathrm { M }$ 。在⽔中，HA按 $\\mathrm { H A } \\mathrm { H ^ { + } } + \\mathrm { A ^ { - } }$ −解离， $K _ { a }$ $= 1 . 0 0 \\times 1 0 ^ { - 4 }$ ；在苯中，HA发生二聚： $2 \\mathrm { H A } \\mathrm { ( H A ) _ { 2 } }$ 20 6-1 计算⽔相中各物种的浓度及 $\\mathrm { p H _ { c } }$ 6-2 计算化合物HA在苯相中的二聚平衡常数。 6-3 已知 HA 中有苯环，1.00 g HA 含 $3 . 8 5 \\times 1 0 ^ { 2 1 }$ 个分⼦，给出HA的化学名称。 6-4 解释HA在苯中发生二聚的原因，画出二聚体的结构。"
+      "text": "第6题(12分)在给定实验条件下,一元弱酸HA在苯(B)和水(W)的分配系数 $\\dot { K } _ { D } = \\mathrm { [ H A ] _ { B } / [ H A ] _ { W } = 1 } . 00 _ { \\circ }$ 。已知水相和苯相中HA的分析浓度分别为 $3.05 \\times 10 ^ { - 3 }$ 和 $3.96 \\times 10 ^ { - 3 } \\mathrm { M }$ 。在水中,HA按 $\\mathrm { H A } \\mathrm { H ^ { + } } + \\mathrm { A ^ { - } }$ -解离, $K _ { a }$ $= 1.00 \\times 10 ^ { - 4 }$ ;在苯中,HA发生二聚: $2 \\mathrm { H A } \\mathrm { ( H A ) _ { 2 } }$ 20"
+    },
+    {
+      "type": "subpart",
+      "label": "6-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算水相中各物种的浓度及 $\\mathrm { p H _ { c } }$"
+        }
+      ],
+      "partId": "part-000655"
+    },
+    {
+      "type": "subpart",
+      "label": "6-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算化合物HA在苯相中的二聚平衡常数。"
+        }
+      ],
+      "partId": "part-000656"
+    },
+    {
+      "type": "subpart",
+      "label": "6-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "已知 HA 中有苯环,1.00 g HA 含 $3.85 \\times 10 ^ { 21 }$ 个分子,给出HA的化学名称。"
+        }
+      ],
+      "partId": "part-000657"
+    },
+    {
+      "type": "subpart",
+      "label": "6-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "解释HA在苯中发生二聚的原因,画出二聚体的结构。"
+        }
+      ],
+      "partId": "part-000658"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

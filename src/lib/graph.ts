@@ -1,4 +1,5 @@
 import type { Discipline, GraphEdge, GraphNode, Problem } from '../types'
+import { DISPLAY_DISCIPLINES, displayDisciplineColor, displayDisciplineFor } from './displayTaxonomy'
 
 export type NeighborItem = {
   edgeId: string
@@ -26,6 +27,10 @@ const RELATION_LABELS: Record<string, string> = {
   prerequisite: '先修于',
   belongs_to: '属于',
   belongs: '属于',
+  applies: '应用于',
+  derives: '推导',
+  contrasts: '对比',
+  co_assessed: '综合考查',
   applied_in: '用于解释',
   examined_with: '综合考查',
   confused_with: '容易混淆',
@@ -73,8 +78,11 @@ export function hasNodeMappings(problem: Problem): boolean {
 
 export function nodeTypeLabel(type: string): string {
   if (type === 'discipline') return '学科'
+  if (type === 'topic') return '专题'
   if (type === 'method') return '方法'
   if (type === 'skill' || type === 'lab_skill') return '技能'
+  if (type === 'reaction_model') return '反应模型'
+  if (type === 'common_error') return '常见错误'
   return '概念'
 }
 
@@ -89,32 +97,28 @@ export function nodeSize(node: GraphNode): number {
   return Math.min(32, Math.max(18, 16 + importance * 2.2))
 }
 
-export function groupNodesByDiscipline(nodes: GraphNode[], disciplines: Discipline[]) {
-  const order = disciplines.map(d => d.id)
-  const groups = disciplines.map(d => ({
-    discipline: d,
+export function groupNodesByDiscipline(nodes: GraphNode[], _disciplines: Discipline[]) {
+  const displayDisciplines = DISPLAY_DISCIPLINES.map(item => ({ id: item.id, name: item.name, color: item.color }))
+  const groups = displayDisciplines.map(d => ({
+    discipline: d as Discipline,
     nodes: nodes
-      .filter(n => n.discipline === d.id || n.discipline === d.name)
+      .filter(n => displayDisciplineFor(n.discipline).id === d.id)
       .sort((a, b) => {
         if (a.type === 'discipline' && b.type !== 'discipline') return -1
         if (b.type === 'discipline' && a.type !== 'discipline') return 1
         return (b.importance || 0) - (a.importance || 0) || a.label.localeCompare(b.label, 'zh')
       }),
   }))
-  const known = new Set([...order, ...disciplines.map(d => d.name)])
-  const rest = nodes.filter(n => !known.has(n.discipline))
-  if (rest.length) {
-    groups.push({
-      discipline: { id: 'other', name: '其他', color: '#7a8f94' },
-      nodes: rest,
-    })
-  }
   return groups.filter(g => g.nodes.length > 0)
 }
 
 export function disciplineColor(disciplines: Discipline[], disciplineId: string): string {
+  try {
+    return displayDisciplineColor(disciplineId)
+  } catch {
+    // 兼容尚未进入公开分类配置的局部开发数据。
+  }
   const found = disciplines.find(d => d.id === disciplineId || d.name === disciplineId)
   if (found?.color && found.color.toLowerCase() !== '#5575b8') return found.color
   return DISCIPLINE_PALETTE[disciplineId] || found?.color || DISCIPLINE_PALETTE[found?.name || ''] || '#5575b8'
 }
-

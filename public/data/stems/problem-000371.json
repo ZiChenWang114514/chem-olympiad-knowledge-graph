@@ -1,71 +1,81 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000371",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "分子光谱与发光",
-  "number": "6",
+  "number": "Q6",
   "examYear": 2010,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000005",
     "sourceLabel": "2010-24-CChO-juesai.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      3
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
+      "type": "paragraph",
+      "text": "第 6 题(13 分)Pallescensin \\mathrm { A } \\left( \\mathrm { C } _ { 15 } \\mathrm { H } _ { 22 } \\mathrm { O } \\right) 是从海产海绵中分离得到的一种天然有机化合物,Smith和Mewshaw报道了如下全合成方法:"
+    },
+    {
       "type": "figure",
       "src": "data/stems/assets/problem-000371-figure-001.jpg",
-      "alt": "化学结构示意图（原图）",
-      "caption": "题图"
-    }
-  ],
-  "parts": [
+      "assetId": "asset-003392",
+      "alt": "分子光谱与发光：第1幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
+    },
     {
-      "id": "part-000371-01",
+      "type": "subpart",
       "label": "6-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "请写出步骤A~D所需的试剂及必要的反应条件。"
+          "text": "请写出步骤A\\~D所需的试剂及必要的反应条件。"
         }
-      ]
+      ],
+      "partId": "part-001729"
     },
     {
-      "id": "part-000371-02",
+      "type": "subpart",
       "label": "6-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出化合物2和4的立体结构式(用上图所示的虚线-楔线式表示)。"
+          "text": "画出化合物2和4的立体结构式(用上图所示的虚线一楔线式表示)。"
         }
-      ]
+      ],
+      "partId": "part-001730"
     },
     {
-      "id": "part-000371-03",
+      "type": "subpart",
       "label": "6-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "化合物7分子中含有几个不对称碳原子?画出7的椅式构象表达式并标出各不对称碳原子的构型(用R/S标记)。"
+          "text": "化合物7分子中含有几个不对称碳原子方向画出7的椅式构象表达式并标出各不对称碳原子的构型(用方向/方向标记)。"
         }
-      ]
+      ],
+      "partId": "part-001731"
     },
     {
-      "id": "part-000371-04",
+      "type": "subpart",
       "label": "6-4",
       "blocks": [
         {
           "type": "paragraph",
           "text": "Pallescensin A 的红外光谱表明没有羰基的吸收峰,请画出 Pallescensin A 的立体结构式(用虚线-楔线式表示)并用反应机理解释由7转化为Pallescensin A的反应(写出两个关键中间体)。"
         }
-      ]
+      ],
+      "partId": "part-001732"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

@@ -1,73 +1,82 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000089",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "分光光度分析",
-  "number": "5",
+  "number": "Q5",
   "examYear": 2020,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000054",
     "sourceLabel": "2020-34-CChO-chusai.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      2
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
+      "type": "paragraph",
+      "text": "第5题(10分) 25 ~ ^ { \\circ } \\mathrm { C } , ,银离子在溶液中与间苯二胺和对苯二胺定量发生如下反应:"
+    },
+    {
       "type": "figure",
-      "caption": "(图:反应示意图)",
-      "alt": "缺图,原题有图",
-      "src": "data/stems/assets/problem-000089-figure-001.jpg"
+      "src": "data/stems/assets/problem-000089-figure-001.jpg",
+      "assetId": "asset-003140",
+      "alt": "原卷示意图：A",
+      "label": "A",
+      "caption": "A；B",
+      "displayWidth": 100
     },
     {
       "type": "paragraph",
-      "text": "氧化得到的偶联产物在550 nm波长处的摩尔消光系数为 $1.8 \\times 10^{4} \\mathrm{L\\,mol^{-1}\\,cm^{-1}}$ 。利用这一反应,通过分光光度法可测定起始溶液中的银离子浓度。"
+      "text": "氧化得到的偶联产物在550 nm波⻓处的摩尔消光系数为 1 . 8 \\times 10 ^ { 4 } \\mathrm { L m o l ^ { - 1 } c m ^ { - 1 } } 。利用这一反应,通过分光光度法可测定起始溶液中的银离子浓度。"
     },
     {
       "type": "paragraph",
-      "text": "$\\mathbf{5-1}$ 在 $25\\,^{\\circ}\\mathrm{C}$ 纯水中配得乙酸银的饱和水溶液。取1.00 mL溶液,按计量加入两种苯二胺,至显色稳定后,稀释定容至 $1\\,\\mathrm{L}$。用1 cm的比色皿,测得溶液在550 nm处的吸光度为0.225。计算乙酸银的溶度积 $K_{\\mathrm{sp}}$。(提示:可合理忽略副反应。朗伯-比尔方程 $A = \\varepsilon l c$,$A$ 为吸光度;$\\varepsilon$ 为摩尔消光系数;$l$ 为光通过溶液的路径长;$c$ 为溶液浓度。)"
-    }
-  ],
-  "parts": [
+      "text": "{ \\mathrm { \\bf 5 - 1 } } \\quad 25 \\ { \\mathrm { \\bf ~ ^ { \\circ } C } } , ,在纯水中配得乙酸银的饱和水溶液。取1.00 mL溶液,按计量加入两种苯二胺,至显色稳定后,稀释定容至 1 \\mathrm { L } _ { \\circ } 。用1 cm的比色皿,测得溶液在550 nm处的吸光度为0.225。计算乙酸银的溶度积 \\updownarrow K _ { \\mathsf { s p } ^ { \\mathsf { c } } } 。(提示:可合理忽略副反应。朗伯-比尔方程 A = \\varepsilon l c ,方向吸光度;方向摩尔消光系数;方向光通过溶液的路径⻓;方向溶液浓度。)"
+    },
     {
-      "id": "part-000089-01",
+      "type": "subpart",
       "label": "5-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "室温下将乙酸银与4-三甲铵基苯硫醇的六氟磷酸盐($\\mathrm{HL^+PF_6^-}$,其中 $\\mathrm{HL^+} = [\\mathrm{HSC_6H_4N(CH_3)_3}]^+$)混合研磨,两种固体发生反应,得到一种淡黄色粉末。粉末用乙腈处理,结晶出无色溶剂合物A,化学式为"
-        },
-        {
-          "type": "paragraph",
-          "text": "$\\mathrm{[Ag_9L_8(CH_3CN)_x](PF_6)_y \\cdot nCH_3CN}$。元素分析结果给出,A中C, H, N, P的含量(质量分数,%)分别为:C 27.40,H 3.35,N 6.24,P 6.90。室温下在真空中小心处理A,A可脱去外界的溶剂分子,失重 $2.0\\%$。"
+          "text": "室温下将乙酸银与4-三甲铵基苯硫醇的六氟磷酸盐(HL+ ) ( \\mathrm { P F } _ { 6 } ^ { - } ) \\{ \\mathrm { H L } ^ { + } = [ \\mathrm { H S C } _ { 6 } \\mathrm { H } _ { 4 } \\mathrm { N } ( \\mathrm { C H } _ { 3 } ) _ { 3 } ] ^ { + } +}混合研磨,两种固体发生反应,得到一种淡⻩色粉末。粉末用乙腈处理,结晶出无色溶剂合物A,化学式为"
         }
-      ]
+      ],
+      "partId": "part-001042"
     },
     {
-      "id": "part-000089-02",
+      "type": "paragraph",
+      "text": "\\mathrm { \\Delta [ A g _ { 9 } L _ { 8 } ( C H _ { 3 } C N ) _ { \\it x } ] ( P F _ { 6 } ) _ { \\it y } ] { \\cdot } \\it { n C H _ { 3 } C N _ { \\circ } } } 元素分析结果给出,A中C, H, N, P的含量(质量分数,%)分别为:C27.40,H 3.35,N 6.24,P 6.90。室温下在真空中小心处理A,A可脱去外界的溶剂分子,失重 2 . 0 \\% _ { \\mathsf { c } }"
+    },
+    {
+      "type": "subpart",
       "label": "5-2-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "通过计算,确定A的化学式。(提示:元素分析中,氢含量测定误差常常较大)"
         }
-      ]
+      ],
+      "partId": "part-001043"
     },
     {
-      "id": "part-000089-03",
+      "type": "subpart",
       "label": "5-2-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出两种固体发生反应生成淡黄色粉末的方程式(要求系数为最简整数比)。"
+          "text": "写出两种固体发生反应生成淡⻩色粉末的方程式(要求系数为最简整数比)。"
         }
-      ]
+      ],
+      "partId": "part-001044"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

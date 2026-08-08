@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000069",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,90 +8,133 @@
   "examYear": 2019,
   "examStage": "preliminary",
   "source": {
-    "sourceDocumentId": "source-000053",
     "sourceLabel": "2019-33-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      1,
+      4,
+      5
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
+    "sourceDocumentId": "source-000053"
   },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000069-01",
-      "label": "(1)",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "$\\mathrm{FeO(s) + CO(g) \\rightleftharpoons Fe(s) + CO_2(g)}$, $K_1^{\\ominus} = 1.00$ ($T = 1200\\ \\mathrm{K}$)"
-        },
-        {
-          "type": "paragraph",
-          "text": "$\\mathrm{FeO(s) + C(s) \\rightleftharpoons Fe(s) + CO(g)}$, $K_2^{\\ominus}$ ($T = 1200\\ \\mathrm{K}$)"
-        },
-        {
-          "type": "paragraph",
-          "text": "气体常数 $R = 8.314\\ \\mathrm{J\\ mol^{-1}\\ K^{-1}}$;相关的热力学数据(298 K)列入下表:"
-        },
-        {
-          "type": "callout",
-          "tone": "info",
-          "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
-        }
-      ]
+      "type": "paragraph",
+      "text": "第3题 高炉炼铁是重要的工业过程.冶炼过程中涉及如下反应:"
     },
     {
-      "id": "part-000069-02",
+      "type": "paragraph",
+      "text": "(1) $\\mathrm { FeO ( s ) + CO ( g ) \\ Fe ( s ) + CO _ { 2 } ( g ) }$ $K _ { 1 } ^ { \\ominus } \\ = 1.00 \\ \\left( T \\ = 1200 \\mathrm { K } \\right)$ (2) $\\mathrm { FeO ( s ) } + \\mathrm { C ( s ) } \\mathrm { Fe ( s ) } + \\mathrm { CO ( g ) }$ $K _ { 2 } ^ { \\ominus }$ ( = 1200K)"
+    },
+    {
+      "type": "paragraph",
+      "text": "气体常数 $R = 8.314 \\mathrm { J } \\mathrm { mol } ^ { - 1 } \\mathrm { K } ^ { - 1 }$ ;相关的热力学数据(298K)列入下表:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<table><tr><td></td><td>FeO(s)</td><td>Fe(s)</td><td>C(s,石墨)</td><td>CO(g)</td><td>CO2(g)</td></tr><tr><td> $\\Delta_{\\text{f}}H_{m}^{\\ominus}/\\text{kJmol}^{-1}$ </td><td>-272.0</td><td>-</td><td>-</td><td>-110.5</td><td>-393.5</td></tr><tr><td> $S_{m}^{\\ominus}/\\text{Jmol}^{-1}\\text{K}^{-1}$ </td><td>60.75</td><td>27.3</td><td>5.74</td><td>/</td><td>x</td></tr></table>"
+    },
+    {
+      "type": "subpart",
       "label": "3-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "假设上述反应体系在密闭条件下达平衡时总压为1200 kPa,计算各气体的分压。"
+          "text": "假设上述反应体系在密闭条件下达平衡时总压为1200kPa,计算各气体的分压."
         }
-      ]
+      ],
+      "partId": "part-001973"
     },
     {
-      "id": "part-000069-03",
+      "type": "subpart",
       "label": "3-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算 $K_2^{\\ominus}$。"
+          "text": "计算 $K _ { 2 } ^ { \\ominus }$ ."
         }
-      ]
+      ],
+      "partId": "part-001974"
     },
     {
-      "id": "part-000069-04",
+      "type": "subpart",
       "label": "3-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算 $\\mathrm{CO_2(g)}$ 的标准熵 $S_m^{\\ominus}$ (单位:J $\\mathrm{mol^{-1}\\ K^{-1}}$)。设反应的焓变和熵变不随温度变化。"
+          "text": "计算 $\\mathrm { CO _ { 2 } ( g ) }$ 的标准熵 $S _ { m } ^ { \\ominus }$ (单位:J $\\mathrm { mol ^ { - 1 } K ^ { - 1 } } )$ .设反应的焓变和熵变不随温度变化."
         }
-      ]
+      ],
+      "partId": "part-001975"
     },
     {
-      "id": "part-000069-05",
+      "type": "subpart",
       "label": "3-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "反应体系中,若 $\\mathrm{CO(g)}$ 和 $\\mathrm{CO_2(g)}$ 均保持标态,判断此条件下反应的自发性(填写对应的字母):3-4-1 反应(1): A. 自发 B. 不自发 C. 达平衡3-4-2 反应(2): A. 自发 B. 不自发 C. 达平衡"
+          "text": "反应体系中,若 $\\operatorname { CO } ( \\mathrm { g } )$ 和 $\\mathrm { CO } _ { 2 } ( \\mathrm { g ) }$ 均保持标态,判断此条件下反应的自发性(填写对应的字母):"
         }
-      ]
+      ],
+      "partId": "part-001976"
     },
     {
-      "id": "part-000069-06",
+      "type": "subpart",
+      "label": "3-4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "反应(1): A. 自发 B. 不自发 C. 达平衡"
+        }
+      ],
+      "partId": "part-001977"
+    },
+    {
+      "type": "subpart",
+      "label": "3-4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "反应(2): A. 自发 B. 不自发 C. 达平衡"
+        }
+      ],
+      "partId": "part-001978"
+    },
+    {
+      "type": "subpart",
       "label": "3-5",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "若升高温度,指出反应平衡常数如何变化(填写对应的字母)。3-5-1 反应(1): A. 增大 B. 不变化 C. 减小3-5-2 反应(2): A. 增大 B. 不变化 C. 减小"
+          "text": "若升高温度,指出反应平衡常数如何变化(填写对应的字母)."
         }
-      ]
+      ],
+      "partId": "part-001979"
+    },
+    {
+      "type": "subpart",
+      "label": "3-5-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "反应(1): A. 增大 B. 不变化 C. 减小"
+        }
+      ],
+      "partId": "part-001980"
+    },
+    {
+      "type": "subpart",
+      "label": "3-5-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "反应(2): A. 增大 B. 不变化 C. 减小"
+        }
+      ],
+      "partId": "part-001981"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

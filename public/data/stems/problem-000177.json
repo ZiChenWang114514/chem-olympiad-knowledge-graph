@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000177",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,45 +8,104 @@
   "examYear": 2022,
   "examStage": "preliminary",
   "source": {
-    "sourceDocumentId": "source-000059",
     "sourceLabel": "2022-36-CChO-chusai-2.pdf",
-    "page": null,
+    "pages": [
+      4
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000059"
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "9 · 呋喃Achmatowicz重排"
+      "text": "第9题 杂环化合物"
+    },
+    {
+      "type": "paragraph",
+      "text": "如下所示,呋喃衍生物发生Achmatowicz (AchR)重排是制备六元杂环化合物的有效方法:"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000177-figure-001.jpg",
-      "alt": "化学结构示意图（原图）",
-      "caption": "题目配图"
+      "alt": "原卷第9题图1：如下所示,呋喃衍生物发生Achmatowicz (AchR)重排是制备六元杂环化合物的有效方法:",
+      "displayWidth": 70,
+      "assetId": "asset-003515"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000177-figure-002.jpg",
-      "alt": "化学结构示意图（原图）",
-      "caption": "题目配图"
+      "type": "subpart",
+      "label": "9-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "AchR重排的氧化试剂多种多样.如下反应试剂中不可能用于AchR重排的有"
+        },
+        {
+          "type": "paragraph",
+          "text": "(a) HOBr (b) NBS(N-溴代丁二酰亚胺) (c) -CPBA (d) $\\mathrm { CeBr _ { 3 } / H _ { 2 } O }$"
+        }
+      ],
+      "partId": "part-002134"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000177-figure-003.jpg",
-      "alt": "化学结构示意图（原图）",
-      "caption": "题目配图"
+      "type": "subpart",
+      "label": "9-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "利用 $\\mathrm { oxone / KBr ( oxone : K _ { 2 } SO _ { 4 } / KHSO _ { 4 } / 2KHSO _ { 5 } ) }$ 作氧化剂,具有绿色,高效等特点,预测下列AchR重排反应的主要产物(要求立体化学).(TIPS:三异丙基硅基)"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000177-figure-002.jpg",
+          "alt": "原卷第9题图2：利用 $\\mathrm { oxone / KBr ( oxone : K _ { 2 } SO _ { 4 } / KHSO _ { 4 ",
+          "displayWidth": 70,
+          "assetId": "asset-003516"
+        }
+      ],
+      "partId": "part-002135"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000177-figure-004.jpg",
-      "alt": "化学结构示意图（原图）",
-      "caption": "题目配图"
+      "type": "subpart",
+      "label": "9-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "AchR重排和[5+2]环加成反应相结合,可以构筑[3.2.1]双环骨架. $\\mathrm { ( Ac ; CH _ { 3 } CO ) }$"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000177-figure-003.jpg",
+          "alt": "原卷第9题图3：AchR重排和[5+2]环加成反应相结合,可以构筑[3.2.1]双环骨架. $\\mathrm { ( Ac ; CH _ { 3 } CO ",
+          "displayWidth": 70,
+          "assetId": "asset-003517"
+        },
+        {
+          "type": "paragraph",
+          "text": "画出A的结构和由A转化成B的关键中间体,并标注产物B中手性碳的绝对构型."
+        }
+      ],
+      "partId": "part-002136"
+    },
+    {
+      "type": "subpart",
+      "label": "9-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "当呋喃环C4位有取代基时,也可以进行类似9-3的反应,画出D,E,F的结构(要求立体化学)."
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000177-figure-004.jpg",
+          "alt": "原卷第9题图4：当呋喃环C4位有取代基时,也可以进行类似9-3的反应,画出D,E,F的结构(要求立体化学).",
+          "displayWidth": 70,
+          "assetId": "asset-003518"
+        }
+      ],
+      "partId": "part-002137"
     }
   ],
-  "parts": []
+  "renderingHints": {
+    "mhchem": true
+  }
 }

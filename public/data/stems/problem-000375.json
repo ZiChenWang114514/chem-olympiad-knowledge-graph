@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000375",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,31 +10,38 @@
   "source": {
     "sourceDocumentId": "source-000042",
     "sourceLabel": "2011-25-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      1
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
-  },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "$2\\mathrm{A} \\rightarrow \\mathrm{C} + \\mathrm{D}$ (1)"
-    },
-    {
-      "type": "paragraph",
-      "text": "$\\mathrm{D} + \\mathrm{B} \\rightarrow \\mathrm{A} + \\mathrm{H}_2$ (2)"
-    },
-    {
-      "type": "paragraph",
-      "text": "$\\mathrm{C} + \\mathrm{B} \\rightarrow \\mathrm{E} + \\mathrm{H}_2$ (3)"
-    },
-    {
-      "type": "paragraph",
-      "text": "将A和B按1:2的摩尔(物质的量)比混合,在催化剂作用下,所含的氢全部以氢气放出,失重$10.4\\%$。A、C、E均能水解生成F和D。G是由X和Y组成的二元化合物,其阴离子是二氧化碳的等电子体,G分解生成E和一种无色无味的气体I。写出A、B、C、D、E、F、G和I的化学式。"
+      "type": "subpart",
+      "label": "3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "$2\\mathrm{A} \\rightarrow \\mathrm{C} + \\mathrm{D}$ (1)"
+        },
+        {
+          "type": "paragraph",
+          "text": "$\\mathrm{D} + \\mathrm{B} \\rightarrow \\mathrm{A} + \\mathrm{H}_2$ (2)"
+        },
+        {
+          "type": "paragraph",
+          "text": "$\\mathrm{C} + \\mathrm{B} \\rightarrow \\mathrm{E} + \\mathrm{H}_2$ (3)"
+        },
+        {
+          "type": "paragraph",
+          "text": "将A和B按1:2的摩尔(物质的量)比混合,在催化剂作用下,所含的氢全部以氢气放出,失重$10.4\\%$。A、C、E均能水解生成F和D。G是由X和Y组成的二元化合物,其阴离子是二氧化碳的等电子体,G分解生成E和一种无色无味的气体I。写出A、B、C、D、E、F、G和I的化学式。"
+        }
+      ],
+      "partId": "part-000777"
     }
   ],
-  "parts": []
+  "renderingHints": {
+    "mhchem": true
+  }
 }

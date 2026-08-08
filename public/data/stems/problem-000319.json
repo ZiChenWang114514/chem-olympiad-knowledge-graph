@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000319",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,47 +8,46 @@
   "examYear": 2008,
   "examStage": "preliminary",
   "source": {
-    "sourceDocumentId": "source-000039",
     "sourceLabel": "2008-22-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      1
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
+    "sourceDocumentId": "source-000039"
   },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000319-01",
+      "type": "paragraph",
+      "text": "第2题 化合物X是产量大,应用广的二元化合物,大量用作漂白剂,饮水处理剂,消毒剂等.年产量达300万吨的氯酸钠是生产X的原料,92%用于生产X—在酸性水溶液中用盐酸,二氧化硫或草酸还原.此外,将亚氯酸钠固体装柱,通入用空气稀释的氯气氧化,也可生产 $\\mathbf { X } _ { \\circ }$ .X有极性和顺磁性,不形成二聚体,在碱性溶液里可发生歧化反应."
+    },
+    {
+      "type": "subpart",
       "label": "2-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出X的分子式和共轭π键 $( \\pi_n^m )$。"
-        }
-      ]
-    },
-    {
-      "id": "part-000319-02",
-      "label": "2-2",
-      "blocks": [
+          "text": "写出X的分子式和共轭π键 $( \\pi _ { n } ^ { m } )$ )."
+        },
         {
           "type": "paragraph",
-          "text": "分别写出上述用草酸还原和用氯气氧化生产X的反应方程式。"
+          "text": "2- 别写出上述用草酸还原和用氯气氧化生产X的反应方程式."
         }
-      ]
+      ],
+      "partId": "part-002393"
     },
     {
-      "id": "part-000319-03",
+      "type": "subpart",
       "label": "2-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出上述X歧化反应的化学方程式。"
+          "text": "写出上述X歧化反应的化学方程式."
         }
-      ]
+      ],
+      "partId": "part-002394"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

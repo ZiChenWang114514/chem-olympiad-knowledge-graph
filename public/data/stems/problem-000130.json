@@ -1,34 +1,63 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000130",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "化学反应与结构综合分析",
-  "number": "9",
+  "number": "Q9",
   "examYear": 2021,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000055",
     "sourceLabel": "2021-35-CChO-chusai-fujian.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      4
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "9 · 化学反应与结构综合分析"
+      "text": "第 9 题(14 分)抗肿瘤药 Pelitinib 的合成"
+    },
+    {
+      "type": "subpart",
+      "label": "9-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出上述各步合成反应产物2, 3, 5, 7, 8, 9, 10的结构简式,步骤A, B, C所需的试剂及必要的反应条件。"
+        }
+      ],
+      "partId": "part-001121"
+    },
+    {
+      "type": "subpart",
+      "label": "9-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "化合物4在加热回流条件下与2-氰基-3-乙氧基丙烯酸乙酯反应经中间体5a转化为5,化合物5在250°C条件下经6a,6b中间体得到6:"
+        }
+      ],
+      "partId": "part-001122"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000130-figure-001.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "题目配图"
+      "assetId": "asset-003172",
+      "alt": "化学反应与结构综合分析：第1幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
+    },
+    {
+      "type": "paragraph",
+      "text": "画出中间体5a,6a,6b的结构简式。"
     }
   ],
-  "parts": []
+  "renderingHints": {
+    "mhchem": true
+  }
 }

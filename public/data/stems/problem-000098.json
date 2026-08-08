@@ -1,84 +1,61 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000098",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "化学反应与结构综合分析",
-  "number": "4",
+  "number": "Q4",
   "examYear": 2020,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000015",
     "sourceLabel": "2020-34-CChO-juesai-1.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      1
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000098-01",
+      "type": "subpart",
       "label": "4-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "根据该曲线,计算赖氨酸的等电点 pI 以及 pH = 9.60 时赖氨酸 4 种分布形式的平衡浓度。"
+          "text": "计算 3000 K 下 Al(g)的标准摩尔熵。"
         }
-      ]
+      ],
+      "partId": "part-001069"
     },
     {
-      "id": "part-000098-02",
+      "type": "subpart",
       "label": "4-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "实验室现有 0.10 mol L−1 NaOH 溶液、0.10 mol L−1 HCl 溶液、草酸基准物质 (H2C2O4·2H2O, 126.07 g mol−1)、邻苯二甲酸氢钾基准物质 (KHC8H4O4, 204.22 g mol−1)、三(羟甲基)氨基甲烷基准物质 (简称 Tris, (HOCH2)3CNH2, Kb = 1.15×10−6, 121.14 g mol−1)、碳酸钠基准物质 (Na2CO3, 105.99 g mol−1),以及酚酞、甲基橙和甲基红等三种指示剂液。欲用酸碱滴定法测定某化学纯赖氨酸试样的含量。"
+          "text": "在298.15K和100kPa下,将超细铝粉与空气(设空气中氧气和氮气的摩尔分数分别为0.200和0.800)混合后装入特定装置中进行点火燃烧试验,火焰温度可超过2500 K。收集燃烧试验中全部组分,冷却至室温,测得固体中各组分(忽略其他组成形式)的质量分数为:Al, 0.100; Al<sub>2</sub>O<sub>3</sub>, 0.700; AIN, 0.200。若燃烧试验中氧气刚好耗尽,求体系可能达到的最高温度。"
         }
-      ]
+      ],
+      "partId": "part-001070"
     },
     {
-      "id": "part-000098-03",
-      "label": "4-2-1",
+      "type": "subpart",
+      "label": "4-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "指出合适的滴定剂并简要说明理由,写出滴定反应化学方程式。"
+          "text": "关于从普通铝粉(b-Al)转变为纳米铝粉 \\left( \\mathrm { n - A l } \\right) 的过程及它们的有关性质,正确的是:A. \\Delta H < 0 B. \\Delta S > 0 C. \\Delta G < 0 D. 熔点: \\mathrm { n - A l } < \\mathrm { b - A l }"
         }
-      ]
+      ],
+      "partId": "part-001071"
     },
     {
-      "id": "part-000098-04",
-      "label": "4-2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "计算滴定终点时溶液 pH,根据计算结果选择最佳指示剂。"
-        }
-      ]
-    },
-    {
-      "id": "part-000098-05",
-      "label": "4-2-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "假设所选滴定剂的消耗量 25 mL,通过计算所需基准物质的质量及其称量的相对误差确定最佳基准物质。"
-        }
-      ]
-    },
-    {
-      "id": "part-000098-06",
-      "label": "4-2-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "假设实验中准确称取 m g 赖氨酸试样(其摩尔质量用符号 M 表示),滴定至终点时消耗 V mL 浓度为 c mol L−1 的所选滴定剂标准溶液,写出该试样中赖氨酸质量分数 (w) 的计算式。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "E. 燃烧焓: \\mathrm { n - A l > b - A l }"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

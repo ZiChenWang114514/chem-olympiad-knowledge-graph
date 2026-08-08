@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000395",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,37 +8,42 @@
   "examYear": 2012,
   "examStage": "preliminary",
   "source": {
-    "sourceDocumentId": "source-000046",
     "sourceLabel": "2012-26-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      1
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
+    "sourceDocumentId": "source-000046"
   },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000395-01",
+      "type": "paragraph",
+      "text": "第5题 从尿素和草酸的水溶液中得到一种超分子晶体.X射线衍射实验表明,该晶体属于单斜晶系,晶胞参数 $\\dot { a } = 505.8 \\mathrm { pm }$ $b = 1240 \\mathrm { pm }$ 9 $c = 696.4 \\mathrm { pm }$ $\\beta ~ = 98.13 ^ { \\circ }$ .晶体中两种分子通过氢键形成二维分子结构,晶体密度 $d = 1.614 \\mathrm { gcm ^ { - 3 } } .$ 0"
+    },
+    {
+      "type": "subpart",
       "label": "5-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "推求晶体中草酸分子和尿素分子的比例。"
+          "text": "推求晶体中草酸分子和尿素分子的比例."
         }
-      ]
+      ],
+      "partId": "part-002481"
     },
     {
-      "id": "part-000395-02",
+      "type": "subpart",
       "label": "5-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出一个化学单位的结构,示出其中的氢键。"
+          "text": "画出一个化学单位的结构,示出其中的氢键."
         }
-      ]
+      ],
+      "partId": "part-002482"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

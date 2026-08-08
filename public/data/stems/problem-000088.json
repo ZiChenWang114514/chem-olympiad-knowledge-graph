@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000088",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,55 +10,56 @@
   "source": {
     "sourceDocumentId": "source-000054",
     "sourceLabel": "2020-34-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      2
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000088-figure-001.jpg",
-      "alt": "实验数据图表或热力学曲线（原图）",
-      "caption": "A 和 B 的结构式"
-    }
-  ],
-  "parts": [
+      "alt": "实验数据图表或热力学曲线(原图)",
+      "displayWidth": 80,
+      "caption": "A 和 B 的结构式",
+      "assetId": "asset-002811"
+    },
     {
-      "id": "part-000088-01",
+      "type": "subpart",
       "label": "4-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "比较 A 与 B 开环聚合时热力学驱动力的大小。简述原因。"
         }
-      ]
+      ],
+      "partId": "part-000167"
     },
     {
-      "id": "part-000088-02",
+      "type": "subpart",
       "label": "4-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "在有机弱碱的催化作用下,苄硫醇作为引发剂,B 在室温下可发生活性开环聚合,形成聚合产物。画出产物的结构式。"
         }
-      ]
+      ],
+      "partId": "part-000168"
     },
     {
-      "id": "part-000088-03",
+      "type": "subpart",
       "label": "4-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "聚合过程中,$\\Delta H^{\\ominus} = -15.6\\ \\mathrm{kJ\\ mol^{-1}}$,$\\Delta S^{\\ominus} = -40.4\\ \\mathrm{J\\ mol^{-1}\\ K^{-1}}$。计算室温(298 K)下反应的平衡常数 $K^{\\ominus}$,设反应达平衡时单体浓度 $[\\mathrm{B}]_{\\mathrm{eq}}/c^{\\ominus}$ 等于 $1/K^{\\ominus}$,若起始单体浓度为 $2.00\\ \\mathrm{mol\\ L^{-1}}$,引发剂浓度为 $0.0100\\ \\mathrm{mol\\ L^{-1}}$,计算达平衡时产物的平均聚合度 $\\bar{n}$。"
         }
-      ]
+      ],
+      "partId": "part-000169"
     },
     {
-      "id": "part-000088-04",
+      "type": "subpart",
       "label": "4-4",
       "blocks": [
         {
@@ -69,7 +70,11 @@
           "type": "paragraph",
           "text": "a) 升高温度; b) 降低温度; c) 增加 B 的起始浓度; d) 延长反应时间"
         }
-      ]
+      ],
+      "partId": "part-000170"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

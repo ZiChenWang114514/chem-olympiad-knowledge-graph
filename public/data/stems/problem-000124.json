@@ -1,26 +1,94 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000124",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "电池材料化学",
-  "number": "3",
+  "number": "Q3",
   "examYear": 2021,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000055",
     "sourceLabel": "2021-35-CChO-chusai-fujian.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      2
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "H 2 (g)，CH 4 (g)， $\\mathrm { C H _ { 3 } O H ( l ) }$ 均可作为燃料电池的燃料，其反应式及298.2 K的标准电动势如下：A： $\\mathrm { H } _ { 2 } ( \\mathrm { g } ) + 0 . 5 \\mathrm { O } _ { 2 } ( \\mathrm { g } ) \\mathrm { H } _ { 2 } \\mathrm { O } ( \\mathrm { l } )$ $E ^ { \\ominus } = 1 . 2 2 9 \\mathrm { V }$ B： $\\mathrm { C H } _ { 4 } ( \\mathrm { g ) + 2 ~ O _ { 2 } ( g ) \\mathrm { C O _ { 2 } ( g ) + 2 ~ H _ { 2 } O ( l ) } }$ $E ^ { \\ominus } = 1 . 0 5 8 \\ : \\mathrm { V }$ C： $\\mathrm { C H } _ { 3 } \\mathrm { O H ( 1 ) } + 1 . 5 \\mathrm { O } _ { 2 } ( \\mathrm { g } ) \\mathrm { C O } _ { 2 } ( \\mathrm { g } ) + 2 \\mathrm { H } _ { 2 } \\mathrm { O } ( 1 )$ $E ^ { \\ominus } = 1 . 2 1 2 \\mathrm { V }$ 3-1 求上述三种燃料电池的比能量（能量/质量）。作为人造卫星的电源，哪一种燃料电池最理想？ 3-2 有人拟利用天然气中的甲烷生产用于燃料电池的 $\\mathrm { H } _ { 2 } ( \\mathrm { g } )$ 和 $\\mathrm { C H _ { 3 } O H ( l ) }$ ,其设想如下D: $\\mathrm { C H } _ { 4 } ( \\mathrm { g ) + H _ { 2 } O ( l ) C H _ { 3 } O H ( l ) + H _ { 2 } ( g ) }$ 3-2-1 请计算上述反应的 $\\Delta G ^ { \\ominus } \\bar { \\rlap { / } { \\hbar } } \\mathbb { I } K ^ { \\ominus }$ ，并对该反应工艺的可⾏性进⾏初步判断。 3-2-2 为提高反应物的转化率，你可采用何种措施？(a) 提高温度 (b) 改变压力 (c) 加入惰性气体 (d) 采用高活性催化剂3-2-3 已知 $\\Delta _ { \\mathrm { f } } H _ { m } ^ { \\ominus } [ \\mathrm { C H } _ { 4 } ( \\mathrm { g } ) ] \\ - \\ \\Delta _ { \\mathrm { f } } H _ { m } ^ { \\ominus } [ \\mathrm { C H } _ { 3 } \\mathrm { O H } ( 1 ) ] > 0 ,$ ，则 $\\Delta _ { \\mathrm { c } } H _ { m } ^ { \\ominus } [ \\mathrm { C H _ { 4 } ( g ) } ] \\ - \\ \\Delta _ { \\mathrm { c } } H _ { m } ^ { \\ominus } [ \\mathrm { C H _ { 3 } O H ( l ) } ]$ (a) 大于零 (b) 小于零 (c) 等于零 (d) 不能确定 3-3 设三个燃料电池反应的 $\\Delta _ { \\mathrm { r } } H _ { m } ^ { \\ominus } , \\ \\Delta _ { \\mathrm { r } } S _ { m } ^ { \\ominus }$ ，均不随温度变化，则当温度升高相同的数值时，对上述三种燃料电池的影响如何？写出定量"
+      "text": "H<sub>2</sub>(g),CH<sub>4</sub>(g), \\mathrm { C H _ { 3 } O H ( l ) } 均可作为燃料电池的燃料,其反应式及298.2 K的标准电动势如下:A: \\mathrm { H } _ { 2 } ( \\mathrm { g } ) + 0 . 5 \\mathrm { O } _ { 2 } ( \\mathrm { g } ) \\mathrm { H } _ { 2 } \\mathrm { O } ( \\mathrm { l } ) E ^ { \\ominus } = 1 . 229 \\mathrm { V } B: \\mathrm { C H } _ { 4 } ( \\mathrm { g ) + 2 ~ O _ { 2 } ( g ) \\mathrm { C O _ { 2 } ( g ) + 2 ~ H _ { 2 } O ( l ) } } E ^ { \\ominus } = 1 . 058 \\ : \\mathrm { V } C: \\mathrm { C H } _ { 3 } \\mathrm { O H ( 1 ) } + 1 . 5 \\mathrm { O } _ { 2 } ( \\mathrm { g } ) \\mathrm { C O } _ { 2 } ( \\mathrm { g } ) + 2 \\mathrm { H } _ { 2 } \\mathrm { O } ( 1 ) E ^ { \\ominus } = 1 . 212 \\mathrm { V }"
+    },
+    {
+      "type": "subpart",
+      "label": "3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "求上述三种燃料电池的比能量(能量/质量)。作为人造卫星的电源,哪一种燃料电池最理想方向"
+        }
+      ],
+      "partId": "part-001108"
+    },
+    {
+      "type": "subpart",
+      "label": "3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "有人拟利用天然气中的甲烷生产用于燃料电池的 \\mathrm { H } _ { 2 } ( \\mathrm { g } ) 和 \\mathrm { C H _ { 3 } O H ( l ) } ,其设想如下D: \\mathrm { C H } _ { 4 } ( \\mathrm { g ) + H _ { 2 } O ( l ) C H _ { 3 } O H ( l ) + H _ { 2 } ( g ) }"
+        }
+      ],
+      "partId": "part-001109"
+    },
+    {
+      "type": "subpart",
+      "label": "3-2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "请计算上述反应的 \\Delta G ^ { \\ominus } \\bar { \\rlap { / } { \\hbar } } \\mathbb { I } K ^ { \\ominus } ,并对该反应工艺的可行性进行初步判断。"
+        }
+      ],
+      "partId": "part-001110"
+    },
+    {
+      "type": "subpart",
+      "label": "3-2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "为提高反应物的转化率,你可采用何种措施方向(a) 提高温度 (b) 改变压力 (c) 加入惰性气体 (d) 采用高活性催化剂3-2-3 已知 \\Delta _ { \\mathrm { f } } H _ { m } ^ { \\ominus } [ \\mathrm { C H } _ { 4 } ( \\mathrm { g } ) ] \\ - \\ \\Delta _ { \\mathrm { f } } H _ { m } ^ { \\ominus } [ \\mathrm { C H } _ { 3 } \\mathrm { O H } ( 1 ) ] > 0 , ,则 \\Delta _ { \\mathrm { c } } H _ { m } ^ { \\ominus } [ \\mathrm { C H _ { 4 } ( g ) } ] \\ - \\ \\Delta _ { \\mathrm { c } } H _ { m } ^ { \\ominus } [ \\mathrm { C H _ { 3 } O H ( l ) } ] (a) 大于零 (b) 小于零 (c) 等于零 (d) 不能确定"
+        }
+      ],
+      "partId": "part-001111"
+    },
+    {
+      "type": "subpart",
+      "label": "3-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "设三个燃料电池反应的 \\Delta _ { \\mathrm { r } } H _ { m } ^ { \\ominus } , \\ \\Delta _ { \\mathrm { r } } S _ { m } ^ { \\ominus } ,均不随温度变化,则当温度升高相同的数值时,对上述三种燃料电池的影响如何方向写出定量解析式及定性的排序。"
+        }
+      ],
+      "partId": "part-001112"
+    },
+    {
+      "type": "subpart",
+      "label": "3-2-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001113"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

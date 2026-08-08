@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000229",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,25 +10,67 @@
   "source": {
     "sourceDocumentId": "source-000026",
     "sourceLabel": "2023-37-CChO-juesai-2.pdf",
-    "page": null,
+    "pages": [
+      10
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
-  },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "9 · 樟脑非经典正离子"
+      "type": "subpart",
+      "label": "9",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "9 · 樟脑非经典正离子"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000229-figure-001.jpg",
+          "alt": "化学结构示意图(原图)",
+          "displayWidth": 80,
+          "caption": "题目配图",
+          "assetId": "asset-002941"
+        }
+      ],
+      "partId": "part-000465"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000229-figure-001.jpg",
-      "alt": "化学结构示意图（原图）",
-      "caption": "题目配图"
+      "type": "subpart",
+      "label": "9-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出从2生成3的关键中间体。"
+        }
+      ],
+      "partId": "part-000466"
+    },
+    {
+      "type": "subpart",
+      "label": "9-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出从(+)-1 生成(-)-4 的关键中间体。"
+        }
+      ],
+      "partId": "part-000467"
+    },
+    {
+      "type": "subpart",
+      "label": "9-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "简要解释为何化合物2在溴化重排过程中没有发生外消旋化;而(+)-1则发生了外消旋化。"
+        }
+      ],
+      "partId": "part-000468"
     }
   ],
-  "parts": []
+  "renderingHints": {
+    "mhchem": true
+  }
 }

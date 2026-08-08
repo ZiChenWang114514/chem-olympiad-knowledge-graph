@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000149",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,18 +10,16 @@
   "source": {
     "sourceDocumentId": "source-000017",
     "sourceLabel": "2021-35-CChO-juesai-1.pdf",
-    "page": null,
+    "pages": [
+      7,
+      8
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000149-01",
+      "type": "subpart",
       "label": "8-1",
       "blocks": [
         {
@@ -43,19 +41,24 @@
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000149-figure-001.jpg",
-          "alt": "化学反应路线与结构式示意图（原图）",
-          "caption": "题目配图"
+          "alt": "化学反应路线与结构式示意图(原图)",
+          "displayWidth": 80,
+          "caption": "题目配图",
+          "assetId": "asset-002877"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000149-figure-002.jpg",
-          "alt": "化学反应路线与结构式示意图（原图）",
-          "caption": "题目配图"
+          "alt": "化学反应路线与结构式示意图(原图)",
+          "displayWidth": 80,
+          "caption": "题目配图",
+          "assetId": "asset-002878"
         }
-      ]
+      ],
+      "partId": "part-000270"
     },
     {
-      "id": "part-000149-02",
+      "type": "subpart",
       "label": "8-2",
       "blocks": [
         {
@@ -65,10 +68,49 @@
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000149-figure-003.jpg",
-          "alt": "化学反应路线与结构式示意图（原图）",
-          "caption": "题目配图"
+          "alt": "化学反应路线与结构式示意图(原图)",
+          "displayWidth": 80,
+          "caption": "题目配图",
+          "assetId": "asset-002879"
         }
-      ]
+      ],
+      "partId": "part-000271"
+    },
+    {
+      "type": "subpart",
+      "label": "8-1-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出 $\\mathrm { M e _ { 3 } S i C H N _ { 2 } }$ 的两个稳定共振式。"
+        }
+      ],
+      "partId": "part-000272"
+    },
+    {
+      "type": "subpart",
+      "label": "8-1-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "$\\mathrm { M e _ { 3 } S i C H N _ { 2 } }$ 常作为一碳合成单元应用在增碳反应中。写出如下反应产物的结构简式,并写出用结构简式表述的反应机理(提示: $\\mathrm { S c ( O T f ) _ { 3 } }$ 是路易斯酸,三甲基硅基可以进行[1,3]-σ迁移)。"
+        }
+      ],
+      "partId": "part-000273"
+    },
+    {
+      "type": "subpart",
+      "label": "8-1-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在天然产物 amathaspiramide A 的全合成中利用了 $\\mathrm { M e _ { 3 } S i C H N _ { 2 } }$ 参与的偶极环加成反应。画出下图所示全合成路线中化合物C、D和F的结构简式(不考虑产物的立体化学)。"
+        }
+      ],
+      "partId": "part-000274"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

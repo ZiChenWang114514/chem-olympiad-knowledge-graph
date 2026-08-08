@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000447",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,19 +8,69 @@
   "examYear": 2014,
   "examStage": "final",
   "source": {
-    "sourceDocumentId": "source-000009",
     "sourceLabel": "2014-28-CChO-juesai.pdf",
-    "page": null,
+    "pages": [
+      5
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000009"
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第 9 题（9 分） 近年来，对可再生资源——生物质及其衍生物的研究愈来愈受到人们的重视。尤其是D-葡萄糖的加氢产物⼭梨醇A，已经成为重要的生物质转化平台化合物。如下式所示，A经分⼦内脱⽔生成主要产物为⼿性化合物B，B经多步转化生成化合物F，F是一种治疗⼼绞痛的药物。 $$ \\begin{array}{c} \\text {D - 葡萄糖} \\xrightarrow [ \\mathrm{H} _ {2} ]{\\text {cat.}} \\mathrm{A} \\xrightarrow [ \\mathrm{-2H} _ {2} \\mathrm{O} ]{\\mathrm{H} _ {2} \\mathrm{SO} _ {4}} \\mathrm{B} \\xrightarrow [ (\\mathrm{C} _ {6} \\mathrm{H} _ {1 0} \\mathrm{O} _ {4}) ]{(\\mathrm{CH} _ {3} \\mathrm{CO}) _ {2} \\mathrm{O}} \\\\ (\\mathrm{C} _ {6} \\mathrm{H} _ {1 2} \\mathrm{O} _ {6}) \\end{array} \\xrightarrow [ \\text {N} ]{\\text {conc. HNO} _ {3}} \\mathrm{E} \\xrightarrow [ (\\mathrm{C} _ {8} \\mathrm{H} _ {1 1} \\mathrm{O} _ {7} \\mathrm{N}) ]{\\text {NaOH}} \\mathrm{F} $$ 9-1 用 Fisher 投影式示出 A 的结构。 9-2 B主要生成C及少量的D（C的⾮对映异构体）。画出B、C和D的⽴体结构式，并说明B主要生成C的具体原因。 9-3 画出E和F的⽴体结构式。"
+      "text": "第 9 题"
+    },
+    {
+      "type": "paragraph",
+      "text": "近年来,对可再生资源——生物质及其衍生物的研究愈来愈受到人们的重视.尤其是D-葡萄糖的加氢产物山梨醇A,已经成为重要的生物质转化平台化合物.如下式所示,A经分子内脱水生成主要产物为手性化合物B,B经多步转化生成化合物F,F是一种治疗心绞痛的药物."
+    },
+    {
+      "type": "paragraph",
+      "text": "$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "{c} \\text {D - 葡萄糖} \\xrightarrow [ \\mathrm{H} _ {2} ]{\\text {cat.}} \\mathrm{A} \\xrightarrow [ \\mathrm{-2H} _ {2} \\mathrm{O} ]{\\mathrm{H} _ {2} \\mathrm{SO} _ {4}} \\mathrm{B} \\xrightarrow [ (\\mathrm{C} _ {6} \\mathrm{H} _ {10} \\mathrm{O} _ {4}) ]{(\\mathrm{CH} _ {3} \\mathrm{CO}) _ {2} \\mathrm{O}} \\\\ (\\mathrm{C} _ {6} \\mathrm{H} _ {12} \\mathrm{O} _ {6}) \\xrightarrow [ \\text {N} ]{\\text {conc. HNO} _ {3}} \\mathrm{E} \\xrightarrow [ (\\mathrm{C} _ {8} \\mathrm{H} _ {11} \\mathrm{O} _ {7} \\mathrm{N}) ]{\\text {NaOH}} \\mathrm{F}"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$"
+    },
+    {
+      "type": "subpart",
+      "label": "9-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "用 Fisher 投影式示出 A 的结构."
+        }
+      ],
+      "partId": "part-002557"
+    },
+    {
+      "type": "subpart",
+      "label": "9-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "B主要生成C及少量的D(C的非对映异构体).画出B,C和D的立体结构式,并说明B主要生成C的具体原因."
+        }
+      ],
+      "partId": "part-002558"
+    },
+    {
+      "type": "subpart",
+      "label": "9-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出E和F的立体结构式."
+        }
+      ],
+      "partId": "part-002559"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

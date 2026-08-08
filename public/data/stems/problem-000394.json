@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000394",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,17 +10,41 @@
   "source": {
     "sourceDocumentId": "source-000046",
     "sourceLabel": "2012-26-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      1
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第4题（5分）1976年中⼦衍射实验证实： $\\mathrm { \\ t r a n s { \\scriptscriptstyle - } [ C o ( e n ) _ { 2 } C l _ { 2 } ] _ { 2 } C l { \\cdot } H C l { \\cdot } 2 H _ { 2 } O }$ 晶体中只存在3种离⼦： $\\mathbf { X } ^ { + }$ 、含钴的A+和Cl−。X+中所有原⼦共面，有对称中⼼和3个相互垂直的镜面。注：en是⼄二胺的缩写符号。 4-1 画出A+及其⽴体异构体的结构简图。 4-2 画出X+的结构图。"
+      "text": "第4题(5分)1976年中子衍射实验证实: $\\mathrm { \\ t r a n s { \\scriptscriptstyle - } [ C o ( e n ) _ { 2 } C l _ { 2 } ] _ { 2 } C l { \\cdot } H C l { \\cdot } 2 H _ { 2 } O }$ 晶体中只存在3种离子: $\\mathbf { X } ^ { + }$ 、含钴的A+和Cl-。X+中所有原子共面,有对称中心和3个相互垂直的镜面。注:en是乙二胺的缩写符号。"
+    },
+    {
+      "type": "subpart",
+      "label": "4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出A+及其立体异构体的结构简图。"
+        }
+      ],
+      "partId": "part-000798"
+    },
+    {
+      "type": "subpart",
+      "label": "4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出X+的结构图。"
+        }
+      ],
+      "partId": "part-000799"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

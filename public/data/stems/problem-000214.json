@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000214",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,195 +8,94 @@
   "examYear": 2023,
   "examStage": "final",
   "source": {
-    "sourceDocumentId": "source-000025",
     "sourceLabel": "2023-37-CChO-juesai-1.pdf",
-    "page": null,
+    "pages": [
+      6
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
+    "sourceDocumentId": "source-000025"
   },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000214-01",
+      "type": "paragraph",
+      "text": "第7题 ,6%)化学热力学"
+    },
+    {
+      "type": "paragraph",
+      "text": "有机发光二极管(OLED)具有自发光,宽视⻆,低能耗等优点,已成为高端显示领域的主流技术.制备OLED器件时,通常需要使用活泼金属化合物作为电子注入材料,这些材料在一定条件下可发生分解,释放活泼金属原子.研究表明, $\\mathrm { Cs _ { 2 } CO _ { 3 } }$ 在常温,常压下性质稳定,但在高温,高真空下可能通过以下两种方式发生分解:"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "\\mathrm{Cs} _ {2} \\mathrm{CO} _ {3} (\\mathrm{s}) \\rightarrow \\mathrm{Cs} _ {2} \\mathrm{O} (\\mathrm{s}) + \\mathrm{CO} _ {2} (\\mathrm{g})\\tag{1}"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "\\mathrm{Cs} _ {2} \\mathrm{CO} _ {3} (\\mathrm{s}) \\rightarrow2 \\mathrm{Cs} (\\mathrm{g}) + \\mathrm{CO} _ {2} (\\mathrm{g}) + 1 / 2 \\mathrm{O} _ {2} (\\mathrm{g})\\tag{2}"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$"
+    },
+    {
+      "type": "subpart",
       "label": "7-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "分别画出三氟甲氧基苯和2-甲氧基吡啶的优势构象。"
+          "text": "在标准压力下,假定 $\\Delta _ { \\mathrm { r } } H _ { m } ^ { \\ominus }$ 和 $\\Delta _ { \\mathrm { { r } } } S _ { m } ^ { \\ominus }$ 与温度无关,分别估算上述两个反应的转折温度 $( \\mathbb { A } \\mathbb { J } \\Delta _ { \\mathrm { r } } G _ { m } ^ { \\ominus } = 0$ 时的温度)."
         }
-      ]
+      ],
+      "partId": "part-002204"
     },
     {
-      "id": "part-000214-02",
+      "type": "subpart",
       "label": "7-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "试比较以下两组自由基断裂化反应的相对速率(断裂的键已用箭头标出),并简要解释你的判断。"
-        }
-      ]
-    },
-    {
-      "id": "part-000214-03",
-      "label": "7-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "-1"
+          "text": "在温度 1000K,压力 $1.000 \\times10 ^ { - 4 } \\mathrm { Pa }$ 下,通过精确计算,分别判断上述两个分解反应能否发生假定所有气体可视为理想气体,且热容不随温度变化."
         },
         {
           "type": "paragraph",
-          "text": "A"
+          "text": "本题可能用到的热力学数据 (298.15K)"
         },
         {
           "type": "paragraph",
-          "text": "B"
-        }
-      ]
-    },
-    {
-      "id": "part-000214-04",
-      "label": "7-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "-2"
+          "text": "<table><tr><td></td><td> $\\Delta_{\\text{f}}H_{m}^{\\ominus}(298.15\\ \\text{K})/\\text{kJ}\\ \\text{mol}^{-1}$ </td><td> $S_{m}^{\\ominus}/\\text{J}\\ \\text{mol}^{-1}\\ \\text{K}^{-1}$ </td><td> $C_{p,m}^{\\ominus}(298.15\\ \\text{K})/\\text{J}\\ \\text{mol}^{-1}\\ \\text{K}^{-1}$ </td></tr><tr><td> $\\text{Cs}_{2}\\text{CO}_{3}(\\text{s})$ </td><td>-1139.7</td><td>204.5</td><td>123.91</td></tr><tr><td> $\\text{CO}_{2}(\\text{g})$ </td><td>-393.51</td><td>213.8</td><td>37.11</td></tr><tr><td> $\\text{Cs}_{2}\\text{O}(\\text{s})$ </td><td>-345.8</td><td>146.9</td><td>76.0</td></tr><tr><td> $\\text{O}_{2}(\\text{g})$ </td><td>0</td><td>205.138</td><td>29.355</td></tr><tr><td> $\\text{Cs}(\\text{g})$ </td><td>76.5</td><td>175.6</td><td>20.8</td></tr><tr><td> $\\text{Cs}(\\text{s})$ </td><td>0</td><td>85.23</td><td>32.21</td></tr></table>"
         },
         {
           "type": "paragraph",
-          "text": "B"
-        }
-      ]
-    },
-    {
-      "id": "part-000214-05",
-      "label": "7-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "给以下三个化合物的电离势从高到低进行排序。"
+          "text": "本题可能用到的积分公式:"
         },
         {
           "type": "paragraph",
-          "text": ""
+          "text": "$$"
         },
         {
           "type": "paragraph",
-          "text": ""
+          "text": "\\int_ {x _ {1}} ^ {x _ {2}} \\frac {1}{x} \\mathrm{d} x = \\ln \\frac {x _ {2}}{x _ {1}}"
         },
         {
           "type": "paragraph",
-          "text": ""
+          "text": "$$"
         }
-      ]
-    },
-    {
-      "id": "part-000214-06",
-      "label": "7-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "在1H-NMR表征中,H核受屏蔽作用影响展现不同的化学位移。屏蔽作用随电子密度增大而增大,对应H的化学位移 (ppm) 数值则减小。"
-        }
-      ]
-    },
-    {
-      "id": "part-000214-07",
-      "label": "7-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "-1 将以下两种化合物中手C原子所连接H的化学位移从大到小进行排列。"
-        },
-        {
-          "type": "paragraph",
-          "text": ""
-        },
-        {
-          "type": "paragraph",
-          "text": ""
-        }
-      ]
-    },
-    {
-      "id": "part-000214-08",
-      "label": "7-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "-2 画出以下两个化合物的立体结构,并对箭头所指H的化学位移从大到小进行排列。"
-        },
-        {
-          "type": "paragraph",
-          "text": ""
-        },
-        {
-          "type": "paragraph",
-          "text": ""
-        }
-      ]
-    },
-    {
-      "id": "part-000214-09",
-      "label": "7-5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "在有机合成中,常需要使用无水溶剂,如四氢呋喃常用与金属钠混合回流,确定无水后重蒸即可。以下可用于此四氢呋喃/钠体系达致无水的指示剂的有:( )a) 二苯酮; b) 苯酚; c) 苯甲醛; d) 苯乙酮"
-        }
-      ]
-    },
-    {
-      "id": "part-000214-10",
-      "label": "7-6",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "在有机化合物的提纯方法中,蒸馏是常见的方法。以下可利用水蒸气蒸馏法提纯的化合物有:( )a) 乙酸乙酯; b) 硝基苯; c) 苯甲酸乙酯; d) 苯胺第8题(22分, 13%)杂原子参与的ene反应"
-        },
-        {
-          "type": "paragraph",
-          "text": "烯丙基二氮烯重排反应 (Allylic Diazene Rearrangement, ADR) 可认为是 ene 反应的逆反应,在脱去氮气的同时,发生双键的位移。其反应式如下所示:"
-        }
-      ]
-    },
-    {
-      "id": "part-000214-11",
-      "label": "8-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "若底物结构中有心性碳原子时,反应具有立体选择性。画出中间体A的立体结构式,判断主要产物B中心性碳原子C1和C2的绝对构型及双键的构型。"
-        }
-      ]
-    },
-    {
-      "id": "part-000214-12",
-      "label": "8-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Retro-ene 反应和 Diels-Alder 反应相结合,可以构筑环状 1,4-心性碳原子。画出反应主要产物 A、B 以及C的结构,判断D中两个甲基的相互关系,以及硫元素最后的存在形式。"
-        },
-        {
-          "type": "paragraph",
-          "text": "8-3 依据以上信息,完成以下反应:"
-        }
-      ]
-    },
-    {
-      "id": "part-000214-13",
-      "label": "8-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "-1"
-        }
-      ]
+      ],
+      "partId": "part-002205"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

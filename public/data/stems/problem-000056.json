@@ -1,98 +1,181 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000056",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "亲核取代反应类型",
-  "number": "8",
+  "number": "Q8",
   "examYear": 2018,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000052",
     "sourceLabel": "2018-32-CChO-chusai.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      3
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第8题（11分） 8-1 以下化合物与⼄胺均可发生亲核取代反应，写出亲核取代反应的类型。 $$ \\mathrm{CH} _ {3} \\mathrm{Br} $$ $$ \\mathrm{CH} _ {3} \\mathrm{I} $$"
+      "text": "第8题(11分)"
+    },
+    {
+      "type": "subpart",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "以下化合物与乙胺均可发生亲核取代反应,写出亲核取代反应的类型。"
+        }
+      ],
+      "partId": "part-001001"
     },
     {
       "type": "paragraph",
-      "text": "A B"
+      "text": "\\mathrm{CH} _ {3} \\mathrm{Br}"
+    },
+    {
+      "type": "paragraph",
+      "text": "\\mathrm{CH} _ {3} \\mathrm{I}"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000056-figure-001.jpg",
+      "assetId": "asset-003116",
+      "alt": "亲核取代反应类型：第1幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
+    },
+    {
+      "type": "paragraph",
+      "text": "A"
+    },
+    {
+      "type": "paragraph",
+      "text": "B"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000056-figure-002.jpg",
+      "assetId": "asset-003117",
+      "alt": "亲核取代反应类型：第2幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
     },
     {
       "type": "paragraph",
       "text": "C"
     },
     {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000056-figure-003.jpg",
+      "assetId": "asset-003118",
+      "alt": "亲核取代反应类型：第3幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
+    },
+    {
       "type": "paragraph",
-      "text": "D E 8-2 按亲核取代反应进⾏的快慢，对以上化合物（用字⺟表示）进⾏排序（从快到慢）。 8-3 判断下列正离⼦（用字⺟表示）稳定性的顺序（从稳定到不稳定）。"
+      "text": "D"
+    },
+    {
+      "type": "paragraph",
+      "text": "E"
+    },
+    {
+      "type": "subpart",
+      "label": "8-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按亲核取代反应进行的快慢,对以上化合物(用字母表示)进行排序(从快到慢)。"
+        }
+      ],
+      "partId": "part-001002"
+    },
+    {
+      "type": "subpart",
+      "label": "8-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "判断下列正离子(用字母表示)稳定性的顺序(从稳定到不稳定)。"
+        }
+      ],
+      "partId": "part-001003"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000056-figure-004.jpg",
+      "assetId": "asset-003119",
+      "alt": "亲核取代反应类型：第4幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
     },
     {
       "type": "paragraph",
       "text": "F"
     },
     {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000056-figure-005.jpg",
+      "assetId": "asset-003120",
+      "alt": "亲核取代反应类型：第5幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
+    },
+    {
       "type": "paragraph",
       "text": "G"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000056-figure-006.jpg",
+      "assetId": "asset-003121",
+      "alt": "亲核取代反应类型：第6幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
     },
     {
       "type": "paragraph",
       "text": "H"
     },
     {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000056-figure-007.jpg",
+      "assetId": "asset-003122",
+      "alt": "亲核取代反应类型：第7幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
+    },
+    {
       "type": "paragraph",
       "text": "I"
     },
     {
-      "type": "paragraph",
-      "text": "K"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000056-figure-001.jpg",
-      "alt": "problem-000056题目配图第1幅（已按原图查看）"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000056-figure-002.jpg",
-      "alt": "problem-000056题目配图第2幅（已按原图查看）"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000056-figure-003.jpg",
-      "alt": "problem-000056题目配图第3幅（已按原图查看）"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000056-figure-004.jpg",
-      "alt": "problem-000056题目配图第4幅（已按原图查看）"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000056-figure-005.jpg",
-      "alt": "problem-000056题目配图第5幅（已按原图查看）"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000056-figure-006.jpg",
-      "alt": "problem-000056题目配图第6幅（已按原图查看）"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000056-figure-007.jpg",
-      "alt": "problem-000056题目配图第7幅（已按原图查看）"
-    },
-    {
       "type": "figure",
       "src": "data/stems/assets/problem-000056-figure-008.jpg",
-      "alt": "problem-000056题目配图第8幅（已按原图查看）"
+      "assetId": "asset-003123",
+      "alt": "亲核取代反应类型：第8幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
+    },
+    {
+      "type": "paragraph",
+      "text": "K"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

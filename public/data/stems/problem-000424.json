@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000424",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,65 +10,71 @@
   "source": {
     "sourceDocumentId": "source-000008",
     "sourceLabel": "2013-27-CChO-juesai.pdf",
-    "page": null,
+    "pages": [
+      3,
+      4
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000424-01",
+      "type": "subpart",
       "label": "8-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "写出一个正当晶胞中各离子(原子)的坐标及结构基元(须指明具体的原子或离子种类及数目)。"
         }
-      ]
+      ],
+      "partId": "part-000848"
     },
     {
-      "id": "part-000424-02",
+      "type": "subpart",
       "label": "8-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "画出一个正当晶胞沿 $c$ 方向的投影图,标出坐标方向。"
         }
-      ]
+      ],
+      "partId": "part-000849"
     },
     {
-      "id": "part-000424-03",
+      "type": "subpart",
       "label": "8-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "计算该晶体中 H 原子之间的最短距离。"
         }
-      ]
+      ],
+      "partId": "part-000850"
     },
     {
-      "id": "part-000424-04",
+      "type": "subpart",
       "label": "8-4",
       "blocks": [
         {
           "type": "paragraph",
           "text": "该晶体可看作由 $\\mathrm{H_2}$ 分子填入 $\\mathrm{Ba^{2+}}$ 离子和 $\\mathrm{H^-}$ 离子组成的多面体中而形成,说明此多面体的连接方式。"
         }
-      ]
+      ],
+      "partId": "part-000851"
     },
     {
-      "id": "part-000424-05",
+      "type": "subpart",
       "label": "8-5",
       "blocks": [
         {
           "type": "paragraph",
           "text": "假设常压脱氢后氢化物的骨架不变,计算最大储氢密度。"
         }
-      ]
+      ],
+      "partId": "part-000852"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

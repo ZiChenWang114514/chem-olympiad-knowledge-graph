@@ -1,35 +1,125 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000369",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "晶体结构与晶胞",
-  "number": "4",
+  "number": "Q4",
   "examYear": 2010,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000005",
     "sourceLabel": "2010-24-CChO-juesai.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      2
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第4题（12分）我国是世界稀⼟资源大国，徐光宪等提出的串级萃取理论，使我国稀⼟分离技术与生产工艺达到世界先进⽔平，稀⼟分离产品在世界市场的份额占 $9 0 \\%$ 。右图为某稀⼟A氧化物晶体的⽴方晶胞。 4-1 晶胞中氧离⼦占据顶点、面⼼、棱⼼和体⼼位置，A离⼦占据半数⽴方体空隙，请写出A氧化物的化学式和结构基元。 4-2 写出晶体中氧离⼦的配位数。 4-3 已知晶胞参数 $a = 5 4 5 . 5 \\mathrm { p m }$ ，设A的摩尔质量为 $M _ { \\mathrm { A } }$ ，计算晶体的理论密度。 4-4 计算 A—A 和 A—O 的间距。 4-5 若晶胞中一半A离⼦被B离⼦取代，请指出： 4-5-1 当两种离⼦统计分布时，晶体所属的点阵类型； 4-5-2 当两种离⼦有序分布（A的 $z = 3 / 4$ ，B 的 $z = 1 / 4 )$ ）时，晶体所属的点阵类型。"
+      "text": "第4题(12分)我国是世界稀土资源大国,徐光宪等提出的串级萃取理论,使我国稀土分离技术与生产工艺达到世界先进水平,稀土分离产品在世界市场的份额占 90 \\% 。右图为某稀土A氧化物晶体的立方晶胞。"
     },
     {
-      "type": "paragraph",
-      "text": "4-6 若将A离⼦选为晶胞顶点，写出A氧化物晶胞中正负离⼦的分数坐标。"
+      "type": "subpart",
+      "label": "4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "晶胞中氧离子占据顶点,面心,棱心和体心位置,A离子占据半数立方体空隙,请写出A氧化物的化学式和结构基元。"
+        }
+      ],
+      "partId": "part-001721"
+    },
+    {
+      "type": "subpart",
+      "label": "4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出晶体中氧离子的配位数。"
+        }
+      ],
+      "partId": "part-001722"
+    },
+    {
+      "type": "subpart",
+      "label": "4-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "已知晶胞参数 a = 545 . 5 \\mathrm { p m } ,设A的摩尔质量为 M _ { \\mathrm { A } } ,计算晶体的理论密度。"
+        }
+      ],
+      "partId": "part-001723"
+    },
+    {
+      "type": "subpart",
+      "label": "4-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算 A-A 和 A-O 的间距。"
+        }
+      ],
+      "partId": "part-001724"
+    },
+    {
+      "type": "subpart",
+      "label": "4-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "若晶胞中一半A离子被B离子取代,请指出:"
+        }
+      ],
+      "partId": "part-001725"
+    },
+    {
+      "type": "subpart",
+      "label": "4-5-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "当两种离子统计分布时,晶体所属的点阵类型;"
+        }
+      ],
+      "partId": "part-001726"
+    },
+    {
+      "type": "subpart",
+      "label": "4-5-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "当两种离子有序分布(A的 z = 3 / 4 ,B 的 z = 1 / 4 ) )时,晶体所属的点阵类型。"
+        }
+      ],
+      "partId": "part-001727"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000369-figure-001.jpg",
-      "alt": "problem-000369题目配图第1幅（已按原图查看）"
+      "assetId": "asset-003391",
+      "alt": "晶体结构与晶胞：第1幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
+    },
+    {
+      "type": "subpart",
+      "label": "4-6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "若将A离子选为晶胞顶点,写出A氧化物晶胞中正负离子的分数坐标。"
+        }
+      ],
+      "partId": "part-001728"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

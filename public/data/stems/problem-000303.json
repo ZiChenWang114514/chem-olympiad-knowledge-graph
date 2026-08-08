@@ -1,37 +1,66 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000303",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "弱酸钠盐热分析",
-  "number": "4",
+  "number": "Q4",
   "examYear": 2007,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000038",
     "sourceLabel": "2007-21-CChO-chusai.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      2
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
-  },
   "blocks": [
+    {
+      "type": "paragraph",
+      "text": "第4题(7分)化合物A是一种热稳定性较差的无水的弱酸钠盐。用如下方法对其进行分析:将A与惰性填料混合均匀制成样品,加热至 400 ~ ^ { \\circ } \\mathrm { C } , ,记录含A量不同的样品的质量损失(%),结果列于下表:"
+    },
     {
       "type": "paragraph",
       "text": "A"
     },
     {
-      "type": "callout",
-      "tone": "info",
-      "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
+      "type": "table",
+      "headers": [
+        "样品中A的质量分数/%",
+        "20",
+        "50",
+        "70",
+        "90"
+      ],
+      "rows": [
+        [
+          "样品的质量损失/%",
+          "7.4",
+          "18.5",
+          "25.8",
+          "33.3"
+        ]
+      ]
     },
     {
       "type": "paragraph",
       "text": "利用上述信息,通过作图,推断化合物A的化学式,并给出计算过程。"
+    },
+    {
+      "type": "subpart",
+      "label": "4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001625"
     }
   ],
-  "parts": []
+  "renderingHints": {
+    "mhchem": true
+  }
 }

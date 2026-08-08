@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000284",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,21 +8,27 @@
   "examYear": 2006,
   "examStage": "preliminary",
   "source": {
-    "sourceDocumentId": "source-000037",
     "sourceLabel": "2006-20-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      1
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000037"
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "第 5 题(6 分)配制 KI (0.100 M)–I2 的水溶液,用 0.100 M Na2S2O3 标准溶液测得 c(I2) = 4.85×10−3 M。量取 50.0 mL KI–I2 溶液和 50.0 mL CCl4 置于分液漏斗中振荡达平衡,分液后测知 CCl4 相中 c(I2) = 2.60×10−3 M。已知实验温度下 CCl4 从水溶液中萃取 I2 的分配比为 85:1。求水溶液中 I2 + I− = I3− 的平衡常数。"
+      "type": "subpart",
+      "label": "5-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "第 5 题 配制 KI (0.100M)-I<sub>2</sub>的水溶液,用 $\\mathrm { 0.100 \\ M \\ Na _ { 2 } S _ { 2 } O _ { 3 } }$ 标准溶液测得 $c ( \\mathrm { I } _ { 2 } ) = 4.85 \\times10 ^ { - 3 } \\mathrm { M } \\circ$ 量取$50.0 \\mathrm { mL } \\mathrm { KI - I _ { 2 } }$ 溶液和 $50.0 \\mathrm { mLCCl } _ { 4 }$ 置于分液漏斗中振荡达平衡,分液后测知 $\\mathrm { CCl _ { 4 } }$ 相中 $c ( \\mathrm { I } _ { 2 } ) = 2.60 \\times10 ^ { - 3 } \\mathrm { M }$ O已知实验温度下 $\\mathrm { CCl _ { 4 } }$ 从水溶液中萃取I<sub>2</sub>的分配比为 $85 { : } 1 _ { \\mathrm { c } }$ .求水溶液中 $\\mathrm { I } _ { 2 } + \\mathrm { I } ^ { - } = \\mathrm { I } _ { 3 }$ −的平衡常数."
+        }
+      ],
+      "partId": "part-002352"
     }
   ],
-  "parts": []
+  "renderingHints": {
+    "mhchem": true
+  }
 }

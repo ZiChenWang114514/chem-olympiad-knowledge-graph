@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000347",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,19 +8,66 @@
   "examYear": 2009,
   "examStage": "final",
   "source": {
-    "sourceDocumentId": "source-000004",
     "sourceLabel": "2009-23-CChO-juesai.pdf",
-    "page": null,
+    "pages": [
+      1,
+      2,
+      5
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000004"
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第1题（12分）用传统的工艺方法从矿物中提取锰和锌存在能耗高、三废排放量大和工艺流程长等缺点。2009 年报道，采用1:1硫酸溶液同槽浸出锰结核矿（质量分数 $\\mathrm { \\Delta } [ w ( \\mathrm { M n O _ { 2 } } ) = 0 . 2 0 )$ ）和锌精矿（质量分数 $w ( \\mathrm { Z n S } ) =$ 0.70）的工艺方法提取锰和锌获得成功，对资源综合利用、节能减排和清洁生产都有重要的实际意义。已知 $E ^ { \\Theta } ( \\mathrm { F e } ^ { 2 \\cdot } / \\mathrm { F e } ^ { 3 \\cdot } ) = 0 . 7 7 \\mathrm { V } , E ^ { \\Theta } ( \\mathrm { F e } ^ { 2 \\cdot } / \\mathrm { F e } ) = - 0 . 4 4 \\mathrm { V } , E ^ { \\Theta } ( \\mathrm { M n O _ { 2 } } / \\mathrm { M n } ^ { 2 \\cdot } ) = 1 . 2 3 \\mathrm { V } , E ^ { \\Theta } ( \\mathrm { S } / \\mathrm { Z n S } ) = 0 . 2 6 5 \\mathrm { V } _ { \\alpha } .$ 1-1 锰结核矿和锌精矿单独酸浸结果很不理想。请通过热力学计算，说明锰结核矿和锌精矿同糟酸浸时发生化学反应的可⾏性。 1-2 模拟实验发现，二氧化锰和硫化锌同槽酸浸时反应速率很慢，若在酸溶液中加入少量的铁屑则能明显使反应速率加快。写出铁进人溶液后分别与二氧化锰和硫化锌发生化学反应的离⼦方程式，并简述反应速率加快的原因。 1-3 研究发现，2种矿物同槽酸浸4小时后，锰和锌的浸出率只有\\~80%，为了提高浸出率，在实际工艺中，须将过滤后的滤渣用四氯⼄烷处理后再做二次酸浸，请简要说明四氯⼄烷的作用。 1-4 锌精矿中常有部分铅共生，同槽酸浸工艺回收铅的方法之一是在浸渣中加人⾜量的⻝盐⽔使铅溶出，写出溶出铅的化学方程式。"
+      "text": "第1题 用传统的工艺方法从矿物中提取锰和锌存在能耗高,三废排放量大和工艺流程⻓等缺点.2009 年报道,采用1:1硫酸溶液同槽浸出锰结核矿(质量分数 $\\mathrm { \\Delta } [ w ( \\mathrm { MnO _ { 2 } } ) = 0.20 )$ )和锌精矿(质量分数 $w ( \\mathrm { ZnS } ) =$ 0.70)的工艺方法提取锰和锌获得成功,对资源综合利用,节能减排和清洁生产都有重要的实际意义.已知 $E ^ { \\Theta } ( \\mathrm { Fe } ^ { 2 \\cdot } / \\mathrm { Fe } ^ { 3 \\cdot } ) = 0.77 \\mathrm { V } , E ^ { \\Theta } ( \\mathrm { Fe } ^ { 2 \\cdot } / \\mathrm { Fe } ) = - 0.44 \\mathrm { V } , E ^ { \\Theta } ( \\mathrm { MnO _ { 2 } } / \\mathrm { Mn } ^ { 2 \\cdot } ) = 1.23 \\mathrm { V } , E ^ { \\Theta } ( \\mathrm { S } / \\mathrm { ZnS } ) = 0.265 \\mathrm { V } _ { \\alpha } .$"
+    },
+    {
+      "type": "subpart",
+      "label": "1-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "锰结核矿和锌精矿单独酸浸结果很不理想.请通过热力学计算,说明锰结核矿和锌精矿同糟酸浸时发生化学反应的可行性."
+        }
+      ],
+      "partId": "part-002425"
+    },
+    {
+      "type": "subpart",
+      "label": "1-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "模拟实验发现,二氧化锰和硫化锌同槽酸浸时反应速率很慢,若在酸溶液中加入少量的铁屑则能明显使反应速率加快.写出铁进人溶液后分别与二氧化锰和硫化锌发生化学反应的离子方程式,并简述反应速率加快的原因."
+        }
+      ],
+      "partId": "part-002426"
+    },
+    {
+      "type": "subpart",
+      "label": "1-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "研究发现,2种矿物同槽酸浸4小时后,锰和锌的浸出率只有\\~80%,为了提高浸出率,在实际工艺中,须将过滤后的滤渣用四氯乙烷处理后再做二次酸浸,请简要说明四氯乙烷的作用."
+        }
+      ],
+      "partId": "part-002427"
+    },
+    {
+      "type": "subpart",
+      "label": "1-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "锌精矿中常有部分铅共生,同槽酸浸工艺回收铅的方法之一是在浸渣中加人足量的⻝盐水使铅溶出,写出溶出铅的化学方程式."
+        }
+      ],
+      "partId": "part-002428"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

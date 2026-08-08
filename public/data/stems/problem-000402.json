@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000402",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,143 +8,152 @@
   "examYear": 2012,
   "examStage": "final",
   "source": {
-    "sourceDocumentId": "source-000007",
     "sourceLabel": "2012-26-CChO-juesai.pdf",
-    "page": null,
+    "pages": [
+      1
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
+    "sourceDocumentId": "source-000007"
   },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000402-01",
+      "type": "paragraph",
+      "text": "第1题 2011年中国科学院上海硅酸盐研究所报道合成了⻓达600mm的世界最大的锗酸铋单晶.锗酸铋单晶由于密度大,化学稳定性好,有较好的压电性能,热学性能和光学性能而在高能物理,核物理,核医学等领域获得广泛应用."
+    },
+    {
+      "type": "subpart",
       "label": "1-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "铋所在族各元素氢化物按沸点由高到低顺序为: $\\mathrm{H_2O} > \\mathrm{H_2Te} > \\mathrm{NH_3} > \\mathrm{H_2S} > \\mathrm{H_2Se}$ ,它们的键角从大到小顺序为:"
+          "text": "铋所在族各元素氢化物按沸点由高到低顺序为: $\\big ( \\mathrm { ~ ~ \\rho ~ } \\big ) > \\big ( \\mathrm { ~ ~ \\rho ~ } \\big ) > \\mathrm { { NH } } _ { 3 } > \\big ( \\mathrm { ~ ~ \\rho ~ } \\big ) > \\big ( \\mathrm { ~ ~ \\rho ~ } \\big )$ ,它们的键⻆从大到 小顺序为: C"
         }
-      ]
+      ],
+      "partId": "part-002490"
     },
     {
-      "id": "part-000402-02",
+      "type": "subpart",
       "label": "1-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "铋的高价化合物具有很强的氧化性,酸性介质中可用 $\\mathrm{NaBiO_3}$ 氧化Mn(II)得到Mn(VII)以鉴定锰。写出该反应的离子反应方程式。"
+          "text": "铋的高价化合物具有很强的氧化性,酸性介质中可用 $\\mathrm { NaBiO _ { 3 } }$ 氧化Mn(II)得到Mn(VII)以鉴定锰.写出该反应的离子反应方程式."
         }
-      ]
+      ],
+      "partId": "part-002491"
     },
     {
-      "id": "part-000402-03",
+      "type": "subpart",
       "label": "1-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "卤氧化铋作为一类新型光化学催化剂,具有较高的催化活性和稳定性,近几年备受关注。已知 $\\varphi_{\\mathrm{BiOCl/Bi}}^{\\ominus} = 0.17\\ \\mathrm{V}$ , $\\varphi_{\\mathrm{BiO^+/Bi}}^{\\ominus} = 0.32\\ \\mathrm{V}$ ,求算BiOCl的溶度积。"
+          "text": "⻧氧化铋作为一类新型光化学催化剂,具有较高的催化活性和稳定性,近几年备受关注.已知 $\\varphi _ { \\mathrm { Biocl / Bi } } ^ { \\ominus }$ $= 0.17 \\mathrm { V } , \\varphi _ { \\mathrm { Bi0 ^ { + } / Bi } } ^ { \\ominus } = 0.32 \\mathrm { V }$ ,求算BiOCl的溶度积."
         }
-      ]
+      ],
+      "partId": "part-002492"
     },
     {
-      "id": "part-000402-04",
+      "type": "subpart",
       "label": "1-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$^{213}\\mathrm{Bi}$ 可作为治疗小型肿瘤的放疗药剂,与蛋白质形成生物超分子,可在目标细胞内特定区域释放α粒子。写出 $^{213}\\mathrm{Bi}$ 的衰变方程式。"
+          "text": "Bi可作为治疗小型肿瘤的放疗药剂,与蛋白质形成生物超分子,可在目标细胞内特定区域释放α粒子.写出213Bi的衰变方程式."
         }
-      ]
+      ],
+      "partId": "part-002625"
     },
     {
-      "id": "part-000402-05",
+      "type": "subpart",
       "label": "1-5",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "溶出伏安法用于测定金属离子浓度,其原理是将待测金属离子还原为单质沉积在电极表面的汞膜内而达到富集的效果。为了减少污染,可以用铋膜代替汞膜,利用电解将铋离子还原为单质铋沉积在圆柱形电极的底面上均匀成膜。设电极直径为3 mm,电流强度为1 mA,电解2 min,计算电极上沉积的铋膜厚度(已知铋密度为 $9.8\\ \\mathrm{g\\ cm^{-3}}$ )。"
+          "text": "溶出伏安法用于测定金属离子浓度,其原理是将待测金属离子还原为单质沉积在电极表面的汞膜内而达到富集的效果.为了减少污染,可以用铋膜代替汞膜,利用电解将铋离子还原为单质铋沉积在圆柱形电极的底面上均匀成膜.设电极直径为3mm,电流强度为1mA,电解2min,计算电极上沉积的铋膜厚度(己知铋密度为 $9.8 \\mathrm { gcm ^ { 3 } } )$"
         }
-      ]
+      ],
+      "partId": "part-002494"
     },
     {
-      "id": "part-000402-06",
+      "type": "subpart",
       "label": "1-6",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "使用二氯甲基铋与甲基黄原酸钠盐或钾盐 $\\mathrm{M(S_2COMe)}\\ (\\mathrm{M=Na,\\ K})$ 在苯中反应可得到结构如图1.1所示的化合物 $\\mathbf{A}$ 。"
+          "text": "使用二氯甲基铋与甲基⻩原酸钠盐或钾盐 $\\mathrm { { M } ( S _ { 2 } COMe ) \\left( M = Na , \\right. }$ K)在苯中反应可得到结构如图1.1所示的化合物 $\\mathbf { A } _ { \\circ }$"
         },
         {
           "type": "figure",
-          "caption": "图1.1 化合物A的结构",
-          "alt": "缺图:化合物A的结构图",
-          "src": "data/stems/assets/problem-000402-figure-001.jpg"
+          "src": "data/stems/assets/problem-000402-figure-001.jpg",
+          "alt": "原卷第1题图1：使用二氯甲基铋与甲基⻩原酸钠盐或钾盐 $\\mathrm { { M } ( S _ { 2 } COMe ) \\left( M = Na ,",
+          "displayWidth": 70,
+          "assetId": "asset-003693"
         }
-      ]
+      ],
+      "partId": "part-002495"
     },
     {
-      "id": "part-000402-07",
+      "type": "subpart",
       "label": "1-6-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "根据图1.1写出化合物A的结构简式。"
+          "text": "根据图1.1写出化合物A的结构简式."
         }
-      ]
+      ],
+      "partId": "part-002496"
     },
     {
-      "id": "part-000402-08",
+      "type": "subpart",
       "label": "1-6-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出制备A的化学方程式。"
+          "text": "写出制备A的化学方程式."
         }
-      ]
+      ],
+      "partId": "part-002497"
     },
     {
-      "id": "part-000402-09",
+      "type": "subpart",
       "label": "1-6-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "说明反应不用水作溶剂的原因。"
+          "text": "说明反应不用水作溶剂的原因."
         }
-      ]
+      ],
+      "partId": "part-002498"
     },
     {
-      "id": "part-000402-10",
+      "type": "subpart",
       "label": "1-6-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "若用 $\\mathrm{La^{3+}}$ 取代A中的 $\\mathrm{Bi^{3+}}$ ,产物是否能稳定存在?说明理由( $\\mathrm{Bi^{3+}}$ 和 $\\mathrm{La^{3+}}$ 的半径均为117 pm)。"
+          "text": "若用 $\\mathrm { La } ^ { \\mathrm { i } }$ +取代A中的Bi3+产物是否能稳定存在说明理由(Bi3+和 $\\mathrm { La ^ { 3 + } }$ +的半径均为117pm)."
         }
-      ]
+      ],
+      "partId": "part-002499"
     },
     {
-      "id": "part-000402-11",
+      "type": "subpart",
       "label": "1-7",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "锗酸铋本质上是复合氧化物,此类氧化物有多种不同组成的晶体。其中有两种属立方晶系,对空气、水、高能辐射和热稳定,熔点高于 $900\\ ^\\circ\\mathrm{C}$ ,是重要的光学材料,以下简称B和D。B的晶胞参数 $a = 1014.5\\ \\mathrm{pm}$ ,密度 $d = 9.22\\ \\mathrm{g\\ cm^{-3}}$ ,晶胞中有2个Ge原子; D的晶胞参数为 $a = 1059.4\\ \\mathrm{pm}$ , $d = 6.93\\ \\mathrm{g\\ cm^{-3}}$ ,每个O原子键连1个Bi和1个Ge。根据以上信息推出B和D的化学式(整比化合物,须写出推求过程)。"
-        }
-      ]
-    },
-    {
-      "id": "part-000402-12",
-      "label": "1-8",
-      "blocks": [
+          "text": "锗酸铋本质上是复合氧化物,此类氧化物有多种不同组成的晶体.其中有两种属立方晶系,对空气,水,高能辐射和热稳定,熔点高于 ${ } ^ { 900 } \\ { } ^ { \\circ } \\mathrm { C } ,$ 是重要的光学材料,以下简称B和D.B的晶胞参数 $\\cdot a \\ = 1014.5 \\ \\mathrm { pm }$ 密度 $d = 9.22 \\mathrm { g } \\mathrm { cm } ^ { - 3 }$ ,晶胞中有2个Ge原子; D的晶胞参数为 $a = 1059.4 \\mathrm { pm }$ $d = 6.93 \\mathrm { gcm ^ { - 3 } }$ ,每个O原子键连1个Bi和1个 $\\mathrm { Ge } _ { \\circ }$ .根据以上信息推出B和D的化学式(整比化合物,须写出推求过程)."
+        },
         {
           "type": "paragraph",
-          "text": "$\\mathrm{Bi^{3+}}$ 在水溶液里与 $\\mathrm{O^{2-}}$ 和/或 $\\mathrm{OH^-}$ 结合形成复杂多样的离子。离子E是 $\\mathrm{Bi^{3+}}$ 与 $\\mathrm{OH^-}$ 形成的多核离子,离子电荷+6,具有与立方体相同的对称性(忽略H的取向)。E中Bi—Bi的核间距相等(370 pm,对比:金属铋中Bi—Bi核间距为307和353 pm),Bi—O的核间距也相等。写出E的化学式并画出其立体结构图(用OH表示O—H)。"
+          "text": "$ { rl } { 1 - 8 } { { } \\mathrm { Bi } ^ { 3 + } } $ 在水溶液里与 $\\mathrm { O ^ { 2 \\mathrm { - } } }$ 和/或OH−结合形成复杂多样的离子.离子E是 $\\mathrm { Bi ^ { 3 + } } \\mathrm { . }$ 与OH−形成的多核离子,离子电荷+6,具有与立方体相同的对称性(忽略H的取向).E中Bi—Bi的核间距相等(370pm,对比:金属铋中Bi—Bi核间距为307和353pm),Bi—O的核间距也相等.写出E的化学式并画出其立体结构图(用OH表示O—H)."
         }
-      ]
+      ],
+      "partId": "part-002500"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

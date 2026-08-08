@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000356",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,55 +10,59 @@
   "source": {
     "sourceDocumentId": "source-000041",
     "sourceLabel": "2010-24-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      1
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000356-01",
+      "type": "subpart",
       "label": "2-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "设此装置中发生的是铜离子和硫离子直接相遇的反应,已知 $\\Phi^{\\ominus}(\\mathrm{Cu^{2+}/Cu})$ 和 $\\Phi^{\\ominus}(\\mathrm{S/S^{2-}})$ 分别为 0.345 V 和 -0.476 V。$nFE^{\\ominus}=RT\\ln K$,$E^{\\ominus}$ 表示反应的标准电动势,$n$ 为该反应得失电子数。计算 $25~^{\\circ}\\mathrm{C}$ 下硫离子和铜离子反应得到铜的反应平衡常数,写出平衡常数表达式。"
         }
-      ]
+      ],
+      "partId": "part-000735"
     },
     {
-      "id": "part-000356-02",
+      "type": "subpart",
       "label": "2-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "金属铜和混浊现象均出现在蛋壳外,这意味着什么?"
+          "text": "金属铜和混浊现象均出现在蛋壳外,这意味着什么？"
         }
-      ]
+      ],
+      "partId": "part-000736"
     },
     {
-      "id": "part-000356-03",
+      "type": "subpart",
       "label": "2-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "该报道未提及硫离子与铜离子相遇时溶液的 pH。现设 $\\mathrm{pH}=6$,写出反应的离子方程式。"
         }
-      ]
+      ],
+      "partId": "part-000737"
     },
     {
-      "id": "part-000356-04",
+      "type": "subpart",
       "label": "2-4",
       "blocks": [
         {
           "type": "paragraph",
           "text": "请对此实验结果作一简短评论。"
         }
-      ]
+      ],
+      "partId": "part-000738"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000390",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,28 +8,75 @@
   "examYear": 2011,
   "examStage": "final",
   "source": {
-    "sourceDocumentId": "source-000006",
     "sourceLabel": "2011-25-CChO-juesai.pdf",
-    "page": null,
+    "pages": [
+      5
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000006"
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第8题（12分）最近的研究表明，某种新型的胍盐离⼦液体(GIL)对Michael加成反应有很好的催化活性，进一步的研究表明GIL还具有一定的碱性。以下是某研究小组利用GIL为催化剂，合成多官能团化合物H的路 线："
+      "text": "第8题 最近的研究表明,某种新型的胍盐离子液体(GIL)对Michael加成反应有很好的催化活性,进一步的研究表明GIL还具有一定的碱性.以下是某研究小组利用GIL为催化剂,合成多官能团化合物H的路"
     },
     {
       "type": "paragraph",
-      "text": "8-1 画出A和C的结构简 $\\updownarrow \\updownarrow _ { \\updownarrow }$ 8-2 画出B、D、F和G的结构简式。 8-3 给出从中间体E到F的反应机理。 8-4 从周环反应的角度看，反应中间体G转化为⽬标产物需经过一次 迁移，其驱动力为 o"
+      "text": "线:"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000390-figure-001.jpg",
-      "alt": "problem-000390题目配图第1幅（已按原图查看）"
+      "alt": "原卷第8题图1：线:",
+      "displayWidth": 70,
+      "assetId": "asset-003688"
+    },
+    {
+      "type": "subpart",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出A和C的结构简 $\\updownarrow \\updownarrow _ { \\updownarrow }$"
+        }
+      ],
+      "partId": "part-002471"
+    },
+    {
+      "type": "subpart",
+      "label": "8-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出B,D,F和G的结构简式."
+        }
+      ],
+      "partId": "part-002472"
+    },
+    {
+      "type": "subpart",
+      "label": "8-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "给出从中间体E到F的反应机理."
+        }
+      ],
+      "partId": "part-002473"
+    },
+    {
+      "type": "subpart",
+      "label": "8-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "从周环反应的⻆度看,反应中间体G转化为目标产物需经过一次 迁移,其驱动力为 o"
+        }
+      ],
+      "partId": "part-002474"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

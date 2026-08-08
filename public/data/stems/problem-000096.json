@@ -1,101 +1,83 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000096",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "分光光度分析",
-  "number": "2",
+  "number": "Q2",
   "examYear": 2020,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000015",
     "sourceLabel": "2020-34-CChO-juesai-1.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      1,
+      2
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
+      "type": "paragraph",
+      "text": "第2题(12分)二氧化碳是造成温室效应的主要物质,随着化石燃料的燃烧以及森林的破坏,大气层中和海水中溶解的 \\mathrm { C O _ { 2 } } 浓度持续增加。研究发现,海洋中pH已从工业化前的8.16降至目前的8.04。科学家预言,如果再不引起重视,到2100年海洋中pH将降至7.7左右,这将导致海洋中某些浮游生物和珊瑚等的严重破坏。为了检测深海中的 \\mathrm { C O _ { 2 } } 浓度,设计了一种基于光学监测的 \\mathrm { C O _ { 2 } } 传感器,结构示意图如下:"
+    },
+    {
       "type": "figure",
       "src": "data/stems/assets/problem-000096-figure-001.jpg",
-      "alt": "化学结构示意图（原图）",
-      "caption": "题目配图"
-    }
-  ],
-  "parts": [
+      "assetId": "asset-003148",
+      "alt": "原卷示意图：B",
+      "label": "B",
+      "caption": "B",
+      "displayWidth": 100
+    },
     {
-      "id": "part-000096-01",
+      "type": "paragraph",
+      "text": "该传感器的微液池内含 50.0 μmol L−1的溴百里酚蓝(用 NaHIn 表示)和 42.0 μmol L−1的 NaOH 溶液。海水中溶解的 \\mathrm { { C O } _ { 2 } } 透过选择性膜进入传感器微池(其他物质均不能透过),达到相应酸碱解离平衡。指示剂HIn−形式和 \\mathrm { I n ^ { 2 \\cdot } } −形式分别在434 nm和620 nm处有最大吸收, \\mathrm { H _ { 2 } I n } 形式在中性至碱性条件下,浓度忽略不计。通过测定620 nm和434 nm的吸光度比值 R _ { A } = A _ { 620 } / A _ { 434 } ,可检测海水中溶解的 \\mathrm { { C O } _ { 2 } } 浓度(即平衡浓度\\mathrm { [ C O _ { 2 } ( a q ) ] } ) o"
+    },
+    {
+      "type": "paragraph",
+      "text": "已知 HIn−和 \\mathrm { I n ^ { 2 \\cdot } } −在最大吸收波⻓处的摩尔吸光系数如下:"
+    },
+    {
+      "type": "paragraph",
+      "text": " & {\\varepsilon_ {434} ^ {\\mathrm{HIn} ^ {-}} = 8. 00 \\times 10 ^ {3} \\mathrm{molL} ^ {- 1} \\mathrm{cm} ^ {- 1}, \\varepsilon_ {620} ^ {\\mathrm{HIn} ^ {-}} = 0} \\\\ & {\\varepsilon_ {434} ^ {\\mathrm{In} ^ {2 -}} = 1. 90 \\times 10 ^ {3} \\mathrm{molL} ^ {- 1} \\mathrm{cm} ^ {- 1}, \\varepsilon_ {620} ^ {\\mathrm{In} ^ {2 -}} = 1. 70 \\times 10 ^ {4} \\mathrm{molL} ^ {- 1} \\mathrm{cm} ^ {- 1}} \\\\ & {K _ {1} = 3. 0 \\times 10 ^ {- 7}; K _ {2} = 3. 0 \\times 10 ^ {- 11}; K _ {\\mathrm{In}} = 2. 0 \\times 10 ^ {- 7}; K _ {\\mathrm{w}} = 6. 7 \\times 10 ^ {- 15};} \\\\ & {\\text {实验测得} R _ {A} = 2. 84 _ {\\circ}} "
+    },
+    {
+      "type": "subpart",
       "label": "2-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "等物质的量的二氧化碳可和钛配合物 CpTiMe (下图)在戊烷溶液中光照(350 nm)条件下发生“插入”反应。画出该反应产物的结构式。"
+          "text": "计算传感器微池内溶液的 \\mathrm { p H } _ { \\mathfrak { c } }"
         }
-      ]
+      ],
+      "partId": "part-001060"
     },
     {
-      "id": "part-000096-02",
+      "type": "subpart",
       "label": "2-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "二氧化碳“插入”到过渡金属配合物中的 M—N 键中生成相应的配合物。一个例子是配合物 $\\eta^{5}$-CpRu(NH$_2$)dcpe (dcpe = Cy$_2$PCH$_2$CH$_2$PCy$_2$, Cy: 环己基,见下图,配体 dcpe 省略)和二氧化碳在 THF(四氢呋喃)中的反应。画出该反应的关键中间体和产物的结构式。"
+          "text": "写出传感器微池内溶液的电荷平衡方程式。"
         }
-      ]
+      ],
+      "partId": "part-001061"
     },
     {
-      "id": "part-000096-03",
+      "type": "subpart",
       "label": "2-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "二氧化碳可“插入”到双金属配合物内的 M—M′ 键得以固定。有研究表明, Fe-Zr 双金属配合物 Cp(CO)$_2$Fe-Zr(Cl)Cp$_2$ (下图)中插入等物质的量的二氧化碳的反应过程经过一四元环过渡态进而形成产物。画出该过渡态和产物的结构式。"
+          "text": "计算海水中溶解的 \\mathrm { C O _ { 2 } } 平衡浓度。"
         }
-      ]
-    },
-    {
-      "id": "part-000096-04",
-      "label": "2-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "用于二氧化碳催化转化的钳型铱配合物 (PNPyP)IrHX (X = Me, OH; Me 为甲基)的结构如下图所示。研究表明,该结构中 Ir-H$_a$ 键的键长较 Ir-H$_b$ 键为短。"
-        }
-      ]
-    },
-    {
-      "id": "part-000096-05",
-      "label": "2-4-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "该配合物可以和等物质的量的二氧化碳发生“插入”反应。画出相应产物的结构式。"
-        }
-      ]
-    },
-    {
-      "id": "part-000096-06",
-      "label": "2-4-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "配合物 (PNPyP)IrH$_2$X 中配体 X 为 Me 时记为 A, X 为 OH 时记为 B。A 和 B 哪个更易发生上述二氧化碳“插入”反应?"
-        }
-      ]
-    },
-    {
-      "id": "part-000096-07",
-      "label": "2-5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "二氧化碳和如下图所示的化合物 (Ar-2,6-$^{i}$Pr$_2$C$_6$H$_3$) 在甲苯中发生 1:1 加成反应;较之反应物,产物内的磷-磷键长变短而磷-镓键长变长。画出该产物的结构式。"
-        }
-      ]
+      ],
+      "partId": "part-001062"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

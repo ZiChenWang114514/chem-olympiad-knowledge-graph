@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000269",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,21 +8,92 @@
   "examYear": 2025,
   "examStage": "final",
   "source": {
-    "sourceDocumentId": "source-000033",
     "sourceLabel": "2025年第39届全国中学生化学竞赛决赛实验试题 (1).pdf",
-    "page": null,
+    "pages": [
+      1
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000033"
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "1. 打开试剂瓶之前,充分振荡溶液。对于需要润洗的玻璃仪器,用相应溶液润洗3次,每次约 $10\\ \\mathrm{mL}$。"
+      "text": "## 实验内容"
+    },
+    {
+      "type": "paragraph",
+      "text": "乙二胺四乙酸(Ethylenediaminetetraaceticacid, EDTA)和大多数金属离子形成稳定螯合物,广泛应用于分析化学,生物医学和环境保护等领域.例如,EDTA修饰荧光探针可以监测细胞内金属离子,螯合铁离子可以阻断癌细胞增殖,功能化材料可以捕获废水中重金属离子,等等.EDTA滴定法广泛用于常量金属离子的测定,具有结果准确,成本低廉等优点.该方法可以测定工业废弃物或者环境样品中锌的含量,从而为环境保护或者资源利用提供可靠信息支持.本实验以锌离子标准溶液测定EDTA浓度,详情如下."
+    },
+    {
+      "type": "paragraph",
+      "text": "## 一,实验注意事项"
+    },
+    {
+      "type": "paragraph",
+      "text": "☐ 实验过程中穿长袖实验服,戴护目镜,戴手套.所有化学试剂不可入口,不可接触皮肤."
+    },
+    {
+      "type": "paragraph",
+      "text": "☐ 实验过程中如果发生意外,由监考员带领向医护人员求助."
+    },
+    {
+      "type": "paragraph",
+      "text": "☐ 实验开始前,根据下页“仪器和试剂”表格内容消点仪器和试剂,如有缺失或者损坏,请及时向监考员反映并补充或者更换."
+    },
+    {
+      "type": "paragraph",
+      "text": "☐ 实验过程中,如有玻璃仪器损坏,可向监考员反映并补充,并将相关情况记录在答卷第四个表格中(表格下方有记录示例)."
+    },
+    {
+      "type": "paragraph",
+      "text": "☐ 各种溶液的量足够完成本实验考试.除非因为不可抗力导致的损失或者污染,溶液通常不予补充或者更换."
+    },
+    {
+      "type": "paragraph",
+      "text": "## 二,仪器和试剂"
+    },
+    {
+      "type": "paragraph",
+      "text": "<table><tr><td>序号</td><td>名称</td><td>规格</td><td>数量</td><td>备注1</td></tr><tr><td>1</td><td>滴定台</td><td></td><td>1台</td><td></td></tr><tr><td>2</td><td>滴定管</td><td>"
+    },
+    {
+      "type": "paragraph",
+      "text": "mL</td><td>1支</td><td>洁净</td></tr><tr><td>3</td><td>移液管</td><td>"
+    },
+    {
+      "type": "paragraph",
+      "text": "mL</td><td>1支</td><td>洁净</td></tr><tr><td>4</td><td>锥形瓶</td><td>250mL</td><td>3个</td><td>洁净</td></tr><tr><td>5</td><td>量筒</td><td>10mL</td><td>1个</td><td>洁净</td></tr><tr><td>6</td><td>塑料滴管</td><td>3mL</td><td>3支</td><td>洁净</td></tr><tr><td>7</td><td>烧杯</td><td>500mL</td><td>1个</td><td>洁净</td></tr><tr><td>8</td><td>洗瓶</td><td>500mL</td><td>1个</td><td>去离子水</td></tr><tr><td>9</td><td>洗耳球</td><td></td><td>1个</td><td></td></tr><tr><td>10</td><td>吸水纸</td><td></td><td>1盒</td><td></td></tr><tr><td>11</td><td>丁腈手套</td><td></td><td>1双</td><td></td></tr><tr><td>12</td><td>锌离子标准溶液(标签:A溶液+编号)</td><td>~0.02mol·L-1~250mL</td><td>1瓶</td><td>500mL塑料试剂瓶</td></tr><tr><td>13</td><td>EDTA溶液(标签:B溶液+编号)</td><td>~0.02mol·L-1~250mL</td><td>1瓶</td><td>500mL塑料试剂瓶</td></tr><tr><td>14</td><td>乙酸-乙酸钠缓冲溶液(标签:C溶液)</td><td>pH5.5~40mL</td><td>1瓶</td><td>60mL塑料瓶</td></tr><tr><td>15</td><td>二甲酚橙溶液(棕色滴瓶)</td><td>0.2%水溶液~15mL</td><td>1瓶</td><td>30mL棕色滴瓶</td></tr></table>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1: “洁净”指玻璃或者塑料仪器已经洗净并使用去离子水润洗3次."
+    },
+    {
+      "type": "paragraph",
+      "text": "## 三,实验步骤"
+    },
+    {
+      "type": "paragraph",
+      "text": "1. 打开试剂瓶之前,充分振荡溶液.对于需要润洗的玻璃仪器,用相应溶液润洗3次,每次约 $10 \\mathrm{~mL}$ ."
+    },
+    {
+      "type": "paragraph",
+      "text": "2. 用移液管移取 $25.00 \\mathrm{~mL}$ EDTA 溶液(B 溶液)于 $250 \\mathrm{~mL}$ 锥形瓶中,用量筒加入 $8 \\mathrm{~mL}$ 乙酸-乙酸钠缓冲溶液(C 溶液),滴加 3 滴二甲酚橙溶液(棕色滴瓶),摇匀.用锌离子标准溶液(A 溶液)滴定至黄色变为红紫色即为终点,及时将滴定体积记录在答卷的第一个表格中,保留 4 位有效数字.实验过程中的废液置于 $500 \\mathrm{~mL}$ 烧杯中."
+    },
+    {
+      "type": "paragraph",
+      "text": "3. 重复第2步实验操作两次,并将相应滴定体积记录在答卷的第一个表格中."
+    },
+    {
+      "type": "paragraph",
+      "text": "4. 所有滴定结束后,通过答卷上的计算公式完成相应的数据处理.数据处理包括:1完成第一个表格中的相关计算;2根据“A溶液”试剂瓶的标签编号,向监考员获取相应的锌离子浓度,并将数据自行记录在第二个表格中;3将“B溶液”试剂瓶的标签编号记录在第三个表格中,然后计算EDTA浓度,并将结果记录在同一表格中,保留4位有效数字."
+    },
+    {
+      "type": "paragraph",
+      "text": "5. 实验完成后,清理实验台."
     }
   ],
-  "parts": []
+  "renderingHints": {
+    "mhchem": true
+  }
 }

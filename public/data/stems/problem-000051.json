@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000051",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,52 +8,57 @@
   "examYear": 2018,
   "examStage": "preliminary",
   "source": {
-    "sourceDocumentId": "source-000052",
     "sourceLabel": "2018-32-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      1
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000052"
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "将含元素A的硫化物矿在 $\\mathrm{N_2}$ 气氛中 $800~^\\circ\\mathrm{C}$ 处理,分解产物中有A的硫化物B;随后升温至 $825~^\\circ\\mathrm{C}$ 并向体系中通入氨气,得到红色化合物C,C溶于发烟硝酸得到白色沉淀D。经过滤洗涤,D在 $600~^\\circ\\mathrm{C}$ 与 $\\mathrm{COCl_2}$ 反应,产物冷却后得到液体E,E遇水生成D,在E的 $6\\,\\mathrm{mol\\,L^{-1}}$ 盐酸溶液中通入 $\\mathrm{H_2S}$ 得到沉淀B;将D溶于NaOH溶液,用硝酸调节H+浓度至约0.3 mol L−1,加入钼酸铵溶液常温下反应产生橙黄色沉淀F,F与十二钼酸结构等同;将D加入 $\\mathrm{H_3PO_2}$ 和 $\\mathrm{H_3PO_3}$ 的混合溶液可得到黄绿色的亚磷酸盐沉淀G,G在碱性溶液中转换为黄色沉淀H,H放置时脱水变成I,I也可由D和A的单质在高温下反应产生,D变为I失重15.3%。"
-    }
-  ],
-  "parts": [
+      "text": "第3题 为纪念⻔捷列夫发现元素周期表150周年,国际纯粹和应用化学联合会将2019年设为“国际化学元素周期表年”.⻔捷列夫预言了多种当时未知的元素,A即为其中一种."
+    },
     {
-      "id": "part-000051-01",
+      "type": "paragraph",
+      "text": "将含元素A的硫化物矿在 $\\mathrm { N } _ { 2 }$ 气氛中 $800 ~ ^ { \\circ } \\mathrm { C }$ 处理,分解产物中有A的硫化物B;随后升温至 $825 ~ ^ { \\circ } \\mathrm { C }$ 并向体系中同入氨气,得到红色化合物C,C溶于发烟硝酸得到白色沉淀D.经过滤洗涤,D在 $600 ~ ^ { \\circ } \\mathrm { C }$ 与$\\mathrm { COCl } _ { 2 }$ 反应,产物冷却后得到液体E,E遇水生成D,在E的 $6 \\mathrm { mol } \\mathrm { L } ^ { - 1 }$ 盐酸溶液中通入 $\\mathrm { H } _ { 2 } \\mathrm { S }$ 得到沉淀 $\\mathbf { B } ;$ ;将D溶于NaOH溶液,用硝酸调节H+浓度至约0.3molL−1,加入钼酸铵溶液常温下反应产生橙⻩色沉淀F,F与十二钼酸结构等同;将D加入 $\\mathrm { H } _ { 3 } \\mathrm { PO } _ { 2 }$ 和 $\\mathrm { { \\bar { { d } } _ { 3 } PO _ { 3 } } }$ 的混合溶液可得到⻩绿色的亚磷酸盐沉淀G,G在碱性溶液中转换为⻩色沉淀H,H放置时脱水变成I,I也可由D和A的单质在高温下反应产生,D变为I失重15.3%."
+    },
+    {
+      "type": "subpart",
       "label": "3-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出A~I的化学式。"
+          "text": "写出A\\~I的化学式."
         }
-      ]
+      ],
+      "partId": "part-001935"
     },
     {
-      "id": "part-000051-02",
+      "type": "subpart",
       "label": "3-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出B与氨气反应生成C的反应方程式。"
+          "text": "写出B与氨气反应生成C的反应方程式."
         }
-      ]
+      ],
+      "partId": "part-001936"
     },
     {
-      "id": "part-000051-03",
+      "type": "subpart",
       "label": "3-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出 D 在 $\\mathrm{H_3PO_2}$ 和 $\\mathrm{H_3PO_3}$ 中生成G的反应方程式。"
+          "text": "写出 D 在 $\\mathrm { H } _ { 3 } \\mathrm { PO } _ { 2 }$ 和 $\\mathrm { H _ { 3 } PO _ { 3 } }$ 中生成G的反应方程式."
         }
-      ]
+      ],
+      "partId": "part-001937"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

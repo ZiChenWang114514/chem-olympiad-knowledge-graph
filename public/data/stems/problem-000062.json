@@ -1,66 +1,134 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000062",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "乙酰丙酮光度测醛",
-  "number": "4",
+  "number": "Q4",
   "examYear": 2018,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000013",
     "sourceLabel": "2018-32-CChO-juesai.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      2
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
-      "type": "heading",
-      "level": 3,
-      "text": "4-1 Na2S2O3 溶液的标定。"
+      "type": "paragraph",
+      "text": "第4题(9分)采用乙酰丙酮光度法测定废水中的甲醛含量,实验步骤如下:"
     },
     {
       "type": "paragraph",
-      "text": "移取 25.00 cm3 浓度为 $8.333 \\times 10^{-3} \\ \\mathrm{mol\\ dm^{-3}}$ 的 $\\mathrm{K_2Cr_2O_7}$ 标准溶液于 250 cm3 碘量瓶中,加入 KI,用硫酸酸化,至反应完全,生成 $\\mathrm{I_3^-}$,用 $\\mathrm{Na_2S_2O_3}$ 溶液滴定,消耗 24.22 cm3。计算 $\\mathrm{Na_2S_2O_3}$ 溶液的浓度。"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "4-2 甲醛标准储备液的标定。"
+      "text": "移取 25.00 cm3 浓度为8 . 333 \\times 10 ^ { - 3 } \\mathrm { m o l d m ^ { 3 } }的\\mathrm { K _ { 2 } C r _ { 2 } O _ { 7 } }<sub>7</sub>标准溶液于250 \\mathrm { c m } ^ { 3 }碘量瓶中,加入 KI,用硫酸酸化,至反应完全,生成I<sub>3</sub>-,用\\mathrm { N a _ { 2 } S _ { 2 } O _ { 3 } }溶液滴定,消耗24 . 22 \\mathrm { c m } ^ { 3 } \\mathrm { c m } ^ { 3 } \\mathrm { c m }。计算\\mathrm { N a _ { 2 } S _ { 2 } O _ { 3 } }溶液的浓度。"
     },
     {
       "type": "paragraph",
-      "text": "移取 20.00 cm3 甲醛标准储备液于 250 cm3 碘量瓶中,加入 50.00 cm3 浓度为 $0.025 \\ \\mathrm{mol\\ dm^{-3}}$ 碘溶液和适量 NaOH 溶液使反应完全,然后加入适量稀硫酸酸化至弱酸性。用上述 $\\mathrm{Na_2S_2O_3}$ 标准溶液滴定至终点,消耗 22.02 cm3。用相同步骤做空白实验,消耗 48.10 cm3。写出碱性条件下甲醛与碘溶液反应方程式,计算甲醛标准储备液的浓度(HCHO,mg cm−3)。"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "text": "4-3 废水中甲醛含量的测定。"
+      "text": "移取20 . 00 \\mathrm { c m } ^ { 3 }甲醛标准储备液于250 \\mathrm { c m } ^ { 3 }碘量瓶中,加入50 . 00 \\mathrm { c m } ^ { 3 }浓度为0 . 025 \\mathrm { m o l d m ^ { - 3 } }碘溶液和适量NaOH溶液使反应完全,然后加入适量稀硫酸酸化至弱酸性。用上述\\mathrm { N a _ { 2 } S _ { 2 } O _ { 3 } }标准溶液滴定至终点,消耗22 . 02 \\mathrm { c m } ^ { 3 } \\mathrm { c m }。用相同步骤做空白实验,消耗48 . 10 \\mathrm { c m } ^ { 3 } \\mathrm { c m }。写出碱性条件下甲醛与碘溶液反应方程式,计算甲醛标准储备液的浓度(HCHO,mg cm-3)"
     },
     {
       "type": "paragraph",
-      "text": "将甲醛标准储备液用去离子水逐级稀释 100 倍得甲醛标准使用液。向数支 25 cm3 的比色管中分别加入不同体积的甲醛标准使用液,加水至标线,分别加入 2.50 cm3 乙酰丙酮显色剂溶液,混匀,于 45~60 °C 水浴中加热 30 min,取出冷却。于 414 nm 波长处,以去离子水作参比,用 1 cm 比色皿测定吸光度。"
+      "text": "将甲醛标准储备液用去离子水逐级稀释100倍得甲醛标准使用液。向数支25 \\mathrm { c m ^ { 3 } }的比色管中分别加入不同体积的甲醛标准使用液,加水至标线,分别加入2 . 50 \\mathrm { c m } ^ { 3 }乙酰丙酮显色剂溶液,混匀,于45 { \\sim } 60 ~ ^ { \\circ } \\mathrm { C }水浴中加热30 min,取出冷却。于414 nm波⻓处,以去离子水作参比,用1 cm比色皿测定吸光度方向。"
     },
     {
       "type": "paragraph",
-      "text": "另移取废水 25.00 cm3 于比色管中,按上述步骤进行显色和吸光度测量,所得数据如下:"
+      "text": "另移取废水25.00 cm3的比色管中,按上述步骤进行显色和吸光度测量,所得数据如下:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "甲醛标准使用液的体积/cm3",
+        "0.00",
+        "0.50",
+        "1.00",
+        "2.00",
+        "3.00",
+        "4.00",
+        "6.00",
+        "废水样"
+      ],
+      "rows": [
+        [
+          "吸光度A",
+          "0.019",
+          "0.067",
+          "0.131",
+          "0.259",
+          "0.396",
+          "0.522",
+          "0.801",
+          "0.412"
+        ]
+      ]
     },
     {
       "type": "paragraph",
-      "text": "计算出标准曲线的回归方程,并计算废水中甲醛的含量(HCHO,mg dm−3)。"
+      "text": "计算出标准曲线的回归方程,并计算废水中甲醛的含量(HCHO, mg dm−3)。"
     },
     {
       "type": "paragraph",
-      "text": "提示:标准曲线的回归方程中 $b$ 为直线的斜率,$a$ 为直线的截距,其中 $a$ 与 $b$ 可按下式求解。"
+      "text": "提示:标准曲线的回归方程中方向为直线的截距,方向为直线的斜率,其中方向与方向可按下式求解。b = \\frac {\\sum_ {i = 1} ^ {n} (x _ {i} - \\bar {x}) (y _ {i} - \\bar {y})}{\\sum_ {i = 1} ^ {n} (x _ {i} - \\bar {x}) ^ {2}} a = \\bar {y} - b \\bar {x}"
     },
     {
-      "type": "paragraph",
-      "text": "$$\nb = \\frac{\\sum_{i=1}^{n} (x_i - \\bar{x})(y_i - \\bar{y})}{\\sum_{i=1}^{n} (x_i - \\bar{x})^2}, \\quad a = \\bar{y} - b\\bar{x}\n$$"
+      "type": "subpart",
+      "label": "4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001017"
+    },
+    {
+      "type": "subpart",
+      "label": "4-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001018"
+    },
+    {
+      "type": "subpart",
+      "label": "4-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001020"
+    },
+    {
+      "type": "subpart",
+      "label": "4-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001021"
+    },
+    {
+      "type": "subpart",
+      "label": "4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-001022"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000181",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,17 +10,59 @@
   "source": {
     "sourceDocumentId": "source-000021",
     "sourceLabel": "2022-36-CChO-juesai-1.pdf",
-    "page": null,
+    "pages": [
+      1
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "renderingHints": {
-    "mhchem": true
-  },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "3-1 Q的单质在常温常压下为淡金⻩色的活泼金属。在5 K和常压条件下，Q晶体属于⽴方晶系，且正当晶胞中包含两个等同原⼦，原⼦间最近邻的距离为0.5235 nm，金属密度为 $1 . 9 8 \\mathrm { g { \\cdot } c m ^ { - 3 } }$ 。通过计算推断Q是哪种元素。 3-2 在温度为300 K，压强2.37 GPa\\~4.22 GPa条件下，Q单质中原⼦采用⽴方最密堆积，形成QII相。在4.10 GPa下，Q原⼦半径被压缩为0.2115 nm，计算此条件下QII相的晶胞参数。 3-3 Q与氧反应可生成不同计量比的氧化物。其中， $\\mathbf { Q } _ { 2 } \\mathrm { O }$ 是一种橙⻩色晶体，可看作氧原⼦插入QII晶体中，隔层占据金属原⼦堆积形成的八面体空隙。 ${ \\mathrm { O Q } } _ { 6 }$ 八面体为共棱连接。若用大写英文字⺟(A、B、C…)表示Q原⼦层的排布，用小写英文字⺟(a、b、c…)表示氧原⼦层的排布，用方块(□)表示空位层，写出两个周期$\\mathbf { Q } _ { 2 } \\mathrm { O }$ 晶体层状结构的堆积方式，并判断该氧化物晶胞的点阵类型。 3-4 将氧原⼦放置于晶胞原点，写出一个 $\\mathbf { Q } _ { 2 } \\mathrm { O }$ 正当晶胞中所有氧原⼦的分数坐标。"
+      "type": "subpart",
+      "label": "3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Q的单质在常温常压下为淡金黄色的活泼金属。在5 K和常压条件下,Q晶体属于立方晶系,且正当晶胞中包含两个等同原子,原子间最近邻的距离为0.5235 nm,金属密度为 $1.98 \\mathrm { g { \\cdot } c m ^ { - 3 } }$ 。通过计算推断Q是哪种元素。"
+        }
+      ],
+      "partId": "part-000342"
+    },
+    {
+      "type": "subpart",
+      "label": "3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在温度为300 K,压强2.37 GPa\\~4.22 GPa条件下,Q单质中原子采用立方最密堆积,形成QII相。在4.10 GPa下,Q原子半径被压缩为0.2115 nm,计算此条件下QII相的晶胞参数。"
+        }
+      ],
+      "partId": "part-000343"
+    },
+    {
+      "type": "subpart",
+      "label": "3-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Q与氧反应可生成不同计量比的氧化物。其中, $\\mathbf { Q } _ { 2 } \\mathrm { O }$ 是一种橙黄色晶体,可看作氧原子插入QII晶体中,隔层占据金属原子堆积形成的八面体空隙。 ${ \\mathrm { O Q } } _ { 6 }$ 八面体为共棱连接。若用大写英文字母(A、B、C...)表示Q原子层的排布,用小写英文字母(a、b、c...)表示氧原子层的排布,用方块(□)表示空位层,写出两个周期$\\mathbf { Q } _ { 2 } \\mathrm { O }$ 晶体层状结构的堆积方式,并判断该氧化物晶胞的点阵类型。"
+        }
+      ],
+      "partId": "part-000344"
+    },
+    {
+      "type": "subpart",
+      "label": "3-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "将氧原子放置于晶胞原点,写出一个 $\\mathbf { Q } _ { 2 } \\mathrm { O }$ 正当晶胞中所有氧原子的分数坐标。"
+        }
+      ],
+      "partId": "part-000345"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000277",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,72 +8,101 @@
   "examYear": 2025,
   "examStage": "final",
   "source": {
-    "sourceDocumentId": "source-000035",
-    "sourceLabel": "2025年第39届全国中学生化学竞赛决赛理论试题资料.pdf",
-    "page": null,
+    "sourceLabel": "2025年第39届全国中学生化学竞赛决赛理论资料（原卷待补）",
+    "pages": [
+      4,
+      18,
+      19
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000035"
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "8.1 重结晶是提纯固体有机化合物的常用方法之一。"
-    },
-    {
-      "type": "paragraph",
-      "text": "8.1.1 重结晶最重要的一步是选择合适的溶剂。所选溶剂的标准包括:"
-    },
-    {
-      "type": "list",
-      "items": [
-        "(a) 不与将要重结晶的有机化合物发生反应;",
-        "(b) 在高温下,有机化合物在其中有较大的溶解度;而在室温时,溶解度较小;",
-        "(c) 杂质在其中的溶解度很小;",
-        "(d) 杂质在其中的溶解度很大;",
-        "(e) 高沸点,不易挥发;",
-        "(f) 毒性小。"
-      ]
+      "text": "第8题常见有机化合物提纯分离方法"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000277-figure-001.jpg",
-      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-      "caption": "图 1"
+      "alt": "原卷第8题图1：题干配图，具体相邻文字需人工复核",
+      "displayWidth": 70,
+      "assetId": "asset-003625"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000277-figure-002.jpg",
-      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-      "caption": "图 2"
+      "alt": "原卷第8题图2：题干配图，具体相邻文字需人工复核",
+      "displayWidth": 70,
+      "assetId": "asset-003626"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000277-figure-003.jpg",
-      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-      "caption": "图 3"
+      "alt": "原卷第8题图3：题干配图，具体相邻文字需人工复核",
+      "displayWidth": 70,
+      "assetId": "asset-003627"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000277-figure-004.jpg",
-      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-      "caption": "图 4"
+      "alt": "原卷第8题图4：题干配图，具体相邻文字需人工复核",
+      "displayWidth": 70,
+      "assetId": "asset-003628"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000277-figure-005.jpg",
-      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-      "caption": "图 5"
+      "alt": "原卷第8题图5：题干配图，具体相邻文字需人工复核",
+      "displayWidth": 70,
+      "assetId": "asset-003629"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000277-figure-006.jpg",
-      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-      "caption": "图 6"
+      "alt": "原卷第8题图6：题干配图，具体相邻文字需人工复核",
+      "displayWidth": 70,
+      "assetId": "asset-003630"
+    },
+    {
+      "type": "subpart",
+      "label": "8.1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "重结晶是提纯固体有机化合物的常用方法之一."
+        }
+      ],
+      "partId": "part-002345"
+    },
+    {
+      "type": "subpart",
+      "label": "8.1.1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "重结晶最重要的一步是选择合适的溶剂.所选溶剂的标准包括"
+        },
+        {
+          "type": "paragraph",
+          "text": "(a)不与将要重结晶的有机化合物发生反应;(b)在高温下,有机化合物在其中有较大的溶解度;而在室温时,溶解度较小;(c) 杂质在其中的溶解度很小;(d) 杂质在其中的溶解度很大;(c) 高沸点,不易挥发;(f) 毒性小."
+        }
+      ],
+      "partId": "part-002346"
+    },
+    {
+      "type": "subpart",
+      "label": "4.4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "仪器H的作用是什么"
+        }
+      ],
+      "partId": "part-002347"
     }
   ],
-  "parts": []
+  "renderingHints": {
+    "mhchem": true
+  }
 }

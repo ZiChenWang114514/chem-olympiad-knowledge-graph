@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000286",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,17 +10,85 @@
   "source": {
     "sourceDocumentId": "source-000037",
     "sourceLabel": "2006-20-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      2
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第7题（11分）化合物A是近⼗年开始采用的锅炉⽔添加剂。A的相对分⼦质量90.10，可形成无色晶体，能除去锅炉⽔中溶解氧，并可使锅炉壁钝化。 7-1 A是用碳酸二甲酯和一⽔合肼在70 °C下合成的，收率80%。画出A的结构式。 7-2 写出合成A的反应方程式。 7-3 低于135 °C时，A直接与溶解氧反应，生成三种产物。写出化学方程式。 7-4 高于 135 °C 时，A 先发生⽔解，⽔解产物再与氧反应。写出化学方程式。 7-5 化合物A能使锅炉壁钝化是基于它能将氧化铁转化为致密的四氧化三铁。写出化学方程式。 7-6 化合物A与许多金属离⼦形成八面体配合物，例如[Mn(A) 3 ]2+。结构分析证实该配合物中的A和游离态的A相比，分⼦中原本等长的两个键不再等长。画出这种配合物的结构简图（氢原⼦不需画出），讨论异构现象。"
+      "text": "第7题(11分)化合物A是近十年开始采用的锅炉水添加剂。A的相对分子质量90.10,可形成无色晶体,能除去锅炉水中溶解氧,并可使锅炉壁钝化。"
+    },
+    {
+      "type": "subpart",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A是用碳酸二甲酯和一水合肼在70 °C下合成的,收率80%。画出A的结构式。"
+        }
+      ],
+      "partId": "part-000627"
+    },
+    {
+      "type": "subpart",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出合成A的反应方程式。"
+        }
+      ],
+      "partId": "part-000628"
+    },
+    {
+      "type": "subpart",
+      "label": "7-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "低于135 °C时,A直接与溶解氧反应,生成三种产物。写出化学方程式。"
+        }
+      ],
+      "partId": "part-000629"
+    },
+    {
+      "type": "subpart",
+      "label": "7-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "高于 135 °C 时,A 先发生水解,水解产物再与氧反应。写出化学方程式。"
+        }
+      ],
+      "partId": "part-000630"
+    },
+    {
+      "type": "subpart",
+      "label": "7-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "化合物A能使锅炉壁钝化是基于它能将氧化铁转化为致密的四氧化三铁。写出化学方程式。"
+        }
+      ],
+      "partId": "part-000631"
+    },
+    {
+      "type": "subpart",
+      "label": "7-6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "化合物A与许多金属离子形成八面体配合物,例如[Mn(A) 3 ]2+。结构分析证实该配合物中的A和游离态的A相比,分子中原本等长的两个键不再等长。画出这种配合物的结构简图(氢原子不需画出),讨论异构现象。"
+        }
+      ],
+      "partId": "part-000632"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

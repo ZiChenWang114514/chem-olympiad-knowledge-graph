@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import type { AppData } from '../lib/data'
+import { displayDisciplineFor, displayDisciplineForNode } from '../lib/displayTaxonomy'
 import { displayProblemTitle, examStageLabel } from '../lib/format'
-import { disciplineColor, nodeTypeLabel } from '../lib/graph'
+import { nodeTypeLabel } from '../lib/graph'
 import { loadProblemStem } from '../lib/stem'
 import type { GraphNode, ProblemStem } from '../types'
-import { Notice } from '../ui/Notice'
 import { StemLoading, StemRenderer, StemUnavailable } from '../ui/StemRenderer'
 import { NotFound } from './NotFound'
 
@@ -59,30 +59,14 @@ function ExamDetailBody({ data, problemId }: { data: AppData; problemId: string 
         ← 返回真题档案
       </Link>
       <section className="detail-title">
-        <span className="problem-year big">
-          {exam.year}
-          <small>{examStageLabel(exam.stage)}</small>
-        </span>
         <div>
-          <p className="page-kicker">{exam.title}</p>
+          <p className="page-kicker">{exam.year} · {examStageLabel(exam.stage)} · {exam.title}</p>
           <h1>
             {problem.number} · {displayProblemTitle(problem.title)}
           </h1>
           <p>
-            {problem.disciplines
-              .map(
-                discipline =>
-                  data.taxonomy.disciplines.find(item => item.id === discipline || item.name === discipline)?.name ||
-                  discipline,
-              )
-              .join(' / ')}{' '}
-            · 难度 {problem.difficulty}/5
-            {indexEntry ? (
-              <>
-                {' '}
-                · <span className="content-pill">有题干</span>
-              </>
-            ) : null}
+            {[...new Set(problem.disciplines.map(discipline => displayDisciplineFor(discipline).name))].join(' / ')}
+            {' · '}难度 {problem.difficulty}/5
           </p>
         </div>
       </section>
@@ -91,14 +75,7 @@ function ExamDetailBody({ data, problemId }: { data: AppData; problemId: string 
         {stem === undefined ? <StemLoading /> : null}
         {stem ? <StemRenderer stem={stem} /> : null}
         {stem === null ? (
-          <>
-            <StemUnavailable reason={stemError || undefined} />
-            <Notice wide>
-              <b>元数据摘要</b>
-              <br />
-              {problem.summary} 来源：{exam.sourceLabel || problem.sourceLabel || '未标注'}。
-            </Notice>
-          </>
+          <StemUnavailable reason={stemError || undefined} />
         ) : null}
         {stem && problem.summary ? (
           <p className="stem-meta-summary">
@@ -112,19 +89,39 @@ function ExamDetailBody({ data, problemId }: { data: AppData; problemId: string 
         <article className="article">
           <h2>知识映射</h2>
           {mappedNodes.length ? (
-            <div className="mapping-box">
-              {mappedNodes.map(node => (
-                <Link to={`/knowledge/${node.id}`} key={node.id}>
-                  <span style={{ background: disciplineColor(data.taxonomy.disciplines, node.discipline) }}>
-                    {node.label.slice(0, 1)}
-                  </span>
-                  <b>{node.label}</b>
-                  <small>{nodeTypeLabel(node.type)}</small>
-                </Link>
-              ))}
-            </div>
+            <>
+              <div className="mapping-box">
+                {mappedNodes.map(node => (
+                  <Link to={`/knowledge/${node.id}`} key={node.id}>
+                    <b>{node.label}</b><small>{displayDisciplineForNode(node, data.graph).name} · {nodeTypeLabel(node.type)}</small>
+                  </Link>
+                ))}
+              </div>
+              {problem.partMappings?.length ? (
+                <div className="part-mapping-list">
+                  {problem.partMappings.map(part => (
+                    <section key={part.partId}>
+                      <h3>{part.label}</h3>
+                      <div>
+                        {part.mappings.map(mapping => {
+                          const node = data.graph.nodes.find(item => item.id === mapping.nodeId)
+                          if (!node) return null
+                          const role = mapping.mappingRole === 'assesses' ? '直接考查' : mapping.mappingRole === 'requires' ? '求解需要' : '题目情境'
+                          return (
+                            <Link key={`${part.partId}-${mapping.nodeId}`} to={`/knowledge/${node.id}`}>
+                              <b>{node.label}</b>
+                              <small>{role}</small>
+                            </Link>
+                          )
+                        })}
+                      </div>
+                    </section>
+                  ))}
+                </div>
+              ) : null}
+            </>
           ) : (
-            <p className="muted">该题尚无公开的节点级知识映射，待标注。</p>
+            <p className="muted">暂无知识映射</p>
           )}
           {mappedNodes[0] ? (
             <Link
@@ -139,23 +136,17 @@ function ExamDetailBody({ data, problemId }: { data: AppData; problemId: string 
         <aside className="source-card">
           <h3>来源记录</h3>
           <dl>
-            <dt>公开状态</dt>
-            <dd>{problem.rightsState || 'metadata_public'}</dd>
-            <dt>题干状态</dt>
-            <dd>{indexEntry ? indexEntry.rightsState : '未发布题干'}</dd>
-            <dt>题目编号</dt>
-            <dd>{problem.id}</dd>
-            <dt>资料来源</dt>
+            <dt>来源</dt>
             <dd>{exam.sourceLabel || problem.sourceLabel}</dd>
+            {problem.sourceDocumentId || exam.sourceDocumentId ? <><dt>来源编号</dt><dd>{problem.sourceDocumentId || exam.sourceDocumentId}</dd></> : null}
+            {problem.sourceVersion || exam.sourceVersion ? <><dt>资料版本</dt><dd>{problem.sourceVersion || exam.sourceVersion}</dd></> : null}
+            {stem?.source.pages?.length || problem.page || exam.page ? <><dt>来源页</dt><dd>第 {stem?.source.pages?.join('、') || problem.page || exam.page} 页</dd></> : null}
             <dt>知识映射</dt>
             <dd>{problem.mappingCount} 个</dd>
           </dl>
           <Link to="/about" className="text-link">
-            查看来源规范
+            来源与标注方法
           </Link>
-          <p className="muted" style={{ marginTop: 12, fontSize: 12 }}>
-            题干格式规范见仓库 <code>docs/problem-stem-format.md</code>
-          </p>
         </aside>
       </section>
     </>

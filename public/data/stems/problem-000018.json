@@ -1,33 +1,86 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000018",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "孟山都法醋酸催化循环",
-  "number": "7",
+  "number": "Q7",
   "examYear": 2016,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000050",
     "sourceLabel": "2016-30-CChO-chusai.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      2,
+      3
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "孟山都法醋酸催化循环"
+      "text": "第7题(8分)乙醇在醋酸菌作用下被空气氧化是制造醋酸的有效方法,然而这一传统过程远远不能满足工业的需求。目前 工业上多采用甲醇和一氧化碳反应制备醋酸: \\mathrm { C H _ { 3 } O H + C O C H _ { 3 } C O O H _ { c } } 。第9族元素 ( \\mathrm { C o }"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rh, Ir)的一些配合物是上述反应良好的催化剂。以[Rh(CO)<sub>2</sub>I<sub>2</sub>]−为催化剂,以碘甲烷为助催化剂合成乙酸(Monsanto法)的示意图如下:"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000018-figure-001.jpg",
-      "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-      "caption": "图 1"
+      "assetId": "asset-003103",
+      "alt": "原卷示意图：高温相",
+      "label": "高温相",
+      "caption": "高温相",
+      "displayWidth": 100
+    },
+    {
+      "type": "subpart",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在催化循环中,A和碘甲烷发生氧化加成反应,变为 \\mathbf { B } _ { \\circ } 。画出B及其几何异构体B1的结构示意图。"
+        }
+      ],
+      "partId": "part-000943"
+    },
+    {
+      "type": "subpart",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "分别写出化合物A和D中铑的氧化态及其周围的电子数。"
+        }
+      ],
+      "partId": "part-000944"
+    },
+    {
+      "type": "subpart",
+      "label": "7-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出由E生成醋酸的反应式(E须用结构简式表示)。"
+        }
+      ],
+      "partId": "part-000945"
+    },
+    {
+      "type": "subpart",
+      "label": "7-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "当将上述醋酸合成过程的催化剂改为 [ \\mathrm { I r } ( \\mathrm { C O } ) _ { 2 } \\mathrm { I } _ { 2 } ] ^ { \\cdot } −,被称作Cativa法。Cativa法催化循环过程与Monsanto法类似,但中间体C和D(中心离子均为Ir)有差别,原因在于:由B(中心离子为Ir)变为 \\mathbf { C } , 发生的是CO取代I−的反应;由C到D过程中则发生甲基迁移。画出C的面式结构示意图。"
+        }
+      ],
+      "partId": "part-000946"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

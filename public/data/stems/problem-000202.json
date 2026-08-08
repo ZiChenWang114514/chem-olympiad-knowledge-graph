@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000202",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,120 +8,139 @@
   "examYear": 2023,
   "examStage": "preliminary",
   "source": {
-    "sourceDocumentId": "source-000060",
     "sourceLabel": "2023-37-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      2
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000060"
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "同为常见小分子,NO 星光熠熠,$\\mathrm{H_2S}$ 却臭名昭著。然而,近期研究发现,在生命体系中 NO 与 $\\mathrm{H_2S}$ 窃窃私语。研究二者的相互作用对于解开生命起源、理解生理过程的奥秘至关重要。NO 与 $\\mathrm{H_2S}$ 之间的反应及产物非常复杂,这里我们一起关注一些重要的基本问题。"
-    }
-  ],
-  "parts": [
+      "text": "## 第5题 ,占15%)简单的分子 复杂的反应"
+    },
     {
-      "id": "part-000202-01",
+      "type": "paragraph",
+      "text": "同为常⻅小分子,NO星光熠熠, $\\mathrm { H } _ { 2 } \\mathrm { S }$ 却臭名昭著.然而,近期研究发现,在生命体系中NO与 $\\mathrm { H } _ { 2 } \\mathrm { S }$ 窃窃私语.研究二者的相互作用对于解开生命起源,理解生理过程的奥秘至关重要.NO与 $\\mathrm { H } _ { 2 } \\mathrm { S }$ 之间的反应及产物非常复杂,这里我们一起关注一些重要的基本问题."
+    },
+    {
+      "type": "subpart",
       "label": "5-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "早在 19 世纪 NO 与 $\\mathrm{H_2S}$ 的反应就受到关注。依赖于反应条件甚至容器(表面可能作为催化剂),可以得到多种产物。最简单的一种就是产物中出现两种单质(反应1),而反应过程出现笑气也是绕不开的步骤(反应2),条件适当的时候,还会产生硫化铵(反应3)。写出反应1-3的方程式。"
+          "text": "早在 19 世纪 NO 与 $\\mathrm { H } _ { 2 } \\mathrm { S }$ 的反应就受到关注.依赖于反应条件甚至容器(表面可能作为催化剂),可以得到多种产物.最简单的一种就是产物中出现两种单质(反应1),而反应过程出现笑气也是绕不开的步骤(反应2),条件适当的时候,还会产生硫化铵(反应3).写出反应1-3的方程式."
         }
-      ]
+      ],
+      "partId": "part-002173"
     },
     {
-      "id": "part-000202-02",
+      "type": "subpart",
       "label": "5-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "研究发现,HNO、HSNO、HSSNO、$\\mathrm{HS_2^-}$ 等均是生理过程的关键物,可由 NO 与 $\\mathrm{H_2S}$ 作用产生。"
+          "text": "研究发现,HNO,HSNO,HSSNO,HS<sub>2</sub>−等均是生理过程的关键物,可由NO与 $\\mathrm { H } _ { 2 } \\mathrm { S }$ 作用产生."
         }
-      ]
+      ],
+      "partId": "part-002174"
     },
     {
-      "id": "part-000202-03",
-      "label": "5-2",
+      "type": "subpart",
+      "label": "5-2-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 HSNO(A)表达式给出的原子次序就是其连接方式。画出 A 及其共轭碱(B)的 Lewis 结构式(要求最稳定的形式)。"
+          "text": "HSNO(A)表达式给出的原子次序就是其连接方式.画出A及其共轭碱(B)的Lewis结构式(要求最稳定的形式)."
         }
-      ]
+      ],
+      "partId": "part-002175"
     },
     {
-      "id": "part-000202-04",
-      "label": "5-2",
+      "type": "subpart",
+      "label": "5-2-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 尽管 A 是最稳定的形式,但是通过低温下光反应,也可以得到其他键合方式不同的异构体。画出 A 所有其他合理异构体的骨架结构。"
+          "text": "尽管A是最稳定的形式,但是通过低温下光反应,也可以得到其他键合方式不同的异构体.画出A所有其他合理异构体的⻣架结构."
         }
-      ]
+      ],
+      "partId": "part-002176"
     },
     {
-      "id": "part-000202-05",
-      "label": "5-2",
+      "type": "subpart",
+      "label": "5-2-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-3 据信 $\\mathrm{SSNO^-}$ 参与多个生理过程。其中涉及 SSNO− 形成及变化的可能反应及热力学常数如下"
+          "text": "据信 $\\mathrm { SSNO ^ { - } }$ 参与多个生理过程.其中涉及SSNO−形成及变化的可能反应及热力学常数如下"
         },
         {
           "type": "paragraph",
-          "text": "$$\n\\begin{array}{ll}\n\\mathrm{HSNO + HS_2^- \\rightarrow SSNO^- + HS^- + H^+} & K_1 = 5.0 \\times 10^2 \\\\\n\\mathrm{HSNO + HS_2^- \\rightarrow SSNO + HS^-} & \\Delta G_2^\\ominus = -8.0 \\ \\mathrm{kJ\\ mol^{-1}}\n\\end{array}\n$$"
+          "text": "$$"
         },
         {
           "type": "paragraph",
-          "text": "计算 298 K 下 HSSNO 的酸解离常数 $K_a$。"
+          "text": "{ll}\\mathrm {HSNO + HS_ {2} ^ {-} \\rightarrow SSNO^ {-} + HS^ {-} + H^ {+}} K _ {1} = 5.0 \\times10 ^ {2}\\\\\\mathrm {HSNO + HS_ {2} ^ {-} \\rightarrow SSNO + HS^ {-}} \\Delta G _ {2} ^ {\\ominus} = - 8.0 \\mathrm{kJmol} ^ {- 1}"
+        },
+        {
+          "type": "paragraph",
+          "text": "$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "计算 298K 下 HSSNO 的酸解离常数 $K _ { a } .$ ."
         }
-      ]
+      ],
+      "partId": "part-002177"
     },
     {
-      "id": "part-000202-06",
+      "type": "subpart",
       "label": "5-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "为理解金属离子在相关过程的作用,开展了如下研究:空气中,络离子 A([Ru(EDTA)(OH)]2−,EDTA 为乙二胺四乙酸根)的溶液中,加入 NaHS 溶液并充分搅拌,溶液变为蓝绿色,对应于双核络离子 B 的生成(反应4)。分别取 A 和 B 的溶液,在惰性气体保护下,加入被 NO 饱和的磷酸盐缓冲液(pH = 8.2),充分反应,A 转化为 C,B 转化为 D(反应5)。借助于质谱分析,计算出四个络离子的式量分别为 A: 406.3,B: 842.7,C: 419.3,D: 451.4。磁性测量发现,C 为抗磁性,D 为顺磁性。"
+          "text": "为理解金属离子在相关过程的作用,开展了如下研究:空气中,络离子A([Ru(EDTA)(OH)]2−, EDTA为乙二胺四乙酸根)的溶液中,加入NaHS溶液并充分搅拌,溶液变为蓝绿色,对应于双核络离子B的生成(反应4).分别取A和B的溶液,在惰性气体保护下,加入被NO饱和的磷酸盐缓冲液(pH= 8.2),充分反应,A转化为C,B转化为D(反应5).借助于质谱分析,计算出四个络离子的式量分别为A: 406.3, B:842.7, C: 419.3, D: 451.4.磁性测量发现,C 为抗磁性,D 为顺磁性."
         }
-      ]
+      ],
+      "partId": "part-002178"
     },
     {
-      "id": "part-000202-07",
-      "label": "5-3",
+      "type": "subpart",
+      "label": "5-3-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 写出络离子 B、C、D 的结构简式。"
+          "text": "写出络离子B,C,D的结构简式."
         }
-      ]
+      ],
+      "partId": "part-002179"
     },
     {
-      "id": "part-000202-08",
-      "label": "5-3",
+      "type": "subpart",
+      "label": "5-3-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 写出反应4和5的离子方程式。"
+          "text": "写出反应4和5的离子方程式."
         }
-      ]
+      ],
+      "partId": "part-002180"
     },
     {
-      "id": "part-000202-09",
-      "label": "5-3",
+      "type": "subpart",
+      "label": "5-3-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-3 画出 C 和 D 中金属离子 d 轨道在八面体场(近似看作正八面体)中的分裂图并给出 d 电子排布。"
+          "text": "画出C和D中金属离子轨道在八面体场(近似看作正八面体)中的分裂图并给出电子排布."
         }
-      ]
+      ],
+      "partId": "part-002181"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

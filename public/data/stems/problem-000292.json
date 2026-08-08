@@ -1,121 +1,153 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000292",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "钛铁矿提取金属钛",
-  "number": "1",
+  "number": "Q1",
   "examYear": 2006,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000001",
     "sourceLabel": "2006-20-CChO-juesai.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      1
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
-      "type": "figure",
-      "caption": "(图:)",
-      "alt": "缺图",
-      "src": "data/stems/assets/problem-000292-figure-001.jpg"
-    }
-  ],
-  "parts": [
+      "type": "paragraph",
+      "text": "第1题(14分)钛及其合金具有密度小,强度高,耐腐蚀等优良性能,被广泛用于航天,航空,航海,石油,化工,医药等部⻔。我国四川省有大型钒钛磁铁矿。从由钒钛磁铁矿经“选矿”得到的钛铁矿提取金属钛(海绵钛)的主要工艺过程如下:"
+    },
     {
-      "id": "part-000292-01",
+      "type": "figure",
+      "src": "data/stems/assets/problem-000292-figure-001.jpg",
+      "assetId": "asset-003362",
+      "alt": "钛铁矿提取金属钛：第1幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
+    },
+    {
+      "type": "subpart",
       "label": "1-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "钛铁矿的主要成分为 $\\mathrm{FeTiO_3}$ 。控制电炉熔炼温度(<1500 K),用碳还原出铁,而钛则进入炉渣浮于熔融铁之上,使钛与铁分离,钛被富集。已知:"
-        },
-        {
-          "type": "paragraph",
-          "text": "$$\\mathrm{FeTiO_3 + C \\rightarrow TiO_2 + Fe + CO}$$"
-        },
-        {
-          "type": "paragraph",
-          "text": "$$\\Delta_{\\mathrm{r}}G_{\\mathrm{m}}/\\mathrm{J\\,mol^{-1}} = 190900 - 161T$$"
-        },
-        {
-          "type": "paragraph",
-          "text": "$$\\mathrm{FeTiO_3 + 4C \\rightarrow TiC + Fe + 3CO}$$"
-        },
-        {
-          "type": "paragraph",
-          "text": "$$\\Delta_{\\mathrm{r}}G_{\\mathrm{m}}/\\mathrm{J\\,mol^{-1}} = 750000 - 500T$$"
-        },
-        {
-          "type": "paragraph",
-          "text": "$$\\mathrm{FeTiO_3 + 3C \\rightarrow Ti + Fe + 3CO}$$"
-        },
-        {
-          "type": "paragraph",
-          "text": "$$\\Delta_{\\mathrm{r}}G_{\\mathrm{m}}/\\mathrm{J\\,mol^{-1}} = 913800 - 519T$$"
-        },
-        {
-          "type": "paragraph",
-          "text": "通过计算判断在电炉熔炼中主要发生以上哪个反应?"
+          "text": "钛铁矿的主要成分为 \\mathrm { F e T i O _ { 3 \\mathrm { c } } } 。控制电炉熔炼温度(<1500K),用碳还原出铁,而钛则进入炉渣浮于熔融铁之上,使钛与铁分离,钛被富集。已知:"
         }
-      ]
+      ],
+      "partId": "part-001606"
     },
     {
-      "id": "part-000292-02",
+      "type": "paragraph",
+      "text": "\\mathrm{FeTiO} _ {3} + \\mathrm{C} \\rightarrow \\mathrm{TiO} _ {2} + \\mathrm{Fe} + \\mathrm{CO}"
+    },
+    {
+      "type": "paragraph",
+      "text": "\\Delta_ {\\mathrm{r}} \\mathrm{G} _ {\\mathrm{m}} / \\mathrm{J} \\mathrm{mol} ^ {- 1} = 190900 - 161 T"
+    },
+    {
+      "type": "paragraph",
+      "text": "\\mathrm{FeTiO} _ {3} + 4 \\mathrm{C} \\rightarrow \\mathrm{TiC} + \\mathrm{Fe} + 3 \\mathrm{CO}"
+    },
+    {
+      "type": "paragraph",
+      "text": "\\Delta_ {\\mathrm{r}} \\mathrm{G} _ {\\mathrm{m}} / \\mathrm{J} \\mathrm{mol} ^ {- 1} = 750000 - 500 T"
+    },
+    {
+      "type": "paragraph",
+      "text": "\\mathrm{FeTiO} _ {3} + 3 \\mathrm{C} \\rightarrow \\mathrm{Ti} + \\mathrm{Fe} + 3 \\mathrm{CO}"
+    },
+    {
+      "type": "paragraph",
+      "text": "\\Delta_ {\\mathrm{r}} \\mathrm{G} _ {\\mathrm{m}} / \\mathrm{J} \\mathrm{mol} ^ {- 1} = 913800 - 519 T"
+    },
+    {
+      "type": "paragraph",
+      "text": "通过计算判断在电炉熔炼中主要发生以上哪个反应方向"
+    },
+    {
+      "type": "subpart",
       "label": "1-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出在1073–1273 K下氯化反应的化学方程式。"
+          "text": "写出在1073-1273 K下氯化反应的化学方程式。"
         }
-      ]
+      ],
+      "partId": "part-001607"
     },
     {
-      "id": "part-000292-03",
+      "type": "subpart",
       "label": "1-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "氯化得到的 $\\mathrm{TiCl_4}$ 中含有的 $\\mathrm{VOCl_3}$ 必须用高效精馏的方法除去,为什么?实际生产中常在409 K下用Cu还原 $\\mathrm{VOCl_3}$,反应物的摩尔比为1:1,生成氯化亚铜和难溶于 $\\mathrm{TiCl_4}$ 的还原物,写出还原反应方程式。"
+          "text": "氯化得到的 \\mathrm { T i C l _ { 4 } } 中含有的 \\mathrm { V O C l _ { 3 } } 必须用高效精馏的方法除去,为什么方向实际生产中常在409 K下用Cu还原 \\mathrm { { V O C l } _ { 3 } } , ,反应物的摩尔比为1:1,生成氯化亚铜和难溶于 \\mathrm { T i C l _ { 4 } } 的还原物,写出还原反应方程式。"
         }
-      ]
+      ],
+      "partId": "part-001608"
     },
     {
-      "id": "part-000292-04",
+      "type": "subpart",
       "label": "1-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "精制后的 $\\mathrm{TiCl_4}$ 用金属镁还原可得海绵钛,写出化学反应方程式。"
+          "text": "精制后的 \\mathrm { T i C l _ { 4 } } 用金属镁还原可得海绵钛,写出化学反应方程式。"
         }
-      ]
+      ],
+      "partId": "part-001609"
     },
     {
-      "id": "part-000292-05",
+      "type": "subpart",
       "label": "1-5",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "菱镁矿(主要成分为 $\\mathrm{MgCO_3}$)煅烧分解后与焦炭混合在氯化器中加热到1373 K,通入氯气生成 $\\mathrm{MgCl_2}$。在1023 K电解熔融 $\\mathrm{MgCl_2}$ 得到金属镁。"
-        },
-        {
-          "type": "paragraph",
-          "text": "(1)写出用菱镁矿煅烧及氯化制取 $\\mathrm{MgCl_2}$ 的化学反应方程式。"
-        },
-        {
-          "type": "paragraph",
-          "text": "(2)写出电解熔融 $\\mathrm{MgCl_2}$ 的电极反应式和电解反应式。"
-        },
-        {
-          "type": "paragraph",
-          "text": "(3)已知1023 K时 $\\mathrm{MgCl_2(l)}$ 的标准摩尔生成焓 $\\Delta_{\\mathrm{f}}H_{\\mathrm{m}}^{\\ominus}$ 为 −596.32 kJ mol$^{-1}$,$\\mathrm{MgCl_2(l)}$、$\\mathrm{Mg(l)}$、$\\mathrm{Cl_2(g)}$ 的标准摩尔熵 $S_{\\mathrm{m}}^{\\ominus}$ 分别为 231.02、77.30、268.20 J mol$^{-1}$ K$^{-1}$。计算 $\\mathrm{MgCl_2}$ 的理论分解电压。"
+          "text": "菱镁矿(主要成分为 \\mathrm { M g C O _ { 3 } ) } 煅烧分解后与焦炭混合在氯化器中加热到1373 K,通入氯气生成\\mathrm { M g C l _ { 2 \\circ } } 在 1023 K 电解熔融 \\mathrm { M g C l _ { 2 } } 得到金属镁。"
         }
-      ]
+      ],
+      "partId": "part-001610"
+    },
+    {
+      "type": "subpart",
+      "label": "1-5-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出用菱镁矿煅烧及氯化制取 \\mathrm { M g C l _ { 2 } } 的化学反应方程式。"
+        }
+      ],
+      "partId": "part-001611"
+    },
+    {
+      "type": "subpart",
+      "label": "1-5-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出电解熔融 \\mathrm { M g C l _ { 2 } } 的电极反应式和电解反应式。"
+        }
+      ],
+      "partId": "part-001612"
+    },
+    {
+      "type": "subpart",
+      "label": "1-5-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "已知 1023 K MgCl<sub>2</sub>(l)的标准摩尔生成焓 \\Delta _ { \\mathrm { f } } H _ { \\mathrm { m } } ^ { \\ominus } 为−596.32 kJ \\mathrm { m o l ^ { - 1 } } ,MgCl<sub>2</sub>(l), \\mathrm { { M g ( l ) } } \\mathrm { C l _ { 2 } ( g ) } 的标准摩尔熵 S _ { \\mathrm { m } } ^ { \\ominus } 分别为 231.02,77.30,268.20 kJ \\mathrm { m o l ^ { - 1 } } _ { \\mathrm { c } } 。计算MgCl<sub>2</sub>的理论分解电压。"
+        }
+      ],
+      "partId": "part-001613"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

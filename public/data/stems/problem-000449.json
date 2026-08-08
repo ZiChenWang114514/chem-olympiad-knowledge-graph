@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000449",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,165 +8,64 @@
   "examYear": 2015,
   "examStage": "preliminary",
   "source": {
-    "sourceDocumentId": "source-000049",
     "sourceLabel": "2015-29-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      1
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
+    "sourceDocumentId": "source-000049"
   },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000449-01",
+      "type": "paragraph",
+      "text": "第1题 写出下列各化学反应的方程式."
+    },
+    {
+      "type": "subpart",
       "label": "1-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "将热的硝酸铅溶液滴入热的铬酸钾溶液产生碱式铬酸铅沉淀 $\\ce{Pb2(OH)2CrO4}$。"
+          "text": "将热的硝酸铅溶液滴入热的铬酸钾溶液产生碱式铬酸铅沉淀 $\\mathrm { Pb _ { 2 } ( OH ) _ { 2 } CrO _ { 4 } ] _ { \\circ } }$"
         }
-      ]
+      ],
+      "partId": "part-002560"
     },
     {
-      "id": "part-000449-02",
+      "type": "subpart",
       "label": "1-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "向含氰化氢的废水中加入铁粉和 $\\ce{K2CO3}$ 制备黄血盐 $\\ce{K4Fe(CN)6.3H2O}$。"
+          "text": "向含氰化氢的废水中加入铁粉和 $\\mathrm { K _ { 2 } CO _ { 3 } }$ 制备⻩血盐 $\\mathrm { { K _ { 4 } Fe ( CN ) _ { 6 } { \\cdot } 3H _ { 2 } O ] _ { c } } }$"
         }
-      ]
+      ],
+      "partId": "part-002561"
     },
     {
-      "id": "part-000449-03",
+      "type": "subpart",
       "label": "1-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "酸性溶液中,黄血盐用 $\\ce{KMnO4}$ 处理,被彻底氧化,产生 $\\ce{NO3^-}$ 和 $\\ce{CO2}$。"
+          "text": "酸性溶液中,⻩血盐用 $\\mathrm { KMnO _ { 4 } }$ 处理,被彻底氧化,产生 $\\mathrm { NO _ { 3 } } ^ { - }$ −和 $\\mathrm { { CO } _ { 2 \\circ } }$"
         }
-      ]
+      ],
+      "partId": "part-002562"
     },
     {
-      "id": "part-000449-04",
+      "type": "subpart",
       "label": "1-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在水中,$\\ce{Ag2SO4}$ 与单质 S 作用,沉淀变为 $\\ce{Ag2S}$,分离,所得溶液中加碘水不褪色。"
+          "text": "在水中, $\\mathrm { Ag _ { 2 } SO _ { 4 } }$ 与单质S作用,沉淀变为 $\\mathrm { Ag } _ { 2 } \\mathrm { S } ,$ ,分离,所得溶液中加碘水不褪色."
         }
-      ]
-    },
-    {
-      "id": "part-000449-05",
-      "label": "2-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "实验室现有试剂:盐酸,硝酸,乙酸,氢氧化钠,氨水。从中选择一种试剂,分别分离以下各组固体混合物(不要求复原,括号内数据是溶度积),指出溶解的固体。"
-        }
-      ]
-    },
-    {
-      "id": "part-000449-06",
-      "label": "(1)",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "$\\ce{CaCO3} (3.4 \\times 10^{-9})$ 和 $\\ce{CaC2O4} (2.3 \\times 10^{-9})$"
-        }
-      ]
-    },
-    {
-      "id": "part-000449-07",
-      "label": "(2)",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "$\\ce{BaSO4} (1.1 \\times 10^{-10})$ 和 $\\ce{BaCrO4} (1.1 \\times 10^{-10})$"
-        }
-      ]
-    },
-    {
-      "id": "part-000449-08",
-      "label": "(3)",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "$\\ce{Zn(OH)2} (3.0 \\times 10^{-17})$ 和 $\\ce{Ni(OH)2} (5.5 \\times 10^{-16})$"
-        }
-      ]
-    },
-    {
-      "id": "part-000449-09",
-      "label": "(4)",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "$\\ce{AgCl} (1.8 \\times 10^{-10})$ 和 $\\ce{AgI} (8.5 \\times 10^{-17})$"
-        }
-      ]
-    },
-    {
-      "id": "part-000449-10",
-      "label": "(5)",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "$\\ce{ZnS} (2.5 \\times 10^{-22})$ 和 $\\ce{HgS} (1.6 \\times 10^{-52})$"
-        }
-      ]
-    },
-    {
-      "id": "part-000449-11",
-      "label": "2-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "在酸化的 KI 溶液中通入 $\\ce{SO2}$,观察到溶液变黄并出现混浊 (a),继续通 $\\ce{SO2}$,溶液变为无色 (b),写出与现象 a 和 b 相对应所发生反应的方程式。写出总反应方程式 (c),指出 KI 在反应中的作用。"
-        }
-      ]
-    },
-    {
-      "id": "part-000449-12",
-      "label": "2-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "分子量为 4000 的聚乙二醇有良好的水溶性,是一种缓泻剂,它不会被消化道吸收,也不会在体内转化,却能使肠道保持水分。"
-        },
-        {
-          "type": "paragraph",
-          "text": "-1 以下哪个结构简式代表聚乙二醇?"
-        },
-        {
-          "type": "paragraph",
-          "text": "A"
-        },
-        {
-          "type": "paragraph",
-          "text": "B"
-        },
-        {
-          "type": "paragraph",
-          "text": "C"
-        },
-        {
-          "type": "paragraph",
-          "text": "D"
-        },
-        {
-          "type": "paragraph",
-          "text": "-2 聚乙二醇为何能保持肠道里的水分?"
-        },
-        {
-          "type": "paragraph",
-          "text": "-3 聚乙二醇可由环氧乙烷在酸性条件下聚合而成,写出反应式。"
-        }
-      ]
+      ],
+      "partId": "part-002563"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

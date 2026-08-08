@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000064",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,13 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000013",
     "sourceLabel": "2018-32-CChO-juesai.pdf",
-    "page": null,
+    "pages": [
+      3
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
@@ -37,41 +35,47 @@
     },
     {
       "type": "figure",
+      "src": "data/stems/assets/problem-000064-figure-001.jpg",
+      "alt": "显示1-苯基丙炔、A和B含量随时间变化的曲线,平衡时A:B=1:35",
+      "displayWidth": 80,
       "caption": "反应物及产物含量随时间变化示意图",
-      "alt": "缺图:显示1-苯基丙炔、A和B含量随时间变化的曲线,平衡时A:B=1:35",
-      "src": "data/stems/assets/problem-000064-figure-001.jpg"
-    }
-  ],
-  "parts": [
+      "assetId": "asset-002795"
+    },
     {
-      "id": "part-000064-01",
+      "type": "subpart",
       "label": "6-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "写出主要产物 A 和 B 的结构简式,指出其几何构型(E/Z)。"
         }
-      ]
+      ],
+      "partId": "part-000100"
     },
     {
-      "id": "part-000064-02",
+      "type": "subpart",
       "label": "6-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "写出生成产物 A 的中间体,画出其中 1,2 号碳原子形成 π 键的原子轨道重叠示意图,解释反应初期主要生成 A 的主要原因。"
         }
-      ]
+      ],
+      "partId": "part-000101"
     },
     {
-      "id": "part-000064-03",
+      "type": "subpart",
       "label": "6-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "写出反应机理,解释随时间延长,A 的含量减少而 B 的含量增加。"
         }
-      ]
+      ],
+      "partId": "part-000102"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

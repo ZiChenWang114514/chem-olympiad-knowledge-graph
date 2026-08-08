@@ -1,66 +1,191 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000129",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "有机酸性与反应性",
-  "number": "8",
+  "number": "Q8",
   "examYear": 2021,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000055",
     "sourceLabel": "2021-35-CChO-chusai-fujian.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      3,
+      4
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "8-1 请按酸性从强到弱给以下化合物排序："
+      "type": "subpart",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "请按酸性从强到弱给以下化合物排序:"
+        }
+      ],
+      "partId": "part-001119"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000129-figure-001.jpg",
+      "assetId": "asset-003159",
+      "alt": "有机酸性与反应性：第1幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
     },
     {
       "type": "paragraph",
       "text": "A"
     },
     {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000129-figure-002.jpg",
+      "assetId": "asset-003160",
+      "alt": "有机酸性与反应性：第2幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
+    },
+    {
       "type": "paragraph",
       "text": "B"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000129-figure-003.jpg",
+      "assetId": "asset-003161",
+      "alt": "有机酸性与反应性：第3幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
     },
     {
       "type": "paragraph",
       "text": "C"
     },
     {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000129-figure-004.jpg",
+      "assetId": "asset-003162",
+      "alt": "有机酸性与反应性：第4幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
+    },
+    {
       "type": "paragraph",
       "text": "D"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000129-figure-005.jpg",
+      "assetId": "asset-003163",
+      "alt": "有机酸性与反应性：第5幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
     },
     {
       "type": "paragraph",
       "text": "E"
     },
     {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000129-figure-006.jpg",
+      "assetId": "asset-003164",
+      "alt": "有机酸性与反应性：第6幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
+    },
+    {
       "type": "paragraph",
       "text": "F"
     },
     {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000129-figure-007.jpg",
+      "assetId": "asset-003165",
+      "alt": "有机酸性与反应性：第7幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
+    },
+    {
       "type": "paragraph",
-      "text": "G 8-2 请分别按碱性从强到弱给下列两组化合物排序： H ()"
+      "text": "G"
+    },
+    {
+      "type": "subpart",
+      "label": "8-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "请分别按碱性从强到弱给下列两组化合物排序:"
+        }
+      ],
+      "partId": "part-001120"
+    },
+    {
+      "type": "paragraph",
+      "text": "H"
+    },
+    {
+      "type": "paragraph",
+      "text": "(图示)"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000129-figure-008.jpg",
+      "assetId": "asset-003166",
+      "alt": "有机酸性与反应性：第8幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
     },
     {
       "type": "paragraph",
       "text": "A"
     },
     {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000129-figure-009.jpg",
+      "assetId": "asset-003167",
+      "alt": "有机酸性与反应性：第9幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
+    },
+    {
       "type": "paragraph",
       "text": "B"
     },
     {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000129-figure-010.jpg",
+      "assetId": "asset-003168",
+      "alt": "有机酸性与反应性：第10幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
+    },
+    {
       "type": "paragraph",
       "text": "C"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000129-figure-011.jpg",
+      "assetId": "asset-003169",
+      "alt": "有机酸性与反应性：第11幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
     },
     {
       "type": "paragraph",
@@ -68,68 +193,24 @@
     },
     {
       "type": "figure",
-      "src": "data/stems/assets/problem-000129-figure-001.jpg",
-      "alt": "problem-000129题目配图第1幅（已按原图查看）"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000129-figure-002.jpg",
-      "alt": "problem-000129题目配图第2幅（已按原图查看）"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000129-figure-003.jpg",
-      "alt": "problem-000129题目配图第3幅（已按原图查看）"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000129-figure-004.jpg",
-      "alt": "problem-000129题目配图第4幅（已按原图查看）"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000129-figure-005.jpg",
-      "alt": "problem-000129题目配图第5幅（已按原图查看）"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000129-figure-006.jpg",
-      "alt": "problem-000129题目配图第6幅（已按原图查看）"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000129-figure-007.jpg",
-      "alt": "problem-000129题目配图第7幅（已按原图查看）"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000129-figure-008.jpg",
-      "alt": "problem-000129题目配图第8幅（已按原图查看）"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000129-figure-009.jpg",
-      "alt": "problem-000129题目配图第9幅（已按原图查看）"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000129-figure-010.jpg",
-      "alt": "problem-000129题目配图第10幅（已按原图查看）"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000129-figure-011.jpg",
-      "alt": "problem-000129题目配图第11幅（已按原图查看）"
-    },
-    {
-      "type": "figure",
       "src": "data/stems/assets/problem-000129-figure-012.jpg",
-      "alt": "problem-000129题目配图第12幅（已按原图查看）"
+      "assetId": "asset-003170",
+      "alt": "有机酸性与反应性：第12幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000129-figure-013.jpg",
-      "alt": "problem-000129题目配图第13幅（已按原图查看）"
+      "assetId": "asset-003171",
+      "alt": "有机酸性与反应性：第13幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

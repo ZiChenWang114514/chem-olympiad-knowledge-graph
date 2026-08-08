@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000421",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,28 +10,27 @@
   "source": {
     "sourceDocumentId": "source-000008",
     "sourceLabel": "2013-27-CChO-juesai.pdf",
-    "page": null,
+    "pages": [
+      2,
+      3
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000421-01",
+      "type": "subpart",
       "label": "5-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "根据上述事实,你认为McBain的推论是否合理?说明理由。"
+          "text": "根据上述事实,你认为McBain的推论是否合理？说明理由。"
         }
-      ]
+      ],
+      "partId": "part-000844"
     },
     {
-      "id": "part-000421-02",
+      "type": "subpart",
       "label": "5-2",
       "blocks": [
         {
@@ -46,20 +45,22 @@
           "type": "paragraph",
           "text": "假设在脂肪酸盐拐点浓度前、后体系中水的结构性质没有变化,结合基础热力学和熵的统计意义,简单说明会议主席认为McBain的观点“荒谬”的原因。"
         }
-      ]
+      ],
+      "partId": "part-000845"
     },
     {
-      "id": "part-000421-03",
+      "type": "subpart",
       "label": "5-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "然而,大量研究结果证实了McBain的结论是正确的,原因是“在脂肪酸盐拐点浓度前、后水的结构性质没有变化”,这一假设是错误。如果认为“脂肪酸盐在拐点浓度前、后对溶剂水的结构会产生不同的影响”,那么请基于熵的统计意义,推测水的结构在拐点浓度前和拐点后哪个更有序,说明理由。"
         }
-      ]
+      ],
+      "partId": "part-000846"
     },
     {
-      "id": "part-000421-04",
+      "type": "subpart",
       "label": "5-4",
       "blocks": [
         {
@@ -69,10 +70,16 @@
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000421-figure-001.jpg",
-          "alt": "化学结构示意图（原图）",
-          "caption": "表面活性剂分子结构示意图(亲水头基和疏水尾链)"
+          "alt": "化学结构示意图(原图)",
+          "displayWidth": 80,
+          "caption": "表面活性剂分子结构示意图(亲水头基和疏水尾链)",
+          "assetId": "asset-003080"
         }
-      ]
+      ],
+      "partId": "part-000847"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

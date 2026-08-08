@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000339",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,35 +10,37 @@
   "source": {
     "sourceDocumentId": "source-000040",
     "sourceLabel": "2009-23-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      1
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000339-01",
+      "type": "subpart",
       "label": "3-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "用浓氨水检查氯气管道的漏气;"
         }
-      ]
+      ],
+      "partId": "part-000715"
     },
     {
-      "id": "part-000339-02",
+      "type": "subpart",
       "label": "3-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "在酸性介质中用锌粒还原 $\\ce{Cr2O7^2-}$ 离子时,溶液颜色经绿色变成天蓝色,放置后溶液又变为绿色。"
         }
-      ]
+      ],
+      "partId": "part-000716"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

@@ -4,6 +4,7 @@ import { HashRouter } from 'react-router-dom'
 import App from './App'
 import { loadData, type AppData } from './lib/data'
 import './styles.css'
+import './redesign.css'
 import 'katex/dist/katex.min.css'
 
 function Root() {

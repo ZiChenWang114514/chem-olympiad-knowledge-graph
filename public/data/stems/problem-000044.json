@@ -1,64 +1,77 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000044",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "铁钼催化剂EDTA分析",
-  "number": "4",
+  "number": "Q4",
   "examYear": 2017,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000012",
     "sourceLabel": "2017-31-CChO-juesai.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      1,
+      2
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000044-01",
-      "label": "4-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "\\ce{Zn^{2+}} 标准溶液的配制:称取 0.3289 g 金属 \\ce{Zn},溶解后转移至 250 mL 的容量瓶,定容。EDTA 溶液的标定:用移液管取 25.00 mL 上述 \\ce{Zn^{2+}} 标准溶液,以二甲酚橙作指示剂,用 EDTA 标准溶液滴至终点,消耗 20.24 mL。计算 \\ce{Zn^{2+}} 标准溶液和 EDTA 标准溶液的浓度。"
-        }
-      ]
+      "type": "paragraph",
+      "text": "第4题(8分)人工合成的某固氮铁钼催化剂的组成分析方法如下:取一定量的样品加酸溶解并调至\\mathrm { p H }为1 _ { \\circ }分成两份,第2份体积为第1份的两倍。第1份溶液以磺基水杨酸为指示剂,用EDTA标准溶液滴至终点,消耗24.40 mL。第2份先用沉淀法除去铁,用盐酸羟胺将Mo(VI)还原成Mo(V),然后加入25.00 mL EDTA标准溶液,充分反应后,加入一定体积pH 5.0的醋酸-醋酸钠缓冲溶液,以二甲酚橙为指示剂,用\\mathrm { Z n ^ { 2 + } }标准溶液滴至终点,消耗22.12 mL。"
     },
     {
-      "id": "part-000044-02",
+      "type": "paragraph",
+      "text": "4-1\\mathrm { Z n ^ { 2 + } }标准溶液的配制:称取0.3289 g金属Z \\mathrm { n },溶解后转移至250 mL的容量瓶,定容。EDTA溶液的标定:用移液管取25.00 mL 上述\\mathrm { Z n ^ { 2 + } }标准溶液,以二甲酚橙作指示剂,用EDTA标准溶液滴至终点,消耗20.24 mL。计算\\mathrm { Z n ^ { 2 + } }标准溶液和 EDTA 标准溶液的浓度。"
+    },
+    {
+      "type": "subpart",
       "label": "4-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "实验误差用标准差表示。对 $n$ 次测量结果作加减和乘除运算,运算结果 $Q$ 的误差为 $\\Delta Q$,其计算公式分别为 $\\Delta Q_{\\pm}=\\sqrt{\\sum_{i=1}^{n}(\\Delta q_i)^2}$ 和 $\\Delta Q_{\\times\\div}=|Q|\\sqrt{\\sum_{i=1}^{n}(\\Delta q_i/q_i)^2}$,其中 $\\Delta q_i$ 为第 $i$ 次测量值 $q_i$ 的误差。已知分析天平称量的标准差为 0.1 mg,移液管、容量瓶和滴定管的标准差均为 0.01 mL,忽略其他误差因素,计算 4-1 中 EDTA 标准溶液浓度的最小标准差。"
+          "text": "实验误差用标准差表示。对方向次测量结果作加减和乘除运算,运算结果(方向)的误差为{ \\boldsymbol { \\Delta Q } },其计算公式分别为\\Delta Q _ { \\pm } = \\sqrt { \\sum _ { i = 1 } ^ { n } ( \\Delta q _ { i } ) ^ { 2 } } \\mathcal { \\vec { H } } \\mathbb { I } \\Delta Q _ { \\times \\div } = | Q | \\sqrt { \\sum _ { i = 1 } ^ { n } ( \\Delta q _ { i } / q _ { i } ) ^ { 2 } },其中\\boldsymbol { \\cdot } \\Delta \\boldsymbol { q } _ { i }为第方向次测量值\\cdot q _ { i }的误差。已知分析天平称量的标准差为0.1 mg,移液管,容量瓶和滴定管的标准差均为0.01 mL,忽略其他误差因素,计算4-1中EDTA标准溶液浓度的最小标准差。"
         }
-      ]
+      ],
+      "partId": "part-000992"
     },
     {
-      "id": "part-000044-03",
+      "type": "subpart",
       "label": "4-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "请计算该催化剂中 Fe 和 Mo 的原子个数之比。"
+          "text": "请计算该催化剂中Fe和Mo的原子个数之比。"
         }
-      ]
+      ],
+      "partId": "part-000993"
     },
     {
-      "id": "part-000044-04",
+      "type": "subpart",
       "label": "4-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "欲在室温下配制 1.0 L pH 5.00 的醋酸-醋酸钠缓冲溶液,现有 11.8 g 醋酸钠,请计算需要加入醋酸($\\rho=1.05\\ \\mathrm{g\\,mL^{-1}}$)的体积(醋酸在水溶液中的 $K_a=1.8\\times10^{-5}$)。"
+          "text": "欲配制1.0 L pH 5.00的醋酸-醋酸钠缓冲溶液,现有11.8 g醋酸钠,已知Ka=1.8×10−5,请计算所需醋酸体积。"
         }
-      ]
+      ],
+      "partId": "part-000994"
+    },
+    {
+      "type": "subpart",
+      "label": "4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "按原卷题干完成本小问。"
+        }
+      ],
+      "partId": "part-000995"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

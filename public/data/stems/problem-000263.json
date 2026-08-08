@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000263",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,141 +10,183 @@
   "source": {
     "sourceDocumentId": "source-000063",
     "sourceLabel": "2025-39-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      9,
+      10
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "renderingHints": {
-    "mhchem": true
-  },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "1826 年，法国化学家比拉迪尼(H. de la Bellardiere)首次制得碘化钠，并以淀粉为指示剂，将其应用于次氯酸钙的滴定，开创了碘量法的研究与应用。后来，施瓦茨(Schwartz)引入硫代硫酸钠作为滴定剂。1843 年，福尔多斯(Fordos)和盖利斯(Gelis)揭示了两个碘原子可定量氧化两分子硫代硫酸钠，这一反应构成了碘量法的基础。1853 年，本生(Bunsen)对碘量法进行了进一步完善。此后，基于碘单质或其化合物(如 KI、KIO₃ 等)与待测物质之间的氧化还原反应用于定量分析待测物质的含量，这种方法被称为碘量法，是一种经典且实用的化学分析方法，应用日益广泛，在多个领域发挥着重要作用。 4.1 现有未知浓度的 KI 溶液，取 25.00 mL 溶液，用稀 HCl 处理后，再与 10.00 mL 0.05000 mol L $^{-1}$ 的 KIO $_{3}$ 反应(步骤 A)；将所得的溶液煮沸(步骤 B)一段时间后，再加入过量的 KI 溶液反应(步骤 C)；用 0.1008 mol L $^{-1}$ Na $_{2}$ S $_{2}$ O $_{3}$ 溶液滴定至终点，消耗 21.44 mL(步骤 D)。 4.1.1 写出实验过程中涉及的化学反应式。 4.1.2 计算 KI 溶液的浓度(提示: 此题要求有效数字)。 最终"
-    },
-    {
-      "type": "paragraph",
-      "text": "4.1.3 为什么不在步骤 A 之后直接用 $Na_{2}S_{2}O_{3}$ 溶液滴定？ 4.1.4 步骤 B 中煮沸的目的是什么？"
-    },
-    {
-      "type": "paragraph",
-      "text": "4.1.5 碘量法测定中专用的一种锥形瓶叫碘量瓶，在锥形瓶口上使用磨口塞子密封。观察如图所示的碘量瓶，说明使用碘量瓶的好处。 4.2 碘离子可以与碘分子 $I_{2}$ 结合生成 $I_{3}^{-}$ ; $I_{3}^{-}$ 继续与 $I_{2}$ 结合生成一系列的多碘阴离子(polyiodide anion)，如 $I_{5}^{-}$ 和 $I_{7}^{-}$ 等。这类化合物的共同特征是含有 2 个以上的碘原子，且电荷数较低。它们可以被看作是碘离子与 1 个或多个碘分子结合形成的络合物。 4.2.1 直线形的 $I_{3}^{-}$ 是最简单的多碘阴离子。写出位于中心的碘原子杂化形式。 $sp^{3}d$ 杂化，(1 分) 其他"
-    },
-    {
-      "type": "paragraph",
-      "text": "4.2.2 $\\mathrm{I}_3^-$ 的 I-I 键长为 $2.91\\AA$ ，而 $\\mathrm{I}_2$ 的 I-I 键长为 $2.71\\AA$ ，利用某一个典型的有机反应过渡态解释 $\\mathrm{I}_3^-$ 键长变长的原因。 4.2.3 画出 $I_{5}^{-}$ 所有可能的结构式，并标出每一个碘的形式电荷。"
-    },
-    {
-      "type": "paragraph",
-      "text": "4.2.4 按相同方法继续加合 $I_{2}$ ，写出 $I_{7}^{-}$ 可能的异构体数目(不考虑顺反异构或构象异构)。 其他"
-    },
-    {
-      "type": "paragraph",
-      "text": "5.1 $\\mathrm{XeF}_x$ 是较早被发现的一类惰性气体化合物，三种 $\\mathrm{XeF}_x$ (A、B 和 C) 的晶胞结构如下图所示，其中大球为 Xe，小球为 F。写出三种晶体的化学组成。"
-    },
-    {
-      "type": "paragraph",
-      "text": "A"
-    },
-    {
-      "type": "paragraph",
-      "text": "B"
-    },
-    {
-      "type": "paragraph",
-      "text": "C 写成晶胞组成（A: $\\mathrm{Xe}_2\\mathrm{F}_4$ ；B: $\\mathrm{Xe}_2\\mathrm{F}_8$ C: $\\mathrm{Xe}_4\\mathrm{F}_{12} / 2\\mathrm{XeF}_2\\cdot 2\\mathrm{XeF}_4$ ）也给满分；其他"
-    },
-    {
-      "type": "paragraph",
-      "text": "5.2 $\\mathrm{XeO}_x$ 化合物具有较强的稳定性，且具有重要的实用价值。下图给出了3种 $\\mathrm{XeO}_x$ 晶体(A、B和C)沿不同方向的投影图，其中浅色球为Xe，深色球为O。 5.2.1 判断这三个化合物中哪一个 $\\mathrm{XeO}_x$ 化合物中 $\\mathrm{Xe}$ 的化合价最高，并写出其所属晶系。"
-    },
-    {
-      "type": "paragraph",
-      "text": "5.2.2 写出化合物 A 的组成。"
-    },
-    {
-      "type": "paragraph",
-      "text": "5.3 大气中 Xe 的含量远远低于其它惰性气体。据估计地球上约 99% 初生 Xe 气神奇消失了，人们提出了很多假说。最近的研究发现 Xe 可以被地幔中一种新发现的 $Fe_{x}O_{y}$ 化合物吸收，形成了更为稳定的复合物。 5.3.1 该 $Fe_{x}O_{y}$ 化合物由共顶点的 $FeO_{6}$ 八面体构成，属于简单立方晶系，沿(001)方向的投影如上图 A 所示，写出其组成。 5.3.2 $Fe_{x}O_{y}$ 吸附 Xe 后晶体转变为菱心六方晶格，其中代表性化合物有 B 和 C。在这两种化合物的晶格中，Xe 吸附在 $Fe_{x}O_{y}$ 的层间或孔道中，其沿不同方向的投影图分别如图 B 和 C 所示。分别确定化合物 B 和 C 中每摩尔 $Fe_{x}O_{y}$ 吸附的 Xe 摩尔数。"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000263-figure-001.jpg",
-      "alt": "problem-000263题目配图第1幅（已按原图查看）"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000263-figure-002.jpg",
-      "alt": "problem-000263题目配图第2幅（已按原图查看）"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000263-figure-003.jpg",
-      "alt": "problem-000263题目配图第3幅（已按原图查看）"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000263-figure-004.jpg",
-      "alt": "problem-000263题目配图第4幅（已按原图查看）"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000263-figure-005.jpg",
-      "alt": "problem-000263题目配图第5幅（已按原图查看）"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000263-figure-006.jpg",
-      "alt": "problem-000263题目配图第6幅（已按原图查看）"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000263-figure-007.jpg",
-      "alt": "problem-000263题目配图第7幅（已按原图查看）"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000263-figure-008.jpg",
-      "alt": "problem-000263题目配图第8幅（已按原图查看）"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000263-figure-009.jpg",
-      "alt": "problem-000263题目配图第9幅（已按原图查看）"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000263-figure-010.jpg",
-      "alt": "problem-000263题目配图第10幅（已按原图查看）"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000263-figure-011.jpg",
-      "alt": "problem-000263题目配图第11幅（已按原图查看）"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000263-figure-012.jpg",
-      "alt": "problem-000263题目配图第12幅（已按原图查看）"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000263-figure-013.jpg",
-      "alt": "problem-000263题目配图第13幅（已按原图查看）"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000263-figure-014.jpg",
-      "alt": "problem-000263题目配图第14幅（已按原图查看）"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000263-figure-015.jpg",
-      "alt": "problem-000263题目配图第15幅（已按原图查看）"
-    },
-    {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000263-figure-016.jpg",
-      "alt": "problem-000263题目配图第16幅（已按原图查看）"
+      "type": "subpart",
+      "label": "4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "1826 年,法国化学家比拉迪尼(H. de la Bellardiere)首次制得碘化钠,并以淀粉为指示剂,将其应用于次氯酸钙的滴定,开创了碘量法的研究与应用。后来,施瓦茨(Schwartz)引入硫代硫酸钠作为滴定剂。1843 年,福尔多斯(Fordos)和盖利斯(Gelis)揭示了两个碘原子可定量氧化两分子硫代硫酸钠,这一反应构成了碘量法的基础。1853 年,本生(Bunsen)对碘量法进行了进一步完善。此后,基于碘单质或其化合物(如 KI、KIO3 等)与待测物质之间的氧化还原反应用于定量分析待测物质的含量,这种方法被称为碘量法,是一种经典且实用的化学分析方法,应用日益广泛,在多个领域发挥着重要作用。 4.1 现有未知浓度的 KI 溶液,取 25.00 mL 溶液,用稀 HCl 处理后,再与 10.00 mL 0.05000 mol L $^{-1}$ 的 KIO $_{3}$ 反应(步骤 A);将所得的溶液煮沸(步骤 B)一段时间后,再加入过量的 KI 溶液反应(步骤 C);用 0.1008 mol L $^{-1}$ Na $_{2}$ S $_{2}$ O $_{3}$ 溶液滴定至终点,消耗 21.44 mL(步骤 D)。 4.1.1 写出实验过程中涉及的化学反应式。 4.1.2 计算 KI 溶液的浓度(提示: 此题要求有效数字)。 最终"
+        },
+        {
+          "type": "paragraph",
+          "text": "4.1.3 为什么不在步骤 A 之后直接用 $Na_{2}S_{2}O_{3}$ 溶液滴定？ 4.1.4 步骤 B 中煮沸的目的是什么？"
+        },
+        {
+          "type": "paragraph",
+          "text": "4.1.5 碘量法测定中专用的一种锥形瓶叫碘量瓶,在锥形瓶口上使用磨口塞子密封。观察如图所示的碘量瓶,说明使用碘量瓶的好处。 4.2 碘离子可以与碘分子 $I_{2}$ 结合生成 $I_{3}^{-}$ ; $I_{3}^{-}$ 继续与 $I_{2}$ 结合生成一系列的多碘阴离子(polyiodide anion),如 $I_{5}^{-}$ 和 $I_{7}^{-}$ 等。这类化合物的共同特征是含有 2 个以上的碘原子,且电荷数较低。它们可以被看作是碘离子与 1 个或多个碘分子结合形成的络合物。 4.2.1 直线形的 $I_{3}^{-}$ 是最简单的多碘阴离子。写出位于中心的碘原子杂化形式。 $sp^{3}d$ 杂化,(1 分) 其他"
+        },
+        {
+          "type": "paragraph",
+          "text": "4.2.2 $\\mathrm{I}_3^-$ 的 I-I 键长为 $2.91\\text{Å}$ ,而 $\\mathrm{I}_2$ 的 I-I 键长为 $2.71\\text{Å}$ ,利用某一个典型的有机反应过渡态解释 $\\mathrm{I}_3^-$ 键长变长的原因。 4.2.3 画出 $I_{5}^{-}$ 所有可能的结构式,并标出每一个碘的形式电荷。"
+        },
+        {
+          "type": "paragraph",
+          "text": "4.2.4 按相同方法继续加合 $I_{2}$ ,写出 $I_{7}^{-}$ 可能的异构体数目(不考虑顺反异构或构象异构)。 其他"
+        },
+        {
+          "type": "paragraph",
+          "text": "5.1 $\\mathrm{XeF}_x$ 是较早被发现的一类惰性气体化合物,三种 $\\mathrm{XeF}_x$ (A、B 和 C) 的晶胞结构如下图所示,其中大球为 Xe,小球为 F。写出三种晶体的化学组成。"
+        },
+        {
+          "type": "paragraph",
+          "text": "A"
+        },
+        {
+          "type": "paragraph",
+          "text": "B"
+        },
+        {
+          "type": "paragraph",
+          "text": "C 写成晶胞组成(A: $\\mathrm{Xe}_2\\mathrm{F}_4$ ;B: $\\mathrm{Xe}_2\\mathrm{F}_8$ C: $\\mathrm{Xe}_4\\mathrm{F}_{12} / 2\\mathrm{XeF}_2\\cdot 2\\mathrm{XeF}_4$ )也给满分;其他"
+        },
+        {
+          "type": "paragraph",
+          "text": "5.2 $\\mathrm{XeO}_x$ 化合物具有较强的稳定性,且具有重要的实用价值。下图给出了3种 $\\mathrm{XeO}_x$ 晶体(A、B和C)沿不同方向的投影图,其中浅色球为Xe,深色球为O。 5.2.1 判断这三个化合物中哪一个 $\\mathrm{XeO}_x$ 化合物中 $\\mathrm{Xe}$ 的化合价最高,并写出其所属晶系。"
+        },
+        {
+          "type": "paragraph",
+          "text": "5.2.2 写出化合物 A 的组成。"
+        },
+        {
+          "type": "paragraph",
+          "text": "5.3 大气中 Xe 的含量远远低于其它惰性气体。据估计地球上约 99% 初生 Xe 气神奇消失了,人们提出了很多假说。最近的研究发现 Xe 可以被地幔中一种新发现的 $Fe_{x}O_{y}$ 化合物吸收,形成了更为稳定的复合物。 5.3.1 该 $Fe_{x}O_{y}$ 化合物由共顶点的 $FeO_{6}$ 八面体构成,属于简单立方晶系,沿(001)方向的投影如上图 A 所示,写出其组成。 5.3.2 $Fe_{x}O_{y}$ 吸附 Xe 后晶体转变为菱心六方晶格,其中代表性化合物有 B 和 C。在这两种化合物的晶格中,Xe 吸附在 $Fe_{x}O_{y}$ 的层间或孔道中,其沿不同方向的投影图分别如图 B 和 C 所示。分别确定化合物 B 和 C 中每摩尔 $Fe_{x}O_{y}$ 吸附的 Xe 摩尔数。"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000263-figure-001.jpg",
+          "alt": "碘量法与碘单质结构相关结构或反应图,第1幅,保留原卷标注",
+          "displayWidth": 80,
+          "assetId": "asset-003005"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000263-figure-002.jpg",
+          "alt": "碘量法与碘单质结构相关结构或反应图,第2幅,保留原卷标注",
+          "displayWidth": 80,
+          "assetId": "asset-003006"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000263-figure-003.jpg",
+          "alt": "碘量法与碘单质结构相关结构或反应图,第3幅,保留原卷标注",
+          "displayWidth": 80,
+          "assetId": "asset-003007"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000263-figure-004.jpg",
+          "alt": "碘量法与碘单质结构相关结构或反应图,第4幅,保留原卷标注",
+          "displayWidth": 80,
+          "assetId": "asset-003008"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000263-figure-005.jpg",
+          "alt": "碘量法与碘单质结构相关结构或反应图,第5幅,保留原卷标注",
+          "displayWidth": 80,
+          "assetId": "asset-003009"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000263-figure-006.jpg",
+          "alt": "碘量法与碘单质结构相关结构或反应图,第6幅,保留原卷标注",
+          "displayWidth": 80,
+          "assetId": "asset-003010"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000263-figure-007.jpg",
+          "alt": "碘量法与碘单质结构相关结构或反应图,第7幅,保留原卷标注",
+          "displayWidth": 80,
+          "assetId": "asset-003011"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000263-figure-008.jpg",
+          "alt": "碘量法与碘单质结构相关结构或反应图,第8幅,保留原卷标注",
+          "displayWidth": 80,
+          "assetId": "asset-003012"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000263-figure-009.jpg",
+          "alt": "碘量法与碘单质结构相关结构或反应图,第9幅,保留原卷标注",
+          "displayWidth": 80,
+          "assetId": "asset-003013"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000263-figure-010.jpg",
+          "alt": "碘量法与碘单质结构相关结构或反应图,第10幅,保留原卷标注",
+          "displayWidth": 80,
+          "assetId": "asset-003014"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000263-figure-011.jpg",
+          "alt": "碘量法与碘单质结构相关结构或反应图,第11幅,保留原卷标注",
+          "displayWidth": 80,
+          "assetId": "asset-003015"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000263-figure-012.jpg",
+          "alt": "碘量法与碘单质结构相关结构或反应图,第12幅,保留原卷标注",
+          "displayWidth": 80,
+          "assetId": "asset-003016"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000263-figure-013.jpg",
+          "alt": "碘量法与碘单质结构相关结构或反应图,第13幅,保留原卷标注",
+          "displayWidth": 80,
+          "assetId": "asset-003017"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000263-figure-014.jpg",
+          "alt": "碘量法与碘单质结构相关结构或反应图,第14幅,保留原卷标注",
+          "displayWidth": 80,
+          "assetId": "asset-003018"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000263-figure-015.jpg",
+          "alt": "碘量法与碘单质结构相关结构或反应图,第15幅,保留原卷标注",
+          "displayWidth": 80,
+          "assetId": "asset-003019"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000263-figure-016.jpg",
+          "alt": "碘量法与碘单质结构相关结构或反应图,第16幅,保留原卷标注",
+          "displayWidth": 80,
+          "assetId": "asset-003020"
+        }
+      ],
+      "partId": "part-000595"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

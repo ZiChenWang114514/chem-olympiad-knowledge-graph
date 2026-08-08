@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000079",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,23 +10,19 @@
   "source": {
     "sourceDocumentId": "source-000014",
     "sourceLabel": "2019-33-CChO-juesai.pdf",
-    "page": null,
+    "pages": [
+      2
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
       "text": "高血压是常见的心血管病,治疗高血压多选用钙离子拮抗剂。"
-    }
-  ],
-  "parts": [
+    },
     {
-      "id": "part-000079-01",
+      "type": "subpart",
       "label": "3-1",
       "blocks": [
         {
@@ -37,10 +33,11 @@
           "type": "paragraph",
           "text": "$$\\mathrm{PhCHO} + 2\\mathrm{CH_3COCH_2CO_2CH_3} + \\mathrm{CH_3CO_2NH_4} \\xrightarrow{\\mathrm{C_2H_5OH}, 80^\\circ\\mathrm{C}} \\mathrm{A}$$"
         }
-      ]
+      ],
+      "partId": "part-000153"
     },
     {
-      "id": "part-000079-02",
+      "type": "subpart",
       "label": "3-2",
       "blocks": [
         {
@@ -51,10 +48,11 @@
           "type": "paragraph",
           "text": "$$\\mathrm{PhCHO} + 2\\mathrm{CH_3COCH_2CO_2CH_3} + \\mathrm{NH_2OH\\cdot HCl} \\xrightarrow{\\mathrm{C_2H_5OH}, 80^\\circ\\mathrm{C}} \\mathrm{B} \\longrightarrow \\mathrm{C}$$"
         }
-      ]
+      ],
+      "partId": "part-000154"
     },
     {
-      "id": "part-000079-03",
+      "type": "subpart",
       "label": "3-3",
       "blocks": [
         {
@@ -63,9 +61,13 @@
         },
         {
           "type": "paragraph",
-          "text": "$$\\mathrm{CH_3COCH_2CO_2CH_3} \\xrightarrow[\\triangle]{\\mathrm{CH_3ONa}, \\mathrm{CH_3OH}} [\\mathrm{D}] \\xrightarrow{\\mathrm{HBr}} [\\mathrm{E}] \\xrightarrow{\\mathrm{NaH}} \\mathrm{H_3C} \\begin{array}{c} \\mathrm{O} \\\\ \\uparrow \\end{array}$$"
+          "text": "$$\\mathrm{CH_3COCH_2CO_2CH_3} \\xrightarrow[\\triangle]{\\mathrm{CH_3ONa}, \\mathrm{CH_3OH}} [\\mathrm{D}] \\xrightarrow{\\mathrm{HBr}} [\\mathrm{E}] \\xrightarrow{\\mathrm{NaH}} \\mathrm{H_3C} \\mathrm{O} \\\\ \\uparrow $$"
         }
-      ]
+      ],
+      "partId": "part-000155"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

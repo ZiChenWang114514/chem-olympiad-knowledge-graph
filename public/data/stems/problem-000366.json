@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000366",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,100 +10,141 @@
   "source": {
     "sourceDocumentId": "source-000005",
     "sourceLabel": "2010-24-CChO-juesai.pdf",
-    "page": null,
+    "pages": [
+      1
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000366-01",
+      "type": "subpart",
       "label": "1-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "钒酸盐与磷酸盐结构相似。请画出 $\\mathrm{VO_4^{3-}}$、$\\mathrm{H_2VO_4^-}$、$\\mathrm{VO_2(H_2O)_4^+}$ 和 $\\mathrm{V_2O_7^{4-}}$ 的空间构型。"
         }
-      ]
+      ],
+      "partId": "part-000747"
     },
     {
-      "id": "part-000366-02",
+      "type": "subpart",
       "label": "1-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "生理条件下的钒以多种氧化态存在,各种氧化态可以相互转化。通常细胞外的钒是 $\\mathrm{V(+V)}$,而细胞内的钒是 $\\mathrm{V(+IV)}$。研究表明,钒酸二氢根离子可与亚铁血红素 $\\mathrm{(Mt rc-Fe^{2+})}$ 反应,写出该反应的离子方程式。"
         }
-      ]
+      ],
+      "partId": "part-000748"
     },
     {
-      "id": "part-000366-03",
+      "type": "subpart",
       "label": "1-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "-1 已知配合物 $\\mathrm{[VON(CH_2COO)_3]}$ 在水溶液中的几何构型是唯一的,画出它的空间构型图。"
         }
-      ]
+      ],
+      "partId": "part-000749"
     },
     {
-      "id": "part-000366-04",
-      "label": "1-3",
+      "type": "subpart",
+      "label": "1-3-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "-2 理论推测上述配合物分子在晶体中是有心性的,指出产生心性的原因。"
         }
-      ]
+      ],
+      "partId": "part-000756"
     },
     {
-      "id": "part-000366-05",
+      "type": "subpart",
       "label": "1-4",
       "blocks": [
         {
           "type": "paragraph",
           "text": "钒酸钇晶体是近年来新开发出的优良双折射光学晶体,在光电产业中得到广泛应用。可以在弱碱性溶液中用偏钒酸铵和硝酸钇合成。写出以 $\\mathrm{Y_2O_3}$ 与 $\\mathrm{V_2O_3}$ 为主要原料合成钒酸钇的化学方程式。"
         }
-      ]
+      ],
+      "partId": "part-000751"
     },
     {
-      "id": "part-000366-06",
+      "type": "subpart",
       "label": "1-5",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "若以市售分析纯偏钒酸铵为原料制备高纯钒酸钇单晶,需将杂质铁离子含量降至一定数量级。设每升偏钒酸铵溶液中含三价铁离子为 $5.0 \\times 10^{-5} \\mathrm{mol}$,用 0.01 mol L−1 的螯合剂除铁。"
+          "text": "若以市售分析纯偏钒酸铵为原料制备高纯钒酸钇单晶,需将杂质铁离子含量降至一定数量级。设每升偏钒酸铵溶液中含三价铁离子为 $5.0 \\times 10^{-5} \\mathrm{mol}$,用 0.01 mol L-1 的螯合剂除铁。"
         }
-      ]
+      ],
+      "partId": "part-000752"
     },
     {
-      "id": "part-000366-07",
-      "label": "1-5",
+      "type": "subpart",
+      "label": "1-5-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "-1 说明不采取使铁离子水解析出沉淀的方法除铁的理由。"
         }
-      ]
+      ],
+      "partId": "part-000757"
     },
     {
-      "id": "part-000366-08",
-      "label": "1-5",
+      "type": "subpart",
+      "label": "1-5-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 通过计算说明如何选择螯合剂使偏钒酸铵含铁量降至 $10^{-30}$ mol L−1 以下。"
+          "text": "-2 通过计算说明如何选择螯合剂使偏钒酸铵含铁量降至 $10^{-30}$ mol L-1 以下。"
         },
         {
           "type": "callout",
           "tone": "info",
           "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
         }
-      ]
+      ],
+      "partId": "part-000758"
+    },
+    {
+      "type": "subpart",
+      "label": "1-3-2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "理论推测上述配合物分子在晶体中是有手性的,指出产生手性的原因。"
+        }
+      ],
+      "partId": "part-002606"
+    },
+    {
+      "type": "subpart",
+      "label": "1-5-1-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "说明不采取使铁离子水解析出沉淀的方法除铁的理由。"
+        }
+      ],
+      "partId": "part-002607"
+    },
+    {
+      "type": "subpart",
+      "label": "1-5-2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "通过计算说明如何选择螯合剂使偏钒酸铵含铁量降至10-30 mol L-1以下。"
+        }
+      ],
+      "partId": "part-002608"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000430",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,37 +8,42 @@
   "examYear": 2014,
   "examStage": "preliminary",
   "source": {
-    "sourceDocumentId": "source-000048",
     "sourceLabel": "2014-28-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      1
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
+    "sourceDocumentId": "source-000048"
   },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000430-01",
+      "type": "paragraph",
+      "text": "第3题 2013年,科学家通过计算预测了高压下固态氮的一种新结构: $\\mathrm { N } _ { 8 }$ 分子晶体.其中, $\\mathrm { N } _ { 8 }$ 分子呈首尾不分的链状结构;按价键理论,氮原子有4种成键方式;除端位以外,其他氮原子采用3种不同类型的杂化轨道."
+    },
+    {
+      "type": "subpart",
       "label": "3-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出 $\\mathrm{N_8}$ 分子的 Lewis 结构并标出形式电荷。写出端位之外的 N 原子的杂化轨道类型。"
+          "text": "画出 $\\mathrm { N } _ { 8 }$ 分子的Lewis结构并标出形式电荷.写出端位之外的N原子的杂化轨道类型."
         }
-      ]
+      ],
+      "partId": "part-002533"
     },
     {
-      "id": "part-000430-02",
+      "type": "subpart",
       "label": "3-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出 $\\mathrm{N_8}$ 分子的构型异构体。"
+          "text": "画出 $\\mathrm { N } _ { 8 }$ 分子的构型异构体."
         }
-      ]
+      ],
+      "partId": "part-002534"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000099",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,19 +8,139 @@
   "examYear": 2020,
   "examStage": "final",
   "source": {
-    "sourceDocumentId": "source-000015",
     "sourceLabel": "2020-34-CChO-juesai-1.pdf",
-    "page": null,
+    "pages": [
+      4
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000015"
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第5题（10分）过氧化氢酶普遍存在于能呼吸的生物体内，可催化过氧化氢分解为氧气和⽔，从⽽使细胞免遭过氧化氢的毒害。关于过氧化氢酶催化过氧化氢分解的具体机制尚未有统一的认识，⽬前⾄少提出了3种可能的反应机理： (1) 机理 I： $$ \\mathrm{E} + \\mathrm{S} \\xrightarrow {k _ {1}} \\mathrm{ES} \\quad \\mathrm{ES} + \\mathrm{S} \\xrightarrow {k _ {2}} \\mathrm{E} + \\mathrm{P} $$ 其中，E为过氧化氢酶；S为过氧化氢底物；ES为酶-底物中间体：P为产物。 (2) 机理 II： $$ \\mathrm{E} + \\mathrm{S} \\xleftrightarrow [ k _ {- 1} ] {k _ {1}} \\mathrm{ES} \\quad \\mathrm{ES} + \\mathrm{S} \\xrightarrow {k _ {2}} \\mathrm{E} + \\mathrm{P} $$ (3) 机理 III： $$ \\mathrm{E} + \\mathrm{S} \\xrightarrow {k _ {1}} \\mathrm{ES} \\qquad \\qquad \\mathrm{ES} + \\mathrm{S} \\xrightarrow {k _ {3}} \\mathrm{ESS} \\xrightarrow {k _ {4}} \\mathrm{E} + \\mathrm{P} $$ 其中，ESS为酶-底物三元复合物。 5-1 根据上述3种反应机理，分别推导反应速率(?)与底物过氧化氢浓度([S])之间的关系（表达式中可以含过氧化氢酶的初始浓度 $\\mathrm { [ E ] _ { 0 } , }$ ，但不能含[E]）。 5-2 某课题组开展了 $2 5 ~ ^ { \\circ } \\mathrm { C }$ 过氧化氢酶催化过氧化氢分解的动力学实验，发现?与[S]之间存在如下关系： $r \\propto$ $[ \\mathrm { S } ] ^ { 1 . 5 } \\circ$ 试分析判断上述哪一样反应机理最有可能解释该实验结果。 5-3 已知有过氧化氢酶参与时，过氧化氢分解反应 $\\mathrm { H } _ { 2 } \\mathrm { O } _ { 2 } ( 1 ) \\mathrm { H } _ { 2 } \\mathrm { O } ( 1 ) + { \\textstyle { \\frac { 1 } { 2 } } } \\mathrm { O } _ { 2 } ( \\mathrm { g } )$ 的活化能为 8.36 kJ $\\mathrm { m o l ^ { - 1 } }$ 无催化剂参与时，其活化能为 $7 1 . 0 6 \\mathrm { k J } \\mathrm { m o l } ^ { - 1 }$ ，过氧化氢分解反应放热94.60kJ $\\mathrm { m o l ^ { - 1 } c }$ 。速率常数符合阿伦尼乌斯(Arrhenius)方程，指前因⼦与催化剂存在与否无关。 5-3-1 计算 $2 5 ~ ^ { \\circ } \\mathrm { C }$ 下加催化剂时的反应速率是不加催化剂时的倍数。 5-3-2 分别计算有催化剂和无催化剂时逆反应的活化能。 5-3-3 下列关于过氧化氢酶对正、逆反应速率的影响，正确的说法是A. 正反应速率增加的倍数大于逆反应速率增加的倍数；B. 逆反应速率增加的倍数大于正反应速率增加的倍数；C. 正、逆反应速率增加的倍数相等；D. 数据不⾜，无法判断。"
+      "text": "第5题 过氧化氢酶普遍存在于能呼吸的生物体内,可催化过氧化氢分解为氧气和水,从而使细胞免遭过氧化氢的毒害.关于过氧化氢酶催化过氧化氢分解的具体机制尚未有统一的认识,目前至少提出了3种可能的反应机理:"
+    },
+    {
+      "type": "paragraph",
+      "text": "(1) 机理 I:"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "\\mathrm{E} + \\mathrm{S} \\xrightarrow {k _ {1}} \\mathrm{ES} \\quad \\mathrm{ES} + \\mathrm{S} \\xrightarrow {k _ {2}} \\mathrm{E} + \\mathrm{P}"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "其中,E为过氧化氢酶;S为过氧化氢底物;ES为酶-底物中间体:P为产物."
+    },
+    {
+      "type": "paragraph",
+      "text": "(2) 机理 II:"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "\\mathrm{E} + \\mathrm{S} \\xleftrightarrow [ k _ {- 1} ] {k _ {1}} \\mathrm{ES} \\quad \\mathrm{ES} + \\mathrm{S} \\xrightarrow {k _ {2}} \\mathrm{E} + \\mathrm{P}"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "(3) 机理 III:"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "\\mathrm{E} + \\mathrm{S} \\xrightarrow {k _ {1}} \\mathrm{ES} \\qquad \\qquad \\mathrm{ES} + \\mathrm{S} \\xrightarrow {k _ {3}} \\mathrm{ESS} \\xrightarrow {k _ {4}} \\mathrm{E} + \\mathrm{P}"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "其中,ESS为酶-底物三元复合物."
+    },
+    {
+      "type": "subpart",
+      "label": "5-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "根据上述3种反应机理,分别推导反应速率()与底物过氧化氢浓度([S])之间的关系(表达式中可以含过氧化氢酶的初始浓度 $\\mathrm { [ E ] _ { 0 } , }$ ,但不能含[E])."
+        }
+      ],
+      "partId": "part-002011"
+    },
+    {
+      "type": "subpart",
+      "label": "5-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "某课题组开展了 $25 ~ ^ { \\circ } \\mathrm { C }$ 过氧化氢酶催化过氧化氢分解的动力学实验,发现与[S]之间存在如下关系: $r \\propto$ $[ \\mathrm { S } ] ^ { 1.5 } \\circ$ 试分析判断上述哪一样反应机理最有可能解释该实验结果."
+        }
+      ],
+      "partId": "part-002012"
+    },
+    {
+      "type": "subpart",
+      "label": "5-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "已知有过氧化氢酶参与时,过氧化氢分解反应 $\\mathrm { H } _ { 2 } \\mathrm { O } _ { 2 } ( 1 ) \\mathrm { H } _ { 2 } \\mathrm { O } ( 1 ) + { \\textstyle { \\frac { 1 } { 2 } } } \\mathrm { O } _ { 2 } ( \\mathrm { g } )$ 的活化能为"
+        },
+        {
+          "type": "paragraph",
+          "text": "- 别计算有催化剂和无催化剂时逆反应的活化能."
+        },
+        {
+          "type": "paragraph",
+          "text": "kJ $\\mathrm { mol ^ { - 1 } }$ 无催化剂参与时,其活化能为 $71.06 \\mathrm { kJ } \\mathrm { mol } ^ { - 1 }$ ,过氧化氢分解反应放热94.60kJ $\\mathrm { mol ^ { - 1 } c }$ .速率常数符合阿伦尼乌斯(Arrhenius)方程,指前因子与催化剂存在与否无关."
+        }
+      ],
+      "partId": "part-002013"
+    },
+    {
+      "type": "subpart",
+      "label": "5-3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算 $25 ~ ^ { \\circ } \\mathrm { C }$ 下加催化剂时的反应速率是不加催化剂时的倍数."
+        }
+      ],
+      "partId": "part-002015"
+    },
+    {
+      "type": "subpart",
+      "label": "5-3-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "下列关于过氧化氢酶对正,逆反应速率的影响,正确的说法是A. 正反应速率增加的倍数大于逆反应速率增加的倍数;B. 逆反应速率增加的倍数大于正反应速率增加的倍数;C. 正,逆反应速率增加的倍数相等;D. 数据不足,无法判断."
+        }
+      ],
+      "partId": "part-002016"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

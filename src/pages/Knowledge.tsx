@@ -1,15 +1,9 @@
-import type { CSSProperties } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import type { AppData } from '../lib/data'
-import { displayProblemTitle } from '../lib/format'
-import {
-  disciplineColor,
-  getNeighbors,
-  getRelatedProblems,
-  nodeTypeLabel,
-  relationLabel,
-} from '../lib/graph'
-import { Notice } from '../ui/Notice'
+import { displayDisciplineForNode, displayTopicForNode } from '../lib/displayTaxonomy'
+import { displayProblemTitle, examStageLabel } from '../lib/format'
+import { getFollowOns, getNeighbors, getPrerequisites, getRelatedProblems, nodeTypeLabel, relationLabel } from '../lib/graph'
+import { LocalGraph } from '../map/LocalGraph'
 import { NotFound } from './NotFound'
 
 export function Knowledge({ data }: { data: AppData }) {
@@ -18,83 +12,75 @@ export function Knowledge({ data }: { data: AppData }) {
   if (!node) return <NotFound />
 
   const relations = getNeighbors(node.id, data.graph.edges, data.graph.nodes)
+  const prerequisites = getPrerequisites(node.id, data.graph.edges, data.graph.nodes)
+  const followOns = getFollowOns(node.id, data.graph.edges, data.graph.nodes)
   const linked = getRelatedProblems(node.id, data.problems)
-  const discName =
-    data.taxonomy.disciplines.find(d => d.id === node.discipline || d.name === node.discipline)?.name || node.discipline
-  const accent = disciplineColor(data.taxonomy.disciplines, node.discipline)
+  const discipline = displayDisciplineForNode(node, data.graph)
+  const topic = displayTopicForNode(node.id, data.graph)
 
   return (
-    <>
+    <div className="knowledge-page">
       <div className="detail-nav">
-        <Link to={`/?node=${encodeURIComponent(node.id)}`} className="back">
+        <Link to={`/?discipline=${encodeURIComponent(discipline.id)}&node=${encodeURIComponent(node.id)}`} className="back">
           ← 在图谱中定位
         </Link>
-        <Link to="/graph" className="back subtle">
-          完整图谱
-        </Link>
       </div>
-      <section className="knowledge-head" style={{ '--panel-accent': accent } as CSSProperties}>
-        <span className="topic-icon large" style={{ background: accent }}>
-          {node.label.slice(0, 1)}
-        </span>
-        <div>
-          <p className="page-kicker">
-            {discName} · {nodeTypeLabel(node.type)}
-          </p>
-          <h1>{node.label}</h1>
-          <p>
-            节点 ID：{node.id} · 重要度 {node.importance || 3}/5
-          </p>
-        </div>
-      </section>
-      <div className="knowledge-grid">
-        <article className="article">
-          <h2>知识说明</h2>
-          <p>本页汇总该知识点在竞赛资料中的位置、相邻关系和历年考查索引。讲义内容将在完成来源核验后逐步补充。</p>
-          <Notice>
-            <b>公开范围：元数据</b>
-            <br />
-            题目原文、参考答案和评分材料仍保存在受控资料库。
-          </Notice>
-          <h2>相关真题</h2>
-          {linked.length ? (
-            linked.map(problem => (
-              <Link className="mini-problem" to={`/exams/${problem.id}`} key={problem.id}>
-                <b>
-                  {data.exams.find(exam => exam.id === problem.examId)?.year} · {problem.number}
-                </b>
-                <span>{displayProblemTitle(problem.title)}</span>
-                <span className="text-link">查看</span>
-              </Link>
-            ))
-          ) : (
-            <p className="muted">该节点尚无公开的节点级题目映射，待标注。</p>
-          )}
+
+      <header className="document-head knowledge-title">
+        <p>{discipline.name}{topic ? ` / ${topic.name}` : ''} / {nodeTypeLabel(node.type)}</p>
+        <h1>{node.label}</h1>
+      </header>
+
+      <div className="knowledge-layout">
+        <article className="knowledge-article">
+          {prerequisites.length || followOns.length ? (
+            <section>
+              <h2>先修关系</h2>
+              <div className="relation-columns">
+                {prerequisites.length ? <div><h3>建议先学</h3><ul>{prerequisites.map(item => <li key={item.id}><Link to={`/knowledge/${item.id}`}>{item.label}</Link></li>)}</ul></div> : null}
+                {followOns.length ? <div><h3>后续知识</h3><ul>{followOns.map(item => <li key={item.id}><Link to={`/knowledge/${item.id}`}>{item.label}</Link></li>)}</ul></div> : null}
+              </div>
+            </section>
+          ) : null}
+
+          {relations.length ? (
+            <section>
+              <h2>相关概念</h2>
+              <ul className="knowledge-relation-list">
+                {relations.map(item => {
+                  const rel = data.taxonomy.relations.find(relation => relation.id === item.relation || relation.predicate === item.relation)
+                  return <li key={item.edgeId}><span>{relationLabel(item.relation, rel?.name)}</span><Link to={`/knowledge/${item.other.id}`}>{item.other.label}</Link></li>
+                })}
+              </ul>
+            </section>
+          ) : null}
+
+          <section>
+            <h2>历年题目</h2>
+            {linked.length ? (
+              <ol className="knowledge-problems">
+                {linked.map(problem => {
+                  const exam = data.exams.find(item => item.id === problem.examId)
+                  return (
+                    <li key={problem.id}>
+                      <Link to={`/exams/${problem.id}`}>
+                        <span>{exam?.year} · {exam ? examStageLabel(exam.stage) : ''} · {problem.number}</span>
+                        <b>{displayProblemTitle(problem.title)}</b>
+                      </Link>
+                    </li>
+                  )
+                })}
+              </ol>
+            ) : <p className="muted">暂无关联题目</p>}
+          </section>
         </article>
-        <aside className="side-card">
-          <h3>
-            关系清单 <small>{relations.length}</small>
-          </h3>
-          <ul className="relation-list">
-            {relations.map(item => {
-              const rel = data.taxonomy.relations.find(
-                relation => relation.id === item.relation || relation.predicate === item.relation,
-              )
-              return (
-                <li key={item.edgeId}>
-                  <span className="relation-type">{relationLabel(item.relation, rel?.name)}</span>
-                  <Link to={`/knowledge/${item.other.id}`}>{item.other.label}</Link>
-                </li>
-              )
-            })}
-          </ul>
-          <Link className="btn-primary full" to={`/?node=${encodeURIComponent(node.id)}`}>
-            返回图谱并选中
-          </Link>
-          <h3>学习提示</h3>
-          <p className="muted">先阅读相邻节点，再回看题目中的综合考查关系。</p>
+
+        <aside className="knowledge-graph-aside">
+          <h2>局部关系</h2>
+          <LocalGraph data={data} nodeId={node.id} />
+          <Link className="text-link" to={`/?discipline=${encodeURIComponent(discipline.id)}&node=${encodeURIComponent(node.id)}`}>在图谱中查看</Link>
         </aside>
       </div>
-    </>
+    </div>
   )
 }

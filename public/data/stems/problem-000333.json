@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000333",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,19 +8,96 @@
   "examYear": 2008,
   "examStage": "final",
   "source": {
-    "sourceDocumentId": "source-000003",
     "sourceLabel": "2008-22-CChO-juesai.pdf",
-    "page": null,
+    "pages": [
+      3
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000003"
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第5题 新陈代谢不仅需要酶，⽽且需要能量。糖类是细胞的主要能源物质之一，脂肪是生物体内储存能量的主要物质。但是，这些有机物中的能量都不能直接被生物体利用，它们只是在细胞中随着这些有机物逐步氧化分解⽽释放出来，并且储存在生物活性体系中一种⾮常重要的高能磷酸化合物三磷酸腺苷（简称ATP）中才能被生物体利用。ATP是新陈代谢所需能量的直接来源，它是许多生化反应的初级能源。ATP的⽔解是一个较强的放能作用，在有关酶的催化作用下，ATP⽔解转化成二磷酸腺苷（简称ADP）和磷酸盐： $$ ① \\mathrm{ATP} + \\mathrm{H} _ {2} \\mathrm{O} \\rightarrow \\mathrm{ADP} + \\mathrm{Pi} (\\text {磷酸盐}) $$ 已知 298.2 K 时该反应： $\\Delta _ { \\mathrm { r } } G _ { \\mathrm { m , 1 } } ^ { \\ominus } ( 2 9 8 . 2 ) = - 3 0 . 5 8 \\mathrm { ~ k J ~ m o l ^ { - 1 } , ~ } \\Delta _ { \\mathrm { r } } H _ { \\mathrm { m , 1 } } ^ { \\ominus } ( 2 9 8 . 2 ) = - 2 0 . 1 0 \\mathrm { ~ k J ~ m o l ^ { - 1 } , ~ } \\Delta _ { \\mathrm { r } } C _ { p } \\approx 0 _ { \\mathrm { c } } 0 . 1 7 \\mathrm { ~ k J ~ m o l ^ { - 1 } ~ } .$ ⽽310.2 K（人体温度）时反应： $$ ② \\text {谷氨酸盐} + \\mathrm{NH} _ {4} ^ {+} \\rightarrow \\text {谷氨酰胺} + \\mathrm{H} _ {2} \\mathrm{O} \\quad \\Delta_ {\\mathrm{r}} G _ {\\mathrm{m}, 2} ^ {\\ominus} (3 1 0. 2) = 1 5. 7 0 \\mathrm{kJ} \\mathrm{mol} ^ {- 1} $$ 5-1 通过计算回答在310.2K，标准状态下，人体内能否由下述反应合成⾕氨酰胺？ ③ ⾕氨酸盐 + NH 4 + + ATP +→ ⾕氨酰胺 + ADP + Pi 磷酸盐） 5-2 计算310.2K时反应③的标准平衡常数 $K _ { 3 } ^ { \\ominus }$ 。 5-3 ATP消耗后，可通过另外的途径复生。在另一种酶的催化作用下，ADP可以接受能量，同时与一个磷酸结合，从⽽转化成 $\\mathrm { A T P _ { \\circ } }$ 。 例如在糖酵解反应的过程中，如果1 mol葡萄糖完全降解，消耗2 mol ATP，⼜产生38 mol ATP。计算在标准状态下，310.2K时，1 mol葡萄糖完全降解过程贮能 $\\Delta _ { \\mathrm { r } } G$ 是多少？ 5-4 许多磷酸酯⽔解是放能反应，ATP⽔解释放的能量不是最大的，也不是最小的。从热力学角度说明，为什么许多生物代谢过程中有ATP参加。"
+      "text": "第5题 新陈代谢不仅需要酶,而且需要能量.糖类是细胞的主要能源物质之一,脂肪是生物体内储存能量的主要物质.但是,这些有机物中的能量都不能直接被生物体利用,它们只是在细胞中随着这些有机物逐步氧化分解而释放出来,并且储存在生物活性体系中一种非常重要的高能磷酸化合物三磷酸腺苷(简称ATP)中才能被生物体利用.ATP是新陈代谢所需能量的直接来源,它是许多生化反应的初级能源.ATP的水解是一个较强的放能作用,在有关酶的催化作用下,ATP水解转化成二磷酸腺苷(简称ADP)和磷酸盐:"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "1 \\mathrm{ATP} + \\mathrm{H} _ {2} \\mathrm{O} \\rightarrow \\mathrm{ADP} + \\mathrm{Pi} (\\text {磷酸盐})"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "已知 298.2K 时该反应: $\\Delta _ { \\mathrm { r } } G _ { \\mathrm { m , 1 } } ^ { \\ominus } ( 298.2 ) = - 30.58 \\mathrm { ~ kJ ~ mol ^ { - 1 } , ~ } \\Delta _ { \\mathrm { r } } H _ { \\mathrm { m , 1 } } ^ { \\ominus } ( 298.2 ) = - 20.10 \\mathrm { ~ kJ ~ mol ^ { - 1 } , ~ } \\Delta _ { \\mathrm { r } } C _ { p } \\approx0 _ { \\mathrm { c } } 0.17 \\mathrm { ~ kJ ~ mol ^ { - 1 } ~ } .$ 而310.2K(人体温度)时反应:"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$"
+    },
+    {
+      "type": "paragraph",
+      "text": "2 \\text {谷氨酸盐} + \\mathrm{NH} _ {4} ^ {+} \\rightarrow \\text {谷氨酰胺} + \\mathrm{H} _ {2} \\mathrm{O} \\quad \\Delta_ {\\mathrm{r}} G _ {\\mathrm{m}, 2} ^ {\\ominus} (310.2) = 15.70 \\mathrm{kJ} \\mathrm{mol} ^ {- 1}"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$"
+    },
+    {
+      "type": "subpart",
+      "label": "5-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "通过计算回答在310.2K,标准状态下,人体内能否由下述反应合成谷氨酰胺"
+        },
+        {
+          "type": "paragraph",
+          "text": "3 谷氨酸盐 + NH<sub>4</sub>+ + ATP +→ 谷氨酰胺 + ADP + Pi 磷酸盐)"
+        }
+      ],
+      "partId": "part-002406"
+    },
+    {
+      "type": "subpart",
+      "label": "5-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算310.2K时反应3的标准平衡常数 $K _ { 3 } ^ { \\ominus }$ ."
+        }
+      ],
+      "partId": "part-002407"
+    },
+    {
+      "type": "subpart",
+      "label": "5-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "ATP消耗后,可通过另外的途径复生.在另一种酶的催化作用下,ADP可以接受能量,同时与一个磷酸结合,从而转化成 $\\mathrm { ATP _ { \\circ } }$ . 例如在糖酵解反应的过程中,如果1mol葡萄糖完全降解,消耗2molATP,又产生38molATP.计算在标准状态下,310.2K时,1mol葡萄糖完全降解过程贮能 $\\Delta _ { \\mathrm { r } } G$ 是多少"
+        }
+      ],
+      "partId": "part-002408"
+    },
+    {
+      "type": "subpart",
+      "label": "5-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "许多磷酸酯水解是放能反应,ATP水解释放的能量不是最大的,也不是最小的.从热力学⻆度说明,为什么许多生物代谢过程中有ATP参加."
+        }
+      ],
+      "partId": "part-002409"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

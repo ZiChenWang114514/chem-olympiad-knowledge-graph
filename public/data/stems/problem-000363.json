@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000363",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,18 +10,15 @@
   "source": {
     "sourceDocumentId": "source-000041",
     "sourceLabel": "2010-24-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      3
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000363-01",
+      "type": "subpart",
       "label": "9-1",
       "blocks": [
         {
@@ -35,19 +32,24 @@
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000363-figure-001.jpg",
-          "alt": "化学反应路线与结构式示意图（原图）",
-          "caption": "题目配图"
+          "alt": "化学反应路线与结构式示意图(原图)",
+          "displayWidth": 80,
+          "caption": "题目配图",
+          "assetId": "asset-003061"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000363-figure-002.jpg",
-          "alt": "化学反应路线与结构式示意图（原图）",
-          "caption": "题目配图"
+          "alt": "化学反应路线与结构式示意图(原图)",
+          "displayWidth": 80,
+          "caption": "题目配图",
+          "assetId": "asset-003062"
         }
-      ]
+      ],
+      "partId": "part-000739"
     },
     {
-      "id": "part-000363-02",
+      "type": "subpart",
       "label": "9-2",
       "blocks": [
         {
@@ -61,16 +63,24 @@
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000363-figure-003.jpg",
-          "alt": "化学反应路线与结构式示意图（原图）",
-          "caption": "题目配图"
+          "alt": "化学反应路线与结构式示意图(原图)",
+          "displayWidth": 80,
+          "caption": "题目配图",
+          "assetId": "asset-003063"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000363-figure-004.jpg",
-          "alt": "化学反应路线与结构式示意图（原图）",
-          "caption": "题目配图"
+          "alt": "化学反应路线与结构式示意图(原图)",
+          "displayWidth": 80,
+          "caption": "题目配图",
+          "assetId": "asset-003064"
         }
-      ]
+      ],
+      "partId": "part-000740"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000409",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,26 +10,181 @@
   "source": {
     "sourceDocumentId": "source-000047",
     "sourceLabel": "2013-27-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      1,
+      2
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第2题（23分）简要回答或计算 2-1 $\\mathrm { B i _ { 2 } C l _ { 8 } } ^ { 2 \\mathrm { - } }$ −离⼦中铋原⼦的配位数为5，配体呈四角锥型分布，画出该离⼦的结构并指出Bi原⼦的杂化轨道类型。 2-2 在液氨中， $E ^ { \\ominus } \\mathrm { ( N a ^ { + } / N a ) } = - 1 . 8 9 \\mathrm { V } , E ^ { \\ominus } \\mathrm { ( M g ^ { 2 + } / M g ) } = - 1 . 7 4 \\mathrm { V }$ ，但可以发生 $\\mathrm { M g }$ 置换Na的反应： $\\mathrm { M g + }$ $2 \\mathrm { N a I } \\mathrm { M g I } _ { 2 } + 2 \\mathrm { N a }$ ，指出原因。 2-3 将Pb加到氨基钠的液氨溶液中，先生成白色沉淀 $\\mathrm { N a } _ { 4 } \\mathrm { P b }$ ，随后转化为 $\\mathrm { N a } _ { 4 } \\mathrm { P b } _ { 9 }$ （绿色）⽽溶解。在此溶液中插入两块铅电极，通直流电，当1.0 mol电⼦通过电解槽时，在哪个电极（阴极或阳极）上沉积出铅？写出沉积铅的量。 2-4 下图是某金属氧化物的晶体结构示意图。图中，小球代表金属原⼦，大球代表氧原⼦，细线框出其晶胞。"
+      "text": "第2题(23分)简要回答或计算"
     },
     {
-      "type": "paragraph",
-      "text": "2-4-1 写出金属原⼦的配位数(?)和氧原⼦的配位数(?)。 2-4-2 写出晶胞中金属原⼦数(?)和氧原⼦数(?)。 2-4-3 写出该金属氧化物的化学式（金属用M表示）。 2-5 向含 $\\mathrm { { [ c i s { - } C o ( N H _ { 3 } ) _ { 4 } ( H _ { 2 } O ) _ { 2 } ] } \\mathrm { { ; } } }$ 3+的溶液中加入氨⽔，析出含 $\\{ \\mathrm { C o } [ \\mathrm { C o } ( \\mathrm { N H _ { 3 } } ) _ { 4 } ( \\mathrm { O H } ) _ { 2 } ]$ 3 }6+的难溶盐。 $\\{ \\mathrm { C o } [ \\mathrm { C o } ( \\mathrm { N H _ { 3 } } ) _ { 4 } ( \\mathrm { O H } ) _ { 2 } ] _ { 3 } \\} ^ { 6 + }$ 是以羟基为桥键的多核络离⼦，具有⼿性。画出其结构。 2-6 向 $\\mathrm { K _ { 2 } C r _ { 2 } O _ { } }$ 7 和 $\\mathrm { N a C l }$ 的混合物中加入浓硫酸制得化合物 X（154.9 g mol−1）。X 为暗红色液体，沸点$1 1 7 \\ ^ { \\circ } \\mathrm { C } ,$ ，有强刺激性臭味，遇⽔冒白烟，遇硫燃烧。X分⼦有两个相互垂直的镜面，两镜面的交线为二重旋转轴。写出X的化学式并画出其结构式。 2-7 实验得到一种含钯化合物 $\\mathrm { P d } [ \\mathrm { C } _ { x } \\mathrm { H } _ { y } \\mathrm { N } _ { z } ] ( \\mathrm { C l O } _ { 4 } ) _ { 2 }$ ，该化合物中C和H的质量分数分别为30.15%和 $5 . 0 6 \\%$ 。将此化合物转化为硫氰酸盐 $\\mathrm { P d } [ \\mathrm { C } _ { x } \\mathrm { H } _ { y } \\mathrm { N } _ { z } ] ( \\mathrm { S C N } )$ 2 ， 则C 和H 的质量分数分别为40.46%和5.94%。通过计算确定 $\\mathrm { P d } [ \\mathrm { C } _ { x } \\mathrm { H } _ { y } \\mathrm { N } _ { z } ] ( \\mathrm { C l O } _ { 4 } )$ 2 的组成。 2-8 甲烷在汽⻋发动机中平稳、完全燃烧是保证汽⻋安全和高能效的关键。甲烷与空气按一定比例混合，氧气的利用率为85%，计算汽⻋尾气中O 2 、 $\\mathrm { C O } _ { 2 } .$ $_ \\mathrm { H _ { 2 } O }$ 和 $\\mathrm { N } _ { 2 }$ 的体积比（空气中 $\\mathrm { O _ { 2 } }$ 和 $\\mathrm { N } _ { 2 }$ 体积比按21:79计；设尾气中 $\\mathrm { { C O } _ { 2 } }$ 的体积为1）。"
+      "type": "subpart",
+      "label": "2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "$\\mathrm { B i _ { 2 } C l _ { 8 } } ^ { 2 \\mathrm { - } }$ -离子中铋原子的配位数为5,配体呈四角锥型分布,画出该离子的结构并指出Bi原子的杂化轨道类型。"
+        }
+      ],
+      "partId": "part-000806"
+    },
+    {
+      "type": "subpart",
+      "label": "2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在液氨中, $E ^ { \\ominus } \\mathrm { ( N a ^ { + } / N a ) } = - 1.89 \\mathrm { V } , E ^ { \\ominus } \\mathrm { ( M g ^ { 2 + } / M g ) } = - 1.74 \\mathrm { V }$ ,但可以发生 $\\mathrm { M g }$ 置换Na的反应: $\\mathrm { M g + }$ $2 \\mathrm { N a I } \\mathrm { M g I } _ { 2 } + 2 \\mathrm { N a }$ ,指出原因。"
+        }
+      ],
+      "partId": "part-000807"
+    },
+    {
+      "type": "subpart",
+      "label": "2-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "将Pb加到氨基钠的液氨溶液中,先生成白色沉淀 $\\mathrm { N a } _ { 4 } \\mathrm { P b }$ ,随后转化为 $\\mathrm { N a } _ { 4 } \\mathrm { P b } _ { 9 }$ (绿色)而溶解。在此溶液中插入两块铅电极,通直流电,当1.0 mol电子通过电解槽时,在哪个电极(阴极或阳极)上沉积出铅？写出沉积铅的量。"
+        }
+      ],
+      "partId": "part-000808"
+    },
+    {
+      "type": "subpart",
+      "label": "2-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "下图是某金属氧化物的晶体结构示意图。图中,小球代表金属原子,大球代表氧原子,细线框出其晶胞。"
+        }
+      ],
+      "partId": "part-000809"
+    },
+    {
+      "type": "subpart",
+      "label": "2-4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-1 写出金属原子的配位数(？)和氧原子的配位数(？)。"
+        }
+      ],
+      "partId": "part-000817"
+    },
+    {
+      "type": "subpart",
+      "label": "2-4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-2 写出晶胞中金属原子数(？)和氧原子数(？)。"
+        }
+      ],
+      "partId": "part-000818"
+    },
+    {
+      "type": "subpart",
+      "label": "2-4-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "-3 写出该金属氧化物的化学式(金属用M表示)。"
+        }
+      ],
+      "partId": "part-000819"
+    },
+    {
+      "type": "subpart",
+      "label": "2-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "向含 $\\mathrm { { [ c i s { - } C o ( N H _ { 3 } ) _ { 4 } ( H _ { 2 } O ) _ { 2 } ] } \\mathrm { { ; } } }$ 3+的溶液中加入氨水,析出含 $\\{ \\mathrm { C o } [ \\mathrm { C o } ( \\mathrm { N H _ { 3 } } ) _ { 4 } ( \\mathrm { O H } ) _ { 2 } ]$ 3 }6+的难溶盐。 $\\{ \\mathrm { C o } [ \\mathrm { C o } ( \\mathrm { N H _ { 3 } } ) _ { 4 } ( \\mathrm { O H } ) _ { 2 } ] _ { 3 } \\} ^ { 6 + }$ 是以羟基为桥键的多核络离子,具有手性。画出其结构。"
+        }
+      ],
+      "partId": "part-000813"
+    },
+    {
+      "type": "subpart",
+      "label": "2-6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "向 $\\mathrm { K _ { 2 } C r _ { 2 } O _ { } }$ 7 和 $\\mathrm { N a C l }$ 的混合物中加入浓硫酸制得化合物 X(154.9 g mol-1)。X 为暗红色液体,沸点$117 \\ ^ { \\circ } \\mathrm { C } ,$ ,有强刺激性臭味,遇水冒白烟,遇硫燃烧。X分子有两个相互垂直的镜面,两镜面的交线为二重旋转轴。写出X的化学式并画出其结构式。"
+        }
+      ],
+      "partId": "part-000814"
+    },
+    {
+      "type": "subpart",
+      "label": "2-7",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "实验得到一种含钯化合物 $\\mathrm { P d } [ \\mathrm { C } _ { x } \\mathrm { H } _ { y } \\mathrm { N } _ { z } ] ( \\mathrm { C l O } _ { 4 } ) _ { 2 }$ ,该化合物中C和H的质量分数分别为30.15%和 $5.06 \\%$ 。将此化合物转化为硫氰酸盐 $\\mathrm { P d } [ \\mathrm { C } _ { x } \\mathrm { H } _ { y } \\mathrm { N } _ { z } ] ( \\mathrm { S C N } )$ 2 , 则C 和H 的质量分数分别为40.46%和5.94%。通过计算确定 $\\mathrm { P d } [ \\mathrm { C } _ { x } \\mathrm { H } _ { y } \\mathrm { N } _ { z } ] ( \\mathrm { C l O } _ { 4 } )$ 2 的组成。"
+        }
+      ],
+      "partId": "part-000815"
+    },
+    {
+      "type": "subpart",
+      "label": "2-8",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "甲烷在汽车发动机中平稳、完全燃烧是保证汽车安全和高能效的关键。甲烷与空气按一定比例混合,氧气的利用率为85%,计算汽车尾气中O 2 、 $\\mathrm { C O } _ { 2 } .$ $_ \\mathrm { H _ { 2 } O }$ 和 $\\mathrm { N } _ { 2 }$ 的体积比(空气中 $\\mathrm { O _ { 2 } }$ 和 $\\mathrm { N } _ { 2 }$ 体积比按21:79计;设尾气中 $\\mathrm { { C O } _ { 2 } }$ 的体积为1)。"
+        }
+      ],
+      "partId": "part-000816"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000409-figure-001.jpg",
-      "alt": "problem-000409题目配图第1幅（已按原图查看）"
+      "alt": "配位结构与化学计算相关结构或反应图,第1幅,保留原卷标注",
+      "displayWidth": 80,
+      "assetId": "asset-003074"
+    },
+    {
+      "type": "subpart",
+      "label": "2-4-1-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出金属原子的配位数(？)和氧原子的配位数(？)。"
+        }
+      ],
+      "partId": "part-002609"
+    },
+    {
+      "type": "subpart",
+      "label": "2-4-2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出晶胞中金属原子数(？)和氧原子数(？)。"
+        }
+      ],
+      "partId": "part-002610"
+    },
+    {
+      "type": "subpart",
+      "label": "2-4-3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出该金属氧化物的化学式(金属用M表示)。"
+        }
+      ],
+      "partId": "part-002611"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

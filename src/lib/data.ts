@@ -1,5 +1,6 @@
 import type { Discipline, Exam, GraphData, Manifest, SearchItem, Stats, Problem, Relation, StemIndex } from '../types'
 import { loadStemIndex } from './stem'
+import { validateDisplayTaxonomy, validateDisplayTopics } from './displayTaxonomy'
 
 const root = import.meta.env.BASE_URL
 async function get<T>(path: string): Promise<T> {
@@ -19,6 +20,8 @@ export async function loadData() {
     loadStemIndex(),
   ])
   const years = [...new Set(exams.items.map(exam => exam.year))]
+  validateDisplayTaxonomy(taxonomy.disciplines)
+  validateDisplayTopics(graph)
   const yearFiles = await Promise.all(years.map(year => get<{ items: Problem[] }>(`data/exams/${year}.json`)))
   const stemIds = new Set(stemIndex.items.map(item => item.problemId))
   const problems = yearFiles.flatMap(f => f.items).map(problem => ({

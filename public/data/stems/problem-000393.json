@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000393",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,13 +10,11 @@
   "source": {
     "sourceDocumentId": "source-000046",
     "sourceLabel": "2012-26-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      1
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
@@ -26,48 +24,53 @@
     {
       "type": "paragraph",
       "text": "(b) 接着将溶液充分加热,使浅紫红色变为蓝色,冷却后加入 2 g KI 固体和适量 $\\ce{Na2CO3}$,溶液变为棕色并生成沉淀。用 0.04826 M 的 $\\ce{Na2S2O3}$ 溶液滴定,近终点时加入淀粉指示剂,至终点,消耗 12.69 mL。"
-    }
-  ],
-  "parts": [
+    },
     {
-      "id": "part-000393-01",
+      "type": "subpart",
       "label": "3-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "写出步骤 a 中滴定反应的方程式。"
         }
-      ]
+      ],
+      "partId": "part-000794"
     },
     {
-      "id": "part-000393-02",
+      "type": "subpart",
       "label": "3-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "写出步骤 b 中溶液由淡紫色变为蓝色的过程中所发生反应的方程式。"
         }
-      ]
+      ],
+      "partId": "part-000795"
     },
     {
-      "id": "part-000393-03",
+      "type": "subpart",
       "label": "3-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "用反应方程式表达 KI 在步骤 b 中的作用;写出 $\\ce{Na2S2O3}$ 滴定反应的方程式。"
         }
-      ]
+      ],
+      "partId": "part-000796"
     },
     {
-      "id": "part-000393-04",
+      "type": "subpart",
       "label": "3-4",
       "blocks": [
         {
           "type": "paragraph",
           "text": "通过计算写出蓝色晶体的化学式(原子数取整数)。"
         }
-      ]
+      ],
+      "partId": "part-000797"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

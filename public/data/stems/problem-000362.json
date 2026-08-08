@@ -1,26 +1,50 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000362",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "分析化学定量方法",
-  "number": "8",
+  "number": "Q8",
   "examYear": 2010,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000041",
     "sourceLabel": "2010-24-CChO-chusai.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      3
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第8题（6分）在 $2 5 ~ ^ { \\circ } \\mathrm { C }$ 和 101.325 kPa 下，向电解池通入 0.04193 A 的恒定电流，阴极 $\\left( \\mathrm { P t } , \\ 0 . 1 \\mathrm { M } \\mathrm { H N O } _ { 3 } \\right)$ 放出氢气，阳极(Cu，0.1 M NaCl)得到 $\\mathrm { { C u ^ { 2 + } } }$ 。用0.05115 M的EDTA标准溶液滴定产生的 $\\mathrm { C u ^ { 2 + } }$ ，消耗了 53.12$\\mathrm { m L } _ { \\mathrm { c } }$ 8-1 计算从阴极放出的氢气的体积。 8-2 计算电解所需的时间（以小时为单位）。"
+      "text": "第8题(6分)在 25 ~ ^ { \\circ } \\mathrm { C } 和 101.325 kPa 下,向电解池通入 0.04193 A 的恒定电流,阴极 \\left( \\mathrm { P t } , \\ 0 . 1 \\mathrm { M } \\mathrm { H N O } _ { 3 } \\right) 放出氢气,阳极(Cu,0.1 M NaCl)得到 \\mathrm { { C u ^ { 2 + } } } 。用0.05115 M的EDTA标准溶液滴定产生的 \\mathrm { C u ^ { 2 + } } ,消耗了 53.12\\mathrm { m L } _ { \\mathrm { c } }"
+    },
+    {
+      "type": "subpart",
+      "label": "8-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算从阴极放出的氢气的体积。"
+        }
+      ],
+      "partId": "part-001719"
+    },
+    {
+      "type": "subpart",
+      "label": "8-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算电解所需的时间(以小时为单位)。"
+        }
+      ],
+      "partId": "part-001720"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

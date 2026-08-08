@@ -1,132 +1,151 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000218",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "羰基化合物多步反应",
-  "number": "11",
+  "number": "Q11",
   "examYear": 2023,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000025",
     "sourceLabel": "2023-37-CChO-juesai-1.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      10,
+      11
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000218-01",
+      "type": "subpart",
       "label": "11-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "α-杂原子取代羰基化合物在天然产物和药物分子的合成中具有重要用途。酰胺化合物A在三氟甲磺酸酐(Tf2O)和2-碘吡啶(2-I-py)存在下,与亚磺酰胺试剂反应,生成α-氨基酰胺化合物H。反应过程如下:"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000218-figure-001.jpg",
-          "alt": "化学反应路线与结构式示意图（原图）",
-          "caption": "反应过程示意图"
+          "text": "α-杂原子取代羰基化合物在天然产物和药物分子的合成中具有重要用途。酰胺化合物A在三氟甲磺酸酐(Tf<sub>2</sub>O)和2-碘吡啶(2-I-py)存在下,与手性亚磺酰胺试剂反应,生成α-氨基酰胺化合物H。反应过程如下:"
         }
-      ]
+      ],
+      "partId": "part-001249"
     },
     {
-      "id": "part-000218-02",
-      "label": "11-1",
+      "type": "figure",
+      "src": "data/stems/assets/problem-000218-figure-001.jpg",
+      "assetId": "asset-003238",
+      "alt": "羰基化合物多步反应：第1幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
+    },
+    {
+      "type": "subpart",
+      "label": "11-1-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 画出中间体B、C、F和G的结构。"
+          "text": "画出中间体B,C,F和G的结构。"
         }
-      ]
+      ],
+      "partId": "part-001250"
     },
     {
-      "id": "part-000218-03",
-      "label": "11-1",
+      "type": "subpart",
+      "label": "11-1-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 中间体D和E哪个形成更快?说明原因。"
+          "text": "中间体D和E哪个形成更快方向说明原因。"
         }
-      ]
+      ],
+      "partId": "part-001251"
     },
     {
-      "id": "part-000218-04",
-      "label": "11-1",
+      "type": "subpart",
+      "label": "11-1-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-3 画出G到H的过渡态结构。"
+          "text": "画出G到H的过渡态结构。"
         }
-      ]
+      ],
+      "partId": "part-001252"
     },
     {
-      "id": "part-000218-05",
+      "type": "subpart",
       "label": "11-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "如下过程可用于α-羟基酮的制备。该反应的关键在于中间体L的形成以及L中羰基在光激发下形成双自由基M。"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000218-figure-002.jpg",
-          "alt": "化学反应路线与结构式示意图（原图）",
-          "caption": "反应过程示意图"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000218-figure-003.jpg",
-          "alt": "化学反应路线与结构式示意图（原图）",
-          "caption": "反应过程示意图"
         }
-      ]
+      ],
+      "partId": "part-001253"
     },
     {
-      "id": "part-000218-06",
-      "label": "11-2",
+      "type": "figure",
+      "src": "data/stems/assets/problem-000218-figure-002.jpg",
+      "assetId": "asset-003239",
+      "alt": "羰基化合物多步反应：第2幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
+    },
+    {
+      "type": "subpart",
+      "label": "11-2-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 画出L的结构。"
+          "text": "画出 L 的结构。"
         }
-      ]
+      ],
+      "partId": "part-001254"
     },
     {
-      "id": "part-000218-07",
-      "label": "11-2",
+      "type": "subpart",
+      "label": "11-2-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 中间体M和N都是双自由基,画出M、N和O的结构。"
+          "text": "中间体M和N都是双自由基,画出M,N和O的结构。"
         }
-      ]
+      ],
+      "partId": "part-001255"
     },
     {
-      "id": "part-000218-08",
-      "label": "11-2",
+      "type": "subpart",
+      "label": "11-2-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-3 采用亚磷酸三异丙酯R作为反应底物时,可生成与O类似的O1中间体。画出用结构简式表述的O1到S的反应机理。"
+          "text": "采用亚磷酸三异丙酯R作为反应底物时,可生成与O类似的O1中间体。画出用结构简式表述的O1到S的反应机理。"
         }
-      ]
+      ],
+      "partId": "part-001256"
     },
     {
-      "id": "part-000218-09",
-      "label": "11-2",
+      "type": "figure",
+      "src": "data/stems/assets/problem-000218-figure-003.jpg",
+      "assetId": "asset-003240",
+      "alt": "羰基化合物多步反应：第3幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
+    },
+    {
+      "type": "subpart",
+      "label": "11-2-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-4 画出化合物S经硼氢化钠处理后得到的最终产物结构。"
+          "text": "画出化合物S经硼氢化钠处理后得到的最终产物结构。"
         }
-      ]
+      ],
+      "partId": "part-001257"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

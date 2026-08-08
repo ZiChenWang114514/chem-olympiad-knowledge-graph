@@ -1,91 +1,231 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000097",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "双氧物种电子与晶体",
-  "number": "3",
+  "number": "Q3",
   "examYear": 2020,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000015",
     "sourceLabel": "2020-34-CChO-juesai-1.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      2,
+      3,
+      4
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000097-figure-005.jpg",
-      "alt": "晶体结构或分子模型示意图（原图）",
-      "caption": "题目配图"
+      "type": "paragraph",
+      "text": "第3题(13分)双氧阴离子指超氧离子和过氧离子等,含有超氧离子的化合物是氧分子的单电子还原产物, \\Gamma ^ { ^ { \\pm } } 泛存在于自然界中,例如超氧化物歧化酶存在于生物体内,是活性氧清除系统中第一个发挥作用的抗氧化酶;又例如碱金属 ( \\mathrm { M } ) - \\mathrm { O } _ { 2 } 电池具有⻓的循环寿命和超高能量密度,但放电过程会形成碱金属超氧化物,如何调控\\mathrm { M O _ { 2 } } 的稳定性保证氧气还原反应在固态催化剂表面持续高效进行是 \\mathrm { M } { \\cdot } \\mathrm { O } _ { 2 } 电池的一项重大挑战。"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000097-figure-006.jpg",
-      "alt": "晶体结构或分子模型示意图（原图）",
-      "caption": "题目配图"
-    }
-  ],
-  "parts": [
-    {
-      "id": "part-000097-01",
+      "type": "subpart",
       "label": "3-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "MOF-5的晶体结构如上图所示,写出MOF-5的化学式。"
+          "text": "利用分子轨道理论写出单线态 \\mathrm { O _ { 2 } } 和三线态 \\mathrm { O _ { 2 } } 的电子排布;写出 \\mathrm { O _ { 2 } } ^ { - } 激发态的电子排布;比较单线态与三 线态 \\mathrm { O _ { 2 } } 的能量高低。"
         }
-      ]
+      ],
+      "partId": "part-001063"
     },
     {
-      "id": "part-000097-02",
+      "type": "subpart",
       "label": "3-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "MOF-5具有较大的孔洞,制备过程中溶剂分子会占据孔洞,已知MOF-X的密度为 $1.153\\ \\mathrm{g\\ cm^{-3}}$,晶胞参数为 $a = 2566.90\\ \\mathrm{pm}$,$V = 1.69132 \\times 10^{10}\\ \\mathrm{pm^3}$,$Z=8$;含氯量为2.42%。推断一个正当晶胞中溶剂分子的数目与种类。"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000097-figure-001.jpg",
-          "alt": "晶体结构或分子模型示意图（原图）",
-          "caption": "MOF-5 晶体结构示意图"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000097-figure-002.jpg",
-          "alt": "晶体结构或分子模型示意图（原图）",
-          "caption": "题目配图"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000097-figure-003.jpg",
-          "alt": "晶体结构或分子模型示意图（原图）",
-          "caption": "题目配图"
+          "text": "下列三个图A,B,C是Na或K的超氧化合物的晶体结构示意图(大球表示金属原子,小球表示氧原子),写出每个晶体结构的结构基元和点阵。已知 \\mathrm { N a O _ { 2 } } 属于立方晶系, \\mathrm { K O _ { 2 } } 属于四方晶系。"
         }
-      ]
+      ],
+      "partId": "part-001064"
     },
     {
-      "id": "part-000097-03",
+      "type": "figure",
+      "src": "data/stems/assets/problem-000097-figure-001.jpg",
+      "assetId": "asset-003149",
+      "alt": "原卷示意图：B",
+      "label": "B",
+      "caption": "B",
+      "displayWidth": 100
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000097-figure-002.jpg",
+      "assetId": "asset-003150",
+      "alt": "原卷示意图：图A",
+      "label": "图A",
+      "caption": "图A",
+      "displayWidth": 100
+    },
+    {
+      "type": "paragraph",
+      "text": "B"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000097-figure-003.jpg",
+      "assetId": "asset-003151",
+      "alt": "原卷示意图：图B",
+      "label": "图B",
+      "caption": "B",
+      "displayWidth": 100
+    },
+    {
+      "type": "subpart",
       "label": "3-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "MOF-5具有可以容纳直径为1510 pm球状分子的孔洞,孔洞的体积约占晶体总体积的55%;通过加热等心段完全除去溶剂分子的MOF-5能稳定存在。按照堆积理论这样的结构很不稳定,但实验发现如此高孔隙率的MOF-5却能稳定存在,说明原因。"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000097-figure-004.jpg",
-          "alt": "晶体结构或分子模型示意图（原图）",
-          "caption": "题目配图"
+          "text": "下图是 \\mathrm { L i O _ { 2 } } 的晶体结构,属正交晶系,晶体的密度为2.217 \\mathrm { g c m } ^ { - 3 } 。已知晶胞参数 . b > a > c ,且方向,方向晶胞参数小于 420 \\mathrm { p m } ;Li- { \\boldsymbol { \\cdot } } ( 0 _ { 2 } 距离有 2 种:252 pm 和 239 pm。求 \\mathrm { L i O _ { 2 } } 晶体结构的正当晶胞参数。"
         }
+      ],
+      "partId": "part-001065"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000097-figure-004.jpg",
+      "assetId": "asset-003152",
+      "alt": "原卷示意图：3-4-1 写出四⽅相能表⽰出超氧和过氧特点的化学式；写出⽴⽅相晶体结构中双氧负离⼦的氧化数。",
+      "label": "3-4-1 写出四⽅相能表⽰出超氧和过氧特点的化学式；写出⽴⽅相晶体结构中双氧负离⼦的氧化数。",
+      "caption": "3-4-1 写出四⽅相能表⽰出超氧和过氧特点的化学式；写出⽴⽅相晶体结构中双氧负离⼦的氧化数。",
+      "displayWidth": 100
+    },
+    {
+      "type": "subpart",
+      "label": "3-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Cs的过氧和/或超氧化合物的晶体结构如下图,在一定温度或压力作用下电荷无序(charge-disordered)的立方相(只有一种O-O键⻓)可以转变为电荷有序(charge ordered)的四方相(存在二种O-O键⻓:分别用红色和橙色表示)。图A的立方相中的双氧阴离子 O _ { 2 } ^ { n - } 有三种取向(对称性等价),分别平行于晶轴(绿球表示铯原子,红球表示氧原子);图B四方相中的 \\mathrm { O _ { 2 } } ^ { - } , \\mathrm { O } _ { 2 } { } ^ { 2 - } 有序排列,除顶点以及四个面上各有一个 { \\mathrm { O } } _ { 2 } ^ { n - } 外其它所有原子都在正当晶胞内(绿球表示铯原子,其它球表示氧原子)。"
+        }
+      ],
+      "partId": "part-001066"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000097-figure-005.jpg",
+      "assetId": "asset-003153",
+      "alt": "原卷示意图：3-4-2 指出四⽅相中平⾏于�轴的 $O _ { 2 } ^ { n - }$ 0是 $\\mathrm { O _ { 2 } } ^ { - }$ −还是 $\\mathrm { O } _ { 2 } { } ^ { 2 - 2 }$",
+      "label": "3-4-2 指出四⽅相中平⾏于�轴的 $O _ { 2 } ^ { n - }$ 0是 $\\mathrm { O _ { 2 } } ^ { - }$ −还是 $\\mathrm { O } _ { 2 } { } ^ { 2 - 2 }$",
+      "caption": "3-4-2 指出四⽅相中平⾏于�轴的 $O _ { 2 } ^ { n - }$ 0是 $\\mathrm { O _ { 2 } } ^ { - }$ −还是 $\\mathrm { O } _ { 2 } { } ^ { 2 - 2 }$",
+      "displayWidth": 100
+    },
+    {
+      "type": "paragraph",
+      "text": "图A"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000097-figure-006.jpg",
+      "assetId": "asset-003154",
+      "alt": "图A",
+      "label": "图A",
+      "caption": "图A",
+      "displayWidth": 100
+    },
+    {
+      "type": "paragraph",
+      "text": "图B"
+    },
+    {
+      "type": "subpart",
+      "label": "3-4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出四方相能表示出超氧和过氧特点的化学式;写出立方相晶体结构中双氧负离子的氧化数。"
+        }
+      ],
+      "partId": "part-001067"
+    },
+    {
+      "type": "subpart",
+      "label": "3-4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "指出四方相中平行于方向轴的 O _ { 2 } ^ { n - } 0是 \\mathrm { O _ { 2 } } ^ { - } −还是 \\mathrm { O } _ { 2 } { } ^ { 2 - 2 }"
+        }
+      ],
+      "partId": "part-001068"
+    },
+    {
+      "type": "paragraph",
+      "text": "第四题(8分)铝粉可作为制备火箭推进剂和炸药等的高能组分,不同尺度的铝粉在不同环境中的氧化,点火和燃烧等研究备受关注。在100kPa下,Al, \\mathrm { { A l } _ { 2 } \\mathrm { { O } _ { 3 } } } 的熔点分别为 933 K 和 2327 K,熔化焓分别为 10.71 kJ\\mathrm { m o l ^ { - } } 1 和 111.4 kJ mol−1,沸点分别为 2790 K 和 3253 K,Al 的气化焓为 294.0 kJ \\mathrm { m o l ^ { - } } 1,AlN易升华。下表中给出有关物质在298.15K的标准摩尔生成焓,标准摩尔熵,以及指定温区内的平均热容。"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "物质",
+        "$\\Delta_{\\text{f}}H_{\\text{m}}^{\\ominus}/\\text{kJ mol}^{-1}$",
+        "$S_{\\text{m}}^{\\ominus}/\\text{J mol}^{-1}\\text{K}^{-1}$",
+        "$\\bar{C}_{\\text{p,m}}^{\\ominus}/\\text{J mol}^{-1}\\text{K}^{-1}$"
+      ],
+      "rows": [
+        [
+          "Al(g)",
+          "329.70",
+          "164.55",
+          "20.77 (2790~6000 K)"
+        ],
+        [
+          "Al(l)",
+          "10.56",
+          "39.55",
+          "31.75 (933~2790 K)"
+        ],
+        [
+          "Al(s)",
+          "0",
+          "28.30",
+          "28.07 (298~933 K)"
+        ],
+        [
+          "$Al_{2}O_{3}(l)$",
+          "-1620.57",
+          "67.24",
+          "192.46 (2327~3253 K)"
+        ],
+        [
+          "$Al_{2}O_{3}(s)$",
+          "-1675.7",
+          "50.92",
+          "130.08 (298~2327 K)"
+        ],
+        [
+          "AlN(g)",
+          "523.00",
+          "228.50",
+          "37.76 (298~6000 K)"
+        ],
+        [
+          "AlN(s)",
+          "-317.98",
+          "20.14",
+          "43.52 (298~900 K)"
+        ],
+        [
+          "$O_2(g)$",
+          "0",
+          "205.20",
+          "36.77"
+        ],
+        [
+          "$N_2(g)$",
+          "0",
+          "191.6",
+          "34.91"
+        ]
       ]
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000137",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,17 +10,41 @@
   "source": {
     "sourceDocumentId": "source-000056",
     "sourceLabel": "2021-35-CChO-chusai-jiangsu.pdf",
-    "page": null,
+    "pages": [
+      3
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "⽔煤气制备过程会发生如下两个反应： $$ \\begin{array}{l l}\\mathrm {C(s)+ H_ {2} O(g)\\rightarrow H_ {2} (g) + CO(g)}&K _ {I} ^ {\\ominus}\\\\\\mathrm {CO(g)+ H_ {2} O(g)\\rightarrow H_ {2} (g) + CO_ {2} (g)}&K _ {I I} ^ {\\ominus}\\end{array} $$ 已知所涉及物质在298K时的热力学数据如下表： 请作适当的近似处理，回答以下问题。 6-1 求算以上两个反应在 1300K时的平衡常数 $K _ { \\mathrm { I } } ^ { \\ominus }$ 和 $K _ { \\mathrm { I I } } ^ { \\ominus }$ 。 6-2 设 $\\mathrm { 1 m o l H _ { 2 } O }$ 与过量的C(s)在1300 K，100 kPa条件下反应达到平衡，求各气体物质的摩尔分数（若 ${ \\bf 6 - }$ 1问没能求算出结果，可取 $K _ { \\mathrm { I } } ^ { \\ominus } \\ = 5 0$ $K _ { \\mathrm { I I } } ^ { \\ominus } = 0 . 2 0 )$"
+      "text": "水煤气制备过程会发生如下两个反应: \\mathrm {C(s)+ H_ {2} O(g)\\rightarrow H_ {2} (g) + CO(g)}&K _ {I} ^ {\\ominus}\\\\\\mathrm {CO(g)+ H_ {2} O(g)\\rightarrow H_ {2} (g) + CO_ {2} (g)}&K _ {I I} ^ {\\ominus} 已知所涉及物质在298K时的热力学数据如下表: 请作适当的近似处理,回答以下问题。"
+    },
+    {
+      "type": "subpart",
+      "label": "6-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "求算以上两个反应在 1300K时的平衡常数 $K _ { \\mathrm { I } } ^ { \\ominus }$ 和 $K _ { \\mathrm { I I } } ^ { \\ominus }$ 。"
+        }
+      ],
+      "partId": "part-000259"
+    },
+    {
+      "type": "subpart",
+      "label": "6-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "设 $\\mathrm { 1 m o l H _ { 2 } O }$ 与过量的C(s)在1300 K,100 kPa条件下反应达到平衡,求各气体物质的摩尔分数(若 ${ \\bf 6 - }$ 1问没能求算出结果,可取 $K _ { \\mathrm { I } } ^ { \\ominus } \\ = 50$ $K _ { \\mathrm { I I } } ^ { \\ominus } = 0.20 )$"
+        }
+      ],
+      "partId": "part-000260"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

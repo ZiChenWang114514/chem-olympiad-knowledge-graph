@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000397",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,47 +8,53 @@
   "examYear": 2012,
   "examStage": "preliminary",
   "source": {
-    "sourceDocumentId": "source-000046",
     "sourceLabel": "2012-26-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      2
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
+    "sourceDocumentId": "source-000046"
   },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000397-01",
+      "type": "paragraph",
+      "text": "第7题 硼的总浓度≥0.4M的硼酸及其盐的水溶液中不仅存在四硼酸根离子 $\\mathrm { B } _ { 4 } \\mathrm { O } _ { 5 } ( \\mathrm { OH } ) _ { 4 } { } ^ { 2 - }$ ,还存在电荷为−1的五硼酸根离子以及电荷为−1和−2的两种三硼酸根离子.这些多硼酸根离子和 $\\mathrm { B ( OH ) _ { 4 } }$ −缩合而成,结构中硼原子以 $_ { \\mathrm { B - O - B } }$ 的方式连接成环."
+    },
+    {
+      "type": "subpart",
       "label": "7-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "上述五硼酸根离子中,所有三配位硼原子的化学环境完全相同,画出其结构示意图(不画孤对电子,羟基用—OH 表达)。"
+          "text": "上述五硼酸根离子中,所有三配位硼原子的化学环境完全相同,画出其结构示意图(不画孤对电子,羟基用—OH 表达)"
         }
-      ]
+      ],
+      "partId": "part-002483"
     },
     {
-      "id": "part-000397-02",
+      "type": "subpart",
       "label": "7-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "下图示出硼酸-硼酸盐体系在硼的总浓度为 0.4 M 时,其存在形式与 pH 的关系。1、2、3、4 分别为 4 种多硼酸根离子存在的区域。推出 1、2、3、4 分别对应的多硼酸根离子的化学式。"
-        },
-        {
-          "type": "paragraph",
-          "text": "注:以 $\\mathrm{B_4O_5(OH)_4^{2-}}$ 为范例,书写其他 3 种多硼酸根离子的化学式;形成这些物种的缩合反应速率几乎相同,其排列顺序不受反应速率制约;本体系中缩合反应不改变硼原子的配位数。"
+          "text": "下图示出硼酸-硼酸盐体系在硼的总浓度为0.4M时,其存在形式与pH的关系.1,2,3, 别为4种多硼酸根离子存在的区域.推出1,2,3, 别对应的多硼酸根离子的化学式."
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000397-figure-001.jpg",
-          "alt": "晶体结构或分子模型示意图（原图）",
-          "caption": "硼酸-硼酸盐体系存在形式与 pH 关系图"
+          "alt": "原卷第7题图1：下图示出硼酸-硼酸盐体系在硼的总浓度为0.4M时,其存在形式与pH的关系.1,2,3, 别为4种多硼酸根离子存在的区域.推出1,2,3, 别",
+          "displayWidth": 70,
+          "assetId": "asset-003689"
+        },
+        {
+          "type": "paragraph",
+          "text": "注:以 $\\mathrm { B } _ { 4 } \\mathrm { O } _ { 5 } ( \\mathrm { OH } ) _ { 4 } { } ^ { 2 - }$ 为范例,书写其他3种多硼酸根离子的化学式;形成这些物种的缩合反应速率几乎相同,其排列顺序不受反应速率制约;本体系中缩合反应不改变硼原子的配位数."
         }
-      ]
+      ],
+      "partId": "part-002484"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

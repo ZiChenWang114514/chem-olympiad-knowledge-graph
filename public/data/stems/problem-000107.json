@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000107",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,48 +8,97 @@
   "examYear": 2020,
   "examStage": "final",
   "source": {
-    "sourceDocumentId": "source-000016",
     "sourceLabel": "2020-34-CChO-juesai-2.pdf",
-    "page": null,
+    "pages": [
+      2
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000016"
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "赖氨酸⼜名2,6-二氨基⼰酸（简写Lys， C _ 6 H _ 1 4 N _ 2 O _ 2 ) ，是种人体必需氨基酸，在⽔溶液中有4种分布形式（用 H _ 2 A ^ 2 + ，HA+，A和A−表示）。若用1 . 0 0 m o l L ^ - 1 的 NaOH 溶液滴定等浓度的 H _ 2 A ^ 2 + ，得到如下曲线（横坐标为滴定分数 r α = / ( c V ) _ N a O H ( c V ) _ H _ 2 A ^ 2 + ，纵坐标为溶液 pH）： α"
+      "text": "第4题 赖氨酸又名2,6-二氨基己酸(简写Lys, C _ 6H _ 14N _ 2O _ 2 ) ,是种人体必需氨基酸,在水溶液中有4种分布形式(用 H _ 2A ^ 2 + ,HA+,A和A−表示).若用1.00molL ^ - 1 的 NaOH 溶液滴定等浓度的 H _ 2A ^ 2 + ,得到如下曲线(横坐标为滴定分数 r α = / ( cV ) _ NaOH ( cV ) _ H _ 2A ^ 2 + ,纵坐标为溶液 pH):"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000107-figure-001.jpg",
-      "alt": "problem-000107题目配图第1幅（结构或数据示意图）"
+      "alt": "原卷第4题图1：第4题 赖氨酸又名2,6-二氨基己酸(简写Lys, C _ 6H _ 14N _ 2O _ 2 ) ,是种人体必需氨基酸,在水溶液中有4种分",
+      "displayWidth": 70,
+      "assetId": "asset-003465"
     },
     {
       "type": "paragraph",
-      "text": "4-1 根据该曲线，计算赖氨酸的等电点pI以及 p H = 9 . 6 0时赖氨酸4种分布形式的平衡浓度。"
+      "text": "α"
     },
     {
-      "type": "paragraph",
-      "text": "4-2 实验室现有 0.10 mol L−1 N a O H 溶液、0 . 1 0 m o l L ^ - 1 HCl溶液、草酸基准物质 ( H _ 2 C _ 2 O _ 4 × 2 H _ 2 O , 126.07 gmol−1)、邻苯二甲酸氢钾基准物质( K H C _ 8 H _ 4 O _ 4 , 2 0 4 . 2 2 g m o l ^ - 1 )、三(羟甲基)氨基甲烷基准物质（简称Tris, ( H O C H _ 2 ) _ 3 C N H _ 2 K _ b _ b _ ell = 1 . 1 5 × 1 0 ^ - 6 1 2 1 . 1 4 g m o l ^ - 1 )）、碳酸钠基准物质 ( N a _ 2 C O _ 3 , 105.99 g mol−1)，以及酚酞、甲基橙和甲基红等三种指示剂液。欲用酸碱滴定法测定某化学纯赖氨酸试样的含量。"
+      "type": "subpart",
+      "label": "4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "根据该曲线,计算赖氨酸的等电点pI以及 pH = 9.60时赖氨酸4种分布形式的平衡浓度."
+        }
+      ],
+      "partId": "part-002026"
     },
     {
-      "type": "paragraph",
-      "text": "4-2-1 指出合适的滴定剂并简要说明理由，写出滴定反应化学方程式。"
+      "type": "subpart",
+      "label": "4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "实验室现有 0.10molL−1NaOH 溶液,0.10molL ^ - 1HCl溶液,草酸基准物质 ( H _ 2C _ 2O _ 4 × 2H _ 2O , 126.07gmol−1),邻苯二甲酸氢钾基准物质( KHC _ 8H _ 4O _ 4 , 204.22gmol ^ - 1 ),三(羟甲基)氨基甲烷基准物质(简称Tris, ( HOCH _ 2 ) _ 3CNH _ 2K _ b _ b _ ell = 1.15 × 10^-6121.14gmol ^ - 1 )),碳酸钠基准物质 ( Na _ 2CO _ 3 , 105.99gmol−1),以及酚酞,甲基橙和甲基红等三种指示剂液.欲用酸碱滴定法测定某化学纯赖氨酸试样的含量."
+        }
+      ],
+      "partId": "part-002027"
     },
     {
-      "type": "paragraph",
-      "text": "4-2-2 计算滴定终点时溶液 p H ，根据计算结果选择最佳指示剂。"
+      "type": "subpart",
+      "label": "4-2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "指出合适的滴定剂并简要说明理由,写出滴定反应化学方程式."
+        }
+      ],
+      "partId": "part-002028"
     },
     {
-      "type": "paragraph",
-      "text": "2-3 假设所选滴定剂的消耗量25 mL，通过计算所需基准物质的质量及其称量的相对误差确定最佳基准物质。"
+      "type": "subpart",
+      "label": "4-2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算滴定终点时溶液 pH ,根据计算结果选择最佳指示剂."
+        }
+      ],
+      "partId": "part-002029"
     },
     {
-      "type": "paragraph",
-      "text": "2-4 假设实验中准确称取? g赖氨酸试样（其摩尔质量用符号?表示），滴定⾄终点时消耗? mL浓度为? mol L−1的所选滴定剂标准溶液，写出该试样中赖氨酸质量分数(?)的计算式。"
+      "type": "subpart",
+      "label": "4-2-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "假设所选滴定剂的消耗量25mL,通过计算所需基准物质的质量及其称量的相对误差确定最佳基准物质."
+        }
+      ],
+      "partId": "part-002030"
+    },
+    {
+      "type": "subpart",
+      "label": "4-2-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "假设实验中准确称取 g赖氨酸试样(其摩尔质量用符号表示),滴定至终点时消耗 mL浓度为 molL−1的所选滴定剂标准溶液,写出该试样中赖氨酸质量分数()的计算式."
+        }
+      ],
+      "partId": "part-002031"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

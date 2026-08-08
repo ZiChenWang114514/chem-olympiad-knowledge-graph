@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000087",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,37 +8,42 @@
   "examYear": 2020,
   "examStage": "preliminary",
   "source": {
-    "sourceDocumentId": "source-000054",
     "sourceLabel": "2020-34-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      1
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
+    "sourceDocumentId": "source-000054"
   },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000087-01",
+      "type": "paragraph",
+      "text": "第3题 X是金属M的碱式碳酸盐,不含结晶水.称取质量相等的样品两份,分别进行处理:一份在$\\mathrm { H } _ { 2 }$ 中充分处理(反应1),收集得0.994g水,剩余残渣为金属M的单质,重2.356g;另一份则在CO中处理(反应2),完全反应后得 $1.245 \\mathrm { LCO _ { 2 } }$ (101.325kPa, 0 °C),剩余残渣和反应 1 的完全相同."
+    },
+    {
+      "type": "subpart",
       "label": "3-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "通过计算,推出 X 的化学式。"
+          "text": "通过计算,推出X的化学式."
         }
-      ]
+      ],
+      "partId": "part-002005"
     },
     {
-      "id": "part-000087-02",
+      "type": "subpart",
       "label": "3-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出 X 分别和 $\\mathrm{H_2}$、CO 反应的方程式(要求系数为最简整数比)。"
+          "text": "写出X分别和 $\\mathrm { H } _ { 2 \\mathrm { \\Delta } }$ CO反应的方程式(要求系数为最简整数比)."
         }
-      ]
+      ],
+      "partId": "part-002006"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

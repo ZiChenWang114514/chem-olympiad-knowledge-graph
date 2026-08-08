@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000391",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,19 +8,50 @@
   "examYear": 2012,
   "examStage": "preliminary",
   "source": {
-    "sourceDocumentId": "source-000046",
     "sourceLabel": "2012-26-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      1
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000046"
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "1-1 向硫酸锌⽔溶液中滴加适当浓度的氨⽔⾄过量，发生两步主要反应。简述实验现象并写出两步主要反应的离⼦方程式。 1-2 化合物 $[ \\mathrm { C u ( P y d c ) ( a m p ) } ] { \\cdot } 3 \\mathrm { H } _ { 2 } \\mathrm { O } ]$ 的组成为 $\\mathrm { C _ { 1 1 } H _ { 1 4 } C u N _ { 4 } O _ { 7 } }$ ，热重分析曲线表明，该化合物受热分解发生两步失重，第一个失重峰在 $2 0 0 { \\sim } 2 5 0 \\ ^ { \\circ } \\mathrm { C } ,$ ，失重的质量分数为 $1 5 . 2 \\% _ { \\textmd { o } }$ 第二个失重峰在 $4 0 0 { \\sim } 5 0 0 \\ ^ { \\circ } \\mathrm { C }$ ，失重后的固态残渣质量为原化合物质量的 20.0%。Pydc 和 amp 是含有芳环的有机配体。通过计算回答： 1. 第一步失重失去的组分。 2. 第二步失重后的固态残渣是什么，解释理由。"
+      "text": "## 第 1 题"
+    },
+    {
+      "type": "subpart",
+      "label": "1-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "向硫酸锌水溶液中滴加适当浓度的氨水至过量,发生两步主要反应.简述实验现象并写出两步主要反应的离子方程式."
+        }
+      ],
+      "partId": "part-002475"
+    },
+    {
+      "type": "subpart",
+      "label": "1-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "化合物 $[ \\mathrm { Cu ( Pydc ) ( amp ) } ] { \\cdot } 3 \\mathrm { H } _ { 2 } \\mathrm { O } ]$ 的组成为 $\\mathrm { C _ { 11 } H _ { 14 } CuN _ { 4 } O _ { 7 } }$ ,热重分析曲线表明,该化合物受热分解发生两步失重,第一个失重峰在 $200 { \\sim } 250 \\ ^ { \\circ } \\mathrm { C } ,$ ,失重的质量分数为 $15.2 \\% _ { \\textmd { o } }$ 第二个失重峰在 $400 { \\sim } 500 \\ ^ { \\circ } \\mathrm { C }$ ,失重后的固态残渣质量为原化合物质量的 20.0%.Pydc 和 amp 是含有芳环的有机配体.通过计算回答:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. 第一步失重失去的组分."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. 第二步失重后的固态残渣是什么,解释理由."
+        }
+      ],
+      "partId": "part-002476"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

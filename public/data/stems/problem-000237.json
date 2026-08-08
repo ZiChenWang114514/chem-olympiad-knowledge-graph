@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000237",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,18 +10,15 @@
   "source": {
     "sourceDocumentId": "source-000062",
     "sourceLabel": "2024-38-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      6
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000237-01",
+      "type": "subpart",
       "label": "8-1",
       "blocks": [
         {
@@ -30,14 +27,17 @@
         },
         {
           "type": "figure",
-          "caption": "选项 a-d 的化合物结构",
+          "src": "data/stems/assets/problem-000237-figure-001.jpg",
           "alt": "四个化合物的结构式,分别标记为 a、b、c、d",
-          "src": "data/stems/assets/problem-000237-figure-001.jpg"
+          "displayWidth": 80,
+          "caption": "选项 a-d 的化合物结构",
+          "assetId": "asset-002954"
         }
-      ]
+      ],
+      "partId": "part-000504"
     },
     {
-      "id": "part-000237-02",
+      "type": "subpart",
       "label": "8-2",
       "blocks": [
         {
@@ -46,9 +46,11 @@
         },
         {
           "type": "figure",
-          "caption": "待鉴别化合物的结构",
+          "src": "data/stems/assets/problem-000237-figure-002.jpg",
           "alt": "三个化合物的结构式",
-          "src": "data/stems/assets/problem-000237-figure-002.jpg"
+          "displayWidth": 80,
+          "caption": "待鉴别化合物的结构",
+          "assetId": "asset-002955"
         },
         {
           "type": "paragraph",
@@ -56,26 +58,33 @@
         },
         {
           "type": "figure",
+          "src": "data/stems/assets/problem-000237-figure-003.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "displayWidth": 80,
+          "caption": "图 5",
+          "assetId": "asset-002956"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000237-figure-004.jpg",
+          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
+          "displayWidth": 80,
+          "caption": "图 6",
+          "assetId": "asset-002957"
+        },
+        {
+          "type": "figure",
           "src": "data/stems/assets/problem-000237-figure-005.jpg",
           "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-          "caption": "图 5"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000237-figure-006.jpg",
-          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-          "caption": "图 6"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000237-figure-007.jpg",
-          "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-          "caption": "图 7"
+          "displayWidth": 80,
+          "caption": "图 7",
+          "assetId": "asset-002958"
         }
-      ]
+      ],
+      "partId": "part-000505"
     },
     {
-      "id": "part-000237-03",
+      "type": "subpart",
       "label": "8-3",
       "blocks": [
         {
@@ -84,22 +93,20 @@
         },
         {
           "type": "figure",
-          "caption": "四个化合物的结构及指定 C-H 键的 pKa 值",
+          "src": "data/stems/assets/problem-000237-figure-006.jpg",
           "alt": "四个化合物的结构式,标注了指定碳氢键的 pKa 值",
-          "src": "data/stems/assets/problem-000237-figure-003.jpg"
+          "displayWidth": 80,
+          "caption": "四个化合物的结构及指定 C-H 键的 pKa 值",
+          "assetId": "asset-002959"
         },
         {
           "type": "figure",
-          "src": "data/stems/assets/problem-000237-figure-008.jpg",
+          "src": "data/stems/assets/problem-000237-figure-007.jpg",
           "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-          "caption": "图 8"
-        }
-      ]
-    },
-    {
-      "id": "part-000237-04",
-      "label": "8-3",
-      "blocks": [
+          "displayWidth": 80,
+          "caption": "图 8",
+          "assetId": "asset-002960"
+        },
         {
           "type": "paragraph",
           "text": "8-3-1 氮原子的电负性大于硫,而化合物 3 的酸性却显著大于 1,其原因在于: ( )\n(a) 化合物 3 形成的负离子稳定; (b) 碳负离子孤对电子对 C-S 键反键轨道的超共轭效应比 C-N 键的强; (c) 噻吩环的芳香性弱; (d) 以上答案都不对。"
@@ -116,10 +123,11 @@
           "type": "paragraph",
           "text": "8-3-4 有人想用 2-溴噻吩和乙炔钠进行反应,结果意外检测到了反应的副产物。你认为副产物可能是: ( )\n(a) 2,5-二溴噻吩; (b) 四氢噻吩; (c) 噻吩; (d) 以上答案都不对。"
         }
-      ]
+      ],
+      "partId": "part-000506"
     },
     {
-      "id": "part-000237-05",
+      "type": "subpart",
       "label": "8-5",
       "blocks": [
         {
@@ -128,9 +136,11 @@
         },
         {
           "type": "figure",
-          "caption": "聚合物 A 和 B 的结构片段",
+          "src": "data/stems/assets/problem-000237-figure-008.jpg",
           "alt": "两种聚合物的结构片段,分别标记为 A 和 B",
-          "src": "data/stems/assets/problem-000237-figure-004.jpg"
+          "displayWidth": 80,
+          "caption": "聚合物 A 和 B 的结构片段",
+          "assetId": "asset-002961"
         },
         {
           "type": "paragraph",
@@ -140,25 +150,67 @@
           "type": "figure",
           "src": "data/stems/assets/problem-000237-figure-009.jpg",
           "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-          "caption": "图 9"
+          "displayWidth": 80,
+          "caption": "图 9",
+          "assetId": "asset-002962"
         },
         {
           "type": "figure",
           "src": "data/stems/assets/problem-000237-figure-010.jpg",
           "alt": "题目插图,依据原图展示化学结构、反应、数据图表或实验示意。",
-          "caption": "图 10"
+          "displayWidth": 80,
+          "caption": "图 10",
+          "assetId": "asset-002963"
         }
-      ]
+      ],
+      "partId": "part-000508"
     },
     {
-      "id": "part-000237-06",
+      "type": "subpart",
       "label": "8-6",
       "blocks": [
         {
           "type": "paragraph",
           "text": "某化合物酮 A 的化学式为 $\\ce{C7H14O}$ ,它在 NaOH 溶液中与 $\\ce{I2}$ 反应后,生成 B 和一黄色沉淀。B 经酸化处理提纯后,再用 P 和 $\\ce{Br2}$ 处理,再经 NaOH 处理生成 C,C 用催化量的高锰酸钾和 $\\ce{NaIO4}$ 溶液处理后得到分子量为 74 的一元酸 D 和另一个一元酸 E。画出化合物 A 的结构式。"
         }
-      ]
+      ],
+      "partId": "part-000509"
+    },
+    {
+      "type": "subpart",
+      "label": "8-3-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "氮原子的电负性大于硫,而化合物 3 的酸性却显著大于 1,其原因在于:()"
+        }
+      ],
+      "partId": "part-000510"
+    },
+    {
+      "type": "subpart",
+      "label": "8-3-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "氧原子的电负性大于硫,而化合物 3 的酸性却大于 4,其原因在于:()"
+        }
+      ],
+      "partId": "part-000511"
+    },
+    {
+      "type": "subpart",
+      "label": "8-3-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "你认为化合物 5 的 $pK_{a}$ 值大概是: ( )"
+        }
+      ],
+      "partId": "part-000512"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

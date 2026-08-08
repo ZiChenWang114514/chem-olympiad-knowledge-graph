@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000032",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,55 +10,59 @@
   "source": {
     "sourceDocumentId": "source-000051",
     "sourceLabel": "2017-31-CChO-chusai.pdf",
-    "page": null,
+    "pages": [
+      1
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
-  },
-  "blocks": [],
-  "parts": [
+  "blocks": [
     {
-      "id": "part-000032-01",
+      "type": "subpart",
       "label": "2-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "氨晶体中,氨分子中的每个 H 均参与一个氢键的形成。N 原子邻接几个氢原子?1 摩尔固态氨中有几摩尔氢键?氨晶体融化时固态氨是下沉还是漂浮在液氨的液面上?"
+          "text": "氨晶体中,氨分子中的每个 H 均参与一个氢键的形成。N 原子邻接几个氢原子？1 摩尔固态氨中有几摩尔氢键？氨晶体融化时固态氨是下沉还是漂浮在液氨的液面上？"
         }
-      ]
+      ],
+      "partId": "part-000063"
     },
     {
-      "id": "part-000032-02",
+      "type": "subpart",
       "label": "2-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$\\mathrm{P_4S_5}$ 是个多面体分子,结构中的多边形虽非平面状,但仍符合欧拉定律,两种原子成键后价层均满足 8 电子,S 的氧化数为 −2。画出该分子的结构图(用元素符号表示原子)。"
+          "text": "$\\mathrm{P_4S_5}$ 是个多面体分子,结构中的多边形虽非平面状,但仍符合欧拉定律,两种原子成键后价层均满足 8 电子,S 的氧化数为 -2。画出该分子的结构图(用元素符号表示原子)。"
         }
-      ]
+      ],
+      "partId": "part-000064"
     },
     {
-      "id": "part-000032-03",
+      "type": "subpart",
       "label": "2-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "水煤气转化反应 $\\mathrm{CO(g) + H_2O(g) \\rightarrow H_2(g) + CO_2(g)}$ 是一个重要的化工过程。已知如下键能(BE)数据:$\\mathrm{BE(C \\equiv O) = 1072\\ kJ\\ mol^{-1}}$,$\\mathrm{BE(O-H) = 463\\ kJ\\ mol^{-1}}$,$\\mathrm{BE(C=O) = 799\\ kJ\\ mol^{-1}}$,$\\mathrm{BE(H-H) = 436\\ kJ\\ mol^{-1}}$。估算反应热。该反应低温还是高温有利?简述理由。"
+          "text": "水煤气转化反应 $\\mathrm{CO(g) + H_2O(g) \\rightarrow H_2(g) + CO_2(g)}$ 是一个重要的化工过程。已知如下键能(BE)数据:$\\mathrm{BE(C \\equiv O) = 1072\\ kJ\\ mol^{-1}}$,$\\mathrm{BE(O-H) = 463\\ kJ\\ mol^{-1}}$,$\\mathrm{BE(C=O) = 799\\ kJ\\ mol^{-1}}$,$\\mathrm{BE(H-H) = 436\\ kJ\\ mol^{-1}}$。估算反应热。该反应低温还是高温有利？简述理由。"
         }
-      ]
+      ],
+      "partId": "part-000065"
     },
     {
-      "id": "part-000032-04",
+      "type": "subpart",
       "label": "2-4",
       "blocks": [
         {
           "type": "paragraph",
           "text": "硫粉和 $\\mathrm{S^{2-}}$ 反应可以生成多硫离子。在 10 mL $\\mathrm{S^{2-}}$ 溶液中加入 0.080 g 硫粉,控制条件使硫粉完全反应,检测到溶液中最大聚合度的多硫离子是 $\\mathrm{S_3^{2-}}$,且 $\\mathrm{S_n^{2-}}\\ (n=1,2,3,\\cdots)$ 离子浓度之比符合等比数列 $1, 10, \\cdots, 10^{n-1}$。若不考虑其他副反应,计算反应后溶液中 $\\mathrm{S^{2-}}$ 的浓度 $c_1$ 和其起始浓度 $c_0$。"
         }
-      ]
+      ],
+      "partId": "part-000066"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

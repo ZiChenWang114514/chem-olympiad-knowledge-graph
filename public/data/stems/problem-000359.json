@@ -1,26 +1,76 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000359",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "配位化学与电子结构",
-  "number": "5",
+  "number": "Q5",
   "examYear": 2010,
   "examStage": "preliminary",
   "source": {
     "sourceDocumentId": "source-000041",
     "sourceLabel": "2010-24-CChO-chusai.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      2
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第5题（11分）把红热的玻棒插入橙红色固体A中，A受热后喷射出灰绿色粉末B和无色无味气体 $\\mathbf { C } _ { \\circ }$ 镁在C中加热生成灰色固体D。B在过量的NaOH溶液中加热溶解，得到绿色溶液 $\\mathbf { E } _ { \\circ }$ 。将适量 $\\mathrm { H _ { 2 } O _ { 2 } }$ 加入E中，加热，得到⻩色溶液F。F酸化后变为橙色溶液 $\\mathbf { G } _ { \\circ }$ 。向G中加入 $\\mathrm { { P b } ( N O _ { 3 } ) ; }$ 2 溶液，得到⻩色沉淀H。 5-1 写出A、B、C、D、E、F、G和H的化学式。 5-2 写出由E转变为F，F转变为G，G转变为H的离⼦方程式。 5-3 A中的金属元素M可以形成 $\\mathbf { M O } _ { 2 }$ 和 $\\mathrm { Z n } { \\bf M } _ { 2 } \\mathrm { O } _ { 4 }$ ，它们均为磁性材料，⼴泛用于制作磁带和磁盘。分别写出$\\mathbf { M O } _ { 2 }$ 和 $\\mathrm { Z n { \\bf M } _ { 2 } O _ { 4 } }$ 中M的价电⼦组态。 5-4 A中的金属元素M可以形成不同形式的羰基化合物或者羰基阴离⼦，按照18电⼦规则画出 $\\mathrm { N a _ { 2 } [ M _ { 2 } ( C O ) _ { 1 0 } ] }$ ]的阴离⼦结构，指出M的氧化态。"
+      "text": "第5题(11分)把红热的玻棒插入橙红色固体A中,A受热后喷射出灰绿色粉末B和无色无味气体 \\mathbf { C } _ { \\circ } 镁在C中加热生成灰色固体D。B在过量的NaOH溶液中加热溶解,得到绿色溶液 \\mathbf { E } _ { \\circ } 。将适量 \\mathrm { H _ { 2 } O _ { 2 } } 加入E中,加热,得到⻩色溶液F。F酸化后变为橙色溶液 \\mathbf { G } _ { \\circ } 。向G中加入 \\mathrm { { P b } ( N O _ { 3 } ) ; } <sub>2</sub>溶液,得到⻩色沉淀H。"
+    },
+    {
+      "type": "subpart",
+      "label": "5-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出A,B,C,D,E,F,G和H的化学式。"
+        }
+      ],
+      "partId": "part-001708"
+    },
+    {
+      "type": "subpart",
+      "label": "5-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "写出由E转变为F,F转变为G,G转变为H的离子方程式。"
+        }
+      ],
+      "partId": "part-001709"
+    },
+    {
+      "type": "subpart",
+      "label": "5-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A中的金属元素M可以形成 \\mathbf { M O } _ { 2 } 和 \\mathrm { Z n } { \\bf M } _ { 2 } \\mathrm { O } _ { 4 } ,它们均为磁性材料,广泛用于制作磁带和磁盘。分别写出\\mathbf { M O } _ { 2 } 和 \\mathrm { Z n { \\bf M } _ { 2 } O _ { 4 } } 中M的价电子组态。"
+        }
+      ],
+      "partId": "part-001710"
+    },
+    {
+      "type": "subpart",
+      "label": "5-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A中的金属元素M可以形成不同形式的羰基化合物或者羰基阴离子,按照18电子规则画出"
+        }
+      ],
+      "partId": "part-001711"
+    },
+    {
+      "type": "paragraph",
+      "text": "\\mathrm { N a _ { 2 } [ M _ { 2 } ( C O ) _ { 10 } ] } ]的阴离子结构,指出M的氧化态。"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

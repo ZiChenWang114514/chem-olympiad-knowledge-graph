@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000244",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,13 +10,13 @@
   "source": {
     "sourceDocumentId": "source-000031",
     "sourceLabel": "2024年全国中学生化学竞赛决赛试题(第一场).pdf",
-    "page": null,
+    "pages": [
+      7,
+      8,
+      9
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "题干依据来源材料整理并经文字、公式与排版校对；请以正式试卷为准。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
@@ -26,11 +26,9 @@
     {
       "type": "paragraph",
       "text": "表5.1物质的标准摩尔生成吉布斯自由能和标准摩尔生成焓(298.15K, $p^{\\ominus}$)"
-    }
-  ],
-  "parts": [
+    },
     {
-      "id": "part-000244-01",
+      "type": "subpart",
       "label": "5-1",
       "blocks": [
         {
@@ -57,25 +55,27 @@
           "type": "paragraph",
           "text": "(填“大于”、“小于”、“等于”或“无法判断”)"
         }
-      ]
+      ],
+      "partId": "part-000513"
     },
     {
-      "id": "part-000244-02",
+      "type": "subpart",
       "label": "5-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "AA与PAA的上述性质存在差异,这在很大程度上可以归因于什么?"
+          "text": "AA与PAA的上述性质存在差异,这在很大程度上可以归因于什么？"
         }
-      ]
+      ],
+      "partId": "part-000514"
     },
     {
-      "id": "part-000244-03",
+      "type": "subpart",
       "label": "5-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "PAA性质不稳定。PAA存放过程中除自然分解外,影响其分解的因素还有光、浓度、温度、酸度及溶液中的金属离子等。为了增加市售PAA溶液(含不同浓度的PAA、AA、HP、水)的保存期,常添加稳定剂到PAA溶液中。以下化合物中,哪些对提高PAA溶液的稳定性有作用?A. 焦磷酸钠 B. 硫酸钠 C. 硫代硫酸钠 D. 尿素 E. 氯苯 F. 乙二胺四乙酸二钠"
+          "text": "PAA性质不稳定。PAA存放过程中除自然分解外,影响其分解的因素还有光、浓度、温度、酸度及溶液中的金属离子等。为了增加市售PAA溶液(含不同浓度的PAA、AA、HP、水)的保存期,常添加稳定剂到PAA溶液中。以下化合物中,哪些对提高PAA溶液的稳定性有作用？A. 焦磷酸钠 B. 硫酸钠 C. 硫代硫酸钠 D. 尿素 E. 氯苯 F. 乙二胺四乙酸二钠"
         },
         {
           "type": "paragraph",
@@ -94,10 +94,11 @@
           "type": "paragraph",
           "text": "(可做合理假设,结果保留至小数点后第2位)"
         }
-      ]
+      ],
+      "partId": "part-000515"
     },
     {
-      "id": "part-000244-04",
+      "type": "subpart",
       "label": "5-5",
       "blocks": [
         {
@@ -114,7 +115,7 @@
         },
         {
           "type": "paragraph",
-          "text": "5-5-4 工业上不选择乙酸酐氧化法制备PAA的根本原因是什么?"
+          "text": "5-5-4 工业上不选择乙酸酐氧化法制备PAA的根本原因是什么？"
         },
         {
           "type": "heading",
@@ -139,43 +140,72 @@
         },
         {
           "type": "paragraph",
-          "text": "$$\\begin{array}{c c c c c} & \\mathrm{CH_3COOH} + \\mathrm{H_2O_2} & \\xrightarrow[\\mathrm{H_2SO_4}, k_2]{k_1} & \\mathrm{CH_3COOOH} + \\mathrm{H_2O} \\\\ & \\mathbf{A} & \\mathbf{B} & \\mathbf{C} & \\mathbf{D} \\\\ t=0 & c_0(\\mathrm{A}) & c_0(\\mathrm{B}) & c_0(\\mathrm{C})=0 & c_0(\\mathrm{D}) \\end{array}\\tag{*}$$"
+          "text": " & \\mathrm{CH_3COOH} + \\mathrm{H_2O_2} & \\xrightarrow[\\mathrm{H_2SO_4}, k_2]{k_1} & \\mathrm{CH_3COOOH} + \\mathrm{H_2O} \\\\ & \\mathbf{A} & \\mathbf{B} & \\mathbf{C} & \\mathbf{D} \\\\ t=0 & c_0(\\mathrm{A}) & c_0(\\mathrm{B}) & c_0(\\mathrm{C})=0 & c_0(\\mathrm{D}) "
         },
         {
           "type": "paragraph",
           "text": "第38届中国化学奥林匹克(决赛)理论第一场试题2024年10月26日 广州"
         }
-      ]
+      ],
+      "partId": "part-000516"
     },
     {
-      "id": "part-000244-05",
+      "type": "subpart",
       "label": "5-6",
       "blocks": [
         {
           "type": "paragraph",
           "text": "5-6-1 根据表 5.2 和表 5.3 数据,求 303.15 K 下 $k_{1\\mathrm{obs}}$、$k_{2\\mathrm{obs}}$ 与 $c(\\mathrm{H^+})$ 的关系及速率常数 $k_1$、$k_2$ 的值。"
         }
-      ]
+      ],
+      "partId": "part-000517"
     },
     {
-      "id": "part-000244-06",
-      "label": "5-6",
+      "type": "subpart",
+      "label": "5-6-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "5-6-2 基于以上结果,推导出反应(*)中B和C的浓度随反应时间的变化 $\\mathrm{d}c(\\mathrm{B})/\\mathrm{d}t$、$\\mathrm{d}c(\\mathrm{C})/\\mathrm{d}t$、$(\\mathrm{d}c(\\mathrm{C})/\\mathrm{d}t)_{\\mathrm{合成}}$、$(\\mathrm{d}c(\\mathrm{C})/\\mathrm{d}t)_{\\mathrm{水解}}$ 的表达式,其只含B和C的浓度作为变量,其他参数均为常数。"
+          "text": "5-6-2 基于以上结果,推导出反应(*)中B和C的浓度随反应时间的变化 $\\mathrm{d}c(\\mathrm{B})/\\mathrm{d}t$、$\\mathrm{d}c(\\mathrm{C})/\\mathrm{d}t$、$(\\mathrm{d}c(\\mathrm{C})/\\mathrm{d}t)_{\\text{合成}}$、$(\\mathrm{d}c(\\mathrm{C})/\\mathrm{d}t)_{\\text{水解}}$ 的表达式,其只含B和C的浓度作为变量,其他参数均为常数。"
         }
-      ]
+      ],
+      "partId": "part-000526"
     },
     {
-      "id": "part-000244-07",
-      "label": "5-6",
+      "type": "subpart",
+      "label": "5-5-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "5-6-3 为酸催化制备PAA提出一种合理的反应机理,注明反应决速步,推导出 $(\\mathrm{d}c(\\mathrm{C})/\\mathrm{d}t)_{\\mathrm{合成}}$ 的表达式,并与“5-6-2”的结果进行比较。(可做合理假设)"
+          "text": "5-5-1计算乙酸氧化法合成PAA反应的 $\\Delta _ { \\mathrm { r } } G _ { \\mathrm { m } } ^ { \\ominus }$ 与 $\\Delta _ { \\mathrm { r } } H _ { \\mathrm { m } } ^ { \\ominus }$ ,说明其工艺特点。5-5-2 计算乙酸酐氧化法合成PAA 反应的 $\\Delta _ { \\mathrm { r } } G _ { \\mathrm { m } } ^ { \\ominus }$ 与 $\\Delta _ { \\mathrm { r } } H _ { \\mathrm { m } } ^ { \\ominus }$ ,说明其工艺特点。5-5-3 计算乙酸酐氧化法生成 DAP 反应的 $\\Delta _ { \\mathrm { r } } G _ { \\mathrm { m } } ^ { \\ominus }$ ,说明生成DAP的可能性。5-54工业上不选择乙酸酐氧化法制备PAA的根本原因是什么？"
         }
-      ]
+      ],
+      "partId": "part-000522"
+    },
+    {
+      "type": "subpart",
+      "label": "5-5-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "5-5-1计算乙酸氧化法合成PAA反应的 $\\Delta _ { \\mathrm { r } } G _ { \\mathrm { m } } ^ { \\ominus }$ 与 $\\Delta _ { \\mathrm { r } } H _ { \\mathrm { m } } ^ { \\ominus }$ ,说明其工艺特点。5-5-2 计算乙酸酐氧化法合成PAA 反应的 $\\Delta _ { \\mathrm { r } } G _ { \\mathrm { m } } ^ { \\ominus }$ 与 $\\Delta _ { \\mathrm { r } } H _ { \\mathrm { m } } ^ { \\ominus }$ ,说明其工艺特点。5-5-3 计算乙酸酐氧化法生成 DAP 反应的 $\\Delta _ { \\mathrm { r } } G _ { \\mathrm { m } } ^ { \\ominus }$ ,说明生成DAP的可能性。5-54工业上不选择乙酸酐氧化法制备PAA的根本原因是什么？"
+        }
+      ],
+      "partId": "part-000523"
+    },
+    {
+      "type": "subpart",
+      "label": "5-6-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "根据表 5.2 和表 5.3 数据,求 303.15 K 下 $k _ { 1060 } , k _ { 2060 }$ 与c(H)的关系及速率常数$k _ { 1 }$ 、k2的值。"
+        }
+      ],
+      "partId": "part-000525"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

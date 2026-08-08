@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000247",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -10,13 +10,12 @@
   "source": {
     "sourceDocumentId": "source-000031",
     "sourceLabel": "2024年全国中学生化学竞赛决赛试题(第一场).pdf",
-    "page": null,
+    "pages": [
+      13,
+      14
+    ],
     "transcriptionMethod": "deepseek_polished",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
@@ -26,110 +25,130 @@
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000247-figure-001.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "Norrish-1 型和 Norrish-2 型反应示意图"
+      "alt": "化学反应路线与结构式示意图(原图)",
+      "displayWidth": 80,
+      "caption": "Norrish-1 型和 Norrish-2 型反应示意图",
+      "assetId": "asset-002973"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000247-figure-002.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "反应示意图"
+      "alt": "化学反应路线与结构式示意图(原图)",
+      "displayWidth": 80,
+      "caption": "反应示意图",
+      "assetId": "asset-002974"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000247-figure-003.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "C 和 D 的甲醇解反应示意图"
+      "alt": "化学反应路线与结构式示意图(原图)",
+      "displayWidth": 80,
+      "caption": "C 和 D 的甲醇解反应示意图",
+      "assetId": "asset-002975"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000247-figure-004.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "G 转化为 H 的反应示意图"
+      "alt": "化学反应路线与结构式示意图(原图)",
+      "displayWidth": 80,
+      "caption": "G 转化为 H 的反应示意图",
+      "assetId": "asset-002976"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000247-figure-005.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "J 的光反应示意图"
+      "alt": "化学反应路线与结构式示意图(原图)",
+      "displayWidth": 80,
+      "caption": "J 的光反应示意图",
+      "assetId": "asset-002977"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000247-figure-006.jpg",
-      "alt": "化学反应路线与结构式示意图（原图）",
-      "caption": "光反应示意图"
-    }
-  ],
-  "parts": [
+      "alt": "化学反应路线与结构式示意图(原图)",
+      "displayWidth": 80,
+      "caption": "光反应示意图",
+      "assetId": "asset-002978"
+    },
     {
-      "id": "part-000247-01",
+      "type": "subpart",
       "label": "8-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "碳氮双键也可被光激发,发生光诱导化学转化。画出下述反应的关键中间体。"
         }
-      ]
+      ],
+      "partId": "part-000548"
     },
     {
-      "id": "part-000247-02",
+      "type": "subpart",
       "label": "8-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "研究发现,一些 A 的类似化合物在非光照的常规条件下也能发生重排反应。如下图所示,化合物 C 和 D 仅有一个甲基取代的区别,但在甲醇解反应中却分别得到两种不同的产物 E 和 F。"
         }
-      ]
+      ],
+      "partId": "part-000549"
     },
     {
-      "id": "part-000247-03",
+      "type": "subpart",
       "label": "8-2-1",
       "blocks": [
         {
           "type": "paragraph",
           "text": "画出 C 到 E 经历的关键中间体。"
         }
-      ]
+      ],
+      "partId": "part-000550"
     },
     {
-      "id": "part-000247-04",
+      "type": "subpart",
       "label": "8-2-2",
       "blocks": [
         {
           "type": "paragraph",
           "text": "画出 D 到 F 经历的关键中间体。"
         }
-      ]
+      ],
+      "partId": "part-000551"
     },
     {
-      "id": "part-000247-05",
+      "type": "subpart",
       "label": "8-3",
       "blocks": [
         {
           "type": "paragraph",
           "text": "哌啶化合物 G 在光照下可转化为环戊胺 H,画出下述反应的关键中间体。"
         }
-      ]
+      ],
+      "partId": "part-000552"
     },
     {
-      "id": "part-000247-06",
+      "type": "subpart",
       "label": "8-4",
       "blocks": [
         {
           "type": "paragraph",
           "text": "苯甲酰硅化合物 J 在光照下并未发生 Norrish-1 型断裂,而是生成一种与 J 化学式相同且含有六电子碳原子的活性中间体,画出该中间体结构。"
         }
-      ]
+      ],
+      "partId": "part-000553"
     },
     {
-      "id": "part-000247-07",
+      "type": "subpart",
       "label": "8-5",
       "blocks": [
         {
           "type": "paragraph",
           "text": "下列光反应可生成 α-甲基苯乙烯、苯甲醛及化合物 K,高分辨质谱显示 K 的化学式为 $\\mathrm{C_{16}H_{16}O}$。画出 K 的结构,并注明立体化学。"
         }
-      ]
+      ],
+      "partId": "part-000554"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

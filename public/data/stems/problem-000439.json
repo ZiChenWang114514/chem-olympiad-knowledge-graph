@@ -1,75 +1,85 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000439",
   "rightsState": "stem_public",
   "language": "zh-CN",
   "title": "金属盐热分解转化",
-  "number": "1",
+  "number": "Q1",
   "examYear": 2014,
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000009",
     "sourceLabel": "2014-28-CChO-juesai.pdf",
-    "page": null,
-    "transcriptionMethod": "deepseek_polished",
+    "pages": [
+      1
+    ],
+    "transcriptionMethod": "ocr_reviewed",
     "transcribedAt": "2026-08-08"
-  },
-  "provenanceNote": "依据逐题 Markdown 与题目配图整理；公式和化学式已作排版校正。",
-  "renderingHints": {
-    "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "M 为常见金属,不溶于盐酸和稀硫酸,质地坚韧,富延展性。将 M 溶于硝酸后蒸发、浓缩、冷却得到 A 的水合盐。A 受热分解得到黑色固体 B。B 溶于盐酸,经蒸发、浓缩、冷却得到绿色晶体 C。B 溶于稀硫酸后经过蒸发、浓缩、冷却得到蓝色晶体 D。D 在 270 °C 恒温下生成白色粉末 E,E 经 600 °C 恒温后生成 B。"
-    }
-  ],
-  "parts": [
+      "text": "第 1 题(10 分)"
+    },
     {
-      "id": "part-000439-01",
+      "type": "paragraph",
+      "text": "M 为常⻅金属,不溶于盐酸和稀硫酸,质地坚韧,富延展性。将 M 溶于硝酸后蒸发,浓缩,冷却得到 A的水合盐。A受热分解得到黑色固体 \\mathbf { B } _ { \\circ } 。B溶于盐酸,经蒸发,浓缩,冷却得到绿色晶体 \\mathbf { C } _ { \\circ } 。B溶于稀硫酸后经过蒸发,浓缩,冷却得到蓝色晶体D。D在 270 ~ ^ { \\circ } \\mathrm { C } 恒温下生成白色粉末 \\mathbf { E } , ,E经 600 ~ ^ { \\circ } \\mathrm { C } 恒温后生成 \\mathbf { B } _ { \\circ }"
+    },
+    {
+      "type": "subpart",
       "label": "1-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出 A、B、C 和 E 的化学式。"
+          "text": "写出A,B,C和E的化学式。"
         }
-      ]
+      ],
+      "partId": "part-001819"
     },
     {
-      "id": "part-000439-02",
+      "type": "subpart",
       "label": "1-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "将 E 溶于水,加入过量的碘化钾溶液充分反应,其后缓慢滴加硫代硫酸钠溶液至过量。简述反应过程中发生的现象,写出相关反应的离子方程式。"
+          "text": "将E溶于水,加入过量的碘化钾溶液充分反应,其后缓慢滴加硫代硫酸钠溶液至过量。简述反应过程中发生的现象,写出相关反应的离子方程式。"
         }
-      ]
+      ],
+      "partId": "part-001820"
     },
     {
-      "id": "part-000439-03",
+      "type": "subpart",
       "label": "1-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "A 的熔点较低,真空时易升华,这与一般离子晶体的性质不相符。简述理由。"
+          "text": "A的熔点较低,真空时易升华,这与一般离子晶体的性质不相符。简述理由。"
         }
-      ]
+      ],
+      "partId": "part-001821"
     },
     {
-      "id": "part-000439-04",
+      "type": "subpart",
       "label": "1-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "M 在一定温度下与氧作用得到固体 G。G 属立方晶系,其正当晶胞如下图所示,密度为 $6.00\\ \\mathrm{g\\ cm^{-3}}$。通过计算给出 M‒O 的距离。"
-        },
-        {
-          "type": "figure",
-          "src": "data/stems/assets/problem-000439-figure-001.jpg",
-          "alt": "晶体结构或分子模型示意图（原图）",
-          "caption": "G 的正当晶胞示意图"
+          "text": "M 在一定温度下与氧作用得到固体 \\mathbf { G } _ { \\circ } 。G 属立方晶系,其正当晶胞如下图所示,密度为 6 . 00 \\ \\mathrm { g \\ c m ^ { - 1 } c } 。通过计算给出M‒O的距离。"
         }
-      ]
+      ],
+      "partId": "part-001822"
+    },
+    {
+      "type": "figure",
+      "src": "data/stems/assets/problem-000439-figure-001.jpg",
+      "assetId": "asset-003413",
+      "alt": "金属盐热分解转化：第1幅原卷结构或数据示意",
+      "label": "",
+      "caption": "",
+      "displayWidth": 100
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000405",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,42 +8,135 @@
   "examYear": 2012,
   "examStage": "final",
   "source": {
-    "sourceDocumentId": "source-000007",
     "sourceLabel": "2012-26-CChO-juesai.pdf",
-    "page": null,
+    "pages": [
+      2,
+      3
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000007"
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第4题（15分）冰有⼗六种晶型。冰中每个⽔分⼦与周围4个⽔分⼦形成氢键，氢键键长可表示为通过氢键相连接的两个氧原⼦的核间距。 4-1 ⾃然界中最常⻅的冰是冰 $- I _ { \\mathrm { h } }$ ，属六方晶系（图4.1），晶胞参数 $\\dot { a } = b = 4 4 9 . 7 5 \\mathrm { p m }$ $c = 7 3 2 . 2 4 \\mathrm { p m } _ { \\mathrm { c } }$ o4-1-1 设冰- $- I _ { \\mathrm { h } }$ 中键角均为109.5°，计算氢键键长。 4-1-2 冰- $- I _ { \\mathrm { h } }$ 理想模型中与每个氧原⼦相连的4个氧原⼦构成正四面体。计算实际晶体与理想模型的晶胞参数?的相对偏差（用百分数表示）。 4-2 冰-XI 是冰 $- I _ { \\mathrm { h } }$ 在低温下的平衡结构，可在低于72 K，常压下从KOH稀溶液中析出，其⽹状结构与冰 $- I _ { \\mathrm { h } }$ 相似，但氢原⼦位置是有序的。冰-XI属正交晶系，晶胞参数 $\\mathrm { \\Delta } a = 4 5 0 . 1 9 \\mathrm { p m }$ $b = 7 7 9 . 7 8 \\mathrm { p m }$ $c = 7 3 2 . 8 0$ pm，计算该晶胞中⽔分⼦的个数。 4-3 冰- $\\boldsymbol { \\cdot } \\boldsymbol { I } _ { \\mathrm { c } } .$ 是一种亚稳态，在− $^ { - 8 0 ~ ^ { \\circ } C }$ 由⽔蒸汽凝结⽽成，属⽴方晶系，晶体内所有氢键键长均相等，晶胞参数?$= 6 3 5 . 8 0 \\mathrm { p m } _ { \\mathrm { c } }$ 。计算氢键键长并给出该晶体的点阵类型（不考虑氢原⼦，须写出简要的分析过程)。"
+      "text": "第4题 冰有十六种晶型.冰中每个水分子与周围4个水分子形成氢键,氢键键⻓可表示为通过氢键相连接的两个氧原子的核间距."
     },
     {
-      "type": "paragraph",
-      "text": "五角⼗二面体"
+      "type": "subpart",
+      "label": "4-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "自然界中最常⻅的冰是冰 $- I _ { \\mathrm { h } }$ ,属六方晶系(图4.1),晶胞参数 $\\dot { a } = b = 449.75 \\mathrm { pm }$ $c = 732.24 \\mathrm { pm } _ { \\mathrm { c } }$ o"
+        }
+      ],
+      "partId": "part-002506"
     },
     {
-      "type": "paragraph",
-      "text": "⼗四面体 4-4 在高压下，可得到⽴方晶系的冰- $\\cdot \\mathrm { X } ,$ ，晶胞参数 $\\dot { a } = 2 7 8 . 5 0 \\mathrm { p m }$ 。在冰-X中，所有氢键键长均相等，且氢原⼦在相邻两个氧原⼦的中点。求冰-X的密度与冰- ${ } ^ { - } I _ { \\mathrm { c } }$ 密度的比值并确定其点阵类型（须写出简要的分析过程）。 4-5 ⽔与一些气体形成笼状化合物晶体。气体A与⽔形成的晶体由五角⼗二面体和⼗四面体两种⽔笼（图4.2）构成，每个⽔笼中⼼均包含一个A分⼦（视为球形），X射线衍射表明该晶体属⽴方晶系，晶胞中⼼为对称中⼼，体对角线为3次旋转轴。已知其中两个A的分数坐标分别为0, 0, 0和0, 1/2, 1/4。写出该晶胞所有A的分数坐标及相应⽔笼的类型；不考虑氢原⼦，写出该晶体的点阵类型（须写出简要的分析过程）。"
+      "type": "subpart",
+      "label": "4-1-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "设冰- $- I _ { \\mathrm { h } }$ 中键⻆均为109.5°,计算氢键键⻓."
+        }
+      ],
+      "partId": "part-002507"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000405-figure-001.jpg",
-      "alt": "problem-000405题目配图第1幅（已按原图查看）"
+      "type": "subpart",
+      "label": "4-1-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "冰- $- I _ { \\mathrm { h } }$ 理想模型中与每个氧原子相连的4个氧原子构成正四面体.计算实际晶体与理想模型的晶胞参数的相对偏差(用百分数表示)."
+        }
+      ],
+      "partId": "part-002508"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000405-figure-002.jpg",
-      "alt": "problem-000405题目配图第2幅（已按原图查看）"
+      "type": "subpart",
+      "label": "4-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "冰-XI 是冰 $- I _ { \\mathrm { h } }$ 在低温下的平衡结构,可在低于72K,常压下从KOH稀溶液中析出,其网状结构与冰 $- I _ { \\mathrm { h } }$ 相似,但氢原子位置是有序的.冰-XI属正交晶系,晶胞参数 $\\mathrm { \\Delta } a = 450.19 \\mathrm { pm }$ $b = 779.78 \\mathrm { pm }$ $c = 732.80$ pm,计算该晶胞中水分子的个数."
+        }
+      ],
+      "partId": "part-002509"
     },
     {
-      "type": "figure",
-      "src": "data/stems/assets/problem-000405-figure-003.jpg",
-      "alt": "problem-000405题目配图第3幅（已按原图查看）"
+      "type": "subpart",
+      "label": "4-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "冰- $\\boldsymbol { \\cdot } \\boldsymbol { I } _ { \\mathrm { c } } .$ 是一种亚稳态,在− $^ { - 80 ~ ^ { \\circ } C }$ 由水蒸汽凝结而成,属立方晶系,晶体内所有氢键键⻓均相等,晶胞参数$= 635.80 \\mathrm { pm } _ { \\mathrm { c } }$ .计算氢键键⻓并给出该晶体的点阵类型(不考虑氢原子,须写出简要的分析过程)."
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000405-figure-001.jpg",
+          "alt": "原卷第4题图1：冰- $\\boldsymbol { \\cdot } \\boldsymbol { I } _ { \\mathrm { c } } .$ 是一种",
+          "displayWidth": 70,
+          "assetId": "asset-003694"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000405-figure-002.jpg",
+          "alt": "原卷第4题图2（结构或数据示意）",
+          "displayWidth": 70,
+          "assetId": "asset-003695"
+        },
+        {
+          "type": "paragraph",
+          "text": "五⻆十二面体"
+        },
+        {
+          "type": "figure",
+          "src": "data/stems/assets/problem-000405-figure-003.jpg",
+          "alt": "原卷第4题图3：五⻆十二面体",
+          "displayWidth": 70,
+          "assetId": "asset-003696"
+        },
+        {
+          "type": "paragraph",
+          "text": "十四面体"
+        },
+        {
+          "type": "paragraph",
+          "text": "图 4.1 小球为O原子"
+        },
+        {
+          "type": "paragraph",
+          "text": "图 4.2"
+        }
+      ],
+      "partId": "part-002510"
+    },
+    {
+      "type": "subpart",
+      "label": "4-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在高压下,可得到立方晶系的冰- $\\cdot \\mathrm { X } ,$ ,晶胞参数 $\\dot { a } = 278.50 \\mathrm { pm }$ .在冰-X中,所有氢键键⻓均相等,且氢原子在相邻两个氧原子的中点.求冰-X的密度与冰- ${ } ^ { - } I _ { \\mathrm { c } }$ 密度的比值并确定其点阵类型(须写出简要的分析过程)."
+        }
+      ],
+      "partId": "part-002511"
+    },
+    {
+      "type": "subpart",
+      "label": "4-5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "水与一些气体形成笼状化合物晶体.气体A与水形成的晶体由五⻆十二面体和十四面体两种水笼(图4.2)构成,每个水笼中心均包含一个A分子(视为球形),X射线衍射表明该晶体属立方晶系,晶胞中心为对称中心,体对⻆线为3次旋转轴.已知其中两个A的分数坐标分别为0, 0, 0和0, 1/2, 1/4.写出该晶胞所有A的分数坐标及相应水笼的类型;不考虑氢原子,写出该晶体的点阵类型(须写出简要的分析过程)."
+        }
+      ],
+      "partId": "part-002512"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

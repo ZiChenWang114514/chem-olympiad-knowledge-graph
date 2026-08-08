@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000372",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,64 +8,120 @@
   "examYear": 2010,
   "examStage": "final",
   "source": {
-    "sourceDocumentId": "source-000005",
     "sourceLabel": "2010-24-CChO-juesai.pdf",
-    "page": null,
+    "pages": [
+      3,
+      4
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000005"
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第7题（17分）Dofetilide是一种新的抗⼼律失常药物，⾃2000年上市以来，其合成一直受到人们的重视。在已报道的诸多合成路线中，大多是经过化合物1进一步转化得到的："
-    },
-    {
-      "type": "paragraph",
-      "text": "因此，化合物1是合成Dofetilide的关键中间体，文献报道的部分合成路线如下： 合成路线(1)："
-    },
-    {
-      "type": "paragraph",
-      "text": "合成路线(2)："
-    },
-    {
-      "type": "paragraph",
-      "text": "合成路线(3)："
-    },
-    {
-      "type": "paragraph",
-      "text": "合成路线(4)："
-    },
-    {
-      "type": "paragraph",
-      "text": "7-1 画出Doferilide及上述合成路线中化合物7，8，10，14的结构式。 7-2 请写出上述各合成路线中步骤A\\~L所需的试剂及必要的反应条件。 7-3 用系统命名法命名化合物3和 ${ \\bf 1 1 } _ { \\tt c }$ 7-4 以2-(4-硝基苯基)⼄醛为起始原料，使用不超过2个碳原⼦的有机物和必要的无机试剂，用不超过5步反应的方法合成化合物13。"
+      "text": "第7题 Dofetilide是一种新的抗心律失常药物,自2000年上市以来,其合成一直受到人们的重视.在已报道的诸多合成路线中,大多是经过化合物1进一步转化得到的:"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000372-figure-001.jpg",
-      "alt": "problem-000372题目配图第1幅（已按原图查看）"
+      "alt": "原卷第7题图1：第7题 Dofetilide是一种新的抗心律失常药物,自2000年上市以来,其合成一直受到人们的重视.在已报道的诸多合成路线中,大多是经过化",
+      "displayWidth": 70,
+      "assetId": "asset-003658"
+    },
+    {
+      "type": "paragraph",
+      "text": "因此,化合物1是合成Dofetilide的关键中间体,文献报道的部分合成路线如下:"
+    },
+    {
+      "type": "paragraph",
+      "text": "合成路线(1):"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000372-figure-002.jpg",
-      "alt": "problem-000372题目配图第2幅（已按原图查看）"
+      "alt": "原卷第7题图2：合成路线(1):",
+      "displayWidth": 70,
+      "assetId": "asset-003659"
+    },
+    {
+      "type": "paragraph",
+      "text": "合成路线(2):"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000372-figure-003.jpg",
-      "alt": "problem-000372题目配图第3幅（已按原图查看）"
+      "alt": "原卷第7题图3：合成路线(2):",
+      "displayWidth": 70,
+      "assetId": "asset-003660"
+    },
+    {
+      "type": "paragraph",
+      "text": "合成路线(3):"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000372-figure-004.jpg",
-      "alt": "problem-000372题目配图第4幅（已按原图查看）"
+      "alt": "原卷第7题图4：合成路线(3):",
+      "displayWidth": 70,
+      "assetId": "asset-003661"
+    },
+    {
+      "type": "paragraph",
+      "text": "合成路线(4):"
     },
     {
       "type": "figure",
       "src": "data/stems/assets/problem-000372-figure-005.jpg",
-      "alt": "problem-000372题目配图第5幅（已按原图查看）"
+      "alt": "原卷第7题图5：合成路线(4):",
+      "displayWidth": 70,
+      "assetId": "asset-003662"
+    },
+    {
+      "type": "subpart",
+      "label": "7-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "画出Doferilide及上述合成路线中化合物7,8,10,14的结构式."
+        }
+      ],
+      "partId": "part-002456"
+    },
+    {
+      "type": "subpart",
+      "label": "7-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "请写出上述各合成路线中步骤A\\~L所需的试剂及必要的反应条件."
+        }
+      ],
+      "partId": "part-002457"
+    },
+    {
+      "type": "subpart",
+      "label": "7-3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "用系统命名法命名化合物3和 ${ \\bf11 } _ { \\mathrm{c} }$"
+        }
+      ],
+      "partId": "part-002458"
+    },
+    {
+      "type": "subpart",
+      "label": "7-4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "以2-(4-硝基苯基)乙醛为起始原料,使用不超过2个碳原子的有机物和必要的无机试剂,用不超过5步反应的方法合成化合物13."
+        }
+      ],
+      "partId": "part-002459"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }

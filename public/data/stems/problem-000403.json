@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "problemId": "problem-000403",
   "rightsState": "stem_public",
   "language": "zh-CN",
@@ -8,19 +8,55 @@
   "examYear": 2012,
   "examStage": "final",
   "source": {
-    "sourceDocumentId": "source-000007",
     "sourceLabel": "2012-26-CChO-juesai.pdf",
-    "page": null,
+    "pages": [
+      2,
+      4
+    ],
     "transcriptionMethod": "deepseek_polished",
-    "transcribedAt": "2026-08-08"
-  },
-  "renderingHints": {
-    "mhchem": true
+    "sourceDocumentId": "source-000007"
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第 2 题（9 分）用 EDTA 标准溶液测定铅铋合金中铅、铋的含量。用 0.02000 mol L−1 EDTA 滴定 25.00 mL含有未知浓度的Bi3+和Pb2+的混合溶液。以二甲酚橙为指示剂，用EDTA滴定Bi3+，消耗22.50 mL。在滴定完Bi3+后，溶液的pH = 1.00。加入六次甲基四胺，调节溶液的pH到5.60，再用EDTA滴定Pb2+，消耗22.80 mL。 $\\mathrm { ( C H _ { 2 } ) _ { 6 } N _ { 4 } }$ 的 $\\mathsf { p } K _ { b } \\ = 8 . 8 5$ （计算中不考虑滴定过程中所加⽔和指示剂所引起的体积变化）。 2-1 计算应加入多少克六次甲基四胺使溶液的pH从1.00变到5.60。 2-2 计算未知液中 Bi3+和 Pb2+的浓度 $( \\mathrm { g } \\mathrm { L } ^ { - 1 } )$ o"
+      "text": "第 2 题 用 EDTA 标准溶液测定铅铋合金中铅,铋的含量.用 0.02000molL−1EDTA 滴定"
+    },
+    {
+      "type": "paragraph",
+      "text": "mL含有未知浓度的Bi3+和Pb2+的混合溶液.以二甲酚橙为指示剂,用EDTA滴定Bi3+,消耗"
+    },
+    {
+      "type": "paragraph",
+      "text": "mL.在滴定完Bi3+后,溶液的pH = 1.00.加入六次甲基四胺,调节溶液的pH到5.60,再用EDTA滴定Pb2+,消耗"
+    },
+    {
+      "type": "paragraph",
+      "text": "mL. $\\mathrm { ( CH _ { 2 } ) _ { 6 } N _ { 4 } }$ 的 $\\mathsf { p } K _ { b } \\ = 8.85$ (计算中不考虑滴定过程中所加水和指示剂所引起的体积变化)."
+    },
+    {
+      "type": "subpart",
+      "label": "2-1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算应加入多少克六次甲基四胺使溶液的pH从1.00变到5.60."
+        }
+      ],
+      "partId": "part-002504"
+    },
+    {
+      "type": "subpart",
+      "label": "2-2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "计算未知液中 Bi3+和 Pb2+的浓度 $( \\mathrm { g } \\mathrm { L } ^ { - 1 } )$ o"
+        }
+      ],
+      "partId": "part-002505"
     }
-  ]
+  ],
+  "renderingHints": {
+    "mhchem": true
+  }
 }
