@@ -12,19 +12,13 @@
     "sourceLabel": "2008-22-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2008-22-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2008-22-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000322-01",
@@ -42,15 +36,16 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "研究了这种晶体在加压下受热膨胀体积增⼤的情形，并与冰及钙离⼦配位数也是8的⼆⽔合⽯膏晶体(gypsum)作了对⽐，结果如下图所⽰（纵坐标为相对体积）："
+          "text": "研究了这种晶体在加压下受热膨胀体积增大的情形,并与冰及钙离子配位数也是8的二水合石膏晶体(gypsum)作了对比,结果如下图所示(纵坐标为相对体积):"
+        },
+        {
+          "type": "figure",
+          "caption": "相对体积随温度变化示意图",
+          "alt": "缺图:冰、二水合石膏与水合碳酸钙晶体的相对体积对比图"
         },
         {
           "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "为什么选取冰和⼆⽔合⽯膏作对⽐？实验结果说明什么？"
+          "text": "为什么选取冰和二水合石膏作对比?实验结果说明什么?"
         }
       ]
     },
@@ -60,7 +55,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "这种晶体属于哪种类型的晶体？简述理由。"
+          "text": "这种晶体属于哪种类型的晶体?简述理由。"
         }
       ]
     }

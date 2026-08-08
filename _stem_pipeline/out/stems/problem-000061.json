@@ -12,21 +12,16 @@
     "sourceLabel": "2018-32-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "未能从 MD 可靠切分正文（决赛/2018-32-CChO-juesai/full.md）；仅写入元数据标题占位，待人工补全。",
+  "provenanceNote": "已由 DeepSeek 精修:保留元数据占位;原题干正文因 MD 切分不可靠而缺失,待人工补全题面。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "callout",
-      "tone": "warn",
-      "text": "本题干正文自动切分失败，仅显示题目标题占位。"
-    },
-    {
       "type": "paragraph",
-      "text": "3 · 硼氮笼形化合物转化"
+      "text": "(本题题面缺失,待人工补全。)"
     }
   ]
 }

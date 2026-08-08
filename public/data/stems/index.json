@@ -179,7 +179,7 @@
       "problemId": "problem-000030",
       "path": "data/stems/problem-000030.json",
       "rightsState": "stem_public",
-      "title": "二吡喃酮热裂解合成"
+      "title": "2-吡喃酮热裂解合成"
     },
     {
       "problemId": "problem-000031",
@@ -1229,7 +1229,7 @@
       "problemId": "problem-000209",
       "path": "data/stems/problem-000209.json",
       "rightsState": "stem_public",
-      "title": "钪氧化物晶胞计算"
+      "title": "过氧化钙的制备与含量测定"
     },
     {
       "problemId": "problem-000210",
@@ -2399,7 +2399,7 @@
       "problemId": "problem-000411",
       "path": "data/stems/problem-000411.json",
       "rightsState": "stem_public",
-      "title": "汞量法测定胆离子"
+      "title": "汞量法测定氯离子"
     },
     {
       "problemId": "problem-000412",

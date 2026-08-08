@@ -12,19 +12,13 @@
     "sourceLabel": "2008-22-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2008-22-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2008-22-CChO-juesai/full.md)程序化切分并整理为结构化题干;经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX 与化学式、合并空壳段落、删除无信息 callout。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000330-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "作为溶剂， $\\mathrm { N H _ { 3 } }$ 分⼦也能发⽣类似于 $\\mathrm { H _ { 2 } O }$ 分⼦的缔合作⽤，说明发⽣这种缔合的原因和⽐较这种缔合作⽤相对于⽔的⼤⼩。"
+          "text": "作为溶剂,$\\mathrm{NH_3}$ 分子也能发生类似于 $\\mathrm{H_2O}$ 分子的缔合作用,说明发生这种缔合的原因和比较这种缔合作用相对于水的大小。"
         }
       ]
     },
@@ -42,27 +36,27 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "以液氨作为溶剂最引起化学家兴趣的是它能够溶解⼀些⾦属，如电极电势⼩于2.5V的碱⾦属、部分碱⼟⾦属及镧系元素可溶于液氨，形成蓝⾊的具有异乎寻常性质的亚稳定态溶液，这种溶液具有顺磁性和⾼的导电性，溶液的密度⽐纯溶液的密度⼩。碱⾦属的液氨溶液是可供选择使⽤的强还原剂，⼴泛应⽤于合成⼀些⾮正常氧化态的⾦属配合物和其他化合物。研究发现在⾦属Na的液氨溶液中存在着以下反应："
+          "text": "以液氨作为溶剂最引起化学家兴趣的是它能够溶解一些金属,如电极电势小于 2.5 V 的碱金属、部分碱土金属及镧系元素可溶于液氨,形成蓝色的具有异乎寻常性质的亚稳定态溶液,这种溶液具有顺磁性和高的导电性,溶液的密度比纯溶液的密度小。碱金属的液氨溶液是可供选择使用的强还原剂,广泛应用于合成一些非正常氧化态的金属配合物和其他化合物。研究发现在金属 Na 的液氨溶液中存在着以下反应:"
         },
         {
           "type": "paragraph",
-          "text": "$$\n\\begin{array}{l}\\mathrm {Na(s) + NH_ {3} \\rightarrow Na(NH_ {3})}\\\\2 \\mathrm {Na(NH_ {3}) \\rightleftharpoons Na_ {2} (NH_ {3}) + NH_ {3}}\\end{array}\\quad K ^ {\\ominus} \\approx 5 \\times 1 0 ^ {3}\n$$"
+          "text": "$$\\begin{array}{l}\\mathrm{Na(s) + NH_3 \\rightarrow Na(NH_3)}\\\\2\\mathrm{Na(NH_3) \\rightleftharpoons Na_2(NH_3) + NH_3}\\end{array}\\quad K^{\\ominus} \\approx 5 \\times 10^{3}$$"
         },
         {
           "type": "paragraph",
-          "text": "$$\n\\begin{array}{l l}\\mathrm {Na(NH_ {3}) + NH_ {3} \\rightleftharpoons Na^ {+} (NH_ {3}) + e^ {-} (NH_ {3})}&K ^ {\\ominus} \\approx 1 0 ^ {- 2}\\\\\\mathrm {Na^ {-} (NH_ {3}) + NH_ {3} \\rightleftharpoons Na(NH_ {3}) + e^ {-} (NH_ {3})}&K ^ {\\ominus} \\approx 1 0 ^ {- 3}\\\\2 \\mathrm {e^ {-} (NH_ {3}) \\rightleftharpoons e_ {2} ^ {2 - } (NH_ {3}) + NH_ {3}}\\end{array}\n$$"
+          "text": "$$\\begin{array}{ll}\\mathrm{Na(NH_3) + NH_3 \\rightleftharpoons Na^+(NH_3) + e^-(NH_3)} & K^{\\ominus} \\approx 10^{-2}\\\\\\mathrm{Na^-(NH_3) + NH_3 \\rightleftharpoons Na(NH_3) + e^-(NH_3)} & K^{\\ominus} \\approx 10^{-3}\\\\2\\mathrm{e^-(NH_3) \\rightleftharpoons e_2^{2-}(NH_3) + NH_3}\\end{array}$$"
         },
         {
           "type": "paragraph",
-          "text": "⾦属 $\\mathrm { N a }$ 在液 $\\mathrm { N H _ { 3 } }$ 溶剂中⽣成氨合⾦属 $\\mathrm { N a } ( \\mathrm { N H } _ { 3 } )$ $\\mathrm { N a _ { 2 } ( N H _ { 3 } ) }$ ，氨合阳离⼦ $\\cdot \\mathrm { N a ^ { + } ( N H _ { 3 } ) }$ ，氨合阴离⼦ $\\mathrm { N a ^ { - } ( N H _ { 3 } ) }$ 及氨合电⼦e−(NH_{3})、 $\\mathrm { e } _ { 2 } ^ { 2 \\mathrm { - } } \\mathrm { ( N H _ { 3 } ) }$ 等物种。"
+          "text": "金属 $\\mathrm{Na}$ 在液 $\\mathrm{NH_3}$ 溶剂中生成氨合金属 $\\mathrm{Na(NH_3)}$、$\\mathrm{Na_2(NH_3)}$,氨合阳离子 $\\mathrm{Na^+(NH_3)}$,氨合阴离子 $\\mathrm{Na^-(NH_3)}$ 及氨合电子 $\\mathrm{e^-(NH_3)}$、$\\mathrm{e_2^{2-}(NH_3)}$ 等物种。"
         },
         {
           "type": "paragraph",
-          "text": "试根据以上信息解释碱⾦属液氨溶液的⾼导电性和顺磁性。"
+          "text": "试根据以上信息解释碱金属液氨溶液的高导电性和顺磁性。"
         },
         {
           "type": "paragraph",
-          "text": "出 $\\mathrm { | [ P t ( N H _ { 3 } ) _ { 4 } ] B r _ { 2 } }$ 与K在液氨中的反应⽅程式。"
+          "text": "写出 $\\mathrm{[Pt(NH_3)_4]Br_2}$ 与 K 在液氨中的反应方程式。"
         }
       ]
     },
@@ -72,15 +66,15 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "溶剂 $\\mathrm { N H _ { 3 } }$ 分⼦⾃动电离形成铵离⼦和氨基离⼦："
+          "text": "溶剂 $\\mathrm{NH_3}$ 分子自动电离形成铵离子和氨基离子:"
         },
         {
           "type": "paragraph",
-          "text": "$$\n2 \\mathrm{NH} _ {3} \\rightleftharpoons \\mathrm{NH} _ {4} ^ {+} + \\mathrm{NH} _ {2} ^ {-} \\quad K ^ {\\ominus} = [ \\mathrm{NH} _ {4} ^ {+} ] \\times [ \\mathrm{NH} _ {2} ^ {-} ] = 1 0 ^ {- 2 7}\n$$"
+          "text": "$$2\\mathrm{NH_3 \\rightleftharpoons NH_4^+ + NH_2^-}\\quad K^{\\ominus} = [\\mathrm{NH_4^+}] \\times [\\mathrm{NH_2^-}] = 10^{-27}$$"
         },
         {
           "type": "paragraph",
-          "text": "离⼦积常数 $K ^ { \\ominus }$ 虽然⽐ $\\mathrm { H _ { 2 } O }$ 的 $K _ { \\mathbf { w } } ^ { \\ominus }$ ⼩得多，但同样可以建⽴类似于⽔体系中的 $\\mathrm { p H }$ 标度。试建⽴这种标度，确定酸性、中性和碱性溶液的 $\\mathrm { p H }$ C"
+          "text": "离子积常数 $K^{\\ominus}$ 虽然比 $\\mathrm{H_2O}$ 的 $K_{\\mathrm{w}}^{\\ominus}$ 小得多,但同样可以建立类似于水体系中的 $\\mathrm{pH}$ 标度。试建立这种标度,确定酸性、中性和碱性溶液的 $\\mathrm{pH}$。"
         }
       ]
     },
@@ -90,7 +84,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在液氨中的许多反应都类似于⽔中的反应，试写出 $\\mathrm { T i C l _ { 4 } , \\ Z n ^ { 2 + } }$ 和 $\\mathrm { L i _ { 3 } N }$ 在液氨中反应的⽅程式。"
+          "text": "在液氨中的许多反应都类似于水中的反应,试写出 $\\mathrm{TiCl_4}$、$\\mathrm{Zn^{2+}}$ 和 $\\mathrm{Li_3N}$ 在液氨中反应的方程式。"
         }
       ]
     },
@@ -100,7 +94,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在⽔体系中以标准氢电极为基准建⽴了标准电极电势系统，在液氨体系中同样也以标准氢电极建⽴类似于⽔体系的液氨体系中的标准电极电势系统。试写出标准氢电极的半反应⽅程式及标准电极电势。"
+          "text": "在水体系中以标准氢电极为基准建立了标准电极电势系统,在液氨体系中同样也以标准氢电极建立类似于水体系的液氨体系中的标准电极电势系统。试写出标准氢电极的半反应方程式及标准电极电势。"
         }
       ]
     },
@@ -110,7 +104,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在液氨体系中某些⾦属的标准电极电势跟这些⾦属在⽔溶液的标准电极电势⼗分相近。已知在液氨体系中， $6 \\mathrm { N H _ { 4 } ^ { + } + N _ { 2 } + 6 e ^ { - }  8 N H _ { 3 } }$ 的 $E ^ { \\ominus } = 0 . 0 4 \\mathrm { V } _ { \\odot }$ 。试设计⼀个在液氨中实施⽤氢固氮的反应，并预计其反应条件，简述理由。"
+          "text": "在液氨体系中某些金属的标准电极电势跟这些金属在水溶液的标准电极电势十分相近。已知在液氨体系中,$6\\mathrm{NH_4^+ + N_2 + 6e^- \\rightleftharpoons 8NH_3}$ 的 $E^{\\ominus} = 0.04\\,\\mathrm{V}$。试设计一个在液氨中实施用氢固氮的反应,并预计其反应条件,简述理由。"
         }
       ]
     },
@@ -120,7 +114,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "液氨作为溶剂在化学分析中⼴泛⽤于⾮⽔滴定，试述哪些不宜于在⽔溶液中滴定的酸碱体系可以在液氨中进⾏。"
+          "text": "液氨作为溶剂在化学分析中广泛用于非水滴定,试述哪些不宜于在水溶液中滴定的酸碱体系可以在液氨中进行。"
         }
       ]
     }

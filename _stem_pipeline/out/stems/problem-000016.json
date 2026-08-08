@@ -12,16 +12,16 @@
     "sourceLabel": "2016-30-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2016-30-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2016-30-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、规范化学式与标点。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第5题（8分）化学式为 $\\mathbf { M O } _ { x } \\mathrm { C l } _ { y }$ 的物质有氧化性，M为过渡⾦属元素，�和�均为正整数。将2.905g样品溶于⽔，定容⾄ $1 0 0 \\mathrm { m L } _ { \\circ }$ 移取20.00 mL溶液，加⼊稀硝酸和⾜量 $\\mathrm { A g N O _ { 3 } }$ ，分离得到⽩⾊沉淀 $1 . 4 3 6 \\mathrm { g } _ { \\circ }$ 移取溶液20.00 mL，加⼊适量硫酸，以N-邻苯基氨基苯甲酸作指⽰剂，⽤标准硫酸亚铁铵溶液滴⾄终点，消耗3.350 mmol。已知其中阳离⼦以 $\\mathbf { M O } _ { x } ^ { y + }$ 存在，推出该物质的化学式，指出M是哪种元素。写出硫酸亚铁铵溶液滴定 $\\mathbf { M O } _ { x } ^ { y + }$ 的离⼦反应⽅程式。"
+      "text": "第5题(8分)化学式为 $\\ce{MO_xCl_y}$ 的物质具有氧化性,M 为过渡金属元素,x 和 y 均为正整数。将 2.905 g 样品溶于水,定容至 100 mL。移取 20.00 mL 溶液,加入稀硝酸和足量 $\\ce{AgNO3}$,分离得到白色沉淀 1.436 g。另移取 20.00 mL 溶液,加入适量硫酸,以 N-苯基邻氨基苯甲酸作指示剂,用标准硫酸亚铁铵溶液滴定至终点,消耗 3.350 mmol。已知其中阳离子以 $\\ce{MO_x^{y+}}$ 存在,推出该物质的化学式,指出 M 是哪种元素,并写出硫酸亚铁铵溶液滴定 $\\ce{MO_x^{y+}}$ 的离子反应方程式。"
     }
   ]
 }

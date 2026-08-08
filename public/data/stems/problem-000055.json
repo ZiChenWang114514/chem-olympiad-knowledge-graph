@@ -12,19 +12,13 @@
     "sourceLabel": "2018-32-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2018-32-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2018-32-CChO-chusai/full.md)程序化切分并整理为结构化题干;经 DeepSeek 对题干进行 OCR 错字修正与 LaTeX 规范化精修。公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。;DeepSeek 精修:OCR 汉字/公式/小问结构整理,请以官方 PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000055-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出[V_{2}(edt)_{4}]2−的结构（忽略氢原⼦）。"
+          "text": "画出 $[\\ce{V2(edt)4}]^{2-}$ 的结构(忽略氢原子)。"
         }
       ]
     },
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出 $[ \\mathbf { M } _ { 2 } ( \\mathrm { e d t } ) .$ _{4}]2− $( \\mathbf { M } = \\mathbf { M } \\mathbf { n }$ , Fe)的结构（忽略氢原⼦）。"
+          "text": "画出 $[\\ce{M2(edt)4}]^{2-}$($\\ce{M = Mn, Fe}$)的结构(忽略氢原子)。"
         }
       ]
     },
@@ -52,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出 $\\mathrm { [ V _ { 2 } ( e d t ) _ { 4 } ] ^ { 2 - } }$ −中钒的价电⼦组态。磁性测试表明，它显抗磁性，简述原因。"
+          "text": "写出 $[\\ce{V2(edt)4}]^{2-}$ 中钒的价电子组态。磁性测试表明,它显抗磁性,简述原因。"
         }
       ]
     },
@@ -62,7 +56,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$\\mathrm { [ M n _ { 2 } ( e d t ) _ { 4 } ] ^ { 2 } }$ −可由MnCl_{2}溶液和 $\\mathrm { N a } _ { 2 } ( \\mathrm { e d t } )$ 溶液在空⽓中反应得到，写出反应⽅程式。"
+          "text": "$[\\ce{Mn2(edt)4}]^{2-}$ 可由 $\\ce{MnCl2}$ 溶液和 $\\ce{Na2(edt)}$ 溶液在空气中反应得到,写出反应方程式。"
         }
       ]
     }

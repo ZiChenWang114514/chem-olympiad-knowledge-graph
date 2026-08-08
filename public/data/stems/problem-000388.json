@@ -12,19 +12,13 @@
     "sourceLabel": "2011-25-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2011-25-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2011-25-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000388-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算混合溶液中甲酸和⼄酸的总量。"
+          "text": "计算混合溶液中甲酸和乙酸的总量。"
         }
       ]
     },
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出氧化还原滴定反应的化学⽅程式。"
+          "text": "写出氧化还原滴定反应的化学方程式。"
         }
       ]
     },
@@ -52,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算混合酸溶液中甲酸和⼄酸的浓度。"
+          "text": "计算混合酸溶液中甲酸和乙酸的浓度。"
         }
       ]
     }

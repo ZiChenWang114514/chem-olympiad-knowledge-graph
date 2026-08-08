@@ -12,18 +12,13 @@
     "sourceLabel": "2009-23-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2009-23-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2009-23-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "paragraph",
-      "text": "（图：）"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000352-01",
@@ -31,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "实验测得， $4 0 ~ ^ { \\circ } \\mathrm { C }$ 时⽊犀草素在⼄醇(EtOH)中的溶解度（以物质的量分数计）为 $2 . 6 8 \\times 1 0 ^ { - 3 }$ 。已知$2 0 { \\sim } 6 0 ~ ^ { \\circ } \\mathrm { C }$ ⽊犀草素在⼄醇中的溶解焓为20.28kJ $\\mathrm { m o l ^ { - 1 } s }$ 。请估算 $2 5 ^ { \\circ } \\mathrm { C }$ 时⽊犀草素在⼄醇中的溶解度。"
+          "text": "实验测得,$40~^{\\circ}\\mathrm{C}$ 时木犀草素在乙醇(EtOH)中的溶解度(以物质的量分数计)为 $2.68\\times 10^{-3}$。已知 $20\\sim 60~^{\\circ}\\mathrm{C}$ 木犀草素在乙醇中的溶解焓为 $20.28\\ \\mathrm{kJ\\ mol^{-1}}$。请估算 $25~^{\\circ}\\mathrm{C}$ 时木犀草素在乙醇中的溶解度。"
         }
       ]
     },
@@ -41,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$4 0 ~ ^ { \\circ } \\mathrm { C }$ 时，芦丁和⽊犀草素在⼄醇-⽔混合溶剂中的溶解度曲线如图6.1。根据图⽰，设计提纯⽊犀草素的具体⽅案。"
+          "text": "$40~^{\\circ}\\mathrm{C}$ 时,芦丁和木犀草素在乙醇-水混合溶剂中的溶解度曲线如图6.1。根据图示,设计提纯木犀草素的具体方案。"
         }
       ]
     },
@@ -51,37 +46,41 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "⽊犀草素有α和β两种晶相，在热⼒学上，β相⽐α相稳定。在恒压下，液态、α相和β相的摩尔Gibbs⾃由能 $G _ { \\mathrm { m } }$ 随温度�的变化关系如图6.2所⽰。"
+          "text": "木犀草素有 $\\alpha$ 和 $\\beta$ 两种晶相,在热力学上,$\\beta$ 相比 $\\alpha$ 相稳定。在恒压下,液态、$\\alpha$ 相和 $\\beta$ 相的摩尔 Gibbs 自由能 $G_{\\mathrm{m}}$ 随温度的变化关系如图6.2所示。"
         }
       ]
     },
     {
       "id": "part-000352-04",
-      "label": "6-3",
+      "label": "6-3-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 请回答哪条线对应α相、β相，说明理由。"
+          "text": "请回答哪条线对应 $\\alpha$ 相、$\\beta$ 相,说明理由。"
         }
       ]
     },
     {
       "id": "part-000352-05",
-      "label": "6-3",
+      "label": "6-3-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 在相同温度下，α相和β相哪个熵更⼤？简述理由。"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）\n图 6.1"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）\n图 6.2"
+          "text": "在相同温度下,$\\alpha$ 相和 $\\beta$ 相哪个熵更大?简述理由。"
         }
       ]
+    }
+  ],
+  "figures": [
+    {
+      "id": "fig-000352-01",
+      "caption": "图6.1 芦丁和木犀草素在乙醇-水混合溶剂中的溶解度曲线",
+      "alt": "溶解度曲线图,横轴为乙醇-水组成,纵轴为溶解度,两条曲线分别对应芦丁和木犀草素。"
+    },
+    {
+      "id": "fig-000352-02",
+      "caption": "图6.2 液态、α相和β相的摩尔Gibbs自由能随温度变化关系",
+      "alt": "G-T 图,三条曲线分别代表液态、α相和β相,β相在低温下稳定。"
     }
   ]
 }

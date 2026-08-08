@@ -12,19 +12,13 @@
     "sourceLabel": "2011-25-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2011-25-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2011-25-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000384-01",
@@ -52,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "给出B在硫酸溶液中与草酸反应的离⼦⽅程式。"
+          "text": "给出B在硫酸溶液中与草酸反应的离子方程式。"
         }
       ]
     },
@@ -62,19 +56,13 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "图2⽰出M的⼀种氧化物的晶体结构，写出该氧化物的化学式，简述推理过程。"
+          "text": "图2示出M的一种氧化物的晶体结构,写出该氧化物的化学式,简述推理过程。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）\n(a)"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）\n(b)"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）\n(c)\n图2 M的⼀种氧化物的晶体结构"
+          "type": "figure",
+          "caption": "图2 M的一种氧化物的晶体结构",
+          "alt": "图2 M的一种氧化物的晶体结构,包含(a)(b)(c)三个子图。",
+          "src": ""
         }
       ]
     }

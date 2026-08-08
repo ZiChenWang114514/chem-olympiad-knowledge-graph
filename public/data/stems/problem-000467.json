@@ -12,24 +12,21 @@
     "sourceLabel": "2015-29-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2015-29-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2015-29-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、合并空壳段落、将缺图占位改为 figure 块。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "从简单易得的化合物出发，合成复杂天然产物是合成化学家们追求的⽬标。复杂天然产物的⼈⼯合成挑战着合成化学家的智慧。如下所⽰为天然产物萜类化合物eudesmane合成路线的⽚段（反应条件中\"r.t.\"表⽰室温，PCC 为 $\\mathrm { { C r O } _ { 3 } / }$ 吡啶/盐酸）"
+      "text": "从简单易得的化合物出发,合成复杂天然产物是合成化学家们追求的目标。复杂天然产物的人工合成挑战着合成化学家的智慧。如下所示为天然产物萜类化合物 eudesmane 合成路线的片段(反应条件中 \"r.t.\" 表示室温,PCC 为 $\\mathrm{CrO_3}$/吡啶/盐酸)。"
     },
     {
-      "type": "paragraph",
-      "text": "（图：）"
-    },
-    {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "合成路线片段(图缺)",
+      "alt": "eudesmane 合成路线片段,包含化合物 A 至 N 及试剂 E、K 等"
     }
   ],
   "parts": [
@@ -39,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "给出产物N的稳定构象。"
+          "text": "给出产物 N 的稳定构象。"
         }
       ]
     },
@@ -49,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "给出试剂E、K及中间产物H的结构简式。"
+          "text": "给出试剂 E、K 及中间产物 H 的结构简式。"
         }
       ]
     },
@@ -59,7 +56,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "给出由M到N转换的中间产物的结构简式。"
+          "text": "给出由 M 到 N 转换的中间产物的结构简式。"
         }
       ]
     },
@@ -69,7 +66,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "给出中间产物C的逆合成分析（不考虑⽴体化学），据此给出反应物A的结构简式。"
+          "text": "给出中间产物 C 的逆合成分析(不考虑立体化学),据此给出反应物 A 的结构简式。"
         }
       ]
     },
@@ -79,7 +76,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "通过反应过程中关键中间体结构的形成，简述形成C的过程中的⽴体控制机制。"
+          "text": "通过反应过程中关键中间体结构的形成,简述形成 C 的过程中的立体控制机制。"
         }
       ]
     }

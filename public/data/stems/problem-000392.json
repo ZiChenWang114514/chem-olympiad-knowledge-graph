@@ -12,16 +12,17 @@
     "sourceLabel": "2012-26-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2012-26-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、规范结构。原由 MinerU MD(初赛/2012-26-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "2. 第⼆步失重后的固态残渣是什么，解释理由。"
+      "text": "2. 第二步失重后的固态残渣是什么,解释理由。"
     }
-  ]
+  ],
+  "parts": []
 }

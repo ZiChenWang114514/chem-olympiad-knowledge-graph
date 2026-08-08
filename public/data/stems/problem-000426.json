@@ -12,19 +12,13 @@
     "sourceLabel": "2013-27-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2013-27-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2013-27-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000426-01",
@@ -35,16 +29,9 @@
           "text": "在下列化学反应中"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "A"
-        },
-        {
-          "type": "paragraph",
-          "text": "C"
+          "type": "figure",
+          "caption": "反应示意图",
+          "alt": "缺图:反应物 A 和 C 的结构式"
         }
       ]
     },
@@ -54,7 +41,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 试剂 $\\mathrm { N H _ { 4 } C l }$ 在反应中的作⽤是 6"
+          "text": "试剂 $\\mathrm{NH_4Cl}$ 在反应中的作用是"
         }
       ]
     },
@@ -64,7 +51,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 画出产物D的稳定的互变异构体结构简 $\\tt { \\overline { { I } } } \\hat { \\zeta } _ { \\mathrm { < } }$"
+          "text": "画出产物 D 的稳定的互变异构体结构简式"
         }
       ]
     },
@@ -74,7 +61,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-3 产物D中碱性最强的氮原⼦是"
+          "text": "产物 D 中碱性最强的氮原子是"
         }
       ]
     },
@@ -84,15 +71,17 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "下列两个反应在相同条件下发⽣，分别画出两个反应的产物的结构简式。"
+          "text": "下列两个反应在相同条件下发生,分别画出两个反应的产物的结构简式。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应一示意图",
+          "alt": "缺图:反应一的反应物结构"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应二示意图",
+          "alt": "缺图:反应二的反应物结构"
         }
       ]
     }

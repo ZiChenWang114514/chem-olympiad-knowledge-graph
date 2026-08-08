@@ -12,19 +12,13 @@
     "sourceLabel": "2021-35-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2021-35-CChO-chusai-jiangsu/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2021-35-CChO-chusai-jiangsu/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、合并无意义拆分、删除无信息 callout。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000120-01",
@@ -32,11 +26,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 已知2-萘酚与碘甲烷和对甲苯磺酸甲酯在碱性条件下反应情况如下，请分析原因。"
+          "text": "已知 2-萘酚与碘甲烷和对甲苯磺酸甲酯在碱性条件下反应情况如下,请分析原因。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应情况示意图",
+          "alt": "缺图:2-萘酚与碘甲烷和对甲苯磺酸甲酯在碱性条件下的反应情况"
         }
       ]
     },
@@ -46,7 +41,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 请画出以下反应中G和H的结构简式（需画出产物的⽴体结构）。"
+          "text": "请画出以下反应中 G 和 H 的结构简式(需画出产物的立体结构)。"
         }
       ]
     },
@@ -56,11 +51,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 环戊酮与2-叠氮基⼄醇能够发⽣如下的反应，⽽环戊酮与2-甲氧基⼄基叠氮化物却不发⽣反应，请画出以下转化过程中必定经过的四个关键中间体。"
+          "text": "环戊酮与 2-叠氮基乙醇能够发生如下的反应,而环戊酮与 2-甲氧基乙基叠氮化物却不发生反应,请画出以下转化过程中必定经过的四个关键中间体。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应过程示意图",
+          "alt": "缺图:环戊酮与 2-叠氮基乙醇的反应过程"
         }
       ]
     },
@@ -70,11 +66,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 参照上述转化，画出以下反应主要产物J的结构简式。"
+          "text": "参照上述转化,画出以下反应主要产物 J 的结构简式。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应示意图",
+          "alt": "缺图:参照上述转化,画出主要产物 J 的反应"
         }
       ]
     }

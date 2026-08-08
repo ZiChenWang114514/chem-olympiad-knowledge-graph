@@ -12,20 +12,25 @@
     "sourceLabel": "2012-26-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2012-26-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2012-26-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理公式与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "（图：）\n（THF为四氢呋喃，HMPA为六甲基磷酸三胺，是常⽤有机溶剂；+BuOH为叔丁醇）"
+      "type": "figure",
+      "caption": "反应流程图",
+      "alt": "缺图:反应流程图,涉及化合物(1)至(8)及条件THF、HMPA、t-BuOH等"
     },
     {
       "type": "paragraph",
-      "text": "解答以下问题时不考虑反应过程中的⽴体化学。"
+      "text": "THF为四氢呋喃,HMPA为六甲基磷酸三胺,是常用有机溶剂;t-BuOH为叔丁醇。"
+    },
+    {
+      "type": "paragraph",
+      "text": "解答以下问题时不考虑反应过程中的立体化学。"
     }
   ],
   "parts": [
@@ -45,45 +50,34 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "化合(5)在叔丁醇中加热处理，依次经3个中间物E、F、G，⽣成产物(6)，E和G各含3个羰基，F含2个羰基。"
+          "text": "化合物(5)在叔丁醇中加热处理,依次经3个中间物E、F、G,生成产物(6),E和G各含3个羰基,F含2个羰基。"
+        },
+        {
+          "type": "paragraph",
+          "text": "5-2-1 请写出E、F、G的结构。"
+        },
+        {
+          "type": "paragraph",
+          "text": "5-2-2 用电子转移箭头标明G到(6)的机理。"
         }
       ]
     },
     {
       "id": "part-000406-03",
-      "label": "5-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "-1 请写出E、F、G的结构。"
-        }
-      ]
-    },
-    {
-      "id": "part-000406-04",
-      "label": "5-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "-2 ⽤电⼦转移箭头标明G到(6)的机理。"
-        }
-      ]
-    },
-    {
-      "id": "part-000406-05",
       "label": "5-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "⽤格⽒试剂(7)和化合物(1)反应，然后依次⽤CH_{3}I、 $\\mathrm { C H _ { 3 } C O O H }$ 处理，得到化合物(8)，如下式所⽰："
+          "text": "用格氏试剂(7)和化合物(1)反应,然后依次用CH$_3$I、CH$_3$COOH处理,得到化合物(8),如下式所示:"
+        },
+        {
+          "type": "figure",
+          "caption": "反应式",
+          "alt": "缺图:格氏试剂(7)与化合物(1)反应生成(8)的反应式"
         },
         {
           "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "请写出从J到(8)的反应历程，⽤弯箭头标明电⼦转移的⽅向，并说明(1)与(2)和(1)与(7)反应，为何采⽤相同的反应条件，却得到不同类别的反应产物(3)和(8)（⽤结构简式表⽰）。"
+          "text": "请写出从J到(8)的反应历程,用弯箭头标明电子转移的方向,并说明(1)与(2)和(1)与(7)反应,为何采用相同的反应条件,却得到不同类别的反应产物(3)和(8)(用结构简式表示)。"
         }
       ]
     }

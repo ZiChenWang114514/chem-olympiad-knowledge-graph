@@ -12,19 +12,13 @@
     "sourceLabel": "2019-33-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2019-33-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2019-33-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理公式与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000075-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出G的结构简式。"
+          "text": "画出 G 的结构简式。"
         }
       ]
     },
@@ -42,11 +36,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "研究发现，当使⽤超酸三氟甲磺酸代替浓硫酸后，反应的产物如下图左所⽰。研究还表明，化合物G在三氟甲磺酸作⽤下也可以转化为该化合物。画出化合物G转化为此产物过程中所形成的中间体。提⽰：同⼀物种只须画出其中⼀个主要共振式。"
+          "text": "研究发现,当使用超酸三氟甲磺酸代替浓硫酸后,反应的产物如下图左所示。研究还表明,化合物 G 在三氟甲磺酸作用下也可以转化为该化合物。画出化合物 G 转化为此产物过程中所形成的中间体。提示:同一物种只须画出其中一个主要共振式。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应产物示意图",
+          "alt": "图:反应产物(缺图)"
         }
       ]
     },
@@ -56,11 +51,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "参照以上实验结果，如果希望制备以下内酯，画出所⽤原料H的结构简式（说明：LA即Lewis酸）："
+          "text": "参照以上实验结果,如果希望制备以下内酯,画出所用原料 H 的结构简式(说明:LA 即 Lewis 酸):"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "目标内酯结构",
+          "alt": "图:目标内酯(缺图)"
         }
       ]
     },
@@ -70,7 +66,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "室温下五元环状化合物克酮酸(croconic acid, $\\mathrm { C 5 H _ { 2 } O _ { 5 } ) }$ 在浓硫酸的作⽤下先与等量的苯反应形成中间体I$\\mathrm { ( C _ { 1 1 } H _ { 6 } O _ { 4 } ) }$ ；I继续在苯中反应⽣成J $\\left( \\mathrm { C } _ { 2 3 } \\mathrm { H } _ { 1 6 } \\mathrm { O } _ { 3 } \\right)$ 。画出I和J的结构简式。"
+          "text": "室温下五元环状化合物克酮酸(croconic acid,$\\mathrm{C_5H_2O_5}$)在浓硫酸的作用下先与等量的苯反应形成中间体 I($\\mathrm{C_{11}H_6O_4}$);I 继续在苯中反应生成 J($\\mathrm{C_{23}H_{16}O_3}$)。画出 I 和 J 的结构简式。"
         }
       ]
     }

@@ -12,25 +12,25 @@
     "sourceLabel": "2007-21-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2007-21-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2007-21-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "$\\mathrm { K C l O _ { 3 } }$ 热分解是实验室制取氧⽓的⼀种⽅法。 $\\mathrm { K C l O _ { 3 } }$ 在不同的条件下热分解结果如下："
+      "text": "$\\mathrm{KClO_3}$ 热分解是实验室制取氧气的一种方法。$\\mathrm{KClO_3}$ 在不同的条件下热分解结果如下:"
     },
     {
-      "type": "callout",
-      "tone": "info",
-      "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
+      "type": "figure",
+      "caption": "原卷此处含表格/仪器试剂表",
+      "alt": "原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。"
     },
     {
       "type": "paragraph",
-      "text": "已知： (1) $\\mathrm { K } ( \\mathrm { s } ) + 1 / 2 \\mathrm { C l } _ { 2 } ( \\mathrm { g } ) = \\mathrm { K C l } ( \\mathrm { s } )$ $\\Delta H ^ { \\ominus } \\ ( 1 ) = \\ - 4 3 7 \\ \\mathrm { k J \\ m o l ^ { - 1 } }$ (2) $\\mathrm { K ( s ) } + 1 / 2 \\mathrm { C l } _ { 2 } + 3 / 2 \\mathrm { O } _ { 2 } ( \\mathrm { g } ) = \\mathrm { K C l } \\mathrm { O } _ { 3 } ( \\mathrm { s } )$ $\\Delta H ^ { \\ominus } \\ ( 2 ) = \\mathrm { - } 3 9 8 \\mathrm { k J m o l ^ { - 1 } }$ (3) $\\mathrm { K ( s ) + 1 / 2 \\ C l _ { 2 } + 2 \\ O _ { 2 } ( g ) = K C l O _ { 4 } ( s ) }$ $\\Delta H ^ { \\ominus }$ (3) = −433 kJ $\\mathrm { m o l ^ { - 1 } }$"
+      "text": "已知:\n(1) $\\mathrm{K(s) + \\frac{1}{2}Cl_2(g) = KCl(s)}$,$\\Delta H^{\\ominus}(1) = -437\\ \\mathrm{kJ\\ mol^{-1}}$\n(2) $\\mathrm{K(s) + \\frac{1}{2}Cl_2(g) + \\frac{3}{2}O_2(g) = KClO_3(s)}$,$\\Delta H^{\\ominus}(2) = -398\\ \\mathrm{kJ\\ mol^{-1}}$\n(3) $\\mathrm{K(s) + \\frac{1}{2}Cl_2(g) + 2O_2(g) = KClO_4(s)}$,$\\Delta H^{\\ominus}(3) = -433\\ \\mathrm{kJ\\ mol^{-1}}$"
     }
   ],
   "parts": [
@@ -40,7 +40,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "根据以上数据，写出上述三个体系对应的分解过程的热化学⽅程式。"
+          "text": "根据以上数据,写出上述三个体系对应的分解过程的热化学方程式。"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "⽤写 $\\mathrm { M n O _ { 2 } }$ 催化 $\\mathrm { K C l O _ { 3 } }$ 分解制得的氧⽓有轻微的刺激性⽓味，推测这种⽓体是什么，并提出确认这种⽓体的实验⽅法。"
+          "text": "用 $\\mathrm{MnO_2}$ 催化 $\\mathrm{KClO_3}$ 分解制得的氧气有轻微的刺激性气味,推测这种气体是什么,并提出确认这种气体的实验方法。"
         }
       ]
     }

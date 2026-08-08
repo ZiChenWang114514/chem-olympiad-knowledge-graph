@@ -12,19 +12,13 @@
     "sourceLabel": "2019-33-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2019-33-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2019-33-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错误、整理公式与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000074-01",
@@ -32,11 +26,11 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "现有如下待完成的反应："
+          "text": "现有如下待完成的反应:"
         },
         {
           "type": "paragraph",
-          "text": "$$\n\\begin{array}{c} \\mathrm{D} _ {\\mathrm{H}} \\\\ \\mathrm{H} _ {3} \\mathrm{C} \\end{array} \\xrightarrow [ \\text {Br} ]{\\text {Br} _ {2}} \\xrightarrow [ h \\nu ]{}\n$$"
+          "text": "$$\\begin{array}{c} \\mathrm{D_H} \\\\ \\mathrm{H_3C} \\end{array} \\xrightarrow[\\text{Br}]{\\mathrm{Br_2}} \\xrightarrow[h\\nu]{}$$"
         }
       ]
     },
@@ -46,7 +40,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 判断该反应物⼿性中⼼的构型。"
+          "text": "-1 判断该反应物中心碳原子的构型。"
         }
       ]
     },
@@ -56,7 +50,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 画出此单溴化反应所有产物的结构简 $\\tt { \\overline { { I } } } \\hat { \\zeta } _ { \\mathrm { < } }$"
+          "text": "-2 画出此单溴化反应所有产物的结构简式。"
         }
       ]
     },
@@ -66,15 +60,16 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "变⾊眼镜⽚在阳光下显深⾊，从⽽保护⼈的眼睛；当⼈进⼊室内后，镜⽚逐步转变为⽆⾊透明，有利于在弱光下观察周边事物。⽬前流⾏的⼀种变⾊眼镜的变⾊原理如下："
+          "text": "变色眼镜片在阳光下显深色,从而保护人的眼睛;当人进入室内后,镜片逐步转变为无色透明,有利于在弱光下观察周边事物。目前流行的一种变色眼镜的变色原理如下:"
+        },
+        {
+          "type": "figure",
+          "caption": "变色原理示意图",
+          "alt": "变色眼镜变色原理的化学反应图示"
         },
         {
           "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "判断上述变⾊过程中反应条件c1和 ${ \\mathrm { c 2 } } .$ ，简述理由。"
+          "text": "判断上述变色过程中反应条件c1和c2,简述理由。"
         }
       ]
     },
@@ -84,11 +79,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "维⽣素C普遍存在于动植物中，在动物肝脏中以葡萄糖为原料经四步反应合成；⼯业⽣产的⽅式也是以葡萄糖经以下过程合成的："
+          "text": "维生素C普遍存在于动植物中,在动物肝脏中以葡萄糖为原料经四步反应合成;工业生产的方式也是以葡萄糖经以下过程合成的:"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "合成路线图",
+          "alt": "由葡萄糖合成维生素C的工业过程图示"
         }
       ]
     },
@@ -98,7 +94,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 写出反应a和b的具体条件（可以不写溶剂）。"
+          "text": "-1 写出反应a和b的具体条件(可以不写溶剂)。"
         }
       ]
     },
@@ -108,7 +104,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 画出 L-⼭梨糖和化合物 C 的 Fischer 投影式。"
+          "text": "-2 画出 L-山梨糖和化合物 C 的 Fischer 投影式。"
         }
       ]
     },
@@ -118,7 +114,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "以下给出四个取代反应，右图为其中某⼀反应的反应势能图："
+          "text": "以下给出四个取代反应,右图为其中某一反应的反应势能图:"
         }
       ]
     },
@@ -128,7 +124,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$\\mathrm { C H _ { 3 } C H _ { 2 } B r + N a O C H _ { 3 }  }$"
+          "text": "$\\mathrm{CH_3CH_2Br + NaOCH_3}$"
         }
       ]
     },
@@ -138,7 +134,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$\\mathrm { ( C H _ { 3 } ) _ { 3 } C B r + H O C H _ { 3 }  }$"
+          "text": "$\\mathrm{(CH_3)_3CBr + HOCH_3}$"
         }
       ]
     },
@@ -148,7 +144,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$( \\mathrm { C H _ { 3 } } ) _ { 2 } \\mathrm { C H I } + \\mathrm { K B r } $"
+          "text": "$\\mathrm{(CH_3)_2CHI + KBr}$"
         }
       ]
     },
@@ -158,11 +154,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$\\mathrm { ( C H _ { 3 } ) _ { 3 } C C l + ( C _ { 6 } H _ { 5 } ) _ { 3 } P  }$"
+          "text": "$\\mathrm{(CH_3)_3CCl + (C_6H_5)_3P}$"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应势能图",
+          "alt": "某一取代反应的反应势能图"
         }
       ]
     },

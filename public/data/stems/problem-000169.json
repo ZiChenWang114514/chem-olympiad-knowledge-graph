@@ -12,19 +12,13 @@
     "sourceLabel": "2022-36-CChO-chusai-2.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2022-36-CChO-chusai-1/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2022-36-CChO-chusai-1/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。DeepSeek 精修。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000169-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "为获得性能良好的纳⽶材料，利⽤团簇化合物 $\\mathrm { K _ { 1 2 } S i _ { 1 7 } }$ 和 $\\mathrm { N H _ { 4 } B r }$ 反应制备纳⽶硅。"
+          "text": "为获得性能良好的纳米材料,利用团簇化合物 $\\mathrm{K_{12}Si_{17}}$ 和 $\\mathrm{NH_4Br}$ 反应制备纳米硅。"
         }
       ]
     },
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "硒代硫酸根在酸性条件下被⼀定浓度的 $\\mathrm { H _ { 2 } O _ { 2 } }$ 氧化，主产物与硫代硫酸根被 $\\mathrm { I } _ { 2 }$ 氧化的产物相似。"
+          "text": "硒代硫酸根在酸性条件下被一定浓度的 $\\mathrm{H_2O_2}$ 氧化,主产物与硫代硫酸根被 $\\mathrm{I_2}$ 氧化的产物相似。"
         }
       ]
     },
@@ -52,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "单质碲(Te)和 $\\mathrm { A s F _ { 5 } }$ 在溶剂 $\\mathrm { S O } _ { 2 }$ 中按计量⽐6:3反应，主产物为灰⾊抗磁性固体，其阴离⼦为⼋⾯体结构。"
+          "text": "单质碲(Te)和 $\\mathrm{AsF_5}$ 在溶剂 $\\mathrm{SO_2}$ 中按计量比6:3反应,主产物为灰色抗磁性固体,其阴离子为八面体结构。"
         }
       ]
     },
@@ -62,7 +56,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "利⽤ $\\mathrm { X e F _ { 2 } }$ 和溴酸根溶液反应制备⾼溴酸根。"
+          "text": "利用 $\\mathrm{XeF_2}$ 和溴酸根溶液反应制备高溴酸根。"
         }
       ]
     },
@@ -72,7 +66,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "钼酸钠 $\\left( \\mathrm { N a _ { 2 } M o O _ { 4 } } \\right)$ 和硫代⼄酰胺 $\\mathrm { ( C H _ { 3 } C S N H _ { 2 } ) }$ )混合溶液在⽔热条件下强酸性介质中发⽣反应，制备⼆维材料 $\\mathrm { M o S } _ { 2 }$ 。（提⽰：分离 $\\mathrm { M o S _ { 2 } }$ 后的酸性溶液中加⼊ $\\mathrm { B a C l _ { 2 } }$ ，出现⽩⾊沉淀。）"
+          "text": "钼酸钠 $\\left(\\mathrm{Na_2MoO_4}\\right)$ 和硫代乙酰胺 $\\left(\\mathrm{CH_3CSNH_2}\\right)$ 混合溶液在水热条件下强酸性介质中发生反应,制备二维材料 $\\mathrm{MoS_2}$。(提示:分离 $\\mathrm{MoS_2}$ 后的酸性溶液中加入 $\\mathrm{BaCl_2}$,出现白色沉淀。)"
         }
       ]
     }

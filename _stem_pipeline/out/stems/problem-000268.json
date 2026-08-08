@@ -12,109 +12,85 @@
     "sourceLabel": "2025-39-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2025-39-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2025-39-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、合并空壳段落。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "$$"
+      "text": "解得 $x = 1.307 \\times 10^{4}$,$y = 1.542 \\times 10^{4}$。"
     },
     {
       "type": "paragraph",
-      "text": "$$\n\\text { 解得 } x = 1. 3 0 7 \\times 1 0 ^ {4}, y = 1. 5 4 2 \\times 1 0 ^ {4},\\tag{1 分}\n$$"
-    },
-    {
-      "type": "paragraph",
-      "text": "$$\n\\text{接触不良颗粒百分比} = y / (x + y) = 1.542 / 2.85 = 54.1 \\%\\tag{1 分}\n$$"
+      "text": "接触不良颗粒百分比 $= y/(x+y) = 1.542/2.85 = 54.1\\%$。"
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "给分原则："
+      "text": "给分原则:"
     },
     {
       "type": "paragraph",
-      "text": "本小问共 8 分，扩散电流正确 3 分，接触电流正确 1 分，颗粒总数正确 1 分，正确列方程组 1 分，正确解方程组 1 分（只要 y 正确就可得 1 分，y 错误不得分），答案 1 分。"
+      "text": "本小问共 8 分:扩散电流正确 3 分,接触电流正确 1 分,颗粒总数正确 1 分,正确列方程组 1 分,正确解方程组 1 分(只要 $y$ 正确就可得 1 分,$y$ 错误不得分),答案 1 分。"
     },
     {
       "type": "paragraph",
-      "text": "若以 $Q_{0} = 3.6 \\times 10^{-12} \\, C,\\quad D = 3.0 \\times 10^{3} \\, nm^{2} \\, s^{-1},$"
+      "text": "若以 $Q_0 = 3.6 \\times 10^{-12} \\, \\mathrm{C}$,$D = 3.0 \\times 10^{3} \\, \\mathrm{nm^2\\,s^{-1}}$,得"
     },
     {
       "type": "paragraph",
-      "text": "得 $|I|=\\left|\\mathrm{d}Q/\\mathrm{d}t\\right|=\\left|\\frac{\\pi^{2}D}{4L^{2}}Q_{0}e^{-\\frac{\\pi^{2}D}{4L^{2}}t}\\right|$"
+      "text": "$|I| = \\left| \\frac{\\mathrm{d}Q}{\\mathrm{d}t} \\right| = \\left| \\frac{\\pi^2 D}{4L^2} Q_0 e^{-\\frac{\\pi^2 D}{4L^2} t} \\right|$"
     },
     {
       "type": "paragraph",
-      "text": "1 分"
+      "text": "$= \\left| \\frac{\\pi^2 \\times 3.00 \\times 10^{3} \\, \\mathrm{nm^2\\,s^{-1}}}{4 \\times (180 \\, \\mathrm{nm})^2} \\times 3.6 \\times 10^{-12} \\, \\mathrm{C} \\times e^{-\\frac{\\pi^2 \\times 3.00 \\times 10^{3} \\, \\mathrm{nm^2\\,s^{-1}}}{4 \\times (180 \\, \\mathrm{nm})^2} \\times 10.00 \\, \\mathrm{s}} \\right|$"
     },
     {
       "type": "paragraph",
-      "text": "$$\n= \\left| \\frac {\\pi^ {2} \\times 3 . 0 0 \\times 1 0 ^ {3} \\mathrm{nm} ^ {2} \\mathrm{s} ^ {- 1}}{4 \\times (1 8 0 \\mathrm{nm}) ^ {2}} \\times 3. 6 \\times 1 0 ^ {- 1 2} \\mathrm{C} \\times e ^ {- \\frac {\\pi^ {2} \\times 3 . 0 0 \\times 1 0 ^ {3} \\mathrm{nm} ^ {2} \\mathrm{s} ^ {- 1}}{4 \\times (1 8 0 \\mathrm{nm}) ^ {2}} \\times 1 0. 0 0 \\mathrm{s}} \\right|\\tag{1 分}\n$$"
+      "text": "$= 0.0837 \\, \\mathrm{pA}$"
     },
     {
       "type": "paragraph",
-      "text": "$$\n= 0. 0 8 3 7 \\mathrm{pA}\n$$"
+      "text": "若接触电阻 $R = 2.00 \\times 10^{13} \\, \\Omega$,$I_2 = 0.500 \\, \\mathrm{V} / R = 0.0250 \\, \\mathrm{pA}$。"
     },
     {
       "type": "paragraph",
-      "text": "1 分，至此步共 3 分"
+      "text": "电极表面 PBA-1 颗粒的总个数:"
     },
     {
       "type": "paragraph",
-      "text": "若接触电阻 $R = 2.00 \\times 10^{13} \\Omega$ ， $I_{2} = 0.500 V / R = 0.0250 pA$"
+      "text": "$N = \\frac{m}{m_L} = \\frac{m}{(L/a)^3 / 2 \\cdot M_r / N_A}$"
     },
     {
       "type": "paragraph",
-      "text": "1 分"
+      "text": "$= 0.3198 \\times 10^{-9} / \\left( \\left( \\frac{180}{0.510} \\right)^3 / 2 \\times \\frac{306.92}{6.022 \\times 10^{23}} \\right) = 2.85 \\times 10^{4}$"
     },
     {
       "type": "paragraph",
-      "text": "电极表面 PBA-1 颗粒的总个数"
+      "text": "联立方程组:"
     },
     {
       "type": "paragraph",
-      "text": "$$\nN = \\frac {m}{m _ {L}} = \\frac {m}{(L / a) ^ {3} / 2 \\cdot M _ {r} / N _ {A}}\n$$"
+      "text": "$x + y = 2.85 \\times 10^{4}$"
     },
     {
       "type": "paragraph",
-      "text": "$$\n= 0. 3 1 9 8 \\times 1 0 ^ {- 9} / \\left(\\left(\\frac {1 8 0}{0 . 5 1 0}\\right) ^ {3} / 2 \\times \\frac {3 0 6 . 9 2}{6 . 0 2 2 \\times 1 0 ^ {2 3}}\\right) = 2. 8 5 \\times 1 0 ^ {4}\\tag{1 分}\n$$"
+      "text": "$0.0837x + 0.0250y = 1385.76$"
     },
     {
       "type": "paragraph",
-      "text": "联立方程组"
+      "text": "其中 $x$ 为扩散速率控制的颗粒个数,$y$ 为接触电阻控制的颗粒个数。"
     },
     {
       "type": "paragraph",
-      "text": "$$\nx + y = 2. 8 5 \\times 1 0 ^ {4}\n$$"
+      "text": "解得 $x = 1.15 \\times 10^{4}$,$y = 1.70 \\times 10^{4}$。"
     },
     {
       "type": "paragraph",
-      "text": "$$\n0. 0 8 3 7 x + 0. 0 2 5 0 y = 1 3 8 5. 7 6\\tag{1 分}\n$$"
-    },
-    {
-      "type": "paragraph",
-      "text": "x 为扩散速率控制的颗粒个数，y 为接触电阻控制的颗粒个数。"
-    },
-    {
-      "type": "paragraph",
-      "text": "解得， $x=1.15\\times10^{4},y=1.70\\times10^{4}$"
-    },
-    {
-      "type": "paragraph",
-      "text": "1 分"
-    },
-    {
-      "type": "paragraph",
-      "text": "接触不良颗粒百分比= $y/(x+y)=1.70/2.85=59.6\\%$"
-    },
-    {
-      "type": "paragraph",
-      "text": "1 分"
+      "text": "接触不良颗粒百分比 $= y/(x+y) = 1.70/2.85 = 59.6\\%$。"
     }
   ]
 }

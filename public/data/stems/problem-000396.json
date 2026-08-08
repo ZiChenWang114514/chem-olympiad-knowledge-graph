@@ -12,19 +12,13 @@
     "sourceLabel": "2012-26-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2012-26-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2012-26-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000396-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "晶体中，喹啉酸采取能量最低的构型，画出此构型（碳原⼦上的氢原⼦以及孤对电⼦可不画）。"
+          "text": "晶体中,喹啉酸采取能量最低的构型,画出此构型(碳原子上的氢原子以及孤对电子可不画)。"
         }
       ]
     },
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "喹啉酸在⽔溶液中的 $\\mathsf { p } K _ { a _ { 1 } } = 2 . 4 1$ ，写出其⼀级电离的⽅程式（共轭酸碱⽤结构简式表⽰）。"
+          "text": "喹啉酸在水溶液中的 $pK_{a_1}=2.41$,写出其一级电离的方程式(共轭酸碱用结构简式表示)。"
         }
       ]
     },

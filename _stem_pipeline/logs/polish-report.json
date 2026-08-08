@@ -1,0 +1,10 @@
+{
+  "concurrency": 10,
+  "model": "deepseek-v4-flash",
+  "base": "https://api.deepseek.com",
+  "pending": 399,
+  "ok": 399,
+  "fail": 0,
+  "elapsedSec": 200,
+  "failures": []
+}

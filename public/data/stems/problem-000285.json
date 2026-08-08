@@ -12,19 +12,13 @@
     "sourceLabel": "2006-20-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2006-20-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2006-20-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000285-01",
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "化合物A转变为E各步释放的氢所占的质量分数以及总共释放的氢⽓所占的质量分数多⼤？"
+          "text": "化合物A转变为E各步释放的氢所占的质量分数以及总共释放的氢气所占的质量分数多大?"
         }
       ]
     },
@@ -52,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "为使 A 再⽣，有⼈设计了化合物 D 在⽔蒸⽓存在下与甲烷反应，写出化学⽅程式。"
+          "text": "为使 A 再生,有人设计了化合物 D 在水蒸气存在下与甲烷反应,写出化学方程式。"
         }
       ]
     }

@@ -12,19 +12,13 @@
     "sourceLabel": "2019-33-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2019-33-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2019-33-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、合并无意义 callout。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000069-01",
@@ -32,16 +26,20 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$\\mathrm { F e O ( s ) + C O ( g )  \\ F e ( s ) + C O _ { 2 } ( g ) }$ $K _ { 1 } ^ { \\ominus } \\ = 1 . 0 0 \\ \\left( T \\ = 1 2 0 0 \\mathrm { K } \\right)$ (2) $\\mathrm { F e O ( s ) } + \\mathrm { C ( s ) }  \\mathrm { F e ( s ) } + \\mathrm { C O ( g ) }$ $K _ { 2 } ^ { \\ominus }$ (� = 1200 K)"
+          "text": "$\\mathrm{FeO(s) + CO(g) \\rightleftharpoons Fe(s) + CO_2(g)}$, $K_1^{\\ominus} = 1.00$ ($T = 1200\\ \\mathrm{K}$)"
         },
         {
           "type": "paragraph",
-          "text": "⽓体常数 $R = 8 . 3 1 4 \\mathrm { J } \\mathrm { m o l } ^ { - 1 } \\mathrm { K } ^ { - 1 }$ ；相关的热⼒学数据(298 K)列⼊下表："
+          "text": "$\\mathrm{FeO(s) + C(s) \\rightleftharpoons Fe(s) + CO(g)}$, $K_2^{\\ominus}$ ($T = 1200\\ \\mathrm{K}$)"
+        },
+        {
+          "type": "paragraph",
+          "text": "气体常数 $R = 8.314\\ \\mathrm{J\\ mol^{-1}\\ K^{-1}}$;相关的热力学数据(298 K)列入下表:"
         },
         {
           "type": "callout",
           "tone": "info",
-          "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
+          "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
         }
       ]
     },
@@ -51,7 +49,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "假设上述反应体系在密闭条件下达平衡时总压为1200 kPa，计算各⽓体的分压。"
+          "text": "假设上述反应体系在密闭条件下达平衡时总压为1200 kPa,计算各气体的分压。"
         }
       ]
     },
@@ -61,7 +59,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算 $K _ { 2 } ^ { \\ominus }$ 。"
+          "text": "计算 $K_2^{\\ominus}$。"
         }
       ]
     },
@@ -71,7 +69,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算 $\\mathrm { C O _ { 2 } ( g ) }$ 的标准熵 $S _ { m } ^ { \\ominus }$ （单位：J $\\mathrm { m o l ^ { - 1 } K ^ { - 1 } } )$ 。设反应的焓变和熵变不随温度变化。"
+          "text": "计算 $\\mathrm{CO_2(g)}$ 的标准熵 $S_m^{\\ominus}$ (单位:J $\\mathrm{mol^{-1}\\ K^{-1}}$)。设反应的焓变和熵变不随温度变化。"
         }
       ]
     },
@@ -81,7 +79,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "反应体系中，若 $\\operatorname { C O } ( \\mathrm { g } )$ 和 $\\mathrm { C O } _ { 2 } ( \\mathrm { g ) }$ 均保持标态，判断此条件下反应的⾃发性（填写对应的字⺟）：3-4-1 反应(1)： A. ⾃发 B. 不⾃发 C. 达平衡3-4-2 反应(2)： A. ⾃发 B. 不⾃发 C. 达平衡"
+          "text": "反应体系中,若 $\\mathrm{CO(g)}$ 和 $\\mathrm{CO_2(g)}$ 均保持标态,判断此条件下反应的自发性(填写对应的字母):3-4-1 反应(1): A. 自发 B. 不自发 C. 达平衡3-4-2 反应(2): A. 自发 B. 不自发 C. 达平衡"
         }
       ]
     },
@@ -91,7 +89,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "若升⾼温度，指出反应平衡常数如何变化（填写对应的字⺟）。3-5-1 反应(1)： A. 增⼤ B. 不变化 C. 减⼩3-5-2 反应(2)： A. 增⼤ B. 不变化 C. 减⼩"
+          "text": "若升高温度,指出反应平衡常数如何变化(填写对应的字母)。3-5-1 反应(1): A. 增大 B. 不变化 C. 减小3-5-2 反应(2): A. 增大 B. 不变化 C. 减小"
         }
       ]
     }

@@ -12,9 +12,9 @@
     "sourceLabel": "2014-28-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2014-28-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2014-28-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理公式与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
@@ -24,16 +24,49 @@
       "text": "画出反应(a)中A、反应(b)中主产物B、(c)中主要产物C的结构简式。"
     },
     {
-      "type": "paragraph",
-      "text": "(b)\n(a)\n（图：）"
+      "type": "figure",
+      "caption": "反应(a)与反应(b)的图示",
+      "alt": "反应(a)与反应(b)的化学方程式,缺图"
     },
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "反应(c)的图示",
+      "alt": "反应(c)的化学方程式,缺图"
+    }
+  ],
+  "parts": [
+    {
+      "id": "p1",
+      "label": "(a)",
+      "type": "short_answer",
+      "prompt": "写出反应(a)中A的结构简式。",
+      "figure": {
+        "type": "figure",
+        "caption": "反应(a)的图示",
+        "alt": "反应(a)的化学方程式,缺图"
+      }
     },
     {
-      "type": "paragraph",
-      "text": "(c)\n（图：）"
+      "id": "p2",
+      "label": "(b)",
+      "type": "short_answer",
+      "prompt": "写出反应(b)中主产物B的结构简式。",
+      "figure": {
+        "type": "figure",
+        "caption": "反应(b)的图示",
+        "alt": "反应(b)的化学方程式,缺图"
+      }
+    },
+    {
+      "id": "p3",
+      "label": "(c)",
+      "type": "short_answer",
+      "prompt": "写出反应(c)中主要产物C的结构简式。",
+      "figure": {
+        "type": "figure",
+        "caption": "反应(c)的图示",
+        "alt": "反应(c)的化学方程式,缺图"
+      }
     }
   ]
 }

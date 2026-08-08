@@ -12,16 +12,17 @@
     "sourceLabel": "2020-34-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2020-34-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2020-34-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "题目配图(原图缺失)",
+      "alt": "晶体结构相关示意图"
     }
   ],
   "parts": [
@@ -31,7 +32,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "通过计算，确定A是哪种元素。"
+          "text": "通过计算,确定 A 是哪种元素。"
         }
       ]
     },
@@ -41,7 +42,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出B\\~F的分⼦式(或化学式)。"
+          "text": "写出 B~F 的分子式(或化学式)。"
         }
       ]
     },
@@ -51,7 +52,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出C分⼦的结构⽰意图。"
+          "text": "画出 C 分子的结构示意图。"
         }
       ]
     },
@@ -61,7 +62,15 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出如下反应⽅程式(要求系数为最简整数⽐)。(1) B与⽔反应；(2) C和A反应⽣成 $\\mathbf { E } _ { \\circ }$"
+          "text": "写出如下反应方程式(要求系数为最简整数比)。"
+        },
+        {
+          "type": "paragraph",
+          "text": "(1) B 与水反应;"
+        },
+        {
+          "type": "paragraph",
+          "text": "(2) C 和 A 反应生成 $\\mathrm{E}$。"
         }
       ]
     }

@@ -12,16 +12,16 @@
     "sourceLabel": "2014-28-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2014-28-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2014-28-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、规范小问结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "M 为常⻅⾦属，不溶于盐酸和稀硫酸，质地坚韧，富延展性。将 M 溶于硝酸后蒸发、浓缩、冷却得到 A的⽔合盐。A受热分解得到⿊⾊固体 $\\mathbf { B } _ { \\circ }$ 。B溶于盐酸，经蒸发、浓缩、冷却得到绿⾊晶体 $\\mathbf { C } _ { \\circ }$ 。B溶于稀硫酸后经过蒸发、浓缩、冷却得到蓝⾊晶体D。D在 $2 7 0 ~ ^ { \\circ } \\mathrm { C }$ 恒温下⽣成⽩⾊粉末 $\\mathbf { E } ,$ ，E经 $6 0 0 ~ ^ { \\circ } \\mathrm { C }$ 恒温后⽣成 $\\mathbf { B } _ { \\circ }$"
+      "text": "M 为常见金属,不溶于盐酸和稀硫酸,质地坚韧,富延展性。将 M 溶于硝酸后蒸发、浓缩、冷却得到 A 的水合盐。A 受热分解得到黑色固体 B。B 溶于盐酸,经蒸发、浓缩、冷却得到绿色晶体 C。B 溶于稀硫酸后经过蒸发、浓缩、冷却得到蓝色晶体 D。D 在 270 °C 恒温下生成白色粉末 E,E 经 600 °C 恒温后生成 B。"
     }
   ],
   "parts": [
@@ -31,7 +31,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出A、B、C和E的化学式。"
+          "text": "写出 A、B、C 和 E 的化学式。"
         }
       ]
     },
@@ -41,7 +41,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "将E溶于⽔，加⼊过量的碘化钾溶液充分反应，其后缓慢滴加硫代硫酸钠溶液⾄过量。简述反应过程中发⽣的现象，写出相关反应的离⼦⽅程式。"
+          "text": "将 E 溶于水,加入过量的碘化钾溶液充分反应,其后缓慢滴加硫代硫酸钠溶液至过量。简述反应过程中发生的现象,写出相关反应的离子方程式。"
         }
       ]
     },
@@ -51,7 +51,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "A的熔点较低，真空时易升华，这与⼀般离⼦晶体的性质不相符。简述理由。"
+          "text": "A 的熔点较低,真空时易升华,这与一般离子晶体的性质不相符。简述理由。"
         }
       ]
     },
@@ -61,11 +61,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "M 在⼀定温度下与氧作⽤得到固体 $\\mathbf { G } _ { \\circ }$ 。G 属⽴⽅晶系，其正当晶胞如下图所⽰，密度为 $6 . 0 0 \\ \\mathrm { g \\ c m ^ { - 1 } c }$ 。通过计算给出M‒O的距离。"
+          "text": "M 在一定温度下与氧作用得到固体 G。G 属立方晶系,其正当晶胞如下图所示,密度为 $6.00\\ \\mathrm{g\\ cm^{-3}}$。通过计算给出 M‒O 的距离。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "G 的正当晶胞示意图",
+          "alt": "G 的正当晶胞示意图(缺图)"
         }
       ]
     }

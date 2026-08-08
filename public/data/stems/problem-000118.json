@@ -12,20 +12,21 @@
     "sourceLabel": "2021-35-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2021-35-CChO-chusai-jiangsu/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2021-35-CChO-chusai-jiangsu/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。已由 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "菲啶(Phend)形成的铜配合物因在太阳能转化、发光⼆极管、荧光探针和抗癌荧光等光伏领域的应⽤⽽受到研究⼈员的重视。某实验将 0.089 g 菲啶(Phend)和 0.131 g $\\mathrm { P P h } _ { 3 }$ 的25 mL甲醇溶液室温下搅拌10分钟，然后加⼊含0.049g氯化亚铜的25 mL甲醇溶液，室温搅拌3⼩时得到⻩绿⾊沉淀。过滤，滤液室温下放置10天，随着溶剂的缓慢蒸发，得到0.253 g⻩⾊晶体 $\\mathbf { A } _ { \\circ }$ 。晶体 A 的元素分析结果为(%)：C 68.74 (68.89), H 4.53(4.47), N 2.27 (2.60)，括号内为理论值。晶体结构表明Cu的配位数为4。菲啶的结构⻅图5。"
+      "text": "菲啶(Phend)形成的铜配合物因在太阳能转化、发光二极管、荧光探针和抗癌荧光等光伏领域的应用而受到研究人员的重视。某实验将 0.089 g 菲啶(Phend)和 0.131 g $\\mathrm{PPh_3}$ 的 25 mL 甲醇溶液室温下搅拌 10 分钟,然后加入含 0.049 g 氯化亚铜的 25 mL 甲醇溶液,室温搅拌 3 小时得到黄绿色沉淀。过滤,滤液室温下放置 10 天,随着溶剂的缓慢蒸发,得到 0.253 g 黄色晶体 $\\mathbf{A}$。晶体 A 的元素分析结果为(%):C 68.74 (68.89),H 4.53 (4.47),N 2.27 (2.60),括号内为理论值。晶体结构表明 Cu 的配位数为 4。菲啶的结构见图 5。"
     },
     {
-      "type": "paragraph",
-      "text": "（图：）\n图5 菲啶结构"
+      "type": "figure",
+      "caption": "图5 菲啶结构",
+      "alt": "菲啶结构图(缺图)"
     }
   ],
   "parts": [
@@ -35,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "请通过计算和分析，写出⻩⾊晶体A的化学式。"
+          "text": "请通过计算和分析,写出黄色晶体 A 的化学式。"
         }
       ]
     },
@@ -45,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出A的结构，写出形成体的价电⼦构型和杂化⽅式。"
+          "text": "画出 A 的结构,写出形成体的价电子构型和杂化方式。"
         }
       ]
     },
@@ -55,7 +56,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出A可能的异构体结构。"
+          "text": "画出 A 可能的异构体结构。"
         }
       ]
     }

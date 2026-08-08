@@ -12,16 +12,16 @@
     "sourceLabel": "2023-37-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2023-37-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2023-37-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与分问结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "有机合成涉及的选择性主要有化学选择性、区域选择性和⽴体选择性等，是学习的重点。"
+      "text": "有机合成涉及的选择性主要有化学选择性、区域选择性和立体选择性等,是学习的重点。"
     }
   ],
   "parts": [
@@ -31,11 +31,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出以下两个氧化反应主要产物A和B的结构式:"
+          "text": "画出以下两个氧化反应主要产物 A 和 B 的结构式:"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "氧化反应示意图",
+          "alt": "两个氧化反应的反应式,产物为 A 和 B"
         }
       ]
     },
@@ -45,41 +46,42 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "烯基环氧化合物（烯基与环氧直接相连）是重要的合成前体。如下由消旋底物C为原料制备烯基环氧化合物E的路线具有很好的⾮对映选择性（⾮对映选择性过量值>10:1）随后，E可以在⼄酸的作⽤下转化为内酯G1 和 G2。"
+          "text": "烯基环氧化合物(烯基与环氧直接相连)是重要的合成前体。如下由消旋底物 C 为原料制备烯基环氧化合物 E 的路线具有很好的非对映选择性(非对映选择性过量值 >10:1)。随后,E 可以在乙酸的作用下转化为内酯 G1 和 G2。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "合成路线示意图",
+          "alt": "由 C 经 D 制备 E,再转化为 G1 和 G2 的路线"
         }
       ]
     },
     {
       "id": "part-000206-03",
-      "label": "9-2",
+      "label": "9-2-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 画出产物D的⽴体结构式，并判断哪些属于主要产物（在你所画的结构式上圈出即可）"
+          "text": "画出产物 D 的立体结构式,并判断哪些属于主要产物(在你所画的结构式上圈出即可)。"
         }
       ]
     },
     {
       "id": "part-000206-04",
-      "label": "9-2",
+      "label": "9-2-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 由D到E的转化过程属于哪类重排反应类型？"
+          "text": "由 D 到 E 的转化过程属于哪类重排反应类型?"
         }
       ]
     },
     {
       "id": "part-000206-05",
-      "label": "9-2",
+      "label": "9-2-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-3 画出关键中间体F的⽴体结构式，并判断产物G1中三个⼿性中⼼的绝对构型。"
+          "text": "画出关键中间体 F 的立体结构式,并判断产物 G1 中三个手性中心的绝对构型。"
         }
       ]
     },
@@ -89,31 +91,32 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "烯基环氧化合物H在Lewis酸(LA)催化下经中间体I和J转化为产物；但不同的Lewis酸会形成不同的产物，如LA为 $\\mathrm { B F _ { 3 } { \\cdot } E t _ { 2 } O }$ 时主要产物为K；⽽TMSOTf催化下则为 $\\mathbf { L } _ { \\circ }$"
+          "text": "烯基环氧化合物 H 在 Lewis 酸(LA)催化下经中间体 I 和 J 转化为产物;但不同的 Lewis 酸会形成不同的产物,如 LA 为 $\\mathrm{BF_3\\cdot Et_2O}$ 时主要产物为 K;而 TMSOTf 催化下则为 $\\mathrm{L}$。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应示意图",
+          "alt": "H 在 Lewis 酸催化下经 I、J 生成 K 或 L 的反应"
         }
       ]
     },
     {
       "id": "part-000206-07",
-      "label": "9-3",
+      "label": "9-3-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 依据以上信息，画出关键中间体I和J及产物K和L的⽴体结构式（分离后没有得到六元环并六元环的产物，K含氧杂氮杂五元环，L含六元环并七元环）。"
+          "text": "依据以上信息,画出关键中间体 I 和 J 及产物 K 和 L 的立体结构式(分离后没有得到六元环并六元环的产物,K 含氧杂氮杂五元环,L 含六元环并七元环)。"
         }
       ]
     },
     {
       "id": "part-000206-08",
-      "label": "9-3",
+      "label": "9-3-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 简述为何在 $\\mathrm { B F _ { 3 } { \\cdot } E t _ { 2 } O }$ 催化下的产物为 $\\mathbf { K } _ { \\mathtt { C } }$ 。"
+          "text": "简述为何在 $\\mathrm{BF_3\\cdot Et_2O}$ 催化下的产物为 $\\mathrm{K}$。"
         }
       ]
     }

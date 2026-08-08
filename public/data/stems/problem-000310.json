@@ -12,48 +12,50 @@
     "sourceLabel": "2007-21-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2007-21-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2007-21-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "反应1："
+      "text": "反应1:"
     },
     {
       "type": "paragraph",
-      "text": "$$\n\\text { Caryophyllene } \\xrightarrow {\\mathrm{H} _ {2} , \\mathrm{Pd/C}} \\mathrm{C} _ {1 5} \\mathrm{H} _ {2 8}\n$$"
+      "text": "$$\\text{Caryophyllene} \\xrightarrow{H_2, Pd/C} C_{15}H_{28}$$"
     },
     {
       "type": "paragraph",
-      "text": "反应 2："
+      "text": "反应2:"
+    },
+    {
+      "type": "figure",
+      "caption": "反应2的产物结构(图缺失)",
+      "alt": "反应2的产物结构图,原题缺图"
     },
     {
       "type": "paragraph",
-      "text": "（图：）"
+      "text": "反应3:"
     },
     {
       "type": "paragraph",
-      "text": "反应 3："
+      "text": "$$\\text{Caryophyllene} \\xrightarrow{1\\text{eq}BH_3, THF} \\xrightarrow{H_2O_2, NaOH, H_2O} C(C_{15}H_{26}O)$$"
     },
     {
       "type": "paragraph",
-      "text": "$$\n\\text { Caryophyllene } \\xrightarrow {\\text { 1   eq   BH } _ {3} , \\text { THF }} \\xrightarrow {\\mathrm{H} _ {2} \\mathrm{O} _ {2} , \\mathrm{NaOH} , \\mathrm{H} _ {2} \\mathrm{O}} \\quad \\mathbf {C} (\\mathrm{C} _ {1 5} \\mathrm{H} _ {2 6} \\mathrm{O})\n$$"
+      "text": "反应4:"
+    },
+    {
+      "type": "figure",
+      "caption": "反应4的产物D结构(图缺失)",
+      "alt": "反应4的产物D结构图,原题缺图"
     },
     {
       "type": "paragraph",
-      "text": "反应 4："
-    },
-    {
-      "type": "paragraph",
-      "text": "（图：）\nD"
-    },
-    {
-      "type": "paragraph",
-      "text": "⽯⽵烯异构体——异⽯⽵烯在反应1和反应2中也分别得到产物A和 $\\mathbf { B } ,$ ，⽽在经过反应3后却得到了产物C的异构体，此异构体在经过反应4后仍得到了产物D。"
+      "text": "石竹烯异构体——异石竹烯在反应1和反应2中也分别得到产物A和B,而在经过反应3后却得到了产物C的异构体,此异构体在经过反应4后仍得到了产物D。"
     }
   ],
   "parts": [
@@ -63,7 +65,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在不考虑反应⽣成⼿性中⼼的前提下，画出化合物A、C以及C的异构体的结构式。"
+          "text": "在不考虑反应生成心性中手的前提下,画出化合物A、C以及C的异构体的结构式。"
         }
       ]
     },
@@ -73,7 +75,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出⽯⽵烯和异⽯⽵烯的结构式。"
+          "text": "画出石竹烯和异石竹烯的结构式。"
         }
       ]
     },
@@ -83,7 +85,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "指出⽯⽵烯和异⽯⽵烯的结构差别。"
+          "text": "指出石竹烯和异石竹烯的结构差别。"
         }
       ]
     }

@@ -12,20 +12,22 @@
     "sourceLabel": "2016-30-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2016-30-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2016-30-CChO-chusai/full.md)程序化切分并整理为结构化题干;经 DeepSeek 精修题干呈现(OCR 错字、LaTeX、图块、小问结构)。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "（图：）\n高温相"
+      "type": "figure",
+      "caption": "高温相(原图缺失)",
+      "alt": "高温相结构示意图(缺图)"
     },
     {
-      "type": "paragraph",
-      "text": "（图：）\n低温相"
+      "type": "figure",
+      "caption": "低温相(原图缺失)",
+      "alt": "低温相结构示意图(缺图)"
     }
   ],
   "parts": [
@@ -35,7 +37,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "推出这种电解质的化学式，写出�和�的值。"
+          "text": "推出这种电解质的化学式,写出 $x$ 和 $y$ 的值。"
         }
       ]
     },
@@ -45,7 +47,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "温度变化会导致晶体在⽴⽅晶系和四⽅晶系之间转换，上述哪种晶相属于⽴⽅晶系？"
+          "text": "温度变化会导致晶体在立方晶系和四方晶系之间转换,上述哪种晶相属于立方晶系?"
         }
       ]
     },
@@ -55,7 +57,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出负离⼦的堆积⽅式及形成的空隙类型。指出正离⼦占据的空隙类型及占有率。"
+          "text": "写出负离子的堆积方式及形成的空隙类型。指出正离子占据的空隙类型及占有率。"
         }
       ]
     },
@@ -65,7 +67,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "⾼温相具有良好的离⼦导电性，这源于哪种离⼦的迁移？简述导电性与结构的关系。"
+          "text": "高温相具有良好的离子导电性,这源于哪种离子的迁移?简述导电性与结构的关系。"
         }
       ]
     }

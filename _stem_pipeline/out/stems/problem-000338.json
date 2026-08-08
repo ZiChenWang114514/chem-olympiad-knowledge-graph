@@ -12,19 +12,13 @@
     "sourceLabel": "2009-23-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2009-23-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2009-23-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000338-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "配制 SnCl_{2}溶液时，将 $\\mathrm { S n C l } _ { 2 } ( \\mathrm { s } )$ 溶于浓HCl后再加⽔冲稀。"
+          "text": "配制 $\\ce{SnCl2}$ 溶液时,将 $\\ce{SnCl2(s)}$ 溶于浓 HCl 后再加水冲稀。"
         }
       ]
     },
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "加热 $\\mathrm { M n O _ { 2 } }$ 的浓HCl溶液制取氯⽓。"
+          "text": "加热 $\\ce{MnO2}$ 的浓 HCl 溶液制取氯气。"
         }
       ]
     },
@@ -52,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "需⽤浓HCl溶液配制王⽔才能溶解⾦。"
+          "text": "需用浓 HCl 溶液配制王水才能溶解金。"
         }
       ]
     }

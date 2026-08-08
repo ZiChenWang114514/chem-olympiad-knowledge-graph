@@ -12,20 +12,20 @@
     "sourceLabel": "2012-26-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2012-26-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2012-26-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理化学式与 LaTeX、规范小问结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "(a) 称取 0.2073 g 样品，放⼊锥形瓶，加⼊ 40 mL 2 M 的 $\\mathrm { H _ { 2 } S O _ { 4 } }$ ，微热使样品溶解，加⼊30mL⽔，加热近沸，⽤ 0.02054 M $\\mathrm { K M n O } _ { 4 }$ 溶液滴定⾄终点，消耗24.18mL。"
+      "text": "(a) 称取 0.2073 g 样品,放入锥形瓶,加入 40 mL 2 M 的 $\\ce{H2SO4}$,微热使样品溶解,加入 30 mL 水,加热近沸,用 0.02054 M $\\ce{KMnO4}$ 溶液滴定至终点,消耗 24.18 mL。"
     },
     {
       "type": "paragraph",
-      "text": "(b) 接着将溶液充分加热，使浅紫红⾊变为蓝⾊，冷却后加⼊2gKI固体和适量 ${ \\mathrm { N a } } _ { 2 } { \\mathrm { C O } } _ { 3 } ,$ ，溶液变为棕⾊并⽣成沉淀。⽤ 0.04826 M 的 $\\mathrm { N a _ { 2 } S _ { 2 } O _ { 3 } }$ 溶液滴定，近终点时加⼊淀粉指⽰剂，⾄终点，消耗 $1 2 . 6 9 \\mathrm { m L }$ 0"
+      "text": "(b) 接着将溶液充分加热,使浅紫红色变为蓝色,冷却后加入 2 g KI 固体和适量 $\\ce{Na2CO3}$,溶液变为棕色并生成沉淀。用 0.04826 M 的 $\\ce{Na2S2O3}$ 溶液滴定,近终点时加入淀粉指示剂,至终点,消耗 12.69 mL。"
     }
   ],
   "parts": [
@@ -35,7 +35,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出步骤a中滴定反应的⽅程式。"
+          "text": "写出步骤 a 中滴定反应的方程式。"
         }
       ]
     },
@@ -45,7 +45,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出步骤b中溶液由淡紫⾊变为蓝⾊的过程中所发⽣反应的⽅程 $\\updownarrow \\updownarrow _ { \\updownarrow }$"
+          "text": "写出步骤 b 中溶液由淡紫色变为蓝色的过程中所发生反应的方程式。"
         }
       ]
     },
@@ -55,7 +55,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "⽤反应⽅程式表达KI在步骤b中的作⽤：写出 $\\mathrm { N a _ { 2 } S _ { 2 } O _ { 3 } }$ 滴定反应的⽅程式。"
+          "text": "用反应方程式表达 KI 在步骤 b 中的作用;写出 $\\ce{Na2S2O3}$ 滴定反应的方程式。"
         }
       ]
     },
@@ -65,7 +65,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "通过计算写出蓝⾊晶体的化学式（原⼦数取整数）。"
+          "text": "通过计算写出蓝色晶体的化学式(原子数取整数)。"
         }
       ]
     }

@@ -12,16 +12,18 @@
     "sourceLabel": "2013-27-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2013-27-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2013-27-CChO-chusai/full.md)程序化切分并整理为结构化题干;经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "题目配图(原图缺失)",
+      "alt": "有机反应结构推断题配图"
     }
-  ]
+  ],
+  "parts": []
 }

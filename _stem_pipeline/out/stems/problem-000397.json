@@ -12,19 +12,13 @@
     "sourceLabel": "2012-26-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2012-26-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2012-26-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。DeepSeek 精修。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000397-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "上述五硼酸根离⼦中，所有三配位硼原⼦的化学环境完全相同，画出其结构⽰意图（不画孤对电⼦，羟基⽤—OH 表达）"
+          "text": "上述五硼酸根离子中,所有三配位硼原子的化学环境完全相同,画出其结构示意图(不画孤对电子,羟基用—OH 表达)。"
         }
       ]
     },
@@ -42,15 +36,16 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "下图⽰出硼酸-硼酸盐体系在硼的总浓度为0.4 M时，其存在形式与pH的关系。1、2、3、4分别为4种多硼酸根离⼦存在的区域。推出1、2、3、4分别对应的多硼酸根离⼦的化学式。"
+          "text": "下图示出硼酸-硼酸盐体系在硼的总浓度为 0.4 M 时,其存在形式与 pH 的关系。1、2、3、4 分别为 4 种多硼酸根离子存在的区域。推出 1、2、3、4 分别对应的多硼酸根离子的化学式。"
+        },
+        {
+          "type": "figure",
+          "caption": "硼酸-硼酸盐体系存在形式与 pH 关系图",
+          "alt": "缺图:横轴为 pH,纵轴为存在形式,图中标有区域 1、2、3、4"
         },
         {
           "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "注：以 $\\mathrm { B } _ { 4 } \\mathrm { O } _ { 5 } ( \\mathrm { O H } ) _ { 4 } { } ^ { 2 - }$ 为范例，书写其他3种多硼酸根离⼦的化学式；形成这些物种的缩合反应速率⼏乎相同，其排列顺序不受反应速率制约；本体系中缩合反应不改变硼原⼦的配位数。"
+          "text": "注:以 $\\mathrm{B_4O_5(OH)_4^{2-}}$ 为范例,书写其他 3 种多硼酸根离子的化学式;形成这些物种的缩合反应速率几乎相同,其排列顺序不受反应速率制约;本体系中缩合反应不改变硼原子的配位数。"
         }
       ]
     }

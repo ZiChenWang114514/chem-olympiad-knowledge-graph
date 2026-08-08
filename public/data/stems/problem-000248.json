@@ -9,31 +9,34 @@
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000031",
-    "sourceLabel": "2024年全国中学生化学竞赛决赛试题（第一场）.pdf",
+    "sourceLabel": "2024年全国中学生化学竞赛决赛试题(第一场).pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2024年全国中学生化学竞赛决赛试题（第一场）/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2024年全国中学生化学竞赛决赛试题(第一场)/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理公式与图片占位。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "串联环化反应是实现复杂环系构建的常用方法之一。Fredericamycin A（简称FDM-A）是从链霉素中分离出来的一种天然产物，具有抗癌、抗菌等生物活性，合成化学家们利用三次串联环化反应，构建了其母核环系结构。合成路线如下所示"
+      "text": "串联环化反应是实现复杂环系构建的常用方法之一。Fredericamycin A(简称FDM-A)是从链霉素中分离出来的一种天然产物,具有抗癌、抗菌等生物活性,合成化学家们利用三次串联环化反应,构建了其母核环系结构。合成路线如下所示"
     },
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "合成路线(图1)",
+      "alt": "合成路线图,展示三次串联环化反应"
     },
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "合成路线(图2)",
+      "alt": "合成路线图,展示三次串联环化反应"
     },
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "合成路线(图3)",
+      "alt": "合成路线图,展示三次串联环化反应"
     }
   ],
   "parts": [
@@ -63,15 +66,17 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "第三次串联环化反应可由下式表示，写出反应经历的关键负离子中间体。"
+          "text": "第三次串联环化反应可由下式表示,写出反应经历的关键负离子中间体。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "第三次串联环化反应式(图1)",
+          "alt": "第三次串联环化反应式"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "第三次串联环化反应式(图2)",
+          "alt": "第三次串联环化反应式"
         }
       ]
     }

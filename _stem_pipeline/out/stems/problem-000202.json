@@ -12,16 +12,16 @@
     "sourceLabel": "2023-37-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2023-37-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2023-37-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理公式与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "同为常⻅⼩分⼦，NO星光熠熠， $\\mathrm { H } _ { 2 } \\mathrm { S }$ 却臭名昭著。然⽽，近期研究发现，在⽣命体系中NO与 $\\mathrm { H } _ { 2 } \\mathrm { S }$ 窃窃私语。研究⼆者的相互作⽤对于解开⽣命起源、理解⽣理过程的奥秘⾄关重要。NO与 $\\mathrm { H } _ { 2 } \\mathrm { S }$ 之间的反应及产物⾮常复杂，这⾥我们⼀起关注⼀些重要的基本问题。"
+      "text": "同为常见小分子,NO 星光熠熠,$\\mathrm{H_2S}$ 却臭名昭著。然而,近期研究发现,在生命体系中 NO 与 $\\mathrm{H_2S}$ 窃窃私语。研究二者的相互作用对于解开生命起源、理解生理过程的奥秘至关重要。NO 与 $\\mathrm{H_2S}$ 之间的反应及产物非常复杂,这里我们一起关注一些重要的基本问题。"
     }
   ],
   "parts": [
@@ -31,7 +31,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "早在 19 世纪 NO 与 $\\mathrm { H } _ { 2 } \\mathrm { S }$ 的反应就受到关注。依赖于反应条件甚⾄容器（表⾯可能作为催化剂），可以得到多种产物。最简单的⼀种就是产物中出现两种单质（反应1)，⽽反应过程出现笑⽓也是绕不开的步骤（反应2），条件适当的时候，还会产⽣硫化铵（反应3）。写出反应1-3的⽅程式。"
+          "text": "早在 19 世纪 NO 与 $\\mathrm{H_2S}$ 的反应就受到关注。依赖于反应条件甚至容器(表面可能作为催化剂),可以得到多种产物。最简单的一种就是产物中出现两种单质(反应1),而反应过程出现笑气也是绕不开的步骤(反应2),条件适当的时候,还会产生硫化铵(反应3)。写出反应1-3的方程式。"
         }
       ]
     },
@@ -41,7 +41,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "研究发现，HNO、HSNO、HSSNO、HS_{2}−等均是⽣理过程的关键物，可由NO与 $\\mathrm { H } _ { 2 } \\mathrm { S }$ 作⽤产⽣。"
+          "text": "研究发现,HNO、HSNO、HSSNO、$\\mathrm{HS_2^-}$ 等均是生理过程的关键物,可由 NO 与 $\\mathrm{H_2S}$ 作用产生。"
         }
       ]
     },
@@ -51,7 +51,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 HSNO(A)表达式给出的原⼦次序就是其连接⽅式。画出A及其共轭碱(B)的Lewis结构式（要求最稳定的形式)。"
+          "text": "-1 HSNO(A)表达式给出的原子次序就是其连接方式。画出 A 及其共轭碱(B)的 Lewis 结构式(要求最稳定的形式)。"
         }
       ]
     },
@@ -61,7 +61,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 尽管A是最稳定的形式，但是通过低温下光反应，也可以得到其他键合⽅式不同的异构体。画出A所有其他合理异构体的⻣架结构。"
+          "text": "-2 尽管 A 是最稳定的形式,但是通过低温下光反应,也可以得到其他键合方式不同的异构体。画出 A 所有其他合理异构体的骨架结构。"
         }
       ]
     },
@@ -71,15 +71,15 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-3 据信 $\\mathrm { S S N O ^ { - } }$ 参与多个⽣理过程。其中涉及SSNO−形成及变化的可能反应及热⼒学常数如下"
+          "text": "-3 据信 $\\mathrm{SSNO^-}$ 参与多个生理过程。其中涉及 SSNO− 形成及变化的可能反应及热力学常数如下"
         },
         {
           "type": "paragraph",
-          "text": "$$\n\\begin{array}{l l}\\mathrm {HSNO + HS_ {2} ^ {-} \\rightarrow SSNO^ {-} + HS^ {-} + H^ {+}}&K _ {1} = 5. 0 \\times 1 0 ^ {2}\\\\\\mathrm {HSNO + HS_ {2} ^ {-} \\rightarrow SSNO + HS^ {-}}&\\Delta G _ {2} ^ {\\ominus} = - 8. 0 \\mathrm{kJmol} ^ {- 1}\\end{array}\n$$"
+          "text": "$$\n\\begin{array}{ll}\n\\mathrm{HSNO + HS_2^- \\rightarrow SSNO^- + HS^- + H^+} & K_1 = 5.0 \\times 10^2 \\\\\n\\mathrm{HSNO + HS_2^- \\rightarrow SSNO + HS^-} & \\Delta G_2^\\ominus = -8.0 \\ \\mathrm{kJ\\ mol^{-1}}\n\\end{array}\n$$"
         },
         {
           "type": "paragraph",
-          "text": "计算 298 K 下 HSSNO 的酸解离常数 $K _ { a } .$ 。"
+          "text": "计算 298 K 下 HSSNO 的酸解离常数 $K_a$。"
         }
       ]
     },
@@ -89,7 +89,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "为理解⾦属离⼦在相关过程的作⽤，开展了如下研究：空⽓中，络离⼦A（[Ru(EDTA)(OH)]2−, EDTA为⼄⼆胺四⼄酸根）的溶液中，加⼊NaHS溶液并充分搅拌，溶液变为蓝绿⾊，对应于双核络离⼦B的⽣成（反应4）。分别取A和B的溶液，在惰性⽓体保护下，加⼊被NO饱和的磷酸盐缓冲液(pH= 8.2)，充分反应，A转化为C，B转化为D（反应5）。借助于质谱分析，计算出四个络离⼦的式量分别为A: 406.3, B:842.7, C: 419.3, D: 451.4。磁性测量发现，C 为抗磁性，D 为顺磁性。"
+          "text": "为理解金属离子在相关过程的作用,开展了如下研究:空气中,络离子 A([Ru(EDTA)(OH)]2−,EDTA 为乙二胺四乙酸根)的溶液中,加入 NaHS 溶液并充分搅拌,溶液变为蓝绿色,对应于双核络离子 B 的生成(反应4)。分别取 A 和 B 的溶液,在惰性气体保护下,加入被 NO 饱和的磷酸盐缓冲液(pH = 8.2),充分反应,A 转化为 C,B 转化为 D(反应5)。借助于质谱分析,计算出四个络离子的式量分别为 A: 406.3,B: 842.7,C: 419.3,D: 451.4。磁性测量发现,C 为抗磁性,D 为顺磁性。"
         }
       ]
     },
@@ -99,7 +99,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 写出络离⼦B、C、D的结构简式。"
+          "text": "-1 写出络离子 B、C、D 的结构简式。"
         }
       ]
     },
@@ -109,7 +109,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 写出反应4和5的离⼦⽅程式。"
+          "text": "-2 写出反应4和5的离子方程式。"
         }
       ]
     },
@@ -119,7 +119,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-3 画出C和D中⾦属离⼦�轨道在⼋⾯体场（近似看作正⼋⾯体）中的分裂图并给出�电⼦排布。"
+          "text": "-3 画出 C 和 D 中金属离子 d 轨道在八面体场(近似看作正八面体)中的分裂图并给出 d 电子排布。"
         }
       ]
     }

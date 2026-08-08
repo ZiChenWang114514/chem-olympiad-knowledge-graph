@@ -12,19 +12,13 @@
     "sourceLabel": "2020-34-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2020-34-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、删除无信息 callout。原由 MinerU MD(初赛/2020-34-CChO-chusai/full.md)程序化切分并整理为结构化题干;请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000087-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "通过计算，推出X的化学式。"
+          "text": "通过计算,推出 X 的化学式。"
         }
       ]
     },
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出X分别和 $\\mathrm { H } _ { 2 \\mathrm { \\Delta } }$ CO反应的⽅程式（要求系数为最简整数⽐）。"
+          "text": "写出 X 分别和 $\\mathrm{H_2}$、CO 反应的方程式(要求系数为最简整数比)。"
         }
       ]
     }

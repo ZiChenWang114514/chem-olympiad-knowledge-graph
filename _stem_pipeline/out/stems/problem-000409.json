@@ -12,19 +12,13 @@
     "sourceLabel": "2013-27-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2013-27-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2013-27-CChO-chusai/full.md)程序化切分并整理为结构化题干;经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000409-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$\\mathrm { B i _ { 2 } C l _ { 8 } } ^ { 2 \\mathrm { - } }$ −离⼦中铋原⼦的配位数为5，配体呈四⻆锥型分布，画出该离⼦的结构并指出Bi原⼦的杂化轨道类型。"
+          "text": "$\\mathrm{Bi_2Cl_8^{2-}}$ 离子中铋原子的配位数为5,配体呈四角锥型分布,画出该离子的结构并指出Bi原子的杂化轨道类型。"
         }
       ]
     },
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在液氨中， $E ^ { \\ominus } \\mathrm { ( N a ^ { + } / N a ) } = - 1 . 8 9 \\mathrm { V } , E ^ { \\ominus } \\mathrm { ( M g ^ { 2 + } / M g ) } = - 1 . 7 4 \\mathrm { V }$ ，但可以发⽣ $\\mathrm { M g }$ 置换Na的反应： $\\mathrm { M g + }$ $2 \\mathrm { N a I }  \\mathrm { M g I } _ { 2 } + 2 \\mathrm { N a }$ ，指出原因。"
+          "text": "在液氨中,$E^{\\ominus}(\\mathrm{Na^+/Na}) = -1.89\\,\\mathrm{V}$,$E^{\\ominus}(\\mathrm{Mg^{2+}/Mg}) = -1.74\\,\\mathrm{V}$,但可以发生 $\\mathrm{Mg}$ 置换Na的反应:$\\mathrm{Mg} + 2\\mathrm{NaI} \\rightarrow \\mathrm{MgI_2} + 2\\mathrm{Na}$,指出原因。"
         }
       ]
     },
@@ -52,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "将Pb加到氨基钠的液氨溶液中，先⽣成⽩⾊沉淀 $\\mathrm { N a } _ { 4 } \\mathrm { P b }$ ，随后转化为 $\\mathrm { N a } _ { 4 } \\mathrm { P b } _ { 9 }$ （绿⾊）⽽溶解。在此溶液中插⼊两块铅电极，通直流电，当1.0 mol电⼦通过电解槽时，在哪个电极（阴极或阳极）上沉积出铅？写出沉积铅的量。"
+          "text": "将Pb加到氨基钠的液氨溶液中,先生成白色沉淀 $\\mathrm{Na_4Pb}$,随后转化为 $\\mathrm{Na_4Pb_9}$(绿色)而溶解。在此溶液中插入两块铅电极,通直流电,当1.0 mol电子通过电解槽时,在哪个电极(阴极或阳极)上沉积出铅?写出沉积铅的量。"
         }
       ]
     },
@@ -62,41 +56,42 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "下图是某⾦属氧化物的晶体结构⽰意图。图中，⼩球代表⾦属原⼦，⼤球代表氧原⼦，细线框出其晶胞。"
+          "text": "下图是某金属氧化物的晶体结构示意图。图中,小球代表金属原子,大球代表氧原子,细线框出其晶胞。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "某金属氧化物的晶体结构示意图",
+          "alt": "晶体结构图:小球为金属原子,大球为氧原子,细线框出晶胞"
         }
       ]
     },
     {
       "id": "part-000409-05",
-      "label": "2-4",
+      "label": "2-4-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 写出⾦属原⼦的配位数(�)和氧原⼦的配位数(�)。"
+          "text": "写出金属原子的配位数和氧原子的配位数。"
         }
       ]
     },
     {
       "id": "part-000409-06",
-      "label": "2-4",
+      "label": "2-4-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 写出晶胞中⾦属原⼦数(�)和氧原⼦数(�)。"
+          "text": "写出晶胞中金属原子数和氧原子数。"
         }
       ]
     },
     {
       "id": "part-000409-07",
-      "label": "2-4",
+      "label": "2-4-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-3 写出该⾦属氧化物的化学式（⾦属⽤M表⽰）。"
+          "text": "写出该金属氧化物的化学式(金属用M表示)。"
         }
       ]
     },
@@ -106,11 +101,11 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "向含 $\\mathrm { { [ c i s { - } C o ( N H _ { 3 } ) _ { 4 } ( H _ { 2 } O ) _ { 2 } ] } \\mathrm { { ; } } }$ 3+的溶液中加⼊氨⽔，析出含 $\\{ \\mathrm { C o } [ \\mathrm { C o } ( \\mathrm { N H _ { 3 } } ) _ { 4 } ( \\mathrm { O H } ) _ { 2 } ]$ _{3}}6+的难溶盐。"
+          "text": "向含 $\\mathrm{[cis-Co(NH_3)_4(H_2O)_2]^{3+}}$ 的溶液中加入氨水,析出含 $\\{\\mathrm{Co}[\\mathrm{Co(NH_3)_4(OH)_2}]_3\\}^{6+}$ 的难溶盐。"
         },
         {
           "type": "paragraph",
-          "text": "$\\{ \\mathrm { C o } [ \\mathrm { C o } ( \\mathrm { N H _ { 3 } } ) _ { 4 } ( \\mathrm { O H } ) _ { 2 } ] _ { 3 } \\} ^ { 6 + }$ 是以羟基为桥键的多核络离⼦，具有⼿性。画出其结构。"
+          "text": "$\\{\\mathrm{Co}[\\mathrm{Co(NH_3)_4(OH)_2}]_3\\}^{6+}$ 是以羟基为桥键的多核络离子,具有旋光性。画出其结构。"
         }
       ]
     },
@@ -120,7 +115,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "向 $\\mathrm { K _ { 2 } C r _ { 2 } O _ {  } }$ _{7} 和 $\\mathrm { N a C l }$ 的混合物中加⼊浓硫酸制得化合物 X（154.9 g mol−1）。X 为暗红⾊液体，沸点$1 1 7 \\ ^ { \\circ } \\mathrm { C } ,$ ，有强刺激性臭味，遇⽔冒⽩烟，遇硫燃烧。X分⼦有两个相互垂直的镜⾯，两镜⾯的交线为⼆重旋转轴。写出X的化学式并画出其结构式。"
+          "text": "向 $\\mathrm{K_2Cr_2O_7}$ 和 $\\mathrm{NaCl}$ 的混合物中加入浓硫酸制得化合物 X(154.9 g mol$^{-1}$)。X 为暗红色液体,沸点 $117\\,^{\\circ}\\mathrm{C}$,有强刺激性臭味,遇水冒白烟,遇硫燃烧。X分子有两个相互垂直的镜面,两镜面的交线为二重旋转轴。写出X的化学式并画出其结构式。"
         }
       ]
     },
@@ -130,11 +125,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "实验得到⼀种含钯化合物 $\\mathrm { P d } [ \\mathrm { C } _ { x } \\mathrm { H } _ { y } \\mathrm { N } _ { z } ] ( \\mathrm { C l O } _ { 4 } ) _ { 2 }$ ，该化合物中C和H的质量分数分别为30.15%和"
-        },
-        {
-          "type": "paragraph",
-          "text": "$5 . 0 6 \\%$ 。将此化合物转化为硫氰酸盐 $\\mathrm { P d } [ \\mathrm { C } _ { x } \\mathrm { H } _ { y } \\mathrm { N } _ { z } ] ( \\mathrm { S C N } )$ _{2}， 则C 和H 的质量分数分别为40.46%和5.94%。通过计算确定 $\\mathrm { P d } [ \\mathrm { C } _ { x } \\mathrm { H } _ { y } \\mathrm { N } _ { z } ] ( \\mathrm { C l O } _ { 4 } )$ _{2}的组成。"
+          "text": "实验得到一种含钯化合物 $\\mathrm{Pd[C_xH_yN_z](ClO_4)_2}$,该化合物中C和H的质量分数分别为30.15%和5.06%。将此化合物转化为硫氰酸盐 $\\mathrm{Pd[C_xH_yN_z](SCN)_2}$,则C和H的质量分数分别为40.46%和5.94%。通过计算确定 $\\mathrm{Pd[C_xH_yN_z](ClO_4)_2}$ 的组成。"
         }
       ]
     },
@@ -144,7 +135,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "甲烷在汽⻋发动机中平稳、完全燃烧是保证汽⻋安全和⾼能效的关键。甲烷与空⽓按⼀定⽐例混合，氧⽓的利⽤率为85%，计算汽⻋尾⽓中O_{2}、 $\\mathrm { C O } _ { 2 } .$ $_ \\mathrm { H _ { 2 } O }$ 和 $\\mathrm { N } _ { 2 }$ 的体积⽐（空⽓中 $\\mathrm { O _ { 2 } }$ 和 $\\mathrm { N } _ { 2 }$ 体积⽐按21:79计；设尾⽓中 $\\mathrm { { C O } _ { 2 } }$ 的体积为1）。"
+          "text": "甲烷在汽车发动机中平稳、完全燃烧是保证汽车安全和高能效的关键。甲烷与空气按一定比例混合,氧气的利用率为85%,计算汽车尾气中 $\\mathrm{O_2}$、$\\mathrm{CO_2}$、$\\mathrm{H_2O}$ 和 $\\mathrm{N_2}$ 的体积比(空气中 $\\mathrm{O_2}$ 和 $\\mathrm{N_2}$ 体积比按21:79计;设尾气中 $\\mathrm{CO_2}$ 的体积为1)。"
         }
       ]
     }

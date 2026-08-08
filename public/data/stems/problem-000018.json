@@ -12,21 +12,16 @@
     "sourceLabel": "2016-30-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "未能从 MD 可靠切分正文（初赛/2016-30-CChO-chusai/full.md）；仅写入元数据标题占位，待人工补全。",
+  "provenanceNote": "DeepSeek 精修:原稿正文自动切分失败,仅保留标题占位;待人工依据原 PDF 补全题干。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "callout",
-      "tone": "warn",
-      "text": "本题干正文自动切分失败，仅显示题目标题占位。"
-    },
-    {
       "type": "paragraph",
-      "text": "7 · 孟山都法醋酸催化循环"
+      "text": "孟山都法醋酸催化循环"
     }
   ]
 }

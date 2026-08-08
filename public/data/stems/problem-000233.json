@@ -12,28 +12,29 @@
     "sourceLabel": "2024-38-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2024-38-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2024-38-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、合并空壳段落、更新渲染提示。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "盘状双层胶束(bicelles)可用于模拟生物膜，研究膜蛋白与脂双层膜的相互作用。盘状双层胶束是扁平状的，厚度约为40 Å，直径约为400\\~600 Å。单一脂质在水环境中可形成双层胶束，形成的原理非常简单。"
+      "text": "盘状双层胶束(bicelles)可用于模拟生物膜,研究膜蛋白与脂双层膜的相互作用。盘状双层胶束是扁平状的,厚度约为40 Å,直径约为400~600 Å。单一脂质在水环境中可形成双层胶束,形成的原理非常简单。"
     },
     {
       "type": "paragraph",
-      "text": "向 DMPE 中加入缓冲液，振荡过夜，可制得盘状双层胶束。假设 DMPE 的 $pK_{a1}=1.0,\\quad pK_{a2}=9.0$ 。"
+      "text": "向 DMPE 中加入缓冲液,振荡过夜,可制得盘状双层胶束。假设 DMPE 的 $pK_{a1}=1.0,\\quad pK_{a2}=9.0$ 。"
     },
     {
       "type": "paragraph",
-      "text": "1,2-Dimyristoyl-sn-glycero-3-phosphoethanolamine (DMPE)\n（图：）"
+      "text": "1,2-Dimyristoyl-sn-glycero-3-phosphoethanolamine (DMPE)"
     },
     {
-      "type": "paragraph",
-      "text": "（图：）\n盘状双层胶束"
+      "type": "figure",
+      "caption": "盘状双层胶束",
+      "alt": "盘状双层胶束示意图(缺图)"
     }
   ],
   "parts": [
@@ -43,7 +44,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "若每个盘状双层胶束中含有 1000 个 DMPE 分子。计算此胶束分别在 pH 为 9.0 和 7.0 时所带的电荷数 (以电子电量 e⁻ 为单位)。"
+          "text": "若每个盘状双层胶束中含有 1000 个 DMPE 分子。计算此胶束分别在 pH 为 9.0 和 7.0 时所带的电荷数 (以电子电量 e− 为单位)。"
         }
       ]
     },

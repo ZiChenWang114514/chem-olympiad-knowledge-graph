@@ -12,24 +12,24 @@
     "sourceLabel": "2022-36-CChO-juesai-1.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2022-36-CChO-juesai-2/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2022-36-CChO-juesai-2/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理公式与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "在测定某些热⼒学参数时，常常设计电池。测得298.2K时下述电池的电动势为1.362 V。"
+      "text": "在测定某些热力学参数时,常常设计电池。测得 298.2 K 时下述电池的电动势为 1.362 V。"
     },
     {
       "type": "paragraph",
-      "text": "$$\n\\mathrm{Pt}, \\mathrm{H} _ {2} (p ^ {\\ominus}) \\mid \\mathrm{H} _ {2} \\mathrm{SO} _ {4} (\\mathrm{aq}) \\mid \\mathrm{Au} _ {2} \\mathrm{O} _ {3} (\\mathrm{s}) \\mid \\mathrm{Au} (\\mathrm{s})\n$$"
+      "text": "$$\\mathrm{Pt}, \\mathrm{H_2}(p^{\\ominus}) \\mid \\mathrm{H_2SO_4}(\\mathrm{aq}) \\mid \\mathrm{Au_2O_3}(\\mathrm{s}) \\mid \\mathrm{Au}(\\mathrm{s})$$"
     },
     {
       "type": "paragraph",
-      "text": "已知 $\\mathrm { I } \\Delta _ { \\mathrm { f } } G _ { m } ^ { \\ominus } ( \\mathrm { H } _ { 2 } \\mathrm { O } , \\mathrm { g } ) = - 2 2 8 . 6$ kJ mol−1，该温度下⽔的饱和蒸⽓压为 3.167 k $^ { \\mathrm { { ) } } _ { \\mathrm { { a } _ { \\mathrm { { c } } } } } }$ 。"
+      "text": "已知 $\\Delta_{\\mathrm{f}} G_m^{\\ominus}(\\mathrm{H_2O}, \\mathrm{g}) = -228.6\\ \\mathrm{kJ\\ mol^{-1}}$,该温度下水的饱和蒸气压为 3.167 kPa。"
     }
   ],
   "parts": [
@@ -39,7 +39,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算 298.2 K 时， $\\mathrm { H _ { 2 } O ( l ) }  \\mathrm { H _ { 2 } O ( g ) }$ 相变过程的标准Gibbs能变 $\\Delta _ { \\mathrm { v } } G _ { m } ^ { \\ominus } .$ 。（单位：kJ $\\mathrm { m o l ^ { - 1 } } )$"
+          "text": "计算 298.2 K 时,$\\mathrm{H_2O(l)} \\rightarrow \\mathrm{H_2O(g)}$ 相变过程的标准 Gibbs 能变 $\\Delta_{\\mathrm{v}} G_m^{\\ominus}$。(单位:kJ mol$^{-1}$)"
         }
       ]
     },
@@ -49,7 +49,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算 298.2K 时，反应 2 $\\mathrm { A u _ { 2 } O _ { 3 }  }$ 4 $\\mathrm { A u } + 3 \\mathrm { O } _ { 2 }$ 的标准 Gibbs 能变 $\\Delta _ { \\mathrm { { r } } } G _ { m } ^ { \\ominus }$ C"
+          "text": "计算 298.2 K 时,反应 $2\\mathrm{Au_2O_3} \\rightarrow 4\\mathrm{Au} + 3\\mathrm{O_2}$ 的标准 Gibbs 能变 $\\Delta_{\\mathrm{r}} G_m^{\\ominus}$。"
         }
       ]
     },
@@ -59,7 +59,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出 $\\mathrm { { A u _ { 2 } O _ { 3 } } }$ 的标准Gibbs⽣成⾃由能 $\\Delta _ { \\mathrm { f } } G _ { m } ^ { \\ominus } ( \\mathrm { A u } _ { 2 } \\mathrm { O } _ { 3 } )$"
+          "text": "写出 $\\mathrm{Au_2O_3}$ 的标准 Gibbs 生成自由能 $\\Delta_{\\mathrm{f}} G_m^{\\ominus}(\\mathrm{Au_2O_3})$。"
         }
       ]
     }

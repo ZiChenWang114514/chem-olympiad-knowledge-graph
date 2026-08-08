@@ -12,29 +12,29 @@
     "sourceLabel": "2014-28-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2014-28-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2014-28-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理公式与分问结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "如图所⽰，⽆摩擦、⽆质量的活塞1、2、3和4将反应器隔成甲、 $\\mathbb { Z } _ { \\setminus }$ 、丙和丁4部分，分别进⾏反应："
+      "text": "如图所示,无摩擦、无质量的活塞1、2、3和4将反应器隔成甲、乙、丙和丁4部分,分别进行反应:"
     },
     {
       "type": "paragraph",
-      "text": "$$\n\\mathrm{A} (\\mathrm{g}) + \\mathrm{B} (\\mathrm{g}) \\rightleftharpoons \\mathrm{C} (\\mathrm{g})\n$$"
+      "text": "$$\\mathrm{A(g) + B(g) \\rightleftharpoons C(g)}$$"
     },
     {
       "type": "paragraph",
-      "text": "起始时物质的量已标在图中。某温度和100 kPa下实现平衡时，各部分的体积分别为 $V _ { \\mathbb { H } }$ 、 $V _ { Z } .$ 、 $V _ { ☉ }$ 和 $V _ {  { \\mathrm { T } } \\circ }$ 。这时若是去掉活塞1或 $^ { 3 , }$ ，均不会引起其它活塞移动。"
+      "text": "起始时物质的量已标在图中。某温度和100 kPa下实现平衡时,各部分的体积分别为 $V_{\\text{甲}}$、$V_{\\text{乙}}$、$V_{\\text{丙}}$ 和 $V_{\\text{丁}}$。这时若是去掉活塞1或3,均不会引起其它活塞移动。"
     },
     {
-      "type": "callout",
-      "tone": "info",
-      "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
+      "type": "figure",
+      "caption": "反应器示意图(原图缺失,含活塞1-4及甲、乙、丙、丁四部分)",
+      "alt": "反应器被四个无摩擦无质量活塞分隔为甲、乙、丙、丁四部分,起始物质的量标注在图中。"
     }
   ],
   "parts": [
@@ -44,7 +44,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "已知平衡常数�和反应商�，如何判断反应进⾏⽅向？"
+          "text": "已知平衡常数 $K$ 和反应商 $Q$,如何判断反应进行方向?"
         }
       ]
     },
@@ -54,7 +54,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "求算 $\\boldsymbol { { \\cdot } } \\boldsymbol { { V } } _ { \\mathbb { H } }$ 与 $V _ { Z } ,$ 之⽐；"
+          "text": "求算 $V_{\\text{甲}}$ 与 $V_{\\text{乙}}$ 之比;"
         }
       ]
     },
@@ -64,7 +64,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "求算�值；"
+          "text": "求算 $K^{\\ominus}$ 值;"
         }
       ]
     },
@@ -74,7 +74,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "去掉活塞2后再次达到平衡时，活塞3向哪个⽅向发⽣了移动？试通过计算加以解释，可以假定反应的 $K ^ { \\ominus }$ 等于 1。"
+          "text": "去掉活塞2后再次达到平衡时,活塞3向哪个方向发生了移动?试通过计算加以解释,可以假定反应的 $K^{\\ominus}$ 等于 1。"
         }
       ]
     }

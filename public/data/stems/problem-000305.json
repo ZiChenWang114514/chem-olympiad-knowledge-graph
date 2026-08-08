@@ -12,19 +12,13 @@
     "sourceLabel": "2007-21-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2007-21-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2007-21-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、删除无信息 callout。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000305-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算⽔相中各物种的浓度及 $\\mathrm { p H _ { c } }$"
+          "text": "计算水相中各物种的浓度及 $\\mathrm{pH_c}$"
         }
       ]
     },
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算化合物HA在苯相中的⼆聚平衡常数。"
+          "text": "计算化合物 HA 在苯相中的二聚平衡常数。"
         }
       ]
     },
@@ -52,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "已知 HA 中有苯环，1.00 g HA 含 $3 . 8 5 \\times 1 0 ^ { 2 1 }$ 个分⼦，给出HA的化学名称。"
+          "text": "已知 HA 中有苯环,1.00 g HA 含 $3.85 \\times 10^{21}$ 个分子,给出 HA 的化学名称。"
         }
       ]
     },
@@ -62,7 +56,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "解释HA在苯中发⽣⼆聚的原因，画出⼆聚体的结构。"
+          "text": "解释 HA 在苯中发生二聚的原因,画出二聚体的结构。"
         }
       ]
     }

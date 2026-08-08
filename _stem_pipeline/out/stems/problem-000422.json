@@ -12,19 +12,13 @@
     "sourceLabel": "2013-27-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2013-27-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2013-27-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000422-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算整个过程终态的热⼒学温度 $T _ { 2 ^ { \\varsigma } }$ 。"
+          "text": "计算整个过程终态的热力学温度 $T_2$ 。"
         }
       ]
     },
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "通过计算，判断终态时体系中是否存在液态⽔，若存在，液态⽔的量是多少。"
+          "text": "通过计算,判断终态时体系中是否存在液态水,若存在,液态水的量是多少。"
         }
       ]
     },
@@ -52,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算整个过程发⽣后，体系的焓变 $\\Delta H _ { \\circ }$"
+          "text": "计算整个过程发生后,体系的焓变 $\\Delta H$ 。"
         }
       ]
     },
@@ -62,7 +56,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "若整个过程的熵变为132.5J K−1，推算可逆过程的熵变 $\\Delta S _ { \\mathrm { c } }$ 。"
+          "text": "若整个过程的熵变为 $132.5\\ \\mathrm{J\\,K^{-1}}$ ,推算可逆过程的熵变 $\\Delta S$ 。"
         }
       ]
     }

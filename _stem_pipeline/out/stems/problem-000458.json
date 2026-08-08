@@ -12,19 +12,13 @@
     "sourceLabel": "2015-29-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2015-29-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2015-29-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000458-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出化合物A和B的结构简式；并确定哪个为热⼒学稳定产物，哪个为动⼒学产物。"
+          "text": "画出化合物 A 和 B 的结构简式;并确定哪个为热力学稳定产物,哪个为动力学产物。"
         }
       ]
     },
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在室温下，A可以缓慢地转化为 $\\mathbf { B } _ { \\circ }$ 。画出此转换过程的反应势能⽰意图和中间体的结构简式。"
+          "text": "在室温下,A 可以缓慢地转化为 $\\mathrm{B}$。画出此转换过程的反应势能示意图和中间体的结构简式。"
         }
       ]
     },
@@ -52,11 +46,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "根据以上的研究结果，确定以下反应的产物："
+          "text": "根据以上的研究结果,确定以下反应的产物:"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应图示(原图缺失)",
+          "alt": "反应物结构或反应条件图,原文档中缺失"
         }
       ]
     }

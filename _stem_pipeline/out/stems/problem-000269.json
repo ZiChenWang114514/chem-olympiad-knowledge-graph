@@ -12,16 +12,17 @@
     "sourceLabel": "2025年第39届全国中学生化学竞赛决赛实验试题 (1).pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2025年第39届全国中学生化学竞赛决赛实验试题 (1)/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2025年第39届全国中学生化学竞赛决赛实验试题 (1)/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "1. 打开试剂瓶之前，充分振荡溶液。对于需要润洗的玻璃仪器，用相应溶液润洗3次，每次约 $10 \\mathrm{~mL}$ 。"
+      "text": "1. 打开试剂瓶之前,充分振荡溶液。对于需要润洗的玻璃仪器,用相应溶液润洗3次,每次约 $10\\ \\mathrm{mL}$。"
     }
-  ]
+  ],
+  "parts": []
 }

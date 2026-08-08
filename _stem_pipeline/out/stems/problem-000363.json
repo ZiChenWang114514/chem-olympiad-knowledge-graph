@@ -12,19 +12,13 @@
     "sourceLabel": "2010-24-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2010-24-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2010-24-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000363-01",
@@ -32,19 +26,21 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出下列转换中A、B、C和D的结构简式（不要求标出⼿性）。"
+          "text": "画出下列转换中 A、B、C 和 D 的结构简式(不要求标出立体化学)。"
+        },
+        {
+          "type": "figure",
+          "caption": "反应序列图(缺图)",
+          "alt": "反应序列图,涉及苯、回流、醚等条件"
+        },
+        {
+          "type": "figure",
+          "caption": "反应序列图(缺图)",
+          "alt": "反应序列图,涉及苯、回流、醚等条件"
         },
         {
           "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "benzene：苯；reflux：回流；ether：醚"
+          "text": "benzene:苯;reflux:回流;ether:醚"
         }
       ]
     },
@@ -54,19 +50,21 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出下列两个转换中产物1、2和3的结构简式，并简述在相同条件下反应，对羟基苯甲醛只得到⼀种产物，⽽间羟基苯甲醛却得到两种产物的原因。"
+          "text": "画出下列两个转换中产物 1、2 和 3 的结构简式,并简述在相同条件下反应,对羟基苯甲醛只得到一种产物,而间羟基苯甲醛却得到两种产物的原因。"
+        },
+        {
+          "type": "figure",
+          "caption": "转换图(缺图)",
+          "alt": "转换图,涉及丙酮等条件"
+        },
+        {
+          "type": "figure",
+          "caption": "转换图(缺图)",
+          "alt": "转换图,涉及丙酮等条件"
         },
         {
           "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "acetone：丙酮"
+          "text": "acetone:丙酮"
         }
       ]
     }

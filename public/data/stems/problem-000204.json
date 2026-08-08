@@ -12,16 +12,16 @@
     "sourceLabel": "2023-37-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2023-37-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2023-37-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "⽣命体中，各种物质的结构和功能都与基础化学密切相关。磷脂和蛋⽩质就是其中的重要代表"
+      "text": "生命体中,各种物质的结构和功能都与基础化学密切相关。磷脂和蛋白质就是其中的重要代表。"
     }
   ],
   "parts": [
@@ -31,23 +31,26 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "磷脂双层膜是由两亲性的磷脂分⼦以“尾部朝⾥头朝外”的⽅式组成的双层膜结构，它起到对细胞进⾏包包裹保护以及对物质进⾏选择性传递的作⽤。构成该双层膜结构的磷脂分⼦和磷脂双层膜结构的⽰意图以及其相关的脂质体如右所⽰。"
+          "text": "磷脂双层膜是由两亲性的磷脂分子以“尾部朝里头朝外”的方式组成的双层膜结构,它起到对细胞进行包裹保护以及对物质进行选择性传递的作用。构成该双层膜结构的磷脂分子和磷脂双层膜结构的示意图以及其相关的脂质体如右所示。"
+        },
+        {
+          "type": "figure",
+          "caption": "(a)磷脂分子",
+          "alt": "磷脂分子示意图(缺图)"
+        },
+        {
+          "type": "figure",
+          "caption": "(b)磷脂双分子层",
+          "alt": "磷脂双分子层示意图(缺图)"
+        },
+        {
+          "type": "figure",
+          "caption": "(c)脂质体",
+          "alt": "脂质体结构示意图(缺图)"
         },
         {
           "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）\n(b) 磷脂双分⼦层"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）\n(c) 脂质体"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）\n7-1-1 依据磷脂双层膜结构的特征，解释为什么⽔溶液中的离⼦⽆法⾃由通过磷脂双层膜。"
+          "text": "7-1-1 依据磷脂双层膜结构的特征,解释为什么水溶液中的离子无法自由通过磷脂双层膜。"
         }
       ]
     },
@@ -57,15 +60,15 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 细胞膜是由磷脂双层组成，由于细胞内外离⼦分布的不均匀性，造成了膜两边形成了⼀定的电势差，被称为膜电位。由离⼦ $\\mathrm { \\cdot } \\mathrm { A } ^ { n + }$ 浓差形成的膜电位（定义细胞外的电势为0）可以通过如下⽅程计算："
+          "text": "7-1-2 细胞膜是由磷脂双层组成,由于细胞内外离子分布的不均匀性,造成了膜两边形成了一定的电势差,被称为膜电位。由离子 $\\mathrm{A}^{n+}$ 浓差形成的膜电位(定义细胞外的电势为0)可以通过如下方程计算:"
         },
         {
           "type": "paragraph",
-          "text": "$$\n\\varphi_ {\\mathrm{A} ^ {n +}} = \\frac {R T}{n F} \\ln \\frac {[ \\mathrm{A} ^ {n +} ] _ {\\mathrm{外}}}{[ \\mathrm{A} ^ {n +} ] _ {\\mathrm{内}}}\n$$"
+          "text": "$$\\varphi_{\\mathrm{A}^{n+}} = \\frac{RT}{nF} \\ln \\frac{[\\mathrm{A}^{n+}]_{\\text{外}}}{[\\mathrm{A}^{n+}]_{\\text{内}}}$$"
         },
         {
           "type": "paragraph",
-          "text": "神经元细胞内和细胞外的钠离⼦和离⼦浓度分别为 $[ \\mathrm { N a ^ { + } } ] _ { \\nrightarrow } = 1 2 . 0 \\mathrm { m m o l } \\mathrm { L ^ { - 1 } , ~ [ \\mathrm { K ^ { + } } ] _ { \\nrightarrow } = 1 5 5 \\mathrm { m m o l } \\mathrm { L ^ { - 1 } } }$ $[ \\mathrm { N a ^ { + } } ] _ { \\scriptscriptstyle \\mathcal { H } _ { \\mathrm { i } } } = 1 4 5 \\mathrm { m m o l } \\mathrm { L } ^ { \\scriptscriptstyle - 1 }$ $[ \\mathrm { K } ^ { + } ] _ { \\mathcal { H } \\mathrm { I } } = 4 . 0 0 \\ \\mathrm { m m o l } \\ \\mathrm { L } ^ { - 1 }$ 。计算 $3 7 . 0 ~ ^ { \\circ } \\mathrm { C }$ 下此种细胞的膜电位（注明正负）。，"
+          "text": "神经元细胞内和细胞外的钠离子和钾离子浓度分别为 $[\\mathrm{Na}^{+}]_{\\text{内}} = 12.0\\ \\mathrm{mmol\\ L^{-1}}$,$[\\mathrm{K}^{+}]_{\\text{内}} = 155\\ \\mathrm{mmol\\ L^{-1}}$,$[\\mathrm{Na}^{+}]_{\\text{外}} = 145\\ \\mathrm{mmol\\ L^{-1}}$,$[\\mathrm{K}^{+}]_{\\text{外}} = 4.00\\ \\mathrm{mmol\\ L^{-1}}$。计算 $37.0\\ ^\\circ\\mathrm{C}$ 下此种细胞的膜电位(注明正负)。"
         }
       ]
     },
@@ -75,12 +78,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-3 在⽔溶液中，磷脂双层膜会⾃发卷曲成球形，该结构被称为脂质体，其结构如7-1中之图c所⽰。通过测量脂质体在不同粘度溶液中⾃由扩散运动的扩散系数(�)，可以计算得到其粒径。⾃由扩散运动符合布朗运动规律，遵循 Stokes-Einstein ⽅程，有 $d = k _ { B } T / ( 3 \\pi \\eta D )$ ，其中�为脂质体直径，�是溶液粘度（单位为cp，1$\\mathrm { c p } = 1 { \\times } 1 0 ^ { - 3 } \\mathrm { m } ^ { - 1 } \\mathrm { k g } \\mathrm { s } ^ { - 1 } ,$ )。 $2 0 . 0 \\ ^ { \\circ } \\mathrm { C }$ 下测得某脂质体在不同粘度溶液中的扩散系数如下表所⽰，计算其直径（忽略磷脂双层膜厚度）。"
+          "text": "7-1-3 在水溶液中,磷脂双层膜会自发卷曲成球形,该结构被称为脂质体,其结构如7-1中之图c所示。通过测量脂质体在不同粘度溶液中自由扩散运动的扩散系数($D$),可以计算得到其粒径。自由扩散运动符合布朗运动规律,遵循 Stokes-Einstein 方程,有 $d = k_{B}T / (3\\pi\\eta D)$,其中 $d$ 为脂质体直径,$\\eta$ 是溶液粘度(单位为 cp,$1\\ \\mathrm{cp} = 1 \\times 10^{-3}\\ \\mathrm{m^{-1}\\,kg\\,s^{-1}}$)。$20.0\\ ^\\circ\\mathrm{C}$ 下测得某脂质体在不同粘度溶液中的扩散系数如下表所示,计算其直径(忽略磷脂双层膜厚度)。"
         },
         {
           "type": "callout",
           "tone": "info",
-          "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
+          "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
         }
       ]
     },
@@ -90,7 +93,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-4 称取 725.6 mg 磷脂分⼦(式量 786.1)，制备成 1.000 mL 脂质体⽔溶液。取 10.00 μL 该溶液，测得其中含有 $1 . 1 2 \\times 1 0 ^ { 1 4 }$ 个脂质体颗粒，直径为100nm。假设所有磷脂分⼦都形成了脂质体，计算脂质体外表⾯磷脂分⼦的排布密度（单位:个m−2)。"
+          "text": "7-1-4 称取 725.6 mg 磷脂分子(式量 786.1),制备成 1.000 mL 脂质体水溶液。取 10.00 μL 该溶液,测得其中含有 $1.12 \\times 10^{14}$ 个脂质体颗粒,直径为 100 nm。假设所有磷脂分子都形成了脂质体,计算脂质体外表金磷脂分子的排布密度(单位:个 m$^{-2}$)。"
         }
       ]
     },
@@ -100,7 +103,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "某蛋⽩质可发⽣可逆的⼆聚化反应，2M(单体) → D(⼆聚体)。 $\\mathrm { p H } = 7 . 5$ 时，测得该⼆聚化反应在 $1 5 ^ { \\mathrm { ~ \\circ ~ } }$ $\\mathrm { C } , \\ 3 0 \\ ^ { \\circ } \\mathrm { C } , \\ 4 0 \\ ^ { \\circ } \\mathrm { C }$ 下的平衡常数均为 $\\phantom { - } 1 K _ { c } ^ { \\ominus } = 5 . 6 \\times 1 0 ^ { 3 } c$ 。假设⼆聚反应的焓变与熵变均与温度⽆关。"
+          "text": "某蛋白质可发生可逆的二聚化反应,2M(单体)→ D(二聚体)。$\\mathrm{pH} = 7.5$ 时,测得该二聚化反应在 $15\\ ^\\circ\\mathrm{C}$、$30\\ ^\\circ\\mathrm{C}$、$40\\ ^\\circ\\mathrm{C}$ 下的平衡常数均为 $K_{c}^{\\ominus} = 5.6 \\times 10^{3}$。假设二聚反应的焓变与熵变均与温度无关。"
         }
       ]
     },
@@ -110,7 +113,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 计算在 $\\mathrm { p H } = 7 . 5$ 和体温 $3 7 . 0 ~ ^ { \\circ } \\mathrm { C }$ 下⼆聚反应的标准摩尔焓变（单位：kJ mol−1）与熵变（单位：J $\\mathrm { K } ^ { - 1 }$ $\\mathrm { m o l ^ { - 1 } } )$ o"
+          "text": "7-2-1 计算在 $\\mathrm{pH} = 7.5$ 和体温 $37.0\\ ^\\circ\\mathrm{C}$ 下二聚反应的标准摩尔焓变(单位:kJ mol$^{-1}$)与熵变(单位:J K$^{-1}$ mol$^{-1}$)。"
         }
       ]
     },
@@ -120,19 +123,11 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 指明反应是熵驱动反应还是焓驱动反应，解释上述⼆聚反应变化的原因。"
+          "text": "7-2-2 指明反应是熵驱动反应还是焓驱动反应,解释上述二聚反应变化的原因。"
         },
         {
           "type": "paragraph",
-          "text": "有机部分缩写"
-        },
-        {
-          "type": "paragraph",
-          "text": "Ac：⼄酰基；Bn：苄基（苯甲基）；Bu：丁基；Cy：环已基；equiv.：当量；Et：⼄基；Me：甲基；OTf：三氟甲磺酰基；Ph：苯基；R：烷基；TBS：tBuMe_{2}Si—；THF：四氢呋喃；TMS：三甲基硅基；Ts：对甲苯磺酰基。"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）"
+          "text": "有机部分缩写:Ac:乙酰基;Bn:苄基(苯甲基);Bu:丁基;Cy:环己基;equiv.:当量;Et:乙基;Me:甲基;OTf:三氟甲磺酰基;Ph:苯基;R:烷基;TBS:tBuMe$_2$Si—;THF:四氢呋喃;TMS:三甲基硅基;Ts:对甲苯磺酰基。"
         }
       ]
     }

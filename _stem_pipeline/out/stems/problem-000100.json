@@ -12,29 +12,31 @@
     "sourceLabel": "2020-34-CChO-juesai-1.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2020-34-CChO-juesai-2/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2020-34-CChO-juesai-2/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、规范小问结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "缺图",
+      "alt": "原卷此处有图,但当前文本缺失。"
     },
     {
       "type": "paragraph",
-      "text": "实验测得⼄醇在37.8 °C的⼀组数据如下表："
+      "text": "实验测得乙醇在37.8 °C的一组数据如下表:"
     },
     {
       "type": "callout",
       "tone": "info",
-      "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
+      "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
     },
     {
       "type": "paragraph",
-      "text": "⼄醇在该温度下的饱和蒸⽓压 $\\begin{array} { r } { \\dot { \\mathbf { \\sigma } } _ { p ^ { * } } = \\qquad \\mathbf { \\sigma } _ { \\mathbf { \\sigma } _ { } 0 } } \\end{array}$ O"
+      "text": "乙醇在该温度下的饱和蒸气压 $p^* = \\qquad \\sigma_0$ O"
     }
-  ]
+  ],
+  "parts": []
 }

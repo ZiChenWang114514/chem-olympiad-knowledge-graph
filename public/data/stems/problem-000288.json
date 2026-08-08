@@ -12,20 +12,22 @@
     "sourceLabel": "2006-20-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2006-20-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2006-20-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "反应流程图",
+      "alt": "环磷酰胺类似物合成路线图(缺图)"
     },
     {
       "type": "paragraph",
-      "text": "注：NBS为N-溴代丁⼆酰亚胺"
+      "text": "注:NBS 为 N-溴代丁二酰亚胺。"
     }
-  ]
+  ],
+  "parts": []
 }

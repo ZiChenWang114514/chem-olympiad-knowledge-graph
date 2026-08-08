@@ -12,19 +12,13 @@
     "sourceLabel": "2015-29-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2015-29-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2015-29-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、合并小问、移除无信息 callout。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000449-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "将热的硝酸铅溶液滴⼊热的铬酸钾溶液产⽣碱式铬酸铅沉淀 $\\mathrm { P b _ { 2 } ( O H ) _ { 2 } C r O _ { 4 } ] _ { \\circ } }$"
+          "text": "将热的硝酸铅溶液滴入热的铬酸钾溶液产生碱式铬酸铅沉淀 $\\ce{Pb2(OH)2CrO4}$。"
         }
       ]
     },
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "向含氰化氢的废⽔中加⼊铁粉和 $\\mathrm { K _ { 2 } C O _ { 3 } }$ 制备⻩⾎盐 $\\mathrm { { K _ { 4 } F e ( C N ) _ { 6 } { \\cdot } 3 H _ { 2 } O ] _ { c } } }$"
+          "text": "向含氰化氢的废水中加入铁粉和 $\\ce{K2CO3}$ 制备黄血盐 $\\ce{K4Fe(CN)6.3H2O}$。"
         }
       ]
     },
@@ -52,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "酸性溶液中，⻩⾎盐⽤ $\\mathrm { K M n O _ { 4 } }$ 处理，被彻底氧化，产⽣ $\\mathrm { N O _ { 3 } } ^ { - }$ −和 $\\mathrm { { C O } _ { 2 \\circ } }$"
+          "text": "酸性溶液中,黄血盐用 $\\ce{KMnO4}$ 处理,被彻底氧化,产生 $\\ce{NO3^-}$ 和 $\\ce{CO2}$。"
         }
       ]
     },
@@ -62,7 +56,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在⽔中， $\\mathrm { A g _ { 2 } S O _ { 4 } }$ 与单质S作⽤，沉淀变为 $\\mathrm { A g } _ { 2 } \\mathrm { S } ,$ ，分离，所得溶液中加碘⽔不褪⾊。"
+          "text": "在水中,$\\ce{Ag2SO4}$ 与单质 S 作用,沉淀变为 $\\ce{Ag2S}$,分离,所得溶液中加碘水不褪色。"
         }
       ]
     },
@@ -72,7 +66,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "实验室现有试剂：盐酸，硝酸，⼄酸，氢氧化钠，氨⽔。从中选择⼀种试剂，分别分离以下各组固体混合物（不要求复原，括号内数据是溶度积），指出溶解的固体。"
+          "text": "实验室现有试剂:盐酸,硝酸,乙酸,氢氧化钠,氨水。从中选择一种试剂,分别分离以下各组固体混合物(不要求复原,括号内数据是溶度积),指出溶解的固体。"
         }
       ]
     },
@@ -82,7 +76,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$\\mathrm { C a C O _ { 3 } } ( 3 . 4 \\times 1 0 ^ { - 9 }$ )和 $\\mathrm { C a C _ { 2 } O _ { 4 } } \\left( 2 . 3 { \\times } 1 0 ^ { - 9 } \\right)$"
+          "text": "$\\ce{CaCO3} (3.4 \\times 10^{-9})$ 和 $\\ce{CaC2O4} (2.3 \\times 10^{-9})$"
         }
       ]
     },
@@ -92,7 +86,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$\\mathrm { B a S O _ { 4 } } \\left( 1 . 1 \\times 1 0 ^ { - 1 0 } \\right)$ )和 $\\mathrm { B a C r O _ { 4 } } \\left( 1 . 1 { \\times } 1 0 ^ { - 1 0 } \\right)$"
+          "text": "$\\ce{BaSO4} (1.1 \\times 10^{-10})$ 和 $\\ce{BaCrO4} (1.1 \\times 10^{-10})$"
         }
       ]
     },
@@ -102,7 +96,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$\\mathrm { Z n ( O H ) } _ { 2 } \\left( 3 . 0 { \\times } 1 0 ^ { - 1 7 } \\right)$ 和 $\\mathrm { N i ( O H ) } _ { 2 } \\left( 5 . 5 \\times 1 0 ^ { - 1 6 } \\right)$"
+          "text": "$\\ce{Zn(OH)2} (3.0 \\times 10^{-17})$ 和 $\\ce{Ni(OH)2} (5.5 \\times 10^{-16})$"
         }
       ]
     },
@@ -112,7 +106,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$\\operatorname { A g C l } \\left( 1 . 8 \\times 1 0 ^ { - 1 0 } \\right)$ 和 $\\mathrm { A g I } \\left( 8 . 5 \\times 1 0 ^ { - 1 7 } \\right)$"
+          "text": "$\\ce{AgCl} (1.8 \\times 10^{-10})$ 和 $\\ce{AgI} (8.5 \\times 10^{-17})$"
         }
       ]
     },
@@ -122,7 +116,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$\\mathrm { Z n S } \\left( 2 . 5 { \\times } 1 0 ^ { - 2 2 } \\right)$ 和 $\\mathrm { H g S } \\left( 1 . 6 \\times 1 0 ^ { - 5 2 } \\right)$"
+          "text": "$\\ce{ZnS} (2.5 \\times 10^{-22})$ 和 $\\ce{HgS} (1.6 \\times 10^{-52})$"
         }
       ]
     },
@@ -132,7 +126,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在酸化的KI溶液中通⼊ $S O _ { 2 } ,$ ，观察到溶液变⻩并出现混浊(a)，继续通 $\\mathrm { S O } _ { 2 }$ ，溶液变为⽆⾊(b)，写出与现象a和b相对应所发⽣反应的⽅程式。写出总反应⽅程 $\\operatorname { \\overline { { x } } } \\mathrm { ( c ) }$ ，指出KI在反应中的作⽤。"
+          "text": "在酸化的 KI 溶液中通入 $\\ce{SO2}$,观察到溶液变黄并出现混浊 (a),继续通 $\\ce{SO2}$,溶液变为无色 (b),写出与现象 a 和 b 相对应所发生反应的方程式。写出总反应方程式 (c),指出 KI 在反应中的作用。"
         }
       ]
     },
@@ -142,69 +136,55 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "分⼦量为4000的聚⼄⼆醇有良好的⽔溶性，是⼀种缓泻剂，它不会被消化道吸收，也不会在体内转化，却能使肠道保持⽔分。"
-        }
-      ]
-    },
-    {
-      "id": "part-000449-13",
-      "label": "2-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "-1 以下哪个结构简式代表聚⼄⼆醇？"
+          "text": "分子量为 4000 的聚乙二醇有良好的水溶性,是一种缓泻剂,它不会被消化道吸收,也不会在体内转化,却能使肠道保持水分。"
         },
         {
           "type": "paragraph",
-          "text": "（图：）"
+          "text": "-1 以下哪个结构简式代表聚乙二醇?"
+        },
+        {
+          "type": "figure",
+          "caption": "选项 A",
+          "alt": "结构简式 A(缺图)"
         },
         {
           "type": "paragraph",
           "text": "A"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "选项 B",
+          "alt": "结构简式 B(缺图)"
         },
         {
           "type": "paragraph",
           "text": "B"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "选项 C",
+          "alt": "结构简式 C(缺图)"
         },
         {
           "type": "paragraph",
           "text": "C"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "选项 D",
+          "alt": "结构简式 D(缺图)"
         },
         {
           "type": "paragraph",
           "text": "D"
-        }
-      ]
-    },
-    {
-      "id": "part-000449-14",
-      "label": "2-3",
-      "blocks": [
+        },
         {
           "type": "paragraph",
-          "text": "-2 聚⼄⼆醇为何能保持肠道⾥的⽔分？"
-        }
-      ]
-    },
-    {
-      "id": "part-000449-15",
-      "label": "2-3",
-      "blocks": [
+          "text": "-2 聚乙二醇为何能保持肠道里的水分?"
+        },
         {
           "type": "paragraph",
-          "text": "-3 聚⼄⼆醇可由环氧⼄烷在酸性条件下聚合⽽成，写出反应式。"
+          "text": "-3 聚乙二醇可由环氧乙烷在酸性条件下聚合而成,写出反应式。"
         }
       ]
     }

@@ -12,24 +12,24 @@
     "sourceLabel": "2007-21-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2007-21-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2007-21-CChO-juesai/full.md)程序化切分并整理为结构化题干;经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "最近，化学家合成了⼀组荧光分⼦ $\\mathrm { ( F L _ { 1 } \\sim F L _ { 5 } ) }$ ，可⽤于⽣物体内NO的实时检测。先将荧光分⼦与 $\\mathrm { C u C l _ { 2 } }$ 制成配合物，当体系中有NO出现时， $\\mathrm { N O }$ 与配合物相互作⽤，从中置换出铜(I)，通过对⽐反应前后体系荧光光谱的变化，即可检测 $\\mathrm { N O } _ { \\circ }$ 原理⽰意如下（FL代表荧光配体）："
+      "text": "最近,化学家合成了一组荧光分子 $\\mathrm{FL_1 \\sim FL_5}$,可用于生物体内 NO 的实时检测。先将荧光分子与 $\\mathrm{CuCl_2}$ 制成配合物,当体系中有 NO 出现时,NO 与配合物相互作用,从中置换出铜(I),通过对比反应前后体系荧光光谱的变化,即可检测 NO。原理示意如下(FL 代表荧光配体):"
     },
     {
       "type": "paragraph",
-      "text": "$$\n\\mathrm{FL} + \\mathrm{Cu(II)} \\rightleftharpoons [ \\mathrm{Cu(II)FL} ] \\xrightarrow {\\mathrm{NO}} \\mathrm{Cu(I)} + \\mathrm{FL-NO}\n$$"
+      "text": "$$\n\\mathrm{FL} + \\mathrm{Cu(II)} \\rightleftharpoons [\\mathrm{Cu(II)FL}] \\xrightarrow{\\mathrm{NO}} \\mathrm{Cu(I)} + \\mathrm{FL-NO}\n$$"
     },
     {
       "type": "paragraph",
-      "text": "合成的荧光配体 $\\mathrm { F L _ { 1 } }$ ⻅右图："
+      "text": "合成的荧光配体 $\\mathrm{FL_1}$ 见右图:"
     }
   ],
   "parts": [
@@ -39,7 +39,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "已知 $\\mathrm { F L _ { 1 } }$ 与CuCl_{2}⽣成的配合物分⼦式为 $\\mathrm { C _ { 3 0 } H _ { 1 8 } N _ { 2 } O _ { 5 } C l _ { 2 } C u }$ ，其中铜为4配位，试写出该配合物的结构式。"
+          "text": "已知 $\\mathrm{FL_1}$ 与 $\\mathrm{CuCl_2}$ 生成的配合物分子式为 $\\mathrm{C_{30}H_{18}N_2O_5Cl_2Cu}$,其中铜为 4 配位,试写出该配合物的结构式。"
         }
       ]
     },
@@ -49,7 +49,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "NO与5-1中的配合物作⽤，⽣成分⼦式为 $\\mathrm { C _ { 3 0 } H _ { 1 8 } N _ { 3 } O _ { 6 } C l }$ 的化合物和$\\mathrm { C u C l }$ ，试写出该化合物最可能的结构式。"
+          "text": "NO 与 5-1 中的配合物作用,生成分子式为 $\\mathrm{C_{30}H_{18}N_3O_6Cl}$ 的化合物和 $\\mathrm{CuCl}$,试写出该化合物最可能的结构式。"
         }
       ]
     },
@@ -59,31 +59,22 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "荧光分⼦ $\\mathrm { F L } _ { 5 } \\left( \\mathrm { C } _ { 3 2 } \\mathrm { H } _ { 2 1 } \\mathrm { N } _ { 2 } \\mathrm { O } _ { 7 } \\mathrm { C l } \\right)$ 的合成路线如下，请写出A、B、C、"
+          "text": "荧光分子 $\\mathrm{FL_5} \\left( \\mathrm{C_{32}H_{21}N_2O_7Cl} \\right)$ 的合成路线如下,请写出 A、B、C、D、E 以及 $\\mathrm{FL_5}$ 的结构式。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "合成路线图(一)",
+          "alt": "合成路线中 A、B、C 部分的结构图,原图缺失"
         },
         {
-          "type": "paragraph",
-          "text": "D、E以及 $\\mathrm { F L } _ { 5 }$ 的结构式。"
+          "type": "figure",
+          "caption": "合成路线图(二)",
+          "alt": "合成路线中 D、E 部分的结构图,原图缺失"
         },
         {
-          "type": "paragraph",
-          "text": "()"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "()"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "合成路线图(三)",
+          "alt": "合成路线中 FL5 的结构图,原图缺失"
         }
       ]
     }

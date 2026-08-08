@@ -12,19 +12,13 @@
     "sourceLabel": "2006-20-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2006-20-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2006-20-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000296-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "若两种晶型平衡共存的温度�和压⼒�呈线性关系，计算三种晶型同时平衡共存的温度和压⼒。"
+          "text": "若两种晶型平衡共存的温度 $T$ 和压力 $p$ 呈线性关系,计算三种晶型同时平衡共存的温度和压力。"
         }
       ]
     },
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "求在三相点由晶型I直接转化为晶型Ⅲ过程的摩尔焓变和摩尔熵变。"
+          "text": "求在三相点由晶型 I 直接转化为晶型 III 过程的摩尔焓变和摩尔熵变。"
         }
       ]
     },
@@ -52,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "根据计算，在 $_ { . } { P - } T$ 坐标图 $( P \\mathbb { H } P ^ { \\ominus }$ 表⽰，�⽤K表⽰）上粗略绘出硝酸铵体系的相图，并标明各相区的相态。"
+          "text": "根据计算,在 $p$-$T$ 坐标图($p$ 以 $p^{\\ominus}$ 表示,$T$ 用 K 表示)上粗略绘出硝酸铵体系的相图,并标明各相区的相态。"
         }
       ]
     }

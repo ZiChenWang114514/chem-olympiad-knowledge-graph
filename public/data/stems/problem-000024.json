@@ -12,16 +12,16 @@
     "sourceLabel": "2016-30-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2016-30-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2016-30-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。已由 DeepSeek 精修 OCR 错字、LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "某⾦属M的氧化物A是易挥发的液体，有毒，微溶于⽔。在氯化氢⽓氛中蒸发A的盐酸溶液（含1.000 g的 A）得到 1.584 g 晶体 $\\mathbf { M C l } _ { 3 } { \\cdot } 3 \\mathrm { H } _ { 2 } \\mathrm { O } .$ o"
+      "text": "某金属M的氧化物A是易挥发的液体,有毒,微溶于水。在氯化氢气氛中蒸发A的盐酸溶液(含1.000 g的A)得到1.584 g晶体 $\\ce{MCl3.3H2O}$。"
     }
   ],
   "parts": [
@@ -31,11 +31,11 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "假定转化反应按化学计量⽐进⾏，通过计算确定A的化学式，并写出⾦属M的价电⼦构型。"
+          "text": "假定转化反应按化学计量比进行,通过计算确定A的化学式,并写出金属M的价电子构型。"
         },
         {
           "type": "paragraph",
-          "text": "从精炼镍的阳极泥提取M的步骤为："
+          "text": "从精炼镍的阳极泥提取M的步骤为:"
         }
       ]
     },
@@ -45,7 +45,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "⽤王⽔处理溶解 Pt、Pd 和 Au；"
+          "text": "用王水处理溶解 Pt、Pd 和 Au;"
         }
       ]
     },
@@ -55,7 +55,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "固体不溶物与碳酸铅共热，然后⽤稀硝酸处理除去可溶物B；"
+          "text": "固体不溶物与碳酸铅共热,然后用稀硝酸处理除去可溶物B;"
         }
       ]
     },
@@ -65,7 +65,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "剩余固体不溶物与硫酸氢钠共熔，⽤⽔浸取除去可溶物 $\\mathrm { c } ;$"
+          "text": "剩余固体不溶物与硫酸氢钠共熔,用水浸取除去可溶物C;"
         }
       ]
     },
@@ -75,7 +75,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "留下的固体不溶物与过氧化钠共熔，⽤⽔浸取，过滤。滤液中含有M的盐D，D为 $\\mathrm { N a _ { 2 } S O _ { 4 } }$ 型电解质，⽆⽔D 中氧含量为30.32%；"
+          "text": "留下的固体不溶物与过氧化钠共熔,用水浸取,过滤。滤液中含有M的盐D,D为 $\\ce{Na2SO4}$ 型电解质,无水D中氧含量为30.32%;"
         }
       ]
     },
@@ -85,23 +85,23 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "往D溶液中通⼊Cl_{2}，加热，收集 $4 0 – 5 0 ^ { \\circ } \\mathrm { C }$ 的馏分，得到A。A收集在盐酸中，加热得到E的溶液，E中Cl 含量为 67.14%；"
+          "text": "往D溶液中通入 $\\ce{Cl2}$,加热,收集 $40\\text{–}50^\\circ\\mathrm{C}$ 的馏分,得到A。A收集在盐酸中,加热得到E的溶液,E中Cl含量为67.14%;"
         },
         {
           "type": "paragraph",
-          "text": "$$\n\\mathrm{NH} _ {4} \\mathrm{Cl}\n$$"
+          "text": "$\\ce{NH4Cl}$"
         },
         {
           "type": "paragraph",
-          "text": "$$\n\\mathbf {F},\n$$"
+          "text": "$\\ce{F}$"
         },
         {
           "type": "paragraph",
-          "text": "$$\n\\mathbf {M} _ {\\circ}\n$$"
+          "text": "$\\ce{M}$"
         },
         {
           "type": "paragraph",
-          "text": "已 $\\mathrm { I | \\varphi _ { A } ^ { \\ominus } ( N O _ { 3 } ^ { - } / N O ) = 0 . 9 5 7 \\vee , ~ \\varphi ^ { \\ominus } ( [ P t C l _ { 4 } ] ^ { 2 - } / P t ) = 0 . 7 5 5 \\vee , ~ \\varphi ^ { \\ominus } ( [ P t C l _ { 6 } ] ^ { 2 - } / [ P t C l _ { 4 } ] ^ { 2 - } ) = 0 . 6 8 0 ~ V , }$ ，所有离⼦活度系数为 1.00。"
+          "text": "已知 $\\varphi^\\ominus(\\ce{NO3^-/NO}) = 0.957\\,\\mathrm{V}$,$\\varphi^\\ominus(\\ce{[PtCl4]^{2-}/Pt}) = 0.755\\,\\mathrm{V}$,$\\varphi^\\ominus(\\ce{[PtCl6]^{2-}/[PtCl4]^{2-}}) = 0.680\\,\\mathrm{V}$,所有离子活度系数为1.00。"
         }
       ]
     },
@@ -111,7 +111,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出步骤(1)中除去Pt的化学反应⽅程式，计算该反应在298 K下的 $K ^ { \\ominus } { } _ { c }$"
+          "text": "写出步骤(1)中除去Pt的化学反应方程式,计算该反应在298 K下的 $K_c^\\ominus$。"
         }
       ]
     },
@@ -121,7 +121,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出步骤(2)中除去银的化学反应⽅程式。"
+          "text": "写出步骤(2)中除去银的化学反应方程式。"
         }
       ]
     },
@@ -131,7 +131,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "D、E、F中均只有1个⾦属原⼦，试通过计算确定D、E、F的化学式。"
+          "text": "D、E、F中均只有1个金属原子,试通过计算确定D、E、F的化学式。"
         }
       ]
     }

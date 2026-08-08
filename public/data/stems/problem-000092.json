@@ -12,19 +12,13 @@
     "sourceLabel": "2020-34-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2020-34-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2020-34-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、合并空壳段落、将 (图:) 转为 figure 块。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000092-01",
@@ -32,43 +26,27 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "请按酸性从强到弱给以下化合物排序："
+          "text": "请按酸性从强到弱给以下化合物排序:"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "化合物 A",
+          "alt": "化合物 A 的结构图(缺图)"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "化合物 B",
+          "alt": "化合物 B 的结构图(缺图)"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "化合物 C",
+          "alt": "化合物 C 的结构图(缺图)"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "A"
-        },
-        {
-          "type": "paragraph",
-          "text": "B"
-        },
-        {
-          "type": "paragraph",
-          "text": "D"
-        },
-        {
-          "type": "paragraph",
-          "text": "C"
+          "type": "figure",
+          "caption": "化合物 D",
+          "alt": "化合物 D 的结构图(缺图)"
         }
       ]
     },
@@ -78,47 +56,32 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "请按酸性从强到弱给以下化合物排序："
+          "text": "请按酸性从强到弱给以下化合物排序:"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "化合物 A",
+          "alt": "化合物 A 的结构图(缺图)"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "化合物 B",
+          "alt": "化合物 B 的结构图(缺图)"
         },
         {
-          "type": "paragraph",
-          "text": "A"
+          "type": "figure",
+          "caption": "化合物 C",
+          "alt": "化合物 C 的结构图(缺图)"
         },
         {
-          "type": "paragraph",
-          "text": "B"
+          "type": "figure",
+          "caption": "化合物 D",
+          "alt": "化合物 D 的结构图(缺图)"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "C"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "D"
-        },
-        {
-          "type": "paragraph",
-          "text": "E"
+          "type": "figure",
+          "caption": "化合物 E",
+          "alt": "化合物 E 的结构图(缺图)"
         }
       ]
     },
@@ -128,55 +91,37 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "判断以下化合物哪些具有光活性（⼿性）、哪些没有光活性（⾮⼿性）、哪些是内消旋体。"
+          "text": "判断以下化合物哪些具有光活性(手性)、哪些没有光活性(非手性)、哪些是内消旋体。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "化合物 A",
+          "alt": "化合物 A 的结构图(缺图)"
         },
         {
-          "type": "paragraph",
-          "text": "A"
+          "type": "figure",
+          "caption": "化合物 B",
+          "alt": "化合物 B 的结构图(缺图)"
         },
         {
-          "type": "paragraph",
-          "text": "OH"
+          "type": "figure",
+          "caption": "化合物 C",
+          "alt": "化合物 C 的结构图(缺图)"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "化合物 D",
+          "alt": "化合物 D 的结构图(缺图)"
         },
         {
-          "type": "paragraph",
-          "text": "B"
+          "type": "figure",
+          "caption": "化合物 E",
+          "alt": "化合物 E 的结构图(缺图)"
         },
         {
-          "type": "paragraph",
-          "text": "C"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "D"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "E"
-        },
-        {
-          "type": "paragraph",
-          "text": "F"
+          "type": "figure",
+          "caption": "化合物 F",
+          "alt": "化合物 F 的结构图(缺图)"
         }
       ]
     }

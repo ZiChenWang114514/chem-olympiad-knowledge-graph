@@ -12,16 +12,16 @@
     "sourceLabel": "2006-20-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2006-20-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2006-20-CChO-chusai/full.md)程序化切分并整理为结构化题干;经 DeepSeek 精修(OCR 错字校正、排版与 LaTeX 整理);公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第1题（4分）2006年3⽉有⼈预⾔，未知超重元素第126号元素有可能与氟形成稳定的化合物。按元素周期系的已知规律，该元素应位于第 周期，它未填满电⼦的能级应是 ，在该能级上有 个电⼦，⽽这个能级总共可填充 个电⼦。"
+      "text": "第 1 题(4 分)2006 年 3 月有人预言,未知超重元素第 126 号元素有可能与氟形成稳定的化合物。按元素周期系的已知规律,该元素应位于第____周期,它未填满电子的能级应是____,在该能级上有____个电子,而这个能级总共可填充____个电子。"
     }
   ]
 }

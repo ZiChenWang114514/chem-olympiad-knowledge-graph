@@ -12,19 +12,13 @@
     "sourceLabel": "2018-32-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2018-32-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2018-32-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理公式与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000050-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "195K，三氧化⼆磷在⼆氯甲烷中与臭氧反应⽣成 $\\mathrm { P _ { 4 } O _ { 1 8 } }$ ，画出 $\\mathrm { P _ { 4 } O _ { 1 8 } }$ 分⼦的结构⽰意图。"
+          "text": "195 K,三氧化二磷在二氯甲烷中与臭氧反应生成 $\\mathrm{P_4O_{18}}$,画出 $\\mathrm{P_4O_{18}}$ 分子的结构示意图。"
         }
       ]
     },
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$\\mathrm { C H _ { 2 } S F _ { 4 } }$ 是⼀种极性溶剂，其分⼦⼏何构型符合价层电⼦对互斥理论(VSEPR)模型。画出 $\\mathrm { C H _ { 2 } S F _ { 4 } }$ 的分⼦结构⽰意图（体现合理的成键及⻆度关系）"
+          "text": "$\\mathrm{CH_2SF_4}$ 是一种极性溶剂,其分子几何构型符合价层电子对互斥理论(VSEPR)模型。画出 $\\mathrm{CH_2SF_4}$ 的分子结构示意图(体现合理的成键及角度关系)。"
         }
       ]
     },
@@ -52,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "2018年⾜球世界⽐赛⽤球使⽤了⽣物基元三元⼄丙橡胶(EPDM)产品Keltan $\\operatorname { E c o } _ { \\mathsf { c } }$ 。EPDM属三元共聚物，由⼄烯、丙烯、及第三单体经溶液共聚⽽成。"
+          "text": "2018年足球世界比赛用球使用了生物基元三元乙丙橡胶(EPDM)产品 Keltan Eco。EPDM 属三元共聚物,由乙烯、丙烯及第三单体经溶液共聚而成。"
         }
       ]
     },
@@ -62,43 +56,48 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1EPDM具有优良的耐紫外光、耐臭氧、耐腐蚀等性能。写出下列分⼦中不可⽤于制备EPDM的第三单体（可能多选，答案中含错误选项不得分）"
+          "text": "-1 EPDM 具有优良的耐紫外光、耐臭氧、耐腐蚀等性能。写出下列分子中不可用于制备 EPDM 的第三单体(可能多选,答案中含错误选项不得分)。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "选项 A 结构图(原图缺失)",
+          "alt": "选项 A 的化学结构图,原图缺失"
         },
         {
           "type": "paragraph",
           "text": "A"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "选项 B 结构图(原图缺失)",
+          "alt": "选项 B 的化学结构图,原图缺失"
         },
         {
           "type": "paragraph",
           "text": "B"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "选项 C 结构图(原图缺失)",
+          "alt": "选项 C 的化学结构图,原图缺失"
         },
         {
           "type": "paragraph",
           "text": "C"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "选项 D 结构图(原图缺失)",
+          "alt": "选项 D 的化学结构图,原图缺失"
         },
         {
           "type": "paragraph",
           "text": "D"
+        },
+        {
+          "type": "figure",
+          "caption": "选项 E 结构图(原图缺失)",
+          "alt": "选项 E 的化学结构图,原图缺失"
         },
         {
           "type": "paragraph",
@@ -112,7 +111,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 合成⾼分⼦主要材料分为塑料、纤维和橡胶三⼤类，下列⾼分⼦中与EPDM同为橡胶的是：F 聚⼄烯 G 聚丙烯氰 H 反式聚异戊⼆烯 I 聚异丁烯"
+          "text": "-2 合成高分子主要材料分为塑料、纤维和橡胶三大类,下列高分子中与 EPDM 同为橡胶的是:F 聚乙烯,G 聚丙烯氰,H 反式聚异戊二烯,I 聚异丁烯。"
         }
       ]
     }

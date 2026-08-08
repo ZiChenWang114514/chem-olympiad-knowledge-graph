@@ -12,20 +12,20 @@
     "sourceLabel": "2013-27-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2013-27-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2013-27-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理公式与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "$$\n\\mathbf {M} + \\mathbf {M X A} + \\mathbf {M Y} \\rightarrow \\mathbf {M} _ {3} \\mathbf {X Y} + 1 / 2 \\mathrm{A} _ {2} (\\mathrm{g})\n$$"
+      "text": "$$\\mathbf{M} + \\mathbf{MXA} + \\mathbf{MY} \\rightarrow \\mathbf{M_3XY} + \\frac{1}{2}\\mathrm{A_2(g)}$$"
     },
     {
       "type": "paragraph",
-      "text": "$\\mathbf { A } _ { 2 }$ ⽆⾊⽆味。反应消耗 0.93 g M 可获得 0.50 L $\\mathbf { A } _ { 2 }$ ⽓体 $( 2 5 ~ ^ { \\circ } \\mathrm { C } , 1 0 0 \\mathrm { k P a } )$ 。（⽓体常量 $R = 8 . 3 1 4 \\mathrm { { k P a } } \\dot { . }$ L$\\mathrm { m o l ^ { - 1 } K ^ { - 1 } } )$"
+      "text": "$\\mathbf{A_2}$ 无色无味。反应消耗 0.93 g M 可获得 0.50 L $\\mathbf{A_2}$ 气体 $(25~^{\\circ}\\mathrm{C}, 100\\,\\mathrm{kPa})$。(气体常量 $R = 8.314\\,\\mathrm{kPa\\,L\\,mol^{-1}\\,K^{-1}}$)"
     }
   ],
   "parts": [
@@ -35,7 +35,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算M的摩尔质量。"
+          "text": "计算 M 的摩尔质量。"
         }
       ]
     },
@@ -45,7 +45,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "A、M、X、Y各是什么？"
+          "text": "A、M、X、Y 各是什么?"
         }
       ]
     },
@@ -55,7 +55,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出 $\\mathbf { M } _ { 3 } \\mathbf { X } \\mathbf { Y }$ 发⽣⽔解的⽅程式。"
+          "text": "写出 $\\mathbf{M_3XY}$ 发生水解的方程式。"
         }
       ]
     },
@@ -65,7 +65,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$\\mathbf { M } _ { 3 } \\mathbf { X } \\mathbf { Y }$ 晶体属于⽴⽅晶系，若以X为正当晶胞的顶点，写出M和Y的坐标以及该晶体的最⼩重复单位。第6题（10分）某同学从书上得知，⼀定浓度的 $\\mathrm { F e ^ { 2 + } }$ 、 $\\mathrm { C r ( O H ) _ { 4 } } ^ { - } ,$ $\\mathrm { N i ^ { 2 + } }$ 、 $\\mathrm { M n O _ { 4 } }$ 2−和 $\\mathrm { C u C l _ { 3 } }$ −的⽔溶液都呈绿$\\mathtt { \\ E q } _ { \\mathtt { o } }$ 于是，请⽼师配制了这些离⼦的溶液。⽼师要求该同学⽤蒸馏⽔、稀硫酸以及试管、胶头滴管、⽩⾊点滴板等物品和尽可能少的步骤鉴别它们，从⽽了解这些离⼦溶液的颜⾊。请为该同学设计⼀个鉴别⽅案，⽤离⼦⽅程式表述反应并说明发⽣的现象（若A与B混合，必须写清是将A滴加到B中还是将B滴加到A中）。"
+          "text": "$\\mathbf{M_3XY}$ 晶体属于立方晶系,若以 X 为正当晶胞的顶点,写出 M 和 Y 的坐标以及该晶体的最小重复单位。"
         }
       ]
     }

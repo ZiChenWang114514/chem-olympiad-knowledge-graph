@@ -12,16 +12,16 @@
     "sourceLabel": "2010-24-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2010-24-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2010-24-CChO-chusai/full.md)程序化切分并整理为结构化题干;已由 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "（图：）"
+      "text": "本题涉及灰黄霉素的结构与合成。"
     }
   ],
   "parts": [
@@ -31,11 +31,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在下⾯灰⻩霉素结构式中标出不对称碳原⼦的构型。"
+          "text": "在灰黄霉素结构式中标出不对称碳原子的构型。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "灰黄霉素结构式(原图缺失)",
+          "alt": "灰黄霉素结构式"
         }
       ]
     },
@@ -45,11 +46,14 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出所有符合下列两个条件的B的同分异构体的结构简式："
+          "text": "写出所有符合下列两个条件的B的同分异构体的结构简式:"
         },
         {
-          "type": "paragraph",
-          "text": "① 苯环上只有两种化学环境不同的氢；② 分⼦中只有⼀种官能团。"
+          "type": "list",
+          "items": [
+            "苯环上只有两种化学环境不同的氢;",
+            "分子中只有一种官能团。"
+          ]
         }
       ]
     },
@@ -59,7 +63,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出由A和B⽣成灰⻩霉素的反应名称。"
+          "text": "写出由A和B生成灰黄霉素的反应名称。"
         }
       ]
     }

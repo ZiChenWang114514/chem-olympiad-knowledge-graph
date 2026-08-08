@@ -12,24 +12,25 @@
     "sourceLabel": "2011-25-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2011-25-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2011-25-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "（图：）\n图3 容积可变的反应器⽰意图"
+      "type": "figure",
+      "caption": "图3 容积可变的反应器示意图",
+      "alt": "容积可变的反应器示意图"
     },
     {
       "type": "paragraph",
-      "text": "在恒温、有催化剂条件下，反应器内进⾏如下反应"
+      "text": "在恒温、有催化剂条件下,反应器内进行如下反应"
     },
     {
       "type": "paragraph",
-      "text": "$$\n\\mathrm{N} _ {2} (\\mathrm{g}) + 3 \\mathrm{H} _ {2} (\\mathrm{g}) \\rightleftharpoons 2 \\mathrm{NH} _ {3} (\\mathrm{g})\n$$"
+      "text": "$\\mathrm{N_2(g)} + 3\\mathrm{H_2(g)} \\rightleftharpoons 2\\mathrm{NH_3(g)}$"
     }
   ],
   "parts": [
@@ -39,16 +40,16 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "若平衡时，反应器的容积为1.0L，各物质的浓度如下："
+          "text": "若平衡时,反应器的容积为1.0 L,各物质的浓度如下:"
         },
         {
           "type": "callout",
           "tone": "info",
-          "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
+          "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
         },
         {
           "type": "paragraph",
-          "text": "现向平衡体系中注⼊4.0mol $\\mathrm { N } _ { 2 \\mathrm { c } }$ 。试计算反应的平衡常数 $K _ { c }$ 和反应商 $Q _ { c }$ ，并由此判断反应将向什么⽅向进⾏。"
+          "text": "现向平衡体系中注入4.0 mol $\\mathrm{N_2}$。试计算反应的平衡常数 $K_c$ 和反应商 $Q_c$,并由此判断反应将向什么方向进行。"
         }
       ]
     },
@@ -58,7 +59,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "若平衡时，反应器的容积为 $V ,$ ，各物质的浓度分别为� $\\cdot ( \\mathrm { N } _ { 2 } )$ ， $c \\left( \\mathrm { { H } _ { 2 } } \\right)$ 和 $c ( \\mathrm { N H } _ { 3 } )$ ，现向平衡体系中注⼊体积为��的 $\\mathrm { N } _ { 2 }$ （同温同压）。设此条件下1 mol⽓体的体积为 $V _ { 0 }$ ，试推导出 $Q _ { c }$ 的表达式，并判断反应⽅向。"
+          "text": "若平衡时,反应器的容积为 $V$,各物质的浓度分别为 $c(\\mathrm{N_2})$、$c(\\mathrm{H_2})$ 和 $c(\\mathrm{NH_3})$,现向平衡体系中注入体积为 $\\Delta V$ 的 $\\mathrm{N_2}$(同温同压)。设此条件下1 mol 气体的体积为 $V_0$,试推导出 $Q_c$ 的表达式,并判断反应方向。"
         }
       ]
     }

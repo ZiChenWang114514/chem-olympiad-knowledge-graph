@@ -12,21 +12,17 @@
     "sourceLabel": "2009-23-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "未能从 MD 可靠切分正文（初赛/2009-23-CChO-chusai/full.md）；仅写入元数据标题占位，待人工补全。",
+  "provenanceNote": "DeepSeek 精修:原题干正文缺失,仅保留题目标题占位,待人工补全。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "callout",
-      "tone": "warn",
-      "text": "本题干正文自动切分失败，仅显示题目标题占位。"
-    },
-    {
       "type": "paragraph",
       "text": "10 · 氯菊酯合成路线"
     }
-  ]
+  ],
+  "parts": []
 }

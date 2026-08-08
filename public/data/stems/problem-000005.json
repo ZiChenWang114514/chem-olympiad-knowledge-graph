@@ -12,18 +12,13 @@
     "sourceLabel": "2022-36-CChO-chusai-1.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "未能从 MD 可靠切分正文（初赛/2022-36-CChO-chusai-1/full.md）；仅写入元数据标题占位，待人工补全。",
+  "provenanceNote": "原文切分未成功,仅保留题目标题;经 DeepSeek 精修清理占位提示,待人工补全题干正文。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
-    {
-      "type": "callout",
-      "tone": "warn",
-      "text": "本题干正文自动切分失败，仅显示题目标题占位。"
-    },
     {
       "type": "paragraph",
       "text": "Q2 · 高压碳酸盐聚合结构"

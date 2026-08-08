@@ -12,16 +12,17 @@
     "sourceLabel": "2017-31-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2017-31-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2017-31-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX;经 DeepSeek 精修(修正 OCR 错字、规范 LaTeX/化学式、调整图占位)。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "原题配图(反应示意图)缺失",
+      "alt": "原题配图缺失"
     }
   ],
   "parts": [
@@ -31,7 +32,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "当 $\\mathrm { R = C H _ { 3 } }$ 时，产物为A，分⼦式为 $\\mathrm { C _ { 1 5 } H _ { 1 2 } O _ { 4 0 } }$ 研究表明 A 不含羟基，它的 1H NMR (CDCl_{3}, ppm): δ1.68 (3H), 2.73-2.88 (2H), 3.96-4.05 (2H), 5.57 (1H), 7.72-8.10 (4H)。画出 A 的结构简式。提⽰：δ不同，氢的化学环境不同。"
+          "text": "当 $R=\\mathrm{CH_3}$ 时,产物为 A,分子式为 $\\mathrm{C_{15}H_{12}O_4}$。研究表明 A 不含羟基,它的 $^1\\mathrm{H}$ NMR($\\mathrm{CDCl_3}$,ppm):δ 1.68 (3H),2.73–2.88 (2H),3.96–4.05 (2H),5.57 (1H),7.72–8.10 (4H)。画出 A 的结构简式。提示:δ 不同,氢的化学环境不同。"
         }
       ]
     },
@@ -41,7 +42,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "当 R = Ph 时，产物为 B，分⼦式为 $\\mathrm { C _ { 2 0 } H _ { 1 4 } O _ { 4 \\epsilon } }$ 。研究表明 B 含有⼀个羟基，它的 1H NMR (CDCl_{3}, ppm):δ 2.16 (1H), 3.79 (1H), 4.07 (1H), 5.87 (1H), 6.68 (1H), 7.41-7.77 (5H), 7.82-8.13 (4H)。画出 B 的结构简式；解释⽣成B的原因。"
+          "text": "当 $R=\\mathrm{Ph}$ 时,产物为 B,分子式为 $\\mathrm{C_{20}H_{14}O_4}$。研究表明 B 含有一个羟基,它的 $^1\\mathrm{H}$ NMR($\\mathrm{CDCl_3}$,ppm):δ 2.16 (1H),3.79 (1H),4.07 (1H),5.87 (1H),6.68 (1H),7.41–7.77 (5H),7.82–8.13 (4H)。画出 B 的结构简式;解释生成 B 的原因。"
         }
       ]
     },
@@ -51,7 +52,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "当 $\\mathrm { R = O E t }$ 时，产物为C，分⼦式为 $\\mathrm { C _ { 1 4 } H _ { 1 0 } O _ { 5 \\circ } }$ 。参照以上实验结果，画出C的结构简式。"
+          "text": "当 $R=\\mathrm{OEt}$ 时,产物为 C,分子式为 $\\mathrm{C_{14}H_{10}O_5}$。参照以上实验结果,画出 C 的结构简式。"
         }
       ]
     }

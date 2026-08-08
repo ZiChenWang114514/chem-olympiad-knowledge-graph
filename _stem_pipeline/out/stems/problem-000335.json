@@ -12,16 +12,17 @@
     "sourceLabel": "2008-22-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2008-22-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2008-22-CChO-juesai/full.md)程序化切分并整理为结构化题干;经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、规范小问结构、将缺图占位转为 figure 块。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "题给总反应路线图(原图缺失)",
+      "alt": "总反应路线图,展示从原料到最终产物的多步合成"
     }
   ],
   "parts": [
@@ -31,11 +32,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "⼀种合成⼼环烯的路线如下，请指出其中a\\~h代表的反应条件和/或化合物。"
+          "text": "一种合成手环烯的路线如下,请指出其中 a~h 代表的反应条件和/或化合物。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "手环烯合成路线图(原图缺失)",
+          "alt": "手环烯合成路线,标注 a~h 的反应条件或中间体"
         }
       ]
     },
@@ -45,7 +47,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出原料A和第⼀个中间产物B的系统名称。"
+          "text": "写出原料 A 和第一个中间产物 B 的系统名称。"
         }
       ]
     },
@@ -55,7 +57,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "由C到D的反应中，除⽬标分⼦外，还⽣成2种⼩分⼦副产物，写出它们的结构简式或名称。"
+          "text": "由 C 到 D 的反应中,除目标分子外,还生成 2 种小分子副产物,写出它们的结构简式或名称。"
         }
       ]
     },
@@ -65,7 +67,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "指出最终产物⼼环烯(R=H)及其⼆甲基化物 $\\mathrm { ( R = C H _ { 3 } ) }$ 分⼦中的对称元素。"
+          "text": "指出最终产物手环烯(R=H)及其二甲基化物 $\\mathrm{(R=CH_3)}$ 分子中的对称元素。"
         }
       ]
     },
@@ -75,11 +77,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "⼀种合成花烯的路线如下，请指出其中i和j代表的主要试剂或条件。"
+          "text": "一种合成花烯的路线如下,请指出其中 i 和 j 代表的主要试剂或条件。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "花烯合成路线图(原图缺失)",
+          "alt": "花烯合成路线,标注 i 和 j 的试剂或条件"
         }
       ]
     },
@@ -89,7 +92,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "化合物E的⽴体异构体中，只有⼀种异构体能经过烯交换反应得到F，请指出是哪⼀种？简述理由。"
+          "text": "化合物 E 的立体异构体中,只有一种异构体能经过烯交换反应得到 F,请指出是哪一种?简述理由。"
         }
       ]
     },
@@ -99,7 +102,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "实验中，H转变为I的反应只得到题给的⼀种⽴体异构体，简述理由。"
+          "text": "实验中,H 转变为 I 的反应只得到题给的一种立体异构体,简述理由。"
         }
       ]
     },
@@ -109,15 +112,16 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "花烯G分⼦的碗-碗翻转能垒低："
+          "text": "花烯 G 分子的碗-碗翻转能垒低:"
+        },
+        {
+          "type": "figure",
+          "caption": "花烯 G 碗-碗翻转示意图(原图缺失)",
+          "alt": "花烯 G 的碗-碗翻转能垒示意图"
         },
         {
           "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "但I却难以翻转，简述理由。"
+          "text": "但 I 却难以翻转,简述理由。"
         }
       ]
     },
@@ -127,7 +131,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "最近⽂献报道了I的10,15,20-三甲基取代衍⽣物。请画出该衍⽣物的结构，并指出有⽆⼿性？简述理由。"
+          "text": "最近文献报道了 I 的 10,15,20-三甲基取代衍生物。请画出该衍生物的结构,并指出有无心性?简述理由。"
         }
       ]
     }

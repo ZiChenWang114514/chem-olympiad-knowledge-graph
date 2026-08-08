@@ -12,19 +12,13 @@
     "sourceLabel": "2011-25-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2011-25-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2011-25-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000373-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "2011年是国际化学年，是居⾥夫⼈获得诺⻉尔化学奖100周年。居⾥夫⼈发现的两种化学元素的元素符号和中⽂名称分别是 和"
+          "text": "2011年是国际化学年,是居里夫人获得诺贝尔化学奖100周年。居里夫人发现的两种化学元素的元素符号和中文名称分别是 和"
         }
       ]
     },
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "向 $\\mathrm { T i O S O _ { 4 } }$ ⽔溶液中加⼊锌粒，反应后溶液变为紫⾊。在清夜中滴加适量的 $\\mathrm { C u C l _ { 2 } }$ ⽔溶液，产⽣⽩⾊沉淀。⽣成⽩⾊沉淀的离⼦⽅程式是 ；继续滴加 $\\mathrm { C u C l _ { 2 } }$ ⽔溶液，⽩⾊沉淀消失，其离⼦⽅程式是"
+          "text": "向 $\\mathrm{TiOSO_4}$ 水溶液中加入锌粒,反应后溶液变为紫色。在清液中滴加适量的 $\\mathrm{CuCl_2}$ 水溶液,产生白色沉淀。生成白色沉淀的离子方程式是 ;继续滴加 $\\mathrm{CuCl_2}$ 水溶液,白色沉淀消失,其离子方程式是"
         }
       ]
     },
@@ -52,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "20世纪60年代维也纳⼤学V.Gutmann研究⼩组报道，三原⼦分⼦A可由 $\\mathrm { S F _ { 4 } }$ 和 $\\mathrm { N H _ { 3 } }$ 反应合成；A被$\\mathrm { A g F } _ { 2 }$ 氧化得到沸点为为 $2 7 ~ ^ { \\circ } \\mathrm { C }$ 的三元化合物 $\\mathbf { B } _ { \\circ }$ 。A和B分⼦中的中⼼原⼦与同种端位原⼦的核间距⼏乎相等；B分⼦有⼀根三种轴和3个镜⾯。画出A和B的结构式（明确⽰出单键和重键，不在纸⾯上的键⽤楔形键表${ \\overline { { \\overline { { \\prime } } } \\vec { \\jmath } } } ,$ ⾮键合电⼦不必标出）。"
+          "text": "20世纪60年代维也纳大学V.Gutmann研究小组报道,三原子分子A可由 $\\mathrm{SF_4}$ 和 $\\mathrm{NH_3}$ 反应合成;A被 $\\mathrm{AgF_2}$ 氧化得到沸点为 $27~^{\\circ}\\mathrm{C}$ 的三元化合物B。A和B分子中的中心原子与同种端位原子的核间距几乎相等;B分子有一根三轴和3个镜面。画出A和B的结构式(明确示出单键和重键,不在纸面上的键用楔形键表示,非键合电子不必标出)。"
         }
       ]
     },
@@ -62,7 +56,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出 $\\mathrm { A l _ { 2 } ( n \\mathrm { - C _ { 4 } H _ { 9 } ) _ { 4 } H _ { 2 } } }$ 和 $\\mathrm { M g [ A l ( C H _ { 3 } ) _ { 4 } ] } ;$ _{2}的结构简式。"
+          "text": "画出 $\\mathrm{Al_2(n-C_4H_9)_4H_2}$ 和 $\\mathrm{Mg[Al(CH_3)_4]_2}$ 的结构简式。"
         }
       ]
     },
@@ -72,37 +66,37 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "已知 $1 E ^ { \\Theta } ( \\mathrm { F e O _ { 4 } } ^ { 2 - } / \\mathrm { F e } ^ { 3 + } ) = 2 . 2 0 \\mathrm { V } , E ^ { \\Theta } ( \\mathrm { F e O _ { 4 } } ^ { 2 - } / \\mathrm { F e } ( \\mathrm { O H } ) _ { 3 } ) = 0 . 7 2 \\mathrm { V } _ { \\circ }$"
+          "text": "已知 $E^{\\Theta}(\\mathrm{FeO_4^{2-}/Fe^{3+}})=2.20\\,\\mathrm{V}$,$E^{\\Theta}(\\mathrm{FeO_4^{2-}/Fe(OH)_3})=0.72\\,\\mathrm{V}$。"
         }
       ]
     },
     {
       "id": "part-000373-06",
-      "label": "1-5",
+      "label": "1-5-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 写出氯⽓和三氯化铁反应形成⾼铁酸根的离⼦⽅程 $\\updownarrow \\updownarrow _ { \\updownarrow }$"
+          "text": "写出氯气和三氯化铁反应形成高铁酸根的离子方程式。"
         }
       ]
     },
     {
       "id": "part-000373-07",
-      "label": "1-5",
+      "label": "1-5-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 写出⾼铁酸钾在酸性⽔溶液中分解的离⼦⽅程式。"
+          "text": "写出高铁酸钾在酸性水溶液中分解的离子方程式。"
         }
       ]
     },
     {
       "id": "part-000373-08",
-      "label": "1-5",
+      "label": "1-5-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-3 ⽤⾼铁酸钾与镁等组成碱性电池，写出该电池的电极反应。"
+          "text": "用高铁酸钾与镁等组成碱性电池,写出该电池的电极反应。"
         }
       ]
     }

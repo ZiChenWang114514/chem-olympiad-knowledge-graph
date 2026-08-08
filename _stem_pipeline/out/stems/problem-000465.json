@@ -12,16 +12,16 @@
     "sourceLabel": "2015-29-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2015-29-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2015-29-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理公式与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "反应体系为⽓体、催化剂为固体的异相催化反应很普遍。设⽓体在均匀的固体催化剂表⾯发⽣单层吸附，各吸附活性中⼼能量相同，忽略吸附粒⼦间相互作⽤，吸附平衡常数不随压⼒变化。"
+      "text": "反应体系为气体、催化剂为固体的异相催化反应很普遍。设气体在均匀的固体催化剂表面发生单层吸附,各吸附活性中心能量相同,忽略吸附粒子间相互作用,吸附平衡常数不随压力变化。"
     }
   ],
   "parts": [
@@ -31,7 +31,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "理想⽓体 X 在 180 K 和 $3 . 5 0 \\times 1 0 ^ { 5 } \\mathrm { P a }$ 条件下， $1 \\mathrm { g }$ 固体的吸附量为 $1 . 2 4 2 \\mathrm { c m } ^ { 3 } 、$ 。在240K达到相同的吸附量时，需要将压⼒增加到1.02 MPa。估算X在该固体表⾯的摩尔吸附焓变（假设此温度范围内摩尔吸附焓变为定值）。"
+          "text": "理想气体 X 在 180 K 和 $3.50 \\times 10^{5} \\mathrm{Pa}$ 条件下,$1 \\mathrm{g}$ 固体的吸附量为 $1.242 \\mathrm{cm}^{3}$。在 240 K 达到相同的吸附量时,需要将压力增加到 1.02 MPa。估算 X 在该固体表面的摩尔吸附焓变(假设此温度范围内摩尔吸附焓变为定值)。"
         }
       ]
     },
@@ -41,7 +41,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "已知反应 $\\mathbf { A } ( \\mathrm { g } ) \\xrightarrow { k _ { 2 } } \\mathbf { B } ( \\mathrm { g } )$ 的反应机理为： ${ \\bf A } ( \\mathrm { g } ) + * \\propto \\stackrel { k _ { a } } {  } { \\bf A } ^ { * } \\xrightarrow { k _ { 1 } } { \\bf B } ( \\mathrm { g } ) + *$ ，其中∗表⽰固体催化剂表⾯的活性中 $\\therefore E _ { \\circ }$ 。每个活性中⼼只能吸附⼀个⽓态分⼦ $\\mathbf { A } ( \\mathrm { g } )$ ，形成吸附态分⼦ $\\mathbf { A } _ { \\mathrm { ~ o ~ } } ^ { \\ast } \\mathbf { A } _ { \\mathrm { ~ } } ^ { \\ast }$ 可直接转化⽣成⽓相产物B，该表⾯反应为决速步骤。吸附态 $\\mathbf { A } ^ { \\star }$ 的浓度⽤表⾯覆盖度 $( \\mathbf { A } ^ { \\star }$ 分⼦所占据的活性中⼼个数与表⾯活性中⼼总个数之⽐）表⽰。在298K测量 $\\mathbf { A } ( \\mathrm { g } ) \\xrightarrow { k _ { 2 } } \\mathbf { B } ( \\mathrm { g } )$ 反应速率常数 $k _ { 2 }$ ，⾼压下为 $5 \\mathrm { k P a } \\mathrm { s } ^ { - 1 }$ ，低压下为 $0 . 1 { \\mathrm { ~ } } { \\mathrm { s } } ^ { - 1 } { \\mathrm { ~ } } _ { \\circ }$ 试计算⽓体A分压为50kPa时，由A⽣成B的反应速率。"
+          "text": "已知反应 $\\mathrm{A(g)} \\xrightarrow{k_{2}} \\mathrm{B(g)}$ 的反应机理为:$\\mathrm{A(g)} + * \\underset{k_{d}}{\\overset{k_{a}}{\\rightleftarrows}} \\mathrm{A}^{*} \\xrightarrow{k_{1}} \\mathrm{B(g)} + *$,其中 * 表示固体催化剂表面的活性中心。每个活性中心只能吸附一个气态分子 $\\mathrm{A(g)}$,形成吸附态分子 $\\mathrm{A}^{*}$。$\\mathrm{A}^{*}$ 可直接转化生成气相产物 B,该表面反应为决速步骤。吸附态 $\\mathrm{A}^{*}$ 的浓度用表面覆盖度($\\mathrm{A}^{*}$ 分子所占据的活性中心个数与表面活性中心总个数之比)表示。在 298 K 测量 $\\mathrm{A(g)} \\xrightarrow{k_{2}} \\mathrm{B(g)}$ 反应速率常数 $k_{2}$,高压下为 $5 \\mathrm{kPa} \\mathrm{s}^{-1}$,低压下为 $0.1 \\mathrm{s}^{-1}$。试计算气体 A 分压为 50 kPa 时,由 A 生成 B 的反应速率。"
         }
       ]
     },
@@ -51,15 +51,15 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "假如产物B也发⽣表⾯吸附，反应机理变为："
+          "text": "假如产物 B 也发生表面吸附,反应机理变为:"
         },
         {
           "type": "paragraph",
-          "text": "$$\n\\mathbf {A} (\\mathrm{g}) + * \\underset {k _ {d}} {\\overset {k _ {a}} {\\rightleftarrows}} \\mathbf {A} ^ {*} \\xrightarrow {k _ {1}} \\mathbf {B} (\\mathrm{g}) \\underset {k _ {a 1}} {\\overset {k _ {d 1}} {\\rightleftarrows}} \\mathbf {B} (\\mathrm{g}) + *\n$$"
+          "text": "$$\\mathrm{A(g)} + * \\underset{k_{d}}{\\overset{k_{a}}{\\rightleftarrows}} \\mathrm{A}^{*} \\xrightarrow{k_{1}} \\mathrm{B(g)} \\underset{k_{a1}}{\\overset{k_{d1}}{\\rightleftarrows}} \\mathrm{B(g)} + *$$"
         },
         {
           "type": "paragraph",
-          "text": "其中由 $\\mathbf { A } ^ { \\star }$ ⽣成 $\\mathbf { B } ^ { \\star }$ 的表⾯反应为决速步骤。假设 $k _ { a }$ ， $k _ { d }$ ， $k _ { 1 }$ 都和问题 6-2 中的相同。当产物 B 的分压 $p _ { \\mathtt { B } }$ 远⼤于 $p _ { \\mathrm { A } }$ 时， $\\mathbf { A } ( \\mathrm { g } ) \\xrightarrow { k _ { 3 } } \\mathbf { B } ( \\mathrm { g } )$ 的反应对于A来说是⼀级反应，且速率常数 $k _ { 3 }$ 可表达为 $p _ { \\mathtt { B } }$ 的函数： $\\begin{array} { r } { k _ { 3 } = \\frac { 1 0 } { p _ { \\mathrm { B } } } } \\end{array}$ kPa$\\mathbf { S } _ { \\mathrm { ~ \\scriptsize ~ o ~ } } ^ { - 1 }$ 求B(g)在催化剂上的吸附平衡常数 $K _ { \\mathrm { B } } = k _ { a 1 } / k _ { d 1 ^ { \\circ } }$"
+          "text": "其中由 $\\mathrm{A}^{*}$ 生成 $\\mathrm{B}^{*}$ 的表面反应为决速步骤。假设 $k_{a}$、$k_{d}$、$k_{1}$ 都和问题 6-2 中的相同。当产物 B 的分压 $p_{\\mathrm{B}}$ 远大于 $p_{\\mathrm{A}}$ 时,$\\mathrm{A(g)} \\xrightarrow{k_{3}} \\mathrm{B(g)}$ 的反应对于 A 来说是一级反应,且速率常数 $k_{3}$ 可表达为 $p_{\\mathrm{B}}$ 的函数:$k_{3} = \\frac{10}{p_{\\mathrm{B}}} \\ \\mathrm{kPa} \\ \\mathrm{s}^{-1}$。求 B(g) 在催化剂上的吸附平衡常数 $K_{\\mathrm{B}} = k_{a1}/k_{d1}$。"
         }
       ]
     }

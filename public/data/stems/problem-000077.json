@@ -12,20 +12,21 @@
     "sourceLabel": "2019-33-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2019-33-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2019-33-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、合并段落、更新渲染提示。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "图1-1⽰出了⼀种结构有趣的“糖葫芦”分⼦。其中A、B、C和D四种元素位于同⼀族的相邻周期，B的电负性⼤于 $\\smash { \\mathbf { D } _ { \\circ } \\textbf { C } }$ 可分别与A、B、D形成⼆元化合物，C和E可形成易挥发的化合物 $\\mathrm { { C E } _ { 3 } , \\ C E _ { 3 } }$ 在⼯业上可⽤于漂⽩和杀菌。A和E可形成化合物 $\\mathbf { A E } _ { 3 } \\left( \\mathrm { b p , 7 6 ^ { \\circ } C } \\right)$ $\\mathbf { A E } _ { 3 }$ 的完全⽔解产物之⼀X是塑料件镀⾦属的常⽤还原剂。A、C和E可形成含有六元坏的化合物 $\\mathbf { A } _ { 3 } \\mathbf { C } _ { 3 } \\mathbf { E } _ { 6 \\circ }$ 在氯仿中，D和E可结合两个甲基形成化合物 $\\mathrm { { \\bf D E } _ { 3 } M e _ { 2 } }$"
+      "text": "图1-1示出了一种结构有趣的“糖葫芦”分子。其中A、B、C和D四种元素位于同一族的相邻周期,B的电负性大于D。C可分别与A、B、D形成二元化合物,C和E可形成易挥发的化合物 $\\mathrm{CE_3}$,$\\mathrm{CE_3}$ 在工业上可用于漂白和杀菌。A和E可形成化合物 $\\mathrm{AE_3}$(bp 76°C)。$\\mathrm{AE_3}$ 的完全水解产物之一X是塑料件镀金属的常用还原剂。A、C和E可形成含有六元环的化合物 $\\mathrm{A_3C_3E_6}$。在氯仿中,D和E可结合两个甲基形成化合物 $\\mathrm{DE_3Me_2}$。"
     },
     {
-      "type": "paragraph",
-      "text": "（图：）\n图 1-1"
+      "type": "figure",
+      "caption": "图 1-1",
+      "alt": "图1-1 结构有趣的“糖葫芦”分子示意图(原图缺失)"
     }
   ],
   "parts": [
@@ -45,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出“糖葫芦”分⼦中A和C的杂化轨道。"
+          "text": "写出“糖葫芦”分子中A和C的杂化轨道。"
         }
       ]
     },
@@ -55,7 +56,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出处于最⾼氧化态的A与元素E形成的分⼦结构图，写出该分⼦的对称元素（具体类型）。"
+          "text": "画出处于最高氧化态的A与元素E形成的分子结构图,写出该分子的对称元素(具体类型)。"
         }
       ]
     },
@@ -65,7 +66,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出 $\\mathrm { { \\bf D E } _ { 3 } M e _ { 2 } }$ 的所有可能的⽴体异构体。"
+          "text": "画出 $\\mathrm{DE_3Me_2}$ 的所有可能的立体异构体。"
         }
       ]
     },
@@ -75,7 +76,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "指出X属于⼏元酸，写出弱酸介质中硫酸镍被其还原的反应⽅程式。"
+          "text": "指出X属于几元酸,写出弱酸介质中硫酸镍被其还原的反应方程式。"
         }
       ]
     }

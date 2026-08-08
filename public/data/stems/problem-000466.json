@@ -12,24 +12,25 @@
     "sourceLabel": "2015-29-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2015-29-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2015-29-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、规范小问结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "海洋⽣物体内蕴含着丰富的⽣物活性物质，误⻝某些海鲜⻝品会导致严重的⻝物中毒。细胞毒素chlorosulpholipid是从某海洋⽣物体中分离得到的⼀种天然产物，其全合成研究表明，该分⼦内含有的多氯代结构对其⽣物活性具有重要意义。在该分⼦合成路线中，氯原⼦的引⼊涉及如下所⽰的环氧开环反应 $\\mathrm { ( T B S = } ~ t - \\mathrm { ) }$ $\\mathrm { B u ( C H _ { 3 } ) _ { 2 } S i ) }$ ："
+      "text": "海洋生物体内蕴含着丰富的生物活性物质,误食某些海鲜食品会导致严重的食物中毒。细胞毒素 chlorosulpholipid 是从某海洋生物体中分离得到的一种天然产物,其全合成研究表明,该分子内含有的多氯代结构对其生物活性具有重要意义。在该分子合成路线中,氯原子的引入涉及如下所示的环氧开环反应 $\\mathrm{TBS} = t\\text{-}\\mathrm{Bu}(\\mathrm{CH}_3)_2\\mathrm{Si}$ :"
+    },
+    {
+      "type": "figure",
+      "caption": "环氧开环反应示意图",
+      "alt": "环氧开环反应示意图(缺图)"
     },
     {
       "type": "paragraph",
-      "text": "（图：）"
-    },
-    {
-      "type": "paragraph",
-      "text": "以⼆氯甲烷与⼄酸⼄酯为溶剂，得到3种开环产物 $\\mathrm { \\bf P } _ { 1 } , \\mathrm { \\bf P } _ { 2 }$ 和 ${ \\bf P } _ { 3 }$ 。"
+      "text": "以二氯甲烷与乙酸乙酯为溶剂,得到3种开环产物 $\\mathrm{P}_1$、$\\mathrm{P}_2$ 和 $\\mathrm{P}_3$。"
     }
   ],
   "parts": [
@@ -39,7 +40,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "给出中间体M的结构简式。"
+          "text": "给出中间体 M 的结构简式。"
         }
       ]
     },
@@ -49,7 +50,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "给出 $\\mathbf { P } _ { 1 } , \\ \\mathbf { P } _ { 2 }$ 和 ${ \\bf P } _ { 3 }$ 的结构简式，以及由M得到相应产物的⽣成机理。"
+          "text": "给出 $\\mathrm{P}_1$、$\\mathrm{P}_2$ 和 $\\mathrm{P}_3$ 的结构简式,以及由 M 得到相应产物的生成机理。"
         }
       ]
     }

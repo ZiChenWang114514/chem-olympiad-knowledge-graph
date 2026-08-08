@@ -12,19 +12,13 @@
     "sourceLabel": "2014-28-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2014-28-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2014-28-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、删除无信息 callout。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000430-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出 $\\mathrm { N } _ { 8 }$ 分⼦的Lewis结构并标出形式电荷。写出端位之外的N原⼦的杂化轨道类型。"
+          "text": "画出 $\\mathrm{N_8}$ 分子的 Lewis 结构并标出形式电荷。写出端位之外的 N 原子的杂化轨道类型。"
         }
       ]
     },
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出 $\\mathrm { N } _ { 8 }$ 分⼦的构型异构体。"
+          "text": "画出 $\\mathrm{N_8}$ 分子的构型异构体。"
         }
       ]
     }

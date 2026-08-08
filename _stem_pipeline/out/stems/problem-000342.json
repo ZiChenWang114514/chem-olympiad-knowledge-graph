@@ -12,19 +12,13 @@
     "sourceLabel": "2009-23-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2009-23-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2009-23-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000342-01",
@@ -32,15 +26,16 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "⽂献中常⽤下图表达⽅解⽯的晶体结构："
+          "text": "文献中常用下图表达方解石的晶体结构:"
+        },
+        {
+          "type": "figure",
+          "caption": "方解石晶体结构示意图",
+          "alt": "方解石晶体结构图(缺图)"
         },
         {
           "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "图中的平⾏六⾯体是不是⽅解⽯的⼀个晶胞？简述理由。"
+          "text": "图中的平行六面体是不是方解石的一个晶胞?简述理由。"
         }
       ]
     },
@@ -50,15 +45,16 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "⽂献中常⽤下图表达六⽅晶体氟磷灰⽯的晶体结构："
+          "text": "文献中常用下图表达六方晶体氟磷灰石的晶体结构:"
+        },
+        {
+          "type": "figure",
+          "caption": "氟磷灰石晶体结构示意图",
+          "alt": "氟磷灰石晶体结构图(缺图)"
         },
         {
           "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "该图是�轴投影图，位于图中⼼的球是氟，⼤球是钙，四⾯体是磷酸根（氧原⼦未画出）。试以此图为基础⽤粗线画出氟磷灰⽯晶胞的�轴投影图，设晶胞顶⻆为氟原⼦，其他原⼦可不补全。"
+          "text": "该图是 $c$ 轴投影图,位于图中手的球是氟,大球是钙,四面体是磷酸根(氧原子未画出)。试以此图为基础用粗线画出氟磷灰石晶胞的 $c$ 轴投影图,设晶胞顶角为氟原子,其他原子可不补全。"
         }
       ]
     },
@@ -68,37 +64,37 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "某晶体的晶胞参数为： $a = 2 5 0 . 4 \\mathrm { p m }$ 1， $c = 6 6 6 . 1 \\mathrm { p m }$ $\\gamma = 1 2 0 ^ { \\circ }$ ；原⼦A的原⼦坐标为 $( 0 , 0 , 1 / 2 )$ 和(1/3, 2/3, 0)，原⼦ B 的原⼦坐标为(1/3, 2/3, 1/2)和(0, 0, 0)。"
+          "text": "某晶体的晶胞参数为: $a = 250.4\\ \\mathrm{pm}$, $c = 666.1\\ \\mathrm{pm}$, $\\gamma = 120^\\circ$;原子A的原子坐标为 $(0,0,1/2)$ 和 $(1/3,2/3,0)$,原子B的原子坐标为 $(1/3,2/3,1/2)$ 和 $(0,0,0)$。"
         }
       ]
     },
     {
       "id": "part-000342-04",
-      "label": "6-3",
+      "label": "6-3-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 试画出该晶体的晶胞透视图（设晶胞底⾯即��⾯垂直于纸⾯，A原⼦⽤ $^ { 6 6 } \\bigcirc ^ { 5 }$ 表⽰，B原⼦⽤ $\" \\bullet \\bullet \\bullet \\bullet$ 表⽰）。"
+          "text": "试画出该晶体的晶胞透视图(设晶胞底面即 $ab$ 面垂直于纸面,A原子用 $\\bigcirc$ 表示,B原子用 $\\bullet$ 表示)。"
         }
       ]
     },
     {
       "id": "part-000342-05",
-      "label": "6-3",
+      "label": "6-3-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 计算上述晶体中A和B两原⼦间的最⼩核间距 $d ( \\mathbf { A B } )$ o"
+          "text": "计算上述晶体中A和B两原子间的最小核间距 $d(\\mathrm{AB})$。"
         }
       ]
     },
     {
       "id": "part-000342-06",
-      "label": "6-3",
+      "label": "6-3-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-3 共价晶体的导热是共价键的振动传递的。实验证实，该晶体垂直于�轴的导热性⽐平⾏于�轴的导热性⾼20倍。⽤上述计算结果说明该晶体的结构与导热性的关系。"
+          "text": "共价晶体的导热是共价键的振动传递的。实验证实,该晶体垂直于 $c$ 轴的导热性比平行于 $c$ 轴的导热性高20倍。用上述计算结果说明该晶体的结构与导热性的关系。"
         }
       ]
     }

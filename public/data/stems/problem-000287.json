@@ -12,16 +12,17 @@
     "sourceLabel": "2006-20-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2006-20-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2006-20-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "四种氮化铂立方晶体结构示意图",
+      "alt": "四种氮化铂立方晶体结构示意图(原图缺失)"
     }
   ],
   "parts": [
@@ -31,7 +32,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "氮化铂的上述四种⽴⽅晶体在结构上有什么共同点？"
+          "text": "氮化铂的上述四种立方晶体在结构上有什么共同点?"
         }
       ]
     },
@@ -51,7 +52,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "试在图上挑选⼀个氮原⼦，不添加原⼦，⽤粗线画出所选氮原⼦的配位多⾯体。"
+          "text": "试在图上挑选一个氮原子,不添加原子,用粗线画出所选氮原子的配位多面体。"
         }
       ]
     },
@@ -61,7 +62,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "请在本题的附图上添加六个氮原⼦（添加的氮请尽可能靠前）。"
+          "text": "请在本题的附图上添加六个氮原子(添加的氮请尽可能靠前)。"
         }
       ]
     }

@@ -12,20 +12,21 @@
     "sourceLabel": "2021-35-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2021-35-CChO-chusai-jiangsu/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2021-35-CChO-chusai-jiangsu/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理公式与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "⾦属氮化物材料具有⾼硬度、⾼熔点、⾼热稳定性特点。最近，科学家研究的某三元氮化物表现出特殊导电性质。该晶体结构如图4所⽰。每⼀层氮原⼦都是密置层，且层间距相等。铁原⼦和钨原⼦相间填充在两层氮原⼦之间，钨原⼦填充在氮原⼦形成的三棱柱配位体中⼼，铁原⼦填充在氮原⼦形成的⼋⾯配位体中⼼。"
+      "text": "金属氮化物材料具有高硬度、高熔点、高热稳定性特点。最近,科学家研究的某三元氮化物表现出特殊导电性质。该晶体结构如图4所示。每一层氮原子都是密置层,且层间距相等。铁原子和钨原子相间填充在两层氮原子之间,钨原子填充在氮原子形成的三棱柱配位体中,铁原子填充在氮原子形成的八面体配位体中。"
     },
     {
-      "type": "paragraph",
-      "text": "（图：）\n图4 三元氮化物结构"
+      "type": "figure",
+      "caption": "图4 三元氮化物结构",
+      "alt": "三元氮化物晶体结构示意图(缺图)"
     }
   ],
   "parts": [
@@ -35,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "请根据晶体结构画出⼀个晶胞（N放在顶点位置，以●表⽰N原⼦，以◯表⽰Fe原⼦，以ⓧ表⽰W原⼦），并写出晶胞中⾦属原⼦的分数坐标。"
+          "text": "请根据晶体结构画出一个晶胞(N放在顶点位置,以●表示N原子,以◯表示Fe原子,以×表示W原子),并写出晶胞中金属原子的分数坐标。"
         }
       ]
     },
@@ -45,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "分别⽤ $\\mathrm { A / B / C }$ 表⽰氮原⼦，a/b/c表⽰铁原⼦， $\\mathrm { a ^ { \\prime } / b ^ { \\prime } / c ^ { \\prime } }$ 表⽰钨原⼦的堆积位置，请表⽰出沿�轴⽅向原⼦的堆积⽅式（如 $\\mathrm { { A c B a ^ { \\prime } C b A } ) }$ o"
+          "text": "分别用 $\\mathrm{A/B/C}$ 表示氮原子,a/b/c表示铁原子,$\\mathrm{a'/b'/c'}$ 表示钨原子的堆积位置,请表示出沿c轴方向原子的堆积方式(如 $\\mathrm{AcBa'CbA}$)。"
         }
       ]
     },
@@ -55,27 +56,27 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "已知晶胞参数 $a \\ = 0 . 2 8 7 6 \\ \\mathrm { n m } , \\ c \\ = 1 . 0 9 3 \\ \\mathrm { n m } \\circ$"
+          "text": "已知晶胞参数 $a=0.2876\\ \\mathrm{nm}$,$c=1.093\\ \\mathrm{nm}$。"
         }
       ]
     },
     {
       "id": "part-000116-04",
-      "label": "5-3",
+      "label": "5-3-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 计算该晶体的密度�。"
+          "text": "计算该晶体的密度。"
         }
       ]
     },
     {
       "id": "part-000116-05",
-      "label": "5-3",
+      "label": "5-3-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 计算该晶体中W原⼦与N原⼦的最短核间距�。"
+          "text": "计算该晶体中W原子与N原子的最短核间距。"
         }
       ]
     },
@@ -85,7 +86,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "该晶体中⾦属原⼦与氮原⼦之间的作⽤⼒有明显的共价成分，表现出各向异性的⾦属导电性，请指出晶体的导电⽅向，并简要说明理由。"
+          "text": "该晶体中金属原子与氮原子之间的作用力有明显的共价成分,表现出各向异性的金属导电性,请指出晶体的导电方向,并简要说明理由。"
         }
       ]
     }

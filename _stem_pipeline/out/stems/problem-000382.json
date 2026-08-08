@@ -12,24 +12,26 @@
     "sourceLabel": "2011-25-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2011-25-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2011-25-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "反应示意图",
+      "alt": "威斯迈尔试剂与富电子芳环反应示意图"
     },
     {
       "type": "paragraph",
-      "text": "接着威斯迈尔试剂与富电⼦芳环反应，经⽔解后在芳环上引⼊甲酰基。例如："
+      "text": "接着威斯迈尔试剂与富电子芳环反应,经水解后在芳环上引入甲酰基。例如:"
     },
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "反应示例图",
+      "alt": "威斯迈尔反应示例"
     }
   ],
   "parts": [
@@ -39,7 +41,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "⽤共振式表⽰威斯迈尔试剂正离⼦。"
+          "text": "用共振式表示威斯迈尔试剂正离子。"
         }
       ]
     },
@@ -49,19 +51,20 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "由甲氧基苯转化为对甲氧基苯甲醛的过程中，需经历以下步骤："
+          "text": "由甲氧基苯转化为对甲氧基苯甲醛的过程中,需经历以下步骤:"
         },
         {
           "type": "paragraph",
-          "text": "⑴ 芳⾹亲电取代 ⑵ 分⼦内亲核取代 ⑶ 亲核加成 ⑷ 质⼦转移 ⑸ 消除"
+          "text": "(1) 芳香亲电取代 (2) 分子内亲核取代 (3) 亲核加成 (4) 质子转移 (5) 消除"
         },
         {
           "type": "paragraph",
           "text": "画出所有中间体的结构简式。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "中间体结构图",
+          "alt": "反应中间体结构简式"
         }
       ]
     },
@@ -71,11 +74,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "完成下列反应："
+          "text": "完成下列反应:"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应方程式",
+          "alt": "待完成的反应方程式"
         }
       ]
     }

@@ -12,19 +12,13 @@
     "sourceLabel": "2008-22-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2008-22-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2008-22-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、合并小问、删除无信息 callout。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000318-01",
@@ -32,77 +26,69 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "EDTA是⼄⼆胺四⼄酸的英⽂名称的缩写，市售试剂是其⼆⽔合⼆钠盐。"
+          "text": "EDTA是乙二胺四乙酸的英文名称的缩写,市售试剂是其二水合二钠盐。"
+        },
+        {
+          "type": "paragraph",
+          "text": "1-1-1 画出EDTA二钠盐水溶液中浓度最高的阴离子的结构简式。"
+        },
+        {
+          "type": "paragraph",
+          "text": "1-1-2 Ca(EDTA)$^{2-}$溶液可用于静脉点滴以排除体内的铅。写出这个排铅反应的化学方程式(用Pb$^{2+}$表示铅)。"
+        },
+        {
+          "type": "paragraph",
+          "text": "1-1-3 能否用EDTA二钠盐溶液代替Ca(EDTA)$^{2-}$溶液排铅?为什么?"
         }
       ]
     },
     {
       "id": "part-000318-02",
-      "label": "1-1",
+      "label": "1-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 画出EDTA⼆钠盐⽔溶液中浓度最⾼的阴离⼦的结构简式。"
+          "text": "氨和三氧化硫反应得到一种晶体,熔点$205~^{\\circ}\\mathrm{C}$,不含结晶水。晶体中的分子有一个三重旋转轴,有极性。画出这种分子的结构式,标出正负极。"
         }
       ]
     },
     {
       "id": "part-000318-03",
-      "label": "1-1",
+      "label": "1-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 Ca $( \\mathrm { E D T A } ) ^ { 2 - }$ −溶液可⽤于静脉点滴以排除体内的铅。写出这个排铅反应的化学⽅程式（⽤Pb2+ 表⽰铅）。1-1-3 能否⽤EDTA⼆钠盐溶液代替 $\\mathrm { C a ( E D T A ) ^ { 2 } }$ −溶液排铅？为什么？"
+          "text": "$\\mathrm{Na_2[Fe(CN)_5(NO)]}$的磁矩为零,给出铁原子的氧化态。$\\mathrm{Na_2[Fe(CN)_5(NO)]}$是鉴定$S^{2-}$的试剂,二者反应得到紫色溶液,写出鉴定反应的离子方程式。"
         }
       ]
     },
     {
       "id": "part-000318-04",
-      "label": "1-2",
+      "label": "1-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "氨和三氧化硫反应得到⼀种晶体，熔点 $2 0 5 ~ ^ { \\circ } \\mathrm { C }$ ，不含结晶⽔。晶体中的分⼦有⼀个三重旋转轴，有极性。画出这种分⼦的结构式，标出正负极。"
+          "text": "$\\mathrm{CaSO_4 \\cdot 2H_2O}$微溶于水,但在$\\mathrm{HNO_3}$(1 M)、$\\mathrm{HClO_4}$(1 M)中可溶。写出能够解释$\\mathrm{CaSO_4}$在酸中溶解的反应方程式。"
         }
       ]
     },
     {
       "id": "part-000318-05",
-      "label": "1-3",
+      "label": "1-5",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$\\mathrm { N a _ { 2 } [ F e ( C N ) _ { 5 } ( N O ) }$ ]的磁矩为零，给出铁原⼦的氧化态。 $\\mathrm { N a _ { 2 } [ F e ( C N ) _ { 5 } ( N O ) } \\mathrm { \\dot { \\Omega } ] }$ ]是鉴定 $S ^ { 2 - }$ 的试剂，⼆者反应得到紫⾊溶液，写出鉴定反应的离⼦⽅程式。"
+          "text": "取质量相等的2份$\\mathrm{PbSO_4}$(难溶物)粉末,分别加入$\\mathrm{HNO_3}$(3 M)和$\\mathrm{HClO_4}$(3 M),充分混合,$\\mathrm{PbSO_4}$在$\\mathrm{HNO_3}$能全溶,而在$\\mathrm{HClO_4}$中不能全溶。简要解释$\\mathrm{PbSO_4}$在$\\mathrm{HNO_3}$中溶解的原因。"
         }
       ]
     },
     {
       "id": "part-000318-06",
-      "label": "1-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "$\\mathrm { C a S O _ { 4 } { \\cdot } 2 H _ { 2 } O }$ 微溶于⽔，但在 $\\mathrm { H N O _ { 3 } }$ (1 M)、 $\\mathrm { H C l O _ { 4 } }$ (1 M)中可溶。写出能够解释 $\\mathrm { C a S O _ { 4 } }$ 在酸中溶解的反应⽅程式。"
-        }
-      ]
-    },
-    {
-      "id": "part-000318-07",
-      "label": "1-5",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "取质量相等的2份 $\\mathrm { P b S O _ { 4 } }$ （难溶物）粉末，分别加⼊ $\\mathrm { H N O _ { 3 } }$ (3 M)和 $\\mathrm { H C l O _ { 4 } } \\left( 3 \\mathrm { M } \\right)$ ，充分混合， $\\mathrm { P b S O _ { 4 } }$ 在 $\\mathrm { H N O _ { 3 } }$ 能全溶，⽽在 $\\mathrm { H C l O _ { 4 } }$ 中不能全溶。简要解释PbSO_{4}在H $\\mathrm { N O _ { 3 } }$ 中溶解的原因。"
-        }
-      ]
-    },
-    {
-      "id": "part-000318-08",
       "label": "1-6",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "X和Y在周期表中相邻。 $\\mathrm { C a C O _ { 3 } }$ 与X的单质⾼温反应，⽣成化合物B和⼀种⽓态氧化物；B与Y的单质反应⽣成化合物C和X的单质；B⽔解⽣成D；C⽔解⽣成E，E⽔解⽣成尿素。确定B、C、D、E、X和$\\mathbf { Y } _ { \\circ }$"
+          "text": "X和Y在周期表中相邻。$\\mathrm{CaCO_3}$与X的单质高温反应,生成化合物B和一种气态氧化物;B与Y的单质反应生成化合物C和X的单质;B水解生成D;C水解生成E,E水解生成尿素。确定B、C、D、E、X和Y。"
         }
       ]
     }

@@ -12,16 +12,17 @@
     "sourceLabel": "2020-34-CChO-juesai-1.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2020-34-CChO-juesai-2/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2020-34-CChO-juesai-2/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "（图：）\nα"
+      "type": "figure",
+      "caption": "赖氨酸分布曲线",
+      "alt": "图:赖氨酸的分布曲线"
     }
   ],
   "parts": [
@@ -31,7 +32,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "根据该曲线，计算赖氨酸的等电点pI以及 $\\mathrm { p H } = 9 . 6 0 $ 时赖氨酸4种分布形式的平衡浓度。"
+          "text": "根据该曲线,计算赖氨酸的等电点 pI 以及 pH = 9.60 时赖氨酸 4 种分布形式的平衡浓度。"
         }
       ]
     },
@@ -41,47 +42,47 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "实验室现有 0.10 mol L−1 $\\mathrm { N a O H }$ 溶液、 $0 . 1 0 \\mathrm { m o l } \\mathrm { L } ^ { - 1 }$ HCl溶液、草酸基准物质 $\\mathrm { ( H _ { 2 } C _ { 2 } O _ { 4 } { \\cdot } 2 H _ { 2 } O }$ , 126.07 gmol−1)、邻苯⼆甲酸氢钾基准物质 $( \\mathrm { K H C _ { 8 } H _ { 4 } O _ { 4 } } , 2 0 4 . 2 2 \\mathrm { g } \\mathrm { m o l ^ { - 1 } } )$ 、三(羟甲基)氨基甲烷基准物质（简称Tris,$\\mathrm { ( H O C H _ { 2 } ) _ { 3 } C N H _ { 2 } }$ $K _ { \\mathrm { b } } _ { \\mathrm { b } } _ { \\mathrm { \\ell } } = 1 . 1 5 { \\times } 1 0 ^ { - 6 }$ $1 2 1 . 1 4 \\mathrm { g } \\mathrm { m o l } ^ { - 1 } )$ ）、碳酸钠基准物质 $\\mathrm { ( N a _ { 2 } C O _ { 3 } }$ , 105.99 g mol−1)，以及酚酞、甲基橙和甲基红等三种指⽰剂液。欲⽤酸碱滴定法测定某化学纯赖氨酸试样的含量。"
+          "text": "实验室现有 0.10 mol L−1 NaOH 溶液、0.10 mol L−1 HCl 溶液、草酸基准物质 (H2C2O4·2H2O, 126.07 g mol−1)、邻苯二甲酸氢钾基准物质 (KHC8H4O4, 204.22 g mol−1)、三(羟甲基)氨基甲烷基准物质 (简称 Tris, (HOCH2)3CNH2, Kb = 1.15×10−6, 121.14 g mol−1)、碳酸钠基准物质 (Na2CO3, 105.99 g mol−1),以及酚酞、甲基橙和甲基红等三种指示剂液。欲用酸碱滴定法测定某化学纯赖氨酸试样的含量。"
         }
       ]
     },
     {
       "id": "part-000098-03",
-      "label": "4-2",
+      "label": "4-2-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 指出合适的滴定剂并简要说明理由，写出滴定反应化学⽅程式。"
+          "text": "指出合适的滴定剂并简要说明理由,写出滴定反应化学方程式。"
         }
       ]
     },
     {
       "id": "part-000098-04",
-      "label": "4-2",
+      "label": "4-2-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 计算滴定终点时溶液 $\\mathrm { p H }$ ，根据计算结果选择最佳指⽰剂。"
+          "text": "计算滴定终点时溶液 pH,根据计算结果选择最佳指示剂。"
         }
       ]
     },
     {
       "id": "part-000098-05",
-      "label": "4-2",
+      "label": "4-2-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-3 假设所选滴定剂的消耗量25 mL，通过计算所需基准物质的质量及其称量的相对误差确定最佳基准物质。"
+          "text": "假设所选滴定剂的消耗量 25 mL,通过计算所需基准物质的质量及其称量的相对误差确定最佳基准物质。"
         }
       ]
     },
     {
       "id": "part-000098-06",
-      "label": "4-2",
+      "label": "4-2-4",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-4 假设实验中准确称取� g赖氨酸试样（其摩尔质量⽤符号�表⽰），滴定⾄终点时消耗� mL浓度为� mol L−1的所选滴定剂标准溶液，写出该试样中赖氨酸质量分数(�)的计算式。"
+          "text": "假设实验中准确称取 m g 赖氨酸试样(其摩尔质量用符号 M 表示),滴定至终点时消耗 V mL 浓度为 c mol L−1 的所选滴定剂标准溶液,写出该试样中赖氨酸质量分数 (w) 的计算式。"
         }
       ]
     }

@@ -3,7 +3,7 @@
   "problemId": "problem-000030",
   "rightsState": "stem_public",
   "language": "zh-CN",
-  "title": "二吡喃酮热裂解合成",
+  "title": "2-吡喃酮热裂解合成",
   "number": "9",
   "examYear": 2016,
   "examStage": "final",
@@ -12,32 +12,34 @@
     "sourceLabel": "2016-30-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2016-30-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2016-30-CChO-juesai/full.md)程序化切分并整理为结构化题干;经 DeepSeek 精修(OCR 校正、LaTeX 整理、小问结构规范化)。公式已尽量转为 LaTeX,请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "2-吡喃酮(N)的衍⽣物⼴泛存在于⾃然界，有强⼼、抑菌等作⽤。化合物L真空热裂解，经中间体M转化为N。M是具有⼀定稳定性和强反应活性的⾮环状分⼦。"
+      "text": "2-吡喃酮(N)的衍生物广泛存在于自然界,有强心、抑菌等作用。化合物 L 真空热裂解,经中间体 M 转化为 N。M 是具有一定稳定性和强反应活性的非环状分子。"
+    },
+    {
+      "type": "figure",
+      "caption": "(原题图示缺图)",
+      "alt": "原题图示:L→M→N"
     },
     {
       "type": "paragraph",
-      "text": "（图：）"
+      "text": "利用该反应原理,起始原料 O 通过系列反应,成功合成 2-吡喃酮衍生物 T。O→R 的反应具有很好的立体选择性。"
+    },
+    {
+      "type": "figure",
+      "caption": "(原题图示缺图)",
+      "alt": "原题图示:O→R→S→T"
     },
     {
       "type": "paragraph",
-      "text": "利⽤该反应原理，起始原料O通过系列反应，成功合成2-吡喃酮衍⽣物 $\\mathbf { T } _ { \\circ } \\ \\mathbf { 0 } \\to \\mathbf { R }$ 的反应具有很好的⽴体选择性。"
-    },
-    {
-      "type": "paragraph",
-      "text": "（图：）"
-    },
-    {
-      "type": "paragraph",
-      "text": "$$\n\\underset {\\left(\\mathrm{C} _ {1 7} \\mathrm{H} _ {1 6} \\mathrm{O} _ {2}\\right)} {\\mathbf {R}} \\xrightarrow [ \\mathrm{DCM/MeOH,rt} ]{\\mathrm{H} _ {2} \\mathrm{O} _ {2} , \\mathrm{NaOH}} \\quad \\mathbf {S} \\xrightarrow [ 6 5 0 ^ {\\circ} \\mathrm{C} ]{\\text {FVT}} \\underset {\\left(\\mathrm{C} _ {1 2} \\mathrm{H} _ {1 0} \\mathrm{O} _ {3}\\right)} {\\mathbf {T}} \\quad \\text {备注：DCM = CH_{2} Cl_{2}}\n$$"
+      "text": "$$\n\\underset{(\\mathrm{C}_{17}\\mathrm{H}_{16}\\mathrm{O}_{2})}{\\mathbf{R}} \\xrightarrow[\\mathrm{DCM/MeOH,rt}]{\\mathrm{H}_{2}\\mathrm{O}_{2},\\ \\mathrm{NaOH}} \\mathbf{S} \\xrightarrow[650^{\\circ}\\mathrm{C}]{\\text{FVT}} \\underset{(\\mathrm{C}_{12}\\mathrm{H}_{10}\\mathrm{O}_{3})}{\\mathbf{T}} \\qquad \\text{备注:DCM}=\\mathrm{CH}_{2}\\mathrm{Cl}_{2}\n$$"
     }
   ],
   "parts": [
@@ -47,7 +49,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "请写出M及Q、R、S、T的结构简式（如为⽴体选择性反应产物，需表明⽴体化学结构）。"
+          "text": "请写出 M 及 Q、R、S、T 的结构简式(如为立体选择性反应产物,需表明立体化学结构)。"
         }
       ]
     },
@@ -57,7 +59,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "判断化合物N有⽆芳⾹性，并简述理由。"
+          "text": "判断化合物 N 有无芳香性,并简述理由。"
         }
       ]
     },
@@ -67,7 +69,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "请⽐较化合物N及1,3-环⼰⼆烯作为双烯体发⽣Diels‒Alder反应的相对活性⼤⼩，并简述理由。"
+          "text": "请比较化合物 N 及 1,3-环己二烯作为双烯体发生 Diels-Alder 反应的相对活性大小,并简述理由。"
         }
       ]
     },
@@ -77,7 +79,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "请指出在Q→R反应中，PhOH的作⽤。"
+          "text": "请指出在 Q→R 反应中,PhOH 的作用。"
         }
       ]
     }

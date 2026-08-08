@@ -12,36 +12,17 @@
     "sourceLabel": "2008-22-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2008-22-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2008-22-CChO-chusai/full.md)程序化切分并整理为结构化题干;经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "T_{2}\n（图：）"
-    },
-    {
-      "type": "paragraph",
-      "text": "（图：）"
-    },
-    {
-      "type": "paragraph",
-      "text": "（图：）"
-    },
-    {
-      "type": "paragraph",
-      "text": "（图：）"
-    },
-    {
-      "type": "paragraph",
-      "text": "（图：）"
-    },
-    {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "超四面体 T1、T2、T3 结构示意图",
+      "alt": "图中展示 T1、T2、T3 三种超四面体的结构,原图缺失。"
     }
   ],
   "parts": [
@@ -51,7 +32,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "上图中 $\\mathbf { T } _ { 1 } .$ 、 $\\mathbf { T } _ { 2 }$ 和 $\\mathbf { T } _ { 3 }$ 的化学式分别为 $\\mathbf { A X } _ { 4 }$ $\\mathbf { A } _ { 4 } \\mathbf { X } _ { 1 0 }$ 和 $\\mathbf { A } _ { 1 0 } \\mathbf { X } _ { 2 0 } ,$ ，推出超四⾯体 $\\mathrm { T } _ { 4 }$ 的化学式。"
+          "text": "上图中 $\\mathrm{T_1}$、$\\mathrm{T_2}$ 和 $\\mathrm{T_3}$ 的化学式分别为 $\\mathrm{AX_4}$、$\\mathrm{A_4X_{10}}$ 和 $\\mathrm{A_{10}X_{20}}$,推出超四面体 $\\mathrm{T_4}$ 的化学式。"
         }
       ]
     },
@@ -61,7 +42,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "分别指出超四⾯体 $\\mathrm { { T } _ { 3 } } .$ 、 $\\mathrm { T } _ { 4 }$ 中各有⼏种环境不同的X原⼦，每种X原⼦各连接⼏个A原⼦？在上述两种超四⾯体中每种X原⼦的数⽬各是多少？"
+          "text": "分别指出超四面体 $\\mathrm{T_3}$、$\\mathrm{T_4}$ 中各有几种环境不同的 X 原子,每种 X 原子各连接几个 A 原子?在上述两种超四面体中每种 X 原子的数目各是多少?"
         }
       ]
     },
@@ -71,7 +52,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "若分别以 $\\mathbf { T } _ { 1 \\mathrm { : } }$ $\\mathbf { T } _ { 2 } ,$ $\\mathrm { { T } _ { 3 \\mathrm { { \\cdot } } } }$ $\\mathrm { { T } _ { 4 } }$ 为结构单元共顶点相连（顶点X原⼦只连接两个A原⼦），形成⽆限三维结构，分别写出所得三维⻣架的化学式。"
+          "text": "若分别以 $\\mathrm{T_1}$、$\\mathrm{T_2}$、$\\mathrm{T_3}$、$\\mathrm{T_4}$ 为结构单元共顶点相连(顶点 X 原子只连接两个 A 原子),形成无限三维结构,分别写出所得三维骨架的化学式。"
         }
       ]
     },
@@ -81,7 +62,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "欲使上述 $\\mathbf { T } _ { 3 }$ 超四⾯体连接所得三维⻣架的化学式所带电荷分别为+4、0和−4，A选 $\\mathrm { Z n ^ { 2 + } }$ 、 $\\mathrm { I n ^ { 3 + } }$ 或 $\\mathrm { G e ^ { 4 + } }$ X 取 $S ^ { 2 - }$ ，给出带三种不同电荷的⻣架的化学式（各给出⼀种，结构单元中的离⼦数成简单整数⽐）。"
+          "text": "欲使上述 $\\mathrm{T_3}$ 超四面体连接所得三维骨架的化学式所带电荷分别为 +4、0 和 −4,A 选 $\\mathrm{Zn^{2+}}$、$\\mathrm{In^{3+}}$ 或 $\\mathrm{Ge^{4+}}$,X 取 $\\mathrm{S^{2-}}$,给出带三种不同电荷的骨架的化学式(各给出一种,结构单元中的离子数成简单整数比)。"
         }
       ]
     }

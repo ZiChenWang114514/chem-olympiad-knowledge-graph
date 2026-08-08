@@ -12,20 +12,20 @@
     "sourceLabel": "2017-31-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2017-31-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2017-31-CChO-chusai/full.md)程序化切分并整理为结构化题干;已由 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "$$\n\\mathrm{N} \\stackrel {\\mid} {\\longrightarrow} \\mathrm{O} \\xrightarrow [ \\mathrm{EtOH} , - 1 5 ^ {\\circ} \\mathrm{C} , 2 \\mathrm{h} ]{\\mathrm{EtONa} , (\\mathrm{COOEt}) _ {2}} \\mathrm{A} \\xrightarrow [ \\mathrm{THF} , 2 0 ^ {\\circ} \\mathrm{C} , 2 5 \\mathrm{min} ]{\\mathrm{LiH} , \\mathrm{HCHO}} \\mathrm{B}\n$$"
+      "text": "$\\ce{N ->[EtONa, (COOEt)2][EtOH, -15°C, 2h] A ->[LiH, HCHO][THF, 20°C, 25min] B}$"
     },
     {
       "type": "paragraph",
-      "text": "$$\n\\xrightarrow [ 2 0 ^ {\\circ} \\mathrm{C} , 2 0 \\min ]{\\mathrm{NaHCO} _ {3} , \\mathrm{CH} _ {2} \\mathrm{Cl} _ {2}} \\left[ \\begin{array}{c c c} \\mathbf {C} & \\longrightarrow & \\mathbf {D} \\end{array} \\right] \\longrightarrow \\mathbf {E}\n$$"
+      "text": "$\\ce{->[NaHCO3, CH2Cl2][20°C, 20min] [C -> D] -> E}$"
     },
     {
       "type": "paragraph",

@@ -12,9 +12,9 @@
     "sourceLabel": "2010-24-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2010-24-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2010-24-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、规范小问结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
@@ -22,7 +22,7 @@
     {
       "type": "callout",
       "tone": "info",
-      "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
+      "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
     }
   ],
   "parts": [
@@ -32,7 +32,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "该组测定数据符合⼀元线性回归⽅程 $\\vdots y = b x + a $ ，计算该患者每天排出的磷有多少克。"
+          "text": "该组测定数据符合一元线性回归方程 $y = b x + a$,计算该患者每天排出的磷有多少克。"
         }
       ]
     },
@@ -52,7 +52,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出在酸性介质中磷酸盐与钼酸铵⽣成磷钼⻩的离⼦反应⽅程式。"
+          "text": "写出在酸性介质中磷酸盐与钼酸铵生成磷钼黄的离子反应方程式。"
         }
       ]
     },
@@ -62,7 +62,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出⽤4-氨基-3-羟基-1-萘磺酸将磷钼⻩还原为磷钼蓝的反应式（有机物⽤结构式表⽰）。"
+          "text": "写出用 4-氨基-3-羟基-1-萘磺酸将磷钼黄还原为磷钼蓝的反应式(有机物用结构式表示)。"
         }
       ]
     }

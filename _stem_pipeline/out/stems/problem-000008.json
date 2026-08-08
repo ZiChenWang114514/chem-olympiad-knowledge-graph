@@ -12,16 +12,16 @@
     "sourceLabel": "2024-38-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2024-38-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2024-38-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 与 LaTeX、合并无意义拆分、更新小问标签。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "高锰酸钾和碘是氧化还原滴定分析中常用的试剂，其氧化还原特性与反应条件密切相关。"
+      "text": "高锰酸钾和碘是氧化还原滴定分析中常用的试剂,其氧化还原特性与反应条件密切相关。"
     }
   ],
   "parts": [
@@ -31,27 +31,15 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "为测定某 $\\mathrm{KMnO}_{4}$ 溶液的浓度, 在锥形瓶中加入 KI 固体 $2.0 \\mathrm{~g}$ 和 $1 \\mathrm{~mol} \\mathrm{L}^{- 1} \\mathrm{H}_{2} \\mathrm{SO}_{4} 10 \\mathrm{~mL}$ , 加入未知浓度 $\\mathrm{KMnO}_{4}$ 溶液 $5.00 \\mathrm{~mL}$ , 充分反应后, 用浓度为 $0.1020 \\mathrm{~mol} \\mathrm{L}^{- 1} \\mathrm{Na}_{2} \\mathrm{~S}_{2} \\mathrm{O}_{3}$ 溶液滴定生成的 $\\mathrm{I}_{2}$ 。待接近终点时, 加入 5 滴淀粉溶液, 继续滴定至蓝色恰好消失, 消耗 $\\mathrm{Na}_{2} \\mathrm{~S}_{2} \\mathrm{O}_{3}$ 溶液 $26.43 \\mathrm{~mL}$ 。"
-        }
-      ]
-    },
-    {
-      "id": "part-000008-02",
-      "label": "2-1",
-      "blocks": [
+          "text": "为测定某 $\\ce{KMnO4}$ 溶液的浓度,在锥形瓶中加入 $\\ce{KI}$ 固体 $2.0\\ \\mathrm{g}$ 和 $1\\ \\mathrm{mol\\,L^{-1}}$ 的 $\\ce{H2SO4}$ 溶液 $10\\ \\mathrm{mL}$,加入未知浓度的 $\\ce{KMnO4}$ 溶液 $5.00\\ \\mathrm{mL}$,充分反应后,用浓度为 $0.1020\\ \\mathrm{mol\\,L^{-1}}$ 的 $\\ce{Na2S2O3}$ 溶液滴定生成的 $\\ce{I2}$。待接近终点时,加入 5 滴淀粉溶液,继续滴定至蓝色恰好消失,消耗 $\\ce{Na2S2O3}$ 溶液 $26.43\\ \\mathrm{mL}$。"
+        },
         {
           "type": "paragraph",
-          "text": "-1 计算 $KMnO_{4}$ 溶液的浓度。"
-        }
-      ]
-    },
-    {
-      "id": "part-000008-03",
-      "label": "2-1",
-      "blocks": [
+          "text": "(1)计算 $\\ce{KMnO4}$ 溶液的浓度。"
+        },
         {
           "type": "paragraph",
-          "text": "-2 写出 $\\mathrm{KMnO}_{4}$ 氧化 KI 以及 $\\mathrm{Na}_{2} \\mathrm{~S}_{2} \\mathrm{O}_{3}$ 溶液滴定 $\\mathrm{I}_{2}$ 的离子方程式。"
+          "text": "(2)写出 $\\ce{KMnO4}$ 氧化 $\\ce{KI}$ 以及 $\\ce{Na2S2O3}$ 溶液滴定 $\\ce{I2}$ 的离子方程式。"
         }
       ]
     },
@@ -61,27 +49,15 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在锥形瓶中加入 $6 \\mathrm{~mol} \\mathrm{L}^{-1}$ 的 $\\mathrm{NaOH}$ 溶液 $1 \\mathrm{~mL}$ , KI固体 $0.0201 \\mathrm{~g}$ , 加入 $0.1008 \\mathrm{~mol} \\mathrm{L}^{-1} \\mathrm{KMnO}_{4}$ 溶液 $20.00 \\mathrm{~mL}$ , 再加入 $5 \\mathrm{~cm}^{3}$ 饱和 $\\mathrm{BaCl}_{2}$ 溶液使 $\\mathrm{MnO}_{4}^{-}$ 的还原产物转化为沉淀, 便于终点辨认。用浓度为 $0.1050 \\mathrm{~mol} \\mathrm{L}^{-1}$ 的甲酸钠溶液滴定, 至溶液的紫红色恰好消失, 消耗甲酸钠溶液 $6.10 \\mathrm{~mL}$ 。"
-        }
-      ]
-    },
-    {
-      "id": "part-000008-05",
-      "label": "2-2",
-      "blocks": [
+          "text": "在锥形瓶中加入 $6\\ \\mathrm{mol\\,L^{-1}}$ 的 $\\ce{NaOH}$ 溶液 $1\\ \\mathrm{mL}$、$\\ce{KI}$ 固体 $0.0201\\ \\mathrm{g}$,加入 $0.1008\\ \\mathrm{mol\\,L^{-1}}$ 的 $\\ce{KMnO4}$ 溶液 $20.00\\ \\mathrm{mL}$,再加入 $5\\ \\mathrm{cm^3}$ 饱和 $\\ce{BaCl2}$ 溶液使 $\\ce{MnO4^-}$ 的还原产物转化为沉淀,便于终点辨认。用浓度为 $0.1050\\ \\mathrm{mol\\,L^{-1}}$ 的甲酸钠溶液滴定,至溶液的紫红色恰好消失,消耗甲酸钠溶液 $6.10\\ \\mathrm{mL}$。"
+        },
         {
           "type": "paragraph",
-          "text": "-1 通过计算说明 KI 的氧化产物是什么。"
-        }
-      ]
-    },
-    {
-      "id": "part-000008-06",
-      "label": "2-2",
-      "blocks": [
+          "text": "(1)通过计算说明 $\\ce{KI}$ 的氧化产物是什么。"
+        },
         {
           "type": "paragraph",
-          "text": "-2 写出题 2-2 中的离子方程式。"
+          "text": "(2)写出题 2-2 中的离子方程式。"
         }
       ]
     }

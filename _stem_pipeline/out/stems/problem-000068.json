@@ -12,19 +12,13 @@
     "sourceLabel": "2019-33-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2019-33-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2019-33-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000068-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "48Ca 轰击 $^ { 2 4 9 } \\mathrm { C f } ,$ ⽣成第118号元素(Og)并放出3个中⼦。写出配平的核反应⽅程式。"
+          "text": "$^{48}\\mathrm{Ca}$ 轰击 $^{249}\\mathrm{Cf}$,生成第118号元素(Og)并放出3个中子。写出配平的核反应方程式。"
         }
       ]
     },
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "推出⼆元氧化物（稳定物质）中含氧量最⾼的化合物。"
+          "text": "推出二元氧化物(稳定物质)中含氧量最高的化合物。"
         }
       ]
     },
@@ -52,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "9.413 g未知⼆元⽓体化合物含有0.003227 g电⼦，推出该未知物，写出化学式。"
+          "text": "9.413 g未知二元气体化合物含有0.003227 g电子,推出该未知物,写出化学式。"
         }
       ]
     }

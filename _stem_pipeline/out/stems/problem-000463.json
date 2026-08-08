@@ -12,61 +12,61 @@
     "sourceLabel": "2015-29-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2015-29-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2015-29-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、规范小问结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "氢最有可能成为 21 世纪的主要能源，但氢⽓需要由其他物质来制备，制氢的⽅法之⼀是以煤的转化为基础。基本原理是⽤碳、⽔在⽓化炉中发⽣如下反应："
+      "text": "氢最有可能成为 21 世纪的主要能源,但氢气需要由其他物质来制备,制氢的方法之一是以煤的转化为基础。基本原理是用碳、水在气化炉中发生如下反应:"
     },
     {
       "type": "paragraph",
-      "text": "$$\n\\mathrm{C} (\\mathrm{s}) + \\mathrm{H} _ {2} \\mathrm{O} \\rightleftharpoons \\mathrm{CO} (\\mathrm{g}) + \\mathrm{H} _ {2} (\\mathrm{g})\\tag{1}\n$$"
+      "text": "$$\\ce{C(s) + H2O(g) <=> CO(g) + H2(g)} \\tag{1}$$"
     },
     {
       "type": "paragraph",
-      "text": "$$\n\\mathrm{CO} (\\mathrm{g}) + \\mathrm{H} _ {2} \\mathrm{O} \\rightleftharpoons \\mathrm{CO} _ {2} (\\mathrm{g}) + \\mathrm{H} _ {2} (\\mathrm{g})\\tag{2}\n$$"
+      "text": "$$\\ce{CO(g) + H2O(g) <=> CO2(g) + H2(g)} \\tag{2}$$"
     },
     {
       "type": "paragraph",
-      "text": "利⽤CaO吸收产物中的CO_{2}："
+      "text": "利用 CaO 吸收产物中的 CO2:"
     },
     {
       "type": "paragraph",
-      "text": "$$\n\\mathrm{CaO} (\\mathrm{s}) + \\mathrm{CO} _ {2} (\\mathrm{g}) \\rightleftharpoons \\mathrm{CaCO} _ {3} (\\mathrm{s})\\tag{3}\n$$"
+      "text": "$$\\ce{CaO(s) + CO2(g) <=> CaCO3(s)} \\tag{3}$$"
     },
     {
       "type": "paragraph",
-      "text": "产物中的 $\\mathrm { H } _ { 2 }$ 与平衡体系中的 $\\mathrm { C } ,$ ，CO， $\\mathrm { C O _ { 2 } }$ 发⽣反应，⽣成CH_{4}："
+      "text": "产物中的 H2 与平衡体系中的 C、CO、CO2 发生反应,生成 CH4:"
     },
     {
       "type": "paragraph",
-      "text": "$$\n\\mathrm{C} (\\mathrm{s}) + 2 \\mathrm{H} _ {2} (\\mathrm{g}) \\rightleftharpoons \\mathrm{CH} _ {4} (\\mathrm{g})\\tag{4}\n$$"
+      "text": "$$\\ce{C(s) + 2H2(g) <=> CH4(g)} \\tag{4}$$"
     },
     {
       "type": "paragraph",
-      "text": "$$\n\\mathrm{CO} (\\mathrm{g}) + 3 \\mathrm{H} _ {2} (\\mathrm{g}) \\rightleftharpoons \\mathrm{CH} _ {4} (\\mathrm{g}) + \\mathrm{H} _ {2} \\mathrm{O} (\\mathrm{g})\\tag{5}\n$$"
+      "text": "$$\\ce{CO(g) + 3H2(g) <=> CH4(g) + H2O(g)} \\tag{5}$$"
     },
     {
       "type": "paragraph",
-      "text": "$$\n\\mathrm{CO} _ {2} (\\mathrm{g}) + 4 \\mathrm{H} _ {2} (\\mathrm{g}) \\rightleftharpoons \\mathrm{CH} _ {4} (\\mathrm{g}) + 2 \\mathrm{H} _ {2} \\mathrm{O} (\\mathrm{g})\\tag{6}\n$$"
+      "text": "$$\\ce{CO2(g) + 4H2(g) <=> CH4(g) + 2H2O(g)} \\tag{6}$$"
     },
     {
       "type": "paragraph",
-      "text": "将 2 mol C(s)，2 mol $\\mathrm { H _ { 2 } O ( g ) }$ ，2 mol $\\mathrm { C a O } ( s )$ 放⼊⽓化炉，在 $8 5 0 ~ ^ { \\circ } \\mathrm { C }$ 下发⽣反应。"
+      "text": "将 2 mol C(s)、2 mol H2O(g)、2 mol CaO(s) 放入气化炉,在 850 °C 下发生反应。"
     },
     {
       "type": "paragraph",
-      "text": "已知850 °C下相关物种的热⼒学参数："
+      "text": "已知 850 °C 下相关物种的热力学参数:"
     },
     {
       "type": "callout",
       "tone": "info",
-      "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
+      "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
     }
   ],
   "parts": [
@@ -76,7 +76,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算⽓化炉总压为 $2 . 5 0 \\times 1 0 ^ { 6 } \\mathrm { P a }$ 时， $\\mathrm { H } _ { 2 }$ 在平衡混合⽓中的摩尔分数。"
+          "text": "计算气化炉总压为 $2.50 \\times 10^{6} \\mathrm{Pa}$ 时,H2 在平衡混合气中的摩尔分数。"
         }
       ]
     },
@@ -86,7 +86,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算 $8 5 0 ^ { \\circ } \\mathrm { C }$ 从起始原料到平衡产物这⼀过程的热效应。"
+          "text": "计算 850 °C 从起始原料到平衡产物这一过程的热效应。"
         }
       ]
     },
@@ -96,7 +96,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "碳在⾼温下是⼀种优良的还原剂，可⽤于冶炼多种⾦属。试写出 $6 0 0 ^ { \\circ } \\mathrm { C }$ 碳的可能氧化产物的化学式。从热⼒学⻆度说明原因（假设 $6 0 0 ^ { \\circ } \\mathrm { C }$ 反应的熵变、焓变和 $8 5 0 ^ { \\circ } \\mathrm { C }$ 下的熵变、焓变相同）"
+          "text": "碳在高温下是一种优良的还原剂,可用于冶炼多种金属。试写出 600 °C 碳的可能氧化产物的化学式。从热力学角度说明原因(假设 600 °C 反应的熵变、焓变和 850 °C 下的熵变、焓变相同)。"
         }
       ]
     }

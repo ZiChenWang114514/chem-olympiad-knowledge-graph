@@ -12,20 +12,21 @@
     "sourceLabel": "2015-29-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2015-29-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2015-29-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "Wittig 于 1953 年报道了磷叶⽴德（Phosphoniumylide，⼜称 Wittig 试剂）与醛、酮反应，将羰基直接转化为碳碳双键，同时⽣成副产物三苯氧膦，称之为 Wittig 反应，是构建碳碳双键的重要⽅法。有关改进和拓展Wittig反应的研究得到了⼴泛的重视和发展，⽂献报道了如下所⽰的类似Wittig反应的研究："
+      "text": "Wittig 于 1953 年报道了磷叶立德(Phosphoniumylide,又称 Wittig 试剂)与醛、酮反应,将羰基直接转化为碳碳双键,同时生成副产物三苯氧膦,称之为 Wittig 反应,是构建碳碳双键的重要方法。有关改进和拓展Wittig反应的研究得到了广泛的重视和发展,文献报道了如下所示的类似Wittig反应的研究:"
     },
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "类似Wittig反应示意图",
+      "alt": "缺图,请参考原卷"
     }
   ],
   "parts": [
@@ -35,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "给出反应物中C=N双键的构型（�或�）。"
+          "text": "给出反应物中C=N双键的构型(E或Z)。"
         }
       ]
     },
@@ -45,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出反应物 $\\mathrm { P h _ { 3 } P { = } C H C N }$ 的共振结构式。"
+          "text": "画出反应物 $\\mathrm{Ph_3P=CHCN}$ 的共振结构式。"
         }
       ]
     },
@@ -55,7 +56,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "指出下列哪⼀种1HNMR谱信息可⽤来测定反应物C=N双键构型。I. 化学位移 II. 磁各向异性 III. 屏蔽效应 IV. NOE 效应"
+          "text": "指出下列哪一种 $^1\\mathrm{H\\ NMR}$ 谱信息可用来测定反应物C=N双键构型。I. 化学位移 II. 磁各向异性 III. 屏蔽效应 IV. NOE 效应"
         }
       ]
     },
@@ -65,7 +66,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "说明反应物结构中的- $- S O _ { 2 } \\mathrm { M e }$ 基团对该反应的作⽤。"
+          "text": "说明反应物结构中的 $-\\mathrm{SO_2Me}$ 基团对该反应的作用。"
         }
       ]
     },
@@ -75,15 +76,16 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "研究上述反应机理时，发现如下反应："
+          "text": "研究上述反应机理时,发现如下反应:"
+        },
+        {
+          "type": "figure",
+          "caption": "反应机理研究示意图",
+          "alt": "缺图,请参考原卷"
         },
         {
           "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "分别给出⽣成 ${ { \\bf { M } } _ { 2 } }$ 和 ${ { \\bf { M } } _ { 3 } }$ 的反应机理。"
+          "text": "分别给出生成 $\\mathbf{M_2}$ 和 $\\mathbf{M_3}$ 的反应机理。"
         }
       ]
     },
@@ -93,15 +95,16 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在9-5反应中，以四氢呋喃(THF)为溶剂，室温下反应后，再⽤福尔⻢林(formalin)淬灭反应，得到如下实验结果："
+          "text": "在9-5反应中,以四氢呋喃(THF)为溶剂,室温下反应后,再用福尔马林(formalin)淬灭反应,得到如下实验结果:"
+        },
+        {
+          "type": "figure",
+          "caption": "实验结果示意图",
+          "alt": "缺图,请参考原卷"
         },
         {
           "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "写出 $\\mathbf { P } _ { 1 \\mathrm { s } }$ ${ \\bf P } _ { 2 }$ 的结构简式。"
+          "text": "写出 $\\mathbf{P_1}$ 和 $\\mathbf{P_2}$ 的结构简式。"
         }
       ]
     },
@@ -111,7 +114,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Wittig 反应⼀般是在⾮质⼦极性溶剂中进⾏，但在 9-6 反应中，⽤福尔⻢林(formalin)淬灭反应得到了产物 ${ \\bf P } _ { 1 }$ 和 $\\mathbf { P } _ { 2 }$ ，写出 $\\mathbf { P } _ { 2 }$ 形成过程中关键中间体的结构简式。"
+          "text": "Wittig 反应一般是在非质子极性溶剂中进行,但在 9-6 反应中,用福尔马林(formalin)淬灭反应得到了产物 $\\mathbf{P_1}$ 和 $\\mathbf{P_2}$ ,写出 $\\mathbf{P_2}$ 形成过程中关键中间体的结构简式。"
         }
       ]
     }

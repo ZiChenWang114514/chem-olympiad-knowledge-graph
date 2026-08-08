@@ -12,16 +12,17 @@
     "sourceLabel": "2012-26-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2012-26-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2012-26-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "题目配图(原图缺失)",
+      "alt": "图中包含多条直线,标注为 a、b、c、d,用于描述不同 pH 下的物种转化与电极反应。"
     }
   ],
   "parts": [
@@ -31,11 +32,11 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算在pH分别为4.0和6.0的条件下碳酸—碳酸盐体系中主要物种的浓度。"
+          "text": "计算在 pH 分别为 4.0 和 6.0 的条件下碳酸—碳酸盐体系中主要物种的浓度。"
         },
         {
           "type": "paragraph",
-          "text": "已知 $\\mathrm { H _ { 2 } C O _ { 3 } }$ 的 $K _ { a _ { 1 } } = 4 . 5 \\times 1 0 ^ { - 7 }$ $K _ { a _ { 2 } } = 4 . 7 \\times 1 0 ^ { - 1 1 }$"
+          "text": "已知 $H_2CO_3$ 的 $K_{a1} = 4.5 \\times 10^{-7}$,$K_{a2} = 4.7 \\times 10^{-11}$。"
         }
       ]
     },
@@ -45,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "图中a和b分别是pH=4.4和6.1的两条直线，分别写出与a和b相对应的轴的物种发⽣转化的⽅程式。"
+          "text": "图中 a 和 b 分别是 pH=4.4 和 6.1 的两条直线,分别写出与 a 和 b 相对应的轴的物种发生转化的方程式。"
         }
       ]
     },
@@ -55,7 +56,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "分别写出与直线c和d相对应的电极反应，说明其斜率为正或负的原因。"
+          "text": "分别写出与直线 c 和 d 相对应的电极反应,说明其斜率为正或负的原因。"
         }
       ]
     },
@@ -65,7 +66,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在 $\\mathrm { p H } = 4 . 0$ 的缓冲体系中加⼊ $\\mathrm { U C l _ { 3 } } ,$ 写出反应⽅程式。"
+          "text": "在 $pH = 4.0$ 的缓冲体系中加入 $UCl_3$,写出反应方程式。"
         }
       ]
     },
@@ -75,7 +76,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在 $\\mathrm { p H } = 8 . 0 { \\sim } 1 2$ 之间，体系中 $\\mathrm { U O _ { 2 } ( C O _ { 3 } ) _ { 3 } } ^ { 4 - }$ −和 $\\mathrm { U } _ { 4 } \\mathrm { O } _ { 9 } ( \\mathrm { s } )$ 能否共存？说明理由； $\\mathrm { U O _ { 2 } ( C O _ { 3 } ) _ { 3 } } ^ { 4 - }$ −和 $\\mathrm { U O } _ { 2 } ( \\mathsf { s } )$ 能否共存？说明理由。"
+          "text": "在 $pH = 8.0 \\sim 12$ 之间,体系中 $UO_2(CO_3)_3^{4-}$ 和 $U_4O_9(s)$ 能否共存?说明理由;$UO_2(CO_3)_3^{4-}$ 和 $UO_2(s)$ 能否共存?说明理由。"
         }
       ]
     }

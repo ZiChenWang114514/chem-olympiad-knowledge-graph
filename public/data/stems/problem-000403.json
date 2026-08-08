@@ -12,19 +12,13 @@
     "sourceLabel": "2012-26-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2012-26-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2012-26-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000403-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算应加⼊多少克六次甲基四胺使溶液的pH从1.00变到5.60。"
+          "text": "计算应加入多少克六次甲基四胺使溶液的pH从1.00变到5.60。"
         }
       ]
     },
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算未知液中 Bi3+和 Pb2+的浓度 $( \\mathrm { g } \\mathrm { L } ^ { - 1 } )$ o"
+          "text": "计算未知液中 Bi$^{3+}$ 和 Pb$^{2+}$ 的浓度($\\mathrm{g\\,L^{-1}}$)。"
         }
       ]
     }

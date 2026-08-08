@@ -12,16 +12,16 @@
     "sourceLabel": "2008-22-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2008-22-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2008-22-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX 与化学式表达。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "$$\n\\begin{array}{r l} & {\\mathbf {A} \\xrightarrow {\\mathrm{NaOH} \\text {溶液}} \\xrightarrow {\\text {酸化}} \\mathbf {E} (\\mathrm{C} _ {7} \\mathrm{H} _ {6} \\mathrm{O} _ {2}) + \\mathbf {F}} \\\\ & {\\mathbf {B} \\xrightarrow {\\mathrm{NaOH} \\text {溶液}} \\xrightarrow {\\text {酸化}} \\mathbf {G} (\\mathrm{C} _ {7} \\mathrm{H} _ {8} \\mathrm{O}) + \\mathbf {H}} \\\\ & {\\mathbf {C} \\xrightarrow {\\mathrm{NaOH} \\text {溶液}} \\xrightarrow {\\text {酸化}} \\mathbf {I} (\\text {芳香化合物}) + \\mathbf {J}} \\\\ & {\\mathbf {D} \\xrightarrow {\\mathrm{NaOH} \\text {溶液}} \\mathbf {K} + \\mathrm{H} _ {2} \\mathrm{O}} \\end{array}\n$$"
+      "text": "$$\n\\begin{array}{r l}\n& {\\mathbf{A} \\xrightarrow{\\mathrm{NaOH}\\ \\text{溶液}} \\xrightarrow{\\text{酸化}} \\mathbf{E} (\\mathrm{C_7H_6O_2}) + \\mathbf{F}} \\\\\n& {\\mathbf{B} \\xrightarrow{\\mathrm{NaOH}\\ \\text{溶液}} \\xrightarrow{\\text{酸化}} \\mathbf{G} (\\mathrm{C_7H_8O}) + \\mathbf{H}} \\\\\n& {\\mathbf{C} \\xrightarrow{\\mathrm{NaOH}\\ \\text{溶液}} \\xrightarrow{\\text{酸化}} \\mathbf{I} (\\text{芳香化合物}) + \\mathbf{J}} \\\\\n& {\\mathbf{D} \\xrightarrow{\\mathrm{NaOH}\\ \\text{溶液}} \\mathbf{K} + \\mathrm{H_2O}}\n\\end{array}\n$$"
     }
   ],
   "parts": [
@@ -31,7 +31,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出A、B、C和D的分⼦式。"
+          "text": "写出 A、B、C 和 D 的分子式。"
         }
       ]
     },
@@ -41,7 +41,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出A、B、C和D的结构简 $\\updownarrow \\updownarrow _ { \\updownarrow }$"
+          "text": "画出 A、B、C 和 D 的结构简式。"
         }
       ]
     },
@@ -51,7 +51,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "A和D分别与NaOH溶液发⽣了哪类反应？"
+          "text": "A 和 D 分别与 NaOH 溶液发生了哪类反应?"
         }
       ]
     },
@@ -61,7 +61,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出H分⼦中官能团的名称。"
+          "text": "写出 H 分子中官能团的名称。"
         }
       ]
     },
@@ -71,7 +71,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "现有如下溶液：HCl、 $\\mathrm { H N O _ { 3 } \\setminus \\ N H _ { 3 } { \\cdot } H _ { 2 } O }$ 、NaOH、 $\\mathrm { N a H C O _ { 3 } } ,$ 饱和 $\\mathrm { B r } _ { 2 }$ ⽔、 $\\mathrm { F e C l _ { 3 } }$ 和 $\\mathrm { N H _ { 4 } C l _ { o } }$ 从中选择合适试剂，设计⼀种实验⽅案，鉴别E、G和 $\\mathbf { I } _ { \\circ }$"
+          "text": "现有如下溶液:HCl、$\\mathrm{HNO_3}$、$\\mathrm{NH_3 \\cdot H_2O}$、NaOH、$\\mathrm{NaHCO_3}$、饱和 $\\mathrm{Br_2}$ 水、$\\mathrm{FeCl_3}$ 和 $\\mathrm{NH_4Cl}$。从中选择合适试剂,设计一种实验方案,鉴别 E、G 和 I。"
         }
       ]
     }

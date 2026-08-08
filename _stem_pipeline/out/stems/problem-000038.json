@@ -12,19 +12,13 @@
     "sourceLabel": "2017-31-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2017-31-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU 初赛文档程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000038-01",
@@ -32,27 +26,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "判断以下分⼦是否有⼿性。"
+          "text": "判断以下分子是否有手性。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": ""
-        },
-        {
-          "type": "paragraph",
-          "text": ""
-        },
-        {
-          "type": "paragraph",
-          "text": ""
-        },
-        {
-          "type": "paragraph",
-          "text": ""
+          "type": "figure",
+          "caption": "",
+          "alt": "四个分子结构图(原图缺)"
         }
       ]
     },
@@ -62,11 +41,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出以下反应所得产物的⽴体结构简式，并写出反应类型 $( \\mathrm { S } _ { \\mathrm { N } } 1$ 或 $\\mathrm { S } _ { \\mathrm { N } } 2 )$ 0"
+          "text": "画出以下反应所得产物的立体结构简式,并写出反应类型($\\mathrm{S_N1}$ 或 $\\mathrm{S_N2}$)。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "",
+          "alt": "反应方程式及反应物结构图(原图缺)"
         }
       ]
     }

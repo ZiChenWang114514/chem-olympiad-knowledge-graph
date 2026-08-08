@@ -12,24 +12,24 @@
     "sourceLabel": "2008-22-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2008-22-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2008-22-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错误并统一格式。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "$$\n① \\mathrm{ATP} + \\mathrm{H} _ {2} \\mathrm{O} \\rightarrow \\mathrm{ADP} + \\mathrm{Pi} (\\text {磷酸盐})\n$$"
+      "text": "$$\\ce{ATP + H2O -> ADP + Pi(磷酸盐)}$$"
     },
     {
       "type": "paragraph",
-      "text": "已知 298.2 K 时该反应： $\\Delta _ { \\mathrm { r } } G _ { \\mathrm { m , 1 } } ^ { \\ominus } ( 2 9 8 . 2 ) = - 3 0 . 5 8 \\mathrm { ~ k J ~ m o l ^ { - 1 } , ~ } \\Delta _ { \\mathrm { r } } H _ { \\mathrm { m , 1 } } ^ { \\ominus } ( 2 9 8 . 2 ) = - 2 0 . 1 0 \\mathrm { ~ k J ~ m o l ^ { - 1 } , ~ } \\Delta _ { \\mathrm { r } } C _ { p } \\approx 0 _ { \\mathrm { c } } 0 . 1 7 \\mathrm { ~ k J ~ m o l ^ { - 1 } ~ } .$ ⽽310.2 K（⼈体温度）时反应："
+      "text": "已知 298.2 K 时该反应: $\\Delta_{\\mathrm{r}}G_{\\mathrm{m,1}}^{\\ominus}(298.2) = -30.58\\ \\mathrm{kJ\\ mol^{-1}}$,$\\Delta_{\\mathrm{r}}H_{\\mathrm{m,1}}^{\\ominus}(298.2) = -20.10\\ \\mathrm{kJ\\ mol^{-1}}$,$\\Delta_{\\mathrm{r}}C_p \\approx 0.17\\ \\mathrm{kJ\\ mol^{-1}}$。而 310.2 K(人体温度)时反应:"
     },
     {
       "type": "paragraph",
-      "text": "$$\n② \\text {谷氨酸盐} + \\mathrm{NH} _ {4} ^ {+} \\rightarrow \\text {谷氨酰胺} + \\mathrm{H} _ {2} \\mathrm{O} \\quad \\Delta_ {\\mathrm{r}} G _ {\\mathrm{m}, 2} ^ {\\ominus} (3 1 0. 2) = 1 5. 7 0 \\mathrm{kJ} \\mathrm{mol} ^ {- 1}\n$$"
+      "text": "$$\\ce{谷氨酸盐 + NH4+ -> 谷氨酰胺 + H2O} \\quad \\Delta_{\\mathrm{r}}G_{\\mathrm{m,2}}^{\\ominus}(310.2) = 15.70\\ \\mathrm{kJ\\ mol^{-1}}$$"
     }
   ],
   "parts": [
@@ -39,11 +39,11 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "通过计算回答在310.2K，标准状态下，⼈体内能否由下述反应合成⾕氨酰胺？"
+          "text": "通过计算回答在 310.2 K,标准状态下,人体内能否由下述反应合成谷氨酰胺?"
         },
         {
           "type": "paragraph",
-          "text": "③ ⾕氨酸盐 + NH_{4}+ + ATP +→ ⾕氨酰胺 + ADP + Pi 磷酸盐）"
+          "text": "$$\\ce{谷氨酸盐 + NH4+ + ATP -> 谷氨酰胺 + ADP + Pi(磷酸盐)}$$"
         }
       ]
     },
@@ -53,7 +53,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算310.2K时反应③的标准平衡常数 $K _ { 3 } ^ { \\ominus }$ 。"
+          "text": "计算 310.2 K 时反应 3 的标准平衡常数 $K_3^{\\ominus}$。"
         }
       ]
     },
@@ -63,7 +63,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "ATP消耗后，可通过另外的途径复⽣。在另⼀种酶的催化作⽤下，ADP可以接受能量，同时与⼀个磷酸结合，从⽽转化成 $\\mathrm { A T P _ { \\circ } }$ 。 例如在糖酵解反应的过程中，如果1 mol葡萄糖完全降解，消耗2 mol ATP，⼜产⽣38 mol ATP。计算在标准状态下，310.2K时，1 mol葡萄糖完全降解过程贮能 $\\Delta _ { \\mathrm { r } } G$ 是多少？"
+          "text": "ATP 消耗后,可通过另外的途径复生。在另一种酶的催化作用下,ADP 可以接受能量,同时与一个磷酸结合,从而转化成 $\\mathrm{ATP}$。例如在糖酵解反应的过程中,如果 1 mol 葡萄糖完全降解,消耗 2 mol ATP,又产生 38 mol ATP。计算在标准状态下,310.2 K 时,1 mol 葡萄糖完全降解过程贮能 $\\Delta_{\\mathrm{r}}G$ 是多少?"
         }
       ]
     },
@@ -73,7 +73,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "许多磷酸酯⽔解是放能反应，ATP⽔解释放的能量不是最⼤的，也不是最⼩的。从热⼒学⻆度说明，为什么许多⽣物代谢过程中有ATP参加。"
+          "text": "许多磷酸酯水解是放能反应,ATP 水解释放的能量不是最大的,也不是最小的。从热力学角度说明,为什么许多生物代谢过程中有 ATP 参加。"
         }
       ]
     }

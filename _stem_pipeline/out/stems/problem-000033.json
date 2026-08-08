@@ -12,19 +12,13 @@
     "sourceLabel": "2017-31-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2017-31-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2017-31-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正标点与 LaTeX 写法、清理无信息 callout。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000033-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "通过计算，指出M是哪种⾦属，确定A的化学式。"
+          "text": "通过计算,指出M是哪种金属,确定A的化学式。"
         }
       ]
     },
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出A在空⽓中热解的反应⽅程式。"
+          "text": "写出A在空气中热解的反应方程式。"
         }
       ]
     },
@@ -52,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "通过计算，确定B在 $\\mathrm { N } _ { 2 }$ ⽓氛中失重后的产物及产物的定量组成（⽤摩尔分数表⽰）。"
+          "text": "通过计算,确定B在 $\\mathrm{N_2}$ 气氛中失重后的产物及产物的定量组成(用摩尔分数表示)。"
         }
       ]
     },
@@ -62,7 +56,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出B在氮⽓⽓氛中分解的反应⽅程式。"
+          "text": "写出B在氮气气氛中分解的反应方程式。"
         }
       ]
     }

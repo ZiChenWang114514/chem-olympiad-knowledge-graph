@@ -12,24 +12,24 @@
     "sourceLabel": "2022-36-CChO-chusai-1.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2022-36-CChO-chusai-2/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2022-36-CChO-chusai-2/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理公式与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "以芳⾹醛和1-苯基⼄-1,2-⼆醇为原料在酸性条件下可以构建环戊烷-2-烯-1-酮衍⽣物："
+      "text": "以芳香醛和1-苯基乙-1,2-二醇为原料在酸性条件下可以构建环戊烷-2-烯-1-酮衍生物:"
     },
     {
       "type": "paragraph",
-      "text": "$$\n\\mathrm{Ph} - \\underset {\\mathrm{OH}} {\\overset {\\mathrm{OH}} {\\mathrm{C}}} + \\mathrm{PhCHO} \\xrightarrow [ \\mathrm{PhCH} _ {3} , 1 1 0 ^ {\\circ} \\mathrm{C} ]{p - \\mathrm{TsOH(0.5eq)}} \\mathrm{Ph} - \\underset {\\mathrm{Ph}} {\\overset {\\mathrm{O}} {\\mathrm{C}}} - \\underset {\\mathrm{Ph}} {\\overset {\\mathrm{Ph}} {\\mathrm{C}}}\n$$"
+      "text": "$$\\mathrm{Ph}-\\underset{\\mathrm{OH}}{\\overset{\\mathrm{OH}}{\\mathrm{C}}}+\\mathrm{PhCHO}\\xrightarrow[p-\\mathrm{TsOH}(0.5\\,\\mathrm{eq})]{\\mathrm{PhCH}_3,\\ 110^\\circ\\mathrm{C}}\\mathrm{Ph}-\\underset{\\mathrm{Ph}}{\\overset{\\mathrm{O}}{\\mathrm{C}}}-\\underset{\\mathrm{Ph}}{\\overset{\\mathrm{Ph}}{\\mathrm{C}}}$$"
     },
     {
       "type": "paragraph",
-      "text": "该反应在对甲苯磺酸 $( p { \\mathrm { - } } \\mathrm { T s O H } )$ 催化下，在甲苯中回流后得到产物（产率70%）。研究表明，苯基环氧⼄烷代替1-苯基⼄-1,2-⼆醇在相同条件下反应也转化为同⼀产物（产率75%）。依据这些信息，回答以下问题："
+      "text": "该反应在对甲苯磺酸 $(p\\text{-}\\mathrm{TsOH})$ 催化下,在甲苯中回流后得到产物(产率70%)。研究表明,苯基环氧乙烷代替1-苯基乙-1,2-二醇在相同条件下反应也转化为同一产物(产率75%)。依据这些信息,回答以下问题:"
     }
   ],
   "parts": [
@@ -39,7 +39,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在酸性条件下，1-苯基⼄-1,2-⼆醇和苯基环氧⼄烷均转化为同⼀中间产物，此中间产物随后与苯甲醛反应转化为最终产物2,4,5-三苯基环戊烷-2-烯-1-酮。画出此中间产物的结构式。"
+          "text": "在酸性条件下,1-苯基乙-1,2-二醇和苯基环氧乙烷均转化为同一中间产物,此中间产物随后与苯甲醛反应转化为最终产物2,4,5-三苯基环戊烷-2-烯-1-酮。画出此中间产物的结构式。"
         }
       ]
     },
@@ -49,7 +49,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "此反应中苯基环氧⼄烷与苯甲醛的⽐例⾄少应该为多少？"
+          "text": "此反应中苯基环氧乙烷与苯甲醛的比例至少应该为多少?"
         }
       ]
     },
@@ -59,11 +59,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "以下转换经历了类似的过程，为以下转换提供关键中间体："
+          "text": "以下转换经历了类似的过程,为以下转换提供关键中间体:"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "(图:)",
+          "alt": "缺失的图示,描述转换反应"
         }
       ]
     },
@@ -73,11 +74,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "依据8-1和8-2的信息，请完成以下反应式（要求⽴体化学）："
+          "text": "依据8-1和8-2的信息,请完成以下反应式(要求立体化学):"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "(图:)",
+          "alt": "缺失的图示,描述反应式"
         }
       ]
     }

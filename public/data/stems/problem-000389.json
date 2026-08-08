@@ -12,16 +12,17 @@
     "sourceLabel": "2011-25-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2011-25-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2011-25-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "合成路线图",
+      "alt": "题目所给合成路线图(原图缺失)"
     }
   ],
   "parts": [
@@ -31,7 +32,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出上述合成路线中a、b、c和d所对应的试剂或反应条件。"
+          "text": "写出上述合成路线中 a、b、c 和 d 所对应的试剂或反应条件。"
         }
       ]
     },
@@ -41,7 +42,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出上述合成路线中中间体A\\~I的结构简式。"
+          "text": "画出上述合成路线中中间体 A~I 的结构简式。"
         }
       ]
     },
@@ -51,7 +52,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出中间体J的对称元素。"
+          "text": "写出中间体 J 的对称元素。"
         }
       ]
     },
@@ -61,7 +62,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "给出从中间体I到J的反应机理。"
+          "text": "给出从中间体 I 到 J 的反应机理。"
         }
       ]
     }

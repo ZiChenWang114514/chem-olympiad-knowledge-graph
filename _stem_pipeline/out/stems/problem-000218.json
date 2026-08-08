@@ -12,19 +12,13 @@
     "sourceLabel": "2023-37-CChO-juesai-1.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2023-37-CChO-juesai-1/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2023-37-CChO-juesai-1/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000218-01",
@@ -32,11 +26,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "α-杂原⼦取代羰基化合物在天然产物和药物分⼦的合成中具有重要⽤途。酰胺化合物A在三氟甲磺酸酐(Tf_{2}O)和2-碘吡啶(2-I-py)存在下，与⼿性亚磺酰胺试剂反应，⽣成α-氨基酰胺化合物H。反应过程如下："
+          "text": "α-杂原子取代羰基化合物在天然产物和药物分子的合成中具有重要用途。酰胺化合物A在三氟甲磺酸酐(Tf2O)和2-碘吡啶(2-I-py)存在下,与亚磺酰胺试剂反应,生成α-氨基酰胺化合物H。反应过程如下:"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应过程示意图",
+          "alt": "反应过程示意图(缺图)"
         }
       ]
     },
@@ -56,7 +51,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 中间体D和E哪个形成更快？说明原因。"
+          "text": "-2 中间体D和E哪个形成更快?说明原因。"
         }
       ]
     },
@@ -76,11 +71,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "如下过程可⽤于α-羟基酮的制备。该反应的关键在于中间体L的形成以及L中羰基在光激发下形成双⾃由基M。"
+          "text": "如下过程可用于α-羟基酮的制备。该反应的关键在于中间体L的形成以及L中羰基在光激发下形成双自由基M。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应过程示意图",
+          "alt": "反应过程示意图(缺图)"
         }
       ]
     },
@@ -90,7 +86,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 画出 L 的结构。"
+          "text": "-1 画出L的结构。"
         }
       ]
     },
@@ -100,7 +96,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 中间体M和N都是双⾃由基，画出M、N和O的结构。"
+          "text": "-2 中间体M和N都是双自由基,画出M、N和O的结构。"
         }
       ]
     },
@@ -110,11 +106,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-3 采⽤亚磷酸三异丙酯R作为反应底物时，可⽣成与O类似的O1中间体。画出⽤结构简式表述的O1到S的反应机理。"
+          "text": "-3 采用亚磷酸三异丙酯R作为反应底物时,可生成与O类似的O1中间体。画出用结构简式表述的O1到S的反应机理。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应过程示意图",
+          "alt": "反应过程示意图(缺图)"
         }
       ]
     },

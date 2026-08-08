@@ -12,19 +12,13 @@
     "sourceLabel": "2022-36-CChO-juesai-1.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2022-36-CChO-juesai-2/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2022-36-CChO-juesai-2/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000187-01",
@@ -32,11 +26,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出如下反应的关键中间体，并解释形成此主要产物的原因。"
+          "text": "画出如下反应的关键中间体,并解释形成此主要产物的原因。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应示意图(原图缺失)",
+          "alt": "反应式:底物与试剂反应生成主要产物,需画出关键中间体。"
         }
       ]
     },
@@ -46,11 +41,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出如下反应的关键中间体，解释反应的区域选择性和⽴体选择性。（提⽰：PhI(OAc)_{2}⾸先和I_{2}反应、⽣成不稳定的中间体IOH）"
+          "text": "画出如下反应的关键中间体,解释反应的区域选择性和立体选择性。(提示:$\\mathrm{PhI(OAc)_2}$ 首先和 $\\mathrm{I_2}$ 反应,生成不稳定的中间体 $\\mathrm{IOH}$)"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应示意图(原图缺失)",
+          "alt": "反应式:底物与 PhI(OAc)2 和 I2 反应,需画出关键中间体并解释选择性。"
         }
       ]
     }

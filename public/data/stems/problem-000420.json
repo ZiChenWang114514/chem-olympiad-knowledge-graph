@@ -12,28 +12,28 @@
     "sourceLabel": "2013-27-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2013-27-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2013-27-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "准确称取7.630g研细试样，⽤蒸馏⽔溶解，定容于1000mL容量瓶。"
+      "text": "准确称取 7.630 g 研细试样,用蒸馏水溶解,定容于 1000 mL 容量瓶。"
     },
     {
       "type": "paragraph",
-      "text": "移取25.00mL该试样溶液⾄250mL锥形瓶中，加⼊过量的KI⽔溶液，以⾜量的1:1⼄酸溶液酸化，以 0.1076 mol L−1 的 $\\mathrm { N a _ { 2 } S _ { 2 } O _ { 3 } }$ 标准溶液滴定⾄终点，消耗18.54 mL。"
+      "text": "移取 25.00 mL 该试样溶液至 250 mL 锥形瓶中,加入过量 KI 水溶液,以足量的 1:1 乙酸溶液酸化,以 $0.1076\\ \\mathrm{mol\\,L^{-1}}$ 的 $\\mathrm{Na_2S_2O_3}$ 标准溶液滴定至终点,消耗 18.54 mL。"
     },
     {
       "type": "paragraph",
-      "text": "移取25.00mL试样溶液⾄250mL锥形瓶中，缓慢加⼊⾜量的 $3 \\% \\mathrm { H } _ { 2 } \\mathrm { O } _ { 2 }$ ⽔溶液，搅拌⾄不再产⽣⽓泡。以 0.1008mol L−1 的 $\\mathrm { A g N O _ { 3 } }$ 标准溶液滴定⾄终点，消耗20.36mL。"
+      "text": "移取 25.00 mL 试样溶液至 250 mL 锥形瓶中,缓慢加入足量的 $3\\%\\ \\mathrm{H_2O_2}$ 水溶液,搅拌至不再产生气泡。以 $0.1008\\ \\mathrm{mol\\,L^{-1}}$ 的 $\\mathrm{AgNO_3}$ 标准溶液滴定至终点,消耗 20.36 mL。"
     },
     {
       "type": "paragraph",
-      "text": "移取25.00mL试样溶液⾄100.0 mL容量瓶中，以蒸馏⽔稀释到刻度。移取25.00mL该稀释液⾄250mL锥形瓶中，以⾜量的 $3 \\% \\mathrm { H } _ { 2 } \\mathrm { O } _ { 2 }$ ⽔溶液处理⾄不再产⽣⽓泡。于氨性缓冲液中以0.01988mol L−1的EDTA标准溶液滴定⾄终点，消耗24.43mL。"
+      "text": "移取 25.00 mL 试样溶液至 100.0 mL 容量瓶中,以蒸馏水稀释到刻度。移取 25.00 mL 该稀释液至 250 mL 锥形瓶中,以足量的 $3\\%\\ \\mathrm{H_2O_2}$ 水溶液处理至不再产生气泡。于氨性缓冲液中以 $0.01988\\ \\mathrm{mol\\,L^{-1}}$ 的 EDTA 标准溶液滴定至终点,消耗 24.43 mL。"
     }
   ],
   "parts": [
@@ -43,7 +43,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算该漂⽩粉中有效氯的百分含量（以 $\\mathrm { C l } _ { 2 }$ 计）"
+          "text": "计算该漂白粉中有效氯的百分含量(以 $\\mathrm{Cl_2}$ 计)。"
         }
       ]
     },
@@ -53,7 +53,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算总氯百分含量"
+          "text": "计算总氯百分含量。"
         }
       ]
     },
@@ -63,7 +63,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算总钙百分含量"
+          "text": "计算总钙百分含量。"
         }
       ]
     }

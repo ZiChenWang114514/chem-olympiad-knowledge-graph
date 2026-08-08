@@ -12,19 +12,13 @@
     "sourceLabel": "2020-34-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2020-34-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2020-34-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000094-01",
@@ -35,8 +29,9 @@
           "text": "请为以下转换提供合理的中间体"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应示意图",
+          "alt": "缺图,请参考原卷"
         }
       ]
     },
@@ -46,11 +41,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "参照10-1中的转换⽅式，画出以下反应主要产物的结构简式。"
+          "text": "参照10-1中的转换方式,画出以下反应主要产物的结构简式。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应示意图",
+          "alt": "缺图,请参考原卷"
         }
       ]
     },
@@ -60,53 +56,48 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "以下反应是天然产物顺式茉莉酮全合成中的⼀步："
+          "text": "以下反应是天然产物顺式茉莉酮全合成中的一步:"
+        },
+        {
+          "type": "figure",
+          "caption": "反应示意图",
+          "alt": "缺图,请参考原卷"
         },
         {
           "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "仔细分析这个反应转换过程三元环的作⽤，并在此基础上完成10-3-1和10-3-2中的反应，画出主要产物的结构简式（不考虑产物的⽴体化学）："
+          "text": "仔细分析这个反应转换过程中三元环的作用,并在此基础上完成10-3-1和10-3-2中的反应,画出主要产物的结构简式(不考虑产物的立体化学):"
         }
       ]
     },
     {
       "id": "part-000094-04",
-      "label": "10-3",
+      "label": "10-3-1",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "-1"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应示意图",
+          "alt": "缺图,请参考原卷"
         }
       ]
     },
     {
       "id": "part-000094-05",
-      "label": "10-3",
+      "label": "10-3-2",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "-2"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应示意图",
+          "alt": "缺图,请参考原卷"
         }
       ]
     },
     {
       "id": "part-000094-06",
-      "label": "10-3",
+      "label": "10-3-3",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-3 画出10-3-1转换中中间体的结构简式。"
+          "text": "画出10-3-1转换中中间体的结构简式。"
         }
       ]
     }

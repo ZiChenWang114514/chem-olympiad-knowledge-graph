@@ -12,16 +12,17 @@
     "sourceLabel": "2014-28-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2014-28-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2014-28-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理公式与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "某铅合⾦中含有 Pb、Bi、Ni 等元素，称取此合⾦试样 2.420 g，⽤ $\\mathrm { H N O _ { 3 } }$ 溶解并定容⾄ $2 5 0 ~ \\mathrm { m L } _ { \\circ }$ 移取50.00 mL上述试液于250 mL锥形瓶中，调节 $\\mathrm { p H } = 1$ ，以⼆甲酚橙为指⽰剂，⽤ $0 . 0 7 5 0 0 \\mathrm { m o l } \\mathrm { L } ^ { - 1 }$ EDTA 标准溶液滴定，消耗 $5 . 2 5 \\mathrm { m L } _ { \\mathrm { o } }$ 然后，⽤六次甲基四胺缓冲溶液将pH调⾄5，再以上述EDTA标准溶液滴定，消耗28.76 mL。加⼊邻⼆氮菲，置换出镍配合物中的EDTA，⽤ $0 . 0 4 5 0 0 \\mathrm { m o l L ^ { - 1 } P b } ( \\mathrm { N O _ { 3 } } )$ _{2}标准溶液滴定置换出的EDTA，消耗 $8 . 7 6 \\mathrm { m L } _ { \\circ }$ 计算此合⾦试样中Pb、Bi、Ni的质量分数。 $( \\mathrm { l g } K _ { \\mathrm { B i Y } } = 2 7 . 9 4 , \\mathrm { l g } K _ { \\mathrm { P b Y } } = 1 8 . 0 4 , \\mathrm { l g } K _ { \\mathrm { N i Y } } =$ 18.62)"
+      "text": "某铅合金中含有 Pb、Bi、Ni 等元素,称取此合金试样 2.420 g,用 $\\mathrm{HNO_3}$ 溶解并定容至 250 mL。移取 50.00 mL 上述试液于 250 mL 锥形瓶中,调节 pH = 1,以二甲酚橙为指示剂,用 $0.07500\\ \\mathrm{mol\\ L^{-1}}$ EDTA 标准溶液滴定,消耗 5.25 mL。然后,用六次甲基四胺缓冲溶液将 pH 调至 5,再以上述 EDTA 标准溶液滴定,消耗 28.76 mL。加入邻二氮菲,置换出镍配合物中的 EDTA,用 $0.04500\\ \\mathrm{mol\\ L^{-1}\\ Pb(NO_3)_2}$ 标准溶液滴定置换出的 EDTA,消耗 8.76 mL。计算此合金试样中 Pb、Bi、Ni 的质量分数。$(\\lg K_{\\mathrm{BiY}} = 27.94,\\ \\lg K_{\\mathrm{PbY}} = 18.04,\\ \\lg K_{\\mathrm{NiY}} = 18.62)$"
     }
-  ]
+  ],
+  "parts": []
 }

@@ -12,20 +12,21 @@
     "sourceLabel": "2018-32-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2018-32-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2018-32-CChO-chusai/full.md)程序化切分并整理为结构化题干;经 DeepSeek 精修(修正 OCR 错字、合并空壳段落、图片占位规范化);公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "",
+      "alt": "原题此处有图"
     },
     {
       "type": "paragraph",
-      "text": "提⽰：画结构简式时可⽤Ar代替CpFluors-2中的芳⾹取代基。"
+      "text": "提示:画结构简式时可用 Ar 代替 CpFluor-2 中的芳香取代基。"
     }
   ],
   "parts": [
@@ -35,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "简要解释CpFluor-2中C—F键容易断裂的主要原因。"
+          "text": "简要解释 CpFluor-2 中 C—F 键容易断裂的主要原因。"
         }
       ]
     },
@@ -45,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "研究表明，反应体系中存在的痕量⽔可以加快反应进程，画出CpFluor-2与⽔反应所得产物的结构简式。"
+          "text": "研究表明,反应体系中存在的痕量水可以加快反应进程,画出 CpFluor-2 与水反应所得产物的结构简式。"
         }
       ]
     },
@@ -55,7 +56,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出3-苯基丙醇氟代过程中三个关键中间体的结构简式。"
+          "text": "画出 3-苯基丙醇氟代过程中三个关键中间体的结构简式。"
         }
       ]
     },
@@ -65,11 +66,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "研究表明，9-3的反应中存在⼀个重要的副产物，其结构简式如下："
+          "text": "研究表明,9-3 的反应中存在一个重要的副产物,其结构简式如下:"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "",
+          "alt": "副产物结构简式,原题此处有图"
         },
         {
           "type": "paragraph",

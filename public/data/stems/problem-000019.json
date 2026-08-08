@@ -12,19 +12,13 @@
     "sourceLabel": "2016-30-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2016-30-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2016-30-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000019-01",
@@ -35,8 +29,9 @@
           "text": "画出以下反应过程中化合物A-F的结构简式。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应路线图(缺图)",
+          "alt": "反应路线图,涉及化合物A-F的转化"
         }
       ]
     },
@@ -46,31 +41,32 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "某同学设计了以下反应，希望能同时保护氨基和羟基。"
+          "text": "某同学设计了以下反应,希望能同时保护氨基和羟基。"
+        },
+        {
+          "type": "figure",
+          "caption": "反应示意图(缺图)",
+          "alt": "反应示意图,涉及氨基和羟基的保护"
         },
         {
           "type": "paragraph",
-          "text": "（图：）"
+          "text": "请选择最有利于实现该反应的实验条件:"
         },
         {
           "type": "paragraph",
-          "text": "请选择最有利于实现该反应的实验条件："
+          "text": "a) 反应在浓盐酸与乙醇(1:3)的混合溶剂中加热进行。"
         },
         {
           "type": "paragraph",
-          "text": "a) 反应在浓盐酸与⼄醇(1:3)的混合溶剂中加热进⾏。"
+          "text": "b) 反应在过量三乙胺中加热进行。"
         },
         {
           "type": "paragraph",
-          "text": "b) 反应在过量三⼄胺中加热进⾏。"
+          "text": "c) 催化量的三氟化硼作用下,反应在无水乙醚中进行。"
         },
         {
           "type": "paragraph",
-          "text": "c) 催化量的三氟化硼作⽤下，反应在⽆⽔⼄醚中进⾏。"
-        },
-        {
-          "type": "paragraph",
-          "text": "d) 反应在回流的甲苯中进⾏。"
+          "text": "d) 反应在回流的甲苯中进行。"
         }
       ]
     },
@@ -80,19 +76,20 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "理论计算表明，甲酸的�和�-型两种异构体存在⼀定的能量差别。"
+          "text": "理论计算表明,甲酸的顺式和反式两种异构体存在一定的能量差别。"
+        },
+        {
+          "type": "figure",
+          "caption": "异构体示意图(缺图)",
+          "alt": "甲酸顺式和反式异构体的结构示意图"
         },
         {
           "type": "paragraph",
-          "text": "（图：）"
+          "text": "已知反式异构体的 $K_{\\mathrm{a}} = 3.77$,判断顺式异构体的 $\\mathrm{p}K_{\\mathrm{a}}$:"
         },
         {
           "type": "paragraph",
-          "text": "已知�-型异构体的 $) K _ { \\mathrm { a } } = 3 . 7 7$ ，判断�-型异构体的 $\\mathsf { p } K _ { \\mathsf { a } }$ ："
-        },
-        {
-          "type": "paragraph",
-          "text": "a) > 3.77； b) < 3.77； c) ⽆法判断。"
+          "text": "a) > 3.77; b) < 3.77; c) 无法判断。"
         }
       ]
     }

@@ -12,19 +12,13 @@
     "sourceLabel": "2019-33-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2019-33-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2019-33-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000072-01",
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出位于晶胞顶点和棱上的A原⼦的坐标参数；计算A1‒A2距离。"
+          "text": "写出位于晶胞顶点和棱上的A原子的坐标参数;计算A1‒A2距离。"
         }
       ]
     },
@@ -52,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "出所有B原⼦的坐标参数。"
+          "text": "写出所有B原子的坐标参数。"
         }
       ]
     },
@@ -62,11 +56,13 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "若将晶胞中顶⻆和棱上的A⽤另⼀种原⼦C替换，写出所得晶体的化学式。"
+          "text": "若将晶胞中顶角和棱上的A用另一种原子C替换,写出所得晶体的化学式。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "晶胞示意图(缺图)",
+          "alt": "晶胞示意图,显示A、B原子位置",
+          "src": ""
         }
       ]
     }

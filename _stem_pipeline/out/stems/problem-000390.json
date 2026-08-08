@@ -12,20 +12,21 @@
     "sourceLabel": "2011-25-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2011-25-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2011-25-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "线："
+      "text": "线:"
     },
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "图:",
+      "alt": "缺图"
     }
   ],
   "parts": [
@@ -35,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出A和C的结构简 $\\updownarrow \\updownarrow _ { \\updownarrow }$"
+          "text": "画出A和C的结构简式。"
         }
       ]
     },
@@ -65,7 +66,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "从周环反应的⻆度看，反应中间体G转化为⽬标产物需经过⼀次 迁移，其驱动⼒为 o"
+          "text": "从周环反应的角度看,反应中间体G转化为目标产物需经过一次 迁移,其驱动力为 o"
         }
       ]
     }

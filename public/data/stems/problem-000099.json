@@ -12,19 +12,13 @@
     "sourceLabel": "2020-34-CChO-juesai-1.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2020-34-CChO-juesai-2/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2020-34-CChO-juesai-2/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理公式与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000099-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "已知 298.15 K 时， $\\mathrm { N } _ { 2 } ( \\mathrm { g } )$ $\\mathrm { H } _ { 2 } ( \\mathrm { g } )$ 和 $\\mathrm { { N H _ { 3 } ( g ) } }$ 的标准摩尔熵 $S _ { m } ^ { \\ominus }$ 分别为 191.61 J $\\mathrm { K ^ { - 1 } m o l ^ { - 1 } }$ 、130.68 J $\\mathrm { K } ^ { - 1 }$ $\\mathrm { m o l ^ { - 1 } }$ 和 $1 9 2 . 4 5 \\mathrm { J } \\mathrm { K } ^ { - 1 } \\mathrm { m o l } ^ { - 1 }$ $\\mathrm { { N H _ { 3 } ( g ) } }$ 的标准摩尔⽣成焓 $\\Delta _ { \\mathrm { f } } H _ { \\mathrm { m } } ^ { \\ominus }$ 为−46.11 kJ $\\mathrm { m o l ^ { - 1 } c }$ 。计算298.15 K时合成氨反应$0 . 5 \\mathrm { N } _ { 2 } ( \\mathrm { g } ) + 1 . 5 \\mathrm { H } _ { 2 } ( \\mathrm { g } )  \\mathrm { N H } _ { 3 } ( \\mathrm { g } )$ 的标准平衡常数。"
+          "text": "已知 298.15 K 时,$\\mathrm{N_2(g)}$、$\\mathrm{H_2(g)}$ 和 $\\mathrm{NH_3(g)}$ 的标准摩尔熵 $S_m^\\ominus$ 分别为 191.61 J·K−1·mol−1、130.68 J·K−1·mol−1 和 192.45 J·K−1·mol−1;$\\mathrm{NH_3(g)}$ 的标准摩尔生成焓 $\\Delta_\\mathrm{f}H_\\mathrm{m}^\\ominus$ 为 −46.11 kJ·mol−1。计算 298.15 K 时合成氨反应 $0.5\\mathrm{N_2(g)} + 1.5\\mathrm{H_2(g)} \\rightarrow \\mathrm{NH_3(g)}$ 的标准平衡常数。"
         }
       ]
     },
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "假设上述合成氨反应在 298.15\\~723.15 K 温度范围内的标准摩尔反应焓为−49.31 kJ $\\mathrm { m o l ^ { - 1 } } _ { c }$ 。计算 723.15K时的标准平衡常数。"
+          "text": "假设上述合成氨反应在 298.15~723.15 K 温度范围内的标准摩尔反应焓为 −49.31 kJ·mol−1。计算 723.15 K 时的标准平衡常数。"
         }
       ]
     },
@@ -52,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "以 $\\mathrm { H } _ { 2 } ( \\mathrm { g } )$ 和 $\\mathrm { N } _ { 2 } ( \\mathrm { g } )$ 的物质的量之⽐为�:1投⼊原料⽓（除催化剂外，不含其他组分），在723.15 K和30.0MPa下反应，平衡⽓相中 $\\mathrm { N H } _ { 3 } ( \\mathrm { g } )$ 的物质的量分数为 $| y _ { \\circ }$ 。试推导出仅含�与�为变量的关系式。"
+          "text": "以 $\\mathrm{H_2(g)}$ 和 $\\mathrm{N_2(g)}$ 的物质的量之比为 3:1 投入原料气(除催化剂外,不含其他组分),在 723.15 K 和 30.0 MPa 下反应,平衡气相中 $\\mathrm{NH_3(g)}$ 的物质的量分数为 $y$。试推导出仅含 $y$ 与 $K_p$ 为变量的关系式。"
         }
       ]
     },
@@ -62,11 +56,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "绘出上述�随�变化曲线的⽰意图（须标注出极值点的坐标）。"
+          "text": "绘出上述 $y$ 随 $K_p$ 变化曲线的示意图(须标注出极值点的坐标)。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）\nm"
+          "type": "figure",
+          "caption": "(图:原卷此处有图,此处缺图)",
+          "alt": "y 随 K_p 变化曲线示意图,标注极值点坐标"
         }
       ]
     },
@@ -76,12 +71,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "实验测得合成氨反应 $0 . 5 \\mathrm { N } _ { 2 } ( \\mathrm { g } ) + 1 . 5 \\mathrm { H } _ { 2 } ( \\mathrm { g } )  \\mathrm { N H } _ { 3 } ( \\mathrm { g } )$ 在 723.15 K 和不同压⼒下 $\\begin{array} { r } { K _ { p } = \\frac { p _ { \\mathrm { N H _ { 3 } } } } { p _ { \\mathrm { N _ { 2 } } } ^ { 1 / 2 } p _ { \\mathrm { H _ { 2 } } } ^ { 3 / 2 } } } \\end{array}$ 如下表。试解释不同压⼒下的 $K _ { p }$ 为何不是常数。"
+          "text": "实验测得合成氨反应 $0.5\\mathrm{N_2(g)} + 1.5\\mathrm{H_2(g)} \\rightarrow \\mathrm{NH_3(g)}$ 在 723.15 K 和不同压力下 $K_p = \\frac{p_{\\mathrm{NH_3}}}{p_{\\mathrm{N_2}}^{1/2} p_{\\mathrm{H_2}}^{3/2}}$ 如下表。试解释不同压力下的 $K_p$ 为何不是常数。"
         },
         {
           "type": "callout",
           "tone": "info",
-          "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
+          "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
         }
       ]
     },
@@ -91,7 +86,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "以⽔和氮⽓为原料，采⽤合适的催化剂，可以实现常温常压⾮均相催化电化学合成氨，从⽽实现氨的绿⾊合成。若以 $\\mathrm { N a H C O _ { 3 } }$ ⽔溶液为电解质，试写出两个电极上的反应。"
+          "text": "以水和氮气为原料,采用合适的催化剂,可以实现常温常压非均相催化电化学合成氨,从而实现氨的绿色合成。若以 $\\mathrm{NaHCO_3}$ 水溶液为电解质,试写出两个电极上的反应。"
         }
       ]
     }

@@ -12,19 +12,13 @@
     "sourceLabel": "2019-33-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2019-33-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、合并空壳段落、删除无信息 callout。原始来源为 MinerU MD(初赛/2019-33-CChO-chusai/full.md) 程序化切分。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000071-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "溶液电导测定显⽰，A为1:1电离类型，只有⼀种外界离⼦。称取6.354 g晶体A，溶解后加⼊⾜量硝酸银溶液，得到 0.4778 g 乳⽩⾊沉淀 $\\mathbf { B } _ { \\circ }$"
+          "text": "溶液电导测定显示,A 为 1:1 电离类型,只有一种外界离子。称取 6.354 g 晶体 A,溶解后加入足量硝酸银溶液,得到 0.4778 g 乳白色沉淀 $\\mathrm{B}$。"
         }
       ]
     },
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "A 的元素分析结果为：C 32.02%；H 6.17%；O 14.35%（均为质量分数）。"
+          "text": "A 的元素分析结果为:C 32.02%;H 6.17%;O 14.35%(均为质量分数)。"
         }
       ]
     },
@@ -52,7 +46,11 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "单晶X射线衍射分析显⽰，A的结构中：氯仅有⼀种环境；稀⼟离⼦所处环境完全等同，它与配体结合形成多聚团簇，每个离⼦周围有5个氧原⼦；氧原⼦均参与配位且有三种类型（端基、边桥基和⾯桥基）。5-1 计算A的相对分⼦质量。"
+          "text": "单晶 X 射线衍射分析显示,A 的结构中:氯仅有一种环境;稀土离子所处环境完全等同,它与配体结合形成多聚团簇,每个离子周围有 5 个氧原子;氧原子均参与配位且有三种类型(端基、边桥基和金桥基)。"
+        },
+        {
+          "type": "paragraph",
+          "text": "5-1 计算 A 的相对分子质量。"
         }
       ]
     },
@@ -62,7 +60,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "通过计算，推出A的化学式。"
+          "text": "通过计算,推出 A 的化学式。"
         }
       ]
     },
@@ -72,7 +70,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出配合物结构中端基氧、边桥基氧合⾯桥基氧的数⽬。"
+          "text": "写出配合物结构中端基氧、边桥基氧和金桥基氧的数目。"
         }
       ]
     }

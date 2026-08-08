@@ -12,28 +12,30 @@
     "sourceLabel": "2014-28-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2014-28-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2014-28-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理格式。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第⼀步反应"
+      "text": "第一步反应"
+    },
+    {
+      "type": "figure",
+      "caption": "第一步反应示意图",
+      "alt": "第一步反应缺图"
     },
     {
       "type": "paragraph",
-      "text": "（图：）"
+      "text": "第二步反应"
     },
     {
-      "type": "paragraph",
-      "text": "第⼆步反应"
-    },
-    {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "第二步反应示意图",
+      "alt": "第二步反应缺图"
     },
     {
       "type": "paragraph",
@@ -41,7 +43,21 @@
     },
     {
       "type": "paragraph",
-      "text": "如在第⼀步反应过程中，当碘完全消耗后，⽴即加⼊适量的⽔，反应的主要产物则为顺式邻⼆醇。画出⽣成顺式邻⼆醇的两个主要中间体E和F的结构简式。"
+      "text": "如在第一步反应过程中,当碘完全消耗后,立即加入适量的水,反应的主要产物则为顺式邻二醇。画出生成顺式邻二醇的两个主要中间体E和F的结构简式。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "p1",
+      "label": "(1)",
+      "type": "drawing",
+      "prompt": "画出上述反应的4个关键中间体A、B、C和D的结构简式。"
+    },
+    {
+      "id": "p2",
+      "label": "(2)",
+      "type": "drawing",
+      "prompt": "如在第一步反应过程中,当碘完全消耗后,立即加入适量的水,反应的主要产物则为顺式邻二醇。画出生成顺式邻二醇的两个主要中间体E和F的结构简式。"
     }
   ]
 }

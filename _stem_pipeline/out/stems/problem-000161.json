@@ -12,16 +12,16 @@
     "sourceLabel": "2022-36-CChO-chusai-1.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2022-36-CChO-chusai-2/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2022-36-CChO-chusai-2/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "碳化铍 $\\mathrm { ( B e _ { 2 } C ) }$ 可以视为由 $\\mathrm { B e ^ { 2 + } }$ 与 $\\mathrm { C ^ { 4 ^ { - } } }$ 构成的反萤⽯型离⼦晶体。 $\\mathrm { B e _ { 2 } C }$ 的结构中包含独⽴的 $\\mathrm { C ^ { 4 ^ { - } } }$ −阴离⼦，遇⽔时会产⽣ $\\mathrm { C H _ { 4 } }$ 和化合物A。 $\\mathrm { B e _ { 2 } C }$ 也可作碳源⽤于制备⾦属有机化合物， $\\mathrm { B e _ { 2 } C }$ 与 $\\mathrm { H g C l _ { 2 } }$ 的盐酸溶液反应可以得到直线型有机汞化合物B和化合物C（反应1）。C也可以通过化合物A与HCl的反应得到。C和 $\\mathrm { ( P h _ { 4 } P ) C l }$ （氯化四苯基膦）反应所得产物的阴离⼦D为双核离⼦，它由两个以铍离⼦为中⼼的四⾯体共棱连接⽽成。D与 $\\mathrm { ( C H _ { 3 } ) _ { 3 } S i - N _ { 3 } }$ 按1:3计量⽐反应可以得到四核阴离⼦E，副产物为$\\mathrm { ( C H _ { 3 } ) _ { 3 } S i - C l }$ 和Cl−（反应2）。E含有 $\\mathrm { N } _ { 3 }$ −和Cl−两种配体， $\\mathrm { N } _ { 3 } { \\mathrm { \\cdot } }$ −配体只有⼀个N作为配位原⼦。已知E的对称性与甲烷相同。"
+      "text": "碳化铍 $\\mathrm{Be_2C}$ 可以视为由 $\\mathrm{Be^{2+}}$ 与 $\\mathrm{C^{4-}}$ 构成的反萤石型离子晶体。$\\mathrm{Be_2C}$ 的结构中包含独立的 $\\mathrm{C^{4-}}$ 阴离子,遇水时会产生 $\\mathrm{CH_4}$ 和化合物 A。$\\mathrm{Be_2C}$ 也可作碳源用于制备金属有机化合物,$\\mathrm{Be_2C}$ 与 $\\mathrm{HgCl_2}$ 的盐酸溶液反应可以得到直线型有机汞化合物 B 和化合物 C(反应 1)。C 也可以通过化合物 A 与 HCl 的反应得到。C 和 $\\mathrm{(Ph_4P)Cl}$(氯化四苯基膦)反应所得产物的阴离子 D 为双核离子,它由两个以铍离子为中心的四面体共棱连接而成。D 与 $\\mathrm{(CH_3)_3Si-N_3}$ 按 1:3 计量比反应可以得到四核阴离子 E,副产物为 $\\mathrm{(CH_3)_3Si-Cl}$ 和 $\\mathrm{Cl^-}$(反应 2)。E 含有 $\\mathrm{N_3^-}$ 和 $\\mathrm{Cl^-}$ 两种配体,$\\mathrm{N_3^-}$ 配体只有一个 N 作为配位原子。已知 E 的对称性与甲烷相同。"
     }
   ],
   "parts": [
@@ -31,7 +31,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出化合物A\\~C的化学式，画出阴离⼦D和四核配合物E的结构。（提⽰：E中 $\\mathrm { N _ { 3 } } ^ { - }$ 可作为整体⽰出）"
+          "text": "写出化合物 A~C 的化学式,画出阴离子 D 和四核配合物 E 的结构。(提示:E 中 $\\mathrm{N_3^-}$ 可作为整体示出)"
         }
       ]
     },
@@ -41,7 +41,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出反应1和反应2的离⼦⽅程式并配平。"
+          "text": "写出反应 1 和反应 2 的离子方程式并配平。"
         }
       ]
     }

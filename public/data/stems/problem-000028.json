@@ -12,20 +12,21 @@
     "sourceLabel": "2016-30-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2016-30-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2016-30-CChO-juesai/full.md)程序化切分并整理为结构化题干;本次经 DeepSeek 精修(修正 OCR 字形、LaTeX 及小问格式)。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "醇转化为相应的⻧代烃，是⼀类重要的反应。下列由醇制备相应氯代烃的⽅法具有⾼的⽴体选择性。其反应机理可以⽤下图表⽰："
+      "text": "醇转化为相应的卤代烃,是一类重要的反应。下列由醇制备相应氯代烃的方法具有高的立体选择性。其反应机理可以用下图表示:"
     },
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "反应机理图",
+      "alt": "原题所给反应机理图(缺图)"
     }
   ],
   "parts": [
@@ -35,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "请给出活性中间体A、B及另⼀产物C的结构简式。标出电⼦的流向，并表明其⽴体化学。"
+          "text": "请给出活性中间体 A、B 及另一产物 C 的结构简式。标出电子的流向,并表明其立体化学。"
         }
       ]
     },
@@ -45,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "该反应的活性⼤⼩主要取决于 。如果⽤ $\\mathrm { | { \\boldsymbol { p } } { - } \\mathrm { { O } } _ { 2 } N \\mathrm { { C } } _ { 6 } H _ { 4 } C O C l }$ 代替 PhCOCl，该反应的速率将 （增⼤/减⼩/不变）。"
+          "text": "该反应的活性大小主要取决于 ______。如果用 $p\\text{-}\\mathrm{O_2NC_6H_4COCl}$ 代替 $\\mathrm{PhCOCl}$,该反应的速率将 ______(增大/减小/不变)。"
         }
       ]
     }

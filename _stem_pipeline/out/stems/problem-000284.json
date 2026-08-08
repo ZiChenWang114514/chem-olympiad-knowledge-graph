@@ -12,16 +12,17 @@
     "sourceLabel": "2006-20-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2006-20-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2006-20-CChO-chusai/full.md)程序化切分并整理为结构化题干;经 DeepSeek 精修(OCR 错字、LaTeX 规范化、结构整理)。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "第 5 题（6 分）配制 KI (0.100 M)-I_{2}的⽔溶液，⽤ $\\mathrm { 0 . 1 0 0 \\ M \\ N a _ { 2 } S _ { 2 } O _ { 3 } }$ 标准溶液测得 $c ( \\mathrm { I } _ { 2 } ) = 4 . 8 5 \\times 1 0 ^ { - 3 } \\mathrm { M } \\circ$ 量取$5 0 . 0 \\mathrm { m L } \\mathrm { K I - I _ { 2 } }$ 溶液和 $5 0 . 0 \\mathrm { m L C C l } _ { 4 }$ 置于分液漏⽃中振荡达平衡，分液后测知 $\\mathrm { C C l _ { 4 } }$ 相中 $c ( \\mathrm { I } _ { 2 } ) = 2 . 6 0 \\times 1 0 ^ { - 3 } \\mathrm { M }$ O已知实验温度下 $\\mathrm { C C l _ { 4 } }$ 从⽔溶液中萃取I_{2}的分配⽐为 $8 5 { : } 1 _ { \\mathrm { c } }$ 。求⽔溶液中 $\\mathrm { I } _ { 2 } + \\mathrm { I } ^ { - } = \\mathrm { I } _ { 3 }$ −的平衡常数。"
+      "text": "第 5 题(6 分)配制 KI (0.100 M)–I2 的水溶液,用 0.100 M Na2S2O3 标准溶液测得 c(I2) = 4.85×10−3 M。量取 50.0 mL KI–I2 溶液和 50.0 mL CCl4 置于分液漏斗中振荡达平衡,分液后测知 CCl4 相中 c(I2) = 2.60×10−3 M。已知实验温度下 CCl4 从水溶液中萃取 I2 的分配比为 85:1。求水溶液中 I2 + I− = I3− 的平衡常数。"
     }
-  ]
+  ],
+  "parts": []
 }

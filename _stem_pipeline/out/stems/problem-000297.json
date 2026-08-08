@@ -12,20 +12,20 @@
     "sourceLabel": "2006-20-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2006-20-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2006-20-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理公式与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "步骤⼀：⽤邻苯⼆甲酸氢钾标定氢氧化钠，测得氢氧化钠标准溶液的浓度为0.1055mol L−1。氢氧化钠标准溶液在未密闭的情况放置两天后（溶剂挥发忽略不计），按照下列⽅法测定了氢氧化钠标准溶液吸收的CO 的量：移取25.00 mL该标准碱液⽤0.1152 mol L−1的HCl 滴定⾄酚酞变⾊为终点，消耗HCl 标准溶液22.78$\\mathrm { m L } _ { \\circ }$"
+      "text": "步骤一:用邻苯二甲酸氢钾标定氢氧化钠,测得氢氧化钠标准溶液的浓度为 $0.1055\\ \\mathrm{mol\\ L^{-1}}$。氢氧化钠标准溶液在未密闭的情况下放置两天后(溶剂挥发忽略不计),按照下列方法测定了氢氧化钠标准溶液吸收的 $\\mathrm{CO_2}$ 的量:移取 $25.00\\ \\mathrm{mL}$ 该标准碱液,用 $0.1152\\ \\mathrm{mol\\ L^{-1}}$ 的 $\\mathrm{HCl}$ 滴定至酚酞变色为终点,消耗 $\\mathrm{HCl}$ 标准溶液 $22.78\\ \\mathrm{mL}$。"
     },
     {
       "type": "paragraph",
-      "text": "步骤⼆：称取纯的有机弱酸(H_{2}B)样品0.1963 ${ \\bf g } _ { \\circ }$ 。将样品定量溶解在50.00mL纯⽔中，选择甲基橙为指⽰剂进⾏滴定。当加⼊新标定的0.0950mol L−1氢氧化钠标准溶液9.21 mL时，发现该法不当，遂停⽌滴定，⽤酸度计测定了停⽌滴定时溶液的 $\\mathrm { p H } = 2 . 8 7 _ { \\mathrm { c } }$ 。已知 $\\mathrm { H _ { 2 } B }$ 的 $\\mathrm { p } K _ { a 1 } = 2 . 8 6 \\mathrm { p } K _ { a 2 } = 5 . 7 0 \\AA$"
+      "text": "步骤二:称取纯的有机弱酸 $\\mathrm{H_2B}$ 样品 $0.1963\\ \\mathrm{g}$。将样品定量溶解在 $50.00\\ \\mathrm{mL}$ 纯水中,选择甲基橙为指示剂进行滴定。当加入新标定的 $0.0950\\ \\mathrm{mol\\ L^{-1}}$ 氢氧化钠标准溶液 $9.21\\ \\mathrm{mL}$ 时,发现该法不当,遂停止滴定,用酸度计测定了停止滴定时溶液的 $\\mathrm{pH} = 2.87$。已知 $\\mathrm{H_2B}$ 的 $\\mathrm{p}K_{a1} = 2.86$,$\\mathrm{p}K_{a2} = 5.70$。"
     }
   ],
   "parts": [
@@ -35,7 +35,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "按步骤⼀计算放置两天后的氢氧化钠标准溶液每升吸收了多少克 $\\mathrm { { C O } _ { 2 \\circ } }$"
+          "text": "按步骤一计算放置两天后的氢氧化钠标准溶液每升吸收了多少克 $\\mathrm{CO_2}$。"
         }
       ]
     },
@@ -45,7 +45,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "按步骤⼆估算该⼆元弱酸 $\\mathrm { H _ { 2 } B }$ 的分⼦量。"
+          "text": "按步骤二估算该二元弱酸 $\\mathrm{H_2B}$ 的分子量。"
         }
       ]
     },
@@ -55,7 +55,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "试设计⼀个正确的测定该弱酸分⼦量的滴定分析⽅法，指明滴定剂，指⽰剂，并计算化学计量点的 $\\mathrm { p H } _ { \\circ }$"
+          "text": "试设计一个正确的测定该弱酸分子量的滴定分析方法,指明滴定剂、指示剂,并计算化学计量点的 $\\mathrm{pH}$。"
         }
       ]
     },
@@ -65,7 +65,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "若使⽤步骤⼀放置两天后的氢氧化钠标准溶液⽤设计的正确⽅法测定该⼆元弱酸的分⼦量，计算由此引起的相对误差。"
+          "text": "若使用步骤一放置两天后的氢氧化钠标准溶液用设计的正确方法测定该二元弱酸的分子量,计算由此引起的相对误差。"
         }
       ]
     }

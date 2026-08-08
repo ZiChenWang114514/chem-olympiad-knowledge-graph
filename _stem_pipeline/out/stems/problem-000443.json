@@ -12,20 +12,21 @@
     "sourceLabel": "2014-28-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2014-28-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2014-28-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、合并拆分小问、删除无信息 callout。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "Hg·Ba·Cu·O ⾼温超导晶体 A 属四⽅晶系，正当晶胞如下图所⽰：晶胞参数� = 388.8 pm， $c = 9 5 4 . 6 \\mathrm { p m } _ { \\cdot }$"
+      "text": "Hg·Ba·Cu·O 高温超导晶体 A 属四方晶系,正当晶胞如下图所示:晶胞参数 $a = 388.8\\,\\mathrm{pm}$,$c = 954.6\\,\\mathrm{pm}$。"
     },
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "A 的正当晶胞示意图",
+      "alt": "四方晶系晶胞,含 Hg、Ba、Cu、O 原子"
     }
   ],
   "parts": [
@@ -35,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "铜离⼦易形成配合物。请说明 $\\mathrm { \\ C u ( N H _ { 3 } ) _ { 6 } ] ^ { 2 } }$ +和 $\\mathrm { [ F e ( C N ) _ { 6 } ] ^ { 4 - } }$ 的空间构型。写出不变形配离⼦的全部轴次最⾼的旋转轴（⽅向及位置）。"
+          "text": "铜离子易形成配合物。请说明 $\\mathrm{[Cu(NH_3)_6]^{2+}}$ 和 $\\mathrm{[Fe(CN)_6]^{4-}}$ 的空间构型。写出不变形配离子的全部轴次最高的旋转轴(方向及位置)。"
         }
       ]
     },
@@ -45,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出A的周期性重复的最⼩单位。"
+          "text": "写出 A 的周期性重复的最小单位。"
         }
       ]
     },
@@ -55,7 +56,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出A晶胞中Ba离⼦的分数坐标（两个Ba离⼦之间的距离为�）。"
+          "text": "写出 A 晶胞中 Ba 离子的分数坐标(两个 Ba 离子之间的距离为 $a$)。"
         }
       ]
     },
@@ -65,7 +66,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "通过参杂 X 离⼦可以获得具有更⾼临界转变温度的超导材料 $\\mathbf { B } _ { \\circ }$ 。B 也属于四⽅晶系，晶胞参数 $a = 3 8 5 . 9$ $\\mathrm { p m } , c = 1 2 6 9 . 7 \\mathrm { p m }$ ，正当晶胞的组成为 $\\mathrm { H g B a _ { 2 } X C u _ { 2 } O _ { 6 \\circ } }$ 。部分离⼦坐标为：X (0.5, 0.5, �)，Ba (0.5, 0.5, 0.2202)，Cu (0, 0, 0.3771)， $\\mathrm { O _ { ( 1 ) } } \\left( 0 , 0 . 5 , 0 . 3 7 7 1 \\right)$ ， $\\mathrm { O _ { ( 2 ) } } \\left( 0 , 0 , 0 . 1 5 5 6 \\right)$ $\\mathrm { O } _ { ( 3 ) } \\ ( 0 . 5 , 0 , 0 . 3 7 7 1 )$ 。B的全部宏观对称元素与A相同，画出以Hg为顶点的B的正当晶胞，并指出�的数值。"
+          "text": "通过掺杂 X 离子可以获得具有更高临界转变温度的超导材料 B。B 也属于四方晶系,晶胞参数 $a = 385.9\\,\\mathrm{pm}$,$c = 1269.7\\,\\mathrm{pm}$,正当晶胞的组成为 $\\mathrm{HgBa_2XCu_2O_6}$。部分离子坐标为:X (0.5, 0.5, $z$),Ba (0.5, 0.5, 0.2202),Cu (0, 0, 0.3771),$\\mathrm{O_{(1)}}(0, 0.5, 0.3771)$,$\\mathrm{O_{(2)}}(0, 0, 0.1556)$,$\\mathrm{O_{(3)}}(0.5, 0, 0.3771)$。B 的全部宏观对称元素与 A 相同,画出以 Hg 为顶点的 B 的正当晶胞,并指出 $z$ 的数值。"
         }
       ]
     },
@@ -75,7 +76,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出A、B⼆晶体中Cu原⼦的氧配位数。"
+          "text": "写出 A、B 二晶体中 Cu 原子的氧配位数。"
         }
       ]
     },
@@ -85,19 +86,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "已知B晶体理论理论密度6.49 $\\mathrm { g c m } ^ { - 3 }$ ，通过计算说明X是何种元素。第6题（10分）"
-        },
-        {
-          "type": "paragraph",
-          "text": "下列反应，其⾃由能在⼀定范围符合给出的关系式："
-        },
-        {
-          "type": "paragraph",
-          "text": "$$\n\\begin{array}{l l}2 \\mathrm{NaHCO} _ {3} (\\mathrm{s}) \\rightarrow \\mathrm{Na} _ {2} \\mathrm{CO} _ {3} (\\mathrm{s}) + \\mathrm{H} _ {2} \\mathrm{O} (\\mathrm{g}) + \\mathrm{CO} _ {2} (\\mathrm{g})&\\Delta_ {\\mathrm{r}} G _ {\\mathrm{m}} ^ {\\ominus} = [ 1 2 9 0 7 6 - 3 3 4. 2 T / \\mathrm{K} ] \\mathrm{Jmol} ^ {- 1}\\\\\\mathrm{NH} _ {4} \\mathrm{HCO} _ {3} (\\mathrm{s}) \\rightarrow \\mathrm{NH} _ {3} (\\mathrm{g}) + \\mathrm{H} _ {2} \\mathrm{O} (\\mathrm{g}) + \\mathrm{CO} _ {2} (\\mathrm{g})&\\Delta_ {\\mathrm{r}} G _ {\\mathrm{m}} ^ {\\ominus} = [ 1 7 1 5 0 2 - 4 7 6. 4 T / \\mathrm{K} ] \\mathrm{Jmol} ^ {- 1}\\end{array}\n$$"
-        },
-        {
-          "type": "paragraph",
-          "text": "以下问题中与上述反应相关的⾃由能，均可由上述条件式计算，所有分压均须以 $\\lceil p ^ { \\ominus }$ 表⽰。"
+          "text": "已知 B 晶体理论密度 $6.49\\,\\mathrm{g\\,cm^{-3}}$,通过计算说明 X 是何种元素。"
         }
       ]
     },
@@ -107,7 +96,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算在 298 K 时，当 $\\mathrm { { N a H C O _ { 3 } ( s ) } }$ $\\mathrm { N a _ { 2 } C O _ { 3 } ( s ) }$ 和 $\\mathrm { N H _ { 4 } H C O _ { 3 } ( s ) }$ 平衡共存时氨的分压 $p _ { \\mathrm { N H } _ { 3 } }$"
+          "text": "计算在 298 K 时,当 $\\mathrm{NaHCO_3(s)}$、$\\mathrm{Na_2CO_3(s)}$ 和 $\\mathrm{NH_4HCO_3(s)}$ 平衡共存时氨的分压 $p_{\\mathrm{NH_3}}$。"
         }
       ]
     },
@@ -117,7 +106,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "将 NaHCO_{3}(s)， $\\mathrm { N a _ { 2 } C O _ { 3 } ( s ) }$ 和 $\\mathrm { N H _ { 4 } H C O _ { 3 } ( s ) }$ 放⼊⼀个真空容器中平衡后，体系的独⽴组分数�，相数 $\\scriptstyle \\cdot \\varphi$ 和⾃由度�各为多少？"
+          "text": "将 $\\mathrm{NaHCO_3(s)}$、$\\mathrm{Na_2CO_3(s)}$ 和 $\\mathrm{NH_4HCO_3(s)}$ 放入一个真空容器中平衡后,体系的独立组分数 $C$、相数 $\\varphi$ 和自由度 $f$ 各为多少?"
         }
       ]
     },
@@ -127,7 +116,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算当 $p _ { \\mathrm { N H } _ { 3 } } = p ^ { \\ominus } / 2 \\sharp \\updownarrow$ $\\mathrm { { N a H C O _ { 3 } ( s ) } }$ $\\mathrm { N a _ { 2 } C O _ { 3 } ( s ) }$ 和 $\\mathrm { N H _ { 4 } H C O _ { 3 } ( s ) }$ 平衡共存的温度。"
+          "text": "计算当 $p_{\\mathrm{NH_3}} = p^{\\ominus}/2$ 时,$\\mathrm{NaHCO_3(s)}$、$\\mathrm{Na_2CO_3(s)}$ 和 $\\mathrm{NH_4HCO_3(s)}$ 平衡共存的温度。"
         }
       ]
     },
@@ -137,7 +126,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在 298 K 时，将 $\\mathrm { { N a H C O _ { 3 } ( s ) } }$ $\\mathrm { N a _ { 2 } C O _ { 3 } ( s ) }$ 和 $\\mathrm { N H _ { 4 } H C O _ { 3 } ( s ) }$ 共同置于密闭容器中，使 $\\mathrm { N H _ { 4 } H C O _ { 3 } ( s ) }$ 免受更多的分解，这种设想能否实现？请⽤热⼒学原理计算说明。"
+          "text": "在 298 K 时,将 $\\mathrm{NaHCO_3(s)}$、$\\mathrm{Na_2CO_3(s)}$ 和 $\\mathrm{NH_4HCO_3(s)}$ 共同置于密闭容器中,使 $\\mathrm{NH_4HCO_3(s)}$ 免受更多的分解,这种设想能否实现?请用热力学原理计算说明。"
         }
       ]
     },
@@ -147,7 +136,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在 373 K， $p ^ { \\ominus }$ 条件下，将含有 $\\mathrm { H _ { 2 } O ( g ) }$ 和 $\\mathrm { C O _ { 2 } ( g ) }$ 通过 $\\mathrm { { N a H C O _ { 3 } ( s ) } }$ ，计算：为避免 $\\mathrm { { N a H C O _ { 3 } ( s ) } }$ 分解，⽓流中⽔的摩尔分数。"
+          "text": "在 373 K、$p^{\\ominus}$ 条件下,将含有 $\\mathrm{H_2O(g)}$ 和 $\\mathrm{CO_2(g)}$ 通过 $\\mathrm{NaHCO_3(s)}$,计算:为避免 $\\mathrm{NaHCO_3(s)}$ 分解,气流中水的摩尔分数。"
         }
       ]
     },
@@ -157,32 +146,15 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "CO_{2}(g)温室⽓体，焙烧 $\\mathrm { C a C O _ { 3 } } ( s )$ 时产⽣过程有两种："
-        }
-      ]
-    },
-    {
-      "id": "part-000443-13",
-      "label": "6-6",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "-1 $\\mathrm { C a C O _ { 3 } ( s ) }$ 热分解制⽣⽯灰，不同温度下的分解压⼒即 $\\mathrm { C O _ { 2 } }$ 点平衡压⼒⽰于下表。由 $\\mathrm { C a C O _ { 3 } ( s ) }$ 烧制⽣⽯灰时，若窑中⽓体不与外界对流，则窑温⾄少应维持多少度？"
+          "text": "$\\mathrm{CO_2(g)}$ 是温室气体,焙烧 $\\mathrm{CaCO_3(s)}$ 时产生 $\\mathrm{CO_2}$ 的过程有两种:"
         },
         {
-          "type": "callout",
-          "tone": "info",
-          "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
-        }
-      ]
-    },
-    {
-      "id": "part-000443-14",
-      "label": "6-6",
-      "blocks": [
+          "type": "paragraph",
+          "text": "-1 $\\mathrm{CaCO_3(s)}$ 热分解制生石灰,不同温度下的分解压力即 $\\mathrm{CO_2}$ 平衡压力示于下表。由 $\\mathrm{CaCO_3(s)}$ 烧制生石灰时,若窑中气体不与外界对流,则窑温至少应维持多少度?"
+        },
         {
           "type": "paragraph",
-          "text": "-2 ⽤焦炭作燃料产⽣ $\\mathrm { C O } _ { 2 } \\mathrm { { : } }$ ：若通⼊空⽓的量恰好能使其中的 $\\mathrm { O _ { 2 } }$ 完全转化为 $\\mathrm { C O } _ { 2 } ,$ ，燃烧后的⽓体从窖顶逸出，欲使 $\\mathrm { C a C O _ { 3 } ( s ) }$ 不断分解，窑的温度最低维持多少？（设空⽓体积分数为 $2 1 . 0 \\% \\mathrm { O } _ { 2 }$ 和 $7 9 . 0 \\% \\mathrm { N } _ { 2 } .$ ，每种⽓体均看作理想⽓体）"
+          "text": "-2 用焦炭作燃料产生 $\\mathrm{CO_2}$:若通入空气的量恰好能使其中的 $\\mathrm{O_2}$ 完全转化为 $\\mathrm{CO_2}$,燃烧后的气体从窑顶逸出,欲使 $\\mathrm{CaCO_3(s)}$ 不断分解,窑的温度最低维持多少?(设空气体积分数为 $21.0\\%\\ \\mathrm{O_2}$ 和 $79.0\\%\\ \\mathrm{N_2}$,每种气体均看作理想气体)"
         }
       ]
     }

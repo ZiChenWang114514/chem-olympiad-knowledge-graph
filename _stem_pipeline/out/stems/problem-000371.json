@@ -12,16 +12,17 @@
     "sourceLabel": "2010-24-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2010-24-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2010-24-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "题图",
+      "alt": "题目所需的结构图,原图缺失"
     }
   ],
   "parts": [
@@ -31,7 +32,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "请写出步骤A\\~D所需的试剂及必要的反应条件。"
+          "text": "请写出步骤A~D所需的试剂及必要的反应条件。"
         }
       ]
     },
@@ -41,7 +42,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出化合物2和4的⽴体结构式（⽤上图所⽰的虚线⼀楔线式表⽰）。"
+          "text": "画出化合物2和4的立体结构式(用上图所示的虚线-楔线式表示)。"
         }
       ]
     },
@@ -51,7 +52,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "化合物7分⼦中含有⼏个不对称碳原⼦？画出7的椅式构象表达式并标出各不对称碳原⼦的构型（⽤�/�标记）。"
+          "text": "化合物7分子中含有几个不对称碳原子?画出7的椅式构象表达式并标出各不对称碳原子的构型(用R/S标记)。"
         }
       ]
     },
@@ -61,7 +62,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Pallescensin A 的红外光谱表明没有羰基的吸收峰，请画出 Pallescensin A 的⽴体结构式（⽤虚线-楔线式表⽰）并⽤反应机理解释由7转化为Pallescensin A的反应（写出两个关键中间体）。"
+          "text": "Pallescensin A 的红外光谱表明没有羰基的吸收峰,请画出 Pallescensin A 的立体结构式(用虚线-楔线式表示)并用反应机理解释由7转化为Pallescensin A的反应(写出两个关键中间体)。"
         }
       ]
     }

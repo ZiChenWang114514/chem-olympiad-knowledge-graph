@@ -12,19 +12,13 @@
     "sourceLabel": "2007-21-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2007-21-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2007-21-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000309-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出化合物A的阴离⼦的结构式。"
+          "text": "画出化合物A的阴离子的结构式。"
         }
       ]
     },
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出化合物B的结构式并写出它与⽔反应的化学⽅程式。"
+          "text": "画出化合物B的结构式并写出它与水反应的化学方程式。"
         }
       ]
     },
@@ -52,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "化合物C有⼀个互变异构体，给出C及其互变异构体的结构式。"
+          "text": "化合物C有一个互变异构体,给出C及其互变异构体的结构式。"
         }
       ]
     },
@@ -62,7 +56,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出上述尿素受热发⽣反应的配平⽅程式。"
+          "text": "写出上述尿素受热发生反应的配平方程式。"
         }
       ]
     }

@@ -12,19 +12,13 @@
     "sourceLabel": "2021-35-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2021-35-CChO-chusai-jiangsu/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2021-35-CChO-chusai-jiangsu/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、合并空壳段落。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000112-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "钒铁(FeV)⽤ $\\mathrm { C l } _ { 2 }$ 充分氯化。"
+          "text": "钒铁(FeV)用 $\\mathrm{Cl_2}$ 充分氯化。"
         }
       ]
     },
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$\\mathrm { { C r } _ { 2 } O _ { 3 } }$ 与 $\\mathrm { K C l O _ { 3 } }$ 固体混合物⾼温下熔融，放出的⽓体均为⻩绿⾊。"
+          "text": "$\\mathrm{Cr_2O_3}$ 与 $\\mathrm{KClO_3}$ 固体混合物高温下熔融,放出的气体均为黄绿色。"
         }
       ]
     },
@@ -52,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$\\mathrm { T i C l _ { 3 } }$ 溶液与 $\\mathrm { C u C l _ { 2 } }$ 溶液反应。"
+          "text": "$\\mathrm{TiCl_3}$ 溶液与 $\\mathrm{CuCl_2}$ 溶液反应。"
         }
       ]
     },
@@ -62,7 +56,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "雌⻩⽤SnCl_{2}的盐酸溶液还原为雄⻩（已知雌⻩和雄⻩中砷含量分别为60.91%和70.03%）。"
+          "text": "雌黄用 $\\mathrm{SnCl_2}$ 的盐酸溶液还原为雄黄(已知雌黄和雄黄中砷含量分别为 60.91% 和 70.03%)。"
         }
       ]
     },
@@ -72,7 +66,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$\\mathrm { M g _ { 2 } C _ { 3 } }$ 与⾜量⽔反应。"
+          "text": "$\\mathrm{Mg_2C_3}$ 与足量水反应。"
         }
       ]
     }

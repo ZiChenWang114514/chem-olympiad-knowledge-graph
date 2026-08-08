@@ -12,33 +12,33 @@
     "sourceLabel": "2021-35-CChO-chusai-fujian.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2021-35-CChO-chusai-jiangsu/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2021-35-CChO-chusai-jiangsu/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错误、整理公式与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "⽔煤⽓制备过程会发⽣如下两个反应："
+      "text": "水煤气制备过程会发生如下两个反应:"
     },
     {
       "type": "paragraph",
-      "text": "$$\n\\begin{array}{l l}\\mathrm {C(s)+ H_ {2} O(g)\\rightarrow H_ {2} (g) + CO(g)}&K _ {I} ^ {\\ominus}\\\\\\mathrm {CO(g)+ H_ {2} O(g)\\rightarrow H_ {2} (g) + CO_ {2} (g)}&K _ {I I} ^ {\\ominus}\\end{array}\n$$"
+      "text": "$$\\begin{array}{ll} \\mathrm{C(s)+H_2O(g)\\rightarrow H_2(g)+CO(g)} & K_{\\mathrm{I}}^{\\ominus} \\\\ \\mathrm{CO(g)+H_2O(g)\\rightarrow H_2(g)+CO_2(g)} & K_{\\mathrm{II}}^{\\ominus} \\end{array}$$"
     },
     {
       "type": "paragraph",
-      "text": "已知所涉及物质在298K时的热⼒学数据如下表："
+      "text": "已知所涉及物质在298 K时的热力学数据如下表:"
     },
     {
       "type": "callout",
       "tone": "info",
-      "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
+      "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
     },
     {
       "type": "paragraph",
-      "text": "请作适当的近似处理，回答以下问题。"
+      "text": "请作适当的近似处理,回答以下问题。"
     }
   ],
   "parts": [
@@ -48,7 +48,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "求算以上两个反应在 1300K时的平衡常数 $K _ { \\mathrm { I } } ^ { \\ominus }$ 和 $K _ { \\mathrm { I I } } ^ { \\ominus }$ 。"
+          "text": "求算以上两个反应在 1300 K 时的平衡常数 $K_{\\mathrm{I}}^{\\ominus}$ 和 $K_{\\mathrm{II}}^{\\ominus}$。"
         }
       ]
     },
@@ -58,7 +58,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "设 $\\mathrm { 1 m o l H _ { 2 } O }$ 与过量的C(s)在1300 K，100 kPa条件下反应达到平衡，求各⽓体物质的摩尔分数（若 ${ \\bf 6 - }$ 1问没能求算出结果，可取 $K _ { \\mathrm { I } } ^ { \\ominus } \\ = 5 0$ $K _ { \\mathrm { I I } } ^ { \\ominus } = 0 . 2 0 )$"
+          "text": "设 $1\\ \\mathrm{mol\\ H_2O}$ 与过量的 C(s) 在 1300 K、100 kPa 条件下反应达到平衡,求各气体物质的摩尔分数(若 6-1 问没能求算出结果,可取 $K_{\\mathrm{I}}^{\\ominus}=50$,$K_{\\mathrm{II}}^{\\ominus}=0.20$)。"
         }
       ]
     }

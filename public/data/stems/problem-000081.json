@@ -12,20 +12,21 @@
     "sourceLabel": "2019-33-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2019-33-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2019-33-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "在碱性条件下，化合物A和B中有⼀个发⽣消除反应⽣成C。"
+      "text": "在碱性条件下,化合物A和B中有一个发生消除反应生成C。"
     },
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "反应示意图",
+      "alt": "缺图:显示化合物A和B的结构及反应条件"
     }
   ],
   "parts": [
@@ -35,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "指出发⽣消除反应⽣成C的是哪⼀个化合物。简述理由。"
+          "text": "指出发生消除反应生成C的是哪一个化合物。简述理由。"
         }
       ]
     },
@@ -45,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在同样的反应条件下，另⼀个化合物发⽣消除反应⽣成D。D可使酸性 $\\mathrm { K M n O } _ { 4 }$ 溶液褪⾊，但不与LiAIH_{4}发⽣反应。画出D的结构简式。"
+          "text": "在同样的反应条件下,另一个化合物发生消除反应生成D。D可使酸性 $\\mathrm{KMnO_4}$ 溶液褪色,但不与 $\\mathrm{LiAlH_4}$ 发生反应。画出D的结构简式。"
         }
       ]
     },
@@ -55,7 +56,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出化合物B的优势构象；⽤\\*标记处化合物B中的不对称碳原⼦，并说明�、�构型。"
+          "text": "画出化合物B的优势构象;用*标记化合物B中的不对称碳原子,并说明R、S构型。"
         }
       ]
     }

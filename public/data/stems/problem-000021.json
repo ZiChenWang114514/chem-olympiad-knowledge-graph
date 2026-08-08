@@ -12,19 +12,13 @@
     "sourceLabel": "2016-30-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2016-30-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2016-30-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理缺失图占位。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000021-01",
@@ -32,11 +26,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "以下两种⽣物碱可以在室温下相互转化，在达到平衡态时，两者的⽐例为3:2。画出它们互相转化时中间体A的⽴体结构简式。"
+          "text": "以下两种生物碱可以在室温下相互转化,达到平衡态时两者的比例为 3:2。画出它们相互转化时中间体 A 的立体结构简式。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "(原题图缺失:两种生物碱结构及其相互转化示意图)",
+          "alt": "原题图缺失:两种生物碱结构及其相互转化示意图"
         }
       ]
     },
@@ -46,11 +41,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出下⾯反应过程中合理的关键反应中间体的结构简式（3个）。"
+          "text": "画出下列反应过程中合理的关键反应中间体的结构简式(3 个)。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "(原题图缺失:反应流程示意图)",
+          "alt": "原题图缺失:反应流程示意图"
         }
       ]
     }

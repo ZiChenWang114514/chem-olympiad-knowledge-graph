@@ -12,19 +12,13 @@
     "sourceLabel": "2010-24-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2010-24-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2010-24-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、合并空壳段落、删除无信息 callout。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000359-01",
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出由E转变为F，F转变为G，G转变为H的离⼦⽅程式。"
+          "text": "写出由E转变为F,F转变为G,G转变为H的离子方程式。"
         }
       ]
     },
@@ -52,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "A中的⾦属元素M可以形成 $\\mathbf { M O } _ { 2 }$ 和 $\\mathrm { Z n } { \\bf M } _ { 2 } \\mathrm { O } _ { 4 }$ ，它们均为磁性材料，⼴泛⽤于制作磁带和磁盘。分别写出$\\mathbf { M O } _ { 2 }$ 和 $\\mathrm { Z n { \\bf M } _ { 2 } O _ { 4 } }$ 中M的价电⼦组态。"
+          "text": "A中的金属元素M可以形成 $\\mathrm{MO_2}$ 和 $\\mathrm{ZnM_2O_4}$,它们均为磁性材料,广泛用于制作磁带和磁盘。分别写出 $\\mathrm{MO_2}$ 和 $\\mathrm{ZnM_2O_4}$ 中M的价电子组态。"
         }
       ]
     },
@@ -62,11 +56,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "A中的⾦属元素M可以形成不同形式的羰基化合物或者羰基阴离⼦，按照18电⼦规则画出"
-        },
-        {
-          "type": "paragraph",
-          "text": "$\\mathrm { N a _ { 2 } [ M _ { 2 } ( C O ) _ { 1 0 } ] }$ ]的阴离⼦结构，指出M的氧化态。"
+          "text": "A中的金属元素M可以形成不同形式的羰基化合物或者羰基阴离子,按照18电子规则画出 $\\mathrm{Na_2[M_2(CO)_{10}]}$ 的阴离子结构,指出M的氧化态。"
         }
       ]
     }

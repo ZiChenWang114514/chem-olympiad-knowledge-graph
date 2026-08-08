@@ -12,19 +12,13 @@
     "sourceLabel": "2018-32-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2018-32-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2018-32-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。已由 DeepSeek 精修:修正 OCR 错字与全角兼容字符,规范 LaTeX/mhchem 表达式,将「(图:)」占位转换为 figure 块,删除无信息 callout,合并空壳段落。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000056-01",
@@ -32,47 +26,40 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "以下化合物与⼄胺均可发⽣亲核取代反应，写出亲核取代反应的类型。"
+          "text": "以下化合物与乙胺均可发生亲核取代反应,写出亲核取代反应的类型。"
         },
         {
           "type": "paragraph",
-          "text": "$$\n\\mathrm{CH} _ {3} \\mathrm{Br}\n$$"
+          "text": "$$CH3Br$$"
         },
         {
           "type": "paragraph",
-          "text": "$$\n\\mathrm{CH} _ {3} \\mathrm{I}\n$$"
+          "text": "$$CH3I$$"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "化合物 A",
+          "alt": "化合物 A 的结构(原图缺失)"
         },
         {
-          "type": "paragraph",
-          "text": "A"
+          "type": "figure",
+          "caption": "化合物 B",
+          "alt": "化合物 B 的结构(原图缺失)"
         },
         {
-          "type": "paragraph",
-          "text": "B"
+          "type": "figure",
+          "caption": "化合物 C",
+          "alt": "化合物 C 的结构(原图缺失)"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "化合物 D",
+          "alt": "化合物 D 的结构(原图缺失)"
         },
         {
-          "type": "paragraph",
-          "text": "C"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "D"
-        },
-        {
-          "type": "paragraph",
-          "text": "E"
+          "type": "figure",
+          "caption": "化合物 E",
+          "alt": "化合物 E 的结构(原图缺失)"
         }
       ]
     },
@@ -82,7 +69,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "按亲核取代反应进⾏的快慢，对以上化合物（⽤字⺟表⽰）进⾏排序（从快到慢）。"
+          "text": "按亲核取代反应进行的快慢,对以上化合物(用字母表示)进行排序(从快到慢)。"
         }
       ]
     },
@@ -92,47 +79,32 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "判断下列正离⼦（⽤字⺟表⽰）稳定性的顺序（从稳定到不稳定）。"
+          "text": "判断下列正离子(用字母表示)稳定性的顺序(从稳定到不稳定)。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "正离子 F",
+          "alt": "正离子 F 的结构(原图缺失)"
         },
         {
-          "type": "paragraph",
-          "text": "F"
+          "type": "figure",
+          "caption": "正离子 G",
+          "alt": "正离子 G 的结构(原图缺失)"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "正离子 H",
+          "alt": "正离子 H 的结构(原图缺失)"
         },
         {
-          "type": "paragraph",
-          "text": "G"
+          "type": "figure",
+          "caption": "正离子 I",
+          "alt": "正离子 I 的结构(原图缺失)"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "H"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "I"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "K"
+          "type": "figure",
+          "caption": "正离子 K",
+          "alt": "正离子 K 的结构(原图缺失)"
         }
       ]
     }

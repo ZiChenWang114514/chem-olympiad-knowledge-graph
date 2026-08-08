@@ -12,19 +12,13 @@
     "sourceLabel": "2016-30-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2016-30-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由公开竞赛 PDF(2016-30-CChO-chusai)程序化切分并整理为结构化题干;经 DeepSeek 精修(OCR 错字、LaTeX、小问结构)。公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000017-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算295K下体系达平衡时 $\\mathrm { N _ { 2 } O _ { 4 } }$ 和 $\\mathrm { N O _ { 2 } }$ 的分压。"
+          "text": "计算 295 K 下体系达平衡时 $\\mathrm{N_2O_4}$ 和 $\\mathrm{NO_2}$ 的分压。"
         }
       ]
     },
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "将上述体系温度升⾄315K，计算达平衡时 $\\mathrm { N _ { 2 } O _ { 4 } }$ 和 $\\mathrm { N O _ { 2 } }$ 的分压。"
+          "text": "将上述体系温度升至 315 K,计算达平衡时 $\\mathrm{N_2O_4}$ 和 $\\mathrm{NO_2}$ 的分压。"
         }
       ]
     },
@@ -52,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算恒压下体系分别在315K和295K达平衡时的体积⽐及物质的量之⽐。"
+          "text": "计算恒压下体系分别在 315 K 和 295 K 达平衡时的体积比及物质的量之比。"
         }
       ]
     },
@@ -62,7 +56,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "保持恒压条件下，不断升⾼温度，体系中NO_{2}分压最⼤值的理论趋近值是多少（不考虑其他反应）？根据平衡关系式给出证明。"
+          "text": "保持恒压条件下,不断升高温度,体系中 $\\mathrm{NO_2}$ 分压最大值的理论趋近值是多少(不考虑其他反应)?根据平衡关系式给出证明。"
         }
       ]
     },
@@ -72,11 +66,11 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "上述体系在保持恒外压的条件下，温度从295K升⾄315K，下列说法正确的是："
+          "text": "上述体系在保持恒外压的条件下,温度从 295 K 升至 315 K,下列说法正确的是:"
         },
         {
           "type": "paragraph",
-          "text": "(a) 平衡向左移动 (b) 平衡不移动 (c) 平衡向右移动 (d) 三者均有可能"
+          "text": "(a)平衡向左移动 (b)平衡不移动 (c)平衡向右移动 (d)三者均有可能"
         }
       ]
     },
@@ -86,59 +80,11 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "与体系在恒容条件下温度从295K升⾄315K的变化相⽐，恒压下体系温度升⾼，下列说法正确的是(简述理由，不要求计算)："
+          "text": "与体系在恒容条件下温度从 295 K 升至 315 K 的变化相比,恒压下体系温度升高,下列说法正确的是(简述理由,不要求计算):"
         },
         {
           "type": "paragraph",
-          "text": "(a) 平衡移动程度更⼤ (b) 平衡移动程度更⼩ (c) 平衡移动程度不变 (d) 三者均有可能第7题（8分）⼄醇在醋酸菌作⽤下被空⽓氧化是制造醋酸的有效⽅法，然⽽这⼀传统过程远远不能满⾜⼯业的需求。⽬前 ⼯业上多采⽤甲醇和⼀氧化碳反应制备醋酸： $\\mathrm { C H _ { 3 } O H + C O  C H _ { 3 } C O O H _ { c } }$ 。第9族元素 $( \\mathrm { C o }$"
-        },
-        {
-          "type": "paragraph",
-          "text": "Rh, Ir)的⼀些配合物是上述反应良好的催化剂。以[Rh(CO)_{2}I_{2}]−为催化剂、以碘甲烷为助催化剂合成⼄酸（Monsanto法）的⽰意图如下："
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）"
-        }
-      ]
-    },
-    {
-      "id": "part-000017-07",
-      "label": "7-1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "在催化循环中，A和碘甲烷发⽣氧化加成反应，变为 $\\mathbf { B } _ { \\circ }$ 。画出B及其⼏何异构体B1的结构⽰意图。"
-        }
-      ]
-    },
-    {
-      "id": "part-000017-08",
-      "label": "7-2",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "分别写出化合物A和D中铑的氧化态及其周围的电⼦数。"
-        }
-      ]
-    },
-    {
-      "id": "part-000017-09",
-      "label": "7-3",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "写出由E⽣成醋酸的反应式（E须⽤结构简式表⽰）。"
-        }
-      ]
-    },
-    {
-      "id": "part-000017-10",
-      "label": "7-4",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "当将上述醋酸合成过程的催化剂改为 $[ \\mathrm { I r } ( \\mathrm { C O } ) _ { 2 } \\mathrm { I } _ { 2 } ] ^ { \\cdot }$ −，被称作Cativa法。Cativa法催化循环过程与Monsanto法类似，但中间体C和D（中⼼离⼦均为Ir）有差别，原因在于：由B（中⼼离⼦为Ir）变为 $\\mathbf { C } ,$ 发⽣的是CO取代I−的反应；由C到D过程中则发⽣甲基迁移。画出C的⾯式结构⽰意图。"
+          "text": "(a)平衡移动程度更大 (b)平衡移动程度更小 (c)平衡移动程度不变 (d)三者均有可能"
         }
       ]
     }

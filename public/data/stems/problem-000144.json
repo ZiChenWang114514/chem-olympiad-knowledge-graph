@@ -12,16 +12,17 @@
     "sourceLabel": "2021-35-CChO-juesai-1.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2021-35-CChO-juesai-1/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2021-35-CChO-juesai-1/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理公式与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "（图：）\n图 3-1"
+      "type": "figure",
+      "caption": "图 3-1",
+      "alt": "二维材料结构示意图"
     }
   ],
   "parts": [
@@ -31,7 +32,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出该⼆维材料的⼀个正当晶胞，并分别指出其含有C、N原⼦的数⽬。"
+          "text": "画出该二维材料的一个正当晶胞,并分别指出其含有 C、N 原子的数目。"
         }
       ]
     },
@@ -41,7 +42,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "该⼆维材料除了上图所⽰结构外，还存在⼀种同分异构体，其正当晶胞⾯积为上图结构的正当晶胞⾯积的4/9。画出该异构体的⼀个正当晶胞。"
+          "text": "该二维材料除了上图所示结构外,还存在一种同分异构体,其正当晶胞面积为上图结构的正当晶胞面积的 4/9。画出该异构体的一个正当晶胞。"
         }
       ]
     },
@@ -51,11 +52,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "研究表明，在单掺杂后，Au主要位于如下图所⽰的碳原⼦缺陷位，并与周围的三个氮原⼦配位形成$\\mathrm { A u { - N _ { 3 } } }$ 位点。除前述的⼀种掺杂外，单掺杂的Au还可能存在于其他的C、N原⼦缺陷位点。这些缺陷位点还有⼏种（只需写出数⽬，不考虑掺杂引起的晶格畸变）？"
+          "text": "研究表明,在单掺杂后,Au 主要位于如下图所示的碳原子缺陷位,并与周围的三个氮原子配位形成 $\\mathrm{Au-N_3}$ 位点。除前述的一种掺杂外,单掺杂的 Au 还可能存在于其他的 C、N 原子缺陷位点。这些缺陷位点还有几种(只需写出数目,不考虑掺杂引起的晶格畸变)?"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "",
+          "alt": "碳原子缺陷位示意图"
         }
       ]
     },
@@ -65,11 +67,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "反应位点中原⼦的间距对催化反应有重要影响。在此反应中，HCl与Au-N_{3}位点结合后被活化，进⽽与⼄炔发⽣加成反应，得到氯⼄烯，其中HCl被活化后的结构中H原⼦与Cl原⼦间的距离是重要的参数。结构模拟⻅下图，Au—N(1)，Au—N(2)，Au—N(3)键键⻓分别为 203 pm、206 pm、200 pm，Au-Cl 键键⻓ 233pm，N(1)—H 键键⻓ 102 pm，Cl—Au—N(1)，Cl—Au—N(2)，Cl—Au—N(3)的键⻆分别为 100°，170°，100°，Au—N(1)—H 键⻆ 90°，Cl—Au—N(1)—H ⼆⾯⻆为 0°，计算 H 与 Cl 间的距离。"
+          "text": "反应位点中原子的间距对催化反应有重要影响。在此反应中,HCl 与 Au-N$_3$ 位点结合后被活化,进而与乙炔发生加成反应,得到氯乙烯,其中 HCl 被活化后的结构中 H 原子与 Cl 原子间的距离是重要的参数。结构模拟见下图,Au—N(1)、Au—N(2)、Au—N(3) 键长分别为 203 pm、206 pm、200 pm,Au—Cl 键键长 233 pm,N(1)—H 键键长 102 pm,Cl—Au—N(1)、Cl—Au—N(2)、Cl—Au—N(3) 的键角分别为 100°、170°、100°,Au—N(1)—H 键角 90°,Cl—Au—N(1)—H 二面角为 0°,计算 H 与 Cl 间的距离。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "",
+          "alt": "HCl 与 Au-N3 位点结合的结构模拟图"
         }
       ]
     }

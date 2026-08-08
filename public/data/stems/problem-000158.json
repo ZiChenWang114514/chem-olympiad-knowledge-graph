@@ -12,21 +12,17 @@
     "sourceLabel": "2021-35-CChO-juesai-2.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "未能从 MD 可靠切分正文（决赛/2021-35-CChO-juesai-2/full.md）；仅写入元数据标题占位，待人工补全。",
+  "provenanceNote": "DeepSeek 精修:原题干正文缺失,仅保留标题占位;已移除警告 callout,保留标题段落。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "callout",
-      "tone": "warn",
-      "text": "本题干正文自动切分失败，仅显示题目标题占位。"
-    },
-    {
       "type": "paragraph",
       "text": "8 · 化学反应与结构综合分析"
     }
-  ]
+  ],
+  "parts": []
 }

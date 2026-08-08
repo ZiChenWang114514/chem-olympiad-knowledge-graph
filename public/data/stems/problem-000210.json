@@ -12,40 +12,41 @@
     "sourceLabel": "2023-37-CChO-juesai-1.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2023-37-CChO-juesai-2/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2023-37-CChO-juesai-2/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、合并小问、移除无信息 callout。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "甲酸受热分解有脱⽔和脱羧两种⽅式：⽅式 (1) $\\mathrm { H C O O H } = \\mathrm { H _ { 2 } O } + \\mathrm { C O }$ （脱⽔）⽅式 (2) $\\mathrm { H C O O H } = \\mathrm { H } _ { 2 } + \\mathrm { C O } _ { 2 }$ （脱羧）"
+      "text": "甲酸受热分解有脱水和脱羧两种方式:方式 (1) $\\mathrm{HCOOH} = \\mathrm{H_2O} + \\mathrm{CO}$ (脱水)方式 (2) $\\mathrm{HCOOH} = \\mathrm{H_2} + \\mathrm{CO_2}$ (脱羧)"
     },
     {
       "type": "paragraph",
-      "text": "在⾼温⽔热⽆催化剂条件下，主要发⽣⽅式(1)。为获得⽔热条件下脱⽔反应的相关数据，开展了以下实验：室温下向耐压⽯英核磁管中加⼊1mol L−1的甲酸⽔溶液并密封，在温度�下反应⼀段时间后，记录温度 � 下核磁管中液相的体积占⽐ $x _ { T }$ ，随后将⽯英管快速降⾄室温终⽌反应（此时液相占⽐与反应温度�时的不同），利⽤核磁分析液相和⽓相中各物种的浓度，通过计算得到甲酸分解的转化率，进⽽分析反应热⼒学和动⼒学。甲酸⽔热脱羧反应的机理如图3.1所⽰，其中质⼦化甲酸中间体的⽣成是快速平衡反应："
+      "text": "在高温水热无催化剂条件下,主要发生方式(1)。为获得水热条件下脱水反应的相关数据,开展了以下实验:室温下向耐压石英核磁管中加入1 mol L−1的甲酸水溶液并密封,在温度 $T$ 下反应一段时间后,记录温度 $T$ 下核磁管中液相的体积占比 $x_T$ ,随后将石英管快速降至室温终止反应(此时液相占比与反应温度 $T$ 时的不同),利用核磁分析液相和气相中各物种的浓度,通过计算得到甲酸分解的转化率,进而分析反应热力学和动力学。甲酸水热脱羧反应的机理如图3.1所示,其中质子化甲酸中间体的生成是快速平衡反应:"
+    },
+    {
+      "type": "figure",
+      "caption": "图 3.1 甲酸水热脱水反应的机理",
+      "alt": "甲酸水热脱水反应的机理图(原图缺失)"
     },
     {
       "type": "paragraph",
-      "text": "（图：）\n图 3.1 甲酸⽔热脱⽔反应的机理"
+      "text": "研究表明,当向反应体系中加入HCl,反应速率 $r_1$ 与甲酸和H+ 浓度的关系为:"
     },
     {
       "type": "paragraph",
-      "text": "研究表明，当向反应体系中加⼊HCl，反应速率 $r _ { 1 }$ 与甲酸和H+ 浓度的关系为："
+      "text": "$$r_1 = k_1 (\\mathrm{HCOOH}) \\left(\\mathrm{H^+}\\right)$$"
     },
     {
       "type": "paragraph",
-      "text": "$$\nr _ {1} = k _ {1} (\\mathrm{HCOOH}) \\left(\\mathrm{H} ^ {+}\\right)\n$$"
+      "text": "若反应体系中不加HCl,甲酸分解速率 $r_2$ 与甲酸浓度的关系为:"
     },
     {
       "type": "paragraph",
-      "text": "若反应体系中不加HCl，甲酸分解速率 $r _ { 2 }$ 与甲酸浓度的关系为："
-    },
-    {
-      "type": "paragraph",
-      "text": "$$\nr _ {2} = k _ {2} (\\mathrm{HCOOH}) ^ {1. 5}\n$$"
+      "text": "$$r_2 = k_2 (\\mathrm{HCOOH})^{1.5}$$"
     }
   ],
   "parts": [
@@ -55,7 +56,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "推导加HCl和不加HCl两种情形下的反应动⼒学⽅程。"
+          "text": "推导加HCl和不加HCl两种情形下的反应动力学方程。"
         }
       ]
     },
@@ -65,32 +66,32 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "通过反应速率常数 $k _ { 1 }$ 和 $k _ { 2 }$ 可以获得甲酸在⽔热条件下的酸解平衡常 $K _ { a }$ ，在 $2 0 0 { \\sim } 3 0 0 ^ { \\circ } \\mathrm { C }$ 范围内，测得不同温度下的反应速率常数 $k _ { 1 }$ 和 $k _ { 2 }$ ⻅下表："
+          "text": "通过反应速率常数 $k_1$ 和 $k_2$ 可以获得甲酸在水热条件下的酸解平衡常数 $K_a$ ,在 $200\\sim 300^\\circ \\mathrm{C}$ 范围内,测得不同温度下的反应速率常数 $k_1$ 和 $k_2$ 见下表:"
         },
         {
           "type": "callout",
           "tone": "info",
-          "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
+          "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
         }
       ]
     },
     {
       "id": "part-000210-03",
-      "label": "3-2",
+      "label": "3-2-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 推导 $\\mathsf { p } K _ { a }$ 与 $k _ { 1 }$ 和 $k _ { 2 }$ 的关系式。"
+          "text": "推导 $\\mathrm{p}K_a$ 与 $k_1$ 和 $k_2$ 的关系式。"
         }
       ]
     },
     {
       "id": "part-000210-04",
-      "label": "3-2",
+      "label": "3-2-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 计算上表中不同温度下的 $\\mathsf { p } K _ { a }$ ，并解释其随温度变化的原因。"
+          "text": "计算上表中不同温度下的 $\\mathrm{p}K_a$ ,并解释其随温度变化的原因。"
         }
       ]
     },
@@ -100,19 +101,19 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "甲酸⽔热脱羧反应的平衡常数�定义如下："
+          "text": "甲酸水热脱羧反应的平衡常数 $K$ 定义如下:"
         },
         {
           "type": "paragraph",
-          "text": "$$\nK = [ \\mathrm{CO} (\\mathrm{aq}) ] [ \\mathrm{HCOOH} (\\mathrm{aq}) ]\n$$"
+          "text": "$$K = [\\mathrm{CO(aq)}][\\mathrm{HCOOH(aq)}]$$"
         },
         {
           "type": "paragraph",
-          "text": "其中，[CO(aq)]和[HCOOH(aq)]分别为达平衡时液相中CO和甲酸的浓度。体系中CO在⽓相 $( \\mathrm { g } )$ 和液相 (aq)中都存在，⽽甲酸主要存在于液相中。本实验需将反应体系冷⾄室温后才能进⾏产物浓度分析，但⽆法直接测得反应温度�下的液相浓度，测得的是整个反应体系中（包含⽓相和液相）达到平衡后 CO 和甲酸的摩尔数之⽐：$Q \\ = \\ n ( \\mathrm { C O } ) / n ( \\mathrm { H C O O H } )$ 。CO在液相和⽓相中的分配系数 $K _ { D }$ 定义为： $K _ { D } = [ \\mathrm { C O ( g ) / C O ( a q ) } ]$"
+          "text": "其中,[CO(aq)]和[HCOOH(aq)]分别为达平衡时液相中CO和甲酸的浓度。体系中CO在气相 $(\\mathrm{g})$ 和液相 (aq)中都存在,而甲酸主要存在于液相中。本实验需将反应体系冷至室温后才能进行产物浓度分析,但无法直接测得反应温度 $T$ 下的液相浓度,测得的是整个反应体系中(包含气相和液相)达到平衡后 CO 和甲酸的摩尔数之比:$Q = n(\\mathrm{CO})/n(\\mathrm{HCOOH})$ 。CO在液相和气相中的分配系数 $K_D$ 定义为: $K_D = [\\mathrm{CO(g)}]/[\\mathrm{CO(aq)}]$"
         },
         {
           "type": "paragraph",
-          "text": "推导�的表达式，⽤�、 $K _ { D }$ 和 $x _ { T }$ 等实验中的可观测量来表达。"
+          "text": "推导 $K$ 的表达式,用 $Q$、 $K_D$ 和 $x_T$ 等实验中的可观测量来表达。"
         }
       ]
     },
@@ -122,15 +123,15 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "实验数据表明，在 $2 0 0 { \\sim } 3 0 0 ^ { \\circ } \\mathrm { C }$ 的温度范围内，lg�和lg $K _ { D }$ 均与温度的倒数 $1 / T$ 呈较好的线性关系，如下式所⽰，其中�以K为单位："
+          "text": "实验数据表明,在 $200\\sim 300^\\circ \\mathrm{C}$ 的温度范围内,$\\lg K$ 和 $\\lg K_D$ 均与温度的倒数 $1/T$ 呈较好的线性关系,如下式所示,其中 $T$ 以K为单位:"
         },
         {
           "type": "paragraph",
-          "text": "$$\n\\lg K = - 3. 0 \\times 1 0 ^ {3} / T + 5. 9; \\quad \\lg K _ {D} = 1. 3 \\times 1 0 ^ {3} / T - 1. 4\n$$"
+          "text": "$$\\lg K = -3.0\\times 10^3/T + 5.9; \\quad \\lg K_D = 1.3\\times 10^3/T - 1.4$$"
         },
         {
           "type": "paragraph",
-          "text": "计算 $2 0 0 { \\sim } 3 0 0 \\ { } ^ { \\circ } \\mathrm { C }$ 内甲酸脱⽔反应的标准摩尔焓变 $\\Delta H ^ { \\ominus } \\mathrm { _ { C O } }$ 和CO在液相中的溶解焓 $\\cdot _ { \\Delta H } \\Theta _ { \\mathrm { p } }$ C"
+          "text": "计算 $200\\sim 300^\\circ \\mathrm{C}$ 内甲酸脱水反应的标准摩尔焓变 $\\Delta H^{\\ominus}_{\\mathrm{CO}}$ 和CO在液相中的溶解焓 $\\Delta H^{\\ominus}_{\\mathrm{D}}$"
         }
       ]
     },
@@ -140,36 +141,36 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "实验发现，当 $x _ { T } < 0 . 1$ 时，在 $2 0 0 { \\sim } 3 0 0 \\ { } ^ { \\circ } \\mathrm { C }$ 范围内，lg�与 $1 / T$ 也具有良好的线性关系，其斜率为 $k _ { Q }$ 满⾜以下关系：−2.303 � $k _ { Q } = \\Delta H ^ { \\ominus } \\mathrm { c o } + \\beta \\Delta H ^ { \\ominus } \\mathrm { _ { D c } }$"
+          "text": "实验发现,当 $x_T < 0.1$ 时,在 $200\\sim 300^\\circ \\mathrm{C}$ 范围内,$\\lg Q$ 与 $1/T$ 也具有良好的线性关系,其斜率为 $k_Q$ 满足以下关系:$-2.303 k_Q = \\Delta H^{\\ominus}_{\\mathrm{CO}} + \\beta \\Delta H^{\\ominus}_{\\mathrm{D}}$"
         }
       ]
     },
     {
       "id": "part-000210-08",
-      "label": "3-5",
+      "label": "3-5-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 推导 $\\beta$ 的表达式，⽤ $K _ { D }$ 和 $x _ { T }$ 表⽰。"
+          "text": "推导 $\\beta$ 的表达式,用 $K_D$ 和 $x_T$ 表示。"
         }
       ]
     },
     {
       "id": "part-000210-09",
-      "label": "3-5",
+      "label": "3-5-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 解释当 $x _ { T } < 0 . 1$ 时，lg � 与 $1 / T$ 具有良好线性关系的原因。"
+          "text": "解释当 $x_T < 0.1$ 时,$\\lg Q$ 与 $1/T$ 具有良好线性关系的原因。"
         },
         {
           "type": "paragraph",
-          "text": "提⽰：对于函数 $y = f ( x )$ ，� 对 � 的导数 d $y /  { \\mathrm { d } } x$ 如下表所⽰（表中�和�均为常数，�是�的函数）："
+          "text": "提示:对于函数 $y = f(x)$ ,$y$ 对 $x$ 的导数 $\\mathrm{d}y/\\mathrm{d}x$ 如下表所示(表中 $a$ 和 $b$ 均为常数,$u$ 是 $x$ 的函数):"
         },
         {
           "type": "callout",
           "tone": "info",
-          "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
+          "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
         }
       ]
     },
@@ -179,15 +180,16 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "选择合适的催化剂，可使甲酸在温和条件下⾼选择性发⽣脱羧反应，获得氢⽓。Ru配合物Ru-1就是其中之⼀，其催化甲酸脱羧的机理如图3.2所⽰（注：循环箭头上只给出了部分反应物和离去物）。"
+          "text": "选择合适的催化剂,可使甲酸在温和条件下高选择性发生脱羧反应,获得氢气。Ru配合物Ru-1就是其中之一,其催化甲酸脱羧的机理如图3.2所示(注:循环箭头上只给出了部分反应物和离去物)。"
+        },
+        {
+          "type": "figure",
+          "caption": "图 3.2 过渡金属催化的甲酸脱羧反应",
+          "alt": "过渡金属催化的甲酸脱羧反应机理图(原图缺失)"
         },
         {
           "type": "paragraph",
-          "text": "（图：）\n图 3.2 过渡⾦属催化的甲酸脱羧反应"
-        },
-        {
-          "type": "paragraph",
-          "text": "图 3.2 中，A、B、C 均为 Ru 的 6 配位化合物，其中均含有 Cl 元素；A′和 C′的结构类似于 A 和 $\\mathbf { C } ,$ ，但不含氯；X为某种反应物；Ru的价态在催化循环中保持不变。写出配合物A、B、C、A′、C′的结构（有机配体可以⽤ $\\mathrm { N P _ { 3 } }$ 代表）。"
+          "text": "图 3.2 中,A、B、C 均为 Ru 的 6 配位化合物,其中均含有 Cl 元素;A′和 C′的结构类似于 A 和 C,但不含氯;X为某种反应物;Ru的价态在催化循环中保持不变。写出配合物A、B、C、A′、C′的结构(有机配体可以用 $\\mathrm{NP_3}$ 代表)。"
         }
       ]
     }

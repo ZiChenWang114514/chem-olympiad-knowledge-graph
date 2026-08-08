@@ -12,28 +12,29 @@
     "sourceLabel": "2011-25-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2011-25-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2011-25-CChO-chusai/full.md)程序化切分并整理为结构化题干;经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "$$\n2 \\mathrm{A} \\rightarrow \\mathrm{C} + \\mathrm{D}\\tag{1}\n$$"
+      "text": "$2\\mathrm{A} \\rightarrow \\mathrm{C} + \\mathrm{D}$  (1)"
     },
     {
       "type": "paragraph",
-      "text": "$$\n\\mathbf {D} + \\mathbf {B} \\rightarrow \\mathbf {A} + \\mathrm{H} _ {2}\\tag{2}\n$$"
+      "text": "$\\mathrm{D} + \\mathrm{B} \\rightarrow \\mathrm{A} + \\mathrm{H}_2$  (2)"
     },
     {
       "type": "paragraph",
-      "text": "$$\n\\mathbf {C} + \\mathbf {B} \\rightarrow \\mathbf {E} + \\mathrm{H} _ {2}\\tag{3}\n$$"
+      "text": "$\\mathrm{C} + \\mathrm{B} \\rightarrow \\mathrm{E} + \\mathrm{H}_2$  (3)"
     },
     {
       "type": "paragraph",
-      "text": "将A和B按1:2的摩尔（物质的量）⽐混合，在催化剂作⽤下，所含的氢全部以氢⽓放出，失重$1 0 . 4 \\% _ { \\textmd { o } }$ A、C、E均能⽔解⽣成F和 $\\mathbf { D } _ { \\circ }$ 。G是由X和Y组成的⼆元化合物，其阴离⼦是⼆氧化碳的等电⼦体，G分解⽣成E和⼀种⽆⾊⽆味的⽓体 $\\mathbf { I } _ { \\circ }$ 写出A、B、C、D、E、F、G和I的化学式。"
+      "text": "将A和B按1:2的摩尔(物质的量)比混合,在催化剂作用下,所含的氢全部以氢气放出,失重$10.4\\%$。A、C、E均能水解生成F和D。G是由X和Y组成的二元化合物,其阴离子是二氧化碳的等电子体,G分解生成E和一种无色无味的气体I。写出A、B、C、D、E、F、G和I的化学式。"
     }
-  ]
+  ],
+  "parts": []
 }

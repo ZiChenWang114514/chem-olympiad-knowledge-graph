@@ -12,20 +12,21 @@
     "sourceLabel": "2023-37-CChO-juesai-1.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2023-37-CChO-juesai-2/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2023-37-CChO-juesai-2/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "在上个世纪五⼗年代，Corey课题组在全合成�-檀⾹烯(�-Santalene)中⾸先将右旋樟脑(1)的�位溴化，⽣成�-溴樟脑(2)；接着在氯磺酸中溴化转化为3，再利⽤锌粉选择性还原碳基�位溴、最终形成(+)-4。这种制备光学纯化合物(+)-4 的迂回策略是必须的，因为右旋樟脑(1)直接在氯磺酸中溴化则会得到部分外消旋化的 4。"
+      "text": "在上个世纪五十年代,Corey 课题组在全合成 α-檀香烯(α-Santalene)中首先将右旋樟脑(1)的 α 位溴化,生成 α-溴樟脑(2);接着在氯磺酸中溴化转化为 3,再利用锌粉选择性还原碳基 α 位溴、最终形成 (+)-4。这种制备光学纯化合物 (+)-4 的迂回策略是必须的,因为右旋樟脑(1)直接在氯磺酸中溴化则会得到部分外消旋化的 4。"
     },
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "反应路线示意图(原图缺失)",
+      "alt": "反应路线示意图(原图缺失)"
     }
   ],
   "parts": [
@@ -35,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出从2⽣成3的关键中间体。"
+          "text": "画出从 2 生成 3 的关键中间体。"
         }
       ]
     },
@@ -45,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出从(+)-1 ⽣成(−)-4 的关键中间体。"
+          "text": "画出从 (+)-1 生成 (−)-4 的关键中间体。"
         }
       ]
     },
@@ -55,7 +56,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "简要解释为何化合物2在溴化重排过程中没有发⽣外消旋化；⽽(+)-1则发⽣了外消旋化。"
+          "text": "简要解释为何化合物 2 在溴化重排过程中没有发生外消旋化;而 (+)-1 则发生了外消旋化。"
         }
       ]
     }

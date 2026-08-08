@@ -12,16 +12,16 @@
     "sourceLabel": "2023-37-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2023-37-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2023-37-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "随着锂电池的⼴泛应⽤，锂已成为重要的战略资源，被称为⽩⾊⽯油。据估计，海⽔中锂的总含量为陆地锂总含量的5000倍以上，但海⽔中锂的质量浓度仅为0.1\\~0.2 ppm，从海⽔提取锂⾸先需要对低浓度的Li+进⾏选择性富集，Li+能够嵌⼊某些氧化物并在⼀定条件下脱出，据此可以进⾏Li+的富集。"
+      "text": "随着锂电池的广泛应用,锂已成为重要的战略资源,被称为白色石油。据估计,海水中锂的总含量为陆地锂总含量的5000倍以上,但海水中锂的质量浓度仅为0.1~0.2 ppm,从海水提取锂首先需要对低浓度的Li+进行选择性富集,Li+能够嵌入某些氧化物并在一定条件下脱出,据此可以进行Li+的富集。"
     }
   ],
   "parts": [
@@ -31,7 +31,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "以 $\\mathrm { L i _ { 2 } C O _ { 3 } }$ 和 $\\mathrm { M n O _ { 2 } }$ 为原料，充分混合后在 $7 2 0 ~ ^ { \\circ } \\mathrm { C }$ 下煅烧3 h，冷⾄室温后即可得到复合氧化物$\\mathrm { L i M n _ { 2 } O _ { 4 } }$ (LMO)。⽤ 1 mol L−1的 HCl 在 $6 0 ~ ^ { \\circ } \\mathrm { C }$ 处理LMO，将其中所有Li+置换后得到HMO，HMO可以和Li+反应再⽣成LMO，然后LMO与酸作⽤脱出Li+从⽽实现Li+富集。如此，可以循环处理。"
+          "text": "以 $\\mathrm{Li_2CO_3}$ 和 $\\mathrm{MnO_2}$ 为原料,充分混合后在 $720\\,^{\\circ}\\mathrm{C}$ 下煅烧3 h,冷至室温后即可得到复合氧化物 $\\mathrm{LiMn_2O_4}$ (LMO)。用 1 mol L−1的 HCl 在 $60\\,^{\\circ}\\mathrm{C}$ 处理LMO,将其中所有Li+置换后得到HMO,HMO可以和Li+反应再生成LMO,然后LMO与酸作用脱出Li+从而实现Li+富集。如此,可以循环处理。"
         }
       ]
     },
@@ -41,7 +41,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 写出合成 $\\mathrm { L i M n _ { 2 } O _ { 4 } }$ 的⽅程式。"
+          "text": "-1 写出合成 $\\mathrm{LiMn_2O_4}$ 的方程式。"
         }
       ]
     },
@@ -51,7 +51,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 ⽤酸处理LMO时，除离⼦交换反应之外也会发⽣⼀个副反应，该副反应导致固体中Mn的平均氧化态有所升⾼，写出副反应对应的化学⽅程式。这⼀副反应对再⽣后的HMO的富集性能有何影响？"
+          "text": "-2 用酸处理LMO时,除离子交换反应之外也会发生一个副反应,该副反应导致固体中Mn的平均氧化态有所升高,写出副反应对应的化学方程式。这一副反应对再生后的HMO的富集性能有何影响?"
         }
       ]
     },
@@ -61,7 +61,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "利⽤电化学富集也是有效的⽅法之⼀。某电化学系统如图所⽰，其包含两个电池单元，中间区域置有具有⼀维孔道结构的λ- $\\cdot \\mathrm { M n O _ { 2 } }$ ，该孔道可以容纳合适的阳离⼦进出 $\\mathrm { M n O } _ { 2 \\circ }$ 电极通过阳离⼦交换膜与两个电化学池中的对电极隔开，腔室1和2中的电解质分别为0.5M的$\\mathrm { N a } _ { 2 } \\mathrm { S O } _ { 4 }$ 和 0.1 M 的 $\\mathrm { L i O H _ { \\circ } }$ 。该电化学系统的⼯作步骤如下：1）向 $\\mathrm { M n O _ { 2 } }$ 所在腔室通⼊海⽔，启动电源1，使海⽔中的Li+进⼊ $\\mathrm { M n O _ { 2 } }$ 结构⽽形成 $\\mathrm { L i } _ { x } \\mathrm { M n } _ { 2 } \\mathrm { O } _ { 4 } ;$ 2）关闭电源1和海⽔通道，启动电源2，同时向电极2上通⼊空⽓，使 $\\mathrm { L i } _ { x } \\mathrm { M n } _ { 2 } \\mathrm { O } _ { 4 }$ 中的Li+脱出进⼊腔室2。"
+          "text": "利用电化学富集也是有效的方法之一。某电化学系统如图所示,其包含两个电池单元,中间区域置有具有一维孔道结构的λ-$\\mathrm{MnO_2}$,该孔道可以容纳合适的阳离子进出 $\\mathrm{MnO_2}$。电极通过阳离子交换膜与两个电化学池中的对电极隔开,腔室1和2中的电解质分别为0.5M的 $\\mathrm{Na_2SO_4}$ 和 0.1 M 的 $\\mathrm{LiOH}$。该电化学系统的工作步骤如下:1)向 $\\mathrm{MnO_2}$ 所在腔室通入海水,启动电源1,使海水中的Li+进入 $\\mathrm{MnO_2}$ 结构而形成 $\\mathrm{Li_xMn_2O_4}$;2)关闭电源1和海水通道,启动电源2,同时向电极2上通入空气,使 $\\mathrm{Li_xMn_2O_4}$ 中的Li+脱出进入腔室2。"
         }
       ]
     },
@@ -71,15 +71,16 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 为衡量 $\\mathrm { M n O _ { 2 } }$ 对 Li+的富集效果，将 0.50M 的 LiCl溶液通⼊MnO_{2} (4.8 mg)所在腔室，启动电源1，使电流"
+          "text": "-1 为衡量 $\\mathrm{MnO_2}$ 对 Li+的富集效果,将 0.50M 的 LiCl溶液通入 $\\mathrm{MnO_2}$ (4.8 mg)所在腔室,启动电源1,使电流"
+        },
+        {
+          "type": "figure",
+          "caption": "电化学富集系统示意图",
+          "alt": "缺图:电化学富集系统示意图"
         },
         {
           "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "恒定在5.0mA，累计⼯作325s后发现 $\\mathrm { M n O _ { 2 } }$ 的电极电势快速下降，计算所得 $\\mathrm { L i } _ { x } \\mathrm { M n } _ { 2 } \\mathrm { O } _ { 4 }$ 中的�。3-2-2 写出上述过程中发⽣腔室2中阴极和阳极上的电极反应。"
+          "text": "恒定在5.0mA,累计工作325s后发现 $\\mathrm{MnO_2}$ 的电极电势快速下降,计算所得 $\\mathrm{Li_xMn_2O_4}$ 中的x。3-2-2 写出上述过程中发生腔室2中阴极和阳极上的电极反应。"
         }
       ]
     }

@@ -12,16 +12,17 @@
     "sourceLabel": "2020-34-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2020-34-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2020-34-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "（图：）\nA\nB"
+      "type": "figure",
+      "caption": "A 和 B 的结构式",
+      "alt": "缺图:A 和 B 的结构式"
     }
   ],
   "parts": [
@@ -31,7 +32,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "⽐较A与B开环聚合时热⼒学驱动⼒的⼤⼩ $\\setminus _ { \\circ }$ 。简述原因。"
+          "text": "比较 A 与 B 开环聚合时热力学驱动力的大小。简述原因。"
         }
       ]
     },
@@ -41,7 +42,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在有机弱碱的催化作⽤下，苄硫醇作为引发剂，B在室温下可发⽣活性开环聚合，形成聚合产物。画出产物的结构式。"
+          "text": "在有机弱碱的催化作用下,苄硫醇作为引发剂,B 在室温下可发生活性开环聚合,形成聚合产物。画出产物的结构式。"
         }
       ]
     },
@@ -51,7 +52,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "聚合 $( \\mathbf { B } _ { n - 1 } ^ { \\prime }   \\mathbf { B } _ { n } ^ { \\prime } )$ 过程中， $\\Delta H ^ { \\ominus } = - 1 5 . 6$ kJ $\\mathrm { m o l ^ { - 1 } }$ $\\Delta S ^ { \\ominus } = - 4 0 . 4 \\mathrm { J } \\mathrm { m o l } ^ { - 1 } \\mathrm { K } _ { \\circ } ^ { - 1 }$ 计算室温(298 K)下反应的平衡常数 $K ^ { \\ominus }$ ，设反应达平衡时单体浓度 $[ \\mathbf { B } ] _ { \\mathrm { e q } } / c ^ { \\epsilon }$ ⊖等于 $1 / K$ ，若起始单体浓度为2.00 mol L−1，引发剂浓度为0.0100 mol L−1，计算达平衡时产物的平均聚合度 $\\dot { \\boldsymbol { n } } _ { < }$ 。"
+          "text": "聚合过程中,$\\Delta H^{\\ominus} = -15.6\\ \\mathrm{kJ\\ mol^{-1}}$,$\\Delta S^{\\ominus} = -40.4\\ \\mathrm{J\\ mol^{-1}\\ K^{-1}}$。计算室温(298 K)下反应的平衡常数 $K^{\\ominus}$,设反应达平衡时单体浓度 $[\\mathrm{B}]_{\\mathrm{eq}}/c^{\\ominus}$ 等于 $1/K^{\\ominus}$,若起始单体浓度为 $2.00\\ \\mathrm{mol\\ L^{-1}}$,引发剂浓度为 $0.0100\\ \\mathrm{mol\\ L^{-1}}$,计算达平衡时产物的平均聚合度 $\\bar{n}$。"
         }
       ]
     },
@@ -61,11 +62,11 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "提⾼单体B开环聚合转化率的⽅法有："
+          "text": "提高单体 B 开环聚合转化率的方法有:"
         },
         {
           "type": "paragraph",
-          "text": "a) 升⾼温度； b) 降低温度； c) 增加B的起始浓度； d) 延⻓反应时间"
+          "text": "a) 升高温度; b) 降低温度; c) 增加 B 的起始浓度; d) 延长反应时间"
         }
       ]
     }

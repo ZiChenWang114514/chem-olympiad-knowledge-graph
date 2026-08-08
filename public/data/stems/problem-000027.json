@@ -12,21 +12,21 @@
     "sourceLabel": "2016-30-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2016-30-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2016-30-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、规范小问结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "甲醇既是重要的化⼯原料，⼜是⼀种很有发展前途的代⽤燃料，甲醇分解制氢已经成为制取氢⽓的重要途径，它具有投资省、流程短、操作简便、氢⽓成本相对较低等特点。我们可以根据298 K时的热⼒学数据（如下表）对于涉及甲醇的各种应⽤进⾏估算、分析和预判。"
+      "text": "甲醇既是重要的化工原料,又是一种很有发展前途的代用燃料,甲醇分解制氢已经成为制取氢气的重要途径,它具有投资省、流程短、操作简便、氢气成本相对较低等特点。我们可以根据298 K时的热力学数据(如下表)对于涉及甲醇的各种应用进行估算、分析和预判。"
     },
     {
       "type": "callout",
       "tone": "info",
-      "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
+      "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
     }
   ],
   "parts": [
@@ -36,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "估算400.0 K，总压为100.0 kPa时甲醇裂解制氢反应的平衡常数（设反应的 $\\Delta _ { \\mathrm { r } } H _ { \\mathrm { m } } ^ { \\ominus }$ 和 $| \\Delta _ { \\mathrm { { r } } } S _ { \\mathrm { { m } } } ^ { \\ominus }$ 不随温度变化，下同）。"
+          "text": "估算400.0 K,总压为100.0 kPa时甲醇裂解制氢反应的平衡常数(设反应的 $\\Delta_{\\mathrm{r}}H_{\\mathrm{m}}^{\\ominus}$ 和 $\\Delta_{\\mathrm{r}}S_{\\mathrm{m}}^{\\ominus}$ 不随温度变化,下同)。"
         }
       ]
     },
@@ -46,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "将0.426 g甲醇置于体积为1.00 L的抽真空刚性容器中，维持温度为298 K时，甲醇在⽓相与液相的质量⽐为多少？已知甲醇在⼤⽓中的沸点为337.7 K。"
+          "text": "将0.426 g甲醇置于体积为1.00 L的抽真空刚性容器中,维持温度为298 K时,甲醇在气相与液相的质量比为多少?已知甲醇在大气中的沸点为337.7 K。"
         }
       ]
     },
@@ -56,7 +56,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "由甲醇制氢的实际⽣产⼯艺通常是在催化剂的作⽤下利⽤⽔煤⽓转化反应与裂解反应耦合，以提⾼甲醇的平衡转化率。请写出耦合后的总反应⽅程式，并求总压为 100.0 kPa，甲醇与⽔蒸⽓体积进料⽐为 1:1 时，使甲醇平衡转化率达到99.0%所需的温度。"
+          "text": "由甲醇制氢的实际生产工艺通常是在催化剂的作用下利用水煤气转化反应与裂解反应耦合,以提高甲醇的平衡转化率。请写出耦合后的总反应方程式,并求总压为 100.0 kPa,甲醇与水蒸气体积进料比为 1:1 时,使甲醇平衡转化率达到99.0%所需的温度。"
         }
       ]
     },
@@ -66,7 +66,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "设想利⽤太阳能推动反应进⾏，可将甲醇裂解反应设计为光电化学电池，请写出电极反应，并指出需要解决的两个最关键的问题。"
+          "text": "设想利用太阳能推动反应进行,可将甲醇裂解反应设计为光电化学电池,请写出电极反应,并指出需要解决的两个最关键的问题。"
         }
       ]
     },
@@ -76,15 +76,15 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "有研究者对甲醇在纳⽶Pd催化剂上的分解反应提出如下反应机理："
+          "text": "有研究者对甲醇在纳米Pd催化剂上的分解反应提出如下反应机理:"
         },
         {
           "type": "paragraph",
-          "text": "$$\n\\begin{array}{c}\\mathrm {CH_ {3} OH(g) + S \\underset {k _ {- 1}} {\\overset {k _ {1}} {\\rightleftharpoons}} CH_ {3} OH(ad)}\\\\\\mathrm {CH_ {3} OH(ad) \\xrightarrow {k _ {2}} CH_ {3} O(ad) + H(ad)}\\\\\\mathrm {CH_ {3} O(ad) \\xrightarrow {k _ {3}} CH_ {2} O(ad) + H(ad)}\\\\\\mathrm {CH_ {2} O(ad) \\xrightarrow {k _ {4}} CHO(ad) + H(ad)}\\\\\\mathrm{CHO(ad) \\xrightarrow {k _ {5}} CO(ad) + H(ad)}\\\\\\mathrm{CO(ad) \\xrightarrow {k _ {6}} CO(g) + S}\\\\2 \\mathrm{H(ad) \\xrightarrow {k _ {7}} H_{2} (g)}\\end{array}\n$$"
+          "text": "$$\n\\begin{array}{c}\n\\ce{CH3OH(g) + S <=>[k_1][k_{-1}] CH3OH(ad)}\\\\\n\\ce{CH3OH(ad) ->[k_2] CH3O(ad) + H(ad)}\\\\\n\\ce{CH3O(ad) ->[k_3] CH2O(ad) + H(ad)}\\\\\n\\ce{CH2O(ad) ->[k_4] CHO(ad) + H(ad)}\\\\\n\\ce{CHO(ad) ->[k_5] CO(ad) + H(ad)}\\\\\n\\ce{CO(ad) ->[k_6] CO(g) + S}\\\\\n\\ce{2H(ad) ->[k_7] H2(g)}\n\\end{array}\n$$"
         },
         {
           "type": "paragraph",
-          "text": "以上各式中“S”表⽰表⾯活性中⼼， $\\ \" g \\ : ^ { \\prime \\prime }$ 表⽰⽓态，“ad”表⽰吸附态。设S的浓度仅随甲醇吸附⽽变化，请根据以上机理⽤稳态近似推导反应速率⽅程，并对结果进⾏讨论。"
+          "text": "以上各式中“S”表示表面活性中心,“g”表示气态,“ad”表示吸附态。设S的浓度仅随甲醇吸附而变化,请根据以上机理用稳态近似推导反应速率方程,并对结果进行讨论。"
         }
       ]
     },
@@ -94,7 +94,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "⾦属催化剂的表⾯活性与表⾯原⼦的能量有关，假设表⾯为完整的⼆维结构，表⾯能量由原⼦的断键引起。请估算Pd⾦属(110)⾯（即与⼆重轴垂直的⾯）的单位表⾯能量。已知Pd为⽴⽅最密堆积，Pd原⼦半径为179pm，原⼦化热为 351.6 kJ mol−1。"
+          "text": "金属催化剂的表面活性与表面原子的能量有关,假设表面为完整的二维结构,表面能量由原子的断键引起。请估算Pd金属(110)面(即与二重轴垂直的面)的单位表面能量。已知Pd为立方最密堆积,Pd原子半径为179 pm,原子化热为 351.6 kJ mol−1。"
         }
       ]
     }

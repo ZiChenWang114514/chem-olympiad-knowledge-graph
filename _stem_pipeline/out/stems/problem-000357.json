@@ -12,19 +12,13 @@
     "sourceLabel": "2010-24-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2010-24-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2010-24-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、调整小问结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000357-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "该图给出了晶胞中的所有原⼦，除“三原⼦”（中⼼原⼦和与其相连的2个原⼦）外，晶胞的其余原⼦都是 $\\mathrm { B _ { 1 2 } }$ 多⾯体中的1个原⼦， $\\mathrm { B _ { 1 2 } }$ 多⾯体的其他原⼦都不在晶胞内，均未画出。图中原⼦旁的短棍表⽰该原⼦与其他原⼦相连。若上述“三原⼦”都是碳原⼦，写出碳化硼的化学式。"
+          "text": "该图给出了晶胞中的所有原子,除“三原子”(中心原子和与其相连的2个原子)外,晶胞的其余原子都是 $\\mathrm{B_{12}}$ 多面体中的1个原子,$\\mathrm{B_{12}}$ 多面体的其他原子都不在晶胞内,均未画出。图中原子旁的短棍表示该原子与其他原子相连。若上述“三原子”都是碳原子,写出碳化硼的化学式。"
         }
       ]
     },
@@ -42,11 +36,13 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "该图有什么旋转轴？有⽆对称中⼼和镜⾯？若有，指出个数及它们在图中的位置（未指出位置不得分）。"
+          "text": "该图有什么旋转轴?有无对称中心和镜面?若有,指出个数及它们在图中的位置(未指出位置不得分)。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "(图:晶胞结构示意图)",
+          "alt": "晶胞结构示意图,图中标注原子及连接关系。",
+          "src": ""
         }
       ]
     },
@@ -56,7 +52,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "该晶胞的形状属于国际晶体学联合会在1983年定义的布拉维系七种晶胞中的哪⼀种？注：国际晶体学联合会已于 2002 年改称布拉维系(Bravais system)为晶系(lattice system)。"
+          "text": "该晶胞的形状属于国际晶体学联合会在1983年定义的布拉维系七种晶胞中的哪一种?注:国际晶体学联合会已于2002年改称布拉维系(Bravais system)为晶系(lattice system)。"
         }
       ]
     },
@@ -66,12 +62,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "分别将 $\\mathrm { O _ { 2 } } ,$ 、 $\\mathrm { K O } _ { 2 } .$ $\\mathrm { B a O _ { 2 } }$ 和 $\\mathrm { O _ { 2 } [ A s F _ { 6 } ] }$ 填⼊与O—O键⻓相对应的空格中。"
+          "text": "分别将 $\\mathrm{O_2}$、$\\mathrm{KO_2}$、$\\mathrm{BaO_2}$ 和 $\\mathrm{O_2[AsF_6]}$ 填入与O—O键长相对应的空格中。"
         },
         {
           "type": "callout",
           "tone": "info",
-          "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
+          "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
         }
       ]
     },
@@ -81,7 +77,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在配合物A和B中，O_{2}为配体与中⼼⾦属离⼦配位。A 的化学式为 $\\mathrm { [ C o _ { 2 } O _ { 2 } ( N H _ { 3 } ) _ { 1 0 } ] ^ { 4 + } }$ ，其O—O的键⻓为 147 pm；B 的化学式为 $\\mathrm { C o ( b z a c e n ) P y O _ { 2 } }$ ，其 O—O 的键⻓为 126 pm，Py 是吡啶 $\\mathrm { ( C _ { 5 } H _ { 5 } N ) }$ ，bzacen 是四⻮配体 $[ \\mathrm { C _ { 6 } H _ { 5 } - C ( O ^ { - } ) = C H - C ( C H _ { 3 } ) = N C H _ { 2 } - } ] _ { 2 }$ 。B具有室温吸氧，加热脱氧的功能，可作为⼈⼯载氧体。画出A和B的结构简图（图中必须明确表明O—O与⾦属离⼦间的空间关系），并分别指出A和B中Co的氧化态。"
+          "text": "在配合物A和B中,$\\mathrm{O_2}$ 为配体与中心金属离子配位。A 的化学式为 $\\mathrm{[Co_2O_2(NH_3)_{10}]^{4+}}$,其O—O的键长为 147 pm;B 的化学式为 $\\mathrm{Co(bzacen)PyO_2}$,其 O—O 的键长为 126 pm,Py 是吡啶 $\\mathrm{(C_5H_5N)}$,bzacen 是四齿配体 $[\\mathrm{C_6H_5-C(O^-)=CH-C(CH_3)=NCH_2-}]_2$。B具有室温吸氧、加热脱氧的功能,可作为人工载氧体。画出A和B的结构简图(图中必须明确表明O—O与金属离子间的空间关系),并分别指出A和B中Co的氧化态。"
         }
       ]
     }

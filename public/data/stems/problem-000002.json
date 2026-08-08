@@ -12,16 +12,17 @@
     "sourceLabel": "2006-20-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2006-20-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2006-20-CChO-chusai/full.md)程序化切分并整理为结构化题干;经 DeepSeek 精修:校对 OCR 错字、整理 LaTeX、规范化图示与小问结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "反应相关图示",
+      "alt": "题目所需反应图(原图缺失)"
     }
   ],
   "parts": [
@@ -41,7 +42,11 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "这两种产物互为下列哪⼀种异构体？A 旋光异构体 B ⽴体异构体 C ⾮对映异构体 D ⼏何异构体"
+          "text": "这两种产物互为下列哪一种异构体?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A 旋光异构体 B 立体异构体 C 非对映异构体 D 几何异构体"
         }
       ]
     }

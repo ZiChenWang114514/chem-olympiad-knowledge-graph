@@ -12,40 +12,31 @@
     "sourceLabel": "2009-23-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2009-23-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2009-23-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、规范小问结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "（图：）\n图 4.1"
+      "type": "figure",
+      "caption": "图 4.1",
+      "alt": "图 4.1(缺图)"
+    },
+    {
+      "type": "figure",
+      "caption": "图 4.2",
+      "alt": "图 4.2(缺图)"
     },
     {
       "type": "paragraph",
-      "text": "（图：）\n图 4.2"
+      "text": "图4.3是X、Y与Cs+形成的复合物的晶体结构,在此晶体结构图中,a)为沿$a$轴看晶胞,b)为沿$b$轴看晶胞,c)为在$z=0$的金上镍配合物的二维排列,d)为镍配合物的二聚体链。"
     },
     {
-      "type": "paragraph",
-      "text": "图4.3是X、Y与Cs+形成的复合物的晶体结构，在此晶体结构图中，a)为沿�轴看晶胞，b)为沿�轴看晶胞，c)为在� =0的⾯上镍配合物的⼆维排列，d)为镍配合物的⼆聚体链。"
-    },
-    {
-      "type": "paragraph",
-      "text": "（图：）"
-    },
-    {
-      "type": "paragraph",
-      "text": "（图：）"
-    },
-    {
-      "type": "paragraph",
-      "text": "（图：）"
-    },
-    {
-      "type": "paragraph",
-      "text": "d)\n（图：）\n图 4.3"
+      "type": "figure",
+      "caption": "图 4.3",
+      "alt": "图 4.3(缺图)"
     }
   ],
   "parts": [
@@ -55,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "给出该晶体晶胞的组成，并写出该晶体结构基元的化学式（苯并[18]冠-6⽤X表⽰，镍配合物⽤Y表⽰）。"
+          "text": "给出该晶体晶胞的组成,并写出该晶体结构基元的化学式(苯并[18]冠-6用X表示,镍配合物用Y表示)。"
         }
       ]
     },
@@ -65,11 +56,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "指出镍离⼦的杂化轨道类型；图4.4是平⾯正⽅形晶体场d轨道能级分裂图，把基态镍离⼦的d电⼦填⼈该图。"
+          "text": "指出镍离子的杂化轨道类型;图4.4是平面正方形晶体场d轨道能级分裂图,把基态镍离子的d电子填入该图。"
         },
         {
-          "type": "paragraph",
-          "text": "图 4.4"
+          "type": "figure",
+          "caption": "图 4.4",
+          "alt": "图 4.4(缺图)"
         }
       ]
     },
@@ -79,7 +71,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "已知该晶体的晶胞参数 $t a = 1 2 7 8 . 9 9 \\mathrm { p m } , \\ b = 1 3 0 5 . 3 9 \\mathrm { p m } , \\ c = 2 7 1 7 . 0 3 \\mathrm { p m } , \\ \\alpha = 7 8 . 3 3 9 4 ^ { \\circ } , \\ \\beta \\ = 7 7 7 . 9 9 9 9 .$ 77.0109°, $\\gamma = 7 0 . 6 3 5 8 ^ { \\circ } .$ 。试计算该晶体的密度 $\\mathrm { ( g c m ^ { - 3 } ) }$ （相对分⼦质量：X312.4；Y451.4，三斜晶胞体积 $V = a b c \\sqrt { 1 - \\cos 2 \\alpha - \\cos 2 \\beta - \\cos 2 \\gamma + 2 \\cos \\alpha \\cos \\beta \\cos \\gamma } )$"
+          "text": "已知该晶体的晶胞参数 $a=1278.99\\ \\mathrm{pm}$,$b=1305.39\\ \\mathrm{pm}$,$c=2717.03\\ \\mathrm{pm}$,$\\alpha=78.3394^\\circ$,$\\beta=77.0109^\\circ$,$\\gamma=70.6358^\\circ$。试计算该晶体的密度 $\\rho\\ (\\mathrm{g\\ cm^{-3}})$(相对分子质量:X 312.4;Y 451.4,三斜晶胞体积 $V=abc\\sqrt{1-\\cos^2\\alpha-\\cos^2\\beta-\\cos^2\\gamma+2\\cos\\alpha\\cos\\beta\\cos\\gamma}$)。"
         }
       ]
     },
@@ -89,7 +81,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出镍配合物Y的对称元素。指出超分⼦阳离⼦中Cs+的配位数，解释其配位数较⼤的可能原因。"
+          "text": "写出镍配合物Y的对称元素。指出超分子阳离子中Cs+的配位数,解释其配位数较大的可能原因。"
         }
       ]
     }

@@ -12,19 +12,13 @@
     "sourceLabel": "2013-27-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2013-27-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2013-27-CChO-juesai/full.md)程序化切分并整理为结构化题干;经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、合并空壳段落、将图占位改为 figure 块。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000425-01",
@@ -35,32 +29,36 @@
           "text": "下列化合物中碱性最强的是"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "选项 A",
+          "alt": "选项 A 的结构式(原图缺失)"
         },
         {
           "type": "paragraph",
           "text": "A"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "选项 B",
+          "alt": "选项 B 的结构式(原图缺失)"
         },
         {
           "type": "paragraph",
           "text": "B"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "选项 C",
+          "alt": "选项 C 的结构式(原图缺失)"
         },
         {
           "type": "paragraph",
           "text": "C"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "选项 D",
+          "alt": "选项 D 的结构式(原图缺失)"
         },
         {
           "type": "paragraph",
@@ -74,35 +72,39 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "下列化合物在酸性条件下最难发⽣⽔解的是"
+          "text": "下列化合物在酸性条件下最难发生水解的是"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "选项 A",
+          "alt": "选项 A 的结构式(原图缺失)"
         },
         {
           "type": "paragraph",
           "text": "A"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "选项 B",
+          "alt": "选项 B 的结构式(原图缺失)"
         },
         {
           "type": "paragraph",
           "text": "B"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "选项 C",
+          "alt": "选项 C 的结构式(原图缺失)"
         },
         {
           "type": "paragraph",
           "text": "C"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "选项 D",
+          "alt": "选项 D 的结构式(原图缺失)"
         },
         {
           "type": "paragraph",
@@ -116,11 +118,11 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "部分丙烷与⻧素⾃由基发⽣的反应其相应的反应焓变如下：$\\mathrm { C H _ { 3 } C H _ { 2 } C H _ { 3 } + C l \\cdot  C H _ { 3 } C H C H _ { 3 } + H C l }$ $\\Delta H ^ { \\ominus } = - 3 4 \\mathrm { k J } \\mathrm { m o l ^ { - 1 } }$ (1)$\\mathrm { C H _ { 3 } C H _ { 2 } C H _ { 3 } + C l \\cdot  C H _ { 3 } C H _ { 2 } C H _ { 2 } + H C l }$ $\\Delta { H ^ { \\ominus } } \\ = \\ - 2 2 \\mathrm { k J } \\mathrm { m o l ^ { - 1 } }$ (2)$\\mathrm { C H _ { 3 } C H _ { 2 } C H _ { 3 } } + \\mathrm { B r } \\cdot  \\mathrm { C H _ { 3 } C H _ { 2 } C H _ { 2 } } + \\mathrm { H B r }$ $\\Delta H ^ { \\ominus } = + 4 4 \\mathrm { k J m o l ^ { - 1 } }$ (3)"
+          "text": "部分丙烷与卤素自由基发生的反应其相应的反应焓变如下:\n(1) $\\ce{CH3CH2CH3 + Cl. -> CH3CHCH3 + HCl}$,$\\Delta H^\\ominus = -34\\ \\mathrm{kJ\\ mol^{-1}}$\n(2) $\\ce{CH3CH2CH3 + Cl. -> CH3CH2CH2. + HCl}$,$\\Delta H^\\ominus = -22\\ \\mathrm{kJ\\ mol^{-1}}$\n(3) $\\ce{CH3CH2CH3 + Br. -> CH3CH2CH2. + HBr}$,$\\Delta H^\\ominus = +44\\ \\mathrm{kJ\\ mol^{-1}}$"
         },
         {
           "type": "paragraph",
-          "text": "当反应温度升⾼，上述反应的速率将A．都降低 B．都升⾼ C．反应(1)和(2)降低，反应(3)升⾼ D．反应(1)和(2)升⾼，反应(3)降低"
+          "text": "当反应温度升高,上述反应的速率将 A. 都降低 B. 都升高 C. 反应(1)和(2)降低,反应(3)升高 D. 反应(1)和(2)升高,反应(3)降低"
         }
       ]
     },
@@ -130,11 +132,11 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$2 5 ~ ^ { \\circ } \\mathrm { C } .$ ，下列反应两种产物的⽐例已经给出43% 57%$\\mathrm { C H _ { 3 } C H _ { 2 } C H _ { 3 } + C l \\cdot  C H _ { 3 } C H C H _ { 3 } + C H _ { 3 } C H _ { 2 } C H _ { 2 } + H C l }$"
+          "text": "$25~^\\circ\\mathrm{C}$,下列反应两种产物的比例已经给出 43% 57%\n$\\ce{CH3CH2CH3 + Cl. -> CH3CHCH3 + CH3CH2CH2. + HCl}$"
         },
         {
           "type": "paragraph",
-          "text": "结合9-3题中给出的信息，预测当反应温度升⾼⽽其他反应条件不变时，1级⾃由基产物的⽐例将A．降低 B．升⾼ C．不变 D．⽆法判断"
+          "text": "结合9-3题中给出的信息,预测当反应温度升高而其他反应条件不变时,1级自由基产物的比例将 A. 降低 B. 升高 C. 不变 D. 无法判断"
         }
       ]
     }

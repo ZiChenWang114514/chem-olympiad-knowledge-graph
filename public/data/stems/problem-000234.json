@@ -12,19 +12,13 @@
     "sourceLabel": "2024-38-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2024-38-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2024-38-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理公式与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000234-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "合金材料在现代生活中占有重要地位，其呈现丰富的晶体结构。不锈钢材料常采用 Fe/Cr 合金，已知 Fe 为立方体心结构，如下图 a 所示。"
+          "text": "合金材料在现代生活中占有重要地位,其呈现丰富的晶体结构。不锈钢材料常采用 Fe/Cr 合金,已知 Fe 为立方体心结构,如下图 a 所示。"
         }
       ]
     },
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 若将体心位置的 Fe 置换为 Cr，如图 b，确定晶胞的化学组成和晶体的点阵类型。"
+          "text": "-1 若将体心位置的 Fe 置换为 Cr,如图 b,确定晶胞的化学组成和晶体的点阵类型。"
         }
       ]
     },
@@ -52,19 +46,22 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 若将 Fe 按图 c 方式用 Cr 取代，确定晶胞的化学组成和晶体的点阵类型。"
+          "text": "-2 若将 Fe 按图 c 方式用 Cr 取代,确定晶胞的化学组成和晶体的点阵类型。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）\na"
+          "type": "figure",
+          "caption": "图 a",
+          "alt": "图 a 示意"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "图 b",
+          "alt": "图 b 示意"
         },
         {
-          "type": "paragraph",
-          "text": "b\n（图：）\nc"
+          "type": "figure",
+          "caption": "图 c",
+          "alt": "图 c 示意"
         }
       ]
     },
@@ -74,7 +71,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 SrSb 合金是一种热电材料, 具有简单六方结构, 晶胞化学组成为 $\\mathrm{Sr}_{2} \\mathrm{~Sb}_{2}$ 。晶胞内 Sr 分别占据顶点和棱的中点, 其中 1 个 Sb 的分数坐标为 (1/3, 2/3, 1/4), 写出晶胞中 Sr 原子和另一个 Sb 原子的分数坐标。"
+          "text": "-1 SrSb 合金是一种热电材料,具有简单六方结构,晶胞化学组成为 $\\mathrm{Sr_2Sb_2}$。晶胞内 Sr 分别占据顶点和棱的中点,其中 1 个 Sb 的分数坐标为 (1/3, 2/3, 1/4),写出晶胞中 Sr 原子和另一个 Sb 原子的分数坐标。"
         }
       ]
     },
@@ -84,7 +81,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 我国科学家研究发现 $\\mathrm{SrSbCu}_{\\mathrm{x}}$ 晶体具有更好的性能。其晶体结构可视为 Cu 占据 SrSb 晶体中全部与 Sb 位置类似的空隙, 相应的晶胞参数变为 $a = 4.5284 \\AA$ 。写出 Cu 的分数坐标, 并计算 Cu-Sb 的键长。"
+          "text": "-2 我国科学家研究发现 $\\mathrm{SrSbCu_x}$ 晶体具有更好的性能。其晶体结构可视为 Cu 占据 SrSb 晶体中全部与 Sb 位置类似的空隙,相应的晶胞参数变为 $a = 4.5284 \\AA$。写出 Cu 的分数坐标,并计算 Cu-Sb 的键长。"
         }
       ]
     },
@@ -94,11 +91,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "金属 Ge 可以与碱金属 K 形成 Zintl 相, 具有简单立方结构。其中 Ge 以 $\\mathrm{Ge}_{4}$ 四面体存在, 每个 K 原子与 $\\mathrm{Ge}_{4}$ 四面体面的 3 个 Ge 形成配位并构成新的四面体, 其 $\\mathrm{Ge}_{4}$ 的分布如下图所示。确定该晶胞的化学组成。(提示: 图中的每一个块体代表一个四面体)"
+          "text": "金属 Ge 可以与碱金属 K 形成 Zintl 相,具有简单立方结构。其中 Ge 以 $\\mathrm{Ge_4}$ 四面体存在,每个 K 原子与 $\\mathrm{Ge_4}$ 四面体面的 3 个 Ge 形成配位并构成新的四面体,其 $\\mathrm{Ge_4}$ 的分布如下图所示。确定该晶胞的化学组成。(提示: 图中的每一个块体代表一个四面体)"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "Ge4 分布图",
+          "alt": "Ge4 四面体分布示意图"
         }
       ]
     },
@@ -108,7 +106,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "具有独特光电效应的 WSe $_2$ 为层状的二维范德华晶体, 具有简单六方结构, 晶胞参数 $a = 3.282 \\text{ Å}, c = 12.96 \\text{ Å}$ 。晶体结构如右图所示, 其中 Se 的分数坐标分别为 $z = 0.1211$ 和 $0.5 - z$ , W 的分数坐标为 $z = 0.25$ 。"
+          "text": "具有独特光电效应的 WSe$_2$ 为层状的二维范德华晶体,具有简单六方结构,晶胞参数 $a = 3.282 \\text{Å}, c = 12.96 \\text{Å}$。晶体结构如右图所示,其中 Se 的分数坐标分别为 $z = 0.1211$ 和 $0.5 - z$,W 的分数坐标为 $z = 0.25$。"
         }
       ]
     },
@@ -128,11 +126,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 Se 和 W 的配位数分别是多少？"
+          "text": "-2 Se 和 W 的配位数分别是多少?"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "WSe2 晶体结构",
+          "alt": "WSe2 层状结构示意图"
         }
       ]
     },
@@ -142,7 +141,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-3 计算层间距(两层 $\\mathrm{WSe}_2$ 之间的空隙)。"
+          "text": "-3 计算层间距(两层 $\\mathrm{WSe_2}$ 之间的空隙)。"
         }
       ]
     },
@@ -152,19 +151,21 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$\\mathrm{CeO}_{2}$ 具有萤石结构, 容易形成氧空位, 因而具有氧离子导体的性质。含有氧空位的 $\\mathrm{CeO}_{2}$ 结构可以用沿 [112] (顶点与相对面面心的连线)方向的投影表示。在投影图中可以用三角形代表形成了氧空位的四面体空隙。如下图所示, $\\mathrm{CeO}_{2}$ 晶胞中 8 个由 Ce 原子构成的四面体空隙可以用字母 U(表示上方)、D(表示下方)和相应的数字组合表示。在 $\\mathrm{U}^{4}$ 、 $\\mathrm{D}^{1}$ 位置形成的氧空位在投影图中用灰色三角形表示。"
+          "text": "$\\mathrm{CeO_2}$ 具有萤石结构,容易形成氧空位,因而具有氧离子导体的性质。含有氧空位的 $\\mathrm{CeO_2}$ 结构可以用沿 [112] (顶点与相对面面心的连线)方向的投影表示。在投影图中可以用三角形代表形成了氧空位的四面体空隙。如下图所示,$\\mathrm{CeO_2}$ 晶胞中 8 个由 Ce 原子构成的四面体空隙可以用字母 U(表示上方)、D(表示下方)和相应的数字组合表示。在 $\\mathrm{U^4}$、$\\mathrm{D^1}$ 位置形成的氧空位在投影图中用灰色三角形表示。"
         },
         {
           "type": "paragraph",
-          "text": "根据上述规则，分别写出投影图(a)和(b)中灰色三角形对应的氧空位位置，用 U、D 与数字组合表示。"
+          "text": "根据上述规则,分别写出投影图(a)和(b)中灰色三角形对应的氧空位位置,用 U、D 与数字组合表示。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "投影图 (a)",
+          "alt": "投影图 (a) 灰色三角形位置"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "投影图 (b)",
+          "alt": "投影图 (b) 灰色三角形位置"
         }
       ]
     }

@@ -12,19 +12,13 @@
     "sourceLabel": "2017-31-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2017-31-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2017-31-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理公式与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000045-01",
@@ -32,16 +26,16 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "尽管⽔溶液中 $\\mathrm { C e ^ { 4 + } }$ 强烈⽔解，但在⾼酸度溶液 $( \\mathrm { [ H C l O _ { 4 } ] } > 6 . 0 5 \\mathrm { m o l } \\mathrm { k g ^ { - 1 } } )$ 中 $\\mathrm { C e ^ { 4 + } }$ +仍然会发⽣反应： $\\mathrm { C e ^ { 4 + } + }$ $\\mathrm { e } ^ { - } \\stackrel { \\right. } { \\left. } \\mathrm { C e } ^ { 3 + }$ 。⾼氯酸溶液中 $\\mathrm { C e ^ { 4 + } }$ 与OH−形成4种配合物的累积⽣成常数的对数分别为lg $\\beta _ { 1 } ^ { \\ominus } = 1 4 . 7 6 .$ 、lg $\\beta _ { 2 } ^ { \\ominus } =$ 28.04、lg $\\beta _ { 3 } ^ { \\ominus } = 4 0 . 5 3$ 、lg $\\beta _ { 4 } ^ { \\ominus } = 5 1 . 8 6$ ，有关物质的标准摩尔⽣成吉布斯⾃由能 $\\Delta _ { \\mathrm { f } } G _ { \\mathrm { m } } ^ { \\ominus }$ 列于表5-1。"
+          "text": "尽管水溶液中 $\\mathrm{Ce^{4+}}$ 强烈水解,但在高酸度溶液($[\\mathrm{HClO_4}] > 6.05\\ \\mathrm{mol\\ kg^{-1}}$)中 $\\mathrm{Ce^{4+}}$ 仍然会发生反应:$\\mathrm{Ce^{4+}} + \\mathrm{e^-} \\rightleftharpoons \\mathrm{Ce^{3+}}$。高氯酸溶液中 $\\mathrm{Ce^{4+}}$ 与 OH− 形成 4 种配合物的累积生成常数的对数分别为 $\\lg \\beta_1^{\\ominus} = 14.76$、$\\lg \\beta_2^{\\ominus} = 28.04$、$\\lg \\beta_3^{\\ominus} = 40.53$、$\\lg \\beta_4^{\\ominus} = 51.86$,有关物质的标准摩尔生成吉布斯自由能 $\\Delta_{\\mathrm{f}} G_{\\mathrm{m}}^{\\ominus}$ 列于表 5-1。"
         },
         {
           "type": "paragraph",
-          "text": "表5-1 物质的标准摩尔⽣成吉布斯⾃由能（298.15 K）"
+          "text": "表 5-1  物质的标准摩尔生成吉布斯自由能(298.15 K)"
         },
         {
           "type": "callout",
           "tone": "info",
-          "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
+          "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
         }
       ]
     },
@@ -51,7 +45,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 写出 $\\mathrm { C e ^ { 4 + } }$ ⽔解反应的⼀般表达式、标准⽔解平衡常数的⼀般表达式。"
+          "text": "(1)写出 $\\mathrm{Ce^{4+}}$ 水解反应的一般表达式、标准水解平衡常数的一般表达式。"
         }
       ]
     },
@@ -61,7 +55,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 写出 $\\mathrm { C e ^ { 4 } }$ +与OH−形成配合物反应的⼀般表达式、标准累计⽣成常数 ${ \\mathrm { \\it B } } _ { i } ^ { \\ominus }$ 的⼀般表达式。"
+          "text": "(2)写出 $\\mathrm{Ce^{4+}}$ 与 OH− 形成配合物反应的一般表达式、标准累计生成常数 $\\beta_i^{\\ominus}$ 的一般表达式。"
         }
       ]
     },
@@ -71,7 +65,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-3 求 $\\mathrm { C e ^ { 4 + } }$ ⽔解反应⽣成的4种氢氧化物的 $\\Delta _ { \\mathrm { f } } G _ { \\mathrm { m } } ^ { \\ominus } .$"
+          "text": "(3)求 $\\mathrm{Ce^{4+}}$ 水解反应生成的 4 种氢氧化物的 $\\Delta_{\\mathrm{f}} G_{\\mathrm{m}}^{\\ominus}$。"
         }
       ]
     },
@@ -81,7 +75,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-4 当 $\\mathrm { p H } < 8$ $\\mathrm { C e ^ { 3 + } }$ +不⽔解。当 $\\mathrm { H C l O _ { 4 } }$ 浓度 $< 6 . 0 5 \\mathrm { m o l } \\mathrm { k g ^ { - } }$ 1时， $\\mathrm { C e ^ { 4 + } / C e ^ { 3 + } }$ 电对的电位是溶液的pH、$\\mathrm { C e ( I V ) }$ 配合物的 $\\beta _ { i } ^ { \\ominus }$ 、有关物种浓度的函数，试导出这⼀函数关系。"
+          "text": "(4)当 $\\mathrm{pH} < 8$ 时 $\\mathrm{Ce^{3+}}$ 不水解。当 $\\mathrm{HClO_4}$ 浓度 $< 6.05\\ \\mathrm{mol\\ kg^{-1}}$ 时,$\\mathrm{Ce^{4+}/Ce^{3+}}$ 电对的电位是溶液的 pH、$\\mathrm{Ce(IV)}$ 配合物的 $\\beta_i^{\\ominus}$、有关物种浓度的函数,试导出这一函数关系。"
         }
       ]
     },
@@ -91,15 +85,16 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在 $\\mathrm { H C l O _ { 4 } }$ 溶液中， $\\mathrm { C e ^ { 4 + } / C e ^ { 3 + } }$ 电对的电位与温度的关系如下图所⽰。"
+          "text": "在 $\\mathrm{HClO_4}$ 溶液中,$\\mathrm{Ce^{4+}/Ce^{3+}}$ 电对的电位与温度的关系如下图所示。"
+        },
+        {
+          "type": "figure",
+          "caption": "电位与温度关系图",
+          "alt": "Ce(IV)/Ce(III) 电对电位随温度变化的示意图,图中显示不同 HClO4 浓度下的曲线。"
         },
         {
           "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "根据上图指出，当 $\\mathrm { H C l O _ { 4 } }$ 浓度⼤于或⼩于1.85 m时， $\\mathrm { C e ^ { 4 + } }$ 被还原成 $\\mathrm { C e ^ { 3 + } }$ 的反应的熵变∆�⼤于0、等于0或⼩于0，并说明反应焓变∆�的相应变化情况。"
+          "text": "根据上图指出,当 $\\mathrm{HClO_4}$ 浓度大于或小于 1.85 m 时,$\\mathrm{Ce^{4+}}$ 被还原成 $\\mathrm{Ce^{3+}}$ 的反应的熵变 $\\Delta S$ 大于 0、等于 0 或小于 0,并说明反应焓变 $\\Delta H$ 的相应变化情况。"
         }
       ]
     },
@@ -109,64 +104,82 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "采⽤分光光度法研究了⾼氯酸中Ce(IV)对有机物ATF的氧化反应。所有动⼒学测试都在准⼀级条件下进⾏，即ATF的浓度⼤⼤过量于[Ce(IV)]。研究发现，Ce(IV)氧化ATF的反应对Ce(IV)的分级数为⼀级，求得的表观⼀级速率常数 $\\smash {  { \\mathcal { k } } \\not \\equiv  { \\mathcal { G } } _ { \\perp } ^ { } } | |$ 于表5-2。该反应的化学计量反应式如下："
+          "text": "采用分光光度法研究了高氯酸中 Ce(IV) 对有机物 ATF 的氧化反应。所有动力学测试都在准一级条件下进行,即 ATF 的浓度大大过量于 [Ce(IV)]。研究发现,Ce(IV) 氧化 ATF 的反应对 Ce(IV) 的分级数为一级,求得的表观一级速率常数 $k_{\\text{obs}}$ 列于表 5-2。该反应的化学计量反应式如下:"
+        },
+        {
+          "type": "figure",
+          "caption": "反应式",
+          "alt": "Ce(IV) 氧化 ATF 的化学计量反应式,具体结构式见原卷。"
         },
         {
           "type": "paragraph",
-          "text": "（图：）\n表 5-2 [ATF]和[H+]对 Ce(IV)氧化 ATF 的反应的 $| k _ { \\mp } \\frac { \\Xi } { \\Xi } \\rangle$ 响 (293.3 K， $[ \\mathrm { C e } ( \\mathrm { I V } ) ] = 2 . 0 { \\times } 1 0 ^ { - 4 } \\ : \\mathrm { m o l } \\ : \\mathrm { L } ^ { - 1 } )$"
+          "text": "表 5-2  [ATF] 和 [H+] 对 Ce(IV) 氧化 ATF 的反应的 $k_{\\text{obs}}$ 影响(293.3 K,$[\\mathrm{Ce(IV)}] = 2.0 \\times 10^{-4}\\ \\mathrm{mol\\ L^{-1}}$)"
         },
         {
           "type": "callout",
           "tone": "info",
-          "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
+          "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
         },
         {
           "type": "paragraph",
-          "text": "结果表明，Ce(IV)氧化ATF的反应是⾃由基反应。在题给酸度条件下，Ce(Ⅲ)不⽔解，于是提出如下反应机理："
+          "text": "结果表明,Ce(IV) 氧化 ATF 的反应是自由基反应。在题给酸度条件下,Ce(III) 不水解,于是提出如下反应机理:"
+        },
+        {
+          "type": "figure",
+          "caption": "反应机理步骤(1)",
+          "alt": "反应机理第一步,具体结构式见原卷。"
         },
         {
           "type": "paragraph",
-          "text": "（图：）"
+          "text": "(1)"
         },
         {
           "type": "paragraph",
-          "text": "()"
+          "text": "(2)"
+        },
+        {
+          "type": "figure",
+          "caption": "反应机理步骤(2)",
+          "alt": "反应机理第二步,具体结构式见原卷。"
         },
         {
           "type": "paragraph",
-          "text": "()"
+          "text": "(3)"
+        },
+        {
+          "type": "figure",
+          "caption": "反应机理步骤(3)",
+          "alt": "反应机理第三步,具体结构式见原卷。"
         },
         {
           "type": "paragraph",
-          "text": "（图：）"
+          "text": "(4)"
+        },
+        {
+          "type": "figure",
+          "caption": "反应机理步骤(4)",
+          "alt": "反应机理第四步,具体结构式见原卷。"
         },
         {
           "type": "paragraph",
-          "text": "()"
+          "text": "(5)"
+        },
+        {
+          "type": "figure",
+          "caption": "反应机理步骤(5)",
+          "alt": "反应机理第五步,具体结构式见原卷。"
         },
         {
           "type": "paragraph",
-          "text": "（图：）"
+          "text": "(6)"
         },
         {
           "type": "paragraph",
-          "text": "()"
+          "text": "$$\\mathrm{O} \\xrightarrow[\\mathrm{NMe_2}]{\\mathrm{OH}} \\quad \\xrightarrow{\\text{fast}} \\quad \\mathrm{CO_2} + \\quad \\mathrm{HNMe_2} \\tag{6}$$"
         },
         {
           "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "()"
-        },
-        {
-          "type": "paragraph",
-          "text": "$$\n\\mathrm{O} \\xrightarrow [ \\mathrm{NMe} _ {2} ]{\\mathrm{OH}} \\quad \\xrightarrow {\\text {fast}} \\quad \\mathrm{CO} _ {2} + \\quad \\mathrm{HNMe} _ {2}\\tag{6}\n$$"
-        },
-        {
-          "type": "paragraph",
-          "text": "已知： $K _ { \\mathrm { O H } } = 0 . 2 7 \\mathrm { m o l } \\mathrm { L } ^ { - 1 } , K = 1 2 0 \\mathrm { m o l } \\mathrm { L } ^ { - 1 } \\mathrm { q }$"
+          "text": "已知:$K_{\\mathrm{OH}} = 0.27\\ \\mathrm{mol\\ L^{-1}}$,$K = 120\\ \\mathrm{mol\\ L^{-1}}$。"
         }
       ]
     },
@@ -176,7 +189,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 请根据以上反应机理，导出Ce(IV)氧化ATF反应的速率⽅程，并给出 $k \\#$ 的表达式。"
+          "text": "(1)请根据以上反应机理,导出 Ce(IV) 氧化 ATF 反应的速率方程,并给出 $k_{\\text{obs}}$ 的表达式。"
         }
       ]
     },
@@ -186,7 +199,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 根据 $k \\#$ 的表达式，结合表5-2，讨论[ATF]对�_{表}的影响，指出反应对ATF的级数⼤于1或⼩于 $1 _ { \\circ }$"
+          "text": "(2)根据 $k_{\\text{obs}}$ 的表达式,结合表 5-2,讨论 [ATF] 对 $k_{\\text{obs}}$ 的影响,指出反应对 ATF 的级数大于 1 或小于 1。"
         }
       ]
     },
@@ -196,7 +209,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-3 根 $\\ddagger \\boxed { \\mathrm { E } } k \\ne $ 的表达式，结合表5-2，讨论[H+]对 $k _ { ☉ }$ 的影响。"
+          "text": "(3)根据 $k_{\\text{obs}}$ 的表达式,结合表 5-2,讨论 [H+] 对 $k_{\\text{obs}}$ 的影响。"
         }
       ]
     }

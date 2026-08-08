@@ -12,20 +12,21 @@
     "sourceLabel": "2022-36-CChO-chusai-1.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2022-36-CChO-chusai-2/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2022-36-CChO-chusai-2/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。已由 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "如下所⽰，呋喃衍⽣物发⽣Achmatowicz (AchR)重排是制备六元杂环化合物的有效⽅法："
+      "text": "如下所示,呋喃衍生物发生 Achmatowicz (AchR) 重排是制备六元杂环化合物的有效方法:"
     },
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "反应示意图",
+      "alt": "呋喃衍生物发生 Achmatowicz 重排的反应式"
     }
   ],
   "parts": [
@@ -35,11 +36,11 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "AchR重排的氧化试剂多种多样。如下反应试剂中不可能⽤于AchR重排的有？"
+          "text": "AchR 重排的氧化试剂多种多样。如下反应试剂中不可能用于 AchR 重排的有?"
         },
         {
           "type": "paragraph",
-          "text": "(a) HOBr (b) NBS（N-溴代丁⼆酰亚胺） (c) �-CPBA (d) $\\mathrm { C e B r _ { 3 } / H _ { 2 } O }$"
+          "text": "(a) HOBr  (b) NBS(N-溴代丁二酰亚胺)  (c) m-CPBA  (d) $\\mathrm{CeBr_3/H_2O}$"
         }
       ]
     },
@@ -49,11 +50,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "利⽤ $\\mathrm { o x o n e / K B r ( o x o n e : K _ { 2 } S O _ { 4 } / K H S O _ { 4 } / 2 K H S O _ { 5 } ) }$ 作氧化剂，具有绿⾊、⾼效等特点，预测下列AchR重排反应的主要产物（要求⽴体化学）。（TIPS：三异丙基硅基）"
+          "text": "利用 $\\mathrm{oxone/KBr}$ (oxone: $K_2SO_4/KHSO_4/2KHSO_5$) 作氧化剂,具有绿色、高效等特点,预测下列 AchR 重排反应的主要产物(要求立体化学)。(TIPS: 三异丙基硅基)"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应式",
+          "alt": "AchR 重排反应底物"
         }
       ]
     },
@@ -63,15 +65,16 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "AchR重排和[5+2]环加成反应相结合，可以构筑[3.2.1]双环⾻架。 $\\mathrm { ( A c ; C H _ { 3 } C O ) }$"
+          "text": "AchR 重排和 [5+2] 环加成反应相结合,可以构筑 [3.2.1] 双环骨架。($\\mathrm{Ac}$; $CH_3CO$)"
+        },
+        {
+          "type": "figure",
+          "caption": "反应流程",
+          "alt": "AchR 重排与 [5+2] 环加成结合的反应流程"
         },
         {
           "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "画出A的结构和由A转化成B的关键中间体，并标注产物B中⼿性碳的绝对构型。"
+          "text": "画出 A 的结构和由 A 转化成 B 的关键中间体,并标注产物 B 中心性碳的绝对构型。"
         }
       ]
     },
@@ -81,11 +84,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "当呋喃环C4位有取代基时，也可以进⾏类似9-3的反应，画出D、E、F的结构（要求⽴体化学）。"
+          "text": "当呋喃环 C4 位有取代基时,也可以进行类似 9-3 的反应,画出 D、E、F 的结构(要求立体化学)。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应式",
+          "alt": "C4 位取代的呋喃衍生物反应"
         }
       ]
     }

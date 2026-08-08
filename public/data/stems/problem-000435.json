@@ -12,16 +12,16 @@
     "sourceLabel": "2014-28-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2014-28-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2014-28-CChO-chusai/full.md)程序化切分并整理为结构化题干;经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX 与 mhchem 表达式。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "从A到D的结构中， $\\operatorname { H g } ( \\operatorname { I I } )$ 与N的结合随N上所连氢原⼦的数⽬⽽变化，N均成4个键， $\\mathrm { N { - } H g { - } N }$ 键⻆为180°。A中，Br−作简单⽴⽅堆积，两个⽴⽅体共⽤的⾯中⼼存在⼀个 $\\operatorname { H g } ( \\operatorname { I I } )$ $\\mathrm { N H _ { 3 } }$ 位于⽴⽅体的体$\\therefore E _ { \\circ }$ B 中，Hg(II)与氨基形成⼀维链。C 中存在 $\\operatorname { H g } ( \\operatorname { I I } )$ 与亚氨基形成的按六边形扩展的⼆维结构，Br−位于六边形中⼼。D中， $\\mathrm { ( H g _ { 2 } N ) } ^ { . }$ +形成具有类似 $\\mathrm { S i O _ { 2 } }$ 的三维结构。"
+      "text": "从 A 到 D 的结构中,$\\mathrm{Hg(II)}$ 与 N 的结合随 N 上所连氢原子的数目而变化,N 均成 4 个键,$\\mathrm{N{-}Hg{-}N}$ 键角为 180°。A 中,$\\mathrm{Br^-}$ 作简单立方堆积,两个立方体共用的面中心存在一个 $\\mathrm{Hg(II)}$,$\\mathrm{NH_3}$ 位于立方体的体心。B 中,$\\mathrm{Hg(II)}$ 与氨基形成一维链。C 中存在 $\\mathrm{Hg(II)}$ 与亚氨基形成的按六边形扩展的二维结构,$\\mathrm{Br^-}$ 位于六边形中心。D 中,$\\mathrm{(Hg_2N)^+}$ 形成具有类似 $\\mathrm{SiO_2}$ 的三维结构。"
     }
   ],
   "parts": [
@@ -31,7 +31,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出⽣成C和D的⽅程式。"
+          "text": "写出生成 C 和 D 的方程式。"
         }
       ]
     },
@@ -41,7 +41,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出A的结构⽰意图 $\\mathrm { ( N H _ { 3 } }$ 以N表⽰）。"
+          "text": "画出 A 的结构示意图($\\mathrm{NH_3}$ 以 N 表示)。"
         }
       ]
     },
@@ -51,7 +51,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出 B 中 $\\operatorname { H g } ( \\operatorname { I I } )$ 与氨基（以N表⽰）形成的⼀维链式结构⽰意图。"
+          "text": "画出 B 中 $\\mathrm{Hg(II)}$ 与氨基(以 N 表示)形成的一维链式结构示意图。"
         }
       ]
     },
@@ -61,7 +61,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出C中⼆维层的结构⽰意图，写出其组成式。层间还存在哪些物种？给出其⽐例。"
+          "text": "画出 C 中二维层的结构示意图,写出其组成式。层间还存在哪些物种?给出其比例。"
         }
       ]
     },
@@ -71,7 +71,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出 D 中 $\\mathrm { ( H g _ { 2 } N ) }$ +的三维结构⽰意图(⽰出 $\\mathrm { H g }$ 与N的连接⽅式即可)。"
+          "text": "画出 D 中 $\\mathrm{(Hg_2N)^+}$ 的三维结构示意图(示出 $\\mathrm{Hg}$ 与 N 的连接方式即可)。"
         }
       ]
     },
@@ -81,7 +81,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "令⼈惊奇的是，组成为 HgNH_{2}F 的化合物并⾮与 $\\mathrm { { H g N H _ { 2 } X ( X = C l , \\Delta \\mathrm { { B r } } } }$ ，I)同构，⽽与D相似，存在三维结构的 $\\mathrm { ( H g 2 N ) _ { \\circ } ^ { + } }$ 写出表达 $\\mathrm { H g N H _ { 2 } F }$ 结构特点的结构简式。"
+          "text": "令人惊奇的是,组成为 $\\mathrm{HgNH_2F}$ 的化合物并非与 $\\mathrm{HgNH_2X\\,(X=Cl,Br,I)}$ 同构,而与 D 相似,存在三维结构的 $\\mathrm{(Hg_2N)^+}$。写出表达 $\\mathrm{HgNH_2F}$ 结构特点的结构简式。"
         }
       ]
     }

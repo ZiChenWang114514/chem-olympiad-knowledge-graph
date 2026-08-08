@@ -12,19 +12,13 @@
     "sourceLabel": "2015-29-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2015-29-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2015-29-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、优化小问结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000460-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$\\mathrm { C H _ { 3 } S i C l _ { 3 } }$ 和⾦属钠在液氨中反应，得到组成为 $\\mathrm { S i _ { 6 } C _ { 6 } N _ { 9 } H _ { 2 7 } }$ 的分⼦，此分⼦有⼀条三重旋转轴，所有 Si 原⼦不可区分，画出该分⼦的结构图（必须标明原⼦种类，H原⼦可不标），并写出化学反应⽅程式。"
+          "text": "$\\mathrm{CH_3SiCl_3}$ 和金属钠在液氨中反应,得到组成为 $\\mathrm{Si_6C_6N_9H_{27}}$ 的分子,此分子有一条三重旋转轴,所有 Si 原子不可区分,画出该分子的结构图(必须标明原子种类,H 原子可不标),并写出化学反应方程式。"
         }
       ]
     },
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "⾦属钠和 $( \\mathrm { C _ { 6 } H _ { 5 } ) _ { 3 } C N H _ { 2 } }$ 在液氨中反应，⽣成物中有⼀种红⾊钠盐，写出化学反应⽅程式，解释红⾊产⽣的原因。"
+          "text": "金属钠和 $(\\mathrm{C_6H_5})_3\\mathrm{CNH_2}$ 在液氨中反应,生成物中有一种红色钠盐,写出化学反应方程式,解释红色产生的原因。"
         }
       ]
     },
@@ -52,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "最新研究发现，⾼压下⾦属 Cs 可以形成单中⼼的 $\\mathrm { C s F _ { 5 } }$ 分⼦，试根据价层电⼦对互斥理论画出 $\\mathrm { C s F _ { 5 } }$ 的中⼼原⼦价电⼦对分布，并说明分⼦形状。"
+          "text": "最新研究发现,高压下金属 Cs 可以形成单中手的 $\\mathrm{CsF_5}$ 分子,试根据价层电子对互斥理论画出 $\\mathrm{CsF_5}$ 的中手原子价电子对分布,并说明分子形状。"
         }
       ]
     }

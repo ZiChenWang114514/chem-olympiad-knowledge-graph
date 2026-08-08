@@ -12,32 +12,33 @@
     "sourceLabel": "2018-32-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2018-32-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2018-32-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理公式与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "根据如下实验结果："
+      "text": "根据如下实验结果:"
     },
     {
       "type": "paragraph",
-      "text": "在三氧化⼆铝存在下，1-苯基丙炔与氯化氢反应，主要产物为氯代烯烃A和 $\\mathbf { B } _ { \\mathrm { c } }$"
+      "text": "在三氧化二铝存在下,1-苯基丙炔与氯化氢反应,主要产物为氯代烯烃 A 和 B。"
     },
     {
       "type": "paragraph",
-      "text": "$$\n\\left\\langle \\right\\rangle - \\mathrm{C} \\equiv \\mathrm{C} - \\mathrm{CH} _ {3} \\xrightarrow [ \\mathrm{Al} _ {2} \\mathrm{O} _ {3} ]{\\mathrm{HCl}} \\mathbf {A} + \\mathbf {B}\n$$"
+      "text": "$\\ce{Ph-C#C-CH3 ->[HCl][Al2O3] A + B}$"
     },
     {
       "type": "paragraph",
-      "text": "1-苯基丙炔及产物的含量随时间延⻓⽽变化，达到平衡时A与B的含量之⽐为1:35，如下图所⽰："
+      "text": "1-苯基丙炔及产物的含量随时间延长而变化,达到平衡时 A 与 B 的含量之比为 1:35,如下图所示:"
     },
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "反应物及产物含量随时间变化示意图",
+      "alt": "缺图:显示1-苯基丙炔、A和B含量随时间变化的曲线,平衡时A:B=1:35"
     }
   ],
   "parts": [
@@ -47,7 +48,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出主要产物A和B的结构简式，指出其⼏何构型（�或�）。"
+          "text": "写出主要产物 A 和 B 的结构简式,指出其几何构型(E/Z)。"
         }
       ]
     },
@@ -57,7 +58,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出⽣成产物A的中间体，画出其中1，2号碳原⼦形成π键的原⼦轨道重叠⽰意图，解释反应初期主要⽣成A的主要原因。"
+          "text": "写出生成产物 A 的中间体,画出其中 1,2 号碳原子形成 π 键的原子轨道重叠示意图,解释反应初期主要生成 A 的主要原因。"
         }
       ]
     },
@@ -67,7 +68,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出反应机理，解释随时间延⻓，A的含量减少⽽B的含量增加。"
+          "text": "写出反应机理,解释随时间延长,A 的含量减少而 B 的含量增加。"
         }
       ]
     }

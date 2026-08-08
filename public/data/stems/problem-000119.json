@@ -12,19 +12,13 @@
     "sourceLabel": "2021-35-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2021-35-CChO-chusai-jiangsu/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2021-35-CChO-chusai-jiangsu/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000119-01",
@@ -32,47 +26,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在酸性条件下，请按失⽔从易到难给以下化合物排序："
+          "text": "在酸性条件下,请按失水从易到难给以下化合物排序:"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "OH"
-        },
-        {
-          "type": "paragraph",
-          "text": "OH"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "A"
-        },
-        {
-          "type": "paragraph",
-          "text": "B"
-        },
-        {
-          "type": "paragraph",
-          "text": "C"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "D"
+          "type": "figure",
+          "caption": "化合物 A-D 的结构式(原图缺失)",
+          "alt": "四个化合物结构,分别标记为 A、B、C、D"
         }
       ]
     },
@@ -82,39 +41,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "请按碱性由强到弱给以下化合物排序："
+          "text": "请按碱性由强到弱给以下化合物排序:"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "A"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "B"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "C"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "D"
+          "type": "figure",
+          "caption": "化合物 A-D 的结构式(原图缺失)",
+          "alt": "四个化合物结构,分别标记为 A、B、C、D"
         }
       ]
     },
@@ -124,71 +56,21 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "已知"
+          "text": "已知反应:"
+        },
+        {
+          "type": "figure",
+          "caption": "反应方程式(原图缺失)",
+          "alt": "一个化学反应方程式"
         },
         {
           "type": "paragraph",
-          "text": "（图：）"
+          "text": "在相同条件下,请按反应速率从快到慢给以下化合物排序:"
         },
         {
-          "type": "paragraph",
-          "text": "+"
-        },
-        {
-          "type": "paragraph",
-          "text": "在相同条件下，请按反应速率从快到慢给以下化合物排序："
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "A"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "B"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "C"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "OH"
-        },
-        {
-          "type": "paragraph",
-          "text": "D"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "E"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "F"
+          "type": "figure",
+          "caption": "化合物 A-F 的结构式(原图缺失)",
+          "alt": "六个化合物结构,分别标记为 A、B、C、D、E、F"
         }
       ]
     }

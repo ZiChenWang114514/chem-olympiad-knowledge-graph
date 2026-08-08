@@ -12,16 +12,16 @@
     "sourceLabel": "2010-24-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2010-24-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2010-24-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理公式与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "293.15 K 下， $\\mathrm { O _ { 2 } ( g ) }$ 在⾎液中溶解的亨利常数 $k = 8 . 0 0 0 \\times 1 0 ^ { 4 } \\mathrm { k P a k g ^ { - 1 } m o l ^ { - 1 } }$ ；氧⽓的摩尔熵 $S _ { \\mathrm { m } } ^ { \\ominus } = 2 0 4 . 6$ $\\mathrm { J \\ K ^ { - 1 } \\ m o l ^ { - 1 } ; ~ C O _ { 2 } ( a q ) + \\mathrm { I I _ { 2 } O ( l ) ~  ~ I I C O _ { 3 } ( a q ) + \\mathrm { I I ^ { + } ( a q ) ~ \\Delta _ { r } H _ { m } ^ { \\ominus } ~ = ~ 7 . 5 0 ~ k J ~ m o l ^ { - 1 } ; ~ C O _ { 2 } ( a q ) ~  ~ C O _ { 2 } ( g ) ~ \\Delta _ { v } H _ { m } ^ { \\ominus } } } }$ $= 1 9 . 4 0$ kJ $\\mathrm { m o l }$ −1；设 $\\Delta _ { \\mathrm { r } } H _ { \\mathrm { m } } ^ { \\ominus }$ $\\Delta _ { \\mathrm { v } } H _ { \\mathrm { m } } ^ { \\ominus }$ 不随温度变化。"
+      "text": "293.15 K 下,$\\mathrm{O_2(g)}$ 在血液中溶解的亨利常数 $k = 8.000 \\times 10^4\\ \\mathrm{kPa\\ kg^{-1}\\ mol^{-1}}$;氧气的摩尔熵 $S_{\\mathrm{m}}^{\\ominus} = 204.6\\ \\mathrm{J\\ K^{-1}\\ mol^{-1}}$;$\\mathrm{CO_2(aq) + H_2O(l) \\rightleftharpoons HCO_3^-(aq) + H^+(aq)}$,$\\Delta_{\\mathrm{r}}H_{\\mathrm{m}}^{\\ominus} = 7.50\\ \\mathrm{kJ\\ mol^{-1}}$;$\\mathrm{CO_2(aq) \\rightleftharpoons CO_2(g)}$,$\\Delta_{\\mathrm{v}}H_{\\mathrm{m}}^{\\ominus} = 19.40\\ \\mathrm{kJ\\ mol^{-1}}$;设 $\\Delta_{\\mathrm{r}}H_{\\mathrm{m}}^{\\ominus}$、$\\Delta_{\\mathrm{v}}H_{\\mathrm{m}}^{\\ominus}$ 不随温度变化。"
     }
   ],
   "parts": [
@@ -31,7 +31,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在 293.15 K 下，将含有 1.000 g Hb 的溶液放⼊⼀总热容(Cp)为 93.70 J K−1 的等压绝热微量量热计中，当充⼊⾜够的氧⽓后，Hb全部氧合成 $\\mathrm { H b ( O _ { 2 } ) _ { 4 } }$ ，测得体系温度升 $\\overrightarrow { \\sf E I } 0 . 0 2 8 ^ { \\circ } \\mathrm { C } _ { c }$ 。计算每摩尔氧的平均结合焓。"
+          "text": "在 293.15 K 下,将含有 1.000 g Hb 的溶液放入一总热容($C_p$)为 93.70 J K$^{-1}$ 的等压绝热微量量热计中,当充入足够的氧气后,Hb 全部氧合成 $\\mathrm{Hb(O_2)_4}$,测得体系温度升高 $0.028\\ ^\\circ\\mathrm{C}$。计算每摩尔氧的平均结合焓。"
         }
       ]
     },
@@ -41,7 +41,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "估算 $\\mathrm { H b ( a q ) } + \\mathrm { O } _ { 2 } ( \\mathrm { g ) } \\to \\mathrm { H b O } _ { 2 } ( \\mathrm { a q ) }$ 在 293.15 K 时的 $S _ { \\mathrm { m } } ^ { \\ominus } [ \\mathrm { H b O } _ { 2 } ( \\mathrm { a q } ) ] { - } S _ { \\mathrm { m } } ^ { \\ominus } [ \\mathrm { H b } ( \\mathrm { a q } ) ]$ ，简要说明估算误差的来源。"
+          "text": "估算 $\\mathrm{Hb(aq) + O_2(g) \\to HbO_2(aq)}$ 在 293.15 K 时的 $S_{\\mathrm{m}}^{\\ominus}[\\mathrm{HbO_2(aq)}] - S_{\\mathrm{m}}^{\\ominus}[\\mathrm{Hb(aq)}]$,简要说明估算误差的来源。"
         }
       ]
     },
@@ -51,27 +51,27 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "研制⼀种临床⽤的⼆氧化碳⽓敏电极（由透⽓膜、 $1 . 0 { \\times } 1 0 ^ { - 2 } \\mathrm { m o l } \\mathrm { k g } ^ { - 1 }$ 的 $\\mathrm { N a H C O _ { 3 } }$ 溶液、pH电极和外参⽐电极组成），某研究⼈员从理论上探讨了⼆氧化碳的分压及温度变化对溶液pH的影响。"
+          "text": "研制一种临床用的二氧化碳气敏电极(由透气膜、$1.0 \\times 10^{-2}\\ \\mathrm{mol\\ kg^{-1}}$ 的 $\\mathrm{NaHCO_3}$ 溶液、pH 电极和外参比电极组成),某研究人员从理论上探讨了二氧化碳的分压及温度变化对溶液 pH 的影响。"
         }
       ]
     },
     {
       "id": "part-000370-04",
-      "label": "5-3",
+      "label": "5-3-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 计算 298.15 K 下， $\\mathrm { C O _ { 2 } ( g ) }$ 平衡压⼒为 6.00 kPa 和 6.66 kPa 的电势差值；"
+          "text": "计算 298.15 K 下,$\\mathrm{CO_2(g)}$ 平衡压力为 6.00 kPa 和 6.66 kPa 的电势差值;"
         }
       ]
     },
     {
       "id": "part-000370-05",
-      "label": "5-3",
+      "label": "5-3-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 保持 $\\mathrm { C O _ { 2 } ( g ) }$ 的分压不变，温度升⾼，写出有关公式并据此说明溶液pH如何变化。"
+          "text": "保持 $\\mathrm{CO_2(g)}$ 的分压不变,温度升高,写出有关公式并据此说明溶液 pH 如何变化。"
         }
       ]
     },
@@ -81,59 +81,59 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在肺部的呼吸作⽤中，氧合⾎红蛋⽩的⽣成速率为 $r = k [ \\mathrm { H b } ( \\mathrm { a q } ) ] [ \\mathrm { O } _ { 2 } ( \\mathrm { a q } ) ]$"
+          "text": "在肺部的呼吸作用中,氧合血红蛋白的生成速率为 $r = k[\\mathrm{Hb(aq)}][\\mathrm{O_2(aq)}]$"
         }
       ]
     },
     {
       "id": "part-000370-07",
-      "label": "5-4",
+      "label": "5-4-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 计算在海拔6000m的⾼⼭上⼈体⾎液中氧合⾎红蛋⽩的⽣成速率与海平⾯的⽣成速率之⽐。设体温为310.15K，⽓体均为理想⽓体。"
+          "text": "计算在海拔 6000 m 的高山上人体血液中氧合血红蛋白的生成速率与海平面的生成速率之比。设体温为 310.15 K,气体均为理想气体。"
         }
       ]
     },
     {
       "id": "part-000370-08",
-      "label": "5-4",
+      "label": "5-4-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 有⼈提出了氧合反应的两个机理。请证明下述反应机理何者更合理。"
+          "text": "有人提出了氧合反应的两个机理。请证明下述反应机理何者更合理。"
         },
         {
           "type": "paragraph",
-          "text": "$$\n\\mathrm{Hb} (\\mathrm{aq}) + \\mathrm{O} _ {2} (\\mathrm{aq}) \\xrightarrow [ k _ {- 1} ]{k _ {1}} \\mathrm{HbO} _ {2} (\\mathrm{aq}) \\text {瞬间达平衡}\n$$"
+          "text": "$\\mathrm{Hb(aq) + O_2(aq) \\xrightleftharpoons[k_{-1}]{k_1} HbO_2(aq)}$ 瞬间达平衡"
         },
         {
           "type": "paragraph",
-          "text": "$$\n\\mathrm{Hb} (\\mathrm{aq}) + \\mathrm{O} _ {2} (\\mathrm{aq}) \\xrightarrow {k _ {1}} \\mathrm{HbO} _ {2} (\\mathrm{aq})\n$$"
+          "text": "$\\mathrm{Hb(aq) + O_2(aq) \\xrightarrow{k_1} HbO_2(aq)}$"
         },
         {
           "type": "paragraph",
-          "text": "$$\n\\mathrm{HbO} _ {2} (\\mathrm{aq}) + \\mathrm{O} _ {2} (\\mathrm{aq}) \\xrightarrow [ k _ {- 2} ]{k _ {2}} \\mathrm{HbO} _ {4} (\\mathrm{aq}) \\text {瞬间达平衡}\n$$"
+          "text": "$\\mathrm{HbO_2(aq) + O_2(aq) \\xrightleftharpoons[k_{-2}]{k_2} HbO_4(aq)}$ 瞬间达平衡"
         },
         {
           "type": "paragraph",
-          "text": "$$\n\\mathrm{HbO} _ {2} (\\mathrm{aq}) + \\mathrm{O} _ {2} (\\mathrm{aq}) \\xrightarrow {k _ {2}} \\mathrm{HbO} _ {4} (\\mathrm{aq})\n$$"
+          "text": "$\\mathrm{HbO_2(aq) + O_2(aq) \\xrightarrow{k_2} HbO_4(aq)}$"
         },
         {
           "type": "paragraph",
-          "text": "$$\n\\mathrm{HbO} _ {4} (\\mathrm{aq}) + \\mathrm{O} _ {2} (\\mathrm{aq}) \\xrightarrow [ k _ {- 3} ]{k _ {3}} \\mathrm{HbO} _ {6} (\\mathrm{aq}) \\text {瞬间达平衡}\n$$"
+          "text": "$\\mathrm{HbO_4(aq) + O_2(aq) \\xrightleftharpoons[k_{-3}]{k_3} HbO_6(aq)}$ 瞬间达平衡"
         },
         {
           "type": "paragraph",
-          "text": "$$\n\\mathrm{HbO} _ {4} (\\mathrm{aq}) + \\mathrm{O} _ {2} (\\mathrm{aq}) \\xrightarrow {k _ {3}} \\mathrm{HbO} _ {6} (\\mathrm{aq})\n$$"
+          "text": "$\\mathrm{HbO_4(aq) + O_2(aq) \\xrightarrow{k_3} HbO_6(aq)}$"
         },
         {
           "type": "paragraph",
-          "text": "$$\n\\mathrm{HbO} _ {6} (\\mathrm{aq}) + \\mathrm{O} _ {2} (\\mathrm{aq}) \\xrightarrow {k _ {4}} \\mathrm{HbO} _ {8} (\\mathrm{aq})\n$$"
+          "text": "$\\mathrm{HbO_6(aq) + O_2(aq) \\xrightarrow{k_4} HbO_8(aq)}$"
         },
         {
           "type": "paragraph",
-          "text": "$$\n\\mathrm{HbO} _ {6} (\\mathrm{aq}) + \\mathrm{O} _ {2} (\\mathrm{aq}) \\xrightarrow {k _ {4}} \\mathrm{HbO} _ {8} (\\mathrm{aq})\n$$"
+          "text": "$\\mathrm{HbO_6(aq) + O_2(aq) \\xrightarrow{k_4} HbO_8(aq)}$"
         }
       ]
     }

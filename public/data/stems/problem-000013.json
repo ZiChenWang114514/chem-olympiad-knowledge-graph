@@ -12,19 +12,13 @@
     "sourceLabel": "2016-30-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2016-30-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2016-30-CChO-chusai/full.md)程序化切分并整理为结构化题干;经 DeepSeek 精修(修正 OCR 字误、统一字符、清理空壳 callout)。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000013-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出形成“棕⾊环”的反应⽅程式。"
+          "text": "写出形成“棕色环”的反应方程式。"
         }
       ]
     },
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "推出中⼼离⼦的价电⼦组态、⾃旋态（⾼或低）和氧化态。"
+          "text": "推出中心离子的价电子组态、自旋态(高或低)和氧化态。"
         }
       ]
     },
@@ -52,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "棕⾊物质中NO的键⻓与⾃由NO分⼦中N—O键⻓相⽐，变⻓还是变短？简述理由。"
+          "text": "棕色物质中 NO 的键长与自由 NO 分子中 N—O 键长相比,变长还是变短?简述理由。"
         }
       ]
     }

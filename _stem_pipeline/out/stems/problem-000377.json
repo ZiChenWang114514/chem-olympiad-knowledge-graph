@@ -12,19 +12,13 @@
     "sourceLabel": "2011-25-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2011-25-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2011-25-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、规范小问结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000377-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "A是紫红⾊晶体，分⼦量925.23，抗磁性。它通过 $\\mathrm { R h C l _ { 3 } } { \\cdot } 3 \\mathrm { H _ { 2 } O }$ 和过量三苯膦 $\\left( \\mathrm { P P h } _ { 3 } \\right)$ 的⼄醇溶液回流制得。画出A的⽴体结构。"
+          "text": "A是紫红色晶体,分子量925.23,抗磁性。它通过 $\\ce{RhCl3.3H2O}$ 和过量三苯膦 $\\ce{PPh3}$ 的乙醇溶液回流制得。画出A的立体结构。"
         }
       ]
     },
@@ -42,11 +36,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "A可能的催化机理如下图所⽰（图中16e表⽰中⼼原⼦周围总共有16个电⼦）："
+          "text": "A可能的催化机理如下图所示(图中16e表示中心原子周围总共有16个电子):"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "催化机理图",
+          "alt": "催化机理图(缺图)"
         },
         {
           "type": "paragraph",
@@ -60,7 +55,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "确定图中所有配合物的中⼼原⼦的氧化态。"
+          "text": "确定图中所有配合物的中心原子的氧化态。"
         }
       ]
     },
@@ -70,7 +65,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "确定A、C、D和E的中⼼离⼦的杂化轨道类型。"
+          "text": "确定A、C、D和E的中心离子的杂化轨道类型。"
         }
       ]
     },
@@ -80,7 +75,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "⽤配合物的价键理论推测C和E显顺磁性还是抗磁性，说明理由。"
+          "text": "用配合物的价键理论推测C和E显顺磁性还是抗磁性,说明理由。"
         }
       ]
     }

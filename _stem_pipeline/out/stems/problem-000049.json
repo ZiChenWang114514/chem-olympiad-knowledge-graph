@@ -12,19 +12,13 @@
     "sourceLabel": "2018-32-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2018-32-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2018-32-CChO-chusai/full.md)程序化切分并整理为结构化题干;经 DeepSeek 化学题干精修助手修正 OCR、LaTeX 与结构。请以官方纸质/PDF 为准。;DeepSeek 精修:OCR 汉字/公式/小问结构整理,请以官方 PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000049-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "氮化硅可⽤作LED的基质材料，它可通过等离⼦法⽤ $\\mathrm { S i H _ { 4 } }$ 与氨⽓反应制得。"
+          "text": "氮化硅可用作 LED 的基质材料,它可通过等离子法用 $\\ce{SiH4}$ 与氨气反应制得。"
         }
       ]
     },
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "将擦亮的铜⽚投⼊装有⾜量的浓硫酸的⼤试管中，微热⽚刻，有固体析出但⽆⽓体产⽣，固体为 $\\mathrm { { C u _ { 2 } S } }$ 和另⼀种⽩⾊物质的混合物。"
+          "text": "将擦亮的铜片投入装有足量的浓硫酸的大试管中,微热片刻,有固体析出但无气体产生,固体为 $\\ce{Cu2S}$ 和另一种白色物质的混合物。"
         }
       ]
     },
@@ -52,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在 $5 0 ~ ^ { \\circ } \\mathrm { C }$ ⽔溶液中，单质碲与过量NaBH_{4}反应制备碲氢化钠，反应过程中析出硼砂$\\mathrm { \\small { [ N a _ { 2 } B _ { 4 } O _ { 5 } ( O H ) _ { 4 } { \\cdot } 8 H _ { 2 } O ] } }$"
+          "text": "在 $50~^\\circ\\mathrm{C}$ 水溶液中,单质碲与过量 $\\ce{NaBH4}$ 反应制备碲氢化钠,反应过程中析出硼砂 $\\ce{Na2B4O5(OH)4.8H2O}$。"
         }
       ]
     },
@@ -62,7 +56,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "天然⽓的⽆机成因⼗分诱⼈。据称，地幔主成分之⼀的橄榄⽯与⽔和⼆氧化碳反应，可⽣成甲烷。橄榄⽯以 $\\mathrm { M g } _ { 2 } \\mathrm { S i O } _ { 4 }$ 和 $\\mathrm { F e _ { 2 } S i O _ { 4 } }$ 表⽰，反应后变成蛇纹⽯ $\\mathrm { \\small { [ M g _ { 3 } S i _ { 2 } O _ { 5 } ( O H ) } }$ _{4}]和磁铁矿。"
+          "text": "天然气的无机成因十分诱人。据称,地幔主成分之一的橄榄石与水和二氧化碳反应,可生成甲烷。橄榄石以 $\\ce{Mg2SiO4}$ 和 $\\ce{Fe2SiO4}$ 表示,反应后变成蛇纹石 $\\ce{Mg3Si2O5(OH)4}$ 和磁铁矿。"
         }
       ]
     }

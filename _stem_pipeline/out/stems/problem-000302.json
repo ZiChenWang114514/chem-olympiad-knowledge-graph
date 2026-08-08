@@ -12,16 +12,17 @@
     "sourceLabel": "2007-21-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2007-21-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2007-21-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "图:氯化镁层状晶体结构示意图(缺图)",
+      "alt": "氯化镁层状晶体结构示意图"
     }
   ],
   "parts": [
@@ -31,7 +32,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "以□表⽰空层，A、B、C表⽰Cl−离⼦层，a、b、c表⽰ $\\mathrm { M g ^ { 2 + } }$ 离⼦层，给出三⽅层型结构的堆积⽅式。"
+          "text": "以□表示空层,A、B、C表示Cl−离子层,a、b、c表示Mg2+离子层,给出三方层型结构的堆积方式。"
         }
       ]
     },
@@ -41,7 +42,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算⼀个六⽅晶胞中 $\\mathrm { M g C l _ { 2 } }$ 的单元数。"
+          "text": "计算一个六方晶胞中MgCl2的单元数。"
         }
       ]
     },
@@ -51,7 +52,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "假定将该晶体中所有⼋⾯体空隙皆填满 $\\mathrm { M g ^ { 2 + } }$ 离⼦，将是哪种晶体结构类型？"
+          "text": "假定将该晶体中所有八面体空隙皆填满Mg2+离子,将是哪种晶体结构类型?"
         }
       ]
     }

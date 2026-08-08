@@ -9,28 +9,28 @@
   "examStage": "final",
   "source": {
     "sourceDocumentId": "source-000031",
-    "sourceLabel": "2024年全国中学生化学竞赛决赛试题（第一场）.pdf",
+    "sourceLabel": "2024年全国中学生化学竞赛决赛试题(第一场).pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2024年全国中学生化学竞赛决赛试题（第一场）/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2024年全国中学生化学竞赛决赛试题(第一场)/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、合并小问、移除无信息 callout。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "过氧乙酸（PAA）作为一种重要的有机化工产品，已广泛应用于食品器具、医疗器械、纺织业、能源工程、环境工程等领域，特别是作为消毒剂，具有广谱适用性，在使用浓度下对物品基本无腐损，属绿色环保型消毒剂。了解PAA的理化性质、制备工艺、合成反应动力学对其应用是十分重要的。工业上通常用硫酸作催化剂，由乙酸（AA）和过氧化氢（HP）制备PAA，298.15K时其平衡常数为3.30。一些物质的热力学数据示于表5.1。298.15 K时，pKa(AA)=4.74，pKa(PAA)=8.2。"
+      "text": "过氧乙酸(PAA)作为一种重要的有机化工产品,已广泛应用于食品器具、医疗器械、纺织业、能源工程、环境工程等领域,特别是作为消毒剂,具有广谱适用性,在使用浓度下对物品基本无腐损,属绿色环保型消毒剂。了解PAA的理化性质、制备工艺、合成反应动力学对其应用是十分重要的。工业上通常用硫酸作催化剂,由乙酸(AA)和过氧化氢(HP)制备PAA,298.15K时其平衡常数为3.30。一些物质的热力学数据示于表5.1。298.15 K时,pKa(AA)=4.74,pKa(PAA)=8.2。"
     },
     {
       "type": "paragraph",
-      "text": "表5.1物质的标准摩尔生成吉布斯自由能和标准摩尔生成焓（298.15K， $p ^ { \\ominus } )$"
+      "text": "表5.1物质的标准摩尔生成吉布斯自由能和标准摩尔生成焓(298.15K, $p^{\\ominus}$)"
     },
     {
-      "type": "callout",
-      "tone": "info",
-      "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
+      "type": "figure",
+      "caption": "表5.1 数据表",
+      "alt": "原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。"
     }
   ],
   "parts": [
@@ -40,23 +40,23 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$\\Delta _ { \\mathrm { f } } G _ { \\mathrm { m } } ^ { \\ominus } ( \\mathrm { P A A } ,$ aq, 298.15 K) = kJ $\\mathrm { m o l } ^ { - 1 }$ 。(结果保留至小数点后第2位)"
+          "text": "$\\Delta_{\\mathrm{f}}G_{\\mathrm{m}}^{\\ominus}(\\mathrm{PAA}, \\mathrm{aq}, 298.15\\,\\mathrm{K}) = \\_\\_\\_\\_\\,\\mathrm{kJ\\,mol^{-1}}$ 。(结果保留至小数点后第2位)"
         },
         {
           "type": "paragraph",
-          "text": "$$\nT _ {\\mathrm{b}}\n$$"
+          "text": "$T_{\\mathrm{b}}$"
         },
         {
           "type": "paragraph",
-          "text": "$$\nT _ {\\mathrm{f}},\n$$"
+          "text": "$T_{\\mathrm{f}}$"
         },
         {
           "type": "paragraph",
-          "text": "$$\nK _ {\\mathrm{H}})\n$$"
+          "text": "$K_{\\mathrm{H}}$"
         },
         {
           "type": "paragraph",
-          "text": "③ KH(AA)KH(PAA)。"
+          "text": "3 $K_{\\mathrm{H}}(\\mathrm{AA})$ 与 $K_{\\mathrm{H}}(\\mathrm{PAA})$ 的比较。"
         },
         {
           "type": "paragraph",
@@ -70,7 +70,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2AA与PAA的上述性质存在差异，这在很大程度上可以归因于什么？"
+          "text": "AA与PAA的上述性质存在差异,这在很大程度上可以归因于什么?"
         }
       ]
     },
@@ -80,11 +80,11 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "PAA性质不稳定。PAA存放过程中除自然分解外，影响其分解的因素还有光、浓度、温度、酸度及溶液中的金属离子等。为了增加市售PAA溶液（含不同浓度的PAA、AA、HP、水）的保存期，常添加稳定剂到PAA溶液中。以下化合物中，哪些对提高PAA溶液的稳定性有作用？A. 焦磷酸钠 B. 硫酸钠 C. 硫代硫酸钠D. 尿素 E.氯苯 F.乙二胺四乙酸二钠"
+          "text": "PAA性质不稳定。PAA存放过程中除自然分解外,影响其分解的因素还有光、浓度、温度、酸度及溶液中的金属离子等。为了增加市售PAA溶液(含不同浓度的PAA、AA、HP、水)的保存期,常添加稳定剂到PAA溶液中。以下化合物中,哪些对提高PAA溶液的稳定性有作用?A. 焦磷酸钠 B. 硫酸钠 C. 硫代硫酸钠 D. 尿素 E. 氯苯 F. 乙二胺四乙酸二钠"
         },
         {
           "type": "paragraph",
-          "text": "54还原电势是评估消毒剂的重要参数。消毒通常在接近中性pH下进行，计算在生物化学标准条件（pH=7、298.15K、p°，其他物种的浓度为标准浓度）下PAA的 $p ^ { \\circ }$ 还原电势。（结果保留至小数点后第3位）"
+          "text": "还原电势是评估消毒剂的重要参数。消毒通常在接近中性pH下进行,计算在生物化学标准条件(pH=7、298.15K、$p^{\\ominus}$,其他物种的浓度为标准浓度)下PAA的 $p^{\\ominus}$ 还原电势。(结果保留至小数点后第3位)"
         },
         {
           "type": "heading",
@@ -93,11 +93,11 @@
         },
         {
           "type": "paragraph",
-          "text": "PAA的合成方法主要有乙酸氧化法、乙酸酐（AAh）氧化法等。乙酸酐氧化法是通过乙酸酐与双氧水反应制备PAA，同时可能会生成副产物二乙酰基过氧化物(DAP)。DAP 的正常沸点为 394.5 K，336.2 K 时 DAP 的蒸气压为 2799.762 Pa。"
+          "text": "PAA的合成方法主要有乙酸氧化法、乙酸酐(AAh)氧化法等。乙酸酐氧化法是通过乙酸酐与双氧水反应制备PAA,同时可能会生成副产物二乙酰基过氧化物(DAP)。DAP 的正常沸点为 394.5 K,336.2 K 时 DAP 的蒸气压为 2799.762 Pa。"
         },
         {
           "type": "paragraph",
-          "text": "(可做合理假设，结果保留至小数点后第2位)"
+          "text": "(可做合理假设,结果保留至小数点后第2位)"
         }
       ]
     },
@@ -107,7 +107,19 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1计算乙酸氧化法合成PAA反应的 $\\Delta _ { \\mathrm { r } } G _ { \\mathrm { m } } ^ { \\ominus }$ 与 $\\Delta _ { \\mathrm { r } } H _ { \\mathrm { m } } ^ { \\ominus }$ ，说明其工艺特点。5-5-2 计算乙酸酐氧化法合成PAA 反应的 $\\Delta _ { \\mathrm { r } } G _ { \\mathrm { m } } ^ { \\ominus }$ 与 $\\Delta _ { \\mathrm { r } } H _ { \\mathrm { m } } ^ { \\ominus }$ ，说明其工艺特点。5-5-3 计算乙酸酐氧化法生成 DAP 反应的 $\\Delta _ { \\mathrm { r } } G _ { \\mathrm { m } } ^ { \\ominus }$ ，说明生成DAP的可能性。5-54工业上不选择乙酸酐氧化法制备PAA的根本原因是什么？"
+          "text": "5-5-1 计算乙酸氧化法合成PAA反应的 $\\Delta_{\\mathrm{r}}G_{\\mathrm{m}}^{\\ominus}$ 与 $\\Delta_{\\mathrm{r}}H_{\\mathrm{m}}^{\\ominus}$,说明其工艺特点。"
+        },
+        {
+          "type": "paragraph",
+          "text": "5-5-2 计算乙酸酐氧化法合成PAA反应的 $\\Delta_{\\mathrm{r}}G_{\\mathrm{m}}^{\\ominus}$ 与 $\\Delta_{\\mathrm{r}}H_{\\mathrm{m}}^{\\ominus}$,说明其工艺特点。"
+        },
+        {
+          "type": "paragraph",
+          "text": "5-5-3 计算乙酸酐氧化法生成DAP反应的 $\\Delta_{\\mathrm{r}}G_{\\mathrm{m}}^{\\ominus}$,说明生成DAP的可能性。"
+        },
+        {
+          "type": "paragraph",
+          "text": "5-5-4 工业上不选择乙酸酐氧化法制备PAA的根本原因是什么?"
         },
         {
           "type": "heading",
@@ -116,37 +128,37 @@
         },
         {
           "type": "paragraph",
-          "text": "表 5.2不同温度和 H+浓度下 $k _ { 1 0 \\mathrm { b s } } ~ ( \\mathrm { L } \\mathrm { m o l ^ { - 1 } \\ : h ^ { - 1 } } )$ 的实验值"
+          "text": "表 5.2 不同温度和 $\\mathrm{H^+}$ 浓度下 $k_{1\\mathrm{obs}}\\,(\\mathrm{L\\,mol^{-1}\\,h^{-1}})$ 的实验值"
         },
         {
-          "type": "callout",
-          "tone": "info",
-          "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
-        },
-        {
-          "type": "paragraph",
-          "text": "表 5.3 不同温度和 H+浓度下 $k _ { 2 \\mathrm { o b s } } ~ ( \\mathrm { L } \\mathrm { m o l ^ { - 1 } \\ : h ^ { - 1 } } )$ 的实验值"
-        },
-        {
-          "type": "callout",
-          "tone": "info",
-          "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
+          "type": "figure",
+          "caption": "表5.2 数据表",
+          "alt": "原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。"
         },
         {
           "type": "paragraph",
-          "text": "在不同温度下，对酸催化乙酸和过氧化氢制备过氧乙酸的均相反应动力学进行了研究，测定了反应中PAA和HP的浓度随时间变化的数据，对其处理后，得到的结果见表 5.2和表5.3。其中 $k _ { 1 0 6 5 } \\cdot k _ { 2 0 6 5 }$ 分别是PAA的合成和水解两个反应的实测速率常数，由反应初始速率求得。PAA的合成和水解反应对其所有反应物的级数均为1。"
+          "text": "表 5.3 不同温度和 $\\mathrm{H^+}$ 浓度下 $k_{2\\mathrm{obs}}\\,(\\mathrm{L\\,mol^{-1}\\,h^{-1}})$ 的实验值"
+        },
+        {
+          "type": "figure",
+          "caption": "表5.3 数据表",
+          "alt": "原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。"
         },
         {
           "type": "paragraph",
-          "text": "18Q 同位素标记实验发现，PAA的合成和水解反应不涉及过氧化氢中O-O键的解离。PAA的合成和水解反应表示为"
+          "text": "在不同温度下,对酸催化乙酸和过氧化氢制备过氧乙酸的均相反应动力学进行了研究,测定了反应中PAA和HP的浓度随时间变化的数据,对其处理后,得到的结果见表 5.2和表5.3。其中 $k_{1\\mathrm{obs}}$、$k_{2\\mathrm{obs}}$ 分别是PAA的合成和水解两个反应的实测速率常数,由反应初始速率求得。PAA的合成和水解反应对其所有反应物的级数均为1。"
         },
         {
           "type": "paragraph",
-          "text": "$$\n\\begin{array}{c c c c c} & \\mathrm {CH_ {3} COOH} + \\mathrm {H_ {2} O_ {2}} & \\xrightarrow [ k _ {2} ]{\\mathrm {H_ {2} SO_ {4}} , k _ {1}} & \\mathrm {CH_ {3} COOOH} + \\mathrm {H_ {2} O} \\\\ & \\mathbf {A} & \\mathbf {B} & \\mathbf {C} & \\mathbf {D} \\\\ t = 0 & c _ {0} (\\mathrm{A}) & c _ {0} (\\mathrm{B}) & c _ {0} (\\mathrm{C}) = 0 & c _ {0} (\\mathrm{D}) \\end{array}\\tag{*}\n$$"
+          "text": "$^{18}\\mathrm{O}$ 同位素标记实验发现,PAA的合成和水解反应不涉及过氧化氢中O-O键的解离。PAA的合成和水解反应表示为"
         },
         {
           "type": "paragraph",
-          "text": "第38届中国化学奥林匹克（决赛）理论第一场试题2024年10月26日 广州"
+          "text": "$$\\begin{array}{c c c c c} & \\mathrm{CH_3COOH} + \\mathrm{H_2O_2} & \\xrightarrow[\\mathrm{H_2SO_4}, k_2]{k_1} & \\mathrm{CH_3COOOH} + \\mathrm{H_2O} \\\\ & \\mathbf{A} & \\mathbf{B} & \\mathbf{C} & \\mathbf{D} \\\\ t=0 & c_0(\\mathrm{A}) & c_0(\\mathrm{B}) & c_0(\\mathrm{C})=0 & c_0(\\mathrm{D}) \\end{array}\\tag{*}$$"
+        },
+        {
+          "type": "paragraph",
+          "text": "第38届中国化学奥林匹克(决赛)理论第一场试题2024年10月26日 广州"
         }
       ]
     },
@@ -156,7 +168,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 根据表 5.2 和表 5.3 数据，求 303.15 K 下 $k _ { 1 0 6 0 } , k _ { 2 0 6 0 }$ 与c(H)的关系及速率常数$k _ { 1 }$ 、k2的值。"
+          "text": "5-6-1 根据表 5.2 和表 5.3 数据,求 303.15 K 下 $k_{1\\mathrm{obs}}$、$k_{2\\mathrm{obs}}$ 与 $c(\\mathrm{H^+})$ 的关系及速率常数 $k_1$、$k_2$ 的值。"
         }
       ]
     },
@@ -166,7 +178,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2基于以上结果，推导出反应(\\*)中B 和C的浓度随反应时间的变化dc(B)/dt、dc(C)/dt、 $( \\mathsf { d } c ( \\mathsf { C } ) / \\mathsf { d } t ) _ { \\widehat { \\mathsf { e } } \\widehat { \\mathsf { h } } \\mathsf { R } }$ $( \\mathsf { d } c ( \\mathsf { C } ) / \\mathsf { d } t ) _ { \\mathsf { X } \\mathsf { A } \\mathsf { P } }$ 的表达式，其只含B和C的浓度作为变量，其他参数均为常数。"
+          "text": "5-6-2 基于以上结果,推导出反应(*)中B和C的浓度随反应时间的变化 $\\mathrm{d}c(\\mathrm{B})/\\mathrm{d}t$、$\\mathrm{d}c(\\mathrm{C})/\\mathrm{d}t$、$(\\mathrm{d}c(\\mathrm{C})/\\mathrm{d}t)_{\\mathrm{合成}}$、$(\\mathrm{d}c(\\mathrm{C})/\\mathrm{d}t)_{\\mathrm{水解}}$ 的表达式,其只含B和C的浓度作为变量,其他参数均为常数。"
         }
       ]
     },
@@ -176,7 +188,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-3为酸催化制备PAA提出一种合理的反应机理，注明反应决速步，推导出$( \\mathsf { d } c ( \\mathsf { C } ) / \\mathsf { d } t ) _ { \\widehat { \\mathsf { e } } ^ { \\mathsf { R } } }$ 的表达式，并与 $\" 5  – 6 – 2 \"$ 的结果进行比较。(可做合理假设)"
+          "text": "5-6-3 为酸催化制备PAA提出一种合理的反应机理,注明反应决速步,推导出 $(\\mathrm{d}c(\\mathrm{C})/\\mathrm{d}t)_{\\mathrm{合成}}$ 的表达式,并与“5-6-2”的结果进行比较。(可做合理假设)"
         }
       ]
     }

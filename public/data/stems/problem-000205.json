@@ -12,16 +12,16 @@
     "sourceLabel": "2023-37-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2023-37-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2023-37-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "对题⽬8-1⾄8-5所提问题进⾏判断并提供合理解释，对题⽬8-6和8-7则按所给条件和要求解答。"
+      "text": "对题目8-1至8-5所提问题进行判断并提供合理解释,对题目8-6和8-7则按所给条件和要求解答。"
     }
   ],
   "parts": [
@@ -31,7 +31,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "丙酮和六氟丙酮中哪个分⼦偶极矩更⼤？"
+          "text": "丙酮和六氟丙酮中哪个分子偶极矩更大?"
         }
       ]
     },
@@ -41,7 +41,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "2.4-戊⼆酮的烯醇含量在⽔中还是在正⼰烷中⾼？将溶剂⽔换成⼆甲亚砜，2.4-戊⼆酮的 $\\mathsf { p } K _ { a }$ 是降低还是升⾼？"
+          "text": "2,4-戊二酮的烯醇含量在水中还是在正己烷中高?将溶剂水换成二甲亚砜,2,4-戊二酮的 $pK_a$ 是降低还是升高?"
         }
       ]
     },
@@ -51,7 +51,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$\\left( 2 \\mathrm { E } , 4 \\mathrm { Z } , 6 \\mathrm { E } \\right)$ -⾟-2,4,6-三烯在光照下关环后两个甲基是顺式的还是反式的？"
+          "text": "$(2E,4Z,6E)$-辛-2,4,6-三烯在光照下关环后两个甲基是顺式的还是反式的?"
         }
       ]
     },
@@ -61,7 +61,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "⼄酸⼄酯、⼄酰氯、N,N-⼆甲基⼄酰胺中哪个化合物α-氢酸性最强?"
+          "text": "乙酸乙酯、乙酰氯、N,N-二甲基乙酰胺中哪个化合物α-氢酸性最强?"
         }
       ]
     },
@@ -71,7 +71,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "吡啶和六氢吡啶哪个分⼦偶极矩更⼤？"
+          "text": "吡啶和六氢吡啶哪个分子偶极矩更大?"
         }
       ]
     },
@@ -81,7 +81,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "2-氟-5-三氟甲基吡啶与⼄醇钠/⼄醇的反应速率要⽐ 2.5-⼆氟吡啶快得多。为什么？"
+          "text": "2-氟-5-三氟甲基吡啶与乙醇钠/乙醇的反应速率要比 2,5-二氟吡啶快得多。为什么?"
         }
       ]
     },
@@ -91,7 +91,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "下表中列出酰胺化反应中常⽤的⼀些活化试剂。画出RCOOH被以下等量试剂活化后的中间体结构式（接下来与胺反应形成酰胺）。"
+          "text": "下表中列出酰胺化反应中常用的一些活化试剂。画出RCOOH被以下等量试剂活化后的中间体结构式(接下来与胺反应形成酰胺)。"
         }
       ]
     },
@@ -101,11 +101,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 PPh3, CBrCl3 8-7-2 $\\mathrm { C y N = C = N C y }$ 8-7-3 AcO"
+          "text": "-1 PPh$_3$, CBrCl$_3$  8-7-2 CyN=C=NCy  8-7-3 Ac$_2$O"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "(图:)",
+          "alt": "缺图,原题此处有表格或图"
         }
       ]
     }

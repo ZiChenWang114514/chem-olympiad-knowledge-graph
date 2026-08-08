@@ -12,19 +12,13 @@
     "sourceLabel": "2010-24-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2010-24-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2010-24-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000369-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "晶胞中氧离⼦占据顶点、⾯⼼、棱⼼和体⼼位置，A离⼦占据半数⽴⽅体空隙，请写出A氧化物的化学式和结构基元。"
+          "text": "晶胞中氧离子占据顶点、金手、棱手和体手位置,A离子占据半数立方体空隙,请写出A氧化物的化学式和结构基元。"
         }
       ]
     },
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出晶体中氧离⼦的配位数。"
+          "text": "写出晶体中氧离子的配位数。"
         }
       ]
     },
@@ -52,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "已知晶胞参数 $a = 5 4 5 . 5 \\mathrm { p m }$ ，设A的摩尔质量为 $M _ { \\mathrm { A } }$ ，计算晶体的理论密度。"
+          "text": "已知晶胞参数 $a = 545.5\\ \\mathrm{pm}$,设A的摩尔质量为 $M_{\\mathrm{A}}$,计算晶体的理论密度。"
         }
       ]
     },
@@ -72,31 +66,33 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "若晶胞中⼀半A离⼦被B离⼦取代，请指出："
+          "text": "若晶胞中一半A离子被B离子取代,请指出:"
         }
       ]
     },
     {
       "id": "part-000369-06",
-      "label": "4-5",
+      "label": "4-5-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 当两种离⼦统计分布时，晶体所属的点阵类型；"
+          "text": "当两种离子统计分布时,晶体所属的点阵类型;"
         }
       ]
     },
     {
       "id": "part-000369-07",
-      "label": "4-5",
+      "label": "4-5-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 当两种离⼦有序分布（A的 $z = 3 / 4$ ，B 的 $z = 1 / 4 )$ ）时，晶体所属的点阵类型。"
+          "text": "当两种离子有序分布(A的 $z = 3/4$,B 的 $z = 1/4$)时,晶体所属的点阵类型。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "(图:晶体结构示意图)",
+          "alt": "缺图,原题有图",
+          "src": null
         }
       ]
     },
@@ -106,7 +102,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "若将A离⼦选为晶胞顶点，写出A氧化物晶胞中正负离⼦的分数坐标。"
+          "text": "若将A离子选为晶胞顶点,写出A氧化物晶胞中正负离子的分数坐标。"
         }
       ]
     }

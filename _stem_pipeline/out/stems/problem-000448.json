@@ -12,24 +12,21 @@
     "sourceLabel": "2014-28-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2014-28-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2014-28-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、合并空壳段落、更新渲染提示。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "喹啉、酰⻧和氰化钾三组分反应是合成喹啉衍⽣物的重要⽅法之⼀。如图所⽰："
+      "text": "喹啉、酰氯和氰化钾三组分反应是合成喹啉衍生物的重要方法之一。如图所示:"
     },
     {
-      "type": "paragraph",
-      "text": "（图：）"
-    },
-    {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "反应示意图",
+      "alt": "喹啉、酰氯和氰化钾三组分反应示意图(原图缺失)"
     }
   ],
   "parts": [
@@ -39,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "喹啉、苯甲酰氯、氰化钾反应⽣成中间体 B，B 在⼀定的条件下与⽔反应⽣成喹啉衍⽣物 C、另⼀个有机化合物D和⽆机化合物 $\\mathbf { E } _ { \\circ }$ 。画出B、C和D的结构简式，写出E的分⼦式。"
+          "text": "喹啉、苯甲酰氯、氰化钾反应生成中间体 B,B 在一定的条件下与水反应生成喹啉衍生物 C、另一个有机化合物 D 和无机化合物 $\\mathrm{E}$。画出 B、C 和 D 的结构简式,写出 E 的分子式。"
         }
       ]
     },
@@ -49,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "B 与 F 反应⽣成 G，G 在四丁基氰化铵(TBACN)催化下发⽣重排反应⽣成 H。画出 G 的结构简式。写出G重排⽣成H的反应机理（⽤箭头标出电⼦的流向），说明重排反应的驱动⼒。"
+          "text": "B 与 F 反应生成 G,G 在四丁基氰化铵(TBACN)催化下发生重排反应生成 H。画出 G 的结构简式。写出 G 重排生成 H 的反应机理(用箭头标出电子的流向),说明重排反应的驱动力。"
         }
       ]
     }

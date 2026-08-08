@@ -12,16 +12,16 @@
     "sourceLabel": "2025-39-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2025-39-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2025-39-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。已用 DeepSeek 对题干进行 OCR 错字、标点与排版精修。请以官方纸质/PDF 为准。;DeepSeek 精修:OCR 汉字/公式/小问结构整理,请以官方 PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "2. 写方程式时，产物错误的不得分；产物正确的要求配平，不配平的不得分；"
+      "text": "2. 写方程式时,产物错误的不得分;产物正确的要求配平,不配平的不得分;"
     }
   ]
 }

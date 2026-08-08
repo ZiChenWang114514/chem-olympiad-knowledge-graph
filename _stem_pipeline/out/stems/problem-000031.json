@@ -12,19 +12,13 @@
     "sourceLabel": "2017-31-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2017-31-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2017-31-CChO-chusai/full.md)程序化切分,并由 DeepSeek 精修:修正 OCR 错字/兼容汉字、整理 LaTeX,化学式统一使用 mhchem 渲染。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000031-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "⼯业上⽤碳酸氢铵和镁硼⽯ $\\mathrm { [ M g _ { 2 } B _ { 2 } O _ { 4 } ( O H ) _ { 2 } ] }$ 在⽔溶液中反应制备硼酸。"
+          "text": "工业上用碳酸氢铵和镁硼石 $\\ce{[Mg2B2O4(OH)2]}$ 在水溶液中反应制备硼酸。"
         }
       ]
     },
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "从乏燃料提取钚元素的过程中，利⽤亚硝酸钠在强酸溶液中将 $\\mathrm { P u ^ { 3 + } }$ +氧化为 $\\mathrm { P u } ^ { 4 + }$ ，放出笑⽓。"
+          "text": "从乏燃料提取钚元素的过程中,利用亚硝酸钠在强酸溶液中将 $\\ce{Pu^3+}$ 氧化为 $\\ce{Pu^4+}$,放出笑气。"
         }
       ]
     },
@@ -52,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$\\mathrm { N a B H _ { 4 } }$ 与氯化镍（摩尔⽐2:1）在⽔溶液中反应，可得到两种硼化物：硼化镍和硼酸（摩尔⽐1:3）。"
+          "text": "$\\ce{NaBH4}$ 与氯化镍(摩尔比 2:1)在水溶液中反应,可得到两种硼化物:硼化镍和硼酸(摩尔比 1:3)。"
         }
       ]
     },
@@ -62,7 +56,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "通过 $\\mathrm { K M n O } _ { 4 }$ 和 $\\mathrm { H } _ { 2 } \\mathrm { O } _ { 2 }$ 在 $\\mathrm { K F \\mathrm { - H F } }$ 介质中反应获得化学法制 $\\mathrm { F } _ { 2 }$ 的原料 $\\mathrm { K _ { 2 } M n F _ { 6 \\circ } }$"
+          "text": "通过 $\\ce{KMnO4}$ 和 $\\ce{H2O2}$ 在 $\\ce{KF-HF}$ 介质中反应获得化学法制 $\\ce{F2}$ 的原料 $\\ce{K2MnF6}$。"
         }
       ]
     },
@@ -72,7 +66,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "磷化氢与甲醛的硫酸溶液反应，产物仅为硫酸鏻（盐）。"
+          "text": "磷化氢与甲醛的硫酸溶液反应,产物仅为硫酸鏻(盐)。"
         }
       ]
     }

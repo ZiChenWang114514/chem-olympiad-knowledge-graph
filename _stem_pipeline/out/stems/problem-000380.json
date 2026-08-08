@@ -12,32 +12,26 @@
     "sourceLabel": "2011-25-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2011-25-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2011-25-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、规范小问结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "反应流程图(缺图)",
+      "alt": "由β-紫罗兰酮生成B的过程示意图"
     },
     {
       "type": "paragraph",
-      "text": "由�-紫罗兰酮⽣成B的过程如下所⽰："
+      "text": "由β-紫罗兰酮生成B的过程如下所示:"
     },
     {
-      "type": "paragraph",
-      "text": "（图：）"
-    },
-    {
-      "type": "paragraph",
-      "text": "（图：）"
-    },
-    {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "反应流程图(缺图)",
+      "alt": "反应步骤(2)至(6)的示意图"
     }
   ],
   "parts": [
@@ -47,7 +41,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "维⽣素A分⼦的不饱和度为"
+          "text": "维生素A分子的不饱和度为"
         }
       ]
     },
@@ -57,7 +51,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "芳⾹化合物C是�-紫罗兰酮的同分异构体，C经催化氢解⽣成芳⾹化合物D，D的1H-NMR图谱中只有⼀个单峰。画出C的结构简式。"
+          "text": "芳香化合物C是β-紫罗兰酮的同分异构体,C经催化氢解生成芳香化合物D,D的1H-NMR图谱中只有一个单峰。画出C的结构简式。"
         }
       ]
     },
@@ -77,7 +71,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "以上由�-紫罗兰酮合成中间体B的过程中，⑵、⑶、⑷、⑹步反应分别属于什么反应类型（反应类型表述须具体，例如取代反应必须指明是亲电取代、亲核取代还是⾃由基取代）。"
+          "text": "以上由β-紫罗兰酮合成中间体B的过程中,(2)、(3)、(4)、(6)步反应分别属于什么反应类型(反应类型表述须具体,例如取代反应必须指明是亲电取代、亲核取代还是自由基取代)。"
         }
       ]
     }

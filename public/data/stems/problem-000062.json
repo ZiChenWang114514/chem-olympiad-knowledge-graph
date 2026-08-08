@@ -12,9 +12,9 @@
     "sourceLabel": "2018-32-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2018-32-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2018-32-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理公式与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
@@ -22,11 +22,11 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "4-1 $\\mathrm { N a _ { 2 } S _ { 2 } O _ { 3 } }$ 溶液的标定。"
+      "text": "4-1 Na2S2O3 溶液的标定。"
     },
     {
       "type": "paragraph",
-      "text": "移取 25.00 cm3 浓度为 $8 . 3 3 3 \\times 1 0 ^ { - 3 } \\mathrm { m o l d m ^ { 3 } }$ 的 $\\mathrm { K _ { 2 } C r _ { 2 } O _ { 7 } }$ _{7}标准溶液于 $2 5 0 \\mathrm { c m } ^ { 3 }$ 碘量瓶中，加⼊ KI，⽤硫酸酸化，⾄反应完全，⽣成I_{3}-，⽤ $\\mathrm { N a _ { 2 } S _ { 2 } O _ { 3 } }$ 溶液滴定，消耗 $2 4 . 2 2 \\mathrm { c m } ^ { 3 } \\mathrm { c m } ^ { 3 } \\mathrm { c m } $ 。计算 $\\mathrm { N a _ { 2 } S _ { 2 } O _ { 3 } }$ 溶液的浓度。"
+      "text": "移取 25.00 cm3 浓度为 $8.333 \\times 10^{-3} \\ \\mathrm{mol\\ dm^{-3}}$ 的 $\\mathrm{K_2Cr_2O_7}$ 标准溶液于 250 cm3 碘量瓶中,加入 KI,用硫酸酸化,至反应完全,生成 $\\mathrm{I_3^-}$,用 $\\mathrm{Na_2S_2O_3}$ 溶液滴定,消耗 24.22 cm3。计算 $\\mathrm{Na_2S_2O_3}$ 溶液的浓度。"
     },
     {
       "type": "heading",
@@ -35,37 +35,37 @@
     },
     {
       "type": "paragraph",
-      "text": "移取 $2 0 . 0 0 \\mathrm { c m } ^ { 3 }$ 甲醛标准储备液于 $2 5 0 \\mathrm { c m } ^ { 3 }$ 碘量瓶中，加⼊ $5 0 . 0 0 \\mathrm { c m } ^ { 3 }$ 浓度为 $0 . 0 2 5 \\mathrm { m o l d m ^ { - 3 } }$ 碘溶液和适量NaOH溶液使反应完全，然后加⼊适量稀硫酸酸化⾄弱酸性。⽤上述 $\\mathrm { N a _ { 2 } S _ { 2 } O _ { 3 } }$ 标准溶液滴定⾄终点，消耗$2 2 . 0 2 \\mathrm { c m } ^ { 3 } \\mathrm { c m }$ 。⽤相同步骤做空⽩实验，消耗 $4 8 . 1 0 \\mathrm { c m } ^ { 3 } \\mathrm { c m }$ 。写出碱性条件下甲醛与碘溶液反应⽅程式，计算甲醛标准储备液的浓度（HCHO，mg cm-3）"
+      "text": "移取 20.00 cm3 甲醛标准储备液于 250 cm3 碘量瓶中,加入 50.00 cm3 浓度为 $0.025 \\ \\mathrm{mol\\ dm^{-3}}$ 碘溶液和适量 NaOH 溶液使反应完全,然后加入适量稀硫酸酸化至弱酸性。用上述 $\\mathrm{Na_2S_2O_3}$ 标准溶液滴定至终点,消耗 22.02 cm3。用相同步骤做空白实验,消耗 48.10 cm3。写出碱性条件下甲醛与碘溶液反应方程式,计算甲醛标准储备液的浓度(HCHO,mg cm−3)。"
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "4-3 废⽔中甲醛含量的测定。"
+      "text": "4-3 废水中甲醛含量的测定。"
     },
     {
       "type": "paragraph",
-      "text": "将甲醛标准储备液⽤去离⼦⽔逐级稀释100倍得甲醛标准使⽤液。向数⽀ $2 5 \\mathrm { c m ^ { 3 } }$ 的⽐⾊管中分别加⼊不同体积的甲醛标准使⽤液，加⽔⾄标线，分别加⼊ $2 . 5 0 \\mathrm { c m } ^ { 3 }$ ⼄酰丙酮显⾊剂溶液，混匀，于 $4 5 { \\sim } 6 0 ~ ^ { \\circ } \\mathrm { C }$ ⽔浴中加热30 min，取出冷却。于414 nm波⻓处，以去离⼦⽔作参⽐，⽤1 cm⽐⾊⽫测定吸光度�。"
+      "text": "将甲醛标准储备液用去离子水逐级稀释 100 倍得甲醛标准使用液。向数支 25 cm3 的比色管中分别加入不同体积的甲醛标准使用液,加水至标线,分别加入 2.50 cm3 乙酰丙酮显色剂溶液,混匀,于 45~60 °C 水浴中加热 30 min,取出冷却。于 414 nm 波长处,以去离子水作参比,用 1 cm 比色皿测定吸光度。"
     },
     {
       "type": "paragraph",
-      "text": "另移取废⽔25.00 cm3的⽐⾊管中，按上述步骤进⾏显⾊和吸光度测量，所得数据如下："
+      "text": "另移取废水 25.00 cm3 于比色管中,按上述步骤进行显色和吸光度测量,所得数据如下:"
     },
     {
-      "type": "callout",
-      "tone": "info",
-      "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
-    },
-    {
-      "type": "paragraph",
-      "text": "计算出标准曲线的回归⽅程，并计算废⽔中甲醛的含量(HCHO, mg dm−3)。"
+      "type": "figure",
+      "caption": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)",
+      "alt": "表格或仪器试剂表缺失"
     },
     {
       "type": "paragraph",
-      "text": "提⽰：标准曲线的回归⽅程中�为直线的截距，�为直线的斜率，其中�与�可按下式求解。"
+      "text": "计算出标准曲线的回归方程,并计算废水中甲醛的含量(HCHO,mg dm−3)。"
     },
     {
       "type": "paragraph",
-      "text": "$$\nb = \\frac {\\sum_ {i = 1} ^ {n} (x _ {i} - \\bar {x}) (y _ {i} - \\bar {y})}{\\sum_ {i = 1} ^ {n} (x _ {i} - \\bar {x}) ^ {2}} a = \\bar {y} - b \\bar {x}\n$$"
+      "text": "提示:标准曲线的回归方程中 $b$ 为直线的斜率,$a$ 为直线的截距,其中 $a$ 与 $b$ 可按下式求解。"
+    },
+    {
+      "type": "paragraph",
+      "text": "$$\nb = \\frac{\\sum_{i=1}^{n} (x_i - \\bar{x})(y_i - \\bar{y})}{\\sum_{i=1}^{n} (x_i - \\bar{x})^2}, \\quad a = \\bar{y} - b\\bar{x}\n$$"
     }
   ]
 }

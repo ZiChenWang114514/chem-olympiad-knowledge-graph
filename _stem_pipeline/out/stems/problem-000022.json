@@ -12,19 +12,13 @@
     "sourceLabel": "2016-30-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2016-30-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2016-30-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修错字、LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000022-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "简要解释为什么⽔溶液中HCN是弱酸，⽽液态HCN的酸性相⽐其⽔溶液显著增强。"
+          "text": "简要解释为什么水溶液中 $\\mathrm{HCN}$ 是弱酸,而液态 $\\mathrm{HCN}$ 的酸性相比其水溶液显著增强。"
         }
       ]
     },
@@ -42,19 +36,20 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$\\mathrm { H g ^ { 2 + } }$ 离⼦具有亲硫性，可与⼆硫代氨基甲酸盐形成 $\\mathrm { [ H g ( S _ { 2 } C N E t _ { 2 } ) _ { 2 } ] }$ 的⼆聚体，请画出该⼆聚体的⽴体结构，并指出中⼼原⼦的杂化⽅式。"
+          "text": "$\\mathrm{Hg^{2+}}$ 离子具有亲硫性,可与二硫代氨基甲酸盐形成 $\\mathrm{[Hg(S_2CNEt_2)_2]}$ 的二聚体,请画出该二聚体的立体结构,并指出中心原子的杂化方式。"
         },
         {
           "type": "paragraph",
-          "text": "异烟酰腙的结构如下："
+          "text": "异烟酰腙的结构如下:"
+        },
+        {
+          "type": "figure",
+          "caption": "异烟酰腙的结构",
+          "alt": "异烟酰腙的结构图(缺)"
         },
         {
           "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "它与 2-⼄酰基吡啶反应⽣成⼀种配体 $\\mathbf { L } _ { \\circ }$ 。将⼀定量的四⽔醋酸镍、配体 L 以及 $4 , 4 ^ { \\prime } \\cdot$ -联吡啶溶解在 1:1 的⼄醇-⽔的混合溶剂中回流 2 ⼩时，冷却⾄室温，析出物质经洗涤⼲燥后得到褐⾊⽚状晶体 M。分析结果表明，M 中 N元素含量为21.0%。"
+          "text": "它与 2-乙酰基吡啶反应生成一种配体 $L$。将一定量的四水醋酸镍、配体 $L$ 以及 $4{,}4'$-联吡啶溶解在 1:1 的乙醇-水的混合溶剂中回流 2 小时,冷却至室温,析出物质经洗涤干燥后得到褐色片状晶体 $M$。分析结果表明,$M$ 中 $\\mathrm{N}$ 元素含量为 21.0%。"
         }
       ]
     },
@@ -64,7 +59,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出配体L的结构，请在图中⽤∗号标出配位原⼦。"
+          "text": "画出配体 $L$ 的结构,请在图中用 * 号标出配位原子。"
         }
       ]
     },
@@ -74,7 +69,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "通过计算，写出配合物 M 符合 IUPAC 规则的分⼦式，画出 M 的所有⼏何异构体的结构，在每个⼏何异构体下⾯标注I、II、III…等，指出哪些⼏何异构体存在旋光异构现象？哪个⼏何异构体稳定性最⾼？请说明理由。"
+          "text": "通过计算,写出配合物 $M$ 符合 IUPAC 规则的分子式,画出 $M$ 的所有几何异构体的结构,在每个几何异构体下用 I、II、III... 等标注,指出哪些几何异构体存在旋光异构现象?哪个几何异构体稳定性最高?请说明理由。"
         }
       ]
     },
@@ -84,7 +79,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "说明4,4′-联吡啶的作⽤。"
+          "text": "说明 $4{,}4'$-联吡啶的作用。"
         }
       ]
     }

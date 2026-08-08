@@ -12,16 +12,17 @@
     "sourceLabel": "2011-25-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2011-25-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2011-25-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、规范小问结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "题目示意图(原图缺失)",
+      "alt": "包含立方金刚石晶胞、立方/六方金刚石碳架结构、六方硫化锌晶体结构的示意图"
     }
   ],
   "parts": [
@@ -31,7 +32,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "⽴⽅⾦刚⽯的晶胞如左图所⽰。画出以两个⿊⾊碳原⼦为中⼼的C—C键及所连接的碳原⼦。"
+          "text": "立方金刚石的晶胞如左图所示。画出以两个黑色碳原子为中心的 C—C 键及所连接的碳原子。"
         }
       ]
     },
@@ -41,7 +42,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "中间图上、下分别是⽴⽅⾦刚⽯和六⽅⾦刚⽯的碳架结构。它们的碳环构型有何不同？"
+          "text": "中间图上、下分别是立方金刚石和六方金刚石的碳架结构。它们的碳环构型有何不同?"
         }
       ]
     },
@@ -51,7 +52,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "六⽅硫化锌的晶体结构如右图所⽰。⽤碳原⼦代替硫原⼦和锌原⼦，即为六⽅⾦刚⽯。请在该图内⽤粗线框出六⽅⾦刚⽯的⼀个晶胞，要求框线必须包含图中已有的⼀段粗线，且框出的晶胞体积最⼩。"
+          "text": "六方硫化锌的晶体结构如右图所示。用碳原子代替硫原子和锌原子,即为六方金刚石。请在该图内用粗线框出六方金刚石的一个晶胞,要求框线必须包含图中已有的一段粗线,且框出的晶胞体积最小。"
         }
       ]
     },
@@ -61,7 +62,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "⽴⽅⾦刚⽯中周期性重复的最⼩单位包含 个碳原⼦。"
+          "text": "立方金刚石中周期性重复的最小单位包含 个碳原子。"
         }
       ]
     }

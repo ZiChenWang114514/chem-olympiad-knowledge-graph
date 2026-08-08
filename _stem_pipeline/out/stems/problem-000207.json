@@ -12,16 +12,16 @@
     "sourceLabel": "2023-37-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2023-37-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2023-37-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与图占位。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "利⽤阴离⼦传递(ARC)的多组分反应可以⾼效构筑复杂分⼦的⻣架体系。"
+      "text": "利用阴离子传递(ARC)的多组分反应可以高效构筑复杂分子的骨架体系。"
     }
   ],
   "parts": [
@@ -31,11 +31,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "如下反应步骤是基于ARC的多组分反应（ASG为碳负离⼦稳定基团，E+为亲电试剂），写出此反应关键中间体M、N以及O的结构式。"
+          "text": "如下反应步骤是基于ARC的多组分反应(ASG为碳负离子稳定基团,E+为亲电试剂),写出此反应关键中间体M、N以及O的结构式。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应步骤图",
+          "alt": "ARC多组分反应步骤示意图"
         }
       ]
     },
@@ -45,11 +46,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "根据以上信息，画出下列反应主要产物的结构式（要求⽴体化学）。"
+          "text": "根据以上信息,画出下列反应主要产物的结构式(要求立体化学)。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应示意图",
+          "alt": "反应物与条件图"
         }
       ]
     },
@@ -59,11 +61,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "依据以上信息，画出构建如下产物所需三个反应原料的结构式（要求⽴体化学）。"
+          "text": "依据以上信息,画出构建如下产物所需三个反应原料的结构式(要求立体化学)。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "产物结构图",
+          "alt": "目标产物结构式"
         }
       ]
     },
@@ -73,59 +76,52 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "将ARC策略和羟醛缩合反应相结合，可以⼀锅法⾼效构筑双环⻣架（如下图所⽰）。"
+          "text": "将ARC策略和羟醛缩合反应相结合,可以一锅法高效构筑双环骨架(如下图所示)。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "双环骨架构筑示意图",
+          "alt": "ARC与羟醛缩合反应示意图"
         }
       ]
     },
     {
       "id": "part-000207-05",
-      "label": "10-4",
+      "label": "10-4-1",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 写出中间体P、Q及R的结构式（要求⽴体化学）。"
+          "text": "写出中间体P、Q及R的结构式(要求立体化学)。"
         }
       ]
     },
     {
       "id": "part-000207-06",
-      "label": "10-4",
+      "label": "10-4-2",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 判断S-V中的哪⼀个为此转换的主要产物。"
+          "text": "判断S-V中的哪一个为此转换的主要产物。"
         },
         {
-          "type": "paragraph",
-          "text": "V\n（图：）"
+          "type": "figure",
+          "caption": "选项V",
+          "alt": "结构式V"
         },
         {
-          "type": "paragraph",
-          "text": "S"
+          "type": "figure",
+          "caption": "选项S",
+          "alt": "结构式S"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "选项T",
+          "alt": "结构式T"
         },
         {
-          "type": "paragraph",
-          "text": "T"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "U"
-        },
-        {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "选项U",
+          "alt": "结构式U"
         }
       ]
     },
@@ -135,7 +131,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "S和T两者之间的关系为：a) 对映异构体；b) 差向异构体；c) ⾮对映异构体。"
+          "text": "S和T两者之间的关系为:a) 对映异构体;b) 差向异构体;c) 非对映异构体。"
         }
       ]
     }

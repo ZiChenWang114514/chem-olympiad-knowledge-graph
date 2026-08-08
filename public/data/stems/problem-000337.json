@@ -12,19 +12,13 @@
     "sourceLabel": "2009-23-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2009-23-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2009-23-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与分问结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000337-01",
@@ -32,15 +26,15 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Lewis酸和Lewis碱可以形成酸碱复合物。根据下列两个反应式判断反应中所涉及Lewis酸的酸性强弱，并由强到弱排 $\\yen 1$"
+          "text": "Lewis酸和Lewis碱可以形成酸碱复合物。根据下列两个反应式判断反应中所涉及Lewis酸的酸性强弱,并由强到弱排序。"
         },
         {
           "type": "paragraph",
-          "text": "$$\n\\mathrm{F} _ {4} \\mathrm{Si} - \\mathrm{N} (\\mathrm{CH} _ {3}) _ {3} + \\mathrm{BF} _ {3} \\rightarrow \\mathrm{F} _ {3} \\mathrm{B} - \\mathrm{N} (\\mathrm{CH} _ {3}) _ {3} + \\mathrm{SiF} _ {4}\n$$"
+          "text": "$\\ce{F4Si-N(CH3)3 + BF3 -> F3B-N(CH3)3 + SiF4}$"
         },
         {
           "type": "paragraph",
-          "text": "$$\n\\mathrm{F} _ {3} \\mathrm{B} - \\mathrm{N} (\\mathrm{CH} _ {3}) _ {3} + \\mathrm{BCl} _ {3} \\rightarrow \\mathrm{Cl} _ {3} \\mathrm{B} - \\mathrm{N} (\\mathrm{CH} _ {3}) _ {3} + \\mathrm{BF} _ {3}\n$$"
+          "text": "$\\ce{F3B-N(CH3)3 + BCl3 -> Cl3B-N(CH3)3 + BF3}$"
         }
       ]
     },
@@ -50,7 +44,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 分别画出 $\\mathrm { B F _ { 3 } }$ 和N(CH_{3})_{3}的分⼦构型，指出中⼼原⼦的杂化轨道类型。"
+          "text": "分别画出 $\\ce{BF3}$ 和 $\\ce{N(CH3)3}$ 的分子构型,指出中心原子的杂化轨道类型。"
         }
       ]
     },
@@ -60,7 +54,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 分别画出 $\\mathrm { F _ { 3 } B { \\mathrm { - N } } ( C H _ { 3 } ) } ;$ _{3} 和 $\\mathrm { F _ { 4 } S i \\mathrm { - N ( C H _ { 3 } ) } }$ _{3}的分⼦构型，并指出分⼦中Si和B的杂化轨道类型。"
+          "text": "分别画出 $\\ce{F3B-N(CH3)3}$ 和 $\\ce{F4Si-N(CH3)3}$ 的分子构型,并指出分子中Si和B的杂化轨道类型。"
         }
       ]
     },
@@ -70,7 +64,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "将 $\\mathrm { B C l _ { 3 } }$ 分别通⼊吡啶和⽔中，会发⽣两种不同类型的反应。写出这两种反应的化学⽅程式。"
+          "text": "将 $\\ce{BCl3}$ 分别通入吡啶和水中,会发生两种不同类型的反应。写出这两种反应的化学方程式。"
         }
       ]
     },
@@ -80,7 +74,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$\\mathrm { B e C l _ { 2 } }$ 是共价分⼦，可以以单体、⼆聚体和多聚体形式存在。分别画出它们的结构简式，并指出Be的杂化轨道类型。"
+          "text": "$\\ce{BeCl2}$ 是共价分子,可以以单体、二聚体和多聚体形式存在。分别画出它们的结构简式,并指出Be的杂化轨道类型。"
         }
       ]
     },
@@ -90,7 +84,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "⾼氧化态Cr的过氧化物⼤多不稳定，容易分解，但 $\\mathrm { C r ( O _ { 2 } ) _ { 2 } [ N H ( C _ { 2 } H _ { 4 } N H _ { 2 } ) _ { 2 } }$ ]却是稳定的。这种配合物仍保持Cr的过氧化物的结构特点。画出该化合物的结构简式，并指出Cr的氧化态。"
+          "text": "高氧化态Cr的过氧化物大多不稳定,容易分解,但 $\\ce{Cr(O2)2[NH(C2H4NH2)2]}$ 却是稳定的。这种配合物仍保持Cr的过氧化物的结构特点。画出该化合物的结构简式,并指出Cr的氧化态。"
         }
       ]
     },
@@ -100,7 +94,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "某些烷基取代的⾦属羰基化合物可以在其他碱性配体的作⽤下发⽣羰基插⼊反应，⽣成酰基配合物。画出$\\mathrm { M n ( C O ) _ { 5 } ( C H _ { 3 } ) }$ 和 $\\mathrm { P P h _ { 3 } }$ 反应的产物的结构简式，并指出Mn的氧化态。"
+          "text": "某些烷基取代的金属羰基化合物可以在其他碱性配体的作用下发生羰基插入反应,生成酰基配合物。画出 $\\ce{Mn(CO)5(CH3)}$ 和 $\\ce{PPh3}$ 反应的产物的结构简式,并指出Mn的氧化态。"
         }
       ]
     }

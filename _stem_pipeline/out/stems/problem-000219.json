@@ -12,19 +12,13 @@
     "sourceLabel": "2023-37-CChO-juesai-1.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2023-37-CChO-juesai-1/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2023-37-CChO-juesai-1/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、规范小问结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000219-01",
@@ -32,11 +26,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "化合物A真空热裂解，经卡宾中间体B转化为产物C。画出中间体B的结构。"
+          "text": "化合物A真空热裂解,经卡宾中间体B转化为产物C。画出中间体B的结构。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应示意图",
+          "alt": "缺图:化合物A经中间体B生成C"
         }
       ]
     },
@@ -46,11 +41,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "⾦属络合物可以在温和条件下促进炔烃的转化反应。在[RuCl_{2}(C_{6}H_{6})PPh_{3}]或 CpRu(PPh_{3})Cl 的存在下，炔烃经由⾦属卡宾中间体D发⽣⽔合反应⽣成醛F（以[Ru]表⽰催化剂）。画出中间体D、E和最终产物F的结构。（若有形式电荷请标明，不考虑⽴体化学）"
+          "text": "金属络合物可以在温和条件下促进炔烃的转化反应。在 $[\\mathrm{RuCl_2(C_6H_6)PPh_3}]$ 或 $\\mathrm{CpRu(PPh_3)Cl}$ 的存在下,炔烃经由金属卡宾中间体D发生水合反应生成醛F(以 $[\\mathrm{Ru}]$ 表示催化剂)。画出中间体D、E和最终产物F的结构。(若有形式电荷请标明,不考虑立体化学)"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应示意图",
+          "alt": "缺图:炔烃水合生成醛F"
         }
       ]
     },
@@ -60,11 +56,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "根据以上信息，画出下图中最终产物G的结构。"
+          "text": "根据以上信息,画出下图中最终产物G的结构。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应示意图",
+          "alt": "缺图:最终产物G"
         }
       ]
     },
@@ -74,11 +71,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出以下反应过程中的中间体I和J的结构。（若有形式电荷请标明，不考虑⽴体化学）"
+          "text": "画出以下反应过程中的中间体I和J的结构。(若有形式电荷请标明,不考虑立体化学)"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应示意图",
+          "alt": "缺图:中间体I和J"
         }
       ]
     },
@@ -88,11 +86,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出以下反应过程中的中间体L和M的结构。（若有形式电荷请标明，不考虑⽴体化学）"
+          "text": "画出以下反应过程中的中间体L和M的结构。(若有形式电荷请标明,不考虑立体化学)"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应示意图",
+          "alt": "缺图:中间体L和M"
         }
       ]
     },
@@ -102,11 +101,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出反应中间体0和P的结构（若有形式电荷请标明，不考虑立体化学），并解释以下反应生成不同环系的原因。"
+          "text": "画出反应中间体O和P的结构(若有形式电荷请标明,不考虑立体化学),并解释以下反应生成不同环系的原因。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应示意图",
+          "alt": "缺图:中间体O和P"
         }
       ]
     }

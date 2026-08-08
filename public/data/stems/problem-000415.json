@@ -12,27 +12,22 @@
     "sourceLabel": "2013-27-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2013-27-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2013-27-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000415-01",
       "label": "8-1",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "图 8-1",
+          "alt": "缺图,请参考原卷"
         }
       ]
     },
@@ -41,8 +36,9 @@
       "label": "8-2",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "图 8-2",
+          "alt": "缺图,请参考原卷"
         }
       ]
     },
@@ -51,8 +47,9 @@
       "label": "8-3",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "图 8-3",
+          "alt": "缺图,请参考原卷"
         }
       ]
     },
@@ -61,8 +58,9 @@
       "label": "8-4",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "图 8-4",
+          "alt": "缺图,请参考原卷"
         }
       ]
     }

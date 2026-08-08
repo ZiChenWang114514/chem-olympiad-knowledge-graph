@@ -12,32 +12,35 @@
     "sourceLabel": "2009-23-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2009-23-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2009-23-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、合并空壳段落、将图占位符转为 figure 块。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "（图：）\n(+)-Angelmarin"
+      "type": "figure",
+      "caption": "(+)-Angelmarin",
+      "alt": "目标分子 (+)-Angelmarin 的结构图(原题图缺失)"
     },
     {
       "type": "paragraph",
-      "text": "合成路线 1："
+      "text": "合成路线 1:"
+    },
+    {
+      "type": "figure",
+      "caption": "合成路线 1 图示",
+      "alt": "合成路线 1 的反应流程图(原题图缺失)"
     },
     {
       "type": "paragraph",
-      "text": "（图：）"
+      "text": "合成路线 2:"
     },
     {
-      "type": "paragraph",
-      "text": "合成路线 2："
-    },
-    {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "合成路线 2 图示",
+      "alt": "合成路线 2 的反应流程图(原题图缺失)"
     }
   ],
   "parts": [
@@ -47,7 +50,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出中间体B、C和F的结构式。"
+          "text": "画出中间体 B、C 和 F 的结构式。"
         }
       ]
     },
@@ -57,7 +60,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "试为合成路线1中第⼆、三步反应和合成路线2中的第⼆步反应提出合理的反应条件和试剂。"
+          "text": "试为合成路线 1 中第二、三步反应和合成路线 2 中的第二步反应提出合理的反应条件和试剂。"
         }
       ]
     },
@@ -67,7 +70,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "试解释合成路线1中从D到E转化（即第四步反应）的历程（⽤反应式表⽰）。"
+          "text": "试解释合成路线 1 中从 D 到 E 转化(即第四步反应)的历程(用反应式表示)。"
         }
       ]
     },
@@ -77,7 +80,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在合成路线2的第⼆步反应（从F到G的转化）中还观察到了⼀种副产物，它是G的同分异构体，试画出这个副产物的结构式。"
+          "text": "在合成路线 2 的第二步反应(从 F 到 G 的转化)中还观察到了一种副产物,它是 G 的同分异构体,试画出这个副产物的结构式。"
         }
       ]
     },
@@ -87,7 +90,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "3-甲基3-氯-1-丁炔是合成路线1中使⽤的原料之⼀。⽤⼄炔和必要的有机或⽆机试剂，⽤不超过3步反应的合成路线合成该化合物，写出反应式。"
+          "text": "3-甲基-3-氯-1-丁炔是合成路线 1 中使用的原料之一。用乙炔和必要的有机或无机试剂,用不超过 3 步反应的合成路线合成该化合物,写出反应式。"
         }
       ]
     }

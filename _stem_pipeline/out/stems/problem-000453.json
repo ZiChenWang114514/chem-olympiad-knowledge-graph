@@ -12,16 +12,17 @@
     "sourceLabel": "2015-29-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2015-29-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2015-29-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理公式与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "锆钨复合氧化物晶胞示意图",
+      "alt": "晶胞结构图(原题附图)"
     }
   ],
   "parts": [
@@ -31,7 +32,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出晶胞中锆原⼦和钨原⼦的数⽬。"
+          "text": "写出晶胞中锆原子和钨原子的数目。"
         }
       ]
     },
@@ -51,7 +52,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "晶体中，氧原⼦的化学环境有⼏种？各是什么类型？在⼀个晶胞中各有多少？"
+          "text": "晶体中,氧原子的化学环境有几种?各是什么类型?在一个晶胞中各有多少?"
         }
       ]
     },
@@ -61,7 +62,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "已知晶胞参数 $\\dot { a } = 0 . 9 1 6 \\mathrm { n m }$ ，计算该晶体的密度（以 $\\mathrm { g c m ^ { - 3 } }$ 为单位）。"
+          "text": "已知晶胞参数 $a = 0.916\\ \\mathrm{nm}$,计算该晶体的密度(以 $\\mathrm{g\\ cm^{-3}}$ 为单位)。"
         }
       ]
     }

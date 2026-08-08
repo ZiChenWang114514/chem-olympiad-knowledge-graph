@@ -12,36 +12,40 @@
     "sourceLabel": "2016-30-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2016-30-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "transcribedAt": "2026-04-26",
+  "provenanceNote": "由 MinerU MD(决赛/2016-30-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:纠正 OCR 错字、规范化标点、将缺图占位符转为 figure 块。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "串联反应，也称多⽶诺(domino)反应，即多步合成反应结合在⼀种合成操作中完成，⽆需额外的试剂或反应条件变化；中间体⽆需分离，随后转化为能量较低的物种。化合物I是许多药物及具有⽣物活性的天然产物，具有降糖、抗癌、抗病毒、抗肿瘤、抗疟药、抑制HIV-1活性等功效，其制备⽅法如下："
+      "text": "串联反应,也称多米诺(domino)反应,即多步合成反应结合在一种合成操作中完成,无需额外的试剂或反应条件变化;中间体无需分离,随后转化为能量较低的物种。化合物 I 是许多药物及具有生物活性的天然产物,具有降糖、抗癌、抗病毒、抗肿瘤、抗疟、抑制 HIV-1 活性等功效,其制备方法如下:"
+    },
+    {
+      "type": "figure",
+      "caption": "(缺图)",
+      "alt": "本图缺失,请参见官方 PDF"
     },
     {
       "type": "paragraph",
-      "text": "（图：）"
+      "text": "原料 D 形成活性中间体 F;F 与 E 通过下列串联反应,形成化合物 I:"
+    },
+    {
+      "type": "figure",
+      "caption": "(缺图)",
+      "alt": "本图缺失,请参见官方 PDF"
     },
     {
       "type": "paragraph",
-      "text": "原料D形成活性中间体F；F与E通过下列串联反应，形成化合物I："
+      "text": "如果用异腈 J 代替 E,则得到产物 K:"
     },
     {
-      "type": "paragraph",
-      "text": "（图：）"
-    },
-    {
-      "type": "paragraph",
-      "text": "如果⽤异腈J代替E，则得到产物K："
-    },
-    {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "(缺图)",
+      "alt": "本图缺失,请参见官方 PDF"
     }
   ],
   "parts": [
@@ -51,7 +55,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "请写出F、G、H、I及K的结构简式。"
+          "text": "请写出 F、G、H、I 及 K 的结构简式。"
         }
       ]
     },
@@ -61,7 +65,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "给出D→F，F→G，G→H及H→I的具体反应类型。"
+          "text": "给出 D→F、F→G、G→H 及 H→I 的具体反应类型。"
         }
       ]
     }

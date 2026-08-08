@@ -12,19 +12,13 @@
     "sourceLabel": "2010-24-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2010-24-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2010-24-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理化学式与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000366-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "钒酸盐与磷酸盐结构相似。请画出 $\\mathrm { V O } _ { 4 } \\mathrm { \\dot { \\Omega } }$ 3−、 $\\mathrm { H _ { 2 } V O _ { 4 } } ^ { - }$ $\\mathrm { V O _ { 2 } ( H _ { 2 } O ) _ { 4 } } ^ { + }$ ，和 $\\mathrm { V _ { 2 } O _ { 7 } } ^ { 4 - }$ −的空间构型。"
+          "text": "钒酸盐与磷酸盐结构相似。请画出 $\\mathrm{VO_4^{3-}}$、$\\mathrm{H_2VO_4^-}$、$\\mathrm{VO_2(H_2O)_4^+}$ 和 $\\mathrm{V_2O_7^{4-}}$ 的空间构型。"
         }
       ]
     },
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "⽣理条件下的钒以多种氧化态存在，各种氧化态可以相互转化。通常细胞外的钒是 $\\mathrm { V } ( + \\mathrm { V } )$ ，⽽细胞内的钒是 $\\mathrm { V } ( + \\mathrm { I V } )$ 。研究表明，钒酸⼆氢根离⼦可与亚铁⾎红素 $\\mathrm { ( M t r c - F e ^ { 2 + } ) }$ 反应，写出该反应的离⼦⽅程式。"
+          "text": "生理条件下的钒以多种氧化态存在,各种氧化态可以相互转化。通常细胞外的钒是 $\\mathrm{V(+V)}$,而细胞内的钒是 $\\mathrm{V(+IV)}$。研究表明,钒酸二氢根离子可与亚铁血红素 $\\mathrm{(Mt rc-Fe^{2+})}$ 反应,写出该反应的离子方程式。"
         }
       ]
     },
@@ -52,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 已知配合物 $\\mathrm { \\small { [ V O N ( C H _ { 2 } C O O ) _ { 3 } ] } }$ 在⽔溶液中的⼏何构型是唯⼀的，画出它的空间构型图。"
+          "text": "-1 已知配合物 $\\mathrm{[VON(CH_2COO)_3]}$ 在水溶液中的几何构型是唯一的,画出它的空间构型图。"
         }
       ]
     },
@@ -62,7 +56,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 理论推测上述配合物分⼦在晶体中是有⼿性的，指出产⽣⼿性的原因。"
+          "text": "-2 理论推测上述配合物分子在晶体中是有心性的,指出产生心性的原因。"
         }
       ]
     },
@@ -72,7 +66,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "钒酸钇晶体是近年来新开发出的优良双折射光学晶体，在光电产业中得到⼴泛应⽤。可以在弱碱性溶液中⽤偏钒酸铵和硝酸钇合成。写出以 $\\mathrm { Y _ { 2 } O _ { 3 } }$ 与 $\\mathrm { { V } _ { 2 } O _ { 3 } }$ 为主要原料合成钒酸钇的化学⽅程式。"
+          "text": "钒酸钇晶体是近年来新开发出的优良双折射光学晶体,在光电产业中得到广泛应用。可以在弱碱性溶液中用偏钒酸铵和硝酸钇合成。写出以 $\\mathrm{Y_2O_3}$ 与 $\\mathrm{V_2O_3}$ 为主要原料合成钒酸钇的化学方程式。"
         }
       ]
     },
@@ -82,7 +76,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "若以市售分析纯偏钒酸铵为原料制备⾼纯钒酸钇单晶，需将杂质铁离⼦含量降⾄⼀定数量级。设每升偏钒酸铵溶液中含三价铁离⼦为 $5 . 0 { \\times } 1 0 ^ { - 5 } \\mathrm { m o l }$ ，⽤0.01 mol L−1的鏊合剂除铁。"
+          "text": "若以市售分析纯偏钒酸铵为原料制备高纯钒酸钇单晶,需将杂质铁离子含量降至一定数量级。设每升偏钒酸铵溶液中含三价铁离子为 $5.0 \\times 10^{-5} \\mathrm{mol}$,用 0.01 mol L−1 的螯合剂除铁。"
         }
       ]
     },
@@ -92,7 +86,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 说明不采取使铁离⼦⽔解析出沉淀的⽅法除铁的理由。"
+          "text": "-1 说明不采取使铁离子水解析出沉淀的方法除铁的理由。"
         }
       ]
     },
@@ -102,17 +96,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 通过计算说明如何选择螯合剂使偏钒酸铵含铁量降⾄10−30 mol L−1以下。"
+          "text": "-2 通过计算说明如何选择螯合剂使偏钒酸铵含铁量降至 $10^{-30}$ mol L−1 以下。"
         },
         {
           "type": "callout",
           "tone": "info",
-          "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
-        },
-        {
-          "type": "callout",
-          "tone": "info",
-          "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
+          "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
         }
       ]
     }

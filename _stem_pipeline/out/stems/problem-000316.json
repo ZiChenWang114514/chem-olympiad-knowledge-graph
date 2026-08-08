@@ -12,28 +12,22 @@
     "sourceLabel": "2007-21-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2007-21-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2007-21-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、合并空壳段落、更新渲染提示。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "图1",
+      "alt": "图1:氧化铝表面结构示意图(缺图)"
     },
     {
-      "type": "paragraph",
-      "text": "（图：）\n图1"
-    },
-    {
-      "type": "paragraph",
-      "text": "（图：）"
-    },
-    {
-      "type": "paragraph",
-      "text": "（图：）\n图2"
+      "type": "figure",
+      "caption": "图2",
+      "alt": "图2:单位晶格示意图(缺图)"
     }
   ],
   "parts": [
@@ -43,7 +37,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在C层和D层的单位⽹格（即图2中的⽅框）内分别有⼏个处于由体相暴露出来的四⾯体空隙中的 $\\mathrm { A l ^ { 3 + } }$ 和⼋⾯体空隙中的 $\\mathrm { A l ^ { 3 + } } ?$"
+          "text": "在C层和D层的单位晶格(即图2中的方框)内分别有几个处于由体相暴露出来的四面体空隙中的 $\\mathrm{Al^{3+}}$ 和八面体空隙中的 $\\mathrm{Al^{3+}}$?"
         }
       ]
     },
@@ -53,7 +47,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$\\mathrm { N i O / v  – A l _ { 2 } O _ { 3 } }$ 催化剂中分散在表⾯的NiO的 $\\mathrm { N i ^ { 2 + } }$ 进⼊能形成表⾯四⾯体配位和⼋⾯体配位的位置，且与$\\mathrm { N i ^ { 2 + } }$ 相伴的 $\\mathrm { O ^ { 2 - } }$ 按 $\\mathsf { \\gamma { - } A l _ { 2 } O _ { 3 } }$ 堆积⽅式外延（假定只形成“单分⼦层”），请问在C层和D层的单位⽹格中各能容纳⼏个 $\\mathrm { N i ^ { 2 + 2 } }$"
+          "text": "$\\mathrm{NiO/\\gamma-Al_2O_3}$ 催化剂中分散在表面的NiO的 $\\mathrm{Ni^{2+}}$ 进入能形成表面四面体配位和八面体配位的位置,且与 $\\mathrm{Ni^{2+}}$ 相伴的 $\\mathrm{O^{2-}}$ 按 $\\gamma\\mathrm{-Al_2O_3}$ 堆积方式外延(假定只形成“单分子层”),请问在C层和D层的单位晶格中各能容纳几个 $\\mathrm{Ni^{2+}}$?"
         }
       ]
     },
@@ -63,7 +57,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "将 NiO 换为 ${ \\mathrm { C u O } } ,$ ，⽂献报道 $\\mathrm { C u ^ { 2 + } }$ 只能存在于表⾯的⼋⾯体空隙中，如果⽤氢还原不同配位环境的铜$( \\mathrm { C u ^ { 2 + } \\to C u ^ { 0 } } )$ ，请估计还原温度较低的表⾯ $\\mathrm { C u ^ { 2 + } }$ 分布在C层还是D层中？简述理由。"
+          "text": "将 NiO 换为 $\\mathrm{CuO}$,文献报道 $\\mathrm{Cu^{2+}}$ 只能存在于表面的八面体空隙中,如果用氢还原不同配位环境的铜($\\mathrm{Cu^{2+}\\to Cu^{0}}$),请估计还原温度较低的表面 $\\mathrm{Cu^{2+}}$ 分布在C层还是D层中?简述理由。"
         }
       ]
     },
@@ -73,15 +67,15 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "已知 $\\mathrm { O ^ { 2 - } }$ 离⼦半径为0.140 nm，试估算 $\\mathrm { C u O } / \\gamma \\mathrm { - A l _ { 2 } O _ { 3 } }$ 催化剂中CuO在 $\\mathsf { \\gamma { - } A l _ { 2 } O _ { 3 } }$ 表⾯的最⼤单层分散值（以每 $1 0 0 \\mathrm { m ^ { 2 } }$ 的 $\\mathsf { \\gamma { - } A l _ { 2 } O _ { 3 } }$ 载体表⾯单层分散多少毫摩尔的 $\\mathrm { C u O }$ 表⽰）。"
+          "text": "已知 $\\mathrm{O^{2-}}$ 离子半径为0.140 nm,试估算 $\\mathrm{CuO/\\gamma-Al_2O_3}$ 催化剂中CuO在 $\\gamma\\mathrm{-Al_2O_3}$ 表面的最大单层分散值(以每 $100\\ \\mathrm{m^2}$ 的 $\\gamma\\mathrm{-Al_2O_3}$ 载体表面单层分散多少毫摩尔的 $\\mathrm{CuO}$ 表示)。"
         },
         {
           "type": "paragraph",
-          "text": "${ 6 { - } 5 } \\mathrm { \\ C u O } / \\gamma { - } \\mathrm { A l } _ { 2 } \\mathrm { O } _ { 3 }$ 催化剂可以⽤于CO的催化氧化： $2 \\mathrm { C O } ( \\mathrm { g } ) + \\mathrm { O } _ { 2 } ( \\mathrm { g } )  2 \\mathrm { C O } ( \\mathrm { g } )$ 。若在 $: p ^ { \\ominus }$ 、473 K 下，有 2$\\mod \\mathrm { C O ( g ) }$ 被完全催化氧化⽣成 $\\operatorname { C O } ( \\mathrm { g } )$ ，请计算此过程中的反应焓变。"
+          "text": "$\\mathrm{CuO/\\gamma-Al_2O_3}$ 催化剂可以用于CO的催化氧化:$2\\mathrm{CO(g)}+\\mathrm{O_2(g)}\\to 2\\mathrm{CO_2(g)}$。若在 $p^\\ominus$、473 K 下,有 $2\\ \\mathrm{mol\\ CO(g)}$ 被完全催化氧化生成 $\\mathrm{CO_2(g)}$,请计算此过程中的反应焓变。"
         },
         {
           "type": "paragraph",
-          "text": "已知298 K 下的热⼒学数据： $\\Delta _ { \\mathrm { f } } H _ { \\mathrm { m } } ^ { \\ominus } ( \\mathrm { C O } , \\mathrm { g } ) = - 1 1 0 . 5$ kJ mol−1， $\\Delta _ { \\mathrm { f } } H _ { \\mathrm { m } } ^ { \\ominus } ( \\mathrm { C O } _ { 2 } , \\mathrm { g } ) = - 3 9 3 . 5$ kJ $\\mathrm { m o l ^ { - 1 } }$ ，在温度 $T = 2 9 8 { \\sim } 5 0 0$ K范围内热容 $C _ { \\mathrm { p , m } } ( \\mathrm { C O , g ) = 2 9 . 5 5 6 J \\ : K ^ { - 1 } \\ : m o l ^ { - 1 } }$ $C _ { \\mathrm { p , m } } ( \\mathrm { O } _ { 2 } , \\mathrm { g } ) { = 2 9 . 5 2 6 \\mathrm { J } \\mathrm { K } ^ { \\mathrm { - 1 } } \\mathrm { m o l } ^ { \\mathrm { - 1 } } }$ $C _ { \\mathrm { p , m } } ( \\mathrm { C O } _ { 2 } ,$ $\\mathrm { g ) = 2 7 . 4 3 7 \\ : J \\ : K ^ { - 1 } \\ : m o l ^ { - 1 } }$"
+          "text": "已知298 K 下的热力学数据:$\\Delta_{\\mathrm{f}}H_{\\mathrm{m}}^\\ominus(\\mathrm{CO,g})=-110.5\\ \\mathrm{kJ\\ mol^{-1}}$,$\\Delta_{\\mathrm{f}}H_{\\mathrm{m}}^\\ominus(\\mathrm{CO_2,g})=-393.5\\ \\mathrm{kJ\\ mol^{-1}}$,在温度 $T=298\\sim500\\ \\mathrm{K}$ 范围内热容 $C_{\\mathrm{p,m}}(\\mathrm{CO,g})=29.556\\ \\mathrm{J\\ K^{-1}\\ mol^{-1}}$,$C_{\\mathrm{p,m}}(\\mathrm{O_2,g})=29.526\\ \\mathrm{J\\ K^{-1}\\ mol^{-1}}$,$C_{\\mathrm{p,m}}(\\mathrm{CO_2,g})=27.437\\ \\mathrm{J\\ K^{-1}\\ mol^{-1}}$。"
         }
       ]
     },
@@ -91,15 +85,15 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "CO的低温催化消除通常采⽤ $V \\mathrm { { y - A l _ { 2 } O _ { 3 } } }$ 为载体的负载型催化剂，⼈们对其反应机理已经有了较深⼈的研究。实验结果表明，CO在催化剂表⾯与 $\\mathrm { O _ { 2 } }$ 反应的可能历程如下："
+          "text": "CO的低温催化消除通常采用 $\\gamma\\mathrm{-Al_2O_3}$ 为载体的负载型催化剂,人们对其反应机理已经有了较深入的研究。实验结果表明,CO在催化剂表面与 $\\mathrm{O_2}$ 反应的可能历程如下:"
         },
         {
           "type": "paragraph",
-          "text": "$$\n\\begin{array}{l} \\text {(1) CO + M} \\xleftrightarrow [ k _ {- 1} ] {k _ {1}} \\mathrm{CO} _ {\\text {(a d s)}} \\\\ \\text {(2) O} _ {2} + 2 \\mathrm{M} \\xrightarrow {k _ {2}} 2 \\mathrm{O} _ {\\text {(a d s)}} \\\\ \\text {(3) CO} _ {\\text {(a d s)}} + \\mathrm{O} _ {\\text {(a d s)}} \\xrightarrow {k _ {3}} \\mathrm{CO} _ {2 \\text {(a d s)}} + \\mathrm{M} \\\\ \\text {(4) CO} _ {2 \\text {(a d s)}} \\xrightarrow {k _ {4}} \\mathrm{CO} _ {2} + \\mathrm{M} \\end{array}\n$$"
+          "text": "$$\n\\begin{array}{l}\n\\text{(1) CO + M} \\xleftrightarrow[k_{-1}]{k_1} \\mathrm{CO_{(ads)}} \\\\\n\\text{(2) O_2 + 2M} \\xrightarrow{k_2} 2\\mathrm{O_{(ads)}} \\\\\n\\text{(3) CO_{(ads)} + O_{(ads)}} \\xrightarrow{k_3} \\mathrm{CO_{2(ads)}} + \\mathrm{M} \\\\\n\\text{(4) CO_{2(ads)}} \\xrightarrow{k_4} \\mathrm{CO_2} + \\mathrm{M}\n\\end{array}\n$$"
         },
         {
           "type": "paragraph",
-          "text": "式中M为为表⾯活性位，在该实验条件下M的数量为定值，下标ads表⽰吸附态。请⽤稳态近似法推导其速率⽅程，速率⽤ $\\frac { \\textrm { d } [ \\mathsf { C O } _ { 2 } ] } { \\textrm { d } t }$ 表⽰。"
+          "text": "式中M为表面活性位,在该实验条件下M的数量为定值,下标ads表示吸附态。请用稳态近似法推导其速率方程,速率用 $\\frac{\\mathrm{d}[\\mathrm{CO_2}]}{\\mathrm{d}t}$ 表示。"
         }
       ]
     }

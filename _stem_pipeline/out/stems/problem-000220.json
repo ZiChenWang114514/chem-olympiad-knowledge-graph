@@ -12,24 +12,21 @@
     "sourceLabel": "2023-37-CChO-juesai-1.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2023-37-CChO-juesai-1/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2023-37-CChO-juesai-1/full.md)程序化切分并整理为结构化题干;经 DeepSeek 精修(修正 OCR 错字、整理 LaTeX、规范小问结构)。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "⻓春碱是从⻓春花中提取的⼀类重要⽣物碱，具有显著的抗癌活性。天然产物 N-"
+      "text": "长春碱是从长春花中提取的一类重要生物碱,具有显著的抗癌活性。天然产物 N-methylaspidospermidine (K) 含有长春碱的关键骨架,其合成路线如 $\\mathrm{F}_{\\circ}$ 所示。(作答时所有结构不要求画出立体化学)"
     },
     {
-      "type": "paragraph",
-      "text": "methylaspidospermidine (K)含有⻓春碱的关键⾻架，其合成路线如 $\\mathsf { F } _ { \\circ }$ 。（作答时所有结构不要求画出⽴体化学）"
-    },
-    {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "合成路线图",
+      "alt": "合成路线图(原图缺失)"
     }
   ],
   "parts": [
@@ -39,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出B、C、D、E和F的结构。"
+          "text": "画出 B、C、D、E 和 F 的结构。"
         }
       ]
     },
@@ -49,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "化合物E转化为F的过程中依次经历中间体E1及E2，分别画出其结构。"
+          "text": "化合物 E 转化为 F 的过程中依次经历中间体 E1 及 E2,分别画出其结构。"
         }
       ]
     },
@@ -59,7 +56,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出下转化为G的过程中最后⼀个中间体F1的结构。"
+          "text": "画出下转化为 G 的过程中最后一个中间体 F1 的结构。"
         }
       ]
     },
@@ -69,7 +66,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "画出H、I和J的结构。"
+          "text": "画出 H、I 和 J 的结构。"
         }
       ]
     }

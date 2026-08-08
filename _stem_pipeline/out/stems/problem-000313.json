@@ -12,20 +12,20 @@
     "sourceLabel": "2007-21-CChO-juesai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2007-21-CChO-juesai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2007-21-CChO-juesai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "$$\n2 \\begin{array}{c} \\mathrm{R} \\\\ | \\\\ \\mathrm{H} - \\mathrm{C} - \\mathrm{OH} \\\\ | \\\\ \\mathrm{H} - \\mathrm{C} - \\mathrm{OH} \\\\ | \\\\ \\mathrm{R} \\end{array} + \\mathrm{H} _ {3} \\mathrm{BO} _ {3} \\longrightarrow \\left[ \\begin{array}{c c} \\mathrm{R} & \\mathrm{R} \\\\ | & | \\\\ \\mathrm{H} - \\mathrm{C} - \\mathrm{O} & \\mathrm{O} - \\mathrm{C} - \\mathrm{H} \\\\ | & | \\\\ \\mathrm{H} - \\mathrm{C} - \\mathrm{O} & \\mathrm{B} - \\mathrm{C} - \\mathrm{H} \\\\ | & | \\\\ \\mathrm{R} & \\mathrm{R} \\end{array} \\right] ^ {-} + \\mathrm{H} ^ {+} + 3 \\mathrm{H} _ {2} \\mathrm{O}\n$$"
+      "text": "$$2 \\begin{array}{c} \\mathrm{R} \\\\ | \\\\ \\mathrm{H}-\\mathrm{C}-\\mathrm{OH} \\\\ | \\\\ \\mathrm{H}-\\mathrm{C}-\\mathrm{OH} \\\\ | \\\\ \\mathrm{R} \\end{array} + \\mathrm{H_3BO_3} \\longrightarrow \\left[ \\begin{array}{cc} \\mathrm{R} & \\mathrm{R} \\\\ | & | \\\\ \\mathrm{H}-\\mathrm{C}-\\mathrm{O} & \\mathrm{O}-\\mathrm{C}-\\mathrm{H} \\\\ | & | \\\\ \\mathrm{H}-\\mathrm{C}-\\mathrm{O} & \\mathrm{B}-\\mathrm{C}-\\mathrm{H} \\\\ | & | \\\\ \\mathrm{R} & \\mathrm{R} \\end{array} \\right]^{-} + \\mathrm{H^+} + 3\\mathrm{H_2O}$$"
     },
     {
       "type": "paragraph",
-      "text": "再加⼊适当指⽰剂，⽤NaOH溶液滴定到终点。主要分析流程图如下（图中只列出主要物质，其他少量物质的⼲扰可以不予考虑）。"
+      "text": "再加入适当指示剂,用 NaOH 溶液滴定到终点。主要分析流程图如下(图中只列出主要物质,其他少量物质的干扰可以不予考虑)。"
     }
   ],
   "parts": [
@@ -35,7 +35,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出从A框到B框⽣成 $\\mathrm { H _ { 3 } B O _ { 3 } }$ 的反应⽅程式以及 $\\mathrm { H _ { 3 } B O _ { 3 } }$ 在⽔溶液中的电离⽅程式。"
+          "text": "写出从 A 框到 B 框生成 $\\mathrm{H_3BO_3}$ 的反应方程式以及 $\\mathrm{H_3BO_3}$ 在水溶液中的电离方程式。"
         }
       ]
     },
@@ -45,7 +45,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "除去过量酸后的热溶液在冷却⾄室温过程中有时析出⽩⾊鳞⽚状晶体。写出该晶体的化学式并解释为什么晶体呈⽚状。"
+          "text": "除去过量酸后的热溶液在冷却至室温过程中有时析出白色鳞片状晶体。写出该晶体的化学式并解释为什么晶体呈片状。"
         }
       ]
     },
@@ -55,7 +55,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "从C框到D框的滴定操作过程中，是否需要准确地中和 $\\mathrm { H } ^ { + 2 }$ 简述原因。"
+          "text": "从 C 框到 D 框的滴定操作过程中,是否需要准确地中和 $\\mathrm{H^+}$?简述原因。"
         }
       ]
     },
@@ -65,22 +65,22 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "从原理上分析D框到E框这⼀步操作的⽬的。"
+          "text": "从原理上分析 D 框到 E 框这一步操作的目的。"
         }
       ]
     },
     {
       "id": "part-000313-05",
-      "label": "3-4",
+      "label": "3-5",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "如果E框中配合物和 $\\mathrm { N a O H }$ 滴定剂的浓度均为0.10 mol L−1，请估算滴定到化学计量点时的pH，并指出从E框到F框的滴定过程中，应该选⽤哪种指⽰剂？滴定终点的颜⾊是什么？"
+          "text": "如果 E 框中配合物和 $\\mathrm{NaOH}$ 滴定剂的浓度均为 0.10 mol L−1,请估算滴定到化学计量点时的 pH,并指出从 E 框到 F 框的滴定过程中,应该选用哪种指示剂?滴定终点的颜色是什么?"
         },
         {
           "type": "callout",
           "tone": "info",
-          "text": "（原卷此处含表格/仪器试剂表，详见 PDF 或 MD 源文件。）"
+          "text": "(原卷此处含表格/仪器试剂表,详见 PDF 或 MD 源文件。)"
         }
       ]
     },
@@ -90,7 +90,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$V _ { 0 } ,$ 、 $V _ { 1 }$ 和 $\\mathsf { I } V _ { 2 }$ 的单位都为mL， $M _ { \\mathrm { B } }$ 为硼的摩尔质量(g mol−1)，�(NaOH)为 NaOH 溶液的浓度(mol L−1)，请给出被测溶液中硼含量(g L−1)的计算式。"
+          "text": "$V_0$、$V_1$ 和 $V_2$ 的单位都为 mL,$M_\\mathrm{B}$ 为硼的摩尔质量(g mol−1),$c(\\mathrm{NaOH})$ 为 NaOH 溶液的浓度(mol L−1),请给出被测溶液中硼含量(g L−1)的计算式。"
         }
       ]
     }

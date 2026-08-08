@@ -12,20 +12,21 @@
     "sourceLabel": "2006-20-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2006-20-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2006-20-CChO-chusai/full.md)程序化切分并整理为结构化题干;经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "甲醇合成流程图",
+      "alt": "流程图:1为甲烷气源,2为水蒸气源,经A(重整)后混合气经3进入冷凝器,冷凝物由5流出,气体经4进入B(合成塔),产物经6进入冷凝器,甲醇由7流出。"
     },
     {
       "type": "paragraph",
-      "text": "其中，①为甲烷⽓源，压强250.0kPa，温度 $2 5 \\ { } ^ { \\circ } \\mathrm { C } ,$ 流速 $5 5 . 0 \\mathrm { m } ^ { 3 } \\mathrm { s } ^ { - 1 } ,$ 。②为⽔蒸⽓源，压强200.0kPa，温度 $1 5 0 ~ ^ { \\circ } \\mathrm { C } ,$ 流速 $1 5 0 . 0 \\mathrm { { m } ^ { 3 } \\mathrm { { s } ^ { - 1 } } }$ 。合成⽓和剩余反应物的混合物经管路③进⼊ $2 5 ~ ^ { \\circ } \\mathrm { C }$ 的冷凝器(condenser)，冷凝物由管路⑤流 $\\mathbb { H } _ { \\circ }$ 。在B中合成的甲醇和剩余反应物的混合物经⑥进⼊ $2 5 ~ ^ { \\circ } \\mathrm { C }$ 的冷凝器，甲醇冷凝后经管路⑦流出，其密度为 0.791g mL−1。"
+      "text": "其中,1为甲烷气源,压强250.0 kPa,温度25 °C,流速55.0 m3 s−1。2为水蒸气源,压强200.0 kPa,温度150 °C,流速150.0 m3 s−1。合成气和剩余反应物的混合物经管路3进入25 °C的冷凝器(condenser),冷凝物由管路5流出。在B中合成的甲醇和剩余反应物的混合物经6进入25 °C的冷凝器,甲醇冷凝后经管路7流出,其密度为0.791 g mL−1。"
     }
   ],
   "parts": [
@@ -35,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "分别写出在步骤A和步骤B中所发⽣的化学反应的⽅程式。"
+          "text": "分别写出在步骤A和步骤B中所发生的化学反应的方程式。"
         }
       ]
     },
@@ -45,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "假定：所有⽓体皆为理想⽓体，在步骤A和B中完全转化，⽓液在冷凝器中完全分离，计算经步骤A和步骤B后，在⼀秒钟内剩余物的量。"
+          "text": "假定:所有气体皆为理想气体,在步骤A和B中完全转化,气液在冷凝器中完全分离,计算经步骤A和步骤B后,在一秒钟内剩余物的量。"
         }
       ]
     },
@@ -55,7 +56,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "实际上，在步骤B中CO的转化率只有三分之⼆。计算在管路⑥中CO、 $\\mathrm { H } _ { 2 }$ 和 $\\mathrm { C H _ { 3 } O H }$ 的分压（总压强为 10.0 MPa）。"
+          "text": "实际上,在步骤B中CO的转化率只有三分之二。计算在管路6中CO、H2和CH3OH的分压(总压强为10.0 MPa)。"
         }
       ]
     },
@@ -65,15 +66,15 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "当甲醇反应器⾜够⼤，反应达到平衡，管路⑥中的各⽓体的分压服从⽅程："
+          "text": "当甲醇反应器足够大,反应达到平衡,管路6中的各气体的分压服从方程:"
         },
         {
           "type": "paragraph",
-          "text": "$$\nK _ {p} = \\frac {p (\\mathrm{CH} _ {3} \\mathrm{OH}) \\times p _ {0} ^ {2}}{p (\\mathrm{CO}) \\times p ^ {2} (\\mathrm{H} _ {2})}\n$$"
+          "text": "$$K_p = \\frac{p(\\mathrm{CH_3OH}) \\cdot p_0^2}{p(\\mathrm{CO}) \\cdot p^2(\\mathrm{H_2})}$$"
         },
         {
           "type": "paragraph",
-          "text": "式中 ${ } ^ { 1 } p _ { 0 } \\ = 0 . 1 0 0 \\ \\mathrm { M P a }$ ，计算平衡常数 $K _ { p } .$ 。"
+          "text": "式中 $p_0 = 0.100\\ \\mathrm{MPa}$,计算平衡常数 $K_p$。"
         }
       ]
     }

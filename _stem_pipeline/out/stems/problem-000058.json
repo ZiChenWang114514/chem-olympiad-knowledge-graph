@@ -12,20 +12,21 @@
     "sourceLabel": "2018-32-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2018-32-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2018-32-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 残缺字符、规范化图片占位与化学式。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "（图：）"
+      "type": "figure",
+      "caption": "题给反应图",
+      "alt": "原题图缺失,待补充"
     },
     {
       "type": "paragraph",
-      "text": "根据以上信息，画出下列反应主要产物的结构简式（产物指经后处理得到的化合物）。"
+      "text": "根据以上信息,画出下列反应主要产物的结构简式(产物指经后处理得到的化合物)。"
     }
   ],
   "parts": [
@@ -34,8 +35,9 @@
       "label": "10-1",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应 10-1 图",
+          "alt": "原题图缺失,待补充"
         }
       ]
     },
@@ -44,8 +46,9 @@
       "label": "10-2",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应 10-2 图",
+          "alt": "原题图缺失,待补充"
         }
       ]
     },
@@ -54,8 +57,9 @@
       "label": "10-3",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应 10-3 图",
+          "alt": "原题图缺失,待补充"
         }
       ]
     },
@@ -64,16 +68,18 @@
       "label": "10-4",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "反应 10-4 图(1)",
+          "alt": "原题图缺失,待补充"
+        },
+        {
+          "type": "figure",
+          "caption": "反应 10-4 图(2)",
+          "alt": "原题图缺失,待补充"
         },
         {
           "type": "paragraph",
-          "text": "（图：）"
-        },
-        {
-          "type": "paragraph",
-          "text": "涉及的缩写：�-Pr：正丙基、�-Pr异丙基 提⽰： $\\mathrm { { A l C l } _ { 3 } }$ 和 $\\mathrm { T i C l _ { 4 } }$ 为 Lewis 酸"
+          "text": "涉及的缩写:n-Pr:正丙基;i-Pr:异丙基。提示:AlCl$_3$ 和 TiCl$_4$ 为 Lewis 酸。"
         }
       ]
     },

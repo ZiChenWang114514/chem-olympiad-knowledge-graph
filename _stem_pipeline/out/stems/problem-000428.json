@@ -12,19 +12,13 @@
     "sourceLabel": "2014-28-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2014-28-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2014-28-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理 LaTeX、调整小问结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000428-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$\\mathrm { C H _ { 4 } ( g ) + H _ { 2 } O ( g )  C O ( g ) + 3 H _ { 2 } ( g ) }$"
+          "text": "$\\mathrm{CH_4(g) + H_2O(g) \\rightleftharpoons CO(g) + 3H_2(g)}$"
         }
       ]
     },
@@ -42,15 +36,15 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$2 \\mathrm { C H } _ { 4 } ( \\mathrm { g } ) + \\mathrm { O } _ { 2 } ( \\mathrm { g } ) \\to 2 \\mathrm { C O } ( \\mathrm { g } ) + 4 \\mathrm { H } _ { 2 } ( \\mathrm { g } )$"
+          "text": "$\\mathrm{2CH_4(g) + O_2(g) \\rightarrow 2CO(g) + 4H_2(g)}$"
         },
         {
           "type": "paragraph",
-          "text": "$$\n(3) \\quad \\mathrm{CO} (\\mathrm{g}) + \\mathrm{H} _ {2} \\mathrm{O} (\\mathrm{g}) \\rightarrow \\mathrm{H} _ {2} (\\mathrm{g}) + \\mathrm{CO} _ {2} (\\mathrm{g})\n$$"
+          "text": "$\\mathrm{(3) \\quad CO(g) + H_2O(g) \\rightarrow H_2(g) + CO_2(g)}$"
         },
         {
           "type": "paragraph",
-          "text": "假设反应产⽣的CO全部转化为 $\\mathrm { C O _ { 2 } , \\ C O _ { 2 } }$ 被碱液完全吸收，剩余的 $\\mathrm { H _ { 2 } O }$ 通过冷凝⼲燥除去。进⼊合成氨反应塔的原料⽓为纯净的 $\\mathrm { N } _ { 2 }$ 和 $\\mathrm { H } _ { 2 \\circ }$"
+          "text": "假设反应产生的CO全部转化为 $\\mathrm{CO_2}$,$\\mathrm{CO_2}$ 被碱液完全吸收,剩余的 $\\mathrm{H_2O}$ 通过冷凝干燥除去。进入合成氨反应塔的原料气为纯净的 $\\mathrm{N_2}$ 和 $\\mathrm{H_2}$。"
         }
       ]
     },
@@ -60,7 +54,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "为使原料⽓中N_{2}和H_{2}的体积⽐为1: 3，推出起始⽓体中 $\\mathrm { C H _ { 4 } }$ 和空⽓的⽐例。设空⽓中 $\\mathrm { O _ { 2 } }$ 和 $\\mathrm { N } _ { 2 }$ 的体积⽐为1:4，所有⽓体均按理想⽓体处理。"
+          "text": "为使原料气中 $\\mathrm{N_2}$ 和 $\\mathrm{H_2}$ 的体积比为 1:3,推出起始气体中 $\\mathrm{CH_4}$ 和空气的比例。设空气中 $\\mathrm{O_2}$ 和 $\\mathrm{N_2}$ 的体积比为 1:4,所有气体均按理想气体处理。"
         }
       ]
     },
@@ -70,15 +64,15 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "计算反应(2)的反应热。已知："
+          "text": "计算反应(2)的反应热。已知:"
         },
         {
           "type": "paragraph",
-          "text": "$$\n\\mathrm{C} (\\mathrm{s}) + 2 \\mathrm{H} _ {2} (\\mathrm{g}) \\rightarrow \\mathrm{CH} _ {4} (\\mathrm{g}) \\quad \\Delta H _ {4} = - 7 4. 8 \\mathrm{kJ} \\mathrm{mol} ^ {- 1} \\tag {4}\n$$"
+          "text": "$\\mathrm{C(s) + 2H_2(g) \\rightarrow CH_4(g) \\quad \\Delta H_4 = -74.8\\, kJ\\, mol^{-1}} \\tag{4}$"
         },
         {
           "type": "paragraph",
-          "text": "$$\n\\mathrm{C} (\\mathrm{s}) + 1 / 2 \\mathrm{O} _ {2} (\\mathrm{g}) \\rightarrow \\mathrm{CO} (\\mathrm{g}) \\quad \\Delta H _ {5} = - 1 1 0. 5 \\mathrm{kJ} \\mathrm{mol} ^ {- 1} \\tag {5}\n$$"
+          "text": "$\\mathrm{C(s) + \\frac{1}{2}O_2(g) \\rightarrow CO(g) \\quad \\Delta H_5 = -110.5\\, kJ\\, mol^{-1}} \\tag{5}$"
         }
       ]
     }

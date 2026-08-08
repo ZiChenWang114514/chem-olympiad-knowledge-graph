@@ -12,19 +12,13 @@
     "sourceLabel": "2017-31-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2017-31-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2017-31-CChO-chusai/full.md) 程序化切分并整理为结构化题干;经 DeepSeek 精修(修正 OCR 字符、规范化 LaTeX 与化学式、清理无信息 callout)。公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000035-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出A、C到F以及G1和G2的分⼦式。"
+          "text": "写出A、C到F以及G1和G2的分子式。"
         }
       ]
     },
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出由⽣产X单质的副产物 $\\mathrm { F e P _ { 2 } }$ 与⻩铁矿反应制备A的⽅程式。"
+          "text": "写出由生产X单质的副产物 $\\mathrm{FeP_2}$ 与黄铁矿反应制备A的方程式。"
         }
       ]
     },
@@ -52,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "写出B与浓硫酸反应的⽅程式。"
+          "text": "写出B与浓硫酸反应的方程式。"
         }
       ]
     }

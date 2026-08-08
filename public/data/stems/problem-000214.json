@@ -12,19 +12,13 @@
     "sourceLabel": "2023-37-CChO-juesai-1.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（决赛/2023-37-CChO-juesai-2/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(决赛/2023-37-CChO-juesai-2/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与结构。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000214-01",
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "试⽐较以下两组⾃由基断裂化反应的相对速率（断裂的键已⽤箭头标出），并简要解释你的判断。"
+          "text": "试比较以下两组自由基断裂化反应的相对速率(断裂的键已用箭头标出),并简要解释你的判断。"
         }
       ]
     },
@@ -73,12 +67,14 @@
           "text": "-2"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "图:反应物结构",
+          "alt": "缺失图片"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "图:反应物结构",
+          "alt": "缺失图片"
         },
         {
           "type": "paragraph",
@@ -92,23 +88,30 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "给以下三个化合物的电离势从⾼到低进⾏排序。"
+          "text": "给以下三个化合物的电离势从高到低进行排序。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "图:化合物1",
+          "alt": "缺失图片"
         },
         {
           "type": "paragraph",
           "text": ""
         },
         {
-          "type": "paragraph",
-          "text": "（图：）\n"
+          "type": "figure",
+          "caption": "图:化合物2",
+          "alt": "缺失图片"
         },
         {
           "type": "paragraph",
-          "text": "（图：）"
+          "text": ""
+        },
+        {
+          "type": "figure",
+          "caption": "图:化合物3",
+          "alt": "缺失图片"
         },
         {
           "type": "paragraph",
@@ -122,7 +125,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在1H-NMR表征中，H核受屏蔽作⽤影响展现不同的化学位移。屏蔽作⽤随电⼦密度增⼤⽽增⼤，对应H的化学位移 (ppm) 数值则减⼩。"
+          "text": "在1H-NMR表征中,H核受屏蔽作用影响展现不同的化学位移。屏蔽作用随电子密度增大而增大,对应H的化学位移 (ppm) 数值则减小。"
         }
       ]
     },
@@ -132,19 +135,21 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-1 将以下两种化合物中⼼C原⼦所连接H的化学位移从⼤到⼩进⾏排列。"
+          "text": "-1 将以下两种化合物中手C原子所连接H的化学位移从大到小进行排列。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "图:化合物1",
+          "alt": "缺失图片"
         },
         {
           "type": "paragraph",
           "text": ""
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "图:化合物2",
+          "alt": "缺失图片"
         },
         {
           "type": "paragraph",
@@ -158,19 +163,21 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "-2 画出以下两个化合物的⽴体结构，并对箭头所指H的化学位移从⼤到⼩进⾏排列。"
+          "text": "-2 画出以下两个化合物的立体结构,并对箭头所指H的化学位移从大到小进行排列。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "图:化合物1",
+          "alt": "缺失图片"
         },
         {
           "type": "paragraph",
           "text": ""
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "图:化合物2",
+          "alt": "缺失图片"
         },
         {
           "type": "paragraph",
@@ -184,7 +191,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在有机合成中，常需要使⽤⽆⽔溶剂，如四氢呋喃常⽤与⾦属钠混合回流，确定⽆⽔后重蒸即可。以下可⽤于此四氢呋喃/钠体系达致⽆⽔的指⽰剂的有：( )a) ⼆苯酮； b) 苯酚； c) 苯甲醛； d) 苯⼄酮"
+          "text": "在有机合成中,常需要使用无水溶剂,如四氢呋喃常用与金属钠混合回流,确定无水后重蒸即可。以下可用于此四氢呋喃/钠体系达致无水的指示剂的有:( )a) 二苯酮; b) 苯酚; c) 苯甲醛; d) 苯乙酮"
         }
       ]
     },
@@ -194,15 +201,16 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在有机化合物的提纯⽅法中，蒸馏是常⻅的⽅法。以下可利⽤⽔蒸⽓蒸馏法提纯的化合物有：( )a) ⼄酸⼄酯； b) 硝基苯； c) 苯甲酸⼄酯； d) 苯胺第8题（22分, 13%）杂原⼦参与的ene反应"
+          "text": "在有机化合物的提纯方法中,蒸馏是常见的方法。以下可利用水蒸气蒸馏法提纯的化合物有:( )a) 乙酸乙酯; b) 硝基苯; c) 苯甲酸乙酯; d) 苯胺第8题(22分, 13%)杂原子参与的ene反应"
         },
         {
           "type": "paragraph",
-          "text": "烯丙基⼆氮烯重排反应 (Allylic Diazene Rearrangement, ADR) 可认为是 ene 反应的逆反应，在脱去氮⽓的同时，发⽣双键的位移。其反应式如下所⽰："
+          "text": "烯丙基二氮烯重排反应 (Allylic Diazene Rearrangement, ADR) 可认为是 ene 反应的逆反应,在脱去氮气的同时,发生双键的位移。其反应式如下所示:"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "图:反应式",
+          "alt": "缺失图片"
         }
       ]
     },
@@ -212,11 +220,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "若底物结构中有⼿性碳原⼦时，反应具有⽴体选择性。画出中间体A的⽴体结构式，判断主要产物B中⼿性碳原⼦C1和C2的绝对构型及双键的构型。"
+          "text": "若底物结构中有心性碳原子时,反应具有立体选择性。画出中间体A的立体结构式,判断主要产物B中心性碳原子C1和C2的绝对构型及双键的构型。"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "图:底物结构",
+          "alt": "缺失图片"
         }
       ]
     },
@@ -226,11 +235,16 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Retro-ene 反应和 Diels-Alder 反应相结合，可以构筑环状 1,4-⼿性碳原⼦。画出反应主要产物 A、B 以及C的结构，判断D中两个甲基的相互关系，以及硫元素最后的存在形式。"
+          "text": "Retro-ene 反应和 Diels-Alder 反应相结合,可以构筑环状 1,4-心性碳原子。画出反应主要产物 A、B 以及C的结构,判断D中两个甲基的相互关系,以及硫元素最后的存在形式。"
+        },
+        {
+          "type": "figure",
+          "caption": "图:反应流程",
+          "alt": "缺失图片"
         },
         {
           "type": "paragraph",
-          "text": "（图：）\n8-3 依据以上信息，完成以下反应："
+          "text": "8-3 依据以上信息,完成以下反应:"
         }
       ]
     },
@@ -243,8 +257,9 @@
           "text": "-1"
         },
         {
-          "type": "paragraph",
-          "text": "（图：）"
+          "type": "figure",
+          "caption": "图:反应物",
+          "alt": "缺失图片"
         }
       ]
     }

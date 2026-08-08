@@ -12,28 +12,32 @@
     "sourceLabel": "2006-20-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2006-20-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2006-20-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修,修正 OCR 错字、整理 LaTeX 与图注。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
-      "type": "paragraph",
-      "text": "（图：）\nA"
+      "type": "figure",
+      "caption": "图 A",
+      "alt": "缺图:异构化过程图 A"
     },
     {
-      "type": "paragraph",
-      "text": "（图：）\nB"
+      "type": "figure",
+      "caption": "图 B",
+      "alt": "缺图:异构化过程图 B"
     },
     {
-      "type": "paragraph",
-      "text": "（图：）\nC"
+      "type": "figure",
+      "caption": "图 C",
+      "alt": "缺图:异构化过程图 C"
     },
     {
-      "type": "paragraph",
-      "text": "（图：）\nD"
+      "type": "figure",
+      "caption": "图 D",
+      "alt": "缺图:异构化过程图 D"
     }
   ],
   "parts": [
@@ -43,7 +47,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "图中的纵坐标表⽰ （填⼊物理量，下同）；横坐标表⽰ 0"
+          "text": "图中的纵坐标表示(填入物理量,下同);横坐标表示 0"
         }
       ]
     },
@@ -53,7 +57,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "平衡常数�最⼩的图是 C"
+          "text": "平衡常数 $K$ 最小的图是 C"
         }
       ]
     },
@@ -63,7 +67,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "平衡常数�最⼤的图是"
+          "text": "平衡常数 $K$ 最大的图是"
         }
       ]
     },
@@ -73,7 +77,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "平衡常数� = 1的图是"
+          "text": "平衡常数 $K = 1$ 的图是"
         }
       ]
     }

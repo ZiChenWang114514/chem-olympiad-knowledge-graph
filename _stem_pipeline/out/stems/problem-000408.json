@@ -12,19 +12,13 @@
     "sourceLabel": "2013-27-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2013-27-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2013-27-CChO-chusai/full.md)程序化切分并整理为结构化题干;公式已尽量转为 LaTeX。经 DeepSeek 精修:修正 OCR 错字、整理化学式 LaTeX、移除无信息 callout。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
-  "blocks": [
-    {
-      "type": "callout",
-      "tone": "info",
-      "text": "下列为分问。"
-    }
-  ],
+  "blocks": [],
   "parts": [
     {
       "id": "part-000408-01",
@@ -32,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "加热时，三氧化⼆锰与⼀氧化碳反应产⽣四氧化三锰。"
+          "text": "加热时,三氧化二锰与一氧化碳反应产生四氧化三锰。"
         }
       ]
     },
@@ -42,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "将 $\\mathrm { K C N }$ 加⼊到过量的 $\\mathrm { C u S O _ { 4 } }$ ⽔溶液中。"
+          "text": "将 $\\ce{KCN}$ 加入到过量的 $\\ce{CuSO4}$ 水溶液中。"
         }
       ]
     },
@@ -52,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在碱性溶液中， $\\mathrm { { C r } _ { 2 } O _ { 3 } }$ 和 $\\mathrm { K _ { 3 } F e ( C N ) _ { 6 } }$ 反应。"
+          "text": "在碱性溶液中,$\\ce{Cr2O3}$ 和 $\\ce{K3Fe(CN)6}$ 反应。"
         }
       ]
     },
@@ -62,7 +56,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "在碱性条件下， $\\mathrm { Z n ( C N ) _ { 4 } } ^ { 2 - }$ 和甲醛反应。"
+          "text": "在碱性条件下,$\\ce{[Zn(CN)4]^{2-}}$ 和甲醛反应。"
         }
       ]
     },
@@ -72,7 +66,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "$\\mathrm { F e ( O H ) }$ _{2}在常温⽆氧条件下转化为 $\\mathrm { F e _ { 3 } O _ { 4 c } }$"
+          "text": "$\\ce{Fe(OH)2}$ 在常温无氧条件下转化为 $\\ce{Fe3O4}$。"
         }
       ]
     },
@@ -82,7 +76,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "将 $\\mathrm { N a N O _ { 3 } }$ 粉末⼩⼼加到熔融的NaNH_{2}中，⽣成 $\\mathrm { N a N _ { 3 } }$ （没有⽔⽣成）。"
+          "text": "将 $\\ce{NaNO3}$ 粉末小心加到熔融的 $\\ce{NaNH2}$ 中,生成 $\\ce{NaN3}$(没有水生成)。"
         }
       ]
     }

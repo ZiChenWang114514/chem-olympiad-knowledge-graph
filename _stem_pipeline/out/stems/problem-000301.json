@@ -12,16 +12,17 @@
     "sourceLabel": "2007-21-CChO-chusai.pdf",
     "page": 0,
     "transcriptionMethod": "ocr_reviewed",
-    "transcribedAt": "2026-08-07"
+    "transcribedAt": "2026-08-08"
   },
-  "provenanceNote": "由 MinerU MD（初赛/2007-21-CChO-chusai/full.md）程序化切分并整理为结构化题干；公式已尽量转为 LaTeX。请以官方纸质/PDF 为准。",
+  "provenanceNote": "由 MinerU MD(初赛/2007-21-CChO-chusai/full.md)程序化切分并整理为结构化题干;经 DeepSeek 精修(OCR错字、LaTeX、结构)。请以官方纸质/PDF 为准。",
   "renderingHints": {
     "mhchem": true
   },
   "blocks": [
     {
       "type": "paragraph",
-      "text": "A、B脱⽔都能形成 $\\mathrm { N } _ { 2 } \\mathrm { O } _ { 3 }$ ，由A得到 $\\mathrm { N } ^ { \\ast } \\mathrm { N O }$ 和 $\\mathrm { N N ^ { \\star } O }$ ，⽽由B只得到 $\\mathrm { N N ^ { \\star } O _ { c } }$ 。请分别写出A和B的路易斯结构式。"
+      "text": "A、B脱水都能形成 $\\mathrm{N_2O_3}$,由A得到 $\\mathrm{N^*NO}$ 和 $\\mathrm{NN^*O}$,而由B只得到 $\\mathrm{NN^*O}$。请分别写出A和B的路易斯结构式。"
     }
-  ]
+  ],
+  "parts": []
 }
