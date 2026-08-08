@@ -19,48 +19,48 @@ function FormulaBlock() {
 export function About() {
   return (
     <>
-      <PageTitle title="来源与方法" description="这里说明公开范围、来源记录和知识标注方法。" />
+      <PageTitle title="来源与方法" description="公开范围、资料状态和知识标注方法。" />
       <div className="about-grid">
         <article className="article">
           <h2>公开内容</h2>
           <p>
-            网站发布考试年份、题号、主题、知识映射和来源索引等元数据。答案、评分细则、扫描件与内部文件不会发布。在版权允许时，部分题目可提供<strong>结构化题干</strong>（非 PDF 原文），格式见仓库{' '}
+            网站发布考试年份、题号、主题、知识关系和来源索引。答案、评分细则、扫描件与内部文件不会发布。在版权允许时，部分题目可提供<strong>结构化题干</strong>（非 PDF 原文），格式见仓库{' '}
             <code>docs/problem-stem-format.md</code>。
           </p>
           <h2>知识标注</h2>
-          <p>题目录入按“考试—整题—小问—知识节点—关系”组织。新节点进入人工审核队列；每条映射保留来源文件、页码和审核状态。</p>
+          <p>题目按照“考试—整题—小问—知识节点—关系”组织。新增知识点经人工检查后发布；每条关联记录来源文件和页码。</p>
           <FormulaBlock />
           <h2>资料状态</h2>
           <div className="status-list">
             <div>
               <i className="dot green" />
-              <b>metadata_public</b>
-              <span>可公开元数据</span>
+              <b>公开资料</b>
+              <span>年份、题号、主题、来源和知识关系可公开查看</span>
             </div>
             <div>
               <i className="dot amber" />
-              <b>internal_only</b>
-              <span>仅本地管理台可见</span>
+              <b>内部资料</b>
+              <span>只在本地资料库中保存</span>
             </div>
             <div>
               <i className="dot blue" />
-              <b>fulltext_authorized / stem_public</b>
-              <span>授权后可发布结构化题干</span>
+              <b>可公开题干</b>
+              <span>获得许可后发布结构化题干</span>
             </div>
             <div>
               <i className="dot amber" />
-              <b>stem_demo</b>
-              <span>演示排版样例（界面会标注）</span>
+              <b>排版示例</b>
+              <span>用于检查公式、表格和图片显示</span>
             </div>
           </div>
         </article>
         <aside className="side-card">
           <h3>数据版本</h3>
-          <p className="data-version">2026.08-demo</p>
-          <p className="muted">当前版本用于展示网站结构和查询方式。演示映射不能当作正式真题结论。</p>
+          <p className="data-version">2026.08（演示版）</p>
+          <p className="muted">当前版本展示网站结构和查询方式。演示映射不代表正式的真题标注结论。</p>
           <hr />
           <h3>建议引用</h3>
-          <p className="muted">化学竞赛知识图谱，数据版本 2026.08（演示）。</p>
+          <p className="muted">化学竞赛知识图谱，2026.08 演示版。</p>
         </aside>
       </div>
     </>

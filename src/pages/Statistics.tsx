@@ -31,28 +31,28 @@ export function Statistics({ data }: { data: AppData }) {
 
   return (
     <>
-      <PageTitle title="统计研究" description="从公开元数据查看题目覆盖与知识分布，数据会随审核批次更新。" />
+      <PageTitle title="统计研究" description="统计题目年份、学科标签和知识关系的分布。" />
       <section className="metric-grid">
         <div className="metric-card">
           <span>知识节点</span>
           <strong>{data.graph.nodes.length}</strong>
-          <small>与图谱数据一致</small>
+          <small>当前图谱</small>
         </div>
         <div className="metric-card">
-          <span>题目元数据</span>
+          <span>题目</span>
           <strong>{data.statistics.totalProblems}</strong>
           <small>初赛与决赛</small>
         </div>
         <div className="metric-card">
           <span>关系数量</span>
           <strong>{data.graph.edges.length}</strong>
-          <small>可追溯关系</small>
+          <small>节点之间的关系</small>
         </div>
       </section>
       <div className="charts">
         <section className="chart-card">
           <h2>学科覆盖</h2>
-          <p className="chart-sub">按题目标签频次 Top {TOP_N}；其余归入「其他」。</p>
+          <p className="chart-sub">按题目标签出现次数统计，显示前 {TOP_N} 项，其余合并为“其他”。</p>
           <div className="bars">
             {disciplineRows.map(item => {
               const pct = Math.max(6, (item.value / discPeak) * 100)
@@ -69,8 +69,8 @@ export function Statistics({ data }: { data: AppData }) {
           </div>
         </section>
         <section className="chart-card">
-          <h2>年份样本</h2>
-          <p className="chart-sub">每年公开考试组数（初赛/决赛分列汇总）。</p>
+          <h2>年度收录</h2>
+          <p className="chart-sub">各年收录的初赛、决赛考试组数。</p>
           <div className="year-chart year-chart-dense">
             {yearSorted.map(item => (
               <div key={item.year} className="year-col" title={`${item.year}: ${item.value}`}>
@@ -83,7 +83,7 @@ export function Statistics({ data }: { data: AppData }) {
           </div>
         </section>
       </div>
-      <p className="data-note">ⓘ {data.statistics.note}</p>
+      <p className="data-note">ⓘ 统计范围以本站当前公开数据为准。</p>
     </>
   )
 }

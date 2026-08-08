@@ -48,7 +48,7 @@ export const MapPanel = forwardRef<HTMLElement, Props>(function MapPanel({ data,
           </div>
 
           <section className="panel-section">
-            <h3>相邻知识</h3>
+            <h3>相关知识</h3>
             {neighbors.length ? (
               <ul className="relation-list">
                 {neighbors.map(item => (
@@ -61,17 +61,17 @@ export const MapPanel = forwardRef<HTMLElement, Props>(function MapPanel({ data,
                 ))}
               </ul>
             ) : (
-              <p className="muted">暂无相邻关系标注。</p>
+              <p className="muted">暂无相关知识。</p>
             )}
           </section>
 
           <section className="panel-section">
-            <h3>建议先学</h3>
+            <h3>先修知识</h3>
             {prereq.length ? (
               <ul className="relation-list">
                 {prereq.map(node => (
                   <li key={node.id}>
-                    <span className="relation-type">先修于当前</span>
+                    <span className="relation-type">先修</span>
                     <button type="button" onClick={() => onSelect(node.id)} data-testid={`prereq-${node.id}`}>
                       {node.label}
                     </button>
@@ -79,17 +79,17 @@ export const MapPanel = forwardRef<HTMLElement, Props>(function MapPanel({ data,
                 ))}
               </ul>
             ) : (
-              <p className="muted">暂无先修标注。</p>
+              <p className="muted">暂无先修知识。</p>
             )}
           </section>
 
           <section className="panel-section">
-            <h3>可继续学习</h3>
+            <h3>后续知识</h3>
             {follow.length ? (
               <ul className="relation-list">
                 {follow.map(node => (
                   <li key={node.id}>
-                    <span className="relation-type">以当前为先修</span>
+                    <span className="relation-type">后续</span>
                     <button type="button" onClick={() => onSelect(node.id)} data-testid={`follow-${node.id}`}>
                       {node.label}
                     </button>
@@ -97,12 +97,12 @@ export const MapPanel = forwardRef<HTMLElement, Props>(function MapPanel({ data,
                 ))}
               </ul>
             ) : (
-              <p className="muted">暂无后续标注。</p>
+              <p className="muted">暂无后续知识。</p>
             )}
           </section>
 
           <section className="panel-section">
-            <h3>相关历年题目</h3>
+            <h3>历年题目</h3>
             {related.length ? (
               <ul className="problem-mini-list">
                 {related.map(problem => {
@@ -121,7 +121,7 @@ export const MapPanel = forwardRef<HTMLElement, Props>(function MapPanel({ data,
               </ul>
             ) : (
               <p className="muted" data-testid="problems-pending">
-                该节点尚无公开的节点级题目映射，待标注。
+                暂无与该知识点直接关联的公开题目。
               </p>
             )}
           </section>
@@ -132,13 +132,13 @@ export const MapPanel = forwardRef<HTMLElement, Props>(function MapPanel({ data,
             onClick={() => navigate(`/knowledge/${selected.id}`)}
             data-testid="open-knowledge"
           >
-            打开知识页
+            查看知识点
           </button>
         </>
       ) : (
         <>
-          <h2>选择知识节点</h2>
-          <p className="muted">点图中的节点，或从下方列表选择。列表便于键盘操作。</p>
+          <h2>选择节点</h2>
+          <p className="muted">单击图中节点，或从下方列表选择。</p>
           <NodePicker data={data} onSelect={onSelect} />
         </>
       )}

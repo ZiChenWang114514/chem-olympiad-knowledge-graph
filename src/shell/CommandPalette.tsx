@@ -6,11 +6,11 @@ import type { AppData } from '../lib/data'
 type SearchHit = { id: string; kind: string; title: string; subtitle?: string }
 
 const NAV_ACTIONS: SearchHit[] = [
-  { id: '/', kind: 'nav', title: '总览工作台', subtitle: '知识网络地图' },
-  { id: '/graph', kind: 'nav', title: '完整图谱', subtitle: '扩展布局' },
-  { id: '/exams', kind: 'nav', title: '真题档案', subtitle: '题目元数据' },
-  { id: '/statistics', kind: 'nav', title: '统计研究', subtitle: '覆盖与分布' },
-  { id: '/about', kind: 'nav', title: '来源与方法', subtitle: '公开范围说明' },
+  { id: '/', kind: 'nav', title: '总览', subtitle: '浏览知识关系' },
+  { id: '/graph', kind: 'nav', title: '完整图谱', subtitle: '查看全部节点与关系' },
+  { id: '/exams', kind: 'nav', title: '真题档案', subtitle: '按年份和阶段查找' },
+  { id: '/statistics', kind: 'nav', title: '统计研究', subtitle: '查看题目与知识分布' },
+  { id: '/about', kind: 'nav', title: '来源与方法', subtitle: '资料范围与标注规则' },
 ]
 
 type Props = {
@@ -118,7 +118,7 @@ export function CommandPalette({ data, open, onClose, initialQuery = '' }: Props
         className="palette"
         role="dialog"
         aria-modal="true"
-        aria-label="命令面板"
+        aria-label="全站搜索"
         onMouseDown={e => e.stopPropagation()}
       >
         <div className="palette-search">
@@ -130,15 +130,15 @@ export function CommandPalette({ data, open, onClose, initialQuery = '' }: Props
             value={query}
             onChange={e => setQuery(e.target.value)}
             onKeyDown={onKeyDown}
-            placeholder="搜索知识点、题目，或跳转页面…"
-            aria-label="命令面板搜索"
+            placeholder="搜索知识点、题目或页面"
+            aria-label="搜索知识点、题目或页面"
             autoComplete="off"
           />
           <kbd className="palette-kbd">Esc</kbd>
         </div>
         <ul className="palette-list" role="listbox">
           {hits.length === 0 ? (
-            <li className="palette-empty">无匹配结果 · Enter 可前往真题档案检索</li>
+            <li className="palette-empty">没有匹配项。按 Enter 前往真题档案。</li>
           ) : (
             hits.map((hit, index) => (
               <li key={`${hit.kind}-${hit.id}`} role="option" aria-selected={index === active}>

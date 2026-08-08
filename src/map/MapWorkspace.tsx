@@ -61,7 +61,7 @@ export function MapWorkspace({ data, mode }: { data: AppData; mode: Mode }) {
       {title ? (
         <div className="workspace-page-title">
           <h1>{title}</h1>
-          <p>学科团簇布局 · 点选查看邻域与学习次序 · 双击打开知识页</p>
+          <p>按学科排列；单击节点查看关联内容，双击查看知识点。</p>
         </div>
       ) : null}
 
@@ -69,8 +69,8 @@ export function MapWorkspace({ data, mode }: { data: AppData; mode: Mode }) {
         <div className="map-toolbar-row">
           <p className="map-hint">
             {mode === 'expanded'
-              ? '学科团簇视图；缩放显示标签，Esc 清除选中。'
-              : '点节点查看相邻知识、相关题目与学习次序。'}
+              ? '缩放图谱可以查看节点标签，按 Esc 清除选择。'
+              : '单击节点查看相关知识、历年题目和先修关系。'}
           </p>
           <div className="map-toolbar-actions">
             <span className="map-counts" data-testid="map-counts">
@@ -86,7 +86,7 @@ export function MapWorkspace({ data, mode }: { data: AppData; mode: Mode }) {
             </button>
             {selectedId ? (
               <button type="button" className="toolbar-btn" onClick={focusNeighborhood}>
-                聚焦邻域
+                只看相关节点
               </button>
             ) : null}
             <button type="button" className="toolbar-btn" onClick={resetView} data-testid="map-reset">
@@ -133,7 +133,7 @@ export function MapWorkspace({ data, mode }: { data: AppData; mode: Mode }) {
           ) : null}
         </div>
         {selected ? (
-          <button type="button" className="sheet-backdrop" aria-label="关闭检查器" onClick={() => onSelect(null)} />
+          <button type="button" className="sheet-backdrop" aria-label="关闭节点详情" onClick={() => onSelect(null)} />
         ) : null}
         <Inspector
           ref={panelRef}

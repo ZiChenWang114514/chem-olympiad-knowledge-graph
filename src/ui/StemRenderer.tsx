@@ -175,7 +175,7 @@ export function StemUnavailable({ reason }: { reason?: string }) {
       <b>题文暂不公开</b>
       <p>
         {reason ||
-          '本题尚未提供结构化题干文件。公开站仅在来源许可时加载题干内容；答案与评分永不发布。'}
+          '本题暂无可公开阅读的题干。答案和评分细则不在本站发布。'}
       </p>
     </div>
   )

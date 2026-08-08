@@ -22,12 +22,12 @@ function ProblemCard({ problem, exam, data }: { problem: Problem; exam: AppData[
           {problem.hasStem ? <span className="content-pill sm">题干</span> : null}
         </b>
         <span>
-          {discNames} · {problem.mappingCount} 个知识映射
-          {problem.hasStem ? ' · 可阅题干' : ''}
+          {discNames} · {problem.mappingCount} 个关联知识点
+          {problem.hasStem ? ' · 可阅读题干' : ''}
         </span>
       </span>
       <DifficultyDots value={problem.difficulty} />
-      <span className="problem-action">查看</span>
+      <span className="problem-action">查看题目</span>
     </Link>
   )
 }
@@ -80,11 +80,11 @@ export function Exams({ data }: { data: AppData }) {
     <>
       <PageTitle
         title="真题档案"
-        description="按年份、考试阶段和主题查看题目元数据与知识映射。"
+        description="按年份、考试阶段和主题查找题目，并查看关联知识点。"
         split
         aside={
           <span className="archive-count">
-            {filtered.length} <small>条记录</small>
+            {filtered.length} <small>道题</small>
           </span>
         }
       />
@@ -98,7 +98,7 @@ export function Exams({ data }: { data: AppData }) {
               setQuery(e.target.value)
               pushFilters({ q: e.target.value })
             }}
-            placeholder="筛选题号、主题…"
+            placeholder="输入题号或主题…"
           />
         </label>
         <select
@@ -151,8 +151,8 @@ export function Exams({ data }: { data: AppData }) {
           })
         ) : (
           <div className="empty-inline">
-            <b>没有匹配记录</b>
-            <p>尝试放宽筛选条件，或从图谱节点的相关题目进入。</p>
+            <b>没有符合条件的题目</b>
+            <p>请调整关键词、年份或考试阶段。</p>
           </div>
         )}
       </div>

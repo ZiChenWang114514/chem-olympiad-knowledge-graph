@@ -79,7 +79,7 @@ export const Inspector = forwardRef<HTMLElement, Props>(function Inspector(
           <div className="panel-scroll">
             <section className="panel-section">
               <h3>
-                相邻知识 <small>{neighbors.length}</small>
+                相关知识 <small>{neighbors.length}</small>
               </h3>
               {neighbors.length ? (
                 <ul className="relation-list">
@@ -97,19 +97,19 @@ export const Inspector = forwardRef<HTMLElement, Props>(function Inspector(
                   ))}
                 </ul>
               ) : (
-                <p className="muted">暂无相邻关系标注。</p>
+                <p className="muted">暂无相关知识。</p>
               )}
             </section>
 
             <section className="panel-section">
               <h3>
-                建议先学 <small>{prereq.length}</small>
+                先修知识 <small>{prereq.length}</small>
               </h3>
               {prereq.length ? (
                 <ul className="relation-list">
                   {prereq.map(node => (
                     <li key={node.id}>
-                      <span className="relation-type">先修于当前</span>
+                      <span className="relation-type">先修</span>
                       <button type="button" onClick={() => onSelect(node.id)} data-testid={`prereq-${node.id}`}>
                         {node.label}
                       </button>
@@ -117,19 +117,19 @@ export const Inspector = forwardRef<HTMLElement, Props>(function Inspector(
                   ))}
                 </ul>
               ) : (
-                <p className="muted">暂无先修标注。</p>
+                <p className="muted">暂无先修知识。</p>
               )}
             </section>
 
             <section className="panel-section">
               <h3>
-                可继续学习 <small>{follow.length}</small>
+                后续知识 <small>{follow.length}</small>
               </h3>
               {follow.length ? (
                 <ul className="relation-list">
                   {follow.map(node => (
                     <li key={node.id}>
-                      <span className="relation-type">以当前为先修</span>
+                      <span className="relation-type">后续</span>
                       <button type="button" onClick={() => onSelect(node.id)} data-testid={`follow-${node.id}`}>
                         {node.label}
                       </button>
@@ -137,13 +137,13 @@ export const Inspector = forwardRef<HTMLElement, Props>(function Inspector(
                   ))}
                 </ul>
               ) : (
-                <p className="muted">暂无后续标注。</p>
+                <p className="muted">暂无后续知识。</p>
               )}
             </section>
 
             <section className="panel-section">
               <h3>
-                相关历年题目 <small>{related.length}</small>
+                历年题目 <small>{related.length}</small>
               </h3>
               {related.length ? (
                 <>
@@ -174,7 +174,7 @@ export const Inspector = forwardRef<HTMLElement, Props>(function Inspector(
                 </>
               ) : (
                 <p className="muted" data-testid="problems-pending">
-                  该节点尚无公开的节点级题目映射，待标注。
+                  暂无与该知识点直接关联的公开题目。
                 </p>
               )}
             </section>
@@ -187,22 +187,22 @@ export const Inspector = forwardRef<HTMLElement, Props>(function Inspector(
               onClick={() => navigate(`/knowledge/${selected.id}`)}
               data-testid="open-knowledge"
             >
-              打开知识页
+              查看知识点
             </button>
           </div>
         </>
       ) : (
         <>
           <div className="panel-idle-head">
-            <h2>选择知识节点</h2>
-            <p className="muted">点图中节点，或从列表选择。双击节点可直接打开知识页。</p>
+            <h2>选择节点</h2>
+            <p className="muted">单击图中节点，或在列表中查找；双击可以查看知识点。</p>
             <label className="picker-filter">
               <span className="visually-hidden">过滤节点</span>
               <input
                 type="search"
                 value={pickerFilter}
                 onChange={e => setPickerFilter(e.target.value)}
-                placeholder="过滤列表…（支持名称）"
+                placeholder="过滤节点名称…"
                 autoComplete="off"
               />
             </label>

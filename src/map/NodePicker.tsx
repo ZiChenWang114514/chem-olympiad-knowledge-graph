@@ -43,7 +43,7 @@ export function NodePicker({
   return (
     <div className="node-picker" data-testid="node-picker">
       {groups.length === 0 ? (
-        <p className="muted">没有匹配的节点。试试更短的关键词。</p>
+        <p className="muted">没有匹配的节点。请缩短或更换关键词。</p>
       ) : (
         groups.map((group, index) => {
           const open = isGroupOpen(group.discipline.id, index)

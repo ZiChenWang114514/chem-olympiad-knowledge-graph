@@ -161,7 +161,7 @@ export function Shell({ children, data }: { children: ReactNode; data: AppData }
             className="search-shortcut"
             onMouseDown={e => e.preventDefault()}
             onClick={() => setPaletteOpen(true)}
-            title="打开命令面板"
+            title="打开全站搜索"
           >
             {shortcut}
           </button>
@@ -203,8 +203,8 @@ export function Shell({ children, data }: { children: ReactNode; data: AppData }
           ))}
         </nav>
 
-        <span className="version" title={data.statistics.note}>
-          演示数据 2026.08
+        <span className="version" title="当前公开数据版本">
+          2026.08 演示版
         </span>
       </header>
 
@@ -218,9 +218,9 @@ export function Shell({ children, data }: { children: ReactNode; data: AppData }
         <footer>
           <span>化学竞赛知识图谱</span>
           <span>
-            {data.statistics.totalExams} 组考试 · {data.statistics.totalProblems} 条题目元数据 · 演示数据，映射待核验
+            {data.statistics.totalExams} 组考试 · {data.statistics.totalProblems} 道题目 · 知识映射尚在校订
           </span>
-          <Link to="/about">查看资料说明</Link>
+          <Link to="/about">资料说明</Link>
         </footer>
       )}
 

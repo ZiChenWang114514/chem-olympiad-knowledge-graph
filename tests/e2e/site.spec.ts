@@ -15,7 +15,7 @@ test('首页地图与核心数据在三种视口可用', async ({ page }, testIn
   await expect(page.locator('.overview-cy canvas').first()).toBeVisible({ timeout: 20_000 })
   await expect(page.getByTestId('map-counts')).toContainText('663 节点')
   await expect(page.getByTestId('node-picker')).toBeVisible()
-  await expect(page.getByText('演示数据 2026.08')).toBeVisible()
+  await expect(page.getByText('2026.08 演示版')).toBeVisible()
   await assertNoHorizontalOverflow(page)
   await page.screenshot({ path: testInfo.outputPath(`home-${testInfo.project.name}.png`), fullPage: true })
 
@@ -38,7 +38,7 @@ test('节点文字列表选择后展示相邻、次序与题目', async ({ page 
   await expect(picker.locator('[data-testid^="node-pick-"]')).toHaveCount(657)
 
   // 大列表用过滤定位，避免折叠/clip 项误点
-  await page.getByPlaceholder('过滤列表').fill('配位化学')
+  await page.getByPlaceholder('过滤节点名称').fill('配位化学')
   await page.getByTestId('node-pick-kn-concept-000005').click()
   await expect(page.getByTestId('panel-title')).toHaveText('配位化学')
   await expect(page.getByTestId('neighbor-kn-discipline-000003')).toBeVisible()
@@ -48,7 +48,7 @@ test('节点文字列表选择后展示相邻、次序与题目', async ({ page 
   // 另一对先修：原子与电子构型 → 化学键
   await page.getByTestId('map-reset').click()
   await expect(page.getByTestId('node-picker')).toBeVisible()
-  await page.getByPlaceholder('过滤列表').fill('原子与电子构型')
+  await page.getByPlaceholder('过滤节点名称').fill('原子与电子构型')
   await page.getByTestId('node-pick-kn-concept-000011').click()
   await expect(page.getByTestId('panel-title')).toHaveText('原子与电子构型')
   await expect(page.getByTestId('follow-kn-concept-000002')).toBeVisible()

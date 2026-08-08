@@ -43,18 +43,18 @@ export function Knowledge({ data }: { data: AppData }) {
           </p>
           <h1>{node.label}</h1>
           <p>
-            节点 ID：{node.id} · 重要度 {node.importance || 3}/5
+            节点编号：{node.id} · 重要度 {node.importance || 3}/5
           </p>
         </div>
       </section>
       <div className="knowledge-grid">
         <article className="article">
           <h2>知识说明</h2>
-          <p>本页汇总该知识点在竞赛资料中的位置、相邻关系和历年考查索引。讲义内容将在完成来源核验后逐步补充。</p>
+          <p>图谱记录了该知识点的相关关系、先修次序和历年考查题目。</p>
           <Notice>
-            <b>公开范围：元数据</b>
+            <b>本站公开内容</b>
             <br />
-            题目原文、参考答案和评分材料仍保存在受控资料库。
+            本站提供知识关系和题目索引。题目原文、参考答案和评分材料保存在内部资料库。
           </Notice>
           <h2>相关真题</h2>
           {linked.length ? (
@@ -64,16 +64,16 @@ export function Knowledge({ data }: { data: AppData }) {
                   {data.exams.find(exam => exam.id === problem.examId)?.year} · {problem.number}
                 </b>
                 <span>{displayProblemTitle(problem.title)}</span>
-                <span className="text-link">查看</span>
+                <span className="text-link">查看题目</span>
               </Link>
             ))
           ) : (
-            <p className="muted">该节点尚无公开的节点级题目映射，待标注。</p>
+            <p className="muted">暂无与该知识点直接关联的公开题目。</p>
           )}
         </article>
         <aside className="side-card">
           <h3>
-            关系清单 <small>{relations.length}</small>
+            知识关系 <small>{relations.length}</small>
           </h3>
           <ul className="relation-list">
             {relations.map(item => {
@@ -89,10 +89,10 @@ export function Knowledge({ data }: { data: AppData }) {
             })}
           </ul>
           <Link className="btn-primary full" to={`/?node=${encodeURIComponent(node.id)}`}>
-            返回图谱并选中
+            在图谱中定位
           </Link>
-          <h3>学习提示</h3>
-          <p className="muted">先阅读相邻节点，再回看题目中的综合考查关系。</p>
+          <h3>阅读建议</h3>
+          <p className="muted">先查看先修知识，再结合历年题目理解相关关系。</p>
         </aside>
       </div>
     </>
